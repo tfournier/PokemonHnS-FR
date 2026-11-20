@@ -65,3 +65,10 @@ reportées dans `traductions/glossaire.tsv`.
     Émeraude FR, 327 dans SoulSilver FR ; GARÇON) et la ligature Œ. Règle : À Â É È Ê Ë Î Ï Ô Ù Û Ü → A A E
     E E E I I O U U U, partout (libellés et texte courant) ; Ç et Œ restent ; le « é » minuscule de POKéMON
     reste. Appliquée aux .po et au glossaire, et automatiquement par integrer_lot.py.
+15. **Relecture ChatGPT différée (lots C1, C2a, C2b).** La limite d'usage du compte ChatGPT a été atteinte
+    pendant l'audit des textes hérités (13 paquets sur 77 non relus). Les lots C1 et C2 sont intégrés après
+    vérification automatique et validation ligne à ligne par sous-agent ; leur relecture ChatGPT sera faite
+    dès la levée de la limite (`relecture_chatgpt.py` reprend les paquets manquants), puis arbitrée.
+16. **Noms de personnages homonymes.** Steven = PIERRE (Émeraude FR, capitales) ; Brock = Pierre (SoulSilver
+    FR). Le glossaire garde PIERRE → Pierre (personnage de Kanto) ; pour les textes Hoenn le glossaire est
+    appliqué sans les noms de personnages, et les répliques de Steven écrivent « PIERRE: ».

@@ -1199,7 +1199,7 @@ msgstr "DEVELOPPEUR"
 msgid "SABRINA"
 msgstr "Morgane"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
 #: src/battle_message.c:73
 msgid "{B_ATK_TEAM1} team became shrouded in mist!"
 msgstr "L’équipe {B_ATK_TEAM1} s’entoure de Brume!"
@@ -1235,15 +1235,23 @@ msgstr "augmente!"
 msgid "fell!"
 msgstr "baissé!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:750 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\naugmente!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX}: {B_BUFF1}
+#. {B_BUFF2}monte!
 #: src/battle_message.c:79
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}rose!"
-msgstr "{B_DEF_NAME_WITH_PREFIX}: {B_BUFF1} {B_BUFF2}monte!"
+msgstr "{B_BUFF1} du {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}augmente!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « {PLAY_SE 17 0}Got away safely!\p » ; FR
+#. officiel : « {PLAY_SE 17 0}Vous prenez la fuite!\p »
+#. ancien (patch FR actuel) : {PLAY_SE 17 0}Vous prenez la fuite!\p
 #: src/battle_message.c:80
 msgid "{PLAY_SE SE_FLEE}You got away safely!\\p"
-msgstr "{PLAY_SE 17 0}Vous prenez la fuite!\\p"
+msgstr "{PLAY_SE SE_FLEE}Vous prenez la fuite!\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:81
@@ -1265,17 +1273,29 @@ msgstr "Vous avez perdu contre {B_LINK_OPPONENT1_NAME}!"
 msgid "You lost to {B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}!"
 msgstr "Perdu contre {B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME}!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « Player battled to a draw
+#. against\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}! » ; FR officiel : « Egalité
+#. avec \n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}! »
+#. ancien (patch FR actuel) : Match nul contre {B_LINK_OPPONENT1_NAME}!
 #: src/battle_message.c:85
 msgid "You battled to a draw against {B_LINK_OPPONENT1_NAME}!"
-msgstr "Match nul contre {B_LINK_OPPONENT1_NAME}!"
+msgstr "Egalité avec {B_LINK_OPPONENT1_NAME}!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « Player battled to a draw
+#. against\n{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}! » ; FR
+#. officiel : « Egalité avec\n{B_LINK_OPPONENT2_NAME} et
+#. {B_LINK_OPPONENT1_NAME}! »
+#. ancien (patch FR actuel) : Match nul contre {B_LINK_OPPONENT1_NAME} et
+#. {B_LINK_OPPONENT2_NAME}!
 #: src/battle_message.c:86
 msgid ""
 "You battled to a draw against {B_LINK_OPPONENT1_NAME} and "
 "{B_LINK_OPPONENT2_NAME}!"
-msgstr "Match nul contre {B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME}!"
+msgstr "Egalité avec {B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME}!"
 
 #. source : Émeraude FR officiel
 #: src/battle_message.c:87
@@ -1299,9 +1319,12 @@ msgstr ""
 msgid "You defeated {B_TRAINER1_NAME_WITH_CLASS}!\\p"
 msgstr "Vous avez battu {B_TRAINER1_NAME_WITH_CLASS}!\\p"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
+#. preuve : cf. « {B_OPPONENT_MON1_NAME} sauvage apparaît! »
 #: src/battle_message.c:90
 msgid "{B_OPPONENT_MON1_NAME} appeared!\\p"
-msgstr ""
+msgstr "{B_OPPONENT_MON1_NAME} apparaît!\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:91 src/battle_message.c:94
@@ -1327,11 +1350,18 @@ msgstr "{B_OPPONENT_MON1_NAME} sauvage apparaît!\\nFuir? Touche {B_BUTTON}.\\p"
 msgid "You encountered a wild {B_OPPONENT_MON1_NAME}!{PAUSE 127}"
 msgstr "Un {B_OPPONENT_MON1_NAME} sauvage apparaît!{PAUSE 127}"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : Émeraude FR : « Un {B_OPPONENT_MON2_NAME} et un
+#. {B_OPPONENT_MON1_NAME}\nsauvages apparaissent!\p »
+#. ancien (patch FR actuel) : Oh! Un {B_OPPONENT_MON1_NAME} et un
+#. {B_OPPONENT_MON2_NAME} sauvages!\p
 #: src/battle_message.c:96
 msgid ""
 "Oh! A wild {B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME} appeared!\\p"
-msgstr "Oh! Un {B_OPPONENT_MON1_NAME} et un {B_OPPONENT_MON2_NAME} sauvages!\\p"
+msgstr ""
+"Oh! Un {B_OPPONENT_MON1_NAME} et un {B_OPPONENT_MON2_NAME} sauvages "
+"apparaissent!\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:97
@@ -1544,15 +1574,18 @@ msgstr "Ça suffit, {B_BUFF1}! Reviens!"
 msgid "{B_BUFF1}, come back!"
 msgstr "Reviens, {B_BUFF1}!"
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel (adapté)
 #: src/battle_message.c:127
 msgid "OK, {B_BUFF1}! Come back!"
 msgstr "OK, {B_BUFF1}! Reviens!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : Émeraude FR : « Bien, {B_BUFF1}!\nReviens! »
+#. ancien (patch FR actuel) : Bien joué, {B_BUFF1}! Reviens!
 #: src/battle_message.c:128
 msgid "Good job, {B_BUFF1}! Come back!"
-msgstr "Bien joué, {B_BUFF1}! Reviens!"
+msgstr "Bien, {B_BUFF1}! Reviens!"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -1855,7 +1888,7 @@ msgstr "Ça n’affecte pas {B_SCR_NAME_WITH_PREFIX2}…"
 msgid "{B_SCR_NAME_WITH_PREFIX} fainted!\\p"
 msgstr "{B_SCR_NAME_WITH_PREFIX}\\nest K.O.!\\p"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
 #: src/battle_message.c:212
 msgid "You got ¥{B_BUFF1} for winning!\\p"
 msgstr "Vous remportez {B_BUFF1}¥!\\p"
@@ -1952,7 +1985,7 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} souffre du poison!"
 msgid "{B_DEF_NAME_WITH_PREFIX} is already poisoned!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} est déjà empoisonné."
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel (adapté)
 #. lot : B_soulsilver
 #. preuve : 197:79 — {STRVAR_1 1, 0, 0} est gravement\nempoisonné!
 #. ancien (patch FR actuel) : {B_EFF_NAME_WITH_PREFIX} est intoxiqué!
@@ -1979,10 +2012,15 @@ msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} burned {B_EFF_NAME_WITH_PREFIX2}!"
 msgstr ""
 "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} brûle {B_EFF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « {B_ATK_NAME_WITH_PREFIX} is hurt\nby its
+#. burn! » ; FR officiel : « {B_ATK_NAME_WITH_PREFIX} souffre de\nsa brûlure!
+#. »
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} souffre de brûlure!
 #: src/battle_message.c:231
 msgid "{B_ATK_NAME_WITH_PREFIX} was hurt by its burn!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} souffre de brûlure!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} souffre de sa brûlure!"
 
 #. source : SoulSilver FR officiel
 #: src/battle_message.c:232
@@ -2013,7 +2051,7 @@ msgstr "{B_SCR_NAME_WITH_PREFIX} est dégelé!"
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE} melted the ice!"
 msgstr "{B_CURRENT_MOVE} de {B_SCR_NAME_WITH_PREFIX} fait fondre la glace!"
 
-#. source : SoulSilver FR officiel (adapté)
+#. source : Émeraude FR officiel (adapté)
 #. lot : B_soulsilver
 #. preuve : 197:120 — {STRVAR_1 1, 0, 0} est paralysé!\nIl peut ne plus
 #. attaquer!
@@ -2023,7 +2061,7 @@ msgstr "{B_CURRENT_MOVE} de {B_SCR_NAME_WITH_PREFIX} fait fondre la glace!"
 msgid "{B_EFF_NAME_WITH_PREFIX} is paralyzed, so it may be unable to move!"
 msgstr "{B_EFF_NAME_WITH_PREFIX} est paralysé! Il peut ne plus attaquer!"
 
-#. source : SoulSilver FR officiel (adapté)
+#. source : Émeraude FR officiel (adapté)
 #. lot : B_soulsilver
 #. preuve : 197:123 — {STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0}\nparalyse
 #. {STRVAR_1 1, 2, 0}!\fIl peut ne plus attaquer!
@@ -2047,30 +2085,45 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} est paralysé! Il ne peut pas attaquer!"
 msgid "{B_DEF_NAME_WITH_PREFIX} is already paralyzed!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} est déjà paralysé!"
 
-#. source : SoulSilver FR officiel
-#. lot : B_soulsilver
-#. preuve : 6:84 — {STRVAR_1 1, 0, 0} n’est plus\nparalysé.
-#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} n’est plus paralysé!
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « {STR_VAR_1} was cured
+#. of\nparalysis.{PAUSE_UNTIL_PRESS} » ; FR officiel : « {STR_VAR_1} n’est
+#. plus\nparalysé.{PAUSE_UNTIL_PRESS} »
+#. ancien (SoulSilver FR officiel) : {B_DEF_NAME_WITH_PREFIX} n’est plus
+#. paralysé.
 #: src/battle_message.c:241
 msgid "{B_DEF_NAME_WITH_PREFIX} was cured of paralysis!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} n’est plus paralysé."
+msgstr "{B_DEF_NAME_WITH_PREFIX} n’est plus paralysé!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « {B_ATK_NAME_WITH_PREFIX}’s {B_BUFF1}\nwon’t
+#. go higher! » ; FR officiel : « Ah, {B_BUFF1} de
+#. {B_ATK_NAME_WITH_PREFIX}\nn’ira pas plus haut! »
+#. ancien (patch FR actuel) : {B_BUFF1} de {B_ATK_NAME_WITH_PREFIX} ne monte
+#. plus!
 #: src/battle_message.c:242
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} won't go any higher!"
-msgstr "{B_BUFF1} de {B_ATK_NAME_WITH_PREFIX} ne monte plus!"
+msgstr "Ah, {B_BUFF1} de {B_ATK_NAME_WITH_PREFIX} n’ira pas plus haut!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « {B_DEF_NAME_WITH_PREFIX}’s {B_BUFF1}\nwon’t
+#. go lower! » ; FR officiel : « Ah, {B_BUFF1} de
+#. {B_DEF_NAME_WITH_PREFIX}\nn’ira pas plus bas! »
+#. ancien (patch FR actuel) : {B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} ne baisse
+#. plus!
 #: src/battle_message.c:243
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} won't go any lower!"
-msgstr "{B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} ne baisse plus!"
+msgstr "Ah, {B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} n’ira pas plus bas!"
 
 #. source : SoulSilver FR officiel
 #: src/battle_message.c:244
 msgid "{B_ATK_NAME_WITH_PREFIX} is confused!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est confus!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
 #: src/battle_message.c:245
 msgid "{B_ATK_NAME_WITH_PREFIX} snapped out of its confusion!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} n’est plus confus!"
@@ -2162,10 +2215,16 @@ msgstr "L’équipe {B_ATK_TEAM1} s’entoure d’un voile magique!"
 msgid "{B_SCR_NAME_WITH_PREFIX} is protected by Safeguard!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} est protégé par Rune Protect!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « {B_ATK_PREFIX3}’s party is no
+#. longer\nprotected by SAFEGUARD! » ; FR officiel : « L’équipe du POKéMON
+#. {B_ATK_PREFIX3} n’est\nplus protégée par RUNE PROTECT! »
+#. ancien (patch FR actuel) : L’équipe {B_ATK_TEAM1} n’est plus sous Rune
+#. Protect!
 #: src/battle_message.c:259
 msgid "{B_ATK_TEAM1} team is no longer protected by Safeguard!"
-msgstr "L’équipe {B_ATK_TEAM1} n’est plus sous Rune Protect!"
+msgstr "L’équipe {B_ATK_TEAM1} n’est plus protégée par Rune Protect!"
 
 #. source : SoulSilver FR officiel
 #: src/battle_message.c:260
@@ -2299,10 +2358,15 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} se protège!"
 msgid "{B_ATK_NAME_WITH_PREFIX} is buffeted by the sandstorm!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est secoué\\npar la tempête de sable!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : Émeraude FR : « {B_ATK_NAME_WITH_PREFIX} est frappé par\nla GRELE!
+#. » ; SS 197:285 « … est frappé\npar {STRVAR_1 6, 0, 0}! »
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} est blessé par la
+#. grêle!
 #: src/battle_message.c:281
 msgid "{B_ATK_NAME_WITH_PREFIX} is buffeted by the hail!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} est blessé par la grêle!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} est frappé par la grêle!"
 
 #. source : Émeraude FR officiel
 #: src/battle_message.c:282
@@ -2355,10 +2419,14 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} fait un Brouhaha!"
 msgid "{B_ATK_NAME_WITH_PREFIX} calmed down."
 msgstr "{B_ATK_NAME_WITH_PREFIX} se calme."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:317 — {STRVAR_1 1, 0, 0} utilise Stockage\n{STRVAR_1 50, 1, 0}
+#. fois!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} stocke {B_BUFF1}!
 #: src/battle_message.c:291
 msgid "{B_ATK_NAME_WITH_PREFIX} stockpiled {B_BUFF1}!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} stocke {B_BUFF1}!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} utilise Stockage {B_BUFF1} fois!"
 
 #. source : Émeraude FR officiel (adapté)
 #. lot : A_emeraude
@@ -2585,13 +2653,20 @@ msgstr "{B_DEF_NAME_WITH_PREFIX} commence un Cauchemar!"
 msgid "{B_ATK_NAME_WITH_PREFIX} is locked in a nightmare!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est prisonnier\\nd’un Cauchemar!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « {B_ATK_NAME_WITH_PREFIX} cut its own HP
+#. and\nlaid a CURSE on {B_DEF_NAME_WITH_PREFIX}! » ; FR officiel : «
+#. {B_ATK_NAME_WITH_PREFIX} sacrifie ses PV\net lance une MALEDICTION\lau
+#. {B_DEF_NAME_WITH_PREFIX}! »
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} sacrifie des PV pour
+#. maudire {B_DEF_NAME_WITH_PREFIX2}!
 #: src/battle_message.c:322
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX} cut its own HP and put a curse on "
 "{B_DEF_NAME_WITH_PREFIX2}!"
 msgstr ""
-"{B_ATK_NAME_WITH_PREFIX} sacrifie des PV pour maudire "
+"{B_ATK_NAME_WITH_PREFIX} sacrifie ses PV et lance une Malédiction au "
 "{B_DEF_NAME_WITH_PREFIX2}!"
 
 #. source : Émeraude FR officiel
@@ -2631,10 +2706,13 @@ msgstr "{B_DEF_NAME_WITH_PREFIX} est identifié!"
 msgid "{B_ATK_NAME_WITH_PREFIX}'s perish count fell to {B_BUFF1}!"
 msgstr "Le compte du Requiem du\\n{B_ATK_NAME_WITH_PREFIX} descend à {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : C1_restes
+#. preuve : 197:442 — {STRVAR_1 1, 0, 0} rassemble ses\nforces!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} se prépare au choc!
 #: src/battle_message.c:328
 msgid "{B_ATK_NAME_WITH_PREFIX} braced itself!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} se prépare au choc!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} rassemble ses forces!"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -2928,10 +3006,17 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} échange son talent avec la cible!"
 msgid "{B_ATK_NAME_WITH_PREFIX} sealed any moves its target shares with it!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} scelle les capacités communes à la cible!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:616 — {STRVAR_1 1, 0, 0} ne peut pas utiliser\nla capacité
+#. bloquée {STRVAR_1 6, 1, 0}!\r
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser
+#. {B_CURRENT_MOVE}!\p
 #: src/battle_message.c:361
 msgid "{B_ATK_NAME_WITH_PREFIX} can't use its sealed {B_CURRENT_MOVE}!\\p"
-msgstr "{B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser {B_CURRENT_MOVE}!\\p"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser la capacité bloquée "
+"{B_CURRENT_MOVE}!\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:362
@@ -3135,25 +3220,41 @@ msgstr "Il copie {B_BUFF2} de {B_BUFF1}!"
 msgid "harshly "
 msgstr "très "
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:750 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\naugmente!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX}: {B_BUFF1}
+#. {B_BUFF2}monte!
 #: src/battle_message.c:383
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}rose!"
-msgstr "{B_ATK_NAME_WITH_PREFIX}: {B_BUFF1} {B_BUFF2}monte!"
+msgstr "{B_BUFF1} du {B_ATK_NAME_WITH_PREFIX} {B_BUFF2}augmente!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:750 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\naugmente!
+#. ancien (patch FR actuel) : {B_BUFF1} de {B_SCR_NAME_WITH_PREFIX}
+#. {B_BUFF2}augmente!
 #: src/battle_message.c:385
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}rose!"
-msgstr "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} {B_BUFF2}augmente!"
+msgstr "{B_BUFF1} du {B_SCR_NAME_WITH_PREFIX} {B_BUFF2}augmente!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:762 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\nbaisse!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX}: {B_BUFF1}
+#. {B_BUFF2}chute!
 #: src/battle_message.c:386
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}fell!"
-msgstr "{B_ATK_NAME_WITH_PREFIX}: {B_BUFF1} {B_BUFF2}chute!"
+msgstr "{B_BUFF1} du {B_ATK_NAME_WITH_PREFIX} {B_BUFF2}baisse!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:762 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\nbaisse!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX}: {B_BUFF1}
+#. {B_BUFF2}chute!
 #: src/battle_message.c:387
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}fell!"
-msgstr "{B_DEF_NAME_WITH_PREFIX}: {B_BUFF1} {B_BUFF2}chute!"
+msgstr "{B_BUFF1} du {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}baisse!"
 
 #. source : Émeraude FR officiel
 #: src/battle_message.c:388
@@ -3390,10 +3491,16 @@ msgstr "Le Dresseur dévie la Poké Ball!"
 msgid "Don't be a thief!"
 msgstr "Voler, c’est mal!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « It dodged the thrown BALL!\nThis POKéMON
+#. can’t be caught! » ; FR officiel : « Il a évité la BALL!\nCe POKéMON ne se
+#. laisse pas faire! »
+#. ancien (patch FR actuel) : Il esquive la Poké Ball! Ce Pokémon ne peut pas
+#. être capturé!
 #: src/battle_message.c:428
 msgid "It dodged your thrown Poké Ball! This Pokémon can't be caught!"
-msgstr "Il esquive la Poké Ball! Ce Pokémon ne peut pas être capturé!"
+msgstr "Il a évité la Poké Ball! Ce Pokémon ne se laisse pas faire!"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -3419,10 +3526,13 @@ msgstr "Raaah! Ça y était presque!"
 msgid "Aargh! Almost had it!"
 msgstr "Aaaaaah! Presque!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : Émeraude FR : « Mince!\nÇa y était presque! »
+#. ancien (patch FR actuel) : Mince! C’était pourtant si près!
 #: src/battle_message.c:432
 msgid "Gah! It was so close, too!"
-msgstr "Mince! C’était pourtant si près!"
+msgstr "Mince! Ça y était presque!"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -3432,7 +3542,7 @@ msgstr "Mince! C’était pourtant si près!"
 msgid "Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM 659}\\p"
 msgstr "Et hop!\\n{B_DEF_NAME} est attrapé!{WAIT_SE}{PLAY_BGM 659}\\p"
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel (adapté)
 #. lot : B_soulsilver
 #. preuve : 197:867 — {WAIT 3}Et hop!\n{STRVAR_1 1, 0, 0} est attrapé!{WAIT
 #. 2}\r
@@ -3448,7 +3558,7 @@ msgstr "Et hop! {B_DEF_NAME} est attrapé!{WAIT_SE}{PLAY_BGM 659}{PAUSE 127}"
 msgid "Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\\p"
 msgstr "Et hop!\\n{B_DEF_NAME} est attrapé!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\\p"
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel (adapté)
 #. lot : B_soulsilver
 #. preuve : 197:867 — {WAIT 3}Et hop!\n{STRVAR_1 1, 0, 0} est attrapé!{WAIT
 #. 2}\r
@@ -3463,12 +3573,16 @@ msgstr ""
 msgid "Would you like to give {B_DEF_NAME} a nickname?"
 msgstr "Voulez-vous donner un surnom à {B_DEF_NAME}?"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « {RIVAL}’s data was\nadded to the POKéDEX.\p »
+#. ; FR officiel : « Les données de {RIVAL} sont\najoutées au POKéDEX.\p »
+#. ancien (patch FR actuel) : {B_DEF_NAME} est enregistré dans le Pokédex!\p
 #: src/battle_message.c:441
 msgid "{B_DEF_NAME}'s data has been added to the Pokédex!\\p"
-msgstr "{B_DEF_NAME} est enregistré dans le Pokédex!\\p"
+msgstr "Les données de {B_DEF_NAME} sont\\najoutées au Pokédex!\\p"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
 #. SoulSilver (approché) : Il pleut.
 #: src/battle_message.c:442
 msgid "It's raining!"
@@ -3530,14 +3644,19 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} tourne le dos!"
 msgid "{B_ATK_NAME_WITH_PREFIX} pretended not to notice!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} fait semblant de\\nne rien remarquer!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : Émeraude FR : « {B_BUFF2} va être envoyé par\n{B_TRAINER1_CLASS}
+#. {B_TRAINER1_NAME}.\pVoulez-vous changer\nde POKéMON? »
+#. ancien (patch FR actuel) : {B_TRAINER1_NAME_WITH_CLASS} va envoyer
+#. {B_BUFF2}.\pVoulez-vous changer de Pokémon?
 #: src/battle_message.c:452
 msgid ""
 "{B_TRAINER1_NAME_WITH_CLASS} is about to send out {B_BUFF2}.\\pWill you "
 "switch your Pokémon?"
 msgstr ""
-"{B_TRAINER1_NAME_WITH_CLASS} va envoyer {B_BUFF2}.\\pVoulez-vous changer de "
-"Pokémon?"
+"{B_BUFF2} va être envoyé par {B_TRAINER1_NAME_WITH_CLASS}.\\pVoulez-vous "
+"changer de Pokémon?"
 
 #. source : Émeraude FR officiel (adapté)
 #. lot : A_emeraude
@@ -3611,7 +3730,7 @@ msgstr ""
 "{PLAY_SE SE_DING_DONG}ANNONCEUR: Vous n’avez plus de\\nSAFARI BALLS! "
 "Perdu!\\p"
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel (adapté)
 #. lot : B_soulsilver
 #. preuve : 197:875 — {STRVAR_1 8, 1, 0} du {STRVAR_1 1, 0, 0}\nle sort de sa
 #. paralysie!
@@ -3645,7 +3764,7 @@ msgstr "{B_LAST_ITEM} du {B_SCR_NAME_WITH_PREFIX} le dégèle!"
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} woke it up!"
 msgstr "{B_LAST_ITEM} de {B_SCR_NAME_WITH_PREFIX} le réveille!"
 
-#. source : SoulSilver FR officiel (adapté)
+#. source : Émeraude FR officiel (adapté)
 #. lot : B_soulsilver
 #. preuve : 197:890 — {STRVAR_1 8, 1, 0} du {STRVAR_1 1, 0, 0}\nle tire de sa
 #. confusion!
@@ -3802,7 +3921,7 @@ msgstr ""
 "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX}\\nguérit son problème de "
 "{B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
 #: src/battle_message.c:481
 msgid "{B_ATK_NAME_WITH_PREFIX} sucked up the liquid ooze!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} aspire le Suintement!"
@@ -3841,11 +3960,15 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} se cache sous l’eau!"
 msgid "{B_ATK_NAME_WITH_PREFIX} sprang up!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} bondit!"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Impossible d’oublier une CS ici.\p
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « HM moves can’t be\nforgotten now. » ; FR
+#. officiel : « Impossible d’oublier les\ncapacités CS maintenant. »
+#. ancien (SoulSilver FR officiel) : Impossible d’oublier les capacités
+#. CS\nmaintenant.
 #: src/battle_message.c:487
 msgid "HM moves can't be forgotten now.\\p"
-msgstr "Impossible d’oublier les capacités CS\\nmaintenant."
+msgstr "Impossible d’oublier les capacités CS\\nmaintenant.\\p"
 
 #. source : SoulSilver FR officiel
 #: src/battle_message.c:488
@@ -4261,20 +4384,26 @@ msgstr ""
 msgid "{B_ATK_NAME_WITH_PREFIX} was hurt by the {B_LAST_ITEM}!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est blessé par {B_LAST_ITEM}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : C1_restes
+#. preuve : 197:997 — La Gravité est intensifiée!
+#. ancien (patch FR actuel) : La gravité s’intensifie!
 #: src/battle_message.c:546
 msgid "Gravity intensified!"
-msgstr "La gravité s’intensifie!"
+msgstr "La Gravité est intensifiée!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:547
 msgid "{B_DEF_NAME_WITH_PREFIX} woke up!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} se réveille!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:1230 — Un Vent Arrière souffle sur\nvotre équipe!
+#. ancien (patch FR actuel) : Vent Arrière souffle sur l’équipe {B_ATK_TEAM2}!
 #: src/battle_message.c:548
 msgid "The Tailwind blew from behind {B_ATK_TEAM2} team!"
-msgstr "Vent Arrière souffle sur l’équipe {B_ATK_TEAM2}!"
+msgstr "Un Vent Arrière souffle sur l’équipe {B_ATK_TEAM2}!"
 
 #. source : SoulSilver FR officiel
 #: src/battle_message.c:549
@@ -4321,10 +4450,16 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} échange son Attaque et sa Défense!"
 msgid "{B_DEF_NAME_WITH_PREFIX}'s Ability was suppressed!"
 msgstr "Le talent de {B_DEF_NAME_WITH_PREFIX} est inhibé!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:1241 — L’Air Veinard immunise votre\néquipe contre les coups
+#. critiques!
+#. ancien (patch FR actuel) : Air Veinard protège l’équipe {B_ATK_TEAM2} des
+#. critiques!
 #: src/battle_message.c:555
 msgid "Lucky Chant shielded {B_ATK_TEAM2} team from critical hits!"
-msgstr "Air Veinard protège l’équipe {B_ATK_TEAM2} des critiques!"
+msgstr ""
+"L’Air Veinard immunise l’équipe {B_ATK_TEAM2} contre les coups critiques!"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -4367,10 +4502,16 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} lévite grâce au magnétisme!"
 msgid "{B_ATK_NAME_WITH_PREFIX} twisted the dimensions!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} fausse les dimensions!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:1077 — Des pierres pointues flottent\nen l’air autour de votre
+#. équipe!
+#. ancien (patch FR actuel) : Des pierres pointues cernent l’équipe
+#. {B_DEF_TEAM2}!
 #: src/battle_message.c:562
 msgid "Pointed stones float in the air around {B_DEF_TEAM2} team!"
-msgstr "Des pierres pointues cernent l’équipe {B_DEF_TEAM2}!"
+msgstr ""
+"Des pierres pointues flottent en l’air autour de l’équipe {B_DEF_TEAM2}!"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -4490,15 +4631,21 @@ msgstr "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX}\\nprend fin!"
 msgid "{B_ATK_NAME_WITH_PREFIX} was freed from the telekinesis!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est libéré de Lévikinésie!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:1232 — Le Vent Arrière de votre\néquipe s’arrête!
+#. ancien (patch FR actuel) : Fin du Vent Arrière (équipe {B_ATK_TEAM1})!
 #: src/battle_message.c:582
 msgid "{B_ATK_TEAM1} team's Tailwind petered out!"
-msgstr "Fin du Vent Arrière (équipe {B_ATK_TEAM1})!"
+msgstr "Le Vent Arrière de l’équipe {B_ATK_TEAM1} s’arrête!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:1085 — L’Air Veinard de votre équipe\nprend fin!
+#. ancien (patch FR actuel) : Air Veinard de l’équipe {B_ATK_TEAM1} cesse!
 #: src/battle_message.c:583
 msgid "{B_ATK_TEAM1} team's Lucky Chant wore off!"
-msgstr "Air Veinard de l’équipe {B_ATK_TEAM1} cesse!"
+msgstr "L’Air Veinard de l’équipe {B_ATK_TEAM1} prend fin!"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Les dimensions redeviennent normales!
@@ -4559,24 +4706,36 @@ msgstr "Le terrain redevient normal!"
 msgid "The grass disappeared from the battlefield."
 msgstr "L’herbe disparaît du terrain."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:622 — {STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0}\naugmente sa
+#. stat {STRVAR_1 13, 2, 0}!
+#. ancien (patch FR actuel) : {B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}
+#. {B_BUFF2}monte sa {B_BUFF1}!
 #: src/battle_message.c:595
 msgid ""
 "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} {B_BUFF2}raised its {B_BUFF1}!"
 msgstr ""
-"{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}monte sa {B_BUFF1}!"
+"{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}augmente sa stat "
+"{B_BUFF1}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:596
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} maxed its {B_BUFF1}!"
 msgstr "{B_DEF_ABILITY}: {B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} au max!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:622 — {STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0}\naugmente sa
+#. stat {STRVAR_1 13, 2, 0}!
+#. ancien (patch FR actuel) : {B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX}
+#. {B_BUFF2}augmente sa {B_BUFF1}!
 #: src/battle_message.c:597
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY} {B_BUFF2}raised its {B_BUFF1}!"
 msgstr ""
-"{B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX} {B_BUFF2}augmente sa {B_BUFF1}!"
+"{B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX} {B_BUFF2}augmente sa stat "
+"{B_BUFF1}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:598
@@ -4699,7 +4858,7 @@ msgstr "Les Pics Toxik autour de l’équipe {B_EFF_TEAM2} disparaissent!"
 msgid "{B_SCR_NAME_WITH_PREFIX} was poisoned!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} est empoisonné!"
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel (adapté)
 #: src/battle_message.c:619
 msgid "{B_SCR_NAME_WITH_PREFIX} was badly poisoned!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} est gravement empoisonné!"
@@ -4709,20 +4868,27 @@ msgstr "{B_SCR_NAME_WITH_PREFIX} est gravement empoisonné!"
 msgid "{B_SCR_NAME_WITH_PREFIX} was caught in a sticky web!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} est pris dans une Toile Gluante!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:1005 — Le Voeu Soin se réalise!
+#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX2} profite du Vœu Soin!
 #: src/battle_message.c:621
 msgid "The healing wish came true for {B_SCR_NAME_WITH_PREFIX2}!"
-msgstr "{B_SCR_NAME_WITH_PREFIX2} profite du Vœu Soin!"
+msgstr "Le Voeu Soin se réalise pour {B_SCR_NAME_WITH_PREFIX2}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:622
 msgid "{B_SCR_NAME_WITH_PREFIX} regained health!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} récupère des PV!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:1006 — Il est baigné par des rayons\nde lune!
+#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX} baigne dans un clair de
+#. lune mystique!
 #: src/battle_message.c:623
 msgid "{B_SCR_NAME_WITH_PREFIX} became cloaked in mystical moonlight!"
-msgstr "{B_SCR_NAME_WITH_PREFIX} baigne dans un clair de lune mystique!"
+msgstr "{B_SCR_NAME_WITH_PREFIX} est baigné par des rayons de lune!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:624
@@ -4749,10 +4915,16 @@ msgid ""
 msgstr ""
 "{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}baisse sa {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « {B_ATK_NAME_WITH_PREFIX}’s {B_BUFF1}\nwon’t
+#. go higher! » ; FR officiel : « Ah, {B_BUFF1} de
+#. {B_ATK_NAME_WITH_PREFIX}\nn’ira pas plus haut! »
+#. ancien (patch FR actuel) : {B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} est au
+#. max!
 #: src/battle_message.c:627
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} won't go any higher!"
-msgstr "{B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} est au max!"
+msgstr "Ah, {B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} n’ira pas plus haut!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:628
@@ -4887,7 +5059,7 @@ msgid ""
 "{B_ATK_NAME_WITH_PREFIX2}!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} est harcelé par {B_ATK_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
 #: src/battle_message.c:651
 msgid "It won't have any effect on {B_DEF_NAME_WITH_PREFIX2}!"
 msgstr "Ça n’aura aucun effet sur {B_DEF_NAME_WITH_PREFIX2}!"
@@ -5071,12 +5243,18 @@ msgstr ""
 "{B_LAST_ABILITY} de {B_ATK_NAME_WITH_PREFIX} soigne "
 "{B_SCR_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 197:622 — {STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0}\naugmente sa
+#. stat {STRVAR_1 13, 2, 0}!
+#. ancien (patch FR actuel) : {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX}
+#. {B_BUFF2}augmente sa {B_BUFF1}!
 #: src/battle_message.c:684
 msgid ""
 "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} {B_BUFF2}raised its {B_BUFF1}!"
 msgstr ""
-"{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} {B_BUFF2}augmente sa {B_BUFF1}!"
+"{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} {B_BUFF2}augmente sa stat "
+"{B_BUFF1}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:685
@@ -5205,13 +5383,16 @@ msgstr ""
 msgid "{B_SCR_NAME_WITH_PREFIX} shook off the taunt!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} se libère de la Provoc!"
 
-#. source : SoulSilver FR officiel
-#. lot : B_soulsilver
-#. preuve : 6:91 — {STRVAR_1 1, 0, 0} n’est plus amoureux.
-#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX} n’est plus amoureux!
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « {STR_VAR_1} got over
+#. its\ninfatuation.{PAUSE_UNTIL_PRESS} » ; FR officiel : « {STR_VAR_1} n’est
+#. plus\namoureux.{PAUSE_UNTIL_PRESS} »
+#. ancien (SoulSilver FR officiel) : {B_SCR_NAME_WITH_PREFIX} n’est plus
+#. amoureux.
 #: src/battle_message.c:708 src/battle_message.c:714
 msgid "{B_SCR_NAME_WITH_PREFIX} got over its infatuation!"
-msgstr "{B_SCR_NAME_WITH_PREFIX} n’est plus amoureux."
+msgstr "{B_SCR_NAME_WITH_PREFIX} n’est plus amoureux!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:709
@@ -5367,13 +5548,16 @@ msgstr "{B_ATK_ABILITY} n’autorise que {B_CURRENT_MOVE}!\\p"
 msgid "{B_DEF_NAME_WITH_PREFIX} swapped Abilities with its target!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} échange son talent avec sa cible!"
 
-#. source : SoulSilver FR officiel
-#. lot : B_soulsilver
-#. preuve : 6:83 — {STRVAR_1 1, 0, 0} n’est plus\nempoisonné.
-#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} n’est plus empoisonné!
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « {STR_VAR_1} was cured of
+#. its\npoisoning.{PAUSE_UNTIL_PRESS} » ; FR officiel : « {STR_VAR_1} n’est
+#. plus\nempoisonné.{PAUSE_UNTIL_PRESS} »
+#. ancien (SoulSilver FR officiel) : {B_DEF_NAME_WITH_PREFIX} n’est plus
+#. empoisonné.
 #: src/battle_message.c:738
 msgid "{B_DEF_NAME_WITH_PREFIX} was cured of its poisoning!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} n’est plus empoisonné."
+msgstr "{B_DEF_NAME_WITH_PREFIX} n’est plus empoisonné!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:739
@@ -5909,10 +6093,13 @@ msgstr ""
 msgid "{B_ATK_NAME_WITH_PREFIX} absorbed electricity!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} absorbe l’électricité!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : 5:43 — L’objet {STRVAR_1 8, 0, 0} est utilisé!
+#. ancien (patch FR actuel) : Le {B_LAST_ITEM} est épuisé…
 #: src/battle_message.c:834
 msgid "The {B_LAST_ITEM} was used up…"
-msgstr "Le {B_LAST_ITEM} est épuisé…"
+msgstr "L’objet {B_LAST_ITEM} est épuisé…"
 
 #. source : patch FR actuel
 #: src/battle_message.c:835
@@ -6078,7 +6265,7 @@ msgstr ""
 "Ce n’est pas très efficace sur {B_DEF_NAME_WITH_PREFIX2} et "
 "{B_DEF_PARTNER_NAME}!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
 #: src/battle_message.c:865
 msgid "It doesn't affect {B_DEF_NAME_WITH_PREFIX2} and {B_DEF_PARTNER_NAME}…"
 msgstr "Ça n’affecte pas {B_DEF_NAME_WITH_PREFIX2} et {B_DEF_PARTNER_NAME}…"
@@ -6287,7 +6474,7 @@ msgstr ""
 "{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 "
 "DYNAMIC_COLOR6 DYNAMIC_COLOR5}PP\\nTYPE/"
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel (adapté)
 #. lot : B_soulsilver
 #. preuve : 197:939 — Oublier quelle capacité?
 #. ancien (relu et corrigé à la main) : {PALETTE 5}{BACKGROUND
@@ -6483,22 +6670,24 @@ msgstr "Physique"
 msgid "{B_BUFF1}{CLEAR 13}Judgment{CLEAR 13}{B_BUFF2}"
 msgstr "{B_BUFF1}{CLEAR 13}Jugement{CLEAR 13}{B_BUFF2}"
 
-#. source : SoulSilver FR officiel
-#. lot : B_soulsilver
-#. preuve : 197:976 — {STRVAR_1 3, 0, 0} envoie\n{STRVAR_1 1, 1,
-#. 0}!\f{STRVAR_1 3, 2, 0} envoie\f{STRVAR_1 1, 3, 0}!
-#. ancien (patch FR actuel) : {B_TRAINER1_NAME_WITH_CLASS} envoie
-#. {B_OPPONENT_MON1_NAME}!\p{B_TRAINER2_NAME_WITH_CLASS} envoie
-#. {B_OPPONENT_MON2_NAME}!
+#. source : SoulSilver FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : .po actuel (SoulSilver FR officiel) : «
+#. {B_TRAINER1_NAME_WITH_CLASS}
+#. envoie\n{B_OPPONENT_MON1_NAME}!\l{B_TRAINER2_NAME_WITH_CLASS}
+#. envoie\l{B_OPPONENT_MON2_NAME}! »
+#. ancien (SoulSilver FR officiel) : {B_TRAINER1_NAME_WITH_CLASS}
+#. envoie\n{B_OPPONENT_MON1_NAME}!\l{B_TRAINER2_NAME_WITH_CLASS}
+#. envoie\l{B_OPPONENT_MON2_NAME}!
 #: src/battle_message.c:1484
 msgid ""
 "{B_TRAINER1_NAME_WITH_CLASS} sent out "
 "{B_OPPONENT_MON1_NAME}!\\p{B_TRAINER2_NAME_WITH_CLASS} sent out "
 "{B_OPPONENT_MON2_NAME}!"
 msgstr ""
-"{B_TRAINER1_NAME_WITH_CLASS} "
-"envoie\\n{B_OPPONENT_MON1_NAME}!\\l{B_TRAINER2_NAME_WITH_CLASS} "
-"envoie\\l{B_OPPONENT_MON2_NAME}!"
+"{B_TRAINER1_NAME_WITH_CLASS} envoie "
+"{B_OPPONENT_MON1_NAME}!\\p{B_TRAINER2_NAME_WITH_CLASS} envoie "
+"{B_OPPONENT_MON2_NAME}!"
 
 #. source : SoulSilver FR officiel
 #: src/battle_message.c:1485
@@ -6694,10 +6883,15 @@ msgstr "{PLAY_SE SE_FLEE}{B_TRAINER1_NAME_WITH_CLASS} s’enfuit!"
 msgid "You lost to {B_TRAINER1_NAME_WITH_CLASS}!"
 msgstr "Vous avez perdu contre {B_TRAINER1_NAME_WITH_CLASS}!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « Player battled to a draw
+#. against\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}! » ; FR officiel : « Egalité
+#. avec \n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}! »
+#. ancien (patch FR actuel) : Match nul contre {B_TRAINER1_NAME_WITH_CLASS}!
 #: src/battle_message.c:1517
 msgid "You battled to a draw against {B_TRAINER1_NAME_WITH_CLASS}!"
-msgstr "Match nul contre {B_TRAINER1_NAME_WITH_CLASS}!"
+msgstr "Egalité avec {B_TRAINER1_NAME_WITH_CLASS}!"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -7904,7 +8098,7 @@ msgstr "Vous n’avez plus de Baies à mettre\\ndans le MIXEUR.\\p"
 msgid "Your {POKEBLOCK} CASE is full.\\p"
 msgstr "Votre BOITE {POKEBLOCK}S est pleine.\\p"
 
-#. source : relu et corrigé à la main
+#. source : Émeraude FR officiel (adapté)
 #: src/berry_blender.c:273
 msgid " has no BERRIES to put in\\nthe BERRY BLENDER."
 msgstr " n’a pas de Baies à mettre\\ndans le MIXEUR."
@@ -7991,13 +8185,21 @@ msgstr "MIXEUR\\nRECORDS DE VITESSE!"
 msgid "2 PLAYERS\\n3 PLAYERS\\n4 PLAYERS"
 msgstr "2 JOUEURS\\n3 JOUEURS\\n4 JOUEURS"
 
+#. source : traduction nouvelle
+#. lot : C1_exceptions
+#. preuve : src/berry_blender.c : « static const u8 sJPText_…TvReady[] … //
+#. Unused »
 #: src/berry_blender.c:892
 msgid "\\nいいTVができました "
-msgstr ""
+msgstr "\\nいいTVができました "
 
+#. source : traduction nouvelle
+#. lot : C1_exceptions
+#. preuve : src/berry_blender.c : « static const u8 sJPText_…TvReady[] … //
+#. Unused »
 #: src/berry_blender.c:893
 msgid "\\nダメTVができました "
-msgstr ""
+msgstr "\\nダメTVができました "
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -8116,13 +8318,13 @@ msgstr "Une Baie énorme, pouvant atteindre"
 msgid "meter discovered. Exceedingly sweet."
 msgstr "m découverte. Très sucrée."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/challenge_menu.c:337 src/challenge_menu.c:343 src/challenge_menu.c:514
 #: src/challenge_menu.c:524 src/challenge_menu.c:552 src/challenge_menu.c:564
 msgid "OFF"
 msgstr "NON"
 
-#. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
+#. source : SoulSilver FR officiel
 #. d’un autre texte)
 #: src/challenge_menu.c:338 src/challenge_menu.c:342
 #: src/data/easy_chat/easy_chat_group_endings.h:268 src/option_menu.c:203
@@ -8156,19 +8358,21 @@ msgstr "MODERNE"
 msgid "{L_BUTTON}PREVIOUS"
 msgstr "{L_BUTTON}PRECED."
 
-#. source : traduction nouvelle
-#. lot : H_interface
-#. ancien (patch FR actuel) : {R_BUTTON}SUIV.
+#. source : SoulSilver FR officiel
+#. lot : C1_restes
+#. preuve : 196:23 — SUITE
+#. ancien (traduction nouvelle) : {R_BUTTON}SUIVANT
 #: src/challenge_menu.c:357
 msgid "{R_BUTTON}NEXT"
-msgstr "{R_BUTTON}SUIVANT"
+msgstr "{R_BUTTON}SUITE"
 
-#. source : traduction nouvelle
-#. lot : H_interface
-#. ancien (patch FR actuel) : {R_BUTTON}SAUVE
+#. source : SoulSilver FR officiel
+#. lot : C1_restes
+#. preuve : 13:94 — SAUV.
+#. ancien (traduction nouvelle) : {R_BUTTON}SAUVER
 #: src/challenge_menu.c:358
 msgid "{R_BUTTON}SAVE"
-msgstr "{R_BUTTON}SAUVER"
+msgstr "{R_BUTTON}SAUV."
 
 #. source : Émeraude FR officiel
 #: src/challenge_menu.c:359 src/data/union_room.h:88
@@ -9997,13 +10201,17 @@ msgstr "Pokémon Version Rouge Feu\\nEquipe"
 msgid "Pokémon LeafGreen Version\\nStaff"
 msgstr "Pokémon Version Vert Feuille\\nEquipe"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/credits_frlg.c:351
 msgid "\\n\\nDirector\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\nDirection\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : C1_exceptions
 #: src/credits_frlg.c:352
 msgid "\\n\\n\\nJunichi Masuda\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\n\\nJunichi Masuda\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -10081,9 +10289,11 @@ msgstr "\\nGraphistes\\n\\n\\n\\n\\n"
 msgid "\\n\\nKen Sugimori\\nHironobu Yoshida\\n\\n\\n"
 msgstr "\\n\\nKen Sugimori\\nHironobu Yoshida\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/credits_frlg.c:365
 msgid "\\nMusic Composition\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\nComposition musicale\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10091,14 +10301,20 @@ msgstr ""
 msgid "\\n\\nGo Ichinose\\nJunichi Masuda\\n\\n\\n"
 msgstr "\\n\\nGo Ichinose\\nJunichi Masuda\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/credits_frlg.c:367
 msgid "\\n\\nSound Effects\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\nEffets sonores\\n\\n\\n\\n"
 
-#. source : SoulSilver FR officiel
+#. source : traduction nouvelle
+#. lot : C1_restes
+#. preuve : banque 440 (générique SoulSilver) exclue de l’alignement : noms
+#. sans lien d’identité
+#. ancien (SoulSilver FR officiel) : Go Ichinose
 #: src/credits_frlg.c:368
 msgid "\\n\\n\\nGo Ichinose\\n\\n\\n"
-msgstr "Go Ichinose"
+msgstr "\\n\\n\\nGo Ichinose\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -10118,9 +10334,11 @@ msgstr "\\n\\nJunichi Masuda\\nKoji Nishino\\nTetsuji Ohta\\n\\n"
 msgid "\\n\\nHitomi Sato\\nShigeru Ohmori\\nTadashi Takahashi\\n\\n"
 msgstr "\\n\\nHitomi Sato\\nShigeru Ohmori\\nTadashi Takahashi\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/credits_frlg.c:373
 msgid "\\nGame Scenario\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\nScénario\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10152,14 +10370,20 @@ msgstr "\\nParamétrage\\n\\n\\n\\n\\n"
 msgid "\\n\\nKoji Nishino\\nTetsuji Ohta\\nShigeki Morimoto\\n\\n"
 msgstr "\\n\\nKoji Nishino\\nTetsuji Ohta\\nShigeki Morimoto\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/credits_frlg.c:379
 msgid "\\n\\nPOKéDEX Text\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\nTextes du Pokédex\\n\\n\\n\\n"
 
-#. source : SoulSilver FR officiel
+#. source : traduction nouvelle
+#. lot : C1_restes
+#. preuve : banque 440 (générique SoulSilver) exclue de l’alignement : noms
+#. sans lien d’identité
+#. ancien (SoulSilver FR officiel) : Kenji Matsushima
 #: src/credits_frlg.c:380
 msgid "\\n\\n\\nKenji Matsushima\\n\\n\\n"
-msgstr "Kenji Matsushima"
+msgstr "\\n\\n\\nKenji Matsushima\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -10197,9 +10421,11 @@ msgstr "Programmeurs assistants\\n\\n\\n\\n"
 msgid "\\nTeruyuki Yoshioka\\nTakao Nakano\\n\\nSatoshi Mitsuhara\\nDaisuke Hoshino\\n"
 msgstr "\\nTeruyuki Yoshioka\\nTakao Nakano\\n\\nSatoshi Mitsuhara\\nDaisuke Hoshino\\n"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/credits_frlg.c:389
 msgid "\\n\\nNCL Product Testing\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\nTests produit NCL\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10207,10 +10433,12 @@ msgstr ""
 msgid "\\n\\n\\nNCL Super Mario Club\\n\\n\\n"
 msgstr "\\n\\n\\nNCL Super Mario Club\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/credits_frlg.c:391 src/credits_frlg.c:393 src/credits_frlg.c:395
 #: src/credits_frlg.c:427 src/credits_frlg.c:429
 msgid "Special Thanks\\n\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "Remerciements\\n\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10246,9 +10474,11 @@ msgstr "\\n\\nVérification du braille\\n\\n\\n\\n"
 msgid "\\n\\n\\nJapan Braille Library\\n\\n\\n"
 msgstr "\\n\\n\\nJapan Braille Library\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/credits_frlg.c:399
 msgid "Information Supervisors\\n\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "Supervision des informations\\n\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10260,9 +10490,11 @@ msgstr ""
 "\\nHiroki Enomoto\\nKazuyuki Terada\\nYuri Sakurai\\nYumi Funasaka\\nNaoko "
 "Yanase\\n"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/credits_frlg.c:401
 msgid "Coordinators\\n\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "Coordination\\n\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10282,9 +10514,11 @@ msgstr "\\nGestion des tâches\\n\\n\\n\\n\\n"
 msgid "\\n\\nHitoshi Yamagami\\nGakuji Nomoto\\n\\n\\n"
 msgstr "\\n\\nHitoshi Yamagami\\nGakuji Nomoto\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/credits_frlg.c:405
 msgid "\\nProducers\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\nProducteurs\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10298,19 +10532,29 @@ msgstr "\\n\\nHiroyuki Jinnai\\nTakehiro Izushi\\nHiroaki Tsuru\\n\\n"
 msgid "\\n\\nExecutive Director\\n\\n\\n\\n"
 msgstr "\\n\\nDirecteur exécutif\\n\\n\\n\\n"
 
-#. source : SoulSilver FR officiel
+#. source : traduction nouvelle
+#. lot : C1_restes
+#. preuve : banque 440 (générique SoulSilver) exclue de l’alignement : noms
+#. sans lien d’identité
+#. ancien (SoulSilver FR officiel) : Shusaku Egami
 #: src/credits_frlg.c:408
 msgid "\\n\\n\\nSatoshi Tajiri\\n\\n\\n"
-msgstr "Shusaku Egami"
+msgstr "\\n\\n\\nSatoshi Tajiri\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/credits_frlg.c:409 src/credits_frlg.c:411
 msgid "\\n\\nExecutive Producer\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\nProducteur exécutif\\n\\n\\n\\n"
 
-#. source : SoulSilver FR officiel
+#. source : traduction nouvelle
+#. lot : C1_restes
+#. preuve : banque 440 (générique SoulSilver) exclue de l’alignement : noms
+#. sans lien d’identité
+#. ancien (SoulSilver FR officiel) : Hiroaki Tsuru
 #: src/credits_frlg.c:410
 msgid "\\n\\n\\nSatoru Iwata\\n\\n\\n"
-msgstr "Hiroaki Tsuru"
+msgstr "\\n\\n\\nSatoru Iwata\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10367,9 +10611,11 @@ msgstr "\\nProgrammeurs environnement et outils\\n\\n\\n\\n\\n"
 msgid "\\n\\nTeruki Murakawa\\nSouichi Yamamoto\\nKimiko Nakamichi\\n\\n"
 msgstr "\\n\\nTeruki Murakawa\\nSouichi Yamamoto\\nKimiko Nakamichi\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/credits_frlg.c:421
 msgid "NOA Product Testing\\n\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "Tests produit NOA\\n\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10437,9 +10683,11 @@ msgstr "\\n\\nThe Royal New Zealand\\nFoundation of the Blind\\nGreg Moran\\n\\n
 msgid "\\n\\nGraphic Designer\\n\\n\\n\\n"
 msgstr "\\n\\nGraphiste\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : C1_exceptions
 #: src/credits_frlg.c:434
 msgid "\\n\\n\\nAkira Kinashi\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\n\\nAkira Kinashi\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -10453,9 +10701,11 @@ msgstr "A capturer!"
 msgid "R TO REGISTER!"
 msgstr "R: ENREGISTRER!"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/dexnav.c:187
 msgid "Search {STR_VAR_1}"
-msgstr ""
+msgstr "Chercher {STR_VAR_1}"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -10473,18 +10723,23 @@ msgstr "RECH. {LV}. {STR_VAR_1}"
 msgid "MOVE: {STR_VAR_1}"
 msgstr "CAP.: {STR_VAR_1}"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/dexnav.c:194
 msgid "{START_BUTTON} EXIT"
-msgstr ""
+msgstr "{START_BUTTON} QUITTER"
 
 #. source : Émeraude FR officiel
 #: src/dodrio_berry_picking.c:3065
 msgid "ABCDEFG"
 msgstr "ABCDEFG"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
+#. preuve : capacité Vol
 #: src/field_region_map.c:237
 msgid "{R_BUTTON} FLY"
-msgstr ""
+msgstr "{R_BUTTON} VOL"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -10709,155 +10964,250 @@ msgstr "90 pts"
 msgid "100 pts"
 msgstr "100 pts"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECBDC -> FR 5F0E97 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : POSTER BAISER{CLEAR_TO 94}16PCo
 #: src/field_specials.c:2584
 msgid "KISS POSTER{CLEAR_TO 0x5E}16BP"
-msgstr "POSTER BAISER{CLEAR_TO 94}16PCo"
+msgstr "POSTER BAISER{CLEAR_TO 0x5E}16PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECBEF -> FR 5F0EAB (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : COUSSIN BAISER{CLEAR_TO 94}32PCo
 #: src/field_specials.c:2585
 msgid "KISS CUSHION{CLEAR_TO 0x5E}32BP"
-msgstr "COUSSIN BAISER{CLEAR_TO 94}32PCo"
+msgstr "COUSSIN BAISER{CLEAR_TO 0x5E}32PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECC03 -> FR 5F0EC0 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : POUPEE LIPPOUTI{CLEAR_TO 94}32PCo
 #: src/field_specials.c:2586
 msgid "SMOOCHUM DOLL{CLEAR_TO 0x5E}32BP"
-msgstr "POUPEE LIPPOUTI{CLEAR_TO 94}32PCo"
+msgstr "POUPEE LIPPOUTI{CLEAR_TO 0x5E}32PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECC18 -> FR 5F0ED6 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : POUPEE TOGEPI{CLEAR_TO 94}48PCo
 #: src/field_specials.c:2587
 msgid "TOGEPI DOLL{CLEAR_TO 0x5E}48BP"
-msgstr "POUPEE TOGEPI{CLEAR_TO 94}48PCo"
+msgstr "POUPEE TOGEPI{CLEAR_TO 0x5E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECC2B -> FR 5F0EEA (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : POUP. MIAOUSS{CLEAR_TO 94}48PCo
 #: src/field_specials.c:2588
 msgid "MEOWTH DOLL{CLEAR_TO 0x5E}48BP"
-msgstr "POUP. MIAOUSS{CLEAR_TO 94}48PCo"
+msgstr "POUPEE MIAOUSS{CLEAR_TO 0x5E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECC3E -> FR 5F0EFF (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : POUPEE MELOFEE{CLEAR_TO 94}48PCo
 #: src/field_specials.c:2589
 msgid "CLEFAIRY DOLL{CLEAR_TO 0x5E}48BP"
-msgstr "POUPEE MELOFEE{CLEAR_TO 94}48PCo"
+msgstr "POUPEE MELOFEE{CLEAR_TO 0x5E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECC53 -> FR 5F0F14 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : POUP. METAM.{CLEAR_TO 94}48PCo
 #: src/field_specials.c:2590
 msgid "DITTO DOLL{CLEAR_TO 0x5E}48BP"
-msgstr "POUP. METAM.{CLEAR_TO 94}48PCo"
+msgstr "POUP. METAMORPH{CLEAR_TO 0x5E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECC65 -> FR 5F0F2A (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : POUP.HERICENDRE{CLEAR_TO 94}80PCo
 #: src/field_specials.c:2591
 msgid "CYNDAQUIL DOLL{CLEAR_TO 0x5E}80BP"
-msgstr "POUP.HERICENDRE{CLEAR_TO 94}80PCo"
+msgstr "POUP.HERICENDRE{CLEAR_TO 0x5E}80PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECC7B -> FR 5F0F40 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : POUP. GERMIGNON{CLEAR_TO 94}80PCo
 #: src/field_specials.c:2592
 msgid "CHIKORITA DOLL{CLEAR_TO 0x5E}80BP"
-msgstr "POUP. GERMIGNON{CLEAR_TO 94}80PCo"
+msgstr "POUP. GERMIGNON{CLEAR_TO 0x5E}80PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECC91 -> FR 5F0F56 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : POUPEE KAIMINUS{CLEAR_TO 94}80PCo
 #: src/field_specials.c:2593
 msgid "TOTODILE DOLL{CLEAR_TO 0x5E}80BP"
-msgstr "POUPEE KAIMINUS{CLEAR_TO 94}80PCo"
+msgstr "POUPEE KAIMINUS{CLEAR_TO 0x5E}80PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECCA6 -> FR 5F0F6C (pointeur x1) ; table octets EN->FR (x1) ;
+#. texte officiel : POUPEE LOKHLASS{CLEAR_TO 96}128ト
+#. ancien (patch FR actuel) : POUP. LOKHLASS{CLEAR_TO 88}128PCo
 #: src/field_specials.c:2598
 msgid "LAPRAS DOLL{CLEAR_TO 0x58}128BP"
-msgstr "POUP. LOKHLASS{CLEAR_TO 88}128PCo"
+msgstr "POUPEE LOKHLASS{CLEAR_TO 0x58}128PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECCBA -> FR 5F0F83 (pointeur x1) ; table octets EN->FR (x1) ;
+#. texte officiel : POUPEE RONFLEX{CLEAR_TO 96}128ト
+#. ancien (patch FR actuel) : POUP. RONFLEX{CLEAR_TO 88}128PCo
 #: src/field_specials.c:2599
 msgid "SNORLAX DOLL{CLEAR_TO 0x58}128BP"
-msgstr "POUP. RONFLEX{CLEAR_TO 88}128PCo"
+msgstr "POUPEE RONFLEX{CLEAR_TO 0x58}128PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECCCF -> FR 5F0F99 (pointeur x1) ; table octets EN->FR (x1) ;
+#. texte officiel : POUP.FLORIZARRE{CLEAR_TO 96}256ト
+#. ancien (patch FR actuel) : POUP.FLORIZARRE{CLEAR_TO 88}256PCo
 #: src/field_specials.c:2600
 msgid "VENUSAUR DOLL{CLEAR_TO 0x58}256BP"
-msgstr "POUP.FLORIZARRE{CLEAR_TO 88}256PCo"
+msgstr "POUP.FLORIZARRE{CLEAR_TO 0x58}256PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECCE5 -> FR 5F0FB0 (pointeur x1) ; table octets EN->FR (x1) ;
+#. texte officiel : POUP. DRACAUFEU{CLEAR_TO 96}256ト
+#. ancien (patch FR actuel) : POUP. DRACAUFEU{CLEAR_TO 88}256PCo
 #: src/field_specials.c:2601
 msgid "CHARIZARD DOLL{CLEAR_TO 0x58}256BP"
-msgstr "POUP. DRACAUFEU{CLEAR_TO 88}256PCo"
+msgstr "POUP. DRACAUFEU{CLEAR_TO 0x58}256PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECCFC -> FR 5F0FC7 (pointeur x1) ; table octets EN->FR (x1) ;
+#. texte officiel : POUPEE TORTANK{CLEAR_TO 96}256ト
+#. ancien (patch FR actuel) : POUP. TORTANK{CLEAR_TO 88}256PCo
 #: src/field_specials.c:2602
 msgid "BLASTOISE DOLL{CLEAR_TO 0x58}256BP"
-msgstr "POUP. TORTANK{CLEAR_TO 88}256PCo"
+msgstr "POUPEE TORTANK{CLEAR_TO 0x58}256PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECD13 -> FR 5F0FDD (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Protéine{CLEAR_TO 100}1PCo
 #: src/field_specials.c:2607
 msgid "PROTEIN{CLEAR_TO 0x64}1BP"
-msgstr "Protéine{CLEAR_TO 100}1PCo"
+msgstr "Protéine{CLEAR_TO 0x64}1PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECD21 -> FR 5F0FEB (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Calcium{CLEAR_TO 100}1PCo
 #: src/field_specials.c:2608
 msgid "CALCIUM{CLEAR_TO 0x64}1BP"
-msgstr "Calcium{CLEAR_TO 100}1PCo"
+msgstr "Calcium{CLEAR_TO 0x64}1PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECD2F -> FR 5F0FF8 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Fer{CLEAR_TO 100}1PCo
 #: src/field_specials.c:2609
 msgid "IRON{CLEAR_TO 0x64}1BP"
-msgstr "Fer{CLEAR_TO 100}1PCo"
+msgstr "Fer{CLEAR_TO 0x64}1PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECD3A -> FR 5F1001 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Zinc{CLEAR_TO 100}1PCo
 #: src/field_specials.c:2610
 msgid "ZINC{CLEAR_TO 0x64}1BP"
-msgstr "Zinc{CLEAR_TO 100}1PCo"
+msgstr "Zinc{CLEAR_TO 0x64}1PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECD45 -> FR 5F100B (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Carbone{CLEAR_TO 100}1PCo
 #: src/field_specials.c:2611
 msgid "CARBOS{CLEAR_TO 0x64}1BP"
-msgstr "Carbone{CLEAR_TO 100}1PCo"
+msgstr "Carbone{CLEAR_TO 0x64}1PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECD52 -> FR 5F1018 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : PV plus{CLEAR_TO 100}1PCo
 #: src/field_specials.c:2612
 msgid "HP UP{CLEAR_TO 0x64}1BP"
-msgstr "PV plus{CLEAR_TO 100}1PCo"
+msgstr "PV Plus{CLEAR_TO 0x64}1PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECD5E -> FR 5F1025 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Restes{CLEAR_TO 94}48PCo
 #: src/field_specials.c:2617
 msgid "LEFTOVERS{CLEAR_TO 0x5E}48BP"
-msgstr "Restes{CLEAR_TO 94}48PCo"
+msgstr "Restes{CLEAR_TO 0x5E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECD6F -> FR 5F1032 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : HERB.BLANCHE{CLEAR_TO 94}48PCo
 #: src/field_specials.c:2618
 msgid "WHITE HERB{CLEAR_TO 0x5E}48BP"
-msgstr "HERB.BLANCHE{CLEAR_TO 94}48PCo"
+msgstr "Herbeblanche{CLEAR_TO 0x5E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECD81 -> FR 5F1045 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Vive Griffe{CLEAR_TO 94}48PCo
 #: src/field_specials.c:2619
 msgid "QUICK CLAW{CLEAR_TO 0x5E}48BP"
-msgstr "Vive Griffe{CLEAR_TO 94}48PCo"
+msgstr "Vive Griffe{CLEAR_TO 0x5E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECD93 -> FR 5F1057 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Herbe Mental{CLEAR_TO 94}48PCo
 #: src/field_specials.c:2620
 msgid "MENTAL HERB{CLEAR_TO 0x5E}48BP"
-msgstr "Herbe Mental{CLEAR_TO 94}48PCo"
+msgstr "Herbe Mental{CLEAR_TO 0x5E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECDA6 -> FR 5F106A (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Poudreclaire{CLEAR_TO 94}64PCo
 #: src/field_specials.c:2621
 msgid "BRIGHTPOWDER{CLEAR_TO 0x5E}64BP"
-msgstr "Poudreclaire{CLEAR_TO 94}64PCo"
+msgstr "Poudreclaire{CLEAR_TO 0x5E}64PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECDBA -> FR 5F107D (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Band. Choix{CLEAR_TO 94}64PCo
 #: src/field_specials.c:2622
 msgid "CHOICE BAND{CLEAR_TO 0x5E}64BP"
-msgstr "Band. Choix{CLEAR_TO 94}64PCo"
+msgstr "Band. Choix{CLEAR_TO 0x5E}64PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECDCD -> FR 5F108F (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Roche Royale{CLEAR_TO 94}64PCo
 #: src/field_specials.c:2623
 msgid "KING'S ROCK{CLEAR_TO 0x5E}64BP"
-msgstr "Roche Royale{CLEAR_TO 94}64PCo"
+msgstr "Roche Royale{CLEAR_TO 0x5E}64PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECDE0 -> FR 5F10A2 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Bandeau{CLEAR_TO 94}64PCo
 #: src/field_specials.c:2624
 msgid "FOCUS BAND{CLEAR_TO 0x5E}64BP"
-msgstr "Bandeau{CLEAR_TO 94}64PCo"
+msgstr "Bandeau{CLEAR_TO 0x5E}64PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECDF2 -> FR 5F10B0 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Lentilscope{CLEAR_TO 94}64PCo
 #: src/field_specials.c:2625
 msgid "SCOPE LENS{CLEAR_TO 0x5E}64BP"
-msgstr "Lentilscope{CLEAR_TO 94}64PCo"
+msgstr "Lentilscope{CLEAR_TO 0x5E}64PCo"
 
 #. source : Émeraude FR officiel
 #: src/field_specials.c:2630
@@ -10914,105 +11264,165 @@ msgstr "PV Plus{CLEAR_TO 102}{FONT 1}1000"
 msgid "PP UP{CLEAR_TO 99}{FONT_SMALL}3,000"
 msgstr "PP Plus{CLEAR_TO 102}{FONT 1}3000"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECE04 -> FR 5F10C2 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : E-Coque{CLEAR_TO 78}16PCo
 #: src/field_specials.c:2658
 msgid "SOFTBOILED{CLEAR_TO 0x4E}16BP"
-msgstr "E-Coque{CLEAR_TO 78}16PCo"
+msgstr "E-Coque{CLEAR_TO 0x4E}16PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECE16 -> FR 5F10D0 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Frappe Atlas{CLEAR_TO 78}24PCo
 #: src/field_specials.c:2659
 msgid "SEISMIC TOSS{CLEAR_TO 0x4E}24BP"
-msgstr "Frappe Atlas{CLEAR_TO 78}24PCo"
+msgstr "Frappe Atlas{CLEAR_TO 0x4E}24PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECE2A -> FR 5F10E3 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Dévorêve{CLEAR_TO 78}24PCo
 #: src/field_specials.c:2660
 msgid "DREAM EATER{CLEAR_TO 0x4E}24BP"
-msgstr "Dévorêve{CLEAR_TO 78}24PCo"
+msgstr "Dévorêve{CLEAR_TO 0x4E}24PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECE3D -> FR 5F10F2 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Ultimapoing{CLEAR_TO 78}24PCo
 #: src/field_specials.c:2661
 msgid "MEGA PUNCH{CLEAR_TO 0x4E}24BP"
-msgstr "Ultimapoing{CLEAR_TO 78}24PCo"
+msgstr "Ultimapoing{CLEAR_TO 0x4E}24PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECE4F -> FR 5F1104 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : ULTIMAWASH.{CLEAR_TO 78}48PCo
 #: src/field_specials.c:2662
 msgid "MEGA KICK{CLEAR_TO 0x4E}48BP"
-msgstr "ULTIMAWASH.{CLEAR_TO 78}48PCo"
+msgstr "Ultimawashi{CLEAR_TO 0x4E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECE60 -> FR 5F1116 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Plaquage{CLEAR_TO 78}48PCo
 #: src/field_specials.c:2663
 msgid "BODY SLAM{CLEAR_TO 0x4E}48BP"
-msgstr "Plaquage{CLEAR_TO 78}48PCo"
+msgstr "Plaquage{CLEAR_TO 0x4E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECE71 -> FR 5F1125 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Eboulement{CLEAR_TO 78}48PCo
 #: src/field_specials.c:2664
 msgid "ROCK SLIDE{CLEAR_TO 0x4E}48BP"
-msgstr "Eboulement{CLEAR_TO 78}48PCo"
+msgstr "Eboulement{CLEAR_TO 0x4E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECE83 -> FR 5F1136 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Riposte{CLEAR_TO 78}48PCo
 #: src/field_specials.c:2665
 msgid "COUNTER{CLEAR_TO 0x4E}48BP"
-msgstr "Riposte{CLEAR_TO 78}48PCo"
+msgstr "Riposte{CLEAR_TO 0x4E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECE92 -> FR 5F1144 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Cage-Eclair{CLEAR_TO 78}48PCo
 #: src/field_specials.c:2666
 msgid "THUNDER WAVE{CLEAR_TO 0x4E}48BP"
-msgstr "Cage-Eclair{CLEAR_TO 78}48PCo"
+msgstr "Cage-Eclair{CLEAR_TO 0x4E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECEA6 -> FR 5F1156 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Danse-Lames{CLEAR_TO 78}48PCo
 #: src/field_specials.c:2667
 msgid "SWORDS DANCE{CLEAR_TO 0x4E}48BP"
-msgstr "Danse-Lames{CLEAR_TO 78}48PCo"
+msgstr "Danse-Lames{CLEAR_TO 0x4E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECEBA -> FR 5F1168 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Boul’Armure{CLEAR_TO 78}16PCo
 #: src/field_specials.c:2672
 msgid "DEFENSE CURL{CLEAR_TO 0x4E}16BP"
-msgstr "Boul’Armure{CLEAR_TO 78}16PCo"
+msgstr "Boul’Armure{CLEAR_TO 0x4E}16PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECECE -> FR 5F117A (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : RONFL.{CLEAR_TO 78}24PCo
 #: src/field_specials.c:2673
 msgid "SNORE{CLEAR_TO 0x4E}24BP"
-msgstr "RONFL.{CLEAR_TO 78}24PCo"
+msgstr "Ronflement{CLEAR_TO 0x4E}24PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECEDB -> FR 5F118B (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Coud’Boue{CLEAR_TO 78}24PCo
 #: src/field_specials.c:2674
 msgid "MUD-SLAP{CLEAR_TO 0x4E}24BP"
-msgstr "Coud’Boue{CLEAR_TO 78}24PCo"
+msgstr "Coud’Boue{CLEAR_TO 0x4E}24PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECEEB -> FR 5F119B (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : METEOR.{CLEAR_TO 78}24PCo
 #: src/field_specials.c:2675
 msgid "SWIFT{CLEAR_TO 0x4E}24BP"
-msgstr "METEOR.{CLEAR_TO 78}24PCo"
+msgstr "Météores{CLEAR_TO 0x4E}24PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECEF8 -> FR 5F11AA (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Vent Glace{CLEAR_TO 78}24PCo
 #: src/field_specials.c:2676
 msgid "ICY WIND{CLEAR_TO 0x4E}24BP"
-msgstr "Vent Glace{CLEAR_TO 78}24PCo"
+msgstr "Vent Glace{CLEAR_TO 0x4E}24PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECF08 -> FR 5F11BB (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Ténacité{CLEAR_TO 78}48PCo
 #: src/field_specials.c:2677
 msgid "ENDURE{CLEAR_TO 0x4E}48BP"
-msgstr "Ténacité{CLEAR_TO 78}48PCo"
+msgstr "Ténacité{CLEAR_TO 0x4E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECF16 -> FR 5F11CA (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Boost{CLEAR_TO 78}48PCo
 #: src/field_specials.c:2678
 msgid "PSYCH UP{CLEAR_TO 0x4E}48BP"
-msgstr "Boost{CLEAR_TO 78}48PCo"
+msgstr "Boost{CLEAR_TO 0x4E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECF26 -> FR 5F11D6 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Poinglace{CLEAR_TO 78}48PCo
 #: src/field_specials.c:2679
 msgid "ICE PUNCH{CLEAR_TO 0x4E}48BP"
-msgstr "Poinglace{CLEAR_TO 78}48PCo"
+msgstr "Poinglace{CLEAR_TO 0x4E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECF37 -> FR 5F11E6 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Poing-Eclair{CLEAR_TO 78}48PCo
 #: src/field_specials.c:2680
 msgid "THUNDERPUNCH{CLEAR_TO 0x4E}48BP"
-msgstr "Poing-Eclair{CLEAR_TO 78}48PCo"
+msgstr "Poing-Eclair{CLEAR_TO 0x4E}48PCo"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5ECF4B -> FR 5F11F9 (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel) : Poing de Feu{CLEAR_TO 78}48PCo
 #: src/field_specials.c:2681
 msgid "FIRE PUNCH{CLEAR_TO 0x4E}48BP"
-msgstr "Poing de Feu{CLEAR_TO 78}48PCo"
+msgstr "Poing de Feu{CLEAR_TO 0x4E}48PCo"
 
 #. source : patch FR actuel
 #: src/field_specials.c:2687
@@ -11053,14 +11463,22 @@ msgstr "Aucun"
 msgid "SUNNY CLOUDS"
 msgstr "SOLEIL NUAGEUX"
 
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : US 5EFC49 -> FR 5F3FB4 (séquence : 2 chaîne(s) après US 5EFC27, 14
+#. avant US 5EFCB5)
 #: src/field_weather.c:1200 src/strings.c:1241
 msgid "SUNNY"
-msgstr ""
+msgstr "SOLEIL"
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : US 5EFC56 -> FR 5F3FC3 (séquence : 4 chaîne(s) après US 5EFC27, 12
+#. avant US 5EFCB5)
+#. ancien (SoulSilver FR officiel) : Rain
 #: src/field_weather.c:1201 src/strings.c:1243
 msgid "RAIN"
-msgstr "Rain"
+msgstr "PLUIE"
 
 #. source : Émeraude FR officiel
 #: src/field_weather.c:1202 src/pokemon_storage_system.c:8241
@@ -11107,9 +11525,11 @@ msgstr "BROUILLARD DIAG."
 msgid "UNDERWATER"
 msgstr "FOND Marin"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/field_weather.c:1209
 msgid "SHADE"
-msgstr ""
+msgstr "OMBRE"
 
 #. source : Émeraude FR officiel
 #: src/data/abilities.h:533 src/data/easy_chat/easy_chat_group_status.h:460
@@ -11147,9 +11567,13 @@ msgstr "CYCLE ROUTE119"
 msgid "ROUTE123 CYCLE"
 msgstr "CYCLE ROUTE123"
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 5EFC6A -> FR 5F3FD6 (séquence : 7 chaîne(s) après US 5EFC27, 9
+#. avant US 5EFCB5) ; FR officiel « BROUILLARD » (FOG2 = BROUILLARD2)
 #: src/field_weather.c:1216 src/strings.c:1246
 msgid "FOG"
-msgstr ""
+msgstr "BROUILLARD"
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
@@ -11416,10 +11840,13 @@ msgstr "{STR_VAR_1} a l’air triste…"
 msgid "{STR_VAR_1} is taking shelter in the\\ngrass from the rain."
 msgstr "{STR_VAR_1} se met à l’abri dans les\\nhautes herbes."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : C1_restes
+#. preuve : 265:248 — {STRVAR_1 1, 0, 0} a l’air d’avoir très froid.
+#. ancien (patch FR actuel) : {STR_VAR_1} a très froid.
 #: src/follower_helper.c:58
 msgid "{STR_VAR_1} seems very cold."
-msgstr "{STR_VAR_1} a très froid."
+msgstr "{STR_VAR_1} a l’air d’avoir très froid."
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -11506,10 +11933,13 @@ msgstr "{STR_VAR_1} souffre de sa brûlure."
 msgid "{STR_VAR_1} is happy to see what's\\noutdoors!"
 msgstr "{STR_VAR_1} regarde dehors, la\\nmine réjouie."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : C1_restes
+#. preuve : 265:393 — {STRVAR_1 1, 0, 0} lève les yeux vers le ciel.
+#. ancien (patch FR actuel) : {STR_VAR_1} lève les yeux\nvers le ciel.
 #: src/follower_helper.c:72
 msgid "{STR_VAR_1} is looking up at the\\nsky."
-msgstr "{STR_VAR_1} lève les yeux\\nvers le ciel."
+msgstr "{STR_VAR_1} lève les yeux vers\\nle ciel."
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Votre Pokémon est envoûté par\nle ciel nocturne!
@@ -12060,11 +12490,15 @@ msgstr "CHEMIN ARDENT"
 msgid "JAGGED PASS"
 msgstr "SENTIER SINUROC"
 
-#. source : patch FR actuel (correspondance douteuse, à vérifier)
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : US 1F6557 -> FR 1F7864 (pointeur x1) ; table octets EN->FR (x1) ;
+#. FR officiel : « MAISON DU MAITRE DES BAIES »
+#. ancien (patch FR actuel (correspondance douteuse, à vérifier)) : MAISON
+#. Maître Baies
 #: data/maps/Route123/scripts.inc:197 src/landmark.c:48
 msgid "BERRY MASTER'S HOUSE"
-msgstr "MAISON Maître Baies"
+msgstr "MAISON DU MAITRE DES BAIES"
 
 #. source : Émeraude FR officiel
 #: src/data/region_map/region_map_sections.json:659 src/landmark.c:49
@@ -12096,10 +12530,14 @@ msgstr "SANCTUAIRE"
 msgid "FOSSIL MANIAC'S HOUSE"
 msgstr "MANIAQUE DES FOSSILES"
 
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : US 5B8EB7 -> FR 5BCF5A (pointeur x1) ; table octets EN->FR (x1)
+#. ancien (patch FR actuel (récupéré par pointeur)) : MAISON DU CHERCHEUR DE
+#. TRESORS
 #: data/maps/Route124/scripts.inc:103 src/landmark.c:55
 msgid "HUNTER'S HOUSE"
-msgstr "MAISON DU CHERCHEUR DE TRESORS"
+msgstr "Maison du Chercheur de Trésors"
 
 #. source : Émeraude FR officiel
 #: src/data/region_map/region_map_sections.json:687 src/data/script_menu.h:772
@@ -12675,9 +13113,13 @@ msgstr "MONO"
 msgid "STEREO"
 msgstr "STEREO"
 
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : US 5EE65A -> FR 5F28FB (zone parallèle, décalage +17057) ; US
+#. C89C28 -> FR C89C84 (zone parallèle, décalage +92)
 #: src/option_menu.c:219
 msgid "LR"
-msgstr ""
+msgstr "LR"
 
 #. source : patch FR actuel
 #: src/option_menu.c:224 src/pokedex_plus_hgss.c:181
@@ -13457,18 +13899,24 @@ msgstr "{STR_VAR_1} a mangé\\n{STR_VAR_2} joyeusement.{PAUSE_UNTIL_PRESS}"
 msgid "{STR_VAR_1} disdainfully ate the\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}"
 msgstr "{STR_VAR_1} a mangé\\n{STR_VAR_2} à contrecœur.{PAUSE_UNTIL_PRESS}"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
+#. preuve : cf. {DPAD_UPDOWN} JOUR / NUIT
 #: src/pokedex_area_screen.c:660
 msgid "{DPAD_UPDOWN} MORNING"
-msgstr ""
+msgstr "{DPAD_UPDOWN} MATIN"
 
 #. source : patch FR actuel
 #: src/pokedex_area_screen.c:661
 msgid "{DPAD_UPDOWN} DAY"
 msgstr "{DPAD_UPDOWN} JOUR"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
+#. preuve : cf. {DPAD_UPDOWN} JOUR / NUIT
 #: src/pokedex_area_screen.c:662
 msgid "{DPAD_UPDOWN} EVENING"
-msgstr ""
+msgstr "{DPAD_UPDOWN} SOIR"
 
 #. source : patch FR actuel
 #: src/pokedex_area_screen.c:663
@@ -15382,9 +15830,11 @@ msgstr "Guillotine - Joueur"
 msgid "Guillotine - Contests"
 msgstr "Guillotine - Concours"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/data/battle_environment.h:672 src/pokemon_sprite_visualizer.c:365
 msgid "Ice"
-msgstr ""
+msgstr "Glace"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -15398,9 +15848,11 @@ msgstr "Cosmique"
 msgid "In Air"
 msgstr "Dans les airs"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/pokemon_sprite_visualizer.c:368
 msgid "Sky"
-msgstr ""
+msgstr "Ciel"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -15930,7 +16382,7 @@ msgstr "RETIRER POKéMON"
 msgid "Move POKéMON stored in BOXES to\\nyour party."
 msgstr "Intégrer dans l’équipe des Pokémon se\\ntrouvant dans les BOITES."
 
-#. source : traduction nouvelle
+#. source : SoulSilver FR officiel
 #. lot : H_interface
 #. ancien (Émeraude FR officiel) : DEPOSER Pokémon
 #: src/pokemon_storage_system.c:875
@@ -16029,10 +16481,13 @@ msgstr "Relâcher ce Pokémon?"
 msgid "{DYNAMIC 0} was released."
 msgstr "{DYNAMIC 0} a été relâché."
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : SoulSilver FR officiel
+#. lot : C1_restes
+#. preuve : 25:4 — Bye-bye, {STRVAR_1 1, 0, 0}!
+#. ancien (traduction manuelle (style SoulSilver)) : Bye bye, {DYNAMIC 0}!
 #: src/pokemon_storage_system.c:1066
 msgid "Bye-bye, {DYNAMIC 0}!"
-msgstr "Bye bye, {DYNAMIC 0}!"
+msgstr "Bye-bye, {DYNAMIC 0}!"
 
 #. source : Émeraude FR officiel
 #: src/pokemon_storage_system.c:1067
@@ -16685,10 +17140,14 @@ msgstr "Impossible d’appeler d’ici."
 msgid "There are no RIBBON winners."
 msgstr "Personne n’a gagné de RUBAN."
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « Check the map of the HOENN region. » ; FR
+#. officiel : « Carte de la région HOENN. »
+#. ancien (patch FR actuel) : Voir la carte de JOHTO
 #: src/pokenav_menu_handler_gfx.c:337
 msgid "Check the map of the JOHTO region"
-msgstr "Voir la carte de JOHTO"
+msgstr "Carte de la région de Johto"
 
 #. source : patch FR actuel
 #: src/pokenav_menu_handler_gfx.c:338
@@ -16730,10 +17189,14 @@ msgstr "Ecouter la radio."
 msgid "Put away the POKéGEAR."
 msgstr "Ranger le Pokématos."
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « Return to the POKéNAV menu. » ; FR officiel :
+#. « Retour au menu POKéNAV. »
+#. ancien (patch FR actuel) : Retour au menu du Pokématos.
 #: src/pokenav_menu_handler_gfx.c:350
 msgid "Return to the POKéGEAR menu."
-msgstr "Retour au menu du Pokématos."
+msgstr "Retour au menu Pokématos."
 
 #. source : Émeraude FR officiel
 #: src/pokenav_menu_handler_gfx.c:352
@@ -17599,9 +18062,12 @@ msgstr ""
 "type de\\nsauvegarde sur\\nFlash 1Mb/128K et relancez la ROM.\\n\\nSur "
 "console, votre cartouche n’a\\npas de puce flash fonctionnelle."
 
+#. source : SoulSilver FR officiel
+#. lot : C1_restes
+#. preuve : 200:7 — Piou Piou (Kenya)
 #: src/scrcmd.c:1374 src/scrcmd.c:1504
 msgid "KENYA"
-msgstr ""
+msgstr "Piou Piou"
 
 #. source : SoulSilver FR officiel
 #: src/data/trade.h:1047 src/scrcmd.c:1375
@@ -17613,12 +18079,15 @@ msgstr "Gontran"
 msgid "SHUCKIE"
 msgstr "Nessie"
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : gTrainers[191] US 311E0C -> FR 31993C
+#. ancien (SoulSilver FR officiel) : Otto
 #: data/text/fame_checker_frlg.inc:1203 src/data/trainers.party:3358
 #: src/data/trainers_frlg.party:3682 src/data/trainers_hns.party:3545
 #: src/scrcmd.c:1377
 msgid "KIRK"
-msgstr "Otto"
+msgstr "CHRIS"
 
 #. source : SoulSilver FR officiel
 #: src/data/trainers_hns.party:5231 src/scrcmd.c:1378
@@ -17666,9 +18135,12 @@ msgstr "FERRO"
 msgid "Kris"
 msgstr "Kris"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
+#. preuve : 685:0 — Mathys
 #: src/scrcmd.c:1764
 msgid "Chad"
-msgstr ""
+msgstr "Chad"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -18048,7 +18520,7 @@ msgstr "COMMANDES"
 msgid "{DPAD_UPDOWN}PICK {A_BUTTON}OK"
 msgstr "{DPAD_UPDOWN}CHOIX{A_BUTTON}OK"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/strings.c:40
 msgid "{A_BUTTON}NEXT"
 msgstr "{A_BUTTON}SUITE"
@@ -18104,13 +18576,18 @@ msgstr "???,? kg"
 msgid "???.? kg."
 msgstr "???,? kg"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/strings.c:53
 msgid "                       POKéMON"
-msgstr ""
+msgstr "                       Pokémon"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
+#. preuve : cf. « ???.? kg. »
 #: src/strings.c:55
 msgid "        .   lbs."
-msgstr ""
+msgstr "        .   kg"
 
 #. source : Émeraude FR officiel (adapté)
 #. lot : H_interface
@@ -18524,14 +19001,20 @@ msgstr "{STR_VAR_1}:\\njeté {STR_VAR_2}."
 msgid "Is it okay to\\nthrow away {STR_VAR_2}\\n{STR_VAR_1}?"
 msgstr "{STR_VAR_1}: en jeter\\n{STR_VAR_2}?"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « DAD’s advice…\n{PLAYER}, there’s a time and
+#. place for\leverything!{PAUSE_UNTIL_PRESS} » ; FR officiel : « Conseil de
+#. PAPA…\n{PLAYER}, chaque chose en son temps!{PAUSE_UNTIL_PRESS} »
+#. ancien (patch FR actuel) : Conseil du Prof. Orme…\n{PLAYER}, chaque chose
+#. en son\ltemps!{PAUSE_UNTIL_PRESS}
 #: src/strings.c:176
 msgid ""
 "ELM's advice…\\n{PLAYER}, there's a time and place "
 "for\\leverything!{PAUSE_UNTIL_PRESS}"
 msgstr ""
-"Conseil du Prof. Orme…\\n{PLAYER}, chaque chose en "
-"son\\ltemps!{PAUSE_UNTIL_PRESS}"
+"Conseil du Prof. Orme…\\n{PLAYER}, chaque chose en son "
+"temps!{PAUSE_UNTIL_PRESS}"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:178
@@ -18551,10 +19034,16 @@ msgstr "{PLAYER} utilise\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}"
 msgid "But the effects of a REPEL\\nlingered from earlier.{PAUSE_UNTIL_PRESS}"
 msgstr "Mais le Repousse précédent est\\ntoujours actif.{PAUSE_UNTIL_PRESS}"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « But the effects of a REPEL\nlingered from
+#. earlier.{PAUSE_UNTIL_PRESS} » ; FR officiel : « Mais le REPOUSSE précédent
+#. est\ntoujours actif.{PAUSE_UNTIL_PRESS} »
+#. ancien (patch FR actuel) : Mais le Parfum précédent\nest toujours
+#. actif.{PAUSE_UNTIL_PRESS}
 #: src/strings.c:182
 msgid "But the effects of a Lure\\nlingered from earlier.{PAUSE_UNTIL_PRESS}"
-msgstr "Mais le Parfum précédent\\nest toujours actif.{PAUSE_UNTIL_PRESS}"
+msgstr "Mais le Parfum précédent est\\ntoujours actif.{PAUSE_UNTIL_PRESS}"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:183
@@ -18681,10 +19170,16 @@ msgstr "{STR_VAR_1}? Bien sûr.\\nCombien en voulez-vous?"
 msgid "{STR_VAR_1}? And you wanted {STR_VAR_2}?\\nThat will be ¥{STR_VAR_3}."
 msgstr "{STR_VAR_1}? Vous en voulez {STR_VAR_2}?\\nÇa fera {STR_VAR_3}¥."
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « {STR_VAR_1}? And you wanted
+#. {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}. » ; FR officiel : « {STR_VAR_1}?
+#. Vous en voulez {STR_VAR_2}?\nÇa fera {STR_VAR_3}¥. »
+#. ancien (patch FR actuel) : {STR_VAR_1}? Et vous voulez {STR_VAR_2}?\nCela
+#. fera {STR_VAR_3} PC.
 #: src/strings.c:244
 msgid "{STR_VAR_1}? And you wanted {STR_VAR_2}?\\nThat will be {STR_VAR_3}BP."
-msgstr "{STR_VAR_1}? Et vous voulez {STR_VAR_2}?\\nCela fera {STR_VAR_3} PC."
+msgstr "{STR_VAR_1}? Vous en voulez {STR_VAR_2}?\\nÇa fera {STR_VAR_3}PCo."
 
 #. source : Émeraude FR officiel
 #: src/strings.c:245
@@ -18696,10 +19191,16 @@ msgstr "{STR_VAR_1}, n’est-ce pas?\\nÇa fera {STR_VAR_2}¥. Ça vous convient
 msgid "You wanted {STR_VAR_1}?\\nThat'll be ¥{STR_VAR_2}. Will that be okay?"
 msgstr "Vous voulez {STR_VAR_1}?\\nÇa fera {STR_VAR_2}¥. Ça vous convient?"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « You wanted {STR_VAR_1}?\nThat’ll be
+#. ¥{STR_VAR_2}. Will that be okay? » ; FR officiel : « Vous voulez
+#. {STR_VAR_1}?\nÇa fera {STR_VAR_2}¥. Ça vous convient? »
+#. ancien (patch FR actuel) : Tu voulais {STR_VAR_1}?\nÇa fera {STR_VAR_2}PC.
+#. C’est d’accord?
 #: src/strings.c:247
 msgid "You wanted {STR_VAR_1}?\\nThat'll be {STR_VAR_2}BP. Will that be okay?"
-msgstr "Tu voulais {STR_VAR_1}?\\nÇa fera {STR_VAR_2}PC. C’est d’accord?"
+msgstr "Vous voulez {STR_VAR_1}?\\nÇa fera {STR_VAR_2}PCo. Ça vous convient?"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:248
@@ -18726,7 +19227,7 @@ msgstr "Vous n’avez pas assez d’argent.{PAUSE_UNTIL_PRESS}"
 msgid "You don't have enough\\nBP.{PAUSE_UNTIL_PRESS}"
 msgstr "Vous n’avez pas assez de\\nPTS. Combat.{PAUSE_UNTIL_PRESS}"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
 #: src/strings.c:253
 msgid "You don't have enough\\n{STR_VAR_1}s.{PAUSE_UNTIL_PRESS}"
 msgstr "Vous n’avez pas assez de\\n{STR_VAR_1}.{PAUSE_UNTIL_PRESS}"
@@ -18781,10 +19282,16 @@ msgstr "Vous avez besoin d’autre chose?"
 msgid "I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}"
 msgstr "Je mets une Honor Ball en plus.{PAUSE_UNTIL_PRESS}"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « I’ll throw in a PREMIER BALL,
+#. too.{PAUSE_UNTIL_PRESS} » ; FR officiel : « Je mets une HONOR BALL en
+#. plus.{PAUSE_UNTIL_PRESS} »
+#. ancien (patch FR actuel) : Je mets {STR_VAR_1} HONOR BALLS en
+#. plus.{PAUSE_UNTIL_PRESS}
 #: src/strings.c:266
 msgid "I'll throw in {STR_VAR_1} PREMIER BALLS, too.{PAUSE_UNTIL_PRESS}"
-msgstr "Je mets {STR_VAR_1} HONOR BALLS en plus.{PAUSE_UNTIL_PRESS}"
+msgstr "Je mets {STR_VAR_1} Honor Balls en plus.{PAUSE_UNTIL_PRESS}"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:267
@@ -19078,7 +19585,7 @@ msgstr "Les PP de {STR_VAR_1}\\naugmentent.{PAUSE_UNTIL_PRESS}"
 msgid "{STR_VAR_1} was elevated to\\nLv. {STR_VAR_2}."
 msgstr "{STR_VAR_1} monte au N. {STR_VAR_2}."
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel (adapté)
 #. lot : B_soulsilver
 #. preuve : 197:1 — {STRVAR_1 1, 0, 0} a gagné\n{STRVAR_1 54, 1, 0} points
 #. Exp.!\r
@@ -19400,10 +19907,14 @@ msgstr "C’est votre seul\\nPokémon pour combattre."
 msgid "That POKéMON can't be traded\\nnow."
 msgstr "Ce Pokémon ne peut\\npas être échangé maintenant."
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C1_restes
+#. preuve : anglais Émeraude : « That POKéMON can’t be traded\nnow. » ; FR
+#. officiel : « Ce POKéMON ne peut\npas être échangé maintenant. »
+#. ancien (patch FR actuel) : Impossible d’échanger ce Pokémon.
 #: src/strings.c:388
 msgid "That POKéMON can't be traded."
-msgstr "Impossible d’échanger ce Pokémon."
+msgstr "Ce Pokémon ne peut pas être échangé."
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -20002,9 +20513,11 @@ msgstr "Super"
 msgid "HYPER"
 msgstr "HYPER"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/strings.c:539
 msgid "BATTLE ITEMS"
-msgstr ""
+msgstr "OBJ. COMBAT"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:542
@@ -20269,7 +20782,7 @@ msgstr "NENUCRIQUE"
 msgid "SLATEPORT CITY"
 msgstr "POIVRESSEL"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
 #: src/strings.c:622
 msgid "Your party's full!{PAUSE_UNTIL_PRESS}"
 msgstr "L’équipe est pleine!{PAUSE_UNTIL_PRESS}"
@@ -21664,7 +22177,7 @@ msgstr "Championnats: {STR_VAR_1}"
 msgid "Rooms cleared: {STR_VAR_1}"
 msgstr "Salles: {STR_VAR_1}"
 
-#. source : relu et corrigé à la main
+#. source : Émeraude FR officiel (adapté)
 #: src/strings.c:988
 msgid "Times cleared:{CLEAR 0x05}{STR_VAR_1}"
 msgstr "Réussites:{CLEAR 0x05}{STR_VAR_1}"
@@ -22523,10 +23036,13 @@ msgstr ""
 msgid "{STR_VAR_1} forgot {STR_VAR_3}.\\pAnd…\\p{STR_VAR_1} learned {STR_VAR_2}."
 msgstr "{STR_VAR_1} oublie\\n{STR_VAR_3}.\\pEt…\\p{STR_VAR_1}\\napprend {STR_VAR_2}."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : C1_restes
+#. preuve : 300:59 — … n’a pas appris la\ncapacité ….
+#. ancien (patch FR actuel) : {STR_VAR_1} n’a pas appris\n{STR_VAR_2}.
 #: src/strings.c:1221
 msgid "{STR_VAR_1} did not learn the\\nmove {STR_VAR_2}."
-msgstr "{STR_VAR_1} n’a pas appris\\n{STR_VAR_2}."
+msgstr "{STR_VAR_1} n’a pas appris la\\ncapacité {STR_VAR_2}."
 
 #. source : Émeraude FR officiel
 #: src/strings.c:1222
@@ -22980,12 +23496,15 @@ msgstr "Roberto"
 msgid "LT. SURGE"
 msgstr "Major Bob"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : SoulSilver FR officiel
+#. lot : C1_restes
+#. preuve : 729 — Koga (ELITE_FOUR_KOGA)
+#. ancien (traduction manuelle (style SoulSilver)) : KOGA
 #: data/text/fame_checker_frlg.inc:1200 src/data/trainers_frlg.party:7154
 #: src/data/trainers_hns.party:9138 src/data/trainers_hns.party:9189
 #: src/data/trainers_hns.party:15700 src/trainer_fan_club.c:283
 msgid "KOGA"
-msgstr "KOGA"
+msgstr "Koga"
 
 #. source : patch FR actuel
 #: src/trainer_tower.c:98
@@ -23456,12 +23975,17 @@ msgstr "TOGEPI"
 msgid "PICHU"
 msgstr "PICHU"
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : gTrainers[492] US 314D14 -> FR 31C844 ; gTrainers[497] US 314DDC
+#. -> FR 31C90C ; gTrainers[498] US 314E04 -> FR 31C934 ; gTrainers[499] US
+#. 314E2C -> FR 31C95C ; gTrainers[500] US 314E54 -> FR 31C984
+#. ancien (SoulSilver FR officiel) : Samuel
 #: src/data/trainers.party:8970 src/data/trainers.party:9063
 #: src/data/trainers.party:9084 src/data/trainers.party:9105
 #: src/data/trainers.party:9126 src/data/trainers_frlg.party:1941
 msgid "ERNEST"
-msgstr "Samuel"
+msgstr "ERNEST"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -23471,11 +23995,15 @@ msgstr "Samuel"
 msgid "GABRIEL"
 msgstr "EMERICK"
 
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : gTrainers[634] US 316344 -> FR 31DE74 ; gTrainers[635] US 31636C
+#. -> FR 31DE9C
 #: src/data/trainers.party:11589 src/data/trainers.party:11610
 #: src/data/trainers_frlg.party:4288 src/data/trainers_hns.party:1014
 #: src/trainer_tower_sets.c:1925
 msgid "MIKE"
-msgstr ""
+msgstr "MAXIME"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/trainer_hill.h:5145
@@ -23503,10 +24031,13 @@ msgstr "RHINOFEROS"
 msgid "GOLEM"
 msgstr "GROLEM"
 
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : battle_tent[15] US 5DDD24 -> FR 5E2220
 #: src/data/battle_frontier/battle_tent.h:634 src/data/trainers_hns.party:6566
 #: src/trainer_tower_sets.c:2069
 msgid "REBECCA"
-msgstr ""
+msgstr "ROMANE"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/trainer_hill.h:4405
@@ -23574,12 +24105,15 @@ msgstr "INSECATEUR"
 msgid "POLIWRATH"
 msgstr "TARTARD"
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : gTrainers[322] US 313284 -> FR 31ADB4
+#. ancien (SoulSilver FR officiel) : Farouk
 #: src/data/trainers.party:6005 src/data/trainers_frlg.party:78
 #: src/data/trainers_hns.party:90 src/data/trainers_hns.party:11074
 #: src/data/trainers_hns.party:11090 src/data/trainers_hns.party:11106
 msgid "JOEY"
-msgstr "Farouk"
+msgstr "JO"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_2_families.h:3787
@@ -23602,9 +24136,11 @@ msgstr "ARBOK"
 msgid "NIDOKING"
 msgstr "NIDOKING"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/trainer_tower_sets.c:2525
 msgid "LILY"
-msgstr ""
+msgstr "Lily"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/trainer_hill.h:813
@@ -23640,12 +24176,15 @@ msgstr "RONFLEX"
 msgid "SNUBBULL"
 msgstr "SNUBBULL"
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : gTrainers[811] US 317EEC -> FR 31FA1C
+#. ancien (SoulSilver FR officiel) : Brandon
 #: src/data/trainers.party:15993 src/data/trainers_frlg.party:10765
 #: src/data/trainers_hns.party:6761 src/data/trainers_hns.party:11061
 #: src/trainer_tower_sets.c:2682
 msgid "BRANDON"
-msgstr "Brandon"
+msgstr "BAYAR"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:1331
@@ -23884,10 +24423,13 @@ msgstr "DONPHAN"
 msgid "ARIADOS"
 msgstr "MIGALOS"
 
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : gTrainers[80] US 310CB4 -> FR 3187E4
 #: src/data/trainers.party:1459 src/data/trainers_hns.party:120
 #: src/trainer_tower_sets.c:4027
 msgid "ALBERT"
-msgstr ""
+msgstr "ALBERT"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:16145
@@ -24376,11 +24918,14 @@ msgstr "VOLTORBE"
 msgid "EXEGGCUTE"
 msgstr "NOEUNOEUF"
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : gTrainers[83] US 310D2C -> FR 31885C
+#. ancien (SoulSilver FR officiel) : Owen
 #: src/data/trainers.party:1525 src/data/trainers_frlg.party:6234
 #: src/data/trainers_hns.party:218 src/trainer_tower_sets.c:7039
 msgid "OWEN"
-msgstr "Owen"
+msgstr "OLIVER"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/trainer_hill.h:3139
@@ -24457,11 +25002,14 @@ msgstr "ELEKID"
 msgid "MAREEP"
 msgstr "WATTOUAT"
 
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : gTrainers[323] US 3132AC -> FR 31ADDC
 #: src/data/trainers.party:6018 src/data/trainers_frlg.party:10
 #: src/data/trainers_frlg.party:206 src/data/trainers_frlg.party:8709
 #: src/data/trainers_frlg.party:8726 src/data/trainers_hns.party:2014
 msgid "BEN"
-msgstr ""
+msgstr "BEN"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -24595,13 +25143,17 @@ msgstr "NATURE/"
 msgid "Lv."
 msgstr "N."
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:236
 msgid "Ability"
-msgstr ""
+msgstr "Talent"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:237
 msgid "Held Item"
-msgstr ""
+msgstr "Objet tenu"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -24609,13 +25161,18 @@ msgstr ""
 msgid "Hold Effect"
 msgstr "Effet de l’objet tenu"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:315
 msgid "Moves"
-msgstr ""
+msgstr "Capacités"
 
+#. source : SoulSilver FR officiel
+#. lot : C1_restes
+#. preuve : 6:14 — PP
 #: src/battle_debug.c:318
 msgid "PP"
-msgstr ""
+msgstr "PP"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -24659,9 +25216,11 @@ msgstr "Pièges"
 msgid "Side Status"
 msgstr "Statut camp"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:326
 msgid "AI"
-msgstr ""
+msgstr "IA"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -24705,25 +25264,35 @@ msgstr "PV actuels"
 msgid "HP Max"
 msgstr "PV max"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:338
 msgid "Attack"
-msgstr ""
+msgstr "Attaque"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:339
 msgid "Defense"
-msgstr ""
+msgstr "Défense"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:340
 msgid "Speed"
-msgstr ""
+msgstr "Vitesse"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:341
 msgid "Sp. Atk"
-msgstr ""
+msgstr "Atq. Spé."
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:342
 msgid "Sp. Def"
-msgstr ""
+msgstr "Déf. Spé."
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -24737,17 +25306,23 @@ msgstr "Poison grave"
 msgid "Toxic Counter"
 msgstr "Cpt. poison grave"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:359
 msgid "Confusion"
-msgstr ""
+msgstr "Confusion"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:360
 msgid "Flinched"
-msgstr ""
+msgstr "Apeuré"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:361
 msgid "Torment"
-msgstr ""
+msgstr "Tourmente"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -24761,9 +25336,11 @@ msgstr "Nuée de Poudre"
 msgid "DefenseCurl"
 msgstr "Boul’Armure"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:364
 msgid "Rage"
-msgstr ""
+msgstr "Frénésie"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -24783,9 +25360,11 @@ msgstr "Fuite impossible"
 msgid "Cursed"
 msgstr "Maudit"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:368
 msgid "Foresight"
-msgstr ""
+msgstr "Clairvoyance"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -24835,25 +25414,35 @@ msgstr "Bombe au Sirop"
 msgid "Glaive Rush"
 msgstr "Charge Glaive"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:378
 msgid "Leech Seed"
-msgstr ""
+msgstr "Vampigraine"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:379
 msgid "Lock On"
-msgstr ""
+msgstr "Verrouillage"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:380
 msgid "Perish Song"
-msgstr ""
+msgstr "Requiem"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:381
 msgid "Minimize"
-msgstr ""
+msgstr "Lilliput"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:382
 msgid "Charge"
-msgstr ""
+msgstr "Chargeur"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -24861,21 +25450,29 @@ msgstr ""
 msgid "Root"
 msgstr "Racines"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:384
 msgid "Yawn"
-msgstr ""
+msgstr "Bâillement"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:385
 msgid "Imprison"
-msgstr ""
+msgstr "Possessif"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:387
 msgid "Gastro Acid"
-msgstr ""
+msgstr "Suc Digestif"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:388
 msgid "Embargo"
-msgstr ""
+msgstr "Embargo"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -24889,21 +25486,29 @@ msgstr "Anti-Air"
 msgid "Telekinesis"
 msgstr "Lévikinésie"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:391
 msgid "Miracle Eye"
-msgstr ""
+msgstr "Œil Miracle"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:392
 msgid "Magnet Rise"
-msgstr ""
+msgstr "Vol Magnétik"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:393
 msgid "Heal Block"
-msgstr ""
+msgstr "Anti-Soin"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:394
 msgid "Aqua Ring"
-msgstr ""
+msgstr "Anneau Hydro"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -24911,9 +25516,11 @@ msgstr ""
 msgid "Laser Focus"
 msgstr "Affilage"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:396
 msgid "Power Trick"
-msgstr ""
+msgstr "Astuce Force"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -24921,13 +25528,17 @@ msgstr ""
 msgid "Sticky Web"
 msgstr "Toile Gluante"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:403
 msgid "Toxic Spikes"
-msgstr ""
+msgstr "Pics Toxik"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:404
 msgid "Stealth Rock"
-msgstr ""
+msgstr "Piège de Roc"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -24935,25 +25546,35 @@ msgstr ""
 msgid "Steelsurge"
 msgstr "Percée G-Max"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:410
 msgid "Reflect"
-msgstr ""
+msgstr "Protection"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:411
 msgid "Light Screen"
-msgstr ""
+msgstr "Mur Lumière"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:412
 msgid "Safeguard"
-msgstr ""
+msgstr "Rune Protect"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:413
 msgid "Mist"
-msgstr ""
+msgstr "Brume"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:414
 msgid "Tailwind"
-msgstr ""
+msgstr "Vent Arrière"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -24961,9 +25582,11 @@ msgstr ""
 msgid "Aurora Veil"
 msgstr "Voile Aurore"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:416
 msgid "Lucky Chant"
-msgstr ""
+msgstr "Air Veinard"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -25019,9 +25642,11 @@ msgstr "Cherche K.O. en 2"
 msgid "Prefer Baton Pass"
 msgstr "Préfère Relais"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:432
 msgid "Double Battle"
-msgstr ""
+msgstr "Combat Duo"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -25053,9 +25678,11 @@ msgstr "Se sacrifie"
 msgid "Prefer Status Moves"
 msgstr "Préfère cap. statut"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:438
 msgid "Stall"
-msgstr ""
+msgstr "Temporiser"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -25135,9 +25762,11 @@ msgstr "Fonction dynamique"
 msgid "Roaming"
 msgstr "Errant"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:452
 msgid "Safari"
-msgstr ""
+msgstr "Safari"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -25181,9 +25810,11 @@ msgstr "Change pour "
 msgid "All"
 msgstr "Toutes"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:2165
 msgid "Restore Hp"
-msgstr ""
+msgstr "Soin PV"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -25215,9 +25846,11 @@ msgstr "SoinBRU"
 msgid "Cure Frz"
 msgstr "SoinGEL"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:2171
 msgid "Restore Pp"
-msgstr ""
+msgstr "Soin PP"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -25488,9 +26121,11 @@ msgstr "Mouch. Choix"
 msgid "Damp Rock"
 msgstr "Roche Humide"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:2216
 msgid "Grip Claw"
-msgstr ""
+msgstr "Accro Griffe"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -25527,9 +26162,11 @@ msgstr "Roche Lisse"
 msgid "Power Herb"
 msgstr "Herbe Pouv."
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/battle_debug.c:2222
 msgid "Big Root"
-msgstr ""
+msgstr "Grosseracine"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -25962,15 +26599,21 @@ msgstr "{COLOR GREEN}VRAI"
 msgid "{COLOR RED}FALSE"
 msgstr "{COLOR RED}FAUX"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/debug.c:427
 msgid "Continue…"
-msgstr ""
+msgstr "Continuer…"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/debug.c:429
 msgid ""
 "Group: {STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n\\n{STR_VAR_3}{CLEAR_TO "
 "90}"
 msgstr ""
+"Groupe: {STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n\\n{STR_VAR_3}{CLEAR_TO "
+"90}"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -26046,13 +26689,19 @@ msgstr "Samedi"
 msgid "Brendan"
 msgstr "BRICE"
 
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : Émeraude FR : FLORA
 #: src/debug.c:458
 msgid "May"
-msgstr ""
+msgstr "FLORA"
 
+#. source : Émeraude FR officiel
+#. lot : C1_restes
+#. preuve : Émeraude FR : PIERRE
 #: src/debug.c:459
 msgid "Steven"
-msgstr ""
+msgstr "PIERRE"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -26060,9 +26709,12 @@ msgstr ""
 msgid "Wally"
 msgstr "TIMMY"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
+#. preuve : 171:55 — Red
 #: src/debug.c:461
 msgid "Red"
-msgstr ""
+msgstr "Red"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -26610,13 +27262,17 @@ msgstr "Dresseur 1: {STR_VAR_1}"
 msgid "Trainer 2: {STR_VAR_1}"
 msgstr "Dresseur 2: {STR_VAR_1}"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/debug.c:674
 msgid "Partner: {STR_VAR_1}"
-msgstr ""
+msgstr "Partenaire: {STR_VAR_1}"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/debug.c:675
 msgid "Double Battle: {STR_VAR_1}"
-msgstr ""
+msgstr "Combat Duo: {STR_VAR_1}"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -26648,9 +27304,11 @@ msgstr "Recharger Cherche VS"
 msgid "SFX…"
 msgstr "Sons…"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/debug.c:686
 msgid "Music…"
-msgstr ""
+msgstr "Musique…"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -26814,9 +27472,11 @@ msgstr "Utilitaires…"
 msgid "PC/Bag…"
 msgstr "PC/Sac…"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/debug.c:733
 msgid "Party…"
-msgstr ""
+msgstr "Equipe…"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -26824,9 +27484,11 @@ msgstr ""
 msgid "Give X…"
 msgstr "Donner…"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/debug.c:735
 msgid "Player…"
-msgstr ""
+msgstr "Joueur…"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -26846,9 +27508,11 @@ msgstr "Dresseurs…"
 msgid "Flags & Vars…"
 msgstr "Flags et vars…"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/debug.c:739
 msgid "Sound…"
-msgstr ""
+msgstr "Son…"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -26896,17 +27560,25 @@ msgstr ""
 "ID local: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO "
 "90}"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
+#. preuve : 422:1 — Nº {STRVAR_1 54, 0, 0}
 #: src/debug.c:2048
 msgid "ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO 90}"
-msgstr ""
+msgstr "ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO 90}"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/debug.c:2256
 msgid "Flag: {STR_VAR_1}{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}\\n{STR_VAR_3}"
 msgstr ""
+"Drapeau: {STR_VAR_1}{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}\\n{STR_VAR_3}"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/debug.c:2707
 msgid " None"
-msgstr ""
+msgstr " Aucune"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -26935,11 +27607,15 @@ msgid ""
 msgstr ""
 "Espèce: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO 90}"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/debug.c:2997
 msgid ""
 "Level:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
 "90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 msgstr ""
+"Niveau:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -26997,13 +27673,17 @@ msgstr ""
 "Facteur Gmax:{CLEAR_TO 90}\\n   {STR_VAR_2}{CLEAR_TO 90}\\n{CLEAR_TO "
 "90}\\n{CLEAR_TO 90}"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/debug.c:3431
 msgid "Default"
-msgstr ""
+msgstr "Par défaut"
 
+#. source : traduction nouvelle
+#. lot : C1_restes
 #: src/debug.c:3436
 msgid "Move "
-msgstr ""
+msgstr "Cap. "
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees

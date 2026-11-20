@@ -140,8 +140,9 @@ class Verif:
         if re.search(r'[^\s\\?!] [!?:;](?![?!])', CODE.sub('X', msgstr)) and not re.search(r' [!?:;]', CODE.sub('X', msgid)):
             pb.append(('TYPO', 'espace avant ! ? : ;'))
         # kana / caractères
-        if KANA.search(msgstr):
-            pb.append(('KANA', ''.join(sorted(set(KANA.findall(msgstr))))))
+        kana = set(KANA.findall(msgstr)) - set(KANA.findall(msgid))   # sauf texte japonais d'origine gardé tel quel
+        if kana:
+            pb.append(('KANA', ''.join(sorted(kana))))
         bad = self.cm.invalid(msgstr)
         if '$' in msgstr and '$' not in msgid:
             bad = list(bad) + ['$ (= 0xFF, fin de chaîne)']
