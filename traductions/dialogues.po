@@ -8339,12 +8339,16 @@ msgstr ""
 msgid "RESEARCH LAB"
 msgstr "Labo Pokémon"
 
-#. source : patch FR actuel
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x17FF9C (pokefirered CeladonCity_Text_MansionSign, BPRE
+#. 0x1801E5, ptr) : MANOIR CELADON
+#. ancien (patch FR actuel) : MANOIR CELADON
 #: data/maps/CeladonCity_Frlg/scripts.inc:160
 #: data/maps/CeladonCity_hns/scripts.inc:157
 #: data/text/fame_checker_frlg.inc:831 data/text/fame_checker_frlg.inc:906
 msgid "CELADON MANSION"
-msgstr "MANOIR CELADON"
+msgstr "Manoir Céladon"
 
 #. source : traduction nouvelle
 #. lot : D1_dialogues
@@ -39737,16 +39741,21 @@ msgstr ""
 "attention.\\pLes Pokémon sont tes amis.\\nVous devez faire équipe.\\pAllez, "
 "file!\\nJe suis avec toi de tout cœur!"
 
-#. source : traduction nouvelle
-#. lot : D4_dialogues
-#. preuve : Lostelle = LOSTELLE (pokepedia.fr/Bois_Baies)
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x1A1AA4 (pokefirered
+#. ThreeIsland_House1_Text_YoureAlwaysSoCool, BPRE 0x1A2F3E, ptr) : LOSTELLE:
+#. Coucou {PLAYER}!\nÇa marche pour toi?\pUn de ces jours, je t’inviterai\nà
+#. manger à la maison.
+#. ancien (traduction nouvelle) : Lostelle: Salut, {PLAYER}! Tu es\ntoujours
+#. si génial!\pUn jour, je te préparerai aussi un\ndéjeuner, {PLAYER}.
 #: data/maps/ThreeIsland_House1_Frlg/scripts.inc:17
 msgid ""
 "LOSTELLE: Hi, {PLAYER}!\\nYou're always so cool!\\pI'll make lunch for you, "
 "too, one\\nday, {PLAYER}."
 msgstr ""
-"Lostelle: Salut, {PLAYER}! Tu es\\ntoujours si génial!\\pUn jour, je te "
-"préparerai aussi un\\ndéjeuner, {PLAYER}."
+"Lostelle: Coucou {PLAYER}!\\nÇa marche pour toi?\\pUn de ces jours, je "
+"t’inviterai\\nà manger à la maison."
 
 #. source : Rouge Feu FR officiel
 #. lot : F_frlg
@@ -43979,19 +43988,23 @@ msgstr "C’est une carte!\\nÇa peut être utile!"
 msgid "The shelves are crammed full of\\nbooks on POKéMON."
 msgstr "Des bouquins sur les Pokémon!"
 
-#. source : SoulSilver FR officiel (adapté)
-#. lot : D2_dialogues
-#. preuve : Nina: Bienvenue!\nTu tombes bien, j’allais faire du thé.\rEn veux-
-#. tu?\nOh, vous êtes tout crottés.\rJe peux te bichonner un Pokémon.
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x18D313 (pokefirered
+#. PalletTown_RivalsHouse_Text_LikeMeToGroomMon, BPRE 0x18D7D3, ptr) : NINA:
+#. Salut! Ça tombe bien,\nj’allais faire du thé. En veux-tu?\pOh, tes POKéMON
+#. sont sales.\nTu veux que j’en bichonne un?
+#. ancien (SoulSilver FR officiel (adapté)) : Nina: Salut, {PLAYER}! Tu tombes
+#. bien.\pJ’allais prendre le thé. Tu veux te\njoindre à moi?\pOh, mais
+#. regarde. Tes Pokémon sont un\npeu sales.\pVeux-tu que j’en bichonne un?
 #: data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc:212
 msgid ""
 "DAISY: Hi, {PLAYER}!\\nGood timing.\\pI'm about to have some tea.\\nWould "
 "you like to join me?\\pOh, but look.\\nYour POKéMON are a little "
 "dirty.\\pWould you like me to groom one?"
 msgstr ""
-"Nina: Salut, {PLAYER}! Tu tombes bien.\\pJ’allais prendre le thé. Tu veux "
-"te\\njoindre à moi?\\pOh, mais regarde. Tes Pokémon sont un\\npeu "
-"sales.\\pVeux-tu que j’en bichonne un?"
+"Nina: Salut! Ça tombe bien,\\nj’allais faire du thé. En veux-tu?\\pOh, tes "
+"Pokémon sont sales.\\nTu veux que j’en bichonne un?"
 
 #. source : Rouge Feu FR officiel (adapté)
 #. lot : F_frlg
@@ -63144,8 +63157,18 @@ msgstr ""
 "Les panneaux de pierre sont\\nillustrés! Et ils bougent... A quoi ça\\lpeut "
 "servir?"
 
-#. source : traduction nouvelle
-#. lot : D3a_dialogues
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x178FD1 (pokefirered
+#. PokemonLeague_HallOfFame_Text_OakCongratulations, BPRE 0x17922F, ptr) :
+#. CHEN: Hum-hum!\nFélicitations {PLAYER}!\pCet étage est réservé au\nPANTHEON
+#. DES DRESSEURS.\pLes MAITRES de la LIGUE POKéMON\nsont consacrés ici!\pLeurs
+#. POKéMON sont enregistrés\nen tant que CELEBRITES!
+#. ancien (traduction nouvelle) : Chen: Hum hum! Félicitations, {PLAYER}!\pCet
+#. étage abrite le Panthéon\nPokémon.\pLes Maîtres de la Ligue Pokémon y\nsont
+#. honorés pour leurs exploits.\pLeurs Pokémon sont aussi inscrits
+#. au\nPanthéon.\p{PLAYER}!\pTu as travaillé dur pour devenir le\nnouveau
+#. Maître de la Ligue.\pFélicitations, {PLAYER}
 #: data/maps/PokemonLeague_HallOfFame_Frlg/scripts.inc:57
 msgid ""
 "OAK: Er-hem!\\nCongratulations, {PLAYER}!\\pThis floor is the POKéMON HALL "
@@ -63155,12 +63178,11 @@ msgid ""
 "CHAMPION.\\pCongratulations, {PLAYER}, you and\\nyour POKéMON are HALL OF "
 "FAMERS!"
 msgstr ""
-"Chen: Hum hum! Félicitations, {PLAYER}!\\pCet étage abrite le "
-"Panthéon\\nPokémon.\\pLes Maîtres de la Ligue Pokémon y\\nsont honorés pour "
-"leurs exploits.\\pLeurs Pokémon sont aussi inscrits "
-"au\\nPanthéon.\\p{PLAYER}!\\pTu as travaillé dur pour devenir le\\nnouveau "
-"Maître de la Ligue.\\pFélicitations, {PLAYER}, toi et tes\\nPokémon entrez "
-"au Panthéon!"
+"Chen: Hum-hum!\\nFélicitations {PLAYER}!\\pCet étage est réservé "
+"au\\nPanthéon des Dresseurs.\\pLes Maîtres de la Ligue Pokémon\\nsont "
+"consacrés ici!\\pLeurs Pokémon sont enregistrés\\nen tant que "
+"Celebrites!\\p{PLAYER}!\\pTon périple fut long jusqu’à\\nla "
+"victoire!\\pEncore bravo. Toi et tes chers\\nPokémon êtes tous célèbres!"
 
 #. source : Émeraude FR officiel (contexte de script)
 #: data/maps/MagmaHideout_2F_2R/scripts.inc:25
@@ -67287,17 +67309,27 @@ msgid ""
 "FAN CLUB?"
 msgstr "Hmm…\\nEt tu es?\\pTu comptais vraiment entrer\\nau Fan Club?"
 
-#. source : traduction nouvelle
-#. lot : D3b_dialogues
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x19BCCB (pokefirered
+#. SaffronCity_PokemonTrainerFanClub_Text_YouveStillAWaysToGo, BPRE 0x19C9D5,
+#. ptr) : Ah, tu es la personne dont tout le\nmonde parle en ce
+#. moment.\pEffectivement, je décèle un\ncertain quelque chose en toi.\pMais
+#. tu as encore beaucoup de\nchemin à parcourir pour que je\pte co
+#. ancien (traduction nouvelle) : Ah, c’est donc toi, ce fameux\n{PLAYER} dont
+#. on parle tant.\pTu as vraiment l’allure d’un\ngagnant.\pMais pour que je te
+#. considère comme\nun vrai grand du monde Pokémon…\p… …\pIl te reste du
+#. chemin à faire!
 #: data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc:507
 msgid ""
 "Ah, so you are the much-\\ntalked-about {PLAYER}.\\pYou certainly do have "
 "the look of\\na winner.\\pBut for me to accept you as\\na true POKéMON "
 "great…\\p… …\\pYou've still a ways to go!"
 msgstr ""
-"Ah, c’est donc toi, ce fameux\\n{PLAYER} dont on parle tant.\\pTu as "
-"vraiment l’allure d’un\\ngagnant.\\pMais pour que je te considère comme\\nun"
-" vrai grand du monde Pokémon…\\p… …\\pIl te reste du chemin à faire!"
+"Ah, tu es la personne dont tout le\\nmonde parle en ce "
+"moment.\\pEffectivement, je décèle un\\ncertain quelque chose en toi.\\pMais"
+" tu as encore beaucoup de\\nchemin à parcourir pour que je\\pte considère "
+"comme un grand\\nDresseur."
 
 #. source : Rouge Feu FR officiel
 #. lot : F_frlg
@@ -67331,15 +67363,22 @@ msgstr ""
 msgid "It's {PLAYER}!\\nIt's {PLAYER}!\\pI want to be like {PLAYER} one day!"
 msgstr "C’est {PLAYER}!\\nC’est {PLAYER}!\\pUn jour, je serai comme {PLAYER}!"
 
-#. source : traduction nouvelle
-#. lot : D3b_dialogues
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x19BE9D (pokefirered
+#. SaffronCity_PokemonTrainerFanClub_Text_EveryoneButMeStoppedBeingYourFan,
+#. BPRE 0x19CB62, ptr) : {PLAYER} a perdu tous ses fans.\pÇa veut dire que je
+#. peux l’avoir\nrien que pour moi!\pAllez, {PLAYER}!\nEpate-moi!
+#. ancien (traduction nouvelle) : Plus personne n’est fan de\n{PLAYER}…\pMais
+#. ça veut dire que j’ai {PLAYER}\nrien que pour moi!\pOuais! Vas-y!\nMon seul
+#. et unique {PLAYER}!
 #: data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc:530
 msgid ""
 "Everyone stopped being {PLAYER}'s\\nfan…\\pBut that means I can have "
 "{PLAYER}\\nall to myself!\\pYay! Go for it!\\nMy one and only {PLAYER}!"
 msgstr ""
-"Plus personne n’est fan de\\n{PLAYER}…\\pMais ça veut dire que j’ai "
-"{PLAYER}\\nrien que pour moi!\\pOuais! Vas-y!\\nMon seul et unique {PLAYER}!"
+"{PLAYER} a perdu tous ses fans.\\pÇa veut dire que je peux l’avoir\\nrien "
+"que pour moi!\\pAllez, {PLAYER}!\\nEpate-moi!"
 
 #. source : Rouge Feu FR officiel
 #. lot : F_frlg
@@ -67441,17 +67480,24 @@ msgstr ""
 "{STR_VAR_1} est cool, hein?\\nJ’adore sa façon de parler.\\pSi seulement je "
 "pouvais lui\\nparler en personne."
 
-#. source : traduction nouvelle
-#. lot : D3b_dialogues
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x19C18E (pokefirered
+#. SaffronCity_PokemonTrainerFanClub_Text_ImLoneTrainerFan, BPRE 0x19CE3A,
+#. ptr) : Tu le crois ça?\nIls sont tous fans de toi.\pComment ça se fait que
+#. je sois\nle seul fan de {STR_VAR_1}?
+#. ancien (traduction nouvelle) : Hé, tu y crois, toi?\nTout le monde est
+#. devenu ton fan.\pAlors, après tout ce qu’on a vécu,\nje suis le seul fan de
+#. {STR_VAR_1}?\pBah, être l’unique fan de\n{STR_VAR_1}, c’est mon style,
+#. de\ltoute façon.
 #: data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc:578
 msgid ""
 "Huh, can you believe it?\\nEveryone turned into your fans.\\pSo after all "
 "we've been through,\\nI'm the lone {STR_VAR_1} fan?\\pEh, being the one and "
 "only\\n{STR_VAR_1} fan's my style, anyway."
 msgstr ""
-"Hé, tu y crois, toi?\\nTout le monde est devenu ton fan.\\pAlors, après tout"
-" ce qu’on a vécu,\\nje suis le seul fan de {STR_VAR_1}?\\pBah, être l’unique"
-" fan de\\n{STR_VAR_1}, c’est mon style, de\\ltoute façon."
+"Tu le crois ça?\\nIls sont tous fans de toi.\\pComment ça se fait que je "
+"sois\\nle seul fan de {STR_VAR_1}?"
 
 #. source : Rouge Feu FR officiel
 #. lot : F_frlg
@@ -67568,17 +67614,25 @@ msgstr ""
 "Pour moi, le plus grand c’est\\n{STR_VAR_1}!\\pPourquoi est-ce que je suis "
 "la\\nseule à penser ça?"
 
-#. source : traduction nouvelle
-#. lot : D3b_dialogues
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x19C50F (pokefirered
+#. SaffronCity_PokemonTrainerFanClub_Text_BelieveInMasterWithAllMyHeart, BPRE
+#. 0x19D211, ptr) : Je crois en {STR_VAR_1} de tout mon\ncœur.\pMême si je
+#. suis la seule à\npenser ça.\pSi seulement je pouvais le\nrencontrer, \pje
+#. me sentirais moins seule.
+#. ancien (traduction nouvelle) : Je crois en Maître {STR_VAR_1}\nde tout mon
+#. cœur.\pMême si je suis la seule à croire\nen lui.\pJe ne me sentirai jamais
+#. seule,\npourtant.\pPas si je continue à penser à Maître\n{STR_VAR_1}.
 #: data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc:635
 msgid ""
 "I believe in Master {STR_VAR_1}\\nwith all my heart.\\pEven if I am the only"
 " one to\\nbelieve in him.\\pI won't ever feel lonesome, though.\\pNot if I "
 "keep thinking about Master\\n{STR_VAR_1}."
 msgstr ""
-"Je crois en Maître {STR_VAR_1}\\nde tout mon cœur.\\pMême si je suis la "
-"seule à croire\\nen lui.\\pJe ne me sentirai jamais seule,\\npourtant.\\pPas"
-" si je continue à penser à Maître\\n{STR_VAR_1}."
+"Je crois en {STR_VAR_1} de tout mon\\ncœur.\\pMême si je suis la seule "
+"à\\npenser ça.\\pSi seulement je pouvais le\\nrencontrer, \\pje me sentirais"
+" moins seule."
 
 #. source : Rouge Feu FR officiel
 #. lot : F_frlg
@@ -70447,17 +70501,25 @@ msgstr ""
 "Tu en as attrapé… {STR_VAR_2}!?\\nC’est vraiment impressionant!\\pIl y a "
 "quelque chose que je\\nvoudrais te donner, {PLAYER}.\\pViens.\\nSuis-moi."
 
-#. source : traduction nouvelle
-#. lot : D2_dialogues
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x17D89A (pokefirered
+#. PalletTown_Text_OakYouEnjoyingTraveling, BPRE 0x17DA16, ptr) : CHEN: Ah,
+#. {PLAYER}! On dirait que\ntu apprécies ton voyage.\pTe connaissant, je peux
+#. facilement\nimaginer que tu comptes déjà\pte rendre dans des
+#. endroits\nencore plus exotiques.
+#. ancien (traduction nouvelle) : Chen: Ah, {PLAYER}! On dirait que tu\naimes
+#. voyager.\pTe connaissant, {PLAYER}, je te vois\nbien partir vers des
+#. contrées encore\lplus exotiques.\pC’est bien, c’est très bien. Hohoho.
 #: data/maps/PalletTown_Frlg/scripts.inc:510
 msgid ""
 "OAK: Ah, {PLAYER}!\\nYou seem to be enjoying traveling.\\pKnowing you, "
 "{PLAYER}, I can easily\\nimagine you going out to even more\\lexotic "
 "locales.\\pGood for you, good for you.\\nHohoho."
 msgstr ""
-"Chen: Ah, {PLAYER}! On dirait que tu\\naimes voyager.\\pTe connaissant, "
-"{PLAYER}, je te vois\\nbien partir vers des contrées encore\\lplus "
-"exotiques.\\pC’est bien, c’est très bien. Hohoho."
+"Chen: Ah, {PLAYER}! On dirait que\\ntu apprécies ton voyage.\\pTe "
+"connaissant, je peux facilement\\nimaginer que tu comptes déjà\\pte rendre "
+"dans des endroits\\nencore plus exotiques."
 
 #. source : Rouge Feu FR officiel
 #. lot : F_frlg
@@ -104408,16 +104470,21 @@ msgstr ""
 msgid "{PLAYER} received TM26\\nfrom GIOVANNI."
 msgstr "{PLAYER} obtient la CT26!"
 
-#. source : traduction nouvelle
-#. lot : D2_dialogues
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x18F0CC (pokefirered ViridianCity_Gym_Text_ExplainTM26, BPRE
+#. 0x18F695, ptr) : CT26: SEISME!\pCette attaque peut créer de\nvrais
+#. tremblements de terre!\pJe l’ai inventée il y a bien\nlongtemps…
+#. ancien (traduction nouvelle) : La CT26 contient Séisme.\pCette attaque
+#. puissante provoque un\nénorme tremblement de terre.\pJe l’ai créée quand je
+#. dirigeais\nl’Arène, il y a bien longtemps…
 #: data/maps/ViridianCity_Gym_Frlg/scripts.inc:152
 msgid ""
 "TM26 contains EARTHQUAKE.\\pIt is a powerful attack that causes\\na massive "
 "tremor.\\pI made it when I ran the GYM here,\\nfar too long ago… "
 msgstr ""
-"La CT26 contient Séisme.\\pCette attaque puissante provoque un\\nénorme "
-"tremblement de terre.\\pJe l’ai créée quand je dirigeais\\nl’Arène, il y a "
-"bien longtemps… "
+"CT26: Séisme!\\pCette attaque peut créer de\\nvrais tremblements de "
+"terre!\\pJe l’ai inventée il y a bien\\nlongtemps… "
 
 #. source : Rouge Feu FR officiel
 #. lot : F_frlg
@@ -104980,8 +105047,17 @@ msgstr ""
 "trouver un moyen de\\nles battre!\\pTu devrais t’y mettre sérieusement\\nsi "
 "tu veux les battre!"
 
-#. source : traduction nouvelle
-#. lot : D2_dialogues
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x1882FF (pokefirered Route22_Text_LateRivalIntro, BPRE
+#. 0x188A3C, ptr) : {RIVAL}: Tiens? {PLAYER}! Quelle\nsurprise, tu es là
+#. aussi?!\pAlors comme ça tu vas à la LIGUE?\nTu as tous les BADGES
+#. aussi?\lC’est bien!\pBon, je vais m’occuper vite\nfait de toi!\pÇa me fera
+#. un échauffement\navant la LI
+#. ancien (traduction nouvelle) : {RIVAL}: Quoi? {PLAYER}! Quelle\nsurprise de
+#. te voir ici!\pAlors tu vas à la Ligue Pokémon?\pTu as aussi tous les
+#. Badges? Pas mal!\pAlors je vais te battre, {PLAYER}, pour\nm’échauffer
+#. avant la Ligue Pokémon!\pAllez, viens!
 #: data/maps/Route22_Frlg/scripts.inc:268
 msgid ""
 "{RIVAL}: What? {PLAYER}!\\nWhat a surprise to see you here!\\pSo you're "
@@ -104989,10 +105065,10 @@ msgid ""
 " cool!\\pThen I'll whip you, {PLAYER}, as a\\nwarm-up for the POKéMON "
 "LEAGUE!\\pCome on!"
 msgstr ""
-"{RIVAL}: Quoi? {PLAYER}! Quelle\\nsurprise de te voir ici!\\pAlors tu vas à "
-"la Ligue Pokémon?\\pTu as aussi tous les Badges? Pas mal!\\pAlors je vais te"
-" battre, {PLAYER}, pour\\nm’échauffer avant la Ligue Pokémon!\\pAllez, "
-"viens!"
+"{RIVAL}: Tiens? {PLAYER}! Quelle\\nsurprise, tu es là aussi?!\\pAlors comme "
+"ça tu vas à la Ligue?\\nTu as tous les Badges aussi?\\lC’est bien!\\pBon, je"
+" vais m’occuper vite\\nfait de toi!\\pÇa me fera un échauffement\\navant la "
+"Ligue Pokémon!\\pAllez, viens te battre!"
 
 #. source : Rouge Feu FR officiel
 #. lot : F_frlg
@@ -122205,17 +122281,26 @@ msgstr ""
 msgid "There is a slight breeze blowing\\naround the box."
 msgstr "Il y a un courant d’air derrière\\nles cartons."
 
-#. source : traduction nouvelle
-#. lot : D4_dialogues
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x19F110 (pokefirered
+#. SevenIsland_House_Room1_Text_ChallengeVisitingTrainer, BPRE 0x1A0598, ptr)
+#. : Bienvenue!\pJe vais t’avouer une chose, il\ny a une salle cachée dans la
+#. cave.\pUn DRESSEUR appelé {STR_VAR_1}\nt’y attend en ce moment.\pTu es là
+#. pour l’affronter,\nn’est-ce pas?
+#. ancien (traduction nouvelle) : Ah! Bienvenue, mon ami!\pLaisse-moi te
+#. confier un secret. Il y\na une pièce cachée au sous-sol.\pUn Dresseur nommé
+#. {STR_VAR_1} y\nattend en ce moment.\pDis-moi, tu es bien venu
+#. défier\n{STR_VAR_1}, n’est-ce pas?
 #: data/maps/SevenIsland_House_Room1_Frlg/scripts.inc:187
 msgid ""
 "Ah!\\nWelcome, my friend!\\pLet me tell you something. There's\\na hidden "
 "room in the basement.\\pA TRAINER named {STR_VAR_1} is\\nwaiting there "
 "now.\\pTell me, you did come to challenge\\n{STR_VAR_1}, am I right?"
 msgstr ""
-"Ah! Bienvenue, mon ami!\\pLaisse-moi te confier un secret. Il y\\na une "
-"pièce cachée au sous-sol.\\pUn Dresseur nommé {STR_VAR_1} y\\nattend en ce "
-"moment.\\pDis-moi, tu es bien venu défier\\n{STR_VAR_1}, n’est-ce pas?"
+"Bienvenue!\\pJe vais t’avouer une chose, il\\ny a une salle cachée dans la "
+"cave.\\pUn Dresseur appelé {STR_VAR_1}\\nt’y attend en ce moment.\\pTu es là"
+" pour l’affronter,\\nn’est-ce pas?"
 
 #. source : Rouge Feu FR officiel
 #. lot : F_frlg
@@ -123586,10 +123671,18 @@ msgstr ""
 msgid "It… It's not anything weird.\\nPlease, I need your help."
 msgstr "Ce… Ce n’est pas\\ncompliqué, je t’en prie."
 
-#. source : traduction nouvelle
-#. lot : D4_dialogues
-#. preuve : Iles Sevii = SEVII ISLANDS (pokepedia.fr/Îles_Sevii) ; Rubis =
-#. RUBY (pokepedia.fr/Rubis_(objet))
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x1A05A0 (pokefirered
+#. OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands, BPRE
+#. 0x1A1A3F, ptr) : Quand j’étudiais les pierres\nprécieuses, j’ai
+#. découvert\pquelque chose d’important.\pIl y a une autre pierre qui va
+#. de\npair avec ce RUBIS.\pCette pierre devrait se trouver\nsur les ILES
+#. ancien (traduction nouvelle) : En étudiant les gemmes, j’ai\ndécouvert
+#. quelque chose d’important.\pIl existe une autre gemme qui va de\npair avec
+#. ce Rubis.\pCette autre gemme devrait se trouver\ndans les Iles
+#. Sevii.\p{PLAYER}, je t’en prie, va chercher\ncette autre gemme.\p{PLAYER},
+#. peux-tu me donner ton passe\nde ferry et ta Car
 #: data/maps/OneIsland_PokemonCenter_1F_Frlg/scripts.inc:781
 msgid ""
 "While I was studying gemstones,\\nI discovered something important.\\pThere "
@@ -123598,11 +123691,11 @@ msgid ""
 "go\\nfind the other gem.\\p{PLAYER}, may I have your ferry\\nPASS and the "
 "TOWN MAP?"
 msgstr ""
-"En étudiant les gemmes, j’ai\\ndécouvert quelque chose d’important.\\pIl "
-"existe une autre gemme qui va de\\npair avec ce Rubis.\\pCette autre gemme "
-"devrait se trouver\\ndans les Iles Sevii.\\p{PLAYER}, je t’en prie, va "
-"chercher\\ncette autre gemme.\\p{PLAYER}, peux-tu me donner ton passe\\nde "
-"ferry et ta Carte?"
+"Quand j’étudiais les pierres\\nprécieuses, j’ai découvert\\pquelque chose "
+"d’important.\\pIl y a une autre pierre qui va de\\npair avec ce "
+"Rubis.\\pCette pierre devrait se trouver\\nsur les Iles Sevii.\\p{PLAYER}, "
+"pourrais-tu chercher\\ncette pierre pour moi?\\pTiens, montre-moi ton "
+"Passe\\net la Carte."
 
 #. source : Rouge Feu FR officiel
 #. lot : F_frlg
@@ -127478,8 +127571,18 @@ msgstr ""
 "Très bien, tout est en ordre.\\nVous pouvez monter à bord.\\pPréparez-vous "
 "au départ de\\nla Flèche des Mers 12."
 
-#. source : traduction nouvelle
-#. lot : D2_dialogues
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x17FB61 (pokefirered
+#. VermilionCity_Text_Route2AideHasPackageForYou, BPRE 0x17FDD2, ptr) : Tiens,
+#. bonjour {PLAYER}!\nComment vas-tu?\pJe suis un des ASSISTANTS du\nPROF.
+#. CHEN.\pTu as déjà rencontré un autre\nassistant?\pIl avait un paquet pour
+#. toi de la\npart du PROFESSEUR.\pIl a dit qu’il part
+#. ancien (traduction nouvelle) : Oh, bonjour, {PLAYER}! Comment\nvas-
+#. tu?\pC’est moi, l’un des assistants du\nProf. Chen.\pTu as rencontré
+#. l’autre assistant?\pIl avait un colis du Prof. Chen pour\ntoi,
+#. {PLAYER}.\pIl a dit qu’il te chercherait du côté\nde la Route 2,
+#. {PLAYER}.\pSi tu passes par la Route 2,\ncherche-le, s’il te plaît.
 #: data/maps/VermilionCity_Frlg/scripts.inc:386
 msgid ""
 "Oh, hello, {PLAYER}!\\nHow are you doing?\\pIt's me, one of PROF. OAK's "
@@ -127487,11 +127590,11 @@ msgid ""
 "OAK\\nfor you, {PLAYER}.\\pHe said he'd look for you around\\nROUTE 2, "
 "{PLAYER}.\\pIf you're in the ROUTE 2 area,\\nplease look for him."
 msgstr ""
-"Oh, bonjour, {PLAYER}! Comment\\nvas-tu?\\pC’est moi, l’un des assistants "
-"du\\nProf. Chen.\\pTu as rencontré l’autre assistant?\\pIl avait un colis du"
-" Prof. Chen pour\\ntoi, {PLAYER}.\\pIl a dit qu’il te chercherait du "
-"côté\\nde la Route 2, {PLAYER}.\\pSi tu passes par la Route 2,\\ncherche-le,"
-" s’il te plaît."
+"Tiens, bonjour {PLAYER}!\\nComment vas-tu?\\pJe suis un des Assistants "
+"du\\nProf. Chen.\\pTu as déjà rencontré un autre\\nassistant?\\pIl avait un "
+"paquet pour toi de la\\npart du Professeur.\\pIl a dit qu’il partait à "
+"ta\\nrencontre vers la Route 2.\\pSi tu vas par là, essaie de le\\ntrouver, "
+"{PLAYER}."
 
 #. source : SoulSilver FR officiel
 #: data/maps/CeladonCity_DepartmentStore_2F_hns/scripts.inc:18
@@ -129112,8 +129215,18 @@ msgstr "Mon grand-père est chez mon frère\\nLéo au Cap d’Azuria."
 msgid "I saw these weird, slow POKéMON on\\nCYCLING ROAD."
 msgstr "J’ai vu un Pokémon qui bougeait\\nbizarrement sur la Piste Cyclable..."
 
-#. source : traduction nouvelle
-#. lot : D3a_dialogues
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x1788A6 (pokefirered PokemonLeague_ChampionsRoom_Text_Intro,
+#. BPRE 0x178B6C, ptr) : {RIVAL}: Salut {PLAYER}!\pJe t’attends depuis
+#. longtemps!\pTon devoir en tant qu’adversaire\nest d’entraîner mes
+#. POKéMON.\pEn améliorant mon POKéDEX, j’ai\ncherché des POKéMON
+#. surpuissants!\pJ’ai ainsi créé l’équ
+#. ancien (traduction nouvelle) : {RIVAL}: Hé, {PLAYER}!\pJ’avais hâte de te
+#. voir, {PLAYER}.\pMon rival doit être fort pour que je\nreste au top.\pEn
+#. complétant mon Pokédex, j’ai\ncherché des Pokémon partout.\pEt ce n’est pas
+#. tout: j’ai monté des\néquipes capables de battre n’importe\lquel type de
+#. Pokémon.\pEt maintenant…\pJe suis l
 #: data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc:228
 msgid ""
 "{RIVAL}: Hey, {PLAYER}!\\pI was looking forward to seeing\\nyou, "
@@ -129123,16 +129236,26 @@ msgid ""
 "LEAGUE CHAMPION!\\p{PLAYER}!\\nDo you know what that means?\\pI'll tell "
 "you.\\pI am the most powerful TRAINER in\\nthe world!"
 msgstr ""
-"{RIVAL}: Hé, {PLAYER}!\\pJ’avais hâte de te voir, {PLAYER}.\\pMon rival doit"
-" être fort pour que je\\nreste au top.\\pEn complétant mon Pokédex, "
-"j’ai\\ncherché des Pokémon partout.\\pEt ce n’est pas tout: j’ai monté "
-"des\\néquipes capables de battre n’importe\\lquel type de Pokémon.\\pEt "
-"maintenant…\\pJe suis le Maître de la Ligue Pokémon!\\p{PLAYER}! Tu sais ce "
-"que ça veut dire?\\pJe vais te le dire.\\pJe suis le Dresseur le plus "
-"puissant\\ndu monde!"
+"{RIVAL}: Salut {PLAYER}!\\pJe t’attends depuis longtemps!\\pTon devoir en "
+"tant qu’adversaire\\nest d’entraîner mes Pokémon.\\pEn améliorant mon "
+"Pokédex, j’ai\\ncherché des Pokémon surpuissants!\\pJ’ai ainsi créé l’équipe"
+" ultime,\\nefficace contre tous les types de\\lPokémon!\\pÇa t’épate, "
+"hein?\\pJe suis le Maître de la Ligue\\nPokémon!\\pTu sais c’que ça veut "
+"dire?\\pEcoute ça, minable!\\pJe suis le Dresseur le plus\\npuissant du "
+"monde! Yaaa!"
 
-#. source : traduction nouvelle
-#. lot : D3a_dialogues
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x178A3D (pokefirered
+#. PokemonLeague_ChampionsRoom_Text_RematchIntro, BPRE 0x178CD4, ptr) :
+#. {RIVAL}: Salut {PLAYER}!\pT’en as pas eu assez?\pTon devoir en tant
+#. qu’adversaire\nest d’entraîner mes POKéMON.\pEn améliorant mon POKéDEX,
+#. j’ai\ncherché des POKéMON surpuissants!\pJ’ai ainsi créé l’équip
+#. ancien (traduction nouvelle) : {RIVAL}: Hé, {PLAYER}!\pTu es revenu,
+#. {PLAYER}! Haha, c’est\ngénial!\pMon rival doit être fort pour que je\nreste
+#. au top.\pEn complétant mon Pokédex, j’ai\ncherché des Pokémon partout.\pEt
+#. ce n’est pas tout: j’ai monté des\néquipes capables de battre
+#. n’importe\lquel type de Pokémon.\pEt maintenant…\
 #: data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc:246
 msgid ""
 "{RIVAL}: Hey, {PLAYER}!\\pYou came back, {PLAYER}!\\nHahah, that is so "
@@ -129142,13 +129265,13 @@ msgid ""
 "LEAGUE CHAMPION!\\p{PLAYER}!\\nDo you know what that means?\\pI'll tell "
 "you.\\pI am the most powerful TRAINER in\\nthe world!"
 msgstr ""
-"{RIVAL}: Hé, {PLAYER}!\\pTu es revenu, {PLAYER}! Haha, c’est\\ngénial!\\pMon"
-" rival doit être fort pour que je\\nreste au top.\\pEn complétant mon "
-"Pokédex, j’ai\\ncherché des Pokémon partout.\\pEt ce n’est pas tout: j’ai "
-"monté des\\néquipes capables de battre n’importe\\lquel type de "
-"Pokémon.\\pEt maintenant…\\pJe suis le Maître de la Ligue "
-"Pokémon!\\p{PLAYER}! Tu sais ce que ça veut dire?\\pJe vais te le dire.\\pJe"
-" suis le Dresseur le plus puissant\\ndu monde!"
+"{RIVAL}: Salut {PLAYER}!\\pT’en as pas eu assez?\\pTon devoir en tant "
+"qu’adversaire\\nest d’entraîner mes Pokémon.\\pEn améliorant mon Pokédex, "
+"j’ai\\ncherché des Pokémon surpuissants!\\pJ’ai ainsi créé l’équipe "
+"ultime,\\nefficace contre tous les types de\\lPokémon!\\pÇa t’épate, "
+"hein?\\pJe suis le Maître de la Ligue\\nPokémon!\\pTu sais c’que ça veut "
+"dire?\\pEcoute ça, minable!\\pJe suis le Dresseur le plus\\npuissant du "
+"monde! Yaaa!"
 
 #. source : Rouge Feu FR officiel
 #. lot : F_frlg
@@ -135996,8 +136119,17 @@ msgstr "{RIVAL}: Pourquoi tu m’as appelé?"
 msgid "{RIVAL}: All right, Gramps!\\nLeave it all to me!"
 msgstr "{RIVAL}: OK, pépé!\\nLaisse-moi faire!"
 
-#. source : traduction nouvelle
-#. lot : D2_dialogues
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x18D996 (pokefirered
+#. PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap, BPRE
+#. 0x18DEF3, ptr) : {PLAYER}, c’est clair, j’ai pas\nbesoin de toi pour
+#. ça.\pJe sais! Je vais prendre une CARTE\nà ma sœur!\pEt je lui dirai de ne
+#. pas t’en\ndonner une! Yark!
+#. ancien (traduction nouvelle) : {PLAYER}, désolé de te le dire, mais tu\nne
+#. serviras à rien.\pJ’ai une idée! Je vais emprunter une\nCarte à ma
+#. sœur!\pJe vais lui dire de ne pas t’en prêter,\n{PLAYER}! Hahaha!\pPas la
+#. peine de venir chez moi après\nça!
 #: data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc:1362
 msgid ""
 "{PLAYER}, I hate to say it, but you\\nwon't be necessary for this.\\pI know!"
@@ -136005,10 +136137,9 @@ msgid ""
 "one,\\n{PLAYER}! Hahaha!\\pDon't bother coming around to\\nmy place after "
 "this!"
 msgstr ""
-"{PLAYER}, désolé de te le dire, mais tu\\nne serviras à rien.\\pJ’ai une "
-"idée! Je vais emprunter une\\nCarte à ma sœur!\\pJe vais lui dire de ne pas "
-"t’en prêter,\\n{PLAYER}! Hahaha!\\pPas la peine de venir chez moi "
-"après\\nça!"
+"{PLAYER}, c’est clair, j’ai pas\\nbesoin de toi pour ça.\\pJe sais! Je vais "
+"prendre une Carte\\nà ma sœur!\\pEt je lui dirai de ne pas t’en\\ndonner "
+"une! Yark!"
 
 #. source : Rouge Feu FR officiel (adapté)
 #. lot : F_frlg
@@ -136073,15 +136204,24 @@ msgstr ""
 msgid "OAK: Hey!\\nDon't go away yet!"
 msgstr "Chen: Hé! Ne pars pas tout\\nde suite!"
 
-#. source : traduction nouvelle
-#. lot : D2_dialogues
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_douteux
+#. preuve : BPRF 0x18DBE3 (pokefirered
+#. PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander, BPRE 0x18E194, ptr)
+#. : SALAMECHE? C’est un bon choix.\nTu vas devoir t’occuper de lui\pavec
+#. beaucoup de patience.\pAlors, tu as fait ton choix?\nTu veux ce POKéMON
+#. FEU?
+#. ancien (traduction nouvelle) : Ah! Tu choisis SALAMECHE. Il
+#. faudra\nl’élever avec patience.\pAlors, {PLAYER}, tu veux le Pokémon
+#. de\ntype Feu, SALAMECHE?
 #: data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc:1404
 msgid ""
 "Ah! CHARMANDER is your choice.\\nYou should raise it patiently.\\pSo, "
 "{PLAYER}, you're claiming the\\nFIRE POKéMON CHARMANDER?"
 msgstr ""
-"Ah! Tu choisis SALAMECHE. Il faudra\\nl’élever avec patience.\\pAlors, "
-"{PLAYER}, tu veux le Pokémon de\\ntype Feu, SALAMECHE?"
+"SALAMECHE? C’est un bon choix.\\nTu vas devoir t’occuper de lui\\pavec "
+"beaucoup de patience.\\pAlors, tu as fait ton choix?\\nTu veux ce Pokémon "
+"Feu?"
 
 #. source : Rouge Feu FR officiel
 #. lot : F_frlg

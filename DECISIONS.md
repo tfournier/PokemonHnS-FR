@@ -88,3 +88,11 @@ reportées dans `traductions/glossaire.tsv`.
     refusées (pinaillage, allongement sans gain, conventions du projet : {PKMN} écrit « Pokémon », {SUPER_E},
     capitales de Hoenn, « N. » réservé au niveau). Corrections des descriptions de capacités remises en page à
     152 px. Détail : rapport/relectures/R_relecture_differee/ et traductions/lots/R_relecture_differee/.
+20. **Cas douteux de Rouge Feu FR (lot F) et termes propres à Rouge Feu.** Texte officiel retenu quand seul un
+    {PLAYER} répété est omis (verifier.py traite désormais Rouge Feu / Vert Feuille FR comme Émeraude et
+    SoulSilver : un officiel peut omettre un code, jamais en ajouter) ; refusé quand il en ajoute un, quand le hack
+    a modifié la phrase (Nina qui bichonne), quand l'alignement est faux (« x un aussi! ») et pour les crédits
+    (autres personnes). Les répliques courtes partagées avec HnS (« No! », « Kaboom! »…) reçoivent le texte de
+    Rouge Feu FR par une entrée propre au fichier FRLG dont le pointeur est confirmé ; les cartes HnS gardent la
+    traduction générale. Les termes de Rouge Feu FR (Dingue des Capacités, Ticketaurora, Parc Central,
+    Memorydex, Cherche VS…) valent pour les textes FRLG ; les textes Johto/HnS gardent ceux de SoulSilver FR.

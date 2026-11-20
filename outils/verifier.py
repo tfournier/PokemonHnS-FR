@@ -162,7 +162,7 @@ class Verif:
         # codes
         a = collections.Counter(self.code_bytes(c) for c in CODE.findall(msgid) if self.est_code(c))
         b = collections.Counter(self.code_bytes(c) for c in CODE.findall(msgstr) if self.est_code(c))
-        exact_officiel = re.match(r'(émeraude|soulsilver) fr officiel', source.lower()) and 'adapt' not in source.lower()
+        exact_officiel = re.match(r'(émeraude|soulsilver|rouge feu|vert feuille) fr officiel', source.lower()) and 'adapt' not in source.lower()
         if a != b and not (exact_officiel and not (b - a)):
             a, b = codes(msgid), codes(msgstr)
             manque = list((a - b).elements()); trop = list((b - a).elements())
@@ -187,7 +187,7 @@ class Verif:
             pb.append(('CARACTERE', repr(sorted(set(bad))[:6])))
         # largeur (dialogues : textes multi-lignes ou domaine dialogues)
         dialogue = bool(re.search(r'\\[nlp]', msgid)) or domaine == 'dialogues'
-        officiel_exact = bool(re.match(r'(émeraude|soulsilver) fr officiel', source.lower())) and 'adapt' not in source.lower()
+        officiel_exact = bool(re.match(r'(émeraude|soulsilver|rouge feu|vert feuille) fr officiel', source.lower())) and 'adapt' not in source.lower()
         if dialogue and not officiel_exact and not re.search(r'\{(DYNAMIC|CLEAR_TO|CLEAR|FONT|SHIFT)', msgstr):
             wmax_en = max(self.g.largeur(l) for l in lignes(msgid))
             officiel = 'officiel' in source

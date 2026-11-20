@@ -9,16 +9,16 @@ Rapport généré par `outils/rapport.py`. Détails : `DECISIONS.md`, `rapport/E
 | Émeraude FR officiel | 7022 | 1918 | 4684 | 36 | **13660** |
 | Émeraude FR officiel (adapté) | 86 | 200 | 208 | 9 | **503** |
 | SoulSilver FR officiel | 1494 | 457 | 847 | 233 | **3031** |
-| SoulSilver FR officiel (adapté) | 441 | 27 | 27 | 3 | **498** |
-| Rouge Feu FR officiel | 2198 | 38 | 0 | 4 | **2240** |
+| SoulSilver FR officiel (adapté) | 440 | 27 | 27 | 3 | **497** |
+| Rouge Feu FR officiel | 2216 | 38 | 0 | 11 | **2265** |
 | Rouge Feu FR officiel (adapté) | 913 | 18 | 16 | 141 | **1088** |
 | Pokédex FR officiel (jeux récents) | 0 | 0 | 310 | 0 | **310** |
 | patch FR existant (vérifié) | 374 | 39 | 1189 | 0 | **1602** |
-| patch FR existant | 1498 | 727 | 2656 | 0 | **4881** |
-| traduction nouvelle ou manuelle | 780 | 991 | 1077 | 116 | **2964** |
+| patch FR existant | 1497 | 727 | 2656 | 0 | **4880** |
+| traduction nouvelle ou manuelle | 764 | 991 | 1077 | 116 | **2948** |
 | gardé tel quel (exception) | 48 | 113 | 258 | 8 | **427** |
 | sans source | 0 | 0 | 1 | 7 | **8** |
-| **Total** | 14854 | 4528 | 11273 | 557 | **31212** |
+| **Total** | 14854 | 4528 | 11273 | 564 | **31219** |
 
 ## Construction et contrôles
 
@@ -90,8 +90,8 @@ Ces points ont été tranchés provisoirement ; un œil humain (idéalement avec
 
 **Noms sans source officielle vérifiée**
 - Rouge Feu / Vert Feuille : textes et noms désormais repris de Rouge Feu FR officiel (lot F, alignement par
-  pointeurs). Restent à regarder : 41 cas douteux (`traductions/lots/F_frlg/douteux.json`, gardés en traduction
-  actuelle) et les termes de Rouge Feu FR qui diffèrent du glossaire (Dingue des Capacités, Ticketaurora, Parc
+  pointeurs). Les 41 cas douteux sont tranchés (décision 20) ; 16 gardent la traduction
+  actuelle (phrase modifiée par le hack, code {PLAYER} ajouté, crédits). Restent à regarder les termes de Rouge Feu FR qui diffèrent du glossaire (Dingue des Capacités, Ticketaurora, Parc
   Central, Memorydex…), retenus pour les seuls textes FRLG ; détail dans `traductions/lots/F_frlg/noms_a_valider.md`.
 - Catégorie Pokédex « Imposant » (Méga-Draïeul), « Tomberoche » (TOMBSTONY), « Lettre Evoli ». Les catégories des
   espèces de base sont désormais vérifiées contre les catégories officielles (lot K).

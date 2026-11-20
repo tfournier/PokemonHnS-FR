@@ -2,8 +2,8 @@ Ces points ont été tranchés provisoirement ; un œil humain (idéalement avec
 
 **Noms sans source officielle vérifiée**
 - Rouge Feu / Vert Feuille : textes et noms désormais repris de Rouge Feu FR officiel (lot F, alignement par
-  pointeurs). Restent à regarder : 41 cas douteux (`traductions/lots/F_frlg/douteux.json`, gardés en traduction
-  actuelle) et les termes de Rouge Feu FR qui diffèrent du glossaire (Dingue des Capacités, Ticketaurora, Parc
+  pointeurs). Les 41 cas douteux sont tranchés (décision 20) ; 16 gardent la traduction
+  actuelle (phrase modifiée par le hack, code {PLAYER} ajouté, crédits). Restent à regarder les termes de Rouge Feu FR qui diffèrent du glossaire (Dingue des Capacités, Ticketaurora, Parc
   Central, Memorydex…), retenus pour les seuls textes FRLG ; détail dans `traductions/lots/F_frlg/noms_a_valider.md`.
 - Catégorie Pokédex « Imposant » (Méga-Draïeul), « Tomberoche » (TOMBSTONY), « Lettre Evoli ». Les catégories des
   espèces de base sont désormais vérifiées contre les catégories officielles (lot K).
