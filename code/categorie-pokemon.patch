@@ -1,0 +1,35 @@
+diff --git a/src/international_string_util.c b/src/international_string_util.c
+index 9aac5c9d..ed3e3720 100644
+--- a/src/international_string_util.c
++++ b/src/international_string_util.c
+@@ -82,11 +82,27 @@ int Intl_GetListMenuWidth(const struct ListMenuTemplate *listMenu)
+     return finalWidth;
+ }
+ 
++// FR: l'ordre « catégorie + POKéMON » vient d'une chaîne traduisible ; {STR_VAR_1} y est
++// remplacé par la catégorie (« Pokémon Souris Feu » en français, rendu anglais inchangé).
++static const u8 sText_MonCategory[] = _("{STR_VAR_1} POKéMON");
++
+ void CopyMonCategoryText(u16 species, u8 *dest)
+ {
+-    u8 *str = StringCopy(dest, GetSpeciesCategory(species));
+-    *str = CHAR_SPACE;
+-    StringCopy(str + 1, gText_Pokemon);
++    const u8 *src = sText_MonCategory;
++
++    while (*src != EOS)
++    {
++        if (*src == PLACEHOLDER_BEGIN)
++        {
++            dest = StringCopy(dest, GetSpeciesCategory(species));
++            src += 2;
++        }
++        else
++        {
++            *dest++ = *src++;
++        }
++    }
++    *dest = EOS;
+ }
+ 
+ u8 *GetStringClearToWidth(u8 *dest, int fontId, const u8 *str, int totalStringWidth)

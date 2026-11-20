@@ -1,0 +1,26 @@
+diff --git a/include/config/general.h b/include/config/general.h
+index 69cbc55b..a72dbd7b 100644
+--- a/include/config/general.h
++++ b/include/config/general.h
+@@ -82,7 +82,7 @@
+ #define UNITS_METRIC                 1       // meters, kilograms
+ 
+ #define UNITS                        UNITS_IMPERIAL
+-#define CHAR_DEC_SEPARATOR           CHAR_PERIOD // CHAR_PERIOD is used as a decimal separator only in the UK and the US. The rest of the world uses CHAR_COMMA.
++#define CHAR_DEC_SEPARATOR           CHAR_COMMA // FR: virgule décimale (était CHAR_PERIOD) // CHAR_PERIOD is used as a decimal separator only in the UK and the US. The rest of the world uses CHAR_COMMA.
+ 
+ // Naming Screen
+ #define AUTO_LOWERCASE_KEYBOARD      GEN_3  // Starting in GEN_6, after entering the first uppercase character, the keyboard switches to lowercase letters.
+diff --git a/src/pokedex.c b/src/pokedex.c
+index 5b28af3f..2dcb04af 100644
+--- a/src/pokedex.c
++++ b/src/pokedex.c
+@@ -4467,7 +4467,7 @@ static u8* ConvertMonWeightToMetricString(u32 weight)
+ 
+     weightString[index++] = CHAR_k;
+     weightString[index++] = CHAR_g;
+-    weightString[index++] = CHAR_PERIOD;
++    // FR: pas de point après le symbole « kg »
+     weightString[index++] = EOS;
+     return weightString;
+ }

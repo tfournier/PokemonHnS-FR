@@ -8,7 +8,8 @@
   (corrections issues d'un audit ou d'une relecture : il faut alors un champ "note" ou "preuve").
 - Les textes officiels exacts (rang 1 et 2) ne sont jamais remplacés par une source de rang
   inférieur, même avec --corriger, sauf si l'entrée porte "alignement_faux": true (le texte
-  officiel était associé à la mauvaise phrase).
+  officiel était associé à la mauvaise phrase) ou "retouche_officiel": true (casse des libellés,
+  décision 14, ou contrainte de place démontrée en jeu ; justification obligatoire).
 - Contrôles bloquants (outils/verifier.py) : CODES, KANA, CARACTERE, LONGUEUR, ESPACE, FRAGMENT.
   Les autres (LARGEUR, GLOSSAIRE, ANGLAIS) sont signalés dans le journal.
 - Journal : rapport/integrations/<lot>.tsv ; --essai n'écrit pas les .po.
@@ -92,7 +93,7 @@ def main():
             ok = r_new < r_old or not ancien_src
             if not ok and corriger:
                 officiel_exact = r_old in (1, 2)
-                ok = (not officiel_exact) or it.get('alignement_faux')
+                ok = (not officiel_exact) or it.get('alignement_faux') or it.get('retouche_officiel')
                 if ok and not (it.get('note') or it.get('preuve')):
                     ok = False; st['correction sans justification'] += 1
             if not ok:

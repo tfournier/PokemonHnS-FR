@@ -1600,3 +1600,85 @@ msgstr "Psyko"
 msgctxt "src/data/easy_chat/easy_chat_group_status.h"
 msgid "PSYCHIC"
 msgstr "PSY"
+
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : ATQ. SPE.
+#: src/strings.c:0
+msgctxt "src/strings.c"
+msgid "SP. ATK"
+msgstr "ATQ.SP."
+
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : DEF. SPE.
+#: src/strings.c:0
+msgctxt "src/strings.c"
+msgid "SP. DEF"
+msgstr "DEF.SP."
+
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : VITESSE
+#: src/strings.c:0
+msgctxt "src/strings.c"
+msgid "SPEED"
+msgstr "VIT."
+
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : POUVOIR
+#: src/strings.c:0
+msgctxt "src/strings.c"
+msgid "POWER"
+msgstr "PUIS."
+
+#. source : traduction nouvelle
+#. lot : H_interface
+#: src/challenge_menu.c:0
+msgctxt "src/challenge_menu.c"
+msgid "EASY"
+msgstr "LEGER"
+
+#. source : traduction nouvelle
+#. lot : H_interface
+#: src/challenge_menu.c:0
+msgctxt "src/challenge_menu.c"
+msgid "HARD"
+msgstr "DUR"
+
+#. source : traduction nouvelle
+#. lot : H_interface
+#. preuve : ancien « or » (Émeraude FR, mot GOLD)
+#: src/oak_speech_hns.c:0
+msgctxt "src/oak_speech_hns.c"
+msgid "GOLD"
+msgstr "GOLD"
+
+#. source : traduction nouvelle
+#. lot : H_interface
+#: src/pokedex_plus_hgss.c:0
+msgctxt "src/pokedex_plus_hgss.c"
+msgid "ATK"
+msgstr "AT"
+
+#. source : traduction nouvelle
+#. lot : H_interface
+#: src/pokedex_plus_hgss.c:0
+msgctxt "src/pokedex_plus_hgss.c"
+msgid "DEF"
+msgstr "DF"
+
+#. source : traduction nouvelle
+#. lot : H_interface
+#: src/pokedex_plus_hgss.c:0
+msgctxt "src/pokedex_plus_hgss.c"
+msgid "RELAXED"
+msgstr "ABORDABLE"
+
+#. source : traduction nouvelle
+#. lot : H_interface
+#: src/international_string_util.c:0
+msgctxt "src/international_string_util.c"
+msgid "{STR_VAR_1} POKéMON"
+msgstr "Pokémon {STR_VAR_1}"

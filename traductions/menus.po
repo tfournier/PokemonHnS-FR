@@ -105,10 +105,12 @@ msgstr "CAT: "
 msgid "PWR: "
 msgstr "PUIS: "
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : PREC: 
 #: src/battle_controller_player.c:1770
 msgid "ACC: "
-msgstr "PREC: "
+msgstr "PRE: "
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -1116,11 +1118,13 @@ msgstr "COUPLE COOL"
 msgid "CRUSH KIN"
 msgstr "TANDEM"
 
-#. source : Émeraude FR officiel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : Prof.{PKMN}
 #: src/battle_main.c:416 src/battle_main.c:481
 #: src/pokenav_match_call_data.c:226 src/pokenav_match_call_data.c:691
 msgid "{PKMN} PROF."
-msgstr "Prof.{PKMN}"
+msgstr "Prof."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/battle_main.c:418
@@ -6242,10 +6246,13 @@ msgstr "Que doit faire\\nTIMMY?"
 msgid "{PAUSE 16}Link standby…"
 msgstr "{PAUSE 16}Connexion en cours…"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : ATTAQUE{CLEAR_TO 56}Sac\nPokémon{CLEAR_TO
+#. 56}Fuite
 #: src/battle_message.c:1425
 msgid "BATTLE{CLEAR_TO 56}BAG\\nPOKéMON{CLEAR_TO 56}RUN"
-msgstr "ATTAQUE{CLEAR_TO 56}Sac\\nPokémon{CLEAR_TO 56}Fuite"
+msgstr "ATTAQUE{CLEAR_TO 56}SAC\\nPOKéMON{CLEAR_TO 56}FUITE"
 
 #. source : Émeraude FR officiel
 #: src/battle_message.c:1426
@@ -8149,15 +8156,19 @@ msgstr "MODERNE"
 msgid "{L_BUTTON}PREVIOUS"
 msgstr "{L_BUTTON}PRECED."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {R_BUTTON}SUIV.
 #: src/challenge_menu.c:357
 msgid "{R_BUTTON}NEXT"
-msgstr "{R_BUTTON}SUIV."
+msgstr "{R_BUTTON}SUIVANT"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {R_BUTTON}SAUVE
 #: src/challenge_menu.c:358
 msgid "{R_BUTTON}SAVE"
-msgstr "{R_BUTTON}SAUVE"
+msgstr "{R_BUTTON}SAUVER"
 
 #. source : Émeraude FR officiel
 #: src/challenge_menu.c:359 src/data/union_room.h:88
@@ -8202,11 +8213,14 @@ msgid "STURDY works as in GEN III. Only\\nnegates OHKO moves (GUILLOTINE, etc.)"
 msgstr ""
 "Fermeté comme en GEN III. Bloque\\njuste les K.O. en 1 coup (Guillotine…)"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Fermeté comme en GEN V+. Les {PKMN}\nsurvivent
+#. aux coups fatals avec 1 PV.
 #: src/challenge_menu.c:379
 msgid "STURDY works as in GEN V+.\\n{PKMN} survive lethal hits with 1HP."
 msgstr ""
-"Fermeté comme en GEN V+. Les {PKMN}\\nsurvivent aux coups fatals avec 1 PV."
+"Fermeté comme en GEN V+. Les Pokémon\\nsurvivent aux coups fatals avec 1 PV."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:382
@@ -8218,16 +8232,22 @@ msgstr "Baie Sitrus rend 30 PV.\\nComme en GEN III."
 msgid "SITRUS BERRY restores 25% of\\ntotal HP. Same as GEN IV and up."
 msgstr "Baie Sitrus rend 25% des PV max.\\nComme en GEN IV et après."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Le TYPE Fée n’est pas ajouté aux\n{PKMN} qui
+#. l’ont eu en GEN VI.
 #: src/challenge_menu.c:386
 msgid "FAIRY TYPE isn't added to {PKMN}\\nthat got it in GEN VI."
-msgstr "Le TYPE Fée n’est pas ajouté aux\\n{PKMN} qui l’ont eu en GEN VI."
+msgstr "Le TYPE Fée n’est pas ajouté aux\\nPokémon qui l’ont eu en GEN VI."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Le TYPE Fée est ajouté / modifié chez\ncertains
+#. {PKMN}, comme en GEN VI.
 #: src/challenge_menu.c:387
 msgid "FAIRY TYPE is added / changed to\\ncertain {PKMN}, as in GEN VI."
 msgstr ""
-"Le TYPE Fée est ajouté / modifié chez\\ncertains {PKMN}, comme en GEN VI."
+"Le TYPE Fée est ajouté / modifié chez\\ncertains Pokémon, comme en GEN VI."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:390
@@ -8259,25 +8279,34 @@ msgstr "Les Menthes ne sont disponibles\\nqu’après avoir fini le jeu."
 msgid "Mints can be bought at the\\nFLOWER SHOP after the 3rd badge."
 msgstr "Les Menthes s’achètent chez le\\nFleuriste après le 3e Badge."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Vos {PKMN} peuvent être mis K.O.\npar le Poison.
 #: src/challenge_menu.c:402
 msgid "Your {PKMN} will faint if they are\\nPOISONED."
-msgstr "Vos {PKMN} peuvent être mis K.O.\\npar le Poison."
+msgstr "Vos Pokémon peuvent être mis K.O.\\npar le Poison."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Vos {PKMN} survivent au statut\nPoison avec 1
+#. PV.
 #: src/challenge_menu.c:403
 msgid "Your {PKMN} will survive the POISON\\nstatus with 1HP."
-msgstr "Vos {PKMN} survivent au statut\\nPoison avec 1 PV."
+msgstr "Vos Pokémon survivent au statut\\nPoison avec 1 PV."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : PHYSIQUE ou SPECIALE dépend\ndu TYPE du {PKMN}.
 #: src/challenge_menu.c:406
 msgid "PHYSICAL and SPECIAL MOVES\\ndepend on the {PKMN} TYPE."
-msgstr "PHYSIQUE ou SPECIALE dépend\\ndu TYPE du {PKMN}."
+msgstr "Catégorie physique ou spéciale\\nselon le type du Pokémon."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : PHYSIQUE ou SPECIALE dépend\nde la CAPACITE.
 #: src/challenge_menu.c:407
 msgid "PHYSICAL and SPECIAL MOVES\\nare MOVE specific."
-msgstr "PHYSIQUE ou SPECIALE dépend\\nde la CAPACITE."
+msgstr "Catégorie physique ou spéciale\\nselon la capacité."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/challenge_menu.c:410 src/challenge_menu.c:414 src/option_menu.c:241
@@ -8316,10 +8345,12 @@ msgstr "Aller à la page suivante."
 msgid "GAMEMODE"
 msgstr "MODE JEU"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : CAPA. {PKMN}
 #: src/challenge_menu.c:433
 msgid "{PKMN} MOVEPOOL"
-msgstr "CAPA. {PKMN}"
+msgstr "CAPA. POKéMON"
 
 #. source : Émeraude FR officiel
 #: src/challenge_menu.c:439 src/data/abilities.h:221
@@ -8465,10 +8496,12 @@ msgstr "NORMAL"
 msgid "HARD"
 msgstr "DIFFICILE"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : TOMBE
 #: src/challenge_menu.c:559
 msgid "CEMETERY"
-msgstr "TOMBE"
+msgstr "PC"
 
 #. source : Émeraude FR officiel
 #: src/challenge_menu.c:560 src/data/easy_chat/easy_chat_group_actions.h:322
@@ -8476,16 +8509,19 @@ msgstr "TOMBE"
 msgid "RELEASE"
 msgstr "RELACHER"
 
-#. source : patch FR actuel (correspondance douteuse, à vérifier)
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel (correspondance douteuse, à vérifier)) : ECHELLE
 #: src/challenge_menu.c:587 src/challenge_menu.c:593
 msgid "SCALE"
-msgstr "ECHELLE"
+msgstr "BADGES"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : EXTREME
 #: src/challenge_menu.c:595
 msgid "EXTREM"
-msgstr "EXTREME"
+msgstr "MAX"
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:601
@@ -8542,36 +8578,50 @@ msgstr "Forte chance de rencontre CHROMA."
 msgid "Very high chance of SHINY encounter."
 msgstr "Très forte chance de rencontre CHROMA."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Objets des {PKMN} sauvages obtenus\nseulement
+#. par capture ou Larcin.
 #: src/challenge_menu.c:645
 msgid "Wild {PKMN} items will be only\\nobtainable via capture or THIEF."
-msgstr "Objets des {PKMN} sauvages obtenus\\nseulement par capture ou Larcin."
+msgstr "Objets des Pokémon sauvages obtenus\\nseulement par capture ou Larcin."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} sauvages vaincus lâchent\nleur objet
+#. tenu.
 #: src/challenge_menu.c:646
 msgid "Wild {PKMN} will drop their hold\\nitem after defeating them."
-msgstr "Les {PKMN} sauvages vaincus lâchent\\nleur objet tenu."
+msgstr "Les Pokémon sauvages vaincus\\nlâchent leur objet tenu."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} légendaires puissants sont\nbannis de
+#. la Zone de Combat. Défaut.
 #: src/challenge_menu.c:649
 msgid "Powerful legendary {PKMN} are banned\\nin the BATTLE FRONTIER. Default."
-msgstr ""
-"Les {PKMN} légendaires puissants sont\\nbannis de la Zone de Combat. Défaut."
+msgstr "Légendaires puissants bannis de la\\nZone de Combat. Par défaut."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:650
 msgid "All legendaries are allowed to\\nparticipate in the BATTLE FRONTIER."
 msgstr "Tous les légendaires peuvent participer\\nà la Zone de Combat."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Couleurs chromatiques d’origine\npour tous les
+#. {PKMN}. Par défaut.
 #: src/challenge_menu.c:653
 msgid "Original shiny color palette for\\nall {PKMN}. Default."
-msgstr "Couleurs chromatiques d’origine\\npour tous les {PKMN}. Par défaut."
+msgstr "Couleurs chromatiques d’origine\\npour tous les Pokémon. Par défaut."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Certains {PKMN} chromatiques ont\nde nouvelles
+#. couleurs.
 #: src/challenge_menu.c:654
 msgid "Some shiny {PKMN} have brand new\\ncolor palettes."
-msgstr "Certains {PKMN} chromatiques ont\\nde nouvelles couleurs."
+msgstr "Certains Pokémon chromatiques ont\\nde nouvelles couleurs."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/challenge_menu.c:657
@@ -8613,38 +8663,45 @@ msgstr "Le jeu ne sera pas aléatoire."
 msgid "Play the game randomized.\\nSettings below!"
 msgstr "Jouer en mode aléatoire.\\nRéglages ci-dessous!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {PKMN} de départ normaux.
 #: src/challenge_menu.c:708
 msgid "Standard starter {PKMN}."
-msgstr "{PKMN} de départ normaux."
+msgstr "Pokémon de départ normaux."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {PKMN} de départ aléatoires.
 #: src/challenge_menu.c:709
 msgid "Randomize starter {PKMN}."
-msgstr "{PKMN} de départ aléatoires."
+msgstr "Pokémon de départ aléatoires."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:712
 msgid "Same wild encounter as in the\\nbase game."
 msgstr "Mêmes rencontres sauvages que\\ndans le jeu de base."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {PKMN} sauvages mélangés.
 #: src/challenge_menu.c:713
 msgid "Randomize wild {PKMN}."
-msgstr "{PKMN} sauvages mélangés."
+msgstr "Pokémon sauvages mélangés."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:716
 msgid "Wild encounters are fully random\\nevery time."
 msgstr "Rencontres sauvages totalement\\naléatoires à chaque fois."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Rencontres sauvages fixées par carte.\nUne zone
+#. a toujours les mêmes {PKMN}.
 #: src/challenge_menu.c:717
 msgid ""
 "Wild encounters are seeded per map.\\nSame area always has the same {PKMN}."
-msgstr ""
-"Rencontres sauvages fixées par carte.\\nUne zone a toujours les mêmes "
-"{PKMN}."
+msgstr "Rencontres fixées par carte: une\\nzone a toujours les mêmes Pokémon."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:720
@@ -8661,92 +8718,128 @@ msgstr "Equipes adverses aléatoires."
 msgid "Static encounters will be the same\\nas in the base game."
 msgstr "Les rencontres fixes restent celles\\ndu jeu de base."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {PKMN} nommés, {PKMN} du Casino, errants\net
+#. autres {PKMN} spéciaux inchangés.
 #: src/challenge_menu.c:725
 msgid ""
 "Named {PKMN}, casino {PKMN}, roamers, and\\nsome other special {PKMN} won't "
 "change."
-msgstr ""
-"{PKMN} nommés, {PKMN} du Casino, errants\\net autres {PKMN} spéciaux "
-"inchangés."
+msgstr "Pokémon nommés, du Casino, errants\\net autres spéciaux inchangés."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {PKMN} remplacés par d’autres de même\nrang.
+#. Basé sur le stade d’évolution.
 #: src/challenge_menu.c:728
 msgid ""
 "{PKMN} replaced with similar tiered\\nones. Currently based on evo stages."
-msgstr ""
-"{PKMN} remplacés par d’autres de même\\nrang. Basé sur le stade d’évolution."
+msgstr "Pokémon remplacés par d’autres de\\nmême rang (stade d’évolution)."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Répartition des {PKMN} non équilibrée\nselon
+#. leur puissance!
 #: src/challenge_menu.c:729
 msgid "Distribution of {PKMN} not balanced\\naround their strength!"
-msgstr "Répartition des {PKMN} non équilibrée\\nselon leur puissance!"
+msgstr "Répartition des Pokémon sans tenir\\ncompte de leur puissance!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} légendaires sont\nexclus du tirage.
 #: src/challenge_menu.c:732
 msgid "Legendary {PKMN} will not be\\nincluded and randomized."
-msgstr "Les {PKMN} légendaires sont\\nexclus du tirage."
+msgstr "Les Pokémon légendaires sont\\nexclus du tirage."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Inclut les {PKMN} légendaires\ndans le tirage!
 #: src/challenge_menu.c:733
 msgid "Include legendary {PKMN} in\\nrandomization!"
-msgstr "Inclut les {PKMN} légendaires\\ndans le tirage!"
+msgstr "Inclut les Pokémon légendaires\\ndans le tirage!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Utilise des {PKMN} de toutes\nles générations.
 #: src/challenge_menu.c:736
 msgid "Randomize into {PKMN} from every\\ngeneration."
-msgstr "Utilise des {PKMN} de toutes\\nles générations."
+msgstr "Utilise des Pokémon de toutes\\nles générations."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Seulement les {PKMN} des GEN 1-3\net leurs
+#. évolutions inter-GEN.
 #: src/challenge_menu.c:737
 msgid "Only GEN 1-3 {PKMN} and their\\ncross-gen evolutions."
-msgstr "Seulement les {PKMN} des GEN 1-3\\net leurs évolutions inter-GEN."
+msgstr "Seulement les Pokémon des GEN 1-3\\net leurs évolutions inter-GEN."
 
-#. source : patch FR actuel (correspondance douteuse, à vérifier)
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel (correspondance douteuse, à vérifier)) : Les types
+#. des {PKMN} restent\nceux du jeu de base.
 #: src/challenge_menu.c:740
 msgid "{PKMN} types stay the same as in\\nthe base game."
-msgstr "Les types des {PKMN} restent\\nceux du jeu de base."
+msgstr "Les types des Pokémon restent\\nceux du jeu de base."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Types des {PKMN} aléatoires.
 #: src/challenge_menu.c:741
 msgid "Randomize all {PKMN} types."
-msgstr "Types des {PKMN} aléatoires."
+msgstr "Types des Pokémon aléatoires."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les capacités des {PKMN} restent\ncelles du jeu
+#. de base.
 #: src/challenge_menu.c:744
 msgid "{PKMN} moves stay the same as in\\nthe base game."
-msgstr "Les capacités des {PKMN} restent\\ncelles du jeu de base."
+msgstr "Les capacités des Pokémon restent\\ncelles du jeu de base."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Capacités des {PKMN} aléatoires.
 #: src/challenge_menu.c:745
 msgid "Randomize all {PKMN} moves."
-msgstr "Capacités des {PKMN} aléatoires."
+msgstr "Capacités des Pokémon aléatoires."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les talents des {PKMN} restent\nceux du jeu de
+#. base.
 #: src/challenge_menu.c:748
 msgid "{PKMN} abilities stay the same as\\nin the base game."
-msgstr "Les talents des {PKMN} restent\\nceux du jeu de base."
+msgstr "Les talents des Pokémon restent\\nceux du jeu de base."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Rend aléatoire les talents {PKMN}.
 #: src/challenge_menu.c:749
 msgid "Randomize all {PKMN} abilities."
-msgstr "Rend aléatoire les talents {PKMN}."
+msgstr "Rend aléatoire les talents Pokémon."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les évolutions des {PKMN} restent\ncelles du jeu
+#. de base.
 #: src/challenge_menu.c:752
 msgid "{PKMN} evolutions stay the same as\\nin the base game."
-msgstr "Les évolutions des {PKMN} restent\\ncelles du jeu de base."
+msgstr "Les évolutions des Pokémon restent\\ncelles du jeu de base."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Rend aléatoire les évolutions {PKMN}.
 #: src/challenge_menu.c:753
 msgid "Randomize all {PKMN} evolutions."
-msgstr "Rend aléatoire les évolutions {PKMN}."
+msgstr "Rend les évolutions aléatoires."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} pouvant évoluer\nrestent les mêmes.
 #: src/challenge_menu.c:756
 msgid "The {PKMN} that can potentially\\nevolve are unchanged."
-msgstr "Les {PKMN} pouvant évoluer\\nrestent les mêmes."
+msgstr "Les Pokémon pouvant évoluer\\nrestent les mêmes."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:757
@@ -8795,15 +8888,19 @@ msgstr "Aller aux options Nuzlocke."
 msgid "RANDOMIZER"
 msgstr "ALEATOIRE"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {PKMN} DEPART
 #: src/challenge_menu.c:783
 msgid "STARTER {PKMN}"
-msgstr "{PKMN} DEPART"
+msgstr "POKéMON DEPART"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {PKMN} SAUV.
 #: src/challenge_menu.c:789
 msgid "WILD {PKMN}"
-msgstr "{PKMN} SAUV."
+msgstr "POKéMON SAUV."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:795
@@ -8816,10 +8913,12 @@ msgstr "PAR CARTE"
 msgid "TRAINER"
 msgstr "DRESSEUR"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {PKMN} FIXES
 #: src/challenge_menu.c:807
 msgid "STATIC {PKMN}"
-msgstr "{PKMN} FIXES"
+msgstr "POKéMON FIXES"
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:813
@@ -8885,61 +8984,87 @@ msgstr "MODE CHAOS"
 msgid "Nuzlocke mode is disabled."
 msgstr "Le mode Nuzlocke est désactivé."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} K.O. ne sont plus
+#. utilisables!\nAucune autre règle imposée.
 #: src/challenge_menu.c:892
 msgid "Fainted {PKMN} can't be used anymore!\\nNo more rules are enforced."
-msgstr "Les {PKMN} K.O. ne sont plus utilisables!\\nAucune autre règle imposée."
+msgstr "Les Pokémon K.O. sont inutilisables!\\nAucune autre règle imposée."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Une capture par route! Les {PKMN}\nK.O. ne sont
+#. plus utilisables.
 #: src/challenge_menu.c:893
 msgid "One catch per route! Fainted {PKMN}\\ncan't be used anymore."
-msgstr "Une capture par route! Les {PKMN}\\nK.O. ne sont plus utilisables."
+msgstr "Une capture par route! Les Pokémon\\nK.O. ne sont plus utilisables."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:894
 msgid "Same rules as NORMAL but also\\ndeletes SAVE on battle loss!"
 msgstr "Comme Normal, mais une défaite\\nefface la SAUVEGARDE!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Seuls les {PKMN} jamais capturés\ncomptent en
+#. 1re rencontre. RECOMMANDE!
 #: src/challenge_menu.c:897
 msgid "Only not prior caught {PKMN} count\\nas first encounter. RECOMMENDED!"
-msgstr ""
-"Seuls les {PKMN} jamais capturés\\ncomptent en 1re rencontre. RECOMMANDE!"
+msgstr "Seuls les Pokémon jamais capturés\\nsont 1re rencontre. CONSEILLE!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Le joueur doit capturer le premier\n{PKMN}
+#. rencontré sur chaque route.
 #: src/challenge_menu.c:898
 msgid "The player always has to catch the\\nfirst {PKMN} per route."
-msgstr "Le joueur doit capturer le premier\\n{PKMN} rencontré sur chaque route."
+msgstr ""
+"Le joueur doit capturer le premier\\nPokémon rencontré sur chaque route."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Le joueur peut toujours capturer\nles {PKMN}
+#. chromatiques. RECOMMANDE!
 #: src/challenge_menu.c:901
 msgid "The player can always catch shiny\\n{PKMN}. RECOMMENDED!"
-msgstr "Le joueur peut toujours capturer\\nles {PKMN} chromatiques. RECOMMANDE!"
+msgstr "Le joueur peut toujours capturer les\\nPokémon chromatiques. CONSEILLE!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Un {PKMN} chromatique ne peut être\ncapturé
+#. qu’en 1re rencontre.
 #: src/challenge_menu.c:902
 msgid "The player can only catch a shiny\\n{PKMN} if it's the first encounter."
-msgstr "Un {PKMN} chromatique ne peut être\\ncapturé qu’en 1re rencontre."
+msgstr "Un Pokémon chromatique ne peut être\\ncapturé qu’en 1re rencontre."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Oblige le joueur à donner un surnom\nà chaque
+#. {PKMN}. RECOMMANDE!
 #: src/challenge_menu.c:905
 msgid "Forces the player to nickname every\\n{PKMN}. RECOMMENDED!"
-msgstr "Oblige le joueur à donner un surnom\\nà chaque {PKMN}. RECOMMANDE!"
+msgstr "Oblige le joueur à donner un surnom\\nà chaque Pokémon. RECOMMANDE!"
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:906
 msgid "Nicknames are optional."
 msgstr "Le surnom est facultatif."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} K.O. vont au PC après le\ncombat,
+#. sans retour possible.
 #: src/challenge_menu.c:909
 msgid "Fainted {PKMN} are sent to the PC\\nafter battle and can't be retrieved."
-msgstr "Les {PKMN} K.O. vont au PC après le\\ncombat, sans retour possible."
+msgstr "Les Pokémon K.O. vont au PC après le\\ncombat, sans retour possible."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} K.O. sont relâchés\naprès le combat!
 #: src/challenge_menu.c:910
 msgid "Fainted {PKMN} are released after\\nbattle!"
-msgstr "Les {PKMN} K.O. sont relâchés\\naprès le combat!"
+msgstr "Les Pokémon K.O. sont relâchés\\naprès le combat!"
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:913
@@ -8986,48 +9111,68 @@ msgstr "K.O."
 msgid "INF. RARE CANDY"
 msgstr "S.BONBON INF."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Limite le nombre de {PKMN} de l’équipe.\n1 cause
+#. des bugs visuels en Duo.
 #: src/challenge_menu.c:969
 msgid ""
 "Limits the amount of {PKMN} in the\\nparty. 1 has visual bugs in DOUBLES."
-msgstr ""
-"Limite le nombre de {PKMN} de l’équipe.\\n1 cause des bugs visuels en Duo."
+msgstr "Limite le nombre de Pokémon de\\nl’équipe. 1: bugs visuels en Duo."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:975
 msgid "No level cap. Overleveling possible."
 msgstr "Aucun niveau max. Surniveau possible."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Niveau max = niveau du {PKMN} le\nplus fort de
+#. la prochaine Arène.
 #: src/challenge_menu.c:976
 msgid "Maximum level is based on the next\\ngym's highest {PKMN} level."
-msgstr "Niveau max = niveau du {PKMN} le\\nplus fort de la prochaine Arène."
+msgstr "Niveau max = niveau du Pokémon le\\nplus fort de la prochaine Arène."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Niveau max = niveau du {PKMN} le\nplus faible de
+#. la prochaine Arène.
 #: src/challenge_menu.c:977
 msgid "Maximum level is based on the next\\ngym's lowest {PKMN} level."
-msgstr "Niveau max = niveau du {PKMN} le\\nplus faible de la prochaine Arène."
+msgstr "Niveau max = niveau du Pokémon le\\nplus faible de la prochaine Arène."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} gagnent l’EXP. normale.\nCumul avec
+#. EXP. MODE DIFFICILE.
 #: src/challenge_menu.c:980
 msgid "{PKMN} gain normal EXP. Points.\\nStacks with HARD MODE EXP."
-msgstr "Les {PKMN} gagnent l’EXP. normale.\\nCumul avec EXP. MODE DIFFICILE."
+msgstr "Les Pokémon gagnent l’EXP. normale.\\nCumul avec EXP. MODE DIFFICILE."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} gagnent 50% d’EXP. en plus!\nCumul
+#. avec EXP. MODE DIFFICILE.
 #: src/challenge_menu.c:981
 msgid "{PKMN} gain 50 percent more EXP.\\nPoints! Stacks with HARD MODE EXP."
 msgstr ""
-"Les {PKMN} gagnent 50% d’EXP. en plus!\\nCumul avec EXP. MODE DIFFICILE."
+"Les Pokémon gagnent 50% d’EXP. en\\nplus! Cumul avec EXP. MODE DIFFICILE."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} gagnent 2x plus d’EXP.!\nCumul avec
+#. EXP. MODE DIFFICILE.
 #: src/challenge_menu.c:982
 msgid "{PKMN} gain double EXP. Points!\\nStacks with HARD MODE EXP."
-msgstr "Les {PKMN} gagnent 2x plus d’EXP.!\\nCumul avec EXP. MODE DIFFICILE."
+msgstr "Les Pokémon gagnent 2x plus d’EXP.!\\nCumul avec EXP. MODE DIFFICILE."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {PKMN}: ZERO point d’EXP.!!!\nVaut aussi pour
+#. l’EXP. MODE DIFFICILE.
 #: src/challenge_menu.c:983
 msgid "{PKMN} gain ZERO EXP. Points!!!\\nApplies to HARD MODE EXP. as well."
-msgstr "{PKMN}: ZERO point d’EXP.!!!\\nVaut aussi pour l’EXP. MODE DIFFICILE."
+msgstr "Pokémon: ZERO point d’EXP.!!!\\nVaut aussi en MODE DIFFICILE."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:986
@@ -9050,60 +9195,90 @@ msgstr "Les Dresseurs ennemis utilisent des objets."
 msgid "Enemy trainers can NOT use battle\\nitems."
 msgstr "Les Dresseurs ennemis ne peuvent\\nPAS utiliser d’objets en combat."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} du joueur gagnent\ndes EV
+#. normalement.
 #: src/challenge_menu.c:994
 msgid "The player's {PKMN} gain effort\\nvalues as expected."
-msgstr "Les {PKMN} du joueur gagnent\\ndes EV normalement."
+msgstr "Les Pokémon du joueur gagnent\\ndes EV normalement."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} du joueur ne gagnent\nAucun point
+#. d’effort (EV)!
 #: src/challenge_menu.c:995
 msgid "The player's {PKMN} do NOT gain any\\neffort values!"
-msgstr "Les {PKMN} du joueur ne gagnent\\nAucun point d’effort (EV)!"
+msgstr "Les Pokémon du joueur ne gagnent\\nAucun point d’effort (EV)!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} des Dresseurs\nennemis ont des IV
+#. normaux.
 #: src/challenge_menu.c:998
 msgid "The {PKMN} of enemy Trainer have\\nthe expected IVs."
-msgstr "Les {PKMN} des Dresseurs\\nennemis ont des IV normaux."
+msgstr "Les Pokémon des Dresseurs\\nennemis ont des IV normaux."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les IV des {PKMN} des Dresseurs\naugmentent avec
+#. les Badges!
 #: src/challenge_menu.c:999
 msgid "The IVs of Trainer {PKMN} increase\\nwith gym badges!"
-msgstr "Les IV des {PKMN} des Dresseurs\\naugmentent avec les Badges!"
+msgstr "Les IV des Pokémon des Dresseurs\\naugmentent avec les Badges!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {PKMN} des Dresseurs: IV parfaits!
 #: src/challenge_menu.c:1000
 msgid "All Trainer {PKMN} have perfect IVs!"
-msgstr "{PKMN} des Dresseurs: IV parfaits!"
+msgstr "Pokémon des Dresseurs: IV parfaits!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} des Dresseurs\nennemis n’ont aucun
+#. EV.
 #: src/challenge_menu.c:1003
 msgid "The {PKMN} of enemy Trainer have\\nno EVs."
-msgstr "Les {PKMN} des Dresseurs\\nennemis n’ont aucun EV."
+msgstr "Les Pokémon des Dresseurs\\nennemis n’ont aucun EV."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les EV des {PKMN} des Dresseurs\naugmentent avec
+#. les Badges!
 #: src/challenge_menu.c:1004
 msgid "The EVs of Trainer {PKMN} increase\\nwith gym badges!"
-msgstr "Les EV des {PKMN} des Dresseurs\\naugmentent avec les Badges!"
+msgstr "Les EV des Pokémon des Dresseurs\\naugmentent avec les Badges!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {PKMN} des Dresseurs: EV élevés!
 #: src/challenge_menu.c:1005
 msgid "All Trainer {PKMN} have high EVs!"
-msgstr "{PKMN} des Dresseurs: EV élevés!"
+msgstr "Pokémon des Dresseurs: EV élevés!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Tous les {PKMN} des Dresseurs\nont 252 EV! Très
+#. dur!
 #: src/challenge_menu.c:1006
 msgid "All Trainer {PKMN} have 252 EVs!\\nVery Hard!"
-msgstr "Tous les {PKMN} des Dresseurs\\nont 252 EV! Très dur!"
+msgstr "Tous les Pokémon des Dresseurs\\nont 252 EV! Très dur!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Vos {PKMN} ont des IV normaux\n(entre 0 et 31).
 #: src/challenge_menu.c:1009
 msgid "Your {PKMN} have the expected IVs\\n(between 0 and 31)."
-msgstr "Vos {PKMN} ont des IV normaux\\n(entre 0 et 31)."
+msgstr "Vos Pokémon ont des IV normaux\\n(entre 0 et 31)."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les IV de vos {PKMN} sont\ntoujours au maximum
+#. (31).
 #: src/challenge_menu.c:1010
 msgid "The IVs of your {PKMN} are set\\nalways to the maximum (31)."
-msgstr "Les IV de vos {PKMN} sont\\ntoujours au maximum (31)."
+msgstr "Les IV de vos Pokémon sont\\ntoujours au maximum (31)."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:1011
@@ -9190,15 +9365,21 @@ msgstr "FUITE LIMITEE"
 msgid "ESC. ROPE / DIG"
 msgstr "CORDE / TUNNEL"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Le joueur peut se soigner aux\nCENTRES {PKMN} et
+#. ailleurs.
 #: src/challenge_menu.c:1105
 msgid "The player can visit {PKMN}centers\\nand other locations to heal."
-msgstr "Le joueur peut se soigner aux\\nCENTRES {PKMN} et ailleurs."
+msgstr "Le joueur peut se soigner aux\\nCentres Pokémon et ailleurs."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Le joueur NE PEUT PAS se soigner\naux CENTRES
+#. {PKMN} ni ailleurs.
 #: src/challenge_menu.c:1106
 msgid "The player CAN'T visit {PKMN}centers\\nor other locations to heal."
-msgstr "Le joueur NE PEUT PAS se soigner\\naux CENTRES {PKMN} ni ailleurs."
+msgstr "Le joueur NE PEUT PAS se soigner\\naux Centres Pokémon ni ailleurs."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:1109
@@ -9220,45 +9401,67 @@ msgstr "Tout coûte 10 fois plus cher!\\nLe bon vieux capitalisme."
 msgid "Everything is 50 times more\\nexpensive! Ultra capitalism!"
 msgstr "Tout coûte 50 fois plus cher!\\nUltra capitalisme!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {PKMN}: évolution normale.
 #: src/challenge_menu.c:1115
 msgid "{PKMN} evolve as expected."
-msgstr "{PKMN}: évolution normale."
+msgstr "Pokémon: évolution normale."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} ne peuvent évoluer\nqu’une seule
+#. fois.
 #: src/challenge_menu.c:1116
 msgid "{PKMN} can only evolve into their\\nfirst evolution."
-msgstr "Les {PKMN} ne peuvent évoluer\\nqu’une seule fois."
+msgstr "Les Pokémon ne peuvent évoluer\\nqu’une seule fois."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les {PKMN} n’évoluent PAS du tout!
 #: src/challenge_menu.c:1117
 msgid "{PKMN} can NOT evolve at all!"
-msgstr "Les {PKMN} n’évoluent PAS du tout!"
+msgstr "Les Pokémon n’évoluent PAS du tout!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Le joueur ne peut capturer et\nutiliser qu’un
+#. type de {PKMN}.
 #: src/challenge_menu.c:1123
 msgid "Allow only one {PKMN} type the\\nplayer can capture and use."
-msgstr "Le joueur ne peut capturer et\\nutiliser qu’un type de {PKMN}."
+msgstr "Le joueur ne peut capturer et\\nutiliser qu’un type de Pokémon."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Tous les {PKMN} gardent leurs\nstats de base
+#. d’origine.
 #: src/challenge_menu.c:1132
 msgid "All {PKMN} have their original\\nbase stats."
-msgstr "Tous les {PKMN} gardent leurs\\nstats de base d’origine."
+msgstr "Tous les Pokémon gardent leurs\\nstats de base d’origine."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Stats des {PKMN} calculées avec\n100 pour chaque
+#. stat de base.
 #: src/challenge_menu.c:1133
 msgid "{PKMN} stats are calculated with\\n100 of each base stat."
-msgstr "Stats des {PKMN} calculées avec\\n100 pour chaque stat de base."
+msgstr "Stats des Pokémon calculées avec\\n100 pour chaque stat de base."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Stats des {PKMN} calculées avec\n255 pour chaque
+#. stat de base.
 #: src/challenge_menu.c:1134
 msgid "{PKMN} stats are calculated with\\n255 of each base stat."
-msgstr "Stats des {PKMN} calculées avec\\n255 pour chaque stat de base."
+msgstr "Stats des Pokémon calculées avec\\n255 pour chaque stat de base."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Stats des {PKMN} calculées avec\n500 pour chaque
+#. stat de base.
 #: src/challenge_menu.c:1135
 msgid "{PKMN} stats are calculated with\\n500 of each base stat."
-msgstr "Stats des {PKMN} calculées avec\\n500 pour chaque stat de base."
+msgstr "Stats des Pokémon calculées avec\\n500 pour chaque stat de base."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:1138
@@ -9280,10 +9483,12 @@ msgstr "Le joueur récupère son équipe\\naprès chaque combat."
 msgid "The player keeps the enemies party\\nafter battle!"
 msgstr "Le joueur garde l’équipe adverse\\naprès le combat!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : CENTRE {PKMN}
 #: src/challenge_menu.c:1148
 msgid "{PKMN}CENTER"
-msgstr "CENTRE {PKMN}"
+msgstr "CENTRE POKéMON"
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:1154
@@ -9316,9 +9521,11 @@ msgid "MIRROR THIEF"
 msgstr "VOLEUR MIROIR"
 
 #. source : Émeraude FR officiel
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : Sauver
 #: src/challenge_menu.c:1190 src/strings.c:565 src/strings.c:1035
 msgid "SAVE"
-msgstr "Sauver"
+msgstr "SAUVER"
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
@@ -11969,10 +12176,13 @@ msgstr "CONTINUER"
 msgid "OPTION"
 msgstr "OPTIONS"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : Cadeau MYST.
+#. ancien (Émeraude FR officiel) : Cadeau MYST.
 #: src/main_menu.c:267 src/main_menu.c:268 src/strings.c:1193
 msgid "MYSTERY GIFT"
-msgstr "Cadeau MYST."
+msgstr "CADEAU MYST."
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : EVENT. MYSTERE
@@ -12008,15 +12218,19 @@ msgid "TIME"
 msgstr "DUREE JEU"
 
 #. source : Émeraude FR officiel
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : Pokédex
 #: src/data/easy_chat/easy_chat_group_trainer.h:100 src/main_menu.c:276
 #: src/strings.c:27 src/strings.c:556 src/strings.c:759 src/strings.c:1026
 msgid "POKéDEX"
-msgstr "Pokédex"
+msgstr "POKéDEX"
 
 #. source : Émeraude FR officiel
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : Badges
 #: src/main_menu.c:277 src/strings.c:29 src/strings.c:1116
 msgid "BADGES"
-msgstr "Badges"
+msgstr "BADGES"
 
 #. source : Émeraude FR officiel
 #: src/main_menu.c:481 src/strings.c:93
@@ -12393,10 +12607,13 @@ msgstr "VOTRE NOM?"
 msgid "BOX NAME?"
 msgstr "NOM BOITE?"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : Émeraude FR : « Surnom de {STR_VAR_1}? »
+#. ancien (Émeraude FR officiel) : Surnom de {STR_VAR_1}?
 #: src/naming_screen.c:2307
 msgid "{STR_VAR_1}'s nickname?"
-msgstr "Surnom de {STR_VAR_1}?"
+msgstr "{STR_VAR_1}: surnom?"
 
 #. source : Émeraude FR officiel
 #: src/naming_screen.c:2318
@@ -12419,7 +12636,12 @@ msgstr "or"
 msgid "KRIS"
 msgstr "KRIS"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Quel défi vous\ntente?\p{COLOR 4}Ces réglages
+#. pourront être modifiés\nsur le PC une fois la partie lancée.\lMais ensuite,
+#. les options Nuzlocke,\laléatoire, difficulté et défi ne\lpourront qu’être
+#. assouplies, jamais\ldurcies.
 #: src/oak_speech_hns.c:583
 msgid ""
 "What challenge are you\\nexpecting?\\p{COLOR RED}The following settings can "
@@ -12427,7 +12649,7 @@ msgid ""
 "the game, the\\lnuzlocke, randomizer, difficulty and\\lchallenge settings "
 "can only be made\\leasier, not harder."
 msgstr ""
-"Quel défi vous\\ntente?\\p{COLOR 4}Ces réglages pourront être modifiés\\nsur"
+"Quel défi te\\ntente?\\p{COLOR RED}Ces réglages pourront être modifiés\\nsur"
 " le PC une fois la partie lancée.\\lMais ensuite, les options "
 "Nuzlocke,\\laléatoire, difficulté et défi ne\\lpourront qu’être assouplies, "
 "jamais\\ldurcies."
@@ -12474,20 +12696,24 @@ msgstr "MOY."
 msgid "FAST"
 msgstr "RAPIDE"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Turbo
 #: src/option_menu.c:227
 msgid "FASTER"
-msgstr "Turbo"
+msgstr "TURBO"
 
 #. source : patch FR actuel
 #: src/option_menu.c:231
 msgid "METRIC"
 msgstr "METRIQUE"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (traduction manuelle (style SoulSilver)) : IMPERIAL
 #: src/option_menu.c:232
 msgid "IMPERIAL"
-msgstr "IMPERIAL"
+msgstr "IMPER."
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
@@ -12511,25 +12737,35 @@ msgstr "B{RIGHT_ARROW}A"
 msgid "Choose one of the four text-display\\nspeeds."
 msgstr "Choisissez parmi quatre vitesses\\nd’affichage du texte."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Avec animations des {PKMN}\net des capacités.
 #: src/option_menu.c:274
 msgid "Show the {PKMN} animations\\nand attack animations."
-msgstr "Avec animations des {PKMN}\\net des capacités."
+msgstr "Avec animations des Pokémon\\net des capacités."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Sans animations des {PKMN}\nni des capacités.
 #: src/option_menu.c:275
 msgid "Skip the {PKMN} animations\\nand attack animations."
-msgstr "Sans animations des {PKMN}\\nni des capacités."
+msgstr "Sans animations des Pokémon\\nni des capacités."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Proposer de changer de {PKMN}\nquand l’ennemi
+#. est K.O.
 #: src/option_menu.c:278
 msgid "Get the option to switch your\\n{PKMN} after the enemies faints."
-msgstr "Proposer de changer de {PKMN}\\nquand l’ennemi est K.O."
+msgstr "Proposer de changer de Pokémon\\nquand l’ennemi est K.O."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Pas de changement offert après\nun {PKMN} ennemi
+#. mis K.O.
 #: src/option_menu.c:279
 msgid "No free switch after fainting the\\nenemies {PKMN}."
-msgstr "Pas de changement offert après\\nun {PKMN} ennemi mis K.O."
+msgstr "Pas de changement offert après\\nun Pokémon ennemi mis K.O."
 
 #. source : patch FR actuel
 #: src/option_menu.c:282
@@ -12546,25 +12782,33 @@ msgstr "Sur certains écrans, les boutons L et R\\nservent de gauche et droite."
 msgid "The L button acts as another A\\nbutton for one-handed play."
 msgstr "Le bouton L sert aussi de bouton A\\npour jouer d’une seule main."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Le 1er {PKMN} de l’équipe\nvous suit partout.
 #: src/option_menu.c:287
 msgid "Let the first {PKMN} in your\\nparty follow you."
-msgstr "Le 1er {PKMN} de l’équipe\\nvous suit partout."
+msgstr "Le 1er Pokémon de l’équipe\\nvous suit partout."
 
 #. source : patch FR actuel
 #: src/option_menu.c:288
 msgid "Walk alone."
 msgstr "En solo."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les gros {PKMN} vous suivent.\nBugs graphiques
+#. possibles.
 #: src/option_menu.c:291
 msgid "Enable large {PKMN} followers.\\nCan cause graphical issues."
-msgstr "Les gros {PKMN} vous suivent.\\nBugs graphiques possibles."
+msgstr "Les gros Pokémon vous suivent.\\nBugs graphiques possibles."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Les gros {PKMN} ne vous\nsuivent pas.
+#. Recommandé.
 #: src/option_menu.c:292
 msgid "Disable large {PKMN} followers.\\nRecommended."
-msgstr "Les gros {PKMN} ne vous\\nsuivent pas. Recommandé."
+msgstr "Les gros Pokémon ne vous\\nsuivent pas. Recommandé."
 
 #. source : patch FR actuel
 #: src/option_menu.c:295
@@ -12596,25 +12840,36 @@ msgstr "Ferrage automatique à la pêche."
 msgid "Manually reel while fishing.\\nFish like you always fished!"
 msgstr "Ferrez vous-même en pêchant.\\nLa pêche à l’ancienne!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : L’INFIRMIERE soigne plus vite.
 #: src/option_menu.c:307
 msgid "NURSE JOY heals you faster."
-msgstr "L’INFIRMIERE soigne plus vite."
+msgstr "L’infirmière soigne plus vite."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : L’INFIRMIERE vous soigne avec\nl’animation
+#. habituelle.
 #: src/option_menu.c:308
 msgid "NURSE JOY heals you with the\\nusual animation."
-msgstr "L’INFIRMIERE vous soigne avec\\nl’animation habituelle."
+msgstr "L’infirmière vous soigne avec\\nl’animation habituelle."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Poids et taille des Baies et\n{PKMN} en kilos et
+#. mètres.
 #: src/option_menu.c:311
 msgid "Display BERRY and {PKMN} weight\\nand size in kilograms and meters."
-msgstr "Poids et taille des Baies et\\n{PKMN} en kilos et mètres."
+msgstr "Poids et taille des Baies et\\nPokémon en kilos et mètres."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Poids et taille des Baies et\n{PKMN} en livres
+#. et pouces.
 #: src/option_menu.c:312
 msgid "Display BERRY and {PKMN} weight\\nand size in pounds and inches."
-msgstr "Poids et taille des Baies et\\n{PKMN} en livres et pouces."
+msgstr "Poids et taille des Baies et\\nPokémon en livres et pouces."
 
 #. source : patch FR actuel
 #: src/option_menu.c:315
@@ -12671,19 +12926,25 @@ msgstr "Interface de combat GEN III."
 msgid "Modernized GEN IV Battle UI."
 msgstr "Interface de combat GEN IV."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : {R_BUTTON} en combat: lancer une
+#. BALL.\nMaintenez {L_BUTTON}/{R_BUTTON}: changer de {PKMN}BALL.
 #: src/option_menu.c:338
 msgid ""
 "Press {R_BUTTON} in battle to use Pokeballs.\\nHold {L_BUTTON}/{R_BUTTON} to"
 " swap {PKMN}BALLS."
 msgstr ""
-"{R_BUTTON} en combat: lancer une BALL.\\nMaintenez {L_BUTTON}/{R_BUTTON}: "
-"changer de {PKMN}BALL."
+"{R_BUTTON} en combat: lancer une Poké Ball.\\nMaintenez "
+"{L_BUTTON}/{R_BUTTON}: changer de Ball."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Masque le raccourci pour\nlancer vite des
+#. {PKMN}BALLS.
 #: src/option_menu.c:339
 msgid "Disables the prompt to use\\n{PKMN}BALLS quickly."
-msgstr "Masque le raccourci pour\\nlancer vite des {PKMN}BALLS."
+msgstr "Masque le raccourci pour\\nlancer vite des Poké Balls."
 
 #. source : patch FR actuel
 #: src/option_menu.c:342
@@ -12745,15 +13006,19 @@ msgstr "Active la musique. Effet au\\nprochain changement de zone."
 msgid "Disables music playback.\\nChange maps to take effect."
 msgstr "Coupe la musique. Effet au\\nprochain changement de zone."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Musique du VELO active.
 #: src/option_menu.c:360
 msgid "Enables BIKE music."
-msgstr "Musique du VELO active."
+msgstr "Musique de la Bicyclette active."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Coupe la musique du VELO.
 #: src/option_menu.c:361
 msgid "Disables BIKE music."
-msgstr "Coupe la musique du VELO."
+msgstr "Coupe la musique de la Bicyclette."
 
 #. source : patch FR actuel
 #: src/option_menu.c:364
@@ -12771,14 +13036,18 @@ msgid "TEXT SPEED"
 msgstr "VIT. TEXTE"
 
 #. source : Émeraude FR officiel
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : ANIMAT. Combat
 #: src/option_menu.c:380
 msgid "BATTLE SCENE"
-msgstr "ANIMAT. Combat"
+msgstr "ANIMAT. COMBAT"
 
 #. source : Émeraude FR officiel
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : STYLE Combat
 #: src/option_menu.c:386
 msgid "BATTLE STYLE"
-msgstr "STYLE Combat"
+msgstr "STYLE COMBAT"
 
 #. source : Émeraude FR officiel
 #: src/option_menu.c:392
@@ -12801,20 +13070,24 @@ msgstr "GROS COMPAGNONS"
 msgid "AUTORUN"
 msgstr "COURSE AUTO"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Surf AUTO
 #: src/option_menu.c:416
 msgid "AUTORUN (SURF)"
-msgstr "Surf AUTO"
+msgstr "SURF AUTO"
 
 #. source : patch FR actuel
 #: src/option_menu.c:422
 msgid "EASIER FISHING"
 msgstr "PECHE FACILE"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Soin RAPIDE
 #: src/option_menu.c:428
 msgid "FASTER JOY"
-msgstr "Soin RAPIDE"
+msgstr "SOIN RAPIDE"
 
 #. source : patch FR actuel
 #: src/option_menu.c:434
@@ -12836,15 +13109,19 @@ msgstr "FENETRE"
 msgid "FAST INTRO"
 msgstr "INTRO RAPIDE"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Combat RAPIDE
 #: src/option_menu.c:461
 msgid "FAST BATTLES"
-msgstr "Combat RAPIDE"
+msgstr "COMBAT RAPIDE"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : DECORS DE Combat
 #: src/option_menu.c:467
 msgid "BATTLE TERRAIN"
-msgstr "DECORS DE Combat"
+msgstr "DECORS COMBAT"
 
 #. source : patch FR actuel
 #: src/option_menu.c:473
@@ -12861,10 +13138,12 @@ msgstr "BALL RAPIDE"
 msgid "QUICK RUN"
 msgstr "FUIR VITE"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : AIDE Fuite
 #: src/option_menu.c:491
 msgid "RUN PROMPT"
-msgstr "AIDE Fuite"
+msgstr "AIDE FUITE"
 
 #. source : Émeraude FR officiel
 #: src/option_menu.c:500 src/option_menu.c:539
@@ -12881,20 +13160,26 @@ msgstr "MUSIQUE"
 msgid "BIKE MUSIC"
 msgstr "MUSIQUE VELO"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : MUSIQUE Surf
 #: src/option_menu.c:518
 msgid "SURF MUSIC"
-msgstr "MUSIQUE Surf"
+msgstr "MUSIQUE SURF"
 
-#. source : SoulSilver FR officiel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (SoulSilver FR officiel) : Options
 #: src/option_menu.c:537
 msgid "OPTIONS"
-msgstr "Options"
+msgstr "OPTIONS"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Options de combat
 #: src/option_menu.c:538
 msgid "BATTLE OPTIONS"
-msgstr "Options de combat"
+msgstr "OPTIONS DE COMBAT"
 
 #. source : patch FR actuel
 #: src/party_menu.c:515
@@ -13009,10 +13294,13 @@ msgstr "Déposer des objets dans le PC."
 msgid "Throw away items stored in the PC."
 msgstr "Jeter des objets stockés dans le PC."
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : Stockage OBJ.
+#. ancien (Émeraude FR officiel) : Stockage OBJ.
 #: src/player_pc.c:191
 msgid "ITEM STORAGE"
-msgstr "Stockage OBJ."
+msgstr "STOCKAGE OBJ."
 
 #. source : Émeraude FR officiel
 #: src/player_pc.c:193 src/strings.c:505
@@ -13029,10 +13317,13 @@ msgstr "ETEINDRE"
 msgid "READ"
 msgstr "LIRE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : METTRE DANS Sac
+#. ancien (Émeraude FR officiel) : METTRE DANS Sac
 #: src/player_pc.c:231
 msgid "MOVE TO BAG"
-msgstr "METTRE DANS Sac"
+msgstr "METTRE DANS SAC"
 
 #. source : Émeraude FR officiel
 #: src/data/easy_chat/easy_chat_group_actions.h:16 src/player_pc.c:232
@@ -13212,20 +13503,26 @@ msgstr "ATT"
 msgid "DEF"
 msgstr "DEF"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : VIT
 #: src/pokedex_plus_hgss.c:141
 msgid "SPE"
-msgstr "VIT"
+msgstr "VI"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : A.SP
 #: src/pokedex_plus_hgss.c:142
 msgid "SP.A"
-msgstr "A.SP"
+msgstr "AS"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : D.SP
 #: src/pokedex_plus_hgss.c:143
 msgid "SP.D"
-msgstr "D.SP"
+msgstr "DS"
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:149
@@ -13253,11 +13550,13 @@ msgstr "TRES DIFF."
 msgid "DIFFICULT"
 msgstr "DIFFICILE"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : MOYEN
+#. source : traduction nouvelle
+#. lot : H_interface
+#. preuve : ancien « Médium » (SoulSilver FR, classe de Dresseur)
+#. ancien (SoulSilver FR officiel) : Médium
 #: src/pokedex_plus_hgss.c:161
 msgid "MEDIUM"
-msgstr "Médium"
+msgstr "MOYEN"
 
 #. source : Émeraude FR officiel
 #: src/pokedex_plus_hgss.c:162 src/pokemon.c:2647
@@ -13315,10 +13614,12 @@ msgstr "GR.ŒUF:"
 msgid "MONSTER"
 msgstr "MONSTRE"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Eau {CIRCLE_1}
 #: src/pokedex_plus_hgss.c:187
 msgid "WATER {CIRCLE_1}"
-msgstr "Eau {CIRCLE_1}"
+msgstr "EAU {CIRCLE_1}"
 
 #. source : Émeraude FR officiel (adapté : nom complet en capitales, 8
 #. caractères max)
@@ -13337,11 +13638,13 @@ msgstr "INSECTE"
 msgid "FLYING"
 msgstr "VOL"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : TERRE
+#. source : traduction nouvelle
+#. lot : H_interface
+#. preuve : ancien « Field » (SoulSilver FR, ligne anglaise laissée)
+#. ancien (SoulSilver FR officiel) : Field
 #: src/pokedex_plus_hgss.c:190
 msgid "FIELD"
-msgstr "Field"
+msgstr "TERRESTRE"
 
 #. source : Émeraude FR officiel (adapté : nom complet en capitales, 8
 #. caractères max)
@@ -13363,10 +13666,12 @@ msgstr "PLANTE"
 msgid "HUMANE"
 msgstr "HUMAIN"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Eau {CIRCLE_3}
 #: src/pokedex_plus_hgss.c:194
 msgid "WATER {CIRCLE_3}"
-msgstr "Eau {CIRCLE_3}"
+msgstr "EAU {CIRCLE_3}"
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/pokedex_plus_hgss.c:195
@@ -13378,10 +13683,12 @@ msgstr "MINERAL"
 msgid "AMORPHOUS"
 msgstr "AMORPHE"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Eau {CIRCLE_2}
 #: src/pokedex_plus_hgss.c:197
 msgid "WATER {CIRCLE_2}"
-msgstr "Eau {CIRCLE_2}"
+msgstr "EAU {CIRCLE_2}"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:18707
@@ -13557,10 +13864,12 @@ msgstr "Inconnu"
 msgid ", in battle"
 msgstr ", en combat"
 
-#. source : SoulSilver FR officiel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (SoulSilver FR officiel) : ECHANGE
 #: src/pokedex_plus_hgss.c:6749
 msgid "Trading"
-msgstr "ECHANGE"
+msgstr "Echange"
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:6753
@@ -13608,64 +13917,76 @@ msgstr "AH >5s"
 msgid "CW/CCW >10s"
 msgstr "H/AH >10s"
 
-#. source : Émeraude FR officiel
-#. lot : A_emeraude
-#. preuve : US 27EDB5 -> FR 28487F (pointeur x1) ; table octets EN->FR (x1)
-#. ancien (SoulSilver FR officiel) : Male
+#. source : traduction nouvelle
+#. lot : H_interface
+#. preuve : ancien « Male » (SoulSilver FR, ligne anglaise)
+#. ancien (Émeraude FR officiel) : Plus d’hommes
 #: src/data/script_menu.h:171 src/pokedex_plus_hgss.c:6792
 msgid "Male"
-msgstr "Plus d’hommes"
+msgstr "Mâle"
 
-#. source : Émeraude FR officiel
-#. lot : A_emeraude
-#. preuve : US 27EDBA -> FR 28488D (pointeur x1) ; table octets EN->FR (x1)
-#. ancien (SoulSilver FR officiel) : Female
+#. source : traduction nouvelle
+#. lot : H_interface
+#. preuve : ancien « Female » (SoulSilver FR, ligne anglaise)
+#. ancien (Émeraude FR officiel) : Plus de femmes
 #: src/data/script_menu.h:172 src/pokedex_plus_hgss.c:6793
 msgid "Female"
-msgstr "Plus de femmes"
+msgstr "Femelle"
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:6797
 msgid "{UP_ARROW_2}friendship"
 msgstr "{UP_ARROW_2}amitié"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Atq > Déf
 #: src/pokedex_plus_hgss.c:6800
 msgid "Atk > Def"
-msgstr "Atq > Déf"
+msgstr "AT > DF"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Atq = Déf
 #: src/pokedex_plus_hgss.c:6803
 msgid "Atk = Def"
-msgstr "Atq = Déf"
+msgstr "AT = DF"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (traduction manuelle (style SoulSilver)) : Att < Déf
 #: src/pokedex_plus_hgss.c:6806
 msgid "Atk < Def"
-msgstr "Att < Déf"
+msgstr "AT < DF"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Matin
+#. source : traduction nouvelle
+#. lot : H_interface
+#. preuve : ancien « Morning » (SoulSilver FR, ligne anglaise)
+#. ancien (SoulSilver FR officiel) : Morning
 #: src/debug.c:448 src/pokedex_plus_hgss.c:6811
 msgid "Morning"
-msgstr "Morning"
+msgstr "Matin"
 
 #. source : patch FR actuel
 #: src/debug.c:449 src/pokedex_plus_hgss.c:6812 src/pokedex_plus_hgss.c:6823
 msgid "Day"
 msgstr "Jour"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Soir
+#. source : traduction nouvelle
+#. lot : H_interface
+#. preuve : ancien « Evening » (SoulSilver FR, ligne anglaise)
+#. ancien (SoulSilver FR officiel) : Evening
 #: src/debug.c:450 src/pokedex_plus_hgss.c:6813
 msgid "Evening"
-msgstr "Evening"
+msgstr "Soir"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Nuit
+#. source : traduction nouvelle
+#. lot : H_interface
+#. preuve : ancien « Night » (SoulSilver FR, ligne anglaise)
+#. ancien (SoulSilver FR officiel) : Night
 #: src/debug.c:451 src/pokedex_plus_hgss.c:6814
 msgid "Night"
-msgstr "Night"
+msgstr "Nuit"
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:6820
@@ -13750,10 +14071,13 @@ msgstr "échangé avec "
 msgid "-type in party"
 msgstr " dans l’équipe"
 
-#. source : SoulSilver FR officiel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. preuve : ancien « Weather » (SoulSilver FR)
+#. ancien (SoulSilver FR officiel) : Weather
 #: src/pokedex_plus_hgss.c:6898
 msgid "weather "
-msgstr "Weather"
+msgstr "météo "
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
@@ -13761,10 +14085,12 @@ msgstr "Weather"
 msgid " move"
 msgstr " capacité"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (traduction manuelle (style SoulSilver)) : sur 
 #: src/pokedex_plus_hgss.c:6911
 msgid "out of "
-msgstr "sur "
+msgstr "hors de "
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/pokedex_plus_hgss.c:6919
@@ -13816,10 +14142,13 @@ msgstr "Sinjoh"
 msgid "Paldea"
 msgstr "Paldea"
 
-#. source : SoulSilver FR officiel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. preuve : ancien « Nature » (SoulSilver FR)
+#. ancien (SoulSilver FR officiel) : Nature
 #: src/pokedex_plus_hgss.c:6936
 msgid " nature"
-msgstr "Nature"
+msgstr " (nature)"
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/pokedex_plus_hgss.c:6939
@@ -15589,30 +15918,36 @@ msgstr "L’équipe est pleine!"
 msgid "BOX"
 msgstr "BOITE "
 
-#. source : Émeraude FR officiel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : RETIRER Pokémon
 #: src/pokemon_storage_system.c:874
 msgid "WITHDRAW POKéMON"
-msgstr "RETIRER Pokémon"
+msgstr "RETIRER POKéMON"
 
 #. source : Émeraude FR officiel
 #: src/pokemon_storage_system.c:874
 msgid "Move POKéMON stored in BOXES to\\nyour party."
 msgstr "Intégrer dans l’équipe des Pokémon se\\ntrouvant dans les BOITES."
 
-#. source : Émeraude FR officiel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : DEPOSER Pokémon
 #: src/pokemon_storage_system.c:875
 msgid "DEPOSIT POKéMON"
-msgstr "DEPOSER Pokémon"
+msgstr "DEPOSER POKéMON"
 
 #. source : Émeraude FR officiel
 #: src/pokemon_storage_system.c:875
 msgid "Store POKéMON in your party in BOXES."
 msgstr "Déposer des Pokémon de l’équipe\\ndans des BOITES."
 
-#. source : Émeraude FR officiel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : DEPLACER Pokémon
 #: src/pokemon_storage_system.c:876
 msgid "MOVE POKéMON"
-msgstr "DEPLACER Pokémon"
+msgstr "DEPLACER POKéMON"
 
 #. source : Émeraude FR officiel
 #: src/pokemon_storage_system.c:876
@@ -15790,6 +16125,8 @@ msgid "Wrong type!"
 msgstr "Mauvais type!"
 
 #. source : Émeraude FR officiel
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : Retour
 #: data/maps/AkalaIsle_hns/scripts.inc:543
 #: data/maps/NewSinjoh_HotSprings_hns/scripts.inc:307
 #: data/maps/PoniIsle_hns/scripts.inc:421
@@ -15797,7 +16134,7 @@ msgstr "Mauvais type!"
 #: data/maps/UlaUla_Forest_hns/scripts.inc:376
 #: data/maps/UlaulaIsle_hns/scripts.inc:714
 msgid "CANCEL"
-msgstr "Retour"
+msgstr "RETOUR"
 
 #. source : Émeraude FR officiel
 #: src/data/easy_chat/easy_chat_group_lifestyle.h:70 src/data/party_menu.h:716
@@ -15860,10 +16197,12 @@ msgid "SWITCH"
 msgstr "ORDRE"
 
 #. source : Émeraude FR officiel
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : Sac
 #: src/data/easy_chat/easy_chat_group_trainer.h:130
 #: src/pokemon_storage_system.c:8228 src/strings.c:558 src/strings.c:1028
 msgid "BAG"
-msgstr "Sac"
+msgstr "SAC"
 
 #. source : Émeraude FR officiel
 #: src/data/script_menu.h:95 src/data/union_room.h:543
@@ -16035,62 +16374,93 @@ msgstr "PRESENTATION"
 msgid "{B_BUTTON}CANCEL {R_BUTTON}FLY"
 msgstr "{B_BUTTON}Retour {R_BUTTON}Vol"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : {A_BUTTON}ZOOM + {B_BUTTON}Retour
+#. ancien (Émeraude FR officiel) : {A_BUTTON}ZOOM + {B_BUTTON}Retour
 #: src/pokenav_main_menu.c:102
 msgid "{A_BUTTON}ZOOM {B_BUTTON}CANCEL"
-msgstr "{A_BUTTON}ZOOM + {B_BUTTON}Retour"
+msgstr "{A_BUTTON}ZOOM + {B_BUTTON}RETOUR"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : {A_BUTTON}ZOOM - {B_BUTTON}Retour
+#. ancien (Émeraude FR officiel) : {A_BUTTON}ZOOM - {B_BUTTON}Retour
 #: src/pokenav_main_menu.c:103
 msgid "{A_BUTTON}FULL {B_BUTTON}CANCEL"
-msgstr "{A_BUTTON}ZOOM - {B_BUTTON}Retour"
+msgstr "{A_BUTTON}ZOOM - {B_BUTTON}RETOUR"
 
 #. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. lot : H_interface
+#. ancien (traduction nouvelle) : {A_BUTTON}ZOOM + {B_BUTTON}Retour
+#. {R_BUTTON}Vol
 #: src/pokenav_main_menu.c:104
 msgid "{A_BUTTON}ZOOM {B_BUTTON}CANCEL {R_BUTTON}FLY"
-msgstr "{A_BUTTON}ZOOM + {B_BUTTON}Retour {R_BUTTON}Vol"
+msgstr "{A_BUTTON}ZOOM + {B_BUTTON}RETOUR {R_BUTTON}VOL"
 
 #. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. lot : H_interface
+#. ancien (traduction nouvelle) : {A_BUTTON}ZOOM - {B_BUTTON}Retour
+#. {R_BUTTON}Vol
 #: src/pokenav_main_menu.c:105
 msgid "{A_BUTTON}FULL {B_BUTTON}CANCEL {R_BUTTON}FLY"
-msgstr "{A_BUTTON}ZOOM - {B_BUTTON}Retour {R_BUTTON}Vol"
+msgstr "{A_BUTTON}ZOOM - {B_BUTTON}RETOUR {R_BUTTON}VOL"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : …{B_BUTTON}Retour
+#. ancien (Émeraude FR officiel) : {A_BUTTON}CONDITION {B_BUTTON}Retour
 #: src/pokenav_main_menu.c:107
 msgid "{A_BUTTON}CONDITION {B_BUTTON}CANCEL"
-msgstr "{A_BUTTON}CONDITION {B_BUTTON}Retour"
+msgstr "{A_BUTTON}CONDITION {B_BUTTON}RETOUR"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : …{B_BUTTON}Retour
+#. ancien (Émeraude FR officiel) : {A_BUTTON}MARQUAGE {B_BUTTON}Retour
 #: src/pokenav_main_menu.c:108
 msgid "{A_BUTTON}MARKINGS {B_BUTTON}CANCEL"
-msgstr "{A_BUTTON}MARQUAGE {B_BUTTON}Retour"
+msgstr "{A_BUTTON}MARQUAGE {B_BUTTON}RETOUR"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : …{B_BUTTON}Retour
+#. ancien (Émeraude FR officiel) : {A_BUTTON}CHOIX {B_BUTTON}Retour
 #: src/pokenav_main_menu.c:109
 msgid "{A_BUTTON}SELECT MARK {B_BUTTON}CANCEL"
-msgstr "{A_BUTTON}CHOIX {B_BUTTON}Retour"
+msgstr "{A_BUTTON}CHOIX {B_BUTTON}RETOUR"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : …{B_BUTTON}Retour
+#. ancien (Émeraude FR officiel) : {A_BUTTON}MENU {B_BUTTON}Retour
 #: src/pokenav_main_menu.c:110
 msgid "{A_BUTTON}MENU {B_BUTTON}CANCEL"
-msgstr "{A_BUTTON}MENU {B_BUTTON}Retour"
+msgstr "{A_BUTTON}MENU {B_BUTTON}RETOUR"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : …{B_BUTTON}Retour
+#. ancien (Émeraude FR officiel) : {A_BUTTON}OK {B_BUTTON}Retour
 #: src/pokenav_main_menu.c:111
 msgid "{A_BUTTON}OK {B_BUTTON}CANCEL"
-msgstr "{A_BUTTON}OK {B_BUTTON}Retour"
+msgstr "{A_BUTTON}OK {B_BUTTON}RETOUR"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : …{B_BUTTON}Retour
+#. ancien (Émeraude FR officiel) : {A_BUTTON}RUBANS {B_BUTTON}Retour
 #: src/pokenav_main_menu.c:113
 msgid "{A_BUTTON}RIBBONS {B_BUTTON}CANCEL"
-msgstr "{A_BUTTON}RUBANS {B_BUTTON}Retour"
+msgstr "{A_BUTTON}RUBANS {B_BUTTON}RETOUR"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : …{B_BUTTON}Retour
+#. ancien (Émeraude FR officiel) : {A_BUTTON}DETAILS {B_BUTTON}Retour
 #: src/pokenav_main_menu.c:114
 msgid "{A_BUTTON}CHECK {B_BUTTON}CANCEL"
-msgstr "{A_BUTTON}DETAILS {B_BUTTON}Retour"
+msgstr "{A_BUTTON}DETAILS {B_BUTTON}RETOUR"
 
 #. source : Émeraude FR officiel
 #: src/pokenav_match_call_data.c:192 src/pokenav_match_call_data.c:657
@@ -16277,10 +16647,13 @@ msgstr "Je suis le plus fort et"
 msgid "energetic after all!"
 msgstr "le plus énergique!"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : Nb dresseurs:
+#. ancien (Émeraude FR officiel) : Nb dresseurs:
 #: src/pokenav_match_call_gfx.c:127
 msgid "No. registered"
-msgstr "Nb dresseurs:"
+msgstr "Nb Dresseurs:"
 
 #. source : Émeraude FR officiel
 #: src/pokenav_match_call_gfx.c:128
@@ -17621,11 +17994,13 @@ msgid "EGG"
 msgstr "OEUF"
 
 #. source : Émeraude FR officiel
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : Pokémon
 #: src/data/easy_chat/easy_chat_group_trainer.h:88
 #: src/data/easy_chat/easy_chat_groups.h:29 src/strings.c:25 src/strings.c:136
 #: src/strings.c:557 src/strings.c:831
 msgid "POKéMON"
-msgstr "Pokémon"
+msgstr "POKéMON"
 
 #. source : patch FR actuel
 #: src/strings.c:30
@@ -17737,10 +18112,13 @@ msgstr ""
 msgid "        .   lbs."
 msgstr ""
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : CRI DE
+#. ancien (Émeraude FR officiel) : CRI DE
 #: src/strings.c:57
 msgid "CRY OF"
-msgstr "CRI DE"
+msgstr "CRI:"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:59
@@ -18040,10 +18418,13 @@ msgstr "N. "
 msgid "IDNo. /"
 msgstr "IDNo. /"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : NºID /
+#. ancien (Émeraude FR officiel) : NºID /
 #: src/strings.c:133 src/strings.c:756
 msgid "IDNo."
-msgstr "NºID /"
+msgstr "NºID "
 
 #. source : Émeraude FR officiel
 #: src/strings.c:134
@@ -18211,29 +18592,36 @@ msgid "Return to\\n{STR_VAR_1}."
 msgstr "Retourner\\n{STR_VAR_1}."
 
 #. source : Émeraude FR officiel
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : Poké Balls
 #: src/strings.c:220 src/strings.c:534 src/strings.c:1260
 msgid "POKé BALLS"
-msgstr "Poké Balls"
+msgstr "POKé BALLS"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:221 src/strings.c:535
 msgid "TMs & HMs"
 msgstr "CT & CS"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : H_interface
+#. preuve : Baies (passage de style)
+#. ancien (Émeraude FR officiel) : Baies
 #: src/strings.c:222 src/strings.c:536 src/strings.c:1262
 msgid "BERRIES"
-msgstr "Baies"
+msgstr "BAIES"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:223 src/strings.c:533
 msgid "KEY ITEMS"
 msgstr "OBJ. RARES"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : H_interface
+#. ancien (patch FR actuel) : Soins
 #: src/strings.c:224 src/strings.c:537
 msgid "MEDICINE"
-msgstr "Soins"
+msgstr "SOINS"
 
 #. source : Émeraude FR officiel
 #: src/data/easy_chat/easy_chat_group_battle.h:244
@@ -19115,14 +19503,18 @@ msgid "EVENTS"
 msgstr "EVENEMENTS"
 
 #. source : Émeraude FR officiel
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : INFOS Pokémon
 #: src/strings.c:417
 msgid "POKéMON INFO"
-msgstr "INFOS Pokémon"
+msgstr "INFOS POKéMON"
 
 #. source : Émeraude FR officiel
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : APTITU. Pokémon
 #: src/strings.c:418
 msgid "POKéMON SKILLS"
-msgstr "APTITU. Pokémon"
+msgstr "APTITU. POKéMON"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:419 src/strings.c:1224
@@ -19511,11 +19903,13 @@ msgid "SAVING"
 msgstr "EPARGNE"
 
 #. source : Émeraude FR officiel
+#. lot : H_interface
+#. ancien (Émeraude FR officiel) : Retour
 #: data/maps/GoldenrodCity_GameCorner_hns/scripts.inc:511
 #: src/data/union_room.h:541 src/data/union_room.h:542 src/strings.c:498
 #: src/strings.c:567 src/strings.c:621
 msgid "EXIT"
-msgstr "Retour"
+msgstr "RETOUR"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : CONC. SANG-FROID
