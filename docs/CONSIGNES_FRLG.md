@@ -5,9 +5,9 @@ Elles ne sont pas compilées dans HnS mais doivent être traduites (règle « ri
 
 ## Noms et termes déjà fixés (à respecter dans toutes les tranches)
 - Kanto selon SoulSilver FR : Bourg Palette, Jadielle, Argenta, Azuria, Carmin sur Mer, Lavanville, Céladopole,
-  Safrania, Parmanie, Cramois’Île, Plateau Indigo, Mont Sélénite, Grotte (Rock Tunnel = « Grotte », pas
+  Safrania, Parmanie, Cramois’Ile, Plateau Indigo, Mont Sélénite, Grotte (Rock Tunnel = « Grotte », pas
   « Grotte Sombre » qui est la Dark Cave de Johto), Route Victoire, Tour Pokémon, Sylphe SARL, Centre Commercial
-  de Céladopole, Îles Écume, Parc Safari… — vérifie toujours dans `traductions/glossaire.tsv` et dans les entrées
+  de Céladopole, Iles Ecume, Parc Safari… — vérifie toujours dans `traductions/glossaire.tsv` et dans les entrées
   officielles des .po.
 - Personnages (SoulSilver FR) : Prof. Chen, Pierre, Ondine, Major Bob, Erika, Koga, Morgane, Auguste, Giovanni,
   Olga, Aldo, Agatha, Peter, Léo (BILL), M. Fuji, Nina (DAISY, sœur du rival). Le rival du joueur est `{RIVAL}`.
@@ -30,3 +30,7 @@ Elles ne sont pas compilées dans HnS mais doivent être traduites (règle « ri
   officiels ; les panneaux suivent le style des panneaux officiels (« Route 1 — Bourg Palette ↔ Jadielle »).
 - Mise en page : `Gen3(build/upstream_orig).reformater(texte, 198)` (corrigé : les codes à espace ne bouclent
   plus), sauf fragments en `\n`/`\p`, `{DYNAMIC}`, `{CLEAR_TO}`. Un texte d'une ligne reste d'une ligne.
+
+## Précisions (mises à jour)
+- Aucune majuscule accentuée, même en casse normale (décision 14) : Cramois’Ile, Iles Ecume, Ile 1, Badge Ame, A la…
+- CELIO → Ciléo (Rouge Feu / Vert Feuille FR, Poképédia).
