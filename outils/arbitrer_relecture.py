@@ -4,6 +4,8 @@
   arbitrer_relecture.py <nom_du_lot> <fichiers .json du lot…> [--decisions decisions.json]
 
 Règles automatiques (dans l'ordre) :
+  0. texte officiel adapté : seules les retouches minimales sont admises (orthographe, codes, ou
+     correction à plus de 85 % identique) ; « autre_phrase » → à vérifier ;
   1. texte officiel exact (Émeraude FR / SoulSilver FR) : jamais modifié ; une remarque
      « autre_phrase » est mise de côté pour vérification d'alignement (à_vérifier) ;
   2. correction vide ou identique à la mise en page près : refusée (« mise en page seulement ») ;
@@ -28,6 +30,16 @@ BLOQ = {'CODES', 'KANA', 'CARACTERE', 'LONGUEUR', 'ESPACE'}
 
 def plat(s):
     return re.sub(r'\s+', ' ', re.sub(r'\\[nlp]', ' ', s or '')).strip()
+
+
+def officiel_adapte(src):
+    s = (src or '').lower()
+    return (s.startswith('émeraude fr officiel') or s.startswith('soulsilver fr officiel')) and 'adapt' in s
+
+
+def ratio(a, b):
+    from rapidfuzz import fuzz
+    return fuzz.ratio(a, b) / 100
 
 
 def officiel_exact(src):
@@ -64,6 +76,11 @@ def main():
             else: verdict, raison, corr = 'accepté', 'texte imposé par l’agent principal', imp
         elif officiel_exact(it.get('source')):
             verdict, raison = ('à_vérifier', 'texte officiel : vérifier l’alignement') if cat == 'autre_phrase' else ('refusé', 'texte officiel non modifiable')
+        elif officiel_adapte(it.get('source')) and cat not in ('codes', 'autre_phrase') and \
+                ratio(plat(corr), plat(it['msgstr'])) < 0.85:
+            verdict, raison = 'refusé', 'texte officiel adapté : on garde la formulation officielle (seule une retouche minimale est admise)'
+        elif officiel_adapte(it.get('source')) and cat == 'autre_phrase':
+            verdict, raison = 'à_vérifier', 'texte officiel adapté : vérifier l’alignement'
         elif not corr or plat(corr) == plat(it['msgstr']):
             verdict, raison = 'refusé', 'mise en page seulement ou pas de correction'
         elif re.search(r' [!?:;]', corr) and not re.search(r' [!?:;]', it['msgstr']):

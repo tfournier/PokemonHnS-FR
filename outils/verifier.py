@@ -39,7 +39,7 @@ CHAMPS = [
     (re.compile(r'battle_main\.c$|trainer_class'), re.compile(r'\.name\s*=|\[TRAINER_CLASS_\w+\]\s*=\s*\{\s*_\('), 12, 'classe de Dresseur'),
     (re.compile(r'battle_frontier_trainers\.h$|battle_tent\.h$'), re.compile(r'\.trainerName\s*='), 7, 'Dresseur Frontier'),
     (re.compile(r'trainer_hill\.h$'), re.compile(r'\.nickname\s*='), 10, 'surnom Mont Dresseurs'),
-    (re.compile(r'trainer_hill\.h$'), re.compile(r'\.name\s*='), 7, 'Dresseur Mont Dresseurs'),
+    (re.compile(r'trainer_hill\.h$'), re.compile(r'\.name\s*='), 10, 'Dresseur Mont Dresseurs'),
 ]
 
 

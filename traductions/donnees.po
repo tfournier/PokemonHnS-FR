@@ -14769,7 +14769,7 @@ msgstr "Cyclone"
 msgid "Blows away the foe, switches\\nit out or ends wild battle."
 msgstr "Souffle l’ennemi: le force à\\nchanger ou à fuir (sauvage)."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/data/moves_info.h:616
 msgid "FLY"
 msgstr "Vol"
@@ -15196,7 +15196,7 @@ msgstr "Attaque l’ennemi avec un\\nbec pointu, etc."
 msgid "DRILL PECK"
 msgstr "Bec Vrille"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
 #. SoulSilver (approché) : Une attaque utilisant le bec comme\nune perceuse.
 #: src/data/moves_info.h:1825
 msgid "A corkscrewing attack with\\nthe beak acting as a drill."
@@ -15435,8 +15435,8 @@ msgstr "Abîme"
 msgid "A one-hit KO move that\\ndrops the foe in a fissure."
 msgstr "Fait tomber l’ennemi dans\\nune crevasse et le met K.O."
 
-#. source : patch FR actuel (correspondance douteuse, à vérifier)
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : SoulSilver FR officiel
+#. source : SoulSilver FR officiel
 #: src/data/moves_info.h:2499
 msgid "DIG"
 msgstr "Tunnel"
@@ -24454,7 +24454,7 @@ msgstr ""
 "{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}Connexion en "
 "cours…\\nVeuillez patienter."
 
-#. source : relu et corrigé à la main
+#. source : SoulSilver FR officiel
 #: src/data/trade.h:53
 msgid ""
 "{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}The trade "
@@ -24463,14 +24463,18 @@ msgstr ""
 "{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}L’échange a "
 "été\\nannulé."
 
-#. source : relu et corrigé à la main
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 183:28 — Votre ami(e) n’a pas\nencore fini.
+#. ancien (relu et corrigé à la main) : {BACKGROUND WHITE}{TEXT_COLORS
+#. DARK_GRAY LIGHT_GRAY WHITE}Attente de votre ami…
 #: src/data/trade.h:55
 msgid ""
 "{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}Waiting for your "
 "friend\\nto finish…"
 msgstr ""
-"{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}Attente de votre "
-"ami…"
+"{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}Votre ami(e) n’a "
+"pas\\nencore fini."
 
 #. source : Émeraude FR officiel
 #: src/data/trade.h:56
@@ -26821,11 +26825,14 @@ msgstr ""
 msgid "MYMO"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:293 — Stéfie (SWIMMER_F, équipe LAPRAS/MARILL)
 #: src/data/trainers_frlg.party:10167 src/data/trainers_frlg.party:12823
 #: src/data/trainers_hns.party:4029 src/data/trainers_hns.party:13201
 #: src/data/trainers_hns.party:13219
 msgid "NICOLE"
-msgstr ""
+msgstr "Stéfie"
 
 #: src/data/trainers_frlg.party:10180
 msgid "AVA & GEB"
@@ -26916,9 +26923,12 @@ msgstr ""
 msgid "JED"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:47 — Mandé (YOUNGSTER, équipe PIDGEY/RATTATA)
 #: src/data/trainers_hns.party:103
 msgid "MIKEY"
-msgstr ""
+msgstr "Mandé"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:245
 #: src/data/trainers_hns.party:137
@@ -26935,25 +26945,40 @@ msgstr "IEN"
 msgid "KIPP"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:327 — Davon (SCHOOL_KID_M, équipe ELECTABUZZ/JYNX/MAGMAR)
 #: src/data/trainers_hns.party:316
 msgid "DANNY"
-msgstr ""
+msgstr "Davon"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:330 — Joël (SCHOOL_KID_M, équipe TANGELA/VAPOREON)
 #: src/data/trainers_hns.party:367
 msgid "JOE"
-msgstr ""
+msgstr "Joël"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:217 — Tony (BIRD_KEEPER_GS, équipe FEAROW/SPEAROW)
 #: src/data/trainers_hns.party:537
 msgid "DENIS"
-msgstr ""
+msgstr "Tony"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:364 — Edouard (SUPER_NERD, équipe GRIMER/MUK)
 #: src/data/trainers_hns.party:4394
 msgid "SAM"
-msgstr ""
+msgstr "Edouard"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:302 — Bob (BIRD_KEEPER_GS, équipe NOCTOWL)
 #: src/data/trainers_hns.party:634
 msgid "BOB"
-msgstr ""
+msgstr "Bob"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1912
 #: src/data/trainers_hns.party:702
@@ -26974,13 +26999,19 @@ msgstr ""
 msgid "CODY"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:108 — Jean (ACE_TRAINER_M, équipe ELECTABUZZ/PIDGEOT)
 #: src/data/trainers_hns.party:1064
 msgid "RYAN"
-msgstr ""
+msgstr "Jean"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:28 — Jack (ACE_TRAINER_M, équipe GOLDUCK/PARASECT/VAPOREON)
 #: src/data/trainers_hns.party:1085
 msgid "JAKE"
-msgstr ""
+msgstr "Jack"
 
 #: src/data/battle_frontier/apprentice.h:420 src/data/trainers_hns.party:1139
 msgid "BRIAN"
@@ -27004,17 +27035,26 @@ msgstr ""
 msgid "DARIN"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:116 — Sally (ACE_TRAINER_F, équipe MAREEP/NINETALES)
 #: src/data/trainers_hns.party:1361 src/data/trainers_hns.party:14165
 msgid "LOIS"
-msgstr ""
+msgstr "Sally"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:119 — Alix (ACE_TRAINER_F, équipe SEADRA)
 #: src/data/trainers_hns.party:1378
 msgid "FRAN"
-msgstr ""
+msgstr "Alix"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:118 — Irène (ACE_TRAINER_F, équipe CLOYSTER/SHELLDER)
 #: src/data/trainers_hns.party:1424
 msgid "KATE"
-msgstr ""
+msgstr "Irène"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:904
 #: src/data/trainers_hns.party:1458
@@ -27036,9 +27076,12 @@ msgstr ""
 msgid "CYBIL"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:417 — Maria (ACE_TRAINER_F, équipe STARMIE/STARYU)
 #: src/data/trainers_hns.party:1667
 msgid "JENN"
-msgstr ""
+msgstr "Maria"
 
 #: src/data/trainers_hns.party:1684
 msgid "CARA"
@@ -27070,10 +27113,13 @@ msgstr ""
 msgid "THERESA"
 msgstr ""
 
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:132 — Thomas (POKE_MANIAC, équipe NIDOKING)
+#. ancien (patch FR actuel (récupéré par pointeur)) : ER
 #: src/data/trainers_hns.party:2048
 msgid "RON"
-msgstr "ER"
+msgstr "Thomas"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1352
 #: src/data/trainers_hns.party:2082
@@ -27095,25 +27141,34 @@ msgstr ""
 msgid "ETO"
 msgstr ""
 
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:249 — Jean-Raoul (BUG_CATCHER, équipe CATERPIE)
+#. ancien (patch FR actuel (récupéré par pointeur)) : OR
 #: src/data/trainers_hns.party:2968
 msgid "DON"
-msgstr "OR"
+msgstr "Jean-Raoul"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:48 — Aymeric (BUG_CATCHER, équipe BEEDRILL/BUTTERFREE)
 #: src/data/trainers_hns.party:2985 src/data/trainers_hns.party:13162
 #: src/data/trainers_hns.party:13180
 msgid "ROB"
-msgstr ""
+msgstr "Aymeric"
 
 #. source : patch FR actuel (récupéré par pointeur)
 #: src/data/easy_chat/easy_chat_group_people.h:124
 msgid "ME"
 msgstr "M"
 
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:79 — Amaury (BUG_CATCHER, équipe ARIADOS/PINSIR)
+#. ancien (patch FR actuel (récupéré par pointeur)) : U
 #: src/data/trainers_hns.party:3104
 msgid "KEN"
-msgstr "U"
+msgstr "Amaury"
 
 #: src/data/pokemon/species_info/gen_9_families.h:1590
 #: src/data/pokemon/species_info/gen_9_families.h:1655
@@ -27126,13 +27181,19 @@ msgstr ""
 msgid "MARVIN"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:321 — Simonin (FISHERMAN, équipe QUAGSIRE/QWILFISH/TENTACRUEL)
 #: src/data/trainers_hns.party:3372
 msgid "STEPHEN"
-msgstr ""
+msgstr "Simonin"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:322 — Yvon (FISHERMAN, équipe GYARADOS)
 #: src/data/trainers_hns.party:3397
 msgid "BARNEY"
-msgstr ""
+msgstr "Yvon"
 
 #: src/data/trainers_hns.party:3562
 msgid "MATHEW"
@@ -27147,9 +27208,12 @@ msgstr ""
 msgid "PATON"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:384 — Sammy (HIKER, équipe ONIX)
 #: src/data/trainers_hns.party:4909
 msgid "DANIEL"
-msgstr ""
+msgstr "Sammy"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:800
 #: src/data/trainers_hns.party:3964
@@ -27162,13 +27226,19 @@ msgstr ""
 msgid "BRIANA"
 msgstr "Briana"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:39 — Jacob (SAILOR, équipe KRABBY/POLIWHIRL/RATICATE)
 #: src/data/trainers_hns.party:4139
 msgid "EUGENE"
-msgstr ""
+msgstr "Jacob"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:212 — Alberto (SAILOR, équipe POLIWHIRL)
 #: src/data/trainers_hns.party:4173
 msgid "TERRELL"
-msgstr ""
+msgstr "Alberto"
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/battle_frontier_trainers.h:688
@@ -27176,9 +27246,12 @@ msgstr ""
 msgid "KENNETH"
 msgstr "Kenneth"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:410 — Isaac (SAILOR, équipe WOOPER)
 #: src/data/trainers_hns.party:4300
 msgid "HARRY"
-msgstr ""
+msgstr "Isaac"
 
 #: src/data/trainers_hns.party:4343
 msgid "GREGG"
@@ -27198,30 +27271,42 @@ msgstr ""
 msgid "MARKUS"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:41 — Django (GUITARIST, équipe ELECTABUZZ)
 #: src/data/trainers_hns.party:4551
 msgid "CLYDE"
-msgstr ""
+msgstr "Django"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:144 — Lucien (HIKER, équipe GEODUDE/GOLEM/GRAVELER)
 #: src/data/trainers_hns.party:4699
 msgid "MICHAEL"
-msgstr ""
+msgstr "Lucien"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2240
 #: src/data/trainers_hns.party:4766
 msgid "BAILEY"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:359 — Albin (HIKER, équipe MACHAMP)
 #: src/data/trainers_hns.party:4875
 msgid "JIM"
-msgstr ""
+msgstr "Albin"
 
 #: src/data/trainers_hns.party:4922
 msgid "KAZU"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:311 — Johnny (BIKER, équipe KOFFING)
 #: src/data/trainers_hns.party:4981
 msgid "ZEKE"
-msgstr ""
+msgstr "Johnny"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2280
 #: src/data/trainers_hns.party:4998 src/data/trainers_hns.party:13372
@@ -27243,53 +27328,77 @@ msgstr ""
 msgid "NARD"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:15 — Otis (FIREBREATHER, équipe CAMERUPT/MAGMAR/WEEZING)
 #: src/data/trainers_hns.party:5159
 msgid "OTIS"
-msgstr ""
+msgstr "Otis"
 
 #: src/data/trainers_hns.party:5180
 msgid "DICK"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:318 — Akim (FIREBREATHER, équipe MAGCARGO/WEEZING)
 #: src/data/trainers_hns.party:5214
 msgid "BURT"
-msgstr ""
+msgstr "Akim"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:242 — Chico (JUGGLER, équipe MACHOKE/MAGMAR/MRMIME)
 #: src/data/trainers_hns.party:5316
 msgid "FRITZ"
-msgstr ""
+msgstr "Chico"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:396 — Harpo (JUGGLER, équipe ELECTRODE)
 #: src/data/trainers_hns.party:5337
 msgid "HORTON"
-msgstr ""
+msgstr "Harpo"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:398
 #: src/data/trainers_hns.party:5387
 msgid "YOSHI"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:339 — Keisuke (BLACK_BELT, équipe MACHOKE/MEDITITE)
 #: src/data/trainers_hns.party:5468
 msgid "WAI"
-msgstr ""
+msgstr "Keisuke"
 
 #. source : SoulSilver FR officiel
 #: src/data/trainers_hns.party:5489
 msgid "NATHAN"
 msgstr "Nathan"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:317 — Florent (PSYCHIC_M, équipe XATU)
 #: src/data/trainers_hns.party:5536
 msgid "FIDEL"
-msgstr ""
+msgstr "Florent"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:27 — Elisabeth (PICNICKER, équipe NIDORANF)
 #: src/data/trainers_hns.party:5701 src/data/trainers_hns.party:11303
 #: src/data/trainers_hns.party:11318 src/data/trainers_hns.party:11336
 #: src/data/trainers_hns.party:11354
 msgid "LIZ"
-msgstr ""
+msgstr "Elisabeth"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:77 — Kala (PICNICKER, équipe VULPIX)
 #: src/data/trainers_hns.party:5744
 msgid "KIM"
-msgstr ""
+msgstr "Kala"
 
 #. source : SoulSilver FR officiel
 #: src/data/trainers_hns.party:5817 src/data/trainers_hns.party:12410
@@ -27297,42 +27406,60 @@ msgstr ""
 msgid "ERIN"
 msgstr "Erin"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:148 — Stéphane (CAMPER, équipe NIDOKING)
 #: src/data/trainers_hns.party:5991
 msgid "LLOYD"
-msgstr ""
+msgstr "Stéphane"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:150 — Claude (CAMPER, équipe DUGTRIO/POLIWRATH/PRIMEAPE)
 #: src/data/trainers_hns.party:6021
 msgid "SID"
-msgstr ""
+msgstr "Claude"
 
 #: src/data/trainers_hns.party:6244
 msgid "QUENTIN"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:43 — Quentin (SAGE, équipe BELLSPROUT)
 #: src/data/trainers_hns.party:6269
 msgid "CHOW"
-msgstr ""
+msgstr "Quentin"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2184
 #: src/data/trainers_hns.party:6290
 msgid "NICO"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:53 — Alfonse (SAGE, équipe BELLSPROUT)
 #: src/data/trainers_hns.party:6311
 msgid "JIN"
-msgstr ""
+msgstr "Alfonse"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:54 — Batiste (SAGE, équipe BELLSPROUT/HOOTHOOT)
 #: src/data/trainers_hns.party:6324
 msgid "TROY"
-msgstr ""
+msgstr "Batiste"
 
 #: src/data/trainers_hns.party:6362
 msgid "PING"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:55 — Achille (SAGE, équipe BELLSPROUT)
 #: src/data/trainers_hns.party:6396
 msgid "NEAL"
-msgstr ""
+msgstr "Achille"
 
 #. nom propre/fragment conservé (le patch FR actuel donnait un morceau d’un
 #. autre texte)
@@ -27356,21 +27483,33 @@ msgstr ""
 msgid "ETHEL"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:160 — Umeko (KIMONO_GIRL, équipe ESPEON)
 #: src/data/trainers_hns.party:6855
 msgid "NAOKO"
-msgstr ""
+msgstr "Umeko"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:161 — Sakura (KIMONO_GIRL, équipe JOLTEON)
 #: src/data/trainers_hns.party:6873
 msgid "SAYO"
-msgstr ""
+msgstr "Sakura"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:162 — Tamao (KIMONO_GIRL, équipe UMBREON)
 #: src/data/trainers_hns.party:6891
 msgid "ZUKI"
-msgstr ""
+msgstr "Tamao"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:164 — Satsuki (KIMONO_GIRL, équipe FLAREON)
 #: src/data/trainers_hns.party:6927
 msgid "MIKI"
-msgstr ""
+msgstr "Satsuki"
 
 #: src/data/trainers_hns.party:6945
 msgid "AMY&MAY"
@@ -27400,9 +27539,12 @@ msgstr ""
 msgid "THOM & KAE"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:729 — Ludo&Dalia (YOUNG_COUPLE, équipe CLOYSTER/ONIX)
 #: src/data/trainers_hns.party:7153
 msgid "DUFF & EDA"
-msgstr ""
+msgstr "Ludo&Dalia"
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/battle_frontier_trainers.h:2416
@@ -27417,22 +27559,35 @@ msgstr "Chuck"
 msgid "LTSURGE"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:498 — Eusine (MYSTERY_MAN, équipe DROWZEE/ELECTRODE/HAUNTER)
 #: src/data/trainers_hns.party:10448
 msgid "EUSINE"
-msgstr ""
+msgstr "Eusine"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:486 — Lance (EXECUTIVE_PROTON, équipe KOFFING/ZUBAT)
 #: src/data/trainers_hns.party:10542 src/data/trainers_hns.party:10564
 msgid "PROTON"
-msgstr ""
+msgstr "Lance"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:485 — Amos (EXECUTIVE_ARCHER, équipe
+#. HOUNDOOM/HOUNDOUR/KOFFING)
 #: src/data/trainers_hns.party:10615 src/data/trainers_hns.party:10666
 #: src/data/trainers_hns.party:10701 src/data/trainers_hns.party:10752
 msgid "ARCHER"
-msgstr ""
+msgstr "Amos"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:487 — Lambda (EXECUTIVE_PETREL, équipe KOFFING/WEEZING)
 #: src/data/trainers_hns.party:10803 src/data/trainers_hns.party:10846
 msgid "PETREL"
-msgstr ""
+msgstr "Lambda"
 
 #: src/data/trainers_hns.party:13417
 msgid "SAMSON OAK"
@@ -27773,10 +27928,13 @@ msgstr "{STR_VAR_1}!\\nOK avec ces membres?"
 msgid "Cancel {STR_VAR_1} MODE\\nwith these members?"
 msgstr "Annuler le MODE\\n{STR_VAR_1}\\lavec ces membres?"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 135:80 — Vous avez répondu “OK”\nà {STRVAR_1 3, 0, 0}.
+#. ancien (patch FR actuel) : “OK” a été envoyé\nà {STR_VAR_1}.
 #: src/data/union_room.h:95
 msgid "An “OK” was sent\\nto {STR_VAR_1}."
-msgstr "“OK” a été envoyé\\nà {STR_VAR_1}."
+msgstr "Vous avez répondu\\n“OK” à {STR_VAR_1}."
 
 #. source : patch FR actuel
 #: src/data/union_room.h:96
@@ -27966,10 +28124,14 @@ msgstr "{STR_VAR_1} essaie de vous contacter.{PAUSE 60}"
 msgid "Awaiting a response from\\nthe other TRAINER…"
 msgstr "En attente d’une réponse de\\nl’autre Dresseur…"
 
-#. source : relu et corrigé à la main
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 738:9 — En attente d’une réponse de\n{STRVAR_1 3, 0, 0}...
+#. ancien (relu et corrigé à la main) : En attente d’une réponse
+#. de\n{STR_VAR_1}…
 #: src/data/union_room.h:216
 msgid "Awaiting a response from\\n{STR_VAR_1}…"
-msgstr "En attente d’une réponse de\\n{STR_VAR_1}…"
+msgstr "En attente d’une\\nréponse de {STR_VAR_1}…"
 
 #. source : patch FR actuel
 #: src/data/union_room.h:223
@@ -28079,11 +28241,14 @@ msgstr "Un tchat?\\nBien sûr, attends un peu."
 msgid "Sure thing! As my “Greetings,”\\nhere's my TRAINER CARD."
 msgstr "Pareil pour moi!\\nVoilà ma Carte Dresseur."
 
-#. source : patch FR actuel
-#. SoulSilver (approché) : Un échange? OK, je me prépare.
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 738:57 — Un combat, hein?\nTrès bien, juste un instant.
+#. ancien (patch FR actuel) : Un combat? Bien sûr!\nJuste un instant, je me
+#. prépare.
 #: src/data/union_room.h:260
 msgid "A battle? Of course, but I need\\ntime to get ready."
-msgstr "Un combat? Bien sûr!\\nJuste un instant, je me prépare."
+msgstr "Un combat, hein? Très bien,\\njuste un instant."
 
 #. source : patch FR actuel
 #: src/data/union_room.h:261
@@ -28096,10 +28261,14 @@ msgstr "Un tchat?\\nPas de problème, juste un instant."
 msgid "As my introduction, I'll show you\\nmy TRAINER CARD."
 msgstr "Pour me présenter, je vais te montrer\\nma Carte de Dresseur."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 738:58 — Merci d’avoir patienté!\nAllez, commençons le combat!
+#. ancien (patch FR actuel) : Merci d’avoir patienté!\nAllez, commençons le
+#. combat!{PAUSE 60}
 #: src/data/union_room.h:279
 msgid "Thanks for waiting!\\nLet's get our battle started!{PAUSE 60}"
-msgstr "Merci d’avoir patienté!\\nAllez, commençons le combat!{PAUSE 60}"
+msgstr "Merci d’avoir patienté! Allez,\\ncommençons le combat!{PAUSE 60}"
 
 #. source : patch FR actuel
 #: src/data/union_room.h:280
@@ -28116,12 +28285,12 @@ msgstr "Tu n’as pas trop attendu?\\nCommençons!{PAUSE 60}"
 msgid "Sorry I made you wait!\\nLet's chat.{PAUSE 60}"
 msgstr "Tu n’as pas trop attendu?\\nCommençons le tchat.{PAUSE 60}"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/data/union_room.h:283
 msgid "The trade will be started.{PAUSE 60}"
 msgstr "L’échange va commencer.{PAUSE 60}"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/data/union_room.h:284
 msgid "The battle will be started.{PAUSE 60}"
 msgstr "Le combat va commencer.{PAUSE 60}"
@@ -28177,12 +28346,15 @@ msgstr "Si tu as besoin de moi, fais-moi signe!"
 msgid "If you want to do something with\\nme, don't be shy.\\p"
 msgstr "Si tu veux faire un truc, n’hésite\\npas à demander.\\p"
 
-#. source : patch FR actuel
-#. SoulSilver (approché) : Oups! Dommage, j’ai autre chose à\nfaire.\pUne
-#. autre fois, OK?
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 738:98 — Oups! Dommage, j’ai autre\nchose à faire.\fUne autre
+#. fois, OK?
+#. ancien (patch FR actuel) : Oups! Dommage, j’ai autre \nchose à faire.\lUne
+#. autre fois, OK?\p
 #: src/data/union_room.h:335
 msgid "Whoops! Sorry, but I have to do\\nsomething else.\\lAnother time, okay?\\p"
-msgstr "Oups! Dommage, j’ai autre \\nchose à faire.\\lUne autre fois, OK?\\p"
+msgstr "Oups! Dommage, j’ai autre\\nchose à faire.\\lUne autre fois, OK?\\p"
 
 #. source : Émeraude FR officiel (contexte de script)
 #: src/data/union_room.h:336
@@ -28195,7 +28367,7 @@ msgstr ""
 msgid "For a battle, you need two\\nPOKéMON that are below Lv. 30.\\p"
 msgstr "Pour combattre, il te faut deux\\nPOKéMON de niveau inférieur\\là 30.\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
 #. SoulSilver (approché) : Bon, OK. A la prochaine alors.
 #: src/data/union_room.h:339
 msgid "Oh, all right.\\nCome see me anytime, okay?\\p"
@@ -28301,12 +28473,15 @@ msgstr "Oui, c’est ça!\\nC’est ce que je voulais dire.\\p"
 msgid "In other words…\\nYes! That's right!\\p"
 msgstr "En d’autres termes…\\nOui, c’est ça!\\p"
 
-#. source : patch FR actuel
-#. SoulSilver (approché) : Je montre toujours ma Carte de\nDresseur pour me
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 738:44 — Je montre toujours ma Carte de\nDresseur pour me
 #. présenter.
+#. ancien (patch FR actuel) : Je montre toujours ma Carte\nDresseur pour me
+#. présenter.\p
 #: src/data/union_room.h:405
 msgid "I'm just showing my TRAINER CARD\\nas my way of greeting.\\p"
-msgstr "Je montre toujours ma Carte\\nDresseur pour me présenter.\\p"
+msgstr "Je montre toujours ma Carte de\\nDresseur pour me présenter.\\p"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : J’espère qu’on se connaîtra mieux!\p
@@ -28581,10 +28756,13 @@ msgstr "Recherche d’un système de\\nCOMMUNICATION SANS FIL. Patienter."
 msgid "For a DOUBLE BATTLE, you must have\\nat least two POKéMON.\\p"
 msgstr "Pour un Combat Duo, vous devez avoir\\nau minimum deux Pokémon."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 135:73 — En attente d’une réponse de\n{STRVAR_1 3, 0, 0}...
+#. ancien (patch FR actuel) : Attente d’une réponse de {STR_VAR_1}…
 #: src/data/union_room.h:526
 msgid "Awaiting {STR_VAR_1}'s response…"
-msgstr "Attente d’une réponse de {STR_VAR_1}…"
+msgstr "En attente d’une réponse de {STR_VAR_1}…"
 
 #. source : Émeraude FR officiel
 #: src/data/union_room.h:527
@@ -28679,10 +28857,13 @@ msgstr "NIV. 50 à la Tour de Combat"
 msgid "BATTLE TOWER OPEN LEVEL"
 msgstr "Tour de Combat NIV. LIBRE!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 14:2 — Une carte Normale!
+#. ancien (patch FR actuel) : C’est une carte NORMALE!
 #: src/data/union_room.h:566
 msgid "It's a NORMAL CARD."
-msgstr "C’est une carte NORMALE!"
+msgstr "Une carte Normale!"
 
 #. source : patch FR actuel
 #: src/data/union_room.h:567
@@ -28738,60 +28919,91 @@ msgstr "{DYNAMIC 1}: Ravi de te rencontrer!{PAUSE 60}"
 msgid "Finished checking {DYNAMIC 1}'s\\nTRAINER CARD.{PAUSE 60}"
 msgstr "Fin de la lecture de la Carte\\nDresseur de {DYNAMIC 1}.{PAUSE 60}"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:132 — {STRVAR_1 1, 0, 0} vous touche le ventre!
+#. ancien (patch FR actuel) : {STR_VAR_1} se met à vous tapoter\nle ventre.
 #: src/data/text/follower_messages.h:22
 msgid "{STR_VAR_1} began poking you in the\\nstomach."
-msgstr "{STR_VAR_1} se met à vous tapoter\\nle ventre."
+msgstr "{STR_VAR_1} vous touche le ventre!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:362 — {STRVAR_1 1, 0, 0} rougit de plaisir!
+#. ancien (patch FR actuel) : {STR_VAR_1} rayonne, mais reste timide.
 #: src/data/text/follower_messages.h:23
 msgid "{STR_VAR_1} is happy but shy."
-msgstr "{STR_VAR_1} rayonne, mais reste timide."
+msgstr "{STR_VAR_1} rougit de plaisir!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:385 — {STRVAR_1 1, 0, 0} vous suit avec entrain.
+#. ancien (patch FR actuel) : {STR_VAR_1} vous suit gaiement.
 #: src/data/text/follower_messages.h:24
 msgid "{STR_VAR_1} is coming along happily."
-msgstr "{STR_VAR_1} vous suit gaiement."
+msgstr "{STR_VAR_1} vous suit avec entrain."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:420 — {STRVAR_1 1, 0, 0} est relaxé!
+#. ancien (patch FR actuel) : {STR_VAR_1} garde son sang-froid.
 #: src/data/text/follower_messages.h:25
 msgid "{STR_VAR_1} is composed."
-msgstr "{STR_VAR_1} garde son sang-froid."
+msgstr "{STR_VAR_1} est relaxé!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:55 — {STRVAR_1 1, 0, 0} vous suit, l’air satisfait.
+#. ancien (patch FR actuel) : {STR_VAR_1} adore se promener\navec vous!
 #: src/data/text/follower_messages.h:26
 msgid "{STR_VAR_1} seems to be feeling\\ngreat about walking with you!"
-msgstr "{STR_VAR_1} adore se promener\\navec vous!"
+msgstr "{STR_VAR_1} vous suit, l’air\\nsatisfait."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:169 — {STRVAR_1 1, 0, 0} est plein de vie!
+#. ancien (patch FR actuel) : {STR_VAR_1} respire la santé.
 #: src/data/text/follower_messages.h:27
 msgid "{STR_VAR_1} is glowing with health."
-msgstr "{STR_VAR_1} respire la santé."
+msgstr "{STR_VAR_1} est plein de vie!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:54 — {STRVAR_1 1, 0, 0} a vraiment l’air content!
+#. ancien (patch FR actuel) : {STR_VAR_1} a l’air très heureux.
 #: src/data/text/follower_messages.h:28
 msgid "{STR_VAR_1} looks very happy."
-msgstr "{STR_VAR_1} a l’air très heureux."
+msgstr "{STR_VAR_1} a vraiment l’air content!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:56 — {STRVAR_1 1, 0, 0} y met de la force!
+#. ancien (patch FR actuel) : {STR_VAR_1} redouble d’efforts.
 #: src/data/text/follower_messages.h:29
 msgid "{STR_VAR_1} put in extra effort."
-msgstr "{STR_VAR_1} redouble d’efforts."
+msgstr "{STR_VAR_1} y met de la force!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:105 — {STRVAR_1 1, 0, 0} renifle les alentours.
+#. ancien (patch FR actuel) : {STR_VAR_1} hume les odeurs qui\nflottent dans
+#. l’air.
 #: src/data/text/follower_messages.h:30
 msgid "{STR_VAR_1} is smelling the scents\\nof the surrounding air."
-msgstr "{STR_VAR_1} hume les odeurs qui\\nflottent dans l’air."
+msgstr "{STR_VAR_1} renifle les alentours."
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:31
 msgid "{STR_VAR_1} is jumping for joy!"
 msgstr "{STR_VAR_1} saute de joie!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:306 — {STRVAR_1 1, 0, 0} a l’air encore en forme!
+#. ancien (patch FR actuel) : {STR_VAR_1} tient toujours la forme!
 #: src/data/text/follower_messages.h:32
 msgid "{STR_VAR_1} is still feeling great!"
-msgstr "{STR_VAR_1} tient toujours la forme!"
+msgstr "{STR_VAR_1} a l’air encore en forme!"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Votre Pokémon a senti une odeur\nde fumée.
@@ -28799,10 +29011,13 @@ msgstr "{STR_VAR_1} tient toujours la forme!"
 msgid "Your POKéMON has caught the scent of\\nsmoke."
 msgstr "Il renifle la fumée."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:364 — {STRVAR_1 1, 0, 0} vous touche le ventre!
+#. ancien (patch FR actuel) : {STR_VAR_1} vous tapote le bidon.
 #: src/data/text/follower_messages.h:34
 msgid "{STR_VAR_1} is poking at your belly."
-msgstr "{STR_VAR_1} vous tapote le bidon."
+msgstr "{STR_VAR_1} vous touche le ventre!"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Votre Pokémon s’étire de tout son\nlong et se détend.
@@ -28810,122 +29025,183 @@ msgstr "{STR_VAR_1} vous tapote le bidon."
 msgid "Your POKéMON stretched out its body\\nand is relaxing."
 msgstr "Il s’étire pour se mettre à l’aise."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:38 — On dirait que {STRVAR_1 1, 0, 0} veut passer\ndevant!
+#. ancien (patch FR actuel) : {STR_VAR_1} a l’air de vouloir\nouvrir la
+#. marche!
 #: src/data/text/follower_messages.h:36
 msgid "{STR_VAR_1} looks like it wants to\\nlead!"
-msgstr "{STR_VAR_1} a l’air de vouloir\\nouvrir la marche!"
+msgstr "On dirait que {STR_VAR_1} veut\\npasser devant!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:51 — {STRVAR_1 1, 0, 0} vous suit de son mieux!
+#. ancien (patch FR actuel) : {STR_VAR_1} fait de son mieux pour\nvous suivre.
 #: src/data/text/follower_messages.h:37
 msgid "{STR_VAR_1} is doing its best to\\nkeep up with you."
-msgstr "{STR_VAR_1} fait de son mieux pour\\nvous suivre."
+msgstr "{STR_VAR_1} vous suit de son\\nmieux!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:53 — {STRVAR_1 1, 0, 0} vous câline,\nla mine réjouie.
+#. ancien (patch FR actuel) : {STR_VAR_1} se blottit joyeusement\ncontre vous!
 #: src/data/text/follower_messages.h:38
 msgid "{STR_VAR_1} is happily cuddling up\\nto you!"
-msgstr "{STR_VAR_1} se blottit joyeusement\\ncontre vous!"
+msgstr "{STR_VAR_1} vous câline, la mine\\nréjouie."
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:39
 msgid "{STR_VAR_1} is full of life!"
 msgstr "{STR_VAR_1} déborde de vitalité!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:62 — {STRVAR_1 1, 0, 0} a l’air si heureux!
+#. ancien (patch FR actuel) : {STR_VAR_1} nage dans le bonheur!
 #: src/data/text/follower_messages.h:40
 msgid "{STR_VAR_1} seems to be very happy!"
-msgstr "{STR_VAR_1} nage dans le bonheur!"
+msgstr "{STR_VAR_1} a l’air si heureux!"
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:41
 msgid "{STR_VAR_1} is so happy that it\\ncan't stand still!"
 msgstr "{STR_VAR_1} déborde de joie et ne\\ntient plus en place!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:755 — {STRVAR_1 1, 0, 0} gémit doucement.
+#. ancien (patch FR actuel) : {STR_VAR_1} hoche lentement la tête.
 #: src/data/text/follower_messages.h:42
 msgid "{STR_VAR_1} nodded slowly."
-msgstr "{STR_VAR_1} hoche lentement la tête."
+msgstr "{STR_VAR_1} gémit doucement."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:334 — {STRVAR_1 1, 0, 0} veut en découdre!
+#. ancien (patch FR actuel) : {STR_VAR_1} trépigne d’impatience!
 #: src/data/text/follower_messages.h:43
 msgid "{STR_VAR_1} is very eager!"
-msgstr "{STR_VAR_1} trépigne d’impatience!"
+msgstr "{STR_VAR_1} veut en découdre!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:148 — {STRVAR_1 1, 0, 0} écoute un bruit avec\nintérêt.
+#. ancien (patch FR actuel) : {STR_VAR_1} se promène en écoutant\nles bruits
+#. alentour.
 #: src/data/text/follower_messages.h:44
 msgid "{STR_VAR_1} is wandering around and\\nlistening to the different sounds."
-msgstr "{STR_VAR_1} se promène en écoutant\\nles bruits alentour."
+msgstr "{STR_VAR_1} écoute un bruit avec\\nintérêt."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:146 — {STRVAR_1 1, 0, 0} a l’air très intéressé!
+#. ancien (patch FR actuel) : {STR_VAR_1} montre un vif intérêt.
 #: src/data/text/follower_messages.h:45
 msgid "{STR_VAR_1} looks very interested."
-msgstr "{STR_VAR_1} montre un vif intérêt."
+msgstr "{STR_VAR_1} a l’air très intéressé!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:401 — {STRVAR_1 1, 0, 0} a l’air de pouvoir vous\nsuivre.
+#. ancien (patch FR actuel) : {STR_VAR_1} se force tant bien que\nmal à
+#. avancer.
 #: src/data/text/follower_messages.h:46
 msgid "{STR_VAR_1} is somehow forcing\\nitself to keep going."
-msgstr "{STR_VAR_1} se force tant bien que\\nmal à avancer."
+msgstr "{STR_VAR_1} a l’air de pouvoir\\nvous suivre."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:500 — {STRVAR_1 1, 0, 0} salue avec entrain!
+#. ancien (patch FR actuel) : {STR_VAR_1} vous lance un regard\nradieux!
 #: src/data/text/follower_messages.h:47
 msgid "{STR_VAR_1} gave you a sunny look!"
-msgstr "{STR_VAR_1} vous lance un regard\\nradieux!"
+msgstr "{STR_VAR_1} salue avec entrain!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:552 — {STRVAR_1 1, 0, 0} salue en souriant!
+#. ancien (patch FR actuel) : {STR_VAR_1} vous regarde d’un air\njoyeux et
+#. sourit.
 #: src/data/text/follower_messages.h:48
 msgid "{STR_VAR_1} gives you a happy look\\nand a smile."
-msgstr "{STR_VAR_1} vous regarde d’un air\\njoyeux et sourit."
+msgstr "{STR_VAR_1} salue en souriant!"
 
-#. source : patch FR actuel
-#. SoulSilver (approché) : Il renifle une fleur.
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 265:494 — Il renifle une fleur.
+#. ancien (patch FR actuel) : Votre Pokémon hume le parfum\ndes fleurs.
 #: src/data/text/follower_messages.h:49
 msgid "Your POKéMON is smelling the scent\\nof flowers."
-msgstr "Votre Pokémon hume le parfum\\ndes fleurs."
+msgstr "Il renifle une fleur."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:117 — {STRVAR_1 1, 0, 0} vous salue, l’air heureux.
+#. ancien (patch FR actuel) : {STR_VAR_1} se réjouit de vous\nvoir!
 #: src/data/text/follower_messages.h:50
 msgid "{STR_VAR_1} seems very happy to see\\nyou!"
-msgstr "{STR_VAR_1} se réjouit de vous\\nvoir!"
+msgstr "{STR_VAR_1} vous salue, l’air\\nheureux."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:176 — {STRVAR_1 1, 0, 0} se retourne et vous\nsourit.
+#. ancien (patch FR actuel) : {STR_VAR_1} se tourne vers vous et\nsourit de
+#. toutes ses dents.
 #: src/data/text/follower_messages.h:51
 msgid "{STR_VAR_1} faced this way and\\ngrinned."
-msgstr "{STR_VAR_1} se tourne vers vous et\\nsourit de toutes ses dents."
+msgstr "{STR_VAR_1} se retourne et\\nvous sourit."
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:52
 msgid "{STR_VAR_1} happily cuddled up to\\nyou!"
 msgstr "{STR_VAR_1} vient se blottir contre\\nvous avec bonheur!"
 
-#. source : patch FR actuel
-#. SoulSilver (approché) : Il aime le beau temps on dirait!
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 265:459 — Il aime le beau temps on dirait!
+#. ancien (patch FR actuel) : Votre Pokémon a l’air d’apprécier\nle beau
+#. temps.
 #: src/data/text/follower_messages.h:54
 msgid "Your POKéMON seems happy about the\\ngreat weather."
-msgstr "Votre Pokémon a l’air d’apprécier\\nle beau temps."
+msgstr "Il aime le beau temps, on dirait!"
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:55
 msgid "{STR_VAR_1} is very composed and\\nsure of itself!"
 msgstr "{STR_VAR_1} affiche un calme et une\\nassurance à toute épreuve!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:200 — {STRVAR_1 1, 0, 0} creuse le sol.
+#. ancien (patch FR actuel) : {STR_VAR_1} tapote le sol avec\napplication.
 #: src/data/text/follower_messages.h:75
 msgid "{STR_VAR_1} is steadily poking at\\nthe ground."
-msgstr "{STR_VAR_1} tapote le sol avec\\napplication."
+msgstr "{STR_VAR_1} creuse le sol."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:168 — {STRVAR_1 1, 0, 0} est en alerte!
+#. ancien (patch FR actuel) : {STR_VAR_1} monte la garde.
 #: src/data/text/follower_messages.h:76
 msgid "{STR_VAR_1} is standing guard."
-msgstr "{STR_VAR_1} monte la garde."
+msgstr "{STR_VAR_1} est en alerte!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:400 — {STRVAR_1 1, 0, 0} regarde dans le vide...
+#. ancien (patch FR actuel) : {STR_VAR_1} fixe patiemment…\nle vide.
 #: src/data/text/follower_messages.h:77
 msgid "{STR_VAR_1} is staring patiently at\\nnothing at all."
-msgstr "{STR_VAR_1} fixe patiemment…\\nle vide."
+msgstr "{STR_VAR_1} regarde dans le vide…"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:150 — {STRVAR_1 1, 0, 0} est intenable.
+#. ancien (patch FR actuel) : {STR_VAR_1} flâne tranquillement.
 #: src/data/text/follower_messages.h:78
 msgid "{STR_VAR_1} is wandering around."
-msgstr "{STR_VAR_1} flâne tranquillement."
+msgstr "{STR_VAR_1} est intenable."
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Votre Pokémon bâille bruyamment!
@@ -28944,56 +29220,81 @@ msgstr "Il regarde les alentours avec intérêt."
 msgid "{STR_VAR_1} is looking this way and\\nsmiling."
 msgstr "{STR_VAR_1} vous regarde en\\nsouriant."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:147 — {STRVAR_1 1, 0, 0} scrute les alentours\navec intérêt.
+#. ancien (patch FR actuel) : {STR_VAR_1} regarde partout,\nsans tenir en
+#. place.
 #: src/data/text/follower_messages.h:82
 msgid "{STR_VAR_1} is gazing around\\nrestlessly."
-msgstr "{STR_VAR_1} regarde partout,\\nsans tenir en place."
+msgstr "{STR_VAR_1} scrute les\\nalentours avec intérêt."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:756 — {STRVAR_1 1, 0, 0} veut en découdre!
+#. ancien (patch FR actuel) : {STR_VAR_1} pousse un cri de guerre.
 #: src/data/text/follower_messages.h:83
 msgid "{STR_VAR_1} let out a battle cry."
-msgstr "{STR_VAR_1} pousse un cri de guerre."
+msgstr "{STR_VAR_1} veut en découdre!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:518 — {STRVAR_1 1, 0, 0} danse super bien!
+#. ancien (patch FR actuel) : {STR_VAR_1} exécute une danse\nmagnifique!
 #: src/data/text/follower_messages.h:84
 msgid "{STR_VAR_1} danced a wonderful\\ndance!"
-msgstr "{STR_VAR_1} exécute une danse\\nmagnifique!"
+msgstr "{STR_VAR_1} danse super bien!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:334 — {STRVAR_1 1, 0, 0} veut en découdre!
+#. ancien (patch FR actuel) : {STR_VAR_1} brûle d’impatience.
 #: src/data/text/follower_messages.h:85
 msgid "{STR_VAR_1} is very eager."
-msgstr "{STR_VAR_1} brûle d’impatience."
+msgstr "{STR_VAR_1} veut en découdre!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:534 — {STRVAR_1 1, 0, 0} regarde fixement au loin.
+#. ancien (patch FR actuel) : {STR_VAR_1} fixe intensément\nl’horizon.
 #: src/data/text/follower_messages.h:86
 msgid "{STR_VAR_1} is staring intently into\\nthe distance."
-msgstr "{STR_VAR_1} fixe intensément\\nl’horizon."
+msgstr "{STR_VAR_1} regarde fixement au\\nloin."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:356 — {STRVAR_1 1, 0, 0} inspecte les alentours.
+#. ancien (patch FR actuel) : {STR_VAR_1} fait le guet!
 #: src/data/text/follower_messages.h:87
 msgid "{STR_VAR_1} is on the lookout!"
-msgstr "{STR_VAR_1} fait le guet!"
+msgstr "{STR_VAR_1} inspecte les alentours."
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:88
 msgid "{STR_VAR_1} looked off into the\\ndistance and barked!"
 msgstr "{STR_VAR_1} regarde au loin et\\naboie!"
 
-#. source : patch FR actuel (correspondance douteuse, à vérifier)
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:293 — {STRVAR_1 1, 0, 0} est étourdi.
+#. ancien (patch FR actuel (correspondance douteuse, à vérifier)) :
+#. {STR_VAR_1} a la tête qui tourne.
 #: src/data/text/follower_messages.h:106
 msgid "{STR_VAR_1} is dizzy."
-msgstr "{STR_VAR_1} a la tête qui tourne."
+msgstr "{STR_VAR_1} est étourdi."
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:107
 msgid "{STR_VAR_1} is stepping on your\\nfeet!"
 msgstr "{STR_VAR_1} vous marche sur les\\npieds!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:208 — {STRVAR_1 1, 0, 0} a l’air un peu fatigué.
+#. ancien (patch FR actuel) : {STR_VAR_1} montre des signes de\nfatigue.
 #: src/data/text/follower_messages.h:108
 msgid "{STR_VAR_1} seems a little tired."
-msgstr "{STR_VAR_1} montre des signes de\\nfatigue."
+msgstr "{STR_VAR_1} a l’air un peu fatigué."
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:110
@@ -29005,30 +29306,42 @@ msgstr "{STR_VAR_1} ne se sent pas bien."
 msgid "{STR_VAR_1} is going to fall down!\\n"
 msgstr "{STR_VAR_1} va s’écrouler!\\n"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:359 — {STRVAR_1 1, 0, 0} va sûrement tomber!
+#. ancien (patch FR actuel) : {STR_VAR_1} semble sur le point de\ns’effondrer!
 #: src/data/text/follower_messages.h:112
 msgid "{STR_VAR_1} seems to be about to\\nfall over!"
-msgstr "{STR_VAR_1} semble sur le point de\\ns’effondrer!"
+msgstr "{STR_VAR_1} va sûrement tomber!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:165 — {STRVAR_1 1, 0, 0} fait de son mieux pour\nvous suivre.
+#. ancien (patch FR actuel) : {STR_VAR_1} s’efforce de vous\nsuivre…
 #: src/data/text/follower_messages.h:113
 msgid "{STR_VAR_1} is trying very hard to\\nkeep up with you…"
-msgstr "{STR_VAR_1} s’efforce de vous\\nsuivre…"
+msgstr "{STR_VAR_1} fait de son mieux\\npour vous suivre."
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:114
 msgid "{STR_VAR_1} is nervous."
 msgstr "{STR_VAR_1} est sur les nerfs."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:523 — {STRVAR_1 1, 0, 0} fait une drôle de tête...
+#. ancien (patch FR actuel) : {STR_VAR_1} a l’air un peu morose…
 #: src/data/text/follower_messages.h:123
 msgid "{STR_VAR_1} seems unhappy somehow…"
-msgstr "{STR_VAR_1} a l’air un peu morose…"
+msgstr "{STR_VAR_1} fait une drôle de tête…"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:232 — {STRVAR_1 1, 0, 0} n’a pas l’air\nd’apprécier...
+#. ancien (patch FR actuel) : {STR_VAR_1} fait la moue.
 #: src/data/text/follower_messages.h:124
 msgid "{STR_VAR_1} is making an unhappy\\nface."
-msgstr "{STR_VAR_1} fait la moue."
+msgstr "{STR_VAR_1} n’a pas l’air\\nd’apprécier…"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : …Votre Pokémon semble avoir un peu\nfroid.
@@ -29036,15 +29349,21 @@ msgstr "{STR_VAR_1} fait la moue."
 msgid "…Your POKéMON seems a little\\ncold."
 msgstr "... Il fait frisquet."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:111 — {STRVAR_1 1, 0, 0} pousse un cri.
+#. ancien (patch FR actuel) : {STR_VAR_1} pousse un rugissement!
 #: src/data/text/follower_messages.h:136
 msgid "{STR_VAR_1} let out a roar!"
-msgstr "{STR_VAR_1} pousse un rugissement!"
+msgstr "{STR_VAR_1} pousse un cri."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:557 — {STRVAR_1 1, 0, 0} gémit, l’air fâché!
+#. ancien (patch FR actuel) : {STR_VAR_1} fronce les sourcils,\nl’air fâché!
 #: src/data/text/follower_messages.h:137
 msgid "{STR_VAR_1} is making a face like\\nit's angry!"
-msgstr "{STR_VAR_1} fronce les sourcils,\\nl’air fâché!"
+msgstr "{STR_VAR_1} gémit, l’air fâché!"
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:138
@@ -29056,50 +29375,72 @@ msgstr "{STR_VAR_1} semble en colère pour\\nune raison inconnue."
 msgid "Your POKéMON turned to face the\\nother way, showing a defiant face."
 msgstr "Votre Pokémon détourne la tête\\nd’un air de défi."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:71 — {STRVAR_1 1, 0, 0} pousse un cri!
+#. ancien (patch FR actuel) : {STR_VAR_1} pousse un cri.
 #: src/data/text/follower_messages.h:140
 msgid "{STR_VAR_1} cried out."
-msgstr "{STR_VAR_1} pousse un cri."
+msgstr "{STR_VAR_1} pousse un cri!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:197 — {STRVAR_1 1, 0, 0} regarde en bas fixement.
+#. ancien (patch FR actuel) : {STR_VAR_1} garde les yeux rivés\nvers le sol.
 #: src/data/text/follower_messages.h:149
 msgid "{STR_VAR_1} is looking down\\nsteadily."
-msgstr "{STR_VAR_1} garde les yeux rivés\\nvers le sol."
+msgstr "{STR_VAR_1} regarde en bas\\nfixement."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:88 — {STRVAR_1 1, 0, 0} scrute les alentours.
+#. ancien (patch FR actuel) : {STR_VAR_1} inspecte les environs.
 #: src/data/text/follower_messages.h:150
 msgid "{STR_VAR_1} is surveying the area."
-msgstr "{STR_VAR_1} inspecte les environs."
+msgstr "{STR_VAR_1} scrute les alentours."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:387 — {STRVAR_1 1, 0, 0} regarde en bas.
+#. ancien (patch FR actuel) : {STR_VAR_1} regarde vers le bas.
 #: src/data/text/follower_messages.h:151 src/data/text/follower_messages.h:211
 msgid "{STR_VAR_1} is peering down."
-msgstr "{STR_VAR_1} regarde vers le bas."
+msgstr "{STR_VAR_1} regarde en bas."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:402 — {STRVAR_1 1, 0, 0} a l’air de supporter la\nfatigue.
+#. ancien (patch FR actuel) : {STR_VAR_1} tente de résister au\nsommeil…
 #: src/data/text/follower_messages.h:152
 msgid "{STR_VAR_1} is somehow fighting off\\nsleep…"
-msgstr "{STR_VAR_1} tente de résister au\\nsommeil…"
+msgstr "{STR_VAR_1} a l’air de supporter la\\nfatigue."
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:153
 msgid "{STR_VAR_1} seems to be wandering\\naround."
 msgstr "{STR_VAR_1} semble errer sans\\nbut précis."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:312 — {STRVAR_1 1, 0, 0} regarde alentour, l’air\nvague.
+#. ancien (patch FR actuel) : {STR_VAR_1} regarde alentour,\nl’esprit
+#. ailleurs.
 #: src/data/text/follower_messages.h:154
 msgid "{STR_VAR_1} is looking around\\nabsentmindedly."
-msgstr "{STR_VAR_1} regarde alentour,\\nl’esprit ailleurs."
+msgstr "{STR_VAR_1} regarde\\nalentour, l’air vague."
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:155
 msgid "{STR_VAR_1} yawned very loudly!"
 msgstr "{STR_VAR_1} bâille à s’en décrocher\\nla mâchoire!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:344 — {STRVAR_1 1, 0, 0} se repose tout son soûl.
+#. ancien (patch FR actuel) : {STR_VAR_1} se détend tranquillement.
 #: src/data/text/follower_messages.h:156
 msgid "{STR_VAR_1} is relaxing comfortably."
-msgstr "{STR_VAR_1} se détend tranquillement."
+msgstr "{STR_VAR_1} se repose tout son soûl."
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:157
@@ -29111,20 +29452,29 @@ msgstr "{STR_VAR_1} vous fixe sans\\nciller."
 msgid "{STR_VAR_1} is staring intently at\\nyour face."
 msgstr "{STR_VAR_1} vous dévisage\\nintensément."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:58 — {STRVAR_1 1, 0, 0} regarde dans votre\ndirection...
+#. ancien (patch FR actuel) : {STR_VAR_1} vous accorde toute\nson attention.
 #: src/data/text/follower_messages.h:159
 msgid "{STR_VAR_1} is focusing its\\nattention on you."
-msgstr "{STR_VAR_1} vous accorde toute\\nson attention."
+msgstr "{STR_VAR_1} regarde dans\\nvotre direction…"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:127 — {STRVAR_1 1, 0, 0} regarde au loin...
+#. ancien (patch FR actuel) : {STR_VAR_1} scrute les\nprofondeurs.
 #: src/data/text/follower_messages.h:160
 msgid "{STR_VAR_1} is staring into the\\ndepths."
-msgstr "{STR_VAR_1} scrute les\\nprofondeurs."
+msgstr "{STR_VAR_1} regarde au loin…"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:195 — {STRVAR_1 1, 0, 0} renifle le sol.
+#. ancien (patch FR actuel) : {STR_VAR_1} renifle le\nsol.
 #: src/data/text/follower_messages.h:161
 msgid "{STR_VAR_1} is sniffing at the\\nground."
-msgstr "{STR_VAR_1} renifle le\\nsol."
+msgstr "{STR_VAR_1} renifle le sol."
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Votre Pokémon fixe intensément…\nle vide.
@@ -29132,20 +29482,26 @@ msgstr "{STR_VAR_1} renifle le\\nsol."
 msgid "Your POKéMON is staring intently at\\nnothing."
 msgstr "Il a le regard dans le vide..."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:757 — {STRVAR_1 1, 0, 0} se concentre...
+#. ancien (patch FR actuel) : {STR_VAR_1} est en pleine\nconcentration.
 #: src/data/text/follower_messages.h:164
 msgid "{STR_VAR_1} is concentrating."
-msgstr "{STR_VAR_1} est en pleine\\nconcentration."
+msgstr "{STR_VAR_1} se concentre…"
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:165
 msgid "{STR_VAR_1} faced this way and\\nnodded."
 msgstr "{STR_VAR_1} se tourne vers vous et\\nhoche la tête."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:205 — {STRVAR_1 1, 0, 0} a l’air un peu inquiet.
+#. ancien (patch FR actuel) : {STR_VAR_1} a l’air un peu nerveux…
 #: src/data/text/follower_messages.h:166
 msgid "{STR_VAR_1} seems a bit nervous…"
-msgstr "{STR_VAR_1} a l’air un peu nerveux…"
+msgstr "{STR_VAR_1} a l’air un peu inquiet."
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:167
@@ -29157,25 +29513,35 @@ msgstr "{STR_VAR_1} regarde vos traces\\nde pas."
 msgid "{STR_VAR_1} is staring straight into\\nyour eyes."
 msgstr "{STR_VAR_1} vous regarde droit\\ndans les yeux."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:43 — {STRVAR_1 1, 0, 0} se blottit contre vos\njambes!
+#. ancien (patch FR actuel) : {STR_VAR_1} vient soudain marcher\ntout près de
+#. vous!
 #: src/data/text/follower_messages.h:183
 msgid "{STR_VAR_1} suddenly started walking\\ncloser!"
-msgstr "{STR_VAR_1} vient soudain marcher\\ntout près de vous!"
+msgstr "{STR_VAR_1} se blottit contre vos\\njambes!"
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:184
 msgid "{STR_VAR_1} cheeks are becoming\\nrosy!"
 msgstr "Les joues de {STR_VAR_1}\\nrosissent!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 265:614 — Ah! {STRVAR_1 1, 0, 0} vous fait un câlin!
+#. ancien (patch FR actuel) : Waouh! {STR_VAR_1} vous fait\nun câlin!
 #: src/data/text/follower_messages.h:185
 msgid "Woah! {STR_VAR_1} suddenly hugged\\nyou!"
-msgstr "Waouh! {STR_VAR_1} vous fait\\nun câlin!"
+msgstr "Ah! {STR_VAR_1} vous fait un câlin!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 265:615 — Ah! {STRVAR_1 1, 0, 0} a envie de s’amuser!
+#. ancien (patch FR actuel) : Waouh! {STR_VAR_1} a soudain\nenvie de jouer!
 #: src/data/text/follower_messages.h:186
 msgid "Woah! {STR_VAR_1} is suddenly\\nplayful!"
-msgstr "Waouh! {STR_VAR_1} a soudain\\nenvie de jouer!"
+msgstr "Ah! {STR_VAR_1} a envie de\\ns’amuser!"
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:187
@@ -29192,25 +29558,35 @@ msgstr "{STR_VAR_1} rougit."
 msgid "Ah! {STR_VAR_1} cuddles you!"
 msgstr "Ah! {STR_VAR_1} vous câline!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:50 — {STRVAR_1 1, 0, 0} vous regarde en espérant\ndes
+#. caresses...
+#. ancien (patch FR actuel) : {STR_VAR_1} vous regarde\navec adoration!
 #: data/scripts/follower.inc:2 src/data/text/follower_messages.h:190
 msgid "{STR_VAR_1} is regarding you with\\nadoration!"
-msgstr "{STR_VAR_1} vous regarde\\navec adoration!"
+msgstr "{STR_VAR_1} vous regarde en\\nespérant des caresses…"
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:191
 msgid "{STR_VAR_1} got closer to you."
 msgstr "{STR_VAR_1} se rapproche de vous."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:12 — {STRVAR_1 1, 0, 0} se frotte contre vos\njambes.
+#. ancien (patch FR actuel) : {STR_VAR_1} ne vous lâche pas d’une\nsemelle.
 #: src/data/text/follower_messages.h:192
 msgid "{STR_VAR_1} is keeping close to your\\nfeet."
-msgstr "{STR_VAR_1} ne vous lâche pas d’une\\nsemelle."
+msgstr "{STR_VAR_1} se frotte contre vos\\njambes."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:357 — {STRVAR_1 1, 0, 0} a manqué de trébucher!
+#. ancien (patch FR actuel) : {STR_VAR_1} est à deux doigts de\ntomber!
 #: src/data/text/follower_messages.h:208
 msgid "{STR_VAR_1} is in danger of falling\\nover!"
-msgstr "{STR_VAR_1} est à deux doigts de\\ntomber!"
+msgstr "{STR_VAR_1} a manqué de\\ntrébucher!"
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:209
@@ -29228,10 +29604,14 @@ msgstr "{STR_VAR_1} n’a pas encore l’air\\nhabitué à son nom."
 msgid "Your POKéMON stumbled and nearly\\nfell!"
 msgstr "Il trébuche et va tomber!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:399 — {STRVAR_1 1, 0, 0} a senti quelque chose et\ngémit!
+#. ancien (patch FR actuel) : {STR_VAR_1} sent quelque chose\net se met à
+#. hurler!
 #: src/data/text/follower_messages.h:213
 msgid "{STR_VAR_1} feels something and is\\nhowling!"
-msgstr "{STR_VAR_1} sent quelque chose\\net se met à hurler!"
+msgstr "{STR_VAR_1} a senti quelque chose\\net gémit!"
 
 #. source : patch FR actuel (correspondance douteuse, à vérifier)
 #. source : patch FR actuel (récupéré par pointeur)
@@ -29239,15 +29619,22 @@ msgstr "{STR_VAR_1} sent quelque chose\\net se met à hurler!"
 msgid "{STR_VAR_1} seems refreshed!"
 msgstr "{STR_VAR_1} a l’air tout revigoré!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:99 — {STRVAR_1 1, 0, 0} se retourne tout à coup\net crie!
+#. ancien (patch FR actuel) : {STR_VAR_1} se retourne soudain\net se met à
+#. aboyer!
 #: src/data/text/follower_messages.h:215
 msgid "{STR_VAR_1} suddenly turned around\\nand started barking!"
-msgstr "{STR_VAR_1} se retourne soudain\\net se met à aboyer!"
+msgstr "{STR_VAR_1} se retourne tout à\\ncoup et crie!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:100 — {STRVAR_1 1, 0, 0} se retourne d’un coup!
+#. ancien (patch FR actuel) : {STR_VAR_1} se retourne brusquement!
 #: src/data/text/follower_messages.h:216
 msgid "{STR_VAR_1} suddenly turned around!"
-msgstr "{STR_VAR_1} se retourne brusquement!"
+msgstr "{STR_VAR_1} se retourne d’un coup!"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Votre Pokémon sursaute quand vous\nlui adressez la
@@ -29262,50 +29649,76 @@ msgstr "Il est surpris que vous lui adressiez\\nla parole!"
 msgid "Sniff sniff, something smells really\\ngood!"
 msgstr "Snif! Snif! Ça sent bon on dirait!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:136 — {STRVAR_1 1, 0, 0} a l’air d’apprécier!
+#. ancien (patch FR actuel) : {STR_VAR_1} se sent revivre.
 #: src/data/text/follower_messages.h:219
 msgid "{STR_VAR_1} feels refreshed."
-msgstr "{STR_VAR_1} se sent revivre."
+msgstr "{STR_VAR_1} a l’air d’apprécier!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:345 — {STRVAR_1 1, 0, 0} vacille et va tomber!
+#. ancien (patch FR actuel) : {STR_VAR_1} vacille et semble sur\nle point de
+#. tomber.
 #: src/data/text/follower_messages.h:220
 msgid "{STR_VAR_1} is wobbling and seems\\nabout to fall over."
-msgstr "{STR_VAR_1} vacille et semble sur\\nle point de tomber."
+msgstr "{STR_VAR_1} vacille et va tomber!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:357 — {STRVAR_1 1, 0, 0} a manqué de trébucher!
+#. ancien (patch FR actuel) : {STR_VAR_1} risque de perdre\nl’équilibre.
 #: src/data/text/follower_messages.h:221
 msgid "{STR_VAR_1} is in danger of falling\\nover."
-msgstr "{STR_VAR_1} risque de perdre\\nl’équilibre."
+msgstr "{STR_VAR_1} a manqué de\\ntrébucher!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:202 — {STRVAR_1 1, 0, 0} vous suit prudemment.
+#. ancien (patch FR actuel) : {STR_VAR_1} avance avec\nprudence.
 #: src/data/text/follower_messages.h:222
 msgid "{STR_VAR_1} is walking along\\ncautiously."
-msgstr "{STR_VAR_1} avance avec\\nprudence."
+msgstr "{STR_VAR_1} vous suit\\nprudemment."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:156 — {STRVAR_1 1, 0, 0} est tout tendu.
+#. ancien (patch FR actuel) : {STR_VAR_1} se crispe, en proie à\nla nervosité.
 #: src/data/text/follower_messages.h:223 src/data/text/follower_messages.h:227
 msgid "{STR_VAR_1} is getting tense with\\nnervous energy."
-msgstr "{STR_VAR_1} se crispe, en proie à\\nla nervosité."
+msgstr "{STR_VAR_1} est tout tendu."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:258 — {STRVAR_1 1, 0, 0} a été surpris par une\nodeur.
+#. ancien (patch FR actuel) : {STR_VAR_1} sursaute en sentant\nquelque chose
+#. d’étrange!
 #: src/data/text/follower_messages.h:224
 msgid "{STR_VAR_1} sensed something strange\\nand was surprised!"
-msgstr "{STR_VAR_1} sursaute en sentant\\nquelque chose d’étrange!"
+msgstr "{STR_VAR_1} a été surpris par une\\nodeur."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/data/text/follower_messages.h:225
 msgid "{STR_VAR_1} is scared and snuggled\\nup to you!"
 msgstr "{STR_VAR_1} a peur et se blottit\\ncontre vous!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:226 — {STRVAR_1 1, 0, 0} sent quelque chose\nd’inhabituel...
+#. ancien (patch FR actuel) : {STR_VAR_1} ressent une présence\ninhabituelle…
 #: src/data/text/follower_messages.h:226
 msgid "{STR_VAR_1} is feeling an unusual\\npresence…"
-msgstr "{STR_VAR_1} ressent une présence\\ninhabituelle…"
+msgstr "{STR_VAR_1} sent quelque chose\\nd’inhabituel…"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 265:94 — {STRVAR_1 1, 0, 0} est surpris par la pluie!
+#. ancien (patch FR actuel) : {STR_VAR_1} a l’air très surpris\nqu’il pleuve!
 #: src/data/text/follower_messages.h:229
 msgid "{STR_VAR_1} seems to be very\\nsurprised that it is raining!"
-msgstr "{STR_VAR_1} a l’air très surpris\\nqu’il pleuve!"
+msgstr "{STR_VAR_1} est surpris par\\nla pluie!"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Votre Pokémon cherche fébrilement\nquelque chose.
@@ -29325,65 +29738,94 @@ msgstr "Il ne regardait pas et s’est cogné!"
 msgid "Sniff, sniff! Is there something\\nnearby?"
 msgstr "Snif! Snif! Il aurait senti quelque\\nchose?"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:104 — {STRVAR_1 1, 0, 0} s’amuse à projeter des\ngravillons.
+#. ancien (patch FR actuel) : {STR_VAR_1} s’amuse à faire rouler\nun caillou.
 #: src/data/text/follower_messages.h:250
 msgid "{STR_VAR_1} is rolling a pebble\\naround playfully."
-msgstr "{STR_VAR_1} s’amuse à faire rouler\\nun caillou."
+msgstr "{STR_VAR_1} s’amuse à\\nprojeter des gravillons."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:149 — {STRVAR_1 1, 0, 0} cherche quelque
+#. chose\nfrénétiquement.
+#. ancien (patch FR actuel) : {STR_VAR_1} furète çà et là, en quête\nde
+#. quelque chose.
 #: src/data/text/follower_messages.h:251
 msgid "{STR_VAR_1} is wandering around and\\nsearching for something."
-msgstr "{STR_VAR_1} furète çà et là, en quête\\nde quelque chose."
+msgstr "{STR_VAR_1} cherche quelque chose\\nfrénétiquement."
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:252
 msgid "{STR_VAR_1} is sniffing at you."
 msgstr "{STR_VAR_1} vous renifle."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:236 — {STRVAR_1 1, 0, 0} a l’air perdu...
+#. ancien (patch FR actuel) : {STR_VAR_1} a l’air un peu\nhésitant…
 #: src/data/text/follower_messages.h:253
 msgid "{STR_VAR_1} seems to be a little\\nhesitant…"
-msgstr "{STR_VAR_1} a l’air un peu\\nhésitant…"
+msgstr "{STR_VAR_1} a l’air perdu…"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:60 — {STRVAR_1 1, 0, 0} bouge avec légèreté!
+#. ancien (patch FR actuel) : {STR_VAR_1} fait étalage de son\nagilité!
 #: src/data/text/follower_messages.h:264
 msgid "{STR_VAR_1} is showing off its\\nagility!"
-msgstr "{STR_VAR_1} fait étalage de son\\nagilité!"
+msgstr "{STR_VAR_1} bouge avec\\nlégèreté!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:64 — {STRVAR_1 1, 0, 0} tient la forme!
+#. ancien (patch FR actuel) : {STR_VAR_1} gambade\njoyeusement!
 #: src/data/text/follower_messages.h:265
 msgid "{STR_VAR_1} is moving around\\nhappily!"
-msgstr "{STR_VAR_1} gambade\\njoyeusement!"
+msgstr "{STR_VAR_1} tient la forme!"
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:266
 msgid "Woah! {STR_VAR_1} suddenly started\\ndancing in happiness!"
 msgstr "Waouh! {STR_VAR_1} se met soudain\\nà danser de joie!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:48 — {STRVAR_1 1, 0, 0} vous suit, l’air guilleret!
+#. ancien (patch FR actuel) : {STR_VAR_1} vous suit d’un pas\nrégulier!
 #: src/data/text/follower_messages.h:267
 msgid "{STR_VAR_1} is steadily keeping up\\nwith you!"
-msgstr "{STR_VAR_1} vous suit d’un pas\\nrégulier!"
+msgstr "{STR_VAR_1} vous suit, l’air\\nguilleret!"
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:268
 msgid "{STR_VAR_1} seems to want to play\\nwith you."
 msgstr "{STR_VAR_1} a l’air de vouloir\\njouer avec vous."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 265:61 — {STRVAR_1 1, 0, 0} batifole, l’air guilleret.
+#. ancien (patch FR actuel) : {STR_VAR_1} sautille de bonheur.
 #: src/data/text/follower_messages.h:269
 msgid "{STR_VAR_1} is happy skipping about."
-msgstr "{STR_VAR_1} sautille de bonheur."
+msgstr "{STR_VAR_1} batifole, l’air guilleret."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:554 — {STRVAR_1 1, 0, 0} fredonne.
+#. ancien (patch FR actuel) : {STR_VAR_1} chante et fredonne.
 #: src/data/text/follower_messages.h:270
 msgid "{STR_VAR_1} is singing and humming."
-msgstr "{STR_VAR_1} chante et fredonne."
+msgstr "{STR_VAR_1} fredonne."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:83 — {STRVAR_1 1, 0, 0} vous marche sur les\npieds.
+#. ancien (patch FR actuel) : {STR_VAR_1} vous mordille les pieds!
 #: src/data/text/follower_messages.h:271
 msgid "{STR_VAR_1} is nipping at your feet!"
-msgstr "{STR_VAR_1} vous mordille les pieds!"
+msgstr "{STR_VAR_1} vous marche sur les pieds."
 
 #. source : patch FR actuel
 #: src/data/text/follower_messages.h:272
@@ -29395,20 +29837,31 @@ msgstr "{STR_VAR_1} se retourne et vous\\nregarde."
 msgid "{STR_VAR_1} is working hard to show\\noff its mighty power!"
 msgstr "{STR_VAR_1} s’applique à montrer\\ntoute sa puissance!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:616 — Ah! {STRVAR_1 1, 0, 0} dansotte\njoyeusement.
+#. ancien (patch FR actuel) : Ouah! {STR_VAR_1} se lance soudain\ndans une
+#. danse de joie!
 #: src/data/text/follower_messages.h:274
 msgid "Whoa! {STR_VAR_1} suddenly danced in\\nhappiness!"
-msgstr "Ouah! {STR_VAR_1} se lance soudain\\ndans une danse de joie!"
+msgstr "Ah! {STR_VAR_1} dansotte\\njoyeusement."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:109 — {STRVAR_1 1, 0, 0} est tout excité!
+#. ancien (patch FR actuel) : {STR_VAR_1} est d’humeur joyeuse!
 #: src/data/text/follower_messages.h:275
 msgid "{STR_VAR_1} is cheerful!"
-msgstr "{STR_VAR_1} est d’humeur joyeuse!"
+msgstr "{STR_VAR_1} est tout excité!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:63 — {STRVAR_1 1, 0, 0} a fait un bond gracieux!
+#. ancien (patch FR actuel) : {STR_VAR_1} bondit partout, sans\nle moindre
+#. souci!
 #: src/data/text/follower_messages.h:276
 msgid "{STR_VAR_1} is jumping around in a\\ncarefree way!"
-msgstr "{STR_VAR_1} bondit partout, sans\\nle moindre souci!"
+msgstr "{STR_VAR_1} a fait un bond\\ngracieux!"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Votre Pokémon hume une odeur qui\nlui rappelle des
@@ -29417,15 +29870,21 @@ msgstr "{STR_VAR_1} bondit partout, sans\\nle moindre souci!"
 msgid "Your POKéMON seems to be smelling a\\nnostalgically familiar scent…"
 msgstr "On dirait qu’il reconnaît une odeur\\nfamilière..."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:93 — {STRVAR_1 1, 0, 0} adore la pluie!
+#. ancien (patch FR actuel) : {STR_VAR_1} a l’air ravi qu’il\npleuve.
 #: src/data/text/follower_messages.h:279
 msgid "{STR_VAR_1} is very happy about the\\nrain."
-msgstr "{STR_VAR_1} a l’air ravi qu’il\\npleuve."
+msgstr "{STR_VAR_1} adore la pluie!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:395 — {STRVAR_1 1, 0, 0} tremble à cause\ndu poison...
+#. ancien (patch FR actuel) : {STR_VAR_1} frissonne sous l’effet\ndu poison.
 #: src/data/text/follower_messages.h:297
 msgid "{STR_VAR_1} is shivering with the\\neffects of being poisoned."
-msgstr "{STR_VAR_1} frissonne sous l’effet\\ndu poison."
+msgstr "{STR_VAR_1} tremble à cause du\\npoison…"
 
 #. source : patch FR actuel
 #: src/data/text/gift_ribbon_descriptions.h:1
@@ -40582,7 +41041,7 @@ msgid ""
 " a mere\\nthought, it can smash a skyscraper to\\nsmithereens."
 msgstr ""
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:21524
 msgid "MEW"
 msgstr "MEW"
@@ -46582,16 +47041,20 @@ msgstr "GRIKNOT"
 msgid "Land Shark"
 msgstr "Terrequin"
 
-#. source : patch FR actuel
-#. SoulSilver (approché) : Il niche dans des cavités chauffées\npar
-#. géothermie, dont il bondit pour\ldéchiqueter tout intrus.
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 803:443 — Il niche dans des cavités chauffées\npar géothermie,
+#. dont il bondit pour\ndéchiqueter tout intrus.
+#. ancien (patch FR actuel) : Il niche dans des terriers tiédis par
+#. la\nchaleur du sous-sol. Gare aux imprudents:\nil leur saute dessus pour
+#. les mordre.
 #: src/data/pokemon/species_info/gen_4_families.h:4297
 msgid ""
 "It nests in horizontal holes warmed by\\ngeothermal heat. Foes who stray "
 "too\\nclose can expect to be pounced on\\nand bitten."
 msgstr ""
-"Il niche dans des terriers tiédis par la\\nchaleur du sous-sol. Gare aux "
-"imprudents:\\nil leur saute dessus pour les mordre."
+"Il niche dans des cavités chauffées\\npar géothermie, dont il bondit "
+"pour\\ndéchiqueter tout intrus."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_4_families.h:4374
@@ -47201,16 +47664,19 @@ msgstr "CRESSELIA"
 msgid "Lunar"
 msgstr "Lunar"
 
-#. source : patch FR actuel
-#. SoulSilver (approché) : Dormir avec une de ses plumes à la\nmain permet de
-#. faire de beaux rêves.\lOn le surnomme “avatar du croissant\lde lune”.
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 804:488 — Dormir avec une de ses plumes à la main\npermet de faire
+#. de beaux rêves. On le\nsurnomme “avatar du croissant de lune”.
+#. ancien (patch FR actuel) : Qui dort en tenant une de ses plumes fait\nde
+#. beaux rêves. On dit qu’il incarne le\ncroissant de lune.
 #: src/data/pokemon/species_info/gen_4_families.h:7415
 msgid ""
 "Those who sleep holding one of\\nCresselia's feathers are assured "
 "of\\njoyful dreams. It is said to represent\\nthe crescent moon."
 msgstr ""
-"Qui dort en tenant une de ses plumes fait\\nde beaux rêves. On dit qu’il "
-"incarne le\\ncroissant de lune."
+"Dormir avec une de ses plumes à la\\nmain permet de faire de beaux "
+"rêves.\\nOn le surnomme “avatar du croissant\\nde lune”."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_4_families.h:7491
@@ -62704,9 +63170,12 @@ msgstr ""
 msgid "INSIDE OF TRUCK"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 279:171 — Route 23
 #: src/data/region_map/region_map_sections.json:1015
 msgid "ROUTE 23"
-msgstr ""
+msgstr "Route 23"
 
 #: src/data/region_map/region_map_sections.json:1059
 msgid "S.S. ANNE"
@@ -62717,9 +63186,12 @@ msgstr ""
 msgid "UNDERGROUND PATH"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 279:106 — Manoir Pokémon
 #: src/data/region_map/region_map_sections.json:1117
 msgid "POKéMON MANSION"
-msgstr ""
+msgstr "Manoir Pokémon"
 
 #: src/data/region_map/region_map_sections.json:1577
 msgid "AQUA HIDEOUT"
@@ -62746,9 +63218,12 @@ msgstr ""
 msgid "MELEMELE SEA"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 279:216 — Mont Creuset
 #: src/data/region_map/region_map_sections.json:2523
 msgid "MT. MORTAR"
-msgstr ""
+msgstr "Mont Creuset"
 
 #: src/data/region_map/region_map_sections.json:2611
 msgid "OLIVINE LIGHTHOUSE"
@@ -63100,77 +63575,123 @@ msgstr ""
 msgid "ROSS"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:29 — Elie (BIRD_KEEPER_GS, équipe PIDGEY)
 #: src/data/trainers_hns.party:456
 msgid "ROD"
-msgstr ""
+msgstr "Elie"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:50 — Ben (BIRD_KEEPER_GS, équipe SPEAROW)
 #: src/data/trainers_hns.party:473
 msgid "ABE"
-msgstr ""
+msgstr "Ben"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:301 — Sam (BIRD_KEEPER_GS, équipe DODRIO/DODUO)
 #: src/data/trainers_hns.party:613
 msgid "BORIS"
-msgstr ""
+msgstr "Sam"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:184 — Jezebel (LASS, équipe CUBONE/ODDISH)
 #: src/data/trainers_hns.party:770
 msgid "KRISE"
-msgstr ""
+msgstr "Jezebel"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:205 — Gurvan (ACE_TRAINER_M, équipe
+#. BULBASAUR/CHARMANDER/SQUIRTLE)
 #: src/data/trainers_hns.party:922
 msgid "NICK"
-msgstr ""
+msgstr "Gurvan"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:102 — Sean (ACE_TRAINER_M, équipe FLAREON/KINGLER/VICTREEBEL)
 #: src/data/trainers_hns.party:1035 src/data/trainers_hns.party:12655
 #: src/data/trainers_hns.party:12699
 msgid "GAVEN"
-msgstr ""
+msgstr "Sean"
 
 #: src/data/trainers_hns.party:2921
 msgid "COLETTE"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:661 — Olive (FISHERMAN, équipe QWILFISH/SEAKING)
 #: src/data/trainers_hns.party:3194 src/data/trainers_hns.party:13048
 #: src/data/trainers_hns.party:13069
 msgid "KYLE"
-msgstr ""
+msgstr "Olive"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:123 — Conan (FISHERMAN, équipe QWILFISH)
 #: src/data/trainers_hns.party:3249 src/data/trainers_hns.party:12100
 #: src/data/trainers_hns.party:12112 src/data/trainers_hns.party:12130
 msgid "TULLY"
-msgstr ""
+msgstr "Conan"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:452 — Noa (HIKER, équipe GRAVELER/STEELIX)
 #: src/data/trainers_hns.party:4720 src/data/trainers_hns.party:12362
 #: src/data/trainers_hns.party:12392
 msgid "PARRY"
-msgstr ""
+msgstr "Noa"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:310 — Christophe (BIKER, équipe FLAREON)
 #: src/data/trainers_hns.party:4968
 msgid "HARRIS"
-msgstr ""
+msgstr "Christophe"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:388 — Bimbo (FIREBREATHER, équipe MAGMAR)
 #: src/data/trainers_hns.party:5244
 msgid "WALT"
-msgstr ""
+msgstr "Bimbo"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:390 — Luigi (FIREBREATHER, équipe VULPIX)
 #: src/data/trainers_hns.party:5261
 msgid "RAY"
-msgstr ""
+msgstr "Luigi"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:7 — Anthony (JUGGLER, équipe VOLTORB)
 #: src/data/trainers_hns.party:5295 src/data/trainers_hns.party:11627
 #: src/data/trainers_hns.party:11646 src/data/trainers_hns.party:11665
 #: src/data/trainers_hns.party:11684
 msgid "IRWIN"
-msgstr ""
+msgstr "Anthony"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:278 — Jacky (BLACK_BELT, équipe HITMONLEE/MACHAMP/ONIX)
 #: src/data/trainers_hns.party:5362 src/data/trainers_hns.party:12325
 msgid "KENJI"
-msgstr ""
+msgstr "Jacky"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:65 — Albertine (PICNICKER, équipe BULBASAUR/HOPPIP)
 #: src/data/trainers_hns.party:5714 src/data/trainers_hns.party:11543
 #: src/data/trainers_hns.party:11561 src/data/trainers_hns.party:11579
 #: src/data/trainers_hns.party:11597
 msgid "GINA"
-msgstr ""
+msgstr "Albertine"
 
 #: src/data/trainers_hns.party:6042
 msgid "HARVEY"
@@ -63184,13 +63705,19 @@ msgstr ""
 msgid "BRAD"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:540 — Victor (POKEFAN_M, équipe PHANPY)
 #: src/data/trainers_hns.party:6829
 msgid "REX"
-msgstr ""
+msgstr "Victor"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 729:163 — Komomo (KIMONO_GIRL, équipe VAPOREON)
 #: src/data/trainers_hns.party:6909
 msgid "KUNI"
-msgstr ""
+msgstr "Komomo"
 
 #: src/data/trainers_hns.party:13672
 msgid "GEOFF"

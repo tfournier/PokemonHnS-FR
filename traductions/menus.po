@@ -712,7 +712,7 @@ msgstr "TEAM AQUA"
 msgid "{PKMN} BREEDER"
 msgstr "Eleveur"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_main.c:314 src/battle_main.c:357 src/battle_main.c:405
 #: src/battle_main.c:439
 msgid "COOLTRAINER"
@@ -803,7 +803,7 @@ msgstr "BEAUTE"
 msgid "RICH BOY"
 msgstr "Richard"
 
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : SoulSilver FR officiel
 #: src/battle_main.c:332 src/battle_main.c:382 src/battle_main.c:464
 msgid "POKéMANIAC"
 msgstr "Pokémaniac"
@@ -1068,10 +1068,13 @@ msgstr "Rival"
 msgid "SCIENTIST"
 msgstr "Scientifique"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 730:124 — Boss Rocket
+#. ancien (traduction manuelle (style SoulSilver)) : BOSS
 #: src/battle_main.c:402
 msgid "BOSS"
-msgstr "BOSS"
+msgstr "Boss Rocket"
 
 #. source : SoulSilver FR officiel
 #: data/text/fame_checker_frlg.inc:1344 src/battle_main.c:404
@@ -1125,15 +1128,21 @@ msgstr "Kimono"
 msgid "MYSTERY MAN"
 msgstr "Mec Mystère"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 730:38 — Agent
+#. ancien (traduction manuelle (style SoulSilver)) : AGENT
 #: src/battle_main.c:457
 msgid "OFFICER"
-msgstr "AGENT"
+msgstr "Agent"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 730:114 — Commandant
+#. ancien (traduction manuelle (style SoulSilver)) : ADMIN ROCKET
 #: src/battle_main.c:468
 msgid "ROCKET ADMIN"
-msgstr "ADMIN ROCKET"
+msgstr "Commandant"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : LOUTAN
@@ -1146,10 +1155,13 @@ msgstr "Sage"
 msgid "SKIER"
 msgstr "Skieuse"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 730:55 — Rocket
+#. ancien (traduction manuelle (style SoulSilver)) : ROCKET
 #: src/battle_main.c:477
 msgid "ROCKET"
-msgstr "ROCKET"
+msgstr "Rocket"
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/battle_main.c:482
@@ -1169,10 +1181,13 @@ msgstr "Morgane"
 msgid "{B_ATK_TEAM1} team became shrouded in mist!"
 msgstr "L’équipe {B_ATK_TEAM1} s’entoure de Brume!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 5:36 — {STRVAR_1 1, 0, 0} se gonfle!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} se gonfle à bloc!
 #: src/battle_message.c:74
 msgid "{B_DEF_NAME_WITH_PREFIX} is getting pumped!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} se gonfle à bloc!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} se gonfle!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:75
@@ -1244,12 +1259,17 @@ msgstr "Match nul contre {B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME}!"
 msgid "{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} fled!"
 msgstr "{PLAY_SE 17 0}{B_LINK_OPPONENT1_NAME} s’enfuit!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:792 — {STRVAR_1 3, 0, 0} et\n{STRVAR_1 3, 1, 0} s’enfuient!
+#. ancien (patch FR actuel) : {PLAY_SE 17 0}{B_LINK_OPPONENT1_NAME} et
+#. {B_LINK_OPPONENT2_NAME} fuient!
 #: src/battle_message.c:88
 msgid ""
 "{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME} fled!"
 msgstr ""
-"{PLAY_SE 17 0}{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME} fuient!"
+"{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME} "
+"s’enfuient!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:89
@@ -1300,28 +1320,31 @@ msgstr "Le Spectre apparaît!\\pMince! On ne peut\\npas l’identifier!\\p"
 msgid "The GHOST appeared!\\p"
 msgstr "Le Spectre apparaît!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:970 — {STRVAR_1 3, 0, 0}\nveut se battre!\r
+#. ancien (patch FR actuel) : {B_TRAINER1_NAME_WITH_CLASS} veut se battre!\p
 #: src/battle_message.c:99
 msgid "You are challenged by {B_TRAINER1_NAME_WITH_CLASS}!\\p"
-msgstr "{B_TRAINER1_NAME_WITH_CLASS} veut se battre!\\p"
+msgstr "{B_TRAINER1_NAME_WITH_CLASS}\\nveut se battre!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:100
 msgid "You are challenged by {B_LINK_OPPONENT1_NAME}!"
 msgstr "{B_LINK_OPPONENT1_NAME} veut se battre!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:101
 msgid ""
 "You are challenged by {B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}!"
 msgstr "{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME} veulent se battre!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:102
 msgid "{B_TRAINER1_NAME_WITH_CLASS} sent out {B_OPPONENT_MON1_NAME}!"
 msgstr "{B_TRAINER1_NAME_WITH_CLASS} envoie {B_OPPONENT_MON1_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:103
 msgid ""
 "{B_TRAINER1_NAME_WITH_CLASS} sent out {B_OPPONENT_MON1_NAME} and "
@@ -1330,22 +1353,22 @@ msgstr ""
 "{B_TRAINER1_NAME_WITH_CLASS} envoie {B_OPPONENT_MON1_NAME} et "
 "{B_OPPONENT_MON2_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:104
 msgid "{B_TRAINER1_NAME_WITH_CLASS} sent out {B_BUFF1}!"
 msgstr "{B_TRAINER1_NAME_WITH_CLASS} envoie {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:105
 msgid "{B_LINK_OPPONENT1_NAME} sent out {B_OPPONENT_MON1_NAME}!"
 msgstr "{B_LINK_OPPONENT1_NAME} envoie {B_OPPONENT_MON1_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:106
 msgid "{B_LINK_OPPONENT2_NAME} sent out {B_OPPONENT_MON2_NAME}!"
 msgstr "{B_LINK_OPPONENT2_NAME} envoie {B_OPPONENT_MON2_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:107
 msgid ""
 "{B_LINK_OPPONENT1_NAME} sent out {B_OPPONENT_MON1_NAME} and "
@@ -1354,7 +1377,7 @@ msgstr ""
 "{B_LINK_OPPONENT1_NAME} envoie {B_OPPONENT_MON1_NAME} et "
 "{B_OPPONENT_MON2_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:108
 msgid ""
 "{B_LINK_OPPONENT1_NAME} sent out {B_LINK_OPPONENT_MON1_NAME}! "
@@ -1363,24 +1386,31 @@ msgstr ""
 "{B_LINK_OPPONENT1_NAME} envoie {B_LINK_OPPONENT_MON1_NAME}! "
 "{B_LINK_OPPONENT2_NAME} envoie {B_LINK_OPPONENT_MON2_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:109
 msgid "{B_LINK_OPPONENT1_NAME} sent out {B_BUFF1}!"
 msgstr "{B_LINK_OPPONENT1_NAME} envoie {B_BUFF1}!"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:974 — {STRVAR_1 3, 0, 0} envoie\n{STRVAR_1 1, 1, 0}!
 #: src/battle_message.c:110
 msgid "{B_LINK_SCR_TRAINER_NAME} sent out {B_BUFF1}!"
-msgstr ""
+msgstr "{B_LINK_SCR_TRAINER_NAME} envoie {B_BUFF1}!"
 
 #. source : Émeraude FR officiel
 #: src/battle_message.c:111
 msgid "Go! {B_PLAYER_MON1_NAME}!"
 msgstr "{B_PLAYER_MON1_NAME}! Go!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:978 — {STRVAR_1 1, 0, 0} et\n{STRVAR_1 1, 1, 0}! Go!
+#. ancien (patch FR actuel) : {B_PLAYER_MON1_NAME} et {B_PLAYER_MON2_NAME},
+#. go!
 #: src/battle_message.c:112
 msgid "Go! {B_PLAYER_MON1_NAME} and {B_PLAYER_MON2_NAME}!"
-msgstr "{B_PLAYER_MON1_NAME} et {B_PLAYER_MON2_NAME}, go!"
+msgstr "{B_PLAYER_MON1_NAME} et {B_PLAYER_MON2_NAME}! Go!"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : {B_BUFF1}! Fonce!
@@ -1388,10 +1418,13 @@ msgstr "{B_PLAYER_MON1_NAME} et {B_PLAYER_MON2_NAME}, go!"
 msgid "Go! {B_BUFF1}!"
 msgstr "{B_BUFF1}! Go!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:980 — {STRVAR_1 1, 0, 0}! Fonce!
+#. ancien (patch FR actuel) : À toi de jouer, {B_BUFF1}!
 #: src/battle_message.c:114
 msgid "You're in charge, {B_BUFF1}!"
-msgstr "À toi de jouer, {B_BUFF1}!"
+msgstr "{B_BUFF1}! Fonce!"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : Vas-y, {B_BUFF1}!
@@ -1399,56 +1432,80 @@ msgstr "À toi de jouer, {B_BUFF1}!"
 msgid "Go for it, {B_BUFF1}!"
 msgstr "En avant, {B_BUFF1}!"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:983 — Un dernier petit effort!\nTiens bon, {STRVAR_1 1, 0, 0}!
 #: src/battle_message.c:116
 msgid "Just a little more! Hang in there, {B_BUFF1}!"
-msgstr ""
+msgstr "Un dernier petit effort! Tiens bon, {B_BUFF1}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:117
 msgid "Your opponent's weak! Get 'em, {B_BUFF1}!"
 msgstr "L’ennemi est affaibli! Fonce, {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:977 — {STRVAR_1 3, 0, 0} envoie\n{STRVAR_1 1, 1,
+#. 0}!\f{STRVAR_1 1, 2, 0}! Go!
+#. ancien (patch FR actuel) : {B_LINK_PARTNER_NAME} envoie
+#. {B_LINK_PLAYER_MON1_NAME}! Go! {B_LINK_PLAYER_MON2_NAME}!
 #: src/battle_message.c:118
 msgid ""
 "{B_LINK_PARTNER_NAME} sent out {B_LINK_PLAYER_MON1_NAME}! Go! "
 "{B_LINK_PLAYER_MON2_NAME}!"
 msgstr ""
-"{B_LINK_PARTNER_NAME} envoie {B_LINK_PLAYER_MON1_NAME}! Go! "
-"{B_LINK_PLAYER_MON2_NAME}!"
+"{B_LINK_PARTNER_NAME} envoie {B_LINK_PLAYER_MON1_NAME}! "
+"{B_LINK_PLAYER_MON2_NAME}! Go!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:977 — {STRVAR_1 3, 0, 0} envoie\n{STRVAR_1 1, 1,
+#. 0}!\f{STRVAR_1 1, 2, 0}! Go!
+#. ancien (patch FR actuel) : {B_LINK_PARTNER_NAME} envoie
+#. {B_LINK_PLAYER_MON2_NAME}! {B_LINK_PLAYER_MON1_NAME}, go!
 #: src/battle_message.c:119
 msgid ""
 "{B_LINK_PARTNER_NAME} sent out {B_LINK_PLAYER_MON2_NAME}! Go! "
 "{B_LINK_PLAYER_MON1_NAME}!"
 msgstr ""
 "{B_LINK_PARTNER_NAME} envoie {B_LINK_PLAYER_MON2_NAME}! "
-"{B_LINK_PLAYER_MON1_NAME}, go!"
+"{B_LINK_PLAYER_MON1_NAME}! Go!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:120
 msgid "{B_LINK_PARTNER_NAME} sent out {B_LINK_PLAYER_MON1_NAME}!"
 msgstr "{B_LINK_PARTNER_NAME} envoie {B_LINK_PLAYER_MON1_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:121
 msgid "{B_LINK_PARTNER_NAME} sent out {B_LINK_PLAYER_MON2_NAME}!"
 msgstr "{B_LINK_PARTNER_NAME} envoie {B_LINK_PLAYER_MON2_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:990 — {STRVAR_1 3, 0, 0} retire\n{STRVAR_1 1, 1, 0}!
+#. ancien (patch FR actuel) : {B_LINK_PARTNER_NAME} rappelle
+#. {B_LINK_PLAYER_MON1_NAME}!
 #: src/battle_message.c:122
 msgid "{B_LINK_PARTNER_NAME} withdrew {B_LINK_PLAYER_MON1_NAME}!"
-msgstr "{B_LINK_PARTNER_NAME} rappelle {B_LINK_PLAYER_MON1_NAME}!"
+msgstr "{B_LINK_PARTNER_NAME} retire {B_LINK_PLAYER_MON1_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:990 — {STRVAR_1 3, 0, 0} retire\n{STRVAR_1 1, 1, 0}!
+#. ancien (patch FR actuel) : {B_LINK_PARTNER_NAME} rappelle
+#. {B_LINK_PLAYER_MON2_NAME}!
 #: src/battle_message.c:123
 msgid "{B_LINK_PARTNER_NAME} withdrew {B_LINK_PLAYER_MON2_NAME}!"
-msgstr "{B_LINK_PARTNER_NAME} rappelle {B_LINK_PLAYER_MON2_NAME}!"
+msgstr "{B_LINK_PARTNER_NAME} retire {B_LINK_PLAYER_MON2_NAME}!"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:984 — {STRVAR_1 1, 0, 0}, on change!\nReviens!
 #: src/battle_message.c:124
 msgid "{B_BUFF1}, switch out! Come back!"
-msgstr ""
+msgstr "{B_BUFF1}, on change! Reviens!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:125
@@ -1460,7 +1517,7 @@ msgstr "{B_BUFF1}, ça suffit! Reviens!"
 msgid "{B_BUFF1}, come back!"
 msgstr "Reviens, {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:127
 msgid "OK, {B_BUFF1}! Come back!"
 msgstr "OK, {B_BUFF1}! Reviens!"
@@ -1470,25 +1527,37 @@ msgstr "OK, {B_BUFF1}! Reviens!"
 msgid "Good job, {B_BUFF1}! Come back!"
 msgstr "Bien joué, {B_BUFF1}! Reviens!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:990 — {STRVAR_1 3, 0, 0} retire\n{STRVAR_1 1, 1, 0}!
+#. ancien (patch FR actuel) : {B_TRAINER1_NAME_WITH_CLASS} rappelle {B_BUFF1}!
 #: src/battle_message.c:129
 msgid "{B_TRAINER1_NAME_WITH_CLASS} withdrew {B_BUFF1}!"
-msgstr "{B_TRAINER1_NAME_WITH_CLASS} rappelle {B_BUFF1}!"
+msgstr "{B_TRAINER1_NAME_WITH_CLASS} retire {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:990 — {STRVAR_1 3, 0, 0} retire\n{STRVAR_1 1, 1, 0}!
+#. ancien (patch FR actuel) : {B_TRAINER2_NAME_WITH_CLASS} rappelle {B_BUFF1}!
 #: src/battle_message.c:130
 msgid "{B_TRAINER2_NAME_WITH_CLASS} withdrew {B_BUFF1}!"
-msgstr "{B_TRAINER2_NAME_WITH_CLASS} rappelle {B_BUFF1}!"
+msgstr "{B_TRAINER2_NAME_WITH_CLASS} retire {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:990 — {STRVAR_1 3, 0, 0} retire\n{STRVAR_1 1, 1, 0}!
+#. ancien (patch FR actuel) : {B_LINK_OPPONENT1_NAME} rappelle {B_BUFF1}!
 #: src/battle_message.c:131
 msgid "{B_LINK_OPPONENT1_NAME} withdrew {B_BUFF1}!"
-msgstr "{B_LINK_OPPONENT1_NAME} rappelle {B_BUFF1}!"
+msgstr "{B_LINK_OPPONENT1_NAME} retire {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:990 — {STRVAR_1 3, 0, 0} retire\n{STRVAR_1 1, 1, 0}!
+#. ancien (patch FR actuel) : {B_LINK_OPPONENT2_NAME} rappelle {B_BUFF1}!
 #: src/battle_message.c:132
 msgid "{B_LINK_OPPONENT2_NAME} withdrew {B_BUFF1}!"
-msgstr "{B_LINK_OPPONENT2_NAME} rappelle {B_BUFF1}!"
+msgstr "{B_LINK_OPPONENT2_NAME} retire {B_BUFF1}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:133
@@ -1648,25 +1717,41 @@ msgstr ""
 msgid "{B_BUFF1} gained{B_BUFF2} {B_BUFF3} Exp. Points!\\p"
 msgstr "{B_BUFF1} gagne{B_BUFF2} {B_BUFF3} points d’Exp.!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:3 — {STRVAR_1 1, 0, 0} monte au\nN. {STRVAR_1 52, 1, 0}!{WAIT
+#. 5}{WAIT 2}\r
+#. ancien (patch FR actuel) : {B_BUFF1} monte au N. {B_BUFF2}!{WAIT_SE}\p
 #: src/battle_message.c:197
 msgid "{B_BUFF1} grew to Lv. {B_BUFF2}!{WAIT_SE}\\p"
-msgstr "{B_BUFF1} monte au N. {B_BUFF2}!{WAIT_SE}\\p"
+msgstr "{B_BUFF1} monte au\\nN. {B_BUFF2}!{WAIT_SE}\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:4 — {STRVAR_1 1, 0, 0} apprend\n{STRVAR_1 6, 1, 0}!{WAIT
+#. 5}{WAIT 2}\r
+#. ancien (patch FR actuel) : {B_BUFF1} apprend {B_BUFF2}!{WAIT_SE}\p
 #: src/battle_message.c:198
 msgid "{B_BUFF1} learned {B_BUFF2}!{WAIT_SE}\\p"
-msgstr "{B_BUFF1} apprend {B_BUFF2}!{WAIT_SE}\\p"
+msgstr "{B_BUFF1} apprend\\n{B_BUFF2}!{WAIT_SE}\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1178 — {STRVAR_1 1, 0, 0} tente d’apprendre\n{STRVAR_1 6, 1,
+#. 0}.\r
+#. ancien (patch FR actuel) : {B_BUFF1} veut apprendre {B_BUFF2}.\p
 #: src/battle_message.c:199
 msgid "{B_BUFF1} wants to learn the move {B_BUFF2}.\\p"
-msgstr "{B_BUFF1} veut apprendre {B_BUFF2}.\\p"
+msgstr "{B_BUFF1} tente d’apprendre\\n{B_BUFF2}.\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1194 — Mais {STRVAR_1 1, 0, 0} ne peut pas\navoir plus de
+#. quatre capacités.\r
+#. ancien (patch FR actuel) : Mais {B_BUFF1} connaît déjà 4 capacités.\p
 #: src/battle_message.c:200
 msgid "However, {B_BUFF1} already knows four moves.\\p"
-msgstr "Mais {B_BUFF1} connaît déjà 4 capacités.\\p"
+msgstr "Mais {B_BUFF1} ne peut pas\\navoir plus de quatre capacités.\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:201
@@ -1683,45 +1768,54 @@ msgstr "{B_BUFF1} oublie {B_BUFF2}…\\p"
 msgid "{PAUSE 32}Do you want to give up on having {B_BUFF1} learn {B_BUFF2}?"
 msgstr "{PAUSE 32}{B_BUFF1} doit-il renoncer à apprendre {B_BUFF2}?"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:10 — {STRVAR_1 1, 0, 0} n’a pas appris\n{STRVAR_1 6, 1, 0}.\r
+#. ancien (patch FR actuel) : {B_BUFF1} n’a pas appris {B_BUFF2}.\p
 #: src/battle_message.c:204
 msgid "{B_BUFF1} did not learn {B_BUFF2}.\\p"
-msgstr "{B_BUFF1} n’a pas appris {B_BUFF2}.\\p"
+msgstr "{B_BUFF1} n’a pas appris\\n{B_BUFF2}.\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:205
 msgid "{B_ATK_NAME_WITH_PREFIX} learned {B_BUFF1}!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} apprend {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:206
 msgid "{B_ATK_NAME_WITH_PREFIX}'s attack missed!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} rate son attaque!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:207
 msgid "{B_SCR_NAME_WITH_PREFIX} protected itself!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} se protège!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:768 — Les stats du {STRVAR_1 1, 0, 0}\nn’iront pas plus haut!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} est déjà au maximum!
 #: src/battle_message.c:208
 msgid "{B_ATK_NAME_WITH_PREFIX}'s stats won't go any higher!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} est déjà au maximum!"
+msgstr "Les stats du {B_ATK_NAME_WITH_PREFIX} n’iront pas plus haut!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:209
 msgid "It doesn't affect {B_DEF_NAME_WITH_PREFIX2}…"
 msgstr "Ça n’affecte pas {B_DEF_NAME_WITH_PREFIX2}…"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:210
 msgid "It doesn't affect {B_SCR_NAME_WITH_PREFIX2}…"
 msgstr "Ça n’affecte pas {B_SCR_NAME_WITH_PREFIX2}…"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:30 — {STRVAR_1 1, 0, 0}\nest K.O.!\r
+#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX} est K.O.!\p
 #: src/battle_message.c:211
 msgid "{B_SCR_NAME_WITH_PREFIX} fainted!\\p"
-msgstr "{B_SCR_NAME_WITH_PREFIX} est K.O.!\\p"
+msgstr "{B_SCR_NAME_WITH_PREFIX}\\nest K.O.!\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:212
@@ -1748,17 +1842,22 @@ msgstr "Vous donnez {B_BUFF1}¥ au gagnant…"
 msgid "You were overwhelmed by your defeat!"
 msgstr "La défaite vous laisse sans voix!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:39 — {STRVAR_1 1, 0, 0} empêche la\nfuite avec {STRVAR_1 5, 1,
+#. 0}!\r
+#. ancien (patch FR actuel) : {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX}
+#. empêche la fuite!\p
 #: src/battle_message.c:217
 msgid "{B_SCR_NAME_WITH_PREFIX} prevents escape with {B_SCR_ABILITY}!\\p"
-msgstr "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} empêche la fuite!\\p"
+msgstr "{B_SCR_NAME_WITH_PREFIX} empêche la\\nfuite avec {B_SCR_ABILITY}!\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:218
 msgid "The Pokémon was hit {B_BUFF1} time(s)!"
 msgstr "Le Pokémon est touché {B_BUFF1} fois!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:219
 msgid "{B_EFF_NAME_WITH_PREFIX} fell asleep!"
 msgstr "{B_EFF_NAME_WITH_PREFIX} s’endort!"
@@ -1770,17 +1869,17 @@ msgid ""
 msgstr ""
 "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} endort {B_EFF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:221
 msgid "{B_DEF_NAME_WITH_PREFIX} is already asleep!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} dort déjà!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:222
 msgid "{B_ATK_NAME_WITH_PREFIX} is already asleep!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} dort déjà!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:223
 msgid "{B_EFF_NAME_WITH_PREFIX} was poisoned!"
 msgstr "{B_EFF_NAME_WITH_PREFIX} est empoisonné!"
@@ -1799,27 +1898,36 @@ msgstr ""
 msgid "{B_ATK_NAME_WITH_PREFIX} was hurt by its poisoning!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} souffre du poison!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:76 — {STRVAR_1 1, 0, 0} est déjà\nempoisonné.
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} est déjà empoisonné!
 #: src/battle_message.c:226
 msgid "{B_DEF_NAME_WITH_PREFIX} is already poisoned!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} est déjà empoisonné!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} est déjà empoisonné."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:79 — {STRVAR_1 1, 0, 0} est gravement\nempoisonné!
+#. ancien (patch FR actuel) : {B_EFF_NAME_WITH_PREFIX} est intoxiqué!
 #: src/battle_message.c:227
 msgid "{B_EFF_NAME_WITH_PREFIX} was badly poisoned!"
-msgstr "{B_EFF_NAME_WITH_PREFIX} est intoxiqué!"
+msgstr "{B_EFF_NAME_WITH_PREFIX} est gravement empoisonné!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:82 — L’énergie du {STRVAR_1 1, 0, 0}\nest drainée!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} perd son énergie!
 #: src/battle_message.c:228
 msgid "{B_DEF_NAME_WITH_PREFIX} had its energy drained!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} perd son énergie!"
+msgstr "L’énergie du {B_DEF_NAME_WITH_PREFIX} est drainée!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:229
 msgid "{B_EFF_NAME_WITH_PREFIX} was burned!"
 msgstr "{B_EFF_NAME_WITH_PREFIX} est brûlé!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:230
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} burned {B_EFF_NAME_WITH_PREFIX2}!"
 msgstr ""
@@ -1830,60 +1938,76 @@ msgstr ""
 msgid "{B_ATK_NAME_WITH_PREFIX} was hurt by its burn!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} souffre de brûlure!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:232
 msgid "{B_EFF_NAME_WITH_PREFIX} was frozen solid!"
 msgstr "{B_EFF_NAME_WITH_PREFIX} est gelé!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:233
 msgid ""
 "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} froze {B_EFF_NAME_WITH_PREFIX2} solid!"
 msgstr "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} gèle {B_EFF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:234
 msgid "{B_ATK_NAME_WITH_PREFIX} is frozen solid!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est gelé!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:114 — {STRVAR_1 1, 0, 0} est dégelé!
+#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX} dégèle!
 #: src/battle_message.c:235
 msgid "{B_SCR_NAME_WITH_PREFIX} thawed out!"
-msgstr "{B_SCR_NAME_WITH_PREFIX} dégèle!"
+msgstr "{B_SCR_NAME_WITH_PREFIX} est dégelé!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:236
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE} melted the ice!"
 msgstr "{B_CURRENT_MOVE} de {B_SCR_NAME_WITH_PREFIX} fait fondre la glace!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 197:120 — {STRVAR_1 1, 0, 0} est paralysé!\nIl peut ne plus
+#. attaquer!
+#. ancien (patch FR actuel) : {B_EFF_NAME_WITH_PREFIX} est paralysé! Il aura
+#. du mal à attaquer!
 #: src/battle_message.c:237
 msgid "{B_EFF_NAME_WITH_PREFIX} is paralyzed, so it may be unable to move!"
-msgstr "{B_EFF_NAME_WITH_PREFIX} est paralysé! Il aura du mal à attaquer!"
+msgstr "{B_EFF_NAME_WITH_PREFIX} est paralysé! Il peut ne plus attaquer!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 197:123 — {STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0}\nparalyse
+#. {STRVAR_1 1, 2, 0}!\fIl peut ne plus attaquer!
+#. ancien (patch FR actuel) : {B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} paralyse
+#. {B_EFF_NAME_WITH_PREFIX2}! Il aura du mal à bouger!
 #: src/battle_message.c:238
 msgid ""
 "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} paralyzed {B_EFF_NAME_WITH_PREFIX2}, so"
 " it may be unable to move!"
 msgstr ""
 "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} paralyse {B_EFF_NAME_WITH_PREFIX2}! Il"
-" aura du mal à bouger!"
+" peut ne plus attaquer!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:239
 msgid "{B_ATK_NAME_WITH_PREFIX} couldn't move because it's paralyzed!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est paralysé! Il ne peut pas attaquer!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:240
 msgid "{B_DEF_NAME_WITH_PREFIX} is already paralyzed!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} est déjà paralysé!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 6:84 — {STRVAR_1 1, 0, 0} n’est plus\nparalysé.
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} n’est plus paralysé!
 #: src/battle_message.c:241
 msgid "{B_DEF_NAME_WITH_PREFIX} was cured of paralysis!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} n’est plus paralysé!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} n’est plus paralysé."
 
 #. source : patch FR actuel
 #: src/battle_message.c:242
@@ -1895,7 +2019,7 @@ msgstr "{B_BUFF1} de {B_ATK_NAME_WITH_PREFIX} ne monte plus!"
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} won't go any lower!"
 msgstr "{B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} ne baisse plus!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:244
 msgid "{B_ATK_NAME_WITH_PREFIX} is confused!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est confus!"
@@ -1905,32 +2029,41 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} est confus!"
 msgid "{B_ATK_NAME_WITH_PREFIX} snapped out of its confusion!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} n’est plus confus!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:156 — Cela rend {STRVAR_1 1, 0, 0}\nconfus!
+#. ancien (patch FR actuel) : {B_EFF_NAME_WITH_PREFIX} devient confus!
 #: src/battle_message.c:246
 msgid "{B_EFF_NAME_WITH_PREFIX} became confused!"
-msgstr "{B_EFF_NAME_WITH_PREFIX} devient confus!"
+msgstr "Cela rend {B_EFF_NAME_WITH_PREFIX} confus!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:247
 msgid "{B_DEF_NAME_WITH_PREFIX} is already confused!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} est déjà confus!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:162 — {STRVAR_1 1, 0, 0} est amoureux!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} tombe amoureux!
 #: src/battle_message.c:248
 msgid "{B_DEF_NAME_WITH_PREFIX} fell in love!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} tombe amoureux!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} est amoureux!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:249
 msgid "{B_ATK_NAME_WITH_PREFIX} is in love with {B_SCR_NAME_WITH_PREFIX2}!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est amoureux de {B_SCR_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:172 — L’amour empêche {STRVAR_1 1, 0, 0}\nd’attaquer!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} est figé par l’amour!
 #: src/battle_message.c:250
 msgid "{B_ATK_NAME_WITH_PREFIX} is immobilized by love!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} est figé par l’amour!"
+msgstr "L’amour empêche {B_ATK_NAME_WITH_PREFIX} d’attaquer!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:251
 msgid "{B_ATK_NAME_WITH_PREFIX} transformed into the {B_BUFF1} type!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} prend le type {B_BUFF1}!"
@@ -1975,7 +2108,7 @@ msgstr "{B_SCR_NAME_WITH_PREFIX} est protégé par Rune Protect!"
 msgid "{B_ATK_TEAM1} team is no longer protected by Safeguard!"
 msgstr "L’équipe {B_ATK_TEAM1} n’est plus sous Rune Protect!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:260
 msgid "{B_ATK_NAME_WITH_PREFIX} went to sleep!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} s’endort!"
@@ -1985,35 +2118,51 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} s’endort!"
 msgid "{B_ATK_NAME_WITH_PREFIX} slept and restored its HP!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} dort et récupère ses PV!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:211 — {STRVAR_1 1, 0, 0} déclenche un\ncyclone!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} crée une bourrasque!
 #: src/battle_message.c:262
 msgid "{B_ATK_NAME_WITH_PREFIX} whipped up a whirlwind!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} crée une bourrasque!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} déclenche un cyclone!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:214 — {STRVAR_1 1, 0, 0} rayonne!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} absorbe la lumière!
 #: src/battle_message.c:263
 msgid "{B_ATK_NAME_WITH_PREFIX} absorbed light!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} absorbe la lumière!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} rayonne!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:217 — {STRVAR_1 1, 0, 0} baisse la tête!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} rentre la tête!
 #: src/battle_message.c:264
 msgid "{B_ATK_NAME_WITH_PREFIX} tucked in its head!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} rentre la tête!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} baisse la tête!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:220 — {STRVAR_1 1, 0, 0} est entouré d’une\nlumière intense!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} est baigné d’une
+#. lumière intense!
 #: src/battle_message.c:265 src/battle_message.c:837
 msgid "{B_ATK_NAME_WITH_PREFIX} became cloaked in a harsh light!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} est baigné d’une lumière intense!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} est entouré d’une lumière intense!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:266
 msgid "{B_ATK_NAME_WITH_PREFIX} flew up high!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} s’envole!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:226 — {STRVAR_1 1, 0, 0} creuse un trou!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} s’enfonce dans le sol!
 #: src/battle_message.c:267
 msgid "{B_ATK_NAME_WITH_PREFIX} burrowed its way under the ground!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} s’enfonce dans le sol!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} creuse un trou!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:268
@@ -2025,7 +2174,7 @@ msgstr "{B_DEF_NAME_WITH_PREFIX} est étreint par {B_ATK_NAME_WITH_PREFIX2}!"
 msgid "{B_DEF_NAME_WITH_PREFIX} became trapped in the vortex!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} est piégé dans le tourbillon!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:270
 msgid "{B_DEF_NAME_WITH_PREFIX} was wrapped by {B_ATK_NAME_WITH_PREFIX2}!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} est ligoté par {B_ATK_NAME_WITH_PREFIX2}!"
@@ -2035,22 +2184,28 @@ msgstr "{B_DEF_NAME_WITH_PREFIX} est ligoté par {B_ATK_NAME_WITH_PREFIX2}!"
 msgid "{B_ATK_NAME_WITH_PREFIX} clamped down on {B_DEF_NAME_WITH_PREFIX2}!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est pincé par {B_DEF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:262 — {STRVAR_1 1, 0, 0} est blessé par\n{STRVAR_1 6, 1, 0}!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} souffre de {B_BUFF1}!
 #: src/battle_message.c:272 src/battle_message.c:806
 msgid "{B_ATK_NAME_WITH_PREFIX} is hurt by {B_BUFF1}!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} souffre de {B_BUFF1}!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} est blessé par {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:265 — {STRVAR_1 1, 0, 0} est libéré de\n{STRVAR_1 6, 1, 0}!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} se libère de {B_BUFF1}!
 #: src/battle_message.c:273
 msgid "{B_ATK_NAME_WITH_PREFIX} was freed from {B_BUFF1}!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} se libère de {B_BUFF1}!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} est libéré de {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:274
 msgid "{B_ATK_NAME_WITH_PREFIX} kept going and crashed!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} s’écrase au sol!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
 #: src/battle_message.c:276
 msgid "{B_SCR_NAME_WITH_PREFIX} is protected by the mist!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} est protégé par la Brume!"
@@ -2060,7 +2215,7 @@ msgstr "{B_SCR_NAME_WITH_PREFIX} est protégé par la Brume!"
 msgid "{B_ATK_NAME_WITH_PREFIX} was damaged by the recoil!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} subit le contrecoup!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:279
 msgid "{B_ATK_NAME_WITH_PREFIX} protected itself!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} se protège!"
@@ -2075,22 +2230,22 @@ msgstr "La tempête de sable blesse {B_ATK_NAME_WITH_PREFIX}!"
 msgid "{B_ATK_NAME_WITH_PREFIX} is buffeted by the hail!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est blessé par la grêle!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:282
 msgid "{B_DEF_NAME_WITH_PREFIX} was seeded!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} est infecté!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:283
 msgid "{B_DEF_NAME_WITH_PREFIX} avoided the attack!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} évite l’attaque!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:284
 msgid "{B_ATK_NAME_WITH_PREFIX}'s health is sapped by Leech Seed!"
 msgstr "Vampigraine draine l’énergie de {B_ATK_NAME_WITH_PREFIX}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:285
 msgid "{B_ATK_NAME_WITH_PREFIX} is fast asleep."
 msgstr "{B_ATK_NAME_WITH_PREFIX} dort profondément."
@@ -2105,17 +2260,23 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} se réveille!"
 msgid "The uproar woke {B_EFF_NAME_WITH_PREFIX2}!"
 msgstr "Le brouhaha réveille {B_EFF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:308 — {STRVAR_1 1, 0, 0} provoque\nun Brouhaha!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} crée un brouhaha!
 #: src/battle_message.c:288
 msgid "{B_ATK_NAME_WITH_PREFIX} caused an uproar!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} crée un brouhaha!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} provoque un Brouhaha!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:311 — {STRVAR_1 1, 0, 0} fait un\nBrouhaha!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} fait du brouhaha!
 #: src/battle_message.c:289
 msgid "{B_ATK_NAME_WITH_PREFIX} is making an uproar!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} fait du brouhaha!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} fait un Brouhaha!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:290
 msgid "{B_ATK_NAME_WITH_PREFIX} calmed down."
 msgstr "{B_ATK_NAME_WITH_PREFIX} se calme."
@@ -2125,47 +2286,62 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} se calme."
 msgid "{B_ATK_NAME_WITH_PREFIX} stockpiled {B_BUFF1}!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} stocke {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:323 — Mais le Brouhaha empêche\n{STRVAR_1 1, 0, 0} de dormir!
+#. ancien (patch FR actuel) : Mais {B_DEF_NAME_WITH_PREFIX2} ne peut dormir
+#. avec ce bruit!
 #: src/battle_message.c:292
 msgid "But {B_DEF_NAME_WITH_PREFIX2} can't sleep in an uproar!"
-msgstr "Mais {B_DEF_NAME_WITH_PREFIX2} ne peut dormir avec ce bruit!"
+msgstr "Mais le Brouhaha empêche {B_DEF_NAME_WITH_PREFIX2} de dormir!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:326 — Mais le Brouhaha tient\n{STRVAR_1 1, 0, 0} éveillé!
+#. ancien (patch FR actuel) : Mais le Brouhaha empêche
+#. {B_DEF_NAME_WITH_PREFIX2} de dormir!
 #: src/battle_message.c:293
 msgid "But the uproar kept {B_DEF_NAME_WITH_PREFIX2} awake!"
-msgstr "Mais le Brouhaha empêche {B_DEF_NAME_WITH_PREFIX2} de dormir!"
+msgstr "Mais le Brouhaha tient {B_DEF_NAME_WITH_PREFIX2} éveillé!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:294
 msgid "{B_DEF_NAME_WITH_PREFIX} stayed awake using its {B_DEF_ABILITY}!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} reste éveillé grâce à {B_DEF_ABILITY}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:332 — {STRVAR_1 1, 0, 0} se concentre!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} accumule de l’énergie!
 #: src/battle_message.c:295
 msgid "{B_ATK_NAME_WITH_PREFIX} is storing energy!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} accumule de l’énergie!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} se concentre!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:296
 msgid "{B_ATK_NAME_WITH_PREFIX} unleashed its energy!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} libère son énergie!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:338 — La fatigue rend {STRVAR_1 1, 0, 0}\nconfus!
+#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX} est épuisé et devient
+#. confus!
 #: src/battle_message.c:297
 msgid "{B_SCR_NAME_WITH_PREFIX} became confused due to fatigue!"
-msgstr "{B_SCR_NAME_WITH_PREFIX} est épuisé et devient confus!"
+msgstr "La fatigue rend {B_SCR_NAME_WITH_PREFIX} confus!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:298
 msgid "You picked up ¥{B_BUFF1}!\\p"
 msgstr "Vous ramassez {B_BUFF1}¥!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:299
 msgid "{B_DEF_NAME_WITH_PREFIX} is unaffected!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} n’est pas affecté!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:300
 msgid "{B_ATK_NAME_WITH_PREFIX} transformed into {B_BUFF1}!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} se transforme en {B_BUFF1}!"
@@ -2175,40 +2351,63 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} se transforme en {B_BUFF1}!"
 msgid "{B_ATK_NAME_WITH_PREFIX} put in a substitute!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} crée un clone!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:302
 msgid "{B_ATK_NAME_WITH_PREFIX} already has a substitute!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} a déjà un clone!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:354 — Le clone prend les\ndégâts du {STRVAR_1 1, 0, 0}!\r
+#. ancien (patch FR actuel) : Le clone encaisse les coups à la place de
+#. {B_DEF_NAME_WITH_PREFIX2}!\p
 #: src/battle_message.c:303
 msgid "The substitute took damage for {B_DEF_NAME_WITH_PREFIX2}!\\p"
-msgstr "Le clone encaisse les coups à la place de {B_DEF_NAME_WITH_PREFIX2}!\\p"
+msgstr "Le clone prend les\\ndégâts du {B_DEF_NAME_WITH_PREFIX2}!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:357 — Le clone du {STRVAR_1 1, 0, 0}\ndisparaît!\r
+#. ancien (patch FR actuel) : Le clone de {B_DEF_NAME_WITH_PREFIX} s’efface!\p
 #: src/battle_message.c:304
 msgid "{B_DEF_NAME_WITH_PREFIX}'s substitute faded!\\p"
-msgstr "Le clone de {B_DEF_NAME_WITH_PREFIX} s’efface!\\p"
+msgstr "Le clone du {B_DEF_NAME_WITH_PREFIX}\\ndisparaît!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:360 — {STRVAR_1 1, 0, 0} doit\nse recharger!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} doit se reposer!
 #: src/battle_message.c:305
 msgid "{B_ATK_NAME_WITH_PREFIX} must recharge!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} doit se reposer!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} doit se recharger!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:363 — La Frénésie du {STRVAR_1 1, 0, 0}\naugmente!
+#. ancien (patch FR actuel) : La colère de {B_DEF_NAME_WITH_PREFIX} monte!
 #: src/battle_message.c:306
 msgid "{B_DEF_NAME_WITH_PREFIX}'s rage is building!"
-msgstr "La colère de {B_DEF_NAME_WITH_PREFIX} monte!"
+msgstr "La Frénésie du {B_DEF_NAME_WITH_PREFIX} augmente!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:366 — {STRVAR_1 6, 1, 0} du {STRVAR_1 1, 0, 0}\nest mis sous
+#. Entrave!
+#. ancien (patch FR actuel) : {B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} est
+#. bloqué!
 #: src/battle_message.c:307
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} was disabled!"
-msgstr "{B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} est bloqué!"
+msgstr "{B_BUFF1} du {B_DEF_NAME_WITH_PREFIX} est mis sous Entrave!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:609 — Il y a une Entrave sur {STRVAR_1 6, 1, 0}\ndu {STRVAR_1
+#. 1, 0, 0}!\r
+#. ancien (patch FR actuel) : {B_CURRENT_MOVE} de {B_ATK_NAME_WITH_PREFIX} est
+#. bloqué!\p
 #: src/battle_message.c:308
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE} is disabled!\\p"
-msgstr "{B_CURRENT_MOVE} de {B_ATK_NAME_WITH_PREFIX} est bloqué!\\p"
+msgstr "Il y a une Entrave sur {B_CURRENT_MOVE}\\ndu {B_ATK_NAME_WITH_PREFIX}!\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:309
@@ -2230,15 +2429,18 @@ msgstr "{B_SCR_NAME_WITH_PREFIX} ne peut utiliser que {B_CURRENT_MOVE}!\\p"
 msgid "{B_SCR_NAME_WITH_PREFIX} ended its encore!"
 msgstr "L’Encore de {B_SCR_NAME_WITH_PREFIX} prend fin!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:313
 msgid "{B_ATK_NAME_WITH_PREFIX} took aim at {B_DEF_NAME_WITH_PREFIX2}!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} vise {B_DEF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:385 — {STRVAR_1 1, 0, 0} Gribouille\n{STRVAR_1 6, 1, 0}!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} copie {B_BUFF1}!
 #: src/battle_message.c:314
 msgid "{B_ATK_NAME_WITH_PREFIX} sketched {B_BUFF1}!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} copie {B_BUFF1}!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} Gribouille {B_BUFF1}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:315
@@ -2255,27 +2457,42 @@ msgstr "{B_DEF_NAME_WITH_PREFIX} emporte son ennemi avec lui!"
 msgid "{B_DEF_NAME_WITH_PREFIX} lost {B_BUFF2} PP from {B_BUFF1}!"
 msgstr "{B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} perd {B_BUFF2} PP!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:401 — {STRVAR_1 1, 0, 0} vole {STRVAR_1 8, 2, 0} au\n{STRVAR_1
+#. 1, 1, 0}!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} vole {B_LAST_ITEM} à
+#. {B_EFF_NAME_WITH_PREFIX2}!
 #: src/battle_message.c:318
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX} stole {B_EFF_NAME_WITH_PREFIX2}'s {B_LAST_ITEM}!"
 msgstr ""
-"{B_ATK_NAME_WITH_PREFIX} vole {B_LAST_ITEM} à {B_EFF_NAME_WITH_PREFIX2}!"
+"{B_ATK_NAME_WITH_PREFIX} vole {B_LAST_ITEM} au {B_EFF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:408 — {STRVAR_1 1, 0, 0} ne peut pas\ns’échapper!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} ne peut plus s’enfuir!
 #: src/battle_message.c:319
 msgid "{B_DEF_NAME_WITH_PREFIX} can no longer escape!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} ne peut plus s’enfuir!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} ne peut pas s’échapper!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:411 — {STRVAR_1 1, 0, 0} commence un\nCauchemar!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} commence à
+#. cauchemarder!
 #: src/battle_message.c:320
 msgid "{B_DEF_NAME_WITH_PREFIX} began having a nightmare!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} commence à cauchemarder!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} commence un Cauchemar!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:414 — {STRVAR_1 1, 0, 0} est prisonnier\nd’un Cauchemar!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} fait un cauchemar!
 #: src/battle_message.c:321
 msgid "{B_ATK_NAME_WITH_PREFIX} is locked in a nightmare!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} fait un cauchemar!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} est prisonnier d’un Cauchemar!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:322
@@ -2286,10 +2503,13 @@ msgstr ""
 "{B_ATK_NAME_WITH_PREFIX} sacrifie des PV pour maudire "
 "{B_DEF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:424 — {STRVAR_1 1, 0, 0} est touché par\nla Malédiction!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} subit la malédiction!
 #: src/battle_message.c:323
 msgid "{B_ATK_NAME_WITH_PREFIX} is afflicted by the curse!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} subit la malédiction!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} est touché par la Malédiction!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:324
@@ -2321,15 +2541,21 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} se prépare au choc!"
 msgid "{B_DEF_NAME_WITH_PREFIX} endured the hit!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} tient bon!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:330
 msgid "Magnitude {B_BUFF1}!"
 msgstr "Ampleur {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:449 — {STRVAR_1 1, 0, 0} sacrifie ses PV\net monte son Attaque
+#. au maximum!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} sacrifie des PV et
+#. maximise son ATTAQUE!
 #: src/battle_message.c:331
 msgid "{B_ATK_NAME_WITH_PREFIX} cut its own HP and maximized its ATTACK!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} sacrifie des PV et maximise son ATTAQUE!"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} sacrifie ses PV et monte son Attaque au maximum!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:332
@@ -2338,12 +2564,17 @@ msgid ""
 msgstr ""
 "{B_SCR_NAME_WITH_PREFIX} copie les stats de {B_EFF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:459 — {STRVAR_1 1, 0, 0} se libère de\n{STRVAR_1 6, 2, 0} du
+#. {STRVAR_1 1, 1, 0}!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} se libère de {B_BUFF1}
+#. de {B_DEF_NAME_WITH_PREFIX2}!
 #: src/battle_message.c:333
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX} got free of {B_DEF_NAME_WITH_PREFIX2}'s {B_BUFF1}!"
 msgstr ""
-"{B_ATK_NAME_WITH_PREFIX} se libère de {B_BUFF1} de "
+"{B_ATK_NAME_WITH_PREFIX} se libère de {B_BUFF1} du "
 "{B_DEF_NAME_WITH_PREFIX2}!"
 
 #. source : patch FR actuel
@@ -2356,88 +2587,132 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} chasse Vampigraine!"
 msgid "{B_ATK_NAME_WITH_PREFIX} blew away Spikes!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} balaie les Picots!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:469 — {STRVAR_1 1, 0, 0} s’enfuit!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} quitte le combat!
 #: src/battle_message.c:336
 msgid "{B_ATK_NAME_WITH_PREFIX} fled from battle!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} quitte le combat!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} s’enfuit!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:337
 msgid "{B_ATK_NAME_WITH_PREFIX} foresaw an attack!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} prévoit une attaque!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:475 — {STRVAR_1 1, 0, 0} reçoit l’attaque\n{STRVAR_1 6, 1, 0}!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} subit l’attaque
+#. {B_BUFF1}!
 #: src/battle_message.c:338
 msgid "{B_DEF_NAME_WITH_PREFIX} took the {B_BUFF1} attack!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} subit l’attaque {B_BUFF1}!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} reçoit l’attaque {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:339
 msgid "{B_BUFF1}'s attack!"
 msgstr "Attaque de {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:484 — {STRVAR_1 1, 0, 0} devient le centre\nd’attention!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} devient le centre de
+#. l’attention!
 #: src/battle_message.c:340
 msgid "{B_DEF_NAME_WITH_PREFIX} became the center of attention!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} devient le centre de l’attention!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} devient le centre d’attention!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:487 — {STRVAR_1 1, 0, 0} se met à\ncharger son énergie!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} se charge en énergie!
 #: src/battle_message.c:341
 msgid "{B_ATK_NAME_WITH_PREFIX} began charging power!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} se charge en énergie!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} se met à charger son énergie!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:342
 msgid "Nature Power turned into {B_CURRENT_MOVE}!"
 msgstr "Force Nature devient {B_CURRENT_MOVE}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:491 — Le statut du {STRVAR_1 1, 0, 0}\nrevient à la normale!
+#. ancien (patch FR actuel) : Le statut de {B_ATK_NAME_WITH_PREFIX} est
+#. normal!
 #: src/battle_message.c:343
 msgid "{B_ATK_NAME_WITH_PREFIX}'s status returned to normal!"
-msgstr "Le statut de {B_ATK_NAME_WITH_PREFIX} est normal!"
+msgstr "Le statut du {B_ATK_NAME_WITH_PREFIX} revient à la normale!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:344
 msgid "{B_ATK_NAME_WITH_PREFIX} has no moves left that it can use!\\p"
 msgstr "{B_ATK_NAME_WITH_PREFIX} n’a plus de capacité utilisable!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:494 — {STRVAR_1 1, 0, 0} est victime de la\nTourmente!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} est tourmenté!
 #: src/battle_message.c:345
 msgid "{B_DEF_NAME_WITH_PREFIX} was subjected to torment!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} est tourmenté!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} est victime de la Tourmente!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:612 — La Tourmente empêche {STRVAR_1 1, 0, 0}\nd’utiliser une
+#. capacité deux fois de\fsuite!\r
+#. ancien (patch FR actuel) : Tourmente empêche {B_ATK_NAME_WITH_PREFIX} de
+#. répéter la même capacité!\p
 #: src/battle_message.c:346
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX} can't use the same move twice in a row due to the "
 "torment!\\p"
 msgstr ""
-"Tourmente empêche {B_ATK_NAME_WITH_PREFIX} de répéter la même capacité!\\p"
+"La Tourmente empêche {B_ATK_NAME_WITH_PREFIX}\\nd’utiliser une capacité deux"
+" fois de\\lsuite!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:497 — {STRVAR_1 1, 0, 0} se concentre\ndavantage!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} se concentre à fond!
 #: src/battle_message.c:347
 msgid "{B_ATK_NAME_WITH_PREFIX} is tightening its focus!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} se concentre à fond!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} se concentre davantage!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:500 — {STRVAR_1 1, 0, 0} répond à\nla Provoc!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} se laisse provoquer!
 #: src/battle_message.c:348
 msgid "{B_DEF_NAME_WITH_PREFIX} fell for the taunt!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} se laisse provoquer!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} répond à la Provoc!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:613 — {STRVAR_1 1, 0, 0} ne peut pas\nutiliser {STRVAR_1 6, 1,
+#. 0} après Provoc!\r
+#. ancien (patch FR actuel) : Provoc empêche {B_ATK_NAME_WITH_PREFIX}
+#. d’utiliser {B_CURRENT_MOVE}!\p
 #: src/battle_message.c:349
 msgid "{B_ATK_NAME_WITH_PREFIX} can't use {B_CURRENT_MOVE} after the taunt!\\p"
-msgstr "Provoc empêche {B_ATK_NAME_WITH_PREFIX} d’utiliser {B_CURRENT_MOVE}!\\p"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} ne peut pas\\nutiliser {B_CURRENT_MOVE} après "
+"Provoc!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:350
 msgid "{B_ATK_NAME_WITH_PREFIX} is ready to help {B_DEF_NAME_WITH_PREFIX2}!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est prêt à aider {B_DEF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:510 — {STRVAR_1 1, 0, 0} change d’objet\navec sa cible!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} échange son objet avec
+#. la cible!
 #: src/battle_message.c:351
 msgid "{B_ATK_NAME_WITH_PREFIX} switched items with its target!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} échange son objet avec la cible!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} change d’objet avec sa cible!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:352
@@ -2445,38 +2720,57 @@ msgid "{B_ATK_NAME_WITH_PREFIX} copied {B_DEF_NAME_WITH_PREFIX2}'s Ability!"
 msgstr ""
 "{B_ATK_NAME_WITH_PREFIX} copie le talent de {B_DEF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:533 — Le Voeu du {STRVAR_1 1, 0, 0}\nse réalise!
+#. ancien (patch FR actuel) : Le vœu de {B_BUFF1} se réalise!
 #: src/battle_message.c:353
 msgid "{B_BUFF1}'s wish came true!"
-msgstr "Le vœu de {B_BUFF1} se réalise!"
+msgstr "Le Voeu du {B_BUFF1} se réalise!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:536 — {STRVAR_1 1, 0, 0} plante ses\nracines!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} plante ses\nracines!
 #: src/battle_message.c:354
 msgid "{B_ATK_NAME_WITH_PREFIX} planted its roots!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} plante ses\\nracines!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} plante ses racines!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:539 — {STRVAR_1 1, 0, 0} absorbe des\nnutriments avec ses
+#. racines!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} se nourrit par ses
+#. racines!
 #: src/battle_message.c:355
 msgid "{B_ATK_NAME_WITH_PREFIX} absorbed nutrients with its roots!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} se nourrit par ses racines!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} absorbe des nutriments avec ses racines!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:542 — {STRVAR_1 1, 0, 0} s’accroche\navec ses racines!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} plante ses racines!
 #: src/battle_message.c:356
 msgid "{B_DEF_NAME_WITH_PREFIX} anchored itself with its roots!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} plante ses racines!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} s’accroche avec ses racines!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:357
 msgid "{B_DEF_NAME_WITH_PREFIX} grew drowsy!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} somnole!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:552 — {STRVAR_1 1, 0, 0} fait tomber\n{STRVAR_1 8, 2, 0} du
+#. {STRVAR_1 1, 1, 0}!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} fait tomber
+#. {B_LAST_ITEM} de {B_DEF_NAME_WITH_PREFIX2}!
 #: src/battle_message.c:358
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX} knocked off {B_DEF_NAME_WITH_PREFIX2}'s "
 "{B_LAST_ITEM}!"
 msgstr ""
-"{B_ATK_NAME_WITH_PREFIX} fait tomber {B_LAST_ITEM} de "
+"{B_ATK_NAME_WITH_PREFIX} fait tomber {B_LAST_ITEM} du "
 "{B_DEF_NAME_WITH_PREFIX2}!"
 
 #. source : patch FR actuel
@@ -2499,27 +2793,41 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser {B_CURRENT_MOVE}!\\p"
 msgid "{B_ATK_NAME_WITH_PREFIX} wants its target to bear a grudge!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} veut que la cible lui garde rancune!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:568 — {STRVAR_1 6, 1, 0} du {STRVAR_1 1, 0, 0}\nperd ses PP à
+#. cause de la Rancune!
+#. ancien (patch FR actuel) : {B_BUFF1} de {B_ATK_NAME_WITH_PREFIX} perd tous
+#. ses PP: c’est Rancune!
 #: src/battle_message.c:363
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} lost all its PP due to the grudge!"
 msgstr ""
-"{B_BUFF1} de {B_ATK_NAME_WITH_PREFIX} perd tous ses PP: c’est Rancune!"
+"{B_BUFF1} du {B_ATK_NAME_WITH_PREFIX} perd ses PP à cause de la Rancune!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:571 — {STRVAR_1 1, 0, 0} s’entoure\ndu Reflet Magik!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} s’entoure de Reflet
+#. Magik!
 #: src/battle_message.c:364
 msgid "{B_ATK_NAME_WITH_PREFIX} shrouded itself with Magic Coat!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} s’entoure de Reflet Magik!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} s’entoure du Reflet Magik!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:365
 msgid "{B_EFF_NAME_WITH_PREFIX} bounced the {B_CURRENT_MOVE} back!"
 msgstr "{B_EFF_NAME_WITH_PREFIX} renvoie {B_CURRENT_MOVE}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:577 — {STRVAR_1 1, 0, 0} attend que son\nennemi passe à
+#. l’acte!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} attend que la cible
+#. agisse!
 #: src/battle_message.c:366
 msgid "{B_ATK_NAME_WITH_PREFIX} waits for a target to make a move!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} attend que la cible agisse!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} attend que son ennemi passe à l’acte!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:367
@@ -2527,17 +2835,22 @@ msgid "{B_DEF_NAME_WITH_PREFIX} snatched {B_SCR_NAME_WITH_PREFIX2}'s move!"
 msgstr ""
 "{B_DEF_NAME_WITH_PREFIX} vole la capacité de {B_SCR_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:619 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\nfait tomber la
+#. pluie!
+#. ancien (patch FR actuel) : {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} fait
+#. tomber la pluie!
 #: src/battle_message.c:368
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} made it rain!"
-msgstr "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} fait tomber la pluie!"
+msgstr "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} fait tomber la pluie!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:369
 msgid "{B_DEF_NAME_WITH_PREFIX} was protected by {B_DEF_ABILITY}!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} est protégé par {B_DEF_ABILITY}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:370
 msgid ""
 "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} prevents "
@@ -2546,39 +2859,68 @@ msgstr ""
 "{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} empêche "
 "{B_ATK_NAME_WITH_PREFIX2} d’utiliser {B_CURRENT_MOVE}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:635 — {STRVAR_1 1, 0, 0} restaure ses PV\ngrâce à {STRVAR_1 5,
+#. 1, 0}!
+#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX} récupère des PV grâce à
+#. {B_SCR_ABILITY}!
 #: src/battle_message.c:371
 msgid "{B_SCR_NAME_WITH_PREFIX} restored HP using its {B_SCR_ABILITY}!"
-msgstr "{B_SCR_NAME_WITH_PREFIX} récupère des PV grâce à {B_SCR_ABILITY}!"
+msgstr "{B_SCR_NAME_WITH_PREFIX} restaure ses PV grâce à {B_SCR_ABILITY}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:641 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\nle transforme
+#. en type {STRVAR_1 15, 2, 0}!
+#. ancien (patch FR actuel) : {B_EFF_ABILITY} de {B_EFF_NAME_WITH_PREFIX} le
+#. rend de type {B_BUFF1}!
 #: src/battle_message.c:372
 msgid "{B_EFF_NAME_WITH_PREFIX}'s {B_EFF_ABILITY} made it the {B_BUFF1} type!"
 msgstr ""
-"{B_EFF_ABILITY} de {B_EFF_NAME_WITH_PREFIX} le rend de type {B_BUFF1}!"
+"{B_EFF_ABILITY} du {B_EFF_NAME_WITH_PREFIX} le transforme en type {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:647 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\nempêche la
+#. romance!
+#. ancien (patch FR actuel) : {B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}
+#. empêche l’amour!
 #: src/battle_message.c:373
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} prevents romance!"
-msgstr "{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} empêche l’amour!"
+msgstr "{B_DEF_ABILITY} du {B_DEF_NAME_WITH_PREFIX} empêche la romance!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:653 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\nempêche la
+#. confusion!
+#. ancien (patch FR actuel) : {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX}
+#. empêche la confusion!
 #: src/battle_message.c:374
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} prevents confusion!"
-msgstr "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} empêche la confusion!"
+msgstr "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} empêche la confusion!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 197:656 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\naugmente sa
+#. puissance de Feu!
+#. ancien (patch FR actuel) : {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX}
+#. renforce les capacités Feu!
 #: src/battle_message.c:375
 msgid ""
 "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} raised the power of Fire-type "
 "moves!"
 msgstr ""
-"{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} renforce les capacités Feu!"
+"{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} augmente sa puissance de Feu!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:659 — {STRVAR_1 1, 0, 0} s’accroche\navec {STRVAR_1 5, 1, 0}!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} s’ancre au sol avec
+#. {B_DEF_ABILITY}!
 #: src/battle_message.c:376
 msgid "{B_DEF_NAME_WITH_PREFIX} anchors itself with {B_DEF_ABILITY}!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} s’ancre au sol avec {B_DEF_ABILITY}!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} s’accroche avec {B_DEF_ABILITY}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:377
@@ -2589,17 +2931,28 @@ msgstr ""
 "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} baisse l’ATTAQUE de "
 "{B_DEF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:669 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\nempêche la
+#. perte de stats!
+#. ancien (patch FR actuel) : {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX}
+#. protège ses stats!
 #: src/battle_message.c:378
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} prevents stat loss!"
-msgstr "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} protège ses stats!"
+msgstr ""
+"{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} empêche la perte de stats!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1099 — {STRVAR_1 1, 2, 0} est blessé par\n{STRVAR_1 5, 1, 0}
+#. du {STRVAR_1 1, 0, 0}!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} est blessé par
+#. {B_BUFF1} de {B_DEF_NAME_WITH_PREFIX2}!
 #: src/battle_message.c:379
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX} was hurt by {B_DEF_NAME_WITH_PREFIX2}'s {B_BUFF1}!"
 msgstr ""
-"{B_ATK_NAME_WITH_PREFIX} est blessé par {B_BUFF1} de "
+"{B_ATK_NAME_WITH_PREFIX} est blessé par {B_BUFF1} du "
 "{B_DEF_NAME_WITH_PREFIX2}!"
 
 #. source : patch FR actuel
@@ -2650,7 +3003,7 @@ msgid ""
 msgstr ""
 "Un…{PAUSE 10}deux…{PAUSE 10}et…{PAUSE 10}{PAUSE 20}{PLAY_SE 56 0}hop!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:391
 msgid "And…\\p"
 msgstr "Et…\\p"
@@ -2665,10 +3018,13 @@ msgstr "Ce n’est pas très efficace..."
 msgid "It's super effective!"
 msgstr "C’est super efficace!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:784 — {STRVAR_1 1, 0, 0} sauvage fuit!
+#. ancien (patch FR actuel) : {PLAY_SE 17 0}{B_BUFF1} sauvage s’enfuit!
 #: src/battle_message.c:395
 msgid "{PLAY_SE SE_FLEE}The wild {B_BUFF1} fled!"
-msgstr "{PLAY_SE 17 0}{B_BUFF1} sauvage s’enfuit!"
+msgstr "{PLAY_SE SE_FLEE}{B_BUFF1} sauvage fuit!"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Non! On ne fuit pas un combat de Dresseur!\p
@@ -2696,10 +3052,13 @@ msgstr "Mais rien ne se passe!"
 msgid "But it failed!"
 msgstr "Mais cela échoue!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:797 — Il se blesse dans sa\nconfusion.
+#. ancien (patch FR actuel) : Il se blesse dans sa confusion!
 #: src/battle_message.c:401
 msgid "It hurt itself in its confusion!"
-msgstr "Il se blesse dans sa confusion!"
+msgstr "Il se blesse dans sa confusion."
 
 #. source : SoulSilver FR officiel
 #: src/battle_message.c:402
@@ -2731,15 +3090,18 @@ msgstr "La pluie s’est arrêtée."
 msgid "A sandstorm kicked up!"
 msgstr "Une tempête de sable se lève!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
 #: src/battle_message.c:408
 msgid "The sandstorm is raging."
 msgstr "La tempête de sable fait rage."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:806 — La tempête de sable\nse calme.
+#. ancien (patch FR actuel) : La tempête de sable\nse calme.
 #: src/battle_message.c:409
 msgid "The sandstorm subsided."
-msgstr "La tempête de sable\\nse calme."
+msgstr "La tempête de sable se calme."
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Le soleil brille fort!
@@ -2809,10 +3171,13 @@ msgstr "Ceux qui ont entendu le chant seront K.O. dans 3 tours!"
 msgid "There's no PP left for this move!\\p"
 msgstr "Il n’y a plus de PP pour cette\\ncapacité!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:824 — Mais il n’y a plus de PP pour\ncette capacité!
+#. ancien (patch FR actuel) : Mais la capacité n’a plus de PP!
 #: src/battle_message.c:423
 msgid "But there was no PP left for the move!"
-msgstr "Mais la capacité n’a plus de PP!"
+msgstr "Mais il n’y a plus de PP pour cette capacité!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:424
@@ -2839,42 +3204,68 @@ msgstr "Voler, c’est mal!"
 msgid "It dodged your thrown Poké Ball! This Pokémon can't be caught!"
 msgstr "Il esquive la Poké Ball! Ce Pokémon ne peut pas être capturé!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:863 — Oh, non!\nLe Pokémon s’est libéré!
+#. ancien (patch FR actuel) : Oh non! Le Pokémon s’est libéré!
 #: src/battle_message.c:429
 msgid "Oh no! The Pokémon broke free!"
-msgstr "Oh non! Le Pokémon s’est libéré!"
+msgstr "Oh, non! Le Pokémon s’est libéré!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:864 — Raaah!\nÇa y était presque!
+#. ancien (patch FR actuel) : Raah! On y était presque!
 #: src/battle_message.c:430
 msgid "Aww! It appeared to be caught!"
-msgstr "Raah! On y était presque!"
+msgstr "Raaah! Ça y était presque!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:865 — Aaaaaah!\nPresque!
+#. ancien (patch FR actuel) : Argh! Presque!
 #: src/battle_message.c:431
 msgid "Aargh! Almost had it!"
-msgstr "Argh! Presque!"
+msgstr "Aaaaaah! Presque!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:432
 msgid "Gah! It was so close, too!"
 msgstr "Mince! C’était pourtant si près!"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:867 — {WAIT 3}Et hop!\n{STRVAR_1 1, 0, 0} est attrapé!{WAIT
+#. 2}\r
 #: src/battle_message.c:434
 msgid "Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM 659}\\p"
-msgstr ""
+msgstr "Et hop!\\n{B_DEF_NAME} est attrapé!{WAIT_SE}{PLAY_BGM 659}\\p"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:867 — {WAIT 3}Et hop!\n{STRVAR_1 1, 0, 0} est attrapé!{WAIT
+#. 2}\r
 #: src/battle_message.c:435
 msgid "Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM 659}{PAUSE 127}"
-msgstr ""
+msgstr "Et hop! {B_DEF_NAME} est attrapé!{WAIT_SE}{PLAY_BGM 659}{PAUSE 127}"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:867 — {WAIT 3}Et hop!\n{STRVAR_1 1, 0, 0} est attrapé!{WAIT
+#. 2}\r
 #: src/battle_message.c:437
 msgid "Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\\p"
-msgstr ""
+msgstr "Et hop!\\n{B_DEF_NAME} est attrapé!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\\p"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:867 — {WAIT 3}Et hop!\n{STRVAR_1 1, 0, 0} est attrapé!{WAIT
+#. 2}\r
 #: src/battle_message.c:438
 msgid ""
 "Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}"
 msgstr ""
+"Et hop! {B_DEF_NAME} est attrapé!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}"
 
 #. source : patch FR actuel
 #: src/battle_message.c:440
@@ -2892,10 +3283,13 @@ msgstr "{B_DEF_NAME} est enregistré dans le Pokédex!\\p"
 msgid "It's raining!"
 msgstr "Il pleut!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 197:873 — La tempête de sable\nfait rage.
+#. ancien (patch FR actuel) : La tempête de sable fait rage!
 #: src/battle_message.c:443
 msgid "The sandstorm is raging!"
-msgstr "La tempête de sable fait rage!"
+msgstr "La tempête de sable fait rage."
 
 #. source : patch FR actuel
 #: src/battle_message.c:444
@@ -2907,27 +3301,30 @@ msgstr "Impossible de fuir!\\p"
 msgid "{B_ATK_NAME_WITH_PREFIX} ignored orders and kept sleeping!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} ignore les ordres et dort encore!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:446
 msgid "{B_ATK_NAME_WITH_PREFIX} ignored orders!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} ignore les ordres!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:447
 msgid "{B_ATK_NAME_WITH_PREFIX} began to nap!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} fait la sieste!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:828 — {STRVAR_1 1, 0, 0} paresse!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} se la coule douce!
 #: src/battle_message.c:448
 msgid "{B_ATK_NAME_WITH_PREFIX} is loafing around!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} se la coule douce!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} paresse!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:449
 msgid "{B_ATK_NAME_WITH_PREFIX} won't obey!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} n’obéit pas!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:450
 msgid "{B_ATK_NAME_WITH_PREFIX} turned away!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} tourne le dos!"
@@ -2946,20 +3343,27 @@ msgstr ""
 "{B_TRAINER1_NAME_WITH_CLASS} va envoyer {B_BUFF2}.\\pVoulez-vous changer de "
 "Pokémon?"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:840 — {STRVAR_1 3, 0, 0} se rapproche de\n{STRVAR_1 1, 1, 0}!
+#. ancien (patch FR actuel) : {B_PLAYER_NAME} s’approche de
+#. {B_OPPONENT_MON1_NAME}!
 #: src/battle_message.c:453
 msgid "{B_PLAYER_NAME} crept closer to {B_OPPONENT_MON1_NAME}!"
-msgstr "{B_PLAYER_NAME} s’approche de {B_OPPONENT_MON1_NAME}!"
+msgstr "{B_PLAYER_NAME} se rapproche de {B_OPPONENT_MON1_NAME}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:454
 msgid "{B_PLAYER_NAME} can't get any closer!"
 msgstr "{B_PLAYER_NAME} ne peut pas\\ns’approcher plus!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:842 — {STRVAR_1 1, 0, 0} surveille\nattentivement!
+#. ancien (patch FR actuel) : {B_OPPONENT_MON1_NAME} observe attentivement!
 #: src/battle_message.c:455
 msgid "{B_OPPONENT_MON1_NAME} is watching carefully!"
-msgstr "{B_OPPONENT_MON1_NAME} observe attentivement!"
+msgstr "{B_OPPONENT_MON1_NAME} surveille attentivement!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:456
@@ -2981,16 +3385,28 @@ msgstr "{B_OPPONENT_MON1_NAME} ignore complètement le {B_BUFF1}!"
 msgid "{B_PLAYER_NAME} threw a {POKEBLOCK} at the {B_OPPONENT_MON1_NAME}!"
 msgstr "{B_PLAYER_NAME} lance un {POKEBLOCK} à {B_OPPONENT_MON1_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:847 — Annonceur: Vous n’avez plus de\nSafari
+#. Balls!\fTerminé!\r
+#. ancien (patch FR actuel) : {PLAY_SE 73 0}SPEAKER: Plus de Safari Ball!
+#. C’est terminé!\p
 #: src/battle_message.c:460
 msgid ""
 "{PLAY_SE SE_DING_DONG}ANNOUNCER: You're out of Safari Balls! Game over!\\p"
-msgstr "{PLAY_SE 73 0}SPEAKER: Plus de Safari Ball! C’est terminé!\\p"
+msgstr ""
+"{PLAY_SE SE_DING_DONG}Annonceur: Vous n’avez plus de\\nSafari "
+"Balls!\\lTerminé!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:875 — {STRVAR_1 8, 1, 0} du {STRVAR_1 1, 0, 0}\nle sort de sa
+#. paralysie!
+#. ancien (patch FR actuel) : {B_LAST_ITEM} de {B_SCR_NAME_WITH_PREFIX} soigne
+#. sa paralysie!
 #: src/battle_message.c:461
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} cured its paralysis!"
-msgstr "{B_LAST_ITEM} de {B_SCR_NAME_WITH_PREFIX} soigne sa paralysie!"
+msgstr "{B_LAST_ITEM} du {B_SCR_NAME_WITH_PREFIX} le sort de sa paralysie!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:462
@@ -3002,31 +3418,45 @@ msgstr "{B_LAST_ITEM} de {B_SCR_NAME_WITH_PREFIX} soigne le poison!"
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} cured its burn!"
 msgstr "{B_LAST_ITEM} de {B_SCR_NAME_WITH_PREFIX} soigne sa brûlure!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:884 — {STRVAR_1 8, 1, 0} du {STRVAR_1 1, 0, 0}\nle dégèle!
+#. ancien (patch FR actuel) : {B_LAST_ITEM} de {B_SCR_NAME_WITH_PREFIX} le
+#. dégèle!
 #: src/battle_message.c:464
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} defrosted it!"
-msgstr "{B_LAST_ITEM} de {B_SCR_NAME_WITH_PREFIX} le dégèle!"
+msgstr "{B_LAST_ITEM} du {B_SCR_NAME_WITH_PREFIX} le dégèle!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:465
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} woke it up!"
 msgstr "{B_LAST_ITEM} de {B_SCR_NAME_WITH_PREFIX} le réveille!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 197:890 — {STRVAR_1 8, 1, 0} du {STRVAR_1 1, 0, 0}\nle tire de sa
+#. confusion!
+#. ancien (patch FR actuel) : {B_LAST_ITEM} de {B_SCR_NAME_WITH_PREFIX}
+#. dissipe sa confusion!
 #: src/battle_message.c:466
 msgid ""
 "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} snapped it out of its confusion!"
-msgstr "{B_LAST_ITEM} de {B_SCR_NAME_WITH_PREFIX} dissipe sa confusion!"
+msgstr "{B_LAST_ITEM} du {B_SCR_NAME_WITH_PREFIX} le tire de sa confusion!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:467
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} cured its {B_BUFF1} problem!"
 msgstr "{B_LAST_ITEM} de {B_SCR_NAME_WITH_PREFIX} soigne son {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:899 — {STRVAR_1 8, 1, 0} du {STRVAR_1 1, 0, 0}\nrestaure son
+#. énergie!
+#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX} retrouve la santé grâce
+#. à {B_LAST_ITEM}!
 #: src/battle_message.c:468
 msgid "{B_SCR_NAME_WITH_PREFIX} restored its health using its {B_LAST_ITEM}!"
-msgstr "{B_SCR_NAME_WITH_PREFIX} retrouve la santé grâce à {B_LAST_ITEM}!"
+msgstr "{B_LAST_ITEM} du {B_SCR_NAME_WITH_PREFIX} restaure son énergie!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:469
@@ -3043,17 +3473,23 @@ msgid ""
 "{B_LAST_ITEM}!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} rétablit ses stats grâce à {B_LAST_ITEM}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:908 — Les PV du {STRVAR_1 1, 0, 0} sont\nun peu restaurés par
+#. {STRVAR_1 8, 1, 0}!
+#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX} récupère quelques PV
+#. grâce à {B_LAST_ITEM}!
 #: src/battle_message.c:471
 msgid "{B_SCR_NAME_WITH_PREFIX} restored a little HP using its {B_LAST_ITEM}!"
-msgstr "{B_SCR_NAME_WITH_PREFIX} récupère quelques PV grâce à {B_LAST_ITEM}!"
+msgstr ""
+"Les PV du {B_SCR_NAME_WITH_PREFIX} sont un peu restaurés par {B_LAST_ITEM}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:472
 msgid "{B_LAST_ITEM} only allows the use of {B_CURRENT_MOVE}!\\p"
 msgstr "{B_LAST_ITEM} n’autorise que {B_CURRENT_MOVE}!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:473
 msgid "{B_DEF_NAME_WITH_PREFIX} hung on using its {B_LAST_ITEM}!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} tient bon grâce à {B_LAST_ITEM}!"
@@ -3063,33 +3499,54 @@ msgstr "{B_DEF_NAME_WITH_PREFIX} tient bon grâce à {B_LAST_ITEM}!"
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY} restored its HP a little!"
 msgstr "{B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX} restaure un peu ses PV!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:695 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\nprovoque une
+#. tempête de sable!
+#. ancien (patch FR actuel) : {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} lève
+#. une tempête de sable!
 #: src/battle_message.c:476
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} whipped up a sandstorm!"
 msgstr ""
-"{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} lève une tempête de sable!"
+"{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} provoque une tempête de sable!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:704 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\nempêche
+#. {STRVAR_1 13, 2, 0} de baisser!
+#. ancien (patch FR actuel) : {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX}
+#. protège {B_BUFF1}!
 #: src/battle_message.c:477
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} prevents {B_BUFF1} loss!"
-msgstr "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} protège {B_BUFF1}!"
+msgstr ""
+"{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} empêche {B_BUFF1} de baisser!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:707 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\nrend {STRVAR_1
+#. 1, 2, 0} amoureux!
+#. ancien (patch FR actuel) : {B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}
+#. séduit {B_ATK_NAME_WITH_PREFIX2}!
 #: src/battle_message.c:478
 msgid ""
 "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} infatuated "
 "{B_ATK_NAME_WITH_PREFIX2}!"
 msgstr ""
-"{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} séduit "
-"{B_ATK_NAME_WITH_PREFIX2}!"
+"{B_DEF_ABILITY} du {B_DEF_NAME_WITH_PREFIX} rend {B_ATK_NAME_WITH_PREFIX2} "
+"amoureux!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:714 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\nrend {STRVAR_1
+#. 6, 2, 0} inefficace!
+#. ancien (patch FR actuel) : {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} rend
+#. {B_CURRENT_MOVE} inefficace!
 #: src/battle_message.c:479
 msgid ""
 "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} made {B_CURRENT_MOVE} "
 "ineffective!"
 msgstr ""
-"{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} rend {B_CURRENT_MOVE} "
+"{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} rend {B_CURRENT_MOVE} "
 "inefficace!"
 
 #. source : patch FR actuel
@@ -3103,7 +3560,7 @@ msgstr "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} soigne son {B_BUFF1}!"
 msgid "{B_ATK_NAME_WITH_PREFIX} sucked up the liquid ooze!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} aspire le Suintement!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:482
 msgid "{B_SCR_NAME_WITH_PREFIX} transformed!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} se transforme!"
@@ -3118,13 +3575,13 @@ msgstr "Les capacités Électrik sont affaiblies!"
 msgid "Fire's power was weakened!"
 msgstr "Les capacités Feu sont affaiblies!"
 
-#. source : patch FR actuel (correspondance douteuse, à vérifier)
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : SoulSilver FR officiel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:485
 msgid "{B_ATK_NAME_WITH_PREFIX} hid underwater!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} se cache sous l’eau!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:486
 msgid "{B_ATK_NAME_WITH_PREFIX} sprang up!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} bondit!"
@@ -3135,7 +3592,7 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} bondit!"
 msgid "HM moves can't be forgotten now.\\p"
 msgstr "Impossible d’oublier les capacités CS\\nmaintenant."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:488
 msgid "{B_ATK_NAME_WITH_PREFIX} found one {B_LAST_ITEM}!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} trouve {B_LAST_ITEM}!"
@@ -3169,17 +3626,27 @@ msgstr ""
 "Grâce à {B_LAST_ITEM}, {B_BUFF1} de {B_SCR_NAME_WITH_PREFIX2} "
 "{B_BUFF2}baisse!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:597 — {STRVAR_1 1, 0, 0} est plein\nd’énergie grâce à
+#. {STRVAR_1 8, 1, 0}!
+#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX} utilise {B_LAST_ITEM}
+#. et se motive!
 #: src/battle_message.c:494
 msgid "{B_SCR_NAME_WITH_PREFIX} used the {B_LAST_ITEM} to get pumped!"
-msgstr "{B_SCR_NAME_WITH_PREFIX} utilise {B_LAST_ITEM} et se motive!"
+msgstr "{B_SCR_NAME_WITH_PREFIX} est plein d’énergie grâce à {B_LAST_ITEM}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:638 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\nrend {STRVAR_1
+#. 6, 2, 0} inutile!
+#. ancien (patch FR actuel) : {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} rend
+#. {B_CURRENT_MOVE} inutile!
 #: src/battle_message.c:495
 msgid ""
 "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} made {B_CURRENT_MOVE} useless!"
 msgstr ""
-"{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} rend {B_CURRENT_MOVE} inutile!"
+"{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} rend {B_CURRENT_MOVE} inutile!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:496
@@ -3191,51 +3658,84 @@ msgstr "{B_DEF_NAME_WITH_PREFIX} est piégé par les sables mouvants!"
 msgid " a boosted"
 msgstr " un bonus de"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:698 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\nintensifie les
+#. rayons du soleil!
+#. ancien (patch FR actuel) : {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX}
+#. intensifie le soleil!
 #: src/battle_message.c:499
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} intensified the sun's rays!"
-msgstr "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} intensifie le soleil!"
+msgstr ""
+"{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} intensifie les rayons du soleil!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:500
 msgid "You throw a Ball now, right? I… I'll do my best!"
 msgstr "Tu lances une Ball? Je… Je ferai de mon mieux!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:724 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\nreçoit
+#. l’attaque!
+#. ancien (patch FR actuel) : {B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}
+#. attire le coup!
 #: src/battle_message.c:501
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} took the attack!"
-msgstr "{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} attire le coup!"
+msgstr "{B_DEF_ABILITY} du {B_DEF_NAME_WITH_PREFIX} reçoit l’attaque!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:502
 msgid "{B_ATK_NAME_WITH_PREFIX} chose Doom Desire as its destiny!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} s’en remet à Vœu Destructeur!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:600 — {STRVAR_1 1, 0, 0} est déconcentré\net ne peut pas
+#. attaquer!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} est déconcentré et
+#. n’agit pas!
 #: src/battle_message.c:503
 msgid "{B_ATK_NAME_WITH_PREFIX} lost its focus and couldn't move!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} est déconcentré et n’agit pas!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} est déconcentré et ne peut pas attaquer!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:504
 msgid "Use next Pokémon?"
 msgstr "Envoyer un autre Pokémon?"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:782 — {STRVAR_1 1, 0, 0} fuit en\nutilisant {STRVAR_1 8, 1,
+#. 0}!\r
+#. ancien (patch FR actuel) : {PLAY_SE 17 0}{B_ATK_NAME_WITH_PREFIX} fuit avec
+#. {B_LAST_ITEM}!\p
 #: src/battle_message.c:505
 msgid ""
 "{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fled using its {B_LAST_ITEM}!\\p"
-msgstr "{PLAY_SE 17 0}{B_ATK_NAME_WITH_PREFIX} fuit avec {B_LAST_ITEM}!\\p"
+msgstr ""
+"{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fuit en\\nutilisant "
+"{B_LAST_ITEM}!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:783 — {STRVAR_1 1, 0, 0} fuit en\nutilisant {STRVAR_1 5, 1,
+#. 0}!\r
+#. ancien (patch FR actuel) : {PLAY_SE 17 0}{B_ATK_NAME_WITH_PREFIX} fuit avec
+#. {B_ATK_ABILITY}!\p
 #: src/battle_message.c:506
 msgid "{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fled using {B_ATK_ABILITY}!\\p"
-msgstr "{PLAY_SE 17 0}{B_ATK_NAME_WITH_PREFIX} fuit avec {B_ATK_ABILITY}!\\p"
+msgstr ""
+"{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fuit en\\nutilisant "
+"{B_ATK_ABILITY}!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:603 — {STRVAR_1 1, 0, 0} est traîné de\nforce au combat!\r
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} est forcé au combat!\p
 #: src/battle_message.c:507
 msgid "{B_DEF_NAME_WITH_PREFIX} was dragged out!\\p"
-msgstr "{B_DEF_NAME_WITH_PREFIX} est forcé au combat!\\p"
+msgstr "{B_DEF_NAME_WITH_PREFIX} est traîné de\\nforce au combat!\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:508
@@ -3252,15 +3752,20 @@ msgstr "{B_ATK_TRAINER_NAME_WITH_CLASS} utilise {B_LAST_ITEM}!"
 msgid "The Box is full! You can't catch any more!\\p"
 msgstr "La Boîte est pleine! Capture impossible!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:511
 msgid "{B_SCR_NAME_WITH_PREFIX} avoided the attack!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} évite l’attaque!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:734 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\nle rend
+#. inefficace!
+#. ancien (patch FR actuel) : {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} la
+#. rend inefficace!
 #: src/battle_message.c:512
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} made it ineffective!"
-msgstr "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} la rend inefficace!"
+msgstr "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} le rend inefficace!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:513
@@ -3272,15 +3777,24 @@ msgstr "{B_EFF_ABILITY} de {B_EFF_NAME_WITH_PREFIX} empêche la peur!"
 msgid "{B_DEF_NAME_WITH_PREFIX} is already burned!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} est déjà brûlé!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:771 — Les stats du {STRVAR_1 1, 0, 0}\nn’iront pas plus bas!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} a ses stats au plus
+#. bas!
 #: src/battle_message.c:515
 msgid "{B_DEF_NAME_WITH_PREFIX}'s stats won't go any lower!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} a ses stats au plus bas!"
+msgstr "Les stats du {B_DEF_NAME_WITH_PREFIX} n’iront pas plus bas!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:689 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\nbloque
+#. {STRVAR_1 6, 2, 0}!
+#. ancien (patch FR actuel) : {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX}
+#. bloque {B_CURRENT_MOVE}!
 #: src/battle_message.c:516
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} blocks {B_CURRENT_MOVE}!"
-msgstr "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} bloque {B_CURRENT_MOVE}!"
+msgstr "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} bloque {B_CURRENT_MOVE}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:517
@@ -3292,10 +3806,13 @@ msgstr "{B_BUFF1} de l’équipe {B_ATK_TEAM1} finit."
 msgid "The wall shattered!"
 msgstr "Le mur vole en éclats!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:43 — {STRVAR_1 1, 0, 0} ne peut\npas fuir!\r
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} ne peut\npas fuir!
 #: src/battle_message.c:520
 msgid "{B_ATK_NAME_WITH_PREFIX} can't escape!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} ne peut\\npas fuir!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} ne peut pas fuir!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:521
@@ -3371,10 +3888,13 @@ msgstr ""
 "{B_PLAYER_MON1_NAME} et {B_OPPONENT_MON1_NAME} font match nul selon "
 "l’ARBITRE!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:955 — Voulez-vous abandonner et\nquitter le combat? {YESNO 0}
+#. ancien (patch FR actuel) : Voulez-vous abandonner le match et partir?
 #: src/battle_message.c:535
 msgid "Would you like to forfeit the match and quit now?"
-msgstr "Voulez-vous abandonner le match et partir?"
+msgstr "Voulez-vous abandonner et quitter le combat?"
 
 #. source : patch FR actuel
 #: src/battle_message.c:536
@@ -3386,11 +3906,17 @@ msgstr "Le match a été abandonné."
 msgid "{B_DEF_NAME_WITH_PREFIX} endured the hit using {B_DEF_ABILITY}!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} tient le coup grâce à {B_DEF_ABILITY}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1251 — {STRVAR_1 1, 0, 0} est complètement\nchargé grâce à
+#. {STRVAR_1 8, 1, 0}!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} est chargé à bloc grâce
+#. à {B_LAST_ITEM}!
 #: src/battle_message.c:544
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX} became fully charged due to its {B_LAST_ITEM}!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} est chargé à bloc grâce à {B_LAST_ITEM}!"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} est complètement chargé grâce à {B_LAST_ITEM}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:545
@@ -3412,30 +3938,45 @@ msgstr "{B_DEF_NAME_WITH_PREFIX} se réveille!"
 msgid "The Tailwind blew from behind {B_ATK_TEAM2} team!"
 msgstr "Vent Arrière souffle sur l’équipe {B_ATK_TEAM2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:549
 msgid "{B_ATK_NAME_WITH_PREFIX} went back to {B_ATK_TRAINER_NAME}!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} revient vers {B_ATK_TRAINER_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1135 — {STRVAR_1 1, 0, 0} ne peut plus utiliser\nd’objets!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} est privé d’objets!
 #: src/battle_message.c:550
 msgid "{B_DEF_NAME_WITH_PREFIX} can't use items anymore!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} est privé d’objets!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} ne peut plus utiliser d’objets!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1144 — {STRVAR_1 1, 0, 0} lance son objet:\n{STRVAR_1 8, 1,
+#. 0}!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} lance {B_LAST_ITEM}!
 #: src/battle_message.c:551
 msgid "{B_ATK_NAME_WITH_PREFIX} flung its {B_LAST_ITEM}!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} lance {B_LAST_ITEM}!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} lance son objet: {B_LAST_ITEM}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1051 — {STRVAR_1 1, 0, 0} ne peut pas guérir!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} ne peut plus être
+#. soigné!
 #: src/battle_message.c:552
 msgid "{B_DEF_NAME_WITH_PREFIX} was prevented from healing!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} ne peut plus être soigné!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} ne peut pas guérir!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1009 — {STRVAR_1 1, 0, 0} échange son\nAttaque et sa Défense!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} échange son ATTAQUE et
+#. sa DEFENSE!
 #: src/battle_message.c:553
 msgid "{B_ATK_NAME_WITH_PREFIX} switched its ATTACK and DEFENSE!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} échange son ATTAQUE et sa DEFENSE!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} échange son Attaque et sa Défense!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:554
@@ -3447,10 +3988,14 @@ msgstr "Le talent de {B_DEF_NAME_WITH_PREFIX} est inhibé!"
 msgid "Lucky Chant shielded {B_ATK_TEAM2} team from critical hits!"
 msgstr "Air Veinard protège l’équipe {B_ATK_TEAM2} des critiques!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1021 — {STRVAR_1 1, 0, 0} acquiert\n{STRVAR_1 5, 1, 0}!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} obtient
+#. {B_DEF_ABILITY}!
 #: src/battle_message.c:556
 msgid "{B_DEF_NAME_WITH_PREFIX} acquired {B_DEF_ABILITY}!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} obtient {B_DEF_ABILITY}!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} acquiert {B_DEF_ABILITY}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:557
@@ -3458,12 +4003,18 @@ msgid ""
 "Poison spikes were scattered on the ground all around {B_DEF_TEAM2} team!"
 msgstr "Des pics toxiques se répandent autour de l’équipe {B_DEF_TEAM2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 197:1024 — {STRVAR_1 1, 0, 0} échange les changements\nde stats
+#. avec la cible!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} échange ses stats avec
+#. sa cible!
 #: src/battle_message.c:558
 msgid "{B_ATK_NAME_WITH_PREFIX} switched stat changes with its target!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} échange ses stats avec sa cible!"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} échange les changements de stats avec la cible!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:559
 msgid "{B_ATK_NAME_WITH_PREFIX} surrounded itself with a veil of water!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} s’entoure d’un voile d’eau!"
@@ -3473,7 +4024,7 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} s’entoure d’un voile d’eau!"
 msgid "{B_ATK_NAME_WITH_PREFIX} levitated with electromagnetism!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} lévite grâce au magnétisme!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:561
 msgid "{B_ATK_NAME_WITH_PREFIX} twisted the dimensions!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} fausse les dimensions!"
@@ -3483,15 +4034,23 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} fausse les dimensions!"
 msgid "Pointed stones float in the air around {B_DEF_TEAM2} team!"
 msgstr "Des pierres pointues cernent l’équipe {B_DEF_TEAM2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1247 — {STRVAR_1 1, 0, 0} est piégé dans\nun tourbillon de
+#. feu!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} est piégé dans le
+#. magma!
 #: src/battle_message.c:563
 msgid "{B_DEF_NAME_WITH_PREFIX} became trapped by swirling magma!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} est piégé dans le magma!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} est piégé dans un tourbillon de feu!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1082 — {STRVAR_1 1, 0, 0} a disparu\ninstantanément!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} disparaît d’un coup!
 #: src/battle_message.c:564
 msgid "{B_ATK_NAME_WITH_PREFIX} vanished instantly!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} disparaît d’un coup!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} a disparu instantanément!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:565
@@ -3535,10 +4094,14 @@ msgstr "Une zone étrange annule les effets des objets tenus par les Pokémon!"
 msgid "{B_DEF_NAME_WITH_PREFIX} fell straight down!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} tombe au sol!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:178 — {STRVAR_1 1, 0, 0} prend le\ntype {STRVAR_1 15, 1, 0}!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} devient de type
+#. {B_BUFF1}!
 #: src/battle_message.c:573
 msgid "{B_DEF_NAME_WITH_PREFIX} transformed into the {B_BUFF1} type!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} devient de type {B_BUFF1}!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} prend le type {B_BUFF1}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:574
@@ -3574,10 +4137,13 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} sort de l’Embargo!"
 msgid "electromagnetism"
 msgstr "L’électromagnétisme"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1060 — {STRVAR_1 6, 1, 0} du {STRVAR_1 1, 0, 0}\nprend fin!
+#. ancien (patch FR actuel) : {B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} prend fin!
 #: src/battle_message.c:580
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} wore off!"
-msgstr "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} prend fin!"
+msgstr "{B_BUFF1} du {B_SCR_NAME_WITH_PREFIX} prend fin!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:581
@@ -3702,10 +4268,15 @@ msgstr "{B_SCR_NAME_WITH_PREFIX} dégage une aura flamboyante!"
 msgid "{B_SCR_NAME_WITH_PREFIX} is slow to get going!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} a du mal à démarrer!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1115 — {STRVAR_1 1, 0, 0} arrive enfin à\ns’y mettre
+#. sérieusement!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} se reprend enfin en
+#. main!
 #: src/battle_message.c:604
 msgid "{B_ATK_NAME_WITH_PREFIX} finally got its act together!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} se reprend enfin en main!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} arrive enfin à s’y mettre sérieusement!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:605
@@ -3783,12 +4354,12 @@ msgid ""
 "The poison spikes disappeared from the ground around {B_EFF_TEAM2} team!"
 msgstr "Les Pics Toxik autour de l’équipe {B_EFF_TEAM2} disparaissent!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:618
 msgid "{B_SCR_NAME_WITH_PREFIX} was poisoned!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} est empoisonné!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:619
 msgid "{B_SCR_NAME_WITH_PREFIX} was badly poisoned!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} est gravement empoisonné!"
@@ -3822,10 +4393,14 @@ msgstr ""
 "{B_BUFF1} de {B_ATK_NAME_WITH_PREFIX} est bloqué par {B_DEF_ABILITY} de "
 "{B_DEF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1021 — {STRVAR_1 1, 0, 0} acquiert\n{STRVAR_1 5, 1, 0}!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} obtient
+#. {B_ATK_ABILITY}!
 #: src/battle_message.c:625
 msgid "{B_ATK_NAME_WITH_PREFIX} acquired {B_ATK_ABILITY}!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} obtient {B_ATK_ABILITY}!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} acquiert {B_ATK_ABILITY}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:626
@@ -3863,17 +4438,27 @@ msgid ""
 "The effects of the {B_LAST_ITEM} prevent status moves from being used!\\p"
 msgstr "{B_LAST_ITEM} empêche d’utiliser les capacités de statut!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1001 — {STRVAR_1 1, 0, 0} ne peut pas utiliser\n{STRVAR_1 6,
+#. 1, 0} à cause de la Gravité!
+#. ancien (patch FR actuel) : La gravité empêche {B_ATK_NAME_WITH_PREFIX}
+#. d’utiliser {B_CURRENT_MOVE}!\p
 #: src/battle_message.c:631
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX} can't use {B_CURRENT_MOVE} because of gravity!\\p"
 msgstr ""
-"La gravité empêche {B_ATK_NAME_WITH_PREFIX} d’utiliser {B_CURRENT_MOVE}!\\p"
+"{B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser\\n{B_CURRENT_MOVE} à cause de "
+"la Gravité!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1051 — {STRVAR_1 1, 0, 0} ne peut pas guérir!
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} ne peut pas se
+#. soigner!\p
 #: src/battle_message.c:632
 msgid "{B_ATK_NAME_WITH_PREFIX} was prevented from healing!\\p"
-msgstr "{B_ATK_NAME_WITH_PREFIX} ne peut pas se soigner!\\p"
+msgstr "{B_ATK_NAME_WITH_PREFIX} ne peut pas guérir!\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:633
@@ -3985,10 +4570,13 @@ msgstr ""
 msgid "{B_BUFF1} type was added to {B_DEF_NAME_WITH_PREFIX2}!"
 msgstr "Le type {B_BUFF1} s’ajoute à {B_DEF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1048 — {STRVAR_1 1, 0, 0} succombe à la Ruse!
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} tombe dans le piège!
 #: src/battle_message.c:655
 msgid "{B_DEF_NAME_WITH_PREFIX} fell for the feint!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} tombe dans le piège!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} succombe à la Ruse!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:656
@@ -4258,23 +4846,32 @@ msgid ""
 msgstr ""
 "{B_ATK_NAME_WITH_PREFIX} agit plus vite que d’habitude grâce à {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 197:1157 — {STRVAR_1 1, 0, 0} augmente la précision\nde sa
+#. prochaine capacité avec\f{STRVAR_1 8, 1, 0}!
+#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX} affûte sa prochaine
+#. attaque grâce à {B_LAST_ITEM}!
 #: src/battle_message.c:706
 msgid ""
 "{B_SCR_NAME_WITH_PREFIX} boosted the accuracy of its next move using "
 "{B_LAST_ITEM}!"
 msgstr ""
-"{B_SCR_NAME_WITH_PREFIX} affûte sa prochaine attaque grâce à {B_LAST_ITEM}!"
+"{B_SCR_NAME_WITH_PREFIX} augmente la précision de sa prochaine capacité avec"
+" {B_LAST_ITEM}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:707
 msgid "{B_SCR_NAME_WITH_PREFIX} shook off the taunt!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} se libère de la Provoc!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 6:91 — {STRVAR_1 1, 0, 0} n’est plus amoureux.
+#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX} n’est plus amoureux!
 #: src/battle_message.c:708 src/battle_message.c:714
 msgid "{B_SCR_NAME_WITH_PREFIX} got over its infatuation!"
-msgstr "{B_SCR_NAME_WITH_PREFIX} n’est plus amoureux!"
+msgstr "{B_SCR_NAME_WITH_PREFIX} n’est plus amoureux."
 
 #. source : patch FR actuel
 #: src/battle_message.c:709
@@ -4411,10 +5008,14 @@ msgstr "Mais {B_ATK_NAME_WITH_PREFIX2} ne peut pas l’utiliser!"
 msgid "But {B_ATK_NAME_WITH_PREFIX2} can't use it the way it is now!"
 msgstr "Mais {B_ATK_NAME_WITH_PREFIX2} ne peut pas l’utiliser ainsi!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1243 — Ça transperce la protection du\n{STRVAR_1 1, 0, 0}!
+#. ancien (patch FR actuel) : La protection de {B_DEF_NAME_WITH_PREFIX2} est
+#. brisée!
 #: src/battle_message.c:735
 msgid "It broke through {B_DEF_NAME_WITH_PREFIX2}'s protection!"
-msgstr "La protection de {B_DEF_NAME_WITH_PREFIX2} est brisée!"
+msgstr "Ça transperce la protection du {B_DEF_NAME_WITH_PREFIX2}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:736
@@ -4426,10 +5027,13 @@ msgstr "{B_ATK_ABILITY} n’autorise que {B_CURRENT_MOVE}!\\p"
 msgid "{B_DEF_NAME_WITH_PREFIX} swapped Abilities with its target!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} échange son talent avec sa cible!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 6:83 — {STRVAR_1 1, 0, 0} n’est plus\nempoisonné.
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} n’est plus empoisonné!
 #: src/battle_message.c:738
 msgid "{B_DEF_NAME_WITH_PREFIX} was cured of its poisoning!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} n’est plus empoisonné!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} n’est plus empoisonné."
 
 #. source : patch FR actuel
 #: src/battle_message.c:739
@@ -4687,10 +5291,14 @@ msgstr "Les pierres pointues de l’équipe {B_ATK_TEAM2} disparaissent!"
 msgid "{B_DEF_NAME_WITH_PREFIX} couldn't fully protect itself and got hurt!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} n’a pas pu se protéger totalement!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:994 — Les effets cumulés du {STRVAR_1 1, 0, 0} se\ndissipent!
+#. ancien (patch FR actuel) : Le Stockage de {B_ATK_NAME_WITH_PREFIX} s’est
+#. dissipé!
 #: src/battle_message.c:783
 msgid "{B_ATK_NAME_WITH_PREFIX}'s stockpiled effect wore off!"
-msgstr "Le Stockage de {B_ATK_NAME_WITH_PREFIX} s’est dissipé!"
+msgstr "Les effets cumulés du {B_ATK_NAME_WITH_PREFIX} se dissipent!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:784
@@ -5207,17 +5815,25 @@ msgstr "{B_TRAINER1_NAME}: Reviens, {B_OPPONENT_MON1_NAME}!"
 msgid "{B_PLAYER_NAME} threw a ROCK\\nat the {B_OPPONENT_MON1_NAME}!"
 msgstr "{B_PLAYER_NAME} lance un CAILLOU\\nsur {B_OPPONENT_MON1_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:851 — {STRVAR_1 3, 0, 0} lance\nun Appât au {STRVAR_1 0, 1,
+#. 0}!
+#. ancien (patch FR actuel) : {B_PLAYER_NAME} lance un APPAT\nà
+#. {B_OPPONENT_MON1_NAME}!
 #: src/battle_message.c:882
 msgid "{B_PLAYER_NAME} threw some BAIT\\nat the {B_OPPONENT_MON1_NAME}!"
-msgstr "{B_PLAYER_NAME} lance un APPAT\\nà {B_OPPONENT_MON1_NAME}!"
+msgstr "{B_PLAYER_NAME} lance un Appât\\nau {B_OPPONENT_MON1_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:855 — {STRVAR_1 0, 0, 0} se fâche!
+#. ancien (patch FR actuel) : {B_OPPONENT_MON1_NAME} enrage!
 #: src/battle_message.c:883
 msgid "{B_OPPONENT_MON1_NAME} is angry!"
-msgstr "{B_OPPONENT_MON1_NAME} enrage!"
+msgstr "{B_OPPONENT_MON1_NAME} se fâche!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:884
 msgid "{B_OPPONENT_MON1_NAME} is eating!"
 msgstr "{B_OPPONENT_MON1_NAME} mange!"
@@ -5262,7 +5878,7 @@ msgstr "Félicitations! Votre {STR_VAR_1}\\névolue en {STR_VAR_2}!{WAIT_SE}\\p"
 msgid "Huh? {STR_VAR_1}\\nstopped evolving!\\p"
 msgstr "Hein? {STR_VAR_1}\\nn’évolue plus!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:1421
 msgid "What will\\n{B_BUFF1} do?"
 msgstr "Que doit faire\\n{B_BUFF1}?"
@@ -5320,14 +5936,19 @@ msgstr ""
 "{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 "
 "DYNAMIC_COLOR6 DYNAMIC_COLOR5}PP\\nTYPE/"
 
-#. source : relu et corrigé à la main
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:939 — Oublier quelle capacité?
+#. ancien (relu et corrigé à la main) : {PALETTE 5}{BACKGROUND
+#. DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6
+#. DYNAMIC_COLOR5}Quelle capacité\ndoit être oubliée?
 #: src/battle_message.c:1432
 msgid ""
 "{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 "
 "DYNAMIC_COLOR6 DYNAMIC_COLOR5}Which move should\\nbe forgotten?"
 msgstr ""
 "{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 "
-"DYNAMIC_COLOR6 DYNAMIC_COLOR5}Quelle capacité\\ndoit être oubliée?"
+"DYNAMIC_COLOR6 DYNAMIC_COLOR5}Oublier quelle\\ncapacité?"
 
 #. source : relu et corrigé à la main
 #: src/battle_message.c:1433
@@ -5511,68 +6132,97 @@ msgstr "Physique"
 msgid "{B_BUFF1}{CLEAR 13}Judgment{CLEAR 13}{B_BUFF2}"
 msgstr "{B_BUFF1}{CLEAR 13}Jugement{CLEAR 13}{B_BUFF2}"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:976 — {STRVAR_1 3, 0, 0} envoie\n{STRVAR_1 1, 1,
+#. 0}!\f{STRVAR_1 3, 2, 0} envoie\f{STRVAR_1 1, 3, 0}!
+#. ancien (patch FR actuel) : {B_TRAINER1_NAME_WITH_CLASS} envoie
+#. {B_OPPONENT_MON1_NAME}!\p{B_TRAINER2_NAME_WITH_CLASS} envoie
+#. {B_OPPONENT_MON2_NAME}!
 #: src/battle_message.c:1484
 msgid ""
 "{B_TRAINER1_NAME_WITH_CLASS} sent out "
 "{B_OPPONENT_MON1_NAME}!\\p{B_TRAINER2_NAME_WITH_CLASS} sent out "
 "{B_OPPONENT_MON2_NAME}!"
 msgstr ""
-"{B_TRAINER1_NAME_WITH_CLASS} envoie "
-"{B_OPPONENT_MON1_NAME}!\\p{B_TRAINER2_NAME_WITH_CLASS} envoie "
-"{B_OPPONENT_MON2_NAME}!"
+"{B_TRAINER1_NAME_WITH_CLASS} "
+"envoie\\n{B_OPPONENT_MON1_NAME}!\\l{B_TRAINER2_NAME_WITH_CLASS} "
+"envoie\\l{B_OPPONENT_MON2_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:1485
 msgid "{B_TRAINER2_NAME_WITH_CLASS} sent out {B_BUFF1}!"
 msgstr "{B_TRAINER2_NAME_WITH_CLASS} envoie {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:971 — {STRVAR_1 3, 0, 0} et {STRVAR_1 3, 1, 0}\nveulent se
+#. battre!\r
+#. ancien (patch FR actuel) : {B_TRAINER1_NAME_WITH_CLASS} et
+#. {B_TRAINER2_NAME_WITH_CLASS} veulent se battre!\p
 #: src/battle_message.c:1486
 msgid ""
 "You are challenged by {B_TRAINER1_NAME_WITH_CLASS} and "
 "{B_TRAINER2_NAME_WITH_CLASS}!\\p"
 msgstr ""
-"{B_TRAINER1_NAME_WITH_CLASS} et {B_TRAINER2_NAME_WITH_CLASS} veulent se "
+"{B_TRAINER1_NAME_WITH_CLASS} et {B_TRAINER2_NAME_WITH_CLASS}\\nveulent se "
 "battre!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:977 — {STRVAR_1 3, 0, 0} envoie\n{STRVAR_1 1, 1,
+#. 0}!\f{STRVAR_1 1, 2, 0}! Go!
+#. ancien (patch FR actuel) : {B_PARTNER_NAME_WITH_CLASS} envoie
+#. {B_PLAYER_MON2_NAME}! Va, {B_PLAYER_MON1_NAME}!
 #: src/battle_message.c:1487
 msgid ""
 "{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON2_NAME}! Go, "
 "{B_PLAYER_MON1_NAME}!"
 msgstr ""
-"{B_PARTNER_NAME_WITH_CLASS} envoie {B_PLAYER_MON2_NAME}! Va, "
-"{B_PLAYER_MON1_NAME}!"
+"{B_PARTNER_NAME_WITH_CLASS} envoie {B_PLAYER_MON2_NAME}! "
+"{B_PLAYER_MON1_NAME}! Go!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:977 — {STRVAR_1 3, 0, 0} envoie\n{STRVAR_1 1, 1,
+#. 0}!\f{STRVAR_1 1, 2, 0}! Go!
+#. ancien (patch FR actuel) : {B_PARTNER_NAME_WITH_CLASS} envoie
+#. {B_PLAYER_MON1_NAME}! Go! {B_PLAYER_MON2_NAME}!
 #: src/battle_message.c:1488
 msgid ""
 "{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON1_NAME}! Go, "
 "{B_PLAYER_MON2_NAME}!"
 msgstr ""
-"{B_PARTNER_NAME_WITH_CLASS} envoie {B_PLAYER_MON1_NAME}! Go! "
-"{B_PLAYER_MON2_NAME}!"
+"{B_PARTNER_NAME_WITH_CLASS} envoie {B_PLAYER_MON1_NAME}! "
+"{B_PLAYER_MON2_NAME}! Go!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:1489
 msgid "{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON1_NAME}!"
 msgstr "{B_PARTNER_NAME_WITH_CLASS} envoie {B_PLAYER_MON1_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/battle_message.c:1490
 msgid "{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON2_NAME}!"
 msgstr "{B_PARTNER_NAME_WITH_CLASS} envoie {B_PLAYER_MON2_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:990 — {STRVAR_1 3, 0, 0} retire\n{STRVAR_1 1, 1, 0}!
+#. ancien (patch FR actuel) : {B_PARTNER_NAME_WITH_CLASS} rappelle
+#. {B_PLAYER_MON1_NAME}!
 #: src/battle_message.c:1491
 msgid "{B_PARTNER_NAME_WITH_CLASS} withdrew {B_PLAYER_MON1_NAME}!"
-msgstr "{B_PARTNER_NAME_WITH_CLASS} rappelle {B_PLAYER_MON1_NAME}!"
+msgstr "{B_PARTNER_NAME_WITH_CLASS} retire {B_PLAYER_MON1_NAME}!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:990 — {STRVAR_1 3, 0, 0} retire\n{STRVAR_1 1, 1, 0}!
+#. ancien (patch FR actuel) : {B_PARTNER_NAME_WITH_CLASS} rappelle
+#. {B_PLAYER_MON2_NAME}!
 #: src/battle_message.c:1492
 msgid "{B_PARTNER_NAME_WITH_CLASS} withdrew {B_PLAYER_MON2_NAME}!"
-msgstr "{B_PARTNER_NAME_WITH_CLASS} rappelle {B_PLAYER_MON2_NAME}!"
+msgstr "{B_PARTNER_NAME_WITH_CLASS} retire {B_PLAYER_MON2_NAME}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:1504
@@ -5630,9 +6280,12 @@ msgid ""
 msgstr ""
 "ARBITRE: {B_PLAYER_MON1_NAME} contre {B_OPPONENT_MON1_NAME}! Combattez!"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:791 — {STRVAR_1 3, 0, 0} s’enfuit!
 #: src/battle_message.c:1515
 msgid "{PLAY_SE SE_FLEE}{B_TRAINER1_NAME_WITH_CLASS} fled!"
-msgstr ""
+msgstr "{PLAY_SE SE_FLEE}{B_TRAINER1_NAME_WITH_CLASS} s’enfuit!"
 
 #. source : patch FR actuel (récupéré par pointeur)
 #: src/battle_message.c:1516
@@ -5655,18 +6308,26 @@ msgid "{B_PLAYER_NAME}'s battle result was recorded\\non the Frontier Pass."
 msgstr ""
 "Le résultat du combat de {B_PLAYER_NAME}\\na été enregistré sur le Pass."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:970 — {STRVAR_1 3, 0, 0}\nveut se battre!\r
+#. ancien (patch FR actuel) : {B_LINK_OPPONENT1_NAME} veut se battre!\p
 #: src/battle_message.c:1520
 msgid "You are challenged by {B_LINK_OPPONENT1_NAME}!\\p"
-msgstr "{B_LINK_OPPONENT1_NAME} veut se battre!\\p"
+msgstr "{B_LINK_OPPONENT1_NAME}\\nveut se battre!\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:971 — {STRVAR_1 3, 0, 0} et {STRVAR_1 3, 1, 0}\nveulent se
+#. battre!\r
+#. ancien (patch FR actuel) : {B_LINK_OPPONENT1_NAME} et
+#. {B_LINK_OPPONENT2_NAME} veulent se battre!\p
 #: src/battle_message.c:1521
 msgid ""
 "You are challenged by {B_LINK_OPPONENT1_NAME} and "
 "{B_LINK_OPPONENT2_NAME}!\\p"
 msgstr ""
-"{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME} veulent se battre!\\p"
+"{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME}\\nveulent se battre!\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:1522
@@ -9010,23 +9671,33 @@ msgstr "ABCDEFG"
 msgid "{R_BUTTON} FLY"
 msgstr ""
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 203:3 — {STRVAR_1 3, 0, 0} se hâte vers un\nCentre Pokémon pour
+#. éviter que\nses pauvres Pokémon ne souffrent\ndavantage.
+#. ancien (patch FR actuel) : {PLAYER} court au Centre Pokémon\npour protéger
+#. ses Pokémon épuisés\net K.O. de tout danger…\p
 #: src/field_screen_effect.c:63
 msgid ""
 "{PLAYER} scurried to a POKéMON CENTER,\\nprotecting the exhausted and "
 "fainted\\nPOKéMON from further harm…\\p"
 msgstr ""
-"{PLAYER} court au Centre Pokémon\\npour protéger ses Pokémon épuisés\\net "
-"K.O. de tout danger…\\p"
+"{PLAYER} se hâte vers un\\nCentre Pokémon pour éviter que\\nses pauvres "
+"Pokémon ne souffrent\\ndavantage.\\p"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 203:4 — {STRVAR_1 3, 0, 0} se hâte vers sa\nmaison pour bénéficier
+#. au plus vite\ndes soins de Maman.
+#. ancien (patch FR actuel) : {PLAYER} rentre vite à la maison pour\nprotéger
+#. ses Pokémon épuisés et K.O.\nde tout danger…\p
 #: src/field_screen_effect.c:64
 msgid ""
 "{PLAYER} scurried back home, protecting\\nthe exhausted and fainted POKéMON "
 "from\\nfurther harm…\\p"
 msgstr ""
-"{PLAYER} rentre vite à la maison pour\\nprotéger ses Pokémon épuisés et "
-"K.O.\\nde tout danger…\\p"
+"{PLAYER} se hâte vers sa\\nmaison pour bénéficier au plus vite\\ndes soins "
+"de Maman.\\p"
 
 #. source : patch FR actuel
 #: src/field_screen_effect.c:65
@@ -9676,40 +10347,55 @@ msgstr "Rien de rien…{PAUSE_UNTIL_PRESS}"
 msgid "It got away…{PAUSE_UNTIL_PRESS}"
 msgstr "Il est reparti…{PAUSE_UNTIL_PRESS}"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:521 — {STRVAR_1 1, 0, 0} danse avec entrain.
+#. ancien (patch FR actuel) : {STR_VAR_1} danse joyeusement.
 #: src/follower_helper.c:18
 msgid "{STR_VAR_1} danced happily."
-msgstr "{STR_VAR_1} danse joyeusement."
+msgstr "{STR_VAR_1} danse avec entrain."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:520 — {STRVAR_1 1, 0, 0} danse avec grâce!
+#. ancien (patch FR actuel) : {STR_VAR_1} danse avec grâce.
 #: src/follower_helper.c:19
 msgid "{STR_VAR_1} danced beautifully."
-msgstr "{STR_VAR_1} danse avec grâce."
+msgstr "{STR_VAR_1} danse avec grâce!"
 
 #. source : patch FR actuel
 #: src/follower_helper.c:21
 msgid "{STR_VAR_1} emitted fire and shouted."
 msgstr "{STR_VAR_1} crie en lançant du feu."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:96 — {STRVAR_1 1, 0, 0} produit de vives flammes!
+#. ancien (patch FR actuel) : {STR_VAR_1} produit des flammes\navec ardeur!
 #: src/follower_helper.c:22
 msgid "{STR_VAR_1} is vigorously producing\\nfire!"
-msgstr "{STR_VAR_1} produit des flammes\\navec ardeur!"
+msgstr "{STR_VAR_1} produit de vives\\nflammes!"
 
 #. source : patch FR actuel
 #: src/follower_helper.c:23
 msgid "{STR_VAR_1} spat fire!"
 msgstr "{STR_VAR_1} crache du feu!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:358 — {STRVAR_1 1, 0, 0} produit de vives flammes!
+#. ancien (patch FR actuel) : {STR_VAR_1} souffle du feu avec\nvigueur!
 #: src/follower_helper.c:24
 msgid "{STR_VAR_1} is vigorously breathing\\nfire!"
-msgstr "{STR_VAR_1} souffle du feu avec\\nvigueur!"
+msgstr "{STR_VAR_1} produit de vives\\nflammes!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:301 — {STRVAR_1 1, 0, 0} regarde droit vers\nla Ligue Pokémon.
+#. ancien (patch FR actuel) : {STR_VAR_1} fixe intensément la\nLIGUE Pokémon.
 #: src/follower_helper.c:26
 msgid "{STR_VAR_1} is staring straight at\\nthe POKéMON LEAGUE."
-msgstr "{STR_VAR_1} fixe intensément la\\nLIGUE Pokémon."
+msgstr "{STR_VAR_1} regarde droit vers la\\nLigue Pokémon."
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Ton Pokémon fixe intensément\nle sommet de la montagne.
@@ -9717,10 +10403,13 @@ msgstr "{STR_VAR_1} fixe intensément la\\nLIGUE Pokémon."
 msgid "Your POKéMON is staring intently at\\nthe mountain peak."
 msgstr "Il fixe le sommet."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:460 — Snif! Snif!\nIl a repéré une bonne odeur!
+#. ancien (patch FR actuel) : Snif, snif! Ça sent bon par ici!
 #: src/follower_helper.c:28
 msgid "Sniff sniff, something smells good!"
-msgstr "Snif, snif! Ça sent bon par ici!"
+msgstr "Snif! Snif! Il a repéré une bonne odeur!"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Votre Pokémon passe les rayons\nen revue avec impatience.
@@ -9728,43 +10417,66 @@ msgstr "Snif, snif! Ça sent bon par ici!"
 msgid "Your POKéMON is surveying the\\nshelves restlessly."
 msgstr "Il farfouille dans les étagères."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:510 — {STRVAR_1 1, 0, 0} fixe les étagères.
+#. ancien (patch FR actuel) : {STR_VAR_1} examine attentivement\nles étagères.
 #: src/follower_helper.c:30
 msgid "{STR_VAR_1} is staring intently at\\nthe shelves."
-msgstr "{STR_VAR_1} examine attentivement\\nles étagères."
+msgstr "{STR_VAR_1} fixe les étagères."
 
-#. source : patch FR actuel (correspondance douteuse, à vérifier)
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:321 — {STRVAR_1 1, 0, 0} a le regard qui brille!
+#. ancien (patch FR actuel (correspondance douteuse, à vérifier)) :
+#. {STR_VAR_1} se concentre\nintensément!
 #: src/data/text/follower_messages.h:163 src/follower_helper.c:32
 msgid "{STR_VAR_1} focused with a sharp\\ngaze!"
-msgstr "{STR_VAR_1} se concentre\\nintensément!"
+msgstr "{STR_VAR_1} a le regard qui\\nbrille!"
 
 #. source : patch FR actuel
 #: src/follower_helper.c:33
 msgid "{STR_VAR_1} seems very interested in\\nthe bicycles."
 msgstr "{STR_VAR_1} semble fasciné\\npar les vélos."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 265:141 — {STRVAR_1 1, 0, 0} veut toucher\nla machine!
+#. ancien (patch FR actuel) : {STR_VAR_1} a l’air de vouloir\ntoucher aux
+#. machines!
 #: src/follower_helper.c:34
 msgid "{STR_VAR_1} seems to want to touch\\nthe machines!"
-msgstr "{STR_VAR_1} a l’air de vouloir\\ntoucher aux machines!"
+msgstr "{STR_VAR_1} veut toucher la\\nmachine!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:292 — {STRVAR_1 1, 0, 0} tangue avec le bateau.
+#. ancien (patch FR actuel) : {STR_VAR_1} tangue avec le\nbateau!
 #: src/follower_helper.c:35
 msgid "{STR_VAR_1} is swaying with the\\nboat!"
-msgstr "{STR_VAR_1} tangue avec le\\nbateau!"
+msgstr "{STR_VAR_1} tangue avec le\\nbateau."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:347 — {STRVAR_1 1, 0, 0} sautille au rythme du\ntangage du
+#. bateau.
+#. ancien (patch FR actuel) : {STR_VAR_1} danse au rythme du\nroulis du
+#. navire.
 #: src/follower_helper.c:36
 msgid "{STR_VAR_1} is dancing along with\\nthe rolling of the ship."
-msgstr "{STR_VAR_1} danse au rythme du\\nroulis du navire."
+msgstr "{STR_VAR_1} sautille au rythme\\ndu tangage du bateau."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:307 — {STRVAR_1 1, 0, 0} n’a pas encore l’air de\nvouloir
+#. descendre du bateau.
+#. ancien (patch FR actuel) : {STR_VAR_1} ne veut pas encore\ndescendre du
+#. bateau!
 #: src/follower_helper.c:37
 msgid "{STR_VAR_1} doesn't want to get off\\nthe boat yet!"
-msgstr "{STR_VAR_1} ne veut pas encore\\ndescendre du bateau!"
+msgstr "{STR_VAR_1} n’a pas encore l’air de\\nvouloir descendre du bateau."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
 #: src/follower_helper.c:39
 msgid "{STR_VAR_1} is listening to the\\nsound of the machines."
 msgstr "{STR_VAR_1} écoute le bruit des\\nmachines."
@@ -9781,25 +10493,36 @@ msgstr "Ah! Il vous arrose!"
 msgid "Your POKéMON is blowing sand in the\\nair!"
 msgstr "Il joue dans le sable!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:157 — {STRVAR_1 1, 0, 0} s’amuse à gratter les\nherbes.
+#. ancien (patch FR actuel) : {STR_VAR_1} s’amuse à arracher\ndes brins
+#. d’herbe.
 #: src/follower_helper.c:43
 msgid "{STR_VAR_1} is playing around,\\nplucking bits of grass."
-msgstr "{STR_VAR_1} s’amuse à arracher\\ndes brins d’herbe."
+msgstr "{STR_VAR_1} s’amuse à gratter\\nles herbes."
 
 #. source : patch FR actuel
 #: src/follower_helper.c:44
 msgid "Your POKéMON is happily looking at\\nyour footprints!"
 msgstr "Votre Pokémon observe vos\\ntraces de pas, ravi!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:750 — {STRVAR_1 1, 0, 0} est à l’étroit et a peur.
+#. ancien (patch FR actuel) : {STR_VAR_1} a l’air nerveux et un\npeu
+#. claustrophobe.
 #: src/follower_helper.c:45
 msgid "{STR_VAR_1} is feeling nervous and a\\ntouch claustrophobic."
-msgstr "{STR_VAR_1} a l’air nerveux et un\\npeu claustrophobe."
+msgstr "{STR_VAR_1} est à l’étroit et a peur."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:213 — {STRVAR_1 1, 0, 0} est à l’étroit et se met\nen alerte!
+#. ancien (patch FR actuel) : {STR_VAR_1} se méfie de cet\nendroit exigu!
 #: src/follower_helper.c:46
 msgid "{STR_VAR_1} is cautious about the\\nconfined area!"
-msgstr "{STR_VAR_1} se méfie de cet\\nendroit exigu!"
+msgstr "{STR_VAR_1} est à l’étroit et se\\nmet en alerte!"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Un vent glacial souffle soudain!
@@ -9807,11 +10530,13 @@ msgstr "{STR_VAR_1} se méfie de cet\\nendroit exigu!"
 msgid "A cold wind suddenly blew by!"
 msgstr "Le vent s’est rafraîchi!"
 
-#. source : patch FR actuel
-#. SoulSilver (approché) : Il glisse et va tomber!
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 265:456 — Il glisse et va tomber!
+#. ancien (patch FR actuel) : Votre Pokémon a failli glisser et\ntomber!
 #: src/follower_helper.c:49
 msgid "Your POKéMON almost slipped and fell\\nover!"
-msgstr "Votre Pokémon a failli glisser et\\ntomber!"
+msgstr "Il glisse et va tomber!"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Votre Pokémon semble surpris au\ncontact de la glace.
@@ -9825,35 +10550,49 @@ msgstr "Il est surpris en touchant la glace!"
 msgid "Your POKéMON has a flower petal on\\nits face!"
 msgstr "Il a des pétales sur la frimousse!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:230 — {STRVAR_1 1, 0, 0} gémit faiblement...
+#. ancien (patch FR actuel) : {STR_VAR_1} grogne doucement.
 #: src/follower_helper.c:53
 msgid "{STR_VAR_1} is growling softly."
-msgstr "{STR_VAR_1} grogne doucement."
+msgstr "{STR_VAR_1} gémit faiblement…"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/follower_helper.c:54
 msgid "{STR_VAR_1} is trembling with fear."
 msgstr "{STR_VAR_1} tremble de peur."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:703 — {STRVAR_1 1, 0, 0} a l’air triste...
+#. ancien (patch FR actuel) : {STR_VAR_1} a l’air un peu triste…
 #: src/follower_helper.c:55
 msgid "{STR_VAR_1} seems somehow sad…"
-msgstr "{STR_VAR_1} a l’air un peu triste…"
+msgstr "{STR_VAR_1} a l’air triste…"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:371 — {STRVAR_1 1, 0, 0} se met à l’abri dans les\nhautes
+#. herbes.
+#. ancien (patch FR actuel) : {STR_VAR_1} s’abrite de la pluie\ndans les
+#. hautes herbes.
 #: src/data/text/follower_messages.h:127 src/follower_helper.c:57
 msgid "{STR_VAR_1} is taking shelter in the\\ngrass from the rain."
-msgstr "{STR_VAR_1} s’abrite de la pluie\\ndans les hautes herbes."
+msgstr "{STR_VAR_1} se met à l’abri dans les\\nhautes herbes."
 
 #. source : patch FR actuel
 #: src/follower_helper.c:58
 msgid "{STR_VAR_1} seems very cold."
 msgstr "{STR_VAR_1} a très froid."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:113 — {STRVAR_1 1, 0, 0} fixe la mer.
+#. ancien (patch FR actuel) : {STR_VAR_1} contemple la mer.
 #: src/follower_helper.c:59
 msgid "{STR_VAR_1} is staring at the sea."
-msgstr "{STR_VAR_1} contemple la mer."
+msgstr "{STR_VAR_1} fixe la mer."
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Votre Pokémon fixe intensément\nla mer!
@@ -9866,45 +10605,71 @@ msgstr "Il fixe la mer!"
 msgid "{STR_VAR_1} is looking at the\\nsurging sea."
 msgstr "{STR_VAR_1} regarde la mer\\ndéchaînée."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:222 — {STRVAR_1 1, 0, 0} écoute le bruit de la\ncascade.
+#. ancien (patch FR actuel) : {STR_VAR_1} écoute le bruit de la\ncascade.
 #: src/follower_helper.c:63
 msgid "{STR_VAR_1} is listening to the\\nsound of the waterfall."
-msgstr "{STR_VAR_1} écoute le bruit de la\\ncascade."
+msgstr "{STR_VAR_1} écoute le bruit de\\nla cascade."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:92 — {STRVAR_1 1, 0, 0} a l’air d’aimer la pluie!
+#. ancien (patch FR actuel) : {STR_VAR_1} a l’air ravi\nde la pluie!
 #: src/follower_helper.c:64
 msgid "{STR_VAR_1} seems to be happy about\\nthe rain!"
-msgstr "{STR_VAR_1} a l’air ravi\\nde la pluie!"
+msgstr "{STR_VAR_1} a l’air d’aimer la pluie!"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 265:416 — {STRVAR_1 1, 0, 0} regarde son reflet\ndans l’eau...
+#. ancien (patch FR actuel) : {STR_VAR_1} contemple son reflet\ndans l’eau.
 #: src/follower_helper.c:65
 msgid "{STR_VAR_1} is staring at its\\nreflection in the water."
-msgstr "{STR_VAR_1} contemple son reflet\\ndans l’eau."
+msgstr "{STR_VAR_1} regarde son\\nreflet dans l’eau…"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:280 — {STRVAR_1 1, 0, 0} se détend en entendant
+#. le\nbruissement des feuilles...
+#. ancien (patch FR actuel) : {STR_VAR_1} se détend en écoutant\nles feuilles
+#. bruisser…
 #: src/follower_helper.c:66
 msgid "{STR_VAR_1} seems to relax as it\\nhears the sound of rustling leaves…"
-msgstr "{STR_VAR_1} se détend en écoutant\\nles feuilles bruisser…"
+msgstr "{STR_VAR_1} se détend en entendant\\nle bruissement des feuilles…"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:173 — {STRVAR_1 1, 0, 0} gratte la glace.
+#. ancien (patch FR actuel) : {STR_VAR_1} mordille la glace.
 #: src/follower_helper.c:67
 msgid "{STR_VAR_1} is gnawing at the ice."
-msgstr "{STR_VAR_1} mordille la glace."
+msgstr "{STR_VAR_1} gratte la glace."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:172 — {STRVAR_1 1, 0, 0} tripote la glace.
+#. ancien (patch FR actuel) : {STR_VAR_1} touche la glace.
 #: src/follower_helper.c:68
 msgid "{STR_VAR_1} is touching the ice."
-msgstr "{STR_VAR_1} touche la glace."
+msgstr "{STR_VAR_1} tripote la glace."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:328 — {STRVAR_1 1, 0, 0} souffre de sa brûlure.
+#. ancien (patch FR actuel) : {STR_VAR_1} souffre de brûlure!
 #: src/follower_helper.c:70
 msgid "{STR_VAR_1}'s burn looks painful!"
-msgstr "{STR_VAR_1} souffre de brûlure!"
+msgstr "{STR_VAR_1} souffre de sa brûlure."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 265:215 — {STRVAR_1 1, 0, 0} regarde dehors, la mine\nréjouie.
+#. ancien (patch FR actuel) : {STR_VAR_1} est ravi d’être\ndehors!
 #: src/follower_helper.c:71
 msgid "{STR_VAR_1} is happy to see what's\\noutdoors!"
-msgstr "{STR_VAR_1} est ravi d’être\\ndehors!"
+msgstr "{STR_VAR_1} regarde dehors, la\\nmine réjouie."
 
 #. source : patch FR actuel
 #: src/follower_helper.c:72
@@ -16118,10 +16883,13 @@ msgstr "{STR_VAR_1}:\\nen jeter combien?"
 msgid "Threw away {STR_VAR_2}\\n{STR_VAR_1}."
 msgstr "{STR_VAR_1}:\\njeté {STR_VAR_2}."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 10:55 — {STRVAR_1 8, 0, 0}:\nen jeter {STRVAR_1 52, 1, 0}?
+#. ancien (patch FR actuel) : {STR_VAR_1}:\nen jeter {STR_VAR_2}?
 #: src/strings.c:174
 msgid "Is it okay to\\nthrow away {STR_VAR_2}\\n{STR_VAR_1}?"
-msgstr "{STR_VAR_1}:\\nen jeter {STR_VAR_2}?"
+msgstr "{STR_VAR_1}: en jeter\\n{STR_VAR_2}?"
 
 #. source : patch FR actuel
 #: src/strings.c:176
@@ -16670,10 +17438,15 @@ msgstr "Les PP de {STR_VAR_1}\\naugmentent.{PAUSE_UNTIL_PRESS}"
 msgid "{STR_VAR_1} was elevated to\\nLv. {STR_VAR_2}."
 msgstr "{STR_VAR_1} monte au N. {STR_VAR_2}."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 197:1 — {STRVAR_1 1, 0, 0} a gagné\n{STRVAR_1 54, 1, 0} points
+#. Exp.!\r
+#. ancien (patch FR actuel) : {STR_VAR_1} gagne {STR_VAR_2} points
+#. d’Exp.!{PAUSE_UNTIL_PRESS}
 #: src/strings.c:321
 msgid "{STR_VAR_1} gained {STR_VAR_2} Exp. Points!{PAUSE_UNTIL_PRESS}"
-msgstr "{STR_VAR_1} gagne {STR_VAR_2} points d’Exp.!{PAUSE_UNTIL_PRESS}"
+msgstr "{STR_VAR_1} a gagné {STR_VAR_2} points Exp.!{PAUSE_UNTIL_PRESS}"
 
 #. source : patch FR actuel
 #: src/strings.c:322
@@ -17901,17 +18674,21 @@ msgstr "Votre profil "
 msgid "Your feeling at the battle's start"
 msgstr "Votre sentiment avant le combat?"
 
-#. source : patch FR actuel
-#. SoulSilver (approché) : Que dites-vous quand vous gagnez?
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 283:2 — Que dites-vous quand vous gagnez?
+#. ancien (patch FR actuel) : Ce que vous dites si vous gagnez 
 #: src/strings.c:643
 msgid "What you say if you win a battle"
-msgstr "Ce que vous dites si vous gagnez "
+msgstr "Que dites-vous quand vous gagnez?"
 
-#. source : patch FR actuel
-#. SoulSilver (approché) : Que dites-vous quand vous perdez?
+#. source : SoulSilver FR officiel (adapté)
+#. lot : B_soulsilver
+#. preuve : 283:3 — Que dites-vous quand vous perdez?
+#. ancien (patch FR actuel) : Ce que vous dites si vous perdez 
 #: src/strings.c:644
 msgid "What you say if you lose a battle"
-msgstr "Ce que vous dites si vous perdez "
+msgstr "Que dites-vous quand vous perdez?"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:645
@@ -18053,10 +18830,13 @@ msgstr "Le texte modifié sera perdu."
 msgid "Is that okay?"
 msgstr "?"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 233:2 — Entrez une expression ou un mot.
+#. ancien (patch FR actuel) : Entrez un mot ou une phrase.
 #: src/strings.c:675
 msgid "Please enter a phrase or word."
-msgstr "Entrez un mot ou une phrase."
+msgstr "Entrez une expression ou un mot."
 
 #. source : patch FR actuel
 #: src/strings.c:676
@@ -18423,10 +19203,15 @@ msgstr "troisième prix"
 msgid "{STR_VAR_1} fainted…\\p\\n"
 msgstr "{STR_VAR_1} est K.O…\\p\\n"
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 40:53 — {STRVAR_1 1, 0, 0} a survécu au poison.\nLe poison s’est
+#. dissipé!\r
+#. ancien (patch FR actuel) : {STR_VAR_1} a survécu au poison.\nIl n’est plus
+#. empoisonné!\p
 #: src/strings.c:751 src/strings.c:753
 msgid "{STR_VAR_1} survived the poisoning.\\nThe poison faded away!\\p"
-msgstr "{STR_VAR_1} a survécu au poison.\\nIl n’est plus empoisonné!\\p"
+msgstr "{STR_VAR_1} a survécu au poison.\\nLe poison s’est dissipé!\\p"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/battle_frontier_trainers.h:261 src/strings.c:754
@@ -19490,7 +20275,7 @@ msgstr "Ciao, {STR_VAR_2}!"
 msgid "{STR_VAR_1} sent over {STR_VAR_3}."
 msgstr "{STR_VAR_1} a envoyé {STR_VAR_3}."
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/strings.c:1072
 msgid "Take good care of {STR_VAR_3}!"
 msgstr "Prends bien soin de {STR_VAR_3}!"
@@ -21781,7 +22566,7 @@ msgstr "Quantin"
 msgid "NIA & CARL"
 msgstr ""
 
-#. source : patch FR actuel
+#. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:5914
 #: src/data/pokemon/species_info/gen_1_families.h:12252
 #: src/data/pokemon/species_info/gen_1_families.h:12411
@@ -22475,29 +23260,44 @@ msgstr ""
 msgid "Restore Stats"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:215 — Brac. Macho
 #: src/battle_debug.c:2188
 msgid "Macho Brace"
-msgstr ""
+msgstr "Brac. Macho"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:216 — Multi Exp
 #: src/battle_debug.c:2189
 msgid "Exp Share"
-msgstr ""
+msgstr "Multi Exp"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:217 — Vive Griffe
 #: src/battle_debug.c:2190
 msgid "Quick Claw"
-msgstr ""
+msgstr "Vive Griffe"
 
 #: src/battle_debug.c:2191
 msgid "Friendship Up"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:219 — Herbe Mental
 #: src/battle_debug.c:2192
 msgid "Mental Herb"
-msgstr ""
+msgstr "Herbe Mental"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:220 — Band. Choix
 #: src/battle_debug.c:2193
 msgid "Choice Band"
-msgstr ""
+msgstr "Band. Choix"
 
 #: src/battle_debug.c:2194
 msgid "Flinch"
@@ -22507,13 +23307,19 @@ msgstr ""
 msgid "Double Prize"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:79 — Repousse
 #: src/battle_debug.c:2196
 msgid "Repel"
-msgstr ""
+msgstr "Repousse"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:225 — Rosée Ame
 #: src/battle_debug.c:2197
 msgid "Soul Dew"
-msgstr ""
+msgstr "Rosée Ame"
 
 #: src/battle_debug.c:2198
 msgid "Deep Sea Tooth"
@@ -22531,157 +23337,259 @@ msgstr ""
 msgid "Prevent Evolve"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:230 — Bandeau
 #: src/battle_debug.c:2202
 msgid "Focus Band"
-msgstr ""
+msgstr "Bandeau"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:231 — Oeuf Chance
 #: src/battle_debug.c:2203
 msgid "Lucky Egg"
-msgstr ""
+msgstr "Oeuf Chance"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:232 — Lentilscope
 #: src/battle_debug.c:2204
 msgid "Scope Lens"
-msgstr ""
+msgstr "Lentilscope"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:236 — Ballelumière
 #: src/battle_debug.c:2206
 msgid "Light Ball"
-msgstr ""
+msgstr "Ballelumière"
 
 #: src/battle_debug.c:2207
 msgid "Type Power"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:253 — Grelot Coque
 #: src/battle_debug.c:2208
 msgid "Shell Bell"
-msgstr ""
+msgstr "Grelot Coque"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:256 — Poing Chance
 #: src/battle_debug.c:2209
 msgid "Lucky Punch"
-msgstr ""
+msgstr "Poing Chance"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:257 — Poudre Métal
 #: src/battle_debug.c:2210
 msgid "Metal Powder"
-msgstr ""
+msgstr "Poudre Métal"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:258 — Masse Os
 #: src/battle_debug.c:2211
 msgid "Thick Club"
-msgstr ""
+msgstr "Masse Os"
 
 #: src/battle_debug.c:2212
 msgid "Leek"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:287 — Mouch. Choix
 #: src/battle_debug.c:2213
 msgid "Choice Scarf"
-msgstr ""
+msgstr "Mouch. Choix"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:285 — Roche Humide
 #: src/battle_debug.c:2215
 msgid "Damp Rock"
-msgstr ""
+msgstr "Roche Humide"
 
 #: src/battle_debug.c:2216
 msgid "Grip Claw"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:284 — Roche Chaude
 #: src/battle_debug.c:2217
 msgid "Heat Rock"
-msgstr ""
+msgstr "Roche Chaude"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:282 — Roche Glace
 #: src/battle_debug.c:2218
 msgid "Icy Rock"
-msgstr ""
+msgstr "Roche Glace"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:269 — Lumargile
 #: src/battle_debug.c:2219
 msgid "Light Clay"
-msgstr ""
+msgstr "Lumargile"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:283 — Roche Lisse
 #: src/battle_debug.c:2220
 msgid "Smooth Rock"
-msgstr ""
+msgstr "Roche Lisse"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:271 — Herbe Pouv.
 #: src/battle_debug.c:2221
 msgid "Power Herb"
-msgstr ""
+msgstr "Herbe Pouv."
 
 #: src/battle_debug.c:2222
 msgid "Big Root"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:268 — Ceinture Pro
 #: src/battle_debug.c:2223
 msgid "Expert Belt"
-msgstr ""
+msgstr "Ceinture Pro"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:270 — Orbe Vie
 #: src/battle_debug.c:2224
 msgid "Life Orb"
-msgstr ""
+msgstr "Orbe Vie"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:277 — Métronome
 #: src/battle_debug.c:2225
 msgid "Metronome"
-msgstr ""
+msgstr "Métronome"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:266 — Band. Muscle
 #: src/battle_debug.c:2226
 msgid "Muscle Band"
-msgstr ""
+msgstr "Band. Muscle"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:265 — Loupe
 #: src/battle_debug.c:2227
 msgid "Wide Lens"
-msgstr ""
+msgstr "Loupe"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:276 — Lentil. Zoom
 #: src/battle_debug.c:2229
 msgid "Zoom Lens"
-msgstr ""
+msgstr "Lentil. Zoom"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:279 — Ralentiqueue
 #: src/battle_debug.c:2230
 msgid "Lagging Tail"
-msgstr ""
+msgstr "Ralentiqueue"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:275 — Ceint. Force
 #: src/battle_debug.c:2231
 msgid "Focus Sash"
-msgstr ""
+msgstr "Ceint. Force"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:273 — Orbe Flamme
 #: src/battle_debug.c:2232
 msgid "Flame Orb"
-msgstr ""
+msgstr "Orbe Flamme"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:272 — Orbe Toxique
 #: src/battle_debug.c:2233
 msgid "Toxic Orb"
-msgstr ""
+msgstr "Orbe Toxique"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:288 — Piquants
 #: src/battle_debug.c:2234
 msgid "Sticky Barb"
-msgstr ""
+msgstr "Piquants"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:281 — Boue Noire
 #: src/battle_debug.c:2236
 msgid "Black Sludge"
-msgstr ""
+msgstr "Boue Noire"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:280 — Noeud Destin
 #: src/battle_debug.c:2237
 msgid "Destiny Knot"
-msgstr ""
+msgstr "Noeud Destin"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:295 — Carapace Mue
 #: src/battle_debug.c:2238
 msgid "Shed Shell"
-msgstr ""
+msgstr "Carapace Mue"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:274 — Poudre Vite
 #: src/battle_debug.c:2239
 msgid "Quick Powder"
-msgstr ""
+msgstr "Poudre Vite"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:135 — Orbe Adamant
 #: src/battle_debug.c:2240
 msgid "Adamant Orb"
-msgstr ""
+msgstr "Orbe Adamant"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:136 — Orbe Perlé
 #: src/battle_debug.c:2241
 msgid "Lustrous Orb"
-msgstr ""
+msgstr "Orbe Perlé"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:112 — Orbe Platiné
 #: src/battle_debug.c:2242
 msgid "Griseous Orb"
-msgstr ""
+msgstr "Orbe Platiné"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:208 — Baie Enigma
 #: src/battle_debug.c:2243
 msgid "Enigma Berry"
-msgstr ""
+msgstr "Baie Enigma"
 
 #: src/battle_debug.c:2244
 msgid "Resist Berry"
@@ -22695,21 +23603,33 @@ msgstr ""
 msgid "Restore Pct Hp"
 msgstr ""
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:209 — Baie Micle
 #: src/battle_debug.c:2247
 msgid "Micle Berry"
-msgstr ""
+msgstr "Baie Micle"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:210 — Baie Chérim
 #: src/battle_debug.c:2248
 msgid "Custap Berry"
-msgstr ""
+msgstr "Baie Chérim"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:211 — Baie Jaboca
 #: src/battle_debug.c:2249
 msgid "Jaboca Berry"
-msgstr ""
+msgstr "Baie Jaboca"
 
+#. source : SoulSilver FR officiel
+#. lot : B_soulsilver
+#. preuve : 222:212 — Baie Pommo
 #: src/battle_debug.c:2250
 msgid "Rowap Berry"
-msgstr ""
+msgstr "Baie Pommo"
 
 #: src/battle_debug.c:2251
 msgid "Kee Berry"

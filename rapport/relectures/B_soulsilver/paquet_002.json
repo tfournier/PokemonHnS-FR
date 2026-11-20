@@ -1,0 +1,572 @@
+[
+ {
+  "id": 0,
+  "categorie": "contresens",
+  "probleme": "Le texte demande de faire le tour, alors que l’anglais indique le côté gauche du panneau.",
+  "correction": "Conseils aux Dresseurs!\\pRegardez! Juste là,\\nsur le côté gauche du panneau.",
+  "justification": "L’anglais indique où regarder, pas quel chemin prendre.",
+  "msgid": "TRAINER TIPS\\pLook! Right there, at the left\\nside of the post.",
+  "msgstr": "Conseils aux Dresseurs!\\pIci! Là!\\nFaites le tour, puis à gauche!",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "Le séjour des Pokémon dans l’antre est présenté comme un fait.",
+  "correction": "Autel Dragon\\pEn l’honneur des Pokémon de type\\nDragon qui auraient vécu ici.",
+  "justification": "Le conditionnel restitue « said to have lived ».",
+  "msgid": "DRAGON SHRINE\\pA shrine honoring the dragon\\nPOKéMON\\psaid to have lived in DRAGON'S\\nDEN.",
+  "msgstr": "Autel Dragon\\pEn l’honneur des Pokémon de type\\nDragon ayant vécu dans cet antre.",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "terminologie",
+  "probleme": "Le même sanctuaire est appelé « Autel Dragon » sur le panneau et « Temple » dans cette réplique.",
+  "correction": "L’Autel Dragon est la demeure de\\nnotre maître, chef du clan des\\lDracologues.\\pTu ne peux pas entrer ici\\ncomme bon te semble!",
+  "justification": "« Autel Dragon » reprend le nom de SoulSilver FR fourni à l’entrée 2. « Dracologues » désigne les membres du clan.",
+  "msgid": "The SHRINE ahead is home to the\\nMASTER of our dragon-user clan.\\pYou're not allowed to just go in!",
+  "msgstr": "Le Temple est la demeure de notre\\nmaître, chef du clan des dragons.\\pTu n’as pas le droit d’entrer ici comme\\nbon te semble!",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "contresens",
+  "probleme": "« Le rendre fier » remplace l’objectif d’obtenir l’approbation du maître.",
+  "correction": "Je vais bientôt avoir l’accord du\\nmaître pour utiliser des dragons.\\pJe pourrai alors devenir un\\nDracologue digne de son estime.",
+  "justification": "« Gain our MASTER’s approval » exprime le souhait de gagner l’estime du maître.",
+  "msgid": "Soon I'm going to get permission\\nfrom our MASTER to use dragons.\\pWhen I do, I'm going to become an\\nadmirable dragon trainer and gain\\lour MASTER's approval.",
+  "msgstr": "Je vais bientôt avoir l’accord du\\nmaître pour utiliser des dragons.\\pEt alors, je pourrai devenir un grand\\nDracologue pour le rendre fier.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "contresens",
+  "probleme": "« De ta vie » élargit la question aux projets de vie de Giovanni.",
+  "correction": "{RIVAL}: Tu avais dit…\\nque tu étais le plus fort\\ldu monde!\\pEt maintenant, t’abandonnes?!\\pTu vas faire quoi, alors?",
+  "justification": "Le Rival demande ce que Giovanni compte faire maintenant.",
+  "msgid": "{RIVAL}: You told me...\\nyou were the number one in the whole\\lworld!\\pAre you gonna quit?\\pWhat are you going to do now?",
+  "msgstr": "{RIVAL}: Tu avais dit…\\nTu avais dit que tu étais le plus fort\\ldu monde!\\pEt maintenant t’abandonnes?!\\pTu vas faire quoi de ta vie, alors!",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "oubli",
+  "probleme": "La dernière phrase omet le retour de Giovanni lui-même et le fait que son interlocuteur en sera témoin.",
+  "correction": "Giovanni: Une organisation, cela\\ncombine toutes sortes d’énergies\\lpour créer une force irrésistible…\\lVoilà sa force.\\pJe n’ai pas su tirer le meilleur\\nparti du potentiel de mes hommes…!\\pUn jour, tu verras mon retour\\net celui de la Team Rocket!",
+  "justification": "Giovanni annonce son retour et celui de son organisation à la personne à qui il parle.",
+  "msgid": "GIOVANNI: Putting together the\\npotential of many is how you\\lproduce a huge power...\\lThat's what an organization is...\\lThat's the strength of organization\\pI failed... to make the best use of\\nmy subordinates' potential...!\\pBut you shall witness one day the\\nrevival of me and my TEAM ROCKET!",
+  "msgstr": "Giovanni: Une organisation, cela\\ncombine toutes sortes d’énergies\\lpour créer une force irrésistible…\\pJe n’ai pas été capable de libérer\\ntoute l’énergie de mes hommes…!\\pJe jure qu’un jour, je ressusciterai la\\nTeam Rocket!",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "oubli",
+  "probleme": "L’avantage de l’Appât Ball sur les Pokémon ferrés et la comparaison avec l’Hyper Ball ont disparu.",
+  "correction": "L’Appât Ball de Fargas est idéale\\npour les Pokémon ferrés.\\pElle est bien plus efficace\\nqu’une Hyper Ball.",
+  "justification": "La réplique explique dans quel cas cette Ball est particulièrement efficace.",
+  "msgid": "KURT's LURE BALL is the best for\\ncatching hooked POKéMON.\\pIt's much more effective than a\\nULTRA BALL.",
+  "msgstr": "Nous autres, Pêcheurs, utilisons\\nsurtout des Appât Balls!\\pOn en demande tout le temps à Fargas!",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "contresens",
+  "probleme": "SUICUNE cherche un Dresseur à qui se confier, alors que la traduction parle de maîtriser sa puissance.",
+  "correction": "Tiens! Regarde!\\nSUICUNE t’attend!\\lIl veut se battre contre un\\lDresseur digne de sa confiance,\\là qui il pourra se confier!",
+  "justification": "« Entrust itself » traduit la confiance que SUICUNE peut accorder au Dresseur.",
+  "msgid": "Take a look at it!\\pSUICUNE is waiting for you!\\nIt has been waiting for a battle\\lwith a worthy trainer to whom it\\lcan entrust itself.",
+  "msgstr": "Tiens! Regarde!\\nSUICUNE t’attend!\\lIl veut se battre contre un Dresseur\\lassez fort pour maîtriser toute\\lsa puissance!",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "oubli",
+  "probleme": "Le compliment adressé aux deux combattants devient un commentaire impersonnel et le caractère inédit du combat disparaît.",
+  "correction": "{PLAYER}…\\nVous êtes vraiment incroyables…\\pJe n’ai jamais vu de combat\\naussi intense!\\lJe n’ai aucun regret…\\pAdieu, SUICUNE!\\nAdieu… {PLAYER}!",
+  "justification": "Eusine félicite le joueur et SUICUNE et affirme n’avoir jamais vu de combat aussi intense.",
+  "msgid": "{PLAYER}...\\nYou two are truly amazing...\\pI have never seen a battle this\\nintense!\\lI have no regrets...\\pFarewell, SUICUNE!\\nFarewell... {PLAYER}!",
+  "msgstr": "{PLAYER}…\\nC’était incroyable…\\pAprès avoir vu un tel combat,\\nje n’ai plus aucun regret…\\pAdieu, SUICUNE!\\nAdieu… {PLAYER}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "oubli",
+  "probleme": "La capacité qui permet de remonter les cascades et l’obéissance sans discussion ne sont pas explicitées.",
+  "correction": "Ce Badge permet à tes Pokémon\\nd’utiliser Cascade pour remonter\\lles cascades…\\pD’autre part, tous les Pokémon te\\nreconnaîtront comme leur Dresseur\\let t’obéiront sans discuter…",
+  "justification": "Le Badge débloque l’usage de la capacité Cascade. « Without question » précise que les Pokémon obéiront sans discuter.",
+  "msgid": "RISINGBADGE will enable your\\nPOKéMON to use the move for\\lclimbing waterfalls.\\pAlso, all POKéMON will recognize\\nyou as a trainer and obey your\\levery command without question.",
+  "msgstr": "Ce Badge permet à tes Pokémon de\\nremonter le cours de n’importe quelle\\lcascade…\\pD’autre part, tous les Pokémon te\\nreconnaîtront à présent comme leur\\lDresseur et obéiront à tes ordres…",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "contresens",
+  "probleme": "La possibilité générale de combattre remplace une consigne à suivre lors d’une rencontre.",
+  "correction": "Si un Pokémon sauvage apparaît,\\nlaisse ton Pokémon le combattre!",
+  "justification": "L’anglais demande de faire intervenir son Pokémon quand un Pokémon sauvage apparaît.",
+  "msgid": "If a wild POKéMON appears,\\nlet your POKéMON battle it!",
+  "msgstr": "Avec ton propre Pokémon, tu peux\\ncombattre les Pokémon sauvages!",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "terminologie",
+  "probleme": "« Professeur Orme » est écrit en toutes lettres.",
+  "correction": "{PLAYER} donne l’Oeuf Mystère\\nau Prof. Orme!",
+  "justification": "La convention SoulSilver FR fournie fixe la graphie « Prof. Orme ».",
+  "msgid": "{PLAYER} handed the MYSTERY EGG\\nto PROF.ELM.",
+  "msgstr": "{PLAYER} donne l’Oeuf Mystère\\nau Professeur Orme!",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "oubli",
+  "probleme": "L’annonce n’indique plus que la Master Ball est la meilleure des Balls.",
+  "correction": "La Master Ball est la meilleure!\\pElle attrape n’importe quel\\nPokémon à tous les coups.\\pOn ne la donne qu’aux chercheurs\\nPokémon reconnus…\\pMais je pense que tu sauras\\nmieux l’utiliser que moi,\\l{PLAYER}!",
+  "justification": "Le texte anglais présente la Master Ball comme la Ball ultime et réserve sa remise aux chercheurs dont le travail est reconnu.",
+  "msgid": "The MASTER BALL is the best!\\pIt's the ultimate BALL! It'll\\ncatch any POKéMON without fail.\\pIt's given only to recognized\\nPOKéMON researchers.\\pI think you can make much better\\nuse of it than I can, {PLAYER}!",
+  "msgstr": "C’est une Master Ball!!!\\pElle attrape n’importe quel Pokémon\\nà tous les coups.\\pOn ne la donne qu’aux grands\\nchercheurs Pokémon…\\pMais je suis sûr que tu l’utiliseras\\nmieux que moi.\\l{PLAYER}! Je te l’offre!",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "oubli",
+  "probleme": "« Elles » remplace la mention explicite des Kimono.",
+  "correction": "Orme: Les Kimono t’attendent\\nà la salle de danse de Rosalia!",
+  "justification": "L’anglais nomme les personnes qui attendent le joueur. « Kimono » est la graphie du lexique fourni.",
+  "msgid": "PROF.ELM: The KIMONO\\nGIRLS are waiting for you at\\lthe ECRUTEAK DANCE THEATER.",
+  "msgstr": "Orme: Elles t’attendent à la salle de\\ndanse de Rosalia, ont-elles dit!",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "contresens",
+  "probleme": "La traduction exprime un refus ou un choc et perd la déception.",
+  "correction": "Oh…\\nQuelle déception…",
+  "justification": "« That’s so disappointing » exprime explicitement la déception.",
+  "msgid": "Oh…\\nThat's so disappointing…",
+  "msgstr": "… Ah!! Non!!",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "typographie",
+  "probleme": "La formule d’accueil occupe deux lignes alors qu’une seule est autorisée.",
+  "correction": "Bienvenue au C.C. de Doublonville!",
+  "justification": "L’abréviation conserve la formule d’accueil et le lieu sur une ligne.",
+  "msgid": "Welcome to GOLDENROD DEPT.STORE.",
+  "msgstr": "Bienvenue au Centre Commercial\\nde Doublonville!",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "oubli",
+  "probleme": "Frédo dit avoir souffert, mais ne dit plus avoir beaucoup vu.",
+  "correction": "Les Pokémon vivent beaucoup\\nd’aventures au cours de leur vie,\\lcomme nous.\\pMoi aussi, j’en ai vu et j’ai\\nbeaucoup souffert.\\pComme je suis plus vieux que toi,\\nje veux te montrer ce que je sais.\\pJe vis avec les Pokémon depuis\\nbien avant ta naissance!\\pJe ne me laisse pas vaincre\\nfacilement.\\pMoi, Frédo, le Dresseur du froid,\\nje vais te montrer de quoi je\\lsuis capable!",
+  "justification": "Frédo évoque à la fois ce qu’il a vu et ce qu’il a souffert, puis propose une démonstration.",
+  "msgid": "POKéMON have many experiences\\nin their lives, just like we do.\\pI, too, have seen and suffered\\nmuch in my life.\\pSince I am your elder, let me\\nshow you what I mean.\\pI have been with POKéMON since\\nbefore you were born.\\pI do not lose easily.\\pI, PRYCE--the winter trainer--\\nshall demonstrate my power!",
+  "msgstr": "Les Pokémon vivent beaucoup\\nd’aventures au cours de leur vie,\\lcomme nous.\\pMoi aussi, j’ai beaucoup souffert\\ndans ma vie.\\pComme je suis plus vieux que toi, je\\npeux partager mon expérience.\\pJe vis avec les Pokémon depuis bien\\navant ta naissance!\\pJe ne me laisse pas vaincre\\nfacilement.\\pMoi, Frédo, le Dresseur du froid, je\\nvais te montrer de quoi je suis\\lcapable!",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "contresens",
+  "probleme": "« Un tempérament comme le tien » ne rend pas la force de volonté.",
+  "correction": "Ah, je suis très impressionné\\npar ta prouesse.\\pAvec ta force de volonté,\\ntu surmonteras tous les\\lobstacles de la vie.\\pTu mérites ce Badge!",
+  "justification": "Frédo attribue la réussite future du joueur à sa détermination.",
+  "msgid": "Ah, I am impressed by your\\nprowess.\\pWith your strong will, I know you\\nwill overcome all life's obstacles.\\pYou are worthy of this BADGE!",
+  "msgstr": "Ah, je suis très impressionné\\npar ta prouesse.\\pAvec un tempérament comme le\\ntien, tu surmonteras tous les\\lobstacles de la vie.\\pTu mérites ce Badge!",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "contresens",
+  "probleme": "« Patiner » remplace la pratique d’un sport de glisse sur une planche.",
+  "correction": "Cette Arène est d’enfer. J’adore\\nfaire du snowboard avec\\lmes Pokémon!",
+  "justification": "Dans cette Arène de Glace, « boarding » désigne la glisse sur une planche.",
+  "msgid": "This GYM is great.\\nI love boarding with my\\lPOKéMON!",
+  "msgstr": "Cette Arène est d’enfer. J’adore\\npatiner avec mes Pokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "oubli",
+  "probleme": "La réplique ne mentionne plus le talent du joueur.",
+  "correction": "Avec ton talent, tu vas\\ncartonner à la Ligue!\\pC’est ce que me dit\\nmon pressentiment.",
+  "justification": "Le talent du joueur motive le pronostic, que le personnage attribue à son pressentiment.",
+  "msgid": "With your skills, you'll do well at\\nthe LEAGUE.\\pThat's what my premonition says.",
+  "msgstr": "Tu vas cartonner à la Ligue, c’est sûr!\\nJe le sais.\\lJe le sens.",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "oubli",
+  "probleme": "Le mouvement de balancement disparaît et la traduction dépasse la contrainte d’une ligne.",
+  "correction": "…Balance-toi comme les feuilles…",
+  "justification": "L’impératif restitue le mouvement sur une seule ligne.",
+  "msgid": "…Sway like leaves in the wind…",
+  "msgstr": "Comme une feuille d’arbre\\nsecouée par le vent…!",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "contresens",
+  "probleme": "La traduction ajoute que LUGIA dort et le situe dans la cascade elle-même.",
+  "correction": "Kimono: C’est exact… C’est ici que\\nnous allons accueillir LUGIA.\\pQuand le Glas Tempête que nous\\nt’avons confié entrera en résonance\\lavec cette danse, que nous avons\\lrépétée pendant des jours,\\palors LUGIA resurgira du bassin\\nau pied de la cascade!",
+  "justification": "L’anglais annonce que LUGIA ressortira du bassin de la cascade et ne mentionne aucun sommeil.",
+  "msgid": "KIMONO GIRL: That's right.\\nThis is where we welcome LUGIA.\\pWhen the dance we practiced many\\ndays becomes one with the sound of the\\lTidal Bell we entrusted to you, then\\lLUGIA shall come out from deep within\\lthe waterfall basin once again. ",
+  "msgstr": "Kimono: C’est exact… C’est ici que\\nnous allons accueillir LUGIA.\\pQuand le Glas Tempête que nous\\nt’avons confié entrera en résonance\\lavec cette danse, que nous avons\\lrépétée chaque jour pour ce moment,\\palors LUGIA, qui dort dans la cascade,\\nréapparaîtra à nos yeux! ",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "contresens",
+  "probleme": "Les contrôles deviennent des devoirs et « trop concentré » présente la concentration comme excessive.",
+  "correction": "J’ai tellement de contrôles que\\nj’ai peu de temps à consacrer\\laux Pokémon.\\pAlors, quand je peux jouer,\\nje me concentre à fond.",
+  "justification": "Le personnage explique qu’il se concentre pleinement quand il peut jouer.",
+  "msgid": "I have to take so many\\ntests, I don't have much\\ltime for POKéMON.\\pSo when I do get to play,\\nI really concentrate.",
+  "msgstr": "J’passe trop de temps à faire mes\\ndevoirs et pas assez avec les\\lPokémon.\\pDès que je fais un combat, je suis\\ntrop concentré.",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "contresens",
+  "probleme": "La mise en garde vise des Pokémon affaiblis et mal préparés, alors que le français évoque des Pokémon fatigués ou incapables de se battre.",
+  "correction": "Salut!\\nComment vont tes Pokémon?\\pS’ils sont faibles et mal\\npréparés au combat, évite\\lles hautes herbes!",
+  "justification": "« Weak and not ready » associe deux conditions sans suggérer que les Pokémon sont hors combat.",
+  "msgid": "Yo. How are your POKéMON?\\pIf they're weak and not ready\\nfor battle, keep out of the grass.",
+  "msgstr": "Salut!\\nComment vont tes Pokémon?\\pS’ils sont fatigués ou qu’ils ne\\npeuvent plus se battre, évite de\\lmarcher dans l’herbe!",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "contresens",
+  "probleme": "« Tu tiens la forme » évoque la condition physique. La traduction occupe aussi deux lignes.",
+  "correction": "Ha ha! T’as du répondant!",
+  "justification": "« Feisty » décrit un tempérament combatif. La correction tient sur une ligne.",
+  "msgid": "Wahahah! You're a feisty one!",
+  "msgstr": "Ha, ha, ha!\\nTu tiens la forme, toi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "contresens",
+  "probleme": "Le repos remplace la joie intense.",
+  "correction": "Seul avec mes Pokémon.\\nJe suis fou de joie!",
+  "justification": "« Delirious with joy » exprime une joie débordante.",
+  "msgid": "Just me and my POKéMON. I'm de-\\nlirious with joy.",
+  "msgstr": "Seul avec mes Pokémon.\\nQuel repos!",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "contresens",
+  "probleme": "Le personnage ne parle plus de rassembler ses résultats et présente sa célébrité comme certaine.",
+  "correction": "Je devrais rassembler et publier\\nles résultats de mon étude.\\pJe pourrais même devenir aussi\\ncélèbre que le Prof. Orme!",
+  "justification": "« Should compile » exprime un projet de compilation et « might » une possibilité. « Prof. Orme » suit la convention fournie.",
+  "msgid": "I should compile and announce my\\nstudy findings.\\pI might even become famous like\\nPROF.ELM.",
+  "msgstr": "Je vais révéler mes recherches au\\nmonde.\\pJe serai aussi célèbre que le\\nProfesseur Orme!",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "orthographe",
+  "probleme": "L’incise « bien sûr » doit être encadrée de virgules.",
+  "correction": "Je n’aime pas les attaques trop\\npuissantes.\\pJe veux gagner, bien sûr, mais\\nje ne veux blesser aucun Pokémon.",
+  "justification": "Les virgules délimitent l’incise. La dernière proposition restitue le refus de blesser un Pokémon.",
+  "msgid": "I'm not in favor of overly\\npowerful moves.\\pI want to win, but I also don't\\nwant to harm POKéMON.",
+  "msgstr": "Je n’aime pas les attaques trop\\npuissantes.\\pJe veux gagner bien sûr, mais pas au\\npoint de vouloir blesser un Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "contresens",
+  "probleme": "« Extrême » ajoute un degré d’urgence absent de l’anglais.",
+  "correction": "Ma Potionsecret est légèrement\\ntrop forte. Je ne l’offre qu’en\\lcas d’urgence.",
+  "justification": "« In an emergency » signifie « en cas d’urgence ».",
+  "msgid": "My SECRET POTION is a tad too\\nstrong, so I only offer it in an\\lemergency.",
+  "msgstr": "Ma Potionsecret est légèrement\\ntrop forte. Je ne l’offre qu’en\\lcas d’extrême urgence.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "terminologie",
+  "probleme": "« Professeur Chen » est écrit en toutes lettres.",
+  "correction": "Lula: Et n’oublie pas d’écouter\\nmon émission avec le Prof. Chen!",
+  "justification": "La convention SoulSilver FR fournie fixe la graphie « Prof. Chen ».",
+  "msgid": "MARY: Please tune into me on PROF.\\nOAK'S POKéMON TALK show!",
+  "msgstr": "Lula: Et n’oublie pas d’écouter mon\\némission avec le Professeur Chen!",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "oubli",
+  "probleme": "Le personnage ne constate plus sa défaite et la traduction occupe deux lignes.",
+  "correction": "J’le crois pas! J’ai perdu!",
+  "justification": "La correction rétablit le constat de défaite et tient sur une ligne.",
+  "msgid": "I don't believe it! I was beaten!",
+  "msgstr": "Je…\\nJ’le crois pas!",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’accent aigu sur la capitale initiale d’« Ébènelle ».",
+  "correction": "Lundi, Lucie\\nChenal 40\\pMardi, Marie\\nRoute 29\\pMercredi, Homer\\nLac Colère\\pJeudi, Jérôme\\nRoute 36\\pVendredi, Vanessa\\nRoute 32\\pSamedi, Samuel\\nÉbènelle\\pDimanche, Dimitri\\nRoute 37",
+  "justification": "L’accent se conserve sur la majuscule initiale.",
+  "msgid": "Monday, MONICA\\nROUTE 40\\pTuesday, TUSCANY\\nROUTE 29\\pWednesday, WESLEY\\nLAKE OF RAGE\\pThursday, ARTHUR\\nROUTE 36\\pFriday, FRIEDA\\nROUTE 32\\pSaturday, SANTOS\\nBLACKTHORN CITY\\pSunday, SUNNY\\nROUTE 37",
+  "msgstr": "Lundi, Lucie\\nChenal 40\\pMardi, Marie\\nRoute 29\\pMercredi, Homer\\nLac Colère\\pJeudi, Jérôme\\nRoute 36\\pVendredi, Vanessa\\nRoute 32\\pSamedi, Samuel\\nEbènelle\\pDimanche, Dimitri\\nRoute 37",
+  "msgctxt": ""
+ },
+ {
+  "id": 59,
+  "categorie": "contresens",
+  "probleme": "La recommandation du Prof. Chen devient une supposition sur l’intention du joueur.",
+  "correction": "Chen: Eh bien?\\nTu ne collectionnes pas les\\lBadges des Arènes de Kanto?\\pLes Champions d’Arène de Kanto\\nn’ont rien à envier à ceux de\\lJohto, tu sais!\\pJe te conseille de les défier.",
+  "justification": "« I recommend that you challenge them » est un conseil explicite.",
+  "msgid": "OAK: Hmm? You're not collecting\\nKANTO GYM BADGES?\\pThe GYM LEADERS in KANTO are as\\ntough as any you battled in JOHTO.\\pI recommend that you challenge them.",
+  "msgstr": "Chen: Eh bien?\\nTu ne collectionnes pas les Badges\\ldes Arènes de Kanto?\\pLes Champions d’Arène de Kanto n’ont\\nrien à envier à ceux de Johto, tu sais!\\pTu veux aller les défier, j’imagine?",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "contresens",
+  "probleme": "« Je n’ai aucun regret » remplace l’abattement du perdant et « précieux » remplace « rare ».",
+  "correction": "Je… je suis anéanti…\\pJe manque encore\\nd’entraînement…\\pMais j’ai perdu.\\nJe reconnais ma défaite.\\pPour preuve de ta victoire,\\nje t’offre un Pokémon rare\\lde type Combat.",
+  "justification": "Le Dresseur est accablé par sa défaite, la reconnaît et offre un Pokémon rare.",
+  "msgid": "I... I'm crushed...\\pMy training is still not\\nenough...\\pBut a loss is a loss.\\nI admit it.\\pAs proof that you defeated me,\\nI'll give you a rare fighting\\lPOKéMON.",
+  "msgstr": "Je n’ai… aucun regret…\\nJe manque encore d’entraînement!\\pMon ego en a pris un coup, mais je\\nreconnais fièrement ma défaite!\\pToi! Reçois mon précieux Pokémon de\\nCombat comme preuve de ta victoire!",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "contresens",
+  "probleme": "La fidélité nécessaire pour gagner devient une confiance suffisante pour suivre le joueur.",
+  "correction": "Hi, hi, hi, hi…\\nOù vas-tu avec tes Pokémon?\\pÀ la Ligue Pokémon…?\\nTe sont-ils assez fidèles\\lpour que tu puisses gagner?\\pOn va voir…",
+  "justification": "La question porte sur la fidélité des Pokémon et les chances de victoire du joueur.",
+  "msgid": "Where are you off to with\\nPOKéMON?\\pPOKéMON LEAGUE?\\pAre your POKéMON loyal enough for\\nyou to win?\\pLet me see…",
+  "msgstr": "Hi, hi, hi, hi…\\nOù vas-tu avec ce Pokémon?\\pLa Ligue Pokémon…?\\nMais celui-là, te fait-il assez\\lconfiance pour te suivre?\\pOn va voir…",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "contresens",
+  "probleme": "La tournure avec « on » efface le point de vue d’une personne qui parle des enfants.",
+  "correction": "Quand il fait beau, je pense que\\nles enfants préfèrent jouer dans\\lla cour qu’étudier en classe.",
+  "justification": "Le personnage formule une observation sur ce que les enfants préféreraient faire.",
+  "msgid": "On sunny days, I think that the\\nkids would rather be playing in the\\lschoolyard than studying in class.",
+  "msgstr": "Dur dur de travailler en classe quand\\nil fait beau. On préférerait s’amuser\\ldans la cour…",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "contresens",
+  "probleme": "« En force » remplace le savoir-faire de Dresseur.",
+  "correction": "En tant que Dresseur, il me\\nsemble que tu me surpasses\\len technique et en gentillesse.\\p… Alors, comme le veut la Ligue,\\nvoici mon Badge!",
+  "justification": "« Skill » désigne ici la maîtrise du combat. La comparaison se fait avec Jasmine.",
+  "msgid": "…You are a better trainer than me,\\nin both skill and kindness.\\pIn accordance with LEAGUE rules,\\nI confer upon you this BADGE.",
+  "msgstr": "En tant que Dresseur, il me\\nsemble que c’est toi qui domines\\len force et en gentillesse.\\p… Alors, comme le veut la Ligue, voici\\nmon Badge!",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "contresens",
+  "probleme": "« En force » remplace le savoir-faire de Dresseur.",
+  "correction": "En tant que Dresseur, il me\\nsemble que tu me surpasses\\len technique et en gentillesse.",
+  "justification": "« Skill » désigne ici la maîtrise du combat. La comparaison se fait avec Jasmine.",
+  "msgid": "…You are a better trainer than me,\\nin both skill and kindness.",
+  "msgstr": "En tant que Dresseur, il me\\nsemble que c’est toi qui domines\\len force et en gentillesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "oubli",
+  "probleme": "La traduction rend certaine une conclusion que l’anglais présente comme une observation.",
+  "correction": "Les Pokémon peuvent tenir des\\nobjets, comme une Potion ou\\lun Antidote.\\pMais ils ne semblent pas savoir\\nse servir des objets fabriqués\\lpar les humains.",
+  "justification": "« Don’t appear to know » appelle une formulation prudente. La Potion et l’Antidote illustrent d’abord les objets que les Pokémon peuvent tenir.",
+  "msgid": "POKéMON can hold items like\\nPOTION and ANTIDOTE.\\pBut they don't appear to know\\nhow to use man-made items.",
+  "msgstr": "Les Pokémon peuvent tenir des\\nobjets, mais ils ne savent pas se\\lservir de ceux créés par les humains,\\lcomme une Potion ou un Antidote.",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "terminologie",
+  "probleme": "« Professeur Chen » est écrit en toutes lettres.",
+  "correction": "{RIVAL} reçoit {STR_VAR_1}\\nde la part du Prof. Chen!",
+  "justification": "La convention SoulSilver FR fournie fixe la graphie « Prof. Chen ».",
+  "msgid": "{RIVAL} received the {STR_VAR_1}\\nfrom PROF. OAK!",
+  "msgstr": "{RIVAL} reçoit {STR_VAR_1}\\nde la part du Professeur Chen!",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "terminologie",
+  "probleme": "« Professeur Chen » est écrit en toutes lettres.",
+  "correction": "{PLAYER} reçoit {STR_VAR_1}\\nde la part du Prof. Chen!",
+  "justification": "La convention SoulSilver FR fournie fixe la graphie « Prof. Chen ».",
+  "msgid": "{PLAYER} received the {STR_VAR_1}\\nfrom PROF. OAK!",
+  "msgstr": "{PLAYER} reçoit {STR_VAR_1}\\nde la part du Professeur Chen!",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "terminologie",
+  "probleme": "« Professeur Chen » est écrit en toutes lettres.",
+  "correction": "{PLAYER} reçoit un Pokédex de\\nla part du Prof. Chen!",
+  "justification": "La convention SoulSilver FR fournie fixe la graphie « Prof. Chen ».",
+  "msgid": "{PLAYER} received the POKéDEX\\nfrom PROF. OAK.",
+  "msgstr": "{PLAYER} reçoit un Pokédex de\\nla part du Professeur Chen!",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "oubli",
+  "probleme": "Le texte ne précise plus que les Safari Balls sont remises par le préposé.",
+  "correction": "{PLAYER} reçoit 30 Safari Balls\\nde la part du préposé!",
+  "justification": "« From the attendant » identifie la personne qui remet les Balls.",
+  "msgid": "{PLAYER} received 30 SAFARI BALLS\\nfrom the attendant.",
+  "msgstr": "{PLAYER} reçoit\\n30 Safari Balls!",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "terminologie",
+  "probleme": "Le mot de passe comporte un S de trop et le texte ne précise plus quelle salle il ouvre.",
+  "correction": "Mot de passe de la salle du chef:\\nQUEUERAMOLOS.\\pMais ça te sert à rien sans\\nl’autre mot de passe.",
+  "justification": "Le lexique fourni fixe la graphie « Queueramolos ». L’anglais précise que le mot de passe ouvre la salle du chef.",
+  "msgid": "The password to the boss' room\\nis SLOWPOKETAIL.\\pBut it's useless unless you have\\ntwo passwords.",
+  "msgstr": "Le mot de passe est…\\nQUEUERAMOLOSS.\\pMais ça te sert à rien sans l’autre\\nmot de passe.",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "contresens",
+  "probleme": "Les pleurs deviennent une crise de nerfs et la traduction occupe deux lignes.",
+  "correction": "Ah, ça fait du bien de pleurer!",
+  "justification": "« A good cry » désigne des pleurs qui soulagent. La correction tient sur une ligne.",
+  "msgid": "Ah, that was a good cry!",
+  "msgstr": "Ça fait du bien de se taper une\\ncrise de nerfs!",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "contresens",
+  "probleme": "« Ne plus attaquer » peut suggérer une incapacité durable.",
+  "correction": "{B_EFF_NAME_WITH_PREFIX} est paralysé! Il risque d’être immobilisé!",
+  "justification": "Le message annonce une immobilisation possible due à la paralysie.",
+  "msgid": "{B_EFF_NAME_WITH_PREFIX} is paralyzed, so it may be unable to move!",
+  "msgstr": "{B_EFF_NAME_WITH_PREFIX} est paralysé! Il peut ne plus attaquer!",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "contresens",
+  "probleme": "« Ne plus attaquer » peut suggérer une incapacité durable.",
+  "correction": "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} paralyse {B_EFF_NAME_WITH_PREFIX2}! Il risque d’être immobilisé!",
+  "justification": "Le message annonce une immobilisation possible due à la paralysie.",
+  "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} paralyzed {B_EFF_NAME_WITH_PREFIX2}, so it may be unable to move!",
+  "msgstr": "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} paralyse {B_EFF_NAME_WITH_PREFIX2}! Il peut ne plus attaquer!",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "contresens",
+  "probleme": "« Sa puissance de Feu » ne désigne pas explicitement la puissance des capacités de type Feu.",
+  "correction": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} renforce les capacités de type Feu!",
+  "justification": "Le bonus porte sur les capacités d’un type précis.",
+  "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} raised the power of Fire-type moves!",
+  "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} augmente sa puissance de Feu!",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "contresens",
+  "probleme": "Les machines deviennent une seule machine et l’intention supposée devient certaine.",
+  "correction": "{STR_VAR_1} a l’air de vouloir\\ntoucher les machines!",
+  "justification": "« Seems to want » indique une impression et « machines » est au pluriel.",
+  "msgid": "{STR_VAR_1} seems to want to touch\\nthe machines!",
+  "msgstr": "{STR_VAR_1} veut toucher la\\nmachine!",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "contresens",
+  "probleme": "Le bruit de plusieurs machines devient le bruit d’une seule.",
+  "correction": "{STR_VAR_1} écoute le bruit\\ndes machines.",
+  "justification": "« The machines » est au pluriel.",
+  "msgid": "{STR_VAR_1} is listening to the\\nsound of the machines.",
+  "msgstr": "{STR_VAR_1} écoute le bruit de\\nla machine.",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "contresens",
+  "probleme": "La traduction annonce une chute imminente, alors que l’anglais décrit une chute évitée de justesse.",
+  "correction": "Il a failli glisser et tomber!",
+  "justification": "« Almost slipped and fell » décrit ce qui a failli se produire.",
+  "msgid": "Your POKéMON almost slipped and fell\\nover!",
+  "msgstr": "Il glisse et va tomber!",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "contresens",
+  "probleme": "« Dommage » remplace une excuse adressée à l’interlocuteur.",
+  "correction": "Oups! Pardon, je dois faire\\nautre chose.\\lUne autre fois, OK?\\p",
+  "justification": "« Sorry » marque une excuse avant de remettre l’échange à plus tard.",
+  "msgid": "Whoops! Sorry, but I have to do\\nsomething else.\\lAnother time, okay?\\p",
+  "msgstr": "Oups! Dommage, j’ai autre\\nchose à faire.\\lUne autre fois, OK?\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "contresens",
+  "probleme": "« Toujours » ajoute une habitude alors que le personnage explique son geste actuel.",
+  "correction": "Je te montre juste ma Carte de\\nDresseur pour te saluer.\\p",
+  "justification": "« Just » introduit une explication du geste en cours.",
+  "msgid": "I'm just showing my TRAINER CARD\\nas my way of greeting.\\p",
+  "msgstr": "Je montre toujours ma Carte de\\nDresseur pour me présenter.\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "typographie",
+  "probleme": "Il manque la virgule avant l’incise « on dirait ».",
+  "correction": "Il aime le beau temps, on dirait!",
+  "justification": "La virgule détache le commentaire final de la proposition principale.",
+  "msgid": "Your POKéMON seems happy about the\\ngreat weather.",
+  "msgstr": "Il aime le beau temps on dirait!",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "oubli",
+  "probleme": "La traduction omet à la fois l’impression et le degré de surprise.",
+  "correction": "{STR_VAR_1} a l’air très surpris\\npar la pluie!",
+  "justification": "« Seems to be very surprised » exprime une forte surprise apparente.",
+  "msgid": "{STR_VAR_1} seems to be very\\nsurprised that it is raining!",
+  "msgstr": "{STR_VAR_1} est surpris par\\nla pluie!",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "contresens",
+  "probleme": "Les cavités ne sont plus horizontales et une morsure devient un déchiquetage.",
+  "correction": "Il niche dans des trous couchés,\\nchauffés par géothermie. Il\\nbondit sur les intrus qui\\ns’approchent trop et les mord.",
+  "justification": "La description précise l’orientation des cavités et indique que le Pokémon bondit sur ses adversaires pour les mordre.",
+  "msgid": "It nests in horizontal holes warmed by\\ngeothermal heat. Foes who stray too\\nclose can expect to be pounced on\\nand bitten.",
+  "msgstr": "Il niche dans des cavités chauffées\\npar géothermie, dont il bondit pour\\ndéchiqueter tout intrus.",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "contresens",
+  "probleme": "Le texte présente « avatar du croissant de lune » comme un surnom.",
+  "correction": "Dormir avec une de ses plumes à\\nla main assure de beaux rêves.\\nOn dit qu’il représente\\nle croissant de lune.",
+  "justification": "« It is said to represent » rapporte une association symbolique.",
+  "msgid": "Those who sleep holding one of\\nCresselia's feathers are assured of\\njoyful dreams. It is said to represent\\nthe crescent moon.",
+  "msgstr": "Dormir avec une de ses plumes à la\\nmain permet de faire de beaux rêves.\\nOn le surnomme “avatar du croissant\\nde lune”.",
+  "msgctxt": ""
+ }
+]
