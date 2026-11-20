@@ -1,0 +1,2623 @@
+[
+ {
+  "msgid": "Want to give a nickname to\\nthe {STR_VAR_2} you received?",
+  "msgstr": "Voulez-vous donner un surnom au\\n{STR_VAR_2} obtenu?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/event_scripts.s",
+  "ligne": 1499,
+  "ancien": "Voulez-vous donner un surnom au\\n{STR_VAR_2} reçu?",
+  "preuve": "543:8 — Voulez-vous donner un surnom au\\n{STRVAR_1 0, 1, 0} obtenu? {YESNO 0}",
+  "note": "Texte SS 543:8, variable convertie, {YESNO} supprimé ; même sens (HnS « Want to give… » = HGSS « Give… »)."
+ },
+ {
+  "msgid": "First, you should restore your\\nPOKéMON to full health.",
+  "msgstr": "Avant toute chose, vous devriez\\nfaire soigner vos Pokémon.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/event_scripts.s",
+  "ligne": 1507,
+  "ancien": "D’abord, tu devrais soigner\\ntes Pokémon.",
+  "preuve": "40:44 — Avant toute chose, vous devriez\\nfaire soigner vos Pokémon.",
+  "note": "Infirmière du Centre après un K.O. (vouvoiement) : le texte SS colle à l’anglais HnS ; le patch tutoyait."
+ },
+ {
+  "msgid": "MOM: Oh, good! You and your\\nPOKéMON are looking great.\\pI just heard from {STR_VAR_1}.\\pHe said that POKéMON's energy is\\nmeasured in HP.\\pIf your POKéMON lose their HP,\\nyou can restore them at any\\lPOKéMON CENTER.\\pIf you're going to travel far away,\\nthe smart TRAINER stocks up on\\lPOTIONS at the POKéMON MART.\\pMake me proud, honey!\\pTake care!",
+  "msgstr": "Maman: Eh bien, vous avez\\nl’air d’aller beaucoup mieux.\\pJe viens d’avoir des nouvelles\\nde {STR_VAR_1}.\\pIl dit que l’énergie d’un Pokémon\\nse mesure en PV.\\pSi ton Pokémon manque de PV, tu\\npeux les restaurer en allant\\ldans un Centre Pokémon.\\pEt si tu prévois de voyager loin,\\nn’oublie pas d’acheter des Potions\\ldans une Boutique Pokémon.\\pRends-moi fière, mon bouchon.\\pFais attention à toi!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/event_scripts.s",
+  "ligne": 1534,
+  "ancien": "Maman: Oh, super! Toi et tes\\nPokémon, vous avez l’air en forme.\\pJ’ai eu des nouvelles de {STR_VAR_1}.\\pIl dit que l’énergie des Pokémon\\nse mesure en PV.\\pSi tes Pokémon perdent leurs PV,\\ntu peux les soigner dans n’importe\\lquel Centre Pokémon.\\pPour partir loin, un Dresseur\\nmalin fait le plein de POTIONS\\là la Boutique Pokémon.\\pRends-moi fière, mon cœur!\\pPrends soin de toi!",
+  "preuve": "40:42 — Maman: Eh bien, vous avez\\nl’air d’aller beaucoup mieux.\\rJe viens d’avoir des nouvelles\\ndu Professeur.\\rIl dit que l’énergie d’un Pokémon\\nse mesure en PV (Points de Vie).\\rSi ton Pokémon manque de PV, tu\\npeux les restaurer en allant\\fdans un Centre Pokémon.\\rEt si tu prévois de voyager loin,\\nn’oublie pas d’acheter des Potions\\fdans une Boutique Pokémon.\\rRends-moi fière, mon bouchon.\\nFais attention à toi!",
+  "note": "SS 40:42 adapté : « du Professeur » → « de {STR_VAR_1} », « (Points de Vie) » retiré (absent de HnS), dernière boîte coupée en deux comme HnS."
+ },
+ {
+  "msgid": "Which battle mode would you like?",
+  "msgstr": "Quel mode de combat\\nchoisissez-vous?",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/text/cable_club.inc",
+  "ligne": 214,
+  "ancien": "Quel mode de combat voulez-vous?",
+  "preuve": "46:1 — Quel mode de combat\\nchoisissez-vous? {YESNO 0}",
+  "note": "SS 46:1 tel quel ({YESNO} supprimé), même sens ; remplace une traduction manuelle."
+ },
+ {
+  "msgid": "BAOBA: {PLAYER}!\\nThe SAFARI ZONE is open! Come\\panytime!",
+  "msgstr": "Baoba: {PLAYER}!\\nLe Parc Safari est enfin ouvert!\\pViens y faire un tour!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call.inc",
+  "ligne": 2048,
+  "ancien": "Baoba: {PLAYER}!\\nLe Parc Safari est ouvert!\\pViens quand tu veux!",
+  "preuve": "667:29 — Le parc est enfin ouvert!\\nViens y faire un tour!",
+  "note": "SS 667:29 + amorce HnS « BAOBA: {PLAYER}! » ; « Le parc » → « Le Parc Safari » (phrase isolée)."
+ },
+ {
+  "msgid": "Yo, {PLAYER}!\\pLet's get together and\\nbattle!\\pI promise things will be\\ndifferent!",
+  "msgstr": "Yo, {PLAYER}!\\pAllez, un combat!\\pÇa se passera pas comme\\nla dernière fois!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 34,
+  "ancien": "Yo, {PLAYER}!\\pOn se retrouve pour\\nun combat?\\pJe te promets que ça\\nsera différent!",
+  "preuve": "675:10 — Allez, un combat! Ça se passera\\npas comme la dernière fois!",
+  "note": "SS 675:10 + salutation HnS (formule d’appel, reprise du .po) ; découpage HnS."
+ },
+ {
+  "msgid": "{PLAYER}, howdy!\\pI found all kinds of\\nBERRIES.\\pIf you want, I'll share\\nsome with you.\\pI'll be waiting on\\nROUTE 31.",
+  "msgstr": "{PLAYER}, salut!\\pJ’ai trouvé tout plein de Baies.\\pJe peux t’en donner.\\pJ’attends sur la Route 31.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 74,
+  "ancien": "{PLAYER}, salut!\\pJ’ai trouvé plein de\\nsortes de Baies.\\pSi tu veux, je t’en\\ndonne quelques-unes.\\pJe t’attends sur\\nla Route 31.",
+  "preuve": "684:13 — J’ai trouvé tout plein de Baies.\\nJe peux t’en donner.\\rJ’attends sur la {STRVAR_1 4, 3, 0}.",
+  "note": "SS 684:13 + salutation du .po ; variable de lieu remplacée par Route 31."
+ },
+ {
+  "msgid": "{PLAYER}, howdy!\\pDo you feel like a POKéMON\\nbattle?\\pIt won't be like last\\ntime!",
+  "msgstr": "{PLAYER}, salut!\\pÇa te dit un petit combat?\\pÇa ne se passera pas comme\\nla dernière fois!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 83,
+  "ancien": "{PLAYER}, salut!\\pÇa te dit, un combat\\nPokémon?\\pÇa va pas se passer\\ncomme la dernière fois!",
+  "preuve": "684:10 — Ça te dit un petit combat? Ça ne se\\npassera pas comme la dernière fois!",
+  "note": "SS 684:10 + salutation du .po ; découpage HnS."
+ },
+ {
+  "msgid": "Hey, {PLAYER}!\\pI've been spending more\\ntime with my {STR_VAR_3}\\lthan I have with my kids.\\pThat's a bit sad,\\nactually.",
+  "msgstr": "Hé, {PLAYER}!\\pJe passe plus de temps avec mon\\n{STR_VAR_3} qu’avec mes enfants.\\pC’est un peu triste.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 99,
+  "ancien": "Hé, {PLAYER}!\\pJe passe plus de temps\\navec mon {STR_VAR_3}\\lqu’avec mes enfants.\\pC’est un peu triste,\\nen fait.",
+  "preuve": "712:6 — Je passe plus de temps avec mon\\n{STRVAR_1 0, 10, 0} qu’avec mes enfants.\\fC’est triste.",
+  "note": "SS 712:6 + salutation du .po ; « C’est triste » → « C’est un peu triste » (a bit sad)."
+ },
+ {
+  "msgid": "Hey, {PLAYER}!\\pI was waiting for you.\\nLet's battle!",
+  "msgstr": "Hé, {PLAYER}!\\pJe t’attendais…\\nAllons-y!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 118,
+  "ancien": "Hé, {PLAYER}!\\pJe t’attendais.\\nOn se fait un combat!",
+  "preuve": "728:658 — Je t’attendais...\\nAllons-y!\\r",
+  "note": "SS 728:658 + salutation du .po."
+ },
+ {
+  "msgid": "Hi, {PLAYER}!\\nListen, listen!\\pDon't you think FALKNER of\\nVIOLET GYM is cool and\\lhandsome?\\pBut they say his dad, who's\\nout training on the road,\\lis even more cool and\\lhandsome than FALKNER.\\pI wish I could meet him!",
+  "msgstr": "Salut, {PLAYER}!\\nJ’ai un truc super à te raconter!\\pTu trouves pas qu’Albert, de Mauville,\\nil est super canon?\\pMais il paraît que son père, ben y\\nvoyage tout le temps, et il est\\lencore plus canon!\\pJe veux trop le voir!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 146,
+  "ancien": "Salut, {PLAYER}!\\nEcoute, écoute!\\pTu trouves pas qu’Albert\\nde l’Arène de Mauville\\lest beau et classe?\\pMais il paraît que son père,\\nqui s’entraîne sur les routes,\\lest encore plus beau et\\lclasse qu’Albert.\\pJ’aimerais tant le rencontrer!",
+  "preuve": "680:9 — J’ai un truc super à te raconter!\\rTu trouves pas qu’Albert, de Mauville,\\nil est super canon?\\rMais il paraît que son père, ben y\\nvoyage tout le temps, et il est encore\\fplus canon!\\fJe veux trop le voir!\\rBon, je te laisse!",
+  "note": "SS 680:9 (Listen, listen! = « J’ai un truc super à te raconter! ») + salutation ; « Bon, je te laisse! » retiré (absent de HnS)."
+ },
+ {
+  "msgid": "Hi, {PLAYER}!\\pI was waiting for you.\\nLet's battle!",
+  "msgstr": "Salut, {PLAYER}!\\pJe t’attendais…\\nAllons-y!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 158,
+  "ancien": "Salut, {PLAYER}!\\pJe t’attendais.\\nOn se fait un combat!",
+  "preuve": "728:658 — Je t’attendais...\\nAllons-y!\\r",
+  "note": "SS 728:658 + salutation du .po."
+ },
+ {
+  "msgid": "Hey there, {PLAYER}!\\pThe other day, I was\\nwatching my {STR_VAR_3}\\leat some BERRIES.\\pIt looked like it was\\nenjoying its meal, so I\\ldecided to try some.\\pI'm not sure if people\\nshould eat that stuff, but\\lit was delicious!",
+  "msgstr": "Salut à toi, {PLAYER}!\\pL’autre jour, j’ai vu mon {STR_VAR_3}\\nmanger des Baies.\\pIl avait l’air d’aimer ça, alors\\nj’ai décidé d’y goûter.\\pJe ne sais pas si c’est bon pour la\\nsanté, mais c’est délicieux!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 174,
+  "ancien": "Salut à toi, {PLAYER}!\\pL’autre jour, je regardais\\nmon {STR_VAR_3}\\lmanger des Baies.\\pIl avait l’air de se régaler,\\nalors j’ai décidé\\lde goûter.\\pJe sais pas si les humains\\npeuvent manger ça, mais\\lc’était délicieux!",
+  "preuve": "711:6 — L’autre jour j’ai vu un {STRVAR_1 0, 10, 0}\\nmanger des Baies.\\fIl avait l’air d’aimer ça, alors\\fj’ai décidé d’y goûter.\\rJe ne sais pas si c’est bon pour la\\nsanté, mais c’est délicieux!\\rAllez hop!\\nA la prochaine!",
+  "note": "SS 711:6 + salutation du .po ; « un » → « mon » (my) ; formule finale absente de HnS retirée."
+ },
+ {
+  "msgid": "Hey there, {PLAYER}!\\pLately, I've been running\\nacross wild {STR_VAR_3}\\lquite often.\\pThey're easily taken\\ncare of.",
+  "msgstr": "Salut à toi, {PLAYER}!\\pEn ce moment, je vois beaucoup\\nde {STR_VAR_3} sauvages.\\pOn peut les battre facilement.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 186,
+  "ancien": "Salut à toi, {PLAYER}!\\pCes temps-ci, je croise\\nsouvent des {STR_VAR_3}\\lsauvages.\\pOn s’en débarrasse\\nfacilement.",
+  "preuve": "711:7 — En ce moment, je vois beaucoup de\\n{STRVAR_1 0, 11, 0} sauvages.\\fOn peut les battre facilement.",
+  "note": "SS 711:7 + salutation du .po."
+ },
+ {
+  "msgid": "Hey, {PLAYER}!\\nWhat's up?\\pMy {STR_VAR_3} is looking\\nmore and more like me.\\pIt's getting cuter!",
+  "msgstr": "Hé, {PLAYER}!\\nQuoi de neuf?\\pMon {STR_VAR_3} me ressemble\\nde plus en plus!\\pIl est trop mimi!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 211,
+  "ancien": "Hé, {PLAYER}!\\nQuoi de neuf?\\pMon {STR_VAR_3} me\\nressemble de plus en plus.\\pIl devient trop mignon!",
+  "preuve": "713:7 — Mon {STRVAR_1 0, 10, 0} me ressemble de\\nplus en plus! Il est trop mimi!",
+  "note": "SS 713:7 + salutation du .po."
+ },
+ {
+  "msgid": "Hey, {PLAYER}!\\nHow's it going?\\pChanging the topic here,\\nI saw this {STR_VAR_3}\\lfor the first time.\\pIt was easy to beat,\\nactually.",
+  "msgstr": "Hé, {PLAYER}!\\nÇa roule?\\pAu fait… J’ai vu un {STR_VAR_3}\\npour la première fois.\\pIl est assez facile à battre,\\nen fait.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 309,
+  "ancien": "Hé, {PLAYER}!\\nÇa roule?\\pRien à voir, mais j’ai vu\\nun {STR_VAR_3} pour\\lla première fois.\\pIl était facile à battre,\\nen fait.",
+  "preuve": "714:6 — Au fait... J’ai vu un\\n{STRVAR_1 0, 11, 0} pour la première fois.\\fIl est assez facile à battre en fait.",
+  "note": "SS 714:6 + salutation du .po."
+ },
+ {
+  "msgid": "Hello, {PLAYER}!\\nIt's CHAD!\\pI recently began observing\\nwild {STR_VAR_3}.\\pI've been learning all\\nsorts of new things\\lthrough my observations.\\pI wish I could become a\\nPOKéMON researcher like\\lPROF. OAK soon.",
+  "msgstr": "Bonjour, {PLAYER}!\\nC’est CHAD!\\pJ’ai commencé à observer\\nles {STR_VAR_3} sauvages.\\pDe cette manière, j’ai appris tout\\nplein de trucs.\\pJe veux être un chercheur Pokémon\\ncomme le Prof. Chen.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 423,
+  "ancien": "Bonjour, {PLAYER}!\\nC’est CHAD!\\pJ’ai commencé à observer\\ndes {STR_VAR_3} sauvages.\\pJ’apprends plein de\\nchoses nouvelles\\lgrâce à mes observations.\\pJ’aimerais devenir vite un\\nchercheur Pokémon comme\\lle Prof. CHEN.",
+  "preuve": "685:6 — J’ai commencé à observer\\nles {STRVAR_1 0, 10, 0} sauvages.\\rDe cette manière, j’ai appris tout\\nplein de trucs.\\rJe veux être un chercheur Pokémon\\ncomme le Professeur Chen.\\rA plus tard!",
+  "note": "SS 685:6 + salutation du .po (nom CHAD conservé) ; « Professeur Chen » → « Prof. Chen » (style du projet) ; « A plus tard! » retiré."
+ },
+ {
+  "msgid": "Hey, {PLAYER}!\\nIt's BRENT!\\pOh yeah, I got an\\nextremely rare POKéMON in\\la trade a while back.\\pDo you want to know what\\nit is?\\pHehe, I'm keeping it a\\nsecret!",
+  "msgstr": "Hé, {PLAYER}!\\nC’est BRENT!\\pOh! J’ai eu un Pokémon super\\nrare en faisant un échange.\\pTu veux savoir ce que c’est?\\pC’est…\\nun secret!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 551,
+  "ancien": "Hé, {PLAYER}!\\nC’est BRENT!\\pAu fait, j’ai eu un Pokémon\\nultra rare en échange,\\lil y a quelque temps.\\pTu veux savoir ce\\nque c’est?\\pHéhé, c’est un\\nsecret!",
+  "preuve": "688:7 — Oh! J’ai eu un Pokémon super\\nrare en faisant un échange.\\fTu veux savoir ce que c’est?\\rC’est...\\nun secret!\\rSur ce...",
+  "note": "SS 688:7 + salutation du .po ; « Sur ce… » retiré (absent de HnS)."
+ },
+ {
+  "msgid": "Hey, {PLAYER}!\\nThis is KENJI!\\pAre you still on your\\njourney?\\pI remain dedicated to my\\ntraining.\\pOooooaaarrrgh!",
+  "msgstr": "Hé, {PLAYER}!\\nIci KENJI!\\pTu te balades toujours?\\pMoi je m’entraîne.\\pOooooaaarrrgh!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 696,
+  "ancien": "Hé, {PLAYER}!\\nIci KENJI!\\pTu voyages toujours?\\pMoi, je reste dévoué\\nà mon entraînement.\\pHaaaaaaaaaaa!",
+  "preuve": "706:8 — Tu te balades toujours?\\nMoi je m’entraîne.\\rOooooaaarrrgh!",
+  "note": "SS 706:8 + salutation du .po ; découpage HnS."
+ },
+ {
+  "msgid": "Hi, {PLAYER}!\\nIt's ERIN!\\pI'm working hard to raise\\nmy POKéMON!\\pCome back for another\\nbattle!",
+  "msgstr": "Salut, {PLAYER}!\\nC’est Erin!\\pJ’entraîne bien mes Pokémon!\\pReviens pour m’affronter!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 781,
+  "ancien": "Salut, {PLAYER}!\\nC’est Erin!\\pJe me donne à fond pour\\nélever mes Pokémon!\\pReviens pour un\\nautre combat!",
+  "preuve": "672:12 — J’entraîne bien mes Pokémon!\\rReviens pour m’affronter!",
+  "note": "SS 672:12 + salutation du .po."
+ },
+ {
+  "msgid": "Hello, {PLAYER}!\\nIt's BEVERLY!\\pMy husband got some\\nNUGGETS.\\pIf you'd like, you could\\nhave one as thanks for\\lhelping me out.\\pI'll be at NATIONAL PARK.\\nPlease come see me when\\lyou can.",
+  "msgstr": "Bonjour, {PLAYER}!\\nC’est BEVERLY!\\pMon mari a plein de Pépites.\\pSi tu veux, je peux t’en donner une\\npour te remercier.\\pJe suis au Parc Naturel.\\nPasse donc me voir.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 848,
+  "ancien": "Bonjour, {PLAYER}!\\nC’est BEVERLY!\\pMon mari a trouvé\\ndes PEPITES.\\pSi tu veux, je t’en\\ndonne une pour te\\lremercier de ton aide.\\pJe serai au Parc Naturel.\\nViens me voir quand\\ltu pourras.",
+  "preuve": "690:9 — Mon mari a plein de Pépites.\\rSi tu veux, je peux t’en donner une\\npour te remercier.\\rJe suis au {STRVAR_1 4, 3, 0}.\\nPasse donc me voir.",
+  "note": "SS 690:9 + salutation du .po ; variable de lieu remplacée par Parc Naturel."
+ },
+ {
+  "msgid": "Yo, {PLAYER}!\\nIt's HUEY!\\pWe have to battle again\\nsometime.\\pYou can bet I'm going to\\nkeep challenging you till\\lI win.",
+  "msgstr": "Yo, {PLAYER}!\\nC’est HUEY!\\pAllez, un combaaat!\\pJe continuerai jusqu’à ce que\\nje puisse te battre!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 872,
+  "ancien": "Yo, {PLAYER}!\\nC’est HUEY!\\pFaudra qu’on se refasse\\nun combat.\\pCompte sur moi pour\\nte défier encore et\\lencore jusqu’à gagner.",
+  "preuve": "674:11 — Allez, un combaaat!\\nJe continuerai, jusqu’à ce que je\\fpuisse te battre!",
+  "note": "SS 674:11 + salutation du .po ; sens conservé (rejouer / défier jusqu’à la victoire), un peu libre comme l’officiel."
+ },
+ {
+  "msgid": "Hi, {PLAYER}!\\nIt's BETH!\\pDo you remember my sweet\\n{STR_VAR_3}?\\p{STR_VAR_3} runs very\\nfast.\\pIt's exhilarating to ride\\non its back when it really\\lgets going.",
+  "msgstr": "Salut, {PLAYER}!\\nC’est BETH!\\pTu te souviens de mon {STR_VAR_3}?\\p{STR_VAR_3} court vraiment très vite!\\pC’est grisant de lui monter dessus!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 931,
+  "ancien": "Salut, {PLAYER}!\\nC’est BETH!\\pTu te souviens de mon\\nadorable {STR_VAR_3}?\\p{STR_VAR_3} court\\ntrès vite.\\pC’est grisant de monter\\nsur son dos quand il\\lfonce à toute allure.",
+  "preuve": "677:7 — Tu te souviens de mon {STRVAR_1 0, 10, 0}?\\nIl court vraiment très vite!\\rC’est grisant de lui monter dessus!\\rSalut!",
+  "note": "SS 677:7 + salutation du .po ; « Il » → « {STR_VAR_3} » (2e variable de l’anglais HnS)."
+ },
+ {
+  "msgid": "Hey, {PLAYER}!\\nIt's JOSE!\\pMy FARFETCH'D had\\nsomething pretty in its\\lbeak.\\pLike I promised, you can\\nhave it.\\pCatch up to me on\\nROUTE 27, and I'll let\\lyou have it.",
+  "msgstr": "Hé, {PLAYER}!\\nC’est JOSE!\\pMon CANARTICHO m’a ramené une\\njolie chose.\\pComme promis, je te la donne.\\pJe t’attends sur la Route 27.\\nPasse la chercher!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 986,
+  "ancien": "Hé, {PLAYER}!\\nC’est JOSE!\\pMon CANARTICHO avait\\nun joli truc dans\\lle bec.\\pComme promis, tu\\npeux l’avoir.\\pRejoins-moi sur la\\nRoute 27, et je te\\lle donnerai.",
+  "preuve": "671:14 — Mon CANARTICHO m’a ramené une\\njolie chose.\\rComme promis, je te la donne.\\rJe t’attends sur la {STRVAR_1 4, 3, 0}.\\nPasse la chercher!",
+  "note": "SS 671:14 + salutation du .po ; variable de lieu remplacée par Route 27."
+ },
+ {
+  "msgid": "Hello, {PLAYER}.\\nIt's REENA.\\pDon't be too proud just\\nbecause you happened to\\lbeat me…\\pIt was a fluke!",
+  "msgstr": "Bonjour, {PLAYER}.\\nC’est REENA.\\pNe te vante pas trop de\\ncette victoire!\\pCe n’était QUE de la chance…",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/match_call_hns.inc",
+  "ligne": 1027,
+  "ancien": "Bonjour, {PLAYER}.\\nC’est REENA.\\pPas de quoi frimer, tu\\nm’as battue par\\lhasard…\\pC’était un coup de chance!",
+  "preuve": "698:12 — Ne te vante pas trop de cette victoire!\\nCe n’était QUE de la chance...",
+  "note": "SS 698:12 + salutation du .po ; découpage HnS."
+ },
+ {
+  "msgid": "VIOLET CITY POKéMON GYM\\pFALKNER'S CERTIFIED TRAINERS:\\n{PLAYER}",
+  "msgstr": "Arène de Mauville\\pDresseurs estimés par Albert:\\n{PLAYER}",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/VioletCity_Gym_hns/scripts.inc",
+  "ligne": 182,
+  "ancien": "Arène Pokémon DE Mauville\\pDresseurs RECONNUS PAR Albert:\\n{PLAYER}",
+  "preuve": "558:10 — Arène de Mauville\\rChampion: Albert\\nDresseur estimé:\\f{STRVAR_1 3, 0, 0}",
+  "note": "SS 558:10 (« Arène de Mauville », « Dresseur estimé ») remis dans la structure HnS ; corrige les capitales résiduelles du patch (« DE », « RECONNUS PAR »)."
+ },
+ {
+  "msgid": "You came from JOHTO?\\pI hear many rare POKéMON live\\nover there.",
+  "msgstr": "Tu viens de Johto?\\pOn dit qu’il y a plein de Pokémon\\nrares là-bas!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/VermilionCity_PortInside_hns/scripts.inc",
+  "ligne": 15,
+  "ancien": "Tu viens de JOHTO?\\pIl paraît que plein de Pokémon\\nrares vivent là-bas.",
+  "preuve": "257:3 — Tu viens de Johto?\\rQuelle chance!\\nOn dit qu’il y a plein de Pokémon\\frares là-bas!",
+  "note": "SS 257:3 sans « Quelle chance! » (phrase retirée par HnS)."
+ },
+ {
+  "msgid": "I will test you to see if you are\\na good Trainer.\\pAre you ready, {PLAYER}?",
+  "msgstr": "Je vais te mettre à l’épreuve\\npour voir si tu es un bon Dresseur.\\pOn commence, {PLAYER}?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/EcruteakCity_Theater_hns/scripts.inc",
+  "ligne": 987,
+  "ancien": "Je vais te mettre à l’épreuve\\npour voir si tu es un bon Dresseur.\\pTu es prêt, {PLAYER}?",
+  "preuve": "618:13 — Nous allons ici et maintenant mettre\\nà l’épreuve tes talents.\\rL’ordalie peut-elle commencer? {YESNO 0}",
+  "note": "SS 618:13 trop libre (ordalie, sans « bon Dresseur »). Le .po « Tu es prêt, {PLAYER}? » accorde au masculin : dernière boîte rendue neutre, reste du patch inchangé."
+ },
+ {
+  "msgid": "Putting POKéMON to sleep or paralyz-\\ning them are good battle techniques.",
+  "msgstr": "Endormir ou paralyser les Pokémon est\\nsuper utile en combat.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route37_hns/scripts.inc",
+  "ligne": 116,
+  "ancien": "Endormir ou paralyser l’ennemi,\\nc’est une bonne technique de combat.",
+  "preuve": "728:758 — Endormir ou paralyser les Pokémon est\\nsuper utile en combat.",
+  "note": "SS 728:758 tel quel, même sens."
+ },
+ {
+  "msgid": "ROUTE 19\\pFUCHSIA CITY - SEAFOAM ISLANDS",
+  "msgstr": "Chenal 19\\pParmanie - Iles Ecume",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route19_hns/scripts.inc",
+  "ligne": 142,
+  "ancien": "ROUTE 19\\pParmanie - Iles Ecume",
+  "preuve": "740:4 — Chenal 19\\nParmanie - Iles Ecume",
+  "note": "SS 740:4 avec la coupure de boîte HnS ; « Chenal 19 » selon le glossaire (le .po disait ROUTE 19)."
+ },
+ {
+  "msgid": "There is a lot to learn.\\pFor example…\\pThere are 92 kinds of TMs.\\pTraded POKéMON level up faster.",
+  "msgstr": "Il y a plein de choses à retenir.\\pPar exemple…\\pIl y a 92 CT différentes.\\pOn peut élever des Pokémon plus\\nvite en les échangeant.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/NationalPark_Normal_hns/scripts.inc",
+  "ligne": 190,
+  "ancien": "Il y a tant à apprendre.\\pPar exemple…\\pIl existe 92 CT différentes.\\pLes Pokémon échangés montent de\\nniveau plus vite.",
+  "preuve": "728:1066 — Il y a plein de choses à retenir.\\rPar exemple, il y a plus de 90 CT.\\nOu alors, on peut élever des Pokémon\\fplus vite en les échangeant...",
+  "note": "SS 728:1066 adapté : « plus de 90 CT » → « 92 CT différentes », « Ou alors » retiré, découpage HnS."
+ },
+ {
+  "msgid": "PROF.OAK: Ah, {PLAYER}!\\pIt's been a long while.\\pYou certainly look more impressive.\\pYour conquest of the JOHTO LEAGUE\\nis just fantastic!\\pYour dedication, trust and love for\\nyour POKéMON made this happen.\\pYour POKéMON were outstanding too.\\pBecause they believed in you as a\\ntrainer, they persevered.\\pCongratulations, {PLAYER}!",
+  "msgstr": "Chen: Ah, {PLAYER}!\\pÇa faisait longtemps.\\pTu as bien plus d’allure qu’avant.\\pTa conquête de la Ligue de Johto\\nest tout simplement fantastique!\\pTon dévouement, ta confiance et ton\\namour pour tes Pokémon ont payé.\\pTes Pokémon ont été formidables,\\neux aussi.\\pIls ont tenu bon parce qu’ils\\ncroyaient en toi.\\pFélicitations, {PLAYER}!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_ChampionsRoom_hns/scripts.inc",
+  "ligne": 380,
+  "ancien": "Prof. CHEN: Ah, {PLAYER}!\\pÇa faisait longtemps.\\pTu as bien plus d’allure qu’avant.\\pTa conquête de la Ligue DE JOHTO\\nest tout simplement fantastique!\\pTon dévouement, ta confiance et ton\\namour pour tes Pokémon ont payé.\\pTes Pokémon ont été formidables,\\neux aussi.\\pIls ont tenu bon parce qu’ils\\ncroyaient en toi.\\pFélicitations, {PLAYER}!",
+  "preuve": "527:7 — Chen: Ah, {STRVAR_1 3, 0, 0}!\\nÇa faisait bien longtemps.\\rTu as changé, ma parole!\\nTa victoire sur la Ligue est,\\fma foi, impressionnante!\\rTon amour et ton dévouement t’ont\\nmenée jusque-là.\\rTon équipe Pokémon a aussi fait\\ndu beau boulot.\\rTu es reconnue comme étant un\\nêtre et un Dresseur d’exception.\\rEncore bravo, {STRVAR_1 3, 0, 0}!\\r",
+  "note": "SS 527:7 = variante féminine (« menée », « reconnue ») et avant-dernière phrase différente : rejeté. Patch corrigé : « Prof. CHEN: » → « Chen: » (format SS), « Ligue DE JOHTO » → « Ligue de Johto »."
+ },
+ {
+  "msgid": "{PLAYER}: Hi! I heard that you\\nlost your favorite POKé DOLL.\\p{PLAYER}: If I find it, you'll give\\nme a rail PASS?\\p{PLAYER}: I'll go find it for you.\\pYou think you lost it when you\\nwent to VERMILION CITY?",
+  "msgstr": "{PLAYER}: Salut! On dit que tu as\\nperdu ta Poképoupée préférée.\\p{PLAYER}: Si je la retrouve, tu\\nme donnes un Passe Train?\\p{PLAYER}: Je vais la chercher!\\pTu l’as perdue en allant\\nà Carmin sur Mer?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/SaffronCity_CopyCatsHouse_2F_hns/scripts.inc",
+  "ligne": 221,
+  "ancien": "{PLAYER}: Salut! Il paraît que tu\\nas perdu ta Poképoupée préférée.\\p{PLAYER}: Si je la retrouve, tu me\\ndonnes un Passe Train?\\p{PLAYER}: Je vais te la retrouver.\\pTu crois l’avoir perdue en allant\\nà Carmin sur Mer?",
+  "preuve": "541:3 — {STRVAR_1 3, 0, 0}: Salut!\\nOn dit que tu as perdu ta Poképoupée\\fpréférée.\\r{STRVAR_1 3, 0, 0}: Si je la retrouve, tu\\nme donnes un Passe pour le train?\\r{STRVAR_1 3, 0, 0}: Je vais la chercher!\\nTu l’as perdue en allant\\fà Carmin sur Mer?\\r",
+  "note": "SS 541:3 ; « un Passe pour le train » → « un Passe Train » (nom de l’objet, glossaire) ; dernière boîte sans « {PLAYER}: » comme HnS."
+ },
+ {
+  "msgid": "It was a dark and stormy night…\\pI saw this giant POKéMON flying\\nfrom the islands.\\pIt was scattering feathers\\nfrom its silver wings.",
+  "msgstr": "Par une nuit noire et profonde…\\pJ’ai vu ce Pokémon géant voler\\ndepuis les îles.\\pIl laissait une traînée de plumes\\nd’argent derrière lui.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route41_hns/scripts.inc",
+  "ligne": 63,
+  "ancien": "C’était par une nuit noire et\\norageuse…\\pJ’ai vu un Pokémon géant s’envoler\\ndepuis les îles.\\pIl semait des plumes de ses ailes\\nd’argent.",
+  "preuve": "728:817 — Par une nuit noire et profonde...\\rJ’ai vu ce Pokémon géant voler depuis\\nles îles, laissant une traînée de\\fplumes d’argent derrière lui.",
+  "note": "SS 728:817 coupé en trois boîtes comme HnS (« laissant » → « Il laissait »)."
+ },
+ {
+  "msgid": "The SLOWPOKE have returned.\\pKnowing them, they could've just\\nbeen goofing off somewhere.",
+  "msgstr": "Les RAMOLOSS sont de retour!\\pIls se prélassent tout le temps, alors\\nils étaient peut-être juste partis\\lse reposer ailleurs…",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/AzaleaTown_hns/scripts.inc",
+  "ligne": 391,
+  "ancien": "Les RAMOLOSS sont revenus.\\pConnaissant ces flemmards, ils ont\\npeut-être juste traîné quelque part.",
+  "preuve": "564:6 — Les RAMOLOSS sont de retour!\\nIls se prélassent tout le temps, alors\\fils étaient peut-être juste partis\\fse reposer ailleurs...",
+  "note": "SS 564:6 tel quel, coupure de boîte HnS."
+ },
+ {
+  "msgid": "ILEX FOREST\\pEnter through the gate.",
+  "msgstr": "Bois aux Chênes\\pDe l’autre côté du portail",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/AzaleaTown_hns/scripts.inc",
+  "ligne": 450,
+  "ancien": "Bois aux Chênes\\pPassez par le poste.",
+  "preuve": "564:0 — Bois aux Chênes\\nDe l’autre côté du portail",
+  "note": "Panneau SS 564:0 tel quel (coupure \\p de HnS)."
+ },
+ {
+  "msgid": "Hold it there, kiddo!\\pThe toll is ¥500 to go\\nthrough.",
+  "msgstr": "Minute, p’tit bouchon!\\pLe montant du péage est de\\n500¥.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Gate_Route43_hns/scripts.inc",
+  "ligne": 73,
+  "ancien": "Halte-là, gamin!\\pLe péage coûte 500¥ pour\\npasser.",
+  "preuve": "403:0 — Minute, p’tit bouchon!\\rLe montant du péage est de 1000 $.\\r",
+  "note": "SS 403:0 ; 1000 $ → 500¥ (montant HnS, décision 12)."
+ },
+ {
+  "msgid": "The Bug-Catching Contest is held on\\nTuesday, Thursday and Saturday.\\pNot only do you earn a prize just\\nfor participating,\\pyou also get to keep the bug POKéMON\\nyou may have at the end of the contest.",
+  "msgstr": "Le Concours de Capture se déroule\\nle mardi, le jeudi et le samedi.\\pNon seulement on peut gagner un prix\\nen participant,\\pmais en plus on garde le Pokémon\\nInsecte attrapé!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Gate_NationalPark_hns/scripts.inc",
+  "ligne": 344,
+  "ancien": "Le Concours de Capture d’Insectes\\na lieu mardi, jeudi et samedi.\\pUn lot pour chaque\\nparticipant,\\pet tu gardes le Pokémon Insecte\\nque tu as à la fin du concours.",
+  "preuve": "389:1 — Le Concours de Capture se déroule\\nle mardi, le jeudi et le samedi.\\rNon seulement on peut gagner un prix en\\nparticipant, mais en plus on garde le\\fPokémon Insecte attrapé!",
+  "note": "SS 389:1 dans le découpage en trois boîtes de HnS."
+ },
+ {
+  "msgid": "I fought fair and square with\\nhonor.\\pI don't regret this at all.",
+  "msgstr": "J’ai combattu dans les règles,\\navec honneur!\\pJe ne regrette rien.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route11_hns/scripts.inc",
+  "ligne": 51,
+  "ancien": "Je me suis battu à la loyale,\\navec honneur.\\pJe n’ai aucun regret.",
+  "preuve": "728:469 — J’ai combattu dans les règles!\\nJe ne regrette rien.",
+  "note": "SS 728:469 + « avec honneur » (ajout HnS)."
+ },
+ {
+  "msgid": "{PLAYER}, right?\\nSome guy wearing glasses\\pwas looking for you.\\pSee for yourself. He's waiting for\\nyou at the POKéMON CENTER.",
+  "msgstr": "C’est toi, {PLAYER}?\\nUn bonhomme avec des lunettes\\pte cherchait.\\pIl a dit qu’il t’attendrait au\\nCentre Pokémon. Va le voir!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route32_hns/scripts.inc",
+  "ligne": 364,
+  "ancien": "{PLAYER}, c’est ça?\\nUn type avec des lunettes\\pte cherchait.\\pVa voir par toi-même. Il t’attend\\nau Centre Pokémon.",
+  "preuve": "380:2 — C’est toi, {STRVAR_1 3, 0, 0}?\\nUn bonhomme avec des lunettes\\fte cherchait.\\rIl a dit qu’il t’attendrait à la\\nBoutique Pokémon. Va le voir!\\r",
+  "note": "SS 380:2 ; « à la Boutique Pokémon » → « au Centre Pokémon » (lieu changé par HnS) ; découpage HnS."
+ },
+ {
+  "msgid": "I'm going to try to be the\\nbest with my favorites.\\pI'm not using the same tough\\nPOKéMON as everyone else.",
+  "msgstr": "J’serai l’plus fort avec mes\\nPokémon favoris.\\pJ’utilise pas les gros Pokémon super\\nbalèzes que tout le monde choisit.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route32_hns/scripts.inc",
+  "ligne": 475,
+  "ancien": "Je vais essayer d’être le meilleur\\navec mes préférés.\\pPas question d’utiliser les mêmes\\nPokémon costauds que tout le monde.",
+  "preuve": "728:681 — J’serai l’plus fort avec mes Pokémon\\nfavoris.\\rJ’utilise pas les gros Pokémon super\\nbalèzes que tout le monde choisit.",
+  "note": "SS 728:681 tel quel (Gamin Albert, masculin correct)."
+ },
+ {
+  "msgid": "Darn. I thought I could win.",
+  "msgstr": "Zut. J’ai cru pouvoir gagner…",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route32_hns/scripts.inc",
+  "ligne": 486,
+  "ancien": "Zut. Je pensais pouvoir gagner.",
+  "preuve": "728:554 — J’ai cru pouvoir gagner...",
+  "note": "SS 728:554 + « Zut. » (Darn)."
+ },
+ {
+  "msgid": "Psychic power is the power of\\nyour soul.",
+  "msgstr": "Les pouvoirs psy sont\\nla force du cœur.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/SaffronCity_Gym_hns/scripts.inc",
+  "ligne": 133,
+  "ancien": "Le pouvoir psychique, c’est le\\npouvoir de l’âme.",
+  "preuve": "728:366 — Les pouvoirs psy sont\\nla force du cœur.\\r",
+  "note": "SS 728:366 tel quel (« soul » rendu par « cœur » comme l’officiel pour « mind »)."
+ },
+ {
+  "msgid": "Your soul has more power than\\nmine!",
+  "msgstr": "J’ai perdu face à la force\\nde ton cœur.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/SaffronCity_Gym_hns/scripts.inc",
+  "ligne": 137,
+  "ancien": "Ton âme est plus puissante\\nque la mienne!",
+  "preuve": "728:367 — J’ai perdu face à la force de ton cœur.",
+  "note": "SS 728:367 tel quel, coupé sur deux lignes."
+ },
+ {
+  "msgid": "You made your soul stronger, not\\njust your abilities.",
+  "msgstr": "Non seulement ta technique, mais\\naussi ton cœur, sont très puissants.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/SaffronCity_Gym_hns/scripts.inc",
+  "ligne": 141,
+  "ancien": "Tu as renforcé ton âme, pas\\nseulement tes capacités.",
+  "preuve": "728:368 — Non seulement ta technique, mais aussi\\nton cœur, sont très puissants.",
+  "note": "SS 728:368 tel quel, remis en lignes ≤ 198 px."
+ },
+ {
+  "msgid": "Fufufufu… I see it clearly.\\pI can see into your soul!",
+  "msgstr": "Gnihihihihi! Je vois, je vois…\\pJe vois si clair dans ton cœur!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/SaffronCity_Gym_hns/scripts.inc",
+  "ligne": 145,
+  "ancien": "Héhéhéhé… Je le vois clairement.\\pJe lis jusqu’au fond de ton âme!",
+  "preuve": "728:375 — Gnihihihihi!\\nJe vois, je vois...\\rJe vois si clair dans ton cœur!\\r",
+  "note": "SS 728:375 tel quel, découpage HnS."
+ },
+ {
+  "msgid": "Darn! I forgot that I predicted I\\nwould lose to you.",
+  "msgstr": "Saperlipopette! J’avais prédit que\\ntu me battrais, mais ça m’était\\lsorti de la tête.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/SaffronCity_Gym_hns/scripts.inc",
+  "ligne": 152,
+  "ancien": "Zut! J’avais oublié que j’avais\\nprédit ma défaite contre toi.",
+  "preuve": "728:377 — Saperlipopette!\\nJ’avais prédit que tu me battrais, mais\\fça m’était sorti de la tête.",
+  "note": "SS 728:377 tel quel, remis en lignes ≤ 198 px."
+ },
+ {
+  "msgid": "Thanks, kid! I chewed him out\\ngood so he'll quit slacking off!",
+  "msgstr": "Merci toi! Je lui ai sonné les cloches,\\nil quittera plus son poste\\lmaintenant!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/SSAqua_B1F_hns/scripts.inc",
+  "ligne": 62,
+  "ancien": "Merci, petit! Je lui ai passé un bon\\nsavon, il va arrêter de tirer au flanc!",
+  "preuve": "263:2 — Merci toi!\\nJe lui ai sonné les cloches,\\fil quittera plus son poste maintenant!",
+  "note": "SS 263:2 tel quel."
+ },
+ {
+  "msgid": "We're on a field trip to the\\nRUINS outside VIOLET.",
+  "msgstr": "Nous allons en visite scolaire aux\\nruines près de Mauville.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/SSAqua_B1F_hns/scripts.inc",
+  "ligne": 205,
+  "ancien": "On est en sortie scolaire aux\\nRUINES, près de Mauville.",
+  "preuve": "728:1016 — Nous allons en visite scolaire aux\\nruines près de Mauville.",
+  "note": "SS 728:1016 tel quel."
+ },
+ {
+  "msgid": "During the day, a lady comes to check\\nout POKéMON.\\pShe even gives away TMs!",
+  "msgstr": "La journée, une madame vient voir\\nles Pokémon.\\pEt elle donne aussi des CT!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/GoldenrodCity_DepartmentStore_5F_hns/scripts.inc",
+  "ligne": 83,
+  "ancien": "Le jour, une dame vient examiner\\nles Pokémon.\\pElle distribue même des CT!",
+  "preuve": "596:15 — Le dimanche, une madame vient voir les\\nPokémon, et elle donne aussi des CT!",
+  "note": "SS 596:15 ; « Le dimanche » → « La journée » (HnS : During the day), phrase coupée en deux boîtes."
+ },
+ {
+  "msgid": "I collect POKéMON!\\nDo you have a {STR_VAR_1}?\\pWant to trade it for my\\n{STR_VAR_2}?",
+  "msgstr": "Moi, je collectionne les Pokémon!\\nTu as un {STR_VAR_1}?\\pTu me l’échanges contre mon\\n{STR_VAR_2}?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/BlackthornCity_House2_hns/scripts.inc",
+  "ligne": 30,
+  "ancien": "Je collectionne les Pokémon!\\nTu as un {STR_VAR_1}?\\pTu veux l’échanger contre mon\\n{STR_VAR_2}?",
+  "preuve": "596:9 — Moi, je collectionne les Pokémon!\\nTu as un SOPORIFIK?\\rTu me l’échanges contre mon\\nMACHOC? {YESNO 0}",
+  "note": "SS 596:9 ; SOPORIFIK/MACHOC → variables HnS."
+ },
+ {
+  "msgid": "How strange...\\p...Ohh!\\nWhat you are holding is...\\lwhat they call... a POKéDEX!\\pHaven't seen one of those in ages.\\pMy name is BAOBA!\\nI used to run a SAFARI ZONE in\\lFUCHSIA CITY, but it was becoming\\lout of date with new entertainment\\loptions coming out.\\pI decided to go overseas to learn\\nthe newest technology and open a\\lstate-of-the-art SAFARI ZONE\\lin CIANWOOD.\\pIt may be more than a coincidence\\nthat we are chatting.\\pWhy don't we register each other's\\nnumbers in the POKéGEAR?\\pI can give you a call once the\\nSAFARI ZONE is open before I call\\lanyone else!",
+  "msgstr": "Comme c’est étrange…\\p…Ohh!\\nCe que tu tiens là, c’est…\\lce qu’on appelle… un Pokédex!\\pÇa faisait une éternité que je\\nn’en avais pas vu.\\pJe m’appelle Baoba!\\nAvant, je dirigeais le Parc Safari\\lde Parmanie, mais il devenait\\ldémodé face aux nouvelles\\lattractions.\\pAlors je suis parti à l’étranger\\npour apprendre les dernières\\ltechnologies et ouvrir un Parc\\lSafari dernier cri à Irisia.\\pCe n’est peut-être pas un hasard\\nsi nous discutons tous les deux.\\pEt si on enregistrait nos numéros\\ndans le Pokématos?\\pQuand le Parc Safari ouvrira, tu seras\\nla première personne que j’appellerai!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route39_hns/scripts.inc",
+  "ligne": 142,
+  "ancien": "Comme c’est étrange…\\p…Ohh!\\nCe que tu tiens là, c’est…\\lce qu’on appelle… un Pokédex!\\pÇa faisait une éternité que je\\nn’en avais pas vu.\\pJe m’appelle Baoba!\\nAvant, je dirigeais le Parc Safari\\lde Parmanie, mais il devenait\\ldémodé face aux nouvelles\\lattractions.\\pAlors je suis parti à l’étranger\\npour apprendre les dernières\\ltechnologies et ouvrir un PARC\\lSAFARI dernier cri à Irisia.\\pCe n’est peut-être pas un hasard\\nsi nous discutons tous les deux.\\pEt si on enregistrait nos numéros\\ndans le Pokématos?\\pTu seras le premier que j’appelle\\ndès que le Parc Safari ouvrira!",
+  "preuve": "396:4 — Baoba: Oooooooh!\\nCe truc dans ta main!\\fC’est un Pokédex!\\rQue de souvenirs!\\rJe m’appelle Baoba!\\rIl y a quelque temps, je m’occupais du\\nParc Safari de Parmanie, mais, tu sais,\\fle monde change, de nouvelles modes\\fnaissent et meurent, et puis, un jour,\\fon m’a dit que c’était passé de mode.\\rMon Safari! Tu te rends compte!\\rEt alors, là! Ce que j’ai fait, c’est que\\nje suis allé à l’étranger pour étudier,\\fpuis j’ai créé un nouveau Parc Safari\\fà Irisia!\\rJe suis sûr qu’on s’est rencontrés\\npour une raison aujourd’hui!\\rIl faut qu’on s’échange nos numéros\\nde téléphone avec nos Pokématos!\\rQuand mon parc sera prêt, tu seras la\\npremière personne que j’appellerai!\\r",
+  "note": "SS 396:4 réécrit (phrases ajoutées) : rejeté. Patch corrigé : « Tu seras le premier » (masculin) → tournure neutre reprise du SS (« la première personne que j’appellerai »), « PARC SAFARI » → « Parc Safari »."
+ },
+ {
+  "msgid": "SAFFRON CITY\\nPOKéMON GYM\\lLEADER: SABRINA\\pThe Master of Psychic POKéMON!",
+  "msgstr": "Arène de Safrania\\nChampion: Morgane\\pLa maîtresse des Pokémon Psy!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/SaffronCity_hns/scripts.inc",
+  "ligne": 167,
+  "ancien": "Arène Pokémon\\nDE Safrania\\lChampionne: Morgane\\pLa maîtresse des Pokémon Psy!",
+  "preuve": "529:12 — Arène de Safrania\\rChampion: Morgane\\nLa maîtresse des Pokémon Psy!",
+  "note": "SS 529:12 avec la coupure \\p de HnS (le .po avait « Arène Pokémon\\nDE Safrania »)."
+ },
+ {
+  "msgid": "Whenever I get in trouble,\\nbig bro always scares me.",
+  "msgstr": "Quand je fais des bêtises, mon grand\\nfrère me menace tout de suite…",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/OlivineCity_House2_hns/scripts.inc",
+  "ligne": 27,
+  "ancien": "Chaque fois que je fais une bêtise,\\nmon grand frère me gronde.",
+  "preuve": "609:1 — Quand je fais des bêtises, papa\\nme menace tout de suite...",
+  "note": "SS 609:1 ; « papa » → « mon grand frère » (big bro, changé par HnS)."
+ },
+ {
+  "msgid": "SAFFRON CITY POKéMON GYM\\nLEADER: SABRINA\\lThe Master of PSYCHIC POKéMON!",
+  "msgstr": "Arène de Safrania\\nChampion: Morgane\\lLa maîtresse des Pokémon Psy!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/SaffronCity_Frlg/scripts.inc",
+  "ligne": 198,
+  "ancien": "Arène Pokémon de Safrania\\nChampionne: Morgane\\lLa maîtresse des Pokémon Psy!",
+  "preuve": "529:12 — Arène de Safrania\\rChampion: Morgane\\nLa maîtresse des Pokémon Psy!",
+  "note": "SS 529:12 sur trois lignes comme HnS ; remplace une relecture manuelle (même graphie que B:320)."
+ },
+ {
+  "msgid": "Fufufu!\\pI'm JANINE, the GYM LEADER!\\pNo, I'm not! Gotcha, sucker!",
+  "msgstr": "Hahaha!\\pJe suis Jeannine, Champion de l’Arène!\\p…\\nMême pas vrai!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/FuchsiaCity_Gym_hns/scripts.inc",
+  "ligne": 215,
+  "ancien": "Hu hu hu!\\pJe suis Jeannine, la Championne!\\pEh non! Je t’ai bien eu, nigaud!",
+  "preuve": "514:11 — Hahaha!\\nJe suis Jeannine, Champion de l’Arène!\\r...\\nMême pas vrai!\\r",
+  "note": "SS 514:11 tel quel ; « Gotcha, sucker! » non rendu, comme l’officiel. Le patch « Je t’ai bien eu » accordait au masculin."
+ },
+ {
+  "msgid": "You've gathered 9,999 COINS.\\nYou cannot gather any more.",
+  "msgstr": "Vous avez 9 999 Jetons.\\nVous ne pouvez pas en gagner plus.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/GoldenrodCity_GameCorner_hns/scripts.inc",
+  "ligne": 848,
+  "ancien": "Vous avez 9 999 JETONS.\\nVous ne pouvez pas en avoir plus.",
+  "preuve": "39:14 — Vous avez 50 000 Jetons.\\nVous ne pouvez pas en gagner plus.\\r",
+  "note": "SS 39:14 ; 50 000 → 9 999 (plafond HnS)."
+ },
+ {
+  "msgid": "A sleeping POKéMON is lying in\\nfront of DIGLETT'S CAVE.\\pIt's a fantastic opportunity to\\nget it, but how do you wake it up?",
+  "msgstr": "Un Pokémon s’est endormi devant\\nla Cave TAUPIQUEUR!\\pJe pensais profiter de l’occasion\\npour l’attraper, mais je n’ai aucune\\lidée de comment le réveiller…",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/VermilionCity_PokemonCenter_hns/scripts.inc",
+  "ligne": 27,
+  "ancien": "Un Pokémon endormi bloque l’entrée\\nde la Cave TAUPIQUEUR.\\pC’est l’occasion rêvée de\\nl’attraper… mais comment le\\lréveiller?",
+  "preuve": "486:0 — Un Pokémon s’est endormi en plein\\nmilieu du chemin!\\rJe pensais profiter de l’occasion pour\\nl’attraper, mais je n’ai aucune idée\\fde comment le réveiller...",
+  "note": "SS 486:0 ; « en plein milieu du chemin » → « devant la Cave TAUPIQUEUR » (lieu changé par HnS)."
+ },
+ {
+  "msgid": "How disappointing…\\pCome back if you want to listen.",
+  "msgstr": "Pfff… C’est nul…\\pReviens me voir si tu changes d’avis!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/VermilionCity_FanClub_hns/scripts.inc",
+  "ligne": 127,
+  "ancien": "Quel dommage…\\pRevenez si vous voulez écouter.",
+  "preuve": "488:6 — Pfff... C’est nul...\\rReviens me voir si tu changes d’avis!",
+  "note": "SS 488:6 tel quel (même réplique du Fan Club)."
+ },
+ {
+  "msgid": "Look at my darling BAYLEEF!\\pThe leaf on its head is so cute!",
+  "msgstr": "Regarde donc mon MACRONIUM!\\pLa feuille sur sa tête est\\nsi mignonne!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/VermilionCity_FanClub_hns/scripts.inc",
+  "ligne": 162,
+  "ancien": "Regarde mon MACRONIUM chéri!\\pLa feuille sur sa tête est\\ntrop mignonne!",
+  "preuve": "488:14 — Regarde donc mon MACRONIUM!\\nLa feuille sur sa tête est si mignonne!",
+  "note": "SS 488:14 tel quel, coupure \\p de HnS."
+ },
+ {
+  "msgid": "We exchange your COINS for prizes.",
+  "msgstr": "Vous pouvez échanger vos Jetons\\ncontre des lots.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/CeladonCity_GameCorner_PrizeRoom_Frlg/scripts.inc",
+  "ligne": 394,
+  "ancien": "Vos Jetons contre des lots.",
+  "preuve": "509:18 — Vous pouvez échanger vos Jetons\\ncontre de beaux Pokémon! {YESNO 0}",
+  "note": "SS 509:18 ; « de beaux Pokémon » → « des lots » (prizes)."
+ },
+ {
+  "msgid": "MR. FUJI does live here but he's\\naway now. He should be at the\\lSOUL HOUSE.",
+  "msgstr": "La maison de M. Fuji est bien ici,\\nmais il est absent pour le moment.\\lIl est parti à la Maison des Souvenirs.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/LavenderTown_House1_hns/scripts.inc",
+  "ligne": 31,
+  "ancien": "M. FUJI habite bien ici, mais il\\nest absent. Il doit être à la\\lMAISON DES AMES.",
+  "preuve": "478:0 — La maison de M. Fuji est bien ici,\\nmais il est absent pour le moment.\\rIl est parti à la Maison des Souvenirs.",
+  "note": "SS 478:0 tel quel. SOUL HOUSE = « Maison des Souvenirs » dans SS (panneau 475:7) ; le panneau HnS (LavenderTown_hns) est traduit « MAISON DES AMES » dans le .po : à aligner (glossaire)."
+ },
+ {
+  "msgid": "Ah! I can see that you're\\nserious.",
+  "msgstr": "Ah! Quel sérieux!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/OlivineCity_Lighthouse_hns/scripts.inc",
+  "ligne": 111,
+  "ancien": "Ah! Je vois que tu ne plaisantes\\npas.",
+  "preuve": "728:1177 — Ah! Quel sérieux!",
+  "note": "SS 728:1177 tel quel."
+ },
+ {
+  "msgid": "I travel the world to train my\\nPOKéMON. I wish to battle you.",
+  "msgstr": "Je parcours le monde pour entraîner\\nmes Pokémon.\\lAccorde-moi cette passe d’armes!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/OlivineCity_Lighthouse_hns/scripts.inc",
+  "ligne": 165,
+  "ancien": "Je parcours le monde pour entraîner\\nmes Pokémon. Affrontons-nous!",
+  "preuve": "728:1173 — Je parcours le monde pour entraîner\\nmes Pokémon.\\fAccorde-moi cette passe d’armes!\\r",
+  "note": "SS 728:1173 tel quel (\\f → \\l)."
+ },
+ {
+  "msgid": "Hey, brat! You don't belong here!\\nGet lost already!",
+  "msgstr": "Oh! Toi! T’as rien à faire ici!\\nDu vent!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/GoldenrodCity_hns/scripts.inc",
+  "ligne": 394,
+  "ancien": "Hé, minus! T’as rien à faire ici!\\nAllez, dégage!",
+  "preuve": "581:20 — Oh! Toi!\\nT’as rien à faire ici!\\fDu vent!",
+  "note": "SS 581:20 tel quel."
+ },
+ {
+  "msgid": "It's this machine that's causing\\nall the problems.\\pI don't see a switch on it…\\pWe have no choice. We have to\\nmake all the ELECTRODE faint.\\pThat should stop this machine\\nfrom transmitting that strange\\lsignal.\\pIt's no fault of the POKéMON, so\\nit makes me feel guilty.\\p{PLAYER}, let's split the job.",
+  "msgstr": "Voilà la machine qui cause tous\\nces problèmes.\\pJe ne vois pas d’interrupteur…\\pNous n’avons pas le choix: il faut\\nmettre K.O. tous les ELECTRODE.\\pCela devrait arrêter cette machine\\net du même coup le signal.\\pCe n’est pourtant pas de leur faute,\\nles pauvres…\\p{PLAYER}, partageons-nous la tâche.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/RocketHideout_B2F_hns/scripts.inc",
+  "ligne": 617,
+  "ancien": "C’est cette machine qui cause\\ntous ces problèmes.\\pJe ne vois aucun interrupteur…\\pPas le choix. Il faut mettre tous\\nles ELECTRODE K.O.\\pÇa devrait empêcher la machine\\nd’émettre cet étrange signal.\\pCes Pokémon n’y sont pour rien,\\nj’en ai des remords.\\p{PLAYER}, partageons-nous la tâche.",
+  "preuve": "113:13 — Voilà la machine...\\nJe ne vois pas d’interrupteur.\\rNous n’avons pas le choix: il faut\\nmettre K.O. tous les ELECTRODE.\\rCela devrait arrêter cette machine\\net du même coup le signal.\\rCe n’est pourtant pas de leur faute,\\nles pauvres...\\r{STRVAR_1 3, 0, 0}. Je prends à droite,\\ncharge-toi de la gauche.\\r",
+  "note": "SS 113:13 ; « Voilà la machine… » complété (« qui cause tous ces problèmes »), dernière phrase HnS (« let’s split the job ») au lieu de « Je prends à droite… »."
+ },
+ {
+  "msgid": "LT.SURGE recognized my potential\\nwith electric POKéMON.\\pThink you can beat me?",
+  "msgstr": "Le Major Bob a foi en mes talents de\\nDresseur de Pokémon Electrik.\\pTu crois pouvoir me battre?",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/VermilionCity_Gym_hns/scripts.inc",
+  "ligne": 360,
+  "ancien": "Le MAJOR BOB a vu mon talent pour\\nles Pokémon électriques.\\pTu crois pouvoir me battre?",
+  "preuve": "728:339 — Le Major Bob a foi en mes talents de\\nDresseur de Pokémon Electrik.\\fTu crois pouvoir me battre?\\r",
+  "note": "SS 728:339 tel quel, coupure \\p de HnS."
+ },
+ {
+  "msgid": "I can do only one haircut a day.\\pSorry, but I'm all done for today.",
+  "msgstr": "Je ne fais qu’un toilettage par jour.\\pDésolé, c’est fini pour aujourd’hui!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/GoldenrodCity_UndergroundTunnel_hns/scripts.inc",
+  "ligne": 347,
+  "ancien": "Je ne fais qu’une coupe par jour.\\pDésolé, mais j’ai fini pour\\naujourd’hui.",
+  "preuve": "117:16 — Je ne fais qu’un toilettage par jour.\\nDésolé, c’est fini pour aujourd’hui!",
+  "note": "SS 117:16 tel quel, coupure \\p de HnS."
+ },
+ {
+  "msgid": "There are two kinds of people.\\pThose who have style, and those\\nwho don't.\\pWhat kind of person are you?",
+  "msgstr": "Il existe 2 types de personnes.\\pCelles qui ont du goût, et celles\\nqui n’en ont pas.\\pToi… Tu appartiens à quel type?",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/UnionCave_B2F_hns/scripts.inc",
+  "ligne": 53,
+  "ancien": "Il y a deux sortes de gens.\\pCeux qui ont du style, et ceux\\nqui n’en ont pas.\\pEt toi, t’es de quelle sorte?",
+  "preuve": "728:1146 — Il existe 2 types de personnes.\\nCelles qui ont du goût, et celles qui\\fn’en ont pas.\\rToi... Tu appartiens à quel type?\\r",
+  "note": "SS 728:1146 tel quel, découpage HnS."
+ },
+ {
+  "msgid": "Your POKéMON style is stunning and\\ncolorful, I admit.\\pYou'll just keep getting better!",
+  "msgstr": "Ton goût en matière de Pokémon est\\nindiscutable!\\pTu as beaucoup d’avenir!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/UnionCave_B2F_hns/scripts.inc",
+  "ligne": 62,
+  "ancien": "J’avoue, ton style de combat est\\nsuperbe et plein de panache.\\pTu vas continuer à progresser!",
+  "preuve": "728:1148 — Ton goût en matière de Pokémon est\\nindiscutable! Tu as beaucoup d’avenir!\\n",
+  "note": "SS 728:1148 tel quel (sans le \\n final, absent de HnS), coupure \\p de HnS."
+ },
+ {
+  "msgid": "… … … … … … … …\\pYou got a POKéMON at the LAB.\\pWhat a waste.\\nA wimp like you.\\p… … … … … … … …\\pDon't you get what I'm saying?\\nWell, I too, have a good POKéMON.\\pI'll show you what I mean!",
+  "msgstr": "… … … … … … … …\\pToi, t’as reçu un des Pokémon\\ndu Laboratoire…\\pQuel gâchis de le donner à une\\nmauviette comme toi…\\p… … … … … … … …\\pQuoi? Tu comprends pas quand\\non te parle?\\lMoi aussi, j’ai un bon Pokémon.\\pJe vais te montrer comment\\non s’en sert!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/CherrygroveCity_hns/scripts.inc",
+  "ligne": 329,
+  "ancien": "… … … … … … … …\\pTu as eu un Pokémon au LABO.\\pQuel gâchis.\\nPour une mauviette comme toi.\\p… … … … … … … …\\pTu piges pas ce que je dis?\\nEh bien, moi aussi, j’ai un bon Pokémon.\\pJe vais te montrer ce que je veux dire!",
+  "preuve": "550:13 — ...\\rToi, t’as reçu un des Pokémon\\ndu Laboratoire...\\rQuel gâchis de le donner à une\\nmauviette comme toi...\\r...\\rQuoi? Tu comprends pas quand\\non te parle?\\r... Tu ne me laisses pas le choix.\\nMoi aussi, j’ai un bon Pokémon, et je\\fvais te montrer comment on s’en sert.\\r",
+  "note": "SS 550:13 ; « Tu ne me laisses pas le choix » retiré (absent de HnS), découpage HnS."
+ },
+ {
+  "msgid": "Wow, you have a POKéDEX!\\pThat is just so awesome.",
+  "msgstr": "Ce serait pas un Pokédex\\nque tu as là?\\pQuelle chance! Qu’il est beau!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/OlivineCity_hns/scripts.inc",
+  "ligne": 300,
+  "ancien": "Waouh, tu as un Pokédex!\\pC’est trop génial.",
+  "preuve": "604:3 — Ce serait pas un Pokédex\\nque tu as là?\\fQuelle chance! Qu’il est beau!",
+  "note": "SS 604:3 tel quel : il parle bien du Pokédex comme HnS."
+ },
+ {
+  "msgid": "OLIVINE LIGHTHOUSE\\nAlso known as the GLITTER\\lLIGHTHOUSE",
+  "msgstr": "Phare d’Oliville\\nAussi connu sous le nom de\\lphare étincelant",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/OlivineCity_hns/scripts.inc",
+  "ligne": 329,
+  "ancien": "Phare d’Oliville\\nAussi appelé le Phare\\lSCINTILLANT",
+  "preuve": "604:8 — Phare d’Oliville\\rAussi connu sous le nom de\\nphare étincelant",
+  "note": "Panneau SS 604:8 tel quel, sur trois lignes comme HnS."
+ },
+ {
+  "msgid": "You're not going any farther!\\pI don't show mercy to my enemies,\\nnot even brats!",
+  "msgstr": "Halte! Pas un pas de plus!\\pPas de quartier pour mes adversaires,\\nmême les gamins!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/GoldenrodCity_UndergroundStorage_hns/scripts.inc",
+  "ligne": 64,
+  "ancien": "Tu n’iras pas plus loin!\\pJe n’ai aucune pitié pour mes ennemis,\\nmême pour les morveux!",
+  "preuve": "728:1262 — Halte! Pas un pas de plus!\\rPas de quartier pour mes adversaires,\\nmême les gamins!\\r",
+  "note": "SS 728:1262 tel quel."
+ },
+ {
+  "msgid": "KURT: I make BALLS from BERRIES.\\pCollect them from trees and bring\\n'em to me.\\pI'll make POKé BALLS out of them.",
+  "msgstr": "Fargas: J’utilise des Baies pour\\nfabriquer des Poké Balls spéciales.\\pCueilles-en sur les arbres et\\napporte-les-moi.\\pEt après, laisse-moi faire!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/AzaleaTown_KurtsHouse_hns/scripts.inc",
+  "ligne": 296,
+  "ancien": "Fargas: Je fabrique des BALLS\\navec des Baies.\\pCueille-les sur les arbres et\\napporte-les-moi.\\pJ’en ferai des Poké Balls.",
+  "preuve": "571:3 — Fargas: J’utilise des Noigrumes pour\\nfabriquer des Poké Balls spéciales.\\rCueilles-en sur les Noigrumiers et\\napporte-les-moi.\\rEt après, laisse-moi faire!",
+  "note": "SS 571:3 ; Noigrumes → Baies, Noigrumiers → arbres (HnS fait les Balls avec des Baies)."
+ },
+ {
+  "msgid": "KURT: You have BERRIES for me?\\pFine! I'll turn them into POKé BALLS.",
+  "msgstr": "Fargas: Oh, mais tu as des Baies!\\pAllez, laisse-moi faire!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/AzaleaTown_KurtsHouse_hns/scripts.inc",
+  "ligne": 302,
+  "ancien": "Fargas: Tu as des Baies pour moi?\\pParfait! Je vais en faire des\\nPoké Balls.",
+  "preuve": "571:4 — Fargas: Oh, mais tu as des Noigrumes!\\nAllez, laisse-moi faire!\\r",
+  "note": "SS 571:4 ; Noigrumes → Baies."
+ },
+ {
+  "msgid": "Do you know about the MAGNET\\nTRAIN?\\pIt's a railway that goes to\\nGOLDENROD in JOHTO.",
+  "msgstr": "Tu connais le Train Magnétique?\\pC’est un train qui va jusqu’à\\nDoublonville, à Johto.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/VermilionCity_House2_hns/scripts.inc",
+  "ligne": 13,
+  "ancien": "Tu connais le TRAIN\\nMAGNETIQUE?\\pC’est une ligne qui va jusqu’à\\nDoublonville, à JOHTO.",
+  "preuve": "489:0 — Tu connais le Train Magnétique?\\rC’est un train qui relie Kanto et Johto.",
+  "note": "SS 489:0 ; « qui relie Kanto et Johto » → « qui va jusqu’à Doublonville, à Johto » (HnS)."
+ },
+ {
+  "msgid": "A shiny new BICYCLE!",
+  "msgstr": "Une Bicyclette toute neuve!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/CeruleanCity_BikeShop_Frlg/scripts.inc",
+  "ligne": 130,
+  "ancien": "Une Bicyclette neuve et rutilante!",
+  "preuve": "584:5 — C’est une Bicyclette toute neuve!",
+  "note": "SS 584:5 sans « C’est » (HnS : exclamation seule)."
+ },
+ {
+  "msgid": "What kinds of BALLS do you use?",
+  "msgstr": "Quelles Poké Balls utilises-tu?",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route35_hns/scripts.inc",
+  "ligne": 155,
+  "ancien": "Tu utilises quelles sortes de BALLS?",
+  "preuve": "728:719 — Quelles Poké Balls utilises-tu?\\r",
+  "note": "SS 728:719 tel quel."
+ },
+ {
+  "msgid": "BLUE: Yo! Finally got here, huh?\\pI wasn't in the mood at CINNABAR,\\pbut now I'm ready to battle you.\\p…\\pYou're telling me you conquered all\\nthe GYMS in JOHTO?\\pHeh! JOHTO's GYMS must be pretty\\npathetic then.\\pHey, don't worry about it.\\pI'll know if you are good or not by\\nbattling you right now.\\pReady, JOHTO CHAMP?",
+  "msgstr": "Blue: Ah! Te voilà enfin!\\pJ’étais pas trop motivé à Cramois’Ile,\\pmais là, je crève d’envie de me battre!\\p…\\pTu dis quoi? Tu as conquis\\ntoutes les Arènes de Johto?\\pHé! Ils doivent être bien nuls,\\nà Johto!\\pBah, on s’en fiche.\\pC’est au combat qu’on évalue\\nla force d’un Dresseur!\\pOn y va, Maître de Johto?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/ViridianCity_Gym_hns/scripts.inc",
+  "ligne": 57,
+  "ancien": "Blue: Yo! Enfin arrivé, hein?\\pJe n’étais pas d’humeur à\\nCramois’Ile,\\pmais maintenant, je suis prêt.\\p…\\pTu me dis que tu as conquis toutes\\nles Arènes de JOHTO?\\pHé! Elles doivent être bien\\nminables, alors.\\pT’en fais pas.\\pJe vais savoir ce que tu vaux en\\nt’affrontant tout de suite.\\pPrêt, Maître DE JOHTO?",
+  "preuve": "454:0 — Blue: Ah! Te voilà enfin!\\rJ’étais pas trop motivé à Cramois’Ile,\\nmais là, je crève d’envie de me battre!\\r...\\rTu dis quoi? Tu as conquis\\ntoutes les Arènes de Johto?\\rHahaha! Ils doivent être bien nuls,\\nà Johto!\\rBah, on s’en fiche.\\nC’est au combat qu’on évalue\\fla force d’un Dresseur!\\r",
+  "note": "SS 454:0 dans le découpage HnS ; « Hahaha! » → « Hé! » ; ajout HnS « Ready, JOHTO CHAMP? » rendu neutre. Le patch accordait au masculin (« Enfin arrivé », « Prêt »)."
+ },
+ {
+  "msgid": "BLUE: What?\\pHow the heck did I lose to you?\\p…\\pTch, all right… Here, take this--it's\\nEARTHBADGE.",
+  "msgstr": "Blue: Impossible!\\pMoi, perdre contre un Dresseur pareil!\\p…\\p… Pfff… Tant pis.\\nTiens, prends ce Badge Terre.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/ViridianCity_Gym_hns/scripts.inc",
+  "ligne": 71,
+  "ancien": "Blue: Quoi?\\pComment j’ai pu perdre contre toi?\\p…\\pTss, bon… Tiens, prends ça.\\nC’est le Badge TERRE.",
+  "preuve": "454:1 — Blue: Impossible!\\rMoi, perdre contre un Dresseur pareil!\\n...\\r... Pfff... Tant pis.\\nTiens, prends ce Badge Terre.\\r",
+  "note": "SS 454:1 tel quel, découpage HnS."
+ },
+ {
+  "msgid": "Open one shutter, another closes.\\pBet you can't get where you want!",
+  "msgstr": "Quand on ouvre un volet, cela en\\nferme un autre.\\pTu crois pouvoir arriver\\nà ton objectif?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/GoldenrodCity_UndergroundSwitches_hns/scripts.inc",
+  "ligne": 562,
+  "ancien": "J’ouvre un volet, un autre se ferme.\\pTu n’arriveras jamais où tu veux!",
+  "preuve": "728:1250 — Quand on ouvre une porte, cela en\\nferme une autre.\\fTu crois pouvoir arriver à ton objectif?\\r",
+  "note": "SS 728:1250 ; « porte » → « volet » (shutter, HnS)."
+ },
+ {
+  "msgid": "You must have ice in your veins to\\ndiss TEAM ROCKET.",
+  "msgstr": "T’as un sacré courage pour t’attaquer\\nà la Team Rocket!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/GoldenrodCity_UndergroundSwitches_hns/scripts.inc",
+  "ligne": 619,
+  "ancien": "Faut avoir du sang-froid pour\\nnarguer la Team Rocket!",
+  "preuve": "728:1255 — T’as un sacré courage pour t’attaquer\\nà la Team Rocket!",
+  "note": "SS 728:1255 tel quel."
+ },
+ {
+  "msgid": "BILL: I knew you'd come through!\\pWay to go! You're the real deal!\\pOK, I'm counting on you.\\pTake good care of it!",
+  "msgstr": "Léo: Je savais que je pouvais\\ncompter sur toi!\\pT’es super!\\pAllez, j’te fais confiance,\\nprends-en soin!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/GoldenrodCity_BillsHouse_hns/scripts.inc",
+  "ligne": 73,
+  "ancien": "Léo: Je savais que tu dirais oui!\\pBravo! T’es un vrai de vrai!\\pBon, je compte sur toi.\\pPrends-en bien soin!",
+  "preuve": "586:1 — Léo: Je savais que je pouvais\\ncompter sur toi!\\fT’es super!\\rAllez, j’te fais confiance,\\nprends-en soin!\\r",
+  "note": "SS 586:1 tel quel, découpage HnS."
+ },
+ {
+  "msgid": "LAKE OF RAGE…\\pThe appearance of a GYARADOS\\nswarm…\\pI smell a conspiracy. I know it!",
+  "msgstr": "Le Lac Colère…\\pUne horde de LEVIATOR…\\pÇa sent le mystère à plein nez…",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/EcruteakCity_PokemonCenter_hns/scripts.inc",
+  "ligne": 138,
+  "ancien": "Le Lac Colère…\\pUne horde de LEVIATOR qui\\napparaît…\\pÇa sent le complot. J’en suis sûr!",
+  "preuve": "615:4 — Le Lac Colère...\\nLe LEVIATOR rouge...\\fÇa sent le mystère à plein nez...",
+  "note": "SS 615:4 ; « Le LEVIATOR rouge » → « Une horde de LEVIATOR » (swarm, changé par HnS)."
+ },
+ {
+  "msgid": "Want to give a nickname to\\nthe {STR_VAR_1} you received?",
+  "msgstr": "Voulez-vous donner un surnom au\\n{STR_VAR_1} obtenu?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+  "ligne": 934,
+  "ancien": "Donner un surnom au\\n{STR_VAR_1} reçu?",
+  "preuve": "543:8 — Voulez-vous donner un surnom au\\n{STRVAR_1 0, 1, 0} obtenu? {YESNO 0}",
+  "note": "Texte SS 543:8, variable convertie, {YESNO} supprimé."
+ },
+ {
+  "msgid": "Whaaat? You don't like to fish!?\\nThat's incomprehensible!",
+  "msgstr": "M’enfin? Tu n’aimes pas la pêche?\\nJ’peux pas y croire!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/OlivineCity_House3_hns/scripts.inc",
+  "ligne": 52,
+  "ancien": "Quoiii? T’aimes pas la pêche!?\\nC’est incompréhensible!",
+  "preuve": "610:4 — M’enfin?\\nTu n’aimes pas la pêche?\\fJ’peux pas y croire!",
+  "note": "SS 610:4 tel quel."
+ },
+ {
+  "msgid": "How are things?\\nDid you land the big one?",
+  "msgstr": "Alors?\\nÇa mord?",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/OlivineCity_House3_hns/scripts.inc",
+  "ligne": 56,
+  "ancien": "Alors, ça mord?\\nTu as attrapé le gros lot?",
+  "preuve": "610:5 — Alors?\\nÇa mord?",
+  "note": "SS 610:5 tel quel."
+ },
+ {
+  "msgid": "Did you see the shrine honoring\\nthe protector?\\pIt watches over the FOREST from\\nacross time.\\pI think that it must be a\\nGRASS-type POKéMON.",
+  "msgstr": "As-tu vu l’autel en l’honneur du\\ngardien de la forêt?\\pIl protège le Bois aux Chênes depuis\\nla nuit des temps.\\pJe suis sûre que c’est un Pokémon de\\ntype Plante.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Gate_IlexForest_Route34_hns/scripts.inc",
+  "ligne": 23,
+  "ancien": "Tu as vu l’autel du protecteur?\\pIl veille sur la FORET à travers\\nles âges.\\pA mon avis, ça doit être un\\nPokémon de type Plante.",
+  "preuve": "386:4 — As-tu vu l’autel en l’honneur du\\ngardien de la forêt?\\rIl protège le Bois aux Chênes depuis\\nla nuit des temps.\\rJe suis sûre que c’est un Pokémon de\\ntype Plante.",
+  "note": "SS 386:4 tel quel (Fillette : « sûre » correct)."
+ },
+ {
+  "msgid": "Lullabies on the radio may make\\nPOKéMON sleep.",
+  "msgstr": "Les berceuses diffusées à la radio\\npeuvent donner sommeil aux Pokémon.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/GoldenrodCity_RadioTower_2F_hns/scripts.inc",
+  "ligne": 159,
+  "ancien": "Les berceuses à la radio peuvent\\nendormir les Pokémon.",
+  "preuve": "66:1 — Les berceuses diffusées à la radio\\ndonnent sommeil aux Pokémon sauvages.",
+  "note": "SS 66:1 ; « sauvages » retiré et « peuvent » ajouté (HnS : may make POKéMON sleep)."
+ },
+ {
+  "msgid": "The MAGNET TRAIN is a super-modern\\nrail liner that uses electricity\\pand magnets to attain incredible\\nspeed.\\pHowever, if there isn't any\\nelectricity…",
+  "msgstr": "Le Train Magnétique est un train\\nsuper moderne qui utilise\\ll’énergie magnétique pour aller\\là toute vitesse.\\pMais sans électricité…",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/SaffronCity_TrainStation_hns/scripts.inc",
+  "ligne": 323,
+  "ancien": "Le TRAIN MAGNETIQUE est un train\\nultramoderne qui utilise l’électricité\\pet des aimants pour atteindre une\\nvitesse incroyable.\\pMais s’il n’y a pas\\nd’électricité…",
+  "preuve": "535:8 — Le Train Magnétique est un train super\\nmoderne qui utilise l’énergie magnétique\\fpour aller à toute vitesse.\\rMais sans électricité, ce n’est plus\\nqu’un tas de métal...",
+  "note": "SS 535:8 ; fin raccourcie comme HnS (« ce n’est plus qu’un tas de métal » retiré)."
+ },
+ {
+  "msgid": "Before the MAGNET TRAIN STATION\\nwas built, there was a house there.\\pA little girl named COPYCAT used\\nto live there.",
+  "msgstr": "Avant que la gare ne soit construite\\nici, il y avait la maison d’une petite\\lfille qu’on appelait la Copieuse.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/SaffronCity_TrainStation_hns/scripts.inc",
+  "ligne": 336,
+  "ancien": "Avant la gare du TRAIN MAGNETIQUE,\\nil y avait une maison ici.\\pUne petite fille nommée Copieuse\\ny habitait.",
+  "preuve": "535:10 — Avant que la gare ne soit\\nconstruite ici, il y avait la maison d’une\\fpetite fille qu’on appelait la Copieuse.",
+  "note": "SS 535:10 tel quel, remis en lignes ≤ 198 px (une boîte au lieu de deux)."
+ },
+ {
+  "msgid": "Hi. Do you have a rail PASS?\\nI have one.\\pAll the people in SAFFRON who ride\\nthe MAGNET TRAIN have PASSES.",
+  "msgstr": "Bonjour. As-tu un Passe Train?\\nMoi, j’en ai un!\\pTous ceux de Safrania en ont un pour\\nutiliser le Train Magnétique!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/SaffronCity_TrainStation_hns/scripts.inc",
+  "ligne": 342,
+  "ancien": "Bonjour. Tu as un Passe Train?\\nMoi, j’en ai un.\\pTous les gens de Safrania qui\\nprennent le train en ont un.",
+  "preuve": "535:11 — Bonjour. As-tu un Passe?\\rMoi, j’en ai un!\\rTous ceux de Safrania en ont un pour\\nutiliser le Train Magnétique!",
+  "note": "SS 535:11 ; « un Passe » → « un Passe Train » (rail PASS) ; découpage HnS."
+ },
+ {
+  "msgid": "The weird tree doesn't like the\\nSQUIRTBOTTLE!\\pThe weird tree attacked!",
+  "msgstr": "L’arbre étrange n’aime pas\\nle CARAPUCE à O!\\pIl vous attaque!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route36_hns/scripts.inc",
+  "ligne": 242,
+  "ancien": "L’arbre bizarre n’aime pas la\\nCARAPUCE à O!\\pL’arbre bizarre attaque!",
+  "preuve": "390:2 — L’arbre étrange n’aime pas\\nle CARAPUCE à O!\\rIl vous attaque!\\r",
+  "note": "SS 390:2 tel quel."
+ },
+ {
+  "msgid": "ROUTE 46\\nMOUNTAIN RD. AHEAD",
+  "msgstr": "Route 46\\nDevant: Chemin de Montagne",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route46_hns/scripts.inc",
+  "ligne": 113,
+  "ancien": "Route 46\\nROUTE DE MONTAGNE Plus LOIN",
+  "preuve": "406:0 — Route 46\\nDevant: Chemin de Montagne",
+  "note": "Panneau SS 406:0 tel quel (le .po avait « ROUTE DE MONTAGNE Plus LOIN »)."
+ },
+ {
+  "msgid": "AZALEA TOWN POKéMON GYM\\pBUGSY'S CERTIFIED TRAINERS:\\n{PLAYER}",
+  "msgstr": "Arène d’Ecorcia\\pDresseurs estimés par Hector:\\n{PLAYER}",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/AzaleaTown_Gym_hns/scripts.inc",
+  "ligne": 665,
+  "ancien": "Arène Pokémon D’ECORCIA\\pDresseurs RECONNUS PAR Hector:\\n{PLAYER}",
+  "preuve": "566:3 — Arène d’Ecorcia\\rChampion: Hector\\nDresseur estimé:\\f{STRVAR_1 3, 0, 0}",
+  "note": "SS 566:3 remis dans la structure HnS (comme B:274)."
+ },
+ {
+  "msgid": "AMY: Hi! Are you challenging\\nthe LEADER? No way!",
+  "msgstr": "Lia: Tu veux affronter notre\\nChampion? Mais c’est pas possible,\\lpas possible du tout, ça!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/AzaleaTown_Gym_hns/scripts.inc",
+  "ligne": 762,
+  "ancien": "AMY: Salut! Tu défies le\\nChampion? C’est pas vrai!",
+  "preuve": "728:137 — Lia: Tu veux affronter notre\\nChampion? Mais c’est pas possible,\\fpas possible du tout, ça!\\r",
+  "note": "même sens ; interlocutrice AMY = « Lia » dans SoulSilver (728:137) ; à harmoniser avec « AMY & MAY » du même script (Lia & Léa ?)"
+ },
+ {
+  "msgid": "BLAINE: I did lose this time, but\\nI'm going to win the next time.\\pWhen I rebuild my CINNABAR GYM,\\nwe'll have to have a rematch.",
+  "msgstr": "Auguste: Aujourd’hui, j’ai perdu, mais\\nje rebâtirai l’Arène de Cramois’Ile,\\let la prochaine fois, je gagnerai!\\pJ’espère qu’on se reverra!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/SeafoamIslands_Gym_hns/scripts.inc",
+  "ligne": 101,
+  "ancien": "Auguste: J’ai perdu, cette fois.\\nMais la prochaine, je gagnerai!\\pQuand j’aurai rebâti mon Arène\\nde Cramois’Ile, on remettra ça!",
+  "preuve": "53:4 — Auguste: Aujourd’hui, j’ai perdu, mais\\nje rebâtirai l’Arène de Cramois’Ile,\\fet la prochaine fois, je gagnerai!\\rJ’espère qu’on se reverra!",
+  "note": "même sens (perdu / reconstruire l’Arène / revanche) ; texte SS gardé dans son ordre, 2 boîtes comme HnS"
+ },
+ {
+  "msgid": "Oh? You managed to get this far?\\pYou must be quite the trainer.\\pWe intend to take over this RADIO\\nSTATION and announce our comeback.\\pThat should bring our boss GIOVANNI\\nback from his solitary training.\\pWe are going to regain our former\\nglory...\\pI won't allow you to interfere with\\nour meticulous plans!",
+  "msgstr": "Eh bien…\\nTu as pu parvenir bien loin, dis-moi…\\pTu dois avoir un sacré talent.\\pNous avons pris d’assaut cette\\nstation pour annoncer au monde\\lnotre retour.\\pNous sommes sûrs que Maître Giovanni,\\nqui est parti s’entraîner quelque\\lpart, entendra notre appel et\\lreviendra!\\pNous restaurerons notre gloire\\npassée!\\pEt tu ne pourras pas nous en\\nempêcher!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/GoldenrodCity_RadioTower_5F_hns/scripts.inc",
+  "ligne": 344,
+  "ancien": "Oh? Tu as pu venir jusqu’ici?\\pTu dois avoir un sacré talent.\\pNous comptons prendre cette\\nSTATION Radio pour annoncer\\lnotre retour.\\pCela fera revenir notre boss\\nGIOVANNI de son entraînement\\len solitaire.\\pNous allons retrouver notre\\ngloire d’antan…\\pJe ne te laisserai pas saboter\\nnos plans si minutieux!",
+  "preuve": "70:0 — Amos: Eh bien...\\nTu as pu parvenir bien loin, dis-moi...\\rTu dois être un Dresseur plutôt doué.\\rNous avons pris d’assaut cette station\\npour annoncer au monde notre retour.\\rNous sommes sûrs que Maître Giovanni,\\nqui est parti s’entraîner quelque part,\\fentendra notre appel et reviendra!\\rNous restaurerons notre gloire passée!\\nEt tu ne pourras pas nous en empêcher!\\r",
+  "note": "même sens ; « Amos: » retiré (pas d’interlocuteur dans HnS) ; « un Dresseur plutôt doué » (accord masculin visant le joueur) remplacé par la phrase neutre du .po ; 6 boîtes comme HnS"
+ },
+ {
+  "msgid": "DIRECTOR: Hello, {PLAYER}!\\pYou know, I love POKéMON.\\pI built this RADIO TOWER so I could\\nexpress my love of POKéMON.\\pIt would be nice if people enjoyed\\nour programs.",
+  "msgstr": "Directeur: Bonjour, {PLAYER}!\\pTu sais, j’adore les Pokémon!\\pEt j’ai créé cette tour pour propager\\ncet amour…\\pJe suis heureux quand les gens me\\ndisent qu’ils aiment nos émissions!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/GoldenrodCity_RadioTower_5F_hns/scripts.inc",
+  "ligne": 423,
+  "ancien": "DIRECTEUR: Bonjour, {PLAYER}!\\pTu sais, j’adore les Pokémon.\\pJ’ai bâti cette Tour Radio pour\\nexprimer mon amour des Pokémon.\\pJ’espère que nos émissions font\\nplaisir aux gens.",
+  "preuve": "69:6 — Directeur: Ah, c’est toi!\\nTu sais, j’adore les Pokémon!\\rEt j’ai créé cette tour pour propager\\ncet amour...\\rJe suis heureux quand les gens me\\ndisent qu’ils aiment nos émissions!",
+  "note": "même sens ; « Ah, c’est toi! » → « Bonjour, {PLAYER}! » (HnS) ; 4 boîtes comme HnS"
+ },
+ {
+  "msgid": "Hey, you! Forget you see me,\\nokay?\\pYou see, hear, know nothing,\\pokay? Bye, kid! Nothing!\\pBye-bye a go-go!",
+  "msgstr": "Hey you!\\nForget que tu m’as vu!\\pYou n’as rien seen!\\nRien heard! Rien known!\\pBye-bye!\\pBye-bye forever!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/CeruleanCity_Gym_hns/scripts.inc",
+  "ligne": 228,
+  "ancien": "Hé, toi! Tu m’as pas vu,\\nd’accord?\\pTu vois rien, entends rien, sais rien,\\pOK? Salut, minus! Rien de rien!\\pBye-bye, à la revoyure!",
+  "preuve": "469:3 — Hey you!\\nForget que tu m’as vu!\\rYou n’as rien seen!\\nRien heard!\\fRien known!\\rBye-bye!\\nBye-bye forever!\\r",
+  "note": "franglais officiel du Rocket de SoulSilver (mots anglais voulus : ANGLAIS éventuel justifié) ; même sens, 4 boîtes comme HnS"
+ },
+ {
+  "msgid": "Yo! CHAMP in making!\\pSince MISTY was away, I went out\\pfor some fun too. He-he-he.",
+  "msgstr": "Salut!\\nFutur Maître!\\pComme Ondine était partie s’amuser,\\pje suis allé faire de même.\\nHé hé hé!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/CeruleanCity_Gym_hns/scripts.inc",
+  "ligne": 313,
+  "ancien": "Yo! Futur Maître!\\pComme Ondine était absente,\\pmoi aussi, je suis allé m’amuser.\\nHé hé hé.",
+  "preuve": "469:14 — Salut!\\nFuture légende!\\rComme Ondine était partie s’amuser,\\nje suis allé faire de même.\\fHé hé hé!",
+  "note": "« Future légende » → « Futur Maître » (HnS : CHAMP in making) ; découpage en 3 boîtes de HnS"
+ },
+ {
+  "msgid": "TM 64 contains........\\ptick-\\n            tock\\ltick-\\l            tock\\ltick-\\l            tock\\ltick-\\l            tock\\ltick.....\\l......................\\l......................\\lKA-BOOM!!!",
+  "msgstr": "La CT64 contient…\\pTic\\n            Tac\\lTic\\l            Tac\\lTic\\l            Tac\\lTic\\l            Tac\\lTic…\\l…………\\l…………\\lKA-BOUM!!!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/SaffronCity_Tunnel_NS_hns/scripts.inc",
+  "ligne": 63,
+  "ancien": "La CT64 contient……\\ptic- tac tic- tac tic- tac tic- tac\\ntic…… ………………… ………………… KA-BOUM!!!",
+  "preuve": "331:5 — La CT64 contient...\\rTic\\n    Tac\\fTic\\f    Tac\\fTic\\f    Tac\\fTic\\f    Tac\\fTic\\f...\\f...\\r",
+  "note": "texte SS + « KA-BOUM!!! » ajouté par HnS ; mise en page en escalier de HnS (le .po actuel tenait sur une ligne trop large)"
+ },
+ {
+  "msgid": "The cops shut down our\\nUNDERGROUND PATH!\\pThat really fries me!",
+  "msgstr": "La police a fermé notre\\nsouterrain!\\pC’est trop injuste!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route8_hns/scripts.inc",
+  "ligne": 48,
+  "ancien": "Les flics ont fermé notre\\nSOUTERRAIN!\\pÇa me fait bouillir!",
+  "preuve": "728:425 — On a fermé notre souterrain!\\nC’est trop injuste!\\r",
+  "note": "« On a fermé » → « La police a fermé » (cops, présent dans HnS et HGSS) ; souterrain en minuscules comme SS"
+ },
+ {
+  "msgid": "We're the KANTO POKéMON FEDERA-\\nTION!\\nRight on!",
+  "msgstr": "On est la “Fédération des Dresseurs\\nde Pokémon de Kanto”!\\lOuais!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route8_hns/scripts.inc",
+  "ligne": 60,
+  "ancien": "On est la FEDERATION Pokémon\\nDE KANTO!\\nOuais, mec!",
+  "preuve": "728:428 — On est la “Fédération des Dresseurs de\\nPokémon de Kanto”. Enchanté!\\r",
+  "note": "nom officiel SS ; « Enchanté! » → « Ouais! » (Right on!) ; 3e ligne en \\l au lieu du 2e \\n de l’anglais (qui sortirait de la fenêtre)"
+ },
+ {
+  "msgid": "The flyer's torn.\\pIt's impossible to read…",
+  "msgstr": "L’affiche est déchirée.\\pC’est impossible de la lire…",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route8_hns/scripts.inc",
+  "ligne": 95,
+  "ancien": "L’affiche est déchirée.\\pImpossible à lire…",
+  "preuve": "338:1 — L’affiche est déchirée.\\nC’est impossible de la lire...",
+  "note": "texte SS, seule la coupure de boîte suit HnS"
+ },
+ {
+  "msgid": "The ELDER's HM lights even\\npitch-black darkness.",
+  "msgstr": "Grâce à la CS de l’Ancien, même les\\nplus noires ténèbres s’illuminent!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/SproutTower_3F_hns/scripts.inc",
+  "ligne": 243,
+  "ancien": "La CS du Sage éclaire même\\nl’obscurité la plus totale.",
+  "preuve": "728:1041 — Grâce à la CT de l’Ancien, même les plus\\nnoires ténèbres s’illuminent!\\r",
+  "note": "CT → CS (HnS : HM) ; l’Ancien = Elder de la Tour Chetiflor (glossaire ANCIEN) ; le .po disait « Sage »"
+ },
+ {
+  "msgid": "BLACKTHORN CITY POKéMON GYM\\pCLAIR'S CERTIFIED TRAINERS:\\n{PLAYER}",
+  "msgstr": "Arène d’Ebènelle\\pChampion: Sandra\\nDresseur estimé:\\l{PLAYER}",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/BlackthornCity_Gym_hns/scripts.inc",
+  "ligne": 439,
+  "ancien": "Arène Pokémon D’EBENELLE\\pDresseurs AGREES PAR Sandra:\\n{PLAYER}",
+  "preuve": "631:11 — Arène d’Ebènelle\\rChampion: Sandra\\nDresseur estimé:\\f{STRVAR_1 3, 0, 0}",
+  "note": "plaque d’Arène au format SoulSilver (Arène de X / Champion: Y / Dresseur estimé: {PLAYER}) ; remplace le patch aux capitales cassées"
+ },
+ {
+  "msgid": "It's a stranger we don't know.",
+  "msgstr": "Quelqu’un qu’on connaît pas!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/DragonsDen_Cavern_hns/scripts.inc",
+  "ligne": 258,
+  "ancien": "C’est un inconnu.",
+  "preuve": "728:1278 — Tiens? Quelqu’un qu’on connaît pas!\\r",
+  "note": "même sens ; « Tiens? » de SS retiré (absent de HnS)"
+ },
+ {
+  "msgid": "....................\\pGIOVANNI: One must acknowledge one's\\ndefeat before he can move on...\\pI will go solo... for now...\\pSo that one day I will form a\\nstronger organization!",
+  "msgstr": "……………………\\pGiovanni: On ne peut pas progresser si\\nl’on refuse d’admettre ses défaites…\\pJe dois m’isoler… pour l’instant…\\pPour bâtir un jour une organisation\\nplus puissante!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route22_hns/scripts.inc",
+  "ligne": 294,
+  "ancien": "……………………\\pGIOVANNI: Il faut savoir reconnaître\\nsa défaite pour aller de l’avant…\\pJe vais continuer seul… pour\\nl’instant…\\pAfin de bâtir un jour une\\norganisation plus puissante!",
+  "preuve": "360:8 — ...\\rOn ne peut pas progresser si l’on\\nrefuse d’admettre ses défaites...\\rJe dois m’isoler pour bâtir une\\norganisation plus puissante.\\r",
+  "note": "texte SS, dernière phrase scindée en 2 boîtes comme HnS avec « pour l’instant » et « un jour » (présents dans HnS) ; interlocuteur Giovanni (graphie SS)"
+ },
+ {
+  "msgid": "Hello...\\nYou're breaking up...\\lI think it depends on my dad.\\lI see...\\nI'll be on my way. See you soon.",
+  "msgstr": "Allô…\\nAh, euh, excuse-moi…\\lJe ne t’entends pas très bien…\\lTout dépend de la décision de mon\\lpère, à ce stade…\\lBien, compris.\\lJe rentre tout de suite.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/SaffronCity_SilphCo_hns/scripts.inc",
+  "ligne": 95,
+  "ancien": "Allô…\\nÇa coupe…\\lJe crois que ça dépend de mon père.\\lJe vois…\\nJ’y vais. A bientôt.",
+  "preuve": "537:14 — Allô...\\nAh, euh, excuse-moi...\\fJe ne t’entends pas très bien...\\rTout dépend de la décision de mon père,\\nà ce stade...\\rBien, compris.\\nJe rentre tout de suite.\\r",
+  "note": "même sens (ça coupe / dépend de mon père / j’y vais) ; une seule boîte comme HnS, \\n tardif de l’anglais remplacé par \\l"
+ },
+ {
+  "msgid": "CIANWOOD CITY POKéMON GYM\\pCHUCK'S CERTIFIED TRAINERS:\\n{PLAYER}",
+  "msgstr": "Arène d’Irisia\\pChampion: Chuck\\nDresseur estimé:\\l{PLAYER}",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/CianwoodGym_hns/scripts.inc",
+  "ligne": 23,
+  "ancien": "Arène Pokémon D’IRISIA\\pDresseurs AGREES PAR Chuck:\\n{PLAYER}",
+  "preuve": "574:14 — Arène d’Irisia\\rChampion: Chuck\\nDresseur estimé:\\f{STRVAR_1 3, 0, 0}",
+  "note": "plaque d’Arène au format SoulSilver (Arène de X / Champion: Y / Dresseur estimé: {PLAYER}) ; remplace le patch aux capitales cassées"
+ },
+ {
+  "msgid": "Fighting POKéMON are afraid of\\npsychics…",
+  "msgstr": "Les Pokémon de type Combat ont peur\\ndes Pokémon qui ont des pouvoirs\\lPsy…",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/CianwoodGym_hns/scripts.inc",
+  "ligne": 216,
+  "ancien": "Les Pokémon Combat ont peur\\ndes Pokémon Psy…",
+  "preuve": "728:183 — Les Pokémon de type Combat ont peur\\ndes Pokémon qui ont des pouvoirs Psy...",
+  "note": "texte SS, même sens"
+ },
+ {
+  "msgid": "MAHOGANY TOWN POKéMON GYM\\pPRYCE'S CERTIFIED TRAINERS:\\n{PLAYER}",
+  "msgstr": "Arène d’Acajou\\pChampion: Frédo\\nDresseur estimé:\\l{PLAYER}",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/MahoganyTown_Gym_hns/scripts.inc",
+  "ligne": 23,
+  "ancien": "Arène Pokémon D’ACAJOU\\pDresseurs AGREES PAR Frédo:\\n{PLAYER}",
+  "preuve": "623:3 — Arène d’Acajou\\rChampion: Frédo\\nDresseur estimé:\\f{STRVAR_1 3, 0, 0}",
+  "note": "plaque d’Arène au format SoulSilver (Arène de X / Champion: Y / Dresseur estimé: {PLAYER}) ; remplace le patch aux capitales cassées"
+ },
+ {
+  "msgid": "PRYCE is something, but you're\\nsomething else!\\pThat was a hot battle that\\nbridged the generation gap!",
+  "msgstr": "Frédo, c’est quelqu’un, mais toi, tu\\nn’es pas n’importe qui non plus!\\pC’était un combat chaud bouillant qui\\na rapproché les générations!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/MahoganyTown_Gym_hns/scripts.inc",
+  "ligne": 197,
+  "ancien": "Frédo, c’est quelqu’un, mais toi,\\nt’es carrément autre chose!\\pUn combat brûlant qui a réuni\\ndeux générations!",
+  "preuve": "623:1 — Frédo, c’est quelqu’un, mais toi, tu\\nn’es pas n’importe qui non plus!\\rC’était un combat chaud bouillant qui a\\nrapproché les générations!",
+  "note": "texte SS, même sens, mêmes boîtes"
+ },
+ {
+  "msgid": "People come from all over to pay\\ntheir respects to the departed\\lsouls of POKéMON.",
+  "msgstr": "Les gens viennent de loin pour se\\nrecueillir sur les tombes des Pokémon.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/LavenderTown_hns/scripts.inc",
+  "ligne": 49,
+  "ancien": "Les gens viennent de partout pour\\nrendre hommage aux âmes\\ldes Pokémon disparus.",
+  "preuve": "475:2 — Les gens viennent de loin pour se\\nrecueillir sur les tombes.",
+  "note": "« des Pokémon » ajouté (souls of POKéMON) ; même sens"
+ },
+ {
+  "msgid": "ECRUTEAK used to have two towers:\\none each in the east and west.",
+  "msgstr": "Rosalia avait deux tours:\\nune à l’est, l’autre à l’ouest.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/EcruteakCity_hns/scripts.inc",
+  "ligne": 300,
+  "ancien": "Autrefois, Rosalia avait deux tours:\\nune à l’est et une à l’ouest.",
+  "preuve": "612:0 — Rosalia avait deux tours:\\nune à l’est, l’autre à l’ouest.",
+  "note": "texte SS, même sens"
+ },
+ {
+  "msgid": "I'm going to practice at the DANCE\\nTHEATER. Care to join me?",
+  "msgstr": "Je vais m’entraîner à la Salle de\\nDanse. Tu viens avec moi?",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/EcruteakCity_hns/scripts.inc",
+  "ligne": 311,
+  "ancien": "Je vais répéter au THEATRE de DANSE.\\nTu viens avec moi?",
+  "preuve": "612:4 — Je vais m’entraîner à la Salle de\\nDanse. Tu viens avec moi?",
+  "note": "texte SS ; Salle de Danse = graphie SS du Dance Theater (le .po disait THEATRE de DANSE)"
+ },
+ {
+  "msgid": "I'm feeling great today!\\pI feel like I could boot even the\\nLEAGUE CHAMP!",
+  "msgstr": "Moi j’suis en pleine forme!\\pJ’me sens capable de battre\\nl’Maître d’la Ligue!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route27_hns/scripts.inc",
+  "ligne": 304,
+  "ancien": "Je suis en pleine forme!\\pJe pourrais même botter les fesses\\ndu Maître de la Ligue!",
+  "preuve": "728:622 — Moi j’suis en pleine forme!\\nJ’me sens capable de battre l’Maître\\fd’la Ligue!\\r",
+  "note": "texte SS, coupure de boîte de HnS"
+ },
+ {
+  "msgid": "You're awesome! I like you!\\pI look for POKéMON here every\\nday.\\pWhen I'm in the grass, I find\\nall kinds of BERRIES.\\pIf you'd like, I'll share\\nsome.",
+  "msgstr": "T’es terrible!\\nJe t’aime!\\pJe cherche des Pokémon ici\\ntous les jours.\\pJe trouve aussi des Baies\\ndans les herbes.\\pSi tu veux, je peux t’en donner.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route31_hns/scripts.inc",
+  "ligne": 206,
+  "ancien": "T’es génial! Je t’aime bien!\\pJe cherche des Pokémon ici\\ntous les jours.\\pDans les herbes, je trouve\\nplein de Baies.\\pSi tu veux, je peux t’en\\ndonner.",
+  "preuve": "684:1 — T’es terrible!\\nJe t’aime!\\rJe cherche des Pokémon ici\\ntous les jours.\\rJe trouve aussi des Baies\\ndans les herbes.\\rSi tu veux, je peux t’en donner.\\nTu me donnes ton numéro? {YESNO 0}",
+  "note": "texte SS sans la demande de numéro (retirée par HnS) ; 4 boîtes comme HnS"
+ },
+ {
+  "msgid": "ECRUTEAK CITY POKéMON GYM\\pMORTY'S CERTIFIED TRAINERS:\\n{PLAYER}",
+  "msgstr": "Arène de Rosalia\\pChampion: Mortimer\\nDresseur estimé:\\l{PLAYER}",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/EcruteakCity_Gym_hns/scripts.inc",
+  "ligne": 83,
+  "ancien": "Arène Pokémon DE Rosalia\\pDresseurs AGREES PAR Mortimer:\\n{PLAYER}",
+  "preuve": "614:11 — Arène de Rosalia\\rChampion: Mortimer\\nDresseur estimé:\\f{STRVAR_1 3, 0, 0}",
+  "note": "plaque d’Arène au format SoulSilver (Arène de X / Champion: Y / Dresseur estimé: {PLAYER}) ; remplace le patch aux capitales cassées"
+ },
+ {
+  "msgid": "I spent the spring with my\\nPOKéMON.\\pThen summer, fall, and winter...\\pThen spring came again.\\nWe've been together a long time.",
+  "msgstr": "J’ai passé tout le printemps avec mes\\nPokémon.\\pEt puis aussi l’été, l’automne et\\nl’hiver…\\pEt puis le printemps est revenu. Nous\\navons passé bien du temps ensemble.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/EcruteakCity_Gym_hns/scripts.inc",
+  "ligne": 153,
+  "ancien": "J’ai passé le printemps avec mes\\nPokémon.\\pPuis l’été, l’automne et l’hiver…\\pPuis le printemps est revenu.\\nÇa fait longtemps qu’on est ensemble.",
+  "preuve": "728:172 — J’ai passé tout le printemps avec mes\\nPokémon, et puis aussi l’été et surtout\\fl’hiver...\\rEt puis le printemps est revenu. Nous\\navons passé bien du temps ensemble.\\r",
+  "note": "« et surtout l’hiver » → « l’automne et l’hiver » (HnS cite l’automne) ; 3 boîtes comme HnS"
+ },
+ {
+  "msgid": "You have not only made LUGIA\\nappear, but you have also caught\\lit...\\pThere is nothing more for us to\\nsay. Take care of yourself in your\\ljourney...",
+  "msgstr": "Non seulement tu as appelé LUGIA\\njusqu’ici, mais de surcroît tu as\\lréussi à faire tienne sa puissance…\\pTu n’as plus rien à apprendre de nous.\\nQue la félicité t’accompagne jusqu’au\\lbout de ton voyage…",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/WhirlIslands_LugiaChamber_hns/scripts.inc",
+  "ligne": 300,
+  "ancien": "Non seulement tu as fait apparaître\\nLUGIA, mais tu l’as aussi capturé…\\pNous n’avons plus rien à te dire.\\nPrends soin de toi durant ton\\lvoyage…",
+  "preuve": "125:6 — Non seulement tu as appelé LUGIA\\njusqu’ici, mais de surcroît tu as réussi\\fà faire tienne sa puissance...\\rC’est absolument admirable.\\nTu n’as plus rien à apprendre de nous.\\rQue la félicité t’accompagne\\njusqu’au bout de ton voyage...",
+  "note": "phrase « C’est absolument admirable » retirée (absente de HnS) ; 2 boîtes comme HnS"
+ },
+ {
+  "msgid": "I know something good!\\pMOOMOO FARM's milk is\\nfamous for its flavor.",
+  "msgstr": "Moi aussi j’vais t’apprendre un truc.\\pLe lait du Ranch Meumeu est super\\nbon!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route38_hns/scripts.inc",
+  "ligne": 161,
+  "ancien": "Je connais un bon plan!\\pLe lait de la FERME MEUMEU est\\nréputé pour son goût.",
+  "preuve": "728:772 — Moi aussi j’vais t’apprendre un truc.\\rLe lait du Ranch Meumeu est super bon!",
+  "note": "texte SS ; contexte : après que le joueur l’a conseillée (« moi aussi ») ; Ranch Meumeu (graphie SS, le .po disait FERME MEUMEU)"
+ },
+ {
+  "msgid": "See those ledges?\\nIt's scary to jump off them.\\pBut you can go to NEW BARK\\nwithout walking through the grass.",
+  "msgstr": "Tu vois ce mur? C’est un peu\\neffrayant de sauter de là.\\pMais ça permet d’aller au Bourg Geon\\nsans marcher dans l’herbe!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route29_hns/scripts.inc",
+  "ligne": 197,
+  "ancien": "Tu vois ces corniches?\\nÇa fait peur de sauter de là-haut.\\pMais tu peux aller à Bourg Geon\\nsans passer par les hautes herbes.",
+  "preuve": "373:10 — Tu vois ce mur?\\rC’est un peu effrayant de sauter de là,\\nmais ça permet d’aller au Bourg Geon\\fsans marcher dans l’herbe!",
+  "note": "texte SS coupé en 2 boîtes comme HnS (« de là, mais » → « de là.\\pMais ») ; « mur » = terme SS pour les corniches"
+ },
+ {
+  "msgid": "TUSCANY: Wouldn't you agree\\nthat it is most adorable?\\pIt strengthens NORMAL-type\\nmoves.\\pI am certain it will be of use.",
+  "msgstr": "Marie: C’est ravissant, tu ne trouves\\npas?\\pCela améliore les capacités de type\\nNormal.\\pJe suis sûre que cela te sera utile.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route29_hns/scripts.inc",
+  "ligne": 230,
+  "ancien": "TUSCANY: N’est-il pas tout\\nbonnement adorable?\\pIl renforce les capacités\\nde type Normal.\\pJe suis certaine qu’il te sera utile.",
+  "preuve": "752:5 — Marie: C’est ravissant, tu ne trouves\\npas?\\rCela améliore les capacités de type Psy.\\nJe suis sûre que cela te sera utile.",
+  "note": "type Psy → Normal (HnS) ; TUSCANY = « Marie » dans SoulSilver ; 3 boîtes comme HnS"
+ },
+ {
+  "msgid": "TUSCANY: Have you met MONICA,\\nmy older sister?\\pOr my younger brother, WESLEY?\\pI am the third of seven\\nchildren.",
+  "msgstr": "Marie: As-tu rencontré Lucie,\\nma grande sœur?\\pOu mon petit frère, Homer?\\pJe suis la troisième des sept enfants.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route29_hns/scripts.inc",
+  "ligne": 237,
+  "ancien": "TUSCANY: As-tu rencontré MONICA,\\nma grande sœur?\\pOu mon petit frère, WESLEY?\\pJe suis la troisième de sept\\nenfants.",
+  "preuve": "752:6 — Marie: As-tu rencontré Lucie,\\nma grande sœur?\\rOu mon petit frère, Homer?\\rJe suis la deuxième des sept enfants.",
+  "note": "deuxième → troisième (HnS) ; noms SS : Marie (Tuscany), Lucie (Monica, déjà dans le .po), Homer (Wesley) — le .po garde ailleurs « WESLEY: » / « MONICA: », à harmoniser"
+ },
+ {
+  "msgid": "I was training here alone.\\pBehold the fruits of my labor!",
+  "msgstr": "Je m’entraîne en solitaire.\\pEt voilà le résultat!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route45_hns/scripts.inc",
+  "ligne": 181,
+  "ancien": "Je m’entraînais seul ici.\\pAdmire le fruit de mon labeur!",
+  "preuve": "728:898 — Je m’entraîne en solitaire.\\rEt voilà le résultat!\\r",
+  "note": "texte SS, même sens"
+ },
+ {
+  "msgid": "ROUTE 45\\nMOUNTAIN RD. AHEAD",
+  "msgstr": "Route 45\\nDevant: Chemin de Montagne",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route45_hns/scripts.inc",
+  "ligne": 271,
+  "ancien": "Route 45\\nROUTE DE MONTAGNE Plus LOIN",
+  "preuve": "405:1 — Route 45\\nDevant: Chemin de Montagne",
+  "note": "texte SS du panneau (le .po avait des capitales cassées)"
+ },
+ {
+  "msgid": "Wait, {PLAYER}!\\pIt's dangerous to go out\\nwithout a POKéMON!\\pWild POKéMON jump out of the grass\\non the way to the next town.",
+  "msgstr": "Attends, {PLAYER}!\\pC’est dangereux de sortir sans\\nPokémon!\\pLa route vers la prochaine ville est\\nenvahie par des hautes herbes\\lpleines de Pokémon sauvages!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/NewBarkTown_hns/scripts.inc",
+  "ligne": 246,
+  "ancien": "Attends, {PLAYER}!\\pC’est dangereux de sortir\\nsans Pokémon!\\pDes Pokémon sauvages surgissent des\\nherbes sur la route de la ville voisine.",
+  "preuve": "542:4 — Allons! C’est dangereux de sortir sans\\nPokémon!\\rLa route vers la prochaine ville est\\nenvahie par des hautes herbes\\fpleines de Pokémon sauvages!",
+  "note": "« Allons! » → « Attends, {PLAYER}! » (petite phrase de HnS) en boîte séparée ; 3 boîtes comme HnS"
+ },
+ {
+  "msgid": "OAK: Ah, you're collecting KANTO\\nGYM BADGES.\\pI imagine that it's hard, but the\\nexperience is sure to help you.\\pCome see me when you get them all.\\pI'll have a gift for you.\\pKeep trying hard, {PLAYER}!",
+  "msgstr": "Chen: Ah! Tu collectionnes les Badges\\nde Kanto!\\pÇa doit être difficile, mais\\nl’expérience que tu vis te fera encore\\lprogresser!\\pQuand tu les auras tous, reviens me\\nvoir.\\pJ’aurai un cadeau pour toi.\\pAllez, {PLAYER}! Bonne chance!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/PalletTown_Lab_hns/scripts.inc",
+  "ligne": 125,
+  "ancien": "CHEN: Ah, tu collectionnes les\\nBadges D’ARENE DE KANTO.\\pCe n’est sûrement pas facile, mais\\ncette expérience te servira.\\pReviens me voir quand tu les auras\\ntous.\\pJ’aurai un cadeau pour toi.\\pContinue tes efforts, {PLAYER}!",
+  "preuve": "451:9 — Chen: Ah! Tu t’es mis à collectionner\\nles Badges de Kanto!\\rÇa doit être difficile, mais l’expérience\\nque tu vis te rendra encore plus fort!\\rQuand tu les auras tous,\\nreviens me voir.\\rJ’aurai un cadeau pour toi.\\rAllez, {STRVAR_1 3, 0, 0}!\\nBonne chance!\\r",
+  "note": "accords masculins de SS neutralisés (« Tu t’es mis à collectionner » → « Tu collectionnes », « te rendra encore plus fort » → « te fera encore progresser ») ; Chen: au format SS ; 5 boîtes comme HnS"
+ },
+ {
+  "msgid": "Thanks to your work on the POKéDEX,\\nthe PROF's research is coming along\\lgreat.",
+  "msgstr": "Ton travail sur le Pokédex a fait\\nénormément progresser les\\lrecherches du Professeur!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/PalletTown_Lab_hns/scripts.inc",
+  "ligne": 139,
+  "ancien": "Grâce à ton travail sur le Pokédex,\\nles recherches du Prof. avancent\\là grands pas.",
+  "preuve": "451:34 — Ton travail sur le Pokédex a fait\\nénormément progresser les recherches\\fdu Professeur!",
+  "note": "texte SS, même sens"
+ },
+ {
+  "msgid": "OLIVINE CITY POKéMON GYM\\pJASMINE'S CERTIFIED TRAINERS:\\n{PLAYER}",
+  "msgstr": "Arène d’Oliville\\pChampion: Jasmine\\nDresseur estimé:\\l{PLAYER}",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/OlivineCity_Gym_hns/scripts.inc",
+  "ligne": 340,
+  "ancien": "Arène Pokémon D’OLIVILLE\\pDresseurs AGREES PAR Jasmine:\\n{PLAYER}",
+  "preuve": "606:24 — Arène d’Oliville\\rChampion: Jasmine\\nDresseur estimé:\\f{STRVAR_1 3, 0, 0}",
+  "note": "plaque d’Arène au format SoulSilver (Arène de X / Champion: Y / Dresseur estimé: {PLAYER}) ; remplace le patch aux capitales cassées"
+ },
+ {
+  "msgid": "DAY-CARE\\pLET US RAISE YOUR POKéMON FOR YOU!",
+  "msgstr": "Pension\\pOn élève votre Pokémon pour vous!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route34_hns/scripts.inc",
+  "ligne": 282,
+  "ancien": "Pension\\pNOUS ELEVONS VOS Pokémon!",
+  "preuve": "384:35 — Pension\\nOn élève votre Pokémon pour vous!",
+  "note": "texte SS du panneau (le .po était en capitales)"
+ },
+ {
+  "msgid": "We have recordings of the cries\\nof all POKéMON that have been\\lfound.\\pWe must have about 400 kinds.",
+  "msgstr": "Nous possédons un enregistrement de\\ntous les cris de Pokémon que nous\\lconnaissons.\\pIl y en a près de 400 différents.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/GoldenrodCity_RadioTower_3F_hns/scripts.inc",
+  "ligne": 149,
+  "ancien": "Nous avons enregistré les cris de\\ntous les Pokémon découverts\\ljusqu’ici.\\pIl doit y en avoir environ 400.",
+  "preuve": "67:0 — Nous possédons un enregistrement de\\ntous les cris de Pokémon que nous\\fconnaissons.\\fIl y en a près de 200 différents.",
+  "note": "200 → 400 (HnS) ; 2 boîtes comme HnS"
+ },
+ {
+  "msgid": "I feel lousy over losing!\\pDarn it! I hate useless POKéMON!",
+  "msgstr": "Quel déplaisir de perdre!\\pBon sang!\\nSaleté de Pokémon inutile!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/GoldenrodCity_RadioTower_3F_hns/scripts.inc",
+  "ligne": 208,
+  "ancien": "Perdre, ça me met en rogne!\\pZut! Je déteste les Pokémon nuls!",
+  "preuve": "728:1089 — Quel déplaisir de perdre!\\nBon sang!\\fSaleté de Pokémon inutile!",
+  "note": "texte SS, coupure de boîte de HnS"
+ },
+ {
+  "msgid": "Why did the shutter open? Did you\\nhave something to do with this?",
+  "msgstr": "Le volet s’est ouvert? Pourquoi?\\nComment? Tu y es pour quelque chose?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/GoldenrodCity_RadioTower_3F_hns/scripts.inc",
+  "ligne": 212,
+  "ancien": "Pourquoi le volet s’est ouvert?\\nTu y es pour quelque chose?",
+  "preuve": "728:1090 — La porte s’est ouverte? Pourquoi?\\nComment? Tu y es pour quelque chose?\\r",
+  "note": "« La porte » → « Le volet » (HnS : shutter)"
+ },
+ {
+  "msgid": "No inner tube for me.\\pI'm hanging on to a sea\\nPOKéMON!",
+  "msgstr": "Je m’accroche à mes Pokémon marins\\nplutôt qu’à une bouée!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route40_hns/scripts.inc",
+  "ligne": 71,
+  "ancien": "Pas de bouée pour moi.\\pJe m’accroche à un Pokémon\\nmarin!",
+  "preuve": "728:806 — Je m’accroche à mes Pokémon marins\\nplutôt qu’à une bouée!\\r",
+  "note": "texte SS, même sens ; tient en 1 boîte (les 2 phrases de HnS sont fusionnées par SS)"
+ },
+ {
+  "msgid": "That's right!\\pAs a token of our friendship,\\nI have a gift for you!",
+  "msgstr": "Exactement!\\pPour sceller notre amitié, voilà un\\npetit cadeau!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route40_hns/scripts.inc",
+  "ligne": 132,
+  "ancien": "Exactement!\\pEn gage de notre amitié,\\nj’ai un cadeau pour toi!",
+  "preuve": "752:0 — Pour sceller notre amitié, voilà un\\npetit cadeau!",
+  "note": "« Exactement! » (That's right!, petite phrase de HnS) ajouté en boîte séparée"
+ },
+ {
+  "msgid": "I came to explore MT.MORTAR,\\nbut I got separated from my\\lpartner…\\pDid you run into a trainer\\nwho uses a SEADRA that knows\\lWATERFALL?",
+  "msgstr": "Je suis venu pour étudier le Mont\\nCreuset, mais j’ai perdu mon collègue.\\pTu n’aurais pas croisé un Dresseur\\navec un HYPOCEAN qui connaît\\lCascade?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/MtMortar_1F_North_hns/scripts.inc",
+  "ligne": 71,
+  "ancien": "Je suis venu explorer le MONT\\nCREUSET, mais j’ai perdu mon\\lpartenaire…\\pTu as croisé un Dresseur avec un\\nHYPOCEAN qui connaît Cascade?",
+  "preuve": "728:1528 — Je suis venu pour étudier le Mont\\nCreuset, mais j’ai perdu mon collègue.\\rTu n’aurais pas croisé un Dresseur avec\\nun HYPOCEAN?\\rAvec sa capacité Cascade, il remonte\\ntoutes les chutes d’eau!",
+  "note": "3e boîte SS (« Avec sa capacité Cascade, il remonte… ») ramenée à « qui connaît Cascade » comme HnS ; 2 boîtes"
+ },
+ {
+  "msgid": "For just ¥500, you can play the\\nSAFARI GAME.\\pYou can roam the wide-open safari\\nand catch what you like.\\pWould you like to play?",
+  "msgstr": "Pour juste 500¥, vous pouvez vous\\npromener dans le parc et attraper\\ltous les Pokémon qu’il vous plaira!\\pVoulez-vous jouer?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Entrance_Frlg/scripts.inc",
+  "ligne": 212,
+  "ancien": "Pour seulement 500 ¥, vous pouvez\\nparticiper au Jeu Safari.\\pVous pourrez parcourir le vaste parc\\net attraper tous les Pokémon qu’il\\lvous plaira.\\pVoulez-vous jouer?",
+  "preuve": "135:54 — Bienvenue au Parc Safari\\nde {STRVAR_1 3, 0, 0}!\\rPour juste 500 $, vous pouvez vous\\npromener dans le parc et attraper\\ftous les Pokémon qu’il vous plaira! {YESNO 0}",
+  "note": "« Bienvenue au Parc Safari de… » retiré (absent de HnS), « Voulez-vous jouer? » ajouté ; 500 $ → 500¥ (décision 12)"
+ },
+ {
+  "msgid": "Please return any SAFARI BALLS\\nyou may have left.",
+  "msgstr": "Laissez-moi récupérer vos Safari\\nBalls restantes.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Entrance_Frlg/scripts.inc",
+  "ligne": 246,
+  "ancien": "Veuillez rendre les Safari Balls qui\\nvous restent.",
+  "preuve": "135:62 — Laissez-moi récupérer vos Safari Balls\\nrestantes.",
+  "note": "texte SS, même sens"
+ },
+ {
+  "msgid": "They say that meteorites struck\\nBIRTH ISLAND.\\pWe would love to display them here\\nin our museum, but...\\pThese meteorites are said to emit\\nstrange energy and cannot be\\lcarried away...",
+  "msgstr": "On dit que des météorites sont\\ntombées sur l’Ile Aurore…\\pJ’aimerais bien pouvoir exposer des\\nchoses aussi rares dans notre musée…\\pMais il semble qu’elles émettent des\\nrayonnements étranges, alors il vaut\\lmieux ne pas les déplacer…",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/PewterCity_Museum_2F_hns/scripts.inc",
+  "ligne": 26,
+  "ancien": "On dit que des météorites sont\\ntombées sur l’ILE Aurore.\\pNous aimerions les exposer dans\\nnotre musée, mais…\\pIl paraît qu’elles dégagent une\\nétrange énergie et qu’on ne peut\\lpas les déplacer…",
+  "preuve": "464:10 — Des météorites sont tombées non loin\\nd’ici...\\rJ’aimerais bien pouvoir exposer des\\nchoses aussi rares dans notre musée...\\rMais il semble qu’elles émettent des\\nrayonnements étranges, alors il vaut\\fmieux ne pas les déplacer...",
+  "note": "« non loin d’ici » → « sur l’Ile Aurore » (HnS : BIRTH ISLAND) ; 3 boîtes comme HnS"
+ },
+ {
+  "msgid": "What took you, {PLAYER}?\\pJust as we thought, that strange\\nradio signal is coming from here.",
+  "msgstr": "Tu en as mis du temps, {PLAYER}!\\pComme on le pensait, cet étrange\\nsignal radio vient de là.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/MahoganyTown_Shop_hns/scripts.inc",
+  "ligne": 252,
+  "ancien": "Tu en as mis du temps, {PLAYER}!\\pComme on le pensait, cet étrange\\nsignal radio vient bien d’ici.",
+  "preuve": "111:5 — Tu en as mis du temps, {STRVAR_1 3, 0, 0}!\\rComme je le pensais, cet étrange\\nsignal radio vient de là.\\r",
+  "note": "« je » → « on » (HnS : we)"
+ },
+ {
+  "msgid": "BROCK: Your POKéMON's powerful attacks\\novercame my rock-hard defense…\\pYou're stronger than I expected…\\pGo ahead--take this BADGE.",
+  "msgstr": "Pierre: Tes attaques ont surpassé ma\\ndéfense…\\pJe ne m’attendais pas à ça!\\pTu as bien mérité ce Badge!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/PewterCity_Gym_hns/scripts.inc",
+  "ligne": 52,
+  "ancien": "Pierre: Les attaques puissantes de\\ntes Pokémon ont brisé ma défense\\lde roc…\\pTu es plus fort que je ne pensais…\\pVas-y… Prends ce Badge.",
+  "preuve": "462:1 — Pierre: Tes attaques ont surpassé ma\\ndéfense...\\fJe ne m’attendais pas à ça!\\rTu as bien mérité ce Badge!\\r",
+  "note": "texte SS en 3 boîtes comme HnS ; supprime au passage l’accord masculin du .po (« Tu es plus fort »)"
+ },
+ {
+  "msgid": "Yo! CHAMP in making! You're really\\nrocking.\\pAre you battling the GYM LEADERS of\\nKANTO?\\pThey're strong and dedicated people,\\njust like JOHTO's GYM LEADERS.",
+  "msgstr": "Salut! Futur Maître!\\nTu m’as l’air… en pleine forme!\\pTu défies les Champions de Kanto?\\pTu vas voir, ils n’ont rien à envier\\nà ceux de Johto!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/PewterCity_Gym_hns/scripts.inc",
+  "ligne": 98,
+  "ancien": "Yo! Futur Maître! Tu es solide\\ncomme un roc.\\pTu affrontes les CHAMPIONS\\nde KANTO?\\pIls sont forts et passionnés,\\ncomme ceux de JOHTO.",
+  "preuve": "462:6 — Salut!\\nFuture légende!\\rTu m’as l’air...\\nEn pleine forme!\\rTu défies les Champions de Kanto?\\rTu vas voir, ils n’ont rien à envier\\nà ceux de Johto!",
+  "note": "« Future légende » → « Futur Maître » (HnS : CHAMP) ; 3 boîtes comme HnS"
+ },
+ {
+  "msgid": "We stand guard in this tower.\\pHere, we express our gratitude\\nto honor all POKéMON.",
+  "msgstr": "Nous montons la garde dans cette\\ntour.\\pNous y exprimons notre gratitude\\nenvers tous les Pokémon.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/SproutTower_1F_hns/scripts.inc",
+  "ligne": 46,
+  "ancien": "Nous montons la garde dans cette\\ntour.\\pIci, nous exprimons notre\\ngratitude envers tous les Pokémon.",
+  "preuve": "728:1026 — Nous montons la garde dans cette tour.\\rNous y exprimons notre gratitude\\nenvers tous les Pokémon.\\r",
+  "note": "texte SS, mêmes boîtes"
+ },
+ {
+  "msgid": "Oh! A wild {B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME} appeared!\\p",
+  "msgstr": "Oh! Un {B_OPPONENT_MON1_NAME} et un {B_OPPONENT_MON2_NAME} sauvages apparaissent!\\p",
+  "source": "Émeraude FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 96,
+  "ancien": "Oh! Un {B_OPPONENT_MON1_NAME} et un {B_OPPONENT_MON2_NAME} sauvages!\\p",
+  "preuve": "Émeraude FR : « Un {B_OPPONENT_MON2_NAME} et un {B_OPPONENT_MON1_NAME}\\nsauvages apparaissent!\\p »",
+  "note": "texte Émeraude FR / SS + « Oh! » (HnS), ordre des noms de HnS — LARGEUR du vérificateur sans objet : message de combat sur une seule ligne comme l’anglais, coupé à l’exécution par BreakStringAutomatic (src/line_break.c, appelé dans battle_message.c)"
+ },
+ {
+  "msgid": "Good job, {B_BUFF1}! Come back!",
+  "msgstr": "Bien, {B_BUFF1}! Reviens!",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/battle_message.c",
+  "ligne": 128,
+  "ancien": "Bien joué, {B_BUFF1}! Reviens!",
+  "preuve": "Émeraude FR : « Bien, {B_BUFF1}!\\nReviens! »",
+  "note": "texte Émeraude FR officiel (= SS) sur une ligne"
+ },
+ {
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} is buffeted by the hail!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} est frappé par la grêle!",
+  "source": "Émeraude FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 281,
+  "ancien": "{B_ATK_NAME_WITH_PREFIX} est blessé par la grêle!",
+  "preuve": "Émeraude FR : « {B_ATK_NAME_WITH_PREFIX} est frappé par\\nla GRELE! » ; SS 197:285 « … est frappé\\npar {STRVAR_1 6, 0, 0}! »",
+  "note": "texte Émeraude FR (GRELE → grêle, météo) = SS ; sur une ligne"
+ },
+ {
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} can't use its sealed {B_CURRENT_MOVE}!\\p",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser la capacité bloquée {B_CURRENT_MOVE}!\\p",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 361,
+  "ancien": "{B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser {B_CURRENT_MOVE}!\\p",
+  "preuve": "197:616 — {STRVAR_1 1, 0, 0} ne peut pas utiliser\\nla capacité bloquée {STRVAR_1 6, 1, 0}!\\r",
+  "note": "texte SS ; ajoute « bloquée » (sealed) absent du .po — LARGEUR du vérificateur sans objet : message de combat sur une seule ligne comme l’anglais, coupé à l’exécution par BreakStringAutomatic (src/line_break.c, appelé dans battle_message.c)"
+ },
+ {
+  "msgid": "Gah! It was so close, too!",
+  "msgstr": "Mince! Ça y était presque!",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/battle_message.c",
+  "ligne": 432,
+  "ancien": "Mince! C’était pourtant si près!",
+  "preuve": "Émeraude FR : « Mince!\\nÇa y était presque! »",
+  "note": "texte Émeraude FR officiel (= SS) sur une ligne"
+ },
+ {
+  "msgid": "{B_TRAINER1_NAME_WITH_CLASS} is about to send out {B_BUFF2}.\\pWill you switch your Pokémon?",
+  "msgstr": "{B_BUFF2} va être envoyé par {B_TRAINER1_NAME_WITH_CLASS}.\\pVoulez-vous changer de Pokémon?",
+  "source": "Émeraude FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 452,
+  "ancien": "{B_TRAINER1_NAME_WITH_CLASS} va envoyer {B_BUFF2}.\\pVoulez-vous changer de Pokémon?",
+  "preuve": "Émeraude FR : « {B_BUFF2} va être envoyé par\\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}.\\pVoulez-vous changer\\nde POKéMON? »",
+  "note": "texte Émeraude FR / SS ; {B_TRAINER1_CLASS} {B_TRAINER1_NAME} → {B_TRAINER1_NAME_WITH_CLASS} (HnS)"
+ },
+ {
+  "msgid": "The Tailwind blew from behind {B_ATK_TEAM2} team!",
+  "msgstr": "Un Vent Arrière souffle sur l’équipe {B_ATK_TEAM2}!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 548,
+  "ancien": "Vent Arrière souffle sur l’équipe {B_ATK_TEAM2}!",
+  "preuve": "197:1230 — Un Vent Arrière souffle sur\\nvotre équipe!",
+  "note": "texte SS avec {B_ATK_TEAM2}"
+ },
+ {
+  "msgid": "Lucky Chant shielded {B_ATK_TEAM2} team from critical hits!",
+  "msgstr": "L’Air Veinard immunise l’équipe {B_ATK_TEAM2} contre les coups critiques!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 555,
+  "ancien": "Air Veinard protège l’équipe {B_ATK_TEAM2} des critiques!",
+  "preuve": "197:1241 — L’Air Veinard immunise votre\\néquipe contre les coups critiques!",
+  "note": "texte SS avec {B_ATK_TEAM2}"
+ },
+ {
+  "msgid": "Pointed stones float in the air around {B_DEF_TEAM2} team!",
+  "msgstr": "Des pierres pointues flottent en l’air autour de l’équipe {B_DEF_TEAM2}!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 562,
+  "ancien": "Des pierres pointues cernent l’équipe {B_DEF_TEAM2}!",
+  "preuve": "197:1077 — Des pierres pointues flottent\\nen l’air autour de votre équipe!",
+  "note": "texte SS avec {B_DEF_TEAM2}"
+ },
+ {
+  "msgid": "{B_ATK_TEAM1} team's Tailwind petered out!",
+  "msgstr": "Le Vent Arrière de l’équipe {B_ATK_TEAM1} s’arrête!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 582,
+  "ancien": "Fin du Vent Arrière (équipe {B_ATK_TEAM1})!",
+  "preuve": "197:1232 — Le Vent Arrière de votre\\néquipe s’arrête!",
+  "note": "texte SS avec {B_ATK_TEAM1}"
+ },
+ {
+  "msgid": "{B_ATK_TEAM1} team's Lucky Chant wore off!",
+  "msgstr": "L’Air Veinard de l’équipe {B_ATK_TEAM1} prend fin!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 583,
+  "ancien": "Air Veinard de l’équipe {B_ATK_TEAM1} cesse!",
+  "preuve": "197:1085 — L’Air Veinard de votre équipe\\nprend fin!",
+  "note": "texte SS avec {B_ATK_TEAM1}"
+ },
+ {
+  "msgid": "The healing wish came true for {B_SCR_NAME_WITH_PREFIX2}!",
+  "msgstr": "Le Voeu Soin se réalise pour {B_SCR_NAME_WITH_PREFIX2}!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 621,
+  "ancien": "{B_SCR_NAME_WITH_PREFIX2} profite du Vœu Soin!",
+  "preuve": "197:1005 — Le Voeu Soin se réalise!",
+  "note": "texte SS + « pour {B_SCR_NAME_WITH_PREFIX2} » (HnS) ; graphie glossaire « Voeu Soin »"
+ },
+ {
+  "msgid": "{B_SCR_NAME_WITH_PREFIX} became cloaked in mystical moonlight!",
+  "msgstr": "{B_SCR_NAME_WITH_PREFIX} est baigné par des rayons de lune!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 623,
+  "ancien": "{B_SCR_NAME_WITH_PREFIX} baigne dans un clair de lune mystique!",
+  "preuve": "197:1006 — Il est baigné par des rayons\\nde lune!",
+  "note": "texte SS avec le nom (HnS) au lieu de « Il »"
+ },
+ {
+  "msgid": "The {B_LAST_ITEM} was used up…",
+  "msgstr": "L’objet {B_LAST_ITEM} est épuisé…",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 834,
+  "ancien": "Le {B_LAST_ITEM} est épuisé…",
+  "preuve": "5:43 — L’objet {STRVAR_1 8, 0, 0} est utilisé!",
+  "note": "« L’objet X » de SS évite l’article masculin du .po (« Le {B_LAST_ITEM} » faux pour Baie, Gemme…) ; « utilisé » → « épuisé » (used up)"
+ },
+ {
+  "msgid": "A green apricorn.\\nIt has a strange,\\naromatic scent.",
+  "msgstr": "Un Noigrume vert.\\nIl dégage un arôme\\nétonnamment riche.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/data/items.h",
+  "ligne": 3798,
+  "ancien": "Un Noigrume vert.\\nIl dégage un arôme\\nétrange.",
+  "preuve": "221:488 — Un Noigrume de couleur verte.\\nIl dégage un arôme étonnamment riche.",
+  "note": "texte SS resserré sur 3 lignes (« de couleur verte » → « vert ») pour la fenêtre de description"
+ },
+ {
+  "msgid": "Boosts Speed, but\\nallows the use of\\nonly one move.",
+  "msgstr": "Augmente la Vitesse,\\nmais ne permet qu’une\\nsorte de capacité.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/data/items.h",
+  "ligne": 9325,
+  "ancien": "Monte la Vitesse.\\nUne seule attaque\\nest utilisable.",
+  "preuve": "191:419 — Augmente la Vitesse, mais ne permet\\nd’utiliser qu’une sorte de capacité.",
+  "note": "texte SS resserré sur 3 lignes pour la fenêtre de description (« ne permet d’utiliser qu’une sorte de capacité » → « ne permet qu’une sorte de capacité »)"
+ },
+ {
+  "msgid": "500 COINS{CLEAR_TO 0x48}¥5,000",
+  "msgstr": "500 JETONS{CLEAR_TO 0x48}5 000¥",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 299,
+  "ancien": "500 COINS{CLEAR_TO 72}¥5,000",
+  "preuve": "191:128 — 500 Jet.{CURSOR_X 60}10 000 $",
+  "note": "SS « 500 Jet.{CURSOR_X 60}10 000 $ » : autres quantités et abréviation « Jet. » ; le .po est resté en anglais (COINS, ¥5,000) → traduction avec le terme JETONS d’Émeraude FR utilisé partout dans le .po, prix « 5 000¥ » (décision 12), code écrit comme l’anglais ; les entrées sœurs « 50 COINS… » et « 2,500 COINS… » (hors lot) sont à traiter pareil"
+ },
+ {
+  "msgid": "1,000 COINS{CLEAR_TO 0x48}¥10,000",
+  "msgstr": "1 000 JETONS{CLEAR_TO 0x48}10 000¥",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 300,
+  "ancien": "1,000 COINS{CLEAR_TO 72}¥10,000",
+  "preuve": "191:128 — 500 Jet.{CURSOR_X 60}10 000 $",
+  "note": "SS « 500 Jet.{CURSOR_X 60}10 000 $ » : autres quantités et abréviation « Jet. » ; le .po est resté en anglais (COINS, ¥5,000) → traduction avec le terme JETONS d’Émeraude FR utilisé partout dans le .po, prix « 5 000¥ » (décision 12), code écrit comme l’anglais ; les entrées sœurs « 50 COINS… » et « 2,500 COINS… » (hors lot) sont à traiter pareil"
+ },
+ {
+  "msgid": "5,000 COINS{CLEAR_TO 0x48}¥50,000",
+  "msgstr": "5 000 JETONS{CLEAR_TO 0x48}50 000¥",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 302,
+  "ancien": "5,000 COINS{CLEAR_TO 72}¥50,000",
+  "preuve": "191:128 — 500 Jet.{CURSOR_X 60}10 000 $",
+  "note": "SS « 500 Jet.{CURSOR_X 60}10 000 $ » : autres quantités et abréviation « Jet. » ; le .po est resté en anglais (COINS, ¥5,000) → traduction avec le terme JETONS d’Émeraude FR utilisé partout dans le .po, prix « 5 000¥ » (décision 12), code écrit comme l’anglais ; les entrées sœurs « 50 COINS… » et « 2,500 COINS… » (hors lot) sont à traiter pareil"
+ },
+ {
+  "msgid": "{STR_VAR_1} is staring steadfastly\\nat your face.",
+  "msgstr": "{STR_VAR_1} regarde fixement\\nvotre visage.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/data/text/follower_messages.h",
+  "ligne": 157,
+  "ancien": "{STR_VAR_1} vous fixe sans\\nciller.",
+  "preuve": "265:718 — {STRVAR_1 1, 0, 0} regarde fixement le visage\\nde {STRVAR_1 3, 2, 0}.",
+  "note": "texte SS, « le visage de {joueur} » → « votre visage » (HnS : your face)"
+ },
+ {
+  "msgid": "{STR_VAR_1} is staring intently at\\nyour face.",
+  "msgstr": "{STR_VAR_1} fixe votre\\nvisage.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/data/text/follower_messages.h",
+  "ligne": 158,
+  "ancien": "{STR_VAR_1} vous dévisage\\nintensément.",
+  "preuve": "265:365 — {STRVAR_1 1, 0, 0} fixe le visage de\\n{STRVAR_1 3, 2, 0}.",
+  "note": "texte SS, « le visage de {joueur} » → « votre visage »"
+ },
+ {
+  "msgid": "{STR_VAR_1} is staring straight into\\nyour eyes.",
+  "msgstr": "{STR_VAR_1} vous regarde fixement\\ndans les yeux.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/data/text/follower_messages.h",
+  "ligne": 168,
+  "ancien": "{STR_VAR_1} vous regarde droit\\ndans les yeux.",
+  "preuve": "265:68 — {STRVAR_1 1, 0, 0} regarde fixement\\n{STRVAR_1 3, 2, 0} dans les yeux.",
+  "note": "texte SS, « {joueur} » → « vous »"
+ },
+ {
+  "msgid": "{STR_VAR_1} doesn't seem to be used\\nto its own name yet.",
+  "msgstr": "{STR_VAR_1} n’est pas encore habitué\\nà son nom on dirait.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/data/text/follower_messages.h",
+  "ligne": 210,
+  "ancien": "{STR_VAR_1} n’a pas encore l’air\\nhabitué à son nom.",
+  "preuve": "265:721 — {STRVAR_1 1, 0, 0} n’est pas encore habitué\\nà son nom on dirait.",
+  "note": "texte SS, même sens"
+ },
+ {
+  "msgid": "{STR_VAR_1} seems to want to play\\nwith you.",
+  "msgstr": "{STR_VAR_1} veut jouer avec\\nvous!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/data/text/follower_messages.h",
+  "ligne": 268,
+  "ancien": "{STR_VAR_1} a l’air de vouloir\\njouer avec vous.",
+  "preuve": "265:49 — {STRVAR_1 1, 0, 0} veut jouer avec\\n{STRVAR_1 3, 2, 0}!",
+  "note": "texte SS, « {joueur} » → « vous »"
+ },
+ {
+  "msgid": "{PLAYER} received {STR_VAR_1}!",
+  "msgstr": "{PLAYER} obtient\\n{STR_VAR_1}!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/event_scripts.s",
+  "ligne": 1428,
+  "ancien": "{PLAYER} reçoit {STR_VAR_1}!",
+  "preuve": "209:7 — {STRVAR_1 3, 0, 0} obtient\\n{COLOR 1}{STRVAR_1 0, 1, 0}{COLOR 0}!\\r",
+  "note": "Common_Text_ReceivedMon (réception d’un Pokémon) ; 209:7 est le texte SS de réception d’un Pokémon. Variante « Obtenu … x » écartée."
+ },
+ {
+  "msgid": "Please wait.",
+  "msgstr": "Merci de patienter.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/text/cable_club.inc",
+  "ligne": 186,
+  "ancien": "Veuillez patienter.",
+  "preuve": "98:16 — Merci de patienter.",
+  "note": "Accueil du Club Link (vouvoiement) : 98:16 vient de la banque de l’accueil du Club, « Veuillez patienter. » (197:1262) est le texte de combat."
+ },
+ {
+  "msgid": "{PLAYER} obtained\\nthe {STR_VAR_1}!",
+  "msgstr": "{PLAYER} obtient\\n{STR_VAR_1}!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/AzaleaTown_KurtsHouse_hns/scripts.inc",
+  "ligne": 321,
+  "ancien": "{PLAYER} obtient\\n{STR_VAR_1}!",
+  "preuve": "209:7 — {STRVAR_1 3, 0, 0} obtient\\n{COLOR 1}{STRVAR_1 0, 1, 0}{COLOR 0}!",
+  "note": "Variante SS sans article (identique à l’actuel) : « un » de 23:3 impose un article indéfini masculin qui ne va pas avec tous les objets."
+ },
+ {
+  "msgid": "You don't have enough money.",
+  "msgctxt": "data/maps/Mahoganytown_hns/scripts.inc",
+  "msgstr": "Tu n’as pas assez d’argent.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Mahoganytown_hns/scripts.inc",
+  "ligne": 262,
+  "ancien": "Vous n’avez pas assez d’argent.",
+  "preuve": "620:7 — Tu n’as pas assez d’argent.",
+  "note": "Entrée à contexte (msgctxt = Mahoganytown_hns/scripts.inc) : le marchand de Rageorge tutoie le joueur (« Hiya, kid! », « Savoure-le bien! »)."
+ },
+ {
+  "msgid": "Sleep",
+  "msgstr": "Sommeil",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/scripts/debug.inc",
+  "ligne": 707,
+  "ancien": "Sommeil",
+  "preuve": "760:9 — Sommeil",
+  "note": "Statut dans les menus de debug : variante SS « Sommeil » avec majuscule (identique à l’actuel), pas « sommeil »."
+ },
+ {
+  "msgid": "ROCKET: Huh?\\pAre you telling me you don't\\nrespect what the customer\\lwants?",
+  "msgstr": "Rocket: Quoi?\\pOn veut pas faire plaisir\\nau client?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/EcruteakCity_Theater_hns/scripts.inc",
+  "ligne": 118,
+  "ancien": "Rocket: Hein?\\pTu veux dire que tu ne respectes\\npas les désirs du client?",
+  "preuve": "618:3 — Quoi?\\rOn veut pas faire plaisir au client?\\r",
+  "note": "Même scène du Théâtre de Rosalia (sbire Rocket) ; ajout du préfixe « Rocket: » (graphie des autres répliques ROCKET du .po)."
+ },
+ {
+  "msgid": "PROF.ELM: {PLAYER}, how are\\nthings going?\\pI called because something weird\\nis happening with the radio\\lbroadcasts.\\pThey were talking about TEAM\\nROCKET.\\p{PLAYER}, do you know anything\\nabout it?\\pMaybe TEAM ROCKET has returned.\\nNo, that just can't be true.\\pSorry to bug you.\\nTake care!",
+  "msgstr": "Prof. Orme: Allô, {PLAYER}?\\nTout va bien?\\pJe t’appelle à propos des émissions\\nde radio. Quelque chose ne va pas.\\pElles parlent de la Team Rocket.\\p{PLAYER}, serais-tu au courant\\nde tout ceci?\\pLa Team Rocket est peut-être de\\nretour. Ce serait impensable, tout\\lde même…\\pDésolé pour ce coup de fil alarmiste…\\nPrends soin de toi!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Mahoganytown_hns/scripts.inc",
+  "ligne": 306,
+  "ancien": "Prof. Orme: {PLAYER}, comment\\nça se passe?\\pJe t’appelle parce qu’il se passe\\nun truc bizarre avec les émissions\\lde radio.\\pIls parlaient de la Team Rocket.\\p{PLAYER}, tu sais quelque chose\\nlà-dessus?\\pLa Team Rocket serait de retour?\\nNon, c’est impossible.\\pDésolé de t’avoir dérangé.\\nPrends soin de toi!",
+  "preuve": "716:37 — Allô, {STRVAR_1 3, 0, 0}?\\nTout va bien?\\rJe t’appelle à propos des émissions\\nde radio.\\fQuelque chose ne va pas.\\rElles parlent de la Team Rocket.\\nSerais-tu au courant de tout ceci?\\rLa Team Rocket est peut-être de\\nretour.\\fCe serait impensable, tout de même...\\rDésolé pour ce coup de fil alarmiste...",
+  "note": "Ajout du 2e {PLAYER} et de « Prends soin de toi! » (Take care), préfixe « Prof. Orme: », découpage en boîtes de l’anglais."
+ },
+ {
+  "msgid": "SLOWPOKE:..........\\p...............YAWN?",
+  "msgstr": "RAMOLOSS: …\\p… Molooos?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/AzaleaTown_hns/scripts.inc",
+  "ligne": 409,
+  "ancien": "RAMOLOSS: ……….\\p……………BAILLE?",
+  "preuve": "564:9 — RAMOLOSS: ...\\r...\\r + 564:10 — ... Molooos?",
+  "note": "Ramoloss d’Ecorcia : textes SS de la banque d’Ecorcia (564), pas ceux du Parc Safari (133:13) ; découpage \\p de l’anglais."
+ },
+ {
+  "msgid": "Your Travel Companion\\p2F TRAINER'S MARKET",
+  "msgstr": "Votre compagnon de voyage\\p1{SUPER_ER}: Boutique du Dresseur",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/GoldenrodCity_DepartmentStore_2F_hns/scripts.inc",
+  "ligne": 228,
+  "ancien": "Votre compagnon de voyage\\p1ER MARCHE DES Dresseurs",
+  "preuve": "593:6 — Votre compagnon de voyage\\n1¹: Boutique du Dresseur",
+  "note": "2F = 1er étage en français (convention SS, comme les autres panneaux) : nombre gardé ; \\n remplacé par le \\p de l’anglais."
+ },
+ {
+  "msgid": "Good going!",
+  "msgstr": "Bien joué!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/LakeOfRage_hns/scripts.inc",
+  "ligne": 355,
+  "ancien": "Bien joué!",
+  "preuve": "723:227 — Bien joué!\\r",
+  "note": "Identique à l’actuel ; source SS exacte (723:227)."
+ },
+ {
+  "msgid": "Even though I was defeated, I\\nwon't change my course.\\pI will continue battling until I\\nstand above all trainers!\\pNow, {PLAYER}, move on and\\nexperience the true ferocity of\\lthe ELITE FOUR.",
+  "msgstr": "Certes, j’ai perdu, mais\\nça ne change rien pour moi.\\pJe dois continuer à me battre pour\\ndevenir le meilleur des Dresseurs.\\pMaintenant, {PLAYER}, continue ta\\nroute et découvre la véritable\\lforce du Conseil 4!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/PokemonLeague_WillsRoom_hns/scripts.inc",
+  "ligne": 124,
+  "ancien": "J’ai été vaincu, mais je ne\\nchangerai pas de cap.\\pJe combattrai jusqu’à surpasser\\ntous les Dresseurs!\\pMaintenant, {PLAYER}, avance et\\ngoûte à la vraie férocité du\\lConseil 4.",
+  "preuve": "523:1 — Certes, j’ai perdu, mais\\nça ne change rien pour moi.\\fJe dois continuer à me battre\\fpour devenir le meilleur des Dresseurs.\\rContinue ta route et découvre\\nla véritable force du Conseil 4!\\r",
+  "note": "Ajout de « Maintenant, {PLAYER}, » absent du SS ; découpage en 3 boîtes comme l’anglais."
+ },
+ {
+  "msgid": "PROF.ELM: Hello, {PLAYER}? We\\ndiscovered something about the EGG!\\pMy assistant is at the POKéMON\\nCENTER in VIOLET CITY.\\pCould you talk to him?",
+  "msgstr": "Prof. Orme: Allô, {PLAYER}?\\nJ’ai découvert quelque chose\\lsur cet Œuf!\\pJ’ai envoyé mon assistant au\\nCentre Pokémon de Mauville.\\pTu pourrais aller lui parler?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/VioletCity_hns/scripts.inc",
+  "ligne": 472,
+  "ancien": "Prof. Orme: Allô, {PLAYER}? On a\\ndécouvert quelque chose sur l’Œuf!\\pMon assistant est au CENTRE\\nPokémon de Mauville.\\pTu pourrais aller lui parler?",
+  "preuve": "556:0 — Allô, {STRVAR_1 3, 0, 0}?\\nJ’ai découvert quelque chose\\fsur cet Oeuf!\\rJ’ai envoyé mon assistant à la\\nBoutique Pokémon de Mauville.",
+  "note": "Corrige le défaut relevé : « Boutique Pokémon » → « Centre Pokémon » (l’assistant attend au Centre dans HnS), Oeuf → Œuf, ajout de la dernière phrase anglaise. L’actuel écrit « CENTRE\\nPokémon »."
+ },
+ {
+  "msgid": "You don't want to trade? Aww...",
+  "msgstr": "Tu ne veux pas échanger?\\nPfff… Déception…",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/BlackthornCity_House2_hns/scripts.inc",
+  "ligne": 44,
+  "ancien": "Tu ne veux pas échanger? Oh…",
+  "preuve": "562:4 — Tu ne veux pas échanger?\\nPfff... Déception...",
+  "note": "Texte partagé par 5 PNJ d’échange : variante sans « l’ » (ne présuppose pas un Pokémon précis)."
+ },
+ {
+  "msgid": "Ah! So you're the {PLAYER} who\\nsolved the POWER PLANT's problem?\\pThanks to you, I never lost my\\njob.\\pI tell you, you're a real\\nlifesaver!\\pPlease take this as my thanks.",
+  "msgstr": "Ah! Ne serais-tu pas {PLAYER},\\nqui a réparé la Centrale?\\pGrâce à toi, j’ai pu conserver\\nmon emploi!\\pJe te dois une fière chandelle!\\pTiens, en remerciement!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/LavenderTown_RadioStation_hns/scripts.inc",
+  "ligne": 83,
+  "ancien": "Ah! C’est donc toi, {PLAYER}, qui as\\nréglé le problème de la Centrale?\\pGrâce à toi, j’ai gardé mon\\nboulot.\\pJe te le dis, tu m’as sauvé\\nla mise!\\pAccepte ceci en remerciement.",
+  "preuve": "482:4 — Ah! Ne serais-tu pas le jeune\\n{STRVAR_1 3, 0, 0}, qui a réparé la Centrale?\\rGrâce à toi, j’ai pu conserver\\nmon emploi! Je te dois une fière\\fchandelle! Tiens, en remerciement!\\r",
+  "note": "Neutralisé : « le jeune / la jeune {PLAYER} » → « {PLAYER} » (joueur fille ou garçon) ; découpage en 4 boîtes comme l’anglais."
+ },
+ {
+  "msgid": "1F RECEPTION 2F SALES\\p3F PERSONNEL 4F PRODUCTION\\p5F DIRECTOR'S OFFICE",
+  "msgstr": "RC: Réception 1{SUPER_ER}: Produits dérivés\\p2{SUPER_E}: Personnel 3{SUPER_E}: Production\\p4{SUPER_E}: Bureau du Directeur",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/LavenderTown_RadioStation_hns/scripts.inc",
+  "ligne": 118,
+  "ancien": "RDC ACCUEIL 1ER VENTES\\p2E PERSONNEL 3E PRODUCTION\\p4E BUREAU DU DIRECTEUR",
+  "preuve": "482:10 — RC: Réception\\n1¹: Produits dérivés\\f2⁴: Personnel\\f3⁴: Production\\f4⁴: Bureau du Directeur",
+  "note": "Étages à la française (1F = RC, 2F = 1er…) comme le SS : pas une vraie différence de nombre. Mise en page de l’anglais (2 étages par boîte)."
+ },
+ {
+  "msgid": "Fooled you! Hahaha!",
+  "msgstr": "Tu m’as crue!\\nHahaha! Débile!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/FuchsiaCity_Gym_hns/scripts.inc",
+  "ligne": 227,
+  "ancien": "Je t’ai bien eu! Hahaha!",
+  "preuve": "514:7 — Tu m’as crue!\\nHahaha! Débile!\\r",
+  "note": "Fillette Linda (Arène de Parmanie), même réplique que 514:7 ; « crue » s’accorde avec la locutrice, pas avec le joueur."
+ },
+ {
+  "msgid": "For Victory Seekers\\p3F BATTLE COLLECTION",
+  "msgstr": "Gagnez vos combats!\\p2{SUPER_E}: Collection de Combat",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/GoldenrodCity_DepartmentStore_3F_hns/scripts.inc",
+  "ligne": 62,
+  "ancien": "Pour les assoiffés de victoire\\p2E COLLECTION Combat",
+  "preuve": "594:4 — Gagnez vos combats!\\n2⁴: Collection de Combat",
+  "note": "3F = 2e étage (convention française du SS) ; \\n → \\p de l’anglais."
+ },
+ {
+  "msgid": "Oh, bleah!",
+  "msgstr": "Ouiiiiin!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/CeladonCity_Gym_hns/scripts.inc",
+  "ligne": 97,
+  "ancien": "Oh, beurk!",
+  "preuve": "728:354 — Ouiiiiin!",
+  "note": "728:354 est une Dresseuse de l’Arène d’Erika (réplique suivante : « la grande Erika »), comme dans HnS (Arène de Céladopole)."
+ },
+ {
+  "msgid": "Tch, you really are strong.\\nIt's too bad.\\pIf you were to join Team Rocket,\\nyou could become an Executive.",
+  "msgstr": "Eh bien, quelle force!\\nQuel dommage…\\pTu pourrais devenir Commandant si\\ntu joignais la Team Rocket!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/RocketHideout_B2F_hns/scripts.inc",
+  "ligne": 592,
+  "ancien": "Tss, t’as vraiment du talent.\\nDommage.\\pSi tu rejoignais la Team Rocket,\\ntu pourrais devenir un Cadre.",
+  "preuve": "113:7 — Eh bien, quelle force!\\rQuel dommage...\\nTu pourrais devenir Commandant si\\ftu joignais la Team Rocket!\\r",
+  "note": "Variante SS complète (113:7), boîtes remises comme l’anglais (force + dommage / proposition)."
+ },
+ {
+  "msgid": "DIRECTOR: Use that to open the\\nshutters on 3F.",
+  "msgstr": "Directeur: Elle te permettra d’ouvrir\\nla cloison du 2{SUPER_E} étage.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/GoldenrodCity_UndergroundStorage_hns/scripts.inc",
+  "ligne": 100,
+  "ancien": "DIRECTEUR: Elle ouvre les volets\\nroulants du 3e étage.",
+  "preuve": "120:2 — Directeur: Elle te permettra d’ouvrir\\nla cloison du 2⁴ étage.\\r",
+  "note": "3F = 2e étage en français : même étage, pas une vraie différence de nombre."
+ },
+ {
+  "msgid": "SLOWPOKE: … Yawn?",
+  "msgstr": "RAMOLOSS: … Looooss?",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/AzaleaTown_KurtsHouse_hns/scripts.inc",
+  "ligne": 385,
+  "ancien": "RAMOLOSS: … Bâille?",
+  "preuve": "571:20 — RAMOLOSS: ... Looooss?",
+  "note": "Maison de Fargas : 571 est la banque de la maison de Fargas (571:0 = discours de Fargas) ; une seule ligne comme l’anglais."
+ },
+ {
+  "msgid": "JIGGLYPUFF: Puu pupuu.",
+  "msgstr": "RONDOUDOU: Douu!\\nDoudoudou!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/PewterCity_PokemonCenter_hns/scripts.inc",
+  "ligne": 23,
+  "ancien": "RONDOUDOU: Puu pupuu.",
+  "preuve": "463:1 — RONDOUDOU: Douu!\\nDoudoudou!",
+  "note": "Centre Pokémon d’Argenta : banque 463 (même PNJ au téléphone, phrase sur le chant de RONDOUDOU), pas 133 (Parc Safari)."
+ },
+ {
+  "msgid": "1F RECEPTION\\n2F SALES\\p3F PERSONNEL\\n4F PRODUCTION\\p5F DIRECTOR'S OFFICE",
+  "msgstr": "RC: Réception\\n1{SUPER_ER}: Produits dérivés\\p2{SUPER_E}: Personnel\\n3{SUPER_E}: Production\\p4{SUPER_E}: Bureau du Directeur",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/GoldenrodCity_RadioTower_1F_hns/scripts.inc",
+  "ligne": 257,
+  "ancien": "RDC ACCUEIL\\n1ER VENTES\\p2E PERSONNEL\\n3E PRODUCTION\\p4E BUREAU DU DIRECTEUR",
+  "preuve": "482:10 — RC: Réception\\n1¹: Produits dérivés\\f2⁴: Personnel\\f3⁴: Production\\f4⁴: Bureau du Directeur",
+  "note": "Étages à la française comme le SS ; mise en page de l’anglais (\\n et \\p)."
+ },
+ {
+  "msgid": "Wh-who are you?",
+  "msgstr": "Qu-qu-qui t’es toi?",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/GoldenrodCity_RadioTower_2F_hns/scripts.inc",
+  "ligne": 224,
+  "ancien": "Qu… Qui es-tu?",
+  "preuve": "728:1079 — Qu-qu-qui t’es toi?",
+  "note": "Sbire vaincu (Tour Radio) : la variante bégayée correspond à « Wh-who are you? » (728:1079)."
+ },
+ {
+  "msgid": "2F SALES",
+  "msgstr": "1{SUPER_ER}: Ventes",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/GoldenrodCity_RadioTower_2F_hns/scripts.inc",
+  "ligne": 267,
+  "ancien": "1ER VENTES",
+  "preuve": "66:6 — 1¹: Ventes",
+  "note": "2F = 1er étage en français."
+ },
+ {
+  "msgid": "FAST SHIP S.S.AQUA has arrived in\\nOLIVINE CITY.",
+  "msgstr": "Le Bateau Express Aquaria est arrivé\\nà Oliville.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/SSAqua_1F_hns/scripts.inc",
+  "ligne": 282,
+  "ancien": "Le bateau rapide M/S Aqua est arrivé\\nà Oliville.",
+  "preuve": "259:5 — Le Bateau Express Aquaria est arrivé\\nà Oliville.\\r",
+  "note": "Variante sans « port », même mise en page que l’anglais ; nom officiel SS (actuel « M/S Aqua »)."
+ },
+ {
+  "msgid": "It's this kid's notebook…\\pCatch POKéMON using POKé BALLS.\\pUp to six can be in your party.\\pKeep reading?",
+  "msgstr": "C’est le cahier de cet enfant…\\pAttrapez les Pokémon en\\nlançant des Poké Balls.\\pVous pouvez transporter\\njusqu’à 6 Pokémon avec vous.\\pVoulez-vous lire la suite?",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/VioletCity_TrainerSchool_hns/scripts.inc",
+  "ligne": 166,
+  "ancien": "C’est le cahier d’un enfant…\\pAttrape des Pokémon avec\\ndes BALLS.\\pSix au maximum sur toi.\\pLire la suite?",
+  "preuve": "560:19 — C’est le cahier de cet enfant...\\rAttrapez les Pokémon en\\nlançant des Poké Balls.\\rVous pouvez transporter\\njusqu’à 6 Pokémon avec vous.\\rVoulez-vous lire la suite? {YESNO 0}",
+  "note": "« 6 » = « six » : même nombre. Même découpage en 4 boîtes."
+ },
+ {
+  "msgid": "5F DIRECTOR'S   OFFICE",
+  "msgstr": "4{SUPER_E}: Bureau de la Direction",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/GoldenrodCity_RadioTower_5F_hns/scripts.inc",
+  "ligne": 434,
+  "ancien": "4e BUREAU DU DIRECTEUR",
+  "preuve": "69:7 — 4⁴: Bureau de la Direction",
+  "note": "5F = 4e étage en français."
+ },
+ {
+  "msgid": "Let Us Pump Up Your POKéMON!\\p4F MEDICINE BOX",
+  "msgstr": "Améliorez vos Pokémon!\\p3{SUPER_E}: Pharmacie",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/GoldenrodCity_DepartmentStore_4F_hns/scripts.inc",
+  "ligne": 81,
+  "ancien": "Boostez vos Pokémon!\\p3E PHARMACIE",
+  "preuve": "595:6 — Améliorez vos Pokémon!\\n3⁴: Pharmacie",
+  "note": "4F = 3e étage ; \\n → \\p de l’anglais."
+ },
+ {
+  "msgid": "ABRA: Aabra…",
+  "msgstr": "ABRA: Aabra…",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/IndigoPlateau_PokemonCenter_hns/scripts.inc",
+  "ligne": 164,
+  "ancien": "ABRA: Abraaa…",
+  "preuve": "522:2 — ABRA: Aabra...",
+  "note": "Centre du Plateau Indigo : banque 522 (PNJ qui téléportait les Dresseurs), pas 147."
+ },
+ {
+  "msgid": "But after seeing how you battle,\\nI want to see how I'll fare.\\pHow about it? Let me take you\\non.",
+  "msgstr": "Maintenant que je t’ai vu te battre,\\nj’aimerais bien tenter ma chance.\\pÇa te dit?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route25_hns/scripts.inc",
+  "ligne": 493,
+  "ancien": "Mais après t’avoir vu combattre,\\nj’ai envie de me mesurer à toi.\\pAlors, qu’en dis-tu? On s’affronte?",
+  "preuve": "363:13 — ... Bien!\\nMaintenant que je t’ai vu te battre,\\fj’aimerais bien tenter ma chance.\\fÇa te dit?",
+  "note": "Variante « je t’ai vu te battre » (= seeing how you battle), « … Bien! » retiré (HnS enchaîne sur une réplique précédente), boîtes de l’anglais."
+ },
+ {
+  "msgid": "You're good.",
+  "msgstr": "Superbe.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/SilphCo_2F_Frlg/scripts.inc",
+  "ligne": 55,
+  "ancien": "Tu te débrouilles bien.",
+  "preuve": "723:812 — Superbe.",
+  "note": "723:812 traduit exactement « You’re good. » (même ponctuation) ; remplace une traduction nouvelle."
+ },
+ {
+  "msgid": "THUD!!",
+  "msgstr": "Boum!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/EcruteakCity_hns/scripts.inc",
+  "ligne": 121,
+  "ancien": "BOUM!!!",
+  "preuve": "612:16 — {SIZE 200}Boum!",
+  "note": "Scène de Rosalia (rival éjecté du Théâtre) : 612 est la banque de Rosalia (612:18 = tirade du rival), {SIZE} supprimé."
+ },
+ {
+  "msgid": "Hey!",
+  "msgstr": "Hé!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route27_hns/scripts.inc",
+  "ligne": 173,
+  "ancien": "Hé!",
+  "preuve": "723:705 — Hé!",
+  "note": "Identique à l’actuel ; « AIE AIE AIE » écarté."
+ },
+ {
+  "msgid": "I see. So you can battle\\nthat way.",
+  "msgstr": "Ah! On peut utiliser ce genre de\\nstratégie…",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route38_hns/scripts.inc",
+  "ligne": 157,
+  "ancien": "Je vois. On peut donc se battre\\ncomme ça.",
+  "preuve": "728:771 — Ah! On peut utiliser ce genre de\\nstratégie...",
+  "note": "Variante qui garde le sens « on peut donc se battre comme ça », même mise en page."
+ },
+ {
+  "msgid": "Top Grade Items for Trainers!\\p2F: TRAINER'S MARKET",
+  "msgstr": "De bons objets pour de bons\\nDresseurs!\\p1{SUPER_ER}: Marché du Dresseur",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/CeladonCity_DepartmentStore_2F_hns/scripts.inc",
+  "ligne": 29,
+  "ancien": "Objets de premier choix pour les\\nDresseurs!\\p1ER: MARCHE DES Dresseurs",
+  "preuve": "495:2 — De bons objets pour de bons Dresseurs!\\n1¹: Marché du Dresseur",
+  "note": "2F = 1er étage ; \\l → \\p de l’anglais (même texte que la version FRLG déjà au .po)."
+ },
+ {
+  "msgid": "4F PRODUCTION",
+  "msgstr": "3{SUPER_E}: Production",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/GoldenrodCity_RadioTower_4F_hns/scripts.inc",
+  "ligne": 185,
+  "ancien": "3E PRODUCTION",
+  "preuve": "68:8 — 3⁴: Production",
+  "note": "4F = 3e étage en français."
+ },
+ {
+  "msgid": "My old associates need me...\\nWe will not repeat the failure of\\lthree years ago!",
+  "msgstr": "Mes anciens subordonnés ont\\ntoujours besoin de moi…\\pJe ne laisserai pas la cuisante erreur\\nd’il y a 3 ans se reproduire!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/TohjoFalls_GiovanniRoom_hns/scripts.inc",
+  "ligne": 218,
+  "ancien": "Mes anciens associés ont besoin\\nde moi… Nous ne répéterons pas\\ll’échec d’il y a trois ans!",
+  "preuve": "131:3 — Mes anciens subordonnés ont toujours\\nbesoin de moi...\\rJe ne laisserai pas la cuisante erreur\\nd’il y a 3 ans se reproduire!",
+  "note": "« 3 ans » = three years ago : même nombre."
+ },
+ {
+  "msgid": "3F PERSONNEL",
+  "msgstr": "2{SUPER_E}: Personnel",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/GoldenrodCity_RadioTower_3F_hns/scripts.inc",
+  "ligne": 143,
+  "ancien": "2E PERSONNEL",
+  "preuve": "67:15 — 2⁴: Personnel",
+  "note": "3F = 2e étage en français."
+ },
+ {
+  "msgid": "The TEAM ROCKET boss has locked\\nhimself in.\\pBut the DIRECTOR can open it.\\pHe's up on the fifth floor.\\pPlease save him!",
+  "msgstr": "Le chef de la Team Rocket s’est\\nbarricadé derrière cette porte.\\pMais le directeur peut l’ouvrir!\\nIl est au 4{SUPER_E}…\\pSauve-le! Par pitié!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/GoldenrodCity_RadioTower_3F_hns/scripts.inc",
+  "ligne": 167,
+  "ancien": "Le boss de la Team Rocket s’est\\nenfermé à double tour.\\pMais le DIRECTEUR peut ouvrir.\\pIl est au dernier étage.\\pSauvez-le, je vous en prie!",
+  "preuve": "67:3 — Leur chef s’est barricadé derrière\\ncette porte.\\rMais le directeur peut l’ouvrir!\\nIl est au 4⁴...\\rSauve-le! Par pitié!\\n",
+  "note": "« Leur chef » → « Le chef de la Team Rocket » (antécédent explicite) ; 5e étage anglais = 4e en français."
+ },
+ {
+  "msgid": "JIGGLYPUFF: Puu pupuu!",
+  "msgstr": "RONDOUDOU: Douu!\\nDoudoudou!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/PewterCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 55,
+  "ancien": "RONDOUDOU: Puu pupuu!",
+  "preuve": "463:1 — RONDOUDOU: Douu!\\nDoudoudou!",
+  "note": "Centre Pokémon d’Argenta (FRLG) : même réplique que 463:1 ; remplace une traduction nouvelle qui gardait l’onomatopée anglaise."
+ },
+ {
+  "msgid": "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}rose!",
+  "msgstr": "{B_BUFF1} du {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}augmente!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 79,
+  "ancien": "{B_DEF_NAME_WITH_PREFIX}: {B_BUFF1} {B_BUFF2}monte!",
+  "preuve": "197:750 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\\naugmente!",
+  "note": "SS sans « Ah, », {B_BUFF2} gardé devant le verbe (même limite d’ordre des mots que l’actuel « très monte »)."
+ },
+ {
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} stockpiled {B_BUFF1}!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} utilise Stockage {B_BUFF1} fois!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 291,
+  "ancien": "{B_ATK_NAME_WITH_PREFIX} stocke {B_BUFF1}!",
+  "preuve": "197:317 — {STRVAR_1 1, 0, 0} utilise Stockage\\n{STRVAR_1 50, 1, 0} fois!",
+  "note": "Plus large que l’anglais (242 > 186 px) mais le moteur coupe seul les messages de combat (BreakStringAutomatic, 2 lignes de 208 px) et l’actuel « stocke {B_BUFF1}! » (« stocke 2! ») n’a pas de sens."
+ },
+ {
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} braced itself!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} rassemble ses forces!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/battle_message.c",
+  "ligne": 328,
+  "ancien": "{B_ATK_NAME_WITH_PREFIX} se prépare au choc!",
+  "preuve": "197:442 — {STRVAR_1 1, 0, 0} rassemble ses\\nforces!",
+  "note": "177 px : tient sur une ligne de la boîte de combat (208 px)."
+ },
+ {
+  "msgid": "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}rose!",
+  "msgstr": "{B_BUFF1} du {B_ATK_NAME_WITH_PREFIX} {B_BUFF2}augmente!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 383,
+  "ancien": "{B_ATK_NAME_WITH_PREFIX}: {B_BUFF1} {B_BUFF2}monte!",
+  "preuve": "197:750 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\\naugmente!",
+  "note": "Comme B:69."
+ },
+ {
+  "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}rose!",
+  "msgstr": "{B_BUFF1} du {B_SCR_NAME_WITH_PREFIX} {B_BUFF2}augmente!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 385,
+  "ancien": "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} {B_BUFF2}augmente!",
+  "preuve": "197:750 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\\naugmente!",
+  "note": "Comme B:69 (« du » officiel au lieu de « de »)."
+ },
+ {
+  "msgid": "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}fell!",
+  "msgstr": "{B_BUFF1} du {B_ATK_NAME_WITH_PREFIX} {B_BUFF2}baisse!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 386,
+  "ancien": "{B_ATK_NAME_WITH_PREFIX}: {B_BUFF1} {B_BUFF2}chute!",
+  "preuve": "197:762 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\\nbaisse!",
+  "note": "SS 197:762 sans « Ah, », variables HnS."
+ },
+ {
+  "msgid": "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}fell!",
+  "msgstr": "{B_BUFF1} du {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}baisse!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 387,
+  "ancien": "{B_DEF_NAME_WITH_PREFIX}: {B_BUFF1} {B_BUFF2}chute!",
+  "preuve": "197:762 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\\nbaisse!",
+  "note": "Comme B:86."
+ },
+ {
+  "msgid": "Gravity intensified!",
+  "msgstr": "La Gravité est intensifiée!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/battle_message.c",
+  "ligne": 546,
+  "ancien": "La gravité s’intensifie!",
+  "preuve": "197:997 — La Gravité est intensifiée!",
+  "note": "142 px : tient sur une ligne de la boîte de combat ; nom de capacité « Gravité » (glossaire)."
+ },
+ {
+  "msgid": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} {B_BUFF2}raised its {B_BUFF1}!",
+  "msgstr": "{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}augmente sa stat {B_BUFF1}!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 595,
+  "ancien": "{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}monte sa {B_BUFF1}!",
+  "preuve": "197:622 — {STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0}\\naugmente sa stat {STRVAR_1 13, 2, 0}!",
+  "note": "Tournure SS 197:622 (« sa stat » évite « sa ESQUIVE ») ; tient en 2 lignes de combat avec les vrais noms (coupure automatique)."
+ },
+ {
+  "msgid": "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY} {B_BUFF2}raised its {B_BUFF1}!",
+  "msgstr": "{B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX} {B_BUFF2}augmente sa stat {B_BUFF1}!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 597,
+  "ancien": "{B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX} {B_BUFF2}augmente sa {B_BUFF1}!",
+  "preuve": "197:622 — {STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0}\\naugmente sa stat {STRVAR_1 13, 2, 0}!",
+  "note": "Comme B:100."
+ },
+ {
+  "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} {B_BUFF2}raised its {B_BUFF1}!",
+  "msgstr": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} {B_BUFF2}augmente sa stat {B_BUFF1}!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/battle_message.c",
+  "ligne": 684,
+  "ancien": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} {B_BUFF2}augmente sa {B_BUFF1}!",
+  "preuve": "197:622 — {STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0}\\naugmente sa stat {STRVAR_1 13, 2, 0}!",
+  "note": "Comme B:100."
+ },
+ {
+  "msgid": "OFF",
+  "msgstr": "NON",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/challenge_menu.c",
+  "ligne": 337,
+  "ancien": "NON",
+  "preuve": "45:13 — NON",
+  "note": "OFF des options = NON (SS 45:13, comme Émeraude FR) ; identique à l’actuel."
+ },
+ {
+  "msgid": "ON",
+  "msgstr": "OUI",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/challenge_menu.c",
+  "ligne": 338,
+  "ancien": "OUI",
+  "preuve": "45:12 — OUI",
+  "note": "ON des options = OUI (SS 45:12) ; identique à l’actuel."
+ },
+ {
+  "msgid": "{R_BUTTON}NEXT",
+  "msgstr": "{R_BUTTON}SUITE",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/challenge_menu.c",
+  "ligne": 357,
+  "ancien": "{R_BUTTON}SUIVANT",
+  "preuve": "196:23 — SUITE",
+  "note": "Barre du menu de défis : SUITE (SS 196:23) ; le libellé SAVE s’affiche au même x calculé sur NEXT : SUITE + SAUV. tiennent dans l’écran."
+ },
+ {
+  "msgid": "{R_BUTTON}SAVE",
+  "msgstr": "{R_BUTTON}SAUV.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/challenge_menu.c",
+  "ligne": 358,
+  "ancien": "{R_BUTTON}SAUVER",
+  "preuve": "13:94 — SAUV.",
+  "note": "SS 13:94 ; plus étroit que SUITE, donc ne déborde pas (x calculé sur la largeur de NEXT)."
+ },
+ {
+  "msgid": "{STR_VAR_1} seems very cold.",
+  "msgstr": "{STR_VAR_1} a l’air d’avoir très froid.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/follower_helper.c",
+  "ligne": 58,
+  "ancien": "{STR_VAR_1} a très froid.",
+  "preuve": "265:248 — {STRVAR_1 1, 0, 0} a l’air d’avoir très froid.",
+  "note": "192 px : tient sur la ligne (≤ 198)."
+ },
+ {
+  "msgid": "{STR_VAR_1} is looking up at the\\nsky.",
+  "msgstr": "{STR_VAR_1} lève les yeux vers\\nle ciel.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/follower_helper.c",
+  "ligne": 72,
+  "ancien": "{STR_VAR_1} lève les yeux\\nvers le ciel.",
+  "preuve": "265:393 — {STRVAR_1 1, 0, 0} lève les yeux vers le ciel.",
+  "note": "Mêmes mots que l’actuel, source SS."
+ },
+ {
+  "msgid": "DEPOSIT POKéMON",
+  "msgstr": "DEPOSER POKéMON",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/pokemon_storage_system.c",
+  "ligne": 875,
+  "ancien": "DEPOSER POKéMON",
+  "preuve": "25:50 — DEPOSER POKéMON",
+  "note": "Variante complète (banque du PC, 25:50) ; identique à l’actuel."
+ },
+ {
+  "msgid": "Bye-bye, {DYNAMIC 0}!",
+  "msgstr": "Bye-bye, {DYNAMIC 0}!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/pokemon_storage_system.c",
+  "ligne": 1066,
+  "ancien": "Bye bye, {DYNAMIC 0}!",
+  "preuve": "25:4 — Bye-bye, {STRVAR_1 1, 0, 0}!",
+  "note": "Relâcher au PC : 25:4 vient de la banque du système de stockage (même fonction) ; « Ciao » SS est « Take care »."
+ },
+ {
+  "msgid": "Chad",
+  "msgstr": "Chad",
+  "source": "traduction nouvelle",
+  "fichier": "src/scrcmd.c",
+  "ligne": 1764,
+  "ancien": "",
+  "preuve": "685:0 — Mathys",
+  "note": "Liste de noms de Dresseur d’origine de l’Œuf Mystère (pseudos de l’équipe de dév.) : nom propre gardé ; « Mathys » (Dresseur SS) sans rapport."
+ },
+ {
+  "msgid": "{A_BUTTON}NEXT",
+  "msgstr": "{A_BUTTON}SUITE",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 40,
+  "ancien": "{A_BUTTON}SUITE",
+  "preuve": "196:23 — SUITE",
+  "note": "Identique à l’actuel, source SS."
+ },
+ {
+  "msgid": "{STR_VAR_1} did not learn the\\nmove {STR_VAR_2}.",
+  "msgstr": "{STR_VAR_1} n’a pas appris la\\ncapacité {STR_VAR_2}.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1221,
+  "ancien": "{STR_VAR_1} n’a pas appris\\n{STR_VAR_2}.",
+  "preuve": "300:59 — … n’a pas appris la\\ncapacité ….",
+  "note": "Variante qui garde « the move » (300:59/747:8), même mise en page."
+ },
+ {
+  "msgid": "PP",
+  "msgstr": "PP",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/battle_debug.c",
+  "ligne": 318,
+  "ancien": "",
+  "preuve": "6:14 — PP",
+  "note": ".po vide (menu de debug)."
+ },
+ {
+  "msgid": "Red",
+  "msgstr": "Red",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 461,
+  "ancien": "",
+  "preuve": "171:55 — Red",
+  "note": "Liste des PNJ suiveurs du debug (Brendan, May, Steven…) : Red est le héros de Rouge, même nom en français ; .po vide."
+ },
+ {
+  "msgid": "ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "msgstr": "ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 2048,
+  "ancien": "",
+  "preuve": "422:1 — Nº {STRVAR_1 54, 0, 0}",
+  "note": "Debug, .po vide : « ID » se dit aussi en français (identique à l’anglais, voulu)."
+ },
+ {
+  "msgid": "{FONT_SMALL} 50 COINS{CLEAR_TO 0x45}¥1,000",
+  "msgstr": "{FONT_SMALL} 50 JETONS{CLEAR_TO 0x45}1 000¥",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 951,
+  "ancien": "{FONT 0} 50 JETONS{CLEAR_TO 69}¥1,000",
+  "preuve": "191:127 — 50 Jet.{CURSOR_X 60}1 000 $",
+  "note": "Graphie {FONT_SMALL} et colonne {CLEAR_TO 0x45} de l’anglais (l’actuel a {FONT 0}/69 et « ¥1,000 ») ; ¥ après le nombre (décision 12) ; « 50 JETONS » < 69 px."
+ },
+ {
+  "msgid": "{FONT_SMALL}500 COINS{CLEAR_TO 0x40}¥10,000",
+  "msgstr": "{FONT_SMALL}500 JETONS{CLEAR_TO 0x40}10 000¥",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 952,
+  "ancien": "{FONT 0}500 COINS{CLEAR_TO 64}¥10,000",
+  "preuve": "191:128 — 500 Jet.{CURSOR_X 60}10 000 $",
+  "note": "Idem ; « 500 JETONS » 57 px (police normale) < 64, moins en petite police."
+ },
+ {
+  "msgid": "FRESH WATER{CLEAR_TO 0x57}{FONT_SMALL}¥200",
+  "msgstr": "Eau Fraîche{CLEAR_TO 0x57}{FONT_SMALL}200¥",
+  "source": "Émeraude FR officiel (adapté)",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 964,
+  "ancien": "Eau Fraîche{CLEAR_TO 87}{FONT 0}¥200",
+  "preuve": "Eau Fraîche{CLEAR_TO 0x48}200¥ (Émeraude FR officiel adapté, même article à {CLEAR_TO 0x48})",
+  "note": "Codes écrits comme l’anglais ({CLEAR_TO 0x57}{FONT_SMALL}, l’actuel a 87/{FONT 0}) et ¥ après le prix ; nom Émeraude FR."
+ },
+ {
+  "msgid": "SODA POP{CLEAR_TO 0x57}{FONT_SMALL}¥300",
+  "msgstr": "Soda Cool{CLEAR_TO 0x57}{FONT_SMALL}300¥",
+  "source": "Émeraude FR officiel (adapté)",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 965,
+  "ancien": "Soda Cool{CLEAR_TO 87}{FONT 0}300¥",
+  "preuve": "Soda Cool{CLEAR_TO 0x48}300¥ (Émeraude FR officiel adapté)",
+  "note": "Codes écrits comme l’anglais."
+ },
+ {
+  "msgid": "LEMONADE{CLEAR_TO 0x57}{FONT_SMALL}¥350",
+  "msgstr": "Limonade{CLEAR_TO 0x57}{FONT_SMALL}350¥",
+  "source": "Émeraude FR officiel (adapté)",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 966,
+  "ancien": "Limonade{CLEAR_TO 87}{FONT 0}¥350",
+  "preuve": "Limonade{CLEAR_TO 0x48}350¥ (Émeraude FR officiel adapté)",
+  "note": "Codes écrits comme l’anglais et ¥ après le prix."
+ },
+ {
+  "msgid": "COINS",
+  "msgstr": "JETONS",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 1488,
+  "ancien": "ETONS",
+  "preuve": "168:138 — ♡Coins",
+  "note": "L’actuel « ETONS » est un morceau du patch (JETONS amputé) ; « ♡Coins » SS non traduit. Terme d’Émeraude FR."
+ },
+ {
+  "msgid": "{STR_VAR_1} is jumping for joy!",
+  "msgstr": "{STR_VAR_1} est si heureux qu’il ne\\ntient pas en place.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/data/text/follower_messages.h",
+  "ligne": 31,
+  "ancien": "{STR_VAR_1} saute de joie!",
+  "preuve": "265:52 — … est si heureux qu’il ne\\ntient pas en place.",
+  "note": "Message de Pokémon suiveur (dialogue, les voisins ont un \\n) : coupure d’origine du SS, lignes ≤ 198 px."
+ },
+ {
+  "msgid": "{STR_VAR_1} is looking this way and\\nsmiling.",
+  "msgstr": "{STR_VAR_1} s’est retourné, tout\\nsourire.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/data/text/follower_messages.h",
+  "ligne": 81,
+  "ancien": "{STR_VAR_1} vous regarde en\\nsouriant.",
+  "preuve": "265:272 — {STRVAR_1 1, 0, 0} s’est retourné,\\ntout sourire.",
+  "note": "Variante finissant par un point comme l’anglais ; remplace l’actuel au « vous »."
+ },
+ {
+  "msgid": "POKéMON Talk",
+  "msgstr": "Chronique Pokémon",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/data/text/radio_strings.h",
+  "ligne": 245,
+  "ancien": "Blabla Pokémon",
+  "preuve": "66:67 — Chronique Pokémon",
+  "note": "Mot de passe de Buena = nom de l’émission : SS « Chronique Pokémon » (remplace « Blabla Pokémon »). À harmoniser avec le nom de station « Pokémon Talk du Prof. Chen » (glossaire)."
+ },
+ {
+  "msgid": "Life",
+  "msgstr": "Vie",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/data/pokemon/species_info/gen_6_families.h",
+  "ligne": 6668,
+  "ancien": "Existence",
+  "preuve": "288:97 — VIE",
+  "note": "Catégorie de XERNEAS (Pokémon Life) : « Vie » est la catégorie officielle française ; « Existence » (patch) ne l’est pas."
+ },
+ {
+  "msgid": "Hi, how's my old MR MIME doing?",
+  "msgstr": "Salut!\\nComment va le M. MIME que\\lje t’ai échangé?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/BlackthornCity_House2_hns/scripts.inc",
+  "ligne": 47,
+  "ancien": "Salut! Comment va mon ancien\\nM. MIME?",
+  "preuve": "345:12 — Salut!\\nComment va le MAGNETON que\\fje t’ai échangé?",
+  "note": "345:12 avec M. MIME à la place de MAGNETON (variante « échangé »)."
+ },
+ {
+  "msgid": "I am BRUNO of the ELITE FOUR.\\pI always train to the extreme be-\\ncause I believe in our potential.\\pThat is how we became strong.\\pCan you withstand our power?\\pHm? I see no fear in you. You look\\ndetermined. Perfect for battle!\\pReady, {PLAYER}? You will bow down\\nto our overwhelming power!\\pHoo hah!",
+  "msgstr": "Je suis Aldo du Conseil 4.\\pMa philosophie, c’est d’avoir\\nconfiance en son potentiel et de\\ls’entraîner jusqu’à ses ultimes\\llimites.\\pEt tu crois pourtant pouvoir nous\\négaler malgré cela?\\pHo, ça ne t’intimide pas on dirait…\\nTrès bien! Ton visage me dit que le\\lcombat peut commencer!\\pEn garde! {PLAYER}!\\nVoyons voir si tu résistes à notre\\lsurpuissance!\\pYaaaah!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/PokemonLeague_BrunosRoom_hns/scripts.inc",
+  "ligne": 79,
+  "ancien": "Je suis ALDO, du Conseil 4.\\pJe m’entraîne toujours à l’extrême,\\ncar je crois en notre potentiel.\\pC’est ainsi que nous sommes\\ndevenus forts.\\pSauras-tu résister à notre force?\\pHm? Je ne vois aucune peur en toi.\\nTu as l’air déterminé. Parfait!\\p{PLAYER}! Tu vas plier devant\\nnotre écrasante puissance!\\pHou hah!",
+  "preuve": "525:0 — Je suis Aldo du Conseil 4.\\rMa philosophie, c’est d’avoir confiance\\nen son potentiel et de s’entraîner\\fjusqu’à ses ultimes limites.\\rEt tu crois pourtant pouvoir nous\\négaler malgré cela?\\rHo, ça ne t’intimide pas on dirait...\\nTrès bien! Ton visage me dit\\fque le combat peut commencer!\\rEn garde! {STRVAR_1 3, 0, 0}!\\nVoyons voir si tu résistes à notre\\fsurpuissance!\\rYaaaah!\\r",
+  "note": "« 4 » fait partie du nom officiel « Conseil 4 » (ELITE FOUR) : pas une vraie différence. Même réplique d’Aldo."
+ },
+ {
+  "msgid": "Hm? Who are you?\\p{PLAYER}, eh? You want me to make\\nsome BALLS?\\pSorry, but that'll have to wait.\\pDo you know TEAM ROCKET?\\nAh, don't worry.\\pI'll tell you anyhow.\\pTEAM ROCKET's an evil gang that\\nuses POKéMON for their dirty work.\\pThey're supposed to have disbanded\\nthree years ago.\\pAnyway, they're at the WELL,\\ncutting off SLOWPOKETAILS to sell!\\pSo I'm going to go give them a\\nlesson in pain!\\pHang on, SLOWPOKE! Old KURT\\nis on his way!",
+  "msgstr": "Hum? Qui es-tu, toi?\\n{PLAYER}? Et tu voudrais que je te\\lfabrique des Poké Balls?\\pDésolé mais ça devra attendre.\\nTu connais la Team Rocket?\\pBah, que tu la connaisses ou non,\\nça change rien.\\pCe sont des gens qui utilisent des\\nPokémon à des fins crapuleuses.\\pLeur organisation avait pourtant été\\ndémantelée il y a 3 ans…\\pMais là, ils sont au fond du Puits\\nRAMOLOSS. Je suis sûr qu’ils coupent\\lla queue de ces pauvres Pokémon pour\\lles revendre!\\pJe m’en vais leur montrer de quel bois\\nje me chauffe, moi!\\pTenez bon les petits RAMOLOSS!\\nLe bon vieux Fargas, à la rescousse!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/AzaleaTown_KurtsHouse_hns/scripts.inc",
+  "ligne": 267,
+  "ancien": "Hm? Qui es-tu?\\p{PLAYER}, hein? Tu veux que je te\\nfabrique des BALLS?\\pDésolé, mais ça devra attendre.\\pTu connais la Team Rocket?\\nAh, ne t’en fais pas.\\pJe vais te raconter quand même.\\pLa Team Rocket est un gang de\\nbrigands qui exploite les Pokémon.\\pIls étaient censés s’être dissous\\nil y a trois ans.\\pBref, ils sont au PUITS, et ils\\ncoupent des QUEUES DE RAMOLOSS\\lpour les vendre!\\pAlors je vais leur donner une\\nbonne leçon!\\pTenez bon, RAMOLOSS! Le vieux\\nFargas arrive!",
+  "preuve": "571:0 — Hum? Qui es-tu, toi?\\n{STRVAR_1 3, 0, 0}? Et tu voudrais que je te\\ffabrique des Poké Balls?\\rDésolé mais ça devra attendre.\\nTu connais la Team Rocket?\\rBah, que tu la connaisses ou non,\\nça change rien.\\rCe sont des gens qui utilisent des\\nPokémon à des fins crapuleuses.\\rLeur organisation avait pourtant été\\ndémantelée il y a 3 ans...\\rMais là, ils sont au fond du Puits\\nRAMOLOSS. Je suis sûr qu’ils coupent\\fla queue de ces pauvres Pokémon pour\\fles revendre!\\rJe m’en vais leur montrer de quel bois\\nje me chauffe, moi!\\rTenez bon les petits RAMOLOSS!\\nLe bon vieux Fargas, à la rescousse!",
+  "note": "« il y a 3 ans » = three years ago. Même tirade de Fargas ; « Puits RAMOLOSS » (glossaire)."
+ },
+ {
+  "msgid": "Fwahahahaha!\\pI am KOGA of the ELITE FOUR.\\pI live in shadows, a ninja!\\pMy intricate style will confound\\nand destroy you!\\pConfusion, sleep, poison…\\pPrepare to be the victim of my\\nsinister technique!\\pFwahahahaha!\\pPOKéMON is not merely about brute\\nforce--you shall see soon enough!",
+  "msgstr": "… Fwah! Ha! Ha!\\pJe suis Koga du Conseil 4.\\nJe suis un ninja contemporain!\\pJe connais toutes sortes de\\ntechniques de combat, pour perturber\\ll’ennemi, le déconcentrer,\\ll’empoisonner…\\pJe suis imprévisible!\\nFwah! Ha! Ha!\\pIl est temps de t’apprendre que\\ncertains Pokémon ne peuvent pas être\\lvaincus par la force pure!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/PokemonLeague_KogasRoom_hns/scripts.inc",
+  "ligne": 76,
+  "ancien": "Fwahahahaha!\\pJe suis KOGA, du Conseil 4.\\pJe vis dans l’ombre, tel un ninja!\\pMon style tortueux va te dérouter\\net t’anéantir!\\pConfusion, sommeil, poison…\\pPrépare-toi à être la victime de\\nma sinistre technique!\\pFwahahahaha!\\pLes Pokémon, ce n’est pas que de\\nla force brute… Tu vas voir!",
+  "preuve": "524:0 — ... Fwah! Ha! Ha!\\rJe suis Koga du Conseil 4.\\nJe suis un ninja contemporain!\\rJe connais toutes sortes de techniques\\nde combat, pour perturber l’ennemi, le\\fdéconcentrer, l’empoisonner...\\rJe suis imprévisible!\\nFwah! Ha! Ha!\\rIl est temps de t’apprendre que\\ncertains Pokémon ne peuvent pas être\\fvaincus par la force pure!\\r",
+  "note": "« Conseil 4 » = ELITE FOUR (nom officiel). Même réplique de Koga."
+ },
+ {
+  "msgid": "Hi, how's my old VOLTORB doing?",
+  "msgstr": "Salut!\\nComment va le VOLTORBE que\\lje t’ai échangé?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/OlivineCity_House1_hns/scripts.inc",
+  "ligne": 47,
+  "ancien": "Salut! Comment va mon ancien\\nVOLTORBE?",
+  "preuve": "345:12 — Salut!\\nComment va le MAGNETON que\\fje t’ai échangé?",
+  "note": "345:12 avec VOLTORBE à la place de MAGNETON (variante « échangé »)."
+ },
+ {
+  "msgid": "WAHAHAH! I enjoyed battling you!\\pBut a loss is a loss!\\pFrom now on, I'm going to train\\n24 hours a day!",
+  "msgstr": "Hahaha!\\nJe me suis bien amusé avec toi!\\pMais une défaite est une défaite! Je\\nvais reprendre l’entraînement\\l24h/24!",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/CianwoodGym_hns/scripts.inc",
+  "ligne": 172,
+  "ancien": "WAHAHAH! J’ai adoré te combattre!\\pMais une défaite est une défaite!\\pDésormais, je m’entraînerai\\n24 h sur 24!",
+  "preuve": "574:8 — Chuck: Hahaha!\\nJe me suis bien amusé avec toi!\\rMais une défaite est une défaite! Je\\nvais reprendre l’entraînement 24h/24!",
+  "note": "« 24h/24 » = 24 hours a day : même nombre."
+ },
+ {
+  "msgid": "ELM: {PLAYER}, this is terrible…\\pOh, yes, what was MR. POKéMON's\\nbig discovery?",
+  "msgstr": "Orme: {PLAYER}, quelle tragédie…\\pAu fait, quelle était la grande\\ndécouverte de M. Pokémon?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/NewBarkTown_Lab_hns/scripts.inc",
+  "ligne": 804,
+  "ancien": "Orme: {PLAYER}, c’est terrible…\\pAh, oui, c’était quoi, la grande\\ndécouverte de M. Pokémon?",
+  "preuve": "543:32 — Orme: Ah, quelle tragédie...\\nAu fait, quelle était la grande\\fdécouverte de M. Pokémon?\\r",
+  "note": "« Ah, » → « {PLAYER}, » (variable de l’anglais) ; boîte \\p de l’anglais."
+ },
+ {
+  "msgid": "ELM: {PLAYER}! There you are!\\pI called because I have\\nsomething for you.\\pSee? It's an S.S.TICKET.\\pNow you can catch POKéMON in\\nKANTO.",
+  "msgstr": "Orme: Bonjour, {PLAYER}!\\nJe t’attendais!\\pJe t’ai téléphoné pour te donner\\nquelque chose!\\pTiens!\\nUn Passe Bateau!\\pAvec ça, tu vas pouvoir attraper les\\nPokémon de Kanto!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/NewBarkTown_Lab_hns/scripts.inc",
+  "ligne": 953,
+  "ancien": "Orme: {PLAYER}! Te voilà!\\pJe t’ai fait venir: j’ai\\nquelque chose pour toi.\\pTu vois? C’est un Passe Bateau.\\pTu vas pouvoir capturer des\\nPokémon à KANTO!",
+  "preuve": "543:72 — Orme: Bonjour, {STRVAR_1 3, 0, 0}!\\nJe t’attendais!\\rJe t’ai appelée pour te donner\\nquelque chose!\\rTiens!\\nUn Passe Bateau!\\rAvec ça, tu vas pouvoir attraper les\\nPokémon de Kanto!\\r",
+  "note": "Neutralisé : « Je t’ai appelée/appelé » (variantes fille/garçon) → « Je t’ai téléphoné » (invariable)."
+ },
+ {
+  "msgid": "{RIVAL}: You were watching me,\\n{PLAYER}...\\pYeah, that's right!\\pI never thought defeating five\\nKIMONO GIRLS would be so hard...\\pI got beaten to a pulp...\\p...\\pYou must have come here for the\\nsame reason, right?\\pDon't get cocky just because you\\ndefeated TEAM ROCKET!\\pThese KIMONO GIRLS are insanely\\nstrong.\\pSee if you can defeat them.\\pBut I'm not going back, I don't\\nwant to see you win.",
+  "msgstr": "{RIVAL}: T’as vu, {PLAYER}?\\pJ’espère que ça t’a plu de me voir être\\nridiculisé!\\lBattre cinq pauvres filles en kimono,\\lça paraissait si facile pourtant.\\lEt elles m’ont retourné…\\p…\\pTu es là pour les combattre, toi\\naussi?\\pTe réjouis pas trop vite parce que\\nt’as flanqué sa raclée à la Rocket.\\lCes 5 nanas, elles sont vraiment\\lhyper fortes.\\pAllez, vas-y!\\pEssaye!\\pJe ne retourne pas dedans.\\nJe ne peux pas te voir gagner…",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/EcruteakCity_hns/scripts.inc",
+  "ligne": 129,
+  "ancien": "{RIVAL}: Tu m’espionnais,\\n{PLAYER}…\\pOuais, c’est ça!\\pJ’aurais jamais cru que battre\\ncinq KIMONOS serait si dur…\\pJ’ai pris une raclée…\\p…\\pT’es là pour la même raison,\\nhein?\\pPrends pas la grosse tête parce\\nque t’as battu la Team Rocket!\\pCes KIMONOS sont super fortes.\\pVoyons si tu peux les battre.\\pMais je reste pas là. J’ai pas envie\\nde te voir gagner.",
+  "preuve": "612:18 — {STRVAR_1 3, 1, 0}: T’as vu, {STRVAR_1 3, 0, 0}?\\rJ’espère que ça t’a plu de me voir\\nêtre ridiculisé!\\fBattre cinq pauvres filles en kimono,\\fça paraissait si facile pourtant.\\fEt elles m’ont retourné...\\r...\\rTu es là pour les combattre, toi\\naussi?\\rTe réjouis pas trop vite parce que t’as\\nflanqué sa raclée à la Rocket.\\fCes 5 nanas, elles sont vraiment hyper\\ffortes.\\rAllez, vas-y!\\rEssaye!\\rJe ne retourne pas dedans.\\nJe ne peux pas te voir gagner...\\r",
+  "note": "« Ces 5 nanas » = five KIMONO GIRLS : même nombre. Même scène du rival à Rosalia (612:18)."
+ },
+ {
+  "msgid": "...Zzz...\\p...Umm... Rest!\\pThe phrase 'recover fast' became\\nshortened to 'Rest,' you see?\\pThis is a move to sleep and recover\\nsome HP.",
+  "msgstr": "… Zzz…\\p…\\n… Ah! C’est Repos!\\pÇa te fait piquer un bon somme, bien\\nréparateur, et ça te soigne!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route31_hns/scripts.inc",
+  "ligne": 169,
+  "ancien": "…Zzz…\\p…Hmm… Repos!\\p“Je me REPOSe et ça repart!”\\nC’est tout le principe, tu vois?\\pCette capacité fait dormir et\\nrestaure des PV.",
+  "preuve": "378:8 — La CT44 contient...\\n... Zzz...\\r...\\n... Ah! C’est Repos!\\rÇa te fait piquer un bon somme, bien\\nréparateur, et ça te soigne!",
+  "note": "« La CT44 contient… » retiré (HnS ne nomme pas la CT) ; le jeu de mots anglais intraduisible était déjà omis par le SS."
+ },
+ {
+  "msgid": "A BELLSPROUT over 100 feet\\ntall…\\pPeople say that it became the\\ncenter pillar here.",
+  "msgstr": "On raconte que le pilier central\\nde la tour était à l’origine\\lun CHETIFLOR haut de 30 mètres…",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/SproutTower_1F_hns/scripts.inc",
+  "ligne": 68,
+  "ancien": "Un CHETIFLOR de plus de 30 mètres…\\pOn dit qu’il est devenu le pilier\\ncentral de cette tour.",
+  "preuve": "54:2 — On raconte que le pilier central\\nde la tour était à l’origine\\fun CHETIFLOR haut de 30 mètres...",
+  "note": "30 mètres = 100 feet (conversion officielle) : même hauteur."
+ },
+ {
+  "msgid": "A yellow apricorn.\\nIt has an invigor-\\nating scent.",
+  "msgstr": "Un Noigrume jaune.\\nIl dégage un arôme\\ndélicat.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/data/items.h",
+  "ligne": 3782,
+  "ancien": "Un Noigrume jaune.\\nSon parfum est\\nrevigorant.",
+  "preuve": "221:486 — Un Noigrume de couleur jaune.\\nIl dégage un arôme délicat.",
+  "note": "Description d’objet : 3 lignes ≤ 102 px comme l’anglais (« de couleur » retiré)."
+ },
+ {
+  "msgid": "A black apricorn.\\nIt has an inde-\\nscribable scent.",
+  "msgstr": "Un Noigrume noir.\\nIl dégage un arôme\\nindéfinissable.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/data/items.h",
+  "ligne": 3846,
+  "ancien": "Un Noigrume noir.\\nSon odeur est\\nindescriptible.",
+  "preuve": "221:491 — Un Noigrume de couleur noire.\\nIl dégage un arôme indéfinissable.",
+  "note": "3 lignes ≤ 102 px (« de couleur » retiré)."
+ },
+ {
+  "msgid": "A bizarre orb that\\nbadly poisons the\\nholder in battle.",
+  "msgstr": "Tenu, empoisonne\\ngravement son\\nporteur en combat.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/data/items.h",
+  "ligne": 9375,
+  "ancien": "Orbe bizarre qui\\nempoisonne grave-\\nment son porteur.",
+  "preuve": "191:409 — Tenu, empoisonne gravement son porteur\\ndurant le combat.",
+  "note": "3 lignes ≤ 102 px (« durant le combat » → « en combat »)."
+ },
+ {
+  "msgid": "It freely controls three units called\\nMini-Noses using magnetic force.\\nWith them, it can attack its foes from\\nthree directions.",
+  "msgstr": "Il dirige par magnétisme 3 petites\\nunités appelées Mini-nez qui lui\\npermettent d’attaquer de 3 côtés.",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_3_families.h",
+  "ligne": 4412,
+  "ancien": "Il utilise ses trois petites unités pour\\ncombattre ses ennemis et capturer ses\\nproies. Le reste de son corps se\\ncontente de donner des ordres.",
+  "preuve": "803:476 — Il dirige par magnétisme 3 petites\\nunités appelées Mini-nez qui lui\\npermettent d’attaquer de 3 côtés.",
+  "note": "« 3 » = three : même nombre ; 3 lignes ≤ 4 de l’anglais, largeur inférieure."
+ }
+]

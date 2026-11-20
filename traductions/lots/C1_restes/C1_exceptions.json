@@ -1,0 +1,582 @@
+[
+ {
+  "msgid": "OMI",
+  "msgstr": "OMI",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/new_game_intro_frlg.inc",
+  "ligne": 77,
+  "ancien": "",
+  "preuve": "",
+  "note": "nom proposé à l’introduction FRLG : gardé tel quel en capitales, comme les autres noms de ce fichier (KAZ, TORU, JODI…)"
+ },
+ {
+  "msgid": "REY",
+  "msgstr": "REY",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/new_game_intro_frlg.inc",
+  "ligne": 104,
+  "ancien": "",
+  "preuve": "",
+  "note": "nom proposé à l’introduction FRLG : gardé tel quel en capitales, comme les autres noms de ce fichier (KAZ, TORU, JODI…)"
+ },
+ {
+  "msgid": "MAX",
+  "msgstr": "MAX",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/new_game_intro_frlg.inc",
+  "ligne": 59,
+  "ancien": "",
+  "preuve": "",
+  "note": "nom proposé à l’introduction FRLG : gardé tel quel en capitales, comme les autres noms de ce fichier (KAZ, TORU, JODI…)"
+ },
+ {
+  "msgid": "Joey",
+  "msgstr": "Joey",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/credits_hns.h",
+  "ligne": 205,
+  "ancien": "",
+  "preuve": "",
+  "note": "générique HnS : pseudonyme d’une personne, gardé tel quel"
+ },
+ {
+  "msgid": "\\nいいTVができました ",
+  "msgstr": "\\nいいTVができました ",
+  "source": "traduction nouvelle",
+  "fichier": "src/berry_blender.c",
+  "ligne": 892,
+  "ancien": "",
+  "preuve": "src/berry_blender.c : « static const u8 sJPText_…TvReady[] … // Unused »",
+  "note": "texte japonais jamais affiché (tableau marqué Unused, aucune référence) : gardé tel quel ; il contient des kana mais la charmap HnS les encode (la ROM anglaise les contient déjà)"
+ },
+ {
+  "msgid": "\\nダメTVができました ",
+  "msgstr": "\\nダメTVができました ",
+  "source": "traduction nouvelle",
+  "fichier": "src/berry_blender.c",
+  "ligne": 893,
+  "ancien": "",
+  "preuve": "src/berry_blender.c : « static const u8 sJPText_…TvReady[] … // Unused »",
+  "note": "texte japonais jamais affiché (tableau marqué Unused, aucune référence) : gardé tel quel ; il contient des kana mais la charmap HnS les encode (la ROM anglaise les contient déjà)"
+ },
+ {
+  "msgid": "\\n\\n\\nJunichi Masuda\\n\\n\\n",
+  "msgstr": "\\n\\n\\nJunichi Masuda\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 352,
+  "ancien": "",
+  "preuve": "",
+  "note": "générique FRLG : nom de personne gardé tel quel (mise en page de l’anglais)"
+ },
+ {
+  "msgid": "\\n\\n\\nAkira Kinashi\\n\\n\\n",
+  "msgstr": "\\n\\n\\nAkira Kinashi\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 434,
+  "ancien": "",
+  "preuve": "",
+  "note": "générique FRLG : nom de personne gardé tel quel (mise en page de l’anglais)"
+ },
+ {
+  "msgid": "Credits",
+  "msgstr": "Credits",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 74,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9C8A)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Executive Director",
+  "msgstr": "Executive Director",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 75,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9C92)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Director",
+  "msgstr": "Director",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 76,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9C9C)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Art Director",
+  "msgstr": "Art Director",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 77,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9CAE)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Battle Director",
+  "msgstr": "Battle Director",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 78,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9CBB)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Main Programmer",
+  "msgstr": "Main Programmer",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 79,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9CCB)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Battle System Programmers",
+  "msgstr": "Battle System Programmers",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 80,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9CDB)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Field System Programmer",
+  "msgstr": "Field System Programmer",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 81,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9CF5)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Programmers",
+  "msgstr": "Programmers",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 82,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9CE9)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Main Graphic Designer",
+  "msgstr": "Main Graphic Designer",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 83,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9D19)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Graphic Designers",
+  "msgstr": "Graphic Designers",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 84,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9D2F)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "POKéMON Designers",
+  "msgstr": "POKéMON Designers",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 85,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9D41)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Sound Effects & POKéMON Voices",
+  "msgstr": "Sound Effects & POKéMON Voices",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 87,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9D65)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Game Designers",
+  "msgstr": "Game Designers",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 88,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9D84)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Scenario Plot",
+  "msgstr": "Scenario Plot",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 89,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9D93)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Scenario",
+  "msgstr": "Scenario",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 90,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9DA1)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Script Designers",
+  "msgstr": "Script Designers",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 91,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9DAA)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Map Designers",
+  "msgstr": "Map Designers",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 92,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9DBB)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Map Data Designers",
+  "msgstr": "Map Data Designers",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 93,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9DC9)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Parametric Designers",
+  "msgstr": "Parametric Designers",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 94,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9DDC)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "POKéDEX Text",
+  "msgstr": "POKéDEX Text",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 95,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9DF1)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Environment & Tool Programmers",
+  "msgstr": "Environment & Tool Programmers",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 96,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9DFE)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "NCL Product Testing",
+  "msgstr": "NCL Product Testing",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 97,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9E1D)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Special Thanks",
+  "msgstr": "Special Thanks",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 98,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9E31)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Producers",
+  "msgstr": "Producers",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 100,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9E4D)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Executive Producers",
+  "msgstr": "Executive Producers",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 101,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9E57)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Information Supervisors",
+  "msgstr": "Information Supervisors",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 102,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9E6B)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Task Managers",
+  "msgstr": "Task Managers",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 103,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9E83)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Braille Code Check",
+  "msgstr": "Braille Code Check",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 104,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9E91)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "World Director",
+  "msgstr": "World Director",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 105,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9EA4)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Battle Frontier Data",
+  "msgstr": "Battle Frontier Data",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 106,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9EB3)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Support Programmers",
+  "msgstr": "Support Programmers",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 107,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9EC8)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Lead Programmer",
+  "msgstr": "Lead Programmer",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 109,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9EE4)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Lead Graphic Artist",
+  "msgstr": "Lead Graphic Artist",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 110,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9EF4)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Ken Sugimori",
+  "msgstr": "Ken Sugimori",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 113,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9F26)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Keita Kagaya",
+  "msgstr": "Keita Kagaya",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 119,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9F7D)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Go Ichinose",
+  "msgstr": "Go Ichinose",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 138,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5EA08A)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Hiro Nakamura",
+  "msgstr": "Hiro Nakamura",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 170,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5EA275)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Japan Braille Library",
+  "msgstr": "Japan Braille Library",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 189,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5EA391)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Package & Manual Illustration",
+  "msgstr": "Package & Manual Illustration",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 202,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5EA45B)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Text Editor",
+  "msgstr": "Text Editor",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 205,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5EA4A1)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Graphic Designer",
+  "msgstr": "Graphic Designer",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 207,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5E9D1E)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Seth McMahill",
+  "msgstr": "Seth McMahill",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 214,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5EA52E)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Nob Ogasawara",
+  "msgstr": "Nob Ogasawara",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 215,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5EA53C)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "National Federation of the Blind",
+  "msgstr": "National Federation of the Blind",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 222,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5EA5A7)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "European Blind Union",
+  "msgstr": "European Blind Union",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 224,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5EA5DB)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Australian Braille Authority",
+  "msgstr": "Australian Braille Authority",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 225,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5EA5F0)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ },
+ {
+  "msgid": "Royal New Zealand Federation for the Blind",
+  "msgstr": "Royal New Zealand Federation for the Blind",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/credits.h",
+  "ligne": 226,
+  "ancien": "",
+  "preuve": "absent de la ROM Émeraude FR",
+  "note": "générique d’Émeraude : nom propre (personne ou organisme anglophone, propre à la version anglaise) gardé tel quel"
+ },
+ {
+  "msgid": "Nicola Pratt-Barlow",
+  "msgstr": "Nicola Pratt-Barlow",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/credits.h",
+  "ligne": 228,
+  "ancien": "",
+  "preuve": "absent de la ROM Émeraude FR",
+  "note": "générique d’Émeraude : nom propre (personne ou organisme anglophone, propre à la version anglaise) gardé tel quel"
+ },
+ {
+  "msgid": "Shellie Dow",
+  "msgstr": "Shellie Dow",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/credits.h",
+  "ligne": 229,
+  "ancien": "",
+  "preuve": "texte identique présent dans Émeraude FR (FR 5EA640)",
+  "note": "générique d’Émeraude : Émeraude FR garde cette ligne en anglais (rubriques et noms) ; gardé tel quel, comme « French Version Coordinators »"
+ }
+]

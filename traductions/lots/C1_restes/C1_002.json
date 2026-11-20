@@ -1,0 +1,1169 @@
+[
+ {
+  "msgid": "SHADE",
+  "msgstr": "OMBRE",
+  "source": "traduction nouvelle",
+  "fichier": "src/field_weather.c",
+  "ligne": 1209,
+  "ancien": "",
+  "preuve": "",
+  "note": "nom de météo de debug (field_weather.c), capitales comme les autres"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}PROF. OAK",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Prof. Chen",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 615,
+  "ancien": "",
+  "preuve": "glossaire / .po : PROF. OAK = Prof. Chen",
+  "note": "nom du Pokédex des célébrités (FRLG) : nom SoulSilver FR, comme les entrées sœurs déjà traduites (Koga, Aldo, Peter, M. Fuji)"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}BROCK",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pierre",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 640,
+  "ancien": "",
+  "preuve": "glossaire / .po : BROCK = Pierre",
+  "note": "nom du Pokédex des célébrités (FRLG) : nom SoulSilver FR, comme les entrées sœurs déjà traduites (Koga, Aldo, Peter, M. Fuji)"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}MISTY",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Ondine",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 651,
+  "ancien": "",
+  "preuve": "glossaire / .po : MISTY = Ondine",
+  "note": "nom du Pokédex des célébrités (FRLG) : nom SoulSilver FR, comme les entrées sœurs déjà traduites (Koga, Aldo, Peter, M. Fuji)"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}LT. SURGE",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Major Bob",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 662,
+  "ancien": "",
+  "preuve": "glossaire / .po : LT. SURGE = Major Bob",
+  "note": "nom du Pokédex des célébrités (FRLG) : nom SoulSilver FR, comme les entrées sœurs déjà traduites (Koga, Aldo, Peter, M. Fuji)"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}ERIKA",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Erika",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 675,
+  "ancien": "",
+  "preuve": "glossaire / .po : ERIKA = Erika",
+  "note": "nom du Pokédex des célébrités (FRLG) : nom SoulSilver FR, comme les entrées sœurs déjà traduites (Koga, Aldo, Peter, M. Fuji)"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}SABRINA",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Morgane",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 699,
+  "ancien": "",
+  "preuve": "glossaire / .po : SABRINA = Morgane",
+  "note": "nom du Pokédex des célébrités (FRLG) : nom SoulSilver FR, comme les entrées sœurs déjà traduites (Koga, Aldo, Peter, M. Fuji)"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}BLAINE",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Auguste",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 710,
+  "ancien": "",
+  "preuve": "glossaire / .po : BLAINE = Auguste",
+  "note": "nom du Pokédex des célébrités (FRLG) : nom SoulSilver FR, comme les entrées sœurs déjà traduites (Koga, Aldo, Peter, M. Fuji)"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}BILL",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Léo",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 767,
+  "ancien": "",
+  "preuve": "glossaire / .po : BILL = Léo",
+  "note": "nom du Pokédex des célébrités (FRLG) : nom SoulSilver FR, comme les entrées sœurs déjà traduites (Koga, Aldo, Peter, M. Fuji)"
+ },
+ {
+  "msgid": "Do you want to return to LILYCOVE?",
+  "msgstr": "Voulez-vous retourner à NENUCRIQUE?",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/event_ticket_2.inc",
+  "ligne": 40,
+  "ancien": "",
+  "preuve": "cf. « On retourne à NENUCRIQUE? » (Émeraude FR, event_ticket_1.inc)",
+  "note": "capitaine du bateau du Ticket (Hoenn) : NENUCRIQUE comme Émeraude FR ; vouvoiement du personnel"
+ },
+ {
+  "msgid": "Thank you for using the STAMP CARD\\nSystem.\\pYou have {STR_VAR_1} more to collect to\\nfill your STAMP CARD.",
+  "msgstr": "Merci d’utiliser le système de\\nCarte à tampons.\\pIl vous reste {STR_VAR_1} tampons à\\nobtenir pour remplir votre Carte.",
+  "source": "traduction nouvelle",
+  "fichier": "data/scripts/gift_stamp_card.inc",
+  "ligne": 18,
+  "ancien": "",
+  "preuve": "",
+  "note": "Cadeau Mystère (carte à tampons) ; vouvoiement"
+ },
+ {
+  "msgid": "the LILYCOVE CONTEST HALL.",
+  "msgstr": "la SALLE DES CONCOURS DE NENUCRIQUE.",
+  "source": "traduction nouvelle",
+  "fichier": "data/scripts/safari_zone.inc",
+  "ligne": 218,
+  "ancien": "",
+  "preuve": "",
+  "note": "suite de « You may obtain a {POKEBLOCK} CASE from\\n » (variante non-HnS de safari_zone.inc) ; noms Hoenn en capitales comme Émeraude FR"
+ },
+ {
+  "msgid": "{B_OPPONENT_MON1_NAME} appeared!\\p",
+  "msgstr": "{B_OPPONENT_MON1_NAME} apparaît!\\p",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_message.c",
+  "ligne": 90,
+  "ancien": "",
+  "preuve": "cf. « {B_OPPONENT_MON1_NAME} sauvage apparaît! »",
+  "note": "message de combat (même tournure que les apparitions de Pokémon sauvages)"
+ },
+ {
+  "msgid": "Search {STR_VAR_1}",
+  "msgstr": "Chercher {STR_VAR_1}",
+  "source": "traduction nouvelle",
+  "fichier": "src/dexnav.c",
+  "ligne": 187,
+  "ancien": "",
+  "preuve": "",
+  "note": "DexNav"
+ },
+ {
+  "msgid": "{START_BUTTON} EXIT",
+  "msgstr": "{START_BUTTON} QUITTER",
+  "source": "traduction nouvelle",
+  "fichier": "src/dexnav.c",
+  "ligne": 194,
+  "ancien": "",
+  "preuve": "",
+  "note": "DexNav : libellé de bouton (capitales comme l’anglais)"
+ },
+ {
+  "msgid": "{R_BUTTON} FLY",
+  "msgstr": "{R_BUTTON} VOL",
+  "source": "traduction nouvelle",
+  "fichier": "src/field_region_map.c",
+  "ligne": 237,
+  "ancien": "",
+  "preuve": "capacité Vol",
+  "note": "carte de la région : bouton R pour voler"
+ },
+ {
+  "msgid": "{DPAD_UPDOWN} MORNING",
+  "msgstr": "{DPAD_UPDOWN} MATIN",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_area_screen.c",
+  "ligne": 660,
+  "ancien": "",
+  "preuve": "cf. {DPAD_UPDOWN} JOUR / NUIT",
+  "note": "zones du Pokédex : périodes"
+ },
+ {
+  "msgid": "{DPAD_UPDOWN} EVENING",
+  "msgstr": "{DPAD_UPDOWN} SOIR",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_area_screen.c",
+  "ligne": 662,
+  "ancien": "",
+  "preuve": "cf. {DPAD_UPDOWN} JOUR / NUIT",
+  "note": "zones du Pokédex : périodes"
+ },
+ {
+  "msgid": "Ice",
+  "msgstr": "Glace",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 672,
+  "ancien": "",
+  "preuve": "",
+  "note": "nom d’environnement de combat / décor du visualiseur (casse normale comme Herbe, Plaine, Etang)"
+ },
+ {
+  "msgid": "Sky",
+  "msgstr": "Ciel",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 368,
+  "ancien": "",
+  "preuve": "",
+  "note": "nom d’environnement de combat / décor du visualiseur (casse normale comme Herbe, Plaine, Etang)"
+ },
+ {
+  "msgid": "Mountain",
+  "msgstr": "Montagne",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 168,
+  "ancien": "",
+  "preuve": "",
+  "note": "nom d’environnement de combat / décor du visualiseur (casse normale comme Herbe, Plaine, Etang)"
+ },
+ {
+  "msgid": "Frontier",
+  "msgstr": "Zone de Combat",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 236,
+  "ancien": "",
+  "preuve": "",
+  "note": "nom d’environnement de combat / décor du visualiseur (casse normale comme Herbe, Plaine, Etang)"
+ },
+ {
+  "msgid": "Gym",
+  "msgstr": "Arène",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 249,
+  "ancien": "",
+  "preuve": "",
+  "note": "nom d’environnement de combat / décor du visualiseur (casse normale comme Herbe, Plaine, Etang)"
+ },
+ {
+  "msgid": "Puddle",
+  "msgstr": "Flaque",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 626,
+  "ancien": "",
+  "preuve": "",
+  "note": "nom d’environnement de combat / décor du visualiseur (casse normale comme Herbe, Plaine, Etang)"
+ },
+ {
+  "msgid": "KENYA",
+  "msgstr": "Piou Piou",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/scrcmd.c",
+  "ligne": 1374,
+  "ancien": "",
+  "preuve": "200:7 — Piou Piou (Kenya)",
+  "note": "surnom du ROUCOOL du facteur (scrcmd.c) : nom SoulSilver FR (banque 200)"
+ },
+ {
+  "msgid": "BATTLE ITEMS",
+  "msgstr": "OBJ. COMBAT",
+  "source": "traduction nouvelle",
+  "fichier": "src/strings.c",
+  "ligne": 539,
+  "ancien": "",
+  "preuve": "",
+  "note": "poche du Sac (si les poches ne sont pas fusionnées), capitales comme SOINS"
+ },
+ {
+  "msgid": "Ability",
+  "msgstr": "Talent",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 236,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E)"
+ },
+ {
+  "msgid": "Held Item",
+  "msgstr": "Objet tenu",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 237,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E)"
+ },
+ {
+  "msgid": "Moves",
+  "msgstr": "Capacités",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 315,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E)"
+ },
+ {
+  "msgid": "AI",
+  "msgstr": "IA",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 326,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E)"
+ },
+ {
+  "msgid": "Attack",
+  "msgstr": "Attaque",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 338,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E)"
+ },
+ {
+  "msgid": "Defense",
+  "msgstr": "Défense",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 339,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E)"
+ },
+ {
+  "msgid": "Speed",
+  "msgstr": "Vitesse",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 340,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E)"
+ },
+ {
+  "msgid": "Sp. Atk",
+  "msgstr": "Atq. Spé.",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 341,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E)"
+ },
+ {
+  "msgid": "Sp. Def",
+  "msgstr": "Déf. Spé.",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 342,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E)"
+ },
+ {
+  "msgid": "Confusion",
+  "msgstr": "Confusion",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 359,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : état « confusion » (pas la capacité Choc Mental) ; identique en français"
+ },
+ {
+  "msgid": "Flinched",
+  "msgstr": "Apeuré",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 360,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E)"
+ },
+ {
+  "msgid": "Torment",
+  "msgstr": "Tourmente",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 361,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Rage",
+  "msgstr": "Frénésie",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 364,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Foresight",
+  "msgstr": "Clairvoyance",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 368,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Leech Seed",
+  "msgstr": "Vampigraine",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 378,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Lock On",
+  "msgstr": "Verrouillage",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 379,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Perish Song",
+  "msgstr": "Requiem",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 380,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Minimize",
+  "msgstr": "Lilliput",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 381,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Charge",
+  "msgstr": "Chargeur",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 382,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Yawn",
+  "msgstr": "Bâillement",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 384,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Imprison",
+  "msgstr": "Possessif",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 385,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Gastro Acid",
+  "msgstr": "Suc Digestif",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 387,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Embargo",
+  "msgstr": "Embargo",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 388,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h) ; identique en français"
+ },
+ {
+  "msgid": "Miracle Eye",
+  "msgstr": "Œil Miracle",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 391,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Magnet Rise",
+  "msgstr": "Vol Magnétik",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 392,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Heal Block",
+  "msgstr": "Anti-Soin",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 393,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Aqua Ring",
+  "msgstr": "Anneau Hydro",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 394,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Power Trick",
+  "msgstr": "Astuce Force",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 396,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Toxic Spikes",
+  "msgstr": "Pics Toxik",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 403,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Stealth Rock",
+  "msgstr": "Piège de Roc",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 404,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Reflect",
+  "msgstr": "Protection",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 410,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Light Screen",
+  "msgstr": "Mur Lumière",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 411,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Safeguard",
+  "msgstr": "Rune Protect",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 412,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Mist",
+  "msgstr": "Brume",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 413,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Tailwind",
+  "msgstr": "Vent Arrière",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 414,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Lucky Chant",
+  "msgstr": "Air Veinard",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 416,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de la capacité (.po, moves_info.h)"
+ },
+ {
+  "msgid": "Double Battle",
+  "msgstr": "Combat Duo",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 432,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E)"
+ },
+ {
+  "msgid": "Stall",
+  "msgstr": "Temporiser",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 438,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E)"
+ },
+ {
+  "msgid": "Safari",
+  "msgstr": "Safari",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 452,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) ; identique en français"
+ },
+ {
+  "msgid": "Restore Hp",
+  "msgstr": "Soin PV",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2165,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E)"
+ },
+ {
+  "msgid": "Restore Pp",
+  "msgstr": "Soin PP",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2171,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E)"
+ },
+ {
+  "msgid": "Grip Claw",
+  "msgstr": "Accro Griffe",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2216,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de l’objet (.po, items.h)"
+ },
+ {
+  "msgid": "Big Root",
+  "msgstr": "Grosseracine",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2222,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug des combats (comme le lot E) : nom officiel de l’objet (.po, items.h)"
+ },
+ {
+  "msgid": "Continue…",
+  "msgstr": "Continuer…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 427,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug"
+ },
+ {
+  "msgid": "Group: {STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n\\n{STR_VAR_3}{CLEAR_TO 90}",
+  "msgstr": "Groupe: {STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n\\n{STR_VAR_3}{CLEAR_TO 90}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 429,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug (téléportation) : codes et colonnes {CLEAR_TO} de l’anglais"
+ },
+ {
+  "msgid": "May",
+  "msgstr": "FLORA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/debug.c",
+  "ligne": 458,
+  "ancien": "",
+  "preuve": "Émeraude FR : FLORA",
+  "note": "debug : PNJ suiveur (Brendan = BRICE, Wally = TIMMY déjà traduits)"
+ },
+ {
+  "msgid": "Steven",
+  "msgstr": "PIERRE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/debug.c",
+  "ligne": 459,
+  "ancien": "",
+  "preuve": "Émeraude FR : PIERRE",
+  "note": "debug : PNJ suiveur, nom Émeraude FR"
+ },
+ {
+  "msgid": "Partner: {STR_VAR_1}",
+  "msgstr": "Partenaire: {STR_VAR_1}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 674,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug"
+ },
+ {
+  "msgid": "Double Battle: {STR_VAR_1}",
+  "msgstr": "Combat Duo: {STR_VAR_1}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 675,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug"
+ },
+ {
+  "msgid": "Music…",
+  "msgstr": "Musique…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 686,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug"
+ },
+ {
+  "msgid": "Party…",
+  "msgstr": "Equipe…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 733,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug"
+ },
+ {
+  "msgid": "Player…",
+  "msgstr": "Joueur…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 735,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug"
+ },
+ {
+  "msgid": "Sound…",
+  "msgstr": "Son…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 739,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug"
+ },
+ {
+  "msgid": "Flag: {STR_VAR_1}{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}\\n{STR_VAR_3}",
+  "msgstr": "Drapeau: {STR_VAR_1}{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}\\n{STR_VAR_3}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 2256,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug : colonnes de l’anglais"
+ },
+ {
+  "msgid": " None",
+  "msgstr": " Aucune",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 2707,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug (capacité d’une CT/CS absente) : espace initiale conservée"
+ },
+ {
+  "msgid": "Level:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "msgstr": "Niveau:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 2997,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug : colonnes de l’anglais"
+ },
+ {
+  "msgid": "Default",
+  "msgstr": "Par défaut",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 3431,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug (capacité par défaut)"
+ },
+ {
+  "msgid": "Move ",
+  "msgstr": "Cap. ",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 3436,
+  "ancien": "",
+  "preuve": "",
+  "note": "menu de debug : suivi d’un numéro (« Cap. 1 ») ; espace finale conservée"
+ },
+ {
+  "msgid": "Player",
+  "msgstr": "Joueur",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/debug_trainers.party",
+  "ligne": 15,
+  "ancien": "",
+  "preuve": "",
+  "note": "nom du Dresseur de debug (debug_trainers.party ; « Debugger » = Débogueur)"
+ },
+ {
+  "msgid": "PORYGON{CLEAR_TO 0x4B}{FONT_SMALL} 9,999 COINS",
+  "msgstr": "PORYGON{CLEAR_TO 0x4B}{FONT_SMALL} 9 999 JETONS",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 912,
+  "ancien": "",
+  "preuve": "cf. « MINIDRACO{CLEAR_TO 0x4B}{FONT_SMALL} 2 800 JETONS »",
+  "note": "menu des lots du Casino : même format que les entrées sœurs"
+ },
+ {
+  "msgid": "Awaiting communication\\nfrom another player.",
+  "msgstr": "Attente de la connexion\\nd’un autre joueur.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/union_room.h",
+  "ligne": 6,
+  "ancien": "",
+  "preuve": "cf. entrées Émeraude FR voisines (« Veuillez choisir le Dresseur avec\\nqui faire l’échange. », « Transmission… »)",
+  "note": "Club Union / panneau d’échange : vouvoiement et vocabulaire des textes Émeraude FR voisins (PANNEAU D’ECHANGE en capitales, sans accent)"
+ },
+ {
+  "msgid": "4 players\\nneeded.",
+  "msgstr": "Il faut\\n4 joueurs.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/union_room.h",
+  "ligne": 44,
+  "ancien": "",
+  "preuve": "cf. entrées Émeraude FR voisines (« Veuillez choisir le Dresseur avec\\nqui faire l’échange. », « Transmission… »)",
+  "note": "Club Union / panneau d’échange : vouvoiement et vocabulaire des textes Émeraude FR voisins (PANNEAU D’ECHANGE en capitales, sans accent)"
+ },
+ {
+  "msgid": "Communicating…\\nPlease wait.",
+  "msgstr": "Transmission…\\nVeuillez patienter.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/union_room.h",
+  "ligne": 161,
+  "ancien": "",
+  "preuve": "cf. entrées Émeraude FR voisines (« Veuillez choisir le Dresseur avec\\nqui faire l’échange. », « Transmission… »)",
+  "note": "Club Union / panneau d’échange : vouvoiement et vocabulaire des textes Émeraude FR voisins (PANNEAU D’ECHANGE en capitales, sans accent)"
+ },
+ {
+  "msgid": "{STR_VAR_1}: Want to do anything else?",
+  "msgstr": "{STR_VAR_1}: On fait autre chose?",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/union_room.h",
+  "ligne": 194,
+  "ancien": "",
+  "preuve": "cf. entrées Émeraude FR voisines (« Veuillez choisir le Dresseur avec\\nqui faire l’échange. », « Transmission… »)",
+  "note": "Club Union / panneau d’échange : vouvoiement et vocabulaire des textes Émeraude FR voisins (PANNEAU D’ECHANGE en capitales, sans accent)"
+ },
+ {
+  "msgid": "We have registered your POKéMON for\\ntrade on the TRADING BOARD.\\pThank you for using this service!\\p",
+  "msgstr": "Votre Pokémon a été inscrit au\\nPANNEAU D’ECHANGE.\\pMerci d’avoir utilisé ce service!\\p",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/union_room.h",
+  "ligne": 449,
+  "ancien": "",
+  "preuve": "cf. entrées Émeraude FR voisines (« Veuillez choisir le Dresseur avec\\nqui faire l’échange. », « Transmission… »)",
+  "note": "Club Union / panneau d’échange : vouvoiement et vocabulaire des textes Émeraude FR voisins (PANNEAU D’ECHANGE en capitales, sans accent)"
+ },
+ {
+  "msgid": "Nobody has registered any POKéMON\\nfor trade on the TRADING BOARD.\\p\\n",
+  "msgstr": "Personne n’a inscrit de Pokémon\\nau PANNEAU D’ECHANGE.\\p\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/union_room.h",
+  "ligne": 450,
+  "ancien": "",
+  "preuve": "cf. entrées Émeraude FR voisines (« Veuillez choisir le Dresseur avec\\nqui faire l’échange. », « Transmission… »)",
+  "note": "Club Union / panneau d’échange : vouvoiement et vocabulaire des textes Émeraude FR voisins (PANNEAU D’ECHANGE en capitales, sans accent)"
+ },
+ {
+  "msgid": "TRAINERS wishing to make a trade\\nwill be listed.",
+  "msgstr": "Les Dresseurs souhaitant faire un\\néchange vont s’afficher.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/union_room.h",
+  "ligne": 459,
+  "ancien": "",
+  "preuve": "cf. entrées Émeraude FR voisines (« Veuillez choisir le Dresseur avec\\nqui faire l’échange. », « Transmission… »)",
+  "note": "Club Union / panneau d’échange : vouvoiement et vocabulaire des textes Émeraude FR voisins (PANNEAU D’ECHANGE en capitales, sans accent)"
+ },
+ {
+  "msgid": "Please choose the TRAINER with whom\\nyou would like to trade POKéMON.",
+  "msgstr": "Veuillez choisir le Dresseur avec\\nqui vous voulez échanger un Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/union_room.h",
+  "ligne": 460,
+  "ancien": "",
+  "preuve": "cf. entrées Émeraude FR voisines (« Veuillez choisir le Dresseur avec\\nqui faire l’échange. », « Transmission… »)",
+  "note": "Club Union / panneau d’échange : vouvoiement et vocabulaire des textes Émeraude FR voisins (PANNEAU D’ECHANGE en capitales, sans accent)"
+ },
+ {
+  "msgid": "You have not registered a POKéMON\\nfor trading.\\p",
+  "msgstr": "Vous n’avez inscrit aucun Pokémon\\npour un échange.\\p",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/union_room.h",
+  "ligne": 463,
+  "ancien": "",
+  "preuve": "cf. entrées Émeraude FR voisines (« Veuillez choisir le Dresseur avec\\nqui faire l’échange. », « Transmission… »)",
+  "note": "Club Union / panneau d’échange : vouvoiement et vocabulaire des textes Émeraude FR voisins (PANNEAU D’ECHANGE en capitales, sans accent)"
+ },
+ {
+  "msgid": "{STR_VAR_1} can't make a trade for\\nyour POKéMON right now.\\p",
+  "msgstr": "{STR_VAR_1} ne peut pas échanger\\nvotre Pokémon pour le moment.\\p",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/union_room.h",
+  "ligne": 466,
+  "ancien": "",
+  "preuve": "cf. entrées Émeraude FR voisines (« Veuillez choisir le Dresseur avec\\nqui faire l’échange. », « Transmission… »)",
+  "note": "Club Union / panneau d’échange : vouvoiement et vocabulaire des textes Émeraude FR voisins (PANNEAU D’ECHANGE en capitales, sans accent)"
+ },
+ {
+  "msgid": "You can't make a trade for\\n{STR_VAR_1}'s POKéMON right now.\\p",
+  "msgstr": "Impossible d’échanger le Pokémon\\nde {STR_VAR_1} pour le moment.\\p",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/union_room.h",
+  "ligne": 467,
+  "ancien": "",
+  "preuve": "cf. entrées Émeraude FR voisines (« Veuillez choisir le Dresseur avec\\nqui faire l’échange. », « Transmission… »)",
+  "note": "Club Union / panneau d’échange : vouvoiement et vocabulaire des textes Émeraude FR voisins (PANNEAU D’ECHANGE en capitales, sans accent)"
+ },
+ {
+  "msgid": "Please wait for other TRAINERS to\\ngather and get ready.",
+  "msgstr": "Veuillez attendre que les autres\\nDresseurs soient prêts.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/union_room.h",
+  "ligne": 529,
+  "ancien": "",
+  "preuve": "cf. entrées Émeraude FR voisines (« Veuillez choisir le Dresseur avec\\nqui faire l’échange. », « Transmission… »)",
+  "note": "Club Union / panneau d’échange : vouvoiement et vocabulaire des textes Émeraude FR voisins (PANNEAU D’ECHANGE en capitales, sans accent)"
+ },
+ {
+  "msgid": "LITTLEROOT TOWN",
+  "msgstr": "BOURG-EN-VOL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/region_map/region_map_sections.json",
+  "ligne": 5,
+  "ancien": "",
+  "preuve": "Émeraude FR : BOURG-EN-VOL",
+  "note": "nom de lieu Hoenn (region_map_sections.json), capitales comme AUTEQUIA"
+ },
+ {
+  "msgid": "SPECIAL AREA",
+  "msgstr": "ZONE SPECIALE",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/region_map/region_map_sections.json",
+  "ligne": 1573,
+  "ancien": "",
+  "preuve": "",
+  "note": "nom de section de carte générique (region_map_sections.json), capitales comme les lieux d’Émeraude"
+ },
+ {
+  "msgid": "\\n\\nDirector\\n\\n\\n\\n",
+  "msgstr": "\\n\\nDirection\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 351,
+  "ancien": "",
+  "preuve": "",
+  "note": "générique FRLG : rubrique traduite comme les rubriques sœurs déjà traduites de credits_frlg.c (Direction artistique, Programmeurs…), mise en page \\n de l’anglais"
+ },
+ {
+  "msgid": "\\nMusic Composition\\n\\n\\n\\n\\n",
+  "msgstr": "\\nComposition musicale\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 365,
+  "ancien": "",
+  "preuve": "",
+  "note": "générique FRLG : rubrique traduite comme les rubriques sœurs déjà traduites de credits_frlg.c (Direction artistique, Programmeurs…), mise en page \\n de l’anglais"
+ },
+ {
+  "msgid": "\\n\\nSound Effects\\n\\n\\n\\n",
+  "msgstr": "\\n\\nEffets sonores\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 367,
+  "ancien": "",
+  "preuve": "",
+  "note": "générique FRLG : rubrique traduite comme les rubriques sœurs déjà traduites de credits_frlg.c (Direction artistique, Programmeurs…), mise en page \\n de l’anglais"
+ },
+ {
+  "msgid": "\\nGame Scenario\\n\\n\\n\\n\\n",
+  "msgstr": "\\nScénario\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 373,
+  "ancien": "",
+  "preuve": "",
+  "note": "générique FRLG : rubrique traduite comme les rubriques sœurs déjà traduites de credits_frlg.c (Direction artistique, Programmeurs…), mise en page \\n de l’anglais"
+ },
+ {
+  "msgid": "Special Thanks\\n\\n\\n\\n\\n\\n",
+  "msgstr": "Remerciements\\n\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 391,
+  "ancien": "",
+  "preuve": "",
+  "note": "générique FRLG : rubrique traduite comme les rubriques sœurs déjà traduites de credits_frlg.c (Direction artistique, Programmeurs…), mise en page \\n de l’anglais"
+ },
+ {
+  "msgid": "Information Supervisors\\n\\n\\n\\n\\n\\n",
+  "msgstr": "Supervision des informations\\n\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 399,
+  "ancien": "",
+  "preuve": "",
+  "note": "générique FRLG : rubrique traduite comme les rubriques sœurs déjà traduites de credits_frlg.c (Direction artistique, Programmeurs…), mise en page \\n de l’anglais"
+ },
+ {
+  "msgid": "Coordinators\\n\\n\\n\\n\\n\\n",
+  "msgstr": "Coordination\\n\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 401,
+  "ancien": "",
+  "preuve": "",
+  "note": "générique FRLG : rubrique traduite comme les rubriques sœurs déjà traduites de credits_frlg.c (Direction artistique, Programmeurs…), mise en page \\n de l’anglais"
+ },
+ {
+  "msgid": "\\nProducers\\n\\n\\n\\n\\n",
+  "msgstr": "\\nProducteurs\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 405,
+  "ancien": "",
+  "preuve": "",
+  "note": "générique FRLG : rubrique traduite comme les rubriques sœurs déjà traduites de credits_frlg.c (Direction artistique, Programmeurs…), mise en page \\n de l’anglais"
+ },
+ {
+  "msgid": "\\n\\nExecutive Producer\\n\\n\\n\\n",
+  "msgstr": "\\n\\nProducteur exécutif\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 409,
+  "ancien": "",
+  "preuve": "",
+  "note": "générique FRLG : rubrique traduite comme les rubriques sœurs déjà traduites de credits_frlg.c (Direction artistique, Programmeurs…), mise en page \\n de l’anglais"
+ },
+ {
+  "msgid": "\\n\\n\\nSatoshi Tajiri\\n\\n\\n",
+  "msgstr": "\\n\\n\\nSatoshi Tajiri\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 408,
+  "ancien": "Shusaku Egami",
+  "preuve": "banque 440 (générique SoulSilver) exclue de l’alignement : noms sans lien d’identité",
+  "note": "corrige l’entrée actuelle « SoulSilver FR officiel » : nom faux (« Shusaku Egami ») et mise en page perdue ; nom de personne gardé tel quel (alignement_faux : le texte SS venait d’une banque mal alignée)",
+  "alignement_faux": true
+ },
+ {
+  "msgid": "\\n\\n\\nSatoru Iwata\\n\\n\\n",
+  "msgstr": "\\n\\n\\nSatoru Iwata\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 410,
+  "ancien": "Hiroaki Tsuru",
+  "preuve": "banque 440 (générique SoulSilver) exclue de l’alignement : noms sans lien d’identité",
+  "note": "corrige l’entrée actuelle « SoulSilver FR officiel » : nom faux (« Hiroaki Tsuru ») et mise en page perdue ; nom de personne gardé tel quel (alignement_faux : le texte SS venait d’une banque mal alignée)",
+  "alignement_faux": true
+ },
+ {
+  "msgid": "\\n\\n\\nGo Ichinose\\n\\n\\n",
+  "msgstr": "\\n\\n\\nGo Ichinose\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 368,
+  "ancien": "Go Ichinose",
+  "preuve": "banque 440 (générique SoulSilver) exclue de l’alignement : noms sans lien d’identité",
+  "note": "corrige l’entrée actuelle « SoulSilver FR officiel » : mise en page perdue (les \\n de l’anglais manquaient) ; nom de personne gardé tel quel (alignement_faux : le texte SS venait d’une banque mal alignée)",
+  "alignement_faux": true
+ },
+ {
+  "msgid": "\\n\\n\\nKenji Matsushima\\n\\n\\n",
+  "msgstr": "\\n\\n\\nKenji Matsushima\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 380,
+  "ancien": "Kenji Matsushima",
+  "preuve": "banque 440 (générique SoulSilver) exclue de l’alignement : noms sans lien d’identité",
+  "note": "corrige l’entrée actuelle « SoulSilver FR officiel » : mise en page perdue ; nom de personne gardé tel quel (alignement_faux : le texte SS venait d’une banque mal alignée)",
+  "alignement_faux": true
+ },
+ {
+  "msgid": "MUSCLE",
+  "msgstr": "Gonflor",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/data/trade.h",
+  "ligne": 1054,
+  "ancien": "",
+  "preuve": "200:1 — Gonflor",
+  "note": "trouvé au passage : échange in-game Johto/Kanto de trade.h, nom/surnom SoulSilver FR (banque 200, échanges HGSS) ; l’entrée générale donnait LE MUSCLE (texte de lilycove_lady.h)",
+  "msgctxt": "src/data/trade.h"
+ },
+ {
+  "msgid": "LORENZO",
+  "msgstr": "Quantin",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/data/trade.h",
+  "ligne": 1095,
+  "ancien": "",
+  "preuve": "200:21 — Quantin",
+  "note": "trouvé au passage : échange in-game Johto/Kanto de trade.h, nom/surnom SoulSilver FR (banque 200, échanges HGSS) ; l’entrée générale donnait LUIS (Dresseur d’Émeraude)",
+  "msgctxt": "src/data/trade.h"
+ },
+ {
+  "msgid": "STEVEN",
+  "msgstr": "Rochard",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/data/trade.h",
+  "ligne": 1146,
+  "ancien": "",
+  "preuve": "200:25 — Rochard",
+  "note": "trouvé au passage : échange in-game Johto/Kanto de trade.h, nom/surnom SoulSilver FR (banque 200, échanges HGSS) ; l’entrée générale donnait Pierre (Pierre Rochard d’Émeraude)",
+  "msgctxt": "src/data/trade.h"
+ }
+]
