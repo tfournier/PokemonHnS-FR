@@ -1,0 +1,202 @@
+[
+ {
+  "id": 0,
+  "categorie": "oubli",
+  "probleme": "« Les plus complets » omet « the best ».",
+  "correction": "Bien, {PLAYER} et {RIVAL}!\\pCette fois, efforcez-vous\\nvraiment de remplir vos Pokédex.\\pFaites-en les meilleurs et les\\nplus complets de tous les temps!\\pC’est une entreprise monumentale\\ndans l’histoire des Pokémon!",
+  "justification": "Le Prof. Chen demande que les Pokédex soient à la fois les meilleurs et les plus complets.",
+  "msgid": "Now, {PLAYER} and {RIVAL}!\\pThis time, you really must work\\ntowards filling your POKéDEXES.\\pI urge you to make them the best\\nand the most complete of all time!\\pTruly, this is a monumentally great\\nundertaking in POKéMON history!",
+  "msgstr": "Bien, {PLAYER} et {RIVAL}!\\pCette fois, vous devez vraiment vous\\nefforcer de remplir vos Pokédex.\\pJe vous demande d’en faire les plus\\ncomplets de tous les temps!\\pC’est une entreprise monumentale\\ndans l’histoire des Pokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "contresens",
+  "probleme": "« Familier avec toi » peut évoquer une attitude familière.",
+  "correction": "Il n’est pas encore tout à fait\\nhabitué à toi.\\pTous les Pokémon sont méfiants au\\ndébut.",
+  "justification": "Nina explique que le Pokémon ne s’est pas encore habitué à son Dresseur.",
+  "msgid": "It's not quite familiar with you\\nyet.\\pPOKéMON are all quite wary when\\nyou first get them.",
+  "msgstr": "Il n’est pas encore très familier avec\\ntoi.\\pTous les Pokémon sont méfiants au\\ndébut.",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "oubli",
+  "probleme": "« Regarde » efface l’hostilité de « glares ».",
+  "correction": "{PLAYER}, je n’aime pas ce regard\\nnoir qu’il te lance.\\pTu pourrais essayer d’être un peu\\nplus gentil avec lui?",
+  "justification": "C’est le regard hostile du Pokémon qui motive le conseil de Nina.",
+  "msgid": "{PLAYER}, I don't like the way it\\nglares at you.\\pCould you try being a little nicer\\nto it?",
+  "msgstr": "{PLAYER}, je n’aime pas la façon dont il\\nte regarde.\\pTu pourrais essayer d’être un peu\\nplus gentil avec lui?",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "typographie",
+  "probleme": "« lune » désigne ici l’astre et prend une majuscule.",
+  "correction": "Les MELOFEE viendraient de la Lune.\\nC’est ce que dit la rumeur.\\pIls seraient apparus après la chute\\nde Pierres Lune sur le Mont Sélénite.",
+  "justification": "La rumeur situe l’origine des MELOFEE sur la Lune.",
+  "msgid": "CLEFAIRY came from the moon.\\nThat's what the rumor is.\\pThey appeared after MOON STONES\\nfell on MT. MOON.",
+  "msgstr": "Les MELOFEE viendraient de la lune.\\nC’est ce que dit la rumeur.\\pIls seraient apparus après la chute\\nde Pierres Lune sur le Mont Sélénite.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "orthographe",
+  "probleme": "La préposition « À » a perdu son accent grave.",
+  "correction": "Le voilà, c’est le Musée.\\pL’entrée est payante, mais ça vaut\\nle coup. À plus!",
+  "justification": "La majuscule conserve l’accent de la préposition dans « À plus! ».",
+  "msgid": "This is it, the MUSEUM.\\pYou have to pay to get in, but it's\\nworth it. See you around!",
+  "msgstr": "Le voilà, c’est le Musée.\\pL’entrée est payante, mais ça vaut le\\ncoup. A plus!",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "contresens",
+  "probleme": "« Chasser » suggère que des Pokémon sont déjà dans le jardin.",
+  "correction": "Je vaporise du Repousse pour que\\nles Pokémon sauvages restent\\lhors de mon jardin!",
+  "justification": "Le Scout pulvérise du Repousse pour empêcher les Pokémon sauvages d’entrer dans son jardin.",
+  "msgid": "I'm spraying REPEL to keep wild\\nPOKéMON out of my garden!",
+  "msgstr": "Je mets du Repousse pour chasser les\\nPokémon sauvages du jardin!",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "orthographe",
+  "probleme": "La préposition « À » a perdu son accent grave.",
+  "correction": "Bon, je dois retourner\\nau laboratoire.\\pÀ bientôt!",
+  "justification": "La majuscule conserve l’accent de la préposition dans « À bientôt! ».",
+  "msgid": "Well, I must be going back to\\nthe LAB.\\pBye-bye!",
+  "msgstr": "Bon, je dois retourner au laboratoire.\\pA bientôt!",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "terminologie",
+  "probleme": "« gamin » est en minuscule.",
+  "correction": "Halte-là, Gamin!\\pT’es à dix mille années-lumière de\\npouvoir affronter Pierre!",
+  "justification": "Le lexique fourni prescrit la graphie « Gamin ».",
+  "msgid": "Stop right there, kid!\\pYou're ten thousand light-years \\nfrom facing BROCK!",
+  "msgstr": "Halte-là, gamin!\\pT’es à dix mille années-lumière de\\npouvoir affronter Pierre!",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "typographie",
+  "probleme": "Le point après « mal » fait double emploi avec les points de suspension.",
+  "correction": "T’es pas mal… Mais pas autant que\\nPierre!",
+  "justification": "Les points de suspension marquent à eux seuls la pause entre les deux remarques.",
+  "msgid": "You're pretty hot.\\n…But not as hot as BROCK!",
+  "msgstr": "T’es pas mal. … Mais pas autant que\\nPierre!",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "terminologie",
+  "probleme": "« poison » est en minuscule.",
+  "correction": "Un Pokémon est plus facile à\\nattraper s’il a un problème\\lde statut.\\pSommeil, Poison, brûlure\\nou paralysie… Tout ça est efficace.\\pMais on n’est jamais sûr\\nd’attraper un Pokémon!",
+  "justification": "Le lexique fourni prescrit la graphie « Poison » pour le statut.",
+  "msgid": "A POKéMON becomes easier to \\ncatch if it has a status problem.\\pSleep, poison, burn, or paralysis…\\nThose are all effective.\\pBut catching POKéMON is never\\na sure thing!",
+  "msgstr": "Un Pokémon est plus facile à attraper\\ns’il a un problème de statut.\\pSommeil, poison, brûlure ou paralysie…\\nTout ça est efficace.\\pMais on n’est jamais sûr d’attraper un\\nPokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "typographie",
+  "probleme": "Il manque une espace entre le montant et le symbole monétaire.",
+  "correction": "Un vieux louche m’a embobiné pour\\nque j’achète ce drôle de Pokémon\\lpoisson!\\pIl est super faible et il m’a\\ncoûté 500 ¥!",
+  "justification": "En typographie française, une espace sépare le montant du symbole monétaire.",
+  "msgid": "A shady old guy sucked me into\\nbuying this weird fish POKéMON!\\pIt's totally weak and it cost ¥500!",
+  "msgstr": "Un vieux louche m’a embobiné pour que\\nj’achète ce Pokémon poisson bizarre!\\pIl est super faible et il m’a coûté\\n500¥!",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "typographie",
+  "probleme": "Il manque une espace entre le montant et le symbole monétaire.",
+  "correction": "Oui, oui. C’est 50 ¥ pour un\\nbillet enfant.\\pVoulez-vous entrer?",
+  "justification": "En typographie française, une espace sépare le montant du symbole monétaire.",
+  "msgid": "Yes, yes.\\nIt's ¥50 for a child's ticket.\\pWould you like to come in?",
+  "msgstr": "Oui, oui. C’est 50¥ pour un billet\\nenfant.\\pVoulez-vous entrer?",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "typographie",
+  "probleme": "Il manque une espace entre le montant et le symbole monétaire.",
+  "correction": "Parfait, 50 ¥! Merci!",
+  "justification": "En typographie française, une espace sépare le montant du symbole monétaire.",
+  "msgid": "Right, ¥50!\\nThank you!",
+  "msgstr": "Parfait, 50¥! Merci!",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "oubli",
+  "probleme": "La traduction omet l’idée d’entrer en cachette et l’interpellation « kid ».",
+  "correction": "Pas question d’entrer en douce\\npar derrière!\\lBien essayé, Gamin!\\pOh, et puis zut! Tu sais ce qu’est\\nl’ambre?",
+  "justification": "Le scientifique surprend une tentative d’entrée furtive et interpelle directement le joueur.",
+  "msgid": "You can't sneak in the back way!\\nNice try, kid, but no.\\pOh, whatever!\\nDo you know what AMBER is?",
+  "msgstr": "Tu ne peux pas entrer par derrière!\\nBien essayé, mais non.\\pOh, et puis zut! Tu sais ce qu’est\\nl’ambre?",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "oubli",
+  "probleme": "La dernière phrase omet la fossilisation et la dureté de l’ambre.",
+  "correction": "L’ambre, c’est de la sève, ce truc\\ncollant qui coule des arbres.\\pEn se fossilisant, cette sève\\nest devenue de l’ambre, dur\\lcomme la pierre.",
+  "justification": "Le texte anglais précise comment la sève est devenue de l’ambre et décrit la dureté du résultat.",
+  "msgid": "AMBER is actually sap, that gooey\\nstuff that oozes from trees.\\pThe ancient sap fossilized over\\ntime to become rock-hard AMBER.",
+  "msgstr": "L’ambre, c’est de la sève, ce truc\\ncollant qui coule des arbres.\\pAvec le temps, cette sève\\npréhistorique est devenue de l’ambre.",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "orthographe",
+  "probleme": "« Ecoute » a perdu son accent aigu.",
+  "correction": "Chut! Écoute, je dois confier\\nun secret à quelqu’un.\\pJe crois que ce morceau d’ambre\\ncontient de l’ADN de Pokémon!\\pEn ressusciter un grâce à lui\\nserait une découverte majeure!\\pMais mes collègues ignorent\\nce que je dis.\\pJ’ai un service à te demander!\\pFais analyser ce morceau d’ambre\\ndans un laboratoire Pokémon.",
+  "justification": "La majuscule conserve l’accent aigu de l’impératif « Écoute ».",
+  "msgid": "Ssh! Listen, I need to share a\\nsecret with someone.\\pI think that this chunk of AMBER\\ncontains POKéMON DNA!\\pIt would be a shattering scientific\\nbreakthrough if POKéMON could be\\lresurrected from it.\\pBut, my colleagues just ignore\\nwhat I have to say.\\pSo, I have a favor to ask!\\pI want you to get this examined at\\na POKéMON LAB somewhere.",
+  "msgstr": "Chut! Ecoute, j’ai besoin de confier\\nun secret à quelqu’un.\\pJe crois que ce morceau d’ambre\\ncontient de l’ADN de Pokémon!\\pRessusciter un Pokémon grâce à lui\\nserait une découverte majeure!\\pMais mes collègues ignorent ce que je\\ndis.\\pAlors, j’ai un service à te demander!\\pJe veux que tu fasses analyser ceci\\ndans un laboratoire Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "contresens",
+  "probleme": "« S’endorment » présente comme acquis le sommeil que « get drowsy » annonce seulement.",
+  "correction": "Ouaaah!\\pQuand RONDOUDOU chante,\\nles Pokémon somnolent…\\p… Moi aussi… Zzz…",
+  "justification": "Le Gamin décrit la somnolence provoquée par le chant.",
+  "msgid": "Yawn!\\pWhen JIGGLYPUFF sings, POKéMON get\\ndrowsy…\\p…Me, too…\\nSnore…",
+  "msgstr": "Ouaaah!\\pQuand RONDOUDOU chante, les Pokémon\\ns’endorment…\\p… Moi aussi… Zzz…",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "terminologie",
+  "probleme": "« gamin » est en minuscule.",
+  "correction": "J’échange des Pokémon avec\\nce Gamin, là-bas.\\pJ’avais deux PIKACHU, alors\\nje me suis dit que je pouvais\\len échanger un.",
+  "justification": "Le lexique fourni prescrit la graphie « Gamin ».",
+  "msgid": "I'm trading POKéMON with that kid\\nthere.\\pI had two PIKACHU, so I figured\\nI might as well trade one.",
+  "msgstr": "J’échange des Pokémon avec ce gamin,\\nlà-bas.\\pJ’avais deux PIKACHU, alors je me suis\\ndit que je pouvais en échanger un.",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "orthographe",
+  "probleme": "La préposition « À » a perdu son accent grave devant « Lavanville ».",
+  "correction": "C’est dur de trouver de bons noms\\npour ses Pokémon, non?\\pSurtout quand on en a attrapé tout\\nun tas?\\pÀ Lavanville, un homme juge\\nles surnoms des Pokémon.\\pIl peut même t’aider à renommer\\ntes Pokémon.",
+  "justification": "La majuscule conserve l’accent de la préposition devant le nom de la ville.",
+  "msgid": "Don't you think it's hard to think\\nup good names for POKéMON?\\pEspecially if you've caught a\\nwhole bunch?\\pIn LAVENDER TOWN, there's a man\\nwho rates POKéMON nicknames.\\pHe can even help you rename your\\nPOKéMON, too.",
+  "msgstr": "C’est dur de trouver de bons noms\\npour ses Pokémon, non?\\pSurtout quand on en a attrapé tout\\nun tas?\\pA Lavanville, il y a un homme qui juge\\nles surnoms des Pokémon.\\pIl peut même t’aider à renommer tes\\nPokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "oubli",
+  "probleme": "« A {STR_VAR_1} espèces » omet l’exigence de données complètes.",
+  "correction": "Salut! Tu te souviens de moi?\\nJe suis l’un des assistants\\ldu Prof. Chen.\\pSi ton Pokédex a une fiche\\ncomplète pour {STR_VAR_1} espèces,\\lje dois te récompenser.\\pLe Prof. Chen m’a confié l’objet\\n{STR_VAR_2} pour toi.\\pAlors, {PLAYER}, dis-moi.\\pAs-tu des données sur au moins\\n{STR_VAR_1} espèces de Pokémon?",
+  "justification": "La récompense exige des fiches complètes pour le nombre indiqué d’espèces.",
+  "msgid": "Hi! Remember me?\\nI'm one of PROF. OAK's AIDES.\\pIf your POKéDEX has complete data\\non {STR_VAR_1} species, I'm supposed to\\lgive you a reward.\\pPROF. OAK entrusted me with the\\n{STR_VAR_2} for you.\\pSo, {PLAYER}, let me ask you.\\pHave you gathered data on at least\\n{STR_VAR_1} kinds of POKéMON?",
+  "msgstr": "Salut! Tu te souviens de moi? Je suis\\nl’un des assistants du Prof. Chen.\\pSi ton Pokédex a {STR_VAR_1} espèces,\\nje dois te récompenser.\\pLe Prof. Chen m’a confié l’objet\\n{STR_VAR_2} pour toi.\\pAlors, {PLAYER}, dis-moi.\\pAs-tu des données sur au moins\\n{STR_VAR_1} espèces de Pokémon?",
+  "msgctxt": ""
+ }
+]

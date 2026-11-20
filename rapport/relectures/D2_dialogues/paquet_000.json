@@ -1,0 +1,172 @@
+[
+ {
+  "id": 0,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’espèce est en minuscules dans le cri.",
+  "correction": "MEW!",
+  "justification": "La convention du projet impose les capitales pour les noms d’espèces.",
+  "msgid": "Mew!",
+  "msgstr": "Mew!",
+  "msgctxt": ""
+ },
+ {
+  "id": 1,
+  "categorie": "contresens",
+  "probleme": "« Sûrement » affaiblit l’assurance du vendeur.",
+  "correction": "Bonjour! Bienvenue chez Cycles à\\nGogo!\\pNous avons exactement le vélo\\nqu’il vous faut!",
+  "justification": "« Just the bike for you » affirme que le vendeur a précisément le vélo qu’il faut au joueur.",
+  "msgid": "Hi!\\nWelcome to our BIKE SHOP.\\pHave we got just the BIKE for\\nyou!",
+  "msgstr": "Bonjour! Bienvenue chez Cycles à\\nGogo!\\pNous avons sûrement le vélo qu’il vous\\nfaut!",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "oubli",
+  "probleme": "L’éclat de la Bicyclette a disparu.",
+  "correction": "Une Bicyclette neuve et rutilante!",
+  "justification": "« Shiny » décrit l’aspect brillant de la Bicyclette exposée.",
+  "msgid": "A shiny new BICYCLE!",
+  "msgstr": "Une Bicyclette toute neuve!",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "orthographe",
+  "probleme": "La préposition « À » a perdu son accent.",
+  "correction": "{RIVAL}: Hé, devine quoi!\\pJe suis allé chez Léo et il m’a montré\\nses Pokémon rares.\\pÇa m’a rempli plein de pages de mon\\nPokédex!\\pFaut dire que Léo est un Pokémaniac\\nmondialement connu.\\pC’est aussi lui qui a inventé le\\nSystème de Stockage Pokémon sur PC.\\pComme tu utilises son système, tu\\ndevrais aller le remercier.\\pBon, faut que j’y aille! À plus,\\nminable!",
+  "justification": "La majuscule conserve l’accent de la préposition dans la formule retenue pour le lot.",
+  "msgid": "{RIVAL}: Hey, guess what?\\pI went to BILL's and got him to\\nshow me his rare POKéMON.\\pThat added a lot of pages to my\\nPOKéDEX!\\pAfter all, BILL's world famous as a\\nPOKéMANIAC.\\pHe invented the POKéMON Storage\\nSystem on PC, too.\\pSince you're using his system,\\nyou should go thank him.\\pWell, I better get rolling!\\nSmell ya later!",
+  "msgstr": "{RIVAL}: Hé, devine quoi!\\pJe suis allé chez Léo et il m’a montré\\nses Pokémon rares.\\pÇa m’a rempli plein de pages de mon\\nPokédex!\\pFaut dire que Léo est un Pokémaniac\\nmondialement connu.\\pC’est aussi lui qui a inventé le\\nSystème de Stockage Pokémon sur PC.\\pComme tu utilises son système, tu\\ndevrais aller le remercier.\\pBon, faut que j’y aille! A plus,\\nminable!",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "oubli",
+  "probleme": "Le Rival ne présente plus son cadeau comme un service rendu au joueur.",
+  "correction": "Ah oui, c’est vrai.\\pJe te plains. Non, sérieux. Tu es\\ntoujours à la traîne derrière moi.\\pAlors tiens, un petit cadeau\\npour te rendre service.",
+  "justification": "« As a favor » souligne la condescendance du Rival.",
+  "msgid": "Oh, yeah, right.\\pI feel sorry for you. No, really.\\nYou're always plodding behind me.\\pSo here, I'll give you a little\\npresent as a favor.",
+  "msgstr": "Ah oui, c’est vrai.\\pJe te plains. Non, sérieux. Tu es\\ntoujours à la traîne derrière moi.\\pAlors tiens, je vais te faire un petit\\ncadeau.",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "orthographe",
+  "probleme": "La préposition « À » a perdu son accent.",
+  "correction": "Une pipelette comme toi… Ce truc est\\nparfait pour toi.\\pMoi, j’en ai pas besoin, je me fiche pas\\nmal des autres.\\pBon, cette fois, je m’en vais pour de\\nbon. À plus, minable!",
+  "justification": "La majuscule conserve l’accent de la préposition dans la formule retenue pour le lot.",
+  "msgid": "A chatty gossip like you…\\nThat thing's perfect.\\pI don't need it because I don't\\ngive a hoot about others.\\pAll right, this time I really am\\ngone. Smell ya!",
+  "msgstr": "Une pipelette comme toi… Ce truc est\\nparfait pour toi.\\pMoi, j’en ai pas besoin, je me fiche pas\\nmal des autres.\\pBon, cette fois, je m’en vais pour de\\nbon. A plus, minable!",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » ne suit pas le lexique fourni.",
+  "correction": "{PLAYER} récupère la CT28 auprès du\\nSbire Rocket.",
+  "justification": "Le lexique du projet donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "{PLAYER} recovered TM28 from\\nthe TEAM ROCKET GRUNT.",
+  "msgstr": "{PLAYER} récupère la CT28 auprès du\\nSbire de la Team Rocket.",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » ne suit pas le lexique fourni.",
+  "correction": "Les gens d’ici ont été cambriolés.\\pLes Rocket sont de toute évidence\\nderrière ce crime odieux!\\pMême nos forces de police ont du mal\\navec les Rocket!",
+  "justification": "Le lexique du projet donne « Rocket » pour « TEAM ROCKET » et « ROCKET ».",
+  "msgid": "The people here were robbed.\\pIt's obvious that TEAM ROCKET is\\nbehind this most heinous crime!\\pEven our POLICE FORCE has\\ntrouble with the ROCKETS!",
+  "msgstr": "Les gens d’ici ont été cambriolés.\\pIl est évident que la Team Rocket est\\nderrière ce crime odieux!\\pMême nos forces de police ont du mal\\navec la Team Rocket!",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "terminologie",
+  "probleme": "Le nom de la capacité est entièrement en capitales.",
+  "correction": "FLAGADOSS, Repli!",
+  "justification": "Le lexique fourni donne « Repli » avec une seule majuscule initiale, conformément à la convention du projet pour les capacités.",
+  "msgid": "SLOWBRO, WITHDRAW!",
+  "msgstr": "FLAGADOSS, REPLI!",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "oubli",
+  "probleme": "Le guide ne s’adresse plus au joueur par le terme familier « kid ».",
+  "correction": "Tu as battu Ondine! Tu vois, qu’est-ce\\nque je t’avais dit?\\pToi et moi, petit, on fait\\nune sacrée bonne équipe!",
+  "justification": "« Petit » restitue la façon familière dont le guide interpelle le joueur.",
+  "msgid": "You beat MISTY!\\nSee, what'd I tell ya?\\pYou and me, kid, we make a pretty\\ndarn-good team!",
+  "msgstr": "Tu as battu Ondine! Tu vois, qu’est-ce\\nque je t’avais dit?\\pToi et moi, on fait une sacrée bonne\\néquipe!",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » ne suit pas le lexique et « FEROSINGE » a perdu son accent.",
+  "correction": "Ces maudits sbires Rocket!\\pRegarde ce qu’ils ont fait à ma\\nmaison!\\pIls ont volé une CT pour apprendre\\naux Pokémon à creuser des tunnels!\\pJe voulais m’en servir sur\\nun FÉROSINGE ou un SABELETTE…\\pElle m’a coûté une fortune, celle-là!",
+  "justification": "Le lexique du projet donne « Rocket ». Le nom français officiel « Férosinge » conserve son accent en capitales.",
+  "msgid": "Those miserable ROCKETS!\\pLook what they've done to my\\nhouse!\\pThey stole a TM for teaching\\nPOKéMON how to DIG holes!\\pI was going to use it on a\\nMANKEY or a SANDSHREW…\\pThat cost me a bundle, it did!",
+  "msgstr": "Ces maudits sbires de la Team Rocket!\\pRegarde ce qu’ils ont fait à ma\\nmaison!\\pIls ont volé une CT pour apprendre\\naux Pokémon à creuser des tunnels!\\pJe voulais l’utiliser sur un FEROSINGE\\nou un SABELETTE…\\pElle m’a coûté une fortune, celle-là!",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » ne suit pas le lexique fourni.",
+  "correction": "Les Rocket doivent creuser un tunnel\\npour faire un mauvais coup!",
+  "justification": "Le lexique du projet donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "TEAM ROCKET must be trying to DIG\\ntheir way into no good!",
+  "msgstr": "La Team Rocket doit creuser un tunnel\\npour faire un mauvais coup!",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » ne suit pas le lexique fourni.",
+  "correction": "Les Rocket ont laissé une sortie!",
+  "justification": "Le lexique du projet donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "TEAM ROCKET left a way out!",
+  "msgstr": "La Team Rocket a laissé une sortie!",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "oubli",
+  "probleme": "La diversité des personnes qui relaient la nouvelle a disparu.",
+  "correction": "Ah, tu as répandu la nouvelle pour\\nmoi?\\pUne bonne nouvelle prend tout son\\nsens quand toutes sortes de gens\\lla partagent.\\pMerci de l’avoir répandue,\\nprends ceci!",
+  "justification": "« All sorts of people » précise qui fait circuler la nouvelle.",
+  "msgid": "Ah, you've spread the news for me?\\pGood news becomes worthwhile when\\nall sorts of people share it.\\pAs my thanks for your spreading\\nthe news, take this!",
+  "msgstr": "Ah, tu as répandu la nouvelle pour\\nmoi?\\pUne bonne nouvelle prend tout son\\nsens quand on la partage.\\pPour te remercier de l’avoir répandue,\\nprends ceci!",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "oubli",
+  "probleme": "Le dernier rappel « Don’t forget » a disparu.",
+  "correction": "Il y a du nouveau au premier étage\\ndes Centres Pokémon, au Coin Direct.\\pIls ont installé une machine à broyer\\nles Baies avec l’Adaptateur Sans Fil.\\pC’est là que tu interviens.\\pJ’ai un service à te demander, que je\\nne peux confier qu’à toi.\\pPourrais-tu me faire de la Poudre Baie\\navec cette machine?\\pN’oublie pas, la machine se trouve au\\nCoin Direct des Centres Pokémon.\\pJe te préparerai des remèdes si tu\\nm’apportes de la Poudre Baie.\\pN’oublie pas de broyer des Baies\\net de m’apporter la Poudre Baie.",
+  "justification": "Le personnage rappelle au joueur de broyer les Baies et de lui rapporter la poudre.",
+  "msgid": "There's something new on the second\\nfloor of POKéMON CENTERS, at the\\lDIRECT CORNER.\\pThey installed a Wireless Adapter\\nmachine for crushing BERRIES.\\pThis is where you come in.\\pI have a favor to ask, one that\\nI can entrust only to you.\\pCould you make BERRY POWDER for\\nme using that machine?\\pDon't forget, the machine is at the\\nDIRECT CORNER of POKéMON CENTERS.\\pI'll concoct medicine for you if\\nyou bring me some BERRY POWDER.\\pDon't forget, crush BERRIES into\\nBERRY POWDER and bring it to me.",
+  "msgstr": "Il y a du nouveau au premier étage des\\nCentres Pokémon, au Coin Direct.\\pIls ont installé une machine à broyer\\nles Baies avec l’Adaptateur Sans Fil.\\pC’est là que tu interviens.\\pJ’ai un service à te demander, que je\\nne peux confier qu’à toi.\\pPourrais-tu me faire de la Poudre Baie\\navec cette machine?\\pN’oublie pas, la machine se trouve au\\nCoin Direct des Centres Pokémon.\\pJe te préparerai des remèdes si tu\\nm’apportes de la Poudre Baie.\\pBroie des Baies pour en faire de la\\nPoudre Baie, et apporte-la-moi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "contresens",
+  "probleme": "« Ce qui te reste » laisse entendre que le joueur doit échanger tout son reliquat.",
+  "correction": "Cette Poudre Baie est vraiment\\nbonne. Ça fera d’excellents\\lremèdes.\\pTu veux échanger encore un peu de\\nPoudre Baie contre autre chose?",
+  "justification": "Le personnage propose un nouvel échange. « More » ne désigne pas la totalité de la poudre restante.",
+  "msgid": "This is fine BERRY POWDER indeed.\\nIt will make excellent medicine.\\pWould you like to trade more BERRY\\nPOWDER for something else?",
+  "msgstr": "Cette Poudre Baie est vraiment bonne.\\nÇa fera d’excellents remèdes.\\pTu veux échanger ce qui te reste de\\nPoudre Baie contre autre chose?",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "oubli",
+  "probleme": "Le repère visuel « à gauche » a disparu.",
+  "correction": "Le Repousse n’éloigne pas que les\\ninsectes.\\pIl marche aussi sur les Pokémon\\nfaibles.\\pPlace ton Pokémon le plus fort à\\ngauche dans la liste des Pokémon.\\pSi ton premier Pokémon est fort,\\nl’effet du Repousse est renforcé.",
+  "justification": "Le conseil indique où placer le Pokémon dans l’interface pour qu’il soit le premier de l’équipe.",
+  "msgid": "REPEL not only keeps bugs away,\\nit also works on weak POKéMON.\\pPut your strongest POKéMON at the\\nleft of the POKéMON LIST.\\pIf your first POKéMON is strong,\\nREPEL's effect is boosted.",
+  "msgstr": "Le Repousse n’éloigne pas que les\\ninsectes.\\pIl marche aussi sur les Pokémon\\nfaibles.\\pMets ton Pokémon le plus fort en tête\\nde ton équipe.\\pSi ton premier Pokémon est fort,\\nl’effet du Repousse est renforcé.",
+  "msgctxt": ""
+ }
+]

@@ -34,6 +34,8 @@ Conventions du projet (à respecter, ne PAS les signaler comme fautes) :
 - \\n = 2e ligne, \\l = ligne suivante, \\p = nouvelle page : ce sont des sauts de ligne, ne les commente pas sauf s'ils coupent un mot.
 - Libellés de menus en capitales (SAC, SAUVER, RETOUR…), abréviations officielles (PV, AT, DF, AS, DS, VI ; PSN, PAR, SOM, GEL, BRU, GLR ; N. pour le niveau).
 - « … sauvage », « … ennemi » après le nom, sans article.
+- « Team Rocket » pour l'organisation (jamais « les Rocket » seul), « Sbire de la Team Rocket » ou « Sbire Rocket » ; noms communs sans majuscule (un gamin, un combat), les classes de Dresseurs avec majuscule seulement quand elles désignent la classe (Gamin Joey).
+- Majuscules jamais accentuées (Ile, Iles Ecume, A bientôt, ELECTRIK), cédille gardée (Ça).
 - Respecte les longueurs maximales indiquées ; une correction ne doit pas les dépasser ni changer les codes.
 
 Réponds UNIQUEMENT par un tableau JSON (éventuellement vide []), sans texte autour :

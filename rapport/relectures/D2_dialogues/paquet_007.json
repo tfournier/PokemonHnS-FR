@@ -1,0 +1,72 @@
+[
+ {
+  "id": 1,
+  "categorie": "oubli",
+  "probleme": "« Il y a bien longtemps » atténue « far too long ago ».",
+  "correction": "La CT26 contient Séisme.\\pCette attaque puissante provoque\\nun énorme tremblement de terre.\\pJe l’ai créée quand je dirigeais\\nl’Arène, il y a bien trop longtemps… ",
+  "justification": "« Bien trop longtemps » restitue le jugement de Giovanni sur le temps écoulé.",
+  "msgid": "TM26 contains EARTHQUAKE.\\pIt is a powerful attack that causes\\na massive tremor.\\pI made it when I ran the GYM here,\\nfar too long ago… ",
+  "msgstr": "La CT26 contient Séisme.\\pCette attaque puissante provoque un\\nénorme tremblement de terre.\\pJe l’ai créée quand je dirigeais\\nl’Arène, il y a bien longtemps… ",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "oubli",
+  "probleme": "La nécessité de soigner rapidement les Pokémon disparaît.",
+  "correction": "Il faut que j’achète des Potions.\\pOn ne sait jamais quand ses Pokémon\\nauront besoin de soins rapides.",
+  "justification": "« Quick healing » désigne des soins à prodiguer rapidement.",
+  "msgid": "I've got to buy some POTIONS.\\pYou never know when your POKéMON\\nwill need quick healing.",
+  "msgstr": "Il faut que j’achète des Potions.\\pOn ne sait jamais quand ses Pokémon\\nauront besoin de soins.",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "oubli",
+  "probleme": "« Ahead » limite le propos aux villes qui attendent le joueur.",
+  "correction": "Tu trouveras un Centre Pokémon\\ndans chaque ville sur ta route.\\pLes soins sont gratuits, alors\\nn’hésite pas à y soigner tes Pokémon.",
+  "justification": "« Sur ta route » rétablit la portée du conseil.",
+  "msgid": "There's a POKéMON CENTER in every\\ntown ahead.\\pThey charge no money, so don't\\nbe shy about healing POKéMON.",
+  "msgstr": "Il y a un Centre Pokémon dans chaque\\nville.\\pIls sont gratuits, alors n’hésite pas\\nà y soigner tes Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "contresens",
+  "probleme": "La difficulté de capture devient systématique et le but des altérations de statut disparaît.",
+  "correction": "Deuxième page…\\pUn Pokémon en forme peut être\\ndur à attraper. Affaiblis-le d’abord.\\pPour l’affaiblir, empoisonne-le,\\lbrûle-le ou inflige-lui un autre\\lproblème de statut.",
+  "justification": "« Peut être » rend « may », et « pour l’affaiblir » relie les altérations au conseil précédent.",
+  "msgid": "Second page…\\pA healthy POKéMON may be hard to\\ncatch, so weaken it first.\\pPoison, burn, or cause another\\nstatus problem to weaken it.",
+  "msgstr": "Deuxième page…\\pUn Pokémon en forme est dur à\\nattraper, alors affaiblis-le d’abord.\\pEmpoisonne-le, brûle-le ou inflige-lui\\nun autre problème de statut.",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "contresens",
+  "probleme": "« Toujours » ajoute une fréquence absente de la première phrase, qui précise le but de la recherche.",
+  "correction": "Troisième page…\\pLes Dresseurs cherchent à\\naffronter d’autres Dresseurs en\\lcombat Pokémon.\\pPour les Dresseurs, le goût de la\\nvictoire est vraiment délicieux.\\pLes combats se succèdent dans\\nles Arènes Pokémon du monde entier.",
+  "justification": "Les Dresseurs cherchent des partenaires de combat. La fréquence concerne les combats dans les Arènes.",
+  "msgid": "Third page…\\pPOKéMON TRAINERS seek others to\\nengage in POKéMON battles.\\pTo TRAINERS, the taste of victory\\nis sweet, indeed.\\pBattles are constantly waged at\\nPOKéMON GYMS everywhere.",
+  "msgstr": "Troisième page…\\pLes Dresseurs cherchent toujours\\ndes adversaires.\\pPour les Dresseurs, le goût de la\\nvictoire est vraiment délicieux.\\pDes combats ont lieu sans arrêt dans\\nles Arènes Pokémon de partout.",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "oubli",
+  "probleme": "Le but des lancers, capturer des Pokémon, reste implicite.",
+  "correction": "J’ai lancé des Poké Balls pour\\nattraper des Pokémon. Je n’en ai\\lplus.\\pC’est pour ça qu’on n’a jamais\\ntrop de Poké Balls.",
+  "justification": "« Pour attraper » traduit le but explicite du lancer dans la réplique anglaise.",
+  "msgid": "I was throwing POKé BALLS to\\ncatch POKéMON, and I ran out.\\pThat's why you can never have too\\nmany POKé BALLS.",
+  "msgstr": "J’ai lancé des Poké Balls sur des\\nPokémon, et je n’en ai plus.\\pC’est pour ça qu’on n’a jamais trop de\\nPoké Balls.",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "oubli",
+  "probleme": "La traduction omet « else » et le but du lancer.",
+  "correction": "Conseils aux Dresseurs!\\pVous ne pouvez pas attraper un\\nPokémon déjà à quelqu’un d’autre.\\pPour capturer un Pokémon, lancez\\nvos Poké Balls uniquement sur\\lles Pokémon sauvages!",
+  "justification": "Le panneau distingue les Pokémon qui appartiennent à une autre personne des Pokémon sauvages que le joueur peut capturer.",
+  "msgid": "TRAINER TIPS\\pYou can't catch a POKéMON that\\nbelongs to someone else.\\pThrow POKé BALLS only at wild\\nPOKéMON to catch them!",
+  "msgstr": "Conseils aux Dresseurs!\\pVous ne pouvez pas attraper un\\nPokémon qui appartient à quelqu’un.\\pLancez vos Poké Balls uniquement sur\\nles Pokémon sauvages!",
+  "msgctxt": ""
+ }
+]

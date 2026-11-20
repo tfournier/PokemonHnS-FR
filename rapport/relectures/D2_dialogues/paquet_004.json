@@ -1,0 +1,162 @@
+[
+ {
+  "id": 11,
+  "categorie": "contresens",
+  "probleme": "« Plus si jalouse » introduit un changement dans le temps.",
+  "correction": "Je suis pas si jalouse!",
+  "justification": "Haley relativise sa jalousie. « Not so jealous » signifie « pas si jalouse ».",
+  "msgid": "I'm not so jealous!",
+  "msgstr": "Je suis plus si jalouse!",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "orthographe",
+  "probleme": "« Venu seul » est au masculin dans une réplique commune aux deux avatars.",
+  "correction": "Bonjour, tu es là sans compagnie?\\pSi on vient au cap d’Azuria…\\nEh bien, c’est en couple.",
+  "justification": "La formulation conserve la question sur le fait d’être seul et convient aux deux avatars.",
+  "msgid": "Hello, are you here alone?\\pIf you're out at CERULEAN's cape…\\nWell, it should be as a couple.",
+  "msgstr": "Bonjour, tu es venu seul?\\pSi on vient au cap d’Azuria… Eh bien,\\nc’est en couple.",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "terminologie",
+  "probleme": "« Ma belle » s’écarte de l’équivalent fourni pour LADY.",
+  "correction": "Salut! Je suis un Pokémon…\\n… Mais non!\\pAppelle-moi Léo! Je suis un vrai\\nPokémaniac!\\pHé! C’est quoi ce regard sceptique?\\pJe te fais pas marcher,\\nmademoiselle.\\pJ’ai raté une expérience et j’ai\\nfusionné avec un Pokémon!\\pAlors, qu’est-ce que t’en dis?\\nAide-moi!",
+  "justification": "Le lexique officiel fourni donne « Mademoiselle » pour LADY.",
+  "msgid": "Hiya! I'm a POKéMON…\\n…No I'm not!\\pCall me BILL!\\nI'm a true-blue POKéMANIAC!\\pHey!\\nWhat's with that skeptical look?\\pI'm not joshing you, lady.\\pI screwed up an experiment and got\\ncombined with a POKéMON!\\pSo, how about it?\\nHelp me out here!",
+  "msgstr": "Salut! Je suis un Pokémon… … Mais non!\\pAppelle-moi Léo! Je suis un vrai\\nPokémaniac!\\pHé! C’est quoi ce regard sceptique?\\pJe te fais pas marcher, ma belle.\\pJ’ai raté une expérience et j’ai\\nfusionné avec un Pokémon!\\pAlors, qu’est-ce que t’en dis?\\nAide-moi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "terminologie",
+  "probleme": "« Ma belle » s’écarte de l’équivalent fourni pour LADY.",
+  "correction": "Léo: Youpi! Merci, mademoiselle!\\nJe te dois une fière chandelle!\\pAlors, tu es venue voir ma\\ncollection de Pokémon?\\pNon? Dommage.\\pIl faut que je te remercie…\\nAh, tiens, ça devrait faire l’affaire.",
+  "justification": "Le lexique officiel fourni donne « Mademoiselle » pour LADY.",
+  "msgid": "BILL: Yeehah!\\nThanks, lady! I owe you one!\\pSo, did you come to see my\\nPOKéMON collection?\\pYou didn't?\\nThat's a bummer.\\pI've got to thank you…\\nOh, here, maybe this'll do.",
+  "msgstr": "Léo: Youpi! Merci, ma belle! Je te dois\\nune fière chandelle!\\pAlors, tu es venue voir ma collection\\nde Pokémon?\\pNon? Dommage.\\pIl faut que je te remercie… Ah, tiens,\\nça devrait faire l’affaire.",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "oubli",
+  "probleme": "L’ajout exprimé par « too » disparaît.",
+  "correction": "Le paquebot Océane est à\\nCarmin sur Mer.\\pIl paraît aussi qu’il y a plein de\\nDresseurs à bord.\\pIls m’ont invité à leur fête, mais\\nje supporte pas les mondanités.\\pPourquoi pas y aller à ma place?\\nVas-y, amuse-toi bien.",
+  "justification": "« Aussi » présente la présence des Dresseurs comme un renseignement supplémentaire.",
+  "msgid": "That cruise ship S.S. ANNE is in\\nVERMILION CITY.\\pI hear there are lots of TRAINERS\\non board, too.\\pThey invited me to their party, but\\nI can't stand fancy do's.\\pWhy don't you go instead of me?\\nGo on and have a good time.",
+  "msgstr": "Le bateau de croisière Océane est à\\nCarmin sur Mer.\\pIl paraît qu’il y a plein de Dresseurs\\nà bord.\\pIls m’ont invité à leur fête, mais je\\nsupporte pas les mondanités.\\pPourquoi tu n’irais pas à ma place?\\nVas-y, amuse-toi bien.",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "orthographe",
+  "probleme": "L’accent de « TÉLÉPORTEUR » manque.",
+  "correction": "TÉLÉPORTEUR est affiché sur\\nl’écran du PC.",
+  "justification": "Les majuscules prennent les mêmes accents que les minuscules.",
+  "msgid": "TELEPORTER is displayed on the PC\\nmonitor.",
+  "msgstr": "TELEPORTEUR est affiché sur l’écran\\ndu PC.",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "oubli",
+  "probleme": "« Ton Pokédex a dix espèces » omet que les données doivent être complètes.",
+  "correction": "Salut! Tu te souviens de moi?\\nJe suis un assistant du Prof. Chen.\\pSi ton Pokédex a des données\\ncomplètes sur dix espèces, je dois\\lte récompenser.\\pLe Prof. Chen m’a confié la CS05\\npour toi.\\pAlors, {PLAYER}, dis-moi.\\pAs-tu des données sur au moins dix\\nespèces de Pokémon?",
+  "justification": "La condition de la récompense porte sur dix fiches complètes.",
+  "msgid": "Hi! Remember me?\\nI'm one of PROF. OAK's AIDES.\\pIf your POKéDEX has complete data\\non ten species, I'm supposed to\\lgive you a reward.\\pPROF. OAK entrusted me with\\nHM05 for you.\\pSo, {PLAYER}, let me ask you.\\pHave you gathered data on at least\\nten kinds of POKéMON?",
+  "msgstr": "Salut! Tu te souviens de moi? Je suis\\nl’un des assistants du Prof. Chen.\\pSi ton Pokédex a dix espèces, je dois\\nte récompenser.\\pLe Prof. Chen m’a confié la CS05 pour\\ntoi.\\pAlors, {PLAYER}, dis-moi.\\pAs-tu des données sur au moins dix\\nespèces de Pokémon?",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "oubli",
+  "probleme": "Le conseil de persévérer a disparu.",
+  "correction": "Beaucoup de Pokémon ne vivent que\\ndans les forêts et les grottes.\\pPour trouver des espèces variées,\\nil faut persévérer et chercher\\lpartout.",
+  "justification": "Le texte anglais conseille à la fois de persévérer et de chercher partout.",
+  "msgid": "Many POKéMON live only in forests \\nand caves.\\pYou need to be persistent and look\\neverywhere to get different kinds.",
+  "msgstr": "Beaucoup de Pokémon ne vivent que\\ndans les forêts et les grottes.\\pPour trouver des espèces variées, il\\nfaut chercher partout.",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "oubli",
+  "probleme": "« Garder » omet l’idée de continuer à élever les Pokémon.",
+  "correction": "Tu sais comment annuler\\nl’évolution?\\pQuand un Pokémon évolue, tu peux\\ninterrompre le processus.\\pTu peux ainsi continuer à élever\\ntes Pokémon sans les faire évoluer.",
+  "justification": "La dernière phrase explique qu’on peut poursuivre l’élevage tout en conservant la forme actuelle du Pokémon.",
+  "msgid": "Do you know the evolution-cancel\\ntechnique?\\pWhen a POKéMON is evolving, you\\ncan stop the process.\\pIt's a technique for raising\\nPOKéMON the way they are.",
+  "msgstr": "Tu connais la technique pour annuler\\nl’évolution?\\pQuand un Pokémon évolue, tu peux\\ninterrompre le processus.\\pC’est une technique pour garder les\\nPokémon tels qu’ils sont.",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "oubli",
+  "probleme": "« Sa morsure » omet la férocité exprimée par « wicked ».",
+  "correction": "Le RATTATA est petit, mais ne\\nsous-estime pas sa morsure féroce.\\pTu en as déjà attrapé un?",
+  "justification": "« Féroce » restitue la dangerosité de la morsure.",
+  "msgid": "RATTATA may be small, but don't\\nunderestimate its wicked bite.\\pHave you caught one already?",
+  "msgstr": "Le RATTATA est petit, mais ne\\nsous-estime pas sa morsure.\\pTu en as déjà attrapé un?",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "orthographe",
+  "probleme": "« Vu » ne s’accorde pas avec l’avatar féminin dans cette réplique commune.",
+  "correction": "Hé!\\nJe t’ai croisé dans la Forêt de Jade!",
+  "justification": "Avec un complément d’objet direct placé avant le verbe, le participe doit s’accorder avec l’avatar.",
+  "msgid": "Hey!\\nI saw you in VIRIDIAN FOREST!",
+  "msgstr": "Hé! Je t’ai vu dans la Forêt de Jade!",
+  "msgctxt": ""
+ },
+ {
+  "id": 59,
+  "categorie": "orthographe",
+  "probleme": "« Méchant » est au masculin dans une réplique commune aux deux avatars.",
+  "correction": "C’est méchant!",
+  "justification": "L’exclamation garde le reproche de Janice et convient aux deux avatars.",
+  "msgid": "You're mean!",
+  "msgstr": "T’es méchant!",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "orthographe",
+  "probleme": "« Gentil » est au masculin dans une réplique commune aux deux avatars.",
+  "correction": "Un peu de gentillesse!",
+  "justification": "La demande conserve le sens de « Be nice! » et convient aux deux avatars.",
+  "msgid": "Be nice!",
+  "msgstr": "Sois gentil!",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "oubli",
+  "probleme": "« Nigaud » rend l’insulte mais omet l’idée que le rival se fourvoie.",
+  "correction": "Nous voilà frères d’âme\\nsur la voie du pied!\\pFile avant que ce nigaud égaré\\nte voie. Là-bas, il ne s’entraîne\\lqu’à donner des coups de poing.",
+  "justification": "« Égaré » restitue le jugement exprimé par « deluded ».",
+  "msgid": "Now, we are soul mates in the way\\nof kicking!\\pYou should run before you're seen\\nby the deluded nitwit who trains\\lonly simple punching over there.",
+  "msgstr": "Maintenant, nous sommes frères d’âme\\nsur la voie du pied!\\pTu devrais filer avant que ne te voie\\nce nigaud qui ne s’entraîne qu’à ses\\lsimples coups de poing, là-bas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte de l’appellation demandée dans le lexique.",
+  "correction": "Les Rocket attaquent les gens\\nd’Azuria…\\pPas un jour sans qu’on parle\\ndes Rocket aux infos.",
+  "justification": "Le lexique officiel fourni donne « Rocket » pour TEAM ROCKET.",
+  "msgid": "TEAM ROCKET attacks CERULEAN\\ncitizens…\\pNot a day goes by without TEAM\\nROCKET being in the news.",
+  "msgstr": "La Team Rocket attaque les habitants\\nd’Azuria…\\pPas un jour ne passe sans qu’on parle\\nde la Team Rocket aux infos.",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "oubli",
+  "probleme": "L’exclusivité exprimée par « only » a disparu.",
+  "correction": "Non? Tu dis non? Je fais ça juste\\npour te rendre service!",
+  "justification": "« Juste » restitue la prétention du vendeur à agir dans le seul intérêt du joueur.",
+  "msgid": "No? You say no? I'm only doing this\\nas a favor to you!",
+  "msgstr": "Non? Tu dis non? Je fais ça pour te\\nrendre service!",
+  "msgctxt": ""
+ }
+]

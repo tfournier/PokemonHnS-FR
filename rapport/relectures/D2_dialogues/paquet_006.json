@@ -1,0 +1,232 @@
+[
+ {
+  "id": 6,
+  "categorie": "contresens",
+  "probleme": "La plainte devient certaine et « encore » porte sur les râleries.",
+  "correction": "Salade of saumon!\\pMais the invités risquent de râler:\\nencore du poisson!",
+  "justification": "« May » exprime une possibilité, et c’est le poisson qui est de nouveau au menu.",
+  "msgid": "Salmon du Salad!\\pLes guests may gripe it's fish\\nagain, however!",
+  "msgstr": "Salade of saumon!\\pThe invités vont encore râler parce\\nque c’est du poisson!",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "orthographe",
+  "probleme": "Il manque la préposition « de » devant « première qualité ».",
+  "correction": "Steak de bœuf de première qualité!\\pMais ai-je assez de filets of bœuf?",
+  "justification": "La locution adjectivale est « de première qualité ».",
+  "msgid": "Prime Beefsteak!\\pBut, have I enough fillets du\\nbeef?",
+  "msgstr": "Steak de bœuf première qualité!\\pMais ai-je assez de filets of bœuf?",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "typographie",
+  "probleme": "La salutation et l’exclamation sont réunies sur une ligne qui dépasse la largeur prévue.",
+  "correction": "{FONT_NORMAL}{PLAYER} montre le Passe Bateau!\\p{FONT_MALE}Parfait!\\nBienvenue à bord de l’Océane!",
+  "justification": "Le saut de ligne de la source permet d’afficher les deux phrases dans la boîte de dialogue.",
+  "msgid": "{FONT_NORMAL}{PLAYER} flashed the S.S. TICKET!\\p{FONT_MALE}Great!\\nWelcome to the S.S. ANNE!",
+  "msgstr": "{FONT_NORMAL}{PLAYER} montre le Passe Bateau!\\p{FONT_MALE}Parfait! Bienvenue à bord de l’Océane!",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "oubli",
+  "probleme": "La mention « HI-SPEED » a disparu.",
+  "correction": "Très bien, tout est en ordre.\\pLa Flèche des Mers express 7\\nva partir immédiatement.",
+  "justification": "« Express » restitue la mention de vitesse dans la désignation du ferry.",
+  "msgid": "Okay, everything's in order.\\pSEAGALLOP HI-SPEED 7 will be\\ndeparting immediately.",
+  "msgstr": "Très bien, tout est en ordre.\\pLe Ferry Flèche des Mers 7 va partir\\nimmédiatement.",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’accent circonflexe à « Île ».",
+  "correction": "Oh! C’est un Ticketaurore! Voilà qui\\nest rare.\\pNous serons ravis de vous emmener à\\nl’Île Aurore quand vous voulez.",
+  "justification": "La majuscule initiale conserve l’accent circonflexe de « île ».",
+  "msgid": "Oh! That's an AURORATICKET!\\nNow that is rare.\\pWe'll be happy to take you to\\nBIRTH ISLAND anytime.",
+  "msgstr": "Oh! C’est un Ticketaurore! Voilà qui\\nest rare.\\pNous serons ravis de vous emmener à\\nl’Ile Aurore quand vous voulez.",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "oubli",
+  "probleme": "La mention « HI-SPEED » a disparu.",
+  "correction": "Très bien, tout est en ordre pour\\nembarquer sur un ferry spécial.\\pLa Flèche des Mers express 10\\nva partir immédiatement.",
+  "justification": "« Express » restitue la mention de vitesse dans la désignation du ferry.",
+  "msgid": "Okay, everything's in order for you\\nto board a special ferry.\\pSEAGALLOP HI-SPEED 10 will be\\ndeparting immediately.",
+  "msgstr": "Très bien, tout est en ordre pour\\nembarquer sur un ferry spécial.\\pLe Ferry Flèche des Mers 10 va partir\\nimmédiatement.",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "oubli",
+  "probleme": "La mention « HI-SPEED » a disparu.",
+  "correction": "Très bien, tout est en ordre pour\\nembarquer sur un ferry spécial.\\pLa Flèche des Mers express 12\\nva partir immédiatement.",
+  "justification": "« Express » restitue la mention de vitesse dans la désignation du ferry.",
+  "msgid": "Okay, everything's in order for you\\nto board a special ferry.\\pSEAGALLOP HI-SPEED 12 will be\\ndeparting immediately.",
+  "msgstr": "Très bien, tout est en ordre pour\\nembarquer sur un ferry spécial.\\pLe Ferry Flèche des Mers 12 va partir\\nimmédiatement.",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "oubli",
+  "probleme": "La décharge électrique qui paralyse les ennemis a disparu.",
+  "correction": "Hey, kid! Qu’est-ce que tu fais ici?\\pTu ne tiendrais pas longtemps au\\ncombat!\\pPas avec ta puissance minable!\\pJe te le dis, kid, les Pokémon\\nélectriques m’ont sauvé à la guerre!\\pLeurs décharges paralysaient\\nmes ennemis!\\pEt c’est ce que je vais te faire!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "justification": "« Zapped » précise comment les Pokémon électriques paralysaient les ennemis.",
+  "msgid": "Hey, kid! What do you think you're\\ndoing here?\\pYou won't live long in combat!\\nNot with your puny power!\\pI tell you, kid, electric POKéMON\\nsaved me during the war!\\pThey zapped my enemies into\\nparalysis!\\pThe same as I'll do to you!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgstr": "Hey, kid! Qu’est-ce que tu fais ici?\\pTu ne tiendrais pas longtemps au\\ncombat!\\pPas avec ta puissance minable!\\pJe te le dis, kid, les Pokémon\\nélectriques m’ont sauvé à la guerre!\\pIls paralysaient mes ennemis!\\pEt c’est ce que je vais te faire!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "oubli",
+  "probleme": "Le jeu de mots « lightning-quick » a disparu.",
+  "correction": "Le Badge Foudre booste la Vitesse de\\ntes Pokémon!\\pTes Pokémon peuvent aussi utiliser\\nVol en un éclair, à tout moment, kid!\\pT’es spécial, kid! Prends ça!",
+  "justification": "« En un éclair » restitue le rappel du thème électrique du Badge Foudre.",
+  "msgid": "The THUNDERBADGE cranks up your\\nPOKéMON's SPEED!\\pIt also lets your POKéMON FLY\\nlightning-quick anytime, kid!\\pYou're special, kid!\\nTake this!",
+  "msgstr": "Le Badge Foudre booste la Vitesse de\\ntes Pokémon!\\pEt tes Pokémon peuvent utiliser Vol\\nquand tu veux, kid!\\pT’es spécial, kid! Prends ça!",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "oubli",
+  "probleme": "La première phrase omet que le Major Bob était un commandant strict.",
+  "correction": "Dans l’armée, j’avais le Major Bob\\npour commandant. Il était strict.\\pIl était très exigeant.",
+  "justification": "La source présente d’abord sa sévérité comme officier, puis insiste sur ses exigences envers ses subordonnés.",
+  "msgid": "When I was in the Army, LT. SURGE\\nwas my strict CO.\\pHe was a hard taskmaster.",
+  "msgstr": "Quand j’étais dans l’armée, le\\nMajor Bob était mon commandant.\\pIl était très exigeant.",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "oubli",
+  "probleme": "Le témoignage du Major Bob et la fonction des interrupteurs ont disparu.",
+  "correction": "OK, je vais parler!\\pLe Major Bob dit avoir caché\\nles interrupteurs de la porte\\ldans quelque chose.",
+  "justification": "Le Dresseur rapporte les propos du Major Bob au sujet des interrupteurs qui commandent la porte.",
+  "msgid": "Okay, I'll talk!\\pLT. SURGE said he hid door\\nswitches inside something.",
+  "msgstr": "OK, je vais parler!\\pLe Major Bob a caché les\\ninterrupteurs dans quelque chose.",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "contresens",
+  "probleme": "La seconde phrase parle des enfants en général au lieu de s’adresser au joueur.",
+  "correction": "C’est pas un endroit pour les mômes!\\nMême si tu es doué!",
+  "justification": "« You're good » vise directement le joueur.",
+  "msgid": "This is no place for kids!\\nNot even if you're good!",
+  "msgstr": "C’est pas un endroit pour les gamins!\\nMême s’ils sont doués!",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’accent aigu à « Éclair ».",
+  "correction": "Yo! Futur Maître!\\pLe Major Bob a un surnom.\\pOn l’appelle l’Éclair Américain!\\pC’est un expert des Pokémon\\nélectriques.\\pLes Pokémon Vol et Eau ne font pas le\\npoids face au type Electrik.\\pMéfie-toi aussi de la paralysie.\\pLe Major Bob est très prudent.\\pIl s’est barricadé, alors ce ne sera\\npas facile de l’atteindre.",
+  "justification": "La majuscule initiale conserve l’accent aigu d’« éclair ».",
+  "msgid": "Yo!\\nChamp in the making!\\pLT. SURGE has a nickname.\\pPeople refer to him as the\\nLightning American!\\pHe's an expert on electric\\nPOKéMON.\\pBIRD/WATER-type POKéMON match\\npoorly against the ELECTRIC type.\\pBeware of paralysis, too.\\pLT. SURGE is very cautious.\\pHe's locked himself in, so it won't\\nbe easy getting to him.",
+  "msgstr": "Yo! Futur Maître!\\pLe Major Bob a un surnom.\\pOn l’appelle l’Eclair Américain!\\pC’est un expert des Pokémon\\nélectriques.\\pLes Pokémon Vol et Eau ne font pas le\\npoids face au type Electrik.\\pMéfie-toi aussi de la paralysie.\\pLe Major Bob est très prudent.\\pIl s’est barricadé, alors ce ne sera\\npas facile de l’atteindre.",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte du libellé « Rocket » fixé par le lexique.",
+  "correction": "Cher Pippi,\\nJ’espère te voir bientôt.\\pIl paraît que Safrania a des\\nproblèmes avec les Rocket.\\pCarmin sur Mer a l’air épargnée.",
+  "justification": "Le lexique fourni donne « Rocket » pour « TEAM ROCKET ». « Épargnée » restitue la sécurité apparente de la ville dans ce contexte.",
+  "msgid": "Dear PIPPI,\\nI hope to see you soon.\\pI heard SAFFRON has problems with\\nTEAM ROCKET.\\pVERMILION appears to be safe.",
+  "msgstr": "Cher Pippi,\\nJ’espère te voir bientôt.\\pIl paraît que Safrania a des\\nproblèmes avec la Team Rocket.\\pCarmin sur Mer a l’air tranquille.",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte deux fois du libellé « Rocket » fixé par le lexique.",
+  "correction": "Certains méchants se servent des\\nPokémon pour commettre des crimes.\\pLes Rocket font du trafic de\\nPokémon rares, par exemple.\\pIls abandonnent aussi les Pokémon\\nqu’ils jugent mal aimés ou inutiles.\\pVoilà à quel point les Rocket\\nsont horribles.",
+  "justification": "Le lexique fourni donne « Rocket » pour « TEAM ROCKET ». Les pronoms s’accordent avec « les Rocket ».",
+  "msgid": "There are wicked people who will\\nuse POKéMON for criminal acts.\\pTEAM ROCKET traffics in rare\\nPOKéMON, for example.\\pThey also abandon POKéMON that\\nthey consider unpopular or useless.\\pThat's the sort of horrid people\\nthey are, TEAM ROCKET.",
+  "msgstr": "Certains méchants se servent des\\nPokémon pour commettre des crimes.\\pPar exemple, la Team Rocket fait du\\ntrafic de Pokémon rares.\\pElle abandonne aussi les Pokémon\\nqu’elle juge impopulaires ou inutiles.\\pVoilà le genre de gens horribles qu’ils\\nsont, à la Team Rocket.",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "oubli",
+  "probleme": "« Abilities » est omis et la préposition initiale a perdu son accent.",
+  "correction": "À niveau égal, des Pokémon peuvent\\navoir des stats et des capacités\\ltrès différentes.\\pUn Pokémon élevé par un Dresseur est\\nplus fort qu’un Pokémon sauvage.",
+  "justification": "Les différences portent sur les stats et les capacités. La préposition « à » garde son accent en majuscule.",
+  "msgid": "Even if they are the same level,\\nPOKéMON can have very different\\lstats and abilities.\\pA POKéMON raised by a TRAINER is\\nstronger than one in the wild.",
+  "msgstr": "A niveau égal, des Pokémon peuvent\\navoir des stats très différentes.\\pUn Pokémon élevé par un Dresseur est\\nplus fort qu’un Pokémon sauvage.",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "contresens",
+  "probleme": "Le joueur paraît devoir faire les bips, et « il » désigne le Dresseur.",
+  "correction": "Comment utiliser le Cherche VS?\\nC’est tout simple.\\pIl fait bip-bip-bip pour attirer\\nl’attention des Dresseurs alentour.\\pSi un Dresseur veut une revanche,\\nl’appareil te prévient aussitôt.\\pRecharge sa batterie et utilise-le\\nquand tu es sur une route.",
+  "justification": "Le Cherche VS émet les bips et indique au joueur qu’un Dresseur veut une revanche.",
+  "msgid": "How do you use the VS SEEKER?\\nThere's nothing to it.\\pUse it like beep-beep-beep, and\\nTRAINERS around you will notice.\\pIf any TRAINER wants a rematch,\\nit will let you know immediately.\\pCharge its battery and use it\\nwhile you're on a road.",
+  "msgstr": "Comment utiliser le Cherche VS? C’est\\ntout simple.\\pFais bip-bip-bip, et les Dresseurs\\nautour de toi le remarqueront.\\pSi un Dresseur veut une revanche, il\\nte le fera savoir aussitôt.\\pRecharge sa batterie et utilise-le\\nquand tu es sur une route.",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’accent aigu à « Échange-le ».",
+  "correction": "Apporte ce Bon Commande à Cycles à\\nGogo, à Azuria.\\pÉchange-le contre une Bicyclette\\ngratuite!\\pNe t’en fais pas, mon RAPASDEPIC\\nadoré m’emmène partout avec Vol.\\pJe n’ai donc pas besoin de\\nBicyclette.\\pJ’espère que tu aimes le vélo!",
+  "justification": "La majuscule initiale conserve l’accent aigu du verbe « échanger ».",
+  "msgid": "Take that BIKE VOUCHER to the\\nBIKE SHOP in CERULEAN CITY.\\pExchange that for a BICYCLE\\nfree of charge!\\pDon't worry, my favorite FEAROW\\nwill FLY me anywhere I need to go.\\pSo, I have no need for a BICYCLE.\\pI hope you like cycling!",
+  "msgstr": "Apporte ce Bon Commande à Cycles à\\nGogo, à Azuria.\\pEchange-le contre une Bicyclette\\ngratuite!\\pNe t’en fais pas, mon RAPASDEPIC\\nadoré m’emmène partout avec Vol.\\pAlors je n’ai pas besoin de Bicyclette.\\pJ’espère que tu aimes le vélo!",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "oubli",
+  "probleme": "La possibilité de faire appel aux Pokémon à tout moment a disparu.",
+  "correction": "Ces Poké Balls à ta ceinture! Tu as\\ndes Pokémon, hein?\\pC’est génial d’avoir ses Pokémon\\lavec soi et de pouvoir faire appel\\là eux partout, à tout moment.",
+  "justification": "La source distingue le fait d’emporter ses Pokémon et celui de pouvoir s’en servir n’importe où et n’importe quand.",
+  "msgid": "Those POKé BALLS at your waist!\\nYou have POKéMON, don't you?\\pIt's great that you can carry and\\nuse POKéMON anytime, anywhere.",
+  "msgstr": "Ces Poké Balls à ta ceinture! Tu as\\ndes Pokémon, hein?\\pC’est génial de pouvoir emmener ses\\nPokémon partout avec soi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "contresens",
+  "probleme": "« Métier » présente le rôle de Dresseur comme une profession.",
+  "correction": "Si quelque chose t’échappe,\\nregarde ça.\\pTu apprendras ce qu’il faut savoir\\npour être Dresseur de Pokémon.",
+  "justification": "La TV ABC enseigne les bases du rôle de Dresseur.",
+  "msgid": "If there's something you don't\\nunderstand, watch that.\\pIt will teach you about the basics\\nof being a POKéMON TRAINER.",
+  "msgstr": "Si tu ne comprends pas quelque chose,\\nregarde ça.\\pÇa t’apprendra les bases du métier de\\nDresseur de Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "oubli",
+  "probleme": "Le panneau omet le nom développé de l’abréviation « PP ».",
+  "correction": "Conseils aux Dresseurs!\\pLes capacités des Pokémon sont\\nlimitées par leurs Points de Pouvoir\\l(PP).\\pPour restaurer les PP, fais reposer\\nvos Pokémon dans un Centre Pokémon.",
+  "justification": "Le panneau explique ce que signifie « PP » avant d’indiquer comment les restaurer.",
+  "msgid": "TRAINER TIPS\\pThe battle moves of POKéMON are\\nlimited by their POWER POINTS, PP.\\pTo replenish PP, rest your tired\\nPOKéMON at a POKéMON CENTER.",
+  "msgstr": "Conseils aux Dresseurs!\\pLes capacités des Pokémon sont\\nlimitées par leurs PP.\\pPour restaurer les PP, faites reposer\\nvos Pokémon dans un Centre Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "contresens",
+  "probleme": "La traduction efface le rôle de Giovanni dans le rétablissement des Rocket.",
+  "correction": "Fwahahaha! Bienvenue dans ma\\ncachette!\\pJ’y resterai jusqu’à ce que j’aie\\nrendu aux Rocket leur gloire passée.\\pMais tu m’as encore trouvé. Soit.\\nCette fois, je ne me retiendrai pas!\\pTu vas de nouveau affronter\\nGiovanni, le plus grand Dresseur!{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}",
+  "justification": "« I can restore » attribue cette action à Giovanni. « Rocket » reprend le libellé du lexique fourni.",
+  "msgid": "Fwahahaha!\\nWelcome to my hideout!\\pIt shall be so until I can restore\\nTEAM ROCKET to its former glory.\\pBut, you have found me again.\\nSo be it.\\lThis time, I'm not holding back!\\pOnce more, you shall face\\nGIOVANNI, the greatest TRAINER!{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}",
+  "msgstr": "Fwahahaha! Bienvenue dans ma\\ncachette!\\pJ’y resterai tant que la Team Rocket\\nn’aura pas retrouvé sa gloire.\\pMais tu m’as encore trouvé. Soit.\\nCette fois, je ne me retiendrai pas!\\pUne fois de plus, tu vas affronter\\nGiovanni, le plus grand des Dresseurs!{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "oubli",
+  "probleme": "« Again » est omis et la préposition initiale a perdu son accent.",
+  "correction": "Après une telle défaite, je ne peux\\nplus faire face à mes troupes.\\lJ’ai trahi leur confiance.\\pÀ partir d’aujourd’hui, les Rocket\\nsont dissous à jamais!\\pQuant à moi, je vais de nouveau\\nconsacrer ma vie à l’entraînement.\\pRetrouvons-nous un jour! Adieu!",
+  "justification": "Giovanni reprend un entraînement auquel il s’était déjà consacré. La préposition « à » garde son accent en majuscule, et « Rocket » suit le lexique fourni.",
+  "msgid": "Having lost in this fashion, \\nI can't face my followers.\\lI have betrayed their trust.\\pAs of today, TEAM ROCKET is\\nfinished forever!\\pAs for myself, I shall dedicate\\nmy life to training again.\\pLet us meet again someday!\\nFarewell!",
+  "msgstr": "Après une telle défaite, je ne peux\\nplus faire face à mes troupes.\\lJ’ai trahi leur confiance.\\pA partir d’aujourd’hui, la Team Rocket\\nest dissoute à jamais!\\pQuant à moi, je vais consacrer ma vie à\\nl’entraînement.\\pRetrouvons-nous un jour! Adieu!",
+  "msgctxt": ""
+ }
+]

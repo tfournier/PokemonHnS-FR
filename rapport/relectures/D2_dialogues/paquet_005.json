@@ -1,0 +1,172 @@
+[
+ {
+  "id": 2,
+  "categorie": "orthographe",
+  "probleme": "La graphie « niveau(x) » laisse un accord en suspens dans le dialogue.",
+  "correction": "Ton {STR_VAR_1} a beaucoup grandi.\\nOui, vraiment beaucoup.\\pVoyons…\\nNiveaux gagnés: {STR_VAR_2}.\\pJe suis doué, non?",
+  "justification": "Le pluriel sert d’intitulé au décompte et fonctionne quelle que soit la valeur affichée.",
+  "msgid": "Your {STR_VAR_1} has grown a lot.\\nYes, quite a lot, I'd say.\\pLet me see…\\nBy level, it's grown by {STR_VAR_2}.\\pAren't I great?",
+  "msgstr": "Ton {STR_VAR_1} a beaucoup grandi.\\nOui, vraiment beaucoup.\\pVoyons… Il a gagné {STR_VAR_2}\\nniveau(x).\\pJe suis doué, non?",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "registre",
+  "probleme": "Le garde du poste d’accès tutoie le joueur.",
+  "correction": "Je suis de garde. Mais qu’est-ce que\\nj’ai soif!\\pOh, attendez, la route est fermée.",
+  "justification": "Le vouvoiement convient au personnel chargé de l’accès.",
+  "msgid": "I'm on guard duty.\\nGee, I'm thirsty, though!\\pOh, wait there, the road's closed.",
+  "msgstr": "Je suis de garde. Mais qu’est-ce que\\nj’ai soif!\\pOh, attends, la route est fermée.",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "registre",
+  "probleme": "Le garde tutoie le joueur lorsqu’il l’autorise à passer.",
+  "correction": "Hein? Je peux boire ça?\\nBen, merci!\\l… …\\lGlou, glou…\\l… …\\lGloups…\\lSi vous voulez aller à Safrania…\\l… …\\lVous pouvez passer.\\pJe vais partager ce Thé avec les\\nautres gardes!",
+  "justification": "Le même garde conserve le vouvoiement dans les deux répliques.",
+  "msgid": "Huh? I can have this drink?\\nGee, thanks!\\l… …\\lGlug, glug…\\l… …\\lGulp…\\lIf you want to go to SAFFRON\\lCITY…\\l… …\\lYou can go on through.\\pI'll share this TEA with the other\\nguards!",
+  "msgstr": "Hein? Je peux boire ça?\\nBen, merci!\\l… …\\lGlou, glou…\\l… …\\lGloups…\\lSi tu veux aller à Safrania…\\l… …\\lTu peux passer.\\pJe vais partager ce Thé avec les\\nautres gardes!",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "contresens",
+  "probleme": "« Je n’ai pas relevé ton défi » suggère que Jeff a refusé le défi.",
+  "correction": "C’est nul…\\nJe n’ai pas réussi à te battre…",
+  "justification": "Jeff a accepté le combat et regrette de l’avoir perdu.",
+  "msgid": "This stinks…\\nI couldn't beat your challenge…",
+  "msgstr": "C’est nul… Je n’ai pas relevé ton défi…",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "oubli",
+  "probleme": "La dernière réplique perd l’alternance de langues présente dans « Le strong silent type! ».",
+  "correction": "Hello! Je suis the serveur de ce\\nnavire!\\pJe serai ravi de vous servir tout ce\\nque vous voulez!\\p… … …\\nAh! The genre fort et silencieux!",
+  "justification": "L’article anglais reprend le même procédé que « the serveur ».",
+  "msgid": "Bonjour!\\nI am le waiter on this ship!\\pI will be happy to serve you\\nanything you please!\\p… … …\\nAh! Le strong silent type!",
+  "msgstr": "Hello! Je suis the serveur de ce\\nnavire!\\pJe serai ravi de vous servir tout ce\\nque vous voulez!\\p… … … Ah! Le genre fort et silencieux!",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte du lexique fourni.",
+  "correction": "Chut…! Je suis agent de la Police\\nInternationale.\\pJe suis sur la piste des Rocket.\\nIls préparent un mauvais coup!",
+  "justification": "Le lexique fourni donne « Rocket » pour « TEAM ROCKET ». Le pluriel désigne ici les membres que l’agent poursuit.",
+  "msgid": "Ssh…!\\nI'm a GLOBAL POLICE agent.\\pI'm on the trail of TEAM ROCKET.\\nThey're up to nothing good!",
+  "msgstr": "Chut…! Je suis agent de la Police\\nInternationale.\\pJe suis sur la piste de la Team Rocket.\\nIls préparent un mauvais coup!",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "orthographe",
+  "probleme": "La majuscule initiale de « Écoute » a perdu son accent.",
+  "correction": "Écoute, écoute! Soyons amis,\\nd’accord?\\pComme ça, on pourra échanger des\\nPokémon et tout ça.",
+  "justification": "Les majuscules françaises conservent leurs accents.",
+  "msgid": "Listen, listen!\\nLet me be your friend, okay?\\pThen we can trade POKéMON and\\ndo stuff.",
+  "msgstr": "Ecoute, écoute! Soyons amis,\\nd’accord?\\pComme ça, on pourra échanger des\\nPokémon et tout ça.",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "oubli",
+  "probleme": "« M’occuper de vous comme ça » laisse implicite l’excès d’attention exprimé par « fussing over you ».",
+  "correction": "Oh, pardon de trop m’occuper\\nde vous.\\pVous ressemblez à mon petit frère…",
+  "justification": "« Trop » précise ce dont la passagère s’excuse.",
+  "msgid": "Oh, I'm sorry for fussing over you.\\nYou look like my little brother…",
+  "msgstr": "Oh, pardon de m’occuper de vous comme\\nça.\\pVous ressemblez à mon petit frère…",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "oubli",
+  "probleme": "« M’occuper de vous comme ça » laisse implicite l’excès d’attention exprimé par « fussing over you ».",
+  "correction": "Oh, pardon de trop m’occuper\\nde vous. Vous me rappelez ma\\npetite sœur…",
+  "justification": "« Trop » rétablit la nuance de l’anglais, comme dans la variante destinée au joueur garçon.",
+  "msgid": "Oh, I'm sorry for fussing over you.\\nYou look like my little sister…",
+  "msgstr": "Oh, pardon de m’occuper de vous comme\\nça. Vous ressemblez à ma petite sœur…",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "orthographe",
+  "probleme": "La préposition « À » a perdu son accent en début de phrase.",
+  "correction": "Ce navire est un paquebot de luxe\\npour les Dresseurs du monde entier!\\pÀ chaque escale, nous organisons\\ndes fêtes avec des Dresseurs invités!",
+  "justification": "La préposition « à » conserve son accent à la majuscule.",
+  "msgid": "This ship, she is a luxury liner for\\nTRAINERS of the world!\\pAt every port, we hold parties with\\ninvited TRAINERS.",
+  "msgstr": "Ce navire est un paquebot de luxe\\npour les Dresseurs du monde entier!\\pA chaque escale, nous organisons des\\nfêtes avec des Dresseurs invités!",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "contresens",
+  "probleme": "« Minable » ajoute une insulte explicite à la formule de départ. « À plus » a aussi perdu son accent.",
+  "correction": "{RIVAL}: Il paraît qu’il y avait un\\nmaître de Coupe à bord.\\pMais c’était juste un vieux qui a le\\nmal de mer!\\pCoupe, c’est vraiment utile.\\nOuais, ça va servir.\\pTu devrais aller le voir, toi aussi.\\nÀ plus!",
+  "justification": "« Smell ya! » est une formule de départ moqueuse qui ne qualifie pas le joueur de minable.",
+  "msgid": "{RIVAL}: I heard there was a CUT\\nmaster on board.\\pBut he was just a seasick old man!\\pCUT itself is really useful.\\nYup, it'll be handy.\\pYou should go see him, too.\\nSmell ya!",
+  "msgstr": "{RIVAL}: Il paraît qu’il y avait un\\nmaître de Coupe à bord.\\pMais c’était juste un vieux qui a le\\nmal de mer!\\pCoupe, c’est vraiment utile. Ouais, ça\\nva servir.\\pTu devrais aller le voir, toi aussi. A\\nplus, minable!",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "contresens",
+  "probleme": "« Je te salue bien bas » peut se lire comme une formule de politesse ou de congé.",
+  "correction": "Je dois te tirer mon chapeau!",
+  "justification": "Après sa défaite, le Gentleman rend hommage à la performance du joueur.",
+  "msgid": "I must salute you!",
+  "msgstr": "Je te salue bien bas!",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "oubli",
+  "probleme": "« I hear » disparaît et la réplique devient une affirmation directe.",
+  "correction": "Le mal de mer est courant, dit-on.",
+  "justification": "« Dit-on » restitue le fait que le personnage rapporte ce qu’il a entendu.",
+  "msgid": "I hear many people get seasick.",
+  "msgstr": "Beaucoup de gens ont le mal de mer.",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "contresens",
+  "probleme": "Un « maître d’armes » est un professeur d’escrime, alors que « sword master » décrit ici la maîtrise de l’épée.",
+  "correction": "Notre Capitaine manie l’épée\\nen maître. Il excelle avec Coupe.\\pOn dit même qu’il apprend Coupe aux\\nPokémon!",
+  "justification": "L’anglais distingue son habileté à l’épée de ce qu’il enseigne aux Pokémon.",
+  "msgid": "Our CAPTAIN is a sword master.\\nHe's awesome at using CUT.\\pThey say he even teaches CUT\\nto POKéMON!",
+  "msgstr": "Notre Capitaine est un maître\\nd’armes. Il est génial avec Coupe.\\pOn dit même qu’il apprend Coupe aux\\nPokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "oubli",
+  "probleme": "« Nous, les marins » perd la nuance de surprise portée par « even ».",
+  "correction": "Même les marins ont des Pokémon!",
+  "justification": "« Même » restitue l’insistance sur le fait que les marins aussi en possèdent.",
+  "msgid": "Even us sailors have POKéMON, too!",
+  "msgstr": "Nous, les marins, on a des Pokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "oubli",
+  "probleme": "« Ma technique Coupe » perd la fierté exprimée par « my prized CUT technique ».",
+  "correction": "Capitaine: Ouf! Merci! Je me sens\\nbeaucoup mieux.\\pTu veux voir ma botte secrète,\\nCoupe?\\pJe te montrerais bien ma superbe\\ntechnique Coupe sans ce malaise…\\pJ’ai une idée! Prends ceci! Cette\\nCapsule Secrète!\\pApprends Coupe à ton Pokémon,\\net tu le verras couper à volonté!",
+  "justification": "« Superbe » rend l’appréciation du Capitaine pour sa propre technique.",
+  "msgid": "CAPTAIN: Whew! Thank you!\\nI'm feeling much better now.\\pYou want to see my hidden CUT\\ntechnique?\\pI could show you my prized CUT\\ntechnique if I weren't so ill…\\pI know! You can have this!\\nThis HIDDEN MACHINE!\\pTeach CUT to your POKéMON, and\\nyou can see it CUT anytime!",
+  "msgstr": "Capitaine: Ouf! Merci! Je me sens\\nbeaucoup mieux.\\pTu veux voir ma botte secrète, Coupe?\\pJe te montrerais bien ma technique\\nCoupe si je n’étais pas malade…\\pJ’ai une idée! Prends ceci! Cette\\nCapsule Secrète!\\pApprends Coupe à ton Pokémon, et tu\\npourras le voir couper quand tu veux!",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "contresens",
+  "probleme": "« Adieu » suggère une séparation définitive alors que le Capitaine annonce son retour.",
+  "correction": "Capitaine: … Ouf!\\pMaintenant que je vais mieux,\\nje crois que c’est l’heure.\\pL’Océane va bientôt lever l’ancre!\\pAu revoir, jusqu’à notre retour à\\nCarmin sur Mer!",
+  "justification": "« Au revoir » convient à une séparation qui dure jusqu’au retour du navire.",
+  "msgid": "CAPTAIN: …Whew!\\pNow that I'm not sick anymore,\\nI guess it's time.\\pThe S.S. ANNE will set sail soon!\\pFarewell, until our return to\\nVERMILION CITY!",
+  "msgstr": "Capitaine: … Ouf!\\pMaintenant que je ne suis plus malade,\\nje crois que c’est l’heure.\\pL’Océane va bientôt lever l’ancre!\\pAdieu, jusqu’à notre retour à Carmin\\nsur Mer!",
+  "msgctxt": ""
+ }
+]
