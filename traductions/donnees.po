@@ -3552,13 +3552,15 @@ msgstr "Etang"
 msgid "Mountain"
 msgstr "Montagne"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Caverne
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : GROTTE
 #: src/data/battle_environment.h:194
 #: src/data/pokemon/species_info/gen_4_families.h:4377
 #: src/data/pokemon/species_info/gen_5_families.h:11310
 msgid "Cave"
-msgstr "GROTTE"
+msgstr "Caverne"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -3754,13 +3756,16 @@ msgstr "Marais"
 msgid "Snow"
 msgstr "Snow"
 
-#. source : SoulSilver FR officiel
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : VOLCAN
 #: src/data/battle_environment.h:682
 #: src/data/pokemon/species_info/gen_2_families.h:388
 #: src/data/pokemon/species_info/gen_2_families.h:465
 #: src/data/pokemon/species_info/gen_2_families.h:8205
 msgid "Volcano"
-msgstr "VOLCAN"
+msgstr "Volcan"
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_environment.h:692
@@ -47342,11 +47347,14 @@ msgstr ""
 "préviennent\\nd’un danger en entonnant une mélopée\\ntrès aiguë qu’ils se "
 "renvoient en écho."
 
-#. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
-#. d’un autre texte)
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (relu et corrigé à la main (le patch FR actuel donnait un morceau) :
+#. Bec
 #: src/data/pokemon/species_info/gen_1_families.h:2596
 msgid "Beak"
-msgstr "Bec"
+msgstr "Bec-Oiseau"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -48759,14 +48767,16 @@ msgstr ""
 msgid "MACHOP"
 msgstr "MACHOC"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Colosse
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Surpuissance
 #: src/data/pokemon/species_info/gen_1_families.h:9323
 #: src/data/pokemon/species_info/gen_1_families.h:9400
 #: src/data/pokemon/species_info/gen_1_families.h:9482
 #: src/data/pokemon/species_info/gen_1_families.h:9561
 msgid "Superpower"
-msgstr "Surpuissance"
+msgstr "Colosse"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:9326
@@ -48942,13 +48952,16 @@ msgstr ""
 msgid "GEODUDE"
 msgstr "RACAILLOU"
 
-#. source : SoulSilver FR officiel
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : ROCHE
 #: src/data/pokemon/species_info/gen_1_families.h:10073
 #: src/data/pokemon/species_info/gen_1_families.h:10145
 #: src/data/pokemon/species_info/gen_1_families.h:10306
 #: src/data/pokemon/species_info/gen_1_families.h:10388
 msgid "Rock"
-msgstr "ROCHE"
+msgstr "Roche"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -49302,12 +49315,14 @@ msgstr ""
 msgid "MAGNEMITE"
 msgstr "MAGNETI"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Magnétique
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Aimant
 #: src/data/pokemon/species_info/gen_1_families.h:11381
 #: src/data/pokemon/species_info/gen_1_families.h:11453
 msgid "Magnet"
-msgstr "Aimant"
+msgstr "Magnétique"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:11384
@@ -49525,14 +49540,16 @@ msgstr ""
 msgid "GRIMER"
 msgstr "TADMORV"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Dégueu
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Détritus
 #: src/data/pokemon/species_info/gen_1_families.h:12181
 #: src/data/pokemon/species_info/gen_1_families.h:12255
 #: src/data/pokemon/species_info/gen_1_families.h:12336
 #: src/data/pokemon/species_info/gen_1_families.h:12419
 msgid "Sludge"
-msgstr "Détritus"
+msgstr "Dégueu"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -50068,12 +50085,14 @@ msgstr ""
 msgid "CUBONE"
 msgstr "OSSELAIT"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Solitaire
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Solo
 #: data/scripts/debug.inc:724
 #: src/data/pokemon/species_info/gen_1_families.h:14181
 msgid "Lonely"
-msgstr "Solo"
+msgstr "Solitaire"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:14184
@@ -50251,13 +50270,15 @@ msgstr ""
 msgid "KOFFING"
 msgstr "SMOGO"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Gaz Mortel
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Gaz Toxik
 #: src/data/pokemon/species_info/gen_1_families.h:14948
 #: src/data/pokemon/species_info/gen_1_families.h:15030
 #: src/data/pokemon/species_info/gen_1_families.h:15112
 msgid "Poison Gas"
-msgstr "Gaz Toxik"
+msgstr "Gaz Mortel"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -50320,10 +50341,13 @@ msgstr ""
 msgid "RHYHORN"
 msgstr "RHINOCORNE"
 
-#. source : SoulSilver FR officiel
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Picots
 #: src/battle_debug.c:401 src/data/pokemon/species_info/gen_1_families.h:15186
 msgid "Spikes"
-msgstr "Picots"
+msgstr "Piquant"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:15189
@@ -50405,12 +50429,14 @@ msgstr ""
 "sont\\ntellement bons que les gens les mangent\\nmême quand ils n’ont pas "
 "faim."
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Bonheur
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : JOIE
 #: src/data/pokemon/species_info/gen_1_families.h:15599
 #: src/data/pokemon/species_info/gen_2_families.h:1726
 msgid "Happiness"
-msgstr "JOIE"
+msgstr "Bonheur"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -50473,12 +50499,14 @@ msgstr ""
 "Il allonge ses bras de lianes\\npour entraver ses proies. Même\\nsi on lui "
 "dévore un bras,\\ncelui-ci repousse vite."
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Maternel
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : PARENTS
 #: src/data/pokemon/species_info/gen_1_families.h:15830
 #: src/data/pokemon/species_info/gen_1_families.h:15906
 msgid "Parent"
-msgstr "PARENTS"
+msgstr "Maternel"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -50510,8 +50538,10 @@ msgstr ""
 "Quand la mère voit le dos de son petit\\nméga-évolué, elle pense au jour où "
 "il la\\nquittera inévitablement."
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : on Glace
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : DRAGON
 #: src/data/pokemon/species_info/gen_1_families.h:15984
 #: src/data/pokemon/species_info/gen_1_families.h:16061
 #: src/data/pokemon/species_info/gen_1_families.h:16148
@@ -50519,7 +50549,7 @@ msgstr ""
 #: src/data/pokemon/species_info/gen_1_families.h:21073
 #: src/data/pokemon/species_info/gen_1_families.h:21149
 msgid "Dragon"
-msgstr "DRAGON"
+msgstr "Dragon"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:15987
@@ -50608,12 +50638,14 @@ msgstr ""
 "étoiles\\nscintillantes. S’il se fait couper un de ses\\nmembres, il est "
 "capable de le régénérer."
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Mystérieux
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Secret
 #: src/data/pokemon/species_info/gen_1_families.h:16469
 #: src/data/pokemon/species_info/gen_1_families.h:16547
 msgid "Mysterious"
-msgstr "Secret"
+msgstr "Mystérieux"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -50665,11 +50697,13 @@ msgstr ""
 "Il imite les gestes de son\\nadversaire pour le troubler.\\nUne fois imité, "
 "celui-ci ne\\npeut plus le quitter des yeux."
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Bloqueur
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Bouclier
 #: src/data/pokemon/species_info/gen_1_families.h:16694
 msgid "Barrier"
-msgstr "Bouclier"
+msgstr "Bloqueur"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -50725,11 +50759,13 @@ msgstr ""
 msgid "MR. RIME"
 msgstr "M. GLAQUETTE"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Comédien
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Théâtre
 #: src/data/pokemon/species_info/gen_1_families.h:16849
 msgid "Comedian"
-msgstr "Théâtre"
+msgstr "Comédien"
 
 #. source : traduction nouvelle
 #. lot : C2b_donnees
@@ -50744,11 +50780,13 @@ msgstr ""
 "Virtuose des claquettes, il agite\\nsa canne de glace au rythme de\\nses "
 "mouvements gracieux."
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Mante
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Mantis
 #: src/data/pokemon/species_info/gen_1_families.h:16918
 msgid "Mantis"
-msgstr "Mantis"
+msgstr "Mante"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:16921
@@ -50857,13 +50895,15 @@ msgstr ""
 "entraînants\\nque ceux qui le voient remuent les\\nhanches sans s’en rendre "
 "compte."
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Électrique
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : ELECTRIK
 #: src/data/pokemon/species_info/gen_1_families.h:17400
 #: src/data/pokemon/species_info/gen_1_families.h:17474
 #: src/data/pokemon/species_info/gen_1_families.h:20654
 msgid "Electric"
-msgstr "ELECTRIK"
+msgstr "Electrique"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -50905,12 +50945,14 @@ msgstr ""
 msgid "ELECTIVIRE"
 msgstr "ELEKABLE"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Foudrélec
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Tonnerre
 #: src/data/pokemon/species_info/gen_1_families.h:17555
 #: src/data/pokemon/species_info/gen_5_families.h:2269
 msgid "Thunderbolt"
-msgstr "Tonnerre"
+msgstr "Foudrélec"
 
 #. source : traduction nouvelle
 #. lot : C2b_donnees
@@ -51214,13 +51256,15 @@ msgstr ""
 "Mais quand il essaye de se\\ltransformer de mémoire, il lui arrive\\lde se "
 "tromper sur certains détails."
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Évolutif
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Evolution
 #: src/data/pokemon/species_info/gen_1_families.h:18789
 #: src/data/pokemon/species_info/gen_1_families.h:18897
 #: src/data/pokemon/species_info/gen_1_families.h:18957
 msgid "Evolution"
-msgstr "Evolution"
+msgstr "Evolutif"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -51313,11 +51357,13 @@ msgstr ""
 "On\\lraconte que ce Pokémon a développé\\ldes talents divinatoires "
 "pour\\lprotéger son Dresseur."
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Lune
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Rayon Lune
 #: src/data/pokemon/species_info/gen_1_families.h:19306
 msgid "Moonlight"
-msgstr "Rayon Lune"
+msgstr "Lune"
 
 #. source : traduction nouvelle
 #. lot : C2b_donnees
@@ -51541,8 +51587,10 @@ msgstr ""
 "branchies et\\nde ses pattes montrent qu’il passait\\nde la vie aquatique à "
 "la vie sur terre."
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Fossile
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Fossil
 #: src/data/pokemon/species_info/gen_1_families.h:20122
 #: src/data/pokemon/species_info/gen_1_families.h:20199
 #: src/data/pokemon/species_info/gen_8_families.h:6216
@@ -51550,7 +51598,7 @@ msgstr ""
 #: src/data/pokemon/species_info/gen_8_families.h:6345
 #: src/data/pokemon/species_info/gen_8_families.h:6410
 msgid "Fossil"
-msgstr "Fossil"
+msgstr "Fossile"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -51605,12 +51653,14 @@ msgstr ""
 "Dès qu’il trouve quelque chose\\nqui semble comestible, il l’avale\\ntout "
 "rond. C’est pour cela qu’il\\ngrossit de jour en jour."
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Pionceur
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Je dormais
 #: src/data/pokemon/species_info/gen_1_families.h:20347
 #: src/data/pokemon/species_info/gen_1_families.h:20420
 msgid "Sleeping"
-msgstr "Je dormais"
+msgstr "Pionceur"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -52360,11 +52410,13 @@ msgstr ""
 "cavaler\\nsur les surfaces verticales et au plafond.\\nIl piège ses ennemis "
 "dans sa toile de soie."
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Poisson
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Angler
 #: src/data/pokemon/species_info/gen_2_families.h:1506
 msgid "Angler"
-msgstr "Angler"
+msgstr "Poisson"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_2_families.h:1509
@@ -52631,10 +52683,13 @@ msgstr ""
 msgid "BONSLY"
 msgstr "MANZAI"
 
-#. source : SoulSilver FR officiel
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Bonsai
 #: src/data/pokemon/species_info/gen_2_families.h:2576
 msgid "Bonsai"
-msgstr "Bonsai"
+msgstr "Bonsaï"
 
 #. source : traduction nouvelle
 #. lot : C2b_donnees
@@ -53000,10 +53055,13 @@ msgstr ""
 msgid "HONCHKROW"
 msgstr "CORBOSS"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (traduction manuelle (style SoulSilver)) : Grand Patron
 #: src/data/pokemon/species_info/gen_2_families.h:3876
 msgid "Big Boss"
-msgstr "Grand Patron"
+msgstr "Big Boss"
 
 #. source : traduction nouvelle
 #. lot : C2b_donnees
@@ -53017,11 +53075,13 @@ msgstr ""
 "Actif la nuit, il se déplace\\nsuivi d’une nuée de CORNEBRE.\\nOn dit qu’il "
 "ne pardonne jamais\\nles erreurs de ses sous-fifres."
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Strident
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Grincement
 #: src/data/pokemon/species_info/gen_2_families.h:3948
 msgid "Screech"
-msgstr "Grincement"
+msgstr "Strident"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_2_families.h:3951
@@ -53616,12 +53676,14 @@ msgstr ""
 msgid "SLUGMA"
 msgstr "LIMAGMA"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Lave
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Lava
 #: src/data/pokemon/species_info/gen_2_families.h:6290
 #: src/data/pokemon/species_info/gen_2_families.h:6368
 msgid "Lava"
-msgstr "Lava"
+msgstr "Lave"
 
 #. source : traduction nouvelle
 #. lot : C2b_donnees
@@ -54315,11 +54377,13 @@ msgstr ""
 msgid "HO-OH"
 msgstr "HO-OH"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Arcenciel
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Rainbow
 #: src/battle_debug.c:418 src/data/pokemon/species_info/gen_2_families.h:8743
 msgid "Rainbow"
-msgstr "Rainbow"
+msgstr "Arcenciel"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_2_families.h:8746
@@ -54490,12 +54554,14 @@ msgstr ""
 msgid "BLAZIKEN"
 msgstr "BRASEGALI"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Ardent
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Brasier
 #: src/data/pokemon/species_info/gen_3_families.h:494
 #: src/data/pokemon/species_info/gen_3_families.h:585
 msgid "Blaze"
-msgstr "Brasier"
+msgstr "Ardent"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:497
@@ -54989,10 +55055,13 @@ msgstr ""
 msgid "SWELLOW"
 msgstr "HELEDELLE"
 
-#. source : SoulSilver FR officiel
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Avale
 #: src/data/pokemon/species_info/gen_3_families.h:2499
 msgid "Swallow"
-msgstr "Avale"
+msgstr "Hirondelle"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -55467,11 +55536,13 @@ msgstr ""
 msgid "MAKUHITA"
 msgstr "MAKUHITA"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Tenace
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Cran
 #: src/data/pokemon/species_info/gen_3_families.h:4182
 msgid "Guts"
-msgstr "Cran"
+msgstr "Tenace"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -55499,11 +55570,13 @@ msgstr ""
 msgid "HARIYAMA"
 msgstr "HARIYAMA"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Cogneur
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Cogne
 #: src/data/pokemon/species_info/gen_3_families.h:4258
 msgid "Arm Thrust"
-msgstr "Cogne"
+msgstr "Cogneur"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -55786,13 +55859,15 @@ msgstr ""
 msgid "MEDITITE"
 msgstr "MEDITIKKA"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Méditation
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Yoga
 #: src/data/pokemon/species_info/gen_3_families.h:5248
 #: src/data/pokemon/species_info/gen_3_families.h:5330
 #: src/data/pokemon/species_info/gen_3_families.h:5421
 msgid "Meditate"
-msgstr "Yoga"
+msgstr "Méditation"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:5251
@@ -55860,12 +55935,14 @@ msgstr ""
 msgid "MANECTRIC"
 msgstr "ELECSPRINT"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Décharge
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Coup d’Jus
 #: src/data/pokemon/species_info/gen_3_families.h:5564
 #: src/data/pokemon/species_info/gen_3_families.h:5640
 msgid "Discharge"
-msgstr "Coup d’Jus"
+msgstr "Décharge"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -57117,12 +57194,14 @@ msgstr ""
 msgid "BANETTE"
 msgstr "BRANETTE"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Marionnette
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Marionette
 #: src/data/pokemon/species_info/gen_3_families.h:9750
 #: src/data/pokemon/species_info/gen_3_families.h:9831
 msgid "Marionette"
-msgstr "Marionette"
+msgstr "Marionnette"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -57258,10 +57337,13 @@ msgstr ""
 msgid "CHINGLING"
 msgstr "KORILLON"
 
-#. source : relu et corrigé à la main
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (relu et corrigé à la main) : Cloche
 #: src/data/pokemon/species_info/gen_3_families.h:10230
 msgid "Bell"
-msgstr "Cloche"
+msgstr "Clochette"
 
 #. source : traduction nouvelle
 #. lot : C2b_donnees
@@ -57403,11 +57485,14 @@ msgstr ""
 msgid "GLALIE"
 msgstr "ONIGLALI"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (traduction manuelle (style SoulSilver)) : Visage
 #: src/data/pokemon/species_info/gen_3_families.h:10764
 #: src/data/pokemon/species_info/gen_3_families.h:10841
 msgid "Face"
-msgstr "Visage"
+msgstr "Face"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -57750,12 +57835,14 @@ msgstr ""
 msgid "BELDUM"
 msgstr "TERHAL"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Boulefer
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Balle Fer
 #: src/battle_debug.c:2235
 #: src/data/pokemon/species_info/gen_3_families.h:11962
 msgid "Iron Ball"
-msgstr "Balle Fer"
+msgstr "Boulefer"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -58102,11 +58189,13 @@ msgstr ""
 msgid "JIRACHI"
 msgstr "JIRACHI"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Souhait
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Voeu
 #: src/data/pokemon/species_info/gen_3_families.h:13306
 msgid "Wish"
-msgstr "Voeu"
+msgstr "Souhait"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -59571,11 +59660,13 @@ msgstr ""
 msgid "CARNIVINE"
 msgstr "VORTENTE"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Chopinsecte
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Scout
 #: src/data/pokemon/species_info/gen_4_families.h:5474
 msgid "Bug Catcher"
-msgstr "Scout"
+msgstr "Chopinsecte"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_4_families.h:5477
@@ -59614,10 +59705,13 @@ msgstr ""
 msgid "LUMINEON"
 msgstr "LUMINEON"
 
-#. source : SoulSilver FR officiel
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Neon
 #: src/data/pokemon/species_info/gen_4_families.h:5643
 msgid "Neon"
-msgstr "Neon"
+msgstr "Néon"
 
 #. source : traduction nouvelle
 #. lot : C2b_donnees
@@ -60016,11 +60110,13 @@ msgstr ""
 msgid "CRESSELIA"
 msgstr "CRESSELIA"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Lunaire
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Lunar
 #: src/data/pokemon/species_info/gen_4_families.h:7412
 msgid "Lunar"
-msgstr "Lunar"
+msgstr "Lunaire"
 
 #. source : SoulSilver FR officiel (adapté)
 #. lot : B_soulsilver
@@ -60172,10 +60268,13 @@ msgstr "Alpha"
 msgid "VICTINI"
 msgstr "VICTINI"
 
-#. source : SoulSilver FR officiel
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : VICTOIRE
 #: src/data/pokemon/species_info/gen_5_families.h:29
 msgid "Victory"
-msgstr "VICTOIRE"
+msgstr "Victoire"
 
 #. source : traduction nouvelle
 #. lot : C2b_donnees
@@ -60593,12 +60692,14 @@ msgstr ""
 msgid "SIMISEAR"
 msgstr "FLAMOUTAN"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Braise
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Flammèche
 #: src/data/pokemon/species_info/gen_5_families.h:1610
 #: src/data/pokemon/species_info/gen_6_families.h:1186
 msgid "Ember"
-msgstr "Flammèche"
+msgstr "Braise"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:1613
@@ -60615,10 +60716,13 @@ msgstr ""
 msgid "PANPOUR"
 msgstr "FLOTAJOU"
 
-#. source : relu et corrigé à la main
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (relu et corrigé à la main) : Spray
 #: src/data/pokemon/species_info/gen_5_families.h:1681
 msgid "Spray"
-msgstr "Spray"
+msgstr "Jet d’Eau"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:1684
@@ -60654,11 +60758,13 @@ msgstr ""
 msgid "MUNNA"
 msgstr "MUNNA"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Mangerêve
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Dévorêve
 #: src/data/pokemon/species_info/gen_5_families.h:1818
 msgid "Dream Eater"
-msgstr "Dévorêve"
+msgstr "Mangerêve"
 
 #. source : patch FR actuel (vérifié)
 #. lot : C2b_donnees
@@ -60757,11 +60863,13 @@ msgstr ""
 msgid "BLITZLE"
 msgstr "ZEBIBRON"
 
-#. source : patch FR actuel (correspondance douteuse, à vérifier)
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (patch FR actuel (correspondance douteuse, à vérifier)) : Electrifié
 #: src/battle_debug.c:371 src/data/pokemon/species_info/gen_5_families.h:2197
 msgid "Electrified"
-msgstr "Electrifié"
+msgstr "Etincélec"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:2200
@@ -61707,12 +61815,14 @@ msgstr ""
 msgid "YAMASK"
 msgstr "TUTAFEH"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : aire
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : ESPRIT
 #: src/data/pokemon/species_info/gen_5_families.h:6048
 #: src/data/pokemon/species_info/gen_5_families.h:6199
 msgid "Spirit"
-msgstr "ESPRIT"
+msgstr "Ame"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:6051
@@ -62093,11 +62203,13 @@ msgstr ""
 msgid "SOLOSIS"
 msgstr "NUCLEOS"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Cellule
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Cell
 #: src/data/pokemon/species_info/gen_5_families.h:7506
 msgid "Cell"
-msgstr "Cell"
+msgstr "Cellule"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:7509
@@ -62803,10 +62915,13 @@ msgstr ""
 msgid "AXEW"
 msgstr "COUPENOTTE"
 
-#. source : relu et corrigé à la main
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (relu et corrigé à la main) : Défense
 #: src/data/pokemon/species_info/gen_5_families.h:10450
 msgid "Tusk"
-msgstr "Défense"
+msgstr "Crocs"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:10453
@@ -63441,11 +63556,13 @@ msgstr ""
 msgid "VIRIZION"
 msgstr "VIRIDIUM"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Plaine Verte
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Grassland
 #: src/data/pokemon/species_info/gen_5_families.h:12894
 msgid "Grassland"
-msgstr "Grassland"
+msgstr "Plaine Verte"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:12897
@@ -64588,12 +64705,14 @@ msgstr ""
 msgid "HONEDGE"
 msgstr "MONORPALE"
 
-#. source : patch FR actuel (correspondance douteuse, à vérifier)
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (patch FR actuel (correspondance douteuse, à vérifier)) : Lame
 #: src/data/pokemon/species_info/gen_6_families.h:3112
 #: src/data/pokemon/species_info/gen_6_families.h:3182
 msgid "Sword"
-msgstr "Lame"
+msgstr "Glaive"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_6_families.h:3115
@@ -64882,11 +65001,13 @@ msgstr ""
 msgid "CLAUNCHER"
 msgstr "FLINGOUSTE"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Lance à Eau
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Pistolet à O
 #: src/data/pokemon/species_info/gen_6_families.h:4299
 msgid "Water Gun"
-msgstr "Pistolet à O"
+msgstr "Lance à Eau"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_6_families.h:4302
@@ -66431,11 +66552,13 @@ msgstr ""
 msgid "ORANGURU"
 msgstr "GOUROUTAN"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Grand Sage
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Sage
 #: src/data/pokemon/species_info/gen_7_families.h:3938
 msgid "Sage"
-msgstr "Sage"
+msgstr "Grand Sage"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_7_families.h:3941
@@ -68190,11 +68313,13 @@ msgstr ""
 msgid "TOXEL"
 msgstr "TOXIZAP"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Poupon
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : BEBE
 #: src/data/pokemon/species_info/gen_8_families.h:3393
 msgid "Baby"
-msgstr "BEBE"
+msgstr "Poupon"
 
 #. source : traduction nouvelle
 #. lot : C2b_donnees
@@ -68646,11 +68771,13 @@ msgstr ""
 msgid "STONJOURNER"
 msgstr "DOLMAN"
 
-#. source : SoulSilver FR officiel
-#. patch FR actuel : Mégalithe
+#. source : catégorie Pokédex officielle FR (Poképédia/PokeAPI)
+#. lot : K_categories
+#. preuve : PokeAPI pokemon-species genera fr
+#. ancien (SoulSilver FR officiel) : Gros rocher
 #: src/data/pokemon/species_info/gen_8_families.h:5571
 msgid "Big Rock"
-msgstr "Gros rocher"
+msgstr "Mégalithe"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:5574
