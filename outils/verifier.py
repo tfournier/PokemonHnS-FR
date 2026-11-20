@@ -98,6 +98,7 @@ class Verif:
 
     def est_code(self, c):
         """vrai code de contrôle (FC…, FD…, boutons F8/F9) et non glyphe ({SUPER_E}, {PKMN}, flèches…)."""
+        if c in ('{KUN}',): return False   # suffixe japonais, vide hors version japonaise : les officiels FR l'omettent
         b = self.g.encode(c)
         return b is None or not b or b[0] >= 0xF7
 
@@ -135,7 +136,7 @@ class Verif:
             if msgid.endswith(fin) and not msgstr.endswith(fin):
                 pb.append(('ESPACE', 'fin %r non conservée' % fin))
         # typographie : pas d'espace avant ! ? : ; (sauf si l'anglais en a, ex. « 1 : 2 » dans un menu)
-        if re.search(r'[^\s\\] [!?:;]', CODE.sub('X', msgstr)) and not re.search(r' [!?:;]', CODE.sub('X', msgid)):
+        if re.search(r'[^\s\\?!] [!?:;](?![?!])', CODE.sub('X', msgstr)) and not re.search(r' [!?:;]', CODE.sub('X', msgid)):
             pb.append(('TYPO', 'espace avant ! ? : ;'))
         # kana / caractères
         if KANA.search(msgstr):
