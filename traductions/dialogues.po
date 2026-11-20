@@ -3484,9 +3484,11 @@ msgstr "Nous attendrons votre prochain défi\\navec impatience."
 msgid "In the ARENA BATTLE TENT,\\n"
 msgstr "À la TENTE DE COMBAT ARÈNE,\\n"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/battle_tent.inc:25
 msgid "In the FALLARBOR BATTLE TENT,\\n"
-msgstr ""
+msgstr "À la TENTE DE COMBAT D’AUTEQUIA,\\n"
 
 #. source : patch FR actuel
 #: data/text/battle_tent.inc:27
@@ -3659,9 +3661,11 @@ msgstr ""
 msgid "Do you wish to take the PALACE\\n"
 msgstr "Voulez-vous relever le défi de la\\n"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/battle_tent.inc:147
 msgid "Do you wish to take the VERDANTURF\\n"
-msgstr ""
+msgstr "À VERGAZON, voulez-vous relever le\\n"
 
 #. source : relu et corrigé à la main
 #: data/text/battle_tent.inc:149
@@ -3673,9 +3677,11 @@ msgstr "défi de la TENTE DE COMBAT?"
 msgid "In the PALACE BATTLE TENT,\\n"
 msgstr "À la TENTE DE COMBAT PALACE,\\n"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/battle_tent.inc:155
 msgid "In the VERDANTURF BATTLE TENT,\\n"
-msgstr ""
+msgstr "À la TENTE DE COMBAT DE VERGAZON,\\n"
 
 #. source : patch FR actuel
 #: data/text/battle_tent.inc:157
@@ -3818,9 +3824,11 @@ msgstr "Voulez-vous relever le défi du\\nCombat Échange?"
 msgid "Here at the FACTORY BATTLE TENT,\\n"
 msgstr "Ici, à la TENTE DE COMBAT USINE,\\n"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/battle_tent.inc:263
 msgid "Here at the SLATEPORT BATTLE TENT,\\n"
-msgstr ""
+msgstr "À la TENTE DE COMBAT DE POIVRESSEL,\\n"
 
 #. source : patch FR actuel
 #: data/text/battle_tent.inc:265
@@ -5376,19 +5384,35 @@ msgstr "Les étagères regorgent de toutes\\nsortes de produits Pokémon."
 msgid "A blueprint of some sort?\\nIt's too complicated!"
 msgstr "Voilà un curieux plan!\\nÇa a l’air compliqué."
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS 439:0 « Je suis l’Hôte de la Pension.\rNous bichonnons les
+#. Pokémon\nchéris des Dresseurs.\rVa voir ma femme si tu veux\nnous confier
+#. tes Pokémon. »
 #: data/text/day_care_frlg.inc:4
 msgid ""
 "I'm the DAY-CARE MAN.\\pI help take care of the precious\\nPOKéMON of "
 "TRAINERS.\\pIf you'd like me to raise your\\nPOKéMON, have a word with my "
 "wife."
 msgstr ""
+"Je suis l’Hôte de la Pension.\\pJe bichonne les Pokémon chéris\\ndes "
+"Dresseurs.\\pVa voir ma femme si tu veux\\nme confier tes Pokémon."
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « Ah, c’est toi!\pNous nous occupions de ton
+#. POKéMON\net nous avons eu une énorme surprise!\pTon POKéMON a eu un
+#. OEUF!\pOn ne sait pas comment il est arrivé\nlà, mais ton POKéMON
+#. l’avait.\pTu le veux? »
 #: data/text/day_care_frlg.inc:11
 msgid ""
 "Ah, it's you!\\pWe were raising your POKéMON, and\\nmy goodness, were we "
 "surprised!\\pYour POKéMON had an EGG!\\pWe don't know how it got "
 "there,\\nbut your POKéMON had it.\\pYou do want it, yes?"
 msgstr ""
+"Ah, c’est toi!\\pNous nous occupions de ton Pokémon\\net nous avons eu une "
+"énorme surprise!\\pTon Pokémon a eu un Œuf!\\pOn ne sait pas comment il est "
+"arrivé\\nlà, mais ton Pokémon l’avait.\\pTu le veux?"
 
 #. source : Émeraude FR officiel
 #: data/maps/Route34_DayCare_hns/scripts.inc:489 data/scripts/day_care.inc:290
@@ -5459,11 +5483,15 @@ msgstr ""
 "Très bien, nous allons nous occuper de\\nton {STR_VAR_1} pendant quelque "
 "temps.\\pReviens le chercher plus tard."
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « Nous pouvons élever deux POKéMON.\nTu veux qu’on
+#. en élève un autre? »
 #: data/text/day_care_frlg.inc:65
 msgid ""
 "We can raise two of your POKéMON.\\pWould you like us to raise one\\nmore "
 "POKéMON for you?"
-msgstr ""
+msgstr "Nous pouvons élever deux Pokémon.\\pTu veux qu’on en élève un autre?"
 
 #. source : Émeraude FR officiel
 #: data/maps/Route34_DayCare_hns/scripts.inc:546 data/scripts/day_care.inc:347
@@ -5495,9 +5523,15 @@ msgstr "Veux-tu aussi reprendre le deuxième?"
 msgid "Fine.\\nCome again."
 msgstr "Très bien.\\nReviens plus tard."
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « Ah, c’est toi! Contente de te voir.\nTon POKéMON
+#. est sûr d’être bien traité! »
 #: data/text/day_care_frlg.inc:88
 msgid "Ah, it's you!\\nGood to see you.\\pYour POKéMON can only be doing\\ngood!"
 msgstr ""
+"Ah, c’est toi!\\nContente de te voir.\\pTon Pokémon est sûr d’être\\nbien "
+"traité!"
 
 #. source : Émeraude FR officiel
 #: data/maps/Route34_DayCare_hns/scripts.inc:568 data/scripts/day_care.inc:369
@@ -5723,19 +5757,32 @@ msgstr ""
 msgid "Myuu…"
 msgstr "Miou…"
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS (panneau, déjà au .po) : « Laboratoire Pokémon du
+#. Professeur\nChen »
 #: data/text/fame_checker_frlg.inc:2
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}OAK POKéMON RESEARCH LAB"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Laboratoire Pokémon du Professeur\\nChen"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:6
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}To make a complete guide on all\\nthe POKéMON "
 "in the world…\\pThat was my dream!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Créer un guide complet "
+"de tous\\nles Pokémon du monde…\\pC’était mon rêve!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:12
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person "
@@ -5743,14 +5790,24 @@ msgid ""
 "look like much,\\nbut he's the authority on POKéMON.\\pMany POKéMON TRAINERS"
 " hold him in\\nhigh regard."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le Prof. Chen ne paie"
+" pas de mine,\\nmais c’est une sommité en matière de\\lPokémon.\\pBeaucoup "
+"de Dresseurs ont un grand\\nrespect pour lui."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:19 data/text/fame_checker_frlg.inc:59
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}PROF. OAK reportedly lives with "
 "his\\ngrandchildren, DAISY and {RIVAL}."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{COLOR DARK_GRAY}{SHADOW "
+"LIGHT_GRAY}Le Prof. Chen vivrait avec ses\\npetits-enfants, Nina et {RIVAL}."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:24 data/text/fame_checker_frlg.inc:439
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{FONT_FEMALE}{COLOR "
@@ -5758,14 +5815,27 @@ msgid ""
 "child.\\pThat old duff was once tough and\\nhandsome.\\pBut that was decades"
 " ago.\\nHe's a shadow of his former self."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{FONT_FEMALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Il paraît que Chen s’intéresse\\nbeaucoup à "
+"toi, mon petit.\\pCe vieux bonhomme a été fort et beau\\ngarçon, "
+"autrefois.\\pMais c’était il y a des dizaines\\nd’années. Il n’est plus que "
+"l’ombre de\\llui-même."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:33
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}PROF. OAK is going to have his own\\nradio "
 "show soon.\\pThe program will be called PROF.\\nOAK'S POKéMON SEMINAR."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Le Prof. Chen va bientôt avoir sa\\npropre "
+"émission de radio.\\pElle s’appellera “Le Séminaire\\nPokémon du Prof. "
+"Chen”."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:40
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR"
@@ -5773,21 +5843,38 @@ msgid ""
 " how much it likes you.\\pOccasionally, she will even groom\\na POKéMON for "
 "you."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Si tu montres un Pokémon à Nina, elle\\npeut te"
+" dire s’il t’aime beaucoup ou\\ljuste un peu.\\pIl lui arrive même de "
+"bichonner un\\nPokémon pour toi."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:47
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person "
 "like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}But the person who "
 "is most liked by\\nPOKéMON is DAISY, I think."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Mais la personne que "
+"les Pokémon\\naiment le plus, c’est Nina, à mon avis."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:52
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}She was gently grooming POKéMON…\\nShe was a "
 "little angel.\\pThat little girl's name…\\nI think it was DAISY."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Elle bichonnait "
+"tendrement des\\nPokémon… On aurait dit un petit ange.\\pCette petite fille "
+"s’appelait… Nina, je\\ncrois."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:64
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person "
@@ -5795,21 +5882,39 @@ msgid ""
 "TOWN, DAISY,\\nshe enjoys TEA every day.\\pShe visits the CELADON DEPT. "
 "STORE\\nto buy some TEA."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Nina, une fille de "
+"Bourg Palette, aime\\nboire du Thé chaque jour.\\pElle va en acheter au "
+"Centre\\nCommercial de Céladopole."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:71
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW "
 "LIGHT_GRAY}The Spring POKéMON CONTEST's\\nGrand Champion is DAISY OAK "
 "of\\lPALLET TOWN!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW "
+"LIGHT_GRAY}La grande gagnante du Concours\\nPokémon de printemps est Nina "
+"Chen,\\lde Bourg Palette!"
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS 460:21 « Arène d’Argenta\nChampion: Pierre\fUn homme fort et
+#. dur comme la roche! »
 #: data/text/fame_checker_frlg.inc:77
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}PEWTER CITY POKéMON GYM\\nLEADER: BROCK\\lThe "
 "Rock-Solid POKéMON TRAINER!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Arène d’Argenta Champion: Pierre Un\\nDresseur "
+"solide comme le roc!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:83
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR"
@@ -5817,7 +5922,13 @@ msgid ""
 " POKéMON.\\pMy POKéMON are all rock hard and\\nhave true-grit "
 "determination.\\pThat's right - my POKéMON are all\\nthe ROCK type!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Ma volonté de fer se voit jusque dans\\nmes "
+"Pokémon.\\pMes Pokémon sont durs comme la pierre\\net d’une détermination à "
+"toute\\lépreuve.\\pEh oui! Mes Pokémon sont tous de type\\nRoche!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:92
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
@@ -5825,49 +5936,91 @@ msgid ""
 "here.\\pThey're all like BUG CATCHERS,\\nyou know, just hobbyists.\\pBut "
 "PEWTER GYM's BROCK isn't like\\nthat, not one bit."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Il n’y a pas beaucoup "
+"de Dresseurs\\nsérieux, par ici.\\pCe sont tous des genres de Scouts, "
+"tu\\nvois, des amateurs.\\pMais Pierre, de l’Arène d’Argenta,\\nn’est pas du"
+" tout comme ça."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:101
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}BROCK is cool. He's not just tough.\\nPeople "
 "like and respect him.\\pI want to become a GYM LEADER\\nlike him."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Pierre est trop cool. "
+"Il n’est pas\\njuste fort. Tout le monde l’aime et le\\lrespecte.\\pJe veux "
+"devenir un Champion d’Arène\\ncomme lui."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:108
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}Hi, I'm excavating for fossils here\\nunder "
 "MT. MOON.\\pSometimes, BROCK of PEWTER GYM\\nlends me a hand."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Salut, je fais des fouilles pour\\ntrouver des "
+"fossiles ici, sous le Mont\\lSélénite.\\pDe temps en temps, Pierre, de "
+"l’Arène\\nd’Argenta, me donne un coup de main."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:115
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}BROCK rarely laughs, but is said to\\nbe unable"
 " to stop if he starts."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Pierre rit rarement, mais paraît-il\\nqu’une "
+"fois lancé, il ne peut plus\\ls’arrêter."
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS 467:14 « Arène d’Azuria\nChampion: Ondine\fNotre sirène
+#. favorite! »
 #: data/text/fame_checker_frlg.inc:120
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}CERULEAN CITY POKéMON GYM\\nLEADER: MISTY\\lThe"
 " Tomboyish Mermaid!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Arène d’Azuria Champion: Ondine La\\nsirène "
+"garçon manqué!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:126
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of "
 "POKéMON?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}My policy is an "
 "all-out offensive\\nwith WATER-type POKéMON!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_FEMALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Ma stratégie, c’est l’attaque à\\noutrance avec"
+" des Pokémon Eau!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:131
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}MISTY is a TRAINER who's going to\\nkeep "
 "improving.\\pShe won't lose to someone like you!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ondine est une "
+"Dresseuse qui va\\ncontinuer à progresser.\\pElle ne perdra pas contre "
+"quelqu’un\\ncomme toi!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:137
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{FONT_MALE}{COLOR "
@@ -5875,55 +6028,99 @@ msgid ""
 "sights in these parts.\\pThey say that MISTY of the\\nCERULEAN GYM trains "
 "here."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Les Dresseurs forts et les Pokémon\\nEau sont "
+"monnaie courante, par ici.\\pOn dit qu’Ondine, de l’Arène "
+"d’Azuria,\\ns’entraîne ici."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:144
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{FONT_FEMALE}{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}This cape is a famous date spot.\\pMISTY, the "
 "GYM LEADER, has high\\nhopes about this place."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_FEMALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Ce cap est connu pour ses\\nrendez-vous "
+"amoureux.\\pOndine, la Championne d’Arène, place\\nde grands espoirs en ce "
+"lieu."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:150
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW "
 "LIGHT_GRAY}MISTY is said to worship LORELEI\\nof the ELITE FOUR."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW "
+"LIGHT_GRAY}On dit qu’Ondine voue un culte à Olga,\\ndu Conseil 4."
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS 483:11 « Arène de Carmin sur Mer\nChampion: Major Bob\fLe
+#. militaire survolté! »
 #: data/text/fame_checker_frlg.inc:155
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}VERMILION CITY POKéMON GYM\\nLEADER: LT. "
 "SURGE\\lThe Lightning American!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Carmin sur Mer Champion:\\nMajor Bob "
+"L’Américain survolté!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:161
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}I tell you, kid, electric POKéMON\\nsaved me "
 "during the war!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Je te le dis, petit, les Pokémon\\nélectriques "
+"m’ont sauvé la vie\\lpendant la guerre!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:166
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}When I was in the Army, LT. SURGE\\nwas my "
 "strict CO.\\pHe was a hard taskmaster."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Quand j’étais à "
+"l’armée, le Major Bob\\nétait mon supérieur, très strict.\\pIl ne nous "
+"faisait pas de cadeaux."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:172
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}LT. SURGE was always famous for\\nhis cautious"
 " nature in the Army."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}À l’armée, le Major Bob"
+" a toujours été\\nconnu pour sa prudence."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:177
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}LT. SURGE installed the traps in\\nthe GYM "
 "himself.\\pHe set up double locks everywhere."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le Major Bob a installé"
+" lui-même les\\npièges de l’Arène.\\pIl a mis des doubles verrous partout."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:183
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW "
@@ -5931,14 +6128,27 @@ msgid ""
 "America.\\pHe used the electricity generated\\nby POKéMON to power his "
 "plane."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW "
+"LIGHT_GRAY}On raconte que le Major Bob était\\npilote quand il vivait en "
+"Amérique.\\pIl faisait voler son avion grâce à\\nl’électricité produite par "
+"des\\lPokémon."
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS 491:31 « Arène de Céladopole\rChampion: Erika\nLa Reine des
+#. Plantes »
 #: data/text/fame_checker_frlg.inc:190
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}CELADON CITY POKéMON GYM\\nLEADER: ERIKA\\lThe "
 "Nature-Loving Princess!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Céladopole Champion: Erika\\nLa "
+"princesse qui aime la nature!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:196
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of "
@@ -5946,14 +6156,24 @@ msgid ""
 "of the art of\\nflower arranging.\\pMy POKéMON are solely of the\\nGRASS "
 "type."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_FEMALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}J’étudie l’art de l’arrangement floral.\\pMes "
+"Pokémon sont tous de type\\nPlante."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:203
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person "
 "like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Our LEADER ERIKA "
 "might be quiet,\\nbut she's famous around here."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Notre Championne, "
+"Erika, est\\npeut-être discrète, mais elle est\\lcélèbre par ici."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:208
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person "
@@ -5961,56 +6181,100 @@ msgid ""
 "type POKéMON at\\nour GYM.\\pWhy? We also use them for making\\nflower "
 "arrangements!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Dans notre Arène, on "
+"n’utilise que des\\nPokémon de type Plante.\\pPourquoi? Parce qu’on s’en "
+"sert aussi\\npour faire des bouquets!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:215
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of "
 "POKéMON?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I would never "
 "collect POKéMON if\\nthey were unattractive."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_FEMALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Si les Pokémon n’étaient pas jolis, je\\nn’en "
+"collectionnerais jamais."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:220
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW "
 "LIGHT_GRAY}Rumor has it that if you peek into\\nCELADON GYM, you can "
 "often\\lsee ERIKA snoozing."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW "
+"LIGHT_GRAY}Il paraît que si on jette un œil dans\\nl’Arène de Céladopole, on"
+" voit souvent\\lErika faire la sieste."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : Format SS 512:4 (« Arène de Parmanie\rChampion: Jeannine… ») ;
+#. slogan repris du panneau FuchsiaCity_Frlg du .po
 #: data/text/fame_checker_frlg.inc:226
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}FUCHSIA CITY POKéMON GYM\\nLEADER: KOGA\\lThe "
 "Poisonous Ninja Master"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Parmanie\\nChampion: Koga\\lLe maître "
+"ninja des poisons"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:232
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}Despair to the creeping horror of\\nPOISON-"
 "type POKéMON!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Désespère face à l’horreur rampante\\ndes "
+"Pokémon de type Poison!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:237
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}Even though I've lost, I will keep\\ntraining "
 "according to the teachings\\lof KOGA, my ninja master."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Même si j’ai perdu, je "
+"continuerai à\\nm’entraîner selon les enseignements\\lde Koga, mon maître "
+"ninja."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:243
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{FONT_FEMALE}{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}My father is the GYM LEADER of\\nthis "
 "town.\\pI'm training to use POISON POKéMON\\nas well as my father."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{FONT_FEMALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Mon père est le Champion d’Arène de\\ncette "
+"ville.\\pJe m’entraîne à utiliser les Pokémon\\nPoison aussi bien que lui."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:250
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW "
 "LIGHT_GRAY}KOGA is said to have a thorough\\nknowledge of medicine.\\pHe "
 "even concocts medicine to nurse\\nhis POKéMON to health."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW "
+"LIGHT_GRAY}On dit que Koga a une connaissance\\napprofondie de la "
+"médecine.\\pIl prépare même des remèdes pour\\nsoigner ses Pokémon."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:257
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR"
@@ -6018,21 +6282,39 @@ msgid ""
 "say?\\pFUCHSIA's GYM LEADER, KOGA, \\npatrols the grounds every so "
 "often.\\pThanks to him, we can play here\\nknowing that we're safe."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Il est immense, ce Parc Safari, tu ne\\ntrouves"
+" pas?\\pKoga, le Champion d’Arène de Parmanie,\\npatrouille dans le parc de "
+"temps en\\ltemps.\\pGrâce à lui, on peut s’amuser ici en\\ntoute sécurité."
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS 529:12 « Arène de Safrania\rChampion: Morgane\nLa maîtresse des
+#. Pokémon Psy! »
 #: data/text/fame_checker_frlg.inc:266
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}SAFFRON CITY POKéMON GYM\\nLEADER: "
 "SABRINA\\lThe Master of PSYCHIC POKéMON!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Safrania\\nChampion: Morgane\\lLa "
+"maîtresse des Pokémon Psy!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:272
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}You know about a girl GYM LEADER\\nin SAFFRON "
 "CITY?\\pShe uses PSYCHIC-type POKéMON,\\nright?"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Tu connais la Championne d’Arène "
+"de\\nSafrania?\\pElle utilise des Pokémon de type Psy,\\nnon?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:279
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person "
@@ -6040,42 +6322,75 @@ msgid ""
 "powers since\\nI was a child.\\pIt started when a spoon I\\ncarelessly "
 "tossed, bent."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}J’ai des pouvoirs "
+"psychiques depuis\\nque je suis toute petite.\\pTout a commencé quand une "
+"cuillère\\nque j’avais lancée sans y penser s’est\\ltordue."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:286
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person "
 "like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I dislike battling,"
 " but if you wish,\\nI will show you my powers!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je n’aime pas "
+"combattre, mais si tu y\\ntiens, je vais te montrer mes\\lpouvoirs!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:291
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW "
 "LIGHT_GRAY}People say that SABRINA can\\ncommunicate with her "
 "POKéMON\\lduring battle without speaking."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW "
+"LIGHT_GRAY}On dit que Morgane peut communiquer\\navec ses Pokémon pendant un"
+" combat\\lsans dire un mot."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:297
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}SABRINA just wiped out the KARATE\\nMASTER "
 "next door."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Morgane vient de "
+"pulvériser le Maître\\nKaraté d’à côté."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : Format des panneaux SS
 #: data/text/fame_checker_frlg.inc:302
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}CINNABAR ISLAND POKéMON GYM\\nLEADER: "
 "BLAINE\\lThe Hotheaded Quiz Master!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Cramois’Ile\\nChampion: Auguste\\lLe "
+"roi du quiz au sang chaud!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:308
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}My fiery POKéMON are all rough\\nand ready "
 "with intense heat!\\pThey incinerate all challengers!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Mes Pokémon de feu sont tous prêts à\\nen "
+"découdre, brûlants d’ardeur!\\pIls réduisent tous les adversaires "
+"en\\ncendres!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:314
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR"
@@ -6083,7 +6398,14 @@ msgid ""
 "mountains but good.\\pNight fell when a fiery bird\\nPOKéMON appeared.\\pIts"
 " light allowed BLAINE to find\\nhis way down safely."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Notre Champion, Auguste, s’était\\ncomplètement"
+" perdu dans les\\lmontagnes.\\pLa nuit tombait quand un oiseau\\nPokémon de "
+"feu est apparu.\\pSa lumière a permis à Auguste de\\nredescendre sain et "
+"sauf."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:323
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person "
@@ -6091,35 +6413,61 @@ msgid ""
 "BLAINE is quite the\\nodd fellow.\\pHe's lived on the island since "
 "way\\nbefore the LAB was built."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Auguste, de l’Arène "
+"de Cramois’Ile,\\nest un drôle de bonhomme.\\pIl vit sur l’île depuis bien "
+"avant la\\nconstruction du Laboratoire."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:330 data/text/fame_checker_frlg.inc:560
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}It's a photo of BLAINE and\\nMR. "
 "FUJI.\\pThey're standing shoulder to\\nshoulder with big grins."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{COLOR DARK_GRAY}{SHADOW "
+"LIGHT_GRAY}C’est une photo d’Auguste et de\\nM. Fuji.\\pIls se tiennent "
+"épaule contre épaule\\navec un grand sourire."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:337
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW "
 "LIGHT_GRAY}BLAINE is said to remove his dark\\nshades only when he is "
 "thinking up\\lnew quiz questions."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW "
+"LIGHT_GRAY}On dit qu’Auguste n’enlève ses\\nlunettes noires que quand il "
+"invente\\ldes questions de quiz."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:343
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person "
 "do?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I am LORELEI of the "
 "ELITE FOUR."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette "
+"personne?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je suis Olga, "
+"du Conseil 4."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:347
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of "
 "POKéMON?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}No one can best "
 "me when it comes\\nto icy POKéMON."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_FEMALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Personne ne peut me battre quand il\\ns’agit de"
+" Pokémon de glace."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:352
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Where was this person "
@@ -6127,14 +6475,25 @@ msgid ""
 " powerful\\nTRAINER grow up on this island.\\pI bet even you'd know "
 "her.\\nIt's LORELEI of the ELITE FOUR!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Où est née cette "
+"personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Une grande et "
+"puissante Dresseuse a\\ngrandi sur cette île.\\pMême toi, tu dois la "
+"connaître. C’est\\nOlga, du Conseil 4!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:359
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}Known for her logical, calculated,\\nand cool "
 "battling style, LORELEI\\lhas a surprising secret!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Connue pour son style de combat\\nlogique, "
+"calculé et froid, Olga cache\\lun secret surprenant!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:365
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person "
@@ -6142,7 +6501,13 @@ msgid ""
 "LORELEI has lots\\nand lots of stuffed dolls?\\pEvery time she comes back "
 "to\\nFOUR ISLAND, her collection grows!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Tu savais qu’Olga "
+"avait des tas de\\npeluches?\\pÀ chaque retour sur l’Île 4, sa\\ncollection "
+"s’agrandit!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:372
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of "
@@ -6151,27 +6516,49 @@ msgid ""
 "ICEFALL CAVE\\nthat she caught it.\\pPerhaps that POKéMON has been "
 "with\\nher ever since."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_FEMALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Le LOKHLASS qu’elle a, j’imagine que\\nc’est "
+"celui qu’elle a rencontré quand\\lelle était petite.\\pJe crois que c’est "
+"dans la Grotte de\\nGlace qu’elle l’a attrapé.\\pCe Pokémon est peut-être "
+"resté avec\\nelle depuis."
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS 525:0 « Je suis Aldo du Conseil 4. »
 #: data/text/fame_checker_frlg.inc:381
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}I am BRUNO of the ELITE FOUR!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Je suis Aldo, du Conseil 4!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:385
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}I've lived and trained with my\\nfighting "
 "POKéMON!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}J’ai vécu et je me suis entraîné avec\\nmes "
+"Pokémon Combat!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:390
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}BRUNO apparently joined the ELITE\\nFOUR out of"
 " his burning ambition to\\lbattle the best TRAINERS."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Aldo aurait rejoint le Conseil 4 parce\\nqu’il "
+"brûlait d’affronter les meilleurs\\lDresseurs."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:396
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
@@ -6179,7 +6566,13 @@ msgid ""
 "the SPA on occasion.\\pHe comes to rehab injuries, both\\nhis own and his "
 "POKéMON's."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Aldo, qui est mon aîné,"
+" vient parfois\\naux thermes.\\pIl vient soigner ses blessures et\\ncelles "
+"de ses Pokémon."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:403
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{FONT_FEMALE}{COLOR "
@@ -6187,56 +6580,99 @@ msgid ""
 "BRUNO.\\pHe went away disappointed when he\\nfound out that they were all "
 "sold\\lout of Rage Candybars."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_FEMALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Il fait partie du Conseil 4. Il\\ns’appelle "
+"Aldo.\\pIl est reparti tout déçu quand il a\\nappris qu’il n’y avait plus de"
+" Bonbons\\lRage."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:411
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{FONT_MALE}{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}Even BRUNO…\\nHe trained with a fellow by "
 "the\\lname of BRAWLY before."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Même Aldo… Il s’est déjà entraîné\\navec un "
+"certain BASTIEN."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:417
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person "
 "do?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I am AGATHA of the "
 "ELITE FOUR."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette "
+"personne?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je suis Agatha,"
+" du Conseil 4."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:421
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}AGATHA's GHOST-type POKéMON are\\nhorrifically"
 " terrifying in toughness."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Les Pokémon Spectre d’Agatha sont\\nd’une force"
+" effroyable."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:426
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}That old lady's also got a really\\nshort "
 "fuse, too.\\pIt doesn't take anything to get\\nthat scary lady hollering."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Cette vieille dame "
+"s’emporte aussi\\ntrès vite.\\pIl en faut peu pour faire hurler cette\\ndame"
+" effrayante."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:433
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW "
 "LIGHT_GRAY}In her youth, AGATHA and PROF.\\nOAK were rivals who vied "
 "for\\lsupremacy as TRAINERS."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW "
+"LIGHT_GRAY}Dans sa jeunesse, Agatha rivalisait\\navec le Prof. Chen. Tous "
+"deux\\lvoulaient être le meilleur Dresseur."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:448
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person "
 "like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Take AGATHA, for "
 "example.\\pShe set a record for being the\\noldest-ever ELITE FOUR member."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Prends Agatha, par "
+"exemple.\\pElle détient le record du membre le\\nplus âgé de l’histoire du "
+"Conseil 4."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:454
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}I lead the ELITE FOUR.\\pYou can call me LANCE"
 " the dragon\\nTRAINER."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Je suis à la tête du Conseil 4.\\pAppelle-moi "
+"Peter, le Dresseur de\\ndragons."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:460
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR"
@@ -6245,14 +6681,26 @@ msgid ""
 "superior.\\pThey're virtually indestructible.\\nThere's no being clever with"
 " them."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Tu sais que les dragons sont des\\nPokémon "
+"mythiques.\\pIls sont difficiles à attraper et à\\nélever, mais leur "
+"puissance est\\lsupérieure.\\pIls sont pratiquement\\nindestructibles. Pas "
+"moyen de ruser\\lavec eux."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:469
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person "
 "like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He stands for "
 "justice!\\nHe's cool, and yet passionate!\\lHe's the greatest, LANCE!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Il défend la justice!"
+" Il est cool, et\\npourtant si passionné! C’est le\\lmeilleur, Peter!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:475
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{FONT_FEMALE}{COLOR "
@@ -6260,70 +6708,122 @@ msgid ""
 "comes.\\pHe always buys capes.\\pI wonder… Does he have many\\nidentical "
 "capes at home?"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_FEMALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Nous avons un client, Peter, qui passe\\nde "
+"temps en temps.\\pIl achète toujours des capes.\\pJe me demande… A-t-il "
+"plein de capes\\nidentiques chez lui?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:483
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}LANCE's grandfather is thought to\\nbe the "
 "elder of a famous clan of\\ldragon masters."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{COLOR DARK_GRAY}{SHADOW "
+"LIGHT_GRAY}Le grand-père de Peter serait\\nl’Ancien d’un célèbre clan de "
+"maîtres\\ldes dragons."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:489
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{FONT_MALE}{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}From what I've heard, LANCE has\\na cousin "
 "who's a GYM LEADER\\lsomewhere far away."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}D’après ce que j’ai entendu, Peter a\\nune "
+"cousine qui est Championne\\ld’Arène quelque part très loin."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:495
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}After all, BILL's world-famous as "
 "a\\nPOKéMANIAC.\\pHe invented the POKéMON Storage\\nSystem on PC, too."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Après tout, Léo est un "
+"Pokémaniac\\nmondialement connu.\\pC’est aussi lui qui a inventé "
+"le\\nSystème de Stockage Pokémon sur PC."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:502
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}BILL has lots of POKéMON!\\nHe collects rare "
 "ones, too!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Léo a des tas de Pokémon! Il en\\ncollectionne "
+"aussi des rares!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:507
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}He's my grandson!\\pHe always liked collecting"
 " things,\\neven as a child!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}C’est mon petit-"
+"fils!\\pIl a toujours aimé collectionner des\\nchoses, même tout petit!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:513
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}BILL is a POKéMANIAC, so he loves\\nevery "
 "kind.\\pApparently, the first one he caught\\nwas an ABRA."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Léo est un Pokémaniac, alors il les\\naime "
+"tous.\\pIl paraît que le premier qu’il a\\nattrapé était un ABRA."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:520
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{FONT_MALE}{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}BILL's hometown is GOLDENROD CITY,\\nwhere his "
 "folks still live.\\pI've heard that it's quite the\\nfestive, bustling city."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Léo est originaire de Doublonville, où\\nvit "
+"encore sa famille.\\pIl paraît que c’est une ville très\\nanimée et festive."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:527
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{FONT_MALE}{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}Apparently, BILL simply can't\\nstomach milk at"
 " all."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Il paraît que Léo ne supporte pas du\\ntout le "
+"lait."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:532
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person "
 "do?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He's really "
 "kind.\\pHe looks after abandoned and\\norphaned POKéMON."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette "
+"personne?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Il est vraiment"
+" gentil.\\pIl s’occupe des Pokémon abandonnés\\net orphelins."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:538
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
@@ -6331,7 +6831,13 @@ msgid ""
 "HIDEOUT.\\pThen, he starts ranting about how\\nTEAM ROCKET's abusing "
 "POKéMON.\\pSo, we're just talking it over as\\nadults."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ce vieux bonhomme a "
+"débarqué dans\\nnotre repaire.\\pEt le voilà qui se met à râler parce\\nque "
+"les Rocket maltraitent les\\lPokémon.\\pAlors on en discute entre adultes."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:547
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR "
@@ -6339,14 +6845,25 @@ msgid ""
 "Drawing!\\pThe application form is…\\pGone! It's been clipped out.\\nSomeone"
 " must have applied already."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Magazine des fans de Pokémon Gros\\nlot au "
+"tirage mensuel!\\pLe bulletin de participation est…\\pParti! Il a été "
+"découpé. Quelqu’un a\\ndéjà dû participer."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:555
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{FONT_MALE}{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}I hear that MR. FUJI's not from\\nthese parts "
 "originally, either."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Il paraît que M. Fuji n’est pas non\\nplus "
+"d’ici, à l’origine."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:567
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR "
@@ -6354,7 +6871,13 @@ msgid ""
 "interview requests.\\pHe is a kindly man who is adored\\nand respected in "
 "LAVENDER TOWN."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Note de la rédaction: le timide M. Fuji\\na "
+"décliné nos demandes d’interview.\\pC’est un homme bienveillant, adoré "
+"et\\nrespecté à Lavanville."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:574
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR"
@@ -6362,46 +6885,79 @@ msgid ""
 " world.\\pThey're important tools for keeping\\nour criminal enterprise "
 "going.\\pI am the leader, GIOVANNI!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}La Team Rocket capture des Pokémon\\ndans le "
+"monde entier.\\pCe sont des outils essentiels au bon\\nfonctionnement de "
+"notre\\lorganisation criminelle.\\pJe suis le chef, Giovanni!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:582
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}Those thugs that took over "
 "our\\nbuilding…\\pTheir BOSS said he was looking for\\nstrong POKéMON."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de Pokémon préfère-t-"
+"il?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ces voyous qui ont pris"
+" notre\\nimmeuble…\\pLeur boss a dit qu’il cherchait des\\nPokémon "
+"puissants."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:589
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}TEAM ROCKET's BOSS is terribly\\ncruel!\\pTo "
 "him, POKéMON are just tools to\\nbe used."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-"
+"ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le Boss de la Team "
+"Rocket est d’une\\ncruauté terrible!\\pPour lui, les Pokémon ne sont que "
+"des\\noutils."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:596
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}Welcome to my hideout!\\pIt shall be so until "
 "I can restore\\nTEAM ROCKET to its former glory."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Bienvenue dans mon repaire!\\pIl le restera "
+"jusqu’à ce que je rende\\naux Rocket leur gloire passée."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:602
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR"
 " DARK_GRAY}{SHADOW LIGHT_GRAY}Blow me away! GIOVANNI was the\\nGYM LEADER of"
 " VIRIDIAN?"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Ça alors! Giovanni était le Champion\\nde "
+"l’Arène de Jadielle?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:607
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{FONT_MALE}{COLOR "
 "DARK_GRAY}{SHADOW LIGHT_GRAY}You… You're not GIOVANNI's kid,\\nare "
 "you?\\pNo, that can't be right.\\nGIOVANNI's kid has red hair."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Tu… Tu ne serais pas l’enfant "
+"de\\nGiovanni?\\pNon, impossible. L’enfant de Giovanni\\na les cheveux roux."
 
 #: data/text/fame_checker_frlg.inc:615
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}PROF. OAK"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:618
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: PROF. OAK\\nTo: "
@@ -6409,11 +6965,20 @@ msgid ""
 "compete and battle\\nso hard for you?\\pThey do so because they can "
 "see\\nthe love and trust you have\\ltowards POKéMON.\\pNever forget that."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Prof. Chen\\nÀ: "
+"{PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Pourquoi les "
+"Pokémon se donnent-ils\\nautant de mal au combat pour toi?\\pParce qu’ils "
+"voient l’amour et la\\nconfiance que tu leur portes.\\pNe l’oublie jamais."
 
+#. source : SoulSilver FR officiel
+#. lot : D1_dialogues
+#. preuve : SS 449:0 « Nina: … » (DAISY = Nina)
 #: data/text/fame_checker_frlg.inc:628
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}DAISY"
-msgstr ""
+msgstr "{COLOR BLUE}{SHADOW LIGHT_BLUE}Nina"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:631
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: DAISY\\nTo: "
@@ -6421,11 +6986,17 @@ msgid ""
 "comfortably enjoying\\nmy tea breaks, you've grown very\\lskilled and "
 "powerful.\\pI hope you'll remain a good rival\\nto my little brother."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Nina À: {PLAYER}\\p{FONT_FEMALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Pendant que je prenais\\ntranquillement mon "
+"thé, tu as\\lbeaucoup gagné en force et en\\ladresse.\\pJ’espère que tu "
+"resteras à la hauteur\\ncomme rival de mon frère cadet."
 
 #: data/text/fame_checker_frlg.inc:640
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}BROCK"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:643
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BROCK\\nTo: "
@@ -6433,11 +7004,17 @@ msgid ""
 "of ours, there\\nmust be many tough TRAINERS.\\pLet's both keep training "
 "and\\nmaking ourselves stronger!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Pierre\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Dans ce vaste monde, il doit y avoir\\nbeaucoup"
+" de Dresseurs forts.\\pContinuons tous les deux à nous\\nentraîner pour "
+"devenir plus forts!"
 
 #: data/text/fame_checker_frlg.inc:651
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}MISTY"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:654
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: MISTY\\nTo: "
@@ -6445,11 +7022,17 @@ msgid ""
 "keep training here at\\nthis GYM.\\pWhen I get better, I'd love to hit\\nthe"
 " road and travel."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Ondine\\nÀ: "
+"{PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je vais "
+"continuer à m’entraîner ici,\\ndans mon Arène.\\pQuand je serai meilleure, "
+"j’aimerais\\nbien prendre la route et voyager."
 
 #: data/text/fame_checker_frlg.inc:662
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}LT. SURGE"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:665
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: LT. SURGE\\nTo: "
@@ -6457,11 +7040,17 @@ msgid ""
 "electrified me in our battle!\\pI didn't know that there were\\ngutsy "
 "TRAINERS like you.\\pIt made me change my mind about\\nyou!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Major Bob À: {PLAYER}\\p{FONT_MALE}{COLOR"
+" DARK_GRAY}{SHADOW LIGHT_GRAY}Hé, la jeunesse! Tu m’as électrisé lors\\ndu "
+"combat!\\pJe ne savais pas qu’il existait des\\nDresseurs aussi courageux "
+"que toi.\\pÇa m’a fait changer d’avis sur toi!"
 
 #: data/text/fame_checker_frlg.inc:675
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}ERIKA"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:678
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: ERIKA\\nTo: "
@@ -6469,11 +7058,20 @@ msgid ""
 "that there are strong\\nTRAINERS like you.\\pThat awareness alone inspires "
 "and\\nmotivates me to try harder.\\pPlease visit me again.\\nZzz…"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Erika\\nÀ: {PLAYER}\\p{FONT_FEMALE}{COLOR"
+" DARK_GRAY}{SHADOW LIGHT_GRAY}Je suis si heureuse qu’il existe "
+"des\\nDresseurs forts comme toi.\\pRien que de le savoir, cela "
+"m’inspire\\net me motive à faire encore mieux.\\pReviens me voir, je t’en "
+"prie. Zzz…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:688
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}KOGA"
-msgstr ""
+msgstr "{COLOR BLUE}{SHADOW LIGHT_BLUE}Koga"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:691
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: KOGA\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR"
@@ -6481,11 +7079,17 @@ msgid ""
 "higher and work towards\\lmeeting our challenges.\\pNow, I must go train my "
 "daughter."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Koga\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Toi et moi, nous devons viser plus\\nhaut et "
+"travailler pour relever nos\\ldéfis.\\pÀ présent, je dois aller entraîner "
+"ma\\nfille."
 
 #: data/text/fame_checker_frlg.inc:699
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}SABRINA"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:702
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: SABRINA\\nTo: "
@@ -6493,11 +7097,17 @@ msgid ""
 "have towards your\\nPOKéMON…\\pIt was a power that was never\\nbested by my "
 "psychic power."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Morgane\\nÀ: "
+"{PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}L’amour que tu "
+"portes à tes Pokémon…\\pC’est une force que mes pouvoirs\\npsychiques n’ont "
+"jamais pu vaincre."
 
 #: data/text/fame_checker_frlg.inc:710
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}BLAINE"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:713
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BLAINE\\nTo: "
@@ -6505,11 +7115,19 @@ msgid ""
 "POKéMON!\\nThey'll become even more powerful!\\pAnd now, a quiz. How many "
 "kinds of\\nFIRE-type POKéMON are there?"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Auguste\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR"
+" DARK_GRAY}{SHADOW LIGHT_GRAY}Mes Pokémon de feu! Ils vont devenir\\nencore "
+"plus puissants!\\pEt maintenant, un quiz! Combien\\nexiste-t-il d’espèces de"
+" Pokémon de\\ltype Feu?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:721
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}LORELEI"
-msgstr ""
+msgstr "{COLOR BLUE}{SHADOW LIGHT_BLUE}Olga"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:724
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: LORELEI\\nTo: "
@@ -6517,11 +7135,20 @@ msgid ""
 "thank you for your\\nhelp.\\pBut that has nothing to do with "
 "our\\nbattles.\\pYou'd better watch out next time!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Olga\\nÀ: {PLAYER}\\p{FONT_FEMALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Je tenais à te remercier pour "
+"ton\\naide.\\pMais ça n’a rien à voir avec nos\\ncombats.\\pLa prochaine "
+"fois, prends garde à toi!"
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS 525:0 (BRUNO = Aldo)
 #: data/text/fame_checker_frlg.inc:733
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}BRUNO"
-msgstr ""
+msgstr "{COLOR BLUE}{SHADOW LIGHT_BLUE}Aldo"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:736
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BRUNO\\nTo: "
@@ -6529,11 +7156,19 @@ msgid ""
 " your POKéMON\\nand you I've experienced myself.\\pNext time, maybe I should"
 " show you\\nhow to train yourself."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Aldo À: {PLAYER}\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Ta puissance et celle de tes Pokémon,\\nje les "
+"ai ressenties.\\pLa prochaine fois, je devrais\\npeut-être te montrer "
+"comment\\lt’entraîner."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:744
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}AGATHA"
-msgstr ""
+msgstr "{COLOR BLUE}{SHADOW LIGHT_BLUE}Agatha"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:747
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: AGATHA\\nTo: "
@@ -6541,11 +7176,20 @@ msgid ""
 "older, don't you\\ndare go soft like that coot OAK!\\pBe like me and keep "
 "battling on!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Agatha À: {PLAYER}\\p{FONT_FEMALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}En vieillissant, ne t’avise pas de\\nt’amollir "
+"comme ce vieux schnock de\\lChen!\\pFais comme moi et continue de "
+"te\\nbattre!"
 
+#. source : SoulSilver FR officiel
+#. lot : D1_dialogues
+#. preuve : SS 527:0 « Peter: … » (LANCE = Peter)
 #: data/text/fame_checker_frlg.inc:754
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}LANCE"
-msgstr ""
+msgstr "{COLOR BLUE}{SHADOW LIGHT_BLUE}Peter"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:757
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: LANCE\\nTo: "
@@ -6553,11 +7197,18 @@ msgid ""
 "going back to my\\nhometown.\\pI want to retrain my DRAGON-type\\nPOKéMON "
 "and strengthen them.\\pI'd like to invite you to my\\nhometown one day."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Peter\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}J’envisage de retourner dans ma "
+"ville\\nnatale.\\pJe veux reprendre l’entraînement de\\nmes Pokémon de type "
+"Dragon et les\\lrenforcer.\\pJ’aimerais t’inviter dans ma ville\\nnatale, un"
+" jour."
 
 #: data/text/fame_checker_frlg.inc:767
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}BILL"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:770
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BILL\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR"
@@ -6565,11 +7216,19 @@ msgid ""
 " you.\\pHearing that makes me happy.\\pWhen you catch some rare "
 "POKéMON,\\ncome show me, okay? Promise!"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Léo À: {PLAYER}\\p{FONT_MALE}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}Salut! Celio ne tarit pas d’éloges "
+"sur\\ntoi.\\pÇa me fait plaisir d’entendre ça.\\pQuand tu attraperas des "
+"Pokémon\\nrares, viens me les montrer.\\lPromets-le-moi!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:779
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}MR. FUJI"
-msgstr ""
+msgstr "{COLOR BLUE}{SHADOW LIGHT_BLUE}M. Fuji"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:782
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: MR. FUJI\\nTo: "
@@ -6577,11 +7236,19 @@ msgid ""
 "for the happiness\\nof just your POKéMON…\\p…Can I get you to wish for "
 "the\\nhappiness of all POKéMON?"
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: M. Fuji\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR"
+" DARK_GRAY}{SHADOW LIGHT_GRAY}Au lieu d’espérer seulement le\\nbonheur de "
+"tes Pokémon…\\p…Pourrais-tu souhaiter le bonheur de\\ntous les Pokémon?"
 
+#. source : SoulSilver FR officiel
+#. lot : D1_dialogues
+#. preuve : SS (nom) Giovanni
 #: data/text/fame_checker_frlg.inc:790
 msgid "{COLOR BLUE}{SHADOW LIGHT_BLUE}GIOVANNI"
-msgstr ""
+msgstr "{COLOR BLUE}{SHADOW LIGHT_BLUE}Giovanni"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:793
 msgid ""
 "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: GIOVANNI\\nTo: "
@@ -6589,11 +7256,17 @@ msgid ""
 "that I wish to say\\nto you.\\pI will concentrate solely on\\nbettering "
 "myself, and none other."
 msgstr ""
+"{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Giovanni\\nÀ: "
+"{PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je n’ai rien à te "
+"dire.\\pJe me concentrerai uniquement sur\\nmon propre perfectionnement, "
+"rien\\ld’autre."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:804 data/text/fame_checker_frlg.inc:807
 #: data/text/fame_checker_frlg.inc:816 data/text/fame_checker_frlg.inc:819
 msgid "RESEARCH LAB"
-msgstr ""
+msgstr "Laboratoire"
 
 #. source : patch FR actuel
 #: data/maps/CeladonCity_Frlg/scripts.inc:160
@@ -6602,50 +7275,70 @@ msgstr ""
 msgid "CELADON MANSION"
 msgstr "MANOIR CELADON"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:840
 msgid "PEWTER GYM"
-msgstr ""
+msgstr "Arène d’Argenta"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : SS : « Musée des Sciences d’Argenta »
 #: data/text/fame_checker_frlg.inc:852
 msgid "PEWTER MUSEUM"
-msgstr ""
+msgstr "Musée d’Argenta"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:858 data/text/fame_checker_frlg.inc:861
 msgid "CERULEAN GYM"
-msgstr ""
+msgstr "Arène d’Azuria"
 
 #. source : relu et corrigé à la main
 #: data/text/fame_checker_frlg.inc:867
 msgid "CERULEAN CAPE"
 msgstr "Cap Azuria"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:876 data/text/fame_checker_frlg.inc:879
 #: data/text/fame_checker_frlg.inc:882 data/text/fame_checker_frlg.inc:885
 msgid "VERMILION GYM"
-msgstr ""
+msgstr "Arène de Carmin"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:894 data/text/fame_checker_frlg.inc:897
 #: data/text/fame_checker_frlg.inc:900 data/text/fame_checker_frlg.inc:903
 msgid "CELADON GYM"
-msgstr ""
+msgstr "Arène de Céladopole"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:912 data/text/fame_checker_frlg.inc:915
 msgid "FUCHSIA GYM"
-msgstr ""
+msgstr "Arène de Parmanie"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:933 data/text/fame_checker_frlg.inc:936
 #: data/text/fame_checker_frlg.inc:942
 msgid "SAFFRON GYM"
-msgstr ""
+msgstr "Arène de Safrania"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:948 data/text/fame_checker_frlg.inc:951
 #: data/text/fame_checker_frlg.inc:957 data/text/fame_checker_frlg.inc:1065
 msgid "CINNABAR GYM"
-msgstr ""
+msgstr "Arène de Cramois’Île"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : SS : « Centre Commercial de Céladopole »
 #: data/text/fame_checker_frlg.inc:1026
 msgid "CELADON DEPT."
-msgstr ""
+msgstr "Centre Commercial"
 
 #. source : Émeraude FR officiel
 #: data/text/fame_checker_frlg.inc:1056
@@ -6659,9 +7352,11 @@ msgstr "TOUR Pokémon"
 msgid "SILPH CO."
 msgstr "SYLPHE SARL"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1080 data/text/fame_checker_frlg.inc:1083
 msgid "VIRIDIAN GYM"
-msgstr ""
+msgstr "Arène de Jadielle"
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
@@ -6677,30 +7372,38 @@ msgstr "PANNEAU"
 msgid "AIDE"
 msgstr "ASSISTANT"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1098 data/text/fame_checker_frlg.inc:1116
 #: data/text/fame_checker_frlg.inc:1122 data/text/fame_checker_frlg.inc:1140
 #: data/text/fame_checker_frlg.inc:1158 data/text/fame_checker_frlg.inc:1176
 msgid "POKéMON JOURNAL"
-msgstr ""
+msgstr "Journal Pokémon"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1119 data/text/fame_checker_frlg.inc:1266
 #: data/text/fame_checker_frlg.inc:1302
 msgid "OLD LADY"
-msgstr ""
+msgstr "VIEILLE DAME"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1131 data/text/fame_checker_frlg.inc:1152
 #: data/text/fame_checker_frlg.inc:1218 data/text/fame_checker_frlg.inc:1320
 msgid "YOUNG MAN"
-msgstr ""
+msgstr "JEUNE HOMME"
 
 #. source : traduction manuelle (style SoulSilver)
 #: data/text/fame_checker_frlg.inc:1155
 msgid "DAME"
 msgstr "DAME"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1206
 msgid "CHARINE"
-msgstr ""
+msgstr "Charine"
 
 #. source : SoulSilver FR officiel
 #: data/text/fame_checker_frlg.inc:1230 src/data/trainers.party:13087
@@ -6725,155 +7428,251 @@ msgstr "PHOTO"
 msgid "OLD MAN"
 msgstr "VIEILLARD"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1263 data/text/fame_checker_frlg.inc:1314
 #: data/text/fame_checker_frlg.inc:1341
 msgid "LITTLE GIRL"
-msgstr ""
+msgstr "Fillette"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1278 data/text/fame_checker_frlg.inc:1284
 #: data/text/fame_checker_frlg.inc:1290 data/text/fame_checker_frlg.inc:1293
 msgid "CRUSHER"
-msgstr ""
+msgstr "COGNEUR"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1326
 msgid "LITTLE BOY"
-msgstr ""
+msgstr "PETIT GARÇON"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1332 data/text/fame_checker_frlg.inc:1335
 #: data/text/fame_checker_frlg.inc:1338
 msgid "CELIO"
-msgstr ""
+msgstr "Celio"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1377
 msgid ""
 "POKéMON JOURNAL\\pSpecial Feature: PEWTER GYM\\nLEADER BROCK!\\pBROCK rarely"
 " laughs, but is said to\\nbe unable to stop if he starts."
 msgstr ""
+"Journal Pokémon\\pDossier spécial: Pierre, Champion de\\nl’Arène "
+"d’Argenta!\\pPierre rit rarement, mais on dit qu’il\\nne peut plus s’arrêter"
+" quand il\\lcommence."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1384
 msgid ""
 "POKéMON JOURNAL\\pSpecial Feature: CERULEAN GYM\\nLEADER MISTY!\\pMISTY is "
 "said to worship LORELEI\\nof the ELITE FOUR."
 msgstr ""
+"Journal Pokémon\\pDossier spécial: Ondine, Championne\\nde l’Arène "
+"d’Azuria!\\pOn dit qu’Ondine voue un culte à Olga,\\ndu Conseil 4."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1391
 msgid ""
 "POKéMON JOURNAL\\pSpecial Feature: VERMILION GYM\\nLEADER LT. SURGE!\\pLT. "
 "SURGE is rumored to have been\\na pilot while home in America.\\pHe used the"
 " electricity generated\\nby POKéMON to power his plane."
 msgstr ""
+"Journal Pokémon\\pDossier spécial: le Major Bob,\\nChampion de l’Arène de "
+"Carmin sur Mer!\\pOn raconte que le Major Bob était\\npilote quand il vivait"
+" en Amérique.\\pIl faisait voler son avion grâce à\\nl’électricité produite "
+"par des\\lPokémon."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1400
 msgid ""
 "POKéMON JOURNAL\\pSpecial Feature: CELADON GYM\\nLEADER ERIKA!\\pRumor has "
 "it that if you peek into\\nCELADON GYM, you can often\\lsee ERIKA snoozing."
 msgstr ""
+"Journal Pokémon\\pDossier spécial: Erika, Championne de\\nl’Arène de "
+"Céladopole!\\pIl paraît que si on jette un œil dans\\nl’Arène de Céladopole,"
+" on voit souvent\\lErika faire la sieste."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1408
 msgid ""
 "POKéMON JOURNAL\\pSpecial Feature: FUCHSIA GYM\\nLEADER KOGA!\\pKOGA is said"
 " to have a thorough\\nknowledge of medicine.\\pHe even concocts medicine to "
 "nurse\\nhis POKéMON to health."
 msgstr ""
+"Journal Pokémon\\pDossier spécial: Koga, Champion de\\nl’Arène de "
+"Parmanie!\\pOn dit que Koga a une connaissance\\napprofondie de la "
+"médecine.\\pIl prépare même des remèdes pour\\nsoigner ses Pokémon."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1417
 msgid ""
 "POKéMON JOURNAL\\pSpecial Feature: SAFFRON GYM\\nLEADER SABRINA!\\pPeople "
 "say that SABRINA can\\ncommunicate with her POKéMON\\lduring battle without "
 "speaking."
 msgstr ""
+"Journal Pokémon\\pDossier spécial: Morgane, Championne\\nde l’Arène de "
+"Safrania!\\pOn dit que Morgane peut communiquer\\navec ses Pokémon pendant "
+"un combat\\lsans dire un mot."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1425
 msgid ""
 "POKéMON JOURNAL\\pSpecial Feature: CINNABAR GYM\\nLEADER BLAINE!\\pBLAINE is"
 " said to remove his dark\\nshades only when he is thinking up\\lnew quiz "
 "questions."
 msgstr ""
+"Journal Pokémon\\pDossier spécial: Auguste, Champion de\\nl’Arène de "
+"Cramois’Île!\\pOn dit qu’Auguste n’ôte ses lunettes\\nnoires que lorsqu’il "
+"invente de\\lnouvelles questions."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1433
 msgid ""
 "POKéMON JOURNAL\\pSpecial Feature:\\nELITE FOUR's LORELEI!\\pKnown for her "
 "logical, calculated,\\nand cool battling style, LORELEI\\lhas a surprising "
 "secret!"
 msgstr ""
+"Journal Pokémon\\pDossier spécial: Olga, du Conseil 4!\\pConnue pour son "
+"style de combat\\nlogique, calculé et froid, Olga cache\\lun secret "
+"surprenant!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1441
 msgid ""
 "POKéMON JOURNAL\\pSpecial Feature:\\nELITE FOUR's BRUNO!\\pBRUNO apparently "
 "joined the ELITE\\nFOUR out of his burning ambition to\\lbattle the best "
 "TRAINERS."
 msgstr ""
+"Journal Pokémon\\pDossier spécial: Aldo, du Conseil 4!\\pAldo serait entré "
+"au Conseil 4 tant il\\nbrûlait d’affronter les meilleurs\\lDresseurs."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1449
 msgid ""
 "POKéMON JOURNAL\\pSpecial Feature:\\nELITE FOUR's AGATHA!\\pIn her youth, "
 "AGATHA and PROF.\\nOAK were rivals who vied for\\lsupremacy as TRAINERS."
 msgstr ""
+"Journal Pokémon\\pDossier spécial: Agatha, du Conseil 4!\\pDans sa jeunesse,"
+" Agatha et le Prof.\\nChen étaient rivaux. Chacun voulait\\lsurpasser "
+"l’autre en tant que\\lDresseur."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1457
 msgid ""
 "POKéMON JOURNAL\\pSpecial Feature:\\nELITE FOUR's LANCE!\\pLANCE's "
 "grandfather is thought to\\nbe the elder of a famous clan of\\ldragon "
 "masters."
 msgstr ""
+"Journal Pokémon\\pDossier spécial: Peter, du Conseil 4!\\pLe grand-père de "
+"Peter serait\\nl’Ancien d’un célèbre clan de maîtres\\ldes dragons."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1465
 msgid ""
 "POKéMON JOURNAL\\pSpecial Feature: PROF. OAK,\\nthe POKéMON "
 "Researcher!\\pPROF. OAK reportedly lives with his\\ngrandchildren DAISY and "
 "{RIVAL}."
 msgstr ""
+"Journal Pokémon\\pDossier spécial: le Prof. Chen,\\nchercheur Pokémon!\\pLe "
+"Prof. Chen vivrait avec ses\\npetits-enfants, Nina et {RIVAL}."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/fame_checker_frlg.inc:1472
 msgid ""
 "This is a POKéMON JOURNAL from\\nyears ago…\\pPOKéMON JOURNAL\\nCONTEST "
 "Special!\\pThe Spring POKéMON CONTEST's\\nGrand Champion is DAISY OAK "
 "of\\lPALLET TOWN!"
 msgstr ""
+"C’est un vieux numéro du Journal\\nPokémon…\\pJournal Pokémon\\nSpécial "
+"Concours!\\pLa grande gagnante du Concours\\nPokémon de printemps est Nina "
+"Chen,\\lde Bourg Palette!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : SS : POKéMON HOUSE = « Bénévolat de Lavanville » (banque 475)
 #: data/text/fame_checker_frlg.inc:1481
 msgid ""
 "POKéMON JOURNAL\\pSpecial Feature:\\nMR. FUJI of POKéMON HOUSE!\\pEditor: "
 "The shy MR. FUJI turned\\ndown our interview requests.\\pHe is a kindly man "
 "who is adored\\nand respected in LAVENDER TOWN."
 msgstr ""
+"Journal Pokémon\\pDossier spécial: M. Fuji, du Bénévolat\\nde "
+"Lavanville!\\pNote de la rédaction: le timide M. Fuji\\na décliné nos "
+"demandes d’interview.\\pC’est un homme bienveillant, adoré et\\nrespecté à "
+"Lavanville."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/ingame_trade_frlg.inc:2
 msgid ""
 "I'm looking for the POKéMON\\n{STR_VAR_1}!\\pWanna trade one for "
 "my\\n{STR_VAR_2}?"
 msgstr ""
+"Je cherche le Pokémon\\n{STR_VAR_1}!\\pTu veux m’en échanger un contre\\nmon"
+" {STR_VAR_2}?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/ingame_trade_frlg.inc:8
 msgid "Awww!\\nOh, well…"
-msgstr ""
+msgstr "Oooh!\\nTant pis…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : SS (LakeOfRage_House2_hns) : « Quoi? Ce n’est pas un MAGICARPE! »
 #: data/text/ingame_trade_frlg.inc:12
 msgid "What?\\nThat's no {STR_VAR_1}!"
-msgstr ""
+msgstr "Quoi?\\nCe n’est pas un {STR_VAR_1}!"
 
 #. source : SoulSilver FR officiel
 #: data/text/ingame_trade_frlg.inc:16
 msgid "Hey, thanks!"
 msgstr "Bien! Parfait!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/ingame_trade_frlg.inc:19
 msgid "Isn't my old {STR_VAR_2} great?"
-msgstr ""
+msgstr "Mon ancien {STR_VAR_2}, il est top?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/ingame_trade_frlg.inc:22
 msgid ""
 "Hello, there! Do you happen to\\nhave a {STR_VAR_1}?\\pWould you agree to a "
 "trade for\\nmy {STR_VAR_2}?"
 msgstr ""
+"Bonjour! Tu n’aurais pas un\\n{STR_VAR_1}, par hasard?\\pAccepterais-tu de "
+"l’échanger\\ncontre mon {STR_VAR_2}?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/ingame_trade_frlg.inc:28
 msgid "Well, if you don't want to…"
-msgstr ""
+msgstr "Bon, si tu ne veux pas…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/ingame_trade_frlg.inc:31
 msgid "Hmmm?\\nThis isn't a {STR_VAR_1}.\\pThink of me if you get one."
-msgstr ""
+msgstr "Hmmm?\\nCe n’est pas un {STR_VAR_1}.\\pPense à moi si tu en trouves un."
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
@@ -6881,9 +7680,11 @@ msgstr ""
 msgid "Thanks!"
 msgstr "Merci!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/ingame_trade_frlg.inc:39
 msgid "The {STR_VAR_2} that I traded you,\\nhas it grown stronger?"
-msgstr ""
+msgstr "Le {STR_VAR_2} que je t’ai échangé,\\nil est devenu plus fort?"
 
 #: data/maps/VermilionCity_House2_Frlg/scripts.inc:39
 #: data/text/ingame_trade_frlg.inc:43
@@ -6896,17 +7697,23 @@ msgstr ""
 msgid "That's too bad."
 msgstr "\\nTant pis."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/ingame_trade_frlg.inc:52
 msgid "…This is no {STR_VAR_1}.\\pIf you get one, trade it with me."
-msgstr ""
+msgstr "…Ce n’est pas un {STR_VAR_1}.\\pSi tu en trouves un, échange-le-moi."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/ingame_trade_frlg.inc:56
 msgid "Thanks, you're a pal!"
-msgstr ""
+msgstr "Merci, t’es un pote!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/ingame_trade_frlg.inc:59
 msgid "How is my old {STR_VAR_2}?\\nMy {STR_VAR_1} is doing great!"
-msgstr ""
+msgstr "Comment va mon ancien {STR_VAR_2}?\\nMon {STR_VAR_1} va très bien!"
 
 #. source : patch FR actuel
 #: data/text/lottery_corner.inc:2
@@ -12473,21 +13280,29 @@ msgstr "Pas la peine d’être timide.\\nOn va se rentrer dedans!"
 msgid "Rattle trees with HEADBUTT.\\nSometimes, sleeping POKéMON fall out."
 msgstr "Secoue les arbres avec Coup d’Boule.\\nDes Pokémon endormis en tombent!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:2
 msgid "NEW NAME"
-msgstr ""
+msgstr "NOUVEAU NOM"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:17
 msgid "GARY"
-msgstr ""
+msgstr "RÉGIS"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:20
 msgid "KAZ"
-msgstr ""
+msgstr "KAZ"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:23
 msgid "TORU"
-msgstr ""
+msgstr "TORU"
 
 #. nom propre/fragment conservé (le patch FR actuel donnait un morceau d’un
 #. autre texte)
@@ -12495,42 +13310,58 @@ msgstr ""
 msgid "ASH"
 msgstr "ASH"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:29
 msgid "KENE"
-msgstr ""
+msgstr "KENE"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:32
 msgid "GEKI"
-msgstr ""
+msgstr "GEKI"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:35
 msgid "JAK"
-msgstr ""
+msgstr "JAK"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:38
 msgid "JANNE"
-msgstr ""
+msgstr "JANNE"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:44
 msgid "KAMON"
-msgstr ""
+msgstr "KAMON"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:47
 msgid "KARL"
-msgstr ""
+msgstr "KARL"
 
 #. source : SoulSilver FR officiel
 #: data/text/new_game_intro_frlg.inc:56
 msgid "HIRO"
 msgstr "Hiro"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:62
 msgid "JON"
-msgstr ""
+msgstr "JON"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:71
 msgid "TOSH"
-msgstr ""
+msgstr "TOSH"
 
 #. nom propre/fragment conservé (le patch FR actuel donnait un morceau d’un
 #. autre texte)
@@ -12542,9 +13373,11 @@ msgstr "ROAK"
 msgid "OMI"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:80
 msgid "JODI"
-msgstr ""
+msgstr "JODI"
 
 #. source : SoulSilver FR officiel
 #: data/text/new_game_intro_frlg.inc:86 src/data/trainers_hns.party:2934
@@ -12552,29 +13385,39 @@ msgstr ""
 msgid "HILLARY"
 msgstr "Josianne"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:89
 msgid "MAKEY"
-msgstr ""
+msgstr "MAKEY"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:92
 msgid "MICHI"
-msgstr ""
+msgstr "MICHI"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:98
 msgid "JUNE"
-msgstr ""
+msgstr "JUNE"
 
 #: data/text/new_game_intro_frlg.inc:104
 msgid "REY"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:107
 msgid "SEDA"
-msgstr ""
+msgstr "SEDA"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:110
 msgid "KIKO"
-msgstr ""
+msgstr "KIKO"
 
 #. nom propre/fragment conservé (le patch FR actuel donnait un morceau d’un
 #. autre texte)
@@ -12582,57 +13425,98 @@ msgstr ""
 msgid "MINA"
 msgstr "MINA"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:116
 msgid "NORIE"
-msgstr ""
+msgstr "NORIE"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:119
 msgid "SAI"
-msgstr ""
+msgstr "SAI"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:122
 msgid "MOMO"
-msgstr ""
+msgstr "MOMO"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:125
 msgid "SUZI"
-msgstr ""
+msgstr "SUZI"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:128
 msgid ""
 "The various buttons will be explained in\\nthe order of their importance."
-msgstr ""
+msgstr "Les boutons vont être présentés par\\nordre d’importance."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : SS 219:14 « La manette sert à contrôler les déplacements du
+#. personnage. Tu peux aussi l’utiliser pour sélectionner une option. »
 #: data/text/new_game_intro_frlg.inc:132
 msgid "Moves the main character.\\nAlso used to choose various data\\nheadings."
 msgstr ""
+"Déplacer le personnage principal.\\nSert aussi à choisir parmi "
+"les\\ndifférentes rubriques."
 
+#. source : SoulSilver FR officiel
+#. lot : D1_dialogues
+#. preuve : SS 219:16 « Confirmer un choix, examiner,\nparler et faire défiler
+#. le texte. »
 #: data/text/new_game_intro_frlg.inc:137
 msgid "Used to confirm a choice, check\\nthings, chat, and scroll text."
-msgstr ""
+msgstr "Confirmer un choix, examiner,\\nparler et faire défiler le texte."
 
+#. source : SoulSilver FR officiel
+#. lot : D1_dialogues
+#. preuve : SS 219:16 « Quitter, annuler un choix ou\nun mode. »
 #: data/text/new_game_intro_frlg.inc:141
 msgid "Used to exit, cancel a choice,\\nand cancel a mode."
-msgstr ""
+msgstr "Quitter, annuler un choix ou\\nun mode."
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS 219:17 « Appuyer pour ouvrir le menu. »
 #: data/text/new_game_intro_frlg.inc:145
 msgid "Press this button to open the\\nMENU."
-msgstr ""
+msgstr "Appuyer pour ouvrir le\\nMENU."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : SS 219:17 « Appuyer pour utiliser un objet, tel que la Bicyclette,
+#. ayant été enregistré. »
 #: data/text/new_game_intro_frlg.inc:149
 msgid "Used to shift items and to use\\na registered item."
-msgstr ""
+msgstr "Déplacer des objets ou utiliser\\nun objet enregistré."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:153
 msgid ""
 "If you need help playing the\\ngame, or on how to do things,\\npress the L "
 "or R Button."
 msgstr ""
+"Pour obtenir de l’aide sur le jeu ou\\nsur la façon de faire quelque "
+"chose,\\nappuyer sur le bouton L ou R."
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « Es-tu un garçon?\nOu es-tu une fille? »
 #: data/text/new_game_intro_frlg.inc:158
 msgid "Now tell me. Are you a boy?\\nOr are you a girl?"
-msgstr ""
+msgstr "Dis-moi… Es-tu un garçon?\\nOu es-tu une fille?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : SS 219:28-29 « Prépare-toi à te lancer dans une grande aventure…
+#. Profites-en pour récolter autant d’informations que possible. »
 #: data/text/new_game_intro_frlg.inc:162
 msgid ""
 "In the world which you are about to\\nenter, you will embark on a "
@@ -12640,77 +13524,139 @@ msgid ""
 "things\\nwherever you go, be it towns, roads,\\nor caves. Gather information"
 " and\\nhints from every source."
 msgstr ""
+"Dans le monde où tu vas entrer, une\\ngrande aventure t’attend, et "
+"c’est\\ntoi qui en seras le héros.\\n\\nParle aux gens et examine tout "
+"ce\\nque tu vois, en ville, sur les routes\\nou dans les grottes. Récolte "
+"infos\\net indices partout où tu passes."
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS 219:30-31 « En résolvant des mystères et en aidant les gens, tu
+#. pourras ouvrir de nouvelles voies. » / « …Sois brave et ne perds pas
+#. espoir. »
 #: data/text/new_game_intro_frlg.inc:172
 msgid ""
 "New paths will open to you by helping\\npeople in need, overcoming "
 "challenges,\\nand solving mysteries.\\n\\nAt times, you will be challenged "
 "by\\nothers and attacked by wild creatures.\\nBe brave and keep pushing on."
 msgstr ""
+"Aide les gens dans le besoin, relève\\ndes défis et résous des mystères: "
+"de\\lnouvelles voies s’ouvriront à toi.\\lParfois, d’autres te défieront et "
+"des\\lcréatures sauvages t’attaqueront.\\lSois brave et continue d’avancer."
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS 219:33 « Nous espérons que tu rencontreras\ntoutes sortes de
+#. gens pendant ce\nvoyage et que tu apprendras à\nmieux te
+#. connaître.\n\nC’est l’objectif principal de\ncette aventure. »
 #: data/text/new_game_intro_frlg.inc:181
 msgid ""
 "Through your adventure, we hope\\nthat you will interact with all sorts\\nof"
 " people and achieve personal growth.\\nThat is our biggest "
 "objective.\\n\\nPress the A Button, and let your\\nadventure begin!"
 msgstr ""
+"Nous espérons que tu rencontreras\\ntoutes sortes de gens pendant "
+"ton\\laventure et que tu grandiras. C’est\\lnotre but premier. Appuie sur "
+"le\\lbouton A, et que ton aventure\\lcommence!"
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS 219:6 « Bienvenue dans le monde de Pokémon!\rMon nom est
+#. Chen.\rMais tout le monde m’appelle\nle Professeur Pokémon. »
 #: data/text/new_game_intro_frlg.inc:190
 msgid ""
 "Hello, there!\\nGlad to meet you!\\pWelcome to the world of POKéMON!\\pMy "
 "name is OAK.\\pPeople affectionately refer to me\\nas the POKéMON "
 "PROFESSOR.\\p"
 msgstr ""
+"Bonjour!\\nRavi de te rencontrer!\\pBienvenue dans le monde de "
+"Pokémon!\\pMon nom est Chen.\\pOn m’appelle affectueusement le\\nProfesseur "
+"Pokémon.\\p"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:198
 msgid "This world…"
-msgstr ""
+msgstr "Ce monde…"
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS 219:34 « Ce monde est peuplé de créatures\nappelées Pokémon. »
 #: data/text/new_game_intro_frlg.inc:201
 msgid "…is inhabited far and wide by\\ncreatures called POKéMON.\\p"
-msgstr ""
+msgstr "…est peuplé partout de créatures\\nappelées Pokémon.\\p"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : SS 219:35 (« Moi?\rJe me contente de faire des recherches… »)
 #: data/text/new_game_intro_frlg.inc:205
 msgid ""
 "For some people, POKéMON are pets.\\nOthers use them for battling.\\pAs for "
 "myself…\\pI study POKéMON as a profession.\\p"
 msgstr ""
+"Certains en font des animaux de\\ncompagnie, d’autres des "
+"combattants.\\pQuant à moi…\\pJ’étudie les Pokémon, c’est mon\\nmétier.\\p"
 
+#. source : SoulSilver FR officiel
+#. lot : D1_dialogues
+#. preuve : SS 219:36 « Mais avant tout, parle-moi\nun peu de toi. »
 #: data/text/new_game_intro_frlg.inc:211
 msgid "But first, tell me a little about\\nyourself.\\p"
-msgstr ""
+msgstr "Mais avant tout, parle-moi\\nun peu de toi.\\p"
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : SS 219:40 « Comment t’appelles-tu? »
 #: data/text/new_game_intro_frlg.inc:215
 msgid "Let's begin with your name.\\nWhat is it?\\p"
-msgstr ""
+msgstr "Commençons par ton nom.\\nComment t’appelles-tu?\\p"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : SS 219:41 « Tu t’appelles {STRVAR_1 3 0, 0}? »
 #: data/text/new_game_intro_frlg.inc:219
 msgid "Right…\\nSo your name is {PLAYER}."
-msgstr ""
+msgstr "Bien…\\nTu t’appelles donc {PLAYER}."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:223
 msgid ""
 "This is my grandson.\\pHe's been your rival since you both\\nwere "
 "babies.\\p…Erm, what was his name now?"
 msgstr ""
+"Voici mon petit-fils.\\pVous êtes rivaux depuis que vous\\nêtes tout "
+"petits.\\p…Euh, comment s’appelle-t-il déjà?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:229
 msgid "Your rival's name, what was it now?"
-msgstr ""
+msgstr "Comment s’appelle ton rival, déjà?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:232
 msgid "…Er, was it {RIVAL}?"
-msgstr ""
+msgstr "…Euh, c’est bien {RIVAL}?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/new_game_intro_frlg.inc:235
 msgid "That's right! I remember now!\\nHis name is {RIVAL}!\\p"
-msgstr ""
+msgstr "Mais oui! Ça me revient!\\nIl s’appelle {RIVAL}!\\p"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : SS 219:43 « Tu es sur le point d’embarquer\npour une aventure
+#. unique. »
 #: data/text/new_game_intro_frlg.inc:239
 msgid ""
 "{PLAYER}!\\pYour very own POKéMON legend is\\nabout to unfold!\\pA world of "
 "dreams and adventures\\nwith POKéMON awaits! Let's go!"
 msgstr ""
+"{PLAYER}!\\pTa propre légende Pokémon est\\nsur le point de commencer!\\pUn "
+"monde de rêves et d’aventures\\navec les Pokémon t’attend! En route!"
 
 #. source : patch FR actuel
 #: data/text/oak_speech_hns.inc:2
@@ -12902,9 +13848,12 @@ msgstr "{STR_VAR_2} a été transféré dans\\n"
 msgid "BILL'S PC.\\p"
 msgstr "PC DE LEO"
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « PC d’ANNETTE »
 #: data/text/pc_transfer.inc:12
 msgid "LANETTE'S PC.\\p"
-msgstr ""
+msgstr "le PC d’ANNETTE.\\p"
 
 #. source : traduction manuelle (style SoulSilver)
 #: data/text/pc_transfer.inc:14
@@ -12930,9 +13879,12 @@ msgstr "la Boîte “{STR_VAR_3}” du\\n"
 msgid "BILL'S PC was full.\\p"
 msgstr "Le PC de Léo était plein.\\p"
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « PC d’ANNETTE »
 #: data/text/pc_transfer.inc:28
 msgid "LANETTE'S PC was full.\\p"
-msgstr ""
+msgstr "PC d’ANNETTE était pleine.\\p"
 
 #. source : traduction manuelle (style SoulSilver)
 #: data/text/pc_transfer.inc:30
@@ -14486,11 +15438,15 @@ msgstr "{STR_VAR_1} utilise Surf!"
 msgid "The current is much too fast!\\nSURF can't be used here…"
 msgstr "Le courant est bien trop fort!\\nImpossible d’utiliser Surf ici…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:2
 msgid ""
 "It's a POKéMON PRINTER!\\pIt can put a print of your POKéMON\\non the back "
 "of your TRAINER CARD.\\pIt costs only ¥50.\\nWould you like to try it?"
 msgstr ""
+"C’est une Imprimante Pokémon!\\pElle peut imprimer un de vos Pokémon\\nau "
+"dos de votre Carte Dresseur.\\pÇa ne coûte que 50¥.\\nVoulez-vous essayer?"
 
 #. source : patch FR actuel
 #. SoulSilver (approché) : Oh là! Tu n’as pas assez d’argent!
@@ -14501,22 +15457,32 @@ msgstr ""
 msgid "You don't have enough money."
 msgstr "Vous n’avez pas assez d’argent."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:12
 msgid "Please choose the print type."
-msgstr ""
+msgstr "Veuillez choisir le type d’impression."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:15
 msgid "A big smile for the photo, please!\\nThree… Two… One…\\pFlash!"
-msgstr ""
+msgstr "Un grand sourire pour la photo!\\nTrois… Deux… Un…\\pFlash!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:20
 msgid "Your POKéMON print is ready!\\nCheck your TRAINER CARD."
-msgstr ""
+msgstr "Votre impression Pokémon est prête!\\nRegardez votre Carte Dresseur."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:24
 msgid "Giggle…\\nI collected a ton of STICKERS.\\lI wish I could show them off…"
-msgstr ""
+msgstr "Hihi…\\nJ’ai une tonne d’autocollants.\\lJ’aimerais tant les montrer…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:29
 msgid ""
 "Oh, excellent!\\nYou've come to the right place!\\pLook, look! See? "
@@ -14524,114 +15490,186 @@ msgid ""
 "some.\\nI bet you do!\\pI'll give a STICKER if you can tell\\nme something "
 "awesome about\\lyourself.\\pWhat will you brag about?"
 msgstr ""
+"Oh, super!\\nTu tombes bien!\\pRegarde, regarde! Tu vois? Tu vois?\\nCe sont"
+" mes autocollants!\\lRegarde comme j’en ai plein!\\pJe parie que tu en "
+"veux.\\nJe le sais!\\pJe t’en donne un si tu me racontes\\nquelque chose de "
+"génial sur toi.\\pDe quoi vas-tu te vanter?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:42
 msgid "Brag about something for me.\\nI'll give you a STICKER."
-msgstr ""
+msgstr "Vante-toi de quelque chose.\\nJe te donnerai un autocollant."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:46
 msgid ""
 "Oh, hi!\\nHere comes the braggart.\\pWhat are you going to brag "
 "about\\ntoday?"
-msgstr ""
+msgstr "Oh, salut!\\nVoilà le vantard.\\pDe quoi vas-tu te vanter\\naujourd’hui?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:52
 msgid ""
 "Oh, wow, you made it into the\\nHALL OF FAME.\\pThat's pretty good, "
 "yup!\\nI'll give you one of these."
 msgstr ""
+"Ouah, tu as réussi à entrer au\\nPanthéon.\\pC’est pas mal du tout, "
+"ouais!\\nTiens, je te donne ça."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:58
 msgid ""
 "Oh, wow, you've entered the\\nHALL OF FAME often!\\pThat's impressive, "
 "yup!\\nI'll give you one of these."
 msgstr ""
+"Ouah, tu as fait ton entrée au\\nPanthéon plein de fois!\\pC’est "
+"impressionnant, ouais!\\nTiens, je te donne ça."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:64
 msgid ""
 "Whoa! You've made it into the\\nHALL OF FAME that often?\\lThat's seriously "
 "incredible, yup!\\pYou own the POKéMON LEAGUE!\\nI'll give you one of these."
 msgstr ""
+"Waouh! Tu as fait ton entrée au\\nPanthéon aussi souvent?\\lC’est vraiment "
+"incroyable, ouais!\\pLa Ligue Pokémon est à tes pieds!\\nTiens, je te donne "
+"ça."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:71
 msgid ""
 "No way! You've gone into the\\nHALL OF FAME that many times?\\pYou're beyond"
 " incredible, yup!\\nThat's it, I have to give you this."
 msgstr ""
+"Pas possible! Tu as fait ton entrée\\nau Panthéon tant de fois?\\pTu es plus"
+" qu’incroyable, ouais!\\nC’est décidé, je dois te donner ça."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:77
 msgid "The HALL OF FAME STICKER was\\napplied to the TRAINER CARD."
-msgstr ""
+msgstr "L’autocollant Panthéon a été\\ncollé sur la Carte Dresseur."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:81 data/text/trainer_card_frlg.inc:120
 #: data/text/trainer_card_frlg.inc:160
 msgid "Hmm…\\pCome back with a better story next\\ntime, okay?"
-msgstr ""
+msgstr "Hmm…\\pReviens avec une meilleure histoire\\nla prochaine fois, d’accord?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:86 data/text/trainer_card_frlg.inc:125
 #: data/text/trainer_card_frlg.inc:165
 msgid ""
 "Oh, no, no can do.\\pYou're practically a living legend.\\nI have no "
 "SITCKERS left to give."
 msgstr ""
+"Oh, non, impossible.\\pTu es pratiquement une légende\\nvivante. Je n’ai "
+"plus d’autocollants à\\lte donner."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:91
 msgid ""
 "Oh, wow, there are POKéMON EGGS?\\nI didn't know that!\\pThat's pretty good,"
 " yup!\\nI'll give you one of these."
 msgstr ""
+"Ouah, il y a des Œufs de Pokémon?\\nJe ne le savais pas!\\pC’est pas mal du "
+"tout, ouais!\\nTiens, je te donne ça."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:97
 msgid ""
 "You've hatched that many EGGS?\\nYou really must like them!\\pThat's "
 "impressive, yup!\\nI'll give you one of these."
 msgstr ""
+"Tu as fait éclore autant d’Œufs?\\nTu dois vraiment les adorer!\\pC’est "
+"impressionnant, ouais!\\nTiens, je te donne ça."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:103
 msgid ""
 "Whoa! You've hatched a whole\\nbunch of EGGS!\\pYou're an EGG-hatching "
 "machine!\\nI'll give you one of these."
 msgstr ""
+"Waouh! Tu as fait éclore une flopée\\nd’Œufs!\\pTu fais éclore les Œufs à la"
+" chaîne!\\nTiens, je te donne ça."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:109
 msgid ""
 "Wh… You hatched that many EGGS?\\pWhat's behind your love of EGGS?\\nIt's "
 "beyond incredible, yup!\\pYou're too awesome, I tell you.\\nThat's it, I "
 "have to give you this."
 msgstr ""
+"Qu… Tu as fait éclore autant d’Œufs?\\pD’où te vient cet amour des "
+"Œufs?\\nC’est plus qu’incroyable, ouais!\\pTu es trop génial, je te "
+"jure.\\nC’est décidé, je dois te donner ça."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:116
 msgid "The EGG STICKER was applied\\nto the TRAINER CARD."
-msgstr ""
+msgstr "L’autocollant Œuf a été collé\\nsur la Carte Dresseur."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : LINK BATTLES = « COMBATS EN LINK »
 #: data/text/trainer_card_frlg.inc:130
 msgid ""
 "Oh, wow, you've had success\\nlink battling?\\pYou're pretty strong, "
 "yup!\\nI'll give you one of these."
 msgstr ""
+"Ouah, tu as gagné des combats\\nen link?\\pTu es plutôt fort, "
+"ouais!\\nTiens, je te donne ça."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:136
 msgid ""
 "You've beaten your friends a lot\\nlink battling, huh?\\pYou're impressively"
 " strong, yup!\\nI'll give you one of these."
 msgstr ""
+"Tu as souvent battu tes amis\\nen link, hein?\\pTu es drôlement fort, "
+"ouais!\\nTiens, je te donne ça."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:142
 msgid ""
 "Whoa! You've beaten your friends\\na frightful number of times.\\pHave you "
 "lost friends over this?\\nI'll give you one of these."
 msgstr ""
+"Waouh! Tu as battu tes amis un\\nnombre effrayant de fois.\\pTu n’as pas "
+"perdu d’amis, à force?\\nTiens, je te donne ça."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:148
 msgid ""
 "Wh… Wickedly whoa!\\nYou've won mind-blowingly often!\\pIt just knocks me "
 "out thinking\\nabout how tough you are.\\pYou're the stuff of "
 "nightmares!\\nThat's it, I have to give you this."
 msgstr ""
+"Qu… Super-méga-waouh!\\nTu as gagné un nombre de fois fou!\\pRien que de "
+"penser à ta force,\\nj’en suis toute retournée.\\pTu es un vrai "
+"cauchemar!\\nC’est décidé, je dois te donner ça."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainer_card_frlg.inc:156
 msgid "The VICTORY STICKER was applied\\nto the TRAINER CARD."
-msgstr ""
+msgstr "L’autocollant Victoire a été collé\\nsur la Carte Dresseur."
 
 #. source : patch FR actuel
 #: data/text/trainers.inc:2
@@ -21655,299 +22693,474 @@ msgstr ""
 msgid "Hey!\\nI saw you in VIRIDIAN FOREST!"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:6
 msgid ""
 "Hi! I like shorts!\\nThey're comfy and easy to wear!\\pYou should be wearing"
 " shorts, too!"
 msgstr ""
+"Salut! J’adore les shorts! C’est\\nconfortable et facile à porter!\\pTu "
+"devrais porter un short, toi aussi!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:11
 msgid "Excuse me!\\nYou keep looking at me, don't you?"
-msgstr ""
+msgstr "Excuse-moi! Tu n’arrêtes pas de me\\nregarder, hein?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:15
 msgid "You're a TRAINER, aren't you?\\nLet's get with it right away!"
-msgstr ""
+msgstr "T’es un Dresseur, hein? Allons-y tout\\nde suite!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:19
 msgid "That look you give me…\\nIt intrigues me so!"
-msgstr ""
+msgstr "Ce regard que tu me lances… Il\\nm’intrigue tellement!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:23
 msgid "Hey! What's wrong with you?\\nYou're still not wearing shorts!"
 msgstr ""
+"Hé! Qu’est-ce qui ne va pas chez toi?\\nTu ne portes toujours pas de short!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:27
 msgid "I'll battle you with the POKéMON\\nI started raising."
-msgstr ""
+msgstr "Je vais t’affronter avec les Pokémon\\nque j’ai commencé à élever."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:31
 msgid "Eek!\\nDid you push me?"
-msgstr ""
+msgstr "Hiii! Tu m’as poussée?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:35
 msgid "I always catch mushroom POKéMON\\non MT. MOON."
-msgstr ""
+msgstr "J’attrape toujours des Pokémon\\nchampignons au Mont Sélénite."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:39
 msgid "Oh! You're that nosy kid who\\neavesdropped on us!"
-msgstr ""
+msgstr "Oh! T’es le petit curieux qui nous a\\nespionnés!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:43
 msgid ""
 "Excuse me! Didn't I tell you that\\nthis is a private conversation?\\pYou "
 "shouldn't be listening in,\\nyou uncouth person!"
 msgstr ""
+"Excuse-moi! Je ne t’ai pas dit que\\nc’était une conversation privée?\\pTu "
+"ne devrais pas écouter aux portes,\\nespèce de malpoli!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:49
 msgid "I'm trying to find something good\\nthat's not a BUG POKéMON, but…"
 msgstr ""
+"J’essaie de trouver quelque chose de\\nbien qui ne soit pas un "
+"Pokémon\\lInsecte, mais…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:53
 msgid "Huh?\\nYou want to go with me again?"
-msgstr ""
+msgstr "Hein? Tu veux encore te mesurer à\\nmoi?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:57
 msgid "Me?\\nWell, okay. I'll play this once."
-msgstr ""
+msgstr "Moi? Bon, d’accord. Rien qu’une fois."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:61
 msgid "Hey, long time!\\nHave you gotten better?"
-msgstr ""
+msgstr "Hé, ça fait longtemps! Tu as fait des\\nprogrès?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:65
 msgid "You are good at POKéMON, but how\\nis your chemistry grade?"
 msgstr ""
+"Tu es doué avec les Pokémon, mais\\nqu’en est-il de tes notes en chimie?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:69
 msgid "All right!\\nLet's play another game!"
-msgstr ""
+msgstr "Très bien! Faisons une autre partie!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:73
 msgid "You need strategy to win at\\nbattling.\\pAre you following my advice?"
 msgstr ""
+"Il faut de la stratégie pour gagner au\\ncombat.\\pTu suis bien mes "
+"conseils?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:78
 msgid "I've collected many NIDORAN.\\nI don't want them to evolve, but…"
 msgstr ""
+"J’ai collectionné plein de NIDORAN. Je\\nne veux pas qu’ils évoluent, mais…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:82
 msgid "School is fun, but I still think\\nPOKéMON are fun, too."
-msgstr ""
+msgstr "L’école, c’est amusant, mais je trouve\\nque les Pokémon aussi."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:86
 msgid "MEOWTH and PERSIAN are so cute,\\nmeow, meow, meow!"
-msgstr ""
+msgstr "MIAOUSS et PERSIAN sont trop\\nmignons, miaou, miaou, miaou!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:90
 msgid "We may look silly standing here\\nlike this, but I can still battle."
 msgstr ""
+"On a peut-être l’air bêtes, plantés là,\\nmais je peux quand même me battre."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:94
 msgid "I'm a rambling, gaming dude!\\nI'm on a winning streak!"
-msgstr ""
+msgstr "Je suis un joueur vagabond! Et\\nj’enchaîne les victoires!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:98
 msgid "What's a cute, round, and fluffy\\nPOKéMON?\\pYou already know, don't you?"
 msgstr ""
+"C’est quoi, un Pokémon mignon, rond et\\ntout doux?\\pTu le sais déjà, hein?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:103
 msgid "My bike's still acting up, man."
-msgstr ""
+msgstr "Ma bécane fait encore des siennes!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:106
 msgid "Okay, kid!\\nDon't expect mercy this time!"
-msgstr ""
+msgstr "OK, Gamin! Cette fois, ne t’attends\\npas à de la pitié!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:110
 msgid "ELI: Our twin power became even\\nbetter!"
-msgstr ""
+msgstr "Eli: Notre force de jumelles est\\nencore plus grande!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:114
 msgid "ANNE: Our twin power powered up!"
-msgstr ""
+msgstr "Anne: Notre force de jumelles monte!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:117
 msgid "We're to battle again?\\nThis time, you're mine!"
-msgstr ""
+msgstr "On se bat encore? Cette fois, tu es à\\nmoi!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:121
 msgid "I haven't forgotten you were with\\nthose good-looking POKéMON."
-msgstr ""
+msgstr "Je n’ai pas oublié que tu avais de\\nsuperbes Pokémon avec toi."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:125
 msgid ""
 "I'm taking ROCK TUNNEL to go to\\nLAVENDER…\\pBut I keep getting stopped "
 "by\\neveryone along the way…"
 msgstr ""
+"Je passe par la Grotte pour aller à\\nLavanville…\\pMais tout le monde "
+"m’arrête en\\nchemin…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:131
 msgid "Don't you dare patronize me today!\\nWe're playing for keeps!"
-msgstr ""
+msgstr "Ne me prends pas de haut aujourd’hui!\\nCette fois, c’est pour de vrai!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:135
 msgid "Bwahaha!\\nGreat! I was bored again, eh!"
-msgstr ""
+msgstr "Bwahaha! Génial! Je m’ennuyais\\nencore, hein!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:139
 msgid "Hahaha!\\nA little toughie, as always!"
-msgstr ""
+msgstr "Hahaha! Toujours aussi coriace, le\\npetit!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:143
 msgid "I got up early every day to train\\nmy POKéMON from cocoons!"
 msgstr ""
+"Je me suis levé tôt tous les jours\\npour entraîner mes Pokémon dès "
+"leur\\lstade de cocon!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:147
 msgid "Hahahaha!\\nI'll win this time!"
-msgstr ""
+msgstr "Hahahaha! Cette fois, je vais gagner!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:151
 msgid "Go win, my super BUG POKéMON!"
-msgstr ""
+msgstr "Gagnez, mes super Pokémon Insecte!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:154
 msgid ""
 "Wow, you came here again?\\nMaybe you're a POKéMANIAC, too?\\lWant to see my"
 " collection?"
 msgstr ""
+"Ouah, tu es encore venu ici? T’es\\npeut-être un Pokémaniac, toi aussi?\\lTu"
+" veux voir ma collection?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:159
 msgid "Ha-hahah-ah-ha!\\nI can't stop sneezing!"
-msgstr ""
+msgstr "Ha-hahah-ah-ha! Je n’arrête pas\\nd’éternuer!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:163
 msgid "Hi, kid!\\nDid I show you my POKéMON?"
-msgstr ""
+msgstr "Salut, petit! Je t’ai montré mes\\nPokémon?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:167
 msgid "I went out to a POKéMON GYM again.\\p…But I lost as usual."
 msgstr ""
+"Je suis retournée dans une Arène\\nPokémon.\\p…Mais j’ai perdu, comme "
+"d’habitude."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:171
 msgid "Ah!\\nThis mountain air is delicious!\\lIt's so good, I can't leave!"
 msgstr ""
+"Ah! L’air de la montagne est délicieux!\\nSi bon que je ne peux plus partir!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:176
 msgid "My head is starting to spin.\\nI've been hiking for too long…"
-msgstr ""
+msgstr "La tête commence à me tourner. J’ai\\nmarché trop longtemps…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:180
 msgid "Win, lose, or draw!\\nNow for our rematch!"
-msgstr ""
+msgstr "Victoire, défaite ou match nul! Place\\nà la revanche!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:184
 msgid "Competing is the ultimate thrill.\\nI still can't get enough!"
-msgstr ""
+msgstr "La compétition, c’est le frisson\\nultime. J’en redemande!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:188
 msgid "You know, right?\\nLet's go, but don't cheat!"
-msgstr ""
+msgstr "Tu connais la règle, hein? Allons-y,\\nmais pas de triche!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:192
 msgid "Hi, there!\\pBut be careful!\\nI'm still laying down some cables!"
 msgstr ""
+"Salut!\\pMais fais attention! Je suis encore\\nen train de poser des câbles!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:197
 msgid "I became a TRAINER a while ago.\\nBut, I think I can win."
-msgstr ""
+msgstr "Ça fait un moment que je suis\\nDresseur. Mais je pense pouvoir\\lgagner."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:201
 msgid ""
 "Fwahaha!\\nI have never lost!\\p…And if I did, I've forgotten all\\nabout "
 "it!"
 msgstr ""
+"Fwahaha! Je n’ai jamais perdu!\\p…Et si ça m’est arrivé, je "
+"l’ai\\ncomplètement oublié!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:207
 msgid "I have never won before…\\pPerhaps I am destined to remain\\nthat way…"
-msgstr ""
+msgstr "Je n’ai jamais gagné…\\pPeut-être suis-je destiné à rester\\nainsi…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:212
 msgid "I'm the best in my class.\\nI train every morning and night!"
-msgstr ""
+msgstr "Je suis le meilleur de ma classe. Je\\nm’entraîne matin et soir!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:216
 msgid "Keep your eyes out for live wires!"
-msgstr ""
+msgstr "Attention aux fils sous tension!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:219
 msgid ""
 "I raised my POKéMON carefully.\\nThey should be ready by now.\\lThis time, "
 "they should win, too."
 msgstr ""
+"J’ai élevé mes Pokémon avec soin. Ils\\ndevraient être prêts, "
+"maintenant.\\lCette fois, ils devraient gagner."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:224
 msgid "Yeah!\\nI got a bite, here!\\lTh-this might be the real thing!"
-msgstr ""
+msgstr "Ouais! Ça mord! C-cette fois, c’est\\npeut-être la bonne!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:229
 msgid "You're finally here.\\nFishing is a waiting game."
-msgstr ""
+msgstr "Te voilà enfin. La pêche, c’est l’art\\nd’attendre."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:233
 msgid "Still can't find a MOON STONE…\\nHave you found one?"
-msgstr ""
+msgstr "Toujours pas de Pierre Lune… Tu en as\\ntrouvé une, toi?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:237
 msgid ""
 "Electricity has always been my\\nspecialty.\\pI don't know a thing about "
 "POKéMON\\nof the sea, though."
 msgstr ""
+"L’électricité a toujours été ma\\nspécialité.\\pPar contre, je n’y connais "
+"rien en\\nPokémon de la mer."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:243
 msgid "The FISHING FOOL vs. POKéMON KID!\\nAnother round, fight!"
-msgstr ""
+msgstr "Le fou de pêche contre le petit\\nDresseur! Deuxième round, Combat!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:247
 msgid ""
 "I love fishing, don't get me wrong.\\nBut, I wish I had more work…\\l…It's "
 "hard to give up fishing!"
 msgstr ""
+"J’adore la pêche, comprends-moi bien.\\nMais j’aimerais avoir plus de "
+"travail…\\l…C’est dur d’arrêter la pêche!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:252
 msgid "What's catching?\\pYou'll never know unless you beat\\nme!"
 msgstr ""
+"Qu’est-ce qui mord?\\pTu ne le sauras pas tant que tu ne\\nm’auras pas "
+"battu!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:257
 msgid "JES: I'll win here today and\\npropose to my GIA."
-msgstr ""
+msgstr "Jes: Je vais gagner ici aujourd’hui et\\ndemander ma Gia en mariage."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:261
 msgid ""
 "GIA: Hey, JES…\\nI've been waiting a long time now.\\pIf we win today, I'll "
 "marry you!"
 msgstr ""
+"Gia: Dis, Jes… Ça fait longtemps que\\nj’attends.\\pSi on gagne aujourd’hui,"
+" je t’épouse!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:266
 msgid "My bird POKéMON remember you!"
-msgstr ""
+msgstr "Mes Pokémon oiseaux se souviennent de toi!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:269
 msgid "I want to be the best TRAINER \\nwhile I'm a kid!"
-msgstr ""
+msgstr "Je veux devenir la meilleure\\nDresseuse tant que je suis petite!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:273
 msgid "Wow!\\nYou got more cool BADGES!"
-msgstr ""
+msgstr "Ouah! Tu as encore eu des Badges trop\\ncool!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:277
 msgid "My cutely grown POKéMON wish to\\nbecome reacquainted with you."
 msgstr ""
+"Mes Pokémon, qui ont joliment grandi,\\nveulent faire à nouveau "
+"ta\\lconnaissance."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:281
 msgid "I cleaned out my savings and\\nbought more CARBOS."
-msgstr ""
+msgstr "J’ai vidé ma tirelire pour acheter\\nencore du Carbone."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:285
 msgid "I'm not going to lose this time.\\nThe wind's blowing my way!"
-msgstr ""
+msgstr "Cette fois, je ne vais pas perdre. Le\\nvent souffle en ma faveur!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:289
 msgid "Oh, you're back?\\pSure, I'll play again with you,\\nsweetie."
-msgstr ""
+msgstr "Oh, tu es revenu?\\pBien sûr, je veux bien rejouer avec\\ntoi, mon chou."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:294
 msgid "Can't you forget that you battled\\nwith me?"
-msgstr ""
+msgstr "Tu n’arrives pas à oublier notre\\nCombat?"
 
 #. source : SoulSilver FR officiel (adapté)
 #. lot : B_soulsilver
@@ -21960,286 +23173,433 @@ msgstr "… Tu veux quoi?\\nMe regarde pas comme ça!"
 msgid "I always go with bird POKéMON.\\nI've dedicated myself to them."
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:305
 msgid "I used TMs to teach good moves\\nto my POKéMON."
-msgstr ""
+msgstr "J’ai utilisé des CT pour apprendre de\\nbonnes capacités à mes Pokémon."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:309
 msgid "My bird POKéMON should be ready\\nfor battle this time."
-msgstr ""
+msgstr "Mes Pokémon oiseaux devraient être\\nprêts à se battre, cette fois."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:313
 msgid "Are you using TMs on POKéMON?\\nJust holding them is useless."
 msgstr ""
+"Tu utilises des CT sur tes Pokémon?\\nLes garder sur soi ne sert à rien."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:317
 msgid ""
 "Have you taught your bird POKéMON\\nhow to FLY?\\pYou'll be able to soar "
 "with it into\\nthe sky! Give it a try."
 msgstr ""
+"Tu as appris Vol à ton Pokémon\\noiseau?\\pTu pourras t’envoler avec lui "
+"dans le\\nciel! Essaie donc."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:323
 msgid "The legend of the winged mirages…\\nYou've heard it, right?"
-msgstr ""
+msgstr "La légende des mirages ailés… Tu la\\nconnais, n’est-ce pas?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:327
 msgid "I'm really not into it, but okay.\\nLet's go!"
-msgstr ""
+msgstr "Ça ne me dit pas trop, mais bon.\\nAllons-y!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:331
 msgid "Hey!\\nI remember you!\\pC'mon, c'mon.\\nLet's go, let's go, let's go!"
-msgstr ""
+msgstr "Hé! Je me souviens de toi!\\pAllez, allez. On y va, on y va, on y va!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:337
 msgid "You're here again, huh?\\nShut up and battle."
-msgstr ""
+msgstr "Encore toi, hein? Tais-toi et\\nbats-toi."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:341
 msgid "We've been riding here because of\\nthe wide-open spaces."
-msgstr ""
+msgstr "On roule ici pour les grands espaces."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:345
 msgid "POKéMON battle, right?\\nCool! Rumble!"
-msgstr ""
+msgstr "Un combat de Pokémon, c’est ça? Cool!\\nBagarre!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:349
 msgid "KIRI: JAN, I hope we win today."
-msgstr ""
+msgstr "Kiri: Jan, j’espère qu’on gagnera aujourd’hui!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:352
 msgid "JAN: KIRI, here we go!\\nLet's win for sure this time!"
-msgstr ""
+msgstr "Jan: Kiri, c’est parti! Cette fois, il\\nfaut qu’on gagne!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:356
 msgid "I'm going to keep battling with the\\nPOKéMON I got in trades."
 msgstr ""
+"Je vais continuer à me battre avec\\nles Pokémon que j’ai eus en échange."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:360
 msgid "You look gentle, so I think I can\\nbeat you.\\pI'll give it one more go!"
 msgstr ""
+"Tu as l’air gentil, alors je pense\\npouvoir te battre.\\pJe vais réessayer!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:365
 msgid "When I whistle, bird POKéMON\\ngather around.\\pThey're amazingly cute!"
 msgstr ""
+"Quand je siffle, les Pokémon oiseaux\\nse rassemblent autour de moi.\\pIls "
+"sont incroyablement mignons!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:370
 msgid "Hmm? My birds are shivering!\\nWait, aren't you that TRAINER…"
-msgstr ""
+msgstr "Hmm? Mes oiseaux tremblent! Attends,\\ntu ne serais pas ce Dresseur…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:374
 msgid ""
 "Oh, you're a little cutie!\\nSo like a darling POKéMON!\\lI remember you "
 "now!"
 msgstr ""
+"Oh, quel petit trognon! On dirait un\\nadorable Pokémon! Ça me "
+"revient,\\lmaintenant!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:379
 msgid ""
 "I raise POKéMON for protection\\nbecause I live alone.\\pThat hasn't "
 "changed."
 msgstr ""
+"J’élève des Pokémon pour me protéger\\ncar je vis seule.\\pÇa n’a pas "
+"changé."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:384
 msgid "Hey, kid! C'mon!\\nI got these off some loser!"
-msgstr ""
+msgstr "Hé, Gamin! Amène-toi! J’ai piqué ça à\\nun minable!"
 
 #: data/maps/Route15_Frlg/scripts.inc:96 data/text/trainers_frlg.inc:388
 msgid "Fork over all your cash when you\\nlose to me, kid!"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:392
 msgid "What's cool and happening?\\nTrading POKéMON, of course."
-msgstr ""
+msgstr "Qu’est-ce qui est cool et branché?\\nÉchanger des Pokémon, bien sûr."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:396
 msgid "Want to play with my POKéMON\\nagain?"
-msgstr ""
+msgstr "Tu veux encore jouer avec mes\\nPokémon?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:400
 msgid ""
 "MYA: Hi, we keep meeting,\\ndon't we?\\pHelp me train my little "
 "brother\\nagain?"
 msgstr ""
+"Mya: Salut, on se croise souvent,\\nhein?\\pTu m’aides encore à entraîner "
+"mon\\npetit frère?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:406
 msgid "RON: My sister's gotten more\\npowerful…"
-msgstr ""
+msgstr "Ron: Ma sœur est devenue encore plus\\nforte…"
 
 #. source : patch FR actuel
 #: data/maps/Route16_Frlg/scripts.inc:77 data/text/trainers_frlg.inc:410
 msgid "What do you want?"
 msgstr "Quoi?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:413
 msgid "Nice BIKE!\\nHand it over quick!"
-msgstr ""
+msgstr "Joli Vélo! Donne-le-moi, et vite!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:417
 msgid "Come out and play, little mouse.\\nI'll treat you right!"
-msgstr ""
+msgstr "Viens jouer, petite souris. Je vais\\nbien m’occuper de toi!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:421
 msgid "Hey, wait a second!\\nDon't call me and then run away!"
-msgstr ""
+msgstr "Hé, une seconde! Ne m’appelle pas pour\\nensuite filer!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:425
 msgid "I'm feeling hungry and mean!\\nI really need a punching bag!"
 msgstr ""
+"J’ai faim et je suis de mauvais poil! Il\\nme faut vraiment quelqu’un sur "
+"qui me\\ldéfouler!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:429
 msgid "Hey, there!\\nWe'll have ourselves a good time!"
-msgstr ""
+msgstr "Salut! On va bien s’amuser!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:433
 msgid "JED: Are you here to see our\\nlove, which knows no bounds?"
-msgstr ""
+msgstr "Jed: Tu es venu voir notre amour, qui\\nne connaît pas de limites?"
 
 #: data/maps/Route16_Frlg/scripts.inc:173 data/text/trainers_frlg.inc:437
 msgid "LEA: Sometimes, the intensity of\\nour love scares me."
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:441
 msgid "I told you, there's no getting rich\\nquick in battling kids."
-msgstr ""
+msgstr "Je te l’ai dit, on ne s’enrichit pas\\nvite en affrontant des Gamins."
 
 #: data/maps/Route17_Frlg/scripts.inc:42 data/text/trainers_frlg.inc:445
 msgid "I'm mighty proud of my bod, kiddo.\\nCome on!"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:449
 msgid "You out for a stroll?"
-msgstr ""
+msgstr "Tu te balades?"
 
 #: data/maps/Route17_Frlg/scripts.inc:62 data/text/trainers_frlg.inc:452
 msgid "We're BIKERS!\\nWe rule the roads, man!"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:456
 msgid "VOLTORB's going to seriously\\nelectrify you today!"
-msgstr ""
+msgstr "Aujourd’hui, VOLTORBE va vraiment\\nt’électriser!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:460
 msgid "I leveled up my POKéMON, but it\\nabsolutely won't evolve. Why?"
 msgstr ""
+"J’ai fait monter mon Pokémon de\\nniveau, mais il refuse "
+"d’évoluer.\\lPourquoi?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:464
 msgid "Gaah! I really need to exercise\\nand seriously trim some flab!"
-msgstr ""
+msgstr "Gaah! Il faut vraiment que je fasse\\ndu sport pour perdre mon bide!"
 
 #: data/maps/Route17_Frlg/scripts.inc:103 data/text/trainers_frlg.inc:468
 msgid "Be a rebel!"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:471
 msgid "Yep, that's a nice BIKE!\\nHow's it handle?"
-msgstr ""
+msgstr "Ouais, c’est un joli Vélo! Il se conduit\\ncomment?"
 
 #: data/maps/Route17_Frlg/scripts.inc:122 data/text/trainers_frlg.inc:475
 msgid "Get lost, kid!\\nI'm bushed!"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:479
 msgid ""
 "I've been checking every grassy\\narea for new POKéMON.\\pBut it's not "
 "always easy…"
 msgstr ""
+"J’ai fouillé chaque coin d’herbe à la\\nrecherche de nouveaux "
+"Pokémon.\\pMais ce n’est pas toujours facile…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:484
 msgid "Koorukukukoo!\\nIs my birdcall getting better?"
-msgstr ""
+msgstr "Koorukukukoo! Mon cri d’oiseau s’est\\namélioré?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:488
 msgid "I warned you before, this is my\\nturf!\\pI don't want you coming around."
 msgstr ""
+"Je t’avais prévenu, c’est mon\\nterritoire!\\pJe ne veux pas te voir traîner"
+" ici."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:493
 msgid "I'm almost warmed up to go\\nout for a swim."
-msgstr ""
+msgstr "Je suis presque échauffé pour aller\\nnager."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:497
 msgid "Wait! Slow down!\\nWhat if you have a heart attack?"
-msgstr ""
+msgstr "Attends! Doucement! Et si tu faisais\\nune crise cardiaque?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:501
 msgid "I love swimming!\\nI guess you're the surfing type."
-msgstr ""
+msgstr "J’adore nager! Je suppose que tu es\\nplutôt du genre surfeur."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:505
 msgid "What's beyond the horizon?\\nHave you seen?"
-msgstr ""
+msgstr "Qu’y a-t-il au-delà de l’horizon? Tu\\nl’as vu?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:509
 msgid "I tried diving for POKéMON again,\\nbut it was a no-go like before."
 msgstr ""
+"J’ai encore essayé de plonger pour\\ntrouver des Pokémon, mais rien "
+"à\\lfaire, comme la dernière fois."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:513
 msgid ""
 "I look at the sea to forget all\\nthe bad things that happened.\\p…Like "
 "losing to you the last time!"
 msgstr ""
+"Je regarde la mer pour oublier tous\\nmes malheurs.\\p…Comme ma défaite "
+"contre toi la\\ndernière fois!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:518
 msgid ""
 "You always get to ride your\\nPOKéMON…\\pIt looks so relaxing.\\nCan I have "
 "it if I win?"
 msgstr ""
+"Tu as toujours un Pokémon pour te\\nporter…\\pÇa a l’air si reposant. Je "
+"peux l’avoir\\nsi je gagne?"
 
 #: data/maps/Route19_Frlg/scripts.inc:88 data/text/trainers_frlg.inc:524
 msgid "Swimming's great!\\nSunburns aren't!"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:528
 msgid "These waters are treacherous!\\nYou shouldn't come back here!"
-msgstr ""
+msgstr "Ces eaux sont dangereuses! Tu ne\\ndevrais pas revenir ici!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:532
 msgid "I swam here with my friends…\\nI'm tired…\\lMust we really battle again?"
 msgstr ""
+"Je suis venue à la nage avec mes amis…\\nJe suis fatiguée… On doit vraiment "
+"se\\lbattre encore?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:537
 msgid ""
 "LIA: You know my brother just\\nbecame a TRAINER, right?\\pI want to make "
 "him better, so I\\nneed your help again."
 msgstr ""
+"Lia: Tu sais que mon frère vient de\\ndevenir Dresseur, hein?\\pJe veux "
+"qu’il progresse, alors j’ai\\nencore besoin de ton aide."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:543
 msgid "LUC: My big sis taught me all\\nabout POKéMON.\\pI wonder if I'm better?"
 msgstr ""
+"Luc: Ma grande sœur m’a tout appris\\nsur les Pokémon.\\pEst-ce que j’ai "
+"progressé?"
 
 #: data/maps/Route20_Frlg/scripts.inc:35 data/text/trainers_frlg.inc:548
 msgid "The water is shallow here.\\nThere are many people swimming."
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:552
 msgid "Are you jealous that I'm\\nvacationing on SEAFOAM?"
-msgstr ""
+msgstr "Tu es jaloux que je sois en vacances\\naux Iles Ecume?"
 
 #: data/maps/Route20_Frlg/scripts.inc:57 data/text/trainers_frlg.inc:556
 msgid "I love floating with the fishes\\nhere among the waves."
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:560
 msgid "Were you on vacation, too?"
-msgstr ""
+msgstr "Tu étais en vacances, toi aussi?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:563
 msgid "Check out my physique!\\pIt's even more buff than ever\\nbefore!"
-msgstr ""
+msgstr "Admire ma musculature!\\pElle est encore plus impressionnante\\nqu’avant!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:568
 msgid "Why are you riding a POKéMON?\\nHaven't you learned to swim yet?"
 msgstr ""
+"Pourquoi tu te fais porter par un\\nPokémon? Tu ne sais toujours "
+"pas\\lnager?"
 
 #: data/maps/Route20_Frlg/scripts.inc:98 data/text/trainers_frlg.inc:572
 msgid "I rode my bird POKéMON here."
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:575
 msgid "My boyfriend gave me big pearls.\\nAnd, they've grown bigger!"
-msgstr ""
+msgstr "Mon copain m’a offert de grosses\\nperles. Et elles ont encore grossi!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:579
 msgid "I swam here from CINNABAR ISLAND.\\nIt wasn't easy, like I said."
 msgstr ""
+"Je suis venue à la nage depuis\\nCramois’Ile. Ce n’était pas facile, je\\lte"
+" l’ai dit."
 
 #: data/maps/Route20_Frlg/scripts.inc:133 data/text/trainers_frlg.inc:583
 msgid "CINNABAR, in the west, has a LAB\\nfor POKéMON.\\pMy daddy works there."
@@ -22249,325 +23609,487 @@ msgstr ""
 msgid "You want to know if the fish are\\nbiting?"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:592
 msgid "I got a big haul again!\\nWanna go for it once more?"
-msgstr ""
+msgstr "J’ai encore fait une belle pêche! Tu\\nveux retenter ta chance?"
 
 #: data/maps/Route21_North_Frlg/scripts.inc:27 data/text/trainers_frlg.inc:596
 msgid "The sea cleanses my body and soul!"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:604
 msgid "I caught my POKéMON at sea.\\nAnd that's where I train them."
-msgstr ""
+msgstr "J’ai attrapé mes Pokémon en mer. Et\\nc’est là que je les entraîne."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:608
 msgid "Right now, I'm in another triathlon\\nmeet!"
-msgstr ""
+msgstr "En ce moment, je participe à un autre\\ntriathlon!"
 
 #: data/maps/Route21_South_Frlg/scripts.inc:26 data/text/trainers_frlg.inc:612
 msgid "Ahh!\\nFeel the sun and the wind!"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:616
 msgid "Hey, cut it out already.\\nYou always scare away the fish!"
-msgstr ""
+msgstr "Hé, ça suffit maintenant. Tu fais\\ntoujours fuir les poissons!"
 
 #: data/maps/Route21_South_Frlg/scripts.inc:49 data/text/trainers_frlg.inc:620
 msgid "Keep me company till I get a hit."
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:623
 msgid "LIL: Huh? A battle again?\\nIAN, can't you do it alone?"
-msgstr ""
+msgstr "Lil: Hein? Encore un combat? Ian, tu\\nne peux pas le faire seul?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:627
 msgid "IAN: My sis is still a slob.\\nHelp me get her into shape!"
 msgstr ""
+"Ian: Ma sœur est toujours aussi\\nflemmarde. Aide-moi à la faire bouger!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:631
 msgid "I won't lose while I'm here!"
-msgstr ""
+msgstr "Ici, je ne perdrai pas!"
 
 #: data/maps/Route25_Frlg/scripts.inc:26 data/text/trainers_frlg.inc:634
 msgid "Dad took me to a great party on\\nthe S.S. ANNE at VERMILION CITY."
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:638
 msgid ""
 "I'm a cool guy.\\nI've got a girlfriend!\\pI'll show her how cool I am "
 "for\\nsure this time!"
 msgstr ""
+"Je suis un mec cool. J’ai une copine!\\pC’est sûr, cette fois, je lui dirai "
+"à\\nquel point je suis cool!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:644
 msgid "Hi!\\nMy boyfriend is cool!\\lMy conditioning's good today!"
-msgstr ""
+msgstr "Salut! Mon copain est trop cool! Je\\nsuis en pleine forme aujourd’hui!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:649
 msgid "I had this feeling…\\nI knew I had to battle you again!"
-msgstr ""
+msgstr "J’avais un pressentiment… Je savais\\nque je devais encore t’affronter!"
 
 #: data/maps/Route25_Frlg/scripts.inc:71 data/text/trainers_frlg.inc:653
 msgid "My friend has many cute POKéMON.\\nI'm so jealous!"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:657
 msgid "I just trained up on MT. MOON,\\nbut I've still got gas in the tank!"
 msgstr ""
+"Je viens de m’entraîner au Mont\\nSélénite, mais j’ai encore de\\ll’énergie!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:661
 msgid "A POKéMANIAC lives on the cape.\\nHave you seen his collection?"
-msgstr ""
+msgstr "Un Pokémaniac habite sur le cap. Tu as\\nvu sa collection?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:665
 msgid "You're going to see BILL again?\\nFirst, we battle!"
-msgstr ""
+msgstr "Tu vas encore voir Léo? D’abord, on se\\nbat!"
 
 #: data/maps/Route24_Frlg/scripts.inc:135 data/text/trainers_frlg.inc:669
 msgid "I saw your feat from the grass!"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:672
 msgid "Okay!\\nI'll stomp you!"
-msgstr ""
+msgstr "OK! Je vais t’écraser!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:676
 msgid "You always look so busy…\\nAren't you getting tired?"
-msgstr ""
+msgstr "Tu as toujours l’air si occupé… Tu n’es\\npas fatigué?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:680
 msgid "You really must love coming to\\nNUGGET BRIDGE."
-msgstr ""
+msgstr "Tu dois vraiment adorer venir sur le\\nPont Doré."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:684
 msgid ""
 "The time we battled…\\pEven though I was the second in\\nline, I was the "
 "best, wasn't I?"
 msgstr ""
+"Notre combat…\\pMême si j’étais deuxième de la file,\\nc’est moi la "
+"meilleure, non?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:689
 msgid ""
 "People call this the NUGGET\\nBRIDGE!\\pYou've already beaten us, so "
 "you're\\nnot allowed to take the challenge…\\p…But, you're welcome to battle"
 " with\\nus again."
 msgstr ""
+"On appelle ceci le Pont Doré!\\pTu nous as déjà battus, alors tu n’as\\nplus"
+" le droit de relever le défi…\\p…Mais tu peux quand même nous\\naffronter à "
+"nouveau."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:697
 msgid "Lying back, rocked by the waves…\\nI don't notice time slipping by…"
-msgstr ""
+msgstr "Allongée, bercée par les vagues… Je\\nne vois pas le temps passer…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:701
 msgid "The weather's gorgeous!\\nI'll try not to spoil it."
-msgstr ""
+msgstr "Il fait un temps magnifique!\\nJ’essaierai de ne pas le gâcher."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:705
 msgid "My sunburn is starting to hurt…"
-msgstr ""
+msgstr "Mon coup de soleil commence à piquer…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:708
 msgid "The fire bird's mountain casts\\na huge shadow…"
-msgstr ""
+msgstr "La montagne de l’oiseau de feu\\nprojette une ombre immense…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:712
 msgid "I have this strong feeling that\\nI can win this time!"
-msgstr ""
+msgstr "J’ai le fort pressentiment que je peux\\ngagner cette fois!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:716
 msgid "Wait! Wait a second!\\nI'm sure I've hooked a big one!"
-msgstr ""
+msgstr "Attends! Une seconde! Je suis sûr\\nd’en avoir ferré un gros!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:720
 msgid "You'll help me out with my\\ntraining again?"
-msgstr ""
+msgstr "Tu vas encore m’aider à m’entraîner?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:724
 msgid "We haven't missed a single day of\\ntraining yet!"
-msgstr ""
+msgstr "On n’a pas encore raté un seul jour\\nd’entraînement!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:728
 msgid ""
 "Every morning, before breakfast,\\nI swim around this island…\\lThree times!"
 msgstr ""
+"Chaque matin, avant le\\npetit-déjeuner, je fais le tour de\\lcette île à la"
+" nage… Trois fois!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:733
 msgid "Dress appropriately for battle!\\nLose that frivolous outfit, I said!"
 msgstr ""
+"Habille-toi correctement pour le\\ncombat! Enlève cette tenue "
+"frivole,\\lj’ai dit!"
 
 #: data/maps/OneIsland_KindleRoad_Frlg/scripts.inc:112
 #: data/text/trainers_frlg.inc:737
 msgid "You know, everything tastes great\\nwhen you're out in the wild."
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:741
 msgid "I ate too much again, so will you\\nbattle us for some exercise?"
 msgstr ""
+"J’ai encore trop mangé, alors tu veux\\nbien nous affronter pour qu’on "
+"fasse\\lde l’exercice?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:745
 msgid ""
 "KIA: My big brother and I make\\nan awesome combination!\\pWe won't lose "
 "this time!"
 msgstr ""
+"Kia: Mon grand frère et moi, on fait\\nune super équipe!\\pCette fois, on ne"
+" perdra pas!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:750
 msgid ""
 "MIK: Together with KIA, we're\\nafraid of nothing!\\pWe'll prove it to you "
 "this time!"
-msgstr ""
+msgstr "Mik: Avec Kia, on n’a peur de rien!\\pCette fois, on va te le prouver!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:755
 msgid "Are we to battle again?"
-msgstr ""
+msgstr "On se bat encore?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:758
 msgid "From where have you come, and\\nwhere are you bound?"
-msgstr ""
+msgstr "D’où viens-tu et où vas-tu?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:762
 msgid "I want to swim without my float\\nring soon."
-msgstr ""
+msgstr "J’aimerais bientôt nager sans ma\\nbouée."
 
 #: data/maps/ThreeIsland_BondBridge_Frlg/scripts.inc:49
 #: data/text/trainers_frlg.inc:766
 msgid "Yay, yay!\\nPOKéMON!"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:770
 msgid "Oh, no, didn't I tell you already?\\nPlease, stay away from me!"
-msgstr ""
+msgstr "Oh non, je ne te l’ai pas déjà dit? S’il\\nte plaît, ne m’approche pas!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:774
 msgid "JOY: We've gotten stronger!\\nLots and lots!"
-msgstr ""
+msgstr "Joy: On est devenues plus fortes!\\nVraiment beaucoup!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:778
 msgid "MEG: You can't beat us today!"
-msgstr ""
+msgstr "Meg: Tu ne gagneras pas aujourd’hui!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:781
 msgid "Oh, hello!\\pAre you raising your POKéMON in a\\ngood environment?"
-msgstr ""
+msgstr "Oh, bonjour!\\pTu élèves tes Pokémon dans un bon\\nenvironnement?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:786
 msgid "With these hands, I will create\\nmy victory today."
-msgstr ""
+msgstr "De mes mains, je vais créer ma victoire\\naujourd’hui."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:790
 msgid ""
 "Must I repeat myself?\\nI'm trying to paint.\\lPlease keep out of my sight!"
 msgstr ""
+"Dois-je me répéter? J’essaie de\\npeindre. S’il te plaît, ôte-toi de "
+"ma\\lvue!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:795
 msgid "I haven't made any progress…\\nI still can't get the right angle…"
 msgstr ""
+"Je n’ai fait aucun progrès… Je\\nn’arrive toujours pas à trouver le "
+"bon\\langle…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:799
 msgid "Oh, you will give me another\\nopportunity to match wits with you?"
 msgstr ""
+"Oh, vous m’offrez une nouvelle\\noccasion de mesurer mon esprit au\\lvôtre?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:803
 msgid ""
 "They're almost finished making the\\npool for my POKéMON.\\pYou must drop in"
 " for a visit."
 msgstr ""
+"On a presque fini de construire la\\npiscine de mes Pokémon.\\pVous devez "
+"absolument passer me voir."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:808
 msgid "I'm a good runner.\\nI've gotten even faster!"
-msgstr ""
+msgstr "Je cours vite. Et je suis encore plus\\nrapide!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:812
 msgid "I say, friend!\\nLet us enjoy our time together!"
-msgstr ""
+msgstr "Mon cher ami! Profitons ensemble de\\nce moment!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:816
 msgid ""
 "I'm the eldest of the BIRD\\nBROTHERS. Remember me?\\pThat's right, I'm the "
 "one who loves\\nbirds for their beaks!"
 msgstr ""
+"Je suis l’aîné des Frères Oiseaux. Tu\\nte souviens de moi?\\pEh oui, c’est "
+"moi qui aime les oiseaux\\npour leur bec!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:822
 msgid ""
 "I'm the middle kid of the BIRD\\nBROTHERS.\\pI'm the one that loves "
 "wings.\\nLet's battle again!"
 msgstr ""
+"Je suis le cadet des Frères Oiseaux.\\pC’est moi qui aime les "
+"ailes.\\nBattons-nous encore!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:828
 msgid ""
 "I'm the youngest of the BIRD\\nBROTHERS.\\pI love birds for their down.\\nI "
 "didn't think I'd see you again!"
 msgstr ""
+"Je suis le benjamin des Frères\\nOiseaux.\\pJ’aime les oiseaux pour leur "
+"duvet. Je\\nne pensais pas te revoir!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:834
 msgid "I'm still having no luck at all.\\nA battle'd be a change of pace!"
-msgstr ""
+msgstr "Je n’ai toujours aucune chance. Un\\ncombat me changerait les idées!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:838
 msgid "Gasp… Gasp…\\pI swam here from SIX ISLAND's port\\nin one go again."
-msgstr ""
+msgstr "Pff… Pff…\\pJ’ai encore nagé d’une traite depuis\\nle port de l’Île 6."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:843
 msgid "You always come along while I'm\\nswimming."
-msgstr ""
+msgstr "Tu arrives toujours pendant que je\\nnage."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:847
 msgid "AVA: Let's have another\\ntwo-on-two marine battle today!"
-msgstr ""
+msgstr "Ava: Encore un combat en mer, à deux\\ncontre deux, aujourd’hui!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:851
 msgid "GEB: My big sister and I are way\\ntougher than before!"
-msgstr ""
+msgstr "Geb: Ma grande sœur et moi, on est\\nbien plus forts qu’avant!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:855
 msgid "…Huh?\\pI envision my house, but TELEPORT\\nalways brings me here!"
-msgstr ""
+msgstr "…Hein?\\pJ’imagine ma maison, mais Téléport me\\nramène toujours ici!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:860
 msgid "Oh, hello.\\nA pleasant breeze is blowing again."
-msgstr ""
+msgstr "Oh, bonjour. Une brise agréable\\nsouffle encore."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:864
 msgid "Hehehe, I'm practicing in secret\\nagain."
-msgstr ""
+msgstr "Héhéhé, je m’entraîne encore en\\nsecret."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:868
 msgid ""
 "What, you're sick of seeing\\nSWIMMERS like me?\\pAww, don't be "
 "hatin'!\\nBattle with me again."
 msgstr ""
+"Quoi, tu en as marre de voir des\\nNageurs comme moi?\\pAllez, sois cool! "
+"Affronte-moi encore."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:874
 msgid "Sigh…\\nMy boyfriend's busy again…"
-msgstr ""
+msgstr "Soupir… Mon copain est encore\\noccupé…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:878
 msgid "Come on, tell me, where are the\\nmountains around these parts?"
-msgstr ""
+msgstr "Allez, dis-moi, où sont les montagnes\\ndans le coin?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:882
 msgid "MIU: Hello, POKéMON!\\nIt's time to play again!"
-msgstr ""
+msgstr "Miu: Bonjour, les Pokémon! C’est\\nl’heure de rejouer!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:886
 msgid "MIA: Hello, POKéMON!\\nIt's time to battle again!"
-msgstr ""
+msgstr "Mia: Bonjour, les Pokémon! C’est\\nl’heure de se battre encore!"
 
 #: data/maps/SixIsland_RuinValley_Frlg/scripts.inc:68
 #: data/text/trainers_frlg.inc:890
 msgid "There appear to be many secrets\\nstill unsolved in this world."
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:894
 msgid "Hi, didn't we meet before?\\nWhat compelled you to come back?"
-msgstr ""
+msgstr "Salut, on ne s’est pas déjà vus?\\nQu’est-ce qui t’a poussé à revenir?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:898
 msgid ""
 "It's been said that there are\\nmysterious stones on this island.\\pHave you"
 " discovered anything since\\nwe last met?"
 msgstr ""
+"On dit qu’il y a des pierres\\nmystérieuses sur cette île.\\pTu as découvert"
+" quelque chose depuis\\nnotre dernière rencontre?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:904
 msgid "A rematch with you, so high up!"
-msgstr ""
+msgstr "Une revanche contre toi, si haut!"
 
 #: data/maps/SixIsland_RuinValley_Frlg/scripts.inc:118
 #: data/text/trainers_frlg.inc:907
@@ -22584,35 +24106,51 @@ msgstr ""
 msgid "Somewhere on this island, peculiar\\nPOKéMON are sleeping."
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:918
 msgid ""
 "Kyahaha!\\pComing back won't change a thing.\\nI'll flick you away "
 "effortlessly!"
 msgstr ""
+"Kyahaha!\\pRevenir ne changera rien. Je vais\\nt’envoyer valser sans effort!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:923
 msgid "Howdy! You're a member of my\\nfan club, isn't that right?"
-msgstr ""
+msgstr "Salut! Tu fais partie de mon fan-club,\\npas vrai?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:927
 msgid "This island is too spread out…\\nPatrolling the place is a drag…"
-msgstr ""
+msgstr "Cette île est trop étendue…\\nPatrouiller ici, quelle corvée…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:931
 msgid "I don't forgive people who abuse\\nPOKéMON!"
-msgstr ""
+msgstr "Je ne pardonne pas à ceux qui\\nmaltraitent les Pokémon!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:935
 msgid "EVE: I'll team up with JON and\\nbattle together again."
-msgstr ""
+msgstr "Eve: Je fais équipe avec Jon pour\\ncombattre encore ensemble."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:939
 msgid "JON: When I'm with EVE, it feels\\nlike we could never lose, not ever."
 msgstr ""
+"Jon: Avec Eve, j’ai l’impression qu’on\\nne pourrait jamais perdre, jamais."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:943
 msgid "Let's have another battle.\\nMy conditioning's in top form!"
-msgstr ""
+msgstr "Faisons un autre combat. Je suis au\\ntop de ma forme!"
 
 #: data/maps/SevenIsland_SevaultCanyon_Frlg/scripts.inc:20
 #: data/text/trainers_frlg.inc:947
@@ -22626,44 +24164,63 @@ msgstr ""
 msgid "I work to protect the environment.\\nIn turn, nature protects me!"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:957
 msgid "Every time we meet, you have those\\nsnazzy shoes on."
-msgstr ""
+msgstr "Chaque fois qu’on se croise, tu as ces\\nchaussures super classe."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:961
 msgid "You must have gotten tougher.\\nLet me battle you, please!"
-msgstr ""
+msgstr "Tu as dû devenir plus fort.\\nAffronte-moi, s’il te plaît!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:965
 msgid ""
 "I was given the best possible\\neducation to become this strong.\\pI won't "
 "lose this time.\\nAbsolutely not!"
 msgstr ""
+"J’ai reçu la meilleure éducation\\npossible pour devenir aussi "
+"forte.\\pCette fois, je ne perdrai pas.\\nAbsolument pas!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:971
 msgid "LEX: My darling NYA, together\\nwe will win for certain!"
-msgstr ""
+msgstr "Lex: Ma chère Nya, ensemble, nous\\ngagnerons à coup sûr!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:975
 msgid "NYA: I won't drag down my mentor\\nLEX! We're going to win!"
-msgstr ""
+msgstr "Nya: Je ne gênerai pas mon mentor Lex!\\nOn va gagner!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:979
 msgid "Have you discovered anything about\\nthis stone chamber?"
-msgstr ""
+msgstr "Tu as découvert quelque chose sur\\ncette chambre de pierre?"
 
 #: data/maps/SevenIsland_TanobyRuins_Frlg/scripts.inc:19
 #: data/text/trainers_frlg.inc:983
 msgid "A mystic POKéMON is said to sleep\\ninside here."
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:987
 msgid "My teacher is showing me how to\\npaint some more."
-msgstr ""
+msgstr "Mon professeur m’apprend encore à\\npeindre."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/text/trainers_frlg.inc:991
 msgid "Today, in addition to our lesson,\\nwe came to see the chamber again."
 msgstr ""
+"Aujourd’hui, en plus de notre leçon,\\nnous sommes revenus voir la chambre."
 
 #. source : patch FR actuel (récupéré par pointeur)
 #: data/text/tv.inc:2
@@ -26663,21 +28220,31 @@ msgstr ""
 "fille!\\pANIMATRICE: Oh… oh…\\nHum… C’est tout pour aujourd’hui!\\lMerci de "
 "nous avoir suivis!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/aide.inc:17
 msgid ""
 "Let's see…\\nUh-oh! You have caught only\\l{STR_VAR_3} kinds of "
 "POKéMON!\\pYou need {STR_VAR_1} kinds\\nif you want the {STR_VAR_2}."
 msgstr ""
+"Voyons voir… Oh oh! Tu n’as attrapé\\nque {STR_VAR_3} espèces de "
+"Pokémon!\\pIl t’en faut {STR_VAR_1} si tu veux\\nobtenir {STR_VAR_2}."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/aide.inc:24
 msgid ""
 "…Oh. I see.\\pWhen you get {STR_VAR_1} kinds of POKéMON,\\ncome back for the"
 " {STR_VAR_2}."
 msgstr ""
+"…Oh. Je vois.\\pQuand tu auras {STR_VAR_1} espèces\\nde Pokémon, reviens "
+"chercher\\l{STR_VAR_2}."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/aide.inc:29
 msgid "Oh! I see you don't have any\\nroom for the {STR_VAR_2}."
-msgstr ""
+msgstr "Oh! Tu n’as pas de place pour\\n{STR_VAR_2}."
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : C’est un Noigrumier!
@@ -27101,44 +28668,60 @@ msgstr "C’est un sol meuble et fertile.\\nVoulez-vous planter une Baie?"
 msgid "{PLAYER} planted one {STR_VAR_1} in\\nthe soft, loamy soil."
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « Une {STR_VAR_1} a été plantée ici. »
 #: data/scripts/berry_tree.inc:352
 msgid "This is where you planted the\\n{STR_VAR_1}!"
-msgstr ""
+msgstr "C’est ici que vous avez planté la\\n{STR_VAR_1}!"
 
 #. source : Émeraude FR officiel
 #: data/scripts/berry_tree.inc:354
 msgid "One {STR_VAR_1} was planted here."
 msgstr "Une {STR_VAR_1} a été plantée ici."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « {STR_VAR_1} a bourgeonné. »
 #: data/scripts/berry_tree.inc:359
 msgid "The {STR_VAR_1} is sprouting!"
-msgstr ""
+msgstr "La {STR_VAR_1} germe!"
 
 #. source : Émeraude FR officiel
 #: data/scripts/berry_tree.inc:361
 msgid "{STR_VAR_1} has sprouted."
 msgstr "{STR_VAR_1} a bourgeonné."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « Cette plante de {STR_VAR_1} a poussé. »
 #: data/scripts/berry_tree.inc:366
 msgid "The {STR_VAR_1}'s seedling is growing well!"
-msgstr ""
+msgstr "La pousse de {STR_VAR_1} grandit bien!"
 
 #. source : Émeraude FR officiel
 #: data/scripts/berry_tree.inc:368
 msgid "This {STR_VAR_1} plant is growing taller."
 msgstr "Cette plante de {STR_VAR_1} a poussé."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/berry_tree.inc:372
 msgid "The {STR_VAR_1}'s trunk is getting bigger!"
-msgstr ""
+msgstr "Le tronc de {STR_VAR_1} s’épaissit!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/berry_tree.inc:375
 msgid "The {STR_VAR_1} tree has buds!"
-msgstr ""
+msgstr "L’arbre de {STR_VAR_1} bourgeonne!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « Ces fleurs de {STR_VAR_1} ont éclos… »
 #: data/scripts/berry_tree.inc:379
 msgid "The {STR_VAR_1} tree is in bloom!"
-msgstr ""
+msgstr "L’arbre de {STR_VAR_1} est en fleur!"
 
 #. source : Émeraude FR officiel
 #: data/scripts/berry_tree.inc:381
@@ -27195,51 +28778,85 @@ msgstr "{PLAYER} arrose la {STR_VAR_1}."
 msgid "The plant seems to be delighted."
 msgstr "La plante semble ravie."
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « Il y a {STR_VAR_2} {STR_VAR_1}!\pCueillir
+#. {STR_VAR_1}? »
 #: data/scripts/berry_tree.inc:464
 msgid ""
 "You found {STR_VAR_2} {STR_VAR_1}\\nand 1 {STR_VAR_3}!\\pDo you want to pick"
 " them?"
-msgstr ""
+msgstr "Il y a {STR_VAR_2} {STR_VAR_1}\\net 1 {STR_VAR_3}!\\pLes cueillir?"
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « {PLAYER} n’a pas cueilli\n{STR_VAR_1}. »
 #: data/scripts/berry_tree.inc:469
 msgid "{PLAYER} left the {STR_VAR_1}\\nand the {STR_VAR_3} unpicked."
-msgstr ""
+msgstr "{PLAYER} n’a cueilli ni la {STR_VAR_1}\\nni la {STR_VAR_3}."
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « La POCHE Baies du Sac est pleine.\pImpossible de
+#. cueillir {STR_VAR_1}. »
 #: data/scripts/berry_tree.inc:473
 msgid ""
 "The BAG's BERRIES POCKET is full.\\pThe {STR_VAR_1} and the\\n{STR_VAR_3} "
 "couldn't be taken."
 msgstr ""
+"La POCHE Baies du Sac est pleine.\\pImpossible de cueillir la "
+"{STR_VAR_1}\\nni la {STR_VAR_3}."
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « {PLAYER} a cueilli {STR_VAR_2} {STR_VAR_1}. »
 #: data/scripts/berry_tree.inc:478
 msgid "{PLAYER} picked the {STR_VAR_2} {STR_VAR_1}\\nand the {STR_VAR_3}."
-msgstr ""
+msgstr "{PLAYER} a cueilli {STR_VAR_2}\\n{STR_VAR_1} et la {STR_VAR_3}."
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « {PLAYER} met {STR_VAR_1} dans la\nPOCHE Baies du
+#. Sac.\pLe sol est à nouveau meuble et fertile. »
 #: data/scripts/berry_tree.inc:482
 msgid ""
 "{PLAYER} put away the {STR_VAR_1}\\nand the {STR_VAR_3} in the "
 "BAG's\\lBERRIES POCKET.\\pThe soil returned to its soft and\\nloamy state."
 msgstr ""
+"{PLAYER} met la {STR_VAR_1} et la\\n{STR_VAR_3} dans la POCHE Baies "
+"du\\lSac.\\pLe sol est à nouveau meuble et\\nfertile."
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « C’est un sol meuble et fertile. » ; SS : FERTILIZE
+#. = « REPANDRE ENGRAIS »
 #: data/scripts/berry_tree.inc:498
 msgid "It's soft, loamy soil.\\nPut down some fertilizer?"
-msgstr ""
+msgstr "C’est un sol meuble et fertile.\\nRépandre de l’engrais?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/berry_tree.inc:502
 msgid "{PLAYER} scattered the {STR_VAR_1}\\non the soft, loamy soil."
-msgstr ""
+msgstr "{PLAYER} répand le {STR_VAR_1} sur le\\nsol meuble et fertile."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/berry_tree.inc:525
 msgid "A weed is growing here.\\nDo you want to pull it out?"
-msgstr ""
+msgstr "Une mauvaise herbe pousse ici.\\nVoulez-vous l’arracher?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/berry_tree.inc:529
 msgid "{PLAYER} pulled out the weed!"
-msgstr ""
+msgstr "{PLAYER} a arraché la mauvaise herbe!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/berry_tree.inc:546
 msgid "A Pokémon appeared!"
-msgstr ""
+msgstr "Un Pokémon apparaît!"
 
 #. source : patch FR actuel (récupéré par pointeur)
 #: data/scripts/bug_contest.inc:127
@@ -27350,10 +28967,18 @@ msgstr ""
 "Le Pokémon Insecte choisi va être\\nenvoyé sur le PC et votre équipe\\lva "
 "vous être rendue."
 
+#. source : Émeraude FR officiel
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « Please take your place and start\nyour battle. » =
+#. « Veuillez prendre place et commencer\nà combattre. »
 #: data/scripts/cable_club_frlg.inc:1374
 msgid "Please take your seat and start\\nyour battle."
-msgstr ""
+msgstr "Veuillez prendre place et commencer\\nà combattre."
 
+#. source : Émeraude FR officiel
+#. lot : D1_dialogues
+#. preuve : Émeraude FR (même texte anglais, mise en page différente
+#. seulement)
 #: data/scripts/cable_club_frlg.inc:1479
 msgid ""
 "“POKéMON JUMP”\\pMake your POKéMON skip the\\nVINE WHIP rope with the A "
@@ -27362,26 +28987,53 @@ msgid ""
 "jumping.\\pAs a result, those POKéMON may not\\nparticipate.\\pGood things "
 "happen if everyone\\njumps in time."
 msgstr ""
+"SAUT Pokémon\\pFaites sauter votre Pokémon à\\nla corde avec le bouton "
+"A.\\pSeuls les Pokémon jusqu’à\\nenviron 70 cm peuvent participer.\\pLes "
+"Pokémon capables seulement\\nde nager, creuser ou voler\\pne sont pas "
+"vraiment bons au saut\\net ne peuvent donc pas participer.\\pDes choses "
+"intéressantes arrivent\\nsi tout le monde saute en rythme."
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « Si vous voulez commencer un jeu,\nallez voir le
+#. vieil homme à côté. »
 #: data/scripts/cable_club_frlg.inc:1501
 msgid "If you want to play a game,\\nplease tell the man beside me."
-msgstr ""
+msgstr "Si vous voulez commencer un jeu,\\nallez voir l’homme à côté de moi."
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « Salut! Voulez-vous jouer en\nutilisant le système
+#. de\lcommunication sans fil?\pVous pouvez patienter encore\nun petit peu? »
 #: data/scripts/cable_club_frlg.inc:1505
 msgid ""
 "Hi, welcome!\\nYou can play games over the\\lWireless Communication "
 "System.\\pCan you wait just a little bit?"
 msgstr ""
+"Bonjour, bienvenue!\\nVous pouvez jouer à des jeux grâce au\\lsystème de "
+"communication sans fil.\\pPouvez-vous patienter un petit peu?"
 
+#. source : Émeraude FR officiel
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « L’adaptateur sans fil GBA n’est\npas
+#. connecté.\pRevenez quand il sera branché! » (anglais Émeraude sur 2 lignes
+#. sans \p)
 #: data/scripts/cable_club_frlg.inc:1514
 msgid "The Wireless Adapter isn't\\nconnected.\\pCome back when it's hooked up!"
 msgstr ""
+"L’adaptateur sans fil GBA n’est\\npas connecté.\\pRevenez quand il sera "
+"branché!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : DODRIO BERRY-PICKING = « ATTRAPE-BAIES DODRIO »
 #: data/scripts/cable_club_frlg.inc:1551
 msgid ""
 "“DODRIO BERRY-PICKING”…\\nWell, the name says it all.\\pYou have to have a "
 "DODRIO to play\\nthis game."
 msgstr ""
+"“ATTRAPE-BAIES DODRIO”…\\nTout est dans le nom.\\pIl faut avoir un DODRIO "
+"pour jouer\\nà ce jeu."
 
 #. source : patch FR actuel (récupéré par pointeur)
 #: data/scripts/config.inc:10
@@ -28014,40 +29666,58 @@ msgstr ""
 "Fonction indisponible!\\nDéfinissez un flag valide "
 "dans:\\l’include/config/battle.h’!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : Entrées sœurs du .po : « Fonction indisponible!\nDéfinissez un
+#. flag valide dans:\l’include/config/battle.h’! »
 #: data/scripts/debug.inc:152
 msgid ""
 "Feature unavailable!\\nPlease define a usable var "
 "in:\\l'include/config/battle.h'!"
 msgstr ""
+"Fonction indisponible! Définissez une\\nvar valide "
+"dans:\\l“include/config/battle.h”!"
 
 #. source : patch FR actuel
 #: data/scripts/debug.inc:161
 msgid "Storage boxes filled!"
 msgstr "Boîtes de stockage remplies!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/debug.inc:179
 msgid "ATK EVs: {STR_VAR_1}, SPATK EVs: {STR_VAR_2}, SPEED EVs: {STR_VAR_3}"
-msgstr ""
+msgstr "EV AT: {STR_VAR_1}, EV AS: {STR_VAR_2}, EV VI: {STR_VAR_3}"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/debug.inc:182
 msgid "HP EVs: {STR_VAR_1}, DEF EVs: {STR_VAR_2}, SPDEF EVs: {STR_VAR_3}"
-msgstr ""
+msgstr "EV PV: {STR_VAR_1}, EV DF: {STR_VAR_2}, EV DS: {STR_VAR_3}"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/debug.inc:200
 msgid "ATK IVs: {STR_VAR_1}, SPATK IVs: {STR_VAR_2}, SPEED IVs: {STR_VAR_3}"
-msgstr ""
+msgstr "IV AT: {STR_VAR_1}, IV AS: {STR_VAR_2}, IV VI: {STR_VAR_3}"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/debug.inc:203
 msgid "HP IVs: {STR_VAR_1}, DEF IVs: {STR_VAR_2}, SPDEF IVs: {STR_VAR_3}"
-msgstr ""
+msgstr "IV PV: {STR_VAR_1}, IV DF: {STR_VAR_2}, IV DS: {STR_VAR_3}"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/debug.inc:281 data/scripts/debug.inc:334
 msgid "You haven't seen the last of me!"
-msgstr ""
+msgstr "Tu n’as pas fini de me voir!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/debug.inc:284 data/scripts/debug.inc:337
 msgid "I won't accept this!"
-msgstr ""
+msgstr "C’est inacceptable!"
 
 #. source : patch FR actuel
 #: data/scripts/debug.inc:287
@@ -28069,9 +29739,15 @@ msgstr "SaveBlock1: {STR_VAR_1}o/{STR_VAR_2}o.\\nEspace libre: {STR_VAR_3}o."
 msgid "SaveBlock2 size: {STR_VAR_1}b/{STR_VAR_2}b.\\nFree space: {STR_VAR_3}b."
 msgstr "SaveBlock2: {STR_VAR_1}o/{STR_VAR_2}o.\\nEspace libre: {STR_VAR_3}o."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : Entrées sœurs du .po : « SaveBlock1:
+#. {STR_VAR_1}o/{STR_VAR_2}o.\nEspace libre: {STR_VAR_3}o. »
 #: data/scripts/debug.inc:360
 msgid "SaveBlock3 size: {STR_VAR_1}b/{STR_VAR_2}b.\\nFree space: {STR_VAR_3}b."
 msgstr ""
+"Taille SaveBlock3: {STR_VAR_1}\\no/{STR_VAR_2} o. Espace "
+"libre:\\l{STR_VAR_3} o."
 
 #. source : patch FR actuel
 #: data/scripts/debug.inc:364
@@ -28110,9 +29786,11 @@ msgstr "Vous n’avez qu’un Pokémon à la Pension."
 msgid "Your Pokémon at Daycare can't\\nhave babies together!"
 msgstr "Vos Pokémon à la Pension ne peuvent\\npas avoir de bébés ensemble!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/debug.inc:439
 msgid "pokeemerald-expansion {STR_VAR_1}"
-msgstr ""
+msgstr "pokeemerald-expansion {STR_VAR_1}"
 
 #. source : patch FR actuel
 #: data/scripts/debug.inc:447
@@ -28123,9 +29801,11 @@ msgstr ""
 "Fonction indisponible.\\nMettez FNPC-ENABLE-NPC-FOLLOWERS\\là TRUE "
 "dans\\l’include/config/follower-npc.h’."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/debug.inc:457
 msgid "This is a Follower NPC test."
-msgstr ""
+msgstr "Ceci est un test de PNJ suiveur."
 
 #. source : patch FR actuel
 #: data/scripts/debug.inc:479
@@ -28142,9 +29822,11 @@ msgstr "OW-BERRY-WEEDS est désactivé.\\nImpossible de semer des herbes."
 msgid "Single"
 msgstr "Solo"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/debug.inc:695
 msgid "Party-wide"
-msgstr ""
+msgstr "Toute l’équipe"
 
 #. source : SoulSilver FR officiel
 #: data/scripts/debug.inc:698
@@ -28286,9 +29968,11 @@ msgstr "Prudent"
 msgid "Quirky"
 msgstr "Bizarre"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/debug.inc:779
 msgid "Follower Steps: {STR_VAR_1}.\\nFishing Chain: {STR_VAR_2}."
-msgstr ""
+msgstr "Pas du suiveur: {STR_VAR_1}.\\nChaîne de pêche: {STR_VAR_2}."
 
 #. source : patch FR actuel (récupéré par pointeur)
 #: data/scripts/debug.inc:783
@@ -28422,19 +30106,27 @@ msgstr ""
 "11\\lNintendo GBA can connect to a Nintendo\\lGameCube console! He claimed-"
 "though I don’t\\lbelieve him-to have done so in an eyes-shut\\lstate…?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/debug.inc:935
 msgid ""
 "You currently do not have Fake RTC\\nenabled. Please enable it in "
 "include/\\lconfig/overworld.h"
 msgstr ""
+"La fausse horloge (Fake RTC) n’est\\npas activée. Activez-la dans "
+"include/\\lconfig/overworld.h"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/debug.inc:939
 msgid "Time and date:\\n{STR_VAR_1}, {STR_VAR_2}:{STR_VAR_3}"
-msgstr ""
+msgstr "Date et heure:\\n{STR_VAR_1}, {STR_VAR_2}:{STR_VAR_3}"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/debug.inc:943
 msgid "Time of day: {STR_VAR_1}"
-msgstr ""
+msgstr "Moment du jour: {STR_VAR_1}"
 
 #. source : patch FR actuel (récupéré par pointeur)
 #: data/scripts/dexnav.inc:32
@@ -28644,9 +30336,11 @@ msgstr "L’eau tourbillonne dans un vacarme\\nassourdissant."
 msgid "{STR_VAR_1} used WHIRLPOOL."
 msgstr "{STR_VAR_1} utilise Siphon."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:118
 msgid "It's crammed full of POKéMON\\nbooks."
-msgstr ""
+msgstr "C’est rempli de livres sur les\\nPokémon."
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -28655,33 +30349,47 @@ msgstr ""
 msgid "A TOWN MAP."
 msgstr "Carte"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:129
 msgid "Wow!\\nTons of POKéMON stuff!"
-msgstr ""
+msgstr "Ouah!\\nDes tas de trucs sur les Pokémon!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:133
 msgid "Dishes and plates are neatly\\nlined up."
-msgstr ""
+msgstr "Les plats et les assiettes sont\\nsoigneusement alignés."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:137
 msgid "It smells delicious!\\nSomebody's been cooking here."
-msgstr ""
+msgstr "Ça sent délicieusement bon!\\nQuelqu’un a cuisiné ici."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:141
 msgid "It's a nicely made dresser.\\nIt will hold a lot of stuff."
-msgstr ""
+msgstr "C’est une commode bien faite. On peut\\ny ranger plein de choses."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:145
 msgid "There's a pile of snacks here."
-msgstr ""
+msgstr "Il y a une pile de friandises ici."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:148
 msgid "All your item needs fulfilled!\\nPOKéMON MART"
-msgstr ""
+msgstr "Tous les objets qu’il vous faut!\\nBoutique Pokémon"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:152
 msgid "Heal Your POKéMON!\\nPOKéMON CENTER"
-msgstr ""
+msgstr "Soignez vos Pokémon!\\nCentre Pokémon"
 
 #. source : SoulSilver FR officiel (adapté)
 #. lot : B_soulsilver
@@ -28695,81 +30403,120 @@ msgstr ""
 "Plateau Indigo\\pLe sommet de la carrière de Dresseur!\\pQG de la Ligue "
 "Pokémon"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:161
 msgid "INDIGO PLATEAU\\pThe highest POKéMON authority!\\nPOKéMON LEAGUE HQ"
 msgstr ""
+"Plateau Indigo\\pLa plus haute autorité Pokémon!\\nSiège de la Ligue Pokémon"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:166
 msgid "It should be packed with all kinds\\nof delicious things to eat."
-msgstr ""
+msgstr "Ça doit être plein de toutes sortes\\nde bonnes choses à manger."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:170
 msgid "It's a blueprint of some sort.\\nIt's filled with diagrams and text."
-msgstr ""
+msgstr "On dirait une sorte de plan.\\nIl est plein de schémas et de notes."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:174
 msgid "It's a pretty picture of a POKéMON.\\nIt looks like it's feeling good."
-msgstr ""
+msgstr "C’est une jolie image de Pokémon.\\nIl a l’air de se sentir bien."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:178
 msgid "What could this machine be?\\nBetter not mess around with it!"
-msgstr ""
+msgstr "Qu’est-ce que cette machine?\\nMieux vaut ne pas y toucher!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:182
 msgid "It's a telephone.\\nBetter not use it."
-msgstr ""
+msgstr "C’est un téléphone.\\nMieux vaut ne pas s’en servir."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:186
 msgid "It's all complicated words and\\nnumbers that make no sense…"
-msgstr ""
+msgstr "Ce ne sont que des mots compliqués\\net des chiffres incompréhensibles…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:190
 msgid "It's an advertising poster about\\nall kinds of products."
-msgstr ""
+msgstr "C’est une affiche publicitaire pour\\ntoutes sortes de produits."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:194
 msgid "Oh, that smells tasty!\\nIt might get the stomach growling!"
-msgstr ""
+msgstr "Oh, ça sent bon!\\nDe quoi faire gargouiller l’estomac!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:198
 msgid "Inside this…\\n……\\pThere's nothing here!"
-msgstr ""
+msgstr "Là-dedans…\\n……\\pIl n’y a rien!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:203
 msgid "It's a cup with a POKéMON mark\\non it."
-msgstr ""
+msgstr "C’est une tasse avec un logo\\nPokémon dessus."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:207
 msgid "The window is very well polished."
-msgstr ""
+msgstr "La fenêtre est parfaitement propre."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:210
 msgid "Outside the window…\\pThe sky looks fantastically\\nbeautiful."
-msgstr ""
+msgstr "Par la fenêtre…\\pLe ciel est d’une beauté\\nfantastique."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:215
 msgid "Lights in different colors are\\nflashing on and off."
-msgstr ""
+msgstr "Des lumières de toutes les couleurs\\nclignotent."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:219
 msgid "All sorts of tools are lined up\\nneatly."
-msgstr ""
+msgstr "Toutes sortes d’outils sont\\nsoigneusement alignés."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:223
 msgid "It's a machine of some sort.\\nIt sure is impressive."
-msgstr ""
+msgstr "C’est une sorte de machine.\\nElle est vraiment impressionnante."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:227
 msgid "It's the latest video game!\\nIt sure looks fun!"
-msgstr ""
+msgstr "C’est le dernier jeu vidéo!\\nIl a l’air vraiment amusant!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:231
 msgid "There are obvious signs of burglary\\nhere…"
-msgstr ""
+msgstr "Il y a des traces évidentes de\\ncambriolage ici…"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/flavor_text.inc:235
 msgid "There's a POKéMON on TV!\\nIt looks like it's having fun."
-msgstr ""
+msgstr "Il y a un Pokémon à la télé!\\nIl a l’air de bien s’amuser."
 
 #. source : traduction manuelle (style SoulSilver)
 #: data/scripts/follower.inc:5
@@ -30303,17 +32050,28 @@ msgstr ""
 "Maman: Coucou, mon cœur!\\pJ’ai acheté une jolie Poképoupée\\npour ta "
 "chambre!\\pRegarde tes DECORATIONS en\\nrentrant. Prends soin de toi!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/mystery_event_club.inc:112
 msgid ""
 "Hi, glad to meet you!\\p…That's unfriendly of you.\\nHow about saying hi "
 "back?\\pSo, come on, tell me about\\nyourself.\\pI'd love to hear your "
 "profile!"
 msgstr ""
+"Salut, ravie de te rencontrer!\\p…Ce n’est pas très aimable. Tu\\npourrais "
+"me dire bonjour aussi!\\pAllez, parle-moi un peu de toi.\\pJ’aimerais "
+"beaucoup connaître ton\\nprofil!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/mystery_event_club.inc:120
 msgid "Tell me something good about\\nyourself. What's your profile?"
-msgstr ""
+msgstr "Dis-moi quelque chose de bien sur\\ntoi. Quel est ton profil?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : Émeraude FR (profile_man) : « Pour créer son propre profil,\nil
+#. faut associer quatre mots ou\lgroupes de mots. »
 #: data/scripts/mystery_event_club.inc:124
 msgid ""
 "A profile is written using four\\nwords or phrases.\\pThere're plenty of "
@@ -30322,56 +32080,91 @@ msgid ""
 "choose\\na word or phrase.\\p…It's easier than it sounds.\\nWhy don't you "
 "try it?"
 msgstr ""
+"Un profil se compose de quatre mots\\nou groupes de mots.\\pIl y a plein de "
+"mots parmi lesquels\\nchoisir pour ton profil.\\pLes mots et groupes de mots"
+" sont\\nrangés dans plusieurs catégories\\lpratiques.\\pChoisis d’abord une "
+"catégorie, puis un\\nmot ou un groupe de mots.\\p…C’est plus facile que ça "
+"en a l’air.\\nPourquoi ne pas essayer?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/mystery_event_club.inc:136
 msgid "What's your profile?"
-msgstr ""
+msgstr "Quel est ton profil?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/mystery_event_club.inc:139
 msgid "Aww… Don't be like that.\\nYou can tell me your profile."
-msgstr ""
+msgstr "Oh… Ne sois pas comme ça.\\nTu peux bien me dire ton profil."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/mystery_event_club.inc:143
 msgid "Oh, you've decided not to?\\nYou're fickle, aren't you?"
-msgstr ""
+msgstr "Oh, tu as changé d’avis?\\nTu es une vraie girouette, toi!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/mystery_event_club.inc:147
 msgid "Hi!\\nWe meet again!"
-msgstr ""
+msgstr "Salut!\\nOn se revoit!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/mystery_event_club.inc:151
 msgid "Would you like to change your\\nprofile?"
-msgstr ""
+msgstr "Tu veux changer ton\\nprofil?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/mystery_event_club.inc:155
 msgid "What are you like now?\\nI'd really like to know."
-msgstr ""
+msgstr "Comment es-tu, maintenant?\\nJ’aimerais vraiment le savoir."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/mystery_event_club.inc:159
 msgid "Okay, you like your profile the\\nway it is.\\pI think so, too."
 msgstr ""
+"D’accord, ton profil te plaît tel\\nqu’il est.\\pMoi aussi, je le trouve "
+"bien."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/mystery_event_club.inc:164
 msgid ""
 "Hmhm…\\pYour profile really says something\\nabout who you are.\\pNow that I"
 " know you better, it \\nmakes us better friends than ever!"
 msgstr ""
+"Hmhm…\\pTon profil révèle quelque chose sur\\ntoi.\\pMaintenant que je te "
+"connais mieux,\\non est plus proches que jamais!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/mystery_event_club.inc:171
 msgid ""
 "Oh, I've heard that before…\\pMy cousin, who lives far away,\\nalways used "
 "to say that, I think."
 msgstr ""
+"Oh, j’ai déjà entendu ça…\\pMon cousin, qui habite loin d’ici,\\nle disait "
+"tout le temps, je crois."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/mystery_event_club.inc:176
 msgid "Please tell me more about\\nyourself next time!"
-msgstr ""
+msgstr "La prochaine fois, parle-moi\\ndavantage de toi!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/pkmn_center_nurse_frlg.inc:100
 msgid ""
 "Welcome to our POKéMON CENTER!\\pWould you like me to heal your\\nPOKéMON "
 "back to perfect health?"
 msgstr ""
+"Bienvenue au Centre Pokémon!\\pVoulez-vous que je rende à vos\\nPokémon une "
+"santé parfaite?"
 
 #. source : SoulSilver FR officiel (adapté)
 #. lot : B_soulsilver
@@ -30396,9 +32189,11 @@ msgstr "Pour régler l’horloge, appuyez\\nsur R en regardant l’heure."
 msgid "MOM: Sorry honey, you are playing\\nwith the POKéCENTER challenge!"
 msgstr "Maman: Désolée, mon trésor, tu joues\\nen mode défi Centre Pokémon!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/pokemon_league.inc:67
 msgid "Someone's voice rang out,\\n“Don't run away!”"
-msgstr ""
+msgstr "Une voix retentit:\\n“Ne t’enfuis pas!”"
 
 #. source : patch FR actuel
 #: data/scripts/profile_man.inc:95
@@ -30531,32 +32326,49 @@ msgstr "L’effet de {STR_VAR_1} se dissipe…\\nUtiliser {STR_VAR_2}?"
 msgid "{PLAYER} used the\\n{STR_VAR_2}."
 msgstr "{PLAYER} utilise\\n{STR_VAR_2}."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/route23.inc:215
 msgid ""
 "Only truly skilled TRAINERS are\\nallowed through.\\pYou don't have the "
 "{STR_VAR_1}\\nyet!"
 msgstr ""
+"Seuls les Dresseurs vraiment doués\\npeuvent passer.\\pTu n’as pas encore "
+"le\\n{STR_VAR_1}!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/route23.inc:221
 msgid "Rules are rules.\\nI can't let you pass."
-msgstr ""
+msgstr "Le règlement, c’est le règlement.\\nJe ne peux pas te laisser passer."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/route23.inc:225
 msgid "Oh! That is the {STR_VAR_1}!\\nGo right ahead."
-msgstr ""
+msgstr "Oh! C’est le {STR_VAR_1}!\\nTu peux passer."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/route23.inc:229
 msgid ""
 "You can pass here only if you have\\nthe {STR_VAR_1}.\\pYou don't have the "
 "{STR_VAR_1}\\nyet.\\pYou have to have it to get to\\nthe POKéMON LEAGUE."
 msgstr ""
+"Tu ne peux passer que si tu as le\\n{STR_VAR_1}.\\pTu n’as pas encore "
+"le\\n{STR_VAR_1}.\\pIl te le faut pour accéder à la\\nLigue Pokémon."
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/route23.inc:237
 msgid ""
 "You can pass here only if you have\\nthe {STR_VAR_1}.\\pOh! That is the "
 "{STR_VAR_1}!{PAUSE_MUSIC}{PLAY_BGM}{MUS_LEVEL_UP}{PAUSE "
 "0x60}{RESUME_MUSIC}\\pOkay, then.\\nPlease, go right ahead."
 msgstr ""
+"Tu ne peux passer que si tu as le\\n{STR_VAR_1}.\\pOh! C’est le "
+"{STR_VAR_1}!{PAUSE_MUSIC}{PLAY_BGM}{MUS_LEVEL_UP}{PAUSE "
+"0x60}{RESUME_MUSIC}\\pTrès bien.\\nJe t’en prie, passe."
 
 #. source : patch FR actuel
 #: data/scripts/safari_zone.inc:121
@@ -30910,9 +32722,11 @@ msgstr ""
 "Oh, bouh!\\nJe n’arrive à rien ici!\\pJ’ai payé l’entrée, il faut "
 "absolument\\nque j’attrape quelque chose!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
 #: data/scripts/seagallop.inc:198
 msgid "All right!\\nAll aboard SEAGALLOP HI-SPEED {STR_VAR_1}!"
-msgstr ""
+msgstr "En route! Tous à bord! Ferry Flèche\\ndes Mers {STR_VAR_1}!"
 
 #. source : Émeraude FR officiel
 #: data/scripts/secret_base.inc:2
@@ -31108,17 +32922,27 @@ msgstr "Une petite caverne a été découverte!"
 msgid "Want to make your SECRET BASE here?"
 msgstr "Créer une BASE SECRETE ici?"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : SS : CARD KEY = « Carte Magn. » (objet), « Carte Magnétique » en
+#. dialogue
 #: data/scripts/silphco_doors.inc:547
 msgid "Bingo!\\nThe CARD KEY opened the door!"
-msgstr ""
+msgstr "Bingo!\\nLa Carte Magnétique ouvre la porte!"
 
+#. source : traduction nouvelle
+#. lot : D1_dialogues
+#. preuve : SS 67:10 « La porte est fermée...\nIl faut la Carte Magnétique! »
 #: data/scripts/silphco_doors.inc:551
 msgid "No!\\nIt needs a CARD KEY!"
-msgstr ""
+msgstr "Non!\\nIl faut une Carte Magnétique!"
 
+#. source : Émeraude FR officiel (adapté)
+#. lot : D1_dialogues
+#. preuve : Émeraude FR : « La porte est ouverte. »
 #: data/scripts/silphco_doors.inc:555
 msgid "The door is open…"
-msgstr ""
+msgstr "La porte est ouverte…"
 
 #. source : patch FR actuel
 #: data/scripts/test_signpost.inc:2

@@ -1,0 +1,182 @@
+[
+ {
+  "id": 7,
+  "categorie": "contresens",
+  "probleme": "La réplique anglaise parle de l’état du Pokémon, tandis que le français garantit la qualité des soins.",
+  "correction": "Ah, c’est toi!\\nContente de te voir.\\pTon Pokémon doit se porter\\nà merveille!",
+  "justification": "« Can only be doing good » exprime la conviction que le Pokémon se porte bien.",
+  "msgid": "Ah, it's you!\\nGood to see you.\\pYour POKéMON can only be doing\\ngood!",
+  "msgstr": "Ah, c’est toi!\\nContente de te voir.\\pTon Pokémon est sûr d’être\\nbien traité!",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "contresens",
+  "probleme": "Le français présente plusieurs Pokémon à Nina à la fois.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Si tu montres un Pokémon à Nina,\\nelle peut te dire s’il t’aime\\lbeaucoup ou juste un peu.\\pIl lui arrive même de bichonner un\\nPokémon pour toi.",
+  "justification": "Le pronom « it » désigne le Pokémon présenté, dont Nina évalue le degré d’affection.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}If you show DAISY your POKéMON,\\nshe can tell how much it likes you.\\pOccasionally, she will even groom\\na POKéMON for you.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Si tu montres tes Pokémon à Nina, elle\\npeut te dire à quel point ils t’aiment.\\pIl lui arrive même de bichonner un\\nPokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "terminologie",
+  "probleme": "Le nom de l’objet Thé perd sa majuscule.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Nina, une fille de Bourg Palette,\\naime boire du Thé chaque jour.\\pElle va en acheter au Centre\\nCommercial de Céladopole.",
+  "justification": "« Thé » est le nom français de l’objet TEA dans Rouge Feu et Vert Feuille, comme l’indique le contexte fourni.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}A girl from PALLET TOWN, DAISY,\\nshe enjoys TEA every day.\\pShe visits the CELADON DEPT. STORE\\nto buy some TEA.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Une fille de Bourg Palette, Nina, boit\\ndu thé tous les jours.\\pElle va en acheter au Centre\\nCommercial de Céladopole.",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "oubli",
+  "probleme": "La devise omet que Pierre est Dresseur de Pokémon.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène d’Argenta\\nChampion: Pierre\\lUn Dresseur solide comme le roc!",
+  "justification": "« Pokémon Trainer » fait partie de la devise anglaise et « rock-solid » joue sur la spécialité de Pierre.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}PEWTER CITY POKéMON GYM\\nLEADER: BROCK\\lThe Rock-Solid POKéMON TRAINER!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène d’Argenta\\nChampion: Pierre\\lUn homme fort et dur comme la roche!",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "oubli",
+  "probleme": "La rumeur sur le rire de Pierre devient une affirmation.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Pierre rit rarement, mais paraît-il\\nqu’une fois lancé, il ne peut plus\\ls’arrêter.",
+  "justification": "« Is said to » indique que le second trait est rapporté.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BROCK rarely laughs, but is said to\\nbe unable to stop if he starts.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Pierre rit rarement, mais quand il\\ncommence, il ne peut plus s’arrêter.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "contresens",
+  "probleme": "La devise remplace le côté garçon manqué d’Ondine par une idée de popularité.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène d’Azuria\\nChampion: Ondine\\lLa sirène garçon manqué!",
+  "justification": "« Tomboyish » décrit le tempérament ou l’allure d’Ondine.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}CERULEAN CITY POKéMON GYM\\nLEADER: MISTY\\lThe Tomboyish Mermaid!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène d’Azuria\\nChampion: Ondine\\lNotre sirène favorite!",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "oubli",
+  "probleme": "Le caractère amoureux des rendez-vous est omis.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ce cap est connu pour ses\\nrendez-vous amoureux.\\pOndine, la Championne d’Arène,\\nplace de grands espoirs en ce lieu.",
+  "justification": "« Date spot » désigne un lieu de rendez-vous amoureux, ce qui éclaire les espoirs d’Ondine.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}This cape is a famous date spot.\\pMISTY, the GYM LEADER, has high\\nhopes about this place.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ce cap est un lieu de rendez-vous\\ntrès connu.\\pOndine, la Championne d’Arène, place\\nde grands espoirs en cet endroit.",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "contresens",
+  "probleme": "La devise remplace la nationalité du Major Bob par sa profession.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Carmin sur Mer\\nChampion: Major Bob\\lL’Américain survolté!",
+  "justification": "« American » indique son origine, également évoquée dans l’entrée 36.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}VERMILION CITY POKéMON GYM\\nLEADER: LT. SURGE\\lThe Lightning American!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Carmin sur Mer\\nChampion: Major Bob\\lLe militaire survolté!",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "oubli",
+  "probleme": "La durée de la réputation du Major Bob à l’armée est omise.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}À l’armée, le Major Bob a toujours\\nété connu pour sa prudence.",
+  "justification": "« Always » précise que cette réputation a duré tout au long de sa période à l’armée.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LT. SURGE was always famous for\\nhis cautious nature in the Army.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}À l’armée, le Major Bob était connu\\npour sa prudence.",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "contresens",
+  "probleme": "La devise fait d’Erika une reine associée aux plantes, alors que l’anglais évoque une princesse qui aime la nature.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Céladopole\\nChampion: Erika\\lLa princesse qui aime la nature!",
+  "justification": "« Princess » désigne une princesse et « nature-loving » exprime son goût pour la nature.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}CELADON CITY POKéMON GYM\\nLEADER: ERIKA\\lThe Nature-Loving Princess!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Céladopole\\nChampion: Erika\\lLa Reine des Plantes",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "contresens",
+  "probleme": "Le français exprime un critère de sélection au sein d’une collection. L’anglais pose une condition à l’activité elle-même.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Si les Pokémon n’étaient pas\\njolis, je n’en collectionnerais\\ljamais.",
+  "justification": "La proposition introduite par « if » porte sur le fait de collectionner des Pokémon.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I would never collect POKéMON if\\nthey were unattractive.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Jamais je ne collectionnerais des\\nPokémon qui ne sont pas jolis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "contresens",
+  "probleme": "Le français présente le retrait des lunettes comme un moyen d’inventer des questions.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}On dit qu’Auguste n’enlève ses\\nlunettes noires que quand il\\linvente des questions de quiz.",
+  "justification": "« Only when » indique à quel moment il enlève ses lunettes.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BLAINE is said to remove his dark\\nshades only when he is thinking up\\lnew quiz questions.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}On dit qu’Auguste n’enlève ses\\nlunettes noires que pour inventer de\\lnouvelles questions de quiz.",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "orthographe",
+  "probleme": "La majuscule initiale d’« Île » a perdu son accent circonflexe.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Tu savais qu’Olga avait des tas\\nde peluches?\\pÀ chaque retour sur l’Île 4,\\nsa collection s’agrandit!",
+  "justification": "Le circonflexe d’« île » se conserve à la majuscule.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Did you know that LORELEI has lots\\nand lots of stuffed dolls?\\pEvery time she comes back to\\nFOUR ISLAND, her collection grows!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Tu savais qu’Olga a des tas et des tas\\nde peluches?\\pChaque fois qu’elle revient à l’Ile 4,\\nsa collection s’agrandit!",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "oubli",
+  "probleme": "L’intensité du désir d’Aldo disparaît.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Aldo aurait rejoint le Conseil 4\\nparce qu’il brûlait d’affronter\\lles meilleurs Dresseurs.",
+  "justification": "« Burning ambition » présente l’envie d’affronter les meilleurs comme le moteur de sa décision.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BRUNO apparently joined the ELITE\\nFOUR out of his burning ambition to\\lbattle the best TRAINERS.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Aldo serait entré au Conseil 4 par\\nambition, pour affronter les meilleurs\\lDresseurs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "oubli",
+  "probleme": "Le caractère effrayant d’Agatha disparaît.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Cette vieille dame s’emporte\\naussi très vite.\\pIl en faut peu pour faire hurler\\lcette dame effrayante.",
+  "justification": "« Short fuse » évoque la rapidité avec laquelle elle se met en colère et « scary » précise l’effet qu’elle produit.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}That old lady's also got a really\\nshort fuse, too.\\pIt doesn't take anything to get\\nthat scary lady hollering.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Cette vieille dame a aussi un sale\\ncaractère.\\pIl ne faut pas grand-chose pour\\nqu’elle se mette à hurler.",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "contresens",
+  "probleme": "Le français introduit un titre de meilleur Dresseur.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Dans sa jeunesse, Agatha rivalisait\\navec le Prof. Chen. Tous deux\\lvoulaient être le meilleur Dresseur.",
+  "justification": "« Vied for supremacy as Trainers » décrit leur rivalité pour être le meilleur et ne mentionne aucun titre à remporter.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}In her youth, AGATHA and PROF.\\nOAK were rivals who vied for\\lsupremacy as TRAINERS.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Dans leur jeunesse, Agatha et le\\nProf. Chen étaient rivaux et se\\ldisputaient le titre de meilleur\\lDresseur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "contresens",
+  "probleme": "« Pokémon légendaires » rattache les dragons à une catégorie précise de Pokémon.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Tu sais que les dragons sont des\\nPokémon mythiques.\\pIls sont difficiles à attraper et à\\nélever, mais leur puissance est\\lsupérieure.\\pIls sont pratiquement\\nindestructibles. Pas moyen de ruser\\lavec eux.",
+  "justification": "Dans cette réplique, « mythical » renvoie aux dragons des mythes.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}You know that dragons are\\nmythical POKéMON.\\pThey're hard to catch and raise,\\nbut their powers are superior.\\pThey're virtually indestructible.\\nThere's no being clever with them.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Tu sais que les dragons sont des\\nPokémon légendaires.\\pIls sont difficiles à attraper et à\\nélever, mais leur puissance est\\lsupérieure.\\pIls sont pratiquement\\nindestructibles. Pas moyen de ruser\\lavec eux.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "contresens",
+  "probleme": "« Maîtres dragons » peut désigner des maîtres qui sont eux-mêmes des dragons.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le grand-père de Peter serait\\nl’Ancien d’un célèbre clan de\\lmaîtres des dragons.",
+  "justification": "« Dragon masters » désigne des maîtres qui maîtrisent les dragons. « Ancien » suit la graphie du lexique fourni.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LANCE's grandfather is thought to\\nbe the elder of a famous clan of\\ldragon masters.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le grand-père de Peter serait\\nl’ancien d’un célèbre clan de maîtres\\ldragons.",
+  "msgctxt": ""
+ }
+]

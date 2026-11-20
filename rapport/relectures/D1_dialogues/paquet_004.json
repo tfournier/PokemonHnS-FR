@@ -1,0 +1,102 @@
+[
+ {
+  "id": 5,
+  "categorie": "contresens",
+  "probleme": "« Remettre en forme » suppose que la sœur a perdu la forme.",
+  "correction": "Ian: Ma sœur est toujours aussi\\nflemmarde. Aide-moi à la faire\\lbouger!",
+  "justification": "Ian demande de l’aide pour faire faire de l’exercice à sa sœur.",
+  "msgid": "IAN: My sis is still a slob.\\nHelp me get her into shape!",
+  "msgstr": "Ian: Ma sœur est toujours aussi\\nflemmarde. Aide-moi à la remettre en\\lforme!",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "oubli",
+  "probleme": "La certitude exprimée par « for sure » disparaît.",
+  "correction": "Je suis un mec cool.\\nJ’ai une copine!\\pC’est sûr, cette fois, je lui dirai\\nà quel point je suis cool!",
+  "justification": "« C’est sûr » restitue l’assurance du Dresseur avant le combat.",
+  "msgid": "I'm a cool guy.\\nI've got a girlfriend!\\pI'll show her how cool I am for\\nsure this time!",
+  "msgstr": "Je suis un mec cool. J’ai une copine!\\pCette fois, je vais lui montrer à quel\\npoint je suis cool!",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "contresens",
+  "probleme": "Le calque « de l’essence dans le réservoir » évoque un véhicule.",
+  "correction": "Je viens de m’entraîner au Mont\\nSélénite, mais j’ai encore de\\ll’énergie!",
+  "justification": "« Still got gas in the tank » signifie que le Montagnard a encore de l’énergie après son entraînement.",
+  "msgid": "I just trained up on MT. MOON,\\nbut I've still got gas in the tank!",
+  "msgstr": "Je viens de m’entraîner au Mont\\nSélénite, mais j’ai encore de l’essence\\ldans le réservoir!",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "oubli",
+  "probleme": "Le début de la douleur disparaît.",
+  "correction": "Mon coup de soleil commence à piquer…",
+  "justification": "« Commence » restitue « is starting to » sur une seule ligne.",
+  "msgid": "My sunburn is starting to hurt…",
+  "msgstr": "Mon coup de soleil me fait mal…",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "oubli",
+  "probleme": "« Today » disparaît de la réplique.",
+  "correction": "Meg: Tu ne gagneras pas aujourd’hui!",
+  "justification": "Meg limite sa prédiction au combat du jour.",
+  "msgid": "MEG: You can't beat us today!",
+  "msgstr": "Meg: Tu ne nous battras pas!",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "orthographe",
+  "probleme": "Le nom « Ile 6 » a perdu son accent circonflexe.",
+  "correction": "Pff… Pff…\\pJ’ai encore nagé d’une traite\\ndepuis le port de l’Île 6.",
+  "justification": "Le circonflexe d’« île » se conserve sur la majuscule. « Depuis » indique le point de départ de la nage.",
+  "msgid": "Gasp… Gasp…\\pI swam here from SIX ISLAND's port\\nin one go again.",
+  "msgstr": "Pff… Pff…\\pJe suis encore venu d’une traite à la\\nnage depuis le port de l’Ile 6.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "oubli",
+  "probleme": "« En duo » indique qu’on combat à deux, mais laisse implicite la composition de l’autre équipe.",
+  "correction": "Ava: Encore un combat en mer,\\nà deux contre deux, aujourd’hui!",
+  "justification": "« Two-on-two » précise que deux équipes de deux s’affrontent.",
+  "msgid": "AVA: Let's have another\\ntwo-on-two marine battle today!",
+  "msgstr": "Ava: Faisons encore un combat marin\\nen duo aujourd’hui!",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "contresens",
+  "probleme": "« Bats-toi avec moi » peut inviter le joueur à faire équipe avec le Nageur.",
+  "correction": "Quoi, tu en as marre de voir des\\nNageurs comme moi?\\pAllez, sois cool!\\nAffronte-moi encore.",
+  "justification": "Le Nageur propose une revanche contre lui.",
+  "msgid": "What, you're sick of seeing\\nSWIMMERS like me?\\pAww, don't be hatin'!\\nBattle with me again.",
+  "msgstr": "Quoi, tu en as marre de voir des\\nNageurs comme moi?\\pAllez, sois cool! Bats-toi encore avec\\nmoi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "contresens",
+  "probleme": "« Je ne veux pas » transforme une affirmation résolue en souhait.",
+  "correction": "Nya: Je ne gênerai pas mon\\nmentor Lex! On va gagner!",
+  "justification": "Le futur restitue la détermination exprimée par « I won’t ».",
+  "msgid": "NYA: I won't drag down my mentor\\nLEX! We're going to win!",
+  "msgstr": "Nya: Je ne veux pas freiner mon\\nmentor Lex! On va gagner!",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "orthographe",
+  "probleme": "Il manque les déterminants devant les deux noms de Baies.",
+  "correction": "{PLAYER} n’a cueilli ni la\\n{STR_VAR_1} ni la {STR_VAR_3}.",
+  "justification": "Les variables fournissent des noms sans article. Les déterminants désignent les Baies précises que le joueur a laissées sur l’arbre.",
+  "msgid": "{PLAYER} left the {STR_VAR_1}\\nand the {STR_VAR_3} unpicked.",
+  "msgstr": "{PLAYER} n’a pas cueilli\\n{STR_VAR_1} ni {STR_VAR_3}.",
+  "msgctxt": ""
+ }
+]

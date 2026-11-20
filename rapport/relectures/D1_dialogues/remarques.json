@@ -1,0 +1,812 @@
+[
+ {
+  "id": 7,
+  "categorie": "contresens",
+  "probleme": "La réplique anglaise parle de l’état du Pokémon, tandis que le français garantit la qualité des soins.",
+  "correction": "Ah, c’est toi!\\nContente de te voir.\\pTon Pokémon doit se porter\\nà merveille!",
+  "justification": "« Can only be doing good » exprime la conviction que le Pokémon se porte bien.",
+  "msgid": "Ah, it's you!\\nGood to see you.\\pYour POKéMON can only be doing\\ngood!",
+  "msgstr": "Ah, c’est toi!\\nContente de te voir.\\pTon Pokémon est sûr d’être\\nbien traité!",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "contresens",
+  "probleme": "Le français présente plusieurs Pokémon à Nina à la fois.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Si tu montres un Pokémon à Nina,\\nelle peut te dire s’il t’aime\\lbeaucoup ou juste un peu.\\pIl lui arrive même de bichonner un\\nPokémon pour toi.",
+  "justification": "Le pronom « it » désigne le Pokémon présenté, dont Nina évalue le degré d’affection.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}If you show DAISY your POKéMON,\\nshe can tell how much it likes you.\\pOccasionally, she will even groom\\na POKéMON for you.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Si tu montres tes Pokémon à Nina, elle\\npeut te dire à quel point ils t’aiment.\\pIl lui arrive même de bichonner un\\nPokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "terminologie",
+  "probleme": "Le nom de l’objet Thé perd sa majuscule.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Nina, une fille de Bourg Palette,\\naime boire du Thé chaque jour.\\pElle va en acheter au Centre\\nCommercial de Céladopole.",
+  "justification": "« Thé » est le nom français de l’objet TEA dans Rouge Feu et Vert Feuille, comme l’indique le contexte fourni.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}A girl from PALLET TOWN, DAISY,\\nshe enjoys TEA every day.\\pShe visits the CELADON DEPT. STORE\\nto buy some TEA.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Une fille de Bourg Palette, Nina, boit\\ndu thé tous les jours.\\pElle va en acheter au Centre\\nCommercial de Céladopole.",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "oubli",
+  "probleme": "La devise omet que Pierre est Dresseur de Pokémon.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène d’Argenta\\nChampion: Pierre\\lUn Dresseur solide comme le roc!",
+  "justification": "« Pokémon Trainer » fait partie de la devise anglaise et « rock-solid » joue sur la spécialité de Pierre.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}PEWTER CITY POKéMON GYM\\nLEADER: BROCK\\lThe Rock-Solid POKéMON TRAINER!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène d’Argenta\\nChampion: Pierre\\lUn homme fort et dur comme la roche!",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "oubli",
+  "probleme": "La rumeur sur le rire de Pierre devient une affirmation.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Pierre rit rarement, mais paraît-il\\nqu’une fois lancé, il ne peut plus\\ls’arrêter.",
+  "justification": "« Is said to » indique que le second trait est rapporté.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BROCK rarely laughs, but is said to\\nbe unable to stop if he starts.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Pierre rit rarement, mais quand il\\ncommence, il ne peut plus s’arrêter.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "contresens",
+  "probleme": "La devise remplace le côté garçon manqué d’Ondine par une idée de popularité.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène d’Azuria\\nChampion: Ondine\\lLa sirène garçon manqué!",
+  "justification": "« Tomboyish » décrit le tempérament ou l’allure d’Ondine.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}CERULEAN CITY POKéMON GYM\\nLEADER: MISTY\\lThe Tomboyish Mermaid!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène d’Azuria\\nChampion: Ondine\\lNotre sirène favorite!",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "oubli",
+  "probleme": "Le caractère amoureux des rendez-vous est omis.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ce cap est connu pour ses\\nrendez-vous amoureux.\\pOndine, la Championne d’Arène,\\nplace de grands espoirs en ce lieu.",
+  "justification": "« Date spot » désigne un lieu de rendez-vous amoureux, ce qui éclaire les espoirs d’Ondine.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}This cape is a famous date spot.\\pMISTY, the GYM LEADER, has high\\nhopes about this place.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ce cap est un lieu de rendez-vous\\ntrès connu.\\pOndine, la Championne d’Arène, place\\nde grands espoirs en cet endroit.",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "contresens",
+  "probleme": "La devise remplace la nationalité du Major Bob par sa profession.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Carmin sur Mer\\nChampion: Major Bob\\lL’Américain survolté!",
+  "justification": "« American » indique son origine, également évoquée dans l’entrée 36.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}VERMILION CITY POKéMON GYM\\nLEADER: LT. SURGE\\lThe Lightning American!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Carmin sur Mer\\nChampion: Major Bob\\lLe militaire survolté!",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "oubli",
+  "probleme": "La durée de la réputation du Major Bob à l’armée est omise.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}À l’armée, le Major Bob a toujours\\nété connu pour sa prudence.",
+  "justification": "« Always » précise que cette réputation a duré tout au long de sa période à l’armée.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LT. SURGE was always famous for\\nhis cautious nature in the Army.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}À l’armée, le Major Bob était connu\\npour sa prudence.",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "contresens",
+  "probleme": "La devise fait d’Erika une reine associée aux plantes, alors que l’anglais évoque une princesse qui aime la nature.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Céladopole\\nChampion: Erika\\lLa princesse qui aime la nature!",
+  "justification": "« Princess » désigne une princesse et « nature-loving » exprime son goût pour la nature.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}CELADON CITY POKéMON GYM\\nLEADER: ERIKA\\lThe Nature-Loving Princess!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Céladopole\\nChampion: Erika\\lLa Reine des Plantes",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "contresens",
+  "probleme": "Le français exprime un critère de sélection au sein d’une collection. L’anglais pose une condition à l’activité elle-même.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Si les Pokémon n’étaient pas\\njolis, je n’en collectionnerais\\ljamais.",
+  "justification": "La proposition introduite par « if » porte sur le fait de collectionner des Pokémon.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I would never collect POKéMON if\\nthey were unattractive.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Jamais je ne collectionnerais des\\nPokémon qui ne sont pas jolis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "contresens",
+  "probleme": "Le français présente le retrait des lunettes comme un moyen d’inventer des questions.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}On dit qu’Auguste n’enlève ses\\nlunettes noires que quand il\\linvente des questions de quiz.",
+  "justification": "« Only when » indique à quel moment il enlève ses lunettes.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BLAINE is said to remove his dark\\nshades only when he is thinking up\\lnew quiz questions.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}On dit qu’Auguste n’enlève ses\\nlunettes noires que pour inventer de\\lnouvelles questions de quiz.",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "orthographe",
+  "probleme": "La majuscule initiale d’« Île » a perdu son accent circonflexe.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Tu savais qu’Olga avait des tas\\nde peluches?\\pÀ chaque retour sur l’Île 4,\\nsa collection s’agrandit!",
+  "justification": "Le circonflexe d’« île » se conserve à la majuscule.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Did you know that LORELEI has lots\\nand lots of stuffed dolls?\\pEvery time she comes back to\\nFOUR ISLAND, her collection grows!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Tu savais qu’Olga a des tas et des tas\\nde peluches?\\pChaque fois qu’elle revient à l’Ile 4,\\nsa collection s’agrandit!",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "oubli",
+  "probleme": "L’intensité du désir d’Aldo disparaît.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Aldo aurait rejoint le Conseil 4\\nparce qu’il brûlait d’affronter\\lles meilleurs Dresseurs.",
+  "justification": "« Burning ambition » présente l’envie d’affronter les meilleurs comme le moteur de sa décision.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BRUNO apparently joined the ELITE\\nFOUR out of his burning ambition to\\lbattle the best TRAINERS.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Aldo serait entré au Conseil 4 par\\nambition, pour affronter les meilleurs\\lDresseurs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "oubli",
+  "probleme": "Le caractère effrayant d’Agatha disparaît.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Cette vieille dame s’emporte\\naussi très vite.\\pIl en faut peu pour faire hurler\\lcette dame effrayante.",
+  "justification": "« Short fuse » évoque la rapidité avec laquelle elle se met en colère et « scary » précise l’effet qu’elle produit.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}That old lady's also got a really\\nshort fuse, too.\\pIt doesn't take anything to get\\nthat scary lady hollering.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Cette vieille dame a aussi un sale\\ncaractère.\\pIl ne faut pas grand-chose pour\\nqu’elle se mette à hurler.",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "contresens",
+  "probleme": "Le français introduit un titre de meilleur Dresseur.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Dans sa jeunesse, Agatha rivalisait\\navec le Prof. Chen. Tous deux\\lvoulaient être le meilleur Dresseur.",
+  "justification": "« Vied for supremacy as Trainers » décrit leur rivalité pour être le meilleur et ne mentionne aucun titre à remporter.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}In her youth, AGATHA and PROF.\\nOAK were rivals who vied for\\lsupremacy as TRAINERS.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Dans leur jeunesse, Agatha et le\\nProf. Chen étaient rivaux et se\\ldisputaient le titre de meilleur\\lDresseur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "contresens",
+  "probleme": "« Pokémon légendaires » rattache les dragons à une catégorie précise de Pokémon.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Tu sais que les dragons sont des\\nPokémon mythiques.\\pIls sont difficiles à attraper et à\\nélever, mais leur puissance est\\lsupérieure.\\pIls sont pratiquement\\nindestructibles. Pas moyen de ruser\\lavec eux.",
+  "justification": "Dans cette réplique, « mythical » renvoie aux dragons des mythes.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}You know that dragons are\\nmythical POKéMON.\\pThey're hard to catch and raise,\\nbut their powers are superior.\\pThey're virtually indestructible.\\nThere's no being clever with them.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Tu sais que les dragons sont des\\nPokémon légendaires.\\pIls sont difficiles à attraper et à\\nélever, mais leur puissance est\\lsupérieure.\\pIls sont pratiquement\\nindestructibles. Pas moyen de ruser\\lavec eux.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "contresens",
+  "probleme": "« Maîtres dragons » peut désigner des maîtres qui sont eux-mêmes des dragons.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le grand-père de Peter serait\\nl’Ancien d’un célèbre clan de\\lmaîtres des dragons.",
+  "justification": "« Dragon masters » désigne des maîtres qui maîtrisent les dragons. « Ancien » suit la graphie du lexique fourni.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LANCE's grandfather is thought to\\nbe the elder of a famous clan of\\ldragon masters.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le grand-père de Peter serait\\nl’ancien d’un célèbre clan de maîtres\\ldragons.",
+  "msgctxt": ""
+ },
+ {
+  "id": 1,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte de la forme « Rocket » prescrite par le lexique.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ce vieux bonhomme a débarqué dans\\nnotre repaire.\\pEt le voilà qui se met à râler\\nparce que les Rocket maltraitent\\lles Pokémon.\\pAlors on en discute entre adultes.",
+  "justification": "Le lexique fourni donne « TEAM ROCKET → Rocket ».",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}This old guy marched right up to\\nour HIDEOUT.\\pThen, he starts ranting about how\\nTEAM ROCKET's abusing POKéMON.\\pSo, we're just talking it over as\\nadults.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ce vieux bonhomme a débarqué dans\\nnotre repaire.\\pEt le voilà qui se met à râler parce\\nque la Team Rocket maltraite les\\lPokémon.\\pAlors on en discute entre adultes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "« Grand tirage » laisse de côté le gros lot annoncé.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Magazine des fans de Pokémon\\nGros lot au tirage mensuel!\\pLe bulletin de participation est…\\pParti! Il a été découpé.\\nQuelqu’un a déjà dû participer.",
+  "justification": "« Grand Prize » désigne le gros lot du tirage.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}POKéMON FAN MAGAZINE\\nMonthly Grand Prize Drawing!\\pThe application form is…\\pGone! It's been clipped out.\\nSomeone must have applied already.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Magazine des fans de Pokémon\\nGrand tirage au sort mensuel!\\pLe bulletin de participation est…\\pParti! Il a été découpé. Quelqu’un a\\ndéjà dû participer.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte de la forme « Rocket » prescrite par le lexique.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Les Rocket capturent des Pokémon\\ndans le monde entier.\\pCes outils sont essentiels au bon\\nfonctionnement de notre\\lorganisation criminelle.\\pJe suis le chef, Giovanni!",
+  "justification": "Le lexique fourni donne « TEAM ROCKET → Rocket ».",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}TEAM ROCKET captures POKéMON from\\naround the world.\\pThey're important tools for keeping\\nour criminal enterprise going.\\pI am the leader, GIOVANNI!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}La Team Rocket capture des Pokémon\\ndans le monde entier.\\pCe sont des outils essentiels au bon\\nfonctionnement de notre\\lorganisation criminelle.\\pJe suis le chef, Giovanni!",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "oubli",
+  "probleme": "La question omet « kind », qui porte sur le genre de Pokémon recherché.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de Pokémon préfère-t-il?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ces voyous qui ont pris notre\\nimmeuble…\\pLeur boss a dit qu’il cherchait des\\nPokémon puissants.",
+  "justification": "La réponse décrit une catégorie générale, les Pokémon puissants.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Those thugs that took over our\\nbuilding…\\pTheir BOSS said he was looking for\\nstrong POKéMON.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ces voyous qui ont pris notre\\nimmeuble…\\pLeur Boss a dit qu’il cherchait des\\nPokémon puissants.",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte de la forme « Rocket » prescrite par le lexique.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le boss des Rocket est d’une\\ncruauté terrible!\\pPour lui, les Pokémon ne sont\\nque des outils.",
+  "justification": "Le lexique fourni donne « TEAM ROCKET → Rocket ».",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}TEAM ROCKET's BOSS is terribly\\ncruel!\\pTo him, POKéMON are just tools to\\nbe used.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le Boss de la Team Rocket est d’une\\ncruauté terrible!\\pPour lui, les Pokémon ne sont que des\\noutils.",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "oubli",
+  "probleme": "Giovanni se présente comme l’auteur du retour des Rocket à leur gloire passée.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Bienvenue dans mon repaire!\\pIl le restera jusqu’à ce que je\\lrende aux Rocket leur gloire passée.",
+  "justification": "« I can restore » attribue l’action à Giovanni. « Rocket » suit le lexique fourni.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Welcome to my hideout!\\pIt shall be so until I can restore\\nTEAM ROCKET to its former glory.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Bienvenue dans mon repaire!\\pIl le restera jusqu’à ce que la Team\\nRocket retrouve sa gloire passée.",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "orthographe",
+  "probleme": "« Devenu », « fort » et « doué » imposent le masculin dans un texte commun aux deux sexes.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Nina\\nÀ: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Pendant que je prenais\\ntranquillement mon thé, tu as\\lbeaucoup gagné en force et en adresse.\\pJ’espère que tu resteras à la\\nhauteur comme rival de mon frère\\lcadet.",
+  "justification": "« Gagner en force et en adresse » conserve les deux qualités sans accord avec le personnage joueur.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: DAISY\\nTo: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}While I was comfortably enjoying\\nmy tea breaks, you've grown very\\lskilled and powerful.\\pI hope you'll remain a good rival\\nto my little brother.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Nina\\nÀ: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Pendant que je prenais\\ntranquillement mon thé, tu es devenu\\ltrès fort et très doué.\\pJ’espère que tu resteras un bon rival\\npour mon petit frère.",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "orthographe",
+  "probleme": "« Petit » s’adresse exclusivement à un garçon.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Major Bob\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hé, la jeunesse!\\nTu m’as électrisé lors du combat!\\pJe ne savais pas qu’il existait des\\nDresseurs aussi courageux que toi.\\pÇa m’a fait changer d’avis sur toi!",
+  "justification": "L’interpellation garde la référence à l’âge et convient aux deux personnages joueurs.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: LT. SURGE\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hey, kid!\\nYou electrified me in our battle!\\pI didn't know that there were\\ngutsy TRAINERS like you.\\pIt made me change my mind about\\nyou!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Major Bob\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hé, petit! Tu m’as électrisé pendant\\nnotre combat!\\pJe ne savais pas qu’il existait des\\nDresseurs aussi courageux que toi.\\pÇa m’a fait changer d’avis sur toi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "orthographe",
+  "probleme": "Le pronom singulier « l’ » reprend deux groupes nominaux coordonnés.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Aldo\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ta puissance et celle de tes\\nPokémon, je les ai ressenties.\\pLa prochaine fois, je devrais\\npeut-être te montrer comment\\lt’entraîner.",
+  "justification": "Le pronom « les » et le participe « ressenties » reprennent les deux puissances. « Montrer comment » restitue « show you how ».",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BRUNO\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The super power of your POKéMON\\nand you I've experienced myself.\\pNext time, maybe I should show you\\nhow to train yourself.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Aldo\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}La puissance de tes Pokémon et la\\ntienne, je l’ai ressentie moi-même.\\pLa prochaine fois, je devrais\\npeut-être t’apprendre à t’entraîner.",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "orthographe",
+  "probleme": "« Mou » impose le masculin dans une réplique adressée au personnage joueur.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Agatha\\nÀ: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}En vieillissant, ne t’avise pas de\\nt’amollir comme ce vieux schnock\\lde Chen!\\pFais comme moi et continue de te\\nbattre!",
+  "justification": "« T’amollir » restitue « go soft » sans accord de genre.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: AGATHA\\nTo: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}When you grow older, don't you\\ndare go soft like that coot OAK!\\pBe like me and keep battling on!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Agatha\\nÀ: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}En vieillissant, ne t’avise pas de\\ndevenir mou comme ce vieux schnock\\lde Chen!\\pFais comme moi et continue de te\\nbattre!",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "contresens",
+  "probleme": "« Promis! » donne l’impression que Léo fait lui-même la promesse.",
+  "correction": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Léo\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Salut! Celio ne tarit pas d’éloges\\nsur toi.\\pÇa me fait plaisir d’entendre ça.\\pQuand tu attraperas des Pokémon\\nrares, viens me les montrer.\\lPromets-le-moi!",
+  "justification": "Léo demande au joueur de promettre de lui montrer ses prises.",
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BILL\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hey, there! CELIO had nothing but\\npraise for you.\\pHearing that makes me happy.\\pWhen you catch some rare POKéMON,\\ncome show me, okay? Promise!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Léo\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Salut! Celio ne tarit pas d’éloges sur\\ntoi.\\pÇa me fait plaisir d’entendre ça.\\pQuand tu attraperas des Pokémon\\nrares, viens me les montrer, d’accord?\\lPromis!",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "typographie",
+  "probleme": "Le I majuscule de « Île » a perdu son accent circonflexe.",
+  "correction": "Arène de Cramois’Île",
+  "justification": "Le circonflexe se conserve sur la majuscule.",
+  "msgid": "CINNABAR GYM",
+  "msgstr": "Arène de Cramois’Ile",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "terminologie",
+  "probleme": "La casse de « FILLETTE » diffère de celle prescrite par le lexique.",
+  "correction": "Fillette",
+  "justification": "Le lexique fourni donne explicitement « FILLETTE → Fillette » pour cette désignation.",
+  "msgid": "LITTLE GIRL",
+  "msgstr": "FILLETTE",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "oubli",
+  "probleme": "La difficulté de Pierre à s’arrêter de rire est donnée comme un fait.",
+  "correction": "Journal Pokémon\\pDossier spécial: Pierre, Champion\\nde l’Arène d’Argenta!\\pPierre rit rarement, mais on dit\\lqu’il ne peut plus s’arrêter\\lquand il commence.",
+  "justification": "« Is said to » présente ce détail comme un on-dit.",
+  "msgid": "POKéMON JOURNAL\\pSpecial Feature: PEWTER GYM\\nLEADER BROCK!\\pBROCK rarely laughs, but is said to\\nbe unable to stop if he starts.",
+  "msgstr": "Journal Pokémon\\pDossier spécial: Pierre, Champion de\\nl’Arène d’Argenta!\\pPierre rit rarement, mais quand il\\ncommence, il ne peut plus s’arrêter.",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "contresens",
+  "probleme": "« Pour inventer » fait de l’invention des questions le but du geste.",
+  "correction": "Journal Pokémon\\pDossier spécial: Auguste, Champion\\nde l’Arène de Cramois’Île!\\pOn dit qu’Auguste n’ôte ses\\nlunettes noires que lorsqu’il\\linvente de nouvelles questions.",
+  "justification": "L’anglais indique à quel moment il retire ses lunettes. Le circonflexe de « Île » est également rétabli.",
+  "msgid": "POKéMON JOURNAL\\pSpecial Feature: CINNABAR GYM\\nLEADER BLAINE!\\pBLAINE is said to remove his dark\\nshades only when he is thinking up\\lnew quiz questions.",
+  "msgstr": "Journal Pokémon\\pDossier spécial: Auguste, Champion de\\nl’Arène de Cramois’Ile!\\pOn dit qu’Auguste n’enlève ses\\nlunettes noires que pour inventer de\\lnouvelles questions de quiz.",
+  "msgctxt": ""
+ },
+ {
+  "id": 59,
+  "categorie": "oubli",
+  "probleme": "« Par ambition » omet l’intensité de son désir d’affronter les meilleurs.",
+  "correction": "Journal Pokémon\\pDossier spécial: Aldo, du Conseil 4!\\pAldo serait entré au Conseil 4 tant\\nil brûlait d’affronter les\\lmeilleurs Dresseurs.",
+  "justification": "« Brûlait d’affronter » restitue l’intensité de « burning ambition ».",
+  "msgid": "POKéMON JOURNAL\\pSpecial Feature:\\nELITE FOUR's BRUNO!\\pBRUNO apparently joined the ELITE\\nFOUR out of his burning ambition to\\lbattle the best TRAINERS.",
+  "msgstr": "Journal Pokémon\\pDossier spécial: Aldo, du Conseil 4!\\pAldo serait entré au Conseil 4 par\\nambition, pour affronter les meilleurs\\lDresseurs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "contresens",
+  "probleme": "« Le titre de meilleur Dresseur » introduit un titre que l’anglais ne mentionne pas.",
+  "correction": "Journal Pokémon\\pDossier spécial: Agatha,\\ndu Conseil 4!\\pDans sa jeunesse, Agatha et le\\nProf. Chen étaient rivaux. Chacun\\lvoulait surpasser l’autre en tant\\lque Dresseur.",
+  "justification": "« Vied for supremacy » décrit leur rivalité. « In her youth » situe aussi le souvenir dans la jeunesse d’Agatha.",
+  "msgid": "POKéMON JOURNAL\\pSpecial Feature:\\nELITE FOUR's AGATHA!\\pIn her youth, AGATHA and PROF.\\nOAK were rivals who vied for\\lsupremacy as TRAINERS.",
+  "msgstr": "Journal Pokémon\\pDossier spécial: Agatha, du Conseil 4!\\pDans leur jeunesse, Agatha et le\\nProf. Chen étaient rivaux et se\\ldisputaient le titre de meilleur\\lDresseur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "terminologie",
+  "probleme": "« Ancien » a perdu la majuscule prescrite, et « maîtres dragons » rend ambigu le lien avec les dragons.",
+  "correction": "Journal Pokémon\\pDossier spécial: Peter,\\ndu Conseil 4!\\pLe grand-père de Peter serait\\nl’Ancien d’un célèbre clan de\\lmaîtres des dragons.",
+  "justification": "Le lexique donne « ELDER → Ancien ». « Maîtres des dragons » précise ce que les membres du clan maîtrisent.",
+  "msgid": "POKéMON JOURNAL\\pSpecial Feature:\\nELITE FOUR's LANCE!\\pLANCE's grandfather is thought to\\nbe the elder of a famous clan of\\ldragon masters.",
+  "msgstr": "Journal Pokémon\\pDossier spécial: Peter, du Conseil 4!\\pLe grand-père de Peter serait\\nl’ancien d’un célèbre clan de maîtres\\ldragons.",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "orthographe",
+  "probleme": "Le nom français « Régis » a perdu son accent en capitales.",
+  "correction": "RÉGIS",
+  "justification": "La casse du menu se conserve avec l’accent aigu du prénom.",
+  "msgid": "GARY",
+  "msgstr": "REGIS",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "contresens",
+  "probleme": "« Ne perds pas espoir » remplace l’invitation à poursuivre l’aventure.",
+  "correction": "Aide les gens dans le besoin, relève\\ndes défis et résous des mystères: de\\nnouvelles voies s’ouvriront à toi.\\n\\nParfois, d’autres te défieront et des\\ncréatures sauvages t’attaqueront.\\nSois brave et continue d’avancer.",
+  "justification": "« Keep pushing on » invite à continuer malgré les obstacles.",
+  "msgid": "New paths will open to you by helping\\npeople in need, overcoming challenges,\\nand solving mysteries.\\n\\nAt times, you will be challenged by\\nothers and attacked by wild creatures.\\nBe brave and keep pushing on.",
+  "msgstr": "Aide les gens dans le besoin, relève\\ndes défis et résous des mystères: de\\nnouvelles voies s’ouvriront à toi.\\n\\nParfois, d’autres te défieront et des\\ncréatures sauvages t’attaqueront.\\nSois brave et ne perds pas espoir.",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "contresens",
+  "probleme": "La traduction ramène l’épanouissement personnel à la connaissance de soi.",
+  "correction": "Nous espérons que tu rencontreras\\ntoutes sortes de gens pendant ton\\naventure et que tu grandiras.\\nC’est notre but premier.\\n\\nAppuie sur le bouton A, et que ton\\naventure commence!",
+  "justification": "« Achieve personal growth » désigne le fait de grandir grâce à l’expérience de l’aventure.",
+  "msgid": "Through your adventure, we hope\\nthat you will interact with all sorts\\nof people and achieve personal growth.\\nThat is our biggest objective.\\n\\nPress the A Button, and let your\\nadventure begin!",
+  "msgstr": "Nous espérons que tu rencontreras\\ntoutes sortes de gens pendant ton\\naventure et que tu apprendras à mieux\\nte connaître. C’est notre but premier.\\n\\nAppuie sur le bouton A, et que ton\\naventure commence!",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "oubli",
+  "probleme": "La portée géographique de « far and wide » disparaît.",
+  "correction": "…est peuplé partout de créatures\\nappelées Pokémon.\\p",
+  "justification": "« Partout » indique que ces créatures peuplent le monde dans toute son étendue.",
+  "msgid": "…is inhabited far and wide by\\ncreatures called POKéMON.\\p",
+  "msgstr": "…est peuplé de créatures\\nappelées Pokémon.\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "oubli",
+  "probleme": "« Machine à Œufs » omet l’action de les faire éclore.",
+  "correction": "Waouh! Tu as fait éclore une\\nflopée d’Œufs!\\pTu fais éclore les Œufs à la chaîne!\\nTiens, je te donne ça.",
+  "justification": "« EGG-hatching machine » souligne le nombre d’éclosions provoquées par le joueur.",
+  "msgid": "Whoa! You've hatched a whole\\nbunch of EGGS!\\pYou're an EGG-hatching machine!\\nI'll give you one of these.",
+  "msgstr": "Waouh! Tu as fait éclore une\\nflopée d’Œufs!\\pTu es une vraie machine à Œufs!\\nTiens, je te donne ça.",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "contresens",
+  "probleme": "« Je sais me battre » exprime un savoir-faire.",
+  "correction": "On a peut-être l’air bêtes, plantés là,\\nmais je peux quand même me battre.",
+  "justification": "« I can still battle » indique que la Dresseuse peut tout de même livrer combat.",
+  "msgid": "We may look silly standing here\\nlike this, but I can still battle.",
+  "msgstr": "On a peut-être l’air bêtes, plantés là,\\nmais je sais quand même me battre.",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "terminologie",
+  "probleme": "« gamin » est écrit avec une minuscule.",
+  "correction": "OK, Gamin! Cette fois, ne t’attends\\npas à de la pitié!",
+  "justification": "Le lexique officiel fourni prescrit la graphie « Gamin ».",
+  "msgid": "Okay, kid!\\nDon't expect mercy this time!",
+  "msgstr": "OK, gamin! Cette fois, ne t’attends\\npas à de la pitié!",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "contresens",
+  "probleme": "« Depuis leur cocon » rend ambigu le point de départ de l’entraînement.",
+  "correction": "Je me suis levé tôt tous les jours\\npour entraîner mes Pokémon dès\\nleur stade de cocon!",
+  "justification": "« From cocoons » indique que l’entraînement a commencé quand les Pokémon étaient encore au stade de cocon.",
+  "msgid": "I got up early every day to train\\nmy POKéMON from cocoons!",
+  "msgstr": "Je me suis levé tôt tous les jours\\npour entraîner mes Pokémon depuis\\lleur cocon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "oubli",
+  "probleme": "« Encore » indique une nouvelle défaite, sans rendre l’idée d’habitude.",
+  "correction": "Je suis retournée dans une Arène\\nPokémon.\\p…Mais j’ai perdu, comme d’habitude.",
+  "justification": "« As usual » présente la défaite comme le résultat habituel.",
+  "msgid": "I went out to a POKéMON GYM again.\\p…But I lost as usual.",
+  "msgstr": "Je suis retournée dans une Arène\\nPokémon.\\p…Mais j’ai encore perdu.",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "contresens",
+  "probleme": "« Il y a peu » conserve l’idée d’un début tout récent.",
+  "correction": "Ça fait un moment que je suis\\nDresseur.\\lMais je pense pouvoir gagner.",
+  "justification": "« A while ago » marque le temps écoulé depuis le premier combat, où le personnage venait de devenir Dresseur.",
+  "msgid": "I became a TRAINER a while ago.\\nBut, I think I can win.",
+  "msgstr": "Je suis devenu Dresseur il y a peu.\\nMais je pense pouvoir gagner.",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "oubli",
+  "probleme": "La traduction ne précise pas que les fils sont sous tension.",
+  "correction": "Attention aux fils sous tension!",
+  "justification": "« Live wires » désigne des fils sous tension.",
+  "msgid": "Keep your eyes out for live wires!",
+  "msgstr": "Attention aux fils électriques!",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "terminologie",
+  "probleme": "« combat » figure avec une minuscule.",
+  "correction": "Le fou de pêche contre le petit\\nDresseur! Deuxième round, Combat!",
+  "justification": "Le lexique officiel fourni prescrit « Combat ».",
+  "msgid": "The FISHING FOOL vs. POKéMON KID!\\nAnother round, fight!",
+  "msgstr": "Le fou de pêche contre le petit\\nDresseur! Deuxième round, combat!",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "oubli",
+  "probleme": "Le lieu de la victoire annoncée est omis.",
+  "correction": "Jes: Je vais gagner ici aujourd’hui\\net demander ma Gia en mariage.",
+  "justification": "« Here today » précise à la fois le lieu et le moment.",
+  "msgid": "JES: I'll win here today and\\npropose to my GIA.",
+  "msgstr": "Jes: Je vais gagner aujourd’hui et\\ndemander ma Gia en mariage.",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "oubli",
+  "probleme": "« Mes oiseaux » omet la mention explicite des Pokémon.",
+  "correction": "Mes Pokémon oiseaux se souviennent de toi!",
+  "justification": "« Bird Pokémon » désigne ici des Pokémon oiseaux.",
+  "msgid": "My bird POKéMON remember you!",
+  "msgstr": "Mes oiseaux se souviennent de toi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "terminologie",
+  "probleme": "« combat » figure avec une minuscule.",
+  "correction": "Tu n’arrives pas à oublier notre\\nCombat?",
+  "justification": "Le lexique officiel fourni prescrit « Combat ».",
+  "msgid": "Can't you forget that you battled\\nwith me?",
+  "msgstr": "Tu n’arrives pas à oublier notre\\ncombat?",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "terminologie",
+  "probleme": "« combat » figure avec une minuscule.",
+  "correction": "Un Combat de Pokémon, c’est ça?\\nCool! Bagarre!",
+  "justification": "Le lexique officiel fourni prescrit « Combat ».",
+  "msgid": "POKéMON battle, right?\\nCool! Rumble!",
+  "msgstr": "Un combat de Pokémon, c’est ça? Cool!\\nBagarre!",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "oubli",
+  "probleme": "La réplique ne précise plus que Kiri espère gagner aujourd’hui.",
+  "correction": "Kiri: Jan, j’espère qu’on gagnera aujourd’hui!",
+  "justification": "« Today » situe la victoire espérée le jour de la revanche.",
+  "msgid": "KIRI: JAN, I hope we win today.",
+  "msgstr": "Kiri: Jan, j’espère qu’on gagnera!",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "contresens",
+  "probleme": "« Pour de bon » donne à la victoire un caractère définitif.",
+  "correction": "Jan: Kiri, c’est parti! Cette fois,\\nil faut qu’on gagne!",
+  "justification": "« Let's win for sure this time! » exprime la détermination à gagner cette fois-ci.",
+  "msgid": "JAN: KIRI, here we go!\\nLet's win for sure this time!",
+  "msgstr": "Jan: Kiri, c’est parti! Cette fois, on\\ngagne pour de bon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "terminologie",
+  "probleme": "« gamin » figure avec une minuscule.",
+  "correction": "Hé, Gamin! Amène-toi!\\nJ’ai piqué ça à un minable!",
+  "justification": "Le lexique officiel fourni prescrit « Gamin ».",
+  "msgid": "Hey, kid! C'mon!\\nI got these off some loser!",
+  "msgstr": "Hé, gamin! Amène-toi! J’ai piqué ça à\\nun minable!",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "contresens",
+  "probleme": "« Punching-ball » évoque un autre accessoire et perd l’idée que le motard cherche quelqu’un sur qui se défouler.",
+  "correction": "J’ai faim et je suis de mauvais poil!\\nIl me faut vraiment quelqu’un\\lsur qui me défouler!",
+  "justification": "« Punching bag » désigne au sens propre un sac de frappe. Dans cette provocation, le motard cherche une cible pour passer ses nerfs.",
+  "msgid": "I'm feeling hungry and mean!\\nI really need a punching bag!",
+  "msgstr": "J’ai faim et je suis de mauvais poil! Il\\nme faut un punching-ball!",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "contresens",
+  "probleme": "« Battant » suppose une victoire, et la rapidité de l’enrichissement a disparu.",
+  "correction": "Je te l’ai dit, on ne s’enrichit pas\\lvite en affrontant des Gamins.",
+  "justification": "« Battling » signifie affronter et « quick » qualifie l’enrichissement. « Gamins » suit aussi la graphie du lexique fourni.",
+  "msgid": "I told you, there's no getting rich\\nquick in battling kids.",
+  "msgstr": "Je te l’ai dit, on ne devient pas riche\\nen battant des gamins.",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "oubli",
+  "probleme": "L’insistance de « absolutely » disparaît.",
+  "correction": "J’ai fait monter mon Pokémon de\\nniveau, mais il refuse\\ld’évoluer. Pourquoi?",
+  "justification": "« Absolutely » renforce le refus d’évoluer. Il faut conserver cette insistance dans la revanche.",
+  "msgid": "I leveled up my POKéMON, but it\\nabsolutely won't evolve. Why?",
+  "msgstr": "J’ai fait monter mon Pokémon de\\nniveau, mais il refuse d’évoluer.\\lPourquoi?",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "contresens",
+  "probleme": "« Remettre en forme » suppose que la sœur a perdu la forme.",
+  "correction": "Ian: Ma sœur est toujours aussi\\nflemmarde. Aide-moi à la faire\\lbouger!",
+  "justification": "Ian demande de l’aide pour faire faire de l’exercice à sa sœur.",
+  "msgid": "IAN: My sis is still a slob.\\nHelp me get her into shape!",
+  "msgstr": "Ian: Ma sœur est toujours aussi\\nflemmarde. Aide-moi à la remettre en\\lforme!",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "oubli",
+  "probleme": "La certitude exprimée par « for sure » disparaît.",
+  "correction": "Je suis un mec cool.\\nJ’ai une copine!\\pC’est sûr, cette fois, je lui dirai\\nà quel point je suis cool!",
+  "justification": "« C’est sûr » restitue l’assurance du Dresseur avant le combat.",
+  "msgid": "I'm a cool guy.\\nI've got a girlfriend!\\pI'll show her how cool I am for\\nsure this time!",
+  "msgstr": "Je suis un mec cool. J’ai une copine!\\pCette fois, je vais lui montrer à quel\\npoint je suis cool!",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "contresens",
+  "probleme": "Le calque « de l’essence dans le réservoir » évoque un véhicule.",
+  "correction": "Je viens de m’entraîner au Mont\\nSélénite, mais j’ai encore de\\ll’énergie!",
+  "justification": "« Still got gas in the tank » signifie que le Montagnard a encore de l’énergie après son entraînement.",
+  "msgid": "I just trained up on MT. MOON,\\nbut I've still got gas in the tank!",
+  "msgstr": "Je viens de m’entraîner au Mont\\nSélénite, mais j’ai encore de l’essence\\ldans le réservoir!",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "oubli",
+  "probleme": "Le début de la douleur disparaît.",
+  "correction": "Mon coup de soleil commence à piquer…",
+  "justification": "« Commence » restitue « is starting to » sur une seule ligne.",
+  "msgid": "My sunburn is starting to hurt…",
+  "msgstr": "Mon coup de soleil me fait mal…",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "oubli",
+  "probleme": "« Today » disparaît de la réplique.",
+  "correction": "Meg: Tu ne gagneras pas aujourd’hui!",
+  "justification": "Meg limite sa prédiction au combat du jour.",
+  "msgid": "MEG: You can't beat us today!",
+  "msgstr": "Meg: Tu ne nous battras pas!",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "orthographe",
+  "probleme": "Le nom « Ile 6 » a perdu son accent circonflexe.",
+  "correction": "Pff… Pff…\\pJ’ai encore nagé d’une traite\\ndepuis le port de l’Île 6.",
+  "justification": "Le circonflexe d’« île » se conserve sur la majuscule. « Depuis » indique le point de départ de la nage.",
+  "msgid": "Gasp… Gasp…\\pI swam here from SIX ISLAND's port\\nin one go again.",
+  "msgstr": "Pff… Pff…\\pJe suis encore venu d’une traite à la\\nnage depuis le port de l’Ile 6.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "oubli",
+  "probleme": "« En duo » indique qu’on combat à deux, mais laisse implicite la composition de l’autre équipe.",
+  "correction": "Ava: Encore un combat en mer,\\nà deux contre deux, aujourd’hui!",
+  "justification": "« Two-on-two » précise que deux équipes de deux s’affrontent.",
+  "msgid": "AVA: Let's have another\\ntwo-on-two marine battle today!",
+  "msgstr": "Ava: Faisons encore un combat marin\\nen duo aujourd’hui!",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "contresens",
+  "probleme": "« Bats-toi avec moi » peut inviter le joueur à faire équipe avec le Nageur.",
+  "correction": "Quoi, tu en as marre de voir des\\nNageurs comme moi?\\pAllez, sois cool!\\nAffronte-moi encore.",
+  "justification": "Le Nageur propose une revanche contre lui.",
+  "msgid": "What, you're sick of seeing\\nSWIMMERS like me?\\pAww, don't be hatin'!\\nBattle with me again.",
+  "msgstr": "Quoi, tu en as marre de voir des\\nNageurs comme moi?\\pAllez, sois cool! Bats-toi encore avec\\nmoi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "contresens",
+  "probleme": "« Je ne veux pas » transforme une affirmation résolue en souhait.",
+  "correction": "Nya: Je ne gênerai pas mon\\nmentor Lex! On va gagner!",
+  "justification": "Le futur restitue la détermination exprimée par « I won’t ».",
+  "msgid": "NYA: I won't drag down my mentor\\nLEX! We're going to win!",
+  "msgstr": "Nya: Je ne veux pas freiner mon\\nmentor Lex! On va gagner!",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "orthographe",
+  "probleme": "Il manque les déterminants devant les deux noms de Baies.",
+  "correction": "{PLAYER} n’a cueilli ni la\\n{STR_VAR_1} ni la {STR_VAR_3}.",
+  "justification": "Les variables fournissent des noms sans article. Les déterminants désignent les Baies précises que le joueur a laissées sur l’arbre.",
+  "msgid": "{PLAYER} left the {STR_VAR_1}\\nand the {STR_VAR_3} unpicked.",
+  "msgstr": "{PLAYER} n’a pas cueilli\\n{STR_VAR_1} ni {STR_VAR_3}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 0,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant le nom de la Baie.",
+  "correction": "La POCHE Baies du Sac est pleine.\\pImpossible de cueillir la\\n{STR_VAR_1} ni la {STR_VAR_3}.",
+  "justification": "L’article défini identifie les deux Baies, et « ni » indique qu’aucune des deux ne peut être cueillie.",
+  "msgid": "The BAG's BERRIES POCKET is full.\\pThe {STR_VAR_1} and the\\n{STR_VAR_3} couldn't be taken.",
+  "msgstr": "La POCHE Baies du Sac est pleine.\\pImpossible de cueillir {STR_VAR_1}\\net {STR_VAR_3}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 1,
+  "categorie": "orthographe",
+  "probleme": "La seconde Baie est citée sans déterminant.",
+  "correction": "{PLAYER} a cueilli {STR_VAR_2} {STR_VAR_1}\\net la {STR_VAR_3}.",
+  "justification": "La quantité précède la première Baie. La seconde est désignée par un article défini.",
+  "msgid": "{PLAYER} picked the {STR_VAR_2} {STR_VAR_1}\\nand the {STR_VAR_3}.",
+  "msgstr": "{PLAYER} a cueilli {STR_VAR_2} {STR_VAR_1}\\net {STR_VAR_3}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "orthographe",
+  "probleme": "Les noms des deux Baies sont employés sans déterminant.",
+  "correction": "{PLAYER} met la {STR_VAR_1} et\\nla {STR_VAR_3} dans la POCHE\\lBaies du Sac.\\pLe sol est à nouveau meuble et\\nfertile.",
+  "justification": "Les articles définis désignent les deux Baies qui viennent d’être cueillies.",
+  "msgid": "{PLAYER} put away the {STR_VAR_1}\\nand the {STR_VAR_3} in the BAG's\\lBERRIES POCKET.\\pThe soil returned to its soft and\\nloamy state.",
+  "msgstr": "{PLAYER} met {STR_VAR_1} et\\n{STR_VAR_3} dans la POCHE Baies\\ldu Sac.\\pLe sol est à nouveau meuble et\\nfertile.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "oubli",
+  "probleme": "« Utilise » omet le geste précis d’épandre l’engrais.",
+  "correction": "{PLAYER} répand le {STR_VAR_1}\\nsur le sol meuble et fertile.",
+  "justification": "« Répand » restitue le geste décrit par « scattered » et reprend le verbe de la question précédente.",
+  "msgid": "{PLAYER} scattered the {STR_VAR_1}\\non the soft, loamy soil.",
+  "msgstr": "{PLAYER} utilise {STR_VAR_1}\\nsur le sol meuble et fertile.",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "contresens",
+  "probleme": "« Commencer un jeu » vise le début d’une partie, et « allez voir » rend la consigne moins précise.",
+  "correction": "Si vous voulez jouer,\\nparlez à l’homme à côté de moi.",
+  "justification": "La réplique invite les joueurs à s’adresser à l’homme pour jouer.",
+  "msgid": "If you want to play a game,\\nplease tell the man beside me.",
+  "msgstr": "Si vous voulez commencer un jeu,\\nallez voir l’homme à côté de moi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "typographie",
+  "probleme": "Le chemin de fichier est entouré de deux apostrophes fermantes.",
+  "correction": "Fonction indisponible!\\nDéfinissez une var valide dans:\\l“include/config/battle.h”!",
+  "justification": "Le projet emploie les guillemets “ ” pour délimiter le texte cité.",
+  "msgid": "Feature unavailable!\\nPlease define a usable var in:\\l'include/config/battle.h'!",
+  "msgstr": "Fonction indisponible!\\nDéfinissez une var valide dans:\\l’include/config/battle.h’!",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "oubli",
+  "probleme": "Le libellé omet « size », qui précise ce que mesurent les deux valeurs.",
+  "correction": "Taille SaveBlock3: {STR_VAR_1} o/{STR_VAR_2} o.\\nEspace libre: {STR_VAR_3} o.",
+  "justification": "« Taille » indique que les valeurs concernent la taille du bloc. Une espace sépare chaque valeur du symbole de l’octet.",
+  "msgid": "SaveBlock3 size: {STR_VAR_1}b/{STR_VAR_2}b.\\nFree space: {STR_VAR_3}b.",
+  "msgstr": "SaveBlock3: {STR_VAR_1}o/{STR_VAR_2}o.\\nEspace libre: {STR_VAR_3}o.",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "contresens",
+  "probleme": "« Jolie » décrit l’apparence de la commode alors que « nicely made » qualifie sa fabrication.",
+  "correction": "C’est une commode bien faite.\\nOn peut y ranger plein de choses.",
+  "justification": "« Bien faite » conserve l’appréciation de la qualité de fabrication.",
+  "msgid": "It's a nicely made dresser.\\nIt will hold a lot of stuff.",
+  "msgstr": "C’est une jolie commode.\\nOn peut y ranger plein de choses.",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "contresens",
+  "probleme": "« En dit vraiment long » amplifie ce que le profil révèle.",
+  "correction": "Hmhm…\\pTon profil révèle quelque chose\\nsur toi.\\pMaintenant que je te connais mieux,\\non est plus proches que jamais!",
+  "justification": "L’anglais souligne que le profil révèle quelque chose sur la personne, sans insister sur la quantité d’informations révélées.",
+  "msgid": "Hmhm…\\pYour profile really says something\\nabout who you are.\\pNow that I know you better, it \\nmakes us better friends than ever!",
+  "msgstr": "Hmhm…\\pTon profil en dit vraiment long sur qui\\ntu es.\\pMaintenant que je te connais mieux,\\non est plus proches que jamais!",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "oubli",
+  "probleme": "« Encore » évoque la répétition sans exprimer clairement le souhait d’en apprendre davantage.",
+  "correction": "La prochaine fois, parle-moi\\ndavantage de toi!",
+  "justification": "« Davantage » restitue la demande exprimée par « more ».",
+  "msgid": "Please tell me more about\\nyourself next time!",
+  "msgstr": "La prochaine fois, parle-moi encore\\nde toi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "terminologie",
+  "probleme": "La réplique conserve le nom anglais du ferry.",
+  "correction": "En route! Tous à bord!\\nFerry Flèche des Mers {STR_VAR_1}!",
+  "justification": "Les versions françaises de Pokémon Rouge Feu et Vert Feuille désignent les ferrys numérotés sous le nom « Ferry Flèche des Mers ». [Flèche des Mers](https://www.pokepedia.fr/Fl%C3%A8che_des_Mers#Ferrys_et_tickets)",
+  "msgid": "All right!\\nAll aboard SEAGALLOP HI-SPEED {STR_VAR_1}!",
+  "msgstr": "En route!\\nTous à bord du Seagallop {STR_VAR_1}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "terminologie",
+  "probleme": "« Carte Magnétique » ne suit pas le libellé officiel abrégé.",
+  "correction": "Bingo!\\nLa Carte Magn. ouvre la porte!",
+  "justification": "Le lexique fourni donne « Carte Magn. » pour « CARD KEY ».",
+  "msgid": "Bingo!\\nThe CARD KEY opened the door!",
+  "msgstr": "Bingo!\\nLa Carte Magnétique ouvre la porte!",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "terminologie",
+  "probleme": "« Carte Magnétique » ne suit pas le libellé officiel abrégé.",
+  "correction": "Non!\\nIl faut une Carte Magn.!",
+  "justification": "Le lexique fourni donne « Carte Magn. » pour « CARD KEY ».",
+  "msgid": "No!\\nIt needs a CARD KEY!",
+  "msgstr": "Non!\\nIl faut une Carte Magnétique!",
+  "msgctxt": ""
+ }
+]
