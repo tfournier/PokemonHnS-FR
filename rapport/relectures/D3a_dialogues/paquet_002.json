@@ -1,0 +1,112 @@
+[
+ {
+  "id": 3,
+  "categorie": "contresens",
+  "probleme": "Tomberoche est une capacité réelle, alors que TOMBSTONY est un nom inventé.",
+  "correction": "La CT28 contient Tombepierre?",
+  "justification": "Tombepierre conserve l’allusion à une pierre tombale et le nom de capacité fictif.",
+  "msgid": "TM28 contains TOMBSTONY?",
+  "msgstr": "La CT28 contient Tomberoche?",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "terminologie",
+  "probleme": "Il manque le circonflexe de Cramois’Île. La Dresseuse dit aussi « venu » au masculin.",
+  "correction": "Je suis venue visiter l’Arène de\\nCramois’Île, mais la porte est bien\\lfermée à clé.\\pIl devrait y avoir une clé quelque\\npart.\\pSerait-elle dans ce manoir incendié?\\pOn dit qu’un ami du Champion\\nd’Arène y vivait.",
+  "justification": "Cramois’Île est la graphie de Pokémon SoulSilver FR. « Venue » s’accorde avec la locutrice, identifiée comme CooltrainerF.",
+  "msgid": "I came to visit the CINNABAR GYM,\\nbut the door is locked tight.\\pThere should be a key for it\\nsomewhere.\\pCould it be in that burned-out\\nmansion?\\pThe GYM LEADER's friend used to\\nlive there, they say.",
+  "msgstr": "Je suis venu visiter l’Arène de\\nCramois’Ile, mais la porte est bien\\lfermée à clé.\\pIl devrait y avoir une clé quelque\\npart.\\pSerait-elle dans ce manoir incendié?\\pOn dit qu’un ami du Champion d’Arène y\\nvivait.",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "contresens",
+  "probleme": "La phrase laisse entendre que le Pokémon annule lui-même son évolution.",
+  "correction": "Un Pokémon peut encore apprendre\\ndes capacités même si on annule\\lson évolution.\\pL’évolution peut attendre qu’il ait\\nappris de nouvelles capacités.",
+  "justification": "Le joueur peut interrompre l’évolution sans empêcher le Pokémon d’apprendre de nouvelles capacités.",
+  "msgid": "POKéMON can still learn techniques\\nafter canceling evolution.\\pEvolution can wait until new moves\\nhave been learned.",
+  "msgstr": "Un Pokémon peut toujours apprendre\\ndes capacités après avoir annulé son\\lévolution.\\pL’évolution peut attendre qu’il ait\\nappris de nouvelles capacités.",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "contresens",
+  "probleme": "« C’est parti » annonce déjà le départ et répète « Allons-y! ».",
+  "correction": "Bon, voilà.\\nAllons-y!",
+  "justification": "La première phrase clôt les préparatifs, puis la seconde donne le signal du départ.",
+  "msgid": "Well, that's it.\\nLet's go!",
+  "msgstr": "Bon, c’est parti.\\nAllons-y!",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "contresens",
+  "probleme": "« Il s’agit d’un Pokémon » présente le fossile comme le Pokémon lui-même.",
+  "correction": "J’ai trouvé ce fossile tout à fait\\nremarquable dans le Mont Sélénite.\\pIl vient sans doute d’un Pokémon\\npréhistorique rare.",
+  "justification": "Le scientifique émet une hypothèse sur l’origine du fossile.",
+  "msgid": "I found this most remarkable fossil\\ninside MT. MOON.\\pI think it's of a rare, prehistoric\\nPOKéMON.",
+  "msgstr": "J’ai trouvé ce fossile tout à fait\\nremarquable dans le Mont Sélénite.\\pJe pense qu’il s’agit d’un Pokémon\\npréhistorique rare.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "oubli",
+  "probleme": "« En trois espèces » omet qu’un EVOLI évolue en une seule des trois formes.",
+  "correction": "EVOLI peut évoluer en l’un de\\nces trois types de Pokémon.",
+  "justification": "« One of three » indique trois évolutions possibles pour une seule évolution effective.",
+  "msgid": "EEVEE can evolve into one of three\\nkinds of POKéMON.",
+  "msgstr": "EVOLI peut évoluer en trois espèces\\nde Pokémon différentes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "oubli",
+  "probleme": "« Cet objet » omet la Poké Ball que l’enfant croit voir.",
+  "correction": "Cette Poké Ball là-bas…\\nTu la voulais?\\pMoi aussi!\\n… Hein? C’est un Pokémon?",
+  "justification": "La forme de Poké Ball explique pourquoi l’enfant prend le Pokémon pour un objet à ramasser.",
+  "msgid": "That item ball in there…\\nWere you wanting that?\\pMe, too!\\n…Huh? That's a POKéMON?",
+  "msgstr": "Cet objet là-dedans… Tu le voulais?\\pMoi aussi! … Hein? C’est un Pokémon?",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "contresens",
+  "probleme": "« La vraie terreur d’un maître ninja » brouille le rôle de Koga. « Une mort lente » ajoute une mort explicite.",
+  "correction": "Koga: Fwahahaha!\\pUn simple enfant comme toi ose me\\ndéfier?\\pRien que d’y penser, je frémis\\nde rire!\\pTrès bien. Un maître ninja va\\nt’apprendre la vraie terreur.\\pLe poison mène à la défaite.\\nLe sommeil rend l’ennemi impuissant.\\pDésespère face à l’horreur rampante\\ndes Pokémon de type Poison!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "justification": "Koga menace le joueur en sa qualité de maître ninja. Dans ce passage sur le combat, le poison voue l’adversaire à la défaite.",
+  "msgid": "KOGA: Fwahahaha!\\pA mere child like you dares to\\nchallenge me?\\pThe very idea makes me shiver\\nwith mirth!\\pVery well, I shall show you true\\nterror as a ninja master.\\pPoison brings steady doom.\\nSleep renders foes helpless.\\pDespair to the creeping horror of\\nPOISON-type POKéMON!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgstr": "Koga: Fwahahaha!\\pUn simple enfant comme toi ose me\\ndéfier?\\pRien que cette idée me fait frémir de\\nrire!\\pTrès bien, je vais te montrer la vraie\\nterreur d’un maître ninja.\\pLe poison apporte une mort lente. Le\\nsommeil rend l’ennemi impuissant.\\pDésespère face à l’horreur rampante\\ndes Pokémon de type Poison!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "oubli",
+  "probleme": "« Quatre cents ans » omet l’approximation de « some four hundred years ».",
+  "correction": "Dans cette CT06 est scellée la\\ncapacité Toxik!\\pC’est une technique secrète\\nd’environ quatre cents ans.",
+  "justification": "« Environ » restitue l’âge approximatif de la technique.",
+  "msgid": "Sealed within that TM06 lies\\nTOXIC!\\pIt is a secret technique dating\\nback some four hundred years.",
+  "msgstr": "Dans cette CT06 est scellée la\\ncapacité Toxik!\\pC’est une technique secrète vieille\\nde quatre cents ans.",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "oubli",
+  "probleme": "« Y vivent » omet la reproduction exprimée par « breed ».",
+  "correction": "Si tu complètes un Pokédex, va au\\nParc Safari.\\pToutes sortes de Pokémon rares\\ns’y reproduisent.",
+  "justification": "La réplique précise que ces Pokémon se reproduisent dans le parc.",
+  "msgid": "If you're working on a POKéDEX,\\nvisit the SAFARI ZONE.\\pAll sorts of rare POKéMON breed\\nthere.",
+  "msgstr": "Si tu complètes un Pokédex, va au\\nParc Safari.\\pToutes sortes de Pokémon rares y\\nvivent.",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "contresens",
+  "probleme": "« Votre part » suggère un quota ou un partage des prises.",
+  "correction": "Avez-vous fait bonne pêche?\\nRevenez nous voir!",
+  "justification": "« Your fair share » demande ici si le joueur a fait assez de prises.",
+  "msgid": "Did you catch your fair share?\\nCome again!",
+  "msgstr": "Avez-vous attrapé votre part?\\nRevenez nous voir!",
+  "msgctxt": ""
+ }
+]

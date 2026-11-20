@@ -1,0 +1,112 @@
+[
+ {
+  "id": 15,
+  "categorie": "contresens",
+  "probleme": "« Eh bien, si! » présente la réponse de Léo comme une objection.",
+  "correction": "Léo: Mais bien sûr!\\nComment avancent tes recherches?\\p… Oh, attends une seconde.",
+  "justification": "Léo confirme avec enthousiasme qu’il est venu.",
+  "msgid": "BILL: Well, absolutely!\\nHow's your research coming along?\\p…Oh, wait a sec.",
+  "msgstr": "Léo: Eh bien, si! Comment avancent tes\\nrecherches?\\p… Oh, attends une seconde.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "contresens",
+  "probleme": "« Futur prétendant » laisse entendre que le joueur ne brigue pas encore le titre.",
+  "correction": "Ciléo, voici {PLAYER}, un\\nprétendant de plus en plus sérieux\\lau titre de Maître de la Ligue!",
+  "justification": "« Rising contender » désigne un prétendant qui s’affirme déjà. Le titre reprend le libellé employé dans les dialogues de la Ligue. [Répliques du Prof. Chen](https://www.pokepedia.fr/Professeur_Chen/Citations)",
+  "msgid": "CELIO, this is {PLAYER}, a rising\\ncontender as the POKéMON CHAMP!",
+  "msgstr": "Ciléo, voici {PLAYER}, un futur\\nprétendant au titre de Maître\\lPokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "terminologie",
+  "probleme": "Le titre de la Ligue est rendu par « Maître Pokémon ».",
+  "correction": "Ciléo, voici {PLAYER}, l’actuel\\nMaître de la Ligue!",
+  "justification": "Le jeu emploie « Maître de la Ligue Pokémon » pour le titre du vainqueur. « Maître de la Ligue » en conserve la forme courte. [Répliques du Prof. Chen](https://www.pokepedia.fr/Professeur_Chen/Citations)",
+  "msgid": "CELIO, this is {PLAYER}, the\\nreigning POKéMON CHAMP!",
+  "msgstr": "Ciléo, voici {PLAYER}, l’actuel Maître\\nPokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "terminologie",
+  "probleme": "« Salle de Jeu » s’écarte de l’équivalence GAME CORNER → Casino fournie pour cette relecture.",
+  "correction": "{PLAYER}, tu veux bien m’attendre\\nun petit moment?\\p… En fait, tu pourrais me rendre\\nun service?\\pL’île voisine s’appelle l’Ile 2.\\pLà-bas, un type tient un\\nCasino.\\pIl a un faible pour les pierres\\nrares et les gemmes.\\pOn reste en contact, entre\\nmaniaques.\\pAlors, tu veux bien lui apporter\\ncette Météorite?",
+  "justification": "Le lexique fourni prescrit « Casino » pour GAME CORNER.",
+  "msgid": "{PLAYER}, can I get you to wait for\\nme just a bit?\\p…Actually, can I get you to do\\nme a favor?\\pThe island next to this one's\\ncalled TWO ISLAND.\\pThere's a guy there that runs\\na GAME CORNER.\\pHe has this thing for rare rocks\\nand gems.\\pWe keep in touch, being fellow\\nmaniacs.\\pSo, can I get you to deliver this\\nMETEORITE to him?",
+  "msgstr": "{PLAYER}, tu veux bien m’attendre un\\npetit moment?\\p… En fait, tu pourrais me rendre un\\nservice?\\pL’île voisine s’appelle l’Ile 2.\\pLà-bas, il y a un type qui tient une\\nSalle de Jeu.\\pIl a un faible pour les pierres rares\\net les gemmes.\\pOn reste en contact, entre maniaques.\\pAlors, tu veux bien lui apporter cette\\nMétéorite?",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "contresens",
+  "probleme": "« Laissé partir » atténue la responsabilité de Ciléo et de Léo.",
+  "correction": "Ciléo: {PLAYER}, je suis vraiment\\ndésolé qu’on t’ait envoyé seul\\laujourd’hui.\\pJe te promets qu’un jour, je te\\nferai visiter ces îles.",
+  "justification": "Ils ont envoyé le joueur seul faire la course.",
+  "msgid": "CELIO: {PLAYER}, I'm really sorry\\nthat we sent you off alone today.\\pI promise, I will show you around\\nthese islands sometime.",
+  "msgstr": "Ciléo: {PLAYER}, je suis vraiment\\ndésolé qu’on t’ait laissé partir seul\\laujourd’hui.\\pJe te promets qu’un jour, je te ferai\\nvisiter ces îles.",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "contresens",
+  "probleme": "« Echanger des Pokémon exotiques » peut désigner les Pokémon que le joueur cède.",
+  "correction": "Je suis en train de modifier la\\nMachine Réseau.\\pJe l’adapte pour permettre les\\néchanges à longue distance.\\pQuand j’aurai fini, tu pourras\\nobtenir des Pokémon exotiques de\\lDresseurs lointains par échange.",
+  "justification": "« Trading for » précise que les Pokémon exotiques sont ceux que le joueur reçoit.",
+  "msgid": "I'm modifying the Network Machine\\nright now.\\pI'm changing it so it can handle\\ntrades over long distances.\\pWhen I get finished, you'll be\\ntrading for exotic POKéMON from\\lTRAINERS far away.",
+  "msgstr": "Je suis en train de modifier la\\nMachine Réseau.\\pJe la transforme pour qu’elle puisse\\ngérer les échanges à longue distance.\\pQuand j’aurai fini, tu pourras\\néchanger des Pokémon exotiques avec\\ldes Dresseurs lointains.",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "oubli",
+  "probleme": "« J’entends beaucoup parler » efface la notion de rumeurs.",
+  "correction": "Ciléo: Bonjour!\\p{PLAYER}, j’ai entendu des\\nrumeurs à ton sujet.",
+  "justification": "Ciléo précise la nature des propos qu’il a entendus.",
+  "msgid": "CELIO: Hello!\\p{PLAYER}, I've been hearing rumors\\nabout you.",
+  "msgstr": "Ciléo: Bonjour!\\p{PLAYER}, j’entends beaucoup parler\\nde toi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "registre",
+  "probleme": "« Toi et Ciléo » tutoie le joueur alors que le contexte indique un vouvoiement.",
+  "correction": "J’ai échangé des Pokémon avec mon\\npetit ami qui habite loin!\\pTout le monde dit qu’on peut vous\\nremercier, vous et Ciléo.\\pAlors, merci!",
+  "justification": "Le premier « vous » désigne les deux personnes. Le second marque le vouvoiement du joueur.",
+  "msgid": "I traded POKéMON with my boyfriend\\nfar away!\\pEveryone's saying that we can\\nthank you and CELIO.\\pSo, thank you!",
+  "msgstr": "J’ai échangé des Pokémon avec mon\\npetit ami qui habite loin!\\pTout le monde dit qu’on peut vous\\nremercier, toi et Ciléo.\\pAlors, merci!",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "contresens",
+  "probleme": "« Les attaques et les parades de techniques » rattache maladroitement les techniques aux attaques et aux parades.",
+  "correction": "Bravo!\\pBravo, vraiment! Quel combat\\nstupéfiant!\\pC’était si stupéfiant que j’en ai\\nencore les larmes aux yeux!\\pCes attaques et ces parades,\\nquelle maîtrise!\\pLe choc de la puissance contre la\\npuissance!\\pOui! C’était grandiose!",
+  "justification": "Le spectateur admire la maîtrise avec laquelle les techniques ont servi à attaquer et à parer.",
+  "msgid": "Bravo!\\pBravo, indeed!\\nWhat an astounding battle!\\pIt was so astounding, why, it keeps\\nfilling my eyes with tears!\\pThe thrust and parry of expertly\\nused techniques!\\pThe clash of power upon power!\\pYes!\\nIt was sheer magnificence!",
+  "msgstr": "Bravo!\\pBravo, vraiment! Quel combat\\nstupéfiant!\\pC’était si stupéfiant que j’en ai\\nencore les larmes aux yeux!\\pLes attaques et les parades de\\ntechniques maîtrisées!\\pLe choc de la puissance contre la\\npuissance!\\pOui! C’était d’une pure magnificence!",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "contresens",
+  "probleme": "« Je n’agis pas comme j’en ai l’air » laisse le pronom « en » sans référent clair.",
+  "correction": "Quoi? Mon comportement te\\nsurprend vu mon apparence?\\pHé, ça fait partie de ma stratégie!",
+  "justification": "La Dresseuse relève le décalage entre son apparence et son comportement.",
+  "msgid": "What's that?\\nI don't act the way I look?\\pHeh, that's a part of my strategy!",
+  "msgstr": "Quoi? Je n’agis pas comme j’en ai l’air?\\pHé, ça fait partie de ma stratégie!",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "oubli",
+  "probleme": "La traduction omet « all » et attribue explicitement les cris à la joie.",
+  "correction": "Lalala…\\nMes Pokémon, je les envoie,\\ltoutes les filles poussent des cris!",
+  "justification": "Le chanteur affirme que toutes les filles crient. Le texte anglais laisse leur réaction ouverte.",
+  "msgid": "Lalalah…\\nMy POKéMON, I send them out,\\lall the girls scream and shout!",
+  "msgstr": "Lalala… Mes Pokémon, je les envoie,\\nles filles hurlent de joie!",
+  "msgctxt": ""
+ }
+]

@@ -1,0 +1,202 @@
+[
+ {
+  "id": 1,
+  "categorie": "orthographe",
+  "probleme": "Il manque la cédille à « Ça ».",
+  "correction": "Oh, bonjour.\\nC’est un joli {STR_VAR_2}.\\pÇa me rappelle une adorable petite\\nfille que j’ai rencontrée en voyage.\\pElle bichonnait tendrement des\\nPokémon… On aurait dit un petit ange.\\pCette petite fille s’appelait…\\nNina, je crois.",
+  "justification": "La cédille est obligatoire devant le a de « Ça », même avec une majuscule.",
+  "msgid": "Oh, hello.\\nThat's a cute {STR_VAR_2}.\\pSeeing it reminds me of a sweet \\nlittle girl I met while traveling.\\pShe was gently grooming POKéMON…\\nShe was a little angel.\\pThat little girl's name…\\nI think it was DAISY.",
+  "msgstr": "Oh, bonjour. C’est un joli {STR_VAR_2}.\\pCa me rappelle une adorable petite\\nfille que j’ai rencontrée en voyage.\\pElle bichonnait tendrement des\\nPokémon… On aurait dit un petit ange.\\pCette petite fille s’appelait… Nina, je\\ncrois.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’accent à « Éleveur ».",
+  "correction": "Tu sais, je crois que tu as le talent\\npour devenir un bon Éleveur.",
+  "justification": "La majuscule conserve l’accent de « éleveur ».",
+  "msgid": "You know, I think you have the\\ntalent to be a good BREEDER.",
+  "msgstr": "Tu sais, je crois que tu as le talent\\npour devenir un bon Eleveur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "oubli",
+  "probleme": "Le sous-titre perd la couleur bleue et l’image de la banquise. « Chaleureuse » évoque surtout l’accueil.",
+  "correction": "Île 4\\nL’île chaude à la banquise bleue",
+  "justification": "Le panneau joue sur le contraste entre la chaleur de l’île et la glace bleue.",
+  "msgid": "FOUR ISLAND\\nThe Warm, Blue, Floe Island",
+  "msgstr": "Ile 4\\nLa chaleureuse île glacée",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "orthographe",
+  "probleme": "Il manque le circonflexe à « Îles » et l’accent grave à « À plus ».",
+  "correction": "{RIVAL}: Hé! {PLAYER}!\\pQu’est-ce que tu fais ici, dans les\\nÎles Sevii?\\pArrête un peu de me copier, tu veux?\\pDe toute façon, j’ai déjà eu mon Œuf\\nde Pokémon, alors j’en ai fini avec\\lcette île.\\pHé, je parie que tu ne sais même\\npas ce que c’est, un Œuf de Pokémon.\\pTu ne compléteras jamais ton Pokédex\\nNATIONAL comme ça.\\pAu fait, j’ai vu quelqu’un qu’on\\nconnaît tous les deux sur cette île.\\pVa donc faire un tour, si ça\\nt’intrigue.\\pMoi, je n’ai pas de temps à perdre.\\pÀ plus, minable!",
+  "justification": "Les majuscules conservent les accents de « îles » et de la préposition « à ».",
+  "msgid": "{RIVAL}: Hey!\\n{PLAYER}!\\pWhat are you doing here in the\\nSEVII ISLANDS?\\pYou should quit copying me,\\nyou know?\\pAnyways, I already got my POKéMON\\nEGG, so I'm done with this island.\\pHeh, I bet you don't even know\\nabout POKéMON EGGS.\\pYou'll never fill your NATIONAL\\nPOKéDEX that way.\\pBy the way, I saw someone we both\\nknow on this island.\\pWhy don't you go look around if\\nit makes you curious?\\pMe, I don't have the time to\\nwaste.\\pBe smelling ya!",
+  "msgstr": "{RIVAL}: Hé! {PLAYER}!\\pQu’est-ce que tu fais ici, dans les\\nIles Sevii?\\pArrête un peu de me copier, tu veux?\\pDe toute façon, j’ai déjà eu mon Œuf\\nde Pokémon, alors j’en ai fini avec\\lcette île.\\pHé, je parie que tu ne sais même pas ce\\nque c’est, un Œuf de Pokémon.\\pTu ne compléteras jamais ton Pokédex\\nNATIONAL comme ça.\\pAu fait, j’ai vu quelqu’un qu’on\\nconnaît tous les deux sur cette île.\\pVa donc faire un tour, si ça\\nt’intrigue.\\pMoi, je n’ai pas de temps à perdre.\\pA plus, minable!",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "orthographe",
+  "probleme": "Il manque les accents à « À chaque » et « Île 4 ».",
+  "correction": "Oh, tu m’as trouvé! Ne le dis pas à\\nOlga.\\pTu savais qu’Olga avait des tas de\\npeluches?\\pÀ chaque retour sur l’Île 4, sa\\ncollection s’agrandit!",
+  "justification": "Les majuscules conservent l’accent grave de « à » et le circonflexe de « île ».",
+  "msgid": "Oh, you found me!\\nPlease don't tell LORELEI.\\pDid you know that LORELEI has lots\\nand lots of stuffed dolls?\\pEvery time she comes back to\\nFOUR ISLAND, her collection grows!",
+  "msgstr": "Oh, tu m’as trouvé! Ne le dis pas à\\nOlga.\\pTu savais qu’Olga avait des tas de\\npeluches?\\pA chaque retour sur l’Ile 4, sa\\ncollection s’agrandit!",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "registre",
+  "probleme": "Olga tutoie le sbire dans « Toi! Parle! », puis passe au vous dans sa question.",
+  "correction": "Olga: Hmph. Quelle faiblesse\\nméprisable.\\pToi! Parle!\\pOù as-tu emmené les Pokémon\\ncapturés?\\pJe vais démanteler ce réseau\\nune bonne fois pour toutes!",
+  "justification": "Olga interpelle un seul sbire et continue à le tutoyer dans sa menace.",
+  "msgid": "LORELEI: Humph.\\nSo despicably weak.\\pYou!\\nTell me!\\pWhere have you taken the captured\\nPOKéMON?\\pI'm smashing your ring once and\\nfor all!",
+  "msgstr": "Olga: Hmph. Quelle faiblesse\\nméprisable.\\pToi! Parle!\\pOù avez-vous emmené les Pokémon\\ncapturés?\\pJe vais démanteler votre réseau une\\nbonne fois pour toutes!",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "registre",
+  "probleme": "« Vous avez fait » rompt le tutoiement employé au début de la menace.",
+  "correction": "Olga: Si tu refuses d’avouer, nous\\nallons te congeler.\\pMon LOKHLASS est furieux de ce que\\ntu as fait à ses amis.\\pVas-y, LOKHLASS! Laser Glace…",
+  "justification": "Olga s’adresse au même sbire tout au long de la réplique.",
+  "msgid": "LORELEI: If you won't confess,\\nwe'll deep-freeze you.\\pMy LAPRAS is furious for what\\nyou've done to its friends.\\pGo, LAPRAS!\\nICE BEAM…",
+  "msgstr": "Olga: Si tu refuses d’avouer, nous\\nallons te congeler.\\pMon LOKHLASS est furieux de ce que\\nvous avez fait à ses amis.\\pVas-y, LOKHLASS! Laser Glace…",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "orthographe",
+  "probleme": "Il manque le circonflexe à « Île 5 ».",
+  "correction": "Waaah! D’accord! Je vais parler!\\pLes Pokémon sont dans l’Entrepôt\\nRocket, sur l’Île 5.\\pVoilà! Je l’ai dit! On s’en va!\\p… Mais je doute que tu arrives\\nà entrer dans l’Entrepôt Rocket!\\pHéhéhéhéhé!",
+  "justification": "La majuscule conserve le circonflexe de « île ».",
+  "msgid": "Wawaah! Okay!\\nI'll talk!\\pThe POKéMON are in the ROCKET\\nWAREHOUSE on FIVE ISLAND.\\pThere! I said it!\\nWe'll be going now!\\p…But I doubt you'll ever make it\\ninto the ROCKET WAREHOUSE!\\pHeheheheh!",
+  "msgstr": "Waaah! D’accord! Je vais parler!\\pLes Pokémon sont dans l’Entrepôt\\nRocket, sur l’Ile 5.\\pVoilà! Je l’ai dit! On s’en va!\\p… Mais ça m’étonnerait que tu arrives\\nà entrer dans l’Entrepôt Rocket!\\pHéhéhéhéhé!",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "contresens",
+  "probleme": "« Sévissaient ici » affirme que les criminels agissaient sur place. « Were loose here » évoque leur présence en liberté.",
+  "correction": "{PLAYER}, merci. Mais c’est\\népouvantable…\\pJe suis née et j’ai grandi ici,\\nsur ces îles.\\pJ’ignorais que ces horribles\\ncriminels étaient en liberté ici…",
+  "justification": "Olga dit qu’elle ignorait que ces criminels étaient en liberté dans l’archipel.",
+  "msgid": "{PLAYER}, thank you.\\nBut this is awful…\\pI was born and raised here on\\nthese islands.\\pI had no idea that those horrible\\ncriminals were loose here…",
+  "msgstr": "{PLAYER}, merci. Mais c’est\\népouvantable…\\pJe suis née et j’ai grandi ici, sur ces\\nîles.\\pJe n’avais aucune idée que ces\\nhorribles criminels sévissaient ici…",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "contresens",
+  "probleme": "« Les miens » renvoie à des proches alors que « my home » désigne l’île natale.",
+  "correction": "Olga: J’ai un gros souci\\nqui me pèse.\\pS’il arrivait quelque chose\\nsur l’île où je suis née…\\pJe n’en saurais rien si j’étais à la\\nLigue Pokémon.\\pEst-ce que je manquerais\\nà mon devoir envers mon île?",
+  "justification": "Olga se demande si son absence constituerait un manquement à son devoir envers son île.",
+  "msgid": "LORELEI: There's something weighing\\nheavily on my mind.\\pIf anything were to happen on\\nthe island where I was born…\\pI wouldn't know about it if I were\\nin the POKéMON LEAGUE.\\pI wonder if that would make me\\nirresponsible to my home…",
+  "msgstr": "Olga: Il y a quelque chose qui me pèse\\nbeaucoup.\\pS’il arrivait quoi que ce soit sur l’île\\noù je suis née…\\pJe n’en saurais rien si j’étais à la\\nLigue Pokémon.\\pEst-ce que ça ferait de moi quelqu’un\\nd’irresponsable envers les miens?",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "orthographe",
+  "probleme": "Il manque le circonflexe à « Îles Sevii ».",
+  "correction": "Dans l’ensemble, le climat des Îles\\nSevii est chaud.\\pMais il faut connaître l’exception.\\pLa Grotte de Glace est glaciale à\\ncause des Pokémon qui y vivent.",
+  "justification": "La majuscule conserve le circonflexe de « îles ».",
+  "msgid": "The SEVII ISLANDS are in a warm\\nregion overall.\\pBut there is one exception you\\nneed to know about.\\pThe ICEFALL CAVE is frigid because\\nof the POKéMON that live in it.",
+  "msgstr": "Dans l’ensemble, le climat des Iles\\nSevii est chaud.\\pMais il y a une exception à connaître.\\pLa Grotte de Glace est glaciale à\\ncause des Pokémon qui y vivent.",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’accent grave à « À quel Pokémon ».",
+  "correction": "Tu es terriblement courageux!\\pÀ quel Pokémon dois-je apprendre\\nExplosion?",
+  "justification": "La préposition « à » prend un accent grave, même en début de phrase.",
+  "msgid": "You're terribly brave!\\pWhich POKéMON should I teach\\nEXPLOSION?",
+  "msgstr": "Tu es terriblement courageux!\\pA quel Pokémon dois-je apprendre\\nExplosion?",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "orthographe",
+  "probleme": "Il manque le circonflexe à « Île 1 ».",
+  "correction": "Léo: Nous y voilà! C’est l’Île 1.\\pIl y a plusieurs îles dans les\\nenvirons, et celle-ci en fait partie.\\pMon ami Ciléo a envoyé un bateau\\nme chercher.\\pIl gère tout seul le réseau de PC\\nde l’île.\\p… Pourquoi je te raconte tout ça?\\nAllons voir Ciléo, tout simplement!",
+  "justification": "La majuscule conserve le circonflexe de « île ».",
+  "msgid": "BILL: Here we are!\\nThis is ONE ISLAND.\\pThere are several islands around\\nhere, and this is one of them.\\pMy friend CELIO sent the boat to\\nfetch me here.\\pHe's in charge of the island's PC\\nnetwork by his lonesome.\\p…Why am I telling you this now?\\nLet's just go see CELIO!",
+  "msgstr": "Léo: Nous y voilà! C’est l’Ile 1.\\pIl y a plusieurs îles dans les\\nenvirons, et celle-ci en fait partie.\\pMon ami Ciléo a envoyé le bateau me\\nchercher.\\pIl s’occupe tout seul du réseau de PC\\nde l’île.\\p… Pourquoi je te raconte tout ça?\\nAllons voir Ciléo, tout simplement!",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "orthographe",
+  "probleme": "Il manque le circonflexe à « Île 1 ».",
+  "correction": "Île 1\\nLes amis se réunissent ici",
+  "justification": "La majuscule conserve le circonflexe de « île ».",
+  "msgid": "ONE ISLAND\\nFriends Gather at Knot Island",
+  "msgstr": "Ile 1\\nLes amis se réunissent ici",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "oubli",
+  "probleme": "La chaleur du climat disparaît.",
+  "correction": "Salut, tu fais du tourisme?\\nIl fait bon et chaud ici, hein?",
+  "justification": "Le personnage vante précisément la douceur du climat chaud de l’île.",
+  "msgid": "Hi, sight-seeing, are you?\\nIsn't the warm climate here great?",
+  "msgstr": "Salut, tu fais du tourisme? Il est\\nagréable, le climat d’ici, hein?",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’accent grave à « À quand ».",
+  "correction": "Voyons voir… À quand remonte la\\ndernière éruption du Mont Braise?",
+  "justification": "La préposition « à » prend un accent grave, même après les points de suspension.",
+  "msgid": "Let me think… When was the last\\ntime MT. EMBER erupted?",
+  "msgstr": "Voyons voir… A quand remonte la\\ndernière éruption du Mont Braise?",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "contresens",
+  "probleme": "« Douce » traduit le toucher plutôt que l’aspect lisse. « Me donne » perd l’idée de préserver la jeunesse de la peau.",
+  "correction": "Regarde mon visage. Tu as vu\\ncomme ma peau est lisse?\\pL’eau de la source chaude garde\\nma peau jeune malgré mon âge.",
+  "justification": "Le personnage montre sa peau lisse et attribue sa jeunesse durable à l’eau de la source.",
+  "msgid": "Have a look at my face.\\nSee how smooth my skin is?\\pThe hot spring's water keeps my\\nskin younger than my age.",
+  "msgstr": "Regarde mon visage. Tu as vu comme ma\\npeau est douce?\\pL’eau de la source chaude me donne\\nune peau plus jeune que mon âge.",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "oubli",
+  "probleme": "La marque de politesse de « Please » disparaît.",
+  "correction": "Évite mon visage, s’il te plaît!\\nTu vas abîmer mon maquillage.",
+  "justification": "La demande reste polie et le contexte de la baignade donne son sens à « évite mon visage ».",
+  "msgid": "Please don't splash my face!\\nYou'll ruin the makeup.",
+  "msgstr": "Ne m’éclabousse pas le visage! Tu vas\\nabîmer mon maquillage.",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "typographie",
+  "probleme": "Il manque une virgule avant le « ça » détaché.",
+  "correction": "Hé, c’est quoi, ça…\\nTu es bon, toi!",
+  "justification": "La virgule marque le détachement de « ça » en fin de proposition.",
+  "msgid": "Hey, what the…\\nYou're good, you!",
+  "msgstr": "Hé, c’est quoi ça… Tu es bon, toi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "oubli",
+  "probleme": "« Combattants » perd la référence aux arts martiaux.",
+  "correction": "Même les adeptes d’arts martiaux\\nse mettent à s’intéresser à la mode…",
+  "justification": "La remarque porte sur l’intérêt nouveau des pratiquants d’arts martiaux pour la mode.",
+  "msgid": "Even martial artists are becoming\\nfashion conscious these days…",
+  "msgstr": "Même les combattants se soucient de\\nla mode, de nos jours…",
+  "msgctxt": ""
+ }
+]

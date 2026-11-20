@@ -1,0 +1,162 @@
+[
+ {
+  "id": 10,
+  "categorie": "oubli",
+  "probleme": "« Souffle tout » ne précise pas qu’il faut vider ses poumons.",
+  "correction": "D’abord, expire. Vide tes poumons.\\pQuand tu ne peux plus expirer,\\ninspire l’air pur!\\pC’est rafraîchissant, non?",
+  "justification": "« Blow everything out » demande d’expulser tout l’air avant d’inspirer.",
+  "msgid": "First, exhale.\\nBlow everything out.\\pWhen you can't exhale anymore,\\ninhale the clean air!\\pIsn't it refreshing?",
+  "msgstr": "D’abord, expire. Souffle tout.\\pQuand tu ne peux plus expirer, inspire\\nl’air pur!\\pC’est rafraîchissant, non?",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "contresens",
+  "probleme": "« Dégonflé… » peut passer pour une insulte adressée au joueur.",
+  "correction": "Je me suis dégonflé…",
+  "justification": "Dans sa réplique de défaite, le Dresseur dit qu’il a lui-même perdu son courage.",
+  "msgid": "Wimped out…",
+  "msgstr": "Dégonflé…",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "orthographe",
+  "probleme": "La préposition « À » perd son accent en début de phrase.",
+  "correction": "À certains endroits de Forbuissons,\\nl’herbe ne pousse pas.\\pQu’est-ce qui peut bien causer\\nun tel phénomène?",
+  "justification": "Les majuscules conservent leurs accents.",
+  "msgid": "There are places here in PATTERN\\nBUSH where grass won't grow.\\pWhat could be the cause of such\\na phenomenon?",
+  "msgstr": "A certains endroits de Forbuissons,\\nl’herbe ne pousse pas.\\pQu’est-ce qui peut bien causer un tel\\nphénomène?",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "orthographe",
+  "probleme": "« Ruines » prend une majuscule alors qu’il s’agit d’un nom commun.",
+  "correction": "Ça fait dix ans que je cherche des\\nruines.\\pNon, disons plutôt vingt ans.\\pJ’ai le sentiment que quelque\\nchose est caché sur cette île.",
+  "justification": "Le personnage cherche des ruines en général, sans nommer un lieu précis.",
+  "msgid": "For ten years, I've searched for\\nRUINS.\\pNo, make that twenty years.\\pI get this feeling that there's\\nsomething hidden on this island.",
+  "msgstr": "Ça fait dix ans que je cherche des\\nRuines.\\pNon, disons plutôt vingt ans.\\pJ’ai le sentiment que quelque chose\\nest caché sur cette île.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "contresens",
+  "probleme": "« Minable » ajoute une insulte explicite. Il manque aussi l’accent à « À plus ».",
+  "correction": "{RIVAL}: Hé, {PLAYER}!\\nÇa se remplit, ton Pokédex?\\pOn dirait qu’on ne peut pas avoir\\ntous les Pokémon en traînant\\lseulement dans le coin.\\pIl y a peut-être des Pokémon\\nqu’on ne connaît pas, très loin…\\p… … …  … … …  … … …\\pBah, si moi je n’y arrive pas,\\ntoi, tu n’as aucune chance.\\pJe ne vais pas me mettre dans tous\\nmes états pour ça.\\pJe vais continuer à attraper des\\nPokémon à mon rythme, tout en les\\lentraînant.\\pVoilà ce que je vais faire.\\nInutile de rester ici.\\lAutant rentrer à la maison.\\pBon, c’est réglé!\\nÀ plus!",
+  "justification": "« Smell ya later! » est une formule de départ moqueuse sans insulte explicite.",
+  "msgid": "{RIVAL}: Hey, {PLAYER}!\\nHow's your POKéDEX filling up?\\pIt looks like it's impossible to get\\nall the POKéMON by hanging around\\ljust these parts.\\pMaybe there are POKéMON we don't\\nknow about somewhere far away…\\p… … …  … … …  … … …\\pWell, if I can't do it, there's no\\nway for you to get it done.\\pI'm not going to get all desperate\\nover this.\\pI'll keep collecting POKéMON at my\\nown pace while I train them.\\pThat's what I'll do.\\nSo there's no point staying here.\\lI may as well leave for home.\\pThat's that, then!\\nSmell ya later!",
+  "msgstr": "{RIVAL}: Hé, {PLAYER}! Ça se remplit,\\nton Pokédex?\\pOn dirait qu’il est impossible d’avoir\\ntous les Pokémon en traînant\\lseulement dans le coin.\\pIl y a peut-être des Pokémon qu’on ne\\nconnaît pas quelque part, très loin…\\p… … … … … … … … …\\pBah, si moi je n’y arrive pas, toi, tu\\nn’as aucune chance.\\pJe ne vais pas me mettre dans tous\\nmes états pour ça.\\pJe vais continuer à collectionner des\\nPokémon à mon rythme, tout en les\\lentraînant.\\pVoilà ce que je vais faire. Alors,\\ninutile de rester ici. Autant rentrer à\\lla maison.\\pBon, c’est réglé! A plus, minable!",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’accent circonflexe à « Îles ».",
+  "correction": "Il y a plusieurs ruines dans les\\nÎles Sevii.\\pLa plupart d’entre elles sont très\\nanciennes.",
+  "justification": "Le nom « île » conserve son accent circonflexe à la majuscule.",
+  "msgid": "There are several ruins on the\\nSEVII ISLANDS.\\pThe majority of them date back\\na long way.",
+  "msgstr": "Il y a plusieurs ruines dans les Iles\\nSevii.\\pLa plupart d’entre elles sont très\\nanciennes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "contresens",
+  "probleme": "« Si haut » ne se rattache pas clairement au lieu du combat.",
+  "correction": "Un combat contre toi, ici, si haut!",
+  "justification": "« So high up » souligne l’altitude à laquelle a lieu le combat.",
+  "msgid": "A battle with you, so high up!",
+  "msgstr": "Un combat contre toi, si haut!",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "oubli",
+  "probleme": "La mention de la face extérieure de la porte disparaît.",
+  "correction": "La porte des ruines…\\nIl y a d’étranges motifs gravés\\lsur sa face extérieure.\\pMais je ne sais pas ce qu’ils\\nsignifient.",
+  "justification": "« On the outside » indique de quel côté de la porte se trouvent les gravures.",
+  "msgid": "The door to the ruins…\\nIt has these strange patterns\\lengraved on the outside.\\pI don't know what they mean,\\nthough.",
+  "msgstr": "La porte des ruines… Il y a d’étranges\\nmotifs gravés dessus.\\pMais je ne sais pas ce qu’ils\\nsignifient.",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "oubli",
+  "probleme": "« Réputation » perd la connotation négative de « stigma ».",
+  "correction": "Je n’ai pas pu me défaire de ma\\nmauvaise réputation de Nageur…",
+  "justification": "Le Nageur déplore la mauvaise image associée à sa classe.",
+  "msgid": "I couldn't lift the stigma of being\\na SWIMMER…",
+  "msgstr": "Je n’ai pas pu me débarrasser de ma\\nréputation de Nageur…",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "terminologie",
+  "probleme": "« jumelles » ne respecte pas la graphie du lexique fourni.",
+  "correction": "Miu: Mia et moi, on est Jumelles.\\nOn veut se battre ensemble.",
+  "justification": "Le lexique du projet donne « Jumelles » pour « TWINS ».",
+  "msgid": "MIU: MIA and I are TWINS.\\nWe want to battle together.",
+  "msgstr": "Miu: Mia et moi, on est jumelles. On\\nveut se battre ensemble.",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "orthographe",
+  "probleme": "« Recherché » est au masculin alors que l’objet recherché est une corne.",
+  "correction": "Recherchée!\\nLa corne ultime!",
+  "justification": "Le participe détaché s’accorde avec « corne », féminin singulier.",
+  "msgid": "Wanted!\\nThe Ultimate Horn!",
+  "msgstr": "Recherché! La corne ultime!",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "oubli",
+  "probleme": "La comptine conserve l’admiration pour SCARHINO, mais omet le désir d’en avoir un.",
+  "correction": "Scar, scar, SCARHINO!\\nGrand, brillant, roi des insectes!\\lOn l’adore, on veut un SCARHINO!",
+  "justification": "« Love it, need it » exprime à la fois l’admiration et l’envie d’en avoir un.",
+  "msgid": "Hera, hera, HERACROSS!\\nBig and shiny, it's the bug boss!\\lLove it, need it, HERACROSS!",
+  "msgstr": "Scar, scar, SCARHINO! Grand et\\nbrillant, roi des insectes! On l’adore,\\lSCARHINO!",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "contresens",
+  "probleme": "« De la dernière fois » désigne la dernière visite, alors que la comparaison porte sur le record.",
+  "correction": "Oh, il ne mesure que {STR_VAR_2}\\npouces. Le SCARHINO record\\létait plus grand.\\pIl mesurait {STR_VAR_3} pouces, le\\nplus grand SCARHINO que tu m’aies\\lapporté.",
+  "justification": "La dernière phrase identifie {STR_VAR_3} comme la taille du plus grand SCARHINO présenté jusque-là.",
+  "msgid": "Oh, it's just {STR_VAR_2} inches.\\nThe HERACROSS before was bigger.\\pIt was {STR_VAR_3} inches, the biggest\\nHERACROSS you've brought me.",
+  "msgstr": "Oh, il ne mesure que {STR_VAR_2}\\npouces. Le SCARHINO de la dernière\\lfois était plus grand.\\pIl mesurait {STR_VAR_3} pouces, le\\nplus grand SCARHINO que tu m’aies\\lapporté.",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "oubli",
+  "probleme": "La réplique française affirme le refus du joueur et perd l’hésitation de Lostelle.",
+  "correction": "Ton Sac à Baies est plein.\\nTu n’en veux pas, je suppose.",
+  "justification": "« I guess » présente le refus comme une supposition.",
+  "msgid": "Your BERRY POUCH is full.\\nI guess you don't want this.",
+  "msgstr": "Ton Sac à Baies est plein. Tu n’en veux\\npas, alors.",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "contresens",
+  "probleme": "« Ouais, ouais! » peut sonner comme un acquiescement au lieu d’un cri de joie.",
+  "correction": "Youpi, youpi! Des Pokémon!",
+  "justification": "« Yay, yay! » exprime l’enthousiasme de l’enfant à la vue des Pokémon.",
+  "msgid": "Yay, yay!\\nPOKéMON!",
+  "msgstr": "Ouais, ouais! Des Pokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "oubli",
+  "probleme": "La morsure est mentionnée, mais le trou dans le maillot disparaît.",
+  "correction": "Un Pokémon a troué mon maillot\\nde bain en le mordant.\\pJe ne peux pas sortir de l’eau!",
+  "justification": "« Bit through » indique que la morsure a traversé le tissu, ce qui explique la réplique suivante.",
+  "msgid": "A POKéMON bit through my \\nswimsuit.\\pI can't get out of the water!",
+  "msgstr": "Un Pokémon a mordu mon maillot de\\nbain.\\pJe ne peux pas sortir de l’eau!",
+  "msgctxt": ""
+ }
+]

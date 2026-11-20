@@ -1,0 +1,142 @@
+[
+ {
+  "id": 0,
+  "categorie": "oubli",
+  "probleme": "La taille d’OSSATUEUR est remplacée par une précision sur son évolution.",
+  "correction": "Comment avance ton Pokédex? Je\\nviens d’attraper un OSSELAIT!\\pJe ne trouve pas d’OSSATUEUR.\\nIls sont pourtant plus grands!\\lOù peuvent-ils bien être?\\pJe parie qu’il n’en reste plus!\\pBon, je ferais mieux d’y aller. J’ai\\nplein de choses à faire, moi,\\lcontrairement à toi.\\pAllez, à la revoyure!",
+  "justification": "« Bigger » compare la taille des deux espèces.",
+  "msgid": "How's your POKéDEX coming?\\nI just caught a CUBONE!\\pI can't find the bigger MAROWAK.\\nWhere could they be?\\pI bet there aren't any left!\\pWell, I better get going.\\nI've got a lot to accomplish,\\lunlike you.\\pSmell ya later!",
+  "msgstr": "Comment avance ton Pokédex? Je\\nviens d’attraper un OSSELAIT!\\pJe ne trouve pas d’OSSATUEUR, son\\névolution. Où peuvent-ils bien être?\\pJe parie qu’il n’en reste plus!\\pBon, je ferais mieux d’y aller. J’ai\\nplein de choses à faire, moi,\\lcontrairement à toi.\\pAllez, à la revoyure!",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "orthographe",
+  "probleme": "Le pronom et le participe sont au masculin alors que Patricia parle des autres Exorcistes de la tour.",
+  "correction": "Les autres, là-haut…\\nElles ont dû être possédées.",
+  "justification": "Le pronom et le participe s’accordent au féminin pluriel avec les personnages désignés.",
+  "msgid": "The others above…\\nThey must have been possessed.",
+  "msgstr": "Les autres, là-haut…\\nIls ont dû être possédés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "typographie",
+  "probleme": "Les points de suspension qui séparent les mots ne sont pas suivis d’une espace.",
+  "correction": "Donne… moi…\\ntout… ce que… tu as…",
+  "justification": "Une espace suit les points de suspension quand la phrase reprend sur la même ligne.",
+  "msgid": "Give…me…\\nyour…all…",
+  "msgstr": "Donne…moi…\\ntout…ce que…tu as…",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "typographie",
+  "probleme": "Les points de suspension qui séparent les mots ne sont pas suivis d’une espace.",
+  "correction": "Tu… vas…\\nnous… rejoindre…",
+  "justification": "Une espace suit les points de suspension quand la phrase reprend sur la même ligne.",
+  "msgid": "You…shall…\\njoin…us…",
+  "msgstr": "Tu…vas…\\nnous…rejoindre…",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "typographie",
+  "probleme": "Il manque une espace après les points de suspension qui précèdent « moi ».",
+  "correction": "Donne… moi…\\ndu sang…",
+  "justification": "Une espace suit les points de suspension quand la phrase reprend sur la même ligne.",
+  "msgid": "Give…me…\\nblood…",
+  "msgstr": "Donne…moi…\\ndu sang…",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "contresens",
+  "probleme": "« Grrr! » évoque un grognement agressif.",
+  "correction": "Urgh!",
+  "justification": "« Groan! » exprime ici un gémissement.",
+  "msgid": "Groan!",
+  "msgstr": "Grrr!",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » ne respecte pas le libellé fourni.",
+  "correction": "Ce vieux bonhomme a débarqué dans\\nnotre repaire.\\pEt le voilà qui se met à râler parce\\nque les Rocket maltraitent les\\lPokémon.\\pAlors on en discute entre adultes.",
+  "justification": "Le lexique fourni donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "This old guy marched right up to\\nour HIDEOUT.\\pThen, he starts ranting about how\\nTEAM ROCKET's abusing POKéMON.\\pSo, we're just talking it over as\\nadults.",
+  "msgstr": "Ce vieux bonhomme a débarqué dans\\nnotre repaire.\\pEt le voilà qui se met à râler parce\\nque la Team Rocket maltraite les\\lPokémon.\\pAlors on en discute entre adultes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » ne respecte pas le libellé fourni.",
+  "correction": "Ne te frotte pas aux Rocket!",
+  "justification": "Le lexique fourni retient « Rocket ». « Aux Rocket » désigne ici les membres qui parlent.",
+  "msgid": "Don't fight us ROCKETS!",
+  "msgstr": "Ne te frotte pas à la Team Rocket!",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "typographie",
+  "probleme": "La traduction occupe deux lignes alors qu’une seule est autorisée.",
+  "correction": "Tu as l’étoffe d’un randonneur!",
+  "justification": "La formulation tient sur une ligne et conserve le compliment sur les aptitudes du joueur.",
+  "msgid": "You're talented enough to hike!",
+  "msgstr": "Tu as assez de talent pour faire\\nde la randonnée!",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "registre",
+  "probleme": "« Prêt? Partez! » passe d’une adresse au singulier à un impératif au pluriel.",
+  "correction": "Combat Pokémon!\\nOn se prépare… C’est parti!",
+  "justification": "La formule conserve la préparation et le départ avec une adresse cohérente.",
+  "msgid": "POKéMON fight!\\nReady, go!",
+  "msgstr": "Combat Pokémon!\\nPrêt? Partez!",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "typographie",
+  "probleme": "La traduction occupe deux lignes alors qu’une seule est autorisée.",
+  "correction": "J’attrape un NOSFERAPTI en route!",
+  "justification": "Le présent conserve l’intention de capturer le Pokémon en chemin dans la limite d’une ligne.",
+  "msgid": "Oh well, I'll get a ZUBAT as I go!",
+  "msgstr": "Tant pis, j’attraperai un\\nNOSFERAPTI en route!",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » ne respecte pas le libellé fourni.",
+  "correction": "Bon sang… Tu te moques des\\nRocket, c’est ça?",
+  "justification": "Le lexique fourni donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "Blast it… You're dissing TEAM\\nROCKET, aren't you?",
+  "msgstr": "Bon sang… Tu te moques de la Team\\nRocket, c’est ça?",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "contresens",
+  "probleme": "« S’introduire dans une opération » rend mal l’intrusion dans les locaux de l’organisation.",
+  "correction": "Tu as réussi à entrer dans le\\nrepaire des Rocket? Quel culot!",
+  "justification": "« Broke into » renvoie à l’intrusion dans le repaire. « Rocket » suit le lexique fourni.",
+  "msgid": "You broke into TEAM ROCKET's\\noperation? What nerve!",
+  "msgstr": "Tu t’es introduit dans une opération\\nde la Team Rocket? Quel culot!",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « BOSS » est en capitales dans une réplique.",
+  "correction": "D’accord, je parle…\\nPrends l’ascenseur pour voir\\lmon chef.",
+  "justification": "« Chef » désigne le supérieur du Sbire et prend la minuscule dans le dialogue.",
+  "msgid": "Okay, I'll talk…\\nTake the elevator to see my BOSS.",
+  "msgstr": "D’accord, je parle… Prends l’ascenseur\\npour voir mon BOSS.",
+  "msgctxt": ""
+ }
+]

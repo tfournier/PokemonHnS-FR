@@ -1,0 +1,282 @@
+[
+ {
+  "id": 0,
+  "categorie": "oubli",
+  "probleme": "Le nom « Chrono Island » disparaît et la comparaison avec une rivière est ajoutée. Il manque aussi le circonflexe à « Île ».",
+  "correction": "Île 5\\nÎle Chrono: où le temps s’écoule",
+  "justification": "Le panneau donne le numéro de l’île, son nom et une devise sans comparaison.",
+  "msgid": "FIVE ISLAND\\nChrono Island: Where Time Goes",
+  "msgstr": "Ile 5\\nL’île où le temps s’écoule\\lcomme une rivière",
+  "msgctxt": ""
+ },
+ {
+  "id": 1,
+  "categorie": "contresens",
+  "probleme": "L’enfant dit qu’il ne peut plus aller au Pré.",
+  "correction": "Oh, c’est nul. Je voulais jouer\\ndans le Pré.\\pMais ils y ont construit un drôle\\nde bâtiment, alors je ne peux\\lplus y jouer.",
+  "justification": "Le bâtiment l’empêche d’y jouer. La réplique ne dit pas que l’accès est interdit.",
+  "msgid": "Oh, this stinks. I wanted to play in\\nthe MEADOW.\\pBut they put up a weird building\\non it, so I can't play there.",
+  "msgstr": "Oh, c’est nul. Je voulais jouer dans le\\nPré.\\pMais ils y ont construit un drôle de\\nbâtiment, alors je ne peux plus y\\laller.",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "contresens",
+  "probleme": "« Ce matin » précise une heure de la journée absente de l’anglais.",
+  "correction": "“Ne t’embête pas à acheter de quoi\\ndîner ce soir!”\\p… C’est ce que mon mari m’a dit\\nen partant pêcher aujourd’hui.\\pJe ne suis pas sûre de pouvoir\\ncompter sur lui pour tenir sa\\lpromesse.",
+  "justification": "« Today » indique seulement que le mari est parti pêcher aujourd’hui.",
+  "msgid": "Don't worry about buying anything\\nfor dinner tonight!\\p…That's what my husband said when\\nhe went off fishing today.\\pI'm not sure if I can count on him\\nto live up to that promise.",
+  "msgstr": "“Ne t’embête pas à acheter de quoi\\ndîner ce soir!”\\p… C’est ce que mon mari m’a dit en\\npartant à la pêche ce matin.\\pJe ne suis pas sûre de pouvoir\\ncompter sur lui pour tenir sa\\lpromesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "oubli",
+  "probleme": "« Le laisser à ces voyous » omet l’idée qu’ils se comportent sans retenue. « Ca » prend une cédille.",
+  "correction": "Ce Pré appartient à notre famille\\ndepuis des générations.\\pJ’aurais dû y faire bâtir un grand\\nmanoir.\\pÇa aurait mieux valu que de\\nlaisser ces voyous y faire la loi!",
+  "justification": "« Run wild » décrit ce que les voyous font sur le terrain. « Ça » s’écrit avec une cédille.",
+  "msgid": "That MEADOW has belonged to our\\nfamily for generations.\\pI should have had a giant mansion\\nbuilt on it.\\pIt would be preferable to having\\nthose thugs run wild on it!",
+  "msgstr": "Ce Pré appartient à notre famille\\ndepuis des générations.\\pJ’aurais dû y faire bâtir un immense\\nmanoir.\\pCa aurait mieux valu que de le laisser\\nà ces voyous!",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "orthographe",
+  "probleme": "« Passé » est accordé au masculin alors que le joueur peut incarner une fille.",
+  "correction": "Quel bonheur de vous croiser\\nici!\\pJe me suis lassée de marcher et\\nje me sens fatiguée.\\pPuis-je vous demander de me\\nraccompagner chez moi?",
+  "justification": "L’infinitif évite un accord dépendant du personnage choisi et « croiser » conserve l’idée d’une rencontre fortuite.",
+  "msgid": "I am so glad that you happened\\nhere.\\pI grew rather bored of walking,\\nand I am feeling fatigued.\\pMay I ask you to take me home\\nfrom here?",
+  "msgstr": "Je suis si heureuse que vous soyez\\npassé par ici.\\pJe me suis lassée de marcher, et je me\\nsens fatiguée.\\pPuis-je vous demander de me\\nraccompagner chez moi?",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "contresens",
+  "probleme": "« Si tu me passais » ne rend pas clairement le franchissement d’un obstacle.",
+  "correction": "Même si tu arrivais à passer, tu\\nperdrais ton temps.",
+  "justification": "Le sbire dit que le joueur perdrait son temps même s’il réussissait à passer.",
+  "msgid": "You'd be wasting time even if you\\nwere to get by me.",
+  "msgstr": "Même si tu me passais, tu perdrais ton\\ntemps.",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "orthographe",
+  "probleme": "Il manque le circonflexe à « Île ».",
+  "correction": "D’ici, tu peux t’envoler jusqu’à\\nl’Île 4.",
+  "justification": "Le nom « île » conserve son circonflexe à la majuscule.",
+  "msgid": "You can fly to FOUR ISLAND from\\nhere.",
+  "msgstr": "D’ici, tu peux t’envoler jusqu’à l’Ile 4.",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "contresens",
+  "probleme": "« Le cadet » peut désigner le plus jeune et ne donne pas clairement le rang du personnage.",
+  "correction": "Je suis le deuxième des Frères\\nOiseaux.\\pLe mieux chez les oiseaux…\\nCe sont les ailes, bien sûr.",
+  "justification": "« The middle kid » désigne ici le deuxième des trois frères.",
+  "msgid": "I'm the middle kid of the BIRD\\nBROTHERS.\\pThe best thing about birds…\\nIt has to be the wings.",
+  "msgstr": "Je suis le cadet des Frères Oiseaux.\\pCe qu’il y a de mieux chez les oiseaux…\\nCe sont les ailes, bien sûr.",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "contresens",
+  "probleme": "Le présent transforme une observation passée en affirmation sur la présence actuelle du personnage.",
+  "correction": "Il y avait un type vraiment\\nmorose, par là-bas.",
+  "justification": "« There was » place la rencontre dans le passé et « guy » ne précise pas l’âge du personnage.",
+  "msgid": "There was a really somber guy\\nover that way.",
+  "msgstr": "Il y a un garçon vraiment sombre, par\\nlà-bas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "contresens",
+  "probleme": "Les câlins sont ajoutés et le caractère enjoué de la sollicitation disparaît.",
+  "correction": "Je suis tout heureux quand les\\nPokémon Oiseaux quémandent\\len jouant…",
+  "justification": "« Beg playfully » décrit leur manière de quémander, sans préciser ce qu’ils réclament.",
+  "msgid": "It fills me with happiness when\\nbird POKéMON beg playfully…",
+  "msgstr": "Je suis tout heureux quand les\\nPokémon Oiseaux me réclament des\\lcâlins…",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "orthographe",
+  "probleme": "Il manque la cédille à « Ça ».",
+  "correction": "Me-merci…\\pC’était la boisson préférée de mon\\nTectonix…\\pJe ne te connais même pas, mais ton\\ngeste…\\pÇa m’a un peu remonté le moral.\\pTu veux bien accepter ceci pour te\\nremercier?",
+  "justification": "Le pronom démonstratif « ça » conserve sa cédille à la majuscule.",
+  "msgid": "Th-thank you…\\pThat was my TECTONIX's favorite\\ndrink…\\pI don't even know you, but your\\nact of kindness…\\pIt's uplifted me a little.\\pCan you please take this as my\\nthanks?",
+  "msgstr": "Me-merci…\\pC’était la boisson préférée de mon\\nTectonix…\\pJe ne te connais même pas, mais ton\\ngeste…\\pCa m’a un peu remonté le moral.\\pTu veux bien accepter ceci pour te\\nremercier?",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "orthographe",
+  "probleme": "« Gentil » est accordé au masculin alors que le joueur peut incarner une fille.",
+  "correction": "Prends bien soin de tes Pokémon,\\ntoi aussi.",
+  "justification": "La reformulation conserve le conseil sans adjectif à accorder avec le personnage joueur.",
+  "msgid": "Please be good to your POKéMON,\\ntoo.",
+  "msgstr": "Sois gentil avec tes Pokémon, toi\\naussi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "orthographe",
+  "probleme": "Dans « c’est toi, l’autre jour », le complément de temps reste sans verbe exprimant la rencontre passée.",
+  "correction": "Oh, c’est toi! On s’est vus\\ll’autre jour…\\pJ’ai toujours le cadeau que je\\nvoulais te donner pour te remercier.",
+  "justification": "Le personnage reconnaît la personne qu’il a rencontrée lors de la visite précédente.",
+  "msgid": "Oh, it's you from that time…\\pI still have that thing I wanted\\nyou to have as my thanks.",
+  "msgstr": "Oh, c’est toi, l’autre jour…\\pJ’ai toujours le cadeau que je voulais\\nte donner pour te remercier.",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "oubli",
+  "probleme": "« Une personne » efface le fait que le personnage parle d’une personne précise sans la nommer.",
+  "correction": "Je vais préparer un repas pour\\nune certaine personne de la\\lhaute société.",
+  "justification": "« A certain high-society person » évoque une personne précise dont le nom est laissé de côté.",
+  "msgid": "I'm on my way to prepare a meal\\nfor a certain high-society person.",
+  "msgstr": "Je vais préparer un repas pour une\\npersonne de la haute société.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "orthographe",
+  "probleme": "Il manque le circonflexe à « Ôte-toi ».",
+  "correction": "Excuse-moi! J’essaie de peindre.\\nÔte-toi de ma vue, s’il te plaît!",
+  "justification": "L’impératif du verbe « ôter » conserve son circonflexe à la majuscule.",
+  "msgid": "Excuse me!\\nI'm trying to paint.\\lPlease keep out of my sight!",
+  "msgstr": "Excuse-moi! J’essaie de peindre.\\nOte-toi de ma vue, s’il te plaît!",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "contresens",
+  "probleme": "« Mon humeur tourne au bleu » ne transmet pas la tristesse exprimée en anglais.",
+  "correction": "Oh…\\nJ’ai le blues…",
+  "justification": "« Blue » exprime la mélancolie. « Avoir le blues » restitue ce sens et conserve l’écho à la couleur.",
+  "msgid": "Oh…\\nMy feelings, they are blue…",
+  "msgstr": "Oh… Mon humeur, elle tourne au bleu…",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "contresens",
+  "probleme": "« Rendre visite à la villégiature » traite le lieu de séjour comme la personne à qui l’on rend visite.",
+  "correction": "Je suis dans la maison de vacances\\nd’une amie, si vous voulez tout\\lsavoir.",
+  "justification": "« My friend’s retreat » désigne le lieu où séjourne le personnage.",
+  "msgid": "I am visiting my friend's retreat,\\nif you must know.",
+  "msgstr": "Je rends visite à la villégiature d’une\\namie, si vous voulez tout savoir.",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "contresens",
+  "probleme": "« La vie marine » évoque la faune et la flore marines.",
+  "correction": "Je dois dire que la vie au bord\\nde la mer me réussit.",
+  "justification": "Le personnage parle du bien que lui fait son séjour en bord de mer.",
+  "msgid": "I say, this marine life here at\\nthis resort agrees with me.",
+  "msgstr": "Je dois dire que la vie marine de ce\\nlieu de villégiature me réussit.",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "contresens",
+  "probleme": "« Se mettre dans un tel état » suggère une réaction émotionnelle.",
+  "correction": "Prendre ça tellement au sérieux…\\nQuelle absurdité.",
+  "justification": "Le personnage juge absurde le sérieux accordé à la situation.",
+  "msgid": "Getting so serious over this…\\nHow nonsensical.",
+  "msgstr": "Se mettre dans un tel état pour ça…\\nQuelle absurdité.",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "oubli",
+  "probleme": "Le texte ne précise pas que le présent exprime la gratitude de Themis.",
+  "correction": "Majordome: Je vous remercie\\nsincèrement d’avoir fait plaisir à\\lMademoiselle Themis.\\pVeuillez accepter ceci en gage\\nde sa gratitude…",
+  "justification": "« Her thanks » distingue les remerciements de Themis de ceux que le majordome vient d’exprimer.",
+  "msgid": "Butler: I sincerely thank you for\\npleasing Lady SELPHY.\\pPlease accept this as her thanks…",
+  "msgstr": "Majordome: Je vous remercie\\nsincèrement d’avoir fait plaisir à\\lMademoiselle Themis.\\pVeuillez accepter ceci en\\nremerciement…",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "contresens",
+  "probleme": "« Continuez à » ajoute une demande de poursuivre une action déjà entamée.",
+  "correction": "Majordome: Le sourire de\\nMademoiselle Themis a l’éclat\\ldu soleil.\\pJe vous en supplie, faites la\\njoie de Mademoiselle Themis.",
+  "justification": "Le majordome supplie le joueur d’apporter de la joie à Themis sans préciser que cette action doit se poursuivre.",
+  "msgid": "Butler: The smile of Lady SELPHY\\nhas the brilliance of the sun.\\pPlease, I beg you to bring joy\\nto Lady SELPHY.",
+  "msgstr": "Majordome: Le sourire de Mademoiselle\\nThemis a l’éclat du soleil.\\pJe vous en supplie, continuez à faire\\nla joie de Mademoiselle Themis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » ne suit pas le lexique fourni. « Venu » impose aussi un accord masculin.",
+  "correction": "Tu savais en venant ici que\\nc’était l’Entrepôt Rocket?",
+  "justification": "Le lexique officiel fourni donne « Rocket » pour « TEAM ROCKET ». « En venant » convient aux deux personnages joueurs.",
+  "msgid": "Did you come here knowing it's\\nTEAM ROCKET's WAREHOUSE?",
+  "msgstr": "T’es venu ici en sachant que c’était\\nl’Entrepôt de la Team Rocket?",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » ne suit pas le lexique fourni.",
+  "correction": "Les Rocket se sont séparés? Tu\\ndébarques d’où, toi?",
+  "justification": "Le lexique officiel fourni donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "TEAM ROCKET broke up?\\nWhat planet are you from?",
+  "msgstr": "La Team Rocket a été dissoute? Tu\\ndébarques d’où, toi?",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "contresens",
+  "probleme": "« Pas question que » peut se lire comme un refus du sbire.",
+  "correction": "Les autres m’ont parlé de toi.\\pImpossible qu’un gamin comme toi\\nconnaisse notre chef Giovanni!",
+  "justification": "« There’s no way » exprime ici l’incrédulité du sbire à l’idée que le joueur connaisse Giovanni.",
+  "msgid": "I got word about you from the\\nothers.\\pBut there's no way a kid like you'd\\nknow our BOSS GIOVANNI!",
+  "msgstr": "Les autres m’ont parlé de toi.\\pMais pas question qu’un gamin comme\\ntoi connaisse notre chef Giovanni!",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "contresens",
+  "probleme": "« Qui m’attend derrière » suggère que le responsable attend la personne qui parle.",
+  "correction": "Je t’ai ouvert un passage pour que\\ntu puisses revenir par là.\\pPourquoi ne pas aller te reposer et\\nreprendre des forces pour la suite?\\pL’Admin que tu affronteras\\lensuite me surpasse largement.\\pPrépare-toi à un défi très rude.",
+  "justification": "« The ADMIN after me » désigne le prochain adversaire du joueur. La comparaison porte sur sa force au combat.",
+  "msgid": "I've made it so you can come back\\nin through there.\\pWhy don't you go get rested and\\nrefreshed for what lies ahead?\\pThe ADMIN after me outranks me\\nthoroughly as a TRAINER.\\pYou'd better steel yourself for one\\nharsh challenge.",
+  "msgstr": "Je t’ai ouvert un passage pour que tu\\npuisses revenir par là.\\pPourquoi ne pas aller te reposer et\\nreprendre des forces pour la suite?\\pL’Admin qui m’attend derrière est un\\nDresseur bien plus fort que moi.\\pPrépare-toi à un défi très rude.",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » ne suit pas le lexique fourni et « spreading lies » perd l’accusation explicite de mensonge.",
+  "correction": "Ça suffit de jouer les héros, gamin.\\pRépandre des mensonges sur\\nla dissolution des Rocket…\\pC’est une tentative grossière pour\\nsemer la confusion dans nos rangs.\\pHeureusement, nous ne sommes pas\\nassez bêtes pour croire les\\lmensonges d’un enfant!\\pEt maintenant, je vais te montrer à\\nquel point un adulte en colère peut\\lêtre effrayant!",
+  "justification": "Le lexique officiel fourni donne « Rocket » pour « TEAM ROCKET ». Le responsable qualifie d’emblée la dissolution de mensonge.",
+  "msgid": "That's quite enough of you \\nplaying the hero, kid.\\pSpreading lies about how TEAM\\nROCKET has disbanded…\\pIt's such an obvious attempt to\\ncause confusion in our ranks.\\pFortunately, we're not so ignorant\\nto fall for the lies of a child!\\pAnd now, I'll show you how scary\\nan angry adult can be!",
+  "msgstr": "Ça suffit de jouer les héros, gamin.\\pRaconter partout que la Team Rocket\\na été dissoute…\\pC’est une tentative grossière pour\\nsemer la confusion dans nos rangs.\\pHeureusement, nous ne sommes pas\\nassez bêtes pour croire les\\lmensonges d’un enfant!\\pEt maintenant, je vais te montrer à\\nquel point un adulte en colère peut\\lêtre effrayant!",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » ne suit pas le lexique fourni et « fort » impose un accord masculin.",
+  "correction": "Argh… Tu avais trop de force…\\p… C-c’est le Badge de Giovanni!\\pAlors c’est vrai? Les Rocket se\\nsont vraiment séparés?",
+  "justification": "Le lexique officiel fourni donne « Rocket » pour « TEAM ROCKET ». « Trop de force » conserve le motif de la défaite sans accord avec le personnage joueur.",
+  "msgid": "Urgh…\\nYou were too strong…\\p…\\nTh-that's GIOVANNI's BADGE!\\pSo it's true?\\nTEAM ROCKET really has disbanded?",
+  "msgstr": "Argh… Tu étais trop fort…\\p… C-c’est le Badge de Giovanni!\\pAlors c’est vrai? La Team Rocket a\\nvraiment été dissoute?",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » ne suit pas le lexique fourni et « Je le jure » ajoute un serment explicite.",
+  "correction": "Nous allons quitter cet Entrepôt…\\pMais ne crois pas que c’est fini.\\nJe ne laisserai pas tout finir ici.\\pJe retrouverai Giovanni.\\nEt je reformerai les Rocket!\\lJe les reformerai…\\pD’ici là, adieu!",
+  "justification": "Le lexique officiel fourni donne « Rocket » pour « TEAM ROCKET ». « I will… » reprend la déclaration précédente sans formuler de serment.",
+  "msgid": "We will abandon this WAREHOUSE…\\pBut don't think this is over.\\nI won't let this be the end.\\pI will find GIOVANNI.\\nAnd I will resurrect TEAM ROCKET!\\lI will…\\pUntil then, farewell!",
+  "msgstr": "Nous allons abandonner cet Entrepôt…\\pMais ne crois pas que c’est fini. Je ne\\nlaisserai pas les choses s’arrêter là.\\pJe retrouverai Giovanni. Et je\\nressusciterai la Team Rocket! Je le\\ljure…\\pD’ici là, adieu!",
+  "msgctxt": ""
+ }
+]

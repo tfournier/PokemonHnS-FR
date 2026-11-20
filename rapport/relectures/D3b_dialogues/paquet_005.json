@@ -1,0 +1,122 @@
+[
+ {
+  "id": 17,
+  "categorie": "orthographe",
+  "probleme": "La préposition « À » a perdu son accent.",
+  "correction": "À la nage, je bats même les Pokémon\\nmarins.",
+  "justification": "La majuscule conserve l’accent grave de la préposition « à ».",
+  "msgid": "I can beat even marine POKéMON\\nat swimming.",
+  "msgstr": "A la nage, je bats même les Pokémon\\nmarins.",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "contresens",
+  "probleme": "« Traverser la mer » ajoute l’idée de rejoindre l’autre rive.",
+  "correction": "Si je devais aller en mer sur un\\nPokémon, je choisirais LOKHLASS.\\pIl est si grand qu’il me garderait\\nsûrement au sec sur l’eau.",
+  "justification": "L’anglais évoque le fait de se déplacer en mer sur un Pokémon, sans préciser de destination.",
+  "msgid": "If I were to ride a POKéMON on\\nthe sea, I'd like a LAPRAS.\\pLAPRAS is so big, I bet it\\nwould keep me dry on water.",
+  "msgstr": "Si je devais traverser la mer sur un\\nPokémon, je choisirais LOKHLASS.\\pIl est si grand qu’il me garderait\\nsûrement au sec sur l’eau.",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "oubli",
+  "probleme": "« Me battre avec mon petit frère » peut faire de Luc son adversaire.",
+  "correction": "Lia: Je veux combattre aux côtés\\nde mon petit frère.\\pTu n’as pas deux Pokémon?",
+  "justification": "« Battle together with » précise que Lia veut faire équipe avec son frère.",
+  "msgid": "LIA: I want to battle together\\nwith my little brother.\\pDon't you have two POKéMON?",
+  "msgstr": "Lia: Je veux me battre avec mon\\npetit frère.\\pTu n’as pas deux Pokémon?",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "oubli",
+  "probleme": "Le fait que la sœur de Luc est son aînée a disparu.",
+  "correction": "Luc: Oh, waouh!\\nPlus fort que ma grande sœur!",
+  "justification": "« Big sis » désigne sa grande sœur. La formulation elliptique conserve l’exclamation sur une ligne.",
+  "msgid": "LUC: Oh, wow!\\nSomeone tougher than my big sis!",
+  "msgstr": "Luc: Oh, waouh!\\nQuelqu’un de plus fort que ma sœur!",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "oubli",
+  "probleme": "La condition ne précise plus que Luc veut affronter le joueur avec sa sœur pour partenaire.",
+  "correction": "Luc: Si je peux pas t’affronter aux\\ncôtés de ma grande sœur, je refuse.\\pTu n’as pas deux Pokémon?",
+  "justification": "« Battle you with my big sis » désigne le joueur comme adversaire et la grande sœur comme partenaire.",
+  "msgid": "LUC: I don't want to if I can't\\nbattle you with my big sis.\\pDon't you have two POKéMON?",
+  "msgstr": "Luc: Je veux pas, si je peux pas me\\nbattre avec ma grande sœur.\\pTu n’as pas deux Pokémon?",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "contresens",
+  "probleme": "Le président demande de la discrétion pendant l’utilisation de la Ball.",
+  "correction": "Président: On ne peut l’acheter\\nnulle part.\\pC’est notre prototype secret de\\nMaster Ball.\\pElle capture à coup sûr\\nn’importe quel Pokémon!\\pMais tu devrais garder le silence\\nsur son utilisation.",
+  "justification": "« Be quiet about using it » demande de ne pas parler de son utilisation.",
+  "msgid": "PRESIDENT: You can't buy that\\nanywhere.\\pIt's our secret prototype MASTER\\nBALL.\\pIt will catch any POKéMON without\\nfail!\\pYou should be quiet about using it,\\nthough.",
+  "msgstr": "Président: On ne peut l’acheter nulle\\npart.\\pC’est notre prototype secret de\\nMaster Ball.\\pElle capture n’importe quel Pokémon\\nà coup sûr!\\pMais tu devrais rester discret quand\\ntu t’en sers.",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "contresens",
+  "probleme": "« Maudit sois-tu! » transforme un juron en malédiction adressée au joueur.",
+  "correction": "Malediction!\\nTu as ruiné nos plans pour la Sylphe!\\pMais la Team Rocket ne tombera\\njamais!\\p{PLAYER}! N’oublie jamais que tous\\nles Pokémon existent pour la Team\\lRocket!\\pJe dois partir, mais je reviendrai!",
+  "justification": "« Blast it all! » est une exclamation de dépit.",
+  "msgid": "Blast it all!\\nYou ruined our plans for SILPH!\\pBut, TEAM ROCKET will never fall!\\p{PLAYER}! Never forget that all\\nPOKéMON exist for TEAM ROCKET!\\pI must go, but I shall return!",
+  "msgstr": "Maudit sois-tu!\\nTu as ruiné nos plans pour la Sylphe!\\pMais la Team Rocket ne tombera\\njamais!\\p{PLAYER}! N’oublie jamais que tous\\nles Pokémon existent pour la Team\\lRocket!\\pJe dois partir, mais je reviendrai!",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "terminologie",
+  "probleme": "Les deux occurrences de « Team Rocket » s’écartent du lexique.",
+  "correction": "Maudit sois-tu!\\nTu as ruiné nos plans pour la Sylphe!\\pMais les Rocket ne tomberont\\njamais!\\p{PLAYER}! N’oublie jamais que tous\\nles Pokémon existent pour les\\lRocket!\\pJe dois partir, mais je reviendrai!",
+  "justification": "Le lexique officiel fourni donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "Blast it all!\\nYou ruined our plans for SILPH!\\pBut, TEAM ROCKET will never fall!\\p{PLAYER}! Never forget that all\\nPOKéMON exist for TEAM ROCKET!\\pI must go, but I shall return!",
+  "msgstr": "Maudit sois-tu!\\nTu as ruiné nos plans pour la Sylphe!\\pMais la Team Rocket ne tombera\\njamais!\\p{PLAYER}! N’oublie jamais que tous\\nles Pokémon existent pour la Team\\lRocket!\\pJe dois partir, mais je reviendrai!",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "orthographe",
+  "probleme": "La préposition « À » a perdu son accent.",
+  "correction": "À quel Pokémon dois-je apprendre\\nEboulement?",
+  "justification": "La majuscule conserve l’accent grave de la préposition « à ».",
+  "msgid": "Which POKéMON should I teach\\nROCK SLIDE?",
+  "msgstr": "A quel Pokémon dois-je apprendre\\nEboulement?",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "contresens",
+  "probleme": "« Le sens du courant » limite l’indice à un changement de direction.",
+  "correction": "Indice: les rochers peuvent\\nmodifier le courant.",
+  "justification": "« Flow of water » désigne l’écoulement de l’eau au sens large.",
+  "msgid": "Hint: Boulders might change the\\nflow of water.",
+  "msgstr": "Indice: les rochers peuvent changer\\nle sens du courant.",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "oubli",
+  "probleme": "La cause de l’épuisement a disparu.",
+  "correction": "Tu en as attrapé combien?\\nTous ces efforts m’ont épuisé!",
+  "justification": "« From the effort » attribue la fatigue aux efforts du personnage.",
+  "msgid": "How many did you catch?\\nI'm bushed from the effort!",
+  "msgstr": "Tu en as attrapé combien?\\nMoi, je suis épuisé!",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "oubli",
+  "probleme": "La condition de récompense omet que les données doivent être complètes.",
+  "correction": "Salut! Tu te souviens de moi?\\nJe suis un assistant du Prof. Chen.\\pSi ton Pokédex contient les\\ndonnées complètes de 40 espèces,\\lje dois te donner une récompense.\\pLe Prof. Chen m’a confié une\\nPièce Rune pour toi.\\pAlors, {PLAYER}, dis-moi.\\pAs-tu recueilli des données sur au\\nmoins 40 espèces de Pokémon?",
+  "justification": "« Complete data » désigne les fiches complètes, ce qui distingue les Pokémon capturés de ceux qui ont seulement été vus.",
+  "msgid": "Hi! Remember me?\\nI'm one of PROF. OAK's AIDES.\\pIf your POKéDEX has complete data\\non 40 species, I'm supposed to\\lgive you a reward.\\pPROF. OAK entrusted me with an\\nAMULET COIN for you.\\pSo, {PLAYER}, let me ask you.\\pHave you gathered data on at least\\n40 kinds of POKéMON?",
+  "msgstr": "Salut! Tu te souviens de moi?\\nJe suis un assistant du Prof. Chen.\\pSi ton Pokédex contient les données\\nde 40 espèces, je dois te donner une\\lrécompense.\\pLe Prof. Chen m’a confié une\\nPièce Rune pour toi.\\pAlors, {PLAYER}, dis-moi.\\pAs-tu recueilli des données sur au\\nmoins 40 espèces de Pokémon?",
+  "msgctxt": ""
+ }
+]

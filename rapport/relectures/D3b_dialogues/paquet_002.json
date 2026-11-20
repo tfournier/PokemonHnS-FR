@@ -1,0 +1,242 @@
+[
+ {
+  "id": 13,
+  "categorie": "terminologie",
+  "probleme": "Le prénom Léa et l’impératif Écoute ont perdu leur accent.",
+  "correction": "Jed: Écoute, Léa. Tu devrais moins\\nte concentrer sur moi.",
+  "justification": "Le lexique fourni donne Léa. La majuscule d’Écoute conserve son accent.",
+  "msgid": "JED: Listen, LEA.\\nYou need to focus less on me.",
+  "msgstr": "Jed: Ecoute, Lea. Tu devrais moins te\\nconcentrer sur moi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "terminologie",
+  "probleme": "L’accent du prénom Léa manque.",
+  "correction": "Léa: Ohh! Mais Jed reste cool,\\nmême quand il perd!",
+  "justification": "Le lexique fourni donne Léa.",
+  "msgid": "LEA: Ohh! But JED looks cool\\neven in a loss!",
+  "msgstr": "Lea: Ohh! Mais Jed reste cool,\\nmême quand il perd!",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "terminologie",
+  "probleme": "L’accent du prénom Léa manque.",
+  "correction": "Léa: Hihi, désolée.\\nJed est trop cool.",
+  "justification": "Le lexique fourni donne Léa.",
+  "msgid": "LEA: Ehehe, I'm sorry.\\nJED is so cool.",
+  "msgstr": "Lea: Hihi, désolée.\\nJed est trop cool.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "contresens",
+  "probleme": "Léa parle de plusieurs Pokémon alors que le joueur n’en a qu’un avec lui. Son prénom a aussi perdu son accent.",
+  "correction": "Léa: Oh, tu n’as pas deux Pokémon\\navec toi?\\pTu ne te sens pas seul? Et ton\\nPokémon, il ne se sent pas seul?",
+  "justification": "Dans ce dialogue déclenché quand le joueur a moins de deux Pokémon, le second Pokémon anglais est au singulier. Le lexique donne Léa.",
+  "msgid": "LEA: Oh, you don't have two\\nPOKéMON with you?\\pDoesn't it feel lonely for you or\\nyour POKéMON?",
+  "msgstr": "Lea: Oh, tu n’as pas deux Pokémon\\navec toi?\\pTu ne te sens pas seul? Et tes\\nPokémon, ils ne se sentent pas seuls?",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "oubli",
+  "probleme": "La traduction évoque les conversations autour du joueur, mais perd l’enthousiasme général.",
+  "correction": "Oh!\\n{PLAYER}!\\pTout le monde s’enthousiasme\\npour toi ces derniers temps.\\pJe comprends pourquoi.\\nJe sais que tu es fort.\\pMais tu sais quoi?\\pUne fois devenue fan de\\n{STR_VAR_1}, je ne peux pas cesser\\ld’être fan comme ça.",
+  "justification": "« All excited about you » décrit l’enthousiasme des gens pour le joueur.",
+  "msgid": "Oh!\\n{PLAYER}!\\pEveryone's been all excited about\\nyou recently.\\pI can understand why.\\nI know that you're strong.\\pBut, do you know what?\\pOnce I became {STR_VAR_1}'s fan,\\nI can't just stop being a fan.",
+  "msgstr": "Oh!\\n{PLAYER}!\\pTout le monde ne parle que de toi,\\nces derniers temps.\\pJe comprends pourquoi.\\nJe sais que tu es fort.\\pMais tu sais quoi?\\pUne fois devenue fan de\\n{STR_VAR_1}, je ne peux pas cesser\\ld’être fan comme ça.",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "terminologie",
+  "probleme": "« Idole » s’écarte de l’équivalent indiqué dans le lexique.",
+  "correction": "J’ai parcouru le monde en long et\\nen large.\\pMais jamais je n’ai vu un Dresseur\\naussi magnifique que toi.\\pAie confiance en tes capacités et\\ncontinue de te battre!\\pPromets-le-moi,\\nma jeune Star!",
+  "justification": "Le lexique fourni donne « Star » pour « IDOL ».",
+  "msgid": "I have journeyed far and wide\\nacross the lands.\\pBut never have I seen a TRAINER\\nof your magnificence.\\pTake courage in your abilities\\nand keep battling on!\\pMake that a promise to me,\\nmy young idol!",
+  "msgstr": "J’ai parcouru le monde en long et\\nen large.\\pMais jamais je n’ai vu un Dresseur\\naussi magnifique que toi.\\pAie confiance en tes capacités et\\ncontinue de te battre!\\pPromets-le-moi,\\nma jeune idole!",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "typographie",
+  "probleme": "L’interrogation indirecte se termine par un point d’interrogation.",
+  "correction": "Je me demande si je pourrai être\\nune Dresseuse cool un jour.",
+  "justification": "La phrase introduite par « Je me demande si » prend un point. « Être » raccourcit la première ligne.",
+  "msgid": "I wonder if I can become a cool\\nTRAINER one day?",
+  "msgstr": "Je me demande si je pourrai devenir\\nune Dresseuse cool, un jour?",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "contresens",
+  "probleme": "« Comme ça que je l’aime » peut faire porter l’appréciation sur la personne elle-même.",
+  "correction": "Ces derniers temps, {STR_VAR_1} est\\nen feu.\\pSa façon de se battre… C’est\\nexactement ce que j’aime!",
+  "justification": "La réplique anglaise exprime précisément son goût pour le style de combat.",
+  "msgid": "Recently, {STR_VAR_1} has been on\\nfire.\\pThe way he battles… It's just \\nthe way that I like it!",
+  "msgstr": "Ces derniers temps, {STR_VAR_1} est\\nen feu.\\pSa façon de se battre… C’est\\nexactement comme ça que je l’aime!",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "contresens",
+  "probleme": "« Répandre la nouvelle de sa grandeur » présente les qualités du Maître comme une nouvelle à annoncer.",
+  "correction": "Hiyah! Je respecte mon Maître, au\\nDojo.\\pJe ne serai jamais fan de personne\\nd’autre que mon Maître!\\pJe vais même faire le mur du Dojo\\npour vanter ses mérites\\lpartout.\\pHiyah!",
+  "justification": "« Spread word of his greatness » signifie faire connaître les qualités du Maître.",
+  "msgid": "Hiyah! I respect my MASTER at the\\nFIGHTING DOJO.\\pI will never become a fan of\\nanyone other than my MASTER!\\pI will even sneak out of the DOJO\\nto spread word of his greatness.\\pHiyah!",
+  "msgstr": "Hiyah! Je respecte mon Maître, au\\nDojo.\\pJe ne serai jamais fan de personne\\nd’autre que mon Maître!\\pJe vais même faire le mur du Dojo\\npour répandre la nouvelle de sa\\lgrandeur.\\pHiyah!",
+  "msgctxt": ""
+ },
+ {
+  "id": 58,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte du lexique.",
+  "correction": "Le Boss a dit qu’il prendrait cette\\nville au nom de la Rocket!",
+  "justification": "Le lexique fourni donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "BOSS said he'll take this town\\nin the name of TEAM ROCKET!",
+  "msgstr": "Le Boss a dit qu’il prendrait cette\\nville au nom de la Team Rocket!",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte du lexique.",
+  "correction": "Safrania appartient à la Rocket!",
+  "justification": "Le lexique fourni donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "SAFFRON belongs to TEAM ROCKET!",
+  "msgstr": "Safrania appartient à la Team Rocket!",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte du lexique.",
+  "correction": "Tu as battu la Rocket sans aide?\\nC’est incroyable!",
+  "justification": "Le lexique fourni donne « Rocket » pour « TEAM ROCKET ». « Sans aide » conserve l’idée que le joueur a agi seul.",
+  "msgid": "You beat TEAM ROCKET all alone?\\nThat's amazing!",
+  "msgstr": "Tu as battu la Team Rocket tout seul?\\nC’est incroyable!",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte du lexique.",
+  "correction": "Ouais! La Rocket est partie!\\nOn peut ressortir sans danger!",
+  "justification": "Le lexique fourni donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "Yeah! TEAM ROCKET is gone!\\nIt's safe to go out again!",
+  "msgstr": "Ouais! La Team Rocket est partie!\\nOn peut ressortir sans danger!",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "terminologie",
+  "probleme": "« Those Rockets » désigne les membres de la Rocket qui sont arrivés à Safrania.",
+  "correction": "Les gens ont fui en masse quand\\nces sbires Rocket sont arrivés.\\pIls devraient revenir en foule à\\nSafrania, maintenant.",
+  "justification": "« Ces sbires Rocket » conserve la référence aux individus et reprend la graphie « Rocket » du lexique.",
+  "msgid": "People fled from here in droves\\nwhen those ROCKETS came.\\pThey should be flocking back to\\nSAFFRON now.",
+  "msgstr": "Les gens ont fui en masse quand la\\nTeam Rocket est arrivée.\\pIls devraient revenir en foule à\\nSafrania, maintenant.",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "oubli",
+  "probleme": "« Tout le spectacle » fait disparaître la référence à la couverture médiatique.",
+  "correction": "Je suis venu sur mon ROUCARNAGE\\nquand j’ai lu ce qui arrivait à la\\lSylphe.\\pC’est déjà fini?\\nJ’ai raté toute l’agitation\\lmédiatique…",
+  "justification": "« Media action » désigne l’agitation des médias autour de l’événement.",
+  "msgid": "I flew here on my PIDGEOT when\\nI read about SILPH.\\pIt's already over?\\nI missed the media action…",
+  "msgstr": "Je suis venu ici sur mon ROUCARNAGE\\nquand j’ai lu ce qui arrivait à la\\lSylphe.\\pC’est déjà fini?\\nJ’ai raté tout le spectacle…",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "terminologie",
+  "probleme": "« Boss de la Team Rocket » s’écarte de la graphie prescrite.",
+  "correction": "J’ai vu le Boss Rocket\\ns’enfuir du bâtiment de la Sylphe.",
+  "justification": "Le lexique fourni donne « Boss Rocket » pour « ROCKET BOSS ».",
+  "msgid": "I saw the ROCKET BOSS escaping\\nSILPH's building.",
+  "msgstr": "J’ai vu le Boss de la Team Rocket\\ns’enfuir du bâtiment de la Sylphe.",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte du lexique.",
+  "correction": "La Rocket est en émoi à cause\\nd’un intrus.\\pC’est toi, hein?",
+  "justification": "Le lexique fourni donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "TEAM ROCKET is in an uproar over\\nsome intruder.\\pThat's you, right?",
+  "msgstr": "La Team Rocket est en émoi à cause\\nd’un intrus.\\pC’est toi, hein?",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte du lexique.",
+  "correction": "La Rocket a décampé!\\nTu es notre héros! Merci!",
+  "justification": "Le lexique fourni donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "TEAM ROCKET took off!\\nYou're our hero! Thank you!",
+  "msgstr": "La Team Rocket a décampé!\\nTu es notre héros! Merci!",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte du lexique.",
+  "correction": "C’est pas malin de chercher la\\nbagarre avec la Rocket!",
+  "justification": "Le lexique fourni donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "It's not smart to pick a fight with\\nTEAM ROCKET!",
+  "msgstr": "C’est pas malin de chercher la\\nbagarre avec la Team Rocket!",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte du lexique.",
+  "correction": "Respecte un peu la Rocket!",
+  "justification": "Le lexique fourni donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "Show TEAM ROCKET a little respect!",
+  "msgstr": "Respecte un peu la Team Rocket!",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "orthographe",
+  "probleme": "« Président » prend une majuscule alors qu’il s’agit ici d’un nom de fonction employé dans la phrase.",
+  "correction": "Ces voyous qui ont pris notre\\nbâtiment…\\pLeur Boss disait chercher des\\nPokémon puissants.\\pJ’espère que notre président a pu\\néviter les ennuis…",
+  "justification": "Dans « notre président », le nom de fonction s’écrit avec une minuscule.",
+  "msgid": "Those thugs that took over our\\nbuilding…\\pTheir BOSS said he was looking for\\nstrong POKéMON.\\pI hope our PRESIDENT managed to\\navoid trouble…",
+  "msgstr": "Ces voyous qui ont pris notre\\nbâtiment…\\pLeur Boss disait chercher des\\nPokémon puissants.\\pJ’espère que notre Président a pu\\néviter les ennuis…",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "oubli",
+  "probleme": "La traversée de la Route Victoire est mentionnée, mais les combats qui ont permis de la franchir disparaissent.",
+  "correction": "Tu peux être fier d’avoir franchi\\nla Route Victoire en te battant\\lavec tant de courage.\\pPour saluer ton exploit, je vais\\nt’apprendre Damoclès.\\pVeux-tu que je t’apprenne cette\\ncapacité?",
+  "justification": "« Battled your way through » précise que le joueur a dû se battre pour franchir la route.",
+  "msgid": "You should be proud of yourself,\\nhaving battled your way through\\lVICTORY ROAD so courageously.\\pIn recognition of your feat,\\nI'll teach you DOUBLE-EDGE.\\pWould you like me to teach that\\ntechnique?",
+  "msgstr": "Tu peux être fier de toi: tu as\\ntraversé la Route Victoire avec\\ltant de courage.\\pPour récompenser ton exploit, je vais\\nt’apprendre Damoclès.\\pVeux-tu que je t’apprenne cette\\ncapacité?",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "orthographe",
+  "probleme": "La préposition « À » a perdu son accent grave.",
+  "correction": "À quel Pokémon dois-je apprendre\\nDamoclès?",
+  "justification": "Les majuscules conservent leurs accents en français.",
+  "msgid": "Which POKéMON should I teach\\nDOUBLE-EDGE?",
+  "msgstr": "A quel Pokémon dois-je apprendre\\nDamoclès?",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » s’écarte du lexique.",
+  "correction": "Alors, c’est toi qui as battu\\nGiovanni, de la Rocket?",
+  "justification": "Le lexique fourni donne « Rocket » pour « TEAM ROCKET ».",
+  "msgid": "So, it was you who beat GIOVANNI\\nof TEAM ROCKET?",
+  "msgstr": "Alors, c’est toi qui as battu\\nGiovanni, de la Team Rocket?",
+  "msgctxt": ""
+ }
+]

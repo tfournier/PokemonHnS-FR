@@ -1,0 +1,262 @@
+[
+ {
+  "id": 15,
+  "categorie": "contresens",
+  "probleme": "Le présent efface l’idée que le personnage a deviné ce que le joueur voulait avant qu’il parle.",
+  "correction": "… Attends! Ne dis rien!\\pC’est ça que tu voulais!",
+  "justification": "L’imparfait restitue le passé de « wanted » et conserve l’effet de la devinette.",
+  "msgid": "…Wait! Don't say a word!\\pYou wanted this!",
+  "msgstr": "… Attends! Ne dis rien!\\pTu veux ça!",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "terminologie",
+  "probleme": "« La Copieuse » remplace le nom officiel du personnage.",
+  "correction": "Photocopie est mignonne!\\nJe vais lui offrir une Poképoupée.",
+  "justification": "Le lexique SoulSilver FR fourni donne « Photocopie » pour COPYCAT.",
+  "msgid": "The COPYCAT is cute!\\nI'm getting her a POKé DOLL.",
+  "msgstr": "La Copieuse est mignonne!\\nJe vais lui offrir une Poképoupée.",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "terminologie",
+  "probleme": "Le nom « Copieuse » est incorrect. La deuxième réplique omet aussi que le joueur vient de poser la question, et « Hé! » transforme sa perplexité en interpellation.",
+  "correction": "{PLAYER}: Salut!\\nTu aimes les Pokémon?\\p{PLAYER}: Euh, non,\\nc’est moi qui viens de demander.\\p{PLAYER}: Hein?\\nT’es bizarre!\\pPhotocopie: Hmm? Ne plus copier?\\nMais c’est mon passe-temps favori!",
+  "justification": "Le lexique SoulSilver FR fourni donne « Photocopie ». La deuxième et la troisième réplique restituent « I just asked you » et « Huh? ».",
+  "msgid": "{PLAYER}: Hi!\\nDo you like POKéMON?\\p{PLAYER}: Uh, no, I just asked you.\\p{PLAYER}: Huh?\\nYou're strange!\\pCOPYCAT: Hmm? Quit mimicking?\\nBut, that's my favorite hobby!",
+  "msgstr": "{PLAYER}: Salut!\\nTu aimes les Pokémon?\\p{PLAYER}: Non, pas moi, toi!\\p{PLAYER}: Hé!\\nT’es trop bizarre!\\pCopieuse: Hmm? Arrêter de copier?\\nMais c’est mon passe-temps préféré!",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "terminologie",
+  "probleme": "Le nom « Copieuse » est incorrect.",
+  "correction": "{PLAYER}: Salut.\\nTu dois aimer les Pokémon.\\p{PLAYER}: Non, pas moi.\\nC’est toi que j’interroge.\\p{PLAYER}: Pardon?\\nT’es bizarre!\\l \\lPhotocopie: Hmm? Ne plus copier?\\lMais c’est mon passe-temps favori!",
+  "justification": "Le lexique SoulSilver FR fourni donne « Photocopie ». La question est raccourcie pour accueillir ce nom sur la même ligne.",
+  "msgid": "{PLAYER}: Hi.\\nYou must like POKéMON.\\p{PLAYER}: No, not me.\\nI asked you.\\p{PLAYER}: Pardon?\\nYou're weird!\\l \\lCOPYCAT: Hmm? Quit mimicking?\\lBut that's my favorite hobby!",
+  "msgstr": "{PLAYER}: Salut.\\nTu dois aimer les Pokémon.\\p{PLAYER}: Non, pas moi.\\nC’est toi que j’interroge.\\p{PLAYER}: Pardon?\\nT’es bizarre!\\l \\lCopieuse: Hmm? Arrêter de copier?\\lMais c’est mon passe-temps préféré!",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "terminologie",
+  "probleme": "Le nom « Copieuse » est incorrect.",
+  "correction": "{PLAYER}: Salut!\\nMerci pour tout à l’heure!\\p{PLAYER}: Pardon?\\p{PLAYER}: C’est si amusant que ça de\\ncopier tout ce que je fais?\\pPhotocopie: Et comment!\\nC’est trop drôle!",
+  "justification": "Le lexique SoulSilver FR fourni donne « Photocopie » pour COPYCAT.",
+  "msgid": "{PLAYER}: Hi!\\nThanks for earlier!\\p{PLAYER}: Pardon?\\p{PLAYER}: Is it that fun to mimic my\\nevery move?\\pCOPYCAT: You bet!\\nIt's a scream!",
+  "msgstr": "{PLAYER}: Salut!\\nMerci pour tout à l’heure!\\p{PLAYER}: Pardon?\\p{PLAYER}: C’est si amusant que ça de\\ncopier tout ce que je fais?\\pCopieuse: Et comment!\\nC’est trop drôle!",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "terminologie",
+  "probleme": "Le nom « Copieuse » est incorrect, et « répéter » s’applique mal aux gestes du joueur dans ce contexte.",
+  "correction": "{PLAYER}: Salut!\\nMerci de nous avoir aidés.\\p{PLAYER}: Pardon?\\p{PLAYER}: Ça t’amuse tant que ça\\nd’imiter mes paroles et mes gestes?\\pPhotocopie: Et comment!\\nC’est trop drôle!",
+  "justification": "Le lexique SoulSilver FR fourni donne « Photocopie ». « Imiter » s’applique ici aussi bien aux paroles qu’aux gestes.",
+  "msgid": "{PLAYER}: Hi!\\nThanks for what you did for us.\\p{PLAYER}: Pardon?\\p{PLAYER}: Is it really that fun to\\ncopy what I say and do?\\pCOPYCAT: You bet!\\nIt's a scream!",
+  "msgstr": "{PLAYER}: Salut! Merci pour ce que tu\\nas fait pour nous.\\p{PLAYER}: Pardon?\\p{PLAYER}: C’est vraiment si amusant de\\nrépéter tout ce que je dis et fais?\\pCopieuse: Et comment!\\nC’est trop drôle!",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "oubli",
+  "probleme": "Le passe-temps est la collection de poupées.",
+  "correction": "…\\pMes secrets!\\pTalent: l’imitation!\\nCollection de poupées\\lPokémon préféré: MELOFEE!",
+  "justification": "« Collection » restitue l’activité exprimée par « collecting ».",
+  "msgid": "…\\pMy Secrets!\\pSkill: Mimicry!\\nHobby: Collecting dolls!\\lFavorite POKéMON: CLEFAIRY!",
+  "msgstr": "…\\pMes secrets!\\pTalent: l’imitation!\\nPasse-temps: les poupées!\\lPokémon préféré: MELOFEE!",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "contresens",
+  "probleme": "« Tu crois? » demande l’avis du joueur, alors que le personnage se pose la question.",
+  "correction": "C’est la fin de la Sylphe…?",
+  "justification": "La question traduit le doute du personnage sans attribuer de rôle à son interlocuteur.",
+  "msgid": "I wonder if SILPH is finished…",
+  "msgstr": "La Sylphe, c’est fini, tu crois?",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "oubli",
+  "probleme": "L’interjection « Whoo! » est restée en anglais.",
+  "correction": "Ouh!\\nOh, mes frères!",
+  "justification": "« Ouh! » transpose le cri en français.",
+  "msgid": "Whoo!\\nOh, Brothers!",
+  "msgstr": "Whoo!\\nOh, mes frères!",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » diffère de l’appellation fournie.",
+  "correction": "Le chef des Rocket est d’une\\ncruauté terrible!\\pPour lui, les Pokémon ne sont que\\ndes outils.\\pQue va-t-il se passer si ce tyran\\nprend le contrôle de notre société…",
+  "justification": "Le lexique du projet donne « Rocket » pour TEAM ROCKET.",
+  "msgid": "TEAM ROCKET's BOSS is terribly\\ncruel!\\pTo him, POKéMON are just tools to\\nbe used.\\pWhat will happen if that tyrant\\ntakes over our company…",
+  "msgstr": "Le Boss de la Team Rocket est d’une\\ncruauté terrible!\\pPour lui, les Pokémon ne sont que\\ndes outils.\\pQue va-t-il se passer si ce tyran\\nprend le contrôle de notre société…",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "orthographe",
+  "probleme": "La préposition « À » a perdu son accent.",
+  "correction": "À l’aide!\\nJe suis un employé de la Sylphe.",
+  "justification": "L’accent grave se conserve sur la majuscule.",
+  "msgid": "Help!\\nI'm a SILPH employee.",
+  "msgstr": "A l’aide!\\nJe suis un employé de la Sylphe.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "terminologie",
+  "probleme": "L’appartenance au groupe est exprimée avec « Team Rocket ».",
+  "correction": "Comment as-tu su\\nque j’étais un Rocket?",
+  "justification": "Le lexique du projet retient « Rocket », et « un Rocket » traduit directement « a ROCKET ».",
+  "msgid": "How did you know\\nI was a ROCKET?",
+  "msgstr": "Comment as-tu su\\nque j’étais de la Team Rocket?",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » diffère de l’appellation fournie.",
+  "correction": "Je travaille pour la Sylphe\\net pour les Rocket.",
+  "justification": "Le lexique du projet donne « Rocket » pour TEAM ROCKET. La coordination conserve l’idée du double employeur.",
+  "msgid": "I work for both SILPH and TEAM\\nROCKET.",
+  "msgstr": "Je travaille à la fois pour la Sylphe\\net pour la Team Rocket.",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "orthographe",
+  "probleme": "« Fort » impose le masculin à une réplique adressée au joueur ou à la joueuse.",
+  "correction": "Tu te débrouilles bien.",
+  "justification": "Cette formulation conserve le compliment sans accord lié au genre du personnage joueur.",
+  "msgid": "You're good.",
+  "msgstr": "Tu es fort.",
+  "msgctxt": ""
+ },
+ {
+  "id": 58,
+  "categorie": "contresens",
+  "probleme": "« Les transporteurs » évoque des prestataires de transport dans ce contexte.",
+  "correction": "Les dalles en losange sont\\ndes téléporteurs.\\pElles servent à se déplacer\\ndans ce bâtiment high-tech.",
+  "justification": "La deuxième page précise la fonction des dalles dans le bâtiment.",
+  "msgid": "Diamond-shaped tiles are teleport\\nblocks.\\pThey're transporters for this\\nhigh-tech building.",
+  "msgstr": "Les dalles en forme de losange sont\\ndes téléporteurs.\\pCe sont les transporteurs de ce\\nbâtiment high-tech.",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "contresens",
+  "probleme": "« Tomber entre les mains de » transforme l’association annoncée en prise de contrôle.",
+  "correction": "La Sylphe SARL va s’associer\\naux Rocket!",
+  "justification": "« S’associer » restitue « will be associated with ». Le lexique du projet donne « Rocket » pour TEAM ROCKET.",
+  "msgid": "SILPH CO. will be associated with\\nTEAM ROCKET!",
+  "msgstr": "La Sylphe SARL va tomber entre les\\nmains de la Team Rocket!",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "registre",
+  "probleme": "« Arrêtez! » introduit un vouvoiement avant le tutoiement du même interlocuteur.",
+  "correction": "Iiiik!\\nNon! Arrête! Au secours!\\pOh, tu n’es pas avec les Rocket.\\nPardon, je croyais…\\pTu me pardonnes si je t’apprends\\nla technique Cage-Eclair?",
+  "justification": "Le tutoiement indiqué dans le contexte est maintenu dès la première réplique. « Rocket » suit le lexique du projet.",
+  "msgid": "Eeek!\\nNo! Stop! Help!\\pOh, you're not with TEAM ROCKET.\\nI'm sorry, I thought…\\pWill you forgive me if I teach\\nyou the THUNDER WAVE technique?",
+  "msgstr": "Iiiik!\\nNon! Arrêtez! Au secours!\\pOh, tu n’es pas de la Team Rocket.\\nPardon, je croyais…\\pTu me pardonnes si je t’apprends la\\ntechnique Cage-Eclair?",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "orthographe",
+  "probleme": "La préposition « À » a perdu son accent.",
+  "correction": "À quel Pokémon dois-je apprendre\\nCage-Eclair?",
+  "justification": "L’accent grave se conserve sur la majuscule.",
+  "msgid": "Which POKéMON should I teach\\nTHUNDER WAVE?",
+  "msgstr": "A quel Pokémon dois-je apprendre\\nCage-Eclair?",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "orthographe",
+  "probleme": "« Gentil » impose le masculin au personnage joueur.",
+  "correction": "Tu as l’air sympa. Je pense\\npouvoir te battre.\\pJe vais tenter le coup!",
+  "justification": "« Sympa » convient aux deux genres et conserve l’impression de gentillesse.",
+  "msgid": "You look gentle, so I think I can\\nbeat you.\\pI'll give it a go!",
+  "msgstr": "Tu as l’air gentil, alors je pense\\npouvoir te battre.\\pJe vais tenter le coup!",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "orthographe",
+  "probleme": "« Fort » impose le masculin au personnage joueur.",
+  "correction": "Hmm? Mes oiseaux tremblent!\\nTu te débrouilles bien, hein?",
+  "justification": "La formulation conserve le compliment et la demande de confirmation.",
+  "msgid": "Hmm? My birds are shivering!\\nYou're good, aren't you?",
+  "msgstr": "Hmm? Mes oiseaux tremblent!\\nTu es fort, pas vrai?",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "orthographe",
+  "probleme": "« Mignon » impose le masculin au personnage joueur.",
+  "correction": "Et dire que tu avais l’air adorable!",
+  "justification": "« Adorable » convient aux deux genres et conserve la surprise après le combat.",
+  "msgid": "You looked so cute, too!",
+  "msgstr": "Et tu avais l’air si mignon, en plus!",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "oubli",
+  "probleme": "La dernière ligne omet « now », qui souligne que le personnage a grandi.",
+  "correction": "Je te pardonne.\\nJe peux encaisser.\\lMaintenant, je suis grande.",
+  "justification": "« Maintenant » restitue le changement évoqué dans la réplique.",
+  "msgid": "I forgive you.\\nI can take it.\\lI'm a big girl now.",
+  "msgstr": "Je te pardonne.\\nJe peux encaisser.\\lJe suis une grande fille.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "contresens",
+  "probleme": "« En rentrant » se rattache aux Pokémon et leur attribue le retour à la maison.",
+  "correction": "J’adore que mes Pokémon\\nm’accueillent quand je rentre.\\pC’est si rassurant.",
+  "justification": "« Quand je rentre » désigne explicitement la personne qui revient chez elle.",
+  "msgid": "I love having my POKéMON greet me\\nwhen I get home.\\pIt's so reassuring.",
+  "msgstr": "J’adore quand mes Pokémon\\nm’accueillent en rentrant.\\pC’est si rassurant.",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "contresens",
+  "probleme": "« Mais pourquoi? » fait disparaître la négation de la question.",
+  "correction": "Pourquoi pas?",
+  "justification": "La correction restitue « why not? » et conserve le format sur une ligne.",
+  "msgid": "Why not?",
+  "msgstr": "Mais pourquoi?",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "terminologie",
+  "probleme": "Le cri de ralliement emploie « Team Rocket ».",
+  "correction": "La vie est trop courte.\\nC’est cool de vivre hors-la-loi.\\lVIVE LES ROCKET!",
+  "justification": "Le lexique du projet donne « Rocket » pour TEAM ROCKET. Les capitales du cri sont conservées.",
+  "msgid": "Life's too short.\\nIt's cool to live as an outlaw.\\lTEAM ROCKET RULES!",
+  "msgstr": "La vie est trop courte.\\nC’est cool de vivre hors-la-loi.\\lVIVE LA TEAM ROCKET!",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "orthographe",
+  "probleme": "« Échanger » a perdu son accent initial.",
+  "correction": "Qu’est-ce qui est cool et branché?\\nÉchanger des Pokémon!",
+  "justification": "L’accent aigu se conserve sur la majuscule.",
+  "msgid": "What's cool and happening?\\nTrading POKéMON!",
+  "msgstr": "Qu’est-ce qui est cool et branché?\\nEchanger des Pokémon!",
+  "msgctxt": ""
+ }
+]

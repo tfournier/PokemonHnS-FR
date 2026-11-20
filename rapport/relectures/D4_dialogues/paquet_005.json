@@ -1,0 +1,222 @@
+[
+ {
+  "id": 1,
+  "categorie": "orthographe",
+  "probleme": "La construction « Ce que je fais ici, tu demandes? » calque la syntaxe anglaise.",
+  "correction": "Salut! Comment ça va?\\pTu me demandes ce que je fais ici?\\nEh bien, je cherche de l’or!\\pQuand j’aurai fait fortune, je\\nm’achèterai une maison à Kanto.",
+  "justification": "« Ce que je fais ici » devient le complément de « tu me demandes ».",
+  "msgid": "Hey, there!\\nHow's it going?\\pWhat am I doing here, you ask?\\nWhy, I'm prospecting for gold!\\pWhen I strike it rich, I'm buying\\na house in KANTO.",
+  "msgstr": "Salut! Comment ça va?\\pCe que je fais ici, tu demandes? Eh\\nbien, je cherche de l’or!\\pQuand j’aurai fait fortune, je\\nm’achèterai une maison à Kanto.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "contresens",
+  "probleme": "La devise évoque les liens familiaux. La traduction évoque le sentiment d’être chez soi.",
+  "correction": "Île 3\\nL’île des liens familiaux",
+  "justification": "« Kin » et « family bonding » renvoient tous deux à la famille.",
+  "msgid": "THREE ISLAND\\nKin Island of Family Bonding",
+  "msgstr": "Ile 3\\nL’île où on se sent chez soi",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "orthographe",
+  "probleme": "La préposition « À » a perdu son accent.",
+  "correction": "Yahou!\\pÀ partir d’aujourd’hui, cette île\\nnous appartient!",
+  "justification": "La majuscule conserve l’accent de « à ».",
+  "msgid": "Hyahoo!\\pFrom this day on, this island\\nbelongs to us!",
+  "msgstr": "Yahou!\\pA partir d’aujourd’hui, cette île est à\\nnous!",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "registre",
+  "probleme": "L’impératif « va » rompt le vouvoiement du reste de la réplique.",
+  "correction": "Hé, allez pleurer ailleurs.\\nNotre chef est en route.\\pQuand il sera là, on vous fera\\nun show de moto d’enfer que vous\\ln’oublierez pas de sitôt!",
+  "justification": "« Allez » s’accorde avec le « vous » employé ensuite.",
+  "msgid": "Hey, go cry somewhere else.\\nOur boss is on his way.\\pWhen he gets here, we'll give you\\na k-rad motorbike show you won't\\lsoon forget!",
+  "msgstr": "Hé, va pleurer ailleurs. Notre chef est\\nen route.\\pQuand il sera là, on vous fera un show\\nde moto d’enfer que vous n’oublierez\\lpas de sitôt!",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "registre",
+  "probleme": "« Regarde-moi » introduit un tutoiement isolé.",
+  "correction": "Non, mec, je comprends pas du tout.\\pRegardez-moi cet endroit. Vous\\nfaites quoi pour vous amuser?\\pVous devriez nous remercier de\\nréveiller ce village endormi.\\pMais bon, si vous insistez, vous\\npouvez toujours essayer de nous\\lfaire partir.",
+  "justification": "L’impératif suit le vouvoiement du reste de la réplique.",
+  "msgid": "No, man, I don't get it at all.\\pLook at this place.\\nWhat do you do for entertainment?\\pYou ought to be thanking us for\\nlivening up this sleepy village.\\pBut hey, if you insist, you can try\\nmaking us leave.",
+  "msgstr": "Non, mec, je comprends pas du tout.\\pRegarde-moi cet endroit. Vous faites\\nquoi pour vous amuser?\\pVous devriez nous remercier de mettre\\nde l’ambiance dans ce village endormi.\\pMais bon, si vous insistez, vous\\npouvez toujours essayer de nous\\lfaire partir.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "oubli",
+  "probleme": "Le motard dit que l’argent perdu lui reviendra.",
+  "correction": "Hé, t’as du cran, ça me plaît. Mais\\nc’est moi qui vais gagner ton fric…",
+  "justification": "« To me » précise qui touchera l’argent à l’issue du combat.",
+  "msgid": "Heh, I like your guts.\\nYou'll be losing money to me, but…",
+  "msgstr": "Hé, t’as du cran, ça me plaît. Mais tu\\nvas perdre ton fric…",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "contresens",
+  "probleme": "« Faire quelque chose pour ce gamin » ressemble à une demande d’aide en sa faveur.",
+  "correction": "Chef, je vous le dis, faut faire\\nquelque chose contre ce gamin!",
+  "justification": "Le motard demande à son chef d’intervenir contre le joueur qui vient de le battre.",
+  "msgid": "Boss, I'm telling you, you've gotta\\ndo something about this kid!",
+  "msgstr": "Chef, je vous le dis, faut faire\\nquelque chose pour ce gamin!",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "orthographe",
+  "probleme": "Il manque le circonflexe à « Île 3 ».",
+  "correction": "L’Île 3 est en fait la plus peuplée\\ndes îles du coin.\\pMais elle pourrait être un peu\\nmoins endormie.\\pMais je ne voudrais pas revoir\\nces voyous de Motards ici.",
+  "justification": "La majuscule de « île » conserve son accent.",
+  "msgid": "THREE ISLAND is actually the most\\npopulous of the islands here.\\pStill, it could be less sleepy.\\pBut I wouldn't want to see goons\\nlike those BIKERS here again.",
+  "msgstr": "L’Ile 3 est en fait la plus peuplée des\\nîles du coin.\\pMais elle pourrait être un peu moins\\nendormie.\\pCela dit, je ne voudrais pas revoir ici\\ndes voyous comme ces Motards.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "orthographe",
+  "probleme": "Il manque le circonflexe à « Île 2 ».",
+  "correction": "Je vais entraîner mon DODUO dans\\nle Bois Baies.\\pQuand il aura évolué, j’irai jouer\\nà un jeu sur l’Île 2.",
+  "justification": "La majuscule de « île » conserve son accent.",
+  "msgid": "I'm going to train my DODUO in the\\nBERRY FOREST.\\pWhen it evolves, I'm going to play\\na game on TWO ISLAND.",
+  "msgstr": "Je vais entraîner mon DODUO dans le\\nBois Baies.\\pQuand il aura évolué, j’irai jouer à un\\njeu sur l’Ile 2.",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "oubli",
+  "probleme": "« À manger » omet le fait qu’il s’agit du déjeuner.",
+  "correction": "Lostelle: Salut, {PLAYER}! Tu es\\ntoujours si génial!\\pUn jour, je te préparerai aussi\\nun déjeuner, {PLAYER}.",
+  "justification": "« Lunch » désigne le repas du midi, que Lostelle prépare aussi pour son père.",
+  "msgid": "LOSTELLE: Hi, {PLAYER}!\\nYou're always so cool!\\pI'll make lunch for you, too, one\\nday, {PLAYER}.",
+  "msgstr": "Lostelle: Salut, {PLAYER}! Tu es\\ntoujours si génial!\\pUn jour, je te ferai à manger, à toi\\naussi, {PLAYER}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "contresens",
+  "probleme": "« Comment ils ont fait » suppose l’intervention de personnes que le texte ne mentionne pas.",
+  "correction": "Hé, tu connais la nouvelle?\\pLe réseau de PC d’ici peut enfin\\nse connecter aux PC de Kanto.\\pJ’ignore comment ça s’est fait,\\nmais c’est fantastique!",
+  "justification": "« How that came about » porte sur la manière dont la connexion est devenue possible.",
+  "msgid": "Hey, did you hear the news?\\pThe PC network here can now link\\nwith PCs in KANTO.\\pI don't know how that came about,\\nbut it's fantastic!",
+  "msgstr": "Hé, tu connais la nouvelle?\\pLe réseau de PC d’ici peut maintenant\\nse connecter aux PC de Kanto.\\pJe ne sais pas comment ils ont fait,\\nmais c’est fantastique!",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’accent initial à « Écrasons ».",
+  "correction": "Écrasons des Baies! … Ce serait du\\ngâchis?\\pOn trouve toujours des Baies par\\nterre au Bois Baies.",
+  "justification": "La majuscule conserve l’accent du verbe « écraser ».",
+  "msgid": "Let's crush BERRIES!\\n…That'd be wasting BERRIES?\\pYou can always find some BERRIES\\non the ground in BERRY FOREST.",
+  "msgstr": "Ecrasons des Baies! … Ce serait du\\ngâchis?\\pOn trouve toujours des Baies par\\nterre au Bois Baies.",
+  "msgctxt": ""
+ },
+ {
+  "id": 58,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’accent à la préposition « À » dans le signal de départ.",
+  "correction": "Bien, je lance le chrono. Donnez\\ntout ce que vous avez.\\pÀ vos marques…\\pPrêt…\\pPartez!",
+  "justification": "La préposition « à » garde son accent en début de phrase.",
+  "msgid": "Okay, I'll get the clock started,\\nso give it everything you have.\\pOn your marks…\\pGet set…\\pGo!",
+  "msgstr": "Bien, je lance le chronomètre. Donnez\\ntout ce que vous avez.\\pA vos marques…\\pPrêt…\\pPartez!",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "contresens",
+  "probleme": "« Adieu » suggère une séparation définitive alors que le propriétaire attend une nouvelle tentative.",
+  "correction": "Ce que j’aimerais voir, c’est un\\nmeilleur temps de votre part…\\pJe compte sur vous.\\pD’ici là, au revoir…",
+  "justification": "« Until then » indique que le personnage compte revoir le joueur.",
+  "msgid": "What I would like to see is a\\nbetter time out of you…\\pI'm counting on you.\\pUntil then, farewell…",
+  "msgstr": "Ce que j’aimerais voir, c’est un\\nmeilleur temps de votre part…\\pJe compte sur vous.\\pD’ici là, adieu…",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "orthographe",
+  "probleme": "« Mon » impose un masculin à un nom de capacité qui peut être féminin.",
+  "correction": "Tu me le permets?\\pAlors, laisse-moi enseigner\\n{STR_VAR_2} à ton {STR_VAR_1}.\\pGgggrah-ahouuu!",
+  "justification": "« Enseigner » accepte les noms de capacités des deux genres et conserve l’ordre des codes. La réplique précédente précise déjà que la capacité est ultime.",
+  "msgid": "You will allow it?\\pThen, let me confer my ultimate\\n{STR_VAR_2} on your {STR_VAR_1}.\\pGgggrah-awooo!",
+  "msgstr": "Tu me le permets?\\pAlors, laisse-moi transmettre mon\\n{STR_VAR_2} ultime à ton {STR_VAR_1}.\\pGgggrah-ahouuu!",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "orthographe",
+  "probleme": "Il manque le circonflexe à « Île 2 ».",
+  "correction": "Île 2\\nLe bonheur à deux",
+  "justification": "La majuscule de « île » conserve son accent.",
+  "msgid": "TWO ISLAND\\nBoon Island for Two",
+  "msgstr": "Ile 2\\nLe bonheur à deux",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "orthographe",
+  "probleme": "Les deux occurrences d’« Île 3 » ont perdu leur circonflexe.",
+  "correction": "Je ne vous remercierai jamais\\nassez d’avoir sauvé Lostelle.\\pGrâce à votre exploit, les gens de\\nl’Île 3 ont changé d’attitude envers\\lles gens de Kanto.\\pEt moi, voyez-vous, je viens\\nde Kanto.\\pLes gens de l’Île 3 m’ont aidé\\nà élargir mon choix d’articles.",
+  "justification": "La majuscule de « île » conserve son accent dans les deux occurrences.",
+  "msgid": "I can't tell you how grateful I am\\nfor your rescue of LOSTELLE.\\pThanks to your feat, the people of\\nTHREE ISLAND have changed their\\lattitudes about KANTO people.\\pAnd, I'm from KANTO, you see.\\pThe people of THREE ISLAND\\nhelped me add to my merchandise.",
+  "msgstr": "Je ne vous remercierai jamais assez\\nd’avoir sauvé Lostelle.\\pGrâce à votre exploit, les gens de\\nl’Ile 3 ont changé d’attitude envers\\lles gens de Kanto.\\pEt moi, voyez-vous, je viens de Kanto.\\pLes gens de l’Ile 3 m’ont aidé à élargir\\nmon choix d’articles.",
+  "msgctxt": ""
+ },
+ {
+  "id": 87,
+  "categorie": "orthographe",
+  "probleme": "Le premier « Écoute » a perdu son accent.",
+  "correction": "Écoute, écoute. Tu savais?\\pUn Dresseur célèbre est venu sur\\nl’île il y a quelque temps.\\pIl fait partie du Conseil 4. Il\\ns’appelle Aldo.\\pIl est reparti tout déçu quand il a\\nappris la rupture de stock de\\lBonbons Rage.",
+  "justification": "La majuscule conserve l’accent du verbe « écouter ».",
+  "msgid": "Listen, listen.\\nDid you know?\\pA famous TRAINER came to the\\nISLAND a little while back.\\pHe's one of the ELITE FOUR.\\nHis name is BRUNO.\\pHe went away disappointed when he\\nfound out that they were all sold\\lout of Rage Candybars.",
+  "msgstr": "Ecoute, écoute. Tu savais?\\pUn Dresseur célèbre est venu sur l’île\\nil y a quelque temps.\\pIl fait partie du Conseil 4. Il\\ns’appelle Aldo.\\pIl est reparti tout déçu quand il a\\nappris qu’il n’y avait plus de Bonbons\\lRage.",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "orthographe",
+  "probleme": "Il manque le circonflexe à « Île 3 ».",
+  "correction": "Hm? Toi, là! Tu es un ami de\\nLostelle?\\pTu n’aurais pas vu Lostelle? Je ne\\nsais pas où elle est. Elle aurait\\ldû arriver depuis longtemps.\\pLostelle est mignonne comme tout,\\nelle tient ça de moi… Et si on…\\pEt s’il était arrivé quelque chose\\nà ma Lostelle?!\\pJe t’en prie, aide-moi à la trouver!\\nVa la chercher sur l’Île 3!",
+  "justification": "La majuscule de « île » conserve son accent.",
+  "msgid": "Hm? You, there!\\nAre you a friend of LOSTELLE's?\\pHave you seen LOSTELLE around?\\nI don't know where she might be.\\lShe should've been here long ago.\\pLOSTELLE's a cutie - she got my\\nlooks - so what if someone…\\pWhat if something's happened to\\nmy LOSTELLE?!\\pPlease, help me find her!\\nPlease go search THREE ISLAND!",
+  "msgstr": "Hm? Toi, là! Tu es un ami de Lostelle?\\pTu n’aurais pas vu Lostelle? Je ne\\nsais pas où elle peut être. Elle aurait\\ldû arriver depuis longtemps.\\pLostelle est mignonne comme tout,\\nelle tient ça de moi… Et si quelqu’un…\\pEt s’il était arrivé quelque chose à ma\\nLostelle?!\\pS’il te plaît, aide-moi à la retrouver!\\nVa la chercher sur l’Ile 3!",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "orthographe",
+  "probleme": "Il manque le circonflexe à « Île 3 ».",
+  "correction": "Hein? C’est quoi, cette Salle de\\nJeu? On peut pas faire plus triste.\\pCes clowns…\\pIls devaient m’attendre sur l’île,\\nalors où ils sont?\\pHé, toi! C’est bien la seule Île 3\\ndu coin?",
+  "justification": "La majuscule de « île » conserve son accent.",
+  "msgid": "Hah? What is this GAME CORNER?\\nHow much sadder can this get?\\pThose clowns…\\pThey said they'd be waiting on the\\nisland, so where are they?\\pHey, you! Is this the only THREE\\nISLAND around here?",
+  "msgstr": "Hein? C’est quoi, cette Salle de Jeu?\\nOn peut pas faire plus triste.\\pCes clowns…\\pIls avaient dit qu’ils m’attendraient\\nsur l’île, alors où ils sont?\\pHé, toi! C’est bien la seule Ile 3 du\\ncoin?",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "orthographe",
+  "probleme": "Il manque le circonflexe à « Île 2 ».",
+  "correction": "Réveille-toi avant de sortir du lit,\\npetit voyou.\\pIci, c’est l’Île 2!\\pAllez, ouste! Sors ta sale moto de\\nchez moi!",
+  "justification": "La majuscule de « île » conserve son accent.",
+  "msgid": "Try waking up before you crawl out\\nof bed, you punk.\\pThis is TWO ISLAND!\\pMove it! Get your filthy motorbike\\nout of my place!",
+  "msgstr": "Réveille-toi avant de sortir du lit,\\npetit voyou.\\pIci, c’est l’Ile 2!\\pAllez, ouste! Sors ta sale moto de\\nchez moi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "orthographe",
+  "probleme": "Les deux occurrences d’« Île 3 » ont perdu leur circonflexe.",
+  "correction": "Hé, mais écoute! Je t’en supplie, il\\nfaut que tu ailles sur l’Île 3.\\pS’il arrivait quoi que ce soit à ma\\nLostelle…\\pMa maison, c’est celle au toit\\nrouge sur l’Île 3.\\pElle pourrait arriver en retard,\\nalors je ne peux pas m’absenter.\\pJe dois donc te demander\\nce grand service.",
+  "justification": "La majuscule de « île » conserve son accent dans les deux occurrences.",
+  "msgid": "Hey, but listen! I'm begging you,\\nyou have to go to THREE ISLAND.\\pIf anything were to happen to my\\nLOSTELLE…\\pMy place is the house with the red\\nroof on THREE ISLAND.\\pShe may just show up late here,\\nso I can't run off anywhere.\\pThat's why I have to get you to do\\nme this big favor.",
+  "msgstr": "Hé, mais écoute! Je t’en supplie, il\\nfaut que tu ailles sur l’Ile 3.\\pS’il arrivait quoi que ce soit à ma\\nLostelle…\\pMa maison, c’est celle au toit rouge\\nsur l’Ile 3.\\pIl se peut qu’elle arrive ici en retard,\\nalors je ne peux pas m’absenter.\\pC’est pour ça que je dois te demander\\nce grand service.",
+  "msgctxt": ""
+ }
+]

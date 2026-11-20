@@ -1,0 +1,172 @@
+[
+ {
+  "id": 14,
+  "categorie": "registre",
+  "probleme": "Le personnage tutoie le joueur alors que le contexte indique le vouvoiement.",
+  "correction": "Je sais tout, comme je l’ai écrit\\nau tableau.\\pJe connais le monde des Pokémon\\nde votre GAME BOY ADVANCE!\\pRetrouvez vos amis et amusez-vous\\nà échanger des Pokémon!",
+  "justification": "« Votre », « Retrouvez » et « vos amis » rétablissent le vouvoiement.",
+  "msgid": "There is nothing that I don't know,\\nlike I wrote on the blackboard.\\pI know about the world of POKéMON\\nin your GAME BOY ADVANCE!\\pGet together with your friends and\\nenjoy trading POKéMON!",
+  "msgstr": "Il n’y a rien que je ne sache, comme je\\nl’ai écrit au tableau.\\pJe sais tout du monde des Pokémon de\\nta GAME BOY ADVANCE!\\pRetrouve tes amis et amusez-vous à\\néchanger des Pokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "typographie",
+  "probleme": "Les accents manquent dans « ECHANGE » et « COLISEE ».",
+  "correction": "Pour te connecter avec un seul\\nami, va au COIN DIRECT.\\pC’est le comptoir de droite du CLUB\\nSANS FIL Pokémon.\\pEntre au COIN ÉCHANGE ou au COLISÉE\\navec ton ami.",
+  "justification": "Les capitales conservent leurs accents.",
+  "msgid": "To link only with a friend, go to\\nthe DIRECT CORNER.\\pIt is the right counter at the\\nPOKéMON WIRELESS CLUB.\\pGo into the TRADE CORNER or the\\nCOLOSSEUM with your friend.",
+  "msgstr": "Pour te connecter avec un seul ami, va\\nau COIN DIRECT.\\pC’est le comptoir de droite du CLUB\\nSANS FIL Pokémon.\\pEntre au COIN ECHANGE ou au COLISEE\\navec ton ami.",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "codes",
+  "probleme": "Quatre codes de mise en exposant ont été ajoutés.",
+  "correction": "RDC: Accueil\\p1er: Marché du Dresseur\\p2e: Jeux vidéo\\p3e: Cadeaux Sagesse\\p4e: Pharmacie\\pToit: Distributeurs",
+  "justification": "Les ordinaux en texte simple conservent la numérotation française. Dans « Jeux vidéo », seul le premier mot prend la majuscule.",
+  "msgid": "1F: SERVICE COUNTER\\p2F: TRAINER'S MARKET\\p3F: TV GAME SHOP\\p4F: WISE MAN GIFTS\\p5F: DRUGSTORE\\pROOFTOP SQUARE: VENDING MACHINES",
+  "msgstr": "RDC: Accueil\\p1{SUPER_ER}: Marché du Dresseur\\p2{SUPER_E}: Jeux Vidéo\\p3{SUPER_E}: Cadeaux Sagesse\\p4{SUPER_E}: Pharmacie\\pToit: Distributeurs",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "contresens",
+  "probleme": "« De bons Dresseurs » ajoute un jugement absent du texte source et « de bons objets » atténue « top-grade ».",
+  "correction": "Des objets de premier choix\\npour les Dresseurs!\\p1er: Marché du Dresseur",
+  "justification": "La qualité supérieure s’applique aux objets. L’ordinal en texte simple retire le code ajouté.",
+  "msgid": "Top-Grade Items for TRAINERS!\\p2F: TRAINER'S MARKET",
+  "msgstr": "De bons objets pour de bons\\nDresseurs!\\p1{SUPER_ER}: Marché du Dresseur",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "orthographe",
+  "probleme": "Le pronom « l’ » au singulier renvoie à « Les Pokémon » au pluriel.",
+  "correction": "Les Pokémon capturés sont\\nenregistrés avec un numéro d’ID et un\\lDO.\\pDO signifie “Dresseur d’Origine”:\\nle premier à avoir capturé\\lle Pokémon.",
+  "justification": "La reprise explicite désigne le Pokémon auquel correspond le DO.",
+  "msgid": "Captured POKéMON are registered\\nwith an ID No. and the OT.\\pOT stands for “Original TRAINER” -\\nthe TRAINER that caught it first.",
+  "msgstr": "Les Pokémon capturés sont\\nenregistrés avec un numéro d’ID et un\\lDO.\\pDO signifie “Dresseur d’Origine”: le\\nDresseur qui l’a capturé en premier.",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "codes",
+  "probleme": "Le code {SUPER_E} a été ajouté.",
+  "correction": "2e: Jeux vidéo",
+  "justification": "L’ordinal en texte simple conserve la numérotation française. « Vidéo » prend une minuscule dans ce libellé.",
+  "msgid": "3F: TV GAME SHOP",
+  "msgstr": "2{SUPER_E}: Jeux Vidéo",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "codes",
+  "probleme": "Le code {SUPER_E} a été ajouté.",
+  "correction": "Exprimez-vous avec des cadeaux!\\n3e: Cadeaux Sagesse\\pSpécial évolution!\\nPierres élémentaires en promo!",
+  "justification": "L’ordinal en texte simple conserve la numérotation française.",
+  "msgid": "Express yourself with gifts!\\n4F: WISE MAN GIFTS\\pEvolution Special!\\nElement STONES on sale now!",
+  "msgstr": "Exprimez-vous avec des cadeaux!\\n3{SUPER_E}: Cadeaux Sagesse\\pSpécial évolution!\\nPierres élémentaires en promo!",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "terminologie",
+  "probleme": "« ATQ. SPÉ. » et « DÉF. SPÉ. » diffèrent des abréviations prescrites.",
+  "correction": "Les objets d’amélioration des stats\\nne s’achètent qu’ici.\\pLe PV Plus augmente les PV de base\\nd’un Pokémon.\\pLe Calcium augmente l’AS de\\nbase d’un Pokémon.\\pLe Zinc renforce la DS de base\\nd’un Pokémon.\\pLe Carbone augmente la VITESSE de\\nbase.",
+  "justification": "Les conventions fournies fixent AS pour l’Attaque Spéciale et DS pour la Défense Spéciale.",
+  "msgid": "POKéMON stat enhancers can be\\nbought only here.\\pHP UP increases the base HP of a\\nPOKéMON.\\pCALCIUM raises the base SP. ATK\\nstat of one POKéMON.\\pZINC boosts the base SP. DEF stat\\nof one POKéMON.\\pCARBOS enhances the base SPEED\\nstat.",
+  "msgstr": "Les objets d’amélioration des stats\\nne s’achètent qu’ici.\\pLe PV Plus augmente les PV de base\\nd’un Pokémon.\\pLe Calcium augmente l’ATQ. SPÉ. de\\nbase d’un Pokémon.\\pLe Zinc renforce la DÉF. SPÉ. de base\\nd’un Pokémon.\\pLe Carbone augmente la VITESSE de\\nbase.",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "codes",
+  "probleme": "Le code {SUPER_E} a été ajouté.",
+  "correction": "4e: Pharmacie",
+  "justification": "L’ordinal en texte simple conserve la numérotation française.",
+  "msgid": "5F: DRUGSTORE",
+  "msgstr": "4{SUPER_E}: Pharmacie",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "contresens",
+  "probleme": "« Je n’ai plus soif » indique que la soif est passée.",
+  "correction": "Non, merci!\\nFinalement, je n’ai pas soif!",
+  "justification": "« After all » marque ici un changement d’avis.",
+  "msgid": "No, thank you!\\nI'm not thirsty after all!",
+  "msgstr": "Non, merci!\\nJe n’ai plus soif, en fait!",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "orthographe",
+  "probleme": "La construction consécutive amorcée par « si immature » est incomplète.",
+  "correction": "Ma sœur est Dresseuse, crois-le ou\\nnon.\\pMais elle est si immature qu’elle\\nme rend dingue!",
+  "justification": "La construction « si… que » relie le degré d’immaturité à sa conséquence.",
+  "msgid": "My sister is a TRAINER, believe it\\nor not.\\pBut, she's so immature, she drives\\nme nuts!",
+  "msgstr": "Ma sœur est Dresseuse, crois-le ou\\nnon.\\pMais elle est si immature, elle me rend\\ndingue!",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "typographie",
+  "probleme": "Dans « Cramois’Ile », le « Î » a perdu son accent circonflexe.",
+  "correction": "J’ai eu mon SMOGO à Cramois’Île.\\pIl est gentil d’habitude, mais il\\ncrache du poison quand il est en\\lcolère.",
+  "justification": "Le mot « île » conserve son circonflexe sur la majuscule.",
+  "msgid": "I got my KOFFING in CINNABAR.\\pIt's usually nice, but it breathes\\npoison when it's angry.",
+  "msgstr": "J’ai eu mon SMOGO à Cramois’Ile.\\pIl est gentil d’habitude, mais il\\ncrache du poison quand il est en\\lcolère.",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "oubli",
+  "probleme": "La fierté que Céladopole tire de ses efforts a disparu.",
+  "correction": "Céladopole est fière de préserver\\nla beauté de la ville.\\pC’est pour ça que le nouveau Casino\\nnuit à l’image de notre ville.",
+  "justification": "« Takes pride » exprime la fierté qui motive la remarque sur l’image de la ville.",
+  "msgid": "CELADON takes pride in its efforts\\nto keep the city beautiful.\\pThat's why the new GAME CORNER is\\nbad for our city's image.",
+  "msgstr": "Céladopole fait de gros efforts pour\\nrester une belle ville.\\pC’est pour ça que le nouveau Casino\\nnuit à l’image de notre ville.",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "oubli",
+  "probleme": "« J’aurais dû » exprime le regret seul. Le personnage savait déjà quoi faire.",
+  "correction": "Pfff… J’ai tout perdu aux machines à\\nsous!\\pJe savais que j’aurais dû troquer\\nmes Jetons contre des lots!",
+  "justification": "« Je savais » restitue le reproche que le personnage se fait pour avoir ignoré son propre jugement.",
+  "msgid": "Moan…\\nI blew it all at the slots!\\pI knew I should have cashed in my\\nCOINS for prizes!",
+  "msgstr": "Pfff… J’ai tout perdu aux machines à\\nsous!\\pJ’aurais dû échanger mes Jetons\\ncontre des lots!",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » diffère de la graphie demandée.",
+  "correction": "Ne gêne pas les Rocket!",
+  "justification": "Le lexique fourni donne « Rocket » pour TEAM ROCKET.",
+  "msgid": "Keep out of TEAM ROCKET's way!",
+  "msgstr": "Ne gêne pas la Team Rocket!",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "contresens",
+  "probleme": "« Garder un œil sur toi » évoque une surveillance.",
+  "correction": "Je guetterai toujours ton passage.\\pJ’espère qu’on pourra discuter à\\nnouveau.",
+  "justification": "Dans ce contexte, « keep an eye out for you » signifie rester attentif à une prochaine occasion de revoir le joueur.",
+  "msgid": "I'll always be keeping an eye out\\nfor you.\\pI hope we can chat again.",
+  "msgstr": "Je garderai toujours un œil sur toi.\\pJ’espère qu’on pourra discuter à\\nnouveau.",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "terminologie",
+  "probleme": "« Team Rocket » diffère de la graphie demandée.",
+  "correction": "Ne le répète pas.\\pOn raconte que cet endroit est tenu\\npar les Rocket.",
+  "justification": "Le lexique fourni donne « Rocket » pour TEAM ROCKET.",
+  "msgid": "Keep this quiet.\\pIt's rumored that this place is run\\nby TEAM ROCKET.",
+  "msgstr": "Ne le répète pas.\\pOn raconte que cet endroit est tenu\\npar la Team Rocket.",
+  "msgctxt": ""
+ }
+]
