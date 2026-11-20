@@ -19,6 +19,7 @@ import polib, hnsfr
 from verifier import Verif
 
 P = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SANS_ACCENT_MAJ = str.maketrans('ÀÂÄÉÈÊËÎÏÔÖÙÛÜ', 'AAAEEEEIIOOUUU')   # décision 14 (Ç et Œ gardés)
 BLOQUANTS = {'CODES', 'KANA', 'CARACTERE', 'LONGUEUR', 'ESPACE', 'FRAGMENT', 'TYPO'}
 
 
@@ -59,7 +60,8 @@ def main():
     st = collections.Counter(); journal = []
     for f in fichiers:
         for it in json.load(open(f, encoding='utf-8')):
-            mid, ctx, mstr = it['msgid'], it.get('msgctxt') or '', it.get('msgstr') or ''
+            mid, ctx, mstr = it['msgid'], it.get('msgctxt') or '', (it.get('msgstr') or '').translate(SANS_ACCENT_MAJ)
+            mstr = re.sub(r'(?<![A-Za-zÀ-ÿ])Ca(?![A-Za-zÀ-ÿ’\'])', 'Ça', mstr)   # la cédille reste (décision 14)
             src = it.get('source') or 'traduction nouvelle'
             if not mstr: st['vide'] += 1; continue
             if mid in excl: st['exclu'] += 1; journal.append(('exclu', mid, mstr, '')); continue

@@ -52,6 +52,8 @@ def gl_esp():
     if _GL is None:
         _GL = style.charger(os.path.join(P, 'traductions', 'glossaire.tsv'))
         _ESP = frozenset(style.cle(x) for x in json.load(open(os.path.join(MEM, 'ss_fr_msg.json'), encoding='utf-8'))['237'] if x.strip())
+        # « ŒUF » figure dans la banque 237 (espèce « Œuf ») mais n'est pas un nom d'espèce : on le laisse au glossaire
+        _ESP = _ESP - {'OEUF'}
     return _GL, _ESP
 
 
@@ -85,9 +87,79 @@ def officiel(fr_brut, en):
     gl, esp = gl_esp()
     t = nettoyer_kana(fr_brut)
     t = graphie_codes(t, en)
-    t = style.appliquer(t, gl, esp)
+    # noms de personnages Hoenn (capitales d'Émeraude FR) protégés du glossaire quand ils sont isolés
+    prot = proteges(); gardes = []
+    if prot:
+        def garde(mm):
+            gardes.append(mm.group(1)); return '\x01%d\x02' % (len(gardes) - 1)
+        t = re.sub(r"(?<![A-Za-zÀ-ÿé’'\-.\x02])(?<![A-ZÀ-Þé] )(%s)(?![A-Za-zÀ-ÿé’'\-])(?! [A-ZÀ-Þé]{2})" % '|'.join(map(re.escape, prot)), garde,
+                   re.sub(r'(\\[nlp])', '\\1\x03', t)).replace('\x03', '')
+    # style.appliquer ne reconnaît pas un mot en capitales collé à \n, \l ou \p (la lettre n/l/p précède) :
+    # on l'applique ligne par ligne.
+    t = ''.join(x if re.fullmatch(r'\\[nlp]', x) else style.appliquer(x, gl, esp) for x in re.split(r'(\\[nlp])', t))
+    # élisions en capitales (D’ARENE, L’ECOLE…) : le mot après l’apostrophe passe aussi au glossaire
+    t = re.sub(r"(?<![A-Za-zÀ-ÿ])((?:[DLJMNST]|QU)’)([A-ZÀ-Þé][A-ZÀ-Þé\-]+(?: [A-ZÀ-Þé][A-ZÀ-Þé\-]+){0,3})", lambda m: m.group(1) + style.appliquer(m.group(2), gl, esp),
+               re.sub(r'(\\[nlp])', '\\1\x00', t)).replace('\x00', '')
+    t = re.sub(r'\x01(\d+)\x02', lambda mm: gardes[int(mm.group(1))], t)
     t = nettoyer_kana(t)
     return t
+
+
+_PROT = None
+def proteges():
+    global _PROT
+    if _PROT is None:
+        try:
+            _PROT = pickle.load(open(os.path.join(TMP, 'em_tables.pkl'), 'rb')).get('proteges', [])
+        except Exception:
+            _PROT = []
+    return _PROT
+
+
+_VOC = None
+def vocabulaire():
+    """mots (minuscules) des textes SoulSilver FR et Émeraude FR connus : pour recoller les césures"""
+    global _VOC
+    if _VOC is None:
+        _VOC = set()
+        FRW = {'le', 'la', 'les', 'de', 'des', 'du', 'est', 'vous', 'tu', 'un', 'une', 'et', 'pour', 'pas', 'que', 'qui', 'dans', 'sur', 'au', 'aux'}
+        ENW = {'the', 'you', 'your', 'and', 'with', 'this', 'that', 'is', 'are', 'of', 'to', 'it', 'its', 'can', 'will', 'fix', 'data'}
+        def ajoute(l):
+            ws = [w.lower() for w in re.findall(r"[A-Za-zÀ-ÿœ’'\-]+", re.sub(r'\\[nlpr]', ' ', l))]
+            if any(w in FRW for w in ws) and not any(w in ENW for w in ws):
+                _VOC.update(ws)
+        for lines in json.load(open(os.path.join(MEM, 'ss_fr_msg.json'), encoding='utf-8')).values():
+            for l in lines or []: ajoute(l)
+        try:
+            for fb in pickle.load(open(os.path.join(TMP, 'tm_em_bytes_v2.pkl'), 'rb')).values():
+                f = G.decode(fb)
+                if f: ajoute(f.lower())
+        except Exception:
+            pass
+    return _VOC
+
+
+def mise_en_page(t, en):
+    notes = []
+    if not re.search(r'\\[nlp]', en) and re.search(r'\\[nlp]', t):
+        # « inten-\nsifie » -> « intensifie » (césure d'Émeraude FR dans les fenêtres étroites)
+        voc = vocabulaire()
+        def cesure(mm):
+            a, b = mm.group(1), mm.group(2)
+            return a + b if (a + b).lower() in voc and (a + '-' + b).lower() not in voc else a + '-' + b
+        t1 = re.sub(r'([A-Za-zÀ-ÿ]+)-\s*\\[nlp]\s*([a-zà-ÿ]+)', cesure, t)
+        t1 = re.sub(r'(?<=-)\s*\\[nlp]\s*', '', t1)
+        t1 = re.sub(r'\s*\\[nlp]\s*', ' ', t1)
+        if '{' in t1 and re.search(r'\{(DYNAMIC|CLEAR_TO)', t1) or G.largeur(t1) <= max(198, G.largeur(en)):
+            t = t1; notes.append('retours à la ligne d’Émeraude FR supprimés (anglais sur une ligne)')
+        else:
+            notes.append('anglais sur une ligne mais texte FR trop large pour une ligne : retours à la ligne d’Émeraude FR conservés')
+    if re.search(r'\\[nlp]', t) and not re.search(r'\{(DYNAMIC|CLEAR_TO|CLEAR|FONT|SHIFT)', t):
+        frag = en.endswith('\\n') or en.endswith('\\p')
+        wen = max(G.largeur(l) for l in re.split(r'\\[nlp]', en))
+        if any(G.largeur(l) > max(216, wen) for l in re.split(r'\\[nlp]', t)) and not frag:
+            t = G.reformater(t, 198); notes.append('remis en page (ligne de plus de 216 px)')
+    return t, notes
 
 
 def nombres(s):
@@ -128,29 +200,13 @@ def zone(path):
     if 'tv' in os.path.basename(p).lower() or '/tv' in p or 'TV' in os.path.basename(p): return 'TV'
     if 'match_call' in p or 'MatchCall' in p or 'pokenav' in p: return 'Match Call/PokéNav'
     if p.startswith('data/maps/'):
-        try:
-            import functools
-            return 'cartes FRLG' if _frlg(p.split('/')[2]) else 'cartes Hoenn/HnS'
-        except Exception:
-            return 'cartes'
+        d = p.split('/')[2]
+        if d.lower().endswith('_frlg'): return 'cartes FRLG'
+        if d.lower().endswith('_hns'): return 'cartes HnS (Johto/Kanto)'
+        return 'cartes Hoenn'
     if p.startswith('data/'): return 'scripts/texte communs'
     if p.startswith('src/data/') or p.endswith('.party'): return 'données'
     return 'moteur (src)'
-
-
-_MAPS = None
-def _frlg(mapdir):
-    """Vrai si la carte n'est pas compilée (cartes FRLG / inutilisées de l'upstream)."""
-    global _MAPS
-    if _MAPS is None:
-        _MAPS = set()
-        try:
-            j = json.load(open(os.path.join(ROOT, 'data', 'maps', 'map_groups.json')))
-            for grp in j.get('group_order', []):
-                for m in j.get(grp, []): _MAPS.add(m)
-        except Exception:
-            pass
-    return mapdir not in _MAPS
 
 
 def ecrire(nom, liste):

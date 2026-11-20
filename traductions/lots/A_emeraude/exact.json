@@ -1371,15 +1371,6 @@
   "preuve": "US 2A678C -> FR 2AEF8D (pointeur x1) ; US 2C5D52 -> FR 2CEBFB (pointeur x1) ; table octets EN->FR (x2)"
  },
  {
-  "msgid": "Hey, you.\\nIt gets awfully dark ahead.\\lIt'll be tough trying to explore.\\pThat guy who came by earlier…\\nSTEVEN, I think it was.\\pHe knew how to use FLASH, so he ought\\nto be all right, but…\\pWell, for us HIKERS, helping out those\\nthat we meet is our motto.\\pHere you go, I'll pass this on to you.",
-  "msgstr": "Hé, toi!\\nIl fait terriblement sombre là-dedans.\\lÇa va être difficile à explorer.\\pCe type qui est passé tout à l’heure…\\nPierre, je crois que c’était ça.\\pIl savait utiliser Flash, alors il n’a pas\\ndû avoir de problème, mais…\\pPour nous, les MONTAGNARDS, la devise\\nest d’aider ceux que l’on rencontre.\\pVas-y et bon courage!",
-  "source": "Émeraude FR officiel",
-  "fichier": "data/maps/GraniteCave_1F/scripts.inc",
-  "ligne": 21,
-  "ancien": "Hé, toi!\\nIl fait terriblement sombre là-dedans.\\lÇa va être difficile à explorer.\\pCe type qui est passé tout à l’heure…\\nPIERRE, je crois que c’était ça.\\pIl savait utiliser Flash, alors il n’a pas\\ndû avoir de problème, mais…\\pPour nous, les MONTAGNARDS, la devise\\nest d’aider ceux que l’on rencontre.\\pVas-y et bon courage!",
-  "preuve": "US 22DA94 -> FR 231BAD (pointeur x1)"
- },
- {
   "msgid": "My name is STEVEN.\\pI'm interested in rare stones,\\nso I travel here and there.\\pOh?\\nA LETTER for me?",
   "msgstr": "Je suis PIERRE.\\pJe m’intéresse aux pierres rares, alors\\nje vais ici et là.\\pOh?\\nC’est une LETTRE pour moi?",
   "source": "Émeraude FR officiel",
@@ -3361,17 +3352,8 @@
   "note": "nom(s) de personnage Hoenn gardé(s) en capitales d’Émeraude FR malgré le glossaire : ARTHUR (glossaire : Arthur)"
  },
  {
-  "msgid": "MAXIE: Do you understand now,\\nARCHIE?\\pDo you finally see how disastrous\\nyour dream turned out to be?\\pWe have to hurry! We have to do\\nsomething before the situation goes\\lcompletely out of control!",
-  "msgstr": "MAX: Tu comprends maintenant,\\nArthur?\\pTu vois finalement comme ton rêve a\\ntourné au cauchemar? Un vrai désastre!\\pOn doit faire vite! On doit agir\\navant que la situation ne devienne\\lincontrôlable!",
-  "source": "Émeraude FR officiel",
-  "fichier": "data/maps/Route128/scripts.inc",
-  "ligne": 254,
-  "ancien": "MAX: Tu comprends maintenant,\\nARTHUR?\\pTu vois finalement comme ton rêve a\\ntourné au cauchemar? Un vrai désastre!\\pOn doit faire vite! On doit agir\\navant que la situation ne devienne\\lincontrôlable!",
-  "preuve": "US 1F6E5A -> FR 1F818F (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
   "msgid": "MAXIE: {PLAYER}, don't say anything.\\pI know that I have no right to be\\ncritical of ARCHIE…\\pBut the way things are now, I doubt\\nthat we humans will be capable of\\ldoing anything about it.\\pBut neither can we stand by and\\njust watch helplessly.\\pThe responsibility for putting an end\\nto this falls to ARCHIE and me…",
-  "msgstr": "MAX: {PLAYER}, ne dis rien.\\pJe sais que je n’ai pas le droit de\\ncritiquer ARTHUR…\\pMais vu la tournure des évènements,\\nje doute que nous puissions faire\\lquelque chose.\\pMais nous ne pouvons pas rester\\nici les bras croisés.\\pArthur et moi devons tout tenter\\npour mettre un terme à tout ceci…",
+  "msgstr": "MAX: {PLAYER}, ne dis rien.\\pJe sais que je n’ai pas le droit de\\ncritiquer ARTHUR…\\pMais vu la tournure des évènements,\\nje doute que nous puissions faire\\lquelque chose.\\pMais nous ne pouvons pas rester\\nici les bras croisés.\\pARTHUR et moi devons tout tenter\\npour mettre un terme à tout ceci…",
   "source": "Émeraude FR officiel",
   "fichier": "data/maps/Route128/scripts.inc",
   "ligne": 263,

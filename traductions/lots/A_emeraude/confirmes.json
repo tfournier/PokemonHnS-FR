@@ -7630,6 +7630,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
+  "msgid": "Hey, you.\\nIt gets awfully dark ahead.\\lIt'll be tough trying to explore.\\pThat guy who came by earlier…\\nSTEVEN, I think it was.\\pHe knew how to use FLASH, so he ought\\nto be all right, but…\\pWell, for us HIKERS, helping out those\\nthat we meet is our motto.\\pHere you go, I'll pass this on to you.",
+  "msgstr": "Hé, toi!\\nIl fait terriblement sombre là-dedans.\\lÇa va être difficile à explorer.\\pCe type qui est passé tout à l’heure…\\nPIERRE, je crois que c’était ça.\\pIl savait utiliser Flash, alors il n’a pas\\ndû avoir de problème, mais…\\pPour nous, les MONTAGNARDS, la devise\\nest d’aider ceux que l’on rencontre.\\pVas-y et bon courage!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/GraniteCave_1F/scripts.inc",
+  "ligne": 21,
+  "ancien": "Hé, toi!\\nIl fait terriblement sombre là-dedans.\\lÇa va être difficile à explorer.\\pCe type qui est passé tout à l’heure…\\nPIERRE, je crois que c’était ça.\\pIl savait utiliser Flash, alors il n’a pas\\ndû avoir de problème, mais…\\pPour nous, les MONTAGNARDS, la devise\\nest d’aider ceux que l’on rencontre.\\pVas-y et bon courage!",
+  "preuve": "US 22DA94 -> FR 231BAD (pointeur x1)",
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (récupéré par pointeur))"
+ },
+ {
   "msgid": "Teach that hidden move FLASH to\\na POKéMON and use it.\\pIt lights up even the inky darkness\\nof caves.\\pBut, to use it, you need the GYM BADGE\\nfrom DEWFORD's POKéMON GYM.",
   "msgstr": "Apprends cette CS Flash\\nà un Pokémon et utilise-la.\\pÇa permet d’éclairer même les cavernes\\nles plus sombres.\\pMais pour l’utiliser, il faut le Badge\\nde l’Arène Pokémon de MYOKARA.",
   "source": "Émeraude FR officiel",
@@ -17607,6 +17617,16 @@
   "ligne": 250,
   "ancien": "Je…\\nJe voulais juste…",
   "preuve": "US 1F6E48 -> FR 1F8179 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "MAXIE: Do you understand now,\\nARCHIE?\\pDo you finally see how disastrous\\nyour dream turned out to be?\\pWe have to hurry! We have to do\\nsomething before the situation goes\\lcompletely out of control!",
+  "msgstr": "MAX: Tu comprends maintenant,\\nARTHUR?\\pTu vois finalement comme ton rêve a\\ntourné au cauchemar? Un vrai désastre!\\pOn doit faire vite! On doit agir\\navant que la situation ne devienne\\lincontrôlable!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/Route128/scripts.inc",
+  "ligne": 254,
+  "ancien": "MAX: Tu comprends maintenant,\\nARTHUR?\\pTu vois finalement comme ton rêve a\\ntourné au cauchemar? Un vrai désastre!\\pOn doit faire vite! On doit agir\\navant que la situation ne devienne\\lincontrôlable!",
+  "preuve": "US 1F6E5A -> FR 1F818F (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {

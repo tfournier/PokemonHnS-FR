@@ -133,4 +133,4 @@ print('marches', nwalk, 'cibles', len(pairs), 'segments', len(segs), 'couverture
       '%.0fs' % (time.time() - t0), file=sys.stderr)
 os.makedirs(TMP, exist_ok=True)
 pickle.dump({'ptr': dict(pairs), 'src': dict(srcs), 'seg': segs, 'anch': anch}, open(os.path.join(TMP, 'em_ptr.pkl'), 'wb'))
-np.save(os.path.join(TMP, 'em_delta.npy'), dl)
+np.savez_compressed(os.path.join(TMP, 'em_delta.npz'), dl=dl)

@@ -58,8 +58,10 @@ reportées dans `traductions/glossaire.tsv`.
 13. **Noms de Dresseurs homonymes.** Un même prénom anglais peut désigner des personnes différentes selon
     la région (BILL Cracheur de feu → Andréa ; BILL le personnage → Léo). Les noms de Dresseurs
     SoulSilver sont donc posés avec `msgctxt` = fichier `.party` (contextes.po).
-14. **Pas de capitale accentuée** (corrige la première version de la décision 3). Mesuré dans Émeraude FR :
-    RESUME, DEPLACER, BOITE, ETEINDRE, DEFENSE, CAPACITE, DUREE, ATQ. SPE, « A la » (20 fois contre 4
-    « À la ») ; SoulSilver FR fait de même, y compris en casse normale (HERICENDRE, ELECTRIK, Iles Ecume,
-    Ile de Fer, Cramois’Ile, Badge Ame), et le glossaire du projet suit SoulSilver. Donc aucune majuscule
-    ne porte d'accent (seul le « é » minuscule de POKéMON / POKéDEX reste). Types : ELECTRIK, TENEBRES, FEE.
+14. **Pas d'accent sur les majuscules** (corrige la première version de la décision 3). Mesuré dans les deux
+    officiels : Émeraude FR écrit RESUME, DEPLACER, BOITE, DEFENSE, ATQ. SPE, « A bientôt » (44 fois, 0 « À
+    bientôt »), « Echange » ; SoulSilver FR écrit Iles Ecume, Ile de Fer, Cramois’Ile, Electrik, Echange,
+    « Etes », HERICENDRE, et aucun É, À ou Î. Mais tous deux gardent la **cédille** (« Ça » 314 fois dans
+    Émeraude FR, 327 dans SoulSilver FR ; GARÇON) et la ligature Œ. Règle : À Â É È Ê Ë Î Ï Ô Ù Û Ü → A A E
+    E E E I I O U U U, partout (libellés et texte courant) ; Ç et Œ restent ; le « é » minuscule de POKéMON
+    reste. Appliquée aux .po et au glossaire, et automatiquement par integrer_lot.py.

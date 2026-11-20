@@ -18,7 +18,7 @@ import ahocorasick
 us, fr = roms(); N = len(us)
 d = pickle.load(open(os.path.join(TMP, 'em_ptr.pkl'), 'rb'))
 pairs = d['ptr']
-dl = np.load(os.path.join(TMP, 'em_delta.npy'))
+dl = np.load(os.path.join(TMP, 'em_delta.npz'))['dl']
 NONE = np.iinfo(np.int32).min
 po = charger_po()
 LETTRES = set(range(0xA1, 0xEF))
@@ -30,7 +30,10 @@ def chaine(rom, a, lim=1200):
 
 
 def debut_texte(rom, a):
-    return a == 0 or rom[a - 1] in (0x00, 0xFF) or rom[a - 1] not in LETTRES
+    """début de chaîne : précédé d'un FF, d'un octet non texte, ou d'un 00 qui n'est pas une espace dans un mot"""
+    if a == 0 or rom[a - 1] == 0xFF: return True
+    if rom[a - 1] == 0x00: return a < 2 or rom[a - 2] in (0x00, 0xFF) or rom[a - 2] not in LETTRES
+    return rom[a - 1] not in LETTRES
 
 
 # ---------------------------------------------------------------- table octets EN -> FR étendue
@@ -81,14 +84,11 @@ for m, al in occ.items():
         if q <= 0 or q >= N: continue
         if not (us[a - 1] == fr[q - 1] or (us[a - 1] in (0, 0xFF) and fr[q - 1] in (0, 0xFF))): continue
         if dl[a - 1] != D and us[a - 1] not in (0, 0xFF): continue
-        # resynchronisation après le champ : une position parcourue au même décalage dans les 64 octets
-        after = dl[e + 1:e + 65]
-        if not (after == D).any(): continue
         fb = chaine(fr, q, 400)
         if fb is None or not debut_texte(fr, q): continue
-        # le texte FR doit se terminer avant la reprise de la marche
-        k = int(np.argmax(after == D)) + e + 1
-        if q + len(fb) >= k + D + 1 and fb != b: continue
+        # resynchronisation après les deux textes : 4 octets identiques au même décalage, parcourus
+        M = max(e, q + len(fb) - D)
+        if not any(dl[y] == D and us[y:y + 4] == fr[y + D:y + D + 4] for y in range(M + 1, M + 25)): continue
         cand[m].append(('delta', fb, 'US %06X -> FR %06X (zone parallèle, décalage %+d)' % (a, q, D)))
     if b in tm2:
         for fb, n in tm2[b].items():
@@ -100,7 +100,12 @@ TG = sorted(pairs)
 
 
 def depart(rom, p):
-    return rom[p] in LETTRES and rom[p - 1] not in LETTRES
+    """début de texte probable : précédé d'un FF, d'un remplissage 00 (lui-même après FF/00) ou d'un octet non texte"""
+    if rom[p] not in LETTRES: return False
+    x = rom[p - 1]
+    if x == 0xFF: return True
+    if x == 0: return rom[p - 2] in (0, 0xFF)
+    return x not in LETTRES and not (0x01 <= x <= 0x1F or x in (0xB0, 0xB1, 0xB2, 0xB3, 0xB4, 0xB5, 0xB6, 0xB8, 0xBA))
 
 
 def voisins_ok(a, b, la):
@@ -112,9 +117,10 @@ def voisins_ok(a, b, la):
 
 
 for m, al in occ.items():
-    if any(x[0] in ('ptr', 'delta') for x in cand.get(m, [])): continue
+    deja = {int(x[2][3:9], 16) for x in cand.get(m, []) if x[0] in ('ptr', 'delta')}
     b = enc[m]
     for a in al:
+        if a in deja: continue
         if not debut_texte(us, a) or us[a] not in LETTRES and us[a] < 0xF7 and len(b) < 2: continue
         k = bisect.bisect_right(TG, a) - 1
         for T in TG[max(0, k - 2):k + 1][::-1]:
@@ -122,7 +128,7 @@ for m, al in occ.items():
             Tf = pairs[T].most_common(1)[0][0]
             q = Tf + (a - T)
             if not (0 < q < N) or not debut_texte(fr, q): continue
-            Ds = dl[T:a]; Ds = Ds[Ds != NONE]
+            Ds = dl[max(T, a - 64):a + 64]; Ds = Ds[Ds != NONE]
             if len(Ds) and (Ds != Tf - T).any(): continue
             fb = chaine(fr, q, 200)
             if fb is None or G.decode(fb) is None: continue
@@ -130,6 +136,68 @@ for m, al in occ.items():
             if not ok: continue
             cand[m].append(('table', fb, 'US %06X -> FR %06X (table de base US %06X / FR %06X, index +%d, %d voisins)' % (a, q, T, Tf, a - T, nv)))
             break
+# ---------------------------------------------------------------- séquences de chaînes voisines (même bloc, même ordre)
+K = {}
+for pu, c in pairs.items():
+    pf, n = c.most_common(1)[0]
+    if n < 0.6 * sum(c.values()): continue
+    if us[pu - 1] in (0, 0xFF) and fr[pf - 1] in (0, 0xFF) and chaine(us, pu) is not None and chaine(fr, pf) is not None:
+        K[pu] = pf
+for m, l in cand.items():
+    for meth, fb, pr in l:
+        if meth in ('delta', 'table'):
+            a, q = int(pr[3:9], 16), int(pr[15:21], 16)
+            K.setdefault(a, q)
+
+
+def precedente(rom, a):
+    """début de la chaîne qui précède a (a doit suivre un FF)"""
+    if rom[a - 1] != 0xFF: return None
+    x = rom.rfind(b'\xff', max(0, a - 1200), a - 1)
+    if x < 0: return None
+    seg = rom[x + 1:a - 1]
+    if not seg or G.decode(seg) is None: return None
+    return x + 1
+
+
+def suivante(rom, a):
+    e = rom.find(b'\xff', a, a + 1200)
+    if e < 0: return None
+    n = e + 1
+    if rom[n] == 0xFF or chaine(rom, n) is None or not chaine(rom, n) or G.decode(chaine(rom, n)) is None: return None
+    return n
+
+
+def seq(a, sens, lim=30):
+    """remonte (sens=-1) ou descend (+1) jusqu'à une chaîne connue ; renvoie (cible FR, pas) ou None"""
+    x = a
+    for k in range(1, lim + 1):
+        x = precedente(us, x) if sens < 0 else suivante(us, x)
+        if x is None: return None
+        if x in K:
+            y = K[x]
+            for _ in range(k):
+                y = suivante(fr, y) if sens < 0 else precedente(fr, y)
+                if y is None: return None
+            return y, k, x
+    return None
+
+
+for m, al in occ.items():
+    if m in cand: continue
+    for a in al:
+        if us[a - 1] != 0xFF: continue
+        r1, r2 = seq(a, -1), seq(a, +1)
+        if r1 and r2 and r1[0] == r2[0]:
+            fb = chaine(fr, r1[0])
+            if fb is not None and G.decode(fb) is not None:
+                cand[m].append(('seq', fb, 'US %06X -> FR %06X (séquence : %d chaîne(s) après US %06X, %d avant US %06X)' % (a, r1[0], r1[1], r1[2], r2[1], r2[2])))
+                break
+        elif r1 or r2:
+            r = r1 or r2
+            fb = chaine(fr, r[0])
+            if fb is not None and G.decode(fb) is not None:
+                cand[m].append(('seq1', fb, 'US %06X -> FR %06X (séquence d’un seul côté : %d chaîne(s) %s US %06X)' % (a, r[0], r[1], 'après' if r is r1 else 'avant', r[2])))
 for m, b in enc.items():
     if m not in cand and b in tm2:
         for fb, n in tm2[b].items():

@@ -24,7 +24,7 @@ FIXES = {
     'BADGE': 'Badge', 'BADGES': 'Badges', 'SAC': 'Sac', 'PENSION': 'Pension', 'RADIO': 'Radio',
     'TOUR RADIO': 'Tour Radio', 'CARTE': 'Carte', 'BAIE': 'Baie', 'BAIES': 'Baies',
     'CT': 'CT', 'CS': 'CS', 'PC': 'PC', 'PV': 'PV', 'PP': 'PP', 'K.O.': 'K.O.', 'EXP.': 'Exp.',
-    'NORMAL': 'Normal', 'FEU': 'Feu', 'EAU': 'Eau', 'PLANTE': 'Plante', 'ELECTRIK': 'Électrik',
+    'NORMAL': 'Normal', 'FEU': 'Feu', 'EAU': 'Eau', 'PLANTE': 'Plante', 'ELECTRIK': 'Electrik',
     'GLACE': 'Glace', 'COMBAT': 'Combat', 'POISON': 'Poison', 'SOL': 'Sol', 'VOL': 'Vol', 'PSY': 'Psy',
     'INSECTE': 'Insecte', 'ROCHE': 'Roche', 'SPECTRE': 'Spectre', 'DRAGON': 'Dragon',
     'TENEBRES': 'Ténèbres', 'ACIER': 'Acier', 'FEE': 'Fée',

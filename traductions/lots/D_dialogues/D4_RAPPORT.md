@@ -1,10 +1,11 @@
 # Lot D4 : dialogues des cartes FRLG des îles Sevii
 
 ## Résultat
+- Décision 14 appliquée : aucune majuscule accentuée (Ile, Iles Sevii, Entree, Vallee, Etage…) dans les 669 msgstr ; les noms Poképédia (Île, Îles, Écume…) sont écrits sans accent sur la majuscule.
 - **669 / 669 entrées traduites** (toutes celles de `D4_a_traduire.json`, 68 cartes `*_Frlg`, aucune compilée dans HnS), réparties dans `D4_001.json` (134), `D4_002.json` (134), `D4_003.json` (133), `D4_004.json` (134), `D4_005.json` (134), par ordre fichier/ligne.
 - `D4_verifications.tsv` : **0 problème** (aucun bloquant : CODES, KANA, CARACTERE, LONGUEUR, ESPACE, LARGEUR = 0 ; GLOSSAIRE = 0 après passage à « Œuf », « Pokémon Insecte/Glace », « type Psy » et panneaux en casse SS).
 - `D4_douteux.json` : 21 entrées **déjà traduites dans les paquets** mais à relire (noms ou devises dont la forme exacte du jeu FR n’a pas pu être vérifiée). Ce fichier n’est pas un lot à intégrer : il liste msgid, msgstr proposé et raison.
-- Source : **traduction nouvelle** pour les 669 entrées. Aucune réplique Émeraude FR / SoulSilver FR proche (rapidfuzz ≥ 82 sur `tm_em_bytes.pkl`, ≥ 85 sur `tm_ss_pairs.pkl` hors banque 802 : aucune correspondance de sens). 146 entrées ont un champ `preuve` qui cite la source Poképédia des noms officiels qu’elles contiennent.
+- Source : **traduction nouvelle** pour les 669 entrées. Aucune réplique Emeraude FR / SoulSilver FR proche (rapidfuzz ≥ 82 sur `tm_em_bytes.pkl`, ≥ 85 sur `tm_ss_pairs.pkl` hors banque 802 : aucune correspondance de sens). 146 entrées ont un champ `preuve` qui cite la source Poképédia des noms officiels qu’elles contiennent.
 
 ## Méthode
 - Contexte lu pour chaque entrée dans `build/upstream_orig/data/maps/<carte>/scripts.inc` (label = interlocuteur et situation : intro/défaite/après-combat, panneau, PNJ). La note de chaque entrée donne la carte, le label, la situation et le registre.
@@ -86,20 +87,20 @@
 ## Noms officiels FRLG relevés (anglais → français, à ajouter au glossaire)
 | Anglais | Français | Type | Source |
 |---|---|---|---|
-| SEVII ISLANDS | Îles Sevii | lieu | pokepedia.fr/Îles_Sevii |
-| ONE … SEVEN ISLAND | Île 1 … Île 7 | lieu | pokepedia.fr/Îles_Sevii (le .po a « ILE 1 »… venant du patch : à corriger en « Île 1 »…) |
+| SEVII ISLANDS | Iles Sevii (Poképédia : Îles Sevii ; majuscule sans accent, décision 14) | lieu | pokepedia.fr/Îles_Sevii |
+| ONE … SEVEN ISLAND | Ile 1 … Ile 7 | lieu | pokepedia.fr/Îles_Sevii (le .po a « ILE 1 »… venant du patch : à corriger en « Ile 1 »…) |
 | KINDLE ROAD | Route Tison | lieu | pokepedia.fr/Île_1 |
 | MT. EMBER | Mont Braise | lieu | pokepedia.fr/Île_1 |
 | EMBER SPA | Source Braise | lieu | pokepedia.fr/Route_Tison |
 | TREASURE BEACH | Plage Trésor | lieu | pokepedia.fr/Île_1 |
 | CAPE BRINK | Cap Falaise | lieu | pokepedia.fr/Îles_Sevii |
 | JOYFUL GAME CORNER | Salle de Jeu | lieu | pokepedia.fr/Île_2 |
-| THREE ISLE PORT / PATH | Port Île 3 / Chemin Île 3 | lieu | pokepedia.fr/Île_3 |
+| THREE ISLE PORT / PATH | Port Ile 3 / Chemin Ile 3 | lieu | pokepedia.fr/Île_3 |
 | BOND BRIDGE | Pont du Lien | lieu | pokepedia.fr/Île_3 |
 | BERRY FOREST | Bois Baies | lieu | pokepedia.fr/Île_3 |
 | ICEFALL CAVE | Grotte de Glace | lieu | pokepedia.fr/Île_4 (**confirme** la forme provisoire du lot D1) |
 | LORELEI'S HOUSE | Maison d’Olga | lieu | (Olga = LORELEI, SS FR) |
-| FIVE ISLE MEADOW | Pré (Pré Île 5) | lieu | pokepedia.fr/Île_5, Mémorial |
+| FIVE ISLE MEADOW | Pré (Pré Ile 5) | lieu | pokepedia.fr/Île_5, Mémorial |
 | ROCKET WAREHOUSE | Entrepôt Rocket | lieu | pokepedia.fr/Entrepôt_Rocket |
 | MEMORIAL PILLAR | Mémorial | lieu | pokepedia.fr/Mémorial |
 | WATER LABYRINTH | Labyrinthe d’O | lieu | pokepedia.fr/Île_5 |
@@ -108,10 +109,10 @@
 | WATER PATH | Agualcanal | lieu | pokepedia.fr/Agualcanal |
 | GREEN PATH | Chemin Vert | lieu | pokepedia.fr/Île_6 |
 | PATTERN BUSH | Forbuissons | lieu | pokepedia.fr/Île_6 |
-| OUTCAST ISLAND | Île du Lointain | lieu | pokepedia.fr/Île_6 |
+| OUTCAST ISLAND | Ile du Lointain | lieu | pokepedia.fr/Île_6 |
 | RUIN VALLEY | Vallée Ruine | lieu | pokepedia.fr/Île_6 |
 | DOTTED HOLE | Trou Percé | lieu | pokepedia.fr/Île_6 |
-| ALTERING CAVE | Grotte Métamo | lieu | pokepedia.fr/Île_6 (le .po a « Grotte METAMO », Émeraude FR) |
+| ALTERING CAVE | Grotte Métamo | lieu | pokepedia.fr/Île_6 (le .po a « Grotte METAMO », Emeraude FR) |
 | SEVAULT CANYON / CANYON ENTRANCE | Canyon Sesor / Entrée Canyon | lieu | pokepedia.fr/Île_7 |
 | TANOBY RUINS / CHAMBERS / KEY | Ruines Tanoby / Chambres Tanoby / Clé Tanoby | lieu | pokepedia.fr/Île_7, Ruines_Tanoby |
 | TRAINER TOWER | Tour Dresseurs | lieu | pokepedia.fr/Île_7 |
@@ -124,21 +125,21 @@
 | GIDEON | Gédéon (Poképédia écrit « Gedeon ») | personnage | pokepedia.fr/Entrepôt_Rocket (nom absent des textes D4) |
 | CLIFFORD (Gentleman, Tanoby) | Xavier | Dresseur | pokepedia.fr/Ruines_Tanoby |
 | GILLIAN (Mademoiselle, Camp) | Reine | Dresseuse | pokepedia.fr/Camp_de_Vacances (Wattouat/Lainergie) |
-| KANTO RIDER FEDERATION (motards de l’Île 3) | Kanto Angels | groupe | pokepedia.fr/Île_3_(ville) (réplique exacte non vérifiée) |
+| KANTO RIDER FEDERATION (motards de l’Ile 3) | Kanto Angels | groupe | pokepedia.fr/Île_3_(ville) (réplique exacte non vérifiée) |
 | RUBY / SAPPHIRE | Rubis / Saphir | objet | pokepedia.fr/Rubis_(objet) |
 | TRI-PASS | Tri-Passe | objet | pokepedia.fr/Tri-Passe (le .po a « TRI-PASSE », patch : casse à revoir) |
 | RAINBOW PASS | Passe Prisme | objet | pokepedia.fr/Passe_Prisme |
 | BERRY POUCH | Sac à Baies | objet | pokepedia.fr/Sac_à_Baies (le .po a « Sac A Baies », patch) |
-| METEORITE | Météorite | objet | pokepedia.fr/Météorite_(Hoenn) (le .po a « MÉTÉORITE ») |
+| METEORITE | Météorite | objet | pokepedia.fr/Météorite_(Hoenn) (le .po a « METEORITE ») |
 | LEMONADE | Limonade | objet | .po (SS) et pokepedia.fr/Mémorial |
 | Mots de passe de l’Entrepôt (GOLDEEN need log / Yes, nah, CHANSEY) | “Ici GIRAFARIG ici.” / “TARSAL la star.” | texte | pokepedia.fr/Entrepôt_Rocket, Mont_Braise (palindromes FR ; ponctuation exacte non vérifiée) |
-| Devises des îles (panneaux) | Île 1 « Les amis se réunissent ici », Île 2 « Le bonheur à deux », Île 3 « L’île où on se sent chez soi », Île 4 « La chaleureuse île glacée », Île 5 « L’île où le temps s’écoule comme une rivière », Île 6 « L’île de la sagesse », Île 7 « L’île de l’infinité » | panneau | sous-titres des pages Poképédia de chaque île (texte exact des panneaux non vérifié) |
+| Devises des îles (panneaux) | Ile 1 « Les amis se réunissent ici », Ile 2 « Le bonheur à deux », Ile 3 « L’île où on se sent chez soi », Ile 4 « La chaleureuse île glacée », Ile 5 « L’île où le temps s’écoule comme une rivière », Ile 6 « L’île de la sagesse », Ile 7 « L’île de l’infinité » | panneau | sous-titres des pages Poképédia de chaque île (texte exact des panneaux non vérifié) |
 
 ### Traductions nouvelles (aucun nom officiel trouvé)
 | Anglais | Proposition |
 |---|---|
 | Network Machine | Machine Réseau |
-| SIX ISLE PORT | port de l’Île 6 (déjà au .po pour la revanche de Mymo) |
+| SIX ISLE PORT | port de l’Ile 6 (déjà au .po pour la revanche de Mymo) |
 | POKéMON MOVE MANIAC | Maniaque des Capacités |
 | TIME ATTACK / Time Board / OWNER (Tour Dresseurs) | Contre-la-Montre / Tableau des Temps / Propriétaire |
 | BIRD BROTHERS | Frères Oiseaux (comme D1) |
@@ -146,18 +147,18 @@
 | Butler / Lady SELPHY | Majordome / Mademoiselle Themis |
 
 ## Corrections à reporter (formes provisoires du lot D1 et du .po)
-- **« Ile 4 » → « Île 4 »** (et « ILE 1 »… « ILE 7 », « ILES SEVII » de `donnees.po`, venant du patch → « Île 1 »… « Îles Sevii »). Les consignes FRLG et le D1 écrivent déjà « Île » accentué.
+- **« Ile 4 »** du lot D1 est la bonne graphie (décision 14 : aucune majuscule accentuée ; nom officiel « Île 4 » sur Poképédia). Seule la casse de « ILE 1 »… « ILE 7 », « ILES SEVII » de `donnees.po` (patch) est à ramener à « Ile 1 »… « Iles Sevii » en dialogue.
 - **ICEFALL CAVE = « Grotte de Glace »** : forme officielle, confirmée.
 - **CELIO = « Ciléo »** (et non « Celio ») : à corriger dans `dialogues.po` (entrée « CELIO » du Mémorydex, lot D1) et dans les fiches qui le citent.
 - **CHARINE** : hors de mon périmètre (source du Mémorydex pour Koga) ; aucune forme officielle trouvée, « Charine » reste provisoire.
-- Fiche du Mémorydex « BRUNO… visits the SPA » : D1 a « aux thermes » ; la carte D4 dit « à la Source Braise » (nom officiel). À aligner.
+- Fiche du Mémorydex « BRUNO… visits the SPA » : D1 a « aux thermes » ; la carte D4 dit « à la Source Braise » (nom officiel). A aligner.
 - GILLIAN → Reine et CLIFFORD → Xavier : à reporter dans les noms de `trainers_frlg.party` quand ils seront traduits.
 
 ## Décisions de registre
-- **Vouvoiement** : Themis et son majordome (« Mademoiselle »), les Mademoiselles et le Gentleman du Camp de Vacances (Jacki, Toby), l’accueil et le Propriétaire de la Tour Dresseurs, le commerçant de l’Île 2 (avec {PLAYER}), le marin de la Flèche des Mers, les panneaux, les textes système (« Vous obtenez le Tri-Passe! »). Le chef des motards vouvoie les habitants (« Retournez à Kanto ») et inversement.
+- **Vouvoiement** : Themis et son majordome (« Mademoiselle »), les Mademoiselles et le Gentleman du Camp de Vacances (Jacki, Toby), l’accueil et le Propriétaire de la Tour Dresseurs, le commerçant de l’Ile 2 (avec {PLAYER}), le marin de la Flèche des Mers, les panneaux, les textes système (« Vous obtenez le Tri-Passe! »). Le chef des motards vouvoie les habitants (« Retournez à Kanto ») et inversement.
 - **Tutoiement** : Dresseurs, enfants, Sbires Rocket (familiers : « T’es venu ici… »), Olga (avec {PLAYER}), Ciléo et Léo, le rival, les PNJ des îles, le vieil homme de la pièce cachée, la vieille dame du Cap Falaise (accords au féminin : « je me suis trompée »).
 - Duos : noms gardés en casse SS (Kia, Mik, Eve, Jon, Lex, Nya, Ava, Geb, Miu, Mia, Joy, Meg), comme au lot D1 ; Poképédia donne « Miu & Mia » à l’identique.
-- Kanto / Hoenn en casse SS (« Kanto », comme les entrées SoulSilver FR du .po) ; ANNETTE et BASTIEN en capitales Émeraude FR ; espèces en capitales (LOKHLASS, LEVEINARD, SCARHINO, ONIX, DODUO, GIRAFARIG, TARSAL) ; « Pokédex NATIONAL » comme la majorité du .po.
+- Kanto / Hoenn en casse SS (« Kanto », comme les entrées SoulSilver FR du .po) ; ANNETTE et BASTIEN en capitales Emeraude FR ; espèces en capitales (LOKHLASS, LEVEINARD, SCARHINO, ONIX, DODUO, GIRAFARIG, TARSAL) ; « Pokédex NATIONAL » comme la majorité du .po.
 - « Rage Candybars » = Bonbons Rage ; FULL RESTORE = Guérison ; TOWN MAP = Carte ; RUNNING SHOES = Chaussures de Sport ; MAIL = LETTRE ; BODY SLAM = Plaquage ; SWORDS DANCE = Danse-Lames ; ICE BEAM = Laser Glace ; HASTY = Pressé ; TINYMUSHROOM / BIG MUSHROOM = Petit Champi / Gros Champi (formes du .po).
 - Mesures : les tailles de SCARHINO restent en pouces ({STR_VAR_2}/{STR_VAR_3} calculés en pouces par le code) ; la taille écrite en clair (67.0 inches) est convertie (1,70 m).
 - Jeux de mots recréés : « appeal / peel / bell » → « charme / chaume / carme » ; comptine du fan de SCARHINO ; mots de passe palindromes officiels FR.
@@ -166,5 +167,5 @@
 - Devises des sept îles : reprises des sous-titres Poképédia, texte exact des panneaux non vérifié.
 - Mots de passe (« Ici GIRAFARIG ici. » / « TARSAL la star. ») : formes officielles d’après Poképédia, ponctuation et attribution à vérifier.
 - « Kanto Angels » pour KANTO RIDER FEDERATION.
-- Machine Réseau, port de l’Île 6, Maniaque des Capacités, termes de la Tour Dresseurs, enseigne de la Salle de Jeu, slogan de la Source Braise : traductions nouvelles.
+- Machine Réseau, port de l’Ile 6, Maniaque des Capacités, termes de la Tour Dresseurs, enseigne de la Salle de Jeu, slogan de la Source Braise : traductions nouvelles.
 - Reine (GILLIAN) et Xavier (CLIFFORD) : noms officiels, mais à aligner avec la table des Dresseurs.
