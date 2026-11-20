@@ -1682,3 +1682,19 @@ msgstr "ABORDABLE"
 msgctxt "src/international_string_util.c"
 msgid "{STR_VAR_1} POKéMON"
 msgstr "Pokémon {STR_VAR_1}"
+
+#. source : SoulSilver FR officiel (adapté)
+#. lot : corrections_longueurs
+#. preuve : Mortimer (SoulSilver FR)
+#: src/data/battle_frontier/battle_frontier_trainers.h:0
+msgctxt "src/data/battle_frontier/battle_frontier_trainers.h"
+msgid "MORTY"
+msgstr "Mortim."
+
+#. source : traduction nouvelle
+#. lot : corrections_longueurs
+#. preuve : COURROUSINGE (12) tronqué
+#: src/data/battle_frontier/trainer_hill.h:0
+msgctxt "src/data/battle_frontier/trainer_hill.h"
+msgid "ANNIHILAPE"
+msgstr "COURROUSIN"
