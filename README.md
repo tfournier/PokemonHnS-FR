@@ -32,9 +32,11 @@ petits correctifs. À chaque nouvelle version upstream, on change `upstream.txt`
 4. remplace chaque texte anglais par sa traduction (`rapport/textes.txt`) ;
 5. compile (`make hns`) ; un texte trop long pour un champ fixe est remis en anglais et listé
    dans `rapport/trop_longs.txt` ;
-6. produit les patchs UPS dans `dist/` à partir des ROM présentes dans `memoires` :
-   - `emeraude_us.gba` → patch à appliquer sur **Pokémon Émeraude US** ;
-   - `hns_en.gba` → patch à appliquer sur **Heart & Soul anglais officiel**.
+6. produit le patch UPS distribué dans `dist/`, à appliquer sur **Heart & Soul anglais officiel**
+   (`memoires/hns_en.gba`), et le vérifie : appliqué à cette ROM, il doit redonner exactement la ROM
+   construite (CRC compris). L'option `--patch-emeraude` (`./build.sh --patch-emeraude`)
+   produit en plus un patch sur **Pokémon Émeraude US** (`memoires/emeraude_us.gba`), gardé au cas où
+   mais non distribué. Vérification à la main : `outils/ups_appliquer.py <rom_source> <patch.ups> <sortie.gba>`.
 
 Prérequis : `git make gcc g++ libpng`, une chaîne `arm-none-eabi-gcc` **avec newlib** (sous macOS : la
 chaîne xPack, décompressée dans `~/.local/xpack-arm-none-eabi-gcc-*`, est trouvée automatiquement), `python3`

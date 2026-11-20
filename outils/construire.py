@@ -3,6 +3,9 @@
 
   construire.py <dossier_projet> [--source <clone upstream existant>] [--jobs N]
                 [--traductions <dossier .po>] [--sans-images] [--sans-correctifs] [--sortie <rom.gba>]
+                [--patch-emeraude]
+  (patch distribué : sur Heart & Soul anglais seulement ; --patch-emeraude produit en plus celui sur
+   Émeraude US, gardé au cas où mais non distribué)
   (--sortie : construction de test, ni rapport ni patchs ; utilisé par test_aller_retour.py)
 
 Étapes : copie propre du code upstream à la version de upstream.txt, images (avec contrôle
@@ -22,6 +25,7 @@ podir = os.path.abspath(args[args.index('--traductions') + 1]) if '--traductions
 sans_images = '--sans-images' in args          # test aller-retour : textes seuls
 sans_code = '--sans-correctifs' in args
 sortie = os.path.abspath(args[args.index('--sortie') + 1]) if '--sortie' in args else None
+patch_emeraude = '--patch-emeraude' in args
 tag = open(os.path.join(P, 'upstream.txt')).read().strip()
 work = os.path.join(P, 'build', 'upstream')
 rep = os.path.join(P, 'rapport'); os.makedirs(rep, exist_ok=True)
@@ -99,9 +103,13 @@ print('ROM :', out)
 # 6. patchs (ROM de base fournie par l'utilisateur dans memoires/, jamais distribuée)
 mem = os.path.join(P, 'memoires'); dist = os.path.join(P, 'dist'); os.makedirs(dist, exist_ok=True)
 nom = 'PokemonHnS_%s_FR' % tag.replace('Release-', '')
-for base, suffixe in (('emeraude_us.gba', 'sur_Emeraude_US'), ('hns_en.gba', 'sur_HnS_anglais')):
+cibles = [('hns_en.gba', 'sur_HnS_anglais')] + ([('emeraude_us.gba', 'sur_Emeraude_US')] if patch_emeraude else [])
+for base, suffixe in cibles:
     b = os.path.join(mem, base)
     if os.path.exists(b):
         dst = os.path.join(dist, '%s_%s.ups' % (nom, suffixe))
         run([sys.executable, '-I', os.path.join(os.path.dirname(__file__), 'ups.py'), b, out, dst])
-        print('patch :', dst)
+        import ups_appliquer
+        if ups_appliquer.appliquer(open(b, 'rb').read(), open(dst, 'rb').read()) != open(out, 'rb').read():
+            sys.exit('patch %s : la ROM obtenue diffère de la ROM construite' % dst)
+        print('patch :', dst, '(vérifié : appliqué à %s, il redonne la ROM construite)' % base)

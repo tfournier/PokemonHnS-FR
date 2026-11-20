@@ -96,3 +96,7 @@ reportées dans `traductions/glossaire.tsv`.
     Rouge Feu FR par une entrée propre au fichier FRLG dont le pointeur est confirmé ; les cartes HnS gardent la
     traduction générale. Les termes de Rouge Feu FR (Dingue des Capacités, Ticketaurora, Parc Central,
     Memorydex, Cherche VS…) valent pour les textes FRLG ; les textes Johto/HnS gardent ceux de SoulSilver FR.
+21. **Un seul patch distribué : sur Heart & Soul anglais.** Le patch de traduction s'applique à la ROM HnS
+    anglaise officielle ; le patch sur Émeraude US n'est plus produit par défaut (option `--patch-emeraude`
+    de build.sh / construire.py, gardée au cas où). Chaque patch produit est vérifié automatiquement :
+    appliqué à sa ROM source (outils/ups_appliquer.py, contrôle des trois CRC), il doit redonner la ROM construite.
