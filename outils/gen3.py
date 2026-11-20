@@ -110,8 +110,10 @@ class Gen3:
         w = 0; i = 0
         while i < len(s):
             if s[i] == '{':
-                j = s.find('}', i); tok = s[i+1:j]
-                w += 7 * 6 if tok.split()[0] in ('PLAYER', 'RIVAL') else (10 * 6 if 'VAR' in tok or 'B_' in tok else 0)
+                j = s.find('}', i)
+                if j < 0: j = len(s)          # code incomplet : on ignore la fin
+                tok = s[i+1:j].split() or ['']
+                w += 7 * 6 if tok[0] in ('PLAYER', 'RIVAL') else (10 * 6 if 'VAR' in tok[0] or tok[0].startswith('B_') else 0)
                 i = j + 1; continue
             b = self.c2b.get(s[i])
             w += self.widths[b[0]] if b and len(b) == 1 and b[0] < len(self.widths) else 6
@@ -122,7 +124,9 @@ class Gen3:
         pages = re.split(r'\\p', s)
         out_pages = []
         for pg in pages:
-            words = re.sub(r'\\[nl]', ' ', pg).split()
+            # les codes ({COLOR BLUE}, {PAUSE 0x60}…) restent d'un seul tenant
+            pg = re.sub(r'\{[^}]*\}', lambda m: m.group(0).replace(' ', '\x00'), pg)
+            words = [w.replace('\x00', ' ') for w in re.sub(r'\\[nl]', ' ', pg).split()]
             lines, cur = [], ''
             for w in words:
                 t = (cur + ' ' + w) if cur else w

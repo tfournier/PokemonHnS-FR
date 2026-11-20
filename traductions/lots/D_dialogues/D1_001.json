@@ -1,0 +1,1092 @@
+[
+ {
+  "msgid": "In the FALLARBOR BATTLE TENT,\\n",
+  "msgstr": "À la TENTE DE COMBAT D’AUTEQUIA,\\n",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/battle_tent.inc",
+  "ligne": 25,
+  "note": "Fragment (variante non-HnS, #else) suivi de “we undertake the Set KO Tourney.” ; calqué sur “À la TENTE DE COMBAT ARÈNE,\\n” déjà au .po. [non compilé]"
+ },
+ {
+  "msgid": "Do you wish to take the VERDANTURF\\n",
+  "msgstr": "À VERGAZON, voulez-vous relever le\\n",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/battle_tent.inc",
+  "ligne": 147,
+  "note": "Fragment suivi de “BATTLE TENT challenge?” traduit “défi de la TENTE DE COMBAT?” : on évite le doublon “le défi de la / défi de la” (présent dans l’entrée PALACE actuelle du .po, à corriger). [non compilé]"
+ },
+ {
+  "msgid": "In the VERDANTURF BATTLE TENT,\\n",
+  "msgstr": "À la TENTE DE COMBAT DE VERGAZON,\\n",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/battle_tent.inc",
+  "ligne": 155,
+  "note": "Fragment (variante non-HnS) suivi de “there is one crucial rule…”. [non compilé]"
+ },
+ {
+  "msgid": "Here at the SLATEPORT BATTLE TENT,\\n",
+  "msgstr": "À la TENTE DE COMBAT DE POIVRESSEL,\\n",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/battle_tent.inc",
+  "ligne": 263,
+  "note": "Fragment (variante non-HnS) suivi de “we hold Battle Swap events…”. [non compilé]"
+ },
+ {
+  "msgid": "I'm the DAY-CARE MAN.\\pI help take care of the precious\\nPOKéMON of TRAINERS.\\pIf you'd like me to raise your\\nPOKéMON, have a word with my wife.",
+  "msgstr": "Je suis l’Hôte de la Pension.\\pJe bichonne les Pokémon chéris\\ndes Dresseurs.\\pVa voir ma femme si tu veux\\nme confier tes Pokémon.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/day_care_frlg.inc",
+  "ligne": 4,
+  "preuve": "SS 439:0 « Je suis l’Hôte de la Pension.\\rNous bichonnons les Pokémon\\nchéris des Dresseurs.\\rVa voir ma femme si tu veux\\nnous confier tes Pokémon. »",
+  "note": "Hôte de la Pension (Ile 4, FRLG) au joueur : tutoiement comme SS/Émeraude. [non compilé]"
+ },
+ {
+  "msgid": "Ah, it's you!\\pWe were raising your POKéMON, and\\nmy goodness, were we surprised!\\pYour POKéMON had an EGG!\\pWe don't know how it got there,\\nbut your POKéMON had it.\\pYou do want it, yes?",
+  "msgstr": "Ah, c’est toi!\\pNous nous occupions de ton Pokémon\\net nous avons eu une énorme surprise!\\pTon Pokémon a eu un Œuf!\\pOn ne sait pas comment il est arrivé\\nlà, mais ton Pokémon l’avait.\\pTu le veux?",
+  "source": "Émeraude FR officiel (adapté)",
+  "fichier": "data/text/day_care_frlg.inc",
+  "ligne": 11,
+  "preuve": "Émeraude FR : « Ah, c’est toi!\\pNous nous occupions de ton POKéMON\\net nous avons eu une énorme surprise!\\pTon POKéMON a eu un OEUF!\\pOn ne sait pas comment il est arrivé\\nlà, mais ton POKéMON l’avait.\\pTu le veux? »",
+  "note": "Texte Émeraude identique (mise en page seule différente) ; OEUF → Œuf (glossaire). [non compilé]"
+ },
+ {
+  "msgid": "We can raise two of your POKéMON.\\pWould you like us to raise one\\nmore POKéMON for you?",
+  "msgstr": "Nous pouvons élever deux Pokémon.\\pTu veux qu’on en élève un autre?",
+  "source": "Émeraude FR officiel (adapté)",
+  "fichier": "data/text/day_care_frlg.inc",
+  "ligne": 65,
+  "preuve": "Émeraude FR : « Nous pouvons élever deux POKéMON.\\nTu veux qu’on en élève un autre? »",
+  "note": "Pension FRLG ; anglais légèrement différent (“one more POKéMON for you”), sens identique. [non compilé]"
+ },
+ {
+  "msgid": "Ah, it's you!\\nGood to see you.\\pYour POKéMON can only be doing\\ngood!",
+  "msgstr": "Ah, c’est toi!\\nContente de te voir.\\pTon Pokémon est sûr d’être\\nbien traité!",
+  "source": "Émeraude FR officiel (adapté)",
+  "fichier": "data/text/day_care_frlg.inc",
+  "ligne": 88,
+  "preuve": "Émeraude FR : « Ah, c’est toi! Contente de te voir.\\nTon POKéMON est sûr d’être bien traité! »",
+  "note": "Dite par la femme de l’Hôte (comme dans Émeraude) ; mise en page FRLG. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}OAK POKéMON RESEARCH LAB",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Laboratoire Pokémon du Professeur\\nChen",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 2,
+  "preuve": "SS (panneau, déjà au .po) : « Laboratoire Pokémon du Professeur\\nChen »",
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Rubriques : What does this person do? = Que fait cette personne? ; What is this person like? = Quel genre de personne est-ce? ; Family and friends? = Famille et amis? ; Favorite kind of POKéMON? = Pokémon préférés? ; There’s a rumor… = Une rumeur… ; Where was this person born? = Où est née cette personne? [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}To make a complete guide on all\\nthe POKéMON in the world…\\pThat was my dream!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Créer un guide complet de tous\\nles Pokémon du monde…\\pC’était mon rêve!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 6,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Prof. Chen parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}PROF. OAK may not look like much,\\nbut he's the authority on POKéMON.\\pMany POKéMON TRAINERS hold him in\\nhigh regard.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le Prof. Chen ne paie pas de mine,\\nmais c’est une sommité en matière de\\lPokémon.\\pBeaucoup de Dresseurs ont un grand\\nrespect pour lui.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 12,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}PROF. OAK reportedly lives with his\\ngrandchildren, DAISY and {RIVAL}.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le Prof. Chen vivrait avec ses\\npetits-enfants, Nina et {RIVAL}.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 19,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). DAISY (sœur du rival) = Nina dans SoulSilver FR (banque 449). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I hear OAK's taken a lot of\\ninterest in you, child.\\pThat old duff was once tough and\\nhandsome.\\pBut that was decades ago.\\nHe's a shadow of his former self.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Il paraît que Chen s’intéresse\\nbeaucoup à toi, mon petit.\\pCe vieux bonhomme a été fort et beau\\ngarçon, autrefois.\\pMais c’était il y a des dizaines\\nd’années. Il n’est plus que l’ombre de\\llui-même.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 24,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Une vieille dame au joueur (tutoiement). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}PROF. OAK is going to have his own\\nradio show soon.\\pThe program will be called PROF.\\nOAK'S POKéMON SEMINAR.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le Prof. Chen va bientôt avoir sa\\npropre émission de radio.\\pElle s’appellera “Le Séminaire\\nPokémon du Prof. Chen”.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 33,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}If you show DAISY your POKéMON,\\nshe can tell how much it likes you.\\pOccasionally, she will even groom\\na POKéMON for you.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Si tu montres tes Pokémon à Nina, elle\\npeut te dire à quel point ils t’aiment.\\pIl lui arrive même de bichonner un\\nPokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 40,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). “groom” = bichonner (Nina, SoulSilver FR banque 449). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}But the person who is most liked by\\nPOKéMON is DAISY, I think.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Mais la personne que les Pokémon\\naiment le plus, c’est Nina, à mon avis.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 47,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}She was gently grooming POKéMON…\\nShe was a little angel.\\pThat little girl's name…\\nI think it was DAISY.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Elle bichonnait tendrement des\\nPokémon… On aurait dit un petit ange.\\pCette petite fille s’appelait… Nina, je\\ncrois.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 52,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}A girl from PALLET TOWN, DAISY,\\nshe enjoys TEA every day.\\pShe visits the CELADON DEPT. STORE\\nto buy some TEA.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Une fille de Bourg Palette, Nina, boit\\ndu thé tous les jours.\\pElle va en acheter au Centre\\nCommercial de Céladopole.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 64,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). TEA = Thé. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The Spring POKéMON CONTEST's\\nGrand Champion is DAISY OAK of\\lPALLET TOWN!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}La grande gagnante du Concours\\nPokémon de printemps est Nina Chen,\\lde Bourg Palette!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 71,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}PEWTER CITY POKéMON GYM\\nLEADER: BROCK\\lThe Rock-Solid POKéMON TRAINER!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène d’Argenta\\nChampion: Pierre\\lUn homme fort et dur comme la roche!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 77,
+  "preuve": "SS 460:21 « Arène d’Argenta\\nChampion: Pierre\\fUn homme fort et dur comme la roche! »",
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Panneau de l’Arène. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}My rock-hard willpower is evident\\nin even my POKéMON.\\pMy POKéMON are all rock hard and\\nhave true-grit determination.\\pThat's right - my POKéMON are all\\nthe ROCK type!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ma volonté de fer se voit jusque dans\\nmes Pokémon.\\pMes Pokémon sont durs comme la pierre\\net d’une détermination à toute\\lépreuve.\\pEh oui! Mes Pokémon sont tous de type\\nRoche!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 83,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Pierre parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}There aren't many serious POKéMON\\nTRAINERS here.\\pThey're all like BUG CATCHERS,\\nyou know, just hobbyists.\\pBut PEWTER GYM's BROCK isn't like\\nthat, not one bit.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Il n’y a pas beaucoup de Dresseurs\\nsérieux, par ici.\\pCe sont tous des genres de Scouts, tu\\nvois, des amateurs.\\pMais Pierre, de l’Arène d’Argenta,\\nn’est pas du tout comme ça.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 92,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). BUG CATCHER = Scout. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BROCK is cool. He's not just tough.\\nPeople like and respect him.\\pI want to become a GYM LEADER\\nlike him.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Pierre est trop cool. Il n’est pas\\njuste fort. Tout le monde l’aime et le\\lrespecte.\\pJe veux devenir un Champion d’Arène\\ncomme lui.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 101,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hi, I'm excavating for fossils here\\nunder MT. MOON.\\pSometimes, BROCK of PEWTER GYM\\nlends me a hand.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Salut, je fais des fouilles pour\\ntrouver des fossiles ici, sous le Mont\\lSélénite.\\pDe temps en temps, Pierre, de l’Arène\\nd’Argenta, me donne un coup de main.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 108,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BROCK rarely laughs, but is said to\\nbe unable to stop if he starts.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Pierre rit rarement, mais quand il\\ncommence, il ne peut plus s’arrêter.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 115,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Même phrase que dans l’entrée Journal Pokémon (Pierre). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}CERULEAN CITY POKéMON GYM\\nLEADER: MISTY\\lThe Tomboyish Mermaid!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène d’Azuria\\nChampion: Ondine\\lNotre sirène favorite!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 120,
+  "preuve": "SS 467:14 « Arène d’Azuria\\nChampion: Ondine\\fNotre sirène favorite! »",
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Panneau de l’Arène. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}My policy is an all-out offensive\\nwith WATER-type POKéMON!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ma stratégie, c’est l’attaque à\\noutrance avec des Pokémon Eau!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 126,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Ondine parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}MISTY is a TRAINER who's going to\\nkeep improving.\\pShe won't lose to someone like you!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ondine est une Dresseuse qui va\\ncontinuer à progresser.\\pElle ne perdra pas contre quelqu’un\\ncomme toi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 131,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Strong TRAINERS and WATER POKéMON\\nare common sights in these parts.\\pThey say that MISTY of the\\nCERULEAN GYM trains here.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Les Dresseurs forts et les Pokémon\\nEau sont monnaie courante, par ici.\\pOn dit qu’Ondine, de l’Arène d’Azuria,\\ns’entraîne ici.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 137,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}This cape is a famous date spot.\\pMISTY, the GYM LEADER, has high\\nhopes about this place.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ce cap est un lieu de rendez-vous\\ntrès connu.\\pOndine, la Championne d’Arène, place\\nde grands espoirs en cet endroit.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 144,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Cap Azuria. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}MISTY is said to worship LORELEI\\nof the ELITE FOUR.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}On dit qu’Ondine voue un culte à Olga,\\ndu Conseil 4.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 150,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). LORELEI = Olga (nom FR officiel Gen 1-4) ; même phrase que dans le Journal Pokémon (Ondine). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}VERMILION CITY POKéMON GYM\\nLEADER: LT. SURGE\\lThe Lightning American!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Carmin sur Mer\\nChampion: Major Bob\\lLe militaire survolté!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 155,
+  "preuve": "SS 483:11 « Arène de Carmin sur Mer\\nChampion: Major Bob\\fLe militaire survolté! »",
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Panneau de l’Arène. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I tell you, kid, electric POKéMON\\nsaved me during the war!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je te le dis, petit, les Pokémon\\nélectriques m’ont sauvé la vie\\lpendant la guerre!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 161,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Major Bob parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}When I was in the Army, LT. SURGE\\nwas my strict CO.\\pHe was a hard taskmaster.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Quand j’étais à l’armée, le Major Bob\\nétait mon supérieur, très strict.\\pIl ne nous faisait pas de cadeaux.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 166,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LT. SURGE was always famous for\\nhis cautious nature in the Army.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}À l’armée, le Major Bob était connu\\npour sa prudence.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 172,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LT. SURGE installed the traps in\\nthe GYM himself.\\pHe set up double locks everywhere.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le Major Bob a installé lui-même les\\npièges de l’Arène.\\pIl a mis des doubles verrous partout.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 177,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LT. SURGE is rumored to have been\\na pilot while home in America.\\pHe used the electricity generated\\nby POKéMON to power his plane.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}On raconte que le Major Bob était\\npilote quand il vivait en Amérique.\\pIl faisait voler son avion grâce à\\nl’électricité produite par des\\lPokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 183,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Même texte que dans le Journal Pokémon (Major Bob). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}CELADON CITY POKéMON GYM\\nLEADER: ERIKA\\lThe Nature-Loving Princess!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Céladopole\\nChampion: Erika\\lLa Reine des Plantes",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 190,
+  "preuve": "SS 491:31 « Arène de Céladopole\\rChampion: Erika\\nLa Reine des Plantes »",
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Panneau de l’Arène. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I am a student of the art of\\nflower arranging.\\pMy POKéMON are solely of the\\nGRASS type.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}J’étudie l’art de l’arrangement floral.\\pMes Pokémon sont tous de type\\nPlante.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 196,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Erika parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Our LEADER ERIKA might be quiet,\\nbut she's famous around here.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Notre Championne, Erika, est\\npeut-être discrète, mais elle est\\lcélèbre par ici.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 203,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}We only use GRASS-type POKéMON at\\nour GYM.\\pWhy? We also use them for making\\nflower arrangements!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Dans notre Arène, on n’utilise que des\\nPokémon de type Plante.\\pPourquoi? Parce qu’on s’en sert aussi\\npour faire des bouquets!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 208,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I would never collect POKéMON if\\nthey were unattractive.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Jamais je ne collectionnerais des\\nPokémon qui ne sont pas jolis.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 215,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Rumor has it that if you peek into\\nCELADON GYM, you can often\\lsee ERIKA snoozing.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Il paraît que si on jette un œil dans\\nl’Arène de Céladopole, on voit souvent\\lErika faire la sieste.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 220,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}FUCHSIA CITY POKéMON GYM\\nLEADER: KOGA\\lThe Poisonous Ninja Master",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Parmanie\\nChampion: Koga\\lLe maître ninja des poisons",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 226,
+  "preuve": "Format SS 512:4 (« Arène de Parmanie\\rChampion: Jeannine… ») ; slogan repris du panneau FuchsiaCity_Frlg du .po",
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Panneau de l’Arène (Koga, FRLG). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Despair to the creeping horror of\\nPOISON-type POKéMON!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Désespère face à l’horreur rampante\\ndes Pokémon de type Poison!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 232,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Koga parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Even though I've lost, I will keep\\ntraining according to the teachings\\lof KOGA, my ninja master.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Même si j’ai perdu, je continuerai à\\nm’entraîner selon les enseignements\\lde Koga, mon maître ninja.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 237,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}My father is the GYM LEADER of\\nthis town.\\pI'm training to use POISON POKéMON\\nas well as my father.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Mon père est le Champion d’Arène de\\ncette ville.\\pJe m’entraîne à utiliser les Pokémon\\nPoison aussi bien que lui.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 243,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). La fille de Koga parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}KOGA is said to have a thorough\\nknowledge of medicine.\\pHe even concocts medicine to nurse\\nhis POKéMON to health.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}On dit que Koga a une connaissance\\napprofondie de la médecine.\\pIl prépare même des remèdes pour\\nsoigner ses Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 250,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Même texte que dans le Journal Pokémon (Koga). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The SAFARI ZONE's huge, wouldn't\\nyou say?\\pFUCHSIA's GYM LEADER, KOGA, \\npatrols the grounds every so often.\\pThanks to him, we can play here\\nknowing that we're safe.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Il est immense, ce Parc Safari, tu ne\\ntrouves pas?\\pKoga, le Champion d’Arène de Parmanie,\\npatrouille dans le parc de temps en\\ltemps.\\pGrâce à lui, on peut s’amuser ici en\\ntoute sécurité.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 257,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}SAFFRON CITY POKéMON GYM\\nLEADER: SABRINA\\lThe Master of PSYCHIC POKéMON!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Safrania\\nChampion: Morgane\\lLa maîtresse des Pokémon Psy!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 266,
+  "preuve": "SS 529:12 « Arène de Safrania\\rChampion: Morgane\\nLa maîtresse des Pokémon Psy! »",
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Panneau de l’Arène. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}You know about a girl GYM LEADER\\nin SAFFRON CITY?\\pShe uses PSYCHIC-type POKéMON,\\nright?",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Tu connais la Championne d’Arène de\\nSafrania?\\pElle utilise des Pokémon de type Psy,\\nnon?",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 272,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I have had psychic powers since\\nI was a child.\\pIt started when a spoon I\\ncarelessly tossed, bent.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}J’ai des pouvoirs psychiques depuis\\nque je suis toute petite.\\pTout a commencé quand une cuillère\\nque j’avais lancée sans y penser s’est\\ltordue.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 279,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Morgane parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I dislike battling, but if you wish,\\nI will show you my powers!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je n’aime pas combattre, mais si tu y\\ntiens, je vais te montrer mes\\lpouvoirs!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 286,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Morgane au joueur. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}People say that SABRINA can\\ncommunicate with her POKéMON\\lduring battle without speaking.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}On dit que Morgane peut communiquer\\navec ses Pokémon pendant un combat\\lsans dire un mot.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 291,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Même texte que dans le Journal Pokémon (Morgane). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}SABRINA just wiped out the KARATE\\nMASTER next door.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Morgane vient de pulvériser le Maître\\nKaraté d’à côté.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 297,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). KARATE MASTER = Maître Karaté (dojo de Safrania). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}CINNABAR ISLAND POKéMON GYM\\nLEADER: BLAINE\\lThe Hotheaded Quiz Master!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Arène de Cramois’Ile\\nChampion: Auguste\\lLe roi du quiz au sang chaud!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 302,
+  "preuve": "Format des panneaux SS",
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Panneau de l’Arène ; BLAINE = Auguste (SS). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}My fiery POKéMON are all rough\\nand ready with intense heat!\\pThey incinerate all challengers!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Mes Pokémon de feu sont tous prêts à\\nen découdre, brûlants d’ardeur!\\pIls réduisent tous les adversaires en\\ncendres!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 308,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Auguste parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Our LEADER, BLAINE, became lost\\nin the mountains but good.\\pNight fell when a fiery bird\\nPOKéMON appeared.\\pIts light allowed BLAINE to find\\nhis way down safely.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Notre Champion, Auguste, s’était\\ncomplètement perdu dans les\\lmontagnes.\\pLa nuit tombait quand un oiseau\\nPokémon de feu est apparu.\\pSa lumière a permis à Auguste de\\nredescendre sain et sauf.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 314,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}CINNABAR GYM's BLAINE is quite the\\nodd fellow.\\pHe's lived on the island since way\\nbefore the LAB was built.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Auguste, de l’Arène de Cramois’Ile,\\nest un drôle de bonhomme.\\pIl vit sur l’île depuis bien avant la\\nconstruction du Laboratoire.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 323,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}It's a photo of BLAINE and\\nMR. FUJI.\\pThey're standing shoulder to\\nshoulder with big grins.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}C’est une photo d’Auguste et de\\nM. Fuji.\\pIls se tiennent épaule contre épaule\\navec un grand sourire.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 330,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). MR. FUJI = M. Fuji (SS). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BLAINE is said to remove his dark\\nshades only when he is thinking up\\lnew quiz questions.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}On dit qu’Auguste n’enlève ses\\nlunettes noires que pour inventer de\\lnouvelles questions de quiz.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 337,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Même texte que dans le Journal Pokémon (Auguste). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I am LORELEI of the ELITE FOUR.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je suis Olga, du Conseil 4.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 343,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Olga parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}No one can best me when it comes\\nto icy POKéMON.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Personne ne peut me battre quand il\\ns’agit de Pokémon de glace.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 347,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Where was this person born?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}We've had a great and powerful\\nTRAINER grow up on this island.\\pI bet even you'd know her.\\nIt's LORELEI of the ELITE FOUR!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Où est née cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Une grande et puissante Dresseuse a\\ngrandi sur cette île.\\pMême toi, tu dois la connaître. C’est\\nOlga, du Conseil 4!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 352,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Known for her logical, calculated,\\nand cool battling style, LORELEI\\lhas a surprising secret!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Connue pour son style de combat\\nlogique, calculé et froid, Olga cache\\lun secret surprenant!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 359,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Même texte que dans le Journal Pokémon (Olga). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Did you know that LORELEI has lots\\nand lots of stuffed dolls?\\pEvery time she comes back to\\nFOUR ISLAND, her collection grows!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Tu savais qu’Olga a des tas et des tas\\nde peluches?\\pChaque fois qu’elle revient à l’Ile 4,\\nsa collection s’agrandit!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 365,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). FOUR ISLAND = Ile 4 (forme du .po, à confirmer). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The LAPRAS she has, I imagine it\\nto be the one she met as a child.\\pI believe it was in ICEFALL CAVE\\nthat she caught it.\\pPerhaps that POKéMON has been with\\nher ever since.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le LOKHLASS qu’elle a, j’imagine que\\nc’est celui qu’elle a rencontré quand\\lelle était petite.\\pJe crois que c’est dans la Grotte de\\nGlace qu’elle l’a attrapé.\\pCe Pokémon est peut-être resté avec\\nelle depuis.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 372,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). ICEFALL CAVE = Grotte de Glace (nom FRLG FR non vérifié). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I am BRUNO of the ELITE FOUR!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je suis Aldo, du Conseil 4!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 381,
+  "preuve": "SS 525:0 « Je suis Aldo du Conseil 4. »",
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Aldo parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I've lived and trained with my\\nfighting POKéMON!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}J’ai vécu et je me suis entraîné avec\\nmes Pokémon Combat!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 385,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BRUNO apparently joined the ELITE\\nFOUR out of his burning ambition to\\lbattle the best TRAINERS.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Aldo serait entré au Conseil 4 par\\nambition, pour affronter les meilleurs\\lDresseurs.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 390,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Même texte que dans le Journal Pokémon (Aldo). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BRUNO, who's a senior ahead of me,\\nvisits the SPA on occasion.\\pHe comes to rehab injuries, both\\nhis own and his POKéMON's.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Aldo, qui est mon aîné, vient parfois\\naux thermes.\\pIl vient soigner ses blessures et\\ncelles de ses Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 396,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). SPA (Ile 1) = thermes. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He's one of the ELITE FOUR.\\nHis name is BRUNO.\\pHe went away disappointed when he\\nfound out that they were all sold\\lout of Rage Candybars.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Il fait partie du Conseil 4. Il\\ns’appelle Aldo.\\pIl est reparti tout déçu quand il a\\nappris qu’il n’y avait plus de Bonbons\\lRage.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 403,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Rage Candybar = Bonbon Rage (glossaire). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Even BRUNO…\\nHe trained with a fellow by the\\lname of BRAWLY before.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Même Aldo… Il s’est déjà entraîné\\navec un certain BASTIEN.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 411,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). BRAWLY = BASTIEN (Émeraude FR). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I am AGATHA of the ELITE FOUR.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je suis Agatha, du Conseil 4.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 417,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Agatha parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}AGATHA's GHOST-type POKéMON are\\nhorrifically terrifying in toughness.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Les Pokémon Spectre d’Agatha sont\\nd’une force effroyable.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 421,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}That old lady's also got a really\\nshort fuse, too.\\pIt doesn't take anything to get\\nthat scary lady hollering.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Cette vieille dame a aussi un sale\\ncaractère.\\pIl ne faut pas grand-chose pour\\nqu’elle se mette à hurler.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 426,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}In her youth, AGATHA and PROF.\\nOAK were rivals who vied for\\lsupremacy as TRAINERS.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Dans leur jeunesse, Agatha et le\\nProf. Chen étaient rivaux et se\\ldisputaient le titre de meilleur\\lDresseur.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 433,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Même texte que dans le Journal Pokémon (Agatha). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Take AGATHA, for example.\\pShe set a record for being the\\noldest-ever ELITE FOUR member.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Prends Agatha, par exemple.\\pElle détient le record du membre le\\nplus âgé de l’histoire du Conseil 4.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 448,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I lead the ELITE FOUR.\\pYou can call me LANCE the dragon\\nTRAINER.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je suis à la tête du Conseil 4.\\pAppelle-moi Peter, le Dresseur de\\ndragons.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 454,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Peter parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}You know that dragons are\\nmythical POKéMON.\\pThey're hard to catch and raise,\\nbut their powers are superior.\\pThey're virtually indestructible.\\nThere's no being clever with them.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Tu sais que les dragons sont des\\nPokémon légendaires.\\pIls sont difficiles à attraper et à\\nélever, mais leur puissance est\\lsupérieure.\\pIls sont pratiquement\\nindestructibles. Pas moyen de ruser\\lavec eux.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 460,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). “mythical” rendu par “légendaires”. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He stands for justice!\\nHe's cool, and yet passionate!\\lHe's the greatest, LANCE!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Il défend la justice! Il est cool, et\\npourtant si passionné! C’est le\\lmeilleur, Peter!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 469,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}We have a customer, LANCE, who\\noccasionally comes.\\pHe always buys capes.\\pI wonder… Does he have many\\nidentical capes at home?",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Nous avons un client, Peter, qui passe\\nde temps en temps.\\pIl achète toujours des capes.\\pJe me demande… A-t-il plein de capes\\nidentiques chez lui?",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 475,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Vendeuse du Centre Commercial. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LANCE's grandfather is thought to\\nbe the elder of a famous clan of\\ldragon masters.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le grand-père de Peter serait\\nl’ancien d’un célèbre clan de maîtres\\ldragons.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 483,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Même texte que dans le Journal Pokémon (Peter). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}From what I've heard, LANCE has\\na cousin who's a GYM LEADER\\lsomewhere far away.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}D’après ce que j’ai entendu, Peter a\\nune cousine qui est Championne\\ld’Arène quelque part très loin.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 489,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Allusion à Sandra ; “cousin” rendu au féminin. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}After all, BILL's world-famous as a\\nPOKéMANIAC.\\pHe invented the POKéMON Storage\\nSystem on PC, too.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Après tout, Léo est un Pokémaniac\\nmondialement connu.\\pC’est aussi lui qui a inventé le\\nSystème de Stockage Pokémon sur PC.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 495,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). BILL = Léo (SS). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BILL has lots of POKéMON!\\nHe collects rare ones, too!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Léo a des tas de Pokémon! Il en\\ncollectionne aussi des rares!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 502,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He's my grandson!\\pHe always liked collecting things,\\neven as a child!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}C’est mon petit-fils!\\pIl a toujours aimé collectionner des\\nchoses, même tout petit!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 507,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Le grand-père de Léo parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BILL is a POKéMANIAC, so he loves\\nevery kind.\\pApparently, the first one he caught\\nwas an ABRA.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Léo est un Pokémaniac, alors il les\\naime tous.\\pIl paraît que le premier qu’il a\\nattrapé était un ABRA.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 513,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BILL's hometown is GOLDENROD CITY,\\nwhere his folks still live.\\pI've heard that it's quite the\\nfestive, bustling city.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Léo est originaire de Doublonville, où\\nvit encore sa famille.\\pIl paraît que c’est une ville très\\nanimée et festive.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 520,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Apparently, BILL simply can't\\nstomach milk at all.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Il paraît que Léo ne supporte pas du\\ntout le lait.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 527,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He's really kind.\\pHe looks after abandoned and\\norphaned POKéMON.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Il est vraiment gentil.\\pIl s’occupe des Pokémon abandonnés\\net orphelins.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 532,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). À propos de M. Fuji. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}This old guy marched right up to\\nour HIDEOUT.\\pThen, he starts ranting about how\\nTEAM ROCKET's abusing POKéMON.\\pSo, we're just talking it over as\\nadults.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ce vieux bonhomme a débarqué dans\\nnotre repaire.\\pEt le voilà qui se met à râler parce\\nque la Team Rocket maltraite les\\lPokémon.\\pAlors on en discute entre adultes.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 538,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Un Sbire Rocket parle de M. Fuji. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}POKéMON FAN MAGAZINE\\nMonthly Grand Prize Drawing!\\pThe application form is…\\pGone! It's been clipped out.\\nSomeone must have applied already.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Magazine des fans de Pokémon\\nGrand tirage au sort mensuel!\\pLe bulletin de participation est…\\pParti! Il a été découpé. Quelqu’un a\\ndéjà dû participer.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 547,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I hear that MR. FUJI's not from\\nthese parts originally, either.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur…\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Il paraît que M. Fuji n’est pas non\\nplus d’ici, à l’origine.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 555,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Editor: The shy MR. FUJI turned\\ndown our interview requests.\\pHe is a kindly man who is adored\\nand respected in LAVENDER TOWN.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Note de la rédaction: le timide M. Fuji\\na décliné nos demandes d’interview.\\pC’est un homme bienveillant, adoré et\\nrespecté à Lavanville.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 567,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Même texte que dans le Journal Pokémon (M. Fuji). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}TEAM ROCKET captures POKéMON from\\naround the world.\\pThey're important tools for keeping\\nour criminal enterprise going.\\pI am the leader, GIOVANNI!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}La Team Rocket capture des Pokémon\\ndans le monde entier.\\pCe sont des outils essentiels au bon\\nfonctionnement de notre\\lorganisation criminelle.\\pJe suis le chef, Giovanni!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 574,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Giovanni parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Those thugs that took over our\\nbuilding…\\pTheir BOSS said he was looking for\\nstrong POKéMON.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Pokémon préférés?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ces voyous qui ont pris notre\\nimmeuble…\\pLeur Boss a dit qu’il cherchait des\\nPokémon puissants.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 582,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Employé de Sylphe SARL. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}TEAM ROCKET's BOSS is terribly\\ncruel!\\pTo him, POKéMON are just tools to\\nbe used.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel genre de personne est-ce?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le Boss de la Team Rocket est d’une\\ncruauté terrible!\\pPour lui, les Pokémon ne sont que des\\noutils.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 589,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Welcome to my hideout!\\pIt shall be so until I can restore\\nTEAM ROCKET to its former glory.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Bienvenue dans mon repaire!\\pIl le restera jusqu’à ce que la Team\\nRocket retrouve sa gloire passée.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 596,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Giovanni parle. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Blow me away! GIOVANNI was the\\nGYM LEADER of VIRIDIAN?",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ça alors! Giovanni était le Champion\\nde l’Arène de Jadielle?",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 602,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}You… You're not GIOVANNI's kid,\\nare you?\\pNo, that can't be right.\\nGIOVANNI's kid has red hair.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Famille et amis?\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Tu… Tu ne serais pas l’enfant de\\nGiovanni?\\pNon, impossible. L’enfant de Giovanni\\na les cheveux roux.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 607,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: PROF. OAK\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Why do POKéMON compete and battle\\nso hard for you?\\pThey do so because they can see\\nthe love and trust you have\\ltowards POKéMON.\\pNever forget that.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Prof. Chen\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Pourquoi les Pokémon se donnent-ils\\nautant de mal au combat pour toi?\\pParce qu’ils voient l’amour et la\\nconfiance que tu leur portes.\\pNe l’oublie jamais.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 618,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Messages finaux : “From: X / To: {PLAYER}” = “De: X / À: {PLAYER}”. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}DAISY",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Nina",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 628,
+  "preuve": "SS 449:0 « Nina: … » (DAISY = Nina)",
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Nom de Daisy Chen dans SoulSilver FR. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: DAISY\\nTo: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}While I was comfortably enjoying\\nmy tea breaks, you've grown very\\lskilled and powerful.\\pI hope you'll remain a good rival\\nto my little brother.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Nina\\nÀ: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Pendant que je prenais\\ntranquillement mon thé, tu es devenu\\ltrès fort et très doué.\\pJ’espère que tu resteras un bon rival\\npour mon petit frère.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 631,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Accord masculin “devenu” (le texte ne varie pas selon le sexe du joueur). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BROCK\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}In this big world of ours, there\\nmust be many tough TRAINERS.\\pLet's both keep training and\\nmaking ourselves stronger!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Pierre\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Dans ce vaste monde, il doit y avoir\\nbeaucoup de Dresseurs forts.\\pContinuons tous les deux à nous\\nentraîner pour devenir plus forts!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 643,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: MISTY\\nTo: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I'm going to keep training here at\\nthis GYM.\\pWhen I get better, I'd love to hit\\nthe road and travel.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Ondine\\nÀ: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je vais continuer à m’entraîner ici,\\ndans mon Arène.\\pQuand je serai meilleure, j’aimerais\\nbien prendre la route et voyager.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 654,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: LT. SURGE\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hey, kid!\\nYou electrified me in our battle!\\pI didn't know that there were\\ngutsy TRAINERS like you.\\pIt made me change my mind about\\nyou!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Major Bob\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hé, petit! Tu m’as électrisé pendant\\nnotre combat!\\pJe ne savais pas qu’il existait des\\nDresseurs aussi courageux que toi.\\pÇa m’a fait changer d’avis sur toi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 665,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: ERIKA\\nTo: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I am so glad that there are strong\\nTRAINERS like you.\\pThat awareness alone inspires and\\nmotivates me to try harder.\\pPlease visit me again.\\nZzz…",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Erika\\nÀ: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je suis si heureuse qu’il existe des\\nDresseurs forts comme toi.\\pRien que de le savoir, cela m’inspire\\net me motive à faire encore mieux.\\pReviens me voir, je t’en prie. Zzz…",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 678,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}KOGA",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Koga",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 688,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Nom en casse SoulSilver (l’entrée “KOGA” seule du .po est en capitales : à harmoniser). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: KOGA\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}You and I, we must both set our\\nsights higher and work towards\\lmeeting our challenges.\\pNow, I must go train my daughter.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Koga\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Toi et moi, nous devons viser plus\\nhaut et travailler pour relever nos\\ldéfis.\\pÀ présent, je dois aller entraîner ma\\nfille.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 691,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: SABRINA\\nTo: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The love you have towards your\\nPOKéMON…\\pIt was a power that was never\\nbested by my psychic power.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Morgane\\nÀ: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}L’amour que tu portes à tes Pokémon…\\pC’est une force que mes pouvoirs\\npsychiques n’ont jamais pu vaincre.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 702,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BLAINE\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}My fire POKéMON!\\nThey'll become even more powerful!\\pAnd now, a quiz. How many kinds of\\nFIRE-type POKéMON are there?",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Auguste\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Mes Pokémon de feu! Ils vont devenir\\nencore plus puissants!\\pEt maintenant, un quiz! Combien\\nexiste-t-il d’espèces de Pokémon de\\ltype Feu?",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 713,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}LORELEI",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Olga",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 721,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). LORELEI = Olga. [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: LORELEI\\nTo: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I needed to thank you for your\\nhelp.\\pBut that has nothing to do with our\\nbattles.\\pYou'd better watch out next time!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Olga\\nÀ: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je tenais à te remercier pour ton\\naide.\\pMais ça n’a rien à voir avec nos\\ncombats.\\pLa prochaine fois, prends garde à toi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 724,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}BRUNO",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Aldo",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 733,
+  "preuve": "SS 525:0 (BRUNO = Aldo)",
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BRUNO\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The super power of your POKéMON\\nand you I've experienced myself.\\pNext time, maybe I should show you\\nhow to train yourself.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Aldo\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}La puissance de tes Pokémon et la\\ntienne, je l’ai ressentie moi-même.\\pLa prochaine fois, je devrais\\npeut-être t’apprendre à t’entraîner.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 736,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}AGATHA",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Agatha",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 744,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: AGATHA\\nTo: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}When you grow older, don't you\\ndare go soft like that coot OAK!\\pBe like me and keep battling on!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Agatha\\nÀ: {PLAYER}\\p{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}En vieillissant, ne t’avise pas de\\ndevenir mou comme ce vieux schnock\\lde Chen!\\pFais comme moi et continue de te\\nbattre!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 747,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}LANCE",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Peter",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 754,
+  "preuve": "SS 527:0 « Peter: … » (LANCE = Peter)",
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Casse SoulSilver (l’entrée “LANCE” seule du .po donne “PETER” : à harmoniser). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: LANCE\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I'm considering going back to my\\nhometown.\\pI want to retrain my DRAGON-type\\nPOKéMON and strengthen them.\\pI'd like to invite you to my\\nhometown one day.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Peter\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}J’envisage de retourner dans ma ville\\nnatale.\\pJe veux reprendre l’entraînement de\\nmes Pokémon de type Dragon et les\\lrenforcer.\\pJ’aimerais t’inviter dans ma ville\\nnatale, un jour.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 757,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BILL\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hey, there! CELIO had nothing but\\npraise for you.\\pHearing that makes me happy.\\pWhen you catch some rare POKéMON,\\ncome show me, okay? Promise!",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Léo\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Salut! Celio ne tarit pas d’éloges sur\\ntoi.\\pÇa me fait plaisir d’entendre ça.\\pQuand tu attraperas des Pokémon\\nrares, viens me les montrer, d’accord?\\lPromis!",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 770,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). CELIO conservé (nom FRLG FR non vérifié). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}MR. FUJI",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}M. Fuji",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 779,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). MR. FUJI = M. Fuji (SS). [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: MR. FUJI\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Instead of hoping for the happiness\\nof just your POKéMON…\\p…Can I get you to wish for the\\nhappiness of all POKéMON?",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: M. Fuji\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Au lieu d’espérer seulement le\\nbonheur de tes Pokémon…\\p…Pourrais-tu souhaiter le bonheur de\\ntous les Pokémon?",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 782,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}GIOVANNI",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}Giovanni",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 790,
+  "preuve": "SS (nom) Giovanni",
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: GIOVANNI\\nTo: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}There is nothing that I wish to say\\nto you.\\pI will concentrate solely on\\nbettering myself, and none other.",
+  "msgstr": "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Giovanni\\nÀ: {PLAYER}\\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je n’ai rien à te dire.\\pJe me concentrerai uniquement sur\\nmon propre perfectionnement, rien\\ld’autre.",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 793,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé).  [non compilé]"
+ },
+ {
+  "msgid": "RESEARCH LAB",
+  "msgstr": "Laboratoire",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 804,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Lieu d’origine d’une fiche (aussi compilé : la ROM contient “RESEARCH LAB” comme fin de “OAK POKéMON\\nRESEARCH LAB”, chaîne traduite à part). [compilé]"
+ },
+ {
+  "msgid": "PEWTER GYM",
+  "msgstr": "Arène d’Argenta",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 840,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Lieu d’origine. [non compilé]"
+ },
+ {
+  "msgid": "PEWTER MUSEUM",
+  "msgstr": "Musée d’Argenta",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 852,
+  "preuve": "SS : « Musée des Sciences d’Argenta »",
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Lieu d’origine, forme courte. [non compilé]"
+ },
+ {
+  "msgid": "CERULEAN GYM",
+  "msgstr": "Arène d’Azuria",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 858,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Lieu d’origine. [non compilé]"
+ },
+ {
+  "msgid": "VERMILION GYM",
+  "msgstr": "Arène de Carmin",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 876,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Lieu d’origine ; “Carmin sur Mer” abrégé pour la longueur. [non compilé]"
+ },
+ {
+  "msgid": "CELADON GYM",
+  "msgstr": "Arène de Céladopole",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 894,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Lieu d’origine. [non compilé]"
+ },
+ {
+  "msgid": "FUCHSIA GYM",
+  "msgstr": "Arène de Parmanie",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 912,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Lieu d’origine. [non compilé]"
+ },
+ {
+  "msgid": "SAFFRON GYM",
+  "msgstr": "Arène de Safrania",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 933,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Lieu d’origine. [non compilé]"
+ },
+ {
+  "msgid": "CINNABAR GYM",
+  "msgstr": "Arène de Cramois’Ile",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 948,
+  "note": "Mémorydex (Fame Checker FRLG, non compilé). Lieu d’origine. [non compilé]"
+ }
+]
