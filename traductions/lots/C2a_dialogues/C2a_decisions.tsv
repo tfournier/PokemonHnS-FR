@@ -1,0 +1,1169 @@
+type	ref	msgid	categorie	decision	raison
+remarque	R0	A KEY ITEM can be registered\nto holding SELECT for easy use.	oubli	adapté	« holding SELECT » manquait ; tournure impersonnelle comme la réplique voisine officielle, pas de vouvoiement
+remarque	R1	First, you should restore your\nPOKéMON to full health.	oubli	accepté	« to full health » rendu par « complètement »
+remarque	R2	Your POKéMON have been healed\nto perfect health.\pIf your POKéMON's …	orthographe	accepté	apposition « les PV » maladroite ; Potions selon le glossaire
+remarque	R3	MOM: Oh, good! You and your\nPOKéMON are looking great.\pI just heard…	oubli	accepté	« just heard » rendu ; POTIONS → Potions
+remarque	R4	Hello, {PLAYER}…\nI'm sorry to disturb you again with\lanother questi…	oubli	accepté	lien perte de temps / inquiétude rétabli, et règle la largeur
+alerte	A139	Hello, {PLAYER}…\nI'm sorry to disturb you again with\lanother questi…	LARGEUR	accepté	ligne de 203 px supprimée par la nouvelle formulation
+remarque	R5	Yahoo, {PLAYER}!\nHow do you do?\pWhat should I do? Go ahead and ask?…	contresens	accepté	« t’importuner » et « mon choix est fait » inventés ; « receiving me » rendu
+remarque	R6	{STR_VAR_1} is your choice?\nOkay, I got it!\pI'll go teach {STR_VAR_…	contresens	accepté	le personnage confirme un choix, pas une demande d’avis
+remarque	R7	I understand!\pBut will it even be willing to learn\n{STR_VAR_1} for …	oubli	refusé	le sens (doute puis détermination) est conservé ; nuance seulement
+remarque	R8	Hm? You appear to be {PLAYER}{KUN}…\nBut are you really?\lPerhaps a c…	contresens	adapté	vrai contresens (« question personnelle », « élégant ») ; POUPEE gardé en capitales comme les décorations
+alerte	A141	Hm? You appear to be {PLAYER}{KUN}…\nBut are you really?\lPerhaps a c…	LARGEUR	accepté	nouvelle mise en page ≤ 198 px
+remarque	R9	I welcome you to the BATTLE TENT!\pI am your guide to the Set KO Tour…	typographie	accepté	artefact « TENTE DE Combat » → Tente de Combat (comme Tour de Combat)
+remarque	R10	we undertake the Set KO Tourney.\pAll participants enter with a team …	orthographe	accepté	début tronqué « rganisons » ; suite de « A la TENTE DE COMBAT ARENE,\n »
+remarque	R11	We offer two levels of challenge,\nLevel 50 and Open Level.\lWhich is…	typographie	refusé	mise en page seule, aucune ligne > 198 px
+remarque	R12	I welcome you to the BATTLE TENT!\pHere, the TRAINER's trust toward\n…	typographie	adapté	casse corrigée ; « met à l’épreuve » gardé (changement inutile)
+remarque	R13	BATTLE TENT challenge?	autre_phrase	adapté	suite de « Voulez-vous relever le défi de la\n » : doublon et Palace manquant ; graphie Tente de Combat Palace
+alerte	A121	BATTLE TENT challenge?	FRAGMENT	accepté	la minuscule venait du doublon « défi de la » ; texte retraduit
+remarque	R14	there is one crucial rule that must\lbe obeyed.\pTRAINERS are permitt…	orthographe	accepté	début tronqué « ègle » rétabli ; disqualification rendue ; \l gardé (suite de chaîne)
+remarque	R15	Welcome to the BATTLE TENT!\pI am your guide to the Battle Swap\nTour…	typographie	accepté	artefact de casse corrigé
+remarque	R16	we hold Battle Swap events\lusing rental POKéMON.\pFirst, you will be…	orthographe	adapté	début tronqué « ons » = « nous organisons » (et non « on tient ») ; disqualification rendue
+remarque	R17	Okay, I will hold your POKéMON for\nsafekeeping while you compete.	typographie	refusé	mise en page seule, aucune ligne > 198 px
+remarque	R18	Here at the VERDANTURF BATTLE TENT,\nPOKéMON are required to think an…	typographie	refusé	mise en page seule, aucune ligne > 198 px ; sens correct
+remarque	R19	This is what we call a “POKéMON.”\p\n	typographie	adapté	point hors des guillemets pour un mot cité ; formulation d’origine gardée
+remarque	R20	Do you want to return to OLIVINE?	autre_phrase	accepté	« ?\n » parasite venu d’une autre chaîne du patch ; anglais sur une ligne
+remarque	R21	Hey, {PLAYER}{KUN}.\n{STR_VAR_1} here. How are you?\pBy the way, I he…	orthographe	refusé	pas de faute d’accord ; mise en page conforme au vérificateur
+remarque	R22	…Er, {PLAYER}{KUN}?\n{STR_VAR_1} here…\pOh, yeah, you were over at\nt…	typographie	refusé	mise en page seule, largeur conforme ({PLAYER}/{STR_VAR} déjà comptés)
+remarque	R23	Oh, {PLAYER}{KUN}, hi there!\nThis is {STR_VAR_1}!\pI heard! Your {ST…	typographie	refusé	mise en page seule, largeur conforme ({PLAYER}/{STR_VAR} déjà comptés)
+remarque	R24	Oh, {PLAYER}{KUN}, hello…\nThis is {STR_VAR_1}.\pYou won {STR_VAR_3} …	typographie	refusé	mise en page seule, largeur conforme ({PLAYER}/{STR_VAR} déjà comptés)
+remarque	R25	Ah, {PLAYER}{KUN}.\nThis is {STR_VAR_1}.\pI hear you're the terror of…	typographie	accepté	deux-points parasite après « de »
+remarque	R26	Ah, hello, {PLAYER}{KUN}!\nThis is {STR_VAR_1}!\lI hope you've been k…	typographie	refusé	mise en page seule, largeur conforme ({PLAYER}/{STR_VAR} déjà comptés)
+remarque	R27	PROF. BIRCH: When one has both\nthe POKéDEX and POKéNAV, studying\lPO…	typographie	refusé	« Prof. SEKO » est déjà la graphie du projet ; aucune ligne trop longue
+remarque	R28	Yo, {PLAYER}!\nHow're you doing?\pHow are your POKéMON doing?\pMy {ST…	typographie	accepté	Dresseur avec majuscule (glossaire)
+remarque	R29	Hey, {PLAYER}!\nListen to this!\pI just beat a wild\n{STR_VAR_3}.\pI …	orthographe	accepté	« ricaner que » n’introduit pas une complétive
+remarque	R30	Hi, {PLAYER}!\nI had some time, so I\lcalled you.\pSo anyway, how are…	orthographe	refusé	« J’avais un moment, alors je t’appelle » est correct ; seule la casse « CENTRE » est corrigée
+remarque	R31	Uh, hello, {PLAYER}?\nIt's your pal, IRWIN!\pI saw the most amazing\n…	terminologie	adapté	nom anglais resté, mais le nom officiel SoulSilver d’IRWIN est Anthony (pas Zeppo)
+remarque	R32	Uh, hello, {PLAYER}?\nIt's your pal, IRWIN!\pHehe, I called right awa…	terminologie	adapté	nom officiel SoulSilver d’IRWIN = Anthony (pas Zeppo)
+remarque	R33	Uh, hello, {PLAYER}?\nIt's your pal, IRWIN!\pHearing about your\nesca…	terminologie	adapté	nom officiel SoulSilver d’IRWIN = Anthony (pas Zeppo)
+remarque	R34	Uh, hello, {PLAYER}?\nIt's your pal, IRWIN!\pI was waiting for you.\n…	terminologie	adapté	nom officiel SoulSilver d’IRWIN = Anthony (pas Zeppo)
+remarque	R35	Hi, {PLAYER}!\nIt's ALAN!\p{PLAYER}, are you raising\nyour POKéMON pr…	terminologie	adapté	nom officiel SoulSilver d’ALAN = Aimé (pas Samson)
+remarque	R36	Hi, {PLAYER}!\nIt's ALAN!\pMy {STR_VAR_3}'s getting\nstronger, exactl…	terminologie	adapté	nom officiel SoulSilver d’ALAN = Aimé (pas Samson)
+remarque	R37	Hi, {PLAYER}!\nIt's ALAN!\pBy the way, we knocked\nout a wild {STR_VA…	terminologie	adapté	nom officiel SoulSilver d’ALAN = Aimé (pas Samson)
+remarque	R38	Hi, {PLAYER}!\nIt's ALAN!\pHehehe, I picked up\nsomething nice!\pYou …	terminologie	adapté	nom officiel SoulSilver d’ALAN = Aimé (pas Samson)
+remarque	R39	Hi, {PLAYER}!\nIt's ALAN!\pI was waiting for you.\nLet's battle!	terminologie	adapté	nom officiel SoulSilver d’ALAN = Aimé (pas Samson)
+remarque	R40	Hi, {PLAYER}!\nIt's DANA!\pMy {STR_VAR_3} is so full\nof energy, it's…	terminologie	adapté	nom officiel SoulSilver de DANA = Rekka (pas Armelle)
+remarque	R41	Hi, {PLAYER}!\nIt's DANA!\pMy {STR_VAR_3} is getting\nprettier!\pI've…	orthographe	adapté	« à tout bout de champ » s’écrit sans s (correction fautive) ; nom officiel Rekka
+remarque	R42	Hi, {PLAYER}!\nIt's DANA!\pIt took only an instant to\nKO a wild {STR…	oubli	adapté	« sauvage » rétabli ; nom officiel Rekka (pas Armelle)
+remarque	R43	Hi, {PLAYER}!\nIt's DANA!\pYou know what?\nI got a good gift!\pAs I p…	terminologie	adapté	nom officiel SoulSilver de DANA = Rekka (pas Armelle)
+remarque	R44	Hi, {PLAYER}!\nIt's DANA!\pI was waiting for you.\nLet's battle!	terminologie	adapté	nom officiel SoulSilver de DANA = Rekka (pas Armelle)
+remarque	R45	Hello, {PLAYER}!\nIt's CHAD!\pHow are your POKéMON\ndoing?\pYou know …	terminologie	adapté	Prof. Chen juste ; nom officiel SoulSilver de CHAD = Mathys (pas Vincent)
+remarque	R46	Hello, {PLAYER}!\nIt's CHAD!\pI recently began observing\nwild {STR_V…	terminologie	adapté	« depuis peu » et Prof. Chen justes ; nom officiel Mathys (pas Vincent)
+remarque	R47	Hello, {PLAYER}!\nIt's CHAD!\pI'm going to study hard\nso PROF. OAK w…	terminologie	adapté	Prof. Chen juste ; nom officiel Mathys (pas Vincent)
+remarque	R48	Hello, {PLAYER}!\nIt's CHAD!\pI was waiting for you.\nLet's battle!	terminologie	adapté	nom officiel SoulSilver de CHAD = Mathys (pas Vincent)
+remarque	R49	Hey, {PLAYER}!\nIt's DEREK!\pYou have to hear this!\pMy lovable {STR_…	terminologie	adapté	nom officiel SoulSilver de DEREK = Djamil (pas Etienne)
+remarque	R50	Hey, {PLAYER}!\nIt's TULLY!\pMy {STR_VAR_3} has grown\nagain.\pIt was…	oubli	refusé	« grand comme ça » garde le geste ; TULLY est pêcheur, « pêché » convient ; nom anglais corrigé
+remarque	R51	Hey, {PLAYER}!\nIt's BRENT!\pOh yeah, I saw you coming\nout of a POKé…	typographie	accepté	artefact « CENTRE Pokémon » ; nom anglais BRENT → Wilfrid en plus
+remarque	R52	Hey, {PLAYER}!\nIt's BRENT!\pOh yeah, I got an\nextremely rare POKéMO…	orthographe	refusé	« ultra rare » est une graphie admise ; seul le nom anglais est corrigé
+remarque	R53	Hey, {PLAYER}!\nIt's BRENT!\pDid you know…?\pBILL's originally from\n…	typographie	accepté	LEO → Léo (glossaire) ; Doublonville déjà correct ; nom BRENT → Wilfrid en plus
+alerte	A122	Hey, {PLAYER}!\nIt's BRENT!\pDid you know…?\pBILL's originally from\n…	GLOSSAIRE	accepté	graphie glossaire Léo
+remarque	R54	Hi, {PLAYER}!\nIt's TIFFANY!\pAre your POKéMON doing\nwell?\pI hope y…	typographie	accepté	artefact « CENTRE Pokémon » ; Tiffany → Flavie (SoulSilver FR) en plus
+remarque	R55	Hey, {PLAYER}!\nIt's VANCE!\pAre you and your POKéMON\nfine?\pMy {STR…	contresens	refusé	« sera bientôt assez costaud » rend bien « looks like it will get » ; nom anglais corrigé
+remarque	R56	Hey, {PLAYER}!\nIt's WILTON!\pMy {STR_VAR_3}'s grown\nimpressive!\pMy…	oubli	accepté	« grown impressive » = est devenu ; nom WILTON → Renan en plus
+remarque	R57	Hey, {PLAYER}!\nIt's PARRY!\pAre your POKéMON looking\ngood?\pMy {STR…	contresens	accepté	« looking good » / « dandy » parlent d’allure ; nom PARRY → Noa en plus
+remarque	R58	Hi, {PLAYER}!\nIt's ERIN!\pAnd, and… I just battled\nand beat {STR_VA…	typographie	refusé	le texte actuel écrit déjà « Pokémon »
+remarque	R59	Hey, {PLAYER}!\nIt's JACK!\pHow are your POKéMON\ndoing?\pMy {STR_VAR…	oubli	accepté	« Maybe » rendu ; nom JACK → Timéo en plus
+remarque	R60	Hello, {PLAYER}!\nIt's BEVERLY!\pKeeping your POKéMON\nhappy?\pMy {ST…	oubli	adapté	« every day » rétabli ; la question actuelle convient ; nom BEVERLY → Jade
+remarque	R61	Hello, {PLAYER}!\nIt's BEVERLY!\pMy husband got some\nNUGGETS.\pIf yo…	contresens	refusé	« a trouvé » rend « got » sans contresens ; casse Pépites et nom corrigés
+remarque	R62	Hey, {PLAYER}!\nIt's GAVEN!\pHow are your POKéMON\ndoing?\pMy {STR_VA…	contresens	refusé	« Maître Pokémon » est l’expression des officiels FR ; casse MAITRES et nom corrigés
+remarque	R63	Hey, {PLAYER}!\nIt's GAVEN!\pMy {STR_VAR_3} might be\ngreater than I …	oubli	accepté	« might » rendu ; nom GAVEN → Sean en plus
+remarque	R64	Hey, {PLAYER}!\nIt's GAVEN!\pI obsess over how to\nbeat you.	oubli	refusé	« Je pense qu’à une chose: te battre » rend l’obsession ; nom anglais corrigé
+remarque	R65	Hi, {PLAYER}!\nIt's BETH!\pAre you the kind of person\nwho goes to PO…	typographie	accepté	artefact « CENTRES Pokémon » et « dresseur » sans majuscule
+remarque	R66	Hey, {PLAYER}!\nIt's JOSE!\pAre your POKéMON still\ncooking?\pMy {STR…	oubli	refusé	« takes off » = file / part ; « envolé » supposerait un Pokémon volant ; nom anglais corrigé
+remarque	R67	Hey, {PLAYER}!\nIt's JOSE!\pHey listen, my\n{STR_VAR_3}'s stick has\l…	terminologie	refusé	SoulSilver FR décrit le Bâton comme un « poireau très long » : « poireau » convient en dialogue
+remarque	R68	Hey, {PLAYER}!\nIt's JOSE!\pA while ago, my FARFETCH'D\nKO'd this {ST…	terminologie	refusé	« poireau » = description officielle du Bâton de CANARTICHO ; nom anglais corrigé
+remarque	R69	Hey, {PLAYER}!\nIt's JOSE!\pMy FARFETCH'D had\nsomething pretty in it…	typographie	refusé	le texte actuel écrit déjà « Route 27 » ; nom anglais corrigé
+remarque	R70	Hello, {PLAYER}.\nIt's REENA.\pHey, how are your POKéMON\ndoing?\pWha…	oubli	accepté	« great » repris en « très bien » ; nom REENA → Audrey en plus
+remarque	R71	Hello, {PLAYER}.\nIt's REENA.\pListen, dear…\pDo you recall my\n{STR_…	contresens	adapté	« dear » affectueux perdu, mais {PLAYER} ajouté casserait les codes ; « mon chou »
+remarque	R72	Hey, {PLAYER}!\pI heard other regions have\nkings and queens. Why\ldo…	contresens	accepté	« royalty » = rois et reines ; Kanto comme SoulSilver FR
+remarque	R73	Yo, {PLAYER}!\nRILEY here.\pCYCLING ROAD is the best.\nNothing beats …	typographie	refusé	le texte actuel écrit déjà « Piste Cyclable »
+remarque	R74	Yo, {PLAYER}!\pYou JOHTO kids aren't bad.\nMaybe I misjudged you.\pDo…	oubli	accepté	« maybe » rendu ; Johto comme SoulSilver FR
+remarque	R75	Yo, {PLAYER}!\nRILEY here.\pGet down to CYCLING ROAD!\nI want a remat…	typographie	refusé	le texte actuel écrit déjà « Piste Cyclable »
+remarque	R76	Hi, {PLAYER}!\nIt's TREVOR.\pDid you know POKéMON get\nfriendlier whe…	contresens	accepté	« memorable places » ≠ « lieux cultes » ; nom TREVOR → Trevor (donnees.po)
+remarque	R77	Hi, {PLAYER}!\pSome POKéMON moves\nare stronger when your\pPOKéMON fe…	contresens	refusé	« si ton Pokémon t’aime beaucoup » rend fidèlement « feels more friendly »
+remarque	R78	Hey, {PLAYER}!\nKYLE here.\pI've reeled in some tough\nnew POKéMON!\p…	typographie	refusé	le texte actuel écrit déjà « Pokémon » ; nom anglais corrigé
+remarque	R79	Hi, {PLAYER}!\pDid you know there are\nstarter POKéMON from many\ldif…	typographie	refusé	le texte actuel écrit déjà « Pokémon »
+remarque	R80	Hey, {PLAYER}!\pI saw a BUG TYPE GYM\nLEADER in VIRIDIAN FOREST!	orthographe	accepté	« Champion de type Insecte »
+remarque	R81	Hi, {PLAYER}!\nIt's NICOLE!\pThe waves are great today!\nMy POKéMON l…	oubli	accepté	« today » rendu sans dépasser ; nom NICOLE → Stéfie en plus
+remarque	R82	Hi, {PLAYER}!\nIt's NICOLE!\pMy water POKéMON are\nraring to battle!\…	terminologie	accepté	la Route 20 de Kanto s’appelle Chenal 20 dans SoulSilver FR (glossaire)
+remarque	R83	Hey there, {PLAYER}!\nKENNY here.\pWere all mountains really\nshaped …	oubli	adapté	océans, rivières et « really » rétablis ; « toute montagne » maladroit, ligne trop longue
+remarque	R84	Hey, {PLAYER}!\pIt's KENNY here.\nI visited the PEWTER museum!\pDid y…	typographie	accepté	Kanto en casse SoulSilver FR ; nom KENNY → Gilles en plus
+remarque	R85	Hey, {PLAYER}!\pJOEL here.\pThere was an accident on\nCYCLING ROAD.\p…	typographie	refusé	le texte actuel écrit déjà « Piste Cyclable » ; nom anglais corrigé
+remarque	R86	Hey, {PLAYER}!\nJOEL here.\pI look AND fight cool now!\nCome to CYCLI…	oubli	adapté	le combat manquait ; la proposition cassait la mise en page (\l en 1re ligne de page)
+remarque	R87	Hey, {PLAYER}!\nCHARLES here.\pI was something of a\nheartbreaker in …	typographie	accepté	Unys en casse normale ; nom CHARLES → Dick en plus
+remarque	R88	Hey, {PLAYER}!\pCYCLING ROAD at night is\nsomething else.\pThe street…	typographie	refusé	le texte actuel écrit déjà « Piste Cyclable »
+remarque	R89	Hey, {PLAYER}!\nCHARLES here.\pThe highway stars want\nrevenge! Come …	typographie	refusé	le texte actuel écrit déjà « Piste Cyclable » ; nom anglais corrigé
+remarque	R90	Hi, I'm the Move Relearner.\nWould you like to learn new moves?	oubli	adapté	salutation et « new » rétablis sans ajouter de page ni passer au vouvoiement
+remarque	R91	Level Up Moves	typographie	refusé	libellé en casse mélangée comme l’anglais (Level Up Moves)
+remarque	R92	Egg Moves	typographie	refusé	libellé en casse mélangée comme l’anglais (Egg Moves)
+remarque	R93	TM Moves	typographie	refusé	libellé en casse mélangée comme l’anglais (TM Moves)
+remarque	R94	Tutor Moves	typographie	refusé	libellé en casse mélangée comme l’anglais (Tutor Moves)
+remarque	R95	I can't do this anymore!\pIt's utterly hopeless!\pI'm a FIGHTING-type…	terminologie	refusé	le texte actuel écrit déjà « Dynamopoing »
+remarque	R96	Sigh…\pThe GYM LEADER is really\nlovably admirable.\pBut that also me…	terminologie	refusé	le texte actuel écrit déjà « Damoclès » ; le reste ne change que l’ordre
+remarque	R97	What am I doing?\pI'm shaking trees using HEADBUTT.\pDo you think you…	terminologie	adapté	redondance « à coups de Coup d’Boule » corrigée ; « si tu veux » gardé
+remarque	R98	Rattle trees with HEADBUTT.\nSometimes, sleeping POKéMON fall out.	oubli	adapté	« Sometimes » rendu ; la proposition dépassait 198 px
+remarque	R99	MINA	terminologie	refusé	nom proposé au joueur : en capitales comme les autres choix (KIKO, NORIE, MOMO)
+remarque	R100	Hi! Sorry to keep you waiting!\pWelcome to the world of POKéMON!\pMy …	typographie	adapté	casse Chen / Professeur comme SoulSilver FR ; « Mais on me surnomme » et mise en page gardés
+remarque	R101	{PLAYER}{KUN}, are you ready?\pYour very own adventure is about\nto u…	oubli	refusé	« l’heure est venue » rend l’idée sans genrer le joueur (« tu es prêt? » exclurait la joueuse)
+remarque	R102	You'll face fun times and tough\nchallenges.\pA world of dreams and a…	oubli	accepté	« awaits » rétabli
+remarque	R103	{PLAYER} found {STR_VAR_1} {STR_VAR_2}!	typographie	refusé	message en boîte de dialogue de 2 lignes : le saut évite une ligne trop longue avec deux variables
+remarque	R104	{PLAYER} put the COINS away in\nthe COIN CASE.	typographie	accepté	« jetons » nom commun en minuscules
+remarque	R105	It was placed in \nBOX “{STR_VAR_1}.”	typographie	accepté	point hors des guillemets en français
+remarque	R106	{STR_VAR_2} was transferred to\nBOX “{STR_VAR_1}.”	typographie	accepté	point hors des guillemets en français
+remarque	R107	{STR_VAR_2} was sent to\n{B_PC_CREATOR_NAME} PC.\pIt was placed in \n…	typographie	accepté	BOITE → Boîte comme les messages voisins
+remarque	R108	Th-that card…\nCould it be… The GOLD CARD?!\pOh, the gold color is br…	codes	accepté	les deux {PLAYER} rétablis, vouvoiement de l’infirmière gardé
+alerte	A13	Th-that card…\nCould it be… The GOLD CARD?!\pOh, the gold color is br…	CODES	accepté	codes {PLAYER} rétablis
+alerte	A166	Th-that card…\nCould it be… The GOLD CARD?!\pOh, the gold color is br…	LARGEUR	accepté	ligne de 208 px supprimée par la nouvelle formulation
+remarque	R109	Sorry, but you are playing with\nthe POKéCENTER challenge!\pGood luck…	orthographe	accepté	l’infirmière est une femme
+remarque	R110	OAK: Good to see you!\nHow is your POKéDEX coming along?\pHere, let m…	typographie	refusé	le texte actuel écrit déjà « Pokédex »
+remarque	R111	The amount of progress you've made\non your POKéDEX is:\p{STR_VAR_1} …	codes	accepté	graphie anglaise {FONT_NORMAL} (décision 5), tutoiement de Chen, Prof. Chen
+remarque	R112	You still have lots to do.\pGo into every patch of grass you\nsee and…	contresens	accepté	conseil devenu reproche (contresens)
+remarque	R113	It looks as if you're getting on\nthe right track!\pI've given one of…	terminologie	adapté	« CS Flash » déjà correct ; seule la casse « ASSISTANTS » est un vrai défaut
+remarque	R114	Your POKéDEX could use a bit more\nvolume still!\pTry to catch other …	oubli	accepté	« other species » rendu
+remarque	R115	Good, it's apparent that you're\ntrying hard!\pI've given one of my A…	typographie	accepté	« assistants » nom commun
+remarque	R116	Your POKéDEX is coming along quite\nwell!\pI've given one of my AIDES…	oubli	accepté	consigne d’aller chercher l’objet rétablie
+remarque	R117	Ah, you've finally topped 50\nspecies!\pI've given one of my AIDES an…	typographie	accepté	« assistants » nom commun ; Multi Exp déjà selon le glossaire
+remarque	R118	Very good!\pI think you'll collect even more\nPOKéMON by going fishin…	contresens	accepté	« marins » ajouté à tort
+remarque	R119	You've finally hit 100 species!\nI can't believe how good you are!	oubli	accepté	« finally » rendu
+remarque	R120	You even have the evolved forms\nof POKéMON! Super!	contresens	accepté	il s’agit des formes évoluées enregistrées, pas d’évolutions faites par le joueur
+remarque	R121	Excellent! Trade with friends to\nget some more!	oubli	accepté	« with friends » rendu
+remarque	R122	Outstanding!\nYou've become a real pro at this!	contresens	refusé	« comme si tu avais fait ça toute ta vie » est l’équivalent idiomatique de « a real pro »
+remarque	R123	I have nothing left to say!\nYou're the POKéMON PROFESSOR now!	contresens	refusé	« plus rien à t’apprendre » est l’équivalent idiomatique, cohérent avec « Te voilà Prof. »
+remarque	R124	And your NATIONAL POKéDEX is:\p{STR_VAR_1} POKéMON seen and\n{STR_VAR…	typographie	adapté	casse SoulSilver FR « Pokédex National » (pas « national »)
+remarque	R125	I'll be looking forward to seeing\nyou fill the NATIONAL POKéDEX!	typographie	adapté	casse SoulSilver FR « Pokédex National »
+remarque	R126	Finally…\pYou've finally completed the\nPOKéDEX!\pIt's magnificent!\n…	typographie	refusé	le texte actuel écrit déjà « Pokédex »
+remarque	R127	OAK: Ah, welcome!\pTell me, how is your POKéDEX\ncoming along?\pWahah…	contresens	accepté	« how is it coming along » = où en es-tu ; étiquette Chen: comme SoulSilver FR
+remarque	R128	PROF. ELM: Ah, {PLAYER}{KUN}!\pAre you curious about how your\nNation…	typographie	adapté	casse SoulSilver FR « Pokédex National »
+remarque	R129	There are hidden locations all\nover the world containing rare\pand u…	contresens	refusé	« them » est aussi ambigu en anglais ; la traduction est fidèle
+remarque	R130	Excellent! That is an amazing\nNational POKéDEX!\pWow...{PAUSE 10}\pY…	typographie	adapté	casse SoulSilver FR « Pokédex National » ; « Non, tu les as dépassées » gardé
+remarque	R131	WARNING!\pThere is a different game file that\nis already saved.\pIf …	terminologie	refusé	le texte actuel écrit déjà « Attention! » ; le reste n’est qu’une remise en page
+remarque	R132	There are no Trainers within range\nwho can battle…\pThe VS Seeker wa…	contresens	accepté	« no Trainers within range who can battle » : pas de refus
+remarque	R133	Tune in next time!\nOur slogan is “3 CHEERS FOR {POKEBLOCK}S!”	typographie	accepté	le point d’exclamation fait partie du slogan
+remarque	R134	{STR_VAR_1} played the {STR_VAR_2} game\nand won a rare {STR_VAR_3} C…	contresens	adapté	conseil (surveiller ses jetons) et gain rare rétablis ; « quand on joue » corrigé en « quand notre joueur est là »
+remarque	R135	{STR_VAR_1} played the {STR_VAR_2} game\nand lost {STR_VAR_3} COINS.\…	oubli	adapté	« seem to » rendu, JETONS en minuscules ; « quand notre joueur joue » refusé (lourd), « est là » gardé
+remarque	R136	the move {STR_VAR_2}.	oubli	refusé	les fragments frères officiels (Émeraude FR) n’ont pas « les capacités » : « …connaissait également {STR_VAR_2}. »
+remarque	R137	…Oh?\pThe visitor is reaching for their own\nBAG and rummaging about …	contresens	accepté	dentifrice inventé, sortie de l’objet omise ; rétablit le 2e {STR_VAR_2}
+alerte	A15	…Oh?\pThe visitor is reaching for their own\nBAG and rummaging about …	CODES	accepté	deux {STR_VAR_2} comme l’anglais
+remarque	R138	MC: Excuse me!\nThanks for joining us on live TV!\pMay I congratulate…	contresens	adapté	aide reçue « avant » le CONCOURS ; reste du texte et étiquettes gardés (CONCOURS en capitales comme Émeraude FR)
+alerte	A154	MC: Excuse me!\nThanks for joining us on live TV!\pMay I congratulate…	LARGEUR	accepté	ligne de 206 px remise en page
+remarque	R139	{PLAYER} put away the\n{STR_VAR_1} in\lthe BAG's {STR_VAR_3} POCKET.	typographie	accepté	« poche » nom commun
+remarque	R140	Do you want to see the list of\nPOKéMON species you can't bring?	oubli	accepté	« species » rendu
+remarque	R141	Oh, hello! Did you want to make some\n{POKEBLOCK}S with our little gr…	typographie	refusé	mise en page seule, aucune ligne > 198 px au vérificateur
+remarque	R142	We will now judge the POKéMON\nyou've caught.\p...................\n.…	typographie	refusé	le texte actuel écrit déjà « Pokémon » ; « Nous avons nos gagnants » est correct
+remarque	R143	Oh no! You didn't catch a POKéMON.\nYou've forfeited the competition.…	contresens	refusé	« disqualifié » rend bien « forfeited » ici ; « vous déclarez forfait » serait faux (c’est subi)
+remarque	R144	This Bug-Catching Contest Winner\nis...\p{PLAYER}, who caught a whopp…	contresens	accepté	« whopping » = énorme (taille, critère du concours)
+remarque	R145	Feature unavailable! Please define a\nusable flag and a usable var in…	typographie	accepté	chemin entre guillemets “ ” ; règle aussi la largeur
+alerte	A189	Feature unavailable! Please define a\nusable flag and a usable var in…	LARGEUR	accepté	ligne de 202 px raccourcie
+remarque	R146	Hello!\pThis reception counter is only\nfor 4-player POKéMON CONTESTS.	typographie	refusé	mise en page seule, aucune ligne > 198 px au vérificateur
+remarque	R147	When four players are ready, connect\nover a Game Link cable, and reg…	oubli	adapté	« Game Link » rétabli ; CONCOURS gardé en capitales comme Émeraude FR
+remarque	R148	In E-MODE (EMERALD MODE),\na LINK CONTEST can be held with\ltwo to fo…	typographie	adapté	seules les lignes trop longues posent problème ; CONCOURS (Émeraude FR) et formulation gardés
+alerte	A148	In E-MODE (EMERALD MODE),\na LINK CONTEST can be held with\ltwo to fo…	LARGEUR	accepté	ligne raccourcie (« cartouche Pokémon Emeraude »)
+remarque	R149	If you want to pick up your POKéMON,\nhave a word with my wife.	typographie	refusé	mise en page seule, aucune ligne > 198 px au vérificateur
+remarque	R150	Feature unavailable!\nPlease define a usable flag in:\l'include/confi…	typographie	accepté	chemin entre guillemets “ ” (l’anglais a des guillemets simples)
+remarque	R151	Feature unavailable!\nPlease define a usable flag in:\l'include/confi…	typographie	accepté	chemin entre guillemets “ ”
+remarque	R152	SaveBlock2 size: {STR_VAR_1}b/{STR_VAR_2}b.\nFree space: {STR_VAR_3}b.	oubli	refusé	« o/o » dit déjà qu’il s’agit d’une taille ; « Taille » ferait dépasser la ligne (texte de debug)
+remarque	R153	{PKMN}Storage size: {STR_VAR_1}b/{STR_VAR_2}b.\nFree space: {STR_VAR_…	oubli	refusé	« o/o » dit déjà qu’il s’agit d’une taille ; « Taille » ferait dépasser la ligne (texte de debug)
+remarque	R154	Feature unavailable.\nSet FNPC_ENABLE_NPC_FOLLOWERS to\lTRUE in 'incl…	contresens	accepté	noms de constante et de fichier exacts (« _ » et « - » ont le même octet, aucun coût)
+remarque	R155	OW_BERRY_PESTS is disabled.\nUnable to force pests onto berry trees.	contresens	accepté	constante exacte ; ce sont les arbres à Baies qu’on infeste
+remarque	R156	OW_BERRY_WEEDS is disabled.\nUnable to force weeds onto berry trees.	contresens	adapté	constante exacte et « arbres à Baies » ; proposition trop longue (4 lignes)
+alerte	A91	OW_BERRY_WEEDS is disabled.\nUnable to force weeds onto berry trees.	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; texte retraduit de toute façon
+remarque	R157	{FONT_SMALL_NARROWER}Angel Adept Blind Bodice Clique\nCoast Dunce Doc…	codes	refusé	{FONT 11} = même octet que {FONT_SMALL_NARROWER} ; graphie anglaise réécrite à l’intégration (décision 5)
+remarque	R158	{FONT_SMALL_NARROWER}Angel angel adept for the nuance loads\nof the a…	codes	refusé	{FONT 11} = même octet que {FONT_SMALL_NARROWER} ; graphie anglaise réécrite à l’intégration (décision 5)
+remarque	R159	{FONT_SMALL_NARROWER}Enact enact eosin for the quench coed\nof the pi…	codes	refusé	{FONT 11} = même octet que {FONT_SMALL_NARROWER} ; graphie anglaise réécrite à l’intégration (décision 5)
+remarque	R160	{FONT_SMALL_NARROWER}Inlet inlet iodine for the quince\nchampion of t…	codes	refusé	{FONT 11} = même octet que {FONT_SMALL_NARROWER} ; graphie anglaise réécrite à l’intégration (décision 5)
+remarque	R161	{FONT_SMALL_NARROWER}Milliner milliner modal for the alumna\nsolomon …	codes	refusé	{FONT 11} = même octet que {FONT_SMALL_NARROWER} ; graphie anglaise réécrite à l’intégration (décision 5)
+remarque	R162	{FONT_SMALL_NARROWER}Quanta quanta qophs for the inquest\nsheqel of t…	codes	refusé	{FONT 11} = même octet que {FONT_SMALL_NARROWER} ; graphie anglaise réécrite à l’intégration (décision 5)
+remarque	R163	{FONT_SMALL_NARROWER}Uncle uncle udder for the dunes cloud\nof the hi…	codes	refusé	{FONT 11} = même octet que {FONT_SMALL_NARROWER} ; graphie anglaise réécrite à l’intégration (décision 5)
+remarque	R164	{FONT_SMALL_NARROWER}Yunnan yunnan young for the dynamo\ncoyote of th…	codes	refusé	{FONT 11} = même octet que {FONT_SMALL_NARROWER} ; graphie anglaise réécrite à l’intégration (décision 5)
+remarque	R165	{FONT_SMALL_NARROWER}42 × 138 = 5796.\nMr Jock, TV quiz PhD: bags 20%…	codes	refusé	{FONT 11} = même octet que {FONT_SMALL_NARROWER} ; graphie anglaise réécrite à l’intégration (décision 5)
+remarque	R166	It's a small tree, but a wild\nPOKéMON may be living within.	typographie	refusé	le texte actuel écrit déjà « Pokémon »
+remarque	R167	Welcome to the SAFARI ZONE!\pHere, you may witness many kinds of\nPOK…	typographie	refusé	le texte actuel écrit déjà « Pokémon »
+remarque	R168	By using a TM, a POKéMON will\ninstantly learn a new move.\pThat TM c…	contresens	accepté	« elle » renvoyait à la CT ; c’est la capacité qui soigne
+remarque	R169	There are POKéMON GYMS in cities\nand towns ahead.\pYou should test y…	oubli	accepté	« train harder » = plus dur, comme la réplique voisine du même personnage
+remarque	R170	Wow… You beat me again.\pI'm going to train harder to\nbecome the gre…	contresens	accepté	« maître oiseau » ambigu ; « maître des oiseaux » comme la réplique voisine
+remarque	R171	Hey! What's up? I'm no trainer,\nbut I can give some advice!\pBelieve…	contresens	accepté	possibilité (can come true) ; Dresseur et Ecole Pokémon en casse du projet
+remarque	R172	VIOLET CITY POKéMON GYM\pFALKNER'S CERTIFIED TRAINERS:\n{PLAYER}	typographie	accepté	artefacts de casse du passage de style sur le panneau
+remarque	R173	The FAST SHIP sails every day!	typographie	adapté	une seule ligne comme l’anglais ; FAST SHIP = « Bateau Express » dans SoulSilver FR
+remarque	R174	Sorry. You can't board now.	contresens	accepté	« can’t board now » ≠ accès fermé
+remarque	R175	Oh, hey {PLAYER}.\nOr should I say KANTO champion?\pYou know, for som…	oubli	adapté	« for some time » rendu ; Kanto (SoulSilver) mais HOENN gardé en capitales (Émeraude FR)
+remarque	R176	Hello {PLAYER}, would you\nlike to increase your SAFARI LEVEL\lto 2? …	typographie	adapté	séparateur de milliers oui, mais « ¥ » collé au nombre comme Émeraude FR (décision 12)
+remarque	R177	Hello {PLAYER}, would you\nlike to increase your SAFARI LEVEL\lto 3? …	typographie	adapté	séparateur de milliers oui, mais « ¥ » collé au nombre comme Émeraude FR (décision 12)
+remarque	R178	Hello {PLAYER}, would you\nlike to increase your SAFARI LEVEL\lto 4? …	typographie	adapté	séparateur de milliers oui, mais « ¥ » collé au nombre comme Émeraude FR (décision 12)
+remarque	R179	Enjoy the premium SAFARI ZONE\nexperience!	orthographe	accepté	« premium » adjectif en minuscules
+remarque	R180	Hello {PLAYER}, thank you for\ncontinuing to be a premium member\lat …	typographie	accepté	« premium » et artefact « DE Parmanie »
+remarque	R181	{PLAYER} received MYSTERY EGG.	terminologie	refusé	le projet écrit « Œuf » dans le texte courant (décision 14, Œ gardé)
+remarque	R182	Even PROF.OAK here recognizes\nthat.	terminologie	accepté	Prof. Chen (graphie SoulSilver FR)
+remarque	R183	If my assumption is correct,\nPROF.ELM will know it.	contresens	accepté	« will know it » : il saura ce que c’est, pas quoi en faire
+remarque	R184	OAK: Aha! So you're {PLAYER}!\pI'm OAK! A POKéMON researcher.\pI was …	oubli	adapté	« for this errand » et « data » rendus ; « le Prof. Orme » gardé ; Chen en casse SoulSilver FR
+remarque	R185	Go meet many kinds of POKéMON and\ncomplete that POKéDEX!\pBut I've s…	contresens	adapté	« many kinds » et « usual » rendus ; la proposition supprimait « {PLAYER}, je compte sur toi! »
+remarque	R186	ROUTE 44\nICE PATH AHEAD	typographie	accepté	artefacts de casse ; Route de Glace selon le glossaire
+remarque	R187	MOM: Wow, that's a cute POKéMON.\nWhere did you get it?\p…\pSo, you'r…	terminologie	refusé	le texte actuel écrit déjà « Pokémon »
+remarque	R188	ROCKET: Stop dancing such a serious\ndance! Show me something like\la…	oubli	refusé	« danse hawaïenne » rend bien « hula » ; texte SoulSilver FR adapté gardé
+remarque	R189	What's the deal with that\nTeam Rocket Grunt, messing\lwith that KIMO…	terminologie	accepté	artefact du passage de style : SBIRE / TEAM
+remarque	R190	The KIMONO GIRLS are my big\nsisters! I'll be like them one\lday!	terminologie	accepté	classe Kimono en casse du glossaire
+remarque	R191	Welcome. My name is ZUKI.\nI met you previously in VIOLET\lCITY.\pTo …	terminologie	refusé	le texte actuel écrit déjà « Pokémon » ; seuls « Oeuf » / « OEUF » sont corrigés en Œuf
+remarque	R192	You are quite strong. You helped\nme in the ILEX FOREST.\pI'm NAOKO--…	terminologie	accepté	Team Rocket et Puits RAMOLOSS (graphie SoulSilver FR, banque 279)
+remarque	R193	You're quite the Trainer. I\nremember you chased off that\lRocket Gru…	terminologie	accepté	Sbire en casse du projet ; « Pokémon » déjà correct
+remarque	R194	Excellent spirit! You got me\noff the ice by pushing me.\pI skate in …	terminologie	accepté	« Elder » = Ancien (classe du glossaire)
+remarque	R195	I'm the last one.\pYou were dependable at the\nGOLDENROD TUNNEL.\pI'm…	oubli	adapté	but du plan rétabli et « Team Rocket » ; GOLDENROD TUNNEL = Doublon-Tunnel (SoulSilver FR, banque 279)
+remarque	R196	ZUKI: {PLAYER}!\nWe'll be at the TIN TOWER.\nSee you there!	terminologie	refusé	le texte actuel écrit déjà « Tour Carillon »
+remarque	R197	Thank you for your help the\nother day.\pYou've shown the bond betwee…	oubli	accepté	remerciement (« we appreciate ») et « can grow » rendus
+remarque	R198	That there's SNATCH.\pIt's a tricky move that lets\na POKéMON steal a…	orthographe	adapté	« sers-t’en malin » incorrect ; la 2e phrase proposée était agrammaticale, « timing » gardé
+remarque	R199	What's this flyer?\p… Uncouth trainers have been\nholding battles in …	contresens	adapté	« croissantes » suffit ; reste du texte SoulSilver gardé, artefact « POLICE DE Céladopole » corrigé
+remarque	R200	ANN & ANNE: Nnn… A little too\nstrong.	contresens	accepté	« a little too » = un peu trop ; étiquette Ann & Anne selon donnees.po
+remarque	R201	FISHING SPOT	orthographe	accepté	« COIN DE PECHE » plus correct, reste court
+remarque	R202	You know how BATTLE TENTS offer\ndifferent events?\pMy favorite is de…	terminologie	accepté	artefact « TENTE DE Combat » → Tente de Combat ; « tente rouge » nom commun
+remarque	R203	Aw man, KINGLER is blocking the\nbeach.	contresens	accepté	un seul KRABBOSS bloque la plage
+remarque	R204	ROUTE 19\pFUCHSIA CITY - SEAFOAM ISLANDS	terminologie	adapté	Route 19 = Chenal 19 (glossaire SoulSilver) ; Parmanie reste en casse SoulSilver, pas PARMANIE
+remarque	R205	RAGECANDYBAR's sold out.\pI'm packing up. Don't bother me,\nkiddo.	terminologie	accepté	objet Bonbon Rage (glossaire), pluriel en casse normale
+remarque	R206	Since you came this far, take the\ntime to do some sightseeing.\pYou …	oubli	adapté	distance parcourue rendue, sans genrer le joueur (« venu »)
+remarque	R207	PROF.ELM: {PLAYER}, how are\nthings going?\pI called because somethin…	orthographe	accepté	« dérangé » genré ; « Désolé de te déranger » neutre
+remarque	R208	Look! Check out my bag!\pI printed out my favorites from my\nPOKéDEX …	terminologie	refusé	le texte actuel écrit déjà « Pokédex »
+remarque	R209	SCOTT: {PLAYER}{KUN}, you've clawed your\nway up to face the POKéMON …	codes	adapté	{PLAYER}{KUN} rétabli ; le reste du texte n’avait pas à être réécrit
+alerte	A12	SCOTT: {PLAYER}{KUN}, you've clawed your\nway up to face the POKéMON …	CODES	accepté	codes {PLAYER}{KUN} rétablis
+remarque	R210	We discovered that a POKéMON won't\nhatch until it grows in the EGG.\…	orthographe	adapté	formulation neutre pour le joueur ou la joueuse acceptée, mais Œuf gardé (pas OEUF)
+remarque	R211	Oh, but you can't carry any more\nPOKéMON with you.\pDon't worry--I s…	typographie	adapté	« PC de Léo » comme SoulSilver FR, mais Œuf gardé
+remarque	R212	B-but… PROF.ELM asked for you…	contresens	refusé	« t’a demandé » = a demandé à te voir, sens correct
+remarque	R213	While my POKéMON are recovering\nI love to read a good book.	contresens	refusé	« se reposent » rend bien « recovering » ; nuance non fautive
+remarque	R214	I just battled a friend in\nCIANWOOD over a link.\pIf you connect a M…	orthographe	adapté	pas d’élision devant Irisia ; seule la 2e phrase est maladroite
+remarque	R215	It was around three years ago.\pTEAM ROCKET was up to no good\nwith P…	contresens	refusé	« mis en déroute » rend bien « broke ’em up »
+remarque	R216	POKéMON are smart. They won't\nobey a trainer they don't respect.\pWi…	terminologie	accepté	casse Dresseur et « Badges d’Arène » (artefact D’ARENE)
+remarque	R217	Please choose a prize from this list.	contresens	refusé	« prix » = récompense dans ce contexte ; la correction perd « dans la liste »
+remarque	R218	I see!\nYou must be an artist as well!\pI happen to have an extra som…	contresens	adapté	nuance de déduction « must be » rendue, « justement » gardé
+remarque	R219	I hope you enjoy that lens!	typographie	refusé	réplique de dialogue sur deux lignes, sans dépassement : mise en page seule
+remarque	R220	{PLAYER} took a closer look at the\nSINJOH map.	oubli	refusé	« examine » rend « took a closer look »
+remarque	R221	LANCE: Welcome back!\pYou've proven yourself in JOHTO,\pacquiring all…	terminologie	adapté	artefacts « Ligue DE KANTO » corrigés, mais « de Kanto » comme SoulSilver FR (pas « du »)
+remarque	R222	PROF.OAK: Ah, {PLAYER}!\pIt's been a long while.\pYou certainly look …	oubli	adapté	« en tant que Dresseur » rétabli ; Prof. Chen, Ligue de Johto ; mise en page d’origine gardée
+remarque	R223	PROF.OAK: Ah, {PLAYER}!\pI've been following your progress\nsince PRO…	oubli	adapté	« Tu t’es vraiment surpassé » accepté ; « celle de Kanto » (SoulSilver FR), Prof. Chen
+remarque	R224	MARY: Come on! You can't blow off\nthe interview AGAIN!	oubli	accepté	l’interview manquait  (« encore » en minuscules : ENCORE est un nom de capacité)
+remarque	R225	COPYCAT: Yay! That's my CLEFAIRY\nPOKé DOLL!\pSee the tear where the …	oubli	adapté	précision de la couture rétablie ; « Copieuse: » garde la casse du glossaire
+remarque	R226	COPYCAT: That's the PASS for the\nMAGNET TRAIN.\pThe rail company man…	terminologie	adapté	« Passe Train » (glossaire) et « Train Magnétique » (SoulSilver FR) ; « Copieuse » en casse du glossaire
+remarque	R227	I hate the weak.\pPOKéMON, trainers. It doesn't\nmatter who or what.\…	contresens	accepté	« reste en dehors de mon chemin » est un calque
+remarque	R228	The SLOWPOKE have returned.\pKnowing them, they could've just\nbeen g…	contresens	refusé	« goofing off » implique déjà la paresse ; « flemmards » est fidèle
+remarque	R229	SLOWPOKE:..........\p...............YAWN?	typographie	accepté	« ……….» mélangeait points de suspension et point simple
+remarque	R230	Could you go see why ILEX FOREST\nis so restless?	terminologie	refusé	le texte écrit déjà « Bois aux Chênes » ; correction sans objet
+remarque	R231	MT MOON SQUARE ->	typographie	accepté	artefact de casse « PLACE DU Mont Sélénite »
+remarque	R232	Then pay what you have, please.	registre	accepté	le Rocket du péage tutoie avant et après
+remarque	R233	{PLAYER}, what are you going to do?\pAre you taking the BATTLE FRONTI…	terminologie	accepté	« ZONE DE Combat » (artefact) unifié en « Zone de Combat »
+remarque	R234	I wonder how many kinds of POKéMON\nthere are in the world.\pThree ye…	terminologie	accepté	Prof. Chen (SoulSilver FR)
+remarque	R235	Any EXP your POKéMON gains during\nthe contest will be reverted when\…	contresens	accepté	un seul Pokémon au Concours de Capture ; Compét’Balls selon le glossaire
+remarque	R236	Please choose the POKéMON to be used\nin the Contest, then come see m…	registre	accepté	le personnel du Concours vouvoie (répliques voisines au vous)
+remarque	R237	Uh-oh… Both your party and your\nPC BOX are full.\pYou have no room t…	registre	accepté	vouvoiement du personnel du Concours
+remarque	R238	Uh-oh… You have an EGG as the first\nPOKéMON in your party.\pPlease s…	registre	adapté	vouvoiement accepté, mais Œuf (pas OEUF)
+remarque	R239	Today's Contest is over. We hope you\nwill participate in the future.	oubli	refusé	« vous revoir bientôt » rend l’invitation à revenir ; nuance non fautive
+remarque	R240	He always wins these contests!	typographie	refusé	dialogue sur deux lignes sans dépassement : mise en page seule
+remarque	R241	When is the next Bug-Catching Contest\ngoing to be?	oubli	accepté	nom complet « Concours de Capture d’Insectes » comme ailleurs
+remarque	R242	The Bug-Catching Contest is held on\nTuesday, Thursday and Saturday.\…	orthographe	accepté	phrase mal construite ; « rien qu’en participant » rend « just for participating »
+remarque	R243	When I was a wee lad, I was a\nhotshot trainer!\pHere's a word of adv…	terminologie	adapté	casse Dresseur ; « gentillesse » gardé (changement inutile)
+remarque	R244	This is CERULEAN CAVE.\pHorribly strong POKéMON live inside\nthere.\p…	terminologie	adapté	casse de région comme SoulSilver FR : « Ligue Pokémon de Kanto » (pas « du »)
+remarque	R245	SLOWBRO, show me your CONFUSION!	typographie	refusé	dialogue sur deux lignes sans dépassement ; la capacité n’est pas en capitales
+remarque	R246	CERULEAN CAPE\nAHEAD	typographie	accepté	casse mélangée sur le panneau (artefact « D’Azuria »)
+remarque	R247	MT.MOON SQUARE\pJust go up the stairs.	typographie	accepté	artefact de casse « PLACE DU Mont Sélénite »
+remarque	R248	This DEPT.STORE makes me realize\nthat GOLDENROD is a big city.\pThe …	contresens	refusé	« me rappelle » est une nuance acceptable de « makes me realize »
+remarque	R249	Nobody here will give you a COIN\nCASE. You should look in JOHTO.	typographie	adapté	Boîte Jetons (glossaire) et Johto ; « plutôt » gardé
+remarque	R250	Check out this {STR_VAR_2}!\pIt's the {STR_VAR_2} that I caught\nyest…	codes	adapté	2e {STR_VAR_2} rétabli et « priceless » rendu, mais premier saut de page en \n (pas \l)
+alerte	A16	Check out this {STR_VAR_2}!\pIt's the {STR_VAR_2} that I caught\nyest…	CODES	accepté	{STR_VAR_2} manquant rétabli
+alerte	A72	Check out this {STR_VAR_2}!\pIt's the {STR_VAR_2} that I caught\nyest…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens conforme
+remarque	R251	FAST SHIP S.S.AQUA used to sail to\nKANTO on Mondays and Fridays. But…	oubli	accepté	« almost » rendu ; Bateau Express Aquaria comme SoulSilver FR
+remarque	R252	I'm going to try to be the\nbest with my favorites.\pI'm not using th…	typographie	refusé	« Pokémon » n’est pas en capitales ; correction identique au texte
+remarque	R253	I was having a nice chat too.	contresens	adapté	« Moi aussi » est un contresens (elle était au téléphone) ; une seule ligne
+remarque	R254	FRIEDA: Yahoo!\pI'm FRIEDA of the WEEKDAY FAMILY!\nNice to meet you!\…	terminologie	adapté	Vanessa (nom SoulSilver FR de Frieda) et « fratrie des sept » en minuscules
+remarque	R255	FRIEDA: Not that one!	terminologie	accepté	Vanessa = nom SoulSilver FR de Frieda
+remarque	R256	ROUTE 32\pVIOLET CITY - AZALEA TOWN	terminologie	refusé	le texte écrit déjà « Mauville » ; correction identique
+remarque	R257	Magnificent…\pAs promised, I shall restore your\nPOKéMON to full heal…	oubli	refusé	« soigner vos Pokémon » implique les soins complets ; nuance non fautive
+remarque	R258	My POKéMON rules!\pIt's cool, tough yet beautiful, cute,\nand smart. …	orthographe	adapté	« Il est sang-froid » fautif ; le reste (Concours) gardé
+remarque	R259	Ouch,\npulled a hamstring…	oubli	refusé	« élongation » suffit ; préciser la cuisse n’apporte rien
+remarque	R260	There are some strong currents here.\nI think it attracts strong POKé…	oubli	adapté	hypothèse rétablie (« doit attirer »), « costauds » gardé
+remarque	R261	SP.ATK	terminologie	accepté	abréviation AS des consignes
+remarque	R262	SP.DEF	terminologie	accepté	abréviation DS des consignes
+remarque	R263	SPD	terminologie	accepté	abréviation VI des consignes
+remarque	R264	Battle {STR_VAR_1} for 3 {STR_VAR_2} EVs?	contresens	adapté	« Battre » présume la victoire ; « Défier » plutôt qu’« Affronter » pour tenir dans la largeur
+alerte	A133	Battle {STR_VAR_1} for 3 {STR_VAR_2} EVs?	LARGEUR	adapté	reformulation plus courte (215 px, moins que l’anglais) sur une ligne
+remarque	R265	Left: HP, DEFENSE, SPECIAL DEFENSE	terminologie	accepté	abréviations des statistiques du projet (PV, DF, DS)
+remarque	R266	RIGHT: ATTACK, SPECIAL ATTACK, SPEED	terminologie	accepté	abréviations des statistiques du projet (AT, AS, VI)
+remarque	R267	Sure. I'll be here if you need me.	registre	adapté	l’Expert vouvoie ailleurs ; formule courte sans tu, sur une ligne
+remarque	R268	Welcome! I'm the ABILITY EXPERT!\pI can swap POKéMON's abilities\nin …	registre	adapté	vouvoiement et « aujourd’hui » rétablis ; « talents » en minuscules
+remarque	R269	Oh, oh, oh!\pYour Battle Points are maxed.\pPlease come back after us…	terminologie	adapté	« Points de Combat » comme Émeraude FR ; « au maximum » gardé
+remarque	R270	{PLAYER} received MARSHBADGE.	typographie	accepté	Badge Marais comme SoulSilver FR
+remarque	R271	SABRINA: MARSHBADGE draws out\nyour subliminal powers…\pAlthough I fa…	typographie	accepté	Badge Marais comme SoulSilver FR
+remarque	R272	It holds SKILL SWAP.\pIt can take your opponents' abilities\naway fro…	contresens	adapté	la CT contient la capacité, qui échange les talents ; « talent » en minuscules
+remarque	R273	SABRINA: Your love for your\nPOKéMON overwhelmed my psychic\lpower…\p…	typographie	refusé	« Pokémon » n’est pas en capitales ; correction identique
+remarque	R274	SABRINA: Ah, the KANTO CHAMPION.\pI sensed your return.\pYour power h…	terminologie	refusé	aucun nom en capitales ; reformulation sans objet
+remarque	R275	SABRINA: Your love for your\nPOKéMON again overwhelmed my\lpsychic po…	typographie	refusé	« Pokémon » n’est pas en capitales ; correction identique
+remarque	R276	SAFFRON POKéMON GYM\nLEADER: SABRINA\pWINNING TRAINERS:\nBLUE, RED	typographie	adapté	« DE » (artefact) corrigé ; Championne / Vainqueurs / Blue / Red en casse des autres panneaux d’Arène
+remarque	R277	SAFFRON POKéMON GYM\nLEADER: SABRINA\pWINNING TRAINERS:\nBLUE, RED, {…	typographie	adapté	« DE » (artefact) corrigé ; casse des autres panneaux d’Arène
+remarque	R278	Am I a local or a visitor?\nWhat a rude question!\pIf you must know, …	terminologie	accepté	Plaque Hydro (glossaire)
+remarque	R279	Wait...\pYou need the SPLASH PLATE\nto tame the legendary POKéMON?\pI…	contresens	accepté	« tame » = apprivoiser
+remarque	R280	DANGER\nWILD HIBERNATION DEN	contresens	refusé	la correction perd l’hibernation ; l’anglais est lui-même aussi elliptique
+remarque	R281	The ancient power flows\nthrough these springs.\pI can teach your POK…	contresens	accepté	« des Anciens » ajoute un groupe absent de l’anglais
+remarque	R282	Come back anytime.	registre	accepté	le même personnage tutoie juste avant (« Ça t’intéresse? »)
+remarque	R283	This lake is full of GYARADOS\nbut nothing else…\pSo the MAGIKARP are…	orthographe	refusé	« forcés d’évoluer » rend bien « being forced to evolve »
+remarque	R284	WESLEY: Well, how do you do?\pI'm a member of the WEEKDAY family!\nCa…	terminologie	adapté	Homer (nom SoulSilver FR de Wesley) ; « fratrie » en minuscules
+alerte	A110	WESLEY: Well, how do you do?\pI'm a member of the WEEKDAY family!\nCa…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens conforme
+remarque	R285	Pleased to meet you. Please take a\nsouvenir.	registre	accepté	Homer tutoie dans SoulSilver FR et dans la réplique précédente
+remarque	R286	WESLEY: Not exactly...	terminologie	accepté	Homer = nom SoulSilver FR de Wesley
+remarque	R287	Oh, gee…\pThe CAPTAIN will be furious…	typographie	accepté	« capitaine » est ici une fonction, nom commun
+remarque	R288	The dining room is up ahead.\pThe stairs at the end lead to\nthe CAPT…	typographie	accepté	« capitaine » est une fonction, pas un libellé
+remarque	R289	{PLAYER} turned on the PC.\p…\pSomeone was in the middle of\ncomposin…	contresens	refusé	nuance faible ; la correction casse la mise en page (\l en début de page)
+remarque	R290	I love DEMAKES!\pHave you played SWORD AND SHIELD\nULTIMATE PLUS - EN…	typographie	accepté	artefact « Plus » dans un titre en capitales
+remarque	R291	I implemented the unique surfing\nsurfing sprites for each POKéMON!\p…	contresens	adapté	« features » = fonctions, mais « your own » gardé
+remarque	R292	Every time you reach the top,\nyou earn some money.\pI heard you can …	contresens	refusé	« en moins de dix minutes » rend « within ten minutes » ; distinction pédante
+remarque	R293	She'll be coming 'round MT.SILVER\nwhen she comes…\pMT.SILVER is in J…	contresens	refusé	« Elle descend de la montagne à cheval » est l’adaptation française de la chanson citée
+remarque	R294	WILL: Ah, welcome back.\pI have foreseen this encounter.\pMy psychic …	oubli	adapté	« enhanced » rendu sans réécrire la phrase
+remarque	R295	Sorry kid, this way is closed until\nsomeone deals with that LEGENDAR…	registre	refusé	« Sorry kid » est familier en anglais ; « petit » est fidèle (personnage en kimono, pas le garde)
+remarque	R296	You don't have all the GYM BADGES\nof JOHTO.\pI'm sorry, but I can't …	typographie	adapté	« d’Arène » corrigé ; Johto en casse SoulSilver FR
+remarque	R297	Hey, you're a POKéMON trainer?\pIf you head to the ACADEMY,\nyou migh…	terminologie	adapté	l’ACADEMY de Ville Mauville est l’Ecole Dresseurs (glossaire SoulSilver FR), pas « Académie »
+remarque	R298	SPROUT TOWER\pExperience the Way of POKéMON	oubli	accepté	l’invitation du panneau (« Experience ») est rétablie
+remarque	R299	STEVEN: Hm?	terminologie	adapté	« ROCHARD » retiré, mais « Pierre » selon le glossaire (pas PIERRE)
+remarque	R300	STEVEN: {PLAYER}!\pI'd recognize those eyes anywhere.\pWhat brings yo…	terminologie	adapté	« ROCHARD » retiré (graphie « Pierre » du glossaire) ; reste gardé
+alerte	A163	STEVEN: {PLAYER}!\pI'd recognize those eyes anywhere.\pWhat brings yo…	LARGEUR	accepté	remise en page à 198 px
+remarque	R301	STEVEN: When I first heard about\nthese ruins, I had to come see\lthe…	terminologie	refusé	« Pierre » est la graphie du glossaire (personnage), déjà employée
+remarque	R302	LINGUIST: While the full translation\nof the glyphs found around the …	terminologie	adapté	casse « Dresseurs » acceptée ; première phrase gardée
+remarque	R303	STEVEN: That's the story, {PLAYER}.\pThe NOBLE POKéMON that guard the…	terminologie	refusé	« Pierre » est la graphie du glossaire (personnage), déjà employée
+remarque	R304	Excellent.\pThe glyphs say the PLATES are\nheld by NOBLE POKéMON and\…	terminologie	accepté	casse « Dresseurs »
+remarque	R305	STEVEN: {PLAYER}!\pI think I know what's going to\nhappen we bring to…	terminologie	adapté	« ROCHARD » retiré, mais « Pierre » selon le glossaire (pas PIERRE)
+remarque	R306	STEVEN: I need to see this for\nmyself!\pOutside, {PLAYER}!	terminologie	adapté	« ROCHARD » retiré, mais « Pierre » selon le glossaire (pas PIERRE)
+remarque	R307	STEVEN: Ah, {PLAYER}.\p{STR_VAR_1} PLATES so far.\nNot bad at all.\pI…	terminologie	adapté	« ROCHARD » retiré, mais « Pierre » selon le glossaire (pas PIERRE)
+remarque	R308	STEVEN: Ah, {PLAYER}.\p{STR_VAR_1} PLATES so far.\nNot bad at all.\pH…	terminologie	adapté	« ROCHARD » retiré, mais « Pierre » selon le glossaire (pas PIERRE)
+remarque	R309	STEVEN: Ah, {PLAYER}.\p{STR_VAR_1} PLATES so far.\nMaking great progr…	terminologie	adapté	« ROCHARD » retiré, mais « Pierre » selon le glossaire (pas PIERRE)
+remarque	R310	STEVEN: {PLAYER}!\pThis expedition has been the\nexperience of a life…	oubli	adapté	« ROCHARD » retiré (graphie « Pierre » du glossaire) ; reste gardé
+remarque	R311	All this time I've directed my\nequipment downward to image\lthe unde…	contresens	adapté	orienter le matériel vers le haut ; « de toute évidence » gardé
+remarque	R312	Imagine my surprise as I\ntranslated the glyph!\pI triple and quadrup…	terminologie	adapté	« ROCHARD » retiré, mais « Pierre » selon le glossaire (pas PIERRE)
+remarque	R313	The existence of a civilization\nin this area changes our whole\lunde…	contresens	refusé	« concorde avec des artefacts de SINNOH » rend bien « lines up with »
+remarque	R314	Look at this wonderful specimen!\pThis species of GROWLITHE is unlike…	contresens	adapté	« through » = à travers, formulation plus courte que la correction
+remarque	R315	Research Log 5:  June 2, 1975\pWe managed to get it open...\pI though…	contresens	accepté	calque « rien à montrer pour nos efforts »
+remarque	R316	Research Log 6:  June 10, 1975\pThe expedition is done.\nThe rest of …	oubli	adapté	« cette mission » rétabli, formulation plus proche de l’actuel
+alerte	A188	Research Log 6:  June 10, 1975\pThe expedition is done.\nThe rest of …	LARGEUR	accepté	ligne trop longue coupée
+remarque	R317	STEVEN: {PLAYER}.\pWe felt a tremor at the ruins\njust now.\pEveryone…	terminologie	adapté	« ROCHARD » retiré, mais « Pierre » selon le glossaire (pas PIERRE)
+remarque	R318	STEVEN: {PLAYER}.\pHow's the search going?\pWe had another tremor her…	terminologie	adapté	« ROCHARD » retiré, mais « Pierre » selon le glossaire (pas PIERRE)
+remarque	R319	STEVEN: {PLAYER}.\pAnother tremor here at the ruins.\pThe data paints…	terminologie	adapté	« ROCHARD » retiré, mais « Pierre » selon le glossaire (pas PIERRE)
+remarque	R320	STEVEN: {PLAYER}.\pAnother tremor. Another chamber\nopening up.\pWe s…	terminologie	adapté	« ROCHARD » retiré (graphie « Pierre » du glossaire) ; reste gardé
+remarque	R321	STEVEN: {PLAYER}.\pDid you just find another PLATE?\p................…	terminologie	adapté	« ROCHARD » retiré, mais « Pierre » selon le glossaire (pas PIERRE)
+alerte	A164	STEVEN: {PLAYER}.\pDid you just find another PLATE?\p................…	LARGEUR	accepté	ligne de 199 px raccourcie
+remarque	R322	STEVEN: {PLAYER}.\pWe're very close now. I can feel it.\p............…	terminologie	adapté	« ROCHARD » retiré, mais « Pierre » selon le glossaire (pas PIERRE)
+remarque	R323	WARDEN BAOBA: {PLAYER}!\pThis is WARDEN BAOBA.\pI'm calling to tell y…	oubli	accepté	fonction de Baoba (directeur du parc, comme SoulSilver FR) rétablie
+remarque	R324	Dragon masters all come from the city\nof BLACKTHORN.	contresens	refusé	« maîtres dragons » est clair en contexte
+remarque	R325	SANTOS: …\pSPELL TAG…\pGHOST-type moves get stronger…\pIt will fright…	contresens	adapté	effet précisé (capacités Spectre) ; SANTOS = Samuel dans SoulSilver FR (glossaire)
+remarque	R326	STEVEN: Ma'am, may I help you to\nthe spring over there?\pIt seems th…	oubli	refusé	« de la place » suffit ; seule l’étiquette est remise à la graphie du glossaire
+remarque	R327	I am the Milkman.\pMy milk is delicious.\pIf you would like some toda…	typographie	accepté	métier en minuscules
+remarque	R328	Sorry.\nGet some cash, then you will get a sale!	oubli	refusé	« Pas d’argent, pas de lait! » rend l’idée de façon idiomatique
+remarque	R329	Don't you want it?\nIt gots what the world deserves.	contresens	adapté	vouvoiement du laitier rétabli ; formule « Il a ce que le monde mérite » plus proche de « gots »
+remarque	R330	I am the MilkMan,\pMy milk is delicious.\pSpecial delivery today!	typographie	accepté	virgule finale et majuscule de métier
+remarque	R331	These springs are magical,\nbut I feel like the locals\lare giving us…	contresens	accepté	« dirty looks » = regarder de travers
+remarque	R332	There's nothing like a nice view to\ninvigorate this old soul.	contresens	adapté	« this old soul » = le personnage lui-même : « ma vieille âme » garde l’image
+alerte	A105	There's nothing like a nice view to\ninvigorate this old soul.	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens conforme
+remarque	R333	How can that woman\nbe so rude to our guests?\pShe needs to take a di…	contresens	adapté	ajout « pour se détendre » retiré ; « invités » gardé (« hôtes » ambigu)
+remarque	R334	It seems everybody is getting\nused to each other around here.\pGood!	orthographe	accepté	accord singulier/réciproque fautif
+remarque	R335	Things have been better since\nthe legendary POKéMON were quelled.\pB…	typographie	adapté	« légendaires » en minuscules comme l’anglais ; tournure d’origine gardée
+remarque	R336	Oh! Your COIN CASE is too full to buy\nany more COINS!\pEnjoy the GOL…	oubli	accepté	référent ambigu de « en acheter »
+remarque	R337	....SHOVE!....	typographie	accepté	points de suspension suivis d’un point
+remarque	R338	Oof,\nI should've trained harder…	contresens	accepté	« Ouf » = soulagement, contresens pour « Oof »
+remarque	R339	URGH!\nAGH!\pYOU!\pDid the others send you here?\nDid they tell you t…	terminologie	adapté	graphie du glossaire « Ecaillecoeur » (pas « Ecaillécœur »)
+remarque	R340	Five HEART SCALES.\nNot four.\pTry smashing rocks.\nWith your POKéMON…	terminologie	adapté	graphie du glossaire « Ecaillecoeur » ; virgule gardée
+remarque	R341	BAOBA: I'll let you know\non the POKéGEAR soon!	oubli	accepté	« soon » rétabli
+remarque	R342	I'm not listening to your\nbragging!\pWe POKé FANS have a policy\nof …	terminologie	accepté	classe Pokéfan (glossaire)
+remarque	R343	Wow! A full rack of POKéMON CDs\nand videos.\pThis must be the refere…	contresens	adapté	« reference library » : « médiathèque » plutôt que « fonds d’archives »
+remarque	R344	Are you able to buy a GREAT BALL?\nAll I can buy are POKé BALLS.\pI h…	terminologie	adapté	Super Balls / Balls acceptés, mais « Badges d’Arène » (pas BADGES D’ARENE)
+remarque	R345	WARDEN BAOBA: {PLAYER}!\pThis is WARDEN BAOBA.\pI'm calling to tell y…	terminologie	adapté	Baoba (glossaire) ; « directeur » comme SoulSilver FR ; reste gardé
+remarque	R346	There's a place called the CONTEST\nHALL in VIRIDIAN where trainers\l…	typographie	adapté	« Salle Concours » (glossaire) et casse de Dresseurs
+remarque	R347	SAFFRON CITY\pShining, Golden Land of Commerce	oubli	adapté	slogan officiel SoulSilver FR du panneau de Safrania
+remarque	R348	STEVEN: Let me heal your POKéMON\nbefore you go.	typographie	adapté	« Pokémon » était déjà correct ; étiquette « Pierre » (glossaire) qui règle aussi la largeur
+alerte	A192	STEVEN: Let me heal your POKéMON\nbefore you go.	LARGEUR	accepté	ligne trop longue (202 px) réglée
+remarque	R349	STEVEN: To think, another trainer \nwould defeat me like this.\pIncre…	contresens	accepté	« encore » ajouté à tort ; casse de Dresseur
+remarque	R350	Okay, {PLAYER}{KUN}, if you're going to mount\na serious challenge, e…	contresens	accepté	c’est le joueur qui lance le défi
+remarque	R351	It's a photo of a huge grassy plain\nwith rare POKéMON frolicking in …	oubli	adapté	« grassy plain » = prairie, sans ligne de plus
+remarque	R352	There's a radio program that plays\nPOKé FLUTE music.\pOh? Ah, your r…	terminologie	accepté	Poké Flûte, Extension Radio (artefact « EXTENSION Radio »), station de radio
+remarque	R353	Want a tasty little bit of advice\nfor CONTESTS?\pUsing a certain mov…	oubli	adapté	deux capacités précises enchaînées ; premier saut de page en \n
+remarque	R354	My papa, he's a CONTEST JUDGE.\pI wonder what I should be when I\ngro…	typographie	accepté	apostrophe droite et casse des noms communs
+remarque	R355	Hey, man, I'm like majorly cheesed,\nyou know. Like, you know, I just…	orthographe	accepté	« la lose » ; « juge » nom commun
+remarque	R356	MC: Oh, my, my!\nNow isn't that a dandy of a POKéMON?\pPlease! Do ste…	registre	accepté	personnel du Concours au vouvoiement
+remarque	R357	JUDGE: Well, hello there!\nI see that you're a TRAINER!\pThen, it jus…	terminologie	adapté	vouvoiement du juge accepté ; « Passe Concours » gardé en dialogue (« Passeconcour » = nom tronqué du Sac)
+remarque	R358	They didn't pay much attention to\nmy POKéMON's appeal…\pHumph, that …	contresens	refusé	« pas fait attention » rend correctement l’idée ; nuance mineure
+remarque	R359	A battle and a CONTEST aren't the\nsame, but they are alike, too.\pYo…	oubli	adapté	« you’ve raised » rétabli, sans \l en deuxième ligne de page
+remarque	R360	If only there were an easy way to\nidentify where I got my POKéMON…	oubli	accepté	« an easy way » rétabli
+remarque	R361	Maybe I need new places…	typographie	refusé	dialogue sur deux lignes sans dépassement : mise en page seule
+remarque	R362	You know your starters!\nLet me get your number!	terminologie	accepté	« Pokémon de départ » comme dans les appels du même Dresseur (CARTER)
+remarque	R363	I've found even more rare starters\nto show off! Battle me!	terminologie	accepté	« Pokémon de départ » (cohérence CARTER)
+remarque	R364	My precious starters…	terminologie	adapté	« Pokémon de départ » ; « précieux » gardé
+remarque	R365	There are so many starters from\ndifferent regions to collect!	terminologie	accepté	« Pokémon de départ » (cohérence CARTER)
+remarque	R366	The body must be hardened\nand the mind strengthened\lin the harshest…	oubli	accepté	« must » rétabli (injonction)
+alerte	A103	The body must be hardened\nand the mind strengthened\lin the harshest…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens conforme
+remarque	R367	How are the villagers treating\nyou?\pThey can be very unwelcoming to…	terminologie	accepté	Dracologue (classe du glossaire, SoulSilver FR) et accueil hostile rendu
+remarque	R368	I know the KIMONO's have sent you\nto collect these PLATES.\pThey say…	contresens	accepté	« conquer » = vaincre, pas dompter
+remarque	R369	I am KAREN of the ELITE FOUR.\pYou're {PLAYER}? How amusing.\pI love …	terminologie	refusé	le texte écrit déjà « Ténèbres » ; correction identique
+remarque	R370	Whenever I get in trouble,\nbig bro always scares me.	contresens	accepté	« scares me » = me fait peur
+remarque	R371	The MACHAMP dropped an item...	typographie	refusé	dialogue sur deux lignes sans dépassement ; l’article reste hors combat
+remarque	R372	Ahoy!\nCome back when you'd like to set sail.	oubli	adapté	texte du patch au pointeur (« quand vous voudrez prendre le large ») rétabli
+remarque	R373	SAMSON OAK's VILLA	terminologie	accepté	Samson Chen = Raphaël Chen en français (sans accent sur la capitale)
+remarque	R374	My name is SAMSON OAK!\nI'm a POKéMON PROFESSOR.\pWhat's your name?	terminologie	accepté	Raphaël Chen ; « professeur » nom commun
+remarque	R375	Ah, {PLAYER}.\nA fine name!\pYou may know my cousin, PROFESSOR OAK,\n…	terminologie	adapté	Prof. Chen et « je t’emmène en ville » acceptés ; Kanto en casse SoulSilver FR
+remarque	R376	SAMSON is waiting for you at his villa…\n{PAUSE 30}best not make him …	terminologie	accepté	Raphaël = nom français de Samson
+remarque	R377	The bug POKéMON on the ALOLA ISLES\nare much bigger than those in KAN…	terminologie	adapté	« Pokémon Insecte » accepté, mais ALOLA gardé ; ligne raccourcie
+alerte	A170	The bug POKéMON on the ALOLA ISLES\nare much bigger than those in KAN…	LARGEUR	adapté	reformulé sur deux lignes ≤ 198 px
+remarque	R378	These ISLES are chock full of unique\nPOKéMON!\pI need to stock up on…	terminologie	refusé	le texte écrit déjà « Poké Balls » ; correction identique
+remarque	R379	FUCHSIA POKéMON GYM\nLEADER: JANINE\pWINNING TRAINERS:\nBLUE, RED	typographie	adapté	« DE » (artefact) corrigé ; casse des autres panneaux d’Arène (Championne, Vainqueurs, Blue, Red)
+remarque	R380	FUCHSIA POKéMON GYM\nLEADER: JANINE\pWINNING TRAINERS:\nBLUE, RED, {P…	typographie	adapté	« DE » (artefact) corrigé ; casse des autres panneaux d’Arène
+remarque	R381	They have programs that aren't\nshown in JOHTO…	typographie	accepté	Johto en casse SoulSilver FR
+remarque	R382	Hey, kid!\pKeep your guard up out here,\nthis place is cracklin' with…	typographie	refusé	la virgule après « ici » est correcte
+alerte	A78	Hey, kid!\pKeep your guard up out here,\nthis place is cracklin' with…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens conforme
+remarque	R383	Look what you did to my POKéMON…\pI won't forget this…	typographie	refusé	le texte écrit déjà « Pokémon » ; correction identique
+remarque	R384	ROUTE 10\pCERULEAN CITY - LAVENDER TOWN	typographie	refusé	correction identique au texte
+remarque	R385	That is indeed HO-OH...\nThe guardian of the sky from\pancient times.…	terminologie	adapté	« Glas Transparent » comme les dialogues SoulSilver FR (Glas Transp. = nom tronqué du Sac)
+alerte	A43	That is indeed HO-OH...\nThe guardian of the sky from\pancient times.…	ESPACE	accepté	espace finale de l’anglais rétablie
+remarque	R386	MANAGER: That TM is THUNDER.\pIt's a powerful technique!\pIt's not wh…	typographie	refusé	correction identique au texte
+remarque	R387	This door is unsafe without power.	typographie	refusé	dialogue sur deux lignes sans dépassement : mise en page seule
+remarque	R388	Sure, we've been hacking the\ntails off SLOWPOKE and selling\lthem.\p…	typographie	accepté	artefact « TEAM\nRocket » corrigé en « Team Rocket »
+remarque	R389	You did OK today,\nbut wait till next time!	oubli	accepté	« today » et « la prochaine fois » rétablis
+remarque	R390	Hyuck-hyuck-hyuck!\nQuit taking SLOWPOKETAILS?\pYou're nuts!\nIf we o…	oubli	accepté	l’action à cesser (couper les queues) est précisée
+remarque	R391	Stop taking TAILS?\pYeah, just try to defeat all\nof us!	oubli	accepté	prélèvement des queues et provocation (« just try ») rétablis
+remarque	R392	ROUTE 30\pVIOLET CITY - CHERRYGROVE CITY	typographie	refusé	correction identique au texte
+remarque	R393	You're pretty good!\pMy RATTATA's raring to go,\njust like always.\pI…	contresens	accepté	« raring to go » = a hâte de se battre
+remarque	R394	I lost again…\nGee, you're tough!\pOh yeah, I almost forgot that\nI h…	orthographe	adapté	« Sers-t’en » corrigé ; reste du texte gardé
+remarque	R395	REST{CLEAR_TO 0x58}2,000 C.	codes	accepté	graphie anglaise du code ({CLEAR_TO 0x58}, décision 5) ; REST traduit (Repos) et prix comme les lignes voisines
+alerte	A95	REST{CLEAR_TO 0x58}2,000 C.	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; libellé retraduit de toute façon
+remarque	R396	SUBSTITUTE{CLEAR_TO 0x58}2,000 C.	codes	accepté	graphie anglaise du code (décision 5)
+remarque	R397	SWORDS DANCE{CLEAR_TO 0x58}3,000 C.	codes	accepté	graphie anglaise du code (décision 5)
+remarque	R398	{STR_VAR_1} is what you want?	registre	accepté	le personnel du comptoir du Casino vouvoie
+alerte	A119	{STR_VAR_1} is what you want?	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens conforme
+remarque	R399	Oh? You don't have a COIN CASE.	registre	accepté	réplique de service : vouvoiement
+remarque	R400	I taught ICE BEAM to my POKéMON.\pIt was hard to get enough coins for…	typographie	refusé	le texte écrit déjà « Pokémon » ; correction identique
+remarque	R401	I couldn't win at the slots, and I\nblew it on roulette.\pI got so fu…	contresens	accepté	« couldn’t win » ≠ « tout perdu » ; Souterrain en casse normale
+remarque	R402	The numbers on the sides of the board\nare hints about the numbers…\p…	oubli	accepté	la colonne manquait dans l’explication
+remarque	R403	Use the notes mode ({L_BUTTON} & {R_BUTTON}) to mark\ncards with numb…	contresens	adapté	condition « quand vous êtes sûr » rétablie ; sauts de ligne corrigés (pas de \l en tête de page)
+alerte	A174	Use the notes mode ({L_BUTTON} & {R_BUTTON}) to mark\ncards with numb…	LARGEUR	accepté	ligne de 208 px reformulée
+remarque	R404	For Victory Seekers\p3F BATTLE COLLECTION	typographie	accepté	artefact « 2E COLLECTION Combat » ; étage à la française
+remarque	R405	ERIKA: Hello… Lovely weather,\nisn't it? It's so pleasant…\p…I'm afra…	oubli	accepté	« It’s so pleasant » et « all the way » rétablis ; Johto
+remarque	R406	{PLAYER} received RAINBOWBADGE.	typographie	accepté	Badge Prisme (casse SoulSilver FR)
+remarque	R407	ERIKA: Oh, hello.\pWhat a surprise, KANTO CHAMPION!\pIt's so lovely t…	registre	accepté	Erika vouvoie le joueur dans sa première rencontre
+remarque	R408	CELADON POKéMON GYM\nLEADER: ERIKA\pWINNING TRAINERS:\nBLUE, RED	typographie	adapté	« DE » (artefact) corrigé ; casse des autres panneaux d’Arène (Championne, Vainqueurs, Blue, Red)
+remarque	R409	CELADON POKéMON GYM\nLEADER: ERIKA\pWINNING TRAINERS:\nBLUE, RED, {PL…	typographie	adapté	« DE » (artefact) corrigé ; casse des autres panneaux d’Arène
+remarque	R410	Speaking of the RADIO STATION,\nwhat's this week's lucky number?	typographie	accepté	artefact « STATION Radio »
+remarque	R411	Welcome to the BATTLE TOWER\nMULTI BATTLE CORNER!\pUnfortunately, the…	typographie	accepté	artefacts « COIN Combat MULTI », « SALLES DE Combat »
+remarque	R412	Excuse me!\pYou don't have {STR_VAR_2} eligible POKéMON.\pYou must ha…	contresens	adapté	contresens « il vous manque » corrigé, mais Œufs (pas OEUFS)
+remarque	R413	You have chosen the same kind of\nPOKéMON as your friend.\pPlease cho…	contresens	adapté	espèce et niveau précisés, formulation plus courte que la correction
+remarque	R414	Your friend has chosen a different\nbattle level.\pYour friend has al…	typographie	refusé	le texte écrit déjà « Pokémon » ; correction identique
+remarque	R415	To commemorate your completion of\nthe Battle Choice challenge, we aw…	terminologie	accepté	« Combat Hasard » (Émeraude FR) et « Points de Combat »
+remarque	R416	You appear to have reached the limit\nfor Battle Points…\pPlease exch…	oubli	accepté	« You appear to » rendu
+remarque	R417	What is this weird place?\nI can't figure it out at all!\pI've taken …	typographie	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R418	You must be a strong trainer.\pWe don't have much use for the\nfossil…	typographie	accepté	Dresseur avec majuscule (glossaire)
+remarque	R419	We often share research with the\nRUINS OF ALPH researchers.\pWe even…	terminologie	accepté	graphie glossaire Ruines d’Alpha
+remarque	R420	MIHARU: Welcome to NEW SINJOH, \n{PLAYER}.\pFor generations, this vil…	typographie	accepté	Nouveau Sinjoh en casse normale comme Ruines Sinjoh ; virgules superflues
+remarque	R421	SHIZUKO: Our cousins in ECRUTEAK\nCITY made us aware of your\lconnect…	typographie	accepté	casse SoulSilver (légendaires, Johto)
+remarque	R422	YOUKO: Go to the SINJOH RUINS, to\nthe north of ROUTE 50.\pMeet with …	terminologie	accepté	graphies glossaire Ruines Sinjoh, Route 50 ; légendaires
+remarque	R423	SHIZUKO: Few trainers in all\nof SINJOH's storied history have\lmanag…	typographie	accepté	Dresseurs ; Sinjoh en casse normale
+remarque	R424	The KIMONO GIRLS have watched\nover our village since its founding.\p…	typographie	accepté	Dresseur avec majuscule
+remarque	R425	You have bested the champions of\nour village.\pWhat does that make y…	contresens	refusé	« Mais qui es-tu » rend bien la question rhétorique ; la correction est un calque
+remarque	R426	Whoa! You startled me there!\pI had my BLACK-GLASSES on, so I\ndidn't…	typographie	accepté	SoulSilver FR écrit « Lunettes Noires » dans ce dialogue
+remarque	R427	How disappointing…\pCome back if you want to listen.	registre	accepté	le président du Fan Club tutoie le joueur dans ses autres répliques
+remarque	R428	Oh, I see now. The girl who lost\nthis POKé DOLL is sad…\pOK. Could y…	oubli	adapté	« on my own » ajouté sans perdre « un jour »
+remarque	R429	Sigh…\pYou do not have the three POKéMON\nrequired for the challenge.…	typographie	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R430	Sigh…\pYou do not have the three POKéMON\nrequired for the challenge.…	typographie	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R431	For the feat of your 7-win streak,\nwe present you with Battle Point(…	terminologie	refusé	« Points Combat » est la graphie de SoulSilver FR (banque 748)
+remarque	R432	The MALASADAS here are delicious.\nJust like the real ones in ALOLA!	terminologie	adapté	casse Malasadas/Alola et « à Alola » ; « délicieuses » gardé
+alerte	A59	The MALASADAS here are delicious.\nJust like the real ones in ALOLA!	FRAGMENT	refusé	faux positif : début réel pointé par un pointeur dans la ROM du patch ; sens conforme
+remarque	R433	I'm looking for some sunscreen!\pIt's sunnier here on the ISLES!	orthographe	accepté	tournure plus naturelle, casse Iles, tient en largeur
+alerte	A147	I'm looking for some sunscreen!\pIt's sunnier here on the ISLES!	LARGEUR	accepté	résolu par la reformulation sur deux lignes
+remarque	R434	MR. FUJI does live here but he's\naway now. He should be at the\lSOUL…	typographie	adapté	casse SoulSilver ; SOUL HOUSE = Maison des Souvenirs (SoulSilver FR)
+remarque	R435	I lost to a trainer named {RIVAL}.\pHe was really strong, but…\pIt wa…	typographie	accepté	Dresseur avec majuscule
+remarque	R436	I lost to a trainer named {RIVAL}.\pBut I won't lose to you!	typographie	accepté	Dresseur avec majuscule
+remarque	R437	You really are concerned about\nthe sick POKéMON…	typographie	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R438	My POKéMON learned how to use FLY in\nCIANWOOD.\pWell, since I'm a lo…	typographie	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R439	There is a wonderful PHARMACY\nin CIANWOOD…\pBut that's across the se…	terminologie	accepté	AMPHY = Phary dans SoulSilver FR ; pharmacie en minuscules comme SS
+remarque	R440	Hold it.\p…Are you going to take the POKéMON\nLEAGUE challenge?\p…Don…	oubli	accepté	« best and strongest » rendu
+remarque	R441	You're from JOHTO, aren't you?\pHow do you like KANTO?\nIt's nice, do…	typographie	accepté	régions en casse normale (SoulSilver FR)
+alerte	A116	You're from JOHTO, aren't you?\pHow do you like KANTO?\nIt's nice, do…	FRAGMENT	refusé	faux positif : début réel pointé par un pointeur dans la ROM du patch ; sens conforme
+remarque	R442	Wow, you're the JOHTO CHAMPION\nnow!\pYour skills are truly impressiv…	typographie	accepté	artefact « Maître DE JOHTO/KANTO » → Maître de Johto/Kanto
+remarque	R443	Wow, you must be an expert\ntrainer.\pMy research must not be\ncomple…	oubli	accepté	« expert trainer » : la notion de Dresseur est rendue
+remarque	R444	Hi! It's you!\pWow, JOHTO CHAMPION now?\pYou really are amazing!\pI w…	typographie	accepté	artefact « Maître DE JOHTO/KANTO » → Maître de Johto/Kanto
+remarque	R445	Ah, the JOHTO CHAMPION! Good of\nyou to come.\pYou've shown your stre…	typographie	accepté	artefact « Maître DE JOHTO/KANTO » → Maître de Johto/Kanto
+remarque	R446	WAHAHAH! JOHTO CHAMPION!\pYou've come back for more!\pI see your skil…	typographie	accepté	artefact « Maître DE JOHTO/KANTO » → Maître de Johto/Kanto
+remarque	R447	…Congratulations, JOHTO\nCHAMPION.\pYou have become so strong…\pI won…	typographie	accepté	artefact « Maître DE JOHTO/KANTO » → Maître de Johto/Kanto
+remarque	R448	Ah, JOHTO CHAMPION!\pYour skills are indeed\nremarkable.\pI am impres…	typographie	accepté	casse « Maître de Johto » ; ligne raccourcie (198 px à la limite)
+remarque	R449	You did it, huh?\pYou are now the JOHTO CHAMP.\pYou've proven your st…	typographie	accepté	artefact « Maître DE JOHTO/KANTO » → Maître de Johto/Kanto
+remarque	R450	BROCK: Hey there, {PLAYER}!\pI heard you are now the KANTO\nCHAMPION.…	typographie	accepté	artefact « Maître DE JOHTO/KANTO » → Maître de Johto/Kanto
+remarque	R451	MISTY: Wow, you're the KANTO\nCHAMPION now!\pThat's amazing! You've c…	typographie	accepté	artefact « Maître DE JOHTO/KANTO » → Maître de Johto/Kanto
+remarque	R452	SURGE: So, you're now KANTO\nCHAMPION!\pImpressive work, kid! But don…	typographie	accepté	artefact « Maître DE KANTO » → Maître de Kanto
+remarque	R453	ERIKA: Oh, hello.\pWhat a surprise, CHAMPION!\pIt's so lovely to see …	typographie	accepté	« Maîtres » en casse normale comme le titre de la même réplique
+remarque	R454	BLAINE: Whoa!\pI see you've become the KANTO\nCHAMPION!\pThat's blazi…	typographie	accepté	région en casse normale (SoulSilver FR)
+remarque	R455	CHANSEY: Chaan! Sii!	typographie	accepté	nom d’espèce en capitales (LEVEINARD: Veina! dans SoulSilver FR)
+remarque	R456	PROF.ELM: Hello, {PLAYER}?\nHas that EGG hatched yet?\pOnce it hatche…	oubli	adapté	apporter le Pokémon au labo ; Œuf (le projet n’écrit ni OEUF ni œuf)
+remarque	R457	E-he-he-he…\pI got in trouble for playing in\nthe DEPT.STORE basement.	typographie	accepté	Centre Commercial (SoulSilver FR)
+alerte	A136	E-he-he-he…\pI got in trouble for playing in\nthe DEPT.STORE basement.	LARGEUR	accepté	remis en page à 198 px
+remarque	R458	Come and taste the terror of\nTEAM ROCKET!	terminologie	accepté	Team Rocket (glossaire)
+remarque	R459	Full Selection of POKéMON Goods!\pGOLDENROD CITY DEPT.STORE	typographie	accepté	Centre Commercial de Doublonville (SoulSilver FR)
+remarque	R460	The World is a Cycle Path!\nBIKE SHOP	typographie	accepté	Cycles à Gogo (SoulSilver FR)
+remarque	R461	Your Playground!\pGOLDENROD CITY GAME CORNER	terminologie	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R462	UNDERGROUND ENTRANCE	terminologie	accepté	le passage de Doublonville s’appelle Doublon-Tunnel dans SoulSilver FR
+remarque	R463	Blooming Beautiful FLOWER SHOP	terminologie	accepté	enseigne officielle SoulSilver FR « Fleuriste de Doublonville »
+remarque	R464	I can teach your POKéMON some\namazing moves!\pShould I teach one?	contresens	accepté	« enseigner » lève l’ambiguïté sur qui apprend
+remarque	R465	It'll cost you 1000 coins.\nOkay?	typographie	refusé	mise en page seule, la ligne tient en largeur
+remarque	R466	Aww… But these moves are great!	typographie	accepté	réplique d’une ligne trop longue, raccourcie
+alerte	A193	Aww… But these moves are great!	LARGEUR	accepté	résolu en restant sur une ligne (anglais sur une ligne)
+remarque	R467	Wahahah! You won't regret it!\pWhich move should I teach?	contresens	accepté	« enseigner » : c’est le Pokémon qui apprend
+remarque	R468	Tch, you really are strong.\nIt's too bad.\pIf you were to join Team …	terminologie	accepté	Executive = Commandant (SoulSilver FR : « Tu pourrais devenir Commandant »)
+remarque	R469	LANCE: {PLAYER}, let's give it\nour best for POKéMON.	orthographe	accepté	« faisons de notre mieux » plus idiomatique
+remarque	R470	SURGE: Arrrgh! You are strong!\pOK, kid. You get THUNDERBADGE!	typographie	accepté	Badge Foudre (SoulSilver FR)
+remarque	R471	{PLAYER} received THUNDERBADGE.	typographie	accepté	Badge Foudre (SoulSilver FR)
+remarque	R472	SURGE: THUNDERBADGE increases\nPOKéMON's speed.\pConsider it proof th…	typographie	accepté	Badge Foudre ; vitesse en minuscules
+remarque	R473	SURGE: So, you're now KANTO\nCHAMPION!\pImpressive work, kid!\nBut do…	typographie	accepté	artefact « Maître DE KANTO »
+remarque	R474	VERMILION POKéMON GYM\nLEADER: LT. SURGE\pWINNING TRAINERS:\nBLUE, RED	typographie	adapté	casse SoulSilver (Major Bob, Vainqueurs) ; Blue et Red comme SoulSilver FR, pas BLUE
+remarque	R475	VERMILION POKéMON GYM\nLEADER: LT. SURGE\pWINNING TRAINERS:\nBLUE, RE…	typographie	adapté	casse SoulSilver (Major Bob, Vainqueurs) ; Blue et Red comme SoulSilver FR, pas BLUE
+remarque	R476	Nope!\nThere's only trash here.	contresens	accepté	« trash » = les déchets dans la poubelle
+remarque	R477	Hey! There's a switch under the\ntrash! Turn it on!\pThe first electr…	contresens	accepté	déchets ; verrou électrique
+remarque	R478	The second electric lock opened!\nThe motorized door opened!	oubli	accepté	verrou électrique, porte motorisée
+remarque	R479	Nope!\nThere's only trash here.\pHey!\nThe electric locks were reset!	contresens	accepté	déchets ; verrous électriques réarmés
+remarque	R480	Oh, hello. And you are?\p… … … … … … … … …\n… … … … … … … … …\pOh, yo…	codes	accepté	{STR_VAR_1} rétabli (3 occurrences) et fin fidèle
+alerte	A11	Oh, hello. And you are?\p… … … … … … … … …\n… … … … … … … … …\pOh, yo…	CODES	accepté	code rétabli
+remarque	R481	Welcome to the POKéMON SALON!\pI'm the younger and less expensive\nof…	typographie	accepté	Salon Pokémon, frères coiffeurs (SoulSilver FR)
+remarque	R482	OK! I'll make it look cool!	contresens	accepté	« make it look cool » : rendre le Pokémon beau
+remarque	R483	Welcome!\pI run the POKéMON SALON!\pI'm the older and better of the t…	typographie	accepté	Salon Pokémon, frères coiffeurs (SoulSilver FR) ; virgules superflues
+remarque	R484	I got booted out of the GAME CORNER.\pI was trying to cheat using my\…	typographie	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R485	I know my POKéMON type alignments.\pBut I only use one type of POKéMO…	contresens	accepté	« type alignments » = forces et faiblesses des types
+remarque	R486	When I was walking near the BIKE\nSHOP last night, I felt like I was\…	terminologie	accepté	Cycles à Gogo (SoulSilver FR) ; impression et non certitude
+remarque	R487	Are you making a POKéDEX? Here's a\nhot tip.\pThe HIKER on ROUTE 33, …	terminologie	accepté	ANTHONY = Anthony (glossaire)
+remarque	R488	You'll run into many trainers on\nthe way to CERULEAN's CAPE.\pThey w…	typographie	accepté	SoulSilver FR écrit « Cap d’Azuria »
+remarque	R489	Thank you, {PLAYER}!\nHere, take this money to upgrade\lyour SAFARI L…	typographie	accepté	casse normale (Niveau Safari, zone Broussailles) ; « next » rendu
+remarque	R490	Thank you, {PLAYER}!\nHere, take this money to upgrade\lyour SAFARI L…	typographie	accepté	casse normale (Niveau Safari, zone Montagne) ; « next » rendu
+remarque	R491	Thank you, {PLAYER}!\nHere, take this money to upgrade\lyour SAFARI L…	typographie	accepté	casse normale (Niveau Safari) ; « next » rendu
+remarque	R492	Ah, {PLAYER}!\pDid you bring an exotic POKéMON\nfrom the BEACH area o…	typographie	accepté	artefact de casse : Parc Safari de Parmanie, zone en casse normale
+remarque	R493	Ah, {PLAYER}!\pDid you bring an exotic POKéMON\nfrom the BRUSH area o…	terminologie	accepté	artefact de casse : Parc Safari de Parmanie, zone en casse normale
+remarque	R494	Ah, {PLAYER}!\pDid you bring an exotic POKéMON\nfrom the MOUNTAIN are…	terminologie	accepté	artefact de casse : Parc Safari de Parmanie, zone en casse normale
+remarque	R495	Ah, {PLAYER}!\pDid you bring an exotic POKéMON\nfrom the CAVE area of…	typographie	accepté	artefact de casse : Parc Safari de Parmanie, zone en casse normale
+remarque	R496	What will I do now?\nWe'll never keep up with DEVON!	contresens	accepté	« keep up with » = rivaliser, pas rattraper
+remarque	R497	I can't take your last POKéMON!	typographie	accepté	réplique d’une ligne raccourcie, « seul » rend l’idée du dernier Pokémon
+alerte	A194	I can't take your last POKéMON!	LARGEUR	accepté	résolu en restant sur une ligne
+remarque	R498	Hi {PLAYER}!\nI've been waiting for you.\nWhat do you think?\pThis is…	terminologie	accepté	Parc Safari en casse normale partout
+remarque	R499	Oh! I almost forgot.\pPOKéBLOCKS are an essential\nfeature of my SAFA…	typographie	accepté	PokéBlocs (glossaire)
+remarque	R500	Do you know about POKéBLOCK\nfeeders?\pPutting a POKéBLOCK in the fee…	typographie	accepté	PokéBlocs, talent caché en casse normale
+remarque	R501	Here, you seem like you need this.	typographie	adapté	anglais sur une ligne : on garde la phrase actuelle sur une seule ligne (180 px)
+remarque	R502	Sorry Trainer, this area is still\nunder construction. Check back\lla…	registre	accepté	le personnel du Parc Safari vouvoie ; « Trainer » rendu
+remarque	R503	Is that right?\pI'm the GAME DESIGNER!\pFilling up your POKéDEX is to…	terminologie	adapté	pas de majuscule ; terme d’Émeraude FR « concepteur de jeu », pas « réalisateur »
+remarque	R504	I'm the GRAPHIC ARTIST.\pI drew you!	orthographe	accepté	neutre en genre (le joueur peut être une fille) ; graphiste en minuscules
+remarque	R505	I'm the GRAPHIC ARTIST.\pOh, you completed your POKéDEX?\pWant me to …	typographie	accepté	graphiste et diplôme en minuscules
+remarque	R506	Give me a shout if you want your\nDIPLOMA printed.	typographie	accepté	diplôme en minuscules
+remarque	R507	Aren't the TWINS adorable?\pJASMINE's pretty too.\pOh, I love them!	terminologie	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R508	It's crammed with reference\nmaterials. There's even a\nPOKé DOLL.	terminologie	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R509	All this swimming has made my\nPOKéMON stronger! Let's battle!	typographie	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R510	Win or lose, I'm getting fit and\nso are my POKéMON!	contresens	accepté	« getting fit » = se mettre en forme
+remarque	R511	What does this sign say?\pCINNABAR GYM LEADER: BLAINE	typographie	accepté	apostrophe typographique, artefact « DE »
+remarque	R512	ROUTE 42\pECRUTEAK CITY - MAHOGANY TOWN	typographie	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R513	I'll let you know if I\nreel in anything else!	contresens	accepté	« reel in » = remonter (pas forcément une prise vivante)
+remarque	R514	The old SAFARI ZONE WARDEN's \ngranddaughter lives in town.	typographie	accepté	gardien en minuscules
+remarque	R515	I bought this place so that my son\nand I could explore the outdoors……	oubli	accepté	idée d’exploration rendue ; ligne raccourcie
+alerte	A191	I bought this place so that my son\nand I could explore the outdoors……	LARGEUR	accepté	résolu par la reformulation
+remarque	R516	A slight problem, adventurer!\pYou seem to not have the three\nPOKéMO…	oubli	accepté	« take all items » rendu
+remarque	R517	A slight problem, adventurer!\pYou seem to not have the three\nPOKéMO…	oubli	accepté	« take all items » rendu
+remarque	R518	When you are ready, please have\na word with me.	contresens	accepté	la condition porte sur le joueur prêt
+remarque	R519	MAY: With those GO-GOGGLES, you'll\nhave no trouble getting through t…	codes	adapté	{PLAYER}{KUN} en trop retiré ; ROUTE 111 et CLEMENTI-VILLE gardés en capitales sans accent (Hoenn, décision 14)
+alerte	A9	MAY: With those GO-GOGGLES, you'll\nhave no trouble getting through t…	CODES	accepté	codes rétablis
+alerte	A153	MAY: With those GO-GOGGLES, you'll\nhave no trouble getting through t…	LARGEUR	accepté	remis en page à 198 px
+remarque	R520	The 2nd set of opponents is next.\nDo your best!	contresens	adapté	« Bonne chance » est idiomatique ; seule la coupure au milieu de « Bonne chance » est corrigée
+remarque	R521	The 3rd set of opponents is next.\nDo your best!	contresens	adapté	« Bonne chance » est idiomatique ; seule la coupure au milieu de « Bonne chance » est corrigée
+remarque	R522	The 4th set of opponents is next.\nDo your best!	contresens	adapté	« Bonne chance » est idiomatique ; seule la coupure au milieu de « Bonne chance » est corrigée
+remarque	R523	The 5th set of opponents is next.\nDo your best!	contresens	adapté	« Bonne chance » est idiomatique ; seule la coupure au milieu de « Bonne chance » est corrigée
+remarque	R524	The 6th set of opponents is next.\nDo your best!	contresens	adapté	« Bonne chance » est idiomatique ; seule la coupure au milieu de « Bonne chance » est corrigée
+remarque	R525	The 7th set of opponents is next.\nDo your best!	contresens	refusé	« Bonne chance! » est l’équivalent idiomatique de « Do your best! »
+remarque	R526	Have you already challenged FLANNERY,\nthe LEADER of LAVARIDGE GYM?\p…	orthographe	adapté	ADRIANE est une femme (Championne, grande Dresseuse) ; VERMILAVA gardé en capitales (Hoenn)
+remarque	R527	CLEFAIRY: Pi pippippi!	terminologie	accepté	graphie du cri régularisée
+remarque	R528	You again?\nThere's no need to be alert.\pI don't bother with wimps\n…	oubli	accepté	il s’agit bien des Pokémon malades
+remarque	R529	The league has JASMINE\npegged as the sixth\lstrongest GYM LEADER!\pH…	orthographe	adapté	classement parmi tous les Champions d’Arène ; « crois-moi » gardé ; ligne raccourcie
+alerte	A172	The league has JASMINE\npegged as the sixth\lstrongest GYM LEADER!\pH…	LARGEUR	accepté	résolu par « à mon avis »
+remarque	R530	OLIVINE CITY\pThe Port Closest to Foreign Lands	contresens	accepté	« Closest to Foreign Lands » : proximité, pas ouverture
+remarque	R531	TRAINER HILL and\nBATTLE TENTS AHEAD.\pOpening Now!	contresens	accepté	« Opening Now » = déjà ouverts
+remarque	R532	I am BRUNO of the ELITE FOUR.\pI always train to the extreme be-\ncau…	oubli	adapté	« Ready? » rétabli sans perdre « écrasante » ni la première phrase
+remarque	R533	DIRECTOR: Use that to open the\nshutters on 3F.	oubli	accepté	consigne d’utilisation rendue
+remarque	R534	One {STR_VAR_1}-using {STR_VAR_2}	autre_phrase	refusé	le « et » enchaîne avec la réplique suivante (Émeraude FR officiel « un {STR_VAR_2} qui utilise… »)
+alerte	A187	One {STR_VAR_1}-using {STR_VAR_2}	LARGEUR	adapté	raccourci (« J’ai » retiré) pour tenir dans 198 px
+remarque	R535	Anyway, can I make you some BALLS?	terminologie	accepté	Balls en casse normale
+alerte	A70	Anyway, can I make you some BALLS?	FRAGMENT	refusé	faux positif : début réel pointé par un pointeur dans la ROM du patch ; sens conforme
+remarque	R536	Hm? Who are you?\p{PLAYER}, eh? You want me to make\nsome BALLS?\pSor…	terminologie	adapté	Balls, puits en casse normale ; « Queues de RAMOLOSS » comme SoulSilver FR ; Fargas déjà correct
+remarque	R537	KURT: Hi, {PLAYER}!\pYou handled yourself like a\nreal hero at the WE…	terminologie	adapté	Balls, puits, Dresseur en casse projet ; formulation actuelle gardée
+remarque	R538	KURT: I make BALLS from BERRIES.\pCollect them from trees and bring\n…	terminologie	accepté	Balls en casse normale
+remarque	R539	KURT: You have BERRIES for me?\pFine! I'll turn them into POKé BALLS.	terminologie	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R540	KURT: I don't see any {STR_VAR_1}s!	terminologie	refusé	déjà corrigé dans le texte actuel (passage de style)
+alerte	A197	KURT: I don't see any {STR_VAR_1}s!	LARGEUR	adapté	réplique d’une ligne raccourcie (196 px), sans présumer du genre de l’objet
+remarque	R541	KURT: {PLAYER}!\nYour {STR_VAR_1}s are done. Here!	orthographe	accepté	pluriel en minuscule après le nom d’objet
+remarque	R542	{PLAYER} obtained\n{STR_VAR_2} {STR_VAR_1}s!	orthographe	accepté	pluriel en minuscule après le nom d’objet
+remarque	R543	{PLAYER}!\pThis BALL started to shake\nwhile I was checking it.\pTher…	terminologie	accepté	Ball en casse normale
+remarque	R544	I get to help Grandpa now!\pWe'll make good BALLS\nfor you, so please…	typographie	accepté	grand-père en minuscule (SoulSilver FR) ; virgule superflue
+remarque	R545	It's fun to make BALLS!	oubli	accepté	c’est la fabrication qui est amusante
+remarque	R546	Did that sound come from\nILEX FOREST????	terminologie	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R547	…A young PROF. OAK?	terminologie	accepté	Prof. Chen (glossaire)
+remarque	R548	Oh, dear. You've found me.\pPlease don't tell anyone about me.\pI'll …	contresens	accepté	le cadeau récompense le secret gardé par le joueur
+remarque	R549	There's a notice here…\pMT.MOON GIFT SHOP NOW OPEN!	oubli	accepté	casse normale et « now » rendu
+remarque	R550	What kinds of BALLS do you use?	terminologie	accepté	Balls en casse normale
+remarque	R551	Some POKéMON flee right away.\pTry catching them with KURT's\nFAST BA…	terminologie	accepté	Ball en casse normale
+remarque	R552	Behold my graceful BALL dexterity!	contresens	adapté	la grâce du geste rendue, sur une ligne comme l’anglais
+remarque	R553	Huh? I shouldn't have lost that…	contresens	accepté	il s’agit du combat perdu, pas d’un objet
+remarque	R554	NATIONAL PARK GATE	typographie	accepté	artefact de casse sur le panneau
+remarque	R555	BLUE: Yo! Finally got here, huh?\pI wasn't in the mood at CINNABAR,\p…	typographie	adapté	casse Johto / Maître de Johto ; « You’re telling me » gardé
+remarque	R556	BLUE: What?\pHow the heck did I lose to you?\p…\pTch, all right… Here…	typographie	accepté	Badge Terre (SoulSilver FR)
+remarque	R557	{PLAYER} received EARTHBADGE.	typographie	accepté	Badge Terre (SoulSilver FR)
+remarque	R558	That's TRICK ROOM.\pAll POKEMON in battle will change speed.\nSlow go…	contresens	accepté	Distorsion inverse l’ordre d’action, pas la statistique
+remarque	R559	VIRIDIAN POKéMON GYM\nLEADER: BLUE\pWINNING TRAINERS:\nBLUE, RED	terminologie	adapté	artefacts de casse ; Red comme SoulSilver FR ; Champion/Vainqueurs en casse normale comme les autres panneaux
+remarque	R560	VIRIDIAN POKéMON GYM\nLEADER: BLUE\pWINNING TRAINERS:\nBLUE, RED, {PL…	terminologie	adapté	artefacts de casse ; Red comme SoulSilver FR ; Champion/Vainqueurs en casse normale comme les autres panneaux
+remarque	R561	It's crammed full of ancient\nleather-bound books.\pThe language is u…	contresens	accepté	« unrecognizable » = impossible à identifier
+alerte	A87	It's crammed full of ancient\nleather-bound books.\pThe language is u…	FRAGMENT	refusé	faux positif : début réel pointé par un pointeur dans la ROM du patch ; sens conforme
+remarque	R562	Technology is incredible!\pYou can now trade POKéMON\nacross time lik…	oubli	accepté	nouveauté (« now ») rendue
+remarque	R563	PALLET TOWN\pA Tranquil Setting of Peace\n& Purity	contresens	accepté	slogan fidèle (paix et pureté)
+remarque	R564	Apparently, there is an odd tree\non ROUTE 36.\pThey say it dances wh…	terminologie	adapté	artefact « D’ARENE » corrigé ; « boutique de fleurs » est juste ici
+remarque	R565	{PLAYER}. I didn't expect to see\nyou here.\pI'm picking up gear for …	typographie	accepté	Dojo en casse normale (SoulSilver FR)
+remarque	R566	Open one shutter, another closes.\pBet you can't get where you want!	contresens	accepté	fonctionnement général des volets
+remarque	R567	All right. A hint!\pChange the order of switching.\pThat'll change th…	contresens	accepté	il s’agit de l’ordre d’activation
+remarque	R568	It's so lush on AKALA ISLE,\nI can easily hide in the trees!	oubli	accepté	casse Ile d’Akala, facilité rendue
+remarque	R569	Hah!\nYou need to ride a POKéMON to surf?	oubli	accepté	monter sur le Pokémon rendu
+remarque	R570	If I hadn't swam myself\nmaybe I would've had the energy to win…	contresens	adapté	« maybe » ajouté ; « toute seule » gardé (nager sans Pokémon)
+remarque	R571	We have a special QUIZ campaign on\nright now.\pAnswer five questions…	oubli	accepté	Carte Radio pour le Pokématos, « anytime, anywhere » rendus
+remarque	R572	So far so good!\nQuestion 4:\pIs FALKNER the VIOLET GYM LEADER\nwho u…	oubli	accepté	« bird POKéMON » rendu
+remarque	R573	Wow! Right again!\nHere's the final question:\pDo GOLDENROD GAME CORN…	oubli	accepté	Casino de Doublonville et rouleaux rendus
+remarque	R574	We've finally taken over the\nRADIO TOWER!\pNow everyone will get to …	oubli	adapté	« how scary we are » rendu ; « vous » gardé (s’adresse à tous)
+remarque	R575	Hey! You have a brand new kind of\nPOKéDEX.\pDid PROF.OAK give that t…	terminologie	accepté	Prof. Chen (glossaire)
+remarque	R576	Riding the BIKE is as simple as\npressing a button if you\lREGISTER i…	registre	adapté	le vendeur tutoie dans SoulSilver FR (« donne-moi ton nom ») et Sac s’écrit ainsi ; seul l’artefact « ENREGISTRES » est corrigé
+remarque	R577	Business has been hard to come\nby since we moved from KANTO.\lWe app…	registre	adapté	tutoiement gardé (même vendeur, SoulSilver FR) ; Kanto en casse normale
+remarque	R578	BILL: Hi, {PLAYER}! Do us a favor and\ntake this EEVEE.\pIt was left …	contresens	accepté	« I don’t like being outside » rendu
+remarque	R579	BILL: My pop, he won't work. All he\ndoes is goof off all day long.\p…	oubli	accepté	« he won’t work » rendu
+remarque	R580	My husband was once known as a\nPOKéMANIAC.\pBILL must have taken aft…	terminologie	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R581	I just finished adjustments on my\nPOKéMON STORAGE SYSTEM.\pYou know …	typographie	accepté	casse normale (Système de Stockage, Centres Pokémon, Johto, Kanto) ; « installed » rendu
+remarque	R582	Try your hand at fishing wherever\nthere is water.\pRemember--you can…	contresens	refusé	« attire » n’est pas un contresens ; le texte actuel est juste
+remarque	R583	PROF. BIRCH: I see!\nYou picked a fine POKéMON!	contresens	accepté	« fine » = bon ; coupure comme l’anglais
+remarque	R584	KOGA: Fwahahahaha!\pYou return, brave challenger.\pMy ninja skills ha…	contresens	accepté	« and more » = et j’en passe
+remarque	R585	Fwahahahaha!\pI am KOGA of the ELITE FOUR.\pI live in shadows, a ninj…	contresens	refusé	« tel un ninja » rend bien l’anglais ; la correction met une majuscule fautive à « Poison »
+remarque	R586	Would you like to toggle the Unique\nShiny Colors setting?	contresens	accepté	« toggle » = activer ou désactiver
+remarque	R587	It's the news...\pThe POLICE are looking for this\nREDHEADED BOY!\pDo…	orthographe	accepté	la cédille est gardée sur les capitales (décision 14)
+remarque	R588	Ah, hahah! We have ourselves\na new angler in the making!	contresens	accepté	« new angler in the making » = pêcheur en herbe
+remarque	R589	How are things?\nDid you land the big one?	contresens	accepté	« land the big one » = un gros poisson, pas le gros lot
+remarque	R590	{STR_VAR_2}!\nOh, my gosh, this is a big one!\pIt might even beat the…	typographie	adapté	virgule ajoutée ; formule de remerciement actuelle gardée
+remarque	R591	The biggest SEEDOT in history!\n{STR_VAR_2}'s {STR_VAR_3} giant!\pA S…	oubli	accepté	« always wanted » rendu, « bigger » sans « encore »
+remarque	R592	{STR_VAR_2}!\nWow, that is big!\pIt might be even bigger than the hug…	contresens	accepté	« that is big », « big brother » rendus
+alerte	A185	{STR_VAR_2}!\nWow, that is big!\pIt might be even bigger than the hug…	LARGEUR	accepté	résolu par la reformulation
+remarque	R593	The biggest LOTAD in history!\n{STR_VAR_2}'s {STR_VAR_3} colossus!\pA…	oubli	accepté	« always wanted » rendu
+alerte	A169	The biggest LOTAD in history!\n{STR_VAR_2}'s {STR_VAR_3} colossus!\pA…	LARGEUR	accepté	résolu par la reformulation
+remarque	R594	This is the entrance to the\nunexplored branch... {PAUSE 0x0F}{PAUSE …	codes	refusé	mêmes octets ({PAUSE 15} = {PAUSE 0x0F}) : la graphie anglaise est rétablie à l’intégration (décision 5)
+alerte	A108	This is the entrance to the\nunexplored branch... {PAUSE 0x0F}{PAUSE …	FRAGMENT	refusé	faux positif : début réel pointé par un pointeur dans la ROM du patch ; sens conforme
+remarque	R595	Did you see the shrine honoring\nthe protector?\pIt watches over the …	orthographe	refusé	déjà corrigé dans le texte actuel (passage de style)
+remarque	R596	BUENA: No guess?\nCome back when you're ready!	contresens	accepté	« when you’re ready » rendu ; BONNIE → Buena (glossaire)
+remarque	R597	BUENA: You already guessed\ntoday's password!\pTune in again tomorrow!	contresens	refusé	« A demain, même heure! » est l’équivalent idiomatique de « Tune in again tomorrow! » ; seul le nom BONNIE → Buena (glossaire) est corrigé
+remarque	R598	PROF.OAK'S POKéMON TALK\pThe Hottest Show on the Air!	contresens	adapté	titre et slogan officiels de SoulSilver FR (66:7 « Chronique Pokémon du Professeur Chen: L’émission star sur vos ondes! »)
+remarque	R599	The SAILOR in the OLIVINE CAFE\nnext door is really generous.\pHe tau…	orthographe	accepté	nom commun en minuscule
+remarque	R600	There's a person in CIANWOOD\nCITY across the sea.\pI heard him bragg…	oubli	accepté	« I heard him » rendu
+remarque	R601	When you follow that path up north,\nyou will see MR. POKéMON’s house…	terminologie	adapté	Balls en casse normale ; ce sont les Balls de Fargas, pas des Poké Balls
+remarque	R602	ERIKA is a master of grass\nPOKéMON.\pShe'll make you pay if you don'…	terminologie	refusé	« Pokémon Plante » est la tournure SoulSilver FR ; pas d’erreur
+remarque	R603	I'm not a GBA kid, but I love\nplaying POKéMON games!\pIn the old gam…	terminologie	accepté	Multi Exp (SoulSilver FR)
+remarque	R604	Certain POKéMON start off weak and\nrequire much more EXP to become\l…	orthographe	accepté	Dresseurs avec majuscule
+remarque	R605	Fine! Teach you, I will!\pIf POKéMON come out in battle\neven briefly…	typographie	accepté	mise en page cassée (« mettre\nPokémon\pfaible ») corrigée, style « Yoda » gardé
+remarque	R606	POKéMON previously thought to\nonly evolve through trade can\pevolve …	contresens	accepté	« previously thought » rendu ; Peau Métal (SoulSilver FR)
+remarque	R607	BERRIES in the JOHTO region are\ngood for healing and making BALLS.\p…	terminologie	adapté	Balls (Balls de Fargas, pas Poké Balls) ; Johto, Kanto, Dojo en casse normale
+remarque	R608	Be aware that your opponents\nnow use teams with better type\lcoverag…	contresens	accepté	« better type coverage » rendu
+remarque	R609	The blackboard describes\nPOKéMON HM moves.\pHMs, once unlocked, don'…	oubli	accepté	sens de « don’t need to be taught to be used » rendu
+remarque	R610	It's this kid's notebook…\pCatch POKéMON using POKé BALLS.\pUp to six…	terminologie	accepté	Poké Balls (nom de l’objet)
+remarque	R611	People who catch and use\nPOKéMON in battle are POKéMON\ntrainers.\pT…	orthographe	accepté	pas de majuscule à « blanche »
+remarque	R612	Zzzzzz…\pWhat, how, what?\pOh, sorry, I was snoozing a bit.\pI'm the …	registre	adapté	les tuteurs du Frontier tutoient dans Émeraude FR (Lounge7) ; seul l’artefact « ELEMENTAIRE » est corrigé
+remarque	R613	Zzzzzz…\pWhat, how, what, who?\pOh, did you come to learn the\npower …	registre	refusé	les tuteurs de capacités du Frontier tutoient dans Émeraude FR (même salon)
+remarque	R614	Which move do you think is suitable\nfor your POKéMON?	registre	refusé	les tuteurs de capacités du Frontier tutoient dans Émeraude FR (même salon)
+remarque	R615	Powerful, but\nleaves the user\nimmobile one turn.	contresens	accepté	immobilisation rendue
+remarque	R616	Sorry. You don't have a rail PASS.	terminologie	accepté	anglais sur une ligne : réplique raccourcie sur une ligne
+remarque	R617	Before the MAGNET TRAIN STATION\nwas built, there was a house there.\…	terminologie	refusé	COPYCAT = la Copieuse dans SoulSilver FR (glossaire) ; « Photocopie » n’existe pas
+remarque	R618	STEVEN: You did it, {PLAYER}!\pThat battle was breathtaking.\pSeeing …	contresens	adapté	attention indésirable rendue ; STEVEN écrit « Pierre Rochard » comme « Pierre: » des textes Émeraude FR actuels du .po (artefact « Pierre ROCHARD »), légendaire en minuscules
+remarque	R619	Hi, how's my old VOLTORB doing?	typographie	accepté	anglais sur une ligne : réplique raccourcie sur une ligne
+remarque	R620	Wireless Communication is a\nlot of fun, isn't it?\pI think it lets y…	contresens	accepté	pas d’idée de « joindre »
+remarque	R621	The current is great for tubing.\nI don't think I'll tube anywhere el…	contresens	adapté	hésitation (« I don’t think ») rendue, négation complète, tient en largeur
+alerte	A171	The current is great for tubing.\nI don't think I'll tube anywhere el…	LARGEUR	accepté	résolu par la reformulation
+remarque	R622	Who are you?\pWell, it's plain to see that you're\na trainer…\pMy nam…	contresens	adapté	victoires et défaites en combat ; Dresseur ; Red et Badges comme SoulSilver FR
+remarque	R623	Who are you?\pWell, it's plain to see that you're\na trainer…\pMy nam…	contresens	adapté	victoires et défaites en combat ; Dresseur ; Red et Badges comme SoulSilver FR
+remarque	R624	Please forgive my colleague...\pThe drinks here are stronger than\nwh…	contresens	adapté	comparaison avec ce que boivent habituellement les chercheurs ; HOENN gardé en capitales
+remarque	R625	There are no GYM TRAINERS at the\nVIRIDIAN GYM.\pThe LEADER claims hi…	contresens	accepté	les GYM TRAINERS sont les subordonnés du Champion
+remarque	R626	The weird tree doesn't like the\nSQUIRTBOTTLE!\pThe weird tree attack…	terminologie	refusé	« CARAPUCE à O » est la graphie officielle SoulSilver FR (glossaire)
+remarque	R627	Wa-hey!\pI was going to snap that tree\nwith my straight-arm punch.\p…	contresens	accepté	« straight-arm » = bras tendu ; échec au passé
+remarque	R628	Did you clear that wretched tree?\pI'm impressed!\nI want you to have…	contresens	accepté	« clear » : l’arbre (SIMULARBRE) est écarté, pas coupé
+remarque	R629	I misread you!	contresens	accepté	reprend « Je vais lire dans tes pensées! » dit avant le combat
+remarque	R630	Darn. I study five hours a day too.\pThere's more to learning than ju…	oubli	refusé	« Pourtant » rend déjà l’insistance de « too »
+remarque	R631	TRAINER TIPS\nPOKéMON stats vary--even within\lthe same species.\pThe…	typographie	adapté	casse du titre corrigée (Conseils aux Dresseurs, style SoulSilver), texte du patch gardé
+alerte	A165	TRAINER TIPS\nPOKéMON stats vary--even within\lthe same species.\pThe…	LARGEUR	accepté	ligne de 199 px coupée
+remarque	R632	TRAINER TIPS\nUse DIG to return to the entrance of\nany place.\pIt is…	typographie	adapté	titre séparé du texte ; casse SoulSilver « Conseils aux Dresseurs »
+remarque	R633	The legendary POKéMON are said\nto embody three powers…\pThe lightnin…	typographie	accepté	« tour » nom commun, pas de capitales
+remarque	R634	Of the legendary POKéMON, SUICUNE\nis said to be the closest to HO-OH…	terminologie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R635	An unusual white rock.\nThe color reminds you of the moon.\pTouch it?	oubli	accepté	« reminds you » : te rappelle
+remarque	R636	MT.MOON SQUARE\nDON'T LITTER	typographie	accepté	artefact de casse « PLACE DU Mont Sélénite »
+remarque	R637	Yes, what is it now?\pI have business that needs tending!\nSave it fo…	contresens	accepté	« urgentes » est un ajout
+remarque	R638	I've been to many GYMS, but the\nGYM in GOLDENROD is my favorite.\pIt…	oubli	accepté	c’est l’Arène de Doublonville, pas la ville, qui est préférée
+remarque	R639	ROUTE 46\nMOUNTAIN RD. AHEAD	typographie	accepté	artefact de casse « Plus »
+remarque	R640	AZALEA POKéMON GYM	typographie	accepté	artefact de casse « D’ECORCIA »
+remarque	R641	AZALEA TOWN POKéMON GYM\pBUGSY'S CERTIFIED TRAINERS:\n{PLAYER}	typographie	accepté	artefacts de casse « D’ECORCIA », « RECONNUS PAR »
+remarque	R642	TM89 contains U-TURN.\pU-TURN lets you do damage and\nswitch your POK…	contresens	accepté	c’est le joueur qui change de Pokémon
+remarque	R643	Bug POKéMON are deep. There are\nmany mysteries to be explored.\pStud…	terminologie	accepté	« Pokémon Insecte » comme SoulSilver FR
+remarque	R644	Bug POKéMON are cool and tough!\nI'll prove it to you!	terminologie	accepté	« Pokémon Insecte » comme SoulSilver FR
+remarque	R645	They're so cool, but most girls\ndon't like bug POKéMON.\pI don't kno…	oubli	accepté	il s’agit des Pokémon Insecte, pas des insectes
+remarque	R646	AMY: Hi! Are you challenging\nthe LEADER? No way!	terminologie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R647	AMY & MAY: Oh, double\ngoodness!	contresens	accepté	« goodness » est une exclamation de surprise, pas un malheur
+remarque	R648	AMY: You're really strong!\pBut BUGSY's even stronger!\nHis SCYTHER's…	typographie	adapté	ligne trop large : « un coup critique » au lieu d’une 4e ligne
+alerte	A130	AMY: You're really strong!\pBut BUGSY's even stronger!\nHis SCYTHER's…	LARGEUR	adapté	reformulé plus court plutôt que reformaté (sens des lignes gardé)
+remarque	R649	MAY: You want to see the\nLEADER? Good luck!\pBUGSY is so strong!\nHi…	contresens	adapté	« crit » = coup critique ; formulation plus courte
+remarque	R650	MAY: Our bug POKéMON lost!\nOh, what a shame.\pBUGSY's won't lose tho…	terminologie	accepté	« Pokémon Insecte » comme SoulSilver FR
+remarque	R651	Yo, challenger!\pBUGSY's young, but his knowledge\nof bug POKéMON is …	oubli	accepté	il s’agit des Pokémon Insecte
+remarque	R652	BUGSY: I came to KANTO to look for\nBUG-TYPE POKéMON, so I can become…	typographie	accepté	Kanto, Dojo : graphies SoulSilver FR
+remarque	R653	THOM: That wasn't what I expected.\lKAE: You're unusual too!	orthographe	adapté	construction fautive corrigée sans ajouter de ligne
+remarque	R654	CINNABAR POKéMON GYM\nLEADER: BLAINE\pWINNING TRAINERS:\nBLUE, RED	typographie	adapté	« de » en minuscules ; Blue, Red comme SoulSilver FR (pas BLUE, RED)
+remarque	R655	CINNABAR POKéMON GYM\nLEADER: BLAINE\pWINNING TRAINERS:\nBLUE, RED, {…	typographie	adapté	« de » en minuscules ; Blue, Red comme SoulSilver FR
+remarque	R656	This TM contains\nthe awesome OVERHEAT!\pThe overwhelming heat scorch…	terminologie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R657	BLAINE: Waaah!\pMy GYM in CINNABAR burned down.\pMy fire-breathing PO…	terminologie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R658	BLAINE: Awesome. I've burned out…\pYou've earned VOLCANOBADGE!	terminologie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R659	{PLAYER} received VOLCANOBADGE.	typographie	accepté	Badge Volcan comme SoulSilver FR
+remarque	R660	BLAINE: Your skills are truly fiery!\pYou've burned right through my\…	terminologie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R661	A POKéMON GYM can be anywhere as\nlong as the GYM LEADER is there.\pT…	terminologie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R662	{PLAYER}, isn't it?\pA brat like you won't appreciate\nthe magnificen…	terminologie	accepté	Team Rocket (graphie du projet)
+remarque	R663	Oh? You managed to get this far?\pYou must be quite the trainer.\pWe …	contresens	accepté	« should bring » : retour souhaité, pas certain ; casse station de radio, Giovanni
+remarque	R664	There used to be a tower right here\nin GOLDENROD CITY.\pBut it was o…	typographie	accepté	seul « BUREAU » restait en capitales (le reste est déjà corrigé)
+remarque	R665	There used to be a tower right here\nin GOLDENROD CITY.\pBut it was o…	typographie	accepté	seul « BUREAU » restait en capitales
+remarque	R666	Ah!\pThat reminds me…\pThat wing I gave you... I think\nit's related …	typographie	accepté	adjectif « légendaire » en minuscules
+remarque	R667	CERULEAN POKéMON GYM\nLEADER: MISTY\pWINNING TRAINERS:\nBLUE, RED	typographie	adapté	« d’Azuria » ; Blue, Red comme SoulSilver FR (pas BLUE, RED)
+remarque	R668	CERULEAN POKéMON GYM\nLEADER: MISTY\pWINNING TRAINERS:\nBLUE, RED, {P…	typographie	adapté	« d’Azuria » ; Blue, Red comme SoulSilver FR
+remarque	R669	Hey, you! Forget you see me,\nokay?\pYou see, hear, know nothing,\pok…	terminologie	refusé	« minus » est un nom commun ; aucune graphie prescrite
+remarque	R670	MISTY: Are there many strong\ntrainers in JOHTO? Like you, I\lmean.\p…	orthographe	refusé	« à Johto » est l’usage de SoulSilver FR ; seule la casse JOHTO est corrigée
+remarque	R671	Ooh, you calmly disposed of me…	contresens	refusé	« en douceur » rend acceptablement « calmly » ; la correction n’est pas meilleure
+remarque	R672	Don't be too smug about beating\nme.\pMISTY will destroy you if you g…	terminologie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R673	TM 64 contains........\ptick-\n            tock\ltick-\l            t…	typographie	accepté	mise en page en escalier de l’anglais rétablie (effet voulu)
+remarque	R674	We're the KANTO POKéMON FEDERA-\nTION!\nRight on!	typographie	accepté	artefact de casse « FEDERATION Pokémon DE KANTO »
+remarque	R675	I just want to see the MAGNET\nTRAIN…	typographie	accepté	« Train Magnétique » comme SoulSilver FR
+remarque	R676	GYM BADGES give you advantages in\nbattles.	typographie	accepté	artefact de casse « D’ARENE »
+remarque	R677	There were rumours that some\nPOKéMON evolve only by\lbeing traded vi…	terminologie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R678	ROUTE 1\pPALLET TOWN - VIRIDIAN CITY	typographie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R679	Yo!\nChamp in the making!\pLT. SURGE has a nickname.\pPeople refer to…	terminologie	adapté	« Pokémon Electrik » gardé ; reformulation de la phrase Vol/Eau inutile
+remarque	R680	Do you know LILY?\nShe's a hot DJ in KANTO.	typographie	accepté	Kanto (SoulSilver FR)
+remarque	R681	LILY's nice, but\nMARY's the best!\nI want to check\nout JOHTO's radi…	typographie	adapté	Johto en casse normale ; la DJ Mary s’appelle Lula dans SoulSilver FR (pas Marie)
+remarque	R682	ELDER: You are indeed skilled\nas a trainer.\pAs promised, here is yo…	terminologie	accepté	SoulSilver FR nomme ce personnage « Ancien » (banque 56)
+remarque	R683	…\n…Humph!\pHe claims to be the ELDER but\nhe's weak.\pIt stands to r…	terminologie	accepté	« Ancien » comme SoulSilver FR
+remarque	R684	FLASH illuminates even the\ndarkest of all places.\pBut to use it out…	oubli	refusé	« le Badge de Mauville » désigne sans ambiguïté le Badge de l’Arène
+remarque	R685	The ELDER's HM lights even\npitch-black darkness.	terminologie	accepté	« Ancien » comme SoulSilver FR
+remarque	R686	When I was hitting the slopes, my\nskis snagged on something.\pIt was…	orthographe	adapté	gérondif mal rattaché corrigé ; jeu de mots Plaque Ciel gardé (Plaque bleu Ciel)
+remarque	R687	You....\pYou must be {PLAYER}, correct?\nI've heard all about you and…	oubli	accepté	« about you and your deeds » : toi et tes exploits
+remarque	R688	The sign is faded.\nROUTE 49	contresens	refusé	« Le panneau est effacé » est idiomatique ; pas de contresens
+remarque	R689	Hey, kid! Me am a TEAM ROCKET\nmember kind of guy!\pCome from another…	terminologie	accepté	« Dresseurs » avec majuscule (glossaire)
+remarque	R690	OK. Tell you mine secret will I?\nMACHINE PART steal by me, hide it\l…	terminologie	accepté	Team Rocket, Johto (artefacts de casse)
+remarque	R691	Was that a ROCKET?	terminologie	refusé	« un Rocket » rend exactement « a ROCKET »
+remarque	R692	I am CLAIR.\pThe world's best dragon master.\pI can hold my own again…	typographie	accepté	artefact du passage de style (D’ARENE) et casse de Dresseuse
+remarque	R693	I won't admit this.\pI may have lost, but you're still\nnot ready for…	contresens	refusé	« idéaux paresseux » calque fidèlement « lazy ideals » ; la correction perd l’idée
+remarque	R694	What's the matter?\pAren't you headed to the POKéMON\nLEAGUE?\pDon't …	typographie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R695	You did it, huh?\pYou are now the JOHTO CHAMP.	typographie	adapté	casse « de Johto » corrigée ; la ligne tient (190 px), reformulation inutile
+remarque	R696	You did it, huh?\pYou are now the JOHTO CHAMP.\pYou've proven your st…	orthographe	accepté	titre au féminin pour Sandra ; texte manuel
+remarque	R697	Rats! If only I had a DRAGONITE!	typographie	refusé	deux lignes dans une boîte de dialogue : pas de problème ; la correction perd « Zut »
+remarque	R698	Yo! CHAMP in making!\pIt's been a long journey, but we\nare almost do…	typographie	refusé	« Dragon » est déjà en casse normale ; la correction met à tort SANDRA en capitales ; seule la casse PETER → Peter est corrigée
+remarque	R699	You were great to beat CLAIR!\pShe can be a bit of a sore loser,\ntho…	typographie	adapté	casse « l’Antre du Dragon » (glossaire) corrigée, phrase du patch gardée
+remarque	R700	You were great to beat CLAIR!\pAll that's left is the POKéMON\nLEAGUE…	terminologie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R701	BLACKTHORN CITY POKéMON GYM\pCLAIR'S CERTIFIED TRAINERS:\n{PLAYER}	terminologie	accepté	artefacts de casse ; Ebènelle (glossaire)
+remarque	R702	MACHOKE, help us move that boulder!	typographie	refusé	deux lignes dans une boîte de dialogue : pas de problème ; la correction perd « aide-nous »
+remarque	R703	Hey, kid! You're holding us up!\pOur policy is to work behind the\nsc…	typographie	accepté	ligne trop large ; reformulation fidèle et plus courte
+alerte	A140	Hey, kid! You're holding us up!\pOur policy is to work behind the\nsc…	LARGEUR	adapté	reformulé plutôt que reformaté (évite « voit! » seul)
+remarque	R704	Oohah! Oohah!\pWhat do you need kid?\lI'm working here!	typographie	refusé	ligne sous 198 px : mise en page seule
+remarque	R705	Not bad for a JOHTO kid!	typographie	refusé	la virgule est admise ; seule la casse JOHTO est corrigée
+remarque	R706	JOHTO punks can only win once!	typographie	refusé	deux lignes en boîte de dialogue : pas de problème ; seule la casse JOHTO est corrigée
+remarque	R707	Maybe I should train in JOHTO\nafter all.	orthographe	refusé	« à Johto » est l’usage SoulSilver FR ; « à nouveau » est un ajout ; casse corrigée
+remarque	R708	I'll keep training to be as cool\nas you, kid!	oubli	accepté	« keep training » : continuer à s’entraîner
+remarque	R709	I met a trainer like you in UNOVA.\nDon't crash out!	typographie	accepté	« Dresseur » avec majuscule ; Unys en casse normale comme Kanto/Johto
+remarque	R710	Oh, man… My boss is going to be\nsteaming…\pThe FARFETCH'D that CUTS …	typographie	adapté	verbe « coupe » en minuscules ; « nos arbres » du patch gardé
+remarque	R711	Wow! Thanks a whole bunch!\pMy boss' POKéMON won't obey me\nbecause I…	typographie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R712	A POKéMON I've never seen before\nfell out of the tree when I used\lH…	typographie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R713	It's a photo of people fishing…\pThey're having a great time…	typographie	refusé	ligne sous 198 px : mise en page seule
+remarque	R714	LANCE: I remember, it wasn't long ago\nI stood here, welcoming you as…	oubli	accepté	« once again » et « perhaps even the greatest » rendus ; Johto/Kanto en casse normale
+remarque	R715	Maybe I'm just a pawn after all.	typographie	refusé	deux lignes en boîte de dialogue : pas de problème
+remarque	R716	I've learned from geology!\nLet's go!	contresens	adapté	« tout » exagère ; « beaucoup » plus naturel que « m’en a appris »
+remarque	R717	Ahoy!\nThis port is for residents only.\pAll of the residents of thes…	contresens	accepté	c’est le contrôle des billets qui est inutile
+remarque	R718	Hold it.\pYou're going to take the POKéMON\nLEAGUE challenge now?\pTh…	contresens	accepté	« Compte là-dessus! » ambigu ; « Pas question! » rend le refus
+remarque	R719	Ah! You're challenging the ELITE\nFOUR? Are you sure you're ready?\pI…	typographie	accepté	artefact de casse « TELEPORTer »
+remarque	R720	I'm glad you're here!\nWelcome to my villa!\pI'm staying here while I…	typographie	adapté	seule la dernière ligne dépasse ; raccourcie sans perdre « phénomène »
+alerte	A146	I'm glad you're here!\nWelcome to my villa!\pI'm staying here while I…	LARGEUR	adapté	reformulé plus court (« surtout ») plutôt que reformaté
+remarque	R721	The ALOLA ISLES must truly be special if\nthe Guardians themselves vi…	typographie	refusé	ligne sous 198 px : mise en page seule
+remarque	R722	Wow, {PLAYER}!\nYou really are a powerful Trainer!\pYou've proven wor…	oubli	adapté	compliment « powerful Trainer » rendu ; reste du patch gardé
+remarque	R723	Hello again, {PLAYER}!\pHow's your research on the ALOLA ISLES\ncomin…	orthographe	refusé	« re-bonjour » est une graphie admise
+remarque	R724	You found all the Alolan variants living\non MELEMELE ISLE!	typographie	refusé	ligne sous 198 px : mise en page seule
+remarque	R725	And it looks like you've found all the\nAlolan variants on the other …	oubli	accepté	« be very proud of yourself » rendu
+remarque	R726	You've helped me validate that all\nof the Alolan variants are presen…	contresens	refusé	la question « Qui sait qui t’observe » exprime déjà l’incertitude ; « adversaire digne » clair
+remarque	R727	Let me take a look at your POKéDEX{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p…	codes	accepté	graphie anglaise des codes COLOR rétablie (mêmes octets, décision 5)
+remarque	R728	You found all the Alolan variants living\non AKALA ISLE!	typographie	refusé	ligne sous 198 px : mise en page seule
+remarque	R729	Now that you've helped me validate that\nall of the Alolan variants a…	contresens	refusé	la question exprime déjà l’incertitude ; pas de contresens
+remarque	R730	Let me take a look at your POKéDEX{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p…	codes	accepté	graphie anglaise des codes COLOR rétablie (mêmes octets, décision 5)
+remarque	R731	You found all the Alolan variants living\non ULA'ULA ISLE!	typographie	refusé	ligne sous 198 px : mise en page seule
+remarque	R732	Let me take a look at your POKéDEX{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p…	codes	accepté	graphie anglaise des codes COLOR rétablie (mêmes octets, décision 5)
+remarque	R733	You found all the Alolan variants living\non PONI ISLE!	typographie	refusé	ligne sous 198 px : mise en page seule
+remarque	R734	Let me take a look at your POKéDEX{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p…	codes	accepté	graphie anglaise des codes COLOR rétablie (mêmes octets, décision 5)
+remarque	R735	CLAIR: WAIT!\pI'm sorry about this.\nHere, take this as my apology.	orthographe	adapté	« en excuse » fautif ; « en guise d’excuse » garde le registre
+remarque	R736	DRAGON PULSE is a kind of er...\nnever mind!\pIt's a huge energy of s…	terminologie	accepté	Dracochoc (glossaire)
+remarque	R737	What's the matter? Aren't\nyou going on to the POKéMON\lLEAGUE?\pAfte…	contresens	adapté	« any GYM LEADER you want » rendu ; « surfe » en minuscules (pas « fais Surf »)
+remarque	R738	…\nWhat? {PLAYER}?\p…No, I won't battle you now…\pMy POKéMON aren't r…	contresens	adapté	« leur en demander » plus clair ; reste du texte (dont « Dresseur de Pokémon ») gardé
+remarque	R739	I'm a researcher from... Uhh...\nthe PEWTER CITY museum!\pAn unusual …	contresens	accepté	« show me » porte sur toute trouvaille, pas seulement la flûte
+remarque	R740	Ready to search for more artifacts?	oubli	refusé	« On repart chercher…? » rend naturellement « Ready to search…? »
+remarque	R741	Would you get this?\pSome {RIVAL} guy made fun of my\nPOKéMON!\pDarn …	contresens	accepté	« My POKéMON's great » : un seul Pokémon
+remarque	R742	ROUTE 43\pLAKE OF RAGE - MAHOGANY TOWN	terminologie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R743	Oh, {PLAYER}.\nIsn't the fountain lovely today?\pIf you wish for anot…	oubli	adapté	« today » rendu par « aujourd’hui » (pas « ce soir ») ; Dojo en casse normale
+alerte	A92	Oh, {PLAYER}.\nIsn't the fountain lovely today?\pIf you wish for anot…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens conforme
+remarque	R744	CELADON DEPT.STORE has the biggest\nand best selection of merchandise…	oubli	refusé	« le plus grand choix » et « On dirait un vendeur » rendent bien l’anglais ; casse corrigée
+remarque	R745	The Playground for Everybody--\nCELADON GAME CORNER	typographie	accepté	artefact de casse « DE »
+remarque	R746	TRAINER TIPS\pGUARD SPEC. protects POKéMON\nagainst SPECIAL attacks s…	typographie	adapté	titre « Conseils aux Dresseurs » (SoulSilver FR), « spéciales », Centre Commercial ; pas d’article ajouté
+remarque	R747	STEVEN: You are... I remember your\neyes.\pWhen I see a trainer whose…	terminologie	adapté	étiquette « Pierre: » comme les textes Émeraude FR du .po ; « de » renvoyé à la ligne 2
+alerte	A162	STEVEN: You are... I remember your\neyes.\pWhen I see a trainer whose…	LARGEUR	accepté	ligne de 199 px corrigée
+remarque	R748	Only employees are permitted to\ngo upstairs.\pBut since you came suc…	registre	accepté	le personnel d’accueil vouvoie (officiels)
+remarque	R749	{PLAYER} found the ROOT FOSSIL.	terminologie	accepté	« Foss. Racine » comme le nom d’objet et les textes Émeraude FR
+remarque	R750	{PLAYER} found the CLAW FOSSIL.	terminologie	accepté	« Foss. Griffe » comme le nom d’objet et les textes Émeraude FR
+remarque	R751	Sorry…\nI'm frustrated by our lack of\preal understanding…	contresens	accepté	il s’agit de la compréhension des ruines, pas d’un malentendu
+remarque	R752	MYSTERY STONE PANEL CHAMBER	oubli	refusé	« panneaux mystérieux » suffit ; pas d’appellation officielle SoulSilver FR trouvée
+remarque	R753	RUINS OF ALPH RESEARCH CENTER\pTHE AUTHORITY ON THE\nRUINS OF ALPH	typographie	adapté	casse homogène (Ruines d’Alpha, glossaire) sans changer le texte
+remarque	R754	While exploring the RUINS, we\nsuddenly noticed an odd presence.\pWe …	oubli	accepté	la peur avant la fuite est rendue
+remarque	R755	There are many kinds of UNOWN, so\nwe use them for our secret codes.	contresens	refusé	« on en fait des codes secrets » = on s’en sert pour des codes ; correct
+remarque	R756	CIANWOOD CITY POKéMON GYM\pCHUCK'S CERTIFIED TRAINERS:\n{PLAYER}	typographie	adapté	casse normale (comme les autres panneaux d’Arène), pas tout en capitales
+remarque	R757	WAHAHAH!\pSo you've come this far!\pLet me tell you, I'm tough!\pMy P…	orthographe	refusé	masculin générique comme les officiels ; la correction est agrammaticale
+remarque	R758	That is FOCUS PUNCH.\pIt moves slow but deals huge\ndamage. Just don'…	oubli	accepté	ligne trop large raccourcie, sens gardé
+alerte	A167	That is FOCUS PUNCH.\pIt moves slow but deals huge\ndamage. Just don'…	LARGEUR	adapté	reformulé plus court plutôt que reformaté
+remarque	R759	ELM: {PLAYER}! There you are!\pI needed to ask you a favor.\pI'm cond…	oubli	adapté	« recently caught » rendu sans perdre « j’ai capturé »
+remarque	R760	When I announce my findings,\nI'm sure we'll delve deeper\pinto the m…	contresens	accepté	« delve deeper » : approfondir, pas résoudre
+remarque	R761	I want you to raise one of\nthe POKéMON contained in these BALLS.\pYo…	oubli	accepté	« first partner » rendu ; Balls en casse normale
+remarque	R762	But… Is it a POKéMON EGG?\pIf it is, it is a great\ndiscovery!\pELM: …	contresens	adapté	« parler à ta maman » accepté, mais Œuf gardé (pas OEUF) ; Prof. Chen, Dresseurs
+remarque	R763	The EGG hatched! So, POKéMON\nare born from EGGS…\pNo, perhaps not al…	orthographe	refusé	« a éclos » est correct ; seul l’artefact L’OEUF est corrigé en L’Œuf
+remarque	R764	That's an EVERSTONE.\pSome species of POKéMON evolve\nwhen they grow …	terminologie	accepté	Pierre Stase (glossaire)
+remarque	R765	By the way...\nA group of beautiful KIMONO\lGIRLS were looking for yo…	terminologie	adapté	Salle de Danse de Rosalia (SoulSilver FR), Kimonos ; Œuf gardé (pas OEUF)
+remarque	R766	PROF.ELM: Hahaha...\nGood job!\pThat rare EGG has brought you\na lot …	orthographe	refusé	masculin générique comme les officiels ; casse Kimonos / Plateau Indigo corrigée
+remarque	R767	ELM: {PLAYER}! There you are!\pI called because I have\nsomething for…	oubli	refusé	« Je t’ai fait venir » rend « I called » ; seule la casse KANTO est corrigée
+remarque	R768	The ship departs from OLIVINE\nCITY.\pBut you knew that already,\n{PL…	contresens	accepté	« all over » : un peu partout ; Prof. Chen, Kanto en casse SoulSilver
+remarque	R769	{PLAYER}, I want you to have\nthis for your errand.	contresens	accepté	« course » ambigu ; « mission » rend « errand »
+remarque	R770	There are only three of us, so\nwe're always busy.	oubli	accepté	« always busy » : toujours occupés (correspondance du patch par pointeur dit aussi « toujours »)
+remarque	R771	I heard a POKéMON was stolen\nhere…\pI was just getting some\ninforma…	typographie	accepté	« Dresseur » avec majuscule (glossaire)
+remarque	R772	Island life here is so peaceful!\pAnd it's nice that my grandkids are…	oubli	accepté	« it’s nice » rendu ; Kanto en casse normale
+alerte	A84	Island life here is so peaceful!\pAnd it's nice that my grandkids are…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens conforme
+remarque	R773	My dear POKéMON keep me company,\nso I don't ever feel lonely.\pMEOWT…	contresens	adapté	« lonely » : seul, en gardant « jamais »
+remarque	R774	1F SERVICE COUNTER\nYOU ARE HERE.\p2F TRAINER'S MARKET\p3F BATTLE COL…	typographie	adapté	panneau en capitales ; « MARCHE DU DRESSEUR » comme SoulSilver FR (Marché du Dresseur)
+remarque	R775	That BADGE will raise the SPECIAL\nATTACK of POKéMON.\pIt also lets y…	terminologie	adapté	« AS » est une abréviation de menu ; en dialogue « Attaque Spéciale » (SoulSilver FR) ; Siphon gardé
+remarque	R776	Ah, JOHTO CHAMPION!\pYour skills are indeed\nremarkable.\pI am impres…	typographie	refusé	lignes sous 198 px : mise en page seule
+remarque	R777	Ah, yet again I'm impressed by\nyour prowess.\pWith your strong will,…	oubli	accepté	« all life’s obstacles » rendu
+remarque	R778	PRYCE is a veteran who has\ntrained POKéMON for some 50 years.\pHe's …	oubli	accepté	« some 50 years » : près de 50 ans
+remarque	R779	The NATIONAL PARK has different\nPOKéMON during the BUG-CATCHING\lCON…	typographie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R780	{RIVAL}: You were watching me,\n{PLAYER}...\pYeah, that's right!\pI n…	contresens	accepté	« I’m not going back » : il n’y retourne pas ; casse Kimonos corrigée
+remarque	R781	Oh, no. Oh, no…\pMy daughter is missing.\pNo… She couldn't have gone …	contresens	accepté	« not to go near it » et rumeur (« seem to ») rendus
+remarque	R782	I'm going to practice at the DANCE\nTHEATER. Care to join me?	typographie	adapté	nom officiel SoulSilver FR « Salle de Danse » ; « Tu viens avec moi? » gardé
+remarque	R783	The POKéMON at OLIVINE LIGHTHOUSE\nhas been cured.\pBoats can safely …	oubli	adapté	« safely » rendu ; premier saut de page en \n (la correction mettait \l)
+remarque	R784	I hear POKéMON are rampaging at the\nLAKE OF RAGE. I'd like to see th…	terminologie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R785	In the distant past…\pThis tower burned in a fire. Three\nnameless PO…	oubli	accepté	« from the sky » rendu ; casse Champions corrigée
+remarque	R786	MAY: You just became a TRAINER,\n{PLAYER}{KUN}. I'm not going to lose!	codes	accepté	codes {PLAYER}{KUN} rétablis ; « just became » au lieu de « trop jeune »
+alerte	A10	MAY: You just became a TRAINER,\n{PLAYER}{KUN}. I'm not going to lose!	CODES	accepté	codes de l’anglais rétablis
+remarque	R787	...Zzz...\p...Umm... Rest!\pThe phrase 'recover fast' became\nshorten…	contresens	refusé	jeu de mots intraduisible ; l’adaptation du patch fonctionne, la correction n’a pas de sens en français
+remarque	R788	ROUTE 31\pVIOLET CITY - CHERRYGROVE CITY	terminologie	refusé	Mauville est bien VIOLET CITY dans SoulSilver FR ; correction identique
+remarque	R789	THIS MACHINE WILL TRANSFORM\nA POKéMON INTO ITS GALARIAN FORM\lTHIS P…	orthographe	refusé	construction correcte ; la correction retire le é de POKéMON
+alerte	A56	THIS MACHINE WILL TRANSFORM\nA POKéMON INTO ITS GALARIAN FORM\lTHIS P…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens conforme
+remarque	R790	POKéMON NOT DETECTED.	typographie	accepté	artefact de casse « DETECTE »
+remarque	R791	My grandson BILL told me about\na POKéMON that has sharp claws,\la ch…	contresens	accepté	« charm » = breloque (pièce de MIAOUSS), pas un sortilège
+remarque	R792	BILL mentioned a POKéMON that\nruns around in a zigzag\lpattern.\pIt'…	contresens	refusé	« fouineur » convient (ZIGZATON ramasse des objets) ; la correction invente la nourriture
+remarque	R793	Thanks for showing me so many\ncute POKéMON.\pI really enjoyed myself…	registre	accepté	le grand-père tutoie dans toutes ses autres répliques
+remarque	R794	LAKE OF RAGE is back to normal.\pThe MAGIKARP have returned.\pI may y…	typographie	adapté	espace des milliers harmonisée ; « Je t’offre » du patch gardé
+remarque	R795	That's SHADOW BALL.\nIt causes damage and may\llower SP. DEF.\pUse it…	terminologie	adapté	« DS » est une abréviation de menu ; en dialogue « Défense Spéciale »
+remarque	R796	Ah, the JOHTO CHAMPION!\nGood of you to come.\pYou've shown strength …	typographie	refusé	lignes sous 198 px : mise en page seule
+remarque	R797	I spent the spring with my\nPOKéMON.\pThen summer, fall, and winter..…	typographie	refusé	déjà en casse normale ; ligne sous 198 px
+remarque	R798	Hey CHAMP! You're almost\nhalfway there!\pTrainers here use GHOST and…	terminologie	refusé	graphies déjà conformes ; « on utilise » rend « Trainers here use »
+remarque	R799	ZUKI: Go, face LUGIA. 	terminologie	accepté	nom SoulSilver FR de Zuki : Tamao (tm_ss_pairs, banque 618)
+alerte	A45	ZUKI: Go, face LUGIA. 	ESPACE	accepté	espace finale de l’anglais rétablie
+remarque	R800	NAOKO: Go, face LUGIA. 	terminologie	adapté	nom SoulSilver FR de Naoko : Umeko (tm_ss_pairs, banque 618) ; ChatGPT proposait Koume
+alerte	A40	NAOKO: Go, face LUGIA. 	ESPACE	accepté	espace finale de l’anglais rétablie
+remarque	R801	MIKI: Go, face LUGIA. 	terminologie	accepté	nom SoulSilver FR de Miki : Satsuki (tm_ss_pairs, banque 618)
+alerte	A38	MIKI: Go, face LUGIA. 	ESPACE	accepté	espace finale de l’anglais rétablie
+remarque	R802	SAYO: Go, face LUGIA. 	terminologie	accepté	nom SoulSilver FR de Sayo : Sakura (tm_ss_pairs, banque 618)
+alerte	A42	SAYO: Go, face LUGIA. 	ESPACE	accepté	espace finale de l’anglais rétablie
+remarque	R803	KUNI: Go, face LUGIA. 	terminologie	accepté	nom SoulSilver FR de Kuni : Komomo (banques 310, 618)
+alerte	A36	KUNI: Go, face LUGIA. 	ESPACE	accepté	espace finale de l’anglais rétablie
+remarque	R804	You seem to be good at\nPOKéMON.\pIf you are, how about\ngiving me so…	typographie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R805	I know something good!\pMOOMOO FARM's milk is\nfamous for its flavor.	terminologie	accepté	« Ranch Meumeu » : nom SoulSilver FR (banques 396, 728)
+remarque	R806	ROUTE 38\pOLIVINE CITY - ECRUTEAK CITY	typographie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R807	NO SWIMMING OR FISHING.\nWATER FOR FARMING ONLY.\p-ECRUTEAK COUNCIL	typographie	adapté	artefacts de casse : panneau mis entièrement en casse normale (EAU = terme du glossaire)
+remarque	R808	I've seen you a couple times.\nHow many POKéMON have you caught?\pWou…	contresens	adapté	« a couple times » : quelques fois (pas « souvent », ni « deux fois » littéral)
+remarque	R809	If you weaken them first,\nPOKéMON are easier to catch.\pThen, throw …	terminologie	adapté	Académie Pokémon (SoulSilver FR), Ball en casse normale ; reste du patch gardé
+remarque	R810	Oh. Fine, then.\pCheck every route to find\ndifferent types of POKéMO…	terminologie	accepté	Académie Pokémon (SoulSilver FR)
+remarque	R811	TUSCANY: I do believe that this\nis the first time we've met?\pI'm TU…	terminologie	accepté	Tuscany = Marie, du mardi (SoulSilver FR) ; casse « jours de la semaine »
+remarque	R812	TUSCANY: Wouldn't you agree\nthat it is most adorable?\pIt strengthen…	terminologie	adapté	Tuscany = Marie ; « certaine » du patch gardé
+remarque	R813	TUSCANY: Have you met MONICA,\nmy older sister?\pOr my younger brothe…	terminologie	accepté	Monica = Lucie, Wesley = Homer (SoulSilver FR, banques 367 et 752)
+remarque	R814	BRENDAN: By the way, {PLAYER}, I walked\nby MR. BRINEY in PETALBURG W…	codes	accepté	{PLAYER} rétabli ; « any pages » et « how far you’ve progressed » rendus
+alerte	A8	BRENDAN: By the way, {PLAYER}, I walked\nby MR. BRINEY in PETALBURG W…	CODES	accepté	code {PLAYER} rétabli
+alerte	A131	BRENDAN: By the way, {PLAYER}, I walked\nby MR. BRINEY in PETALBURG W…	LARGEUR	accepté	ligne de 207 px (et espace avant \n) corrigée
+remarque	R815	There you go, {PLAYER}!\pI added a new feature named\nMATCH CALL to y…	codes	adapté	{PLAYER} et ROCHARD rétablis ; MATCH PHONE et PRESIDENT gardés comme Émeraude FR
+alerte	A14	There you go, {PLAYER}!\pI added a new feature named\nMATCH CALL to y…	CODES	accepté	code {PLAYER} rétabli
+remarque	R816	You brought the MAGNET TRAIN PASS,\nright?	typographie	accepté	« Train Magnétique » comme SoulSilver FR
+remarque	R817	I thought you had it!	registre	accepté	l’employé de la gare vouvoie dans la réplique précédente
+remarque	R818	Top Grade Items for Trainers!\p2F: TRAINER'S MARKET	terminologie	accepté	« Marché du Dresseur » : nom SoulSilver FR (banques 494, 495)
+remarque	R819	I'm thinking of moving to the ALOLA\nregion with my son, ELIO.\pWe're…	orthographe	adapté	« en avoir un avant-goût » ; ALOLA, ELIO, ILES gardés en capitales comme les autres textes Alola
+remarque	R820	I was tough at the TRAINER HILL…	typographie	accepté	artefact de casse « MONT Dresseurs »
+remarque	R821	Have you been to the TRAINER HILL?\pI never, ever lose there, but…	typographie	accepté	artefact de casse « MONT Dresseurs »
+remarque	R822	ROUTE 45\nMOUNTAIN RD. AHEAD	typographie	adapté	artefact « Plus » corrigé, panneau en capitales comme ROUTE 46
+remarque	R823	{PLAYER} received SECRET POTION.	terminologie	accepté	« Potionsecret » : nom SoulSilver FR de l’objet (banques 94, 222)
+remarque	R824	PROTON: Now wait just one second!\pAren't you the one who got in our\…	terminologie	adapté	« Commandant » (SoulSilver FR, banque 68) accepté ; reformulation de la 2e page inutile
+remarque	R825	MARY: It's good for dodging the\nenemy's attacks.	terminologie	accepté	la DJ Mary s’appelle Lula dans SoulSilver FR (banque 68)
+remarque	R826	Once upon a time, there was a\nlittle boy who was given a new\lBICYCL…	contresens	adapté	« oblivion » = néant (pas l’oubli) ; passé simple « voulut » accepté
+remarque	R827	That's it! That's a real living CELEBI!!\pThank you show much for bri…	oubli	adapté	« for me to see » rendu (me l’avoir amené) en gardant « mille fois »
+remarque	R828	OAK: Wow! That's excellent!\pYou collected the BADGES of GYMS\nin KAN…	typographie	accepté	Kanto en casse normale (seul changement restant)
+remarque	R829	Oh, and speaking of the INDIGO\nPLATEAU, now that you've earned\l16 b…	typographie	accepté	Kanto, Peter en casse SoulSilver FR
+remarque	R830	OAK: Ah, you're collecting KANTO\nGYM BADGES.\pI imagine that it's ha…	typographie	accepté	artefact de casse « D’ARENE DE KANTO »
+remarque	R831	The PROF's POKéMON TALK radio\nprogram isn't aired here in KANTO.\pIt…	terminologie	accepté	« La Chronique Pokémon » : titre SoulSilver FR de l’émission (banques 65, 66, 685)
+remarque	R832	Don't tell anyone, but PROF.OAK'S\nPOKéMON TALK isn't a live broadcas…	terminologie	accepté	« La Chronique Pokémon » (SoulSilver FR) ; Prof. Chen
+remarque	R833	There's an e-mail message on the PC.\p…\pPROF.OAK, how is your resear…	terminologie	accepté	« Prof. Chen » (SoulSilver FR)
+remarque	R834	Where did you say you're from?\pNEW BARK TOWN?\pPROF.ELM lives over t…	terminologie	refusé	déjà corrigé dans le texte actuel (correction identique)
+remarque	R835	BROCK: Small spaces surrounded by\nrocks make you feel peaceful,\ldon…	typographie	accepté	« Dojo » comme SoulSilver FR
+remarque	R836	TM37 happens to be SANDSTORM.\pIt's a move that inflicts damage\non b…	contresens	refusé	Tempêtesable blesse bien tous les Pokémon sur le terrain ; le patch est plus juste
+remarque	R837	I'll school you this time!	typographie	refusé	réplique de dialogue : un \n est valide, le texte actuel est juste ; la correction perd « cette fois »
+remarque	R838	We're on a field trip to LAVENDER\nRADIO TOWER for social studies.	oubli	adapté	« for social studies » omis ; correction plus lourde, « Tour Radio » selon le glossaire
+remarque	R839	Book smarts aren't everything.\nI need battle experience too!	oubli	adapté	« battle » omis ; la correction perdait « aussi »
+remarque	R840	ROUTE 15\pFUCHSIA CITY - LAVENDER TOWN	typographie	refusé	correction identique au texte actuel
+remarque	R841	Hmm, I think this EGG isn't for you.\pIt would be irresponsible of me…	contresens	refusé	« en sait si peu » rend bien « isn't well-read » ; la correction écrit OEUF (projet : Œuf)
+remarque	R842	DANGER CRACKED ICE\nGO FAST ON BICYCLE\lSWITCH GEARS BY\lPRESSING ...…	terminologie	adapté	artefact « Glace FISSUREE » ; casse normale (les capitales heurtent le glossaire : Glace, Bicyclette)
+remarque	R843	JASMINE uses the newly discovered\nSTEEL-type.\pShe's known for havin…	oubli	refusé	« capable d’augmenter son ATTAQUE » dit la même chose
+remarque	R844	That was awesome.\pThe STEEL-type, huh?\pThat was a close encounter o…	contresens	refusé	jeu de mots adapté (« rencontre du troisième type ») : bonne adaptation
+remarque	R845	{PLAYER} received MINERALBADGE.	typographie	accepté	Badge Minéral, graphie SoulSilver FR
+remarque	R846	MINERALBADGE raises POKéMON's \nSPECIAL DEFENSE.\p…Um… Please take th…	terminologie	adapté	abréviation incorrecte ; en dialogue SoulSilver écrit « Défense Spéciale » en entier
+remarque	R847	…You could use that TM to teach\nIRON TAIL.	typographie	accepté	artefact « QUEUE DE Fer » → Queue de Fer (glossaire), « enseigner » plus juste
+remarque	R848	…Congratulations, JOHTO CHAMPION.\pYou have become so strong…\pI wond…	typographie	accepté	artefact de casse « Maître DE JOHTO »
+remarque	R849	OLIVINE CITY POKéMON GYM\pJASMINE'S CERTIFIED TRAINERS:\n{PLAYER}	typographie	accepté	artefacts de casse « D’OLIVILLE », « AGREES PAR »
+remarque	R850	…Um, {PLAYER}…\nI have something to ask you.\pI've raised this STEELI…	oubli	refusé	« quelqu’un comme toi » garde le sens ; changement de style
+remarque	R851	A clan of trainers who can freely\ncommand dragons live right here in…	oubli	refusé	« commander aux dragons » suffit ; nuance mineure, texte SoulSilver adapté gardé
+remarque	R852	Hiya, Boss.\pYes, I've found several artifacts,\nbut no sign of the A…	terminologie	adapté	Flûte Azur (glossaire) ; le reste de la correction réécrivait sans nécessité
+remarque	R853	.......CLICK\pThe signal in SINJOH sucks...	typographie	accepté	point isolé après les points de suspension
+remarque	R854	EUSINE: I heard SUICUNE might\nbe in this BURNED TOWER, so I\lcame to…	typographie	adapté	Tour Cendrée (glossaire) ; inutile de couper la phrase
+remarque	R855	I'm practicing my stealing in the\nBURNED TOWER! Don't try\lthis at h…	typographie	refusé	correction identique au texte actuel
+remarque	R856	A meteorite that fell on MT. MOON.\nIt is thought to be a MOON STONE.	typographie	refusé	correction identique au texte actuel
+remarque	R857	I'm going to train even harder.\pAfter all, I'm trying to become\na G…	typographie	refusé	mise en page seule, aucune ligne trop large
+remarque	R858	You're a tough little kid.	oubli	accepté	« little kid » omis ; correction juste
+remarque	R859	ILEX FOREST\nTHROUGH THE GATE	typographie	accepté	panneau sur deux lignes comme l’anglais, Bois aux Chênes (glossaire)
+remarque	R860	ROUTE 34\nGOLDENROD CITY - AZALEA TOWN\pILEX FOREST SOMEWHERE BETWEEN	typographie	accepté	artefact « ENTRE LES DEUX »
+remarque	R861	JENN: So sorry, IRENE! Dear Sis!	contresens	accepté	« Sis » n’indique pas l’aînée ; « Chère sœur » fidèle
+remarque	R862	The TEAM ROCKET boss has locked\nhimself in.\pBut the DIRECTOR can op…	oubli	refusé	le directeur est au 5F, dernier étage de la Tour Radio : info exacte, sans ambiguïté de numérotation
+remarque	R863	Thank you! You're my hero!\pThis is a token of my appreciation.	registre	accepté	même personnage qui vouvoie dans sa réplique précédente
+remarque	R864	500 Years of Tradition\pCIANWOOD CITY PHARMACY\pWe Await Your Medicin…	contresens	refusé	slogan d’enseigne librement adapté, sens général gardé
+remarque	R865	CLIFF EDGE CAVE\nRoad to the SAFARI ZONE.	terminologie	accepté	Grotte Falaise (glossaire), artefact « VERS »
+remarque	R866	Have you gone to the TRAINER\nHILL?\pI think a lot of tough trainers\…	typographie	accepté	artefact « MONT Dresseurs »
+remarque	R867	Wow, the TRAINER HILL is huge!\pThere must be many kinds of\nPOKéMON …	typographie	accepté	artefact « MONT Dresseurs »
+remarque	R868	In the BATTLE TENTS, you can\nuse only three POKéMON.\pIt's so hard t…	typographie	accepté	artefact « TENTES DE Combat »
+remarque	R869	{UP_ARROW} TRAINER HILL ENTRANCE\p“Scale the heights, you hot-blooded…	typographie	accepté	artefacts « MONT Dresseurs », « TENTES DE Combat »
+remarque	R870	BATTLE TENT: FACTORY\n“Find it! The ultimate POKéMON!”	typographie	accepté	artefact « TENTE DE Combat »
+remarque	R871	BATTLE TENT: PALACE\n“Feast Your Eyes on Battles!”	typographie	accepté	artefact « TENTE DE Combat »
+remarque	R872	BATTLE TENT: ARENA\n“May the Greatest Teams Gather!”	typographie	accepté	artefact « TENTE DE Combat » ; Dojo en casse normale comme Usine, Palace
+remarque	R873	The TRAINER HILL is currently\nclosed for repairs.	typographie	accepté	artefact « MONT Dresseurs »
+remarque	R874	VIRIDIAN CITY \nThe Eternally Green Paradise	typographie	refusé	l’espace avant \n reproduit l’anglais (« VIRIDIAN CITY \n ») ; invisible en jeu
+remarque	R875	I came to explore MT.MORTAR,\nbut I got separated from my\lpartner…\p…	contresens	accepté	« perdu mon partenaire » ambigu ; Mont Creuset (glossaire)
+remarque	R876	Hi there! Did you visit\nSPROUT TOWER?	typographie	refusé	le glossaire écrit « Tour CHETIFLOR »
+remarque	R877	They say that meteorites struck\nBIRTH ISLAND.\pWe would love to disp…	typographie	accepté	artefact « ILE Aurore »
+remarque	R878	SELECT BATTLE TYPE.	typographie	accepté	libellé en capitales cassé par le passage de style
+remarque	R879	You can use this machine to trade\nor battle with other local players…	contresens	adapté	« combattre avec » ambigu ; correction reformulée plus courte
+alerte	A181	You can use this machine to trade\nor battle with other local players…	LARGEUR	accepté	ligne de 206 px remise en page
+remarque	R880	I just love living in the big city!\nI moved here when I was a young\…	oubli	refusé	« vivre en ville » / « je suis venu ici » gardent le sens
+alerte	A81	I just love living in the big city!\nI moved here when I was a young\…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+remarque	R881	I told my brother that the roof is\nmade of real gold. He'll believe\…	contresens	refusé	« en or massif » est l’équivalent idiomatique de « real gold »
+remarque	R882	{PLAYER}, isn't it?\pCongratulations!\pAs a special deal, a GS BALL h…	registre	accepté	personnel du Centre Pokémon : vouvoiement ; « pour une offre spéciale » maladroit
+remarque	R883	Oh my, your pack looks so heavy!\pOh! Do you happen to have\nsomethin…	terminologie	accepté	EON MAIL = Lettre Evoli (Or/Argent FR) ; « Eon » est l’anglais
+remarque	R884	Give away an EON MAIL?	terminologie	accepté	même objet : Lettre Evoli
+remarque	R885	Oh, that's great! Thank you,\nhoney!\pHere, this is for you in return!	typographie	refusé	mise en page seule, ligne sous 198 px
+remarque	R886	{PLAYER} gave away the EON MAIL.	terminologie	accepté	même objet : Lettre Evoli
+remarque	R887	The SLOWPOKE have returned…\pBut my APPRENTICE hasn't come back\nfrom…	typographie	accepté	nom commun en capitales
+remarque	R888	ROCKETS have hijacked my basement!	terminologie	adapté	« ROCKETS » → Team Rocket ; « envahi » gardé (meilleur que « pris »)
+remarque	R889	I caught every bug in VIRIDIAN.\nIs there a better FOREST somewhere?	oubli	adapté	la forêt est omise ; correction lourde reformulée
+remarque	R890	Why don't girls like bug POKéMON?	contresens	adapté	« bug POKéMON » perdu ; correction trop large (216 px)
+alerte	A179	Why don't girls like bug POKéMON?	LARGEUR	adapté	206 px : reformulé plus court sur une ligne (anglais sur une ligne)
+remarque	R891	Bug POKéMON squish like plush toys\nwhen you squeeze their bellies.\p…	oubli	adapté	comparaison avec les peluches omise ; la correction commençait par \l au lieu de \n
+remarque	R892	ROUTE 2\pVIRIDIAN CITY - PEWTER CITY	typographie	refusé	correction identique au texte actuel
+remarque	R893	EUSINE: That was so close!\nI though I could corner it by\lambushing …	contresens	accepté	« préfère » plus juste pour la déduction
+remarque	R894	Having a variety of POKéMON types\nshould give you an edge in battle.…	typographie	accepté	artefact « D’ARENE DE KANTO »
+remarque	R895	Hi!\nMy name is Steven.\lThe Champion from the HOENN region.\pHave we…	contresens	adapté	« se ressemblent », Dresseurs, Kanto ; « Pierre Rochard » gardé (Pierre seul = Brock à Kanto), HOENN en capitales
+remarque	R896	Whoah!\pSorry kiddo, I'm in a hurry!\pThe ferry on ROUTE 13 will be\n…	typographie	accepté	artefacts « ILES », « Boutique DE SOUVENIRS », objet en capitales
+remarque	R897	LANCE: It takes two passwords\nto get into the boss' quarters.\pThose…	terminologie	adapté	« ROCKETS » proscrit ; « membres de la Team Rocket » puis « Sbire » (glossaire)
+remarque	R898	…\pDidn't I tell you that I was\ngoing to destroy TEAM ROCKET?\p…Tell…	contresens	adapté	vrai contresens (« enough » porte aussi sur l’amour) ; « Pokémon dragons » acceptable, gardé
+remarque	R899	Hyuck-hyuck-hyuck!\pI remember you from the well!\pYou're challenging…	contresens	accepté	« You’re nuts » = t’es dingue, pas « t’es faible »
+remarque	R900	Welcome to this chamber.\pThere are sliding panels that depict\na POK…	contresens	refusé	« peint » / « dessiné » : nuance sans contresens
+remarque	R901	Sorry! It's all my fault!	orthographe	refusé	« Tout est ma faute » est correct et idiomatique
+remarque	R902	The POWER PLANT's MANAGER is in\nthe back room with the generator.\pB…	typographie	accepté	nom commun en capitales
+remarque	R903	{PLAYER}! Fancy seeing you here!\pI'm picking up something for\nmy MI…	orthographe	refusé	« mon » s’accorde avec le nom ECREMEUH (masculin) ; DOJO comme ailleurs
+alerte	A117	{PLAYER}! Fancy seeing you here!\pI'm picking up something for\nmy MI…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+remarque	R904	The {STR_VAR_2} out here aren't like\nthe ones on the mainland.\pWant…	typographie	adapté	ligne trop large réelle ; simple remise en page plutôt que coupe du texte
+alerte	A173	The {STR_VAR_2} out here aren't like\nthe ones on the mainland.\pWant…	LARGEUR	accepté	remise en page à 198 px
+remarque	R905	Hi, how's my old TORY doing?	contresens	refusé	« mon vieux » est affectueux en français comme « my old »
+remarque	R906	{PLAYER} took a closer look at the\nALOLA ISLES map.	typographie	accepté	artefact de casse « ILES D’ALOLA »
+remarque	R907	You can't buy MAX REVIVE, but it\nfully restores a fainted POKéMON.\p…	oubli	adapté	repris du texte SoulSilver FR 630:0 plutôt que la correction ChatGPT
+remarque	R908	ECRUTEAK is a very old city.\nMany generations passed down\ltheir his…	typographie	refusé	aucune ligne au-delà de 198 px ; « ces livres » désigne bien les livres présents
+remarque	R909	WARDEN BAOBA: {PLAYER}!\pThis is WARDEN BAOBA.\pSomething awful has h…	contresens	adapté	« Ça coule » exagère ; « Le gardien Baoba: » maladroit comme nom de locuteur → « Gardien Baoba »
+remarque	R910	The SAFARI ZONE is under new\nmanagement.\pAnd it has tons of new POK…	typographie	refusé	correction identique au texte actuel
+remarque	R911	SAFARI ZONE\nNOW OWNED BY\lDEVON CORP.	terminologie	adapté	Émeraude FR écrit « DEVON SARL » (capitales) ; « NOW » rétabli
+remarque	R912	PEWTER POKéMON GYM\nLEADER: BROCK\pWINNING TRAINERS:\nBLUE, RED	typographie	adapté	artefact « D’ARGENTA » ; panneau comme SoulSilver FR (Champion: Pierre) ; Blue, Red en casse SoulSilver
+remarque	R913	PEWTER POKéMON GYM\nLEADER: BROCK\pWINNING TRAINERS:\nBLUE, RED, {PLA…	typographie	adapté	même panneau que la variante précédente
+remarque	R914	BROCK: No? That's okay.\nWOODY and I will keep training.	contresens	accepté	« will keep training » = on va continuer
+remarque	R915	What's this? TEAM ROCKET has come\nback?\pI saw some men in black at …	terminologie	accepté	glossaire : Lac Colère
+remarque	R916	I tell my husband everyday not to feed\nthe NATU, but he never listen…	oubli	accepté	« everyday » et « darn things » omis
+alerte	A82	I tell my husband everyday not to feed\nthe NATU, but he never listen…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+remarque	R917	My POKéMON always get paralyzed or\npoisoned when the chips are down……	terminologie	adapté	artefact « TOTAL Soin » → Total Soin ; la remise en page proposée est inutile
+remarque	R918	GOLDENROD POKéMON GYM	typographie	accepté	artefact « DE »
+remarque	R919	GOLDENROD TOWN POKéMON GYM\pWHITNEY'S CERTIFIED TRAINERS:\n{PLAYER}	typographie	adapté	artefacts « DE », « RECONNUS PAR » ; casse normale plutôt que capitales
+remarque	R920	…Sniff…\pWhat? What do you want? A BADGE?\pOh, right. I forgot. Here'…	terminologie	accepté	Badge Plaine (SoulSilver 582:3)
+remarque	R921	{PLAYER} received PLAINBADGE.	terminologie	accepté	Badge Plaine (SoulSilver 582:4)
+remarque	R922	PLAINBADGE lets your POKéMON use\nSTRENGTH outside of battle.\pIt als…	terminologie	adapté	Badge Plaine ; découpage « Même hors combat! » inutile ; Défense avec majuscule (stat)
+remarque	R923	I'm trying to beat WHITNEY, but…\nIt's depressing.\pI'm okay! If I lo…	contresens	accepté	« try harder » = faire plus d’efforts
+remarque	R924	Yo! CHAMP in making!\pThis GYM is home to WHITNEY, the\nmaster of NOR…	orthographe	accepté	préposition manquante devant Route 34
+remarque	R925	Do your POKéMON know HM moves?\pThose moves can be used even if\nyour…	contresens	adapté	raccourci « connaissent des CS » ; « capacités CS » plus juste et plus court que la correction
+remarque	R926	Do you know about BERRIES?\pCrack one open, hollow it out and\nfit it…	typographie	refusé	correction identique au texte actuel
+remarque	R927	The bell of tin rings clearly for\nthose under the tower's wing.	contresens	accepté	« sous l’aile » = protection, pas résidence
+remarque	R928	TIN TOWER is off limits to the\nunworthy. Sorry but you'll have\lto l…	registre	refusé	les sages de Rosalia tutoient le joueur dans SoulSilver FR (58:0, 58:2)
+remarque	R929	Ah!\pThe sound of that CLEAR BELL!\pIt… It's sublime!\pI've never hea…	terminologie	adapté	objet : Glas Transparent en toutes lettres (SoulSilver 58:0) ; tutoiement des sages gardé
+remarque	R930	That bell's chime is indicative of\nthe bearer's soul.\pYou…\nTruly a…	registre	refusé	les sages tutoient le joueur dans SoulSilver FR
+remarque	R931	The TIN TOWER ahead is a nine-\ntier tower of divine beauty.\pIt soot…	oubli	refusé	« ahead » sans incidence ; la correction vouvoie contre l’usage des sages
+remarque	R932	The TIN TOWER shook! A POKéMON must\nhave returned to the top!	typographie	refusé	correction identique au texte actuel
+remarque	R933	Two towers… Two POKéMON…\pBut when one burned down, both\nPOKéMON fle…	typographie	refusé	correction identique au texte actuel
+alerte	A0	Cha-Cha!	ANGLAIS	refusé	cri de TRIOPIKEUR, onomatopée non dérivée du nom anglais : gardée
+alerte	A1	Shuck!	ANGLAIS	refusé	cri du Pokémon des sables (Palossand) (onomatopée de sable), gardé
+alerte	A2	Vee Vee?	ANGLAIS	accepté	cri d’EVOLI dérivé du nom anglais (Eevee) : adapté au nom français
+alerte	A3	JUNE	ANGLAIS	refusé	nom par défaut proposé au joueur, gardé comme les noms voisins (KAZ, JODI…)
+alerte	A4	MOMO	ANGLAIS	refusé	nom par défaut, gardé comme les noms voisins
+alerte	A5	NORIE	ANGLAIS	refusé	nom par défaut, gardé comme les noms voisins
+alerte	A6	SAI	ANGLAIS	refusé	nom par défaut, gardé comme les noms voisins
+alerte	A7	TOSH	ANGLAIS	refusé	nom par défaut, gardé comme les noms voisins
+alerte	A17	Are you… {PLAYER}?\nOh! Sniff…sob…\pOh! S-sorry…\nI'm so nervous, I c…	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A18	CLERK: {STR_VAR_1} also bought the item\n{STR_VAR_2} in bulk, taking …	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A206	CLERK: {STR_VAR_1} also bought the item\n{STR_VAR_2} in bulk, taking …	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A19	DAD: Now…\p{PLAYER}, if you want to become a\nstrong TRAINER, here's …	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A20	I track weather patterns over\nthe HOENN region.\pPresently, a drough…	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A21	I track weather patterns over\nthe HOENN region.\pPresently, heavy ra…	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A22	INTERVIEWER: Speaking of the item\n{STR_VAR_2}, I just bought {STR_VA…	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A23	INTERVIEWER: The TRAINER bought\n{STR_VAR_3} {STR_VAR_2}S? That's a h…	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A24	Let's interview the clerk to get the\nlowdown.\pHi, how's your busine…	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A25	MC: Well, there you have it. This place\nis full of the {STR_VAR_1}'s…	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A26	PROF. BIRCH: Great!\n{RIVAL} should be happy, too.\pGet {RIVAL} to te…	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A27	Spectator: Oh…\nThat {STR_VAR_2}'s {STR_VAR_3}!\l{STR_VAR_2}'s {STR_V…	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A28	Spectator: The {STR_VAR_2} didn't do\nwell in the primary judging, bu…	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A29	TRAINER FAN CLUB\n{STR_VAR_1} SPECIAL!\pThis is a special presentatio…	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A30	WALLY: Oh… If you won't battle me,\n{PLAYER}, my UNCLE won't know tha…	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A31	WALLY: {PLAYER}? It's awesome!\nThat RALTS we caught together?\lIt ev…	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A32	… … … … … …\n… … … … … Beep!\pWALLY: Oh, hello, {PLAYER}!\pI just wan…	CODES	refusé	texte Émeraude FR officiel : l’omission/ajout de la variable vient de l’officiel, affichage correct
+alerte	A33	BILL'S PC.\p	ESPACE	accepté	alignement faux (libellé de menu) : fragment retraduit avec la fin \p
+alerte	A34	Call your mom on your POKéGEAR\nto let her know how you're doing.$\p	ESPACE	accepté	fin $\p rétablie ; \p en milieu de phrase → \l
+alerte	A35	KUNI: Go, face HO-OH. 	ESPACE	accepté	espace finale de l’anglais rétablie
+alerte	A37	MIKI: Go, face HO-OH. 	ESPACE	accepté	espace finale de l’anglais rétablie
+alerte	A39	NAOKO: Go, face HO-OH. 	ESPACE	accepté	espace finale de l’anglais rétablie
+alerte	A41	SAYO: Go, face HO-OH. 	ESPACE	accepté	espace finale de l’anglais rétablie
+alerte	A44	ZUKI: Go, face HO-OH. 	ESPACE	accepté	espace finale de l’anglais rétablie
+alerte	A46	A strange panel... Nothing here.	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A47	DUFF: Watching over my girlfriend\nmakes my heart soar!\pEDA: My hear…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A48	Hi!\pRED's been away for a long time.\pHe hasn't called either, so I …	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A49	I like snoozing with the radio on…\n…Zzzz…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A50	I'm here to buy SURF MAIL to send\nto my girlfriend.\pWait, they're o…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A51	I've been traveling all over, looking\nfor a good {STR_VAR_1}.\pWould…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A52	Is there anything else I can\nhelp you with, sweetie?	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A53	It's a shelf packed full of\ncomputer games and graphic novels!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A54	Please come back another time.\nThe store is... closed\lright now.	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A55	SLOWKING: HMMM...	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A57	TM move	FRAGMENT	refusé	libellé inséré en minuscules dans une phrase (« LWR ») : minuscule initiale voulue ; début réel pointé
+alerte	A58	That's too bad.	FRAGMENT	accepté	vrai fragment (fin de « Non?\nTant pis. ») avec \n parasite en tête : retraduit
+alerte	A60	The snow makes it hard to navigate\nthis place.\pIt all looks the sam…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A61	This drink is so goo--ood!\n.......\p.......\pHahaha\p.......	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A62	Urrggh… The guy in the cape is\nincredibly tough…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A63	We're vacationing on the ALOLA ISLES!\pIt's just like the ALOLA regio…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A64	Were you looking at these flowers\nor at me?	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A65	What do you want?	FRAGMENT	refusé	ratio faible mais début réel pointé ; « Quoi? » rend le ton du motard
+alerte	A66	You have not only made LUGIA\nappear, but you have also defeated\lit.…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A67	{PLAYER} played with the NES.\p…Okay!\nIt's time to go!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A68	A radio...\nThe battery is dead...	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A69	ANN: ANNE and I are in this\ntogether!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A71	CHINCHOU: Chou!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A73	DENNIS: SHAAAAAAAA!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A74	FIGHTING DOJO	FRAGMENT	refusé	ratio faible mais début réel pointé ; « Dojo » comme le panneau SoulSilver FR (529:11)
+alerte	A75	FIGHTING DOJO VIP LOUNGE	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A76	H-hello! Welcome to our Cafe!\nHow can I help you today?	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A190	H-hello! Welcome to our Cafe!\nHow can I help you today?	LARGEUR	accepté	201 px : remise en page
+alerte	A77	Hey!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A79	Hi! Check out my GYARADOS!\pI raised it from a MAGIKARP. I can't\nbel…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A80	Hold it there, kiddo!\pThe toll is ¥500 to go\nthrough.	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A83	I will see you at the DOJO!\nWAHAHAHAHAHA	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A85	It couldn't be found nearby.\nTry looking in a different area!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A86	It's a display case neatly\npacked and lined with samples\land artifa…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A88	KINGDRA: Draaa...	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A89	LICKILICKY: LIIIIICK!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A90	OKAY, you can have the PLATE.	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A93	POLIWHIRL: Whirl-whirl!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A94	Press the R Button to set the\nclock when looking at the time.	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A96	SCIZOR: Scii-zor!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A97	SHIZUKO: We are trained in\nbattle as well as dance.\pObtaining the P…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A98	STARMIE: Hyaaa!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A99	SaveBlock1 size: {STR_VAR_1}b/{STR_VAR_2}b.\nFree space: {STR_VAR_3}b.	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A100	Single	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A101	So much open water here!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A102	That's it! You're welcome!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A104	The cliff is steep.\nWould you like to use Rock Climb?	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A106	This appears to be Growlithe's ball..\nBetter leave it alone.	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A107	This is a good time to brag\nabout my PIKACHU!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A109	VICTREEBEL: Vreeee!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A111	Why are you here? Are you just\ngoing to gawk? I suggest you leave!	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A112	Would you like to skip this\npuzzle?	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A113	You came at just the right\ntime.\pLet's battle.	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A114	You have not only made HO-OH\nappear, but you have also defeated\lit.…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A115	You just came from JOHTO?\nHow's the fishin' over there\l...\pJOHTO h…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A118	{PLAYER}.\pEven here, the cold keeps me sharp.\pIf you wish to battle…	FRAGMENT	refusé	faux positif : début réel pointé dans la ROM du patch ; sens vérifié
+alerte	A120	…Zzzz…	FRAGMENT	accepté	vrai fragment (fin de « dormir…\lZzzz… ») : texte réellement pointé par le patch rétabli
+alerte	A123	Here at the FACTORY BATTLE TENT,\n	GLOSSAIRE	adapté	Tente de Combat comme Tour/Usine de Combat (glossaire) ; villes Hoenn en capitales ; Dojo comme le panneau
+alerte	A124	In the ARENA BATTLE TENT,\n	GLOSSAIRE	adapté	Tente de Combat comme Tour/Usine de Combat (glossaire) ; villes Hoenn en capitales ; Dojo comme le panneau
+alerte	A125	In the PALACE BATTLE TENT,\n	GLOSSAIRE	adapté	Tente de Combat comme Tour/Usine de Combat (glossaire) ; villes Hoenn en capitales ; Dojo comme le panneau
+alerte	A126	Here at the SLATEPORT BATTLE TENT,\n	GLOSSAIRE	adapté	Tente de Combat comme Tour/Usine de Combat (glossaire) ; villes Hoenn en capitales ; Dojo comme le panneau
+alerte	A127	In the FALLARBOR BATTLE TENT,\n	GLOSSAIRE	adapté	Tente de Combat comme Tour/Usine de Combat (glossaire) ; villes Hoenn en capitales ; Dojo comme le panneau
+alerte	A128	In the VERDANTURF BATTLE TENT,\n	GLOSSAIRE	adapté	Tente de Combat comme Tour/Usine de Combat (glossaire) ; villes Hoenn en capitales ; Dojo comme le panneau
+alerte	A129	Go, go, go!\nPOKéMON 1, 2, and 3!	GLOSSAIRE	accepté	passage de style autorisé sur un officiel
+alerte	A132	BROCK: How's WOODY doing?\nBONSLY are tougher than they look!	LARGEUR	accepté	remise en page à 198 px
+alerte	A134	Be careful at night on this route!\pI saw a POKéMON that looked like\…	LARGEUR	accepté	remise en page à 198 px
+alerte	A135	Business is booming!\pAnd with how much that silver haried\nguy tips,…	LARGEUR	accepté	remise en page à 198 px
+alerte	A137	Eek! {PLAYER}! I met you again!\nI… I'm overjoyed!\pWhenever I'm in n…	LARGEUR	accepté	remise en page à 198 px
+alerte	A138	HEART & SOUL DEVELOPMENT OFFICE	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A142	I could stay here all day.	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A143	I have a game on my Game Boy Advance\nthat lets me explore the ALOLA …	LARGEUR	accepté	remise en page à 198 px
+alerte	A144	I just love this new slot machine.\pIt's more of a challenge than the…	LARGEUR	accepté	remise en page à 198 px
+alerte	A145	I want to be the first to prove myself\nto the Totem POKéMON!	LARGEUR	accepté	remise en page à 198 px
+alerte	A149	It seems you've already found all the\nAlolan variants on AKALA ISLE!…	LARGEUR	accepté	remise en page à 198 px
+alerte	A150	It seems you've already found all the\nAlolan variants on MELEMELE IS…	LARGEUR	accepté	remise en page à 198 px
+alerte	A151	It seems you've already found all the\nAlolan variants on PONI ISLE!\…	LARGEUR	accepté	remise en page à 198 px
+alerte	A152	It seems you've already found all the\nAlolan variants on ULA'ULA ISL…	LARGEUR	accepté	remise en page à 198 px
+alerte	A155	Maybe I should take one to DAY-CARE,\nor maybe use some items…	LARGEUR	accepté	remise en page à 198 px
+alerte	A156	No? That's too bad…\nI think you'd like my HAUNTER.	LARGEUR	adapté	ligne trop large : ordre des mots changé pour garder la coupe de l’anglais
+alerte	A157	Obtained {STR_VAR_1} {STR_VAR_2}!	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A158	Only trainers with all KANTO badges\nmay enter the VIP lounge.	LARGEUR	accepté	remise en page à 198 px
+alerte	A159	Ouch,\nwhere's a lifeguard when you need one…	LARGEUR	adapté	ligne trop large : « jamais » → « pas », coupe de l’anglais gardée
+alerte	A160	Research Log 10: November 1, 1975\pI am not alone here.\nMaybe I neve…	LARGEUR	accepté	remise en page à 198 px
+alerte	A161	STEVEN: Good luck, {PLAYER}\pGo on, I'm right behind you.	LARGEUR	accepté	remise en page ; artefact « Pierre ROCHARD » corrigé
+alerte	A168	The BAG's {STR_VAR_3} POCKET is full.\p{PLAYER} gave up on the\n{STR_…	LARGEUR	accepté	remise en page à 198 px
+alerte	A175	Wahah! Thanks!\pHere! Take this TM as a reward!	LARGEUR	accepté	remise en page à 198 px
+alerte	A176	Wait, {PLAYER}!\pIt's dangerous to go out\nwithout a POKéMON!\pWild P…	LARGEUR	accepté	remise en page à 198 px
+alerte	A177	Welcome back to the ISLES!\pCome back if you'd like to take a trip\nt…	LARGEUR	accepté	remise en page à 198 px
+alerte	A178	Well, anyways!\pI research variations of POKéMON that \ncan be found …	LARGEUR	accepté	remise en page à 198 px
+alerte	A180	Wow, you beat WHITNEY? Cool!	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A182	You have no Pokémon at Daycare.	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A183	You have only one Pokémon at Daycare.	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A184	{PLAYER} found {STR_VAR_3} {STR_VAR_1}\n{STR_VAR_2}!	LARGEUR	accepté	remise en page à 198 px
+alerte	A186	… … … … … … … …\pYou got a POKéMON at the LAB.\pWhat a waste.\nA wimp…	LARGEUR	adapté	page d’une ligne trop large : reformulée plus court
+alerte	A195	I won't quit until I win!	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A196	I'll direct you to your BATTLE ROOM now.	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A198	You can't record any more numbers.	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A199	{PLAYER} received a POKéMON with MAIL.	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A200	{STR_VAR_1} seems lost in thought.	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A201	I like NIDORAN, so I collect them!	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A202	KIRI: JAN, I hope we win today.	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A203	My bird POKéMON remember you!	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A204	My boyfriend gave me big pearls.	LARGEUR	adapté	anglais sur une ligne : reformulé plus court plutôt que coupé
+alerte	A205	A POKéMON holding the {STR_VAR_1}\nBERRY can't be traded.	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A207	Eek! You spoke to me!\nI… I'm overjoyed!\pI'm {STR_VAR_3}! I'm {STR_V…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A208	Greetings!\nIt's time for POKéMON NEWS.\pIt's approaching!\nIt's fina…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A209	Hey! There's big trouble! This is\nthe BATTLE TOWER's last day!\p… … …	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A210	Hey, there, I'm rockin' and a-rollin'!\nPOKéMON, I be controllin'!\pI…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A211	Hi!\nHow's it going?\pI'm {STR_VAR_3}, {STR_VAR_1}'s\nno. {STR_VAR_2}…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A212	Hi, I'm {STR_VAR_3}.\nI'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A213	Hi, there! I'm {STR_VAR_3}!\nI'm {STR_VAR_1}'s no. {STR_VAR_2} appren…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A214	If I had to score this letter,\nI'd give it {STR_VAR_3} points.\pNext…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A215	Let's interview the clerk to get the\nlowdown.\pHi, how's your busine…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A216	MC: Hello! We're just getting started\nwith a {STR_VAR_3} Rank POKéMO…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A217	Start link with {STR_VAR_1} players.\nA Button: Confirm\lB Button: Ca…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A218	The DOUBLE BATTLE Mode can't be\nplayed by {STR_VAR_1} players.	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A219	The SINGLE BATTLE Mode can't be\nplayed by {STR_VAR_1} players.	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A220	The pair set a new record of {STR_VAR_2} wins\nin a row in {STR_VAR_1…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A221	The twosome finally succumbed to\n{STR_VAR_1} in match number {STR_VA…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A222	These {STR_VAR_1} flowers are blooming\n{STR_VAR_2}.	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A223	Um… I'm sincerely happy that you\nwould take the time to talk to me.\…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A224	WE ARE THE POKéMON FAN CLUB!\pWe're on the air!\pOn this program, we …	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A225	We asked {STR_VAR_1}, “If you were to\nliken your {STR_VAR_2} to some…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A226	Wouldn't you also like to know what\n{STR_VAR_1} imagines {STR_VAR_2}…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A227	Yeah!\nIt's BRAVO TRAINER time!\pToday, we're going to profile {STR_V…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A228	Yeehaw! I'm {STR_VAR_1}'s\nno. {STR_VAR_2} apprentice!\p{STR_VAR_3}'s…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A229	Yippee-yahoo!\nOh, don't run! I was just having fun!\pHowdy! I'm {STR…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A230	{PLAYER} obtained {STR_VAR_1} Battle Point(s).	LARGEUR	adapté	largeur réelle tolérée (nombre de 1 à 3 chiffres) ; casse de l’artefact corrigée
+alerte	A231	“POKéMON CONTEST LIVE UPDATES!”\pMC: Thanks for joining us!\pWe're li…	LARGEUR	refusé	texte officiel : largeur calculée avec {STR_VAR}=60 px ; tient dans la fenêtre d’Émeraude FR
+alerte	A232	IVY: Who taught you about POKéMON?	LARGEUR	accepté	260 px > 216 px : coupé en deux lignes sans changer le texte
+alerte	A233	POKéMON battles are hard, too!	LARGEUR	accepté	238 px > 216 px : coupé en deux lignes sans changer le texte

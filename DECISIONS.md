@@ -72,3 +72,9 @@ reportées dans `traductions/glossaire.tsv`.
 16. **Noms de personnages homonymes.** Steven = PIERRE (Émeraude FR, capitales) ; Brock = Pierre (SoulSilver
     FR). Le glossaire garde PIERRE → Pierre (personnage de Kanto) ; pour les textes Hoenn le glossaire est
     appliqué sans les noms de personnages, et les répliques de Steven écrivent « PIERRE: ».
+17. **Termes communs d'Émeraude en casse SoulSilver.** Émeraude FR écrit en capitales des termes communs
+    (CONCOURS, BASE SECRETE, VELO, TENTE DE COMBAT, ZONE DE COMBAT, RUBAN, MUSEE, MIXEUR, CENTRE POKéMON…) ;
+    le style SoulSilver du projet les écrit en casse normale (Concours, Base Secrète, Vélo, Tente de Combat…).
+    Ajoutés au glossaire et appliqués, y compris quand un saut de ligne coupe le terme (« CENTRE\nPokémon »
+    était resté à moitié converti). Les noms propres de Hoenn (villes, personnages, TEAM AQUA/MAGMA) gardent
+    les capitales d'Émeraude FR, conformément au brief.
