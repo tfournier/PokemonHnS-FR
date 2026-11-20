@@ -14,7 +14,7 @@ petits correctifs. À chaque nouvelle version upstream, on change `upstream.txt`
 | `images` | Images françaises + `EMPREINTES_ORIGINAUX.txt` (empreinte de l'original anglais) |
 | `code` | Correctifs de code (ex. horloge 24 h) |
 | `outils` | Scripts (extraction, application, construction, amorçage) |
-| `memoires` | Mémoires de traduction et **vos** ROM de base (jamais distribuées) |
+| `memoires` | **Vos** ROM de base et les extraits tirés des ROM officielles — local, jamais versionné ni distribué |
 | `rapport/` | Rapports de la dernière construction |
 | `dist/` | Patchs produits |
 
@@ -91,6 +91,10 @@ officiels, patch FR actuel, traduction nouvelle).
   - `outils/graphismes` : scripts utilisés pour retoucher les images (tuiles, tilemaps, polices).
   - `outils/alignement` : scripts de récupération des textes officiels (Émeraude FR, SoulSilver FR) et du patch FR existant.
     Ces scripts d'appoint contiennent encore des chemins absolus de la machine de travail (`/home/claude/...`) : à adapter avant de les relancer.
-- `memoires` : données dérivées (correspondances de textes). Les ROM ne sont pas incluses.
+- `memoires` : local, ignoré par git. Il contient vos ROM de base (`preparer_roms.py`) et des extraits tirés des ROM
+  officielles, jamais distribués : `ss_fr_msg.json` (textes de SoulSilver FR, `outils/alignement/gen4msg.py`),
+  `tm_*.pkl` et `em_*.pkl` (mémoires de traduction Émeraude et SoulSilver, `outils/alignement/em_*.py`, `amorcer.py`).
+  Ils servent au contrôle de l'anglais restant, au lexique de la relecture et au réalignement ; la construction
+  (`build.sh`) n'en a pas besoin.
 
 Les ROM ne sont jamais distribuées : il faut fournir soi-même Émeraude US, la ROM anglaise de Heart & Soul v2.0.6 (ou son patch officiel) pour construire.
