@@ -6,16 +6,19 @@ Rapport généré par `outils/rapport.py`. Détails : `DECISIONS.md`, `rapport/E
 
 | Source | dialogues | menus | donnees | contextes | Total |
 |---|---|---|---|---|---|
-| Émeraude FR officiel | 7022 | 1918 | 4685 | 36 | **13661** |
-| Émeraude FR officiel (adapté) | 86 | 200 | 134 | 9 | **429** |
-| SoulSilver FR officiel | 1494 | 457 | 897 | 233 | **3081** |
-| SoulSilver FR officiel (adapté) | 441 | 27 | 26 | 2 | **496** |
-| patch FR existant (vérifié) | 381 | 39 | 1200 | 0 | **1620** |
-| patch FR existant | 1503 | 727 | 2916 | 0 | **5146** |
-| traduction nouvelle ou manuelle | 3844 | 1040 | 1154 | 259 | **6297** |
-| gardé tel quel (exception) | 80 | 119 | 260 | 8 | **467** |
-| sans source | 3 | 1 | 1 | 7 | **12** |
-| **Total** | 14854 | 4528 | 11273 | 554 | **31209** |
+| Émeraude FR officiel | 7022 | 1918 | 4684 | 36 | **13660** |
+| Émeraude FR officiel (adapté) | 86 | 200 | 208 | 9 | **503** |
+| SoulSilver FR officiel | 1494 | 457 | 847 | 233 | **3031** |
+| SoulSilver FR officiel (adapté) | 441 | 27 | 27 | 3 | **498** |
+| Rouge Feu FR officiel | 2198 | 38 | 0 | 4 | **2240** |
+| Rouge Feu FR officiel (adapté) | 913 | 18 | 16 | 141 | **1088** |
+| Pokédex FR officiel (jeux récents) | 0 | 0 | 310 | 0 | **310** |
+| patch FR existant (vérifié) | 374 | 39 | 1189 | 0 | **1602** |
+| patch FR existant | 1498 | 727 | 2656 | 0 | **4881** |
+| traduction nouvelle ou manuelle | 780 | 991 | 1077 | 116 | **2964** |
+| gardé tel quel (exception) | 48 | 113 | 258 | 8 | **427** |
+| sans source | 0 | 0 | 1 | 7 | **8** |
+| **Total** | 14854 | 4528 | 11273 | 557 | **31212** |
 
 ## Construction et contrôles
 
@@ -23,7 +26,7 @@ Rapport généré par `outils/rapport.py`. Détails : `DECISIONS.md`, `rapport/E
 - `rapport/trop_longs.txt` : 0 texte(s) remis en anglais faute de place.
 - `rapport/images_a_revoir.txt` : 0 image(s) modifiée(s) par HnS depuis notre traduction.
 - Contrôles automatiques (`outils/verifier.py`, 100 % des entrées) : aucune alerte.
-- Chaînes anglaises de la ROM de référence encore présentes (`outils/controle_anglais.py`) : 454 — identifiants du test sonore (exception) 192, bruit de détection (données binaires décodées par hasard) 164, texte identique en français (nom propre ou exception justifiée) 84, à vérifier 14. À vérifier : ALAN, MIKE, SAM, COLIN, STEVEN, SAMMY, TOBY, JIMMY, wise-hummingbird, BATH, IGNORANT, Fragrance, MARCO, SAVANNA.
+- Chaînes anglaises de la ROM de référence encore présentes (`outils/controle_anglais.py`) : 454 — identifiants du test sonore (exception) 192, bruit de détection (données binaires décodées par hasard) 164, texte identique en français (nom propre ou exception justifiée) 84, texte français officiel identique à un autre texte anglais (ex. CORDELL → JIMMY) 13, fichier exclu volontairement (pseudonymes des crédits, claviers) 1. À vérifier : aucune.
 - Test aller-retour (`outils/test_aller_retour.py`, msgstr = msgid) : ROM identique à la référence (dernier passage consigné dans l’historique git).
 
 ## Relectures ChatGPT
@@ -41,6 +44,7 @@ Rapport généré par `outils/rapport.py`. Détails : `DECISIONS.md`, `rapport/E
 | D3b_dialogues | 117 | 85 | 32 | 0 |
 | D4_dialogues | 118 | 113 | 5 | 0 |
 | E_menus_donnees | 171 | 166 | 5 | 0 |
+| R_relecture_differee | 926 | 244 | 682 | 0 |
 
 ## Images traduites
 
@@ -85,13 +89,12 @@ Détail image par image, méthode et vérification : `rapport/images/RAPPORT.md`
 Ces points ont été tranchés provisoirement ; un œil humain (idéalement avec les jeux officiels) est utile.
 
 **Noms sans source officielle vérifiée**
-- Rouge Feu / Vert Feuille (cartes FRLG non compilées) : GARY → REGIS (nom du dessin animé), CRUSHER → COGNEUR,
-  CHARINE gardé, devises des îles Sevii (sous-titres Poképédia, texte exact des panneaux non vérifié),
-  « Kanto Angels » (KANTO RIDER FEDERATION), Machine Réseau, Maniaque des Capacités, Maître Pêcheur, Gardien,
-  « Ticketaurore », « Sac à Baies », étages du Centre Commercial et de la Sylphe (RDC, 1{SUPER_ER}…),
-  Cabane Secrète, Dent d’Or, Zone Centrale (Poképédia/Pokébip, sans capture du jeu) — listes dans
-  `traductions/lots/D_dialogues/D*_douteux.json`.
-- Catégorie Pokédex « Imposant » (Méga-Draïeul), « Tomberoche » (TOMBSTONY), « Lettre Evoli ».
+- Rouge Feu / Vert Feuille : textes et noms désormais repris de Rouge Feu FR officiel (lot F, alignement par
+  pointeurs). Restent à regarder : 41 cas douteux (`traductions/lots/F_frlg/douteux.json`, gardés en traduction
+  actuelle) et les termes de Rouge Feu FR qui diffèrent du glossaire (Dingue des Capacités, Ticketaurora, Parc
+  Central, Memorydex…), retenus pour les seuls textes FRLG ; détail dans `traductions/lots/F_frlg/noms_a_valider.md`.
+- Catégorie Pokédex « Imposant » (Méga-Draïeul), « Tomberoche » (TOMBSTONY), « Lettre Evoli ». Les catégories des
+  espèces de base sont désormais vérifiées contre les catégories officielles (lot K).
 
 **Choix de projet à confirmer**
 - Décision 14 : pas d'accent sur les majuscules (comme les jeux officiels), cédille gardée.
@@ -112,7 +115,6 @@ Ces points ont été tranchés provisoirement ; un œil humain (idéalement avec
   épargne de Maman, affichage du code upstream).
 
 **Relecture**
-- Relecture ChatGPT des lots C1, C2a, C2b et de 13 paquets de l'audit : différée (limite d'usage du compte), voir
-  DECISIONS.md n° 15.
-- 14 chaînes anglaises traduites dans les .po mais encore présentes ailleurs dans la ROM (listes construites par macro ou code non lu par l'extraction) : STEVEN, SAVANNA, BATH, Fragrance, IGNORANT, ALAN… voir rapport/anglais_restant.tsv.
+- Relecture ChatGPT différée faite (décision 19) : 244 corrections retenues sur 926 remarques ; les refus sont
+  motivés dans `rapport/relectures/R_relecture_differee/arbitrage.tsv` et `traductions/lots/R_relecture_differee/contre_relecture.tsv`.
 

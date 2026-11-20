@@ -28,6 +28,9 @@ def famille(src):
     if s.startswith('émeraude fr officiel'): return 'Émeraude FR officiel (adapté)' if 'adapt' in s else 'Émeraude FR officiel'
     if s.startswith('soulsilver fr officiel'): return 'SoulSilver FR officiel (adapté)' if 'adapt' in s else 'SoulSilver FR officiel'
     if s.startswith('soulsilver fr, corresp'): return 'SoulSilver FR officiel (adapté)'
+    if s.startswith(('rouge feu fr officiel', 'vert feuille fr officiel')):
+        return 'Rouge Feu FR officiel (adapté)' if 'adapt' in s else 'Rouge Feu FR officiel'
+    if s.startswith(('pokédex fr officiel', 'catégorie pokédex officielle')): return 'Pokédex FR officiel (jeux récents)'
     if s.startswith('patch fr'): return 'patch FR existant (vérifié)' if 'vérifi' in s else 'patch FR existant'
     return 'traduction nouvelle ou manuelle'
 
@@ -53,6 +56,7 @@ for d in ('dialogues', 'menus', 'donnees', 'contextes'):
         c[k] += 1; tot[k] += 1
     par[d] = c
 cols = ['Émeraude FR officiel', 'Émeraude FR officiel (adapté)', 'SoulSilver FR officiel', 'SoulSilver FR officiel (adapté)',
+        'Rouge Feu FR officiel', 'Rouge Feu FR officiel (adapté)', 'Pokédex FR officiel (jeux récents)',
         'patch FR existant (vérifié)', 'patch FR existant', 'traduction nouvelle ou manuelle', 'gardé tel quel (exception)',
         'sans source', 'à revoir (fuzzy)', 'non traduit']
 w('| Source | ' + ' | '.join(par) + ' | Total |')
@@ -83,6 +87,7 @@ ca = collections.Counter(); autres = []
 for x in a:
     if re.match(r'^(MUS|SE|PH)-', x[2]): ca['identifiants du test sonore (exception)'] += 1
     elif x[2] in ident: ca['texte identique en français (nom propre ou exception justifiée)'] += 1
+    elif '(exclu)' in x[3]: ca['fichier exclu volontairement (pseudonymes des crédits, claviers)'] += 1
     elif x[2] in homog: ca['texte français officiel identique à un autre texte anglais (ex. CORDELL → JIMMY)'] += 1
     elif x[0] == '(source inconnue)': ca['bruit de détection (données binaires décodées par hasard)'] += 1
     else: ca['à vérifier'] += 1; autres.append(x[2][:40])
