@@ -75,6 +75,8 @@ class Verif:
         self.g = Gen3(root)
         self.cm = hnsfr.Charmap(root)
         self.patch = open(patch, 'rb').read() if patch and os.path.exists(patch) else None
+        self._cibles = None
+
         self.gl = {}
         if glossaire and os.path.exists(glossaire):
             import style
@@ -82,6 +84,20 @@ class Verif:
             self.gl_em = style.charger(glossaire, ('personnage',))   # noms Hoenn en capitales (Émeraude FR)
             self.style = style
         self._src = {}
+
+    def cibles(self):
+        """adresses visées par un pointeur (aligné ou non) dans la ROM du patch FR."""
+        if self._cibles is None:
+            import numpy as np
+            b = np.frombuffer(self.patch, np.uint8)
+            c = set()
+            for k in range(4):
+                n = (len(b) - k) // 4
+                w = b[k:k + 4 * n].view('<u4')
+                v = w[(w >= 0x08000000) & (w < 0x0A000000)] - 0x08000000
+                c.update(v.tolist())
+            self._cibles = c
+        return self._cibles
 
     def ligne_source(self, path, line):
         """ligne de l'original upstream (git show du tag) pour reconnaître le champ."""
@@ -177,7 +193,8 @@ class Verif:
                 pat = enc + b'\xff'; i = self.patch.find(pat); ok = False; vu = False
                 while i >= 0:
                     vu = True
-                    if i == 0 or self.patch[i - 1] in (0xFF, 0x00) or not (0xA1 <= self.patch[i - 1] <= 0xEE or 0x01 <= self.patch[i - 1] <= 0x1F):
+                    if i == 0 or self.patch[i - 1] in (0xFF, 0x00) or not (0xA1 <= self.patch[i - 1] <= 0xEE or 0x01 <= self.patch[i - 1] <= 0x1F) \
+                            or i in self.cibles():   # un pointeur vise ce début : vraie chaîne (texte placé après sa commande de script)
                         ok = True; break
                     i = self.patch.find(pat, i + 1)
                 if vu and not ok:
