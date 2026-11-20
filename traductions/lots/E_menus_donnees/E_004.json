@@ -1,0 +1,1202 @@
+[
+ {
+  "msgid": "TRUE",
+  "msgstr": "VRAI",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 421,
+  "note": "menu debug, valeur booléenne (complétée à 15 caractères)"
+ },
+ {
+  "msgid": "FALSE",
+  "msgstr": "FAUX",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 422,
+  "note": "menu debug, valeur booléenne"
+ },
+ {
+  "msgid": "{COLOR GREEN}TRUE",
+  "msgstr": "{COLOR GREEN}VRAI",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 423,
+  "note": "menu debug, valeur booléenne colorée"
+ },
+ {
+  "msgid": "{COLOR RED}FALSE",
+  "msgstr": "{COLOR RED}FAUX",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 424,
+  "note": "menu debug, valeur booléenne colorée"
+ },
+ {
+  "msgid": "Map: {STR_VAR_1}{CLEAR_TO 90}\\nMapSec:{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}\\n{STR_VAR_3}{CLEAR_TO 90}",
+  "msgstr": "Carte: {STR_VAR_1}{CLEAR_TO 90}\\nSect.:{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}\\n{STR_VAR_3}{CLEAR_TO 90}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 430,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées ; MapSec = section de carte"
+ },
+ {
+  "msgid": "Warp:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_3}{CLEAR_TO 90}",
+  "msgstr": "Téléport.:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_3}{CLEAR_TO 90}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 431,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées ; warp = point de téléportation de la carte"
+ },
+ {
+  "msgid": "Weather ID: {STR_VAR_3}\\n{STR_VAR_1}\\n{STR_VAR_2}",
+  "msgstr": "ID météo: {STR_VAR_3}\\n{STR_VAR_1}\\n{STR_VAR_2}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 433,
+  "note": "menu debug météo (fenêtre de 15 tuiles)"
+ },
+ {
+  "msgid": "Sunday",
+  "msgstr": "Dimanche",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 438,
+  "note": "menu debug, jours de la semaine (horloge)"
+ },
+ {
+  "msgid": "Monday",
+  "msgstr": "Lundi",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 439,
+  "note": "menu debug, jours de la semaine"
+ },
+ {
+  "msgid": "Tuesday",
+  "msgstr": "Mardi",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 440,
+  "note": "menu debug, jours de la semaine"
+ },
+ {
+  "msgid": "Wednesday",
+  "msgstr": "Mercredi",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 441,
+  "note": "menu debug, jours de la semaine"
+ },
+ {
+  "msgid": "Thursday",
+  "msgstr": "Jeudi",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 442,
+  "note": "menu debug, jours de la semaine"
+ },
+ {
+  "msgid": "Friday",
+  "msgstr": "Vendredi",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 443,
+  "note": "menu debug, jours de la semaine"
+ },
+ {
+  "msgid": "Saturday",
+  "msgstr": "Samedi",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 444,
+  "note": "menu debug, jours de la semaine"
+ },
+ {
+  "msgid": "Brendan",
+  "msgstr": "BRICE",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 457,
+  "note": "menu debug, PNJ suiveur : Brendan = BRICE (Émeraude FR, capitales des noms Hoenn)"
+ },
+ {
+  "msgid": "Wally",
+  "msgstr": "TIMMY",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 460,
+  "note": "menu debug, PNJ suiveur : Wally = TIMMY (Émeraude FR)"
+ },
+ {
+  "msgid": "Var: {STR_VAR_1}{CLEAR_TO 90}\\nVal: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_2}",
+  "msgstr": "Var: {STR_VAR_1}{CLEAR_TO 90}\\nVal.: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_2}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 467,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées ; « Var » = variable de script (identique en français)"
+ },
+ {
+  "msgid": "Shiny:{CLEAR_TO 90}\\n   {STR_VAR_2}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{CLEAR_TO 90}",
+  "msgstr": "Brillant:{CLEAR_TO 90}\\n   {STR_VAR_2}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{CLEAR_TO 90}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 470,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées ; Shiny = Brillant (Émeraude FR)"
+ },
+ {
+  "msgid": "SFX ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  {SELECT_BUTTON} GBS Off",
+  "msgstr": "ID son: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  {SELECT_BUTTON} GBS non",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 474,
+  "note": "menu debug son (20 tuiles) ; GBS = lecteur de sons GB (sigle technique conservé), Stop compris en français"
+ },
+ {
+  "msgid": "SFX ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  {SELECT_BUTTON} GBS On",
+  "msgstr": "ID son: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  {SELECT_BUTTON} GBS oui",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 475,
+  "note": "menu debug son"
+ },
+ {
+  "msgid": "Music ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  {SELECT_BUTTON} GBS Off",
+  "msgstr": "ID musique: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  {SELECT_BUTTON} GBS non",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 476,
+  "note": "menu debug musique"
+ },
+ {
+  "msgid": "Music ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  {SELECT_BUTTON} GBS On",
+  "msgstr": "ID musique: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  {SELECT_BUTTON} GBS oui",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 477,
+  "note": "menu debug musique"
+ },
+ {
+  "msgid": "Get time…",
+  "msgstr": "Voir l’heure…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 541,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Get time of day…",
+  "msgstr": "Voir la période…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 542,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (matin/jour/soir/nuit)"
+ },
+ {
+  "msgid": "Set time of day…",
+  "msgstr": "Régler la période…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 543,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Set weekday…",
+  "msgstr": "Régler le jour…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 544,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Check wall clock…",
+  "msgstr": "Voir l’horloge…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 545,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Set wall clock…",
+  "msgstr": "Régler l’horloge…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 546,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Clear map trees",
+  "msgstr": "Vider les plants",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 552,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) : plants de Baies de la carte"
+ },
+ {
+  "msgid": "Ready map trees",
+  "msgstr": "Plants prêts",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 553,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) : plants de Baies prêts à récolter"
+ },
+ {
+  "msgid": "Grow map trees",
+  "msgstr": "Faire pousser plants",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 554,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Give map trees pests",
+  "msgstr": "Insectes sur plants",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 555,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (nuisibles sur les plants de Baies)"
+ },
+ {
+  "msgid": "Give map trees weeds",
+  "msgstr": "Mauvaises herbes",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 556,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (mauvaises herbes sur les plants de Baies)"
+ },
+ {
+  "msgid": "Create Follower",
+  "msgstr": "Créer suiveur",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 562,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (PNJ qui suit le joueur)"
+ },
+ {
+  "msgid": "Destroy Follower",
+  "msgstr": "Supprimer suiveur",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 563,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Fly to map…",
+  "msgstr": "Voler vers carte…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 569,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Warp to map warp…",
+  "msgstr": "Aller au point…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 570,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (téléportation vers un point de la carte)"
+ },
+ {
+  "msgid": "Set weather…",
+  "msgstr": "Régler la météo…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 571,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Font Test…",
+  "msgstr": "Test de police…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 572,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Time Functions…",
+  "msgstr": "Heure…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 573,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Watch credits…",
+  "msgstr": "Voir le générique…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 574,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Cheat start",
+  "msgstr": "Départ triché",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 575,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (partie de départ avec objets et Pokémon)"
+ },
+ {
+  "msgid": "Berry Functions…",
+  "msgstr": "Baies…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 576,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "EWRAM Counters…",
+  "msgstr": "Compteurs EWRAM…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 577,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) ; EWRAM = zone mémoire (sigle technique conservé)"
+ },
+ {
+  "msgid": "Follower NPC…",
+  "msgstr": "PNJ suiveur…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 578,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Wally Tutorial",
+  "msgstr": "Tutoriel TIMMY",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 579,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (capture tutorielle avec TIMMY, Émeraude FR)"
+ },
+ {
+  "msgid": "Steven Multi",
+  "msgstr": "Multi Pierre",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 580,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (combat multi avec Pierre, Émeraude FR)"
+ },
+ {
+  "msgid": "Lance Multi",
+  "msgstr": "Multi Peter",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 581,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (combat multi avec Peter, SoulSilver FR)"
+ },
+ {
+  "msgid": "Silver Multi",
+  "msgstr": "Multi Silver",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 582,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (combat multi avec Silver, nom inchangé en FR)"
+ },
+ {
+  "msgid": "Fill PC Boxes Fast",
+  "msgstr": "Remplir boîtes vite",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 588,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Fill PC Boxes Slow (LAG!)",
+  "msgstr": "Remplir boîtes (LENT!)",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 589,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Fill PC Items",
+  "msgstr": "Remplir PC objets",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 590,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Fill Pocket Items",
+  "msgstr": "Poche Objets",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 591,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (remplit la poche du Sac)"
+ },
+ {
+  "msgid": "Fill Pocket Poké Balls",
+  "msgstr": "Poche Poké Balls",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 592,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Fill Pocket TMHM",
+  "msgstr": "Poche CT/CS",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 593,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Fill Pocket Berries",
+  "msgstr": "Poche Baies",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 594,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Fill Pocket Key Items",
+  "msgstr": "Poche Objets rares",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 595,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Access PC",
+  "msgstr": "Accéder au PC",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 601,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Fill…",
+  "msgstr": "Remplir…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 602,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Clear Bag",
+  "msgstr": "Vider le Sac",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 603,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Clear Storage Boxes",
+  "msgstr": "Vider les boîtes",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 604,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Inflict Status1",
+  "msgstr": "Infliger statut",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 610,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (statut principal)"
+ },
+ {
+  "msgid": "Faint Pokemon",
+  "msgstr": "Mettre K.O.",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 611,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Set Hidden Nature",
+  "msgstr": "Nature cachée",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 612,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (nature modifiée par menthe)"
+ },
+ {
+  "msgid": "Set Friendship",
+  "msgstr": "Régler l’amitié",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 613,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Set Ability",
+  "msgstr": "Régler le talent",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 614,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Move Relearner",
+  "msgstr": "Rappel capacités",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 620,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (Maître des capacités)"
+ },
+ {
+  "msgid": "Hatch an Egg",
+  "msgstr": "Faire éclore Œuf",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 621,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Heal party",
+  "msgstr": "Soigner l’équipe",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 622,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Edit Pokemon",
+  "msgstr": "Modifier Pokémon",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 623,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Check EVs",
+  "msgstr": "Voir les EV",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 624,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) ; EV = sigle usuel"
+ },
+ {
+  "msgid": "Check IVs",
+  "msgstr": "Voir les IV",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 625,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) ; IV = sigle usuel"
+ },
+ {
+  "msgid": "Give Pokerus",
+  "msgstr": "Donner Pokérus",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 626,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) ; Pokérus (Émeraude FR POKéRUS)"
+ },
+ {
+  "msgid": "Clear Pokerus",
+  "msgstr": "Retirer Pokérus",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 627,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Clear Party",
+  "msgstr": "Vider l’équipe",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 628,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Set Party",
+  "msgstr": "Définir l’équipe",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 629,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Start Debug Battle",
+  "msgstr": "Combat de test",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 630,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Give item XYZ…",
+  "msgstr": "Objet XYZ…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 636,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (donner un objet au choix)"
+ },
+ {
+  "msgid": "Pokémon (Basic)",
+  "msgstr": "Pokémon (simple)",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 637,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Pokémon (Complex)",
+  "msgstr": "Pokémon (complet)",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 638,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Give Egg",
+  "msgstr": "Donner un Œuf",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 639,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Give Decoration…",
+  "msgstr": "Décoration…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 640,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Max Money",
+  "msgstr": "Argent max",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 641,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Max Coins",
+  "msgstr": "Jetons max",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 642,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Max Battle Points",
+  "msgstr": "Points de combat max",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 643,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) ; Battle Points = Points de combat (Émeraude FR)"
+ },
+ {
+  "msgid": "Daycare Egg",
+  "msgstr": "Œuf de la Pension",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 644,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Player name",
+  "msgstr": "Nom du joueur",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 650,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Toggle gender",
+  "msgstr": "Changer de sexe",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 651,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "New Trainer ID",
+  "msgstr": "Nouvel ID Dresseur",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 652,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Choose trainer from map",
+  "msgstr": "Dresseur de la carte",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 671,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Trainer 1: {STR_VAR_1}",
+  "msgstr": "Dresseur 1: {STR_VAR_1}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 672,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (STR_VAR_1 = numéro ou nom)"
+ },
+ {
+  "msgid": "Trainer 2: {STR_VAR_1}",
+  "msgstr": "Dresseur 2: {STR_VAR_1}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 673,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Matches {STR_VAR_1}/{STR_VAR_2}",
+  "msgstr": "Matchs {STR_VAR_1}/{STR_VAR_2}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 676,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (revanches)"
+ },
+ {
+  "msgid": "Rematch Ready {STR_VAR_1}",
+  "msgstr": "Revanche prête {STR_VAR_1}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 677,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Try Battle",
+  "msgstr": "Lancer le combat",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 678,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Recharge VS Seeker",
+  "msgstr": "Recharger Cherche VS",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 679,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) ; VS Seeker = Cherche VS (Rouge Feu/Vert Feuille FR)"
+ },
+ {
+  "msgid": "SFX…",
+  "msgstr": "Sons…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 685,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Save Block space",
+  "msgstr": "Espace sauvegarde",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 692,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "ROM space",
+  "msgstr": "Espace ROM",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 693,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Expansion Version",
+  "msgstr": "Version expansion",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 694,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (version de pokeemerald-expansion)"
+ },
+ {
+  "msgid": "Set Flag XYZ…",
+  "msgstr": "Flag XYZ…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 700,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) ; flag = drapeau de script (terme technique conservé)"
+ },
+ {
+  "msgid": "Set Var XYZ…",
+  "msgstr": "Var XYZ…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 701,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) ; var = variable de script"
+ },
+ {
+  "msgid": "Pokédex Flags All",
+  "msgstr": "Pokédex : tout",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 702,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Pokédex Flags Reset",
+  "msgstr": "Pokédex : remise à 0",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 703,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Toggle {STR_VAR_1}Pokédex",
+  "msgstr": "Bascule {STR_VAR_1}Pokédex",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 704,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "Toggle {STR_VAR_1}National Dex",
+  "msgstr": "Bascule {STR_VAR_1}Dex National",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 705,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "Toggle {STR_VAR_1}PokéNav",
+  "msgstr": "Bascule {STR_VAR_1}PokéNav",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 706,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "Toggle {STR_VAR_1}Match Call",
+  "msgstr": "Bascule {STR_VAR_1}Appels",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 707,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant ; Match Call = fonction Appels du PokéNav (Émeraude FR « Appels »)"
+ },
+ {
+  "msgid": "Toggle {STR_VAR_1}Running Shoes",
+  "msgstr": "Bascule {STR_VAR_1}Chaussures",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 708,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant (Chaussures de sport)"
+ },
+ {
+  "msgid": "Toggle {STR_VAR_1}Fly Flags",
+  "msgstr": "Bascule {STR_VAR_1}Lieux de Vol",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 709,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "Toggle {STR_VAR_1}All badges",
+  "msgstr": "Bascule {STR_VAR_1}Tous les Badges",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 710,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "Toggle {STR_VAR_1}Game clear",
+  "msgstr": "Bascule {STR_VAR_1}Jeu fini",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 711,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "Toggle {STR_VAR_1}Frontier Pass",
+  "msgstr": "Bascule {STR_VAR_1}Passe Zone",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 712,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant ; Frontier Pass = PASSE ZONE (Émeraude FR)"
+ },
+ {
+  "msgid": "Toggle {STR_VAR_1}Collision OFF",
+  "msgstr": "Bascule {STR_VAR_1}Sans collision",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 713,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "Toggle {STR_VAR_1}Encounter OFF",
+  "msgstr": "Bascule {STR_VAR_1}Sans rencontre",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 714,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "Toggle {STR_VAR_1}Trainer See OFF",
+  "msgstr": "Bascule {STR_VAR_1}Dress. aveugles",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 715,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "Toggle {STR_VAR_1}Catching OFF",
+  "msgstr": "Bascule {STR_VAR_1}Sans capture",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 716,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "Toggle {STR_VAR_1}Bag Use OFF",
+  "msgstr": "Bascule {STR_VAR_1}Sac interdit",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 717,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "No Bag: {STR_VAR_1}Inactive",
+  "msgstr": "Sac bloqué: {STR_VAR_1}Inactif",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 723,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "No Bag: {STR_VAR_1}VS Trainers",
+  "msgstr": "Sac bloqué: {STR_VAR_1}VS Dresseurs",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 724,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "No Bag: {STR_VAR_1}Active",
+  "msgstr": "Sac bloqué: {STR_VAR_1}Actif",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 725,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "No Bag: {STR_VAR_1}Invalid value",
+  "msgstr": "Sac bloqué: {STR_VAR_1}Invalide",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 726,
+  "note": "menu debug, bascule : {STR_VAR_1} = code couleur (vert/rouge) qui colore le libellé suivant"
+ },
+ {
+  "msgid": "Utilities…",
+  "msgstr": "Utilitaires…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 731,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) (menu principal)"
+ },
+ {
+  "msgid": "PC/Bag…",
+  "msgstr": "PC/Sac…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 732,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Give X…",
+  "msgstr": "Donner…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 734,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Trainers…",
+  "msgstr": "Dresseurs…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 737,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "Flags & Vars…",
+  "msgstr": "Flags et vars…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 738,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px) ; flags/vars = drapeaux et variables de script (termes techniques)"
+ },
+ {
+  "msgid": "ROM Info…",
+  "msgstr": "Infos ROM…",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 740,
+  "note": "menu debug (fenêtre de 17 tuiles ; les sous-menus ajoutent {CLEAR_TO 110}{RIGHT_ARROW} : libellé ≤ 110 px)"
+ },
+ {
+  "msgid": "{COLOR GREEN} TRUE",
+  "msgstr": "{COLOR GREEN} VRAI",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 1068,
+  "note": "menu debug Dresseurs, combat double activé"
+ },
+ {
+  "msgid": "{COLOR RED} FALSE",
+  "msgstr": "{COLOR RED} FAUX",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 1070,
+  "note": "menu debug Dresseurs"
+ },
+ {
+  "msgid": "\\nRelease Build",
+  "msgstr": "\\nVersion finale",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 1818,
+  "note": "menu debug, version de l’expansion (suit le numéro de version)"
+ },
+ {
+  "msgid": "\\nDevelopment Build",
+  "msgstr": "\\nVersion de dév.",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 1819,
+  "note": "menu debug, version de l’expansion"
+ },
+ {
+  "msgid": "Not a Trainer",
+  "msgstr": "Pas un Dresseur",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 1918,
+  "note": "menu debug, PNJ choisi sur la carte (complété à 15 caractères)"
+ },
+ {
+  "msgid": "Local ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "msgstr": "ID local: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 1924,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées"
+ },
+ {
+  "msgid": "Item ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}",
+  "msgstr": "ID objet: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 2713,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées"
+ },
+ {
+  "msgid": "Quantity:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}",
+  "msgstr": "Quantité:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 2757,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées"
+ },
+ {
+  "msgid": "Species Disabled",
+  "msgstr": "Espèce désactivée",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 2853,
+  "note": "menu debug, espèce désactivée dans la config"
+ },
+ {
+  "msgid": "Species: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "msgstr": "Espèce: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 2862,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées"
+ },
+ {
+  "msgid": "Random",
+  "msgstr": "Aléatoire",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 3112,
+  "note": "menu debug, nature aléatoire"
+ },
+ {
+  "msgid": "Nature ID: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "msgstr": "ID nature: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 3115,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées"
+ },
+ {
+  "msgid": "Ability Num: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "msgstr": "Num. talent: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 3152,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées"
+ },
+ {
+  "msgid": "Tera Type: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "msgstr": "Téra-type: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 3205,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées ; Tera Type = Téra-type (officiel EV)"
+ },
+ {
+  "msgid": "Dmax Lvl:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "msgstr": "Niv. Dmax:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 3264,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées ; niveau Dynamax"
+ },
+ {
+  "msgid": "Gmax Factor:{CLEAR_TO 90}\\n   {STR_VAR_2}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{CLEAR_TO 90}",
+  "msgstr": "Facteur Gmax:{CLEAR_TO 90}\\n   {STR_VAR_2}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{CLEAR_TO 90}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 3310,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées ; Gigamax"
+ },
+ {
+  "msgid": "Decor ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}",
+  "msgstr": "ID déco: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 3664,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées"
+ },
+ {
+  "msgid": "Friendship:\\n{STR_VAR_1} {RIGHT_ARROW} {STR_VAR_2}\\n\\n{STR_VAR_3}",
+  "msgstr": "Amitié:\\n{STR_VAR_1} {RIGHT_ARROW} {STR_VAR_2}\\n\\n{STR_VAR_3}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 4988,
+  "note": "menu debug, réglage de l’amitié"
+ },
+ {
+  "msgid": "Inactive",
+  "msgstr": "Inactif",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 5047,
+  "note": "menu debug Pokérus : souche inactive"
+ },
+ {
+  "msgid": "No Pokerus",
+  "msgstr": "Sans Pokérus",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 5049,
+  "note": "menu debug Pokérus"
+ },
+ {
+  "msgid": "Days Left:\\n{STR_VAR_1}\\n{STR_VAR_2}{CLEAR_TO 90}\\n{STR_VAR_3}",
+  "msgstr": "Jours rest.:\\n{STR_VAR_1}\\n{STR_VAR_2}{CLEAR_TO 90}\\n{STR_VAR_3}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 5053,
+  "note": "menu debug, fenêtre de saisie numérique : texte avant {CLEAR_TO 90} ≤ 90 px, colonnes conservées (Pokérus)"
+ },
+ {
+  "msgid": "Strain:\\n{STR_VAR_1}\\n\\n{STR_VAR_3}",
+  "msgstr": "Souche:\\n{STR_VAR_1}\\n\\n{STR_VAR_3}",
+  "source": "traduction nouvelle",
+  "fichier": "src/debug.c",
+  "ligne": 5083,
+  "note": "menu debug Pokérus, souche"
+ }
+]

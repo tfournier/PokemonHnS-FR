@@ -1,0 +1,1602 @@
+[
+ {
+  "msgid": "OAK: Keep your eyes on your\\nPOKéMON's HP.\\pIt will faint if the HP drops to\\n“0.”\\p",
+  "msgstr": "CHEN: Surveille bien les PV\\nde ton Pokémon.\\pIl sera K.O. si ses PV\\ntombent à “0”.\\p",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_controller_oak_old_man.c",
+  "ligne": 54,
+  "note": "combat tutoriel du vieil homme (RFVF, non compilé) ; préfixe « CHEN: » comme radio_strings"
+ },
+ {
+  "msgid": "OAK: Lowering the foe's stats\\nwill put you at an advantage.\\p",
+  "msgstr": "CHEN: Baisser les stats de\\nl’ennemi te donne l’avantage.\\p",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_controller_oak_old_man.c",
+  "ligne": 55,
+  "note": "combat tutoriel du vieil homme (RFVF, non compilé)"
+ },
+ {
+  "msgid": " frames thinking\\n",
+  "msgstr": " images de réflexion\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_controller_player.c",
+  "ligne": 2002,
+  "note": "debug IA (temps de calcul en images), suffixe concaténé après un nombre"
+ },
+ {
+  "msgid": "Partner will use:\\n",
+  "msgstr": "Le partenaire utilisera:\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_controller_player.c",
+  "ligne": 2038,
+  "note": "debug IA : capacité choisie par le partenaire, suivie du nom de capacité"
+ },
+ {
+  "msgid": "The terrain returned to normal!",
+  "msgstr": "Le terrain redevient normal!",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_message.c",
+  "ligne": 191,
+  "note": "message de combat (fin d’un champ), non compilé ; tournure des messages « … revenue à la normale »"
+ },
+ {
+  "msgid": "No Additional Effect",
+  "msgstr": "Aucun effet supplémentaire",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_z_move.c",
+  "ligne": 105,
+  "note": "fenêtre d’info des capacités Z (effet Z), non compilé"
+ },
+ {
+  "msgid": "Pokémon FireRed Version\\nStaff",
+  "msgstr": "Pokémon Version Rouge Feu\\nÉquipe",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 349,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "Pokémon LeafGreen Version\\nStaff",
+  "msgstr": "Pokémon Version Vert Feuille\\nÉquipe",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 350,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "\\nArt Director\\n\\nBattle Director\\n\\n\\n",
+  "msgstr": "\\nDirection artistique\\n\\nDirection des combats\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 353,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "Program Leader\\n\\nPlanning Leader\\n\\nGraphic Design Leader\\n\\n",
+  "msgstr": "Chef programmeur\\n\\nChef de projet\\n\\nChef graphiste\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 355,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "Programmers\\n\\n\\n\\n\\n",
+  "msgstr": "Programmeurs\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 357,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "System Programmers\\n\\n\\n\\n\\n\\n",
+  "msgstr": "Programmeurs système\\n\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 359,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "Graphic Designers\\n\\n\\n\\n\\n\\n",
+  "msgstr": "Graphistes\\n\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 361,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "\\nGraphic Designers\\n\\n\\n\\n\\n",
+  "msgstr": "\\nGraphistes\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 363,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "\\nGame Designers\\n\\n\\n\\n\\n",
+  "msgstr": "\\nConception du jeu\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 369,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "\\nScript Designer\\n\\nMap Designer\\n\\n\\n",
+  "msgstr": "\\nScénario\\n\\nConception des cartes\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 375,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "\\nParametric Designers\\n\\n\\n\\n\\n",
+  "msgstr": "\\nParamétrage\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 377,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "POKéMON Designers\\n\\n\\n\\n\\n\\n",
+  "msgstr": "Design des Pokémon\\n\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 381,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "Supporting Programmers\\n\\n\\n\\n",
+  "msgstr": "Programmeurs assistants\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 387,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "\\n\\nBraille Code Check\\n\\n\\n\\n",
+  "msgstr": "\\n\\nVérification du braille\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 397,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "\\nTask Managers\\n\\n\\n\\n\\n",
+  "msgstr": "\\nGestion des tâches\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 403,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "\\n\\nExecutive Director\\n\\n\\n\\n",
+  "msgstr": "\\n\\nDirecteur exécutif\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 407,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "\\nEnglish Version Coordinators\\n\\n\\n\\n\\n",
+  "msgstr": "\\nCoordination version anglaise\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 413,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "\\nTranslator\\n\\nText Editor\\n\\n\\n",
+  "msgstr": "\\nTraduction\\n\\nRévision des textes\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 415,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "Programmers\\n\\n\\n\\n\\n\\n",
+  "msgstr": "Programmeurs\\n\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 417,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "\\nEnvironment & Tool Programmers\\n\\n\\n\\n\\n",
+  "msgstr": "\\nProgrammeurs outils\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 419,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "Braille Code Check\\n\\n\\n\\n\\n\\n",
+  "msgstr": "Vérification du braille\\n\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 423,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "\\nBraille Code Check\\n\\n\\n\\n\\n",
+  "msgstr": "\\nVérification du braille\\n\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 425,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "\\n\\nGraphic Designer\\n\\n\\n\\n",
+  "msgstr": "\\n\\nGraphiste\\n\\n\\n\\n",
+  "source": "traduction nouvelle",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 433,
+  "note": "générique (Rouge Feu/Vert Feuille, non compilé) : en-tête de rubrique ; structure des \\n conservée"
+ },
+ {
+  "msgid": "Capture first!",
+  "msgstr": "À capturer!",
+  "source": "traduction nouvelle",
+  "fichier": "src/dexnav.c",
+  "ligne": 185,
+  "note": "DexNav : info masquée tant que l’espèce n’est pas capturée (fenêtre de 9 tuiles, police réduite)"
+ },
+ {
+  "msgid": "R TO REGISTER!",
+  "msgstr": "R : ENREGISTRER!",
+  "source": "traduction nouvelle",
+  "fichier": "src/dexnav.c",
+  "ligne": 186,
+  "note": "DexNav : bouton R pour enregistrer l’espèce (capitales comme l’anglais)"
+ },
+ {
+  "msgid": "This Pokémon cannot be found here!",
+  "msgstr": "Ce Pokémon est introuvable ici!",
+  "source": "traduction nouvelle",
+  "fichier": "src/dexnav.c",
+  "ligne": 188,
+  "note": "DexNav : message d’erreur"
+ },
+ {
+  "msgid": "SUNNY CLOUDS",
+  "msgstr": "SOLEIL NUAGEUX",
+  "source": "traduction nouvelle",
+  "fichier": "src/field_weather.c",
+  "ligne": 1199,
+  "note": "debug météo, tableau [24] : 23 caractères max"
+ },
+ {
+  "msgid": "RAIN THUNDERSTORM",
+  "msgstr": "PLUIE ORAGEUSE",
+  "source": "traduction nouvelle",
+  "fichier": "src/field_weather.c",
+  "ligne": 1203,
+  "note": "debug météo, 23 caractères max"
+ },
+ {
+  "msgid": "FOG HORIZONTAL",
+  "msgstr": "BROUILLARD HORIZ.",
+  "source": "traduction nouvelle",
+  "fichier": "src/field_weather.c",
+  "ligne": 1204,
+  "note": "debug météo, 23 caractères max"
+ },
+ {
+  "msgid": "FOG DIAGONAL",
+  "msgstr": "BROUILLARD DIAG.",
+  "source": "traduction nouvelle",
+  "fichier": "src/field_weather.c",
+  "ligne": 1207,
+  "note": "debug météo, 23 caractères max"
+ },
+ {
+  "msgid": "DOWNPOUR",
+  "msgstr": "DÉLUGE",
+  "source": "traduction nouvelle",
+  "fichier": "src/field_weather.c",
+  "ligne": 1211,
+  "note": "debug météo"
+ },
+ {
+  "msgid": "UNDERWATER BUBBLES",
+  "msgstr": "BULLES SOUS-MARINES",
+  "source": "traduction nouvelle",
+  "fichier": "src/field_weather.c",
+  "ligne": 1212,
+  "note": "debug météo, 23 caractères max"
+ },
+ {
+  "msgid": "ABNORMAL(NOT WORKING)",
+  "msgstr": "ANORMAL(INACTIF)",
+  "source": "traduction nouvelle",
+  "fichier": "src/field_weather.c",
+  "ligne": 1213,
+  "note": "debug météo, 23 caractères max"
+ },
+ {
+  "msgid": "ROUTE119 CYCLE",
+  "msgstr": "CYCLE ROUTE119",
+  "source": "traduction nouvelle",
+  "fichier": "src/field_weather.c",
+  "ligne": 1214,
+  "note": "debug météo (cycle météo de la Route 119)"
+ },
+ {
+  "msgid": "ROUTE123 CYCLE",
+  "msgstr": "CYCLE ROUTE123",
+  "source": "traduction nouvelle",
+  "fichier": "src/field_weather.c",
+  "ligne": 1215,
+  "note": "debug météo (cycle météo de la Route 123)"
+ },
+ {
+  "msgid": "{A_BUTTON}Toggle   {DPAD_UPDOWN}Moves",
+  "msgstr": "{A_BUTTON}Changer {DPAD_UPDOWN}Capa.",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 137,
+  "note": "Pokédex HGSS, page stats (version sans capitales) ; aligné sur « {A_BUTTON}CHANGER {DPAD_UPDOWN}CAPA. »"
+ },
+ {
+  "msgid": "CATCH{0x5B}: ",
+  "msgstr": "CAPT.{0x5B}: ",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 157,
+  "note": "Pokédex HGSS, taux de capture en % ({0x5B} = octet du %, gardé tel quel comme dans l’anglais ; le contrôle CARACTERE le signale à tort), colonne étroite"
+ },
+ {
+  "msgid": "EGG G1:",
+  "msgstr": "GR.ŒUF:",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 184,
+  "note": "Pokédex HGSS, groupes d’œufs (suivi de « X/Y »), colonne étroite"
+ },
+ {
+  "msgid": "SEEN",
+  "msgstr": "VU",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 202,
+  "note": "Pokédex HGSS, statut de l’espèce (pendant de OWN → PRIS)"
+ },
+ {
+  "msgid": "{DPAD_UPDOWN}EVOs  {A_BUTTON}CHECK",
+  "msgstr": "{DPAD_UPDOWN}EVOL.  {A_BUTTON}VOIR",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 205,
+  "note": "Pokédex HGSS, barre d’aide évolutions ; aligné sur la variante avec FORMES"
+ },
+ {
+  "msgid": "{DPAD_UPDOWN}Evos  {A_BUTTON}Check",
+  "msgstr": "{DPAD_UPDOWN}Évol.  {A_BUTTON}Voir",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 206,
+  "note": "Pokédex HGSS, barre d’aide (version sans capitales)"
+ },
+ {
+  "msgid": "{DPAD_UPDOWN}Evos  {A_BUTTON}Check  {START_BUTTON}Forms",
+  "msgstr": "{DPAD_UPDOWN}Évol.  {A_BUTTON}Voir  {START_BUTTON}Formes",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 208,
+  "note": "Pokédex HGSS, barre d’aide (version sans capitales)"
+ },
+ {
+  "msgid": "{LV}{UP_ARROW} to {STR_VAR_2}, Silcoon persona",
+  "msgstr": "{LV}{UP_ARROW} au {STR_VAR_2}, type ARMULYS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 212,
+  "note": "Pokédex HGSS, méthode d’évolution de CHENIPOTTE (personnalité) ; STR_VAR_2 = niveau"
+ },
+ {
+  "msgid": "{LV}{UP_ARROW} to {STR_VAR_2}, Cascoon persona",
+  "msgstr": "{LV}{UP_ARROW} au {STR_VAR_2}, type BLINDALYS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 213,
+  "note": "Pokédex HGSS, méthode d’évolution de CHENIPOTTE (personnalité)"
+ },
+ {
+  "msgid": "{LV}{UP_ARROW}, knows {STR_VAR_2}",
+  "msgstr": "{LV}{UP_ARROW}, connaît {STR_VAR_2}",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 214,
+  "note": "Pokédex HGSS, méthode d’évolution ; STR_VAR_2 = capacité"
+ },
+ {
+  "msgid": "{LV}{UP_ARROW} to {STR_VAR_2} while raining",
+  "msgstr": "{LV}{UP_ARROW} au {STR_VAR_2} sous la pluie",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 215,
+  "note": "Pokédex HGSS, méthode d’évolution"
+ },
+ {
+  "msgid": "Traded for {STR_VAR_2}",
+  "msgstr": "Échangé contre {STR_VAR_2}",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 216,
+  "note": "Pokédex HGSS, méthode d’évolution ; STR_VAR_2 = espèce"
+ },
+ {
+  "msgid": "Land {STR_VAR_2} critical hits in\\nsingle battle",
+  "msgstr": "{STR_VAR_2} coups critiques en\\nun seul combat",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 217,
+  "note": "Pokédex HGSS, méthode d’évolution (CANARTICHO de Galar)"
+ },
+ {
+  "msgid": "Takes at least {STR_VAR_2} HP in damage",
+  "msgstr": "Perd au moins {STR_VAR_2} PV",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 218,
+  "note": "Pokédex HGSS, méthode d’évolution (Yamask de Galar)"
+ },
+ {
+  "msgid": "ScrllOfDrknss is used",
+  "msgstr": "Rouleau Ténèbres utilisé",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 219,
+  "note": "Pokédex HGSS, évolution de Kubfu (Rouleau des Ténèbres, nom officiel abrégé comme l’anglais)"
+ },
+ {
+  "msgid": "ScrollOfWatrs is used",
+  "msgstr": "Rouleau des Eaux utilisé",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 220,
+  "note": "Pokédex HGSS, évolution de Kubfu (Rouleau des Eaux, nom officiel)"
+ },
+ {
+  "msgid": "{LV}{UP_ARROW} after 20x {STR_VAR_2}",
+  "msgstr": "{LV}{UP_ARROW} après 20x {STR_VAR_2}",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 221,
+  "note": "Pokédex HGSS, méthode d’évolution ; STR_VAR_2 = capacité"
+ },
+ {
+  "msgid": "{LV}{UP_ARROW} with {STR_VAR_2} recoil, male",
+  "msgstr": "{LV}{UP_ARROW}, {STR_VAR_2} PV de recul, mâle",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 222,
+  "note": "Pokédex HGSS, évolution de Bargantua (dégâts de recul)"
+ },
+ {
+  "msgid": "{LV}{UP_ARROW} with {STR_VAR_2} recoil, female",
+  "msgstr": "{LV}{UP_ARROW}, {STR_VAR_2} PV de recul, femelle",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 223,
+  "note": "Pokédex HGSS, évolution de Bargantua (dégâts de recul)"
+ },
+ {
+  "msgid": "{LV}{UP_ARROW} defeating 3 {STR_VAR_3} holding {STR_VAR_2}",
+  "msgstr": "{LV}{UP_ARROW}, vaincre 3 {STR_VAR_3} tenant {STR_VAR_2}",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 224,
+  "note": "Pokédex HGSS, évolution de Scalpereur ; STR_VAR_3 = espèce, STR_VAR_2 = objet"
+ },
+ {
+  "msgid": "{START_BUTTON}Evos",
+  "msgstr": "{START_BUTTON}Évol.",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 228,
+  "note": "Pokédex HGSS, barre d’aide formes (sans capitales)"
+ },
+ {
+  "msgid": "H VIBRATE",
+  "msgstr": "H VIBRE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 163,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H SLIDE",
+  "msgstr": "H GLISSE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 164,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H SPRING",
+  "msgstr": "H RESSORT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 165,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H SPRING REPEATED",
+  "msgstr": "H RESSORT RÉPÉTÉ",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 166,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SHRINK GROW",
+  "msgstr": "RÉTRÉCIT GRANDIT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 167,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CIRCLE COUNTERCLOCKWISE",
+  "msgstr": "CERCLE ANTIHORAIRE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 169,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H SHAKE",
+  "msgstr": "H TREMBLE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 170,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SHAKE",
+  "msgstr": "V TREMBLE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 171,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SHAKE H SLIDE",
+  "msgstr": "V TREMBLE H GLISSE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 172,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V STRETCH",
+  "msgstr": "V ÉTIRE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 173,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H STRETCH",
+  "msgstr": "H ÉTIRE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 174,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "GROW STUTTER",
+  "msgstr": "GRANDIT SACCADÉ",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 175,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SHAKE LOW",
+  "msgstr": "V TREMBLE BAS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 176,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "TRIANGLE DOWN",
+  "msgstr": "TRIANGLE BAS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 177,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CONCAVE ARC LARGE",
+  "msgstr": "ARC CONCAVE GRAND",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 178,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CONVEX DOUBLE ARC",
+  "msgstr": "DOUBLE ARC CONVEXE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 179,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CONCAVE ARC SMALL",
+  "msgstr": "ARC CONCAVE PETIT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 180,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "DIP RIGHT SIDE",
+  "msgstr": "PLONGE CÔTÉ DROIT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 181,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SHRINK GROW VIBRATE",
+  "msgstr": "RÉTRÉCIT GRANDIT VIBRE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 182,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "JOLT RIGHT",
+  "msgstr": "SECOUSSE DROITE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 183,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SHAKE FLASH YELLOW",
+  "msgstr": "TREMBLE FLASH JAUNE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 184,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SHAKE GLOW RED",
+  "msgstr": "TREMBLE HALO ROUGE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 185,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SHAKE GLOW GREEN",
+  "msgstr": "TREMBLE HALO VERT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 186,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SHAKE GLOW BLUE",
+  "msgstr": "TREMBLE HALO BLEU",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 187,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SQUISH AND BOUNCE",
+  "msgstr": "V ÉCRASE ET REBONDIT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 191,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CIRCULAR STRETCH TWICE",
+  "msgstr": "ÉTIREMENT CIRCULAIRE x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 192,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SLIDE",
+  "msgstr": "V GLISSE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 195,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "BOUNCE ROTATE TO SIDES",
+  "msgstr": "REBOND ROTATION CÔTÉS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 196,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V JUMPS H JUMPS",
+  "msgstr": "V SAUTS H SAUTS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 197,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "ROTATE TO SIDES",
+  "msgstr": "ROTATION CÔTÉS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 198,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "ROTATE TO SIDES TWICE",
+  "msgstr": "ROTATION CÔTÉS x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 199,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "GROW VIBRATE",
+  "msgstr": "GRANDIT VIBRE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 200,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "ZIGZAG FAST",
+  "msgstr": "ZIGZAG RAPIDE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 201,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SWING CONCAVE",
+  "msgstr": "BALANCE CONCAVE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 202,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SWING CONCAVE FAST",
+  "msgstr": "BALANCE CONCAVE RAPIDE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 203,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SWING CONVEX",
+  "msgstr": "BALANCE CONVEXE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 204,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SWING CONVEX FAST",
+  "msgstr": "BALANCE CONVEXE RAPIDE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 205,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CIRCULAR VIBRATE",
+  "msgstr": "VIBRE CIRCULAIRE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 208,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "TWIST",
+  "msgstr": "VRILLE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 209,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CIRCLE C CLOCKWISE",
+  "msgstr": "CERCLE ANTIHORAIRE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 211,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "GLOW BLACK",
+  "msgstr": "HALO NOIR",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 212,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "RISING WOBBLE",
+  "msgstr": "OSCILLE EN MONTANT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 215,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SHAKE TWICE",
+  "msgstr": "V TREMBLE x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 216,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "TIP MOVE FORWARD",
+  "msgstr": "PENCHE EN AVANT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 217,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SLIDE WOBBLE",
+  "msgstr": "V GLISSE OSCILLE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 219,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H SLIDE WOBBLE",
+  "msgstr": "H GLISSE OSCILLE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 220,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V JUMPS BIG",
+  "msgstr": "V GRANDS SAUTS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 221,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SPIN LONG",
+  "msgstr": "TOURNE LONGTEMPS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 222,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "GLOW ORANGE",
+  "msgstr": "HALO ORANGE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 223,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "GLOW RED",
+  "msgstr": "HALO ROUGE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 224,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "GLOW BLUE",
+  "msgstr": "HALO BLEU",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 225,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "GLOW YELLOW",
+  "msgstr": "HALO JAUNE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 226,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "GLOW PURPLE",
+  "msgstr": "HALO VIOLET",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 227,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "BACK AND LUNGE",
+  "msgstr": "RECUL ET BOND",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 228,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "BACK FLIP",
+  "msgstr": "SALTO ARRIÈRE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 229,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "FLICKER",
+  "msgstr": "CLIGNOTE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 230,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "BACK FLIP BIG",
+  "msgstr": "GRAND SALTO ARRIÈRE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 231,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "FRONT FLIP",
+  "msgstr": "SALTO AVANT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 232,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "TUMBLING FRONT FLIP",
+  "msgstr": "SALTO AVANT ROULÉ",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 233,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "FIGURE 8",
+  "msgstr": "HUIT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 234,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "FLASH YELLOW",
+  "msgstr": "FLASH JAUNE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 235,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SWING CONCAVE FAST SHORT",
+  "msgstr": "BALANCE CONCAV RAP BREF",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 236,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SWING CONVEX FAST SHORT",
+  "msgstr": "BALANCE CONVEX RAP BREF",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 237,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "ROTATE UP SLAM DOWN",
+  "msgstr": "ROTATION HAUT CHOC BAS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 238,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "DEEP V SQUISH AND BOUNCE",
+  "msgstr": "V ÉCRASE FORT REBONDIT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 239,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H JUMPS",
+  "msgstr": "H SAUTS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 240,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H JUMPS V STRETCH",
+  "msgstr": "H SAUTS V ÉTIRE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 241,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "ROTATE TO SIDES FAST",
+  "msgstr": "ROTATION CÔTÉS RAPIDE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 242,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "ROTATE UP TO SIDES",
+  "msgstr": "ROTATION HAUT CÔTÉS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 243,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "FLICKER INCREASING",
+  "msgstr": "CLIGNOTE CROISSANT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 244,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "TIP HOP FORWARD",
+  "msgstr": "PENCHE SAUT AVANT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 245,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "PIVOT SHAKE",
+  "msgstr": "PIVOT TREMBLE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 246,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "TIP AND SHAKE",
+  "msgstr": "PENCHE ET TREMBLE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 247,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "VIBRATE TO CORNERS",
+  "msgstr": "VIBRE VERS LES COINS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 248,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "GROW IN STAGES",
+  "msgstr": "GRANDIT PAR ÉTAPES",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 249,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SPRING",
+  "msgstr": "V RESSORT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 250,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V REPEATED SPRING",
+  "msgstr": "V RESSORT RÉPÉTÉ",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 251,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SPRING RISING",
+  "msgstr": "RESSORT MONTANT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 252,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H REPEATED SPRING SLOW",
+  "msgstr": "H RESSORT RÉPÉTÉ LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 254,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H SLIDE SHRINK",
+  "msgstr": "H GLISSE RÉTRÉCIT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 255,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "LUNGE GROW",
+  "msgstr": "BOND GRANDIT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 256,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CIRCLE INTO BG",
+  "msgstr": "CERCLE VERS LE FOND",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 257,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "RAPID H HOPS",
+  "msgstr": "PETITS SAUTS H RAPIDES",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 258,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "FOUR PETAL",
+  "msgstr": "QUATRE PÉTALES",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 259,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SQUISH AND BOUNCE SLOW",
+  "msgstr": "V ÉCRASE REBONDIT LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 260,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H SLIDE SLOW",
+  "msgstr": "H GLISSE LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 261,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SLIDE SLOW",
+  "msgstr": "V GLISSE LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 262,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "BOUNCE ROTATE TO SIDES SMALL",
+  "msgstr": "REBOND ROT. CÔTÉS PETIT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 263,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "BOUNCE ROTATE TO SIDES SLOW",
+  "msgstr": "REBOND ROT. CÔTÉS LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 264,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "BOUNCE ROTATE TO SIDES SMALL SLOW",
+  "msgstr": "REB. ROT. CÔTÉS PT LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 265,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "ZIGZAG SLOW",
+  "msgstr": "ZIGZAG LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 266,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H SHAKE SLOW",
+  "msgstr": "H TREMBLE LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 267,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SHAKE SLOW",
+  "msgstr": "V TREMBLE LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 268,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "TWIST TWICE",
+  "msgstr": "VRILLE x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 269,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CIRCLE C CLOCKWISE SLOW",
+  "msgstr": "CERCLE ANTIHORAIRE LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 270,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SHAKE TWICE SLOW",
+  "msgstr": "V TREMBLE x2 LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 271,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SLIDE WOBBLE SMALL",
+  "msgstr": "V GLISSE OSCILLE PETIT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 272,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V JUMPS SMALL",
+  "msgstr": "V PETITS SAUTS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 273,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "TUMBLING FRONT FLIP TWICE",
+  "msgstr": "SALTO AVANT ROULÉ x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 275,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "DEEP V SQUISH AND BOUNCE TWICE",
+  "msgstr": "V ÉCRASE FORT REBOND x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 276,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H JUMPS V STRETCH TWICE",
+  "msgstr": "H SAUTS V ÉTIRE x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 277,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SHAKE BACK",
+  "msgstr": "V TREMBLE RECUL",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 278,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SHAKE BACK SLOW",
+  "msgstr": "V TREMBLE RECUL LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 279,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SHAKE H SLIDE SLOW",
+  "msgstr": "V TREMBLE H GLISSE LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 280,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V STRETCH BOTH ENDS SLOW",
+  "msgstr": "V ÉTIRE 2 BOUTS LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 281,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H STRETCH FAR SLOW",
+  "msgstr": "H ÉTIRE LOIN LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 282,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SHAKE LOW TWICE",
+  "msgstr": "V TREMBLE BAS x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 283,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H SHAKE FAST",
+  "msgstr": "H TREMBLE RAPIDE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 284,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H SLIDE FAST",
+  "msgstr": "H GLISSE RAPIDE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 285,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H VIBRATE FAST",
+  "msgstr": "H VIBRE RAPIDE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 286,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H VIBRATE FASTEST",
+  "msgstr": "H VIBRE TRÈS RAPIDE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 287,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SHAKE BACK FAST",
+  "msgstr": "V TREMBLE RECUL RAPIDE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 288,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SHAKE LOW TWICE SLOW",
+  "msgstr": "V TREMBLE BAS x2 LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 289,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SHAKE LOW TWICE FAST",
+  "msgstr": "V TREMBLE BAS x2 RAPIDE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 290,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CIRCLE C CLOCKWISE LONG",
+  "msgstr": "CERCLE ANTIHORAIRE LONG",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 291,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "GROW STUTTER SLOW",
+  "msgstr": "GRANDIT SACCADÉ LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 292,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V SHAKE H SLIDE FAST",
+  "msgstr": "V TREMBLE H GLISSE RAP.",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 294,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "TRIANGLE DOWN SLOW",
+  "msgstr": "TRIANGLE BAS LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 295,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "TRIANGLE DOWN TWICE",
+  "msgstr": "TRIANGLE BAS x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 297,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "GROW TWICE",
+  "msgstr": "GRANDIT x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 299,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H SPRING FAST",
+  "msgstr": "H RESSORT RAPIDE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 300,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H SPRING SLOW",
+  "msgstr": "H RESSORT LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 301,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H REPEATED SPRING FAST",
+  "msgstr": "H RESSORT RÉPÉTÉ RAP.",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 302,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H REPEATED SPRING",
+  "msgstr": "H RESSORT RÉPÉTÉ",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 303,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SHRINK GROW FAST",
+  "msgstr": "RÉTRÉCIT GRANDIT RAP.",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 304,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "SHRINK GROW SLOW",
+  "msgstr": "RÉTRÉCIT GRANDIT LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 305,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V STRETCH BOTH ENDS",
+  "msgstr": "V ÉTIRE 2 BOUTS",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 306,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "V STRETCH BOTH ENDS TWICE",
+  "msgstr": "V ÉTIRE 2 BOUTS x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 307,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H STRETCH FAR TWICE",
+  "msgstr": "H ÉTIRE LOIN x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 308,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H STRETCH FAR",
+  "msgstr": "H ÉTIRE LOIN",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 309,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "GROW STUTTER TWICE",
+  "msgstr": "GRANDIT SACCADÉ x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 310,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CONCAVE ARC LARGE SLOW",
+  "msgstr": "ARC CONCAVE GRAND LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 312,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CONCAVE ARC LARGE TWICE",
+  "msgstr": "ARC CONCAVE GRAND x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 314,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CONVEX DOUBLE ARC SLOW",
+  "msgstr": "DOUBLE ARC CONVEXE LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 315,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CONVEX DOUBLE ARC TWICE",
+  "msgstr": "DOUBLE ARC CONVEXE x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 317,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CONCAVE ARC SMALL SLOW",
+  "msgstr": "ARC CONCAVE PETIT LENT",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 318,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "CONCAVE ARC SMALL TWICE",
+  "msgstr": "ARC CONCAVE PETIT x2",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 320,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ },
+ {
+  "msgid": "H DIP",
+  "msgstr": "H PLONGE",
+  "source": "traduction nouvelle",
+  "fichier": "src/pokemon_sprite_visualizer.c",
+  "ligne": 321,
+  "note": "visualiseur de sprites (debug), nom d’animation de dos, tableau gBackAnimNames[24] : 23 caractères max ; H/V = horizontal/vertical, x2 = deux fois"
+ }
+]

@@ -1,0 +1,932 @@
+[
+ {
+  "msgid": "Summons hail in battle.",
+  "msgstr": "Invoque la grêle en combat.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/abilities.h",
+  "ligne": 880,
+  "note": "description de talent (Alerte Neige, avant Gen 9) ; aligné sur « Invoque la neige en combat. »"
+ },
+ {
+  "msgid": "Long Grass",
+  "msgstr": "Hautes herbes",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 92,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Underwater",
+  "msgstr": "Fond marin",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 126,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug) ; Émeraude FR « FOND MARIN »"
+ },
+ {
+  "msgid": "Pond",
+  "msgstr": "Étang",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 154,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Building",
+  "msgstr": "Bâtiment",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 208,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Plain",
+  "msgstr": "Plaine",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 222,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Sidney",
+  "msgstr": "DAMIEN",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 301,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug) ; Conseil 4 de Hoenn : Sidney = DAMIEN (Émeraude FR, capitales Hoenn)"
+ },
+ {
+  "msgid": "Phoebe",
+  "msgstr": "SPECTRA",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 314,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug) ; Phoebe = SPECTRA (Émeraude FR)"
+ },
+ {
+  "msgid": "Glacia",
+  "msgstr": "GLACIA",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 327,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug) ; Glacia = GLACIA (Émeraude FR, capitales Hoenn)"
+ },
+ {
+  "msgid": "Blue Building",
+  "msgstr": "Bâtiment bleu",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 408,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Gray Cave",
+  "msgstr": "Grotte grise",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 422,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Cave Water",
+  "msgstr": "Eau de grotte",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 436,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Gray Cave Water",
+  "msgstr": "Eau grotte grise",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 450,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Bruno",
+  "msgstr": "Aldo",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 490,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug) ; Bruno = Aldo (SoulSilver FR)"
+ },
+ {
+  "msgid": "Karen",
+  "msgstr": "Marion",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 503,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug) ; Karen = Marion (SoulSilver FR)"
+ },
+ {
+  "msgid": "Rock Snow",
+  "msgstr": "Roche enneigée",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 516,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Mountain Snow",
+  "msgstr": "Montagne enneigée",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 542,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Volcano Cave",
+  "msgstr": "Grotte volcanique",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 568,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Snow Cave",
+  "msgstr": "Grotte enneigée",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 582,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Soaring",
+  "msgstr": "Envol",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 596,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Sky Pillar",
+  "msgstr": "Pilier Céleste",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 606,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug) ; lieu Émeraude FR « PILIER CELESTE »"
+ },
+ {
+  "msgid": "Burial Ground",
+  "msgstr": "Cimetière",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 616,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Marsh",
+  "msgstr": "Marais",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 636,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Space",
+  "msgstr": "Espace",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 702,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug)"
+ },
+ {
+  "msgid": "Ultra Space",
+  "msgstr": "Ultra-Dimension",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/battle_environment.h",
+  "ligne": 712,
+  "note": "nom d’environnement de combat (champ .name, affiché en debug) ; Ultra-Dimension (Soleil/Lune FR)"
+ },
+ {
+  "msgid": "Debugger",
+  "msgstr": "Débogueur",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/debug_trainers.party",
+  "ligne": 32,
+  "note": "nom de Dresseur (Name: Debugger) ; Dresseur de test (debug_trainers.party)"
+ },
+ {
+  "msgid": "A fertilizer that\\ndecelerates the\\ngrowth of Berries.",
+  "msgstr": "Fertilisant qui\\nralentit la pousse\\ndes Baies.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/items.h",
+  "ligne": 3582,
+  "note": "description d’objet (Fertihumide), 3 lignes, fenêtre 112 px ; style « Fertilisant qui\\naccélère la pousse\\ndes Baies. »"
+ },
+ {
+  "msgid": "A fertilizer that\\nups the life time\\nof Berry trees.",
+  "msgstr": "Fertilisant qui\\nprolonge la vie\\ndes plants de Baies.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/items.h",
+  "ligne": 3605,
+  "note": "description d’objet (Fertistable)"
+ },
+ {
+  "msgid": "A fertilizer that\\nmakes more Berries\\nregrow after fall.",
+  "msgstr": "Fertilisant qui fait\\nrepousser plus de\\nBaies après la chute.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/items.h",
+  "ligne": 3628,
+  "note": "description d’objet (Fertiglu)"
+ },
+ {
+  "msgid": "A fertilizer that\\nups the number of\\nBerries harvested.",
+  "msgstr": "Fertilisant qui\\naugmente le nombre\\nde Baies récoltées.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/items.h",
+  "ligne": 3651,
+  "note": "description d’objet (Fertibondance)"
+ },
+ {
+  "msgid": "A fertilizer that\\nups the chance of\\nBerry mutations.",
+  "msgstr": "Fertilisant qui\\nfavorise les\\nmutations des Baies.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/items.h",
+  "ligne": 3674,
+  "note": "description d’objet (Fertistantané)"
+ },
+ {
+  "msgid": "A fertilizer that\\nups the dry speed\\nof soft soil.",
+  "msgstr": "Fertilisant qui fait\\nsécher plus vite\\nla terre meuble.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/items.h",
+  "ligne": 3697,
+  "note": "description d’objet (Fertibérance)"
+ },
+ {
+  "msgid": "A fertilizer Rich\\nSurprising and\\nBoosting as well.",
+  "msgstr": "Fertilisant à la fois\\nabondant, instantané\\net sublimant.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/items.h",
+  "ligne": 3720,
+  "note": "description d’objet (Fertiprodige : cumule Fertibondance, Fertistantané et Fertibérance)"
+ },
+ {
+  "msgid": "Extends the length\\nof the move Hail\\nused by the holder.",
+  "msgstr": "Prolonge la Grêle\\nlancée par\\nle porteur.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/items.h",
+  "ligne": 9474,
+  "note": "description d’objet (Roche Glace, avant Gen 9) ; style « Prolonge la Tempête\\nde Sable lancée par\\nle porteur. »"
+ },
+ {
+  "msgid": "Extends the length\\nof Snowscape if\\nused by the holder.",
+  "msgstr": "Prolonge Chute de\\nNeige lancée par\\nle porteur.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/items.h",
+  "ligne": 9479,
+  "note": "description d’objet (Roche Glace, Gen 9) ; Snowscape = Chute de Neige"
+ },
+ {
+  "msgid": "Raises the Defense\\nof Ice type {PKMN}\\nfor 5 turns.",
+  "msgstr": "Augmente la Défense\\ndes {PKMN} Glace\\npendant 5 tours.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/items.h",
+  "ligne": 12313,
+  "note": "description d’objet (CT Grêle, effet neige Gen 9)"
+ },
+ {
+  "msgid": "Leaves the user immobile\\nif target is not KO'd.",
+  "msgstr": "Immobilise le lanceur si\\nla cible n’est pas K.O.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 36,
+  "note": "description de capacité (Ultralaser, variante), 2 lignes"
+ },
+ {
+  "msgid": "A low, tripping kick that\\nmay cause flinching.",
+  "msgstr": "Un coup de pied bas qui\\npeut apeurer l’ennemi.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 1878,
+  "note": "description de capacité (Balayage, variante Gen 1-2)"
+ },
+ {
+  "msgid": "The target is hit with\\nrhythmic punches.",
+  "msgstr": "Frappe la cible de coups\\nde poing rythmés.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 3986,
+  "note": "description de capacité (Uppercut)"
+ },
+ {
+  "msgid": "Hits the foe with an\\navalanche of rocks.",
+  "msgstr": "Frappe l’ennemi avec une\\navalanche de rochers.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 4267,
+  "note": "description de capacité (Éboulement, variante)"
+ },
+ {
+  "msgid": "A triangular field of energy\\nis created and launched.",
+  "msgstr": "Un champ d’énergie\\ntriangulaire est projeté.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 4389,
+  "note": "description de capacité (Triplattaque, variante)"
+ },
+ {
+  "msgid": "Weakens all attacks, but\\nonly usable with snow.",
+  "msgstr": "Réduit les dégâts. Sous\\nneige uniquement.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 16933,
+  "note": "description de capacité (Voile Aurore, Gen 9) ; style « Réduit les dégâts. Sous\\ngrêle ou neige uniquement. »"
+ },
+ {
+  "msgid": "Weakens all attacks, but\\nonly usable with hail.",
+  "msgstr": "Réduit les dégâts. Sous\\ngrêle uniquement.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 16941,
+  "note": "description de capacité (Voile Aurore, avant Gen 9)"
+ },
+ {
+  "msgid": "Bad joke summons hailstorm.\\nThe user also switches out.",
+  "msgstr": "Sa blague jette un froid et\\nfait grêler. Puis il sort.",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 20487,
+  "note": "description de capacité (Froid Glacial, variante grêle) ; calquée sur la variante neige existante"
+ },
+ {
+  "msgid": "ABRA{CLEAR_TO 0x55}{FONT_SMALL} 180 COINS",
+  "msgstr": "ABRA{CLEAR_TO 0x55}{FONT_SMALL} 180 JETONS",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 908,
+  "note": "lots Pokémon du Casino (Rouge Feu, non compilé) ; colonnes CLEAR_TO conservées"
+ },
+ {
+  "msgid": "CLEFAIRY{CLEAR_TO 0x55}{FONT_SMALL} 500 COINS",
+  "msgstr": "MELOFEE{CLEAR_TO 0x55}{FONT_SMALL} 500 JETONS",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 909,
+  "note": "lots du Casino (Rouge Feu, non compilé) ; espèce en capitales SoulSilver"
+ },
+ {
+  "msgid": "DRATINI{CLEAR_TO 0x4B}{FONT_SMALL} 2,800 COINS",
+  "msgstr": "MINIDRACO{CLEAR_TO 0x4B}{FONT_SMALL} 2 800 JETONS",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 910,
+  "note": "lots du Casino (Rouge Feu, non compilé)"
+ },
+ {
+  "msgid": "SCYTHER{CLEAR_TO 0x4B}{FONT_SMALL} 5,500 COINS",
+  "msgstr": "INSECATEUR{CLEAR_TO 0x4B}{FONT_SMALL} 5 500 JETONS",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 911,
+  "note": "lots du Casino (Rouge Feu, non compilé)"
+ },
+ {
+  "msgid": "TIM",
+  "msgstr": "Tim",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1079,
+  "note": "surnom/nom de DO d’échange (.otName = _(\"TIM\"),) ; aussi dans src/data/trainers_hns.party ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "WOODY",
+  "msgstr": "Woody",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1153,
+  "note": "surnom/nom de DO d’échange (.nickname = _(\"WOODY\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "MIMIEN",
+  "msgstr": "Mimien",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1185,
+  "note": "surnom/nom de DO d’échange (.nickname = _(\"MIMIEN\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "REYLEY",
+  "msgstr": "Reyley",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1194,
+  "note": "surnom/nom de DO d’échange (.otName = _(\"REYLEY\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "ZYNX",
+  "msgstr": "Zynx",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1201,
+  "note": "surnom/nom de DO d’échange (.nickname = _(\"ZYNX\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "DONTAE",
+  "msgstr": "Dontae",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1210,
+  "note": "surnom/nom de DO d’échange (.otName = _(\"DONTAE\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "MS. NIDO",
+  "msgstr": "Mlle Nido",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1266,
+  "note": "surnom/nom de DO d’échange (.nickname = _(\"MS. NIDO\"),) ; surnom de NIDORAN♀ (Ms. → Mlle), 10 max"
+ },
+ {
+  "msgid": "SAIGE",
+  "msgstr": "Saige",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1275,
+  "note": "surnom/nom de DO d’échange (.otName = _(\"SAIGE\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "CH'DING",
+  "msgstr": "Ch’Ding",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1297,
+  "note": "surnom/nom de DO d’échange (.nickname = _(\"CH'DING\"),) ; surnom conservé, apostrophe typographique"
+ },
+ {
+  "msgid": "ELYSSA",
+  "msgstr": "Elyssa",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1306,
+  "note": "surnom/nom de DO d’échange (.otName = _(\"ELYSSA\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "NINA",
+  "msgstr": "Nina",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1314,
+  "note": "surnom/nom de DO d’échange (.nickname = _(\"NINA\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "NINO",
+  "msgstr": "Nino",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1328,
+  "note": "surnom/nom de DO d’échange (.nickname = _(\"NINO\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "HADEN",
+  "msgstr": "Haden",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1354,
+  "note": "surnom/nom de DO d’échange (.otName = _(\"HADEN\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "ESPHERE",
+  "msgstr": "Esphere",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1365,
+  "note": "surnom/nom de DO d’échange (.nickname = _(\"ESPHERE\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "CLIFTON",
+  "msgstr": "Clifton",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1374,
+  "note": "surnom/nom de DO d’échange (.otName = _(\"CLIFTON\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "TANGENY",
+  "msgstr": "Tangeny",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1381,
+  "note": "surnom/nom de DO d’échange (.nickname = _(\"TANGENY\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "NORMA",
+  "msgstr": "Norma",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1390,
+  "note": "surnom/nom de DO d’échange (.otName = _(\"NORMA\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "SEELOR",
+  "msgstr": "Seelor",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trade.h",
+  "ligne": 1397,
+  "note": "surnom/nom de DO d’échange (.nickname = _(\"SEELOR\"),) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "RELI",
+  "msgstr": "Reli",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 570,
+  "note": "nom de Dresseur (Name: RELI) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "TREVOR",
+  "msgstr": "Trevor",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 798,
+  "note": "nom de Dresseur (Name: TREVOR) ; aussi dans src/data/trainers_hns.party ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs ; SoulSilver FR a un homonyme d’une autre classe (Arnaut), proposé dans douteux.json"
+ },
+ {
+  "msgid": "ZAC",
+  "msgstr": "Zac",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 1564,
+  "note": "nom de Dresseur (Name: ZAC) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "HIDEKI",
+  "msgstr": "Hideki",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 4309,
+  "note": "nom de Dresseur (Name: HIDEKI) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "CONNOR",
+  "msgstr": "Connor",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 4668,
+  "note": "nom de Dresseur (Name: CONNOR) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs ; SoulSilver FR a un homonyme d’une autre classe (Julien), proposé dans douteux.json"
+ },
+ {
+  "msgid": "BRAYDON",
+  "msgstr": "Braydon",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 4942,
+  "note": "nom de Dresseur (Name: BRAYDON) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "GIOVANNI",
+  "msgstr": "Giovanni",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 1359,
+  "preuve": "banque 729:700 (Giovanni, ROCKET_BOSS), cf. lot B douteux.json",
+  "note": "nom propre (aussi nom de Dresseur) (.string \"GIOVANNI$\") ; aussi dans src/data/trainers_frlg.party, src/data/trainers_hns.party ; même personnage que dans SoulSilver ; aussi titre du Fame Checker (RFVF)"
+ },
+ {
+  "msgid": "LORELEI",
+  "msgstr": "Olga",
+  "source": "traduction nouvelle",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 1251,
+  "note": "nom propre (aussi nom de Dresseur) (.string \"LORELEI$\") ; aussi dans src/data/trainers_frlg.party ; nom officiel FR d’Olga (Conseil 4 de Kanto, Rouge Feu/Vert Feuille FR)"
+ },
+ {
+  "msgid": "ELI & ANNE",
+  "msgstr": "Eli & Anne",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 8565,
+  "note": "nom de Dresseur (Name: ELI & ANNE) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "RAY & TYRA",
+  "msgstr": "Ray & Tyra",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 8582,
+  "note": "nom de Dresseur (Name: RAY & TYRA) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "GIA & JES",
+  "msgstr": "Gia & Jes",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 8607,
+  "note": "nom de Dresseur (Name: GIA & JES) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "KIRI & JAN",
+  "msgstr": "Kiri & Jan",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 8624,
+  "note": "nom de Dresseur (Name: KIRI & JAN) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "RON & MYA",
+  "msgstr": "Ron & Mya",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 8641,
+  "note": "nom de Dresseur (Name: RON & MYA) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "LIA & LUC",
+  "msgstr": "Lia & Luc",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 8675,
+  "note": "nom de Dresseur (Name: LIA & LUC) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "LIL & IAN",
+  "msgstr": "Lil & Ian",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 8692,
+  "note": "nom de Dresseur (Name: LIL & IAN) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "MIK & KIA",
+  "msgstr": "Mik & Kia",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 9828,
+  "note": "nom de Dresseur (Name: MIK & KIA) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "JOY & MEG",
+  "msgstr": "Joy & Meg",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 9891,
+  "note": "nom de Dresseur (Name: JOY & MEG) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "MYMO",
+  "msgstr": "Mymo",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 10150,
+  "note": "nom de Dresseur (Name: MYMO) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "AVA & GEB",
+  "msgstr": "Ava & Geb",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 10180,
+  "note": "nom de Dresseur (Name: AVA & GEB) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "MIU & MIA",
+  "msgstr": "Miu & Mia",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 10244,
+  "note": "nom de Dresseur (Name: MIU & MIA) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "MIAH",
+  "msgstr": "Miah",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 10388,
+  "note": "nom de Dresseur (Name: MIAH) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "EVE & JON",
+  "msgstr": "Eve & Jon",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 10405,
+  "note": "nom de Dresseur (Name: EVE & JON) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "LEX & NYA",
+  "msgstr": "Lex & Nya",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 10739,
+  "note": "nom de Dresseur (Name: LEX & NYA) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "CODY",
+  "msgstr": "Cody",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 989,
+  "note": "nom de Dresseur (Name: CODY) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs ; SoulSilver FR a un homonyme d’une autre classe (Yves), proposé dans douteux.json"
+ },
+ {
+  "msgid": "SEAN",
+  "msgstr": "Sean",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 1227,
+  "note": "nom de Dresseur (Name: SEAN) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "DARIN",
+  "msgstr": "Darin",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 1311,
+  "note": "nom de Dresseur (Name: DARIN) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "CARA",
+  "msgstr": "Cara",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 1684,
+  "note": "nom de Dresseur (Name: CARA) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "CARLENE",
+  "msgstr": "Carlene",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 1812,
+  "note": "nom de Dresseur (Name: CARLENE) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "RACHAEL",
+  "msgstr": "Rachael",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 1838,
+  "note": "nom de Dresseur (Name: RACHAEL) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "THERESA",
+  "msgstr": "Theresa",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 1911,
+  "note": "nom de Dresseur (Name: THERESA) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "ETO",
+  "msgstr": "Eto",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 2747,
+  "note": "nom de Dresseur (Name: ETO) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "MATHEW",
+  "msgstr": "Mathew",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 3562,
+  "note": "nom de Dresseur (Name: MATHEW) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "PATON",
+  "msgstr": "Paton",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 3600,
+  "note": "nom de Dresseur (Name: PATON) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "GREGG",
+  "msgstr": "Gregg",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 4343,
+  "note": "nom de Dresseur (Name: GREGG) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs ; SoulSilver FR a un homonyme d’une autre classe (Rayan), proposé dans douteux.json"
+ },
+ {
+  "msgid": "KAZU",
+  "msgstr": "Kazu",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 4922,
+  "note": "nom de Dresseur (Name: KAZU) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "RICHARDO",
+  "msgstr": "Richardo",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 5104,
+  "note": "nom de Dresseur (Name: RICHARDO) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "DICK",
+  "msgstr": "Dick",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 5180,
+  "note": "nom de Dresseur (Name: DICK) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "QUENTIN",
+  "msgstr": "Quentin",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 6244,
+  "note": "nom de Dresseur (Name: QUENTIN) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "GAKU",
+  "msgstr": "Gaku",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 6430,
+  "note": "nom de Dresseur (Name: GAKU) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "MASA",
+  "msgstr": "Masa",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 6451,
+  "note": "nom de Dresseur (Name: MASA) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "MARGRET",
+  "msgstr": "Margret",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 6540,
+  "note": "nom de Dresseur (Name: MARGRET) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "ETHEL",
+  "msgstr": "Ethel",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 6553,
+  "note": "nom de Dresseur (Name: ETHEL) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs ; SoulSilver FR a un homonyme d’une autre classe (Zita), proposé dans douteux.json"
+ },
+ {
+  "msgid": "AMY&MAY",
+  "msgstr": "Amy&May",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 6945,
+  "note": "nom de Dresseur (Name: AMY&MAY) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "ANN&ANNE",
+  "msgstr": "Ann&Anne",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 6962,
+  "note": "nom de Dresseur (Name: ANN&ANNE) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "JO&ZOE",
+  "msgstr": "Jo&Zoe",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 6979,
+  "note": "nom de Dresseur (Name: JO&ZOE) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "MEG&PEG",
+  "msgstr": "Meg&Peg",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 6996,
+  "note": "nom de Dresseur (Name: MEG&PEG) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "LEA&PIA",
+  "msgstr": "Lea&Pia",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 7013,
+  "note": "nom de Dresseur (Name: LEA&PIA) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "JAIME",
+  "msgstr": "Jaime",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 7093,
+  "note": "nom de Dresseur (Name: JAIME) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs"
+ },
+ {
+  "msgid": "THOM & KAE",
+  "msgstr": "Thom & Kae",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 7136,
+  "note": "nom de Dresseur (Name: THOM & KAE) ; nom propre absent de SoulSilver FR : conservé, casse SoulSilver (initiale capitale) comme les autres Dresseurs ; SoulSilver FR a un homonyme d’une autre classe (Serge&Dom), proposé dans douteux.json"
+ },
+ {
+  "msgid": "LTSURGE",
+  "msgstr": "Major Bob",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 8395,
+  "preuve": "LT. SURGE → Major Bob (menus.po, SoulSilver FR)",
+  "note": "Champion d’Arène de Carmin sur Mer (trainers_hns.party, 10 max) : Lt. Surge = Major Bob (SoulSilver FR, cf. « LT. SURGE » → « Major Bob »)"
+ }
+]

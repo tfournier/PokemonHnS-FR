@@ -1,0 +1,1114 @@
+[
+ {
+  "msgid": "Hold Effect",
+  "msgstr": "Effet tenu",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 238,
+  "note": "menu debug de combat, libellé de l’effet de l’objet tenu"
+ },
+ {
+  "msgid": "Stat Stages",
+  "msgstr": "Niv. stats",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 321,
+  "note": "menu debug de combat, liste principale (fenêtre de 9 tuiles, ~64 px utiles)"
+ },
+ {
+  "msgid": "Status1",
+  "msgstr": "Statut1",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 322,
+  "note": "menu debug de combat, liste principale (fenêtre de 9 tuiles, ~64 px utiles) (champ status1 du code)"
+ },
+ {
+  "msgid": "Volatiles",
+  "msgstr": "Volatils",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 323,
+  "note": "menu debug de combat, liste principale (fenêtre de 9 tuiles, ~64 px utiles) (statuts volatils)"
+ },
+ {
+  "msgid": "Hazards",
+  "msgstr": "Pièges",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 324,
+  "note": "menu debug de combat, liste principale (fenêtre de 9 tuiles, ~64 px utiles) (pièges d’entrée : Picots, Piège de Roc…)"
+ },
+ {
+  "msgid": "Side Status",
+  "msgstr": "Statut camp",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 325,
+  "note": "menu debug de combat, liste principale (fenêtre de 9 tuiles, ~64 px utiles)"
+ },
+ {
+  "msgid": "AI Pts/Dmg",
+  "msgstr": "IA pts/dég",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 327,
+  "note": "menu debug de combat, liste principale (fenêtre de 9 tuiles, ~64 px utiles)"
+ },
+ {
+  "msgid": "AI Info",
+  "msgstr": "IA infos",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 328,
+  "note": "menu debug de combat, liste principale (fenêtre de 9 tuiles, ~64 px utiles)"
+ },
+ {
+  "msgid": "AI Party",
+  "msgstr": "IA équipe",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 329,
+  "note": "menu debug de combat, liste principale (fenêtre de 9 tuiles, ~64 px utiles)"
+ },
+ {
+  "msgid": "Various",
+  "msgstr": "Divers",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 330,
+  "note": "menu debug de combat, liste principale (fenêtre de 9 tuiles, ~64 px utiles)"
+ },
+ {
+  "msgid": "Instant Win",
+  "msgstr": "Victoire",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 331,
+  "note": "menu debug de combat, liste principale (fenêtre de 9 tuiles, ~64 px utiles) (victoire immédiate)"
+ },
+ {
+  "msgid": "HP Current",
+  "msgstr": "PV actuels",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 336,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statistiques"
+ },
+ {
+  "msgid": "HP Max",
+  "msgstr": "PV max",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 337,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statistiques"
+ },
+ {
+  "msgid": "Toxic Poison",
+  "msgstr": "Poison grave",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 352,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut principal (gravement empoisonné)"
+ },
+ {
+  "msgid": "Toxic Counter",
+  "msgstr": "Compteur toxik",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 353,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : compteur de poison grave"
+ },
+ {
+  "msgid": "Powder",
+  "msgstr": "Nuée de Poudre",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 362,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil ; nom officiel FR (capacité Powder)"
+ },
+ {
+  "msgid": "DefenseCurl",
+  "msgstr": "Boul’Armure",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 363,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil ; nom officiel FR"
+ },
+ {
+  "msgid": "DestinyBond",
+  "msgstr": "Prélèvement Destin",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 365,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil ; nom officiel FR (forme non abrégée)"
+ },
+ {
+  "msgid": "EscapePrevention",
+  "msgstr": "Fuite impossible",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 366,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil"
+ },
+ {
+  "msgid": "Cursed",
+  "msgstr": "Maudit",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 367,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil"
+ },
+ {
+  "msgid": "DragonCheer",
+  "msgstr": "Cri Draconique",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 369,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil ; nom officiel FR"
+ },
+ {
+  "msgid": "FocusEnergy",
+  "msgstr": "Puissance",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 370,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil ; nom officiel FR (Émeraude FR)"
+ },
+ {
+  "msgid": "MudSport",
+  "msgstr": "Lance-Boue",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 372,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil ; nom officiel FR"
+ },
+ {
+  "msgid": "WaterSport",
+  "msgstr": "Tourniquet",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 373,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil ; nom officiel FR"
+ },
+ {
+  "msgid": "Infinite Confusion",
+  "msgstr": "Confusion infinie",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 374,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil"
+ },
+ {
+  "msgid": "Salt Cure",
+  "msgstr": "Salaison",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 375,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil ; nom officiel FR"
+ },
+ {
+  "msgid": "Syrup Bomb",
+  "msgstr": "Bombe au Sirop",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 376,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil ; nom officiel FR"
+ },
+ {
+  "msgid": "Glaive Rush",
+  "msgstr": "Charge Glaive",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 377,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil ; nom officiel FR"
+ },
+ {
+  "msgid": "Root",
+  "msgstr": "Racines",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 383,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil (Racines, nom officiel FR de la capacité Ingrain)"
+ },
+ {
+  "msgid": "Smack Down",
+  "msgstr": "Anti-Air",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 389,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil ; nom officiel FR"
+ },
+ {
+  "msgid": "Telekinesis",
+  "msgstr": "Lévikinésie",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 390,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil ; nom officiel FR"
+ },
+ {
+  "msgid": "Laser Focus",
+  "msgstr": "Affilage",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 395,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut volatil ; nom officiel FR"
+ },
+ {
+  "msgid": "Sticky Web",
+  "msgstr": "Toile Gluante",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 402,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut de camp / piège ; nom officiel FR"
+ },
+ {
+  "msgid": "Steelsurge",
+  "msgstr": "Percée G-Max",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 405,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut de camp / piège ; nom officiel FR (G-Max Steelsurge = Percée G-Max, Poképédia ; le patch FR donne « G-MAX PICS Fer »)"
+ },
+ {
+  "msgid": "Aurora Veil",
+  "msgstr": "Voile Aurore",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 415,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut de camp / piège ; nom officiel FR"
+ },
+ {
+  "msgid": "Damage Non-Types",
+  "msgstr": "Dégâts non-types",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 417,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut de camp / piège (dégâts G-Max sur les Pokémon d’autres types)"
+ },
+ {
+  "msgid": "Sea of Fire",
+  "msgstr": "Mer de Feu",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 419,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : statut de camp / piège ; nom officiel FR (aire des capacités Aire)"
+ },
+ {
+  "msgid": "Check Bad Move",
+  "msgstr": "Évite mauv. cap.",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 425,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Try to Faint",
+  "msgstr": "Cherche le K.O.",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 426,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Check Viability",
+  "msgstr": "Vérif. viabilité",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 427,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Force Setup First Turn",
+  "msgstr": "Boost au 1er tour",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 428,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Risky",
+  "msgstr": "Risqué",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 429,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Try to 2HKO",
+  "msgstr": "Cherche K.O. en 2",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 430,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Prefer Baton Pass",
+  "msgstr": "Préfère Relais",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 431,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA (Baton Pass = Relais)"
+ },
+ {
+  "msgid": "HP Aware",
+  "msgstr": "Attentif aux PV",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 433,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Powerful Status",
+  "msgstr": "Statut puissant",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 434,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Negate Unaware",
+  "msgstr": "Contre Inconscient",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 435,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA (talent Unaware = Inconscient)"
+ },
+ {
+  "msgid": "Will Suicide",
+  "msgstr": "Se sacrifie",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 436,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Prefer Status Moves",
+  "msgstr": "Préfère cap. statut",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 437,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Smart Switching",
+  "msgstr": "Changement malin",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 439,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Ace Pokémon",
+  "msgstr": "Pokémon atout",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 440,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Smart Mon Choices",
+  "msgstr": "Choix Pokémon malin",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 442,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Conservative",
+  "msgstr": "Prudent",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 443,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Sequence Switching",
+  "msgstr": "Changement en ordre",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 444,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Double Ace Pokémon",
+  "msgstr": "Double atout",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 445,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Weigh Ability Prediction",
+  "msgstr": "Prédiction talent",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 446,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA (l’anglais dépasse déjà 19 caractères)"
+ },
+ {
+  "msgid": "Prefer Highest Damage Move",
+  "msgstr": "Préfère max dégâts",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 447,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA (l’anglais dépasse déjà 19 caractères)"
+ },
+ {
+  "msgid": "Predict Switch",
+  "msgstr": "Prédit changement",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 448,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Predict Incoming Mon",
+  "msgstr": "Prédit remplaçant",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 449,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Dynamic Func",
+  "msgstr": "Fonction dynamique",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 450,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Roaming",
+  "msgstr": "Errant",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 451,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA (Pokémon errant)"
+ },
+ {
+  "msgid": "First Battle",
+  "msgstr": "Premier combat",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 453,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : drapeau de l’IA"
+ },
+ {
+  "msgid": "Show HP",
+  "msgstr": "Voir PV",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 458,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : divers"
+ },
+ {
+  "msgid": "Substitute HP",
+  "msgstr": "PV Clonage",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 459,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : PV du clone (Substitute = Clonage)"
+ },
+ {
+  "msgid": "In Love",
+  "msgstr": "Amoureux",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 460,
+  "note": "menu debug de combat, liste secondaire (tampon de 19 caractères, PadString) : attraction"
+ },
+ {
+  "msgid": "Score/Dmg",
+  "msgstr": "Score/Dég.",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 737,
+  "note": "menu debug de combat, en-tête de la vue « IA pts/dég »"
+ },
+ {
+  "msgid": "Switching to ",
+  "msgstr": "Change pour ",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 778,
+  "note": "menu debug de combat, suivi du nom de l’espèce affiché 68 px plus loin : 68 px max"
+ },
+ {
+  "msgid": "All",
+  "msgstr": "Tous",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 1440,
+  "note": "menu debug de combat, entrée « toutes les statistiques »"
+ },
+ {
+  "msgid": "Cure Par",
+  "msgstr": "Soin PAR",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2166,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Cure Slp",
+  "msgstr": "Soin SOM",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2167,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Cure Psn",
+  "msgstr": "Soin PSN",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2168,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Cure Brn",
+  "msgstr": "Soin BRU",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2169,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Cure Frz",
+  "msgstr": "Soin GEL",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2170,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Cure Confusion",
+  "msgstr": "Soin confusion",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2172,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Cure Status",
+  "msgstr": "Soin statut",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2173,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Confuse Spicy",
+  "msgstr": "Confus épicé",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2174,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) (baies qui rendent confus selon le goût)"
+ },
+ {
+  "msgid": "Confuse Dry",
+  "msgstr": "Confus sec",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2175,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Confuse Sweet",
+  "msgstr": "Confus sucré",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2176,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Confuse Bitter",
+  "msgstr": "Confus amer",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2177,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Confuse Sour",
+  "msgstr": "Confus acide",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2178,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Attack Up",
+  "msgstr": "Attaque +",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2179,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Defense Up",
+  "msgstr": "Défense +",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2180,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Speed Up",
+  "msgstr": "Vitesse +",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2181,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Sp Attack Up",
+  "msgstr": "Atq. Spé. +",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2182,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Sp Defense Up",
+  "msgstr": "Déf. Spé. +",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2183,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Critical Up",
+  "msgstr": "Critique +",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2184,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Random Stat Up",
+  "msgstr": "Stat hasard +",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2185,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Evasion Up",
+  "msgstr": "Esquive +",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2186,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Restore Stats",
+  "msgstr": "Restaure stats",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2187,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) (Herbe Blanche)"
+ },
+ {
+  "msgid": "Friendship Up",
+  "msgstr": "Amitié +",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2191,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Flinch",
+  "msgstr": "Peur",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2194,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) (Roche Royale : apeurer)"
+ },
+ {
+  "msgid": "Double Prize",
+  "msgstr": "Double gain",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2195,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) (Pièce Rune)"
+ },
+ {
+  "msgid": "Deep Sea Tooth",
+  "msgstr": "Dent Océan",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2198,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Deep Sea Scale",
+  "msgstr": "Écaille Océan",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2199,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Can Always Run",
+  "msgstr": "Fuite assurée",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2200,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) (Boule Fumée)"
+ },
+ {
+  "msgid": "Prevent Evolve",
+  "msgstr": "Bloque évolution",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2201,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) (Pierre Stase)"
+ },
+ {
+  "msgid": "Type Power",
+  "msgstr": "Puiss. type",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2207,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Leek",
+  "msgstr": "Poireau",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2212,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR (nom de l’objet depuis EB ; « Bâton » avant)"
+ },
+ {
+  "msgid": "Resist Berry",
+  "msgstr": "Baie résist.",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2244,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) (baies qui réduisent un type)"
+ },
+ {
+  "msgid": "Power Item",
+  "msgstr": "Objet Pouvoir",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2245,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) (Poids Pouvoir, etc.)"
+ },
+ {
+  "msgid": "Restore Pct Hp",
+  "msgstr": "Soin % PV",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2246,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA)"
+ },
+ {
+  "msgid": "Kee Berry",
+  "msgstr": "Baie Éka",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2251,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Maranga Berry",
+  "msgstr": "Baie Rangma",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2252,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Float Stone",
+  "msgstr": "Pierrallégée",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2254,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Eviolite",
+  "msgstr": "Évoluroc",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2255,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Assault Vest",
+  "msgstr": "Veste de Combat",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2256,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Drive",
+  "msgstr": "Module",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2257,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) (Module Aqua, etc.)"
+ },
+ {
+  "msgid": "Gems",
+  "msgstr": "Joyaux",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2258,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) (Joyau Feu, etc.)"
+ },
+ {
+  "msgid": "Rocky Helmet",
+  "msgstr": "Casque Brut",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2259,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Air Balloon",
+  "msgstr": "Ballon",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2260,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Red Card",
+  "msgstr": "Carton Rouge",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2261,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Ring Target",
+  "msgstr": "Point de Mire",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2262,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Binding Band",
+  "msgstr": "Bande Étreinte",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2263,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Eject Button",
+  "msgstr": "Bouton Fuite",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2264,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Absorb Bulb",
+  "msgstr": "Bulbe",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2265,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Cell Battery",
+  "msgstr": "Pile",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2266,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Mega Stone",
+  "msgstr": "Méga-Gemme",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2267,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Snowball",
+  "msgstr": "Boule de Neige",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2270,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Weakness Policy",
+  "msgstr": "Vulné-Assurance",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2271,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Primal Orb",
+  "msgstr": "Orbe Primo",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2272,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) (Orbe Rouge / Orbe Bleu : Primo-Résurgence)"
+ },
+ {
+  "msgid": "Terrain Extender",
+  "msgstr": "Champ’Duit",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2274,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR (Poképédia)"
+ },
+ {
+  "msgid": "Seeds",
+  "msgstr": "Graines",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2275,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) (Graine Électrik, etc.)"
+ },
+ {
+  "msgid": "Adrenaline Orb",
+  "msgstr": "Orbe Frousse",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2276,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Memory",
+  "msgstr": "ROM",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2277,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) (ROM Feu, etc.)"
+ },
+ {
+  "msgid": "Z-Crystal",
+  "msgstr": "Cristal Z",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2278,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Utility Umbrella",
+  "msgstr": "Parapluie Solide",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2279,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Eject Pack",
+  "msgstr": "Sac Fuite",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2280,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Room Service",
+  "msgstr": "Chariot Distordu",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2281,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Blunder Policy",
+  "msgstr": "Assurance Échec",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2282,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Heavy Duty Boots",
+  "msgstr": "Grosses Bottes",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2283,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Throat Spray",
+  "msgstr": "Spray Gorge",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2284,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Ability Shield",
+  "msgstr": "Garde-Talent",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2285,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Clear Amulet",
+  "msgstr": "Talisman Sain",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2286,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR (Poképédia)"
+ },
+ {
+  "msgid": "Mirror Herb",
+  "msgstr": "Feuille Copieuse",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2287,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR (Poképédia)"
+ },
+ {
+  "msgid": "Punching Glove",
+  "msgstr": "Gant de Boxe",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2288,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Covert Cloak",
+  "msgstr": "Cape Obscure",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2289,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR (Poképédia)"
+ },
+ {
+  "msgid": "Booster Energy",
+  "msgstr": "Énergie Booster",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2291,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR"
+ },
+ {
+  "msgid": "Ogerpon Mask",
+  "msgstr": "Masque Ogerpon",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2292,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) (masques d’Ogerpon)"
+ },
+ {
+  "msgid": "Berserk Gene",
+  "msgstr": "ADN Berzerk",
+  "source": "traduction nouvelle",
+  "fichier": "src/battle_debug.c",
+  "ligne": 2293,
+  "note": "menu debug de combat, nom d’effet d’objet tenu (police réduite ; 7 premiers caractères affichés dans la vue Équipe IA) ; nom officiel FR (Or/Argent/Cristal FR, Poképédia ; le patch FR donne « GENE BERSERK »)"
+ }
+]

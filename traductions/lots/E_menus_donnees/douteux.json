@@ -1,0 +1,73 @@
+[
+ {
+  "msgid": "DRATINI{CLEAR_TO 0x4B}{FONT_SMALL} 2,800 COINS",
+  "msgstr": "",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 910,
+  "preuve": "603:26 — MINIDRACO{CURSOR_X 90}2 100 Jetons",
+  "note": "homonyme SoulSilver FR d’une autre classe de Dresseur (lot B douteux.json) ; ce lot propose « MINIDRACO{CLEAR_TO 0x4B}{FONT_SMALL} 2 800 JETONS » (nom conservé) dans E_*.json — choisir l’un ou l’autre"
+ },
+ {
+  "msgid": "CODY",
+  "msgstr": "Yves",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 989,
+  "preuve": "729:112 — Yves (ACE_TRAINER_M, équipe HORSEA/SEADRA)",
+  "note": "homonyme SoulSilver FR d’une autre classe de Dresseur (lot B douteux.json) ; ce lot propose « Cody » (nom conservé) dans E_*.json — choisir l’un ou l’autre"
+ },
+ {
+  "msgid": "GREGG",
+  "msgstr": "Rayan",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 4343,
+  "preuve": "729:470 — Rayan (SCIENTIST_GS, équipe MAGNEMITE)",
+  "note": "homonyme SoulSilver FR d’une autre classe de Dresseur (lot B douteux.json) ; ce lot propose « Gregg » (nom conservé) dans E_*.json — choisir l’un ou l’autre"
+ },
+ {
+  "msgid": "ETHEL",
+  "msgstr": "Zita",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 6553,
+  "preuve": "729:177 — Zita (MEDIUM, équipe HAUNTER)",
+  "note": "homonyme SoulSilver FR d’une autre classe de Dresseur (lot B douteux.json) ; ce lot propose « Ethel » (nom conservé) dans E_*.json — choisir l’un ou l’autre"
+ },
+ {
+  "msgid": "TREVOR",
+  "msgstr": "Arnaut",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 798,
+  "preuve": "729:351 — Arnaut (POKEFAN_M, équipe PSYDUCK)",
+  "note": "homonyme SoulSilver FR d’une autre classe de Dresseur (lot B douteux.json) ; ce lot propose « Trevor » (nom conservé) dans E_*.json — choisir l’un ou l’autre"
+ },
+ {
+  "msgid": "THOM & KAE",
+  "msgstr": "Serge&Dom",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 7136,
+  "preuve": "729:730 — Serge&Dom (DOUBLE_TEAM, équipe ELECTABUZZ/MAGMAR)",
+  "note": "homonyme SoulSilver FR d’une autre classe de Dresseur (lot B douteux.json) ; ce lot propose « Thom & Kae » (nom conservé) dans E_*.json — choisir l’un ou l’autre"
+ },
+ {
+  "msgid": "CONNOR",
+  "msgstr": "Julien",
+  "source": "SoulSilver FR officiel",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 4668,
+  "preuve": "729:566 — Julien (SCHOOL_KID_M, équipe ZIGZAGOON)",
+  "note": "homonyme SoulSilver FR d’une autre classe de Dresseur (lot B douteux.json) ; ce lot propose « Connor » (nom conservé) dans E_*.json — choisir l’un ou l’autre"
+ },
+ {
+  "msgid": "Imposing",
+  "msgstr": "Imposant",
+  "source": "traduction nouvelle",
+  "fichier": "src/data/pokemon/species_info/gen_7_families.h",
+  "ligne": 5402,
+  "note": "catégorie de Méga-Draïeul (Légendes Z-A, Méga-Dimension) : catégorie officielle FR non trouvée ; « Imposant » proposé (aussi dans E_*.json)"
+ }
+]
