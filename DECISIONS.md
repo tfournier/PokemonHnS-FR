@@ -100,3 +100,8 @@ reportées dans `traductions/glossaire.tsv`.
     anglaise officielle ; le patch sur Émeraude US n'est plus produit par défaut (option `--patch-emeraude`
     de build.sh / construire.py, gardée au cas où). Chaque patch produit est vérifié automatiquement :
     appliqué à sa ROM source (outils/ups_appliquer.py, contrôle des trois CRC), il doit redonner la ROM construite.
+22. **Style SoulSilver FR confirmé par l'utilisateur (2026-11-20).** Le texte anglais de HnS suit la convention
+    des jeux anglais de 3e génération (POKéMON, TRAINER, GYM, lieux et personnages en capitales : 1 388
+    « POKéMON » pour 0 « Pokémon » dans les cartes HnS), alors que HeartGold anglais écrit « Pokémon »,
+    « Pokémon Center ». L'équivalent fidèle serait le style d'Émeraude FR ; le style SoulSilver FR est gardé :
+    c'est celui du jeu que HnS refait, il est plus lisible, et il est déjà appliqué et vérifié partout.
