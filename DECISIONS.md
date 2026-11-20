@@ -27,9 +27,8 @@ reportées dans `traductions/glossaire.tsv`.
 2. **Entrées purgées.** 351 entrées dont la clé était déjà du français (amorçage précédent fait sur
    un arbre déjà traduit : « Steevy », « EPAVE »…) ou des claviers exclus ont été retirées des .po.
 3. **Noms de types.** Émeraude FR tronquait à 6 lettres (ELECTR, TENEBR) ; HnS autorise 8 caractères.
-   Noms complets en capitales, avec majuscules accentuées comme le « FÉE » demandé : NORMAL, COMBAT,
-   VOL, POISON, SOL, ROCHE, INSECTE, SPECTRE, ACIER, FEU, EAU, PLANTE, ÉLECTRIK, PSY, GLACE, DRAGON,
-   TÉNÈBRES, FÉE, STELL. (« Stellaire », 9 lettres, dépasse la limite de 8). Les mêmes clés servent aux
+   Noms complets en capitales, sans accent (voir décision 14) : NORMAL, COMBAT, VOL, POISON, SOL, ROCHE,
+   INSECTE, SPECTRE, ACIER, FEU, EAU, PLANTE, ELECTRIK, PSY, GLACE, DRAGON, TENEBRES, FEE, STELL. (« Stellaire », 9 lettres, dépasse la limite de 8). Les mêmes clés servent aux
    mots Easy Chat et à la radio : même graphie partout (ce sont des libellés).
 4. **Largeur des textes officiels.** La règle des 198 px s'applique aux traductions nouvelles et au
    patch FR. Un texte officiel (Émeraude FR / SoulSilver FR) est toléré jusqu'à 216 px, largeur
@@ -59,3 +58,10 @@ reportées dans `traductions/glossaire.tsv`.
 13. **Noms de Dresseurs homonymes.** Un même prénom anglais peut désigner des personnes différentes selon
     la région (BILL Cracheur de feu → Andréa ; BILL le personnage → Léo). Les noms de Dresseurs
     SoulSilver sont donc posés avec `msgctxt` = fichier `.party` (contextes.po).
+14. **Capitales sans accent dans les libellés en capitales** (corrige la première version de la décision 3).
+    Mesuré dans Émeraude FR : RESUME, DEPLACER, BOITE, ETEINDRE, DEFENSE, CAPACITE, DUREE, ATQ. SPE
+    apparaissent sans accent, et aucune forme accentuée n'existe ; SoulSilver FR fait de même (HERICENDRE,
+    ELECTRIK). Les libellés entièrement en capitales (menus, onglets, types, espèces) ne portent donc
+    jamais d'accent, sauf le « é » minuscule de POKéMON / POKéDEX. Dans le texte courant (casse normale),
+    les majuscules gardent leurs accents comme le glossaire du projet (« À la prochaine », « Cramois’Île »,
+    « Îles Écume »).

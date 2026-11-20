@@ -1,0 +1,2837 @@
+[
+ {
+  "msgid": "TAMIA",
+  "msgstr": "TABATHA",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 1188,
+  "preuve": "gBattleTentSlateport[29] US 5DDFFC -> FR 5E24F8",
+  "note": "même nom aussi utilisé dans les données FRLG (data/text/fame_checker_frlg.inc, src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "GIDEON",
+  "msgstr": "GEDEON",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 1374,
+  "preuve": "US 5D9418 -> FR 5DD914 (table de base US 5D5ACC / FR 5D9FC8, index +14668, 2 voisins) ; gBattleFrontierTrainers[282] US 5D9418 -> FR 5DD914",
+  "note": "même nom aussi utilisé dans les données FRLG (data/text/fame_checker_frlg.inc, src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "JONN",
+  "msgstr": "GERMAIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/new_game_intro_frlg.inc",
+  "ligne": 41,
+  "preuve": "US 5DF1F4 -> FR 5E36F0 (table de base US 5DF084 / FR 5E3580, index +368, 2 voisins) ; gBattleTentFallarbor[7] US 5DF1F4 -> FR 5E36F0",
+  "note": "même nom aussi utilisé dans les données FRLG (data/text/new_game_intro_frlg.inc) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "OSCAR",
+  "msgstr": "OSCAR",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/new_game_intro_frlg.inc",
+  "ligne": 53,
+  "preuve": "gBattleFrontierTrainers[216] US 5D86B0 -> FR 5DCBAC",
+  "note": "même nom aussi utilisé dans les données FRLG (data/text/new_game_intro_frlg.inc) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "AMANDA",
+  "msgstr": "AMANDA",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/new_game_intro_frlg.inc",
+  "ligne": 83,
+  "preuve": "US 5D62F0 -> FR 5DA7EC (table de base US 5D5ACC / FR 5D9FC8, index +2084, 2 voisins) ; gBattleFrontierTrainers[40] US 5D62F0 -> FR 5DA7EC",
+  "note": "même nom aussi utilisé dans les données FRLG (data/text/new_game_intro_frlg.inc, src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "PARASOL LADY",
+  "msgstr": "SŒUR PARASOL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/battle_main.c",
+  "ligne": 353,
+  "ancien": "Sœur Parasol",
+  "preuve": "US 30FF10 -> FR 317A40 (table de base US 30FCD4 / FR 317804, index +572, 13 voisins)"
+ },
+ {
+  "msgid": "SWIMMER♀",
+  "msgstr": "Nageuse",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/battle_main.c",
+  "ligne": 354,
+  "ancien": "Nageur",
+  "preuve": "US 30FF1D -> FR 317A4D (table de base US 30FCD4 / FR 317804, index +585, 13 voisins)"
+ },
+ {
+  "msgid": "{PKMN} RANGER",
+  "msgstr": "{PKMN} RANGER",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/battle_main.c",
+  "ligne": 361,
+  "ancien": "RANGER {PKMN}",
+  "preuve": "US 30FF78 -> FR 317AA8 (table de base US 30FCD4 / FR 317804, index +676, 14 voisins)"
+ },
+ {
+  "msgid": "ALANN",
+  "msgstr": "ALAIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/apprentice.h",
+  "ligne": 300,
+  "preuve": "gApprentices[0].name : anglais ALANN / français ALAIN (présent dans les deux ROM)",
+  "note": "autre(s) texte(s) FR minoritaire(s) : « ALANN » (delta)"
+ },
+ {
+  "msgid": "SONNY",
+  "msgstr": "HERVE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/apprentice.h",
+  "ligne": 316,
+  "preuve": "gApprentices[2].name : anglais SONNY / français HERVE (présent dans les deux ROM)",
+  "note": "autre(s) texte(s) FR minoritaire(s) : « SONNY » (delta)"
+ },
+ {
+  "msgid": "MACY",
+  "msgstr": "AMELIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/apprentice.h",
+  "ligne": 332,
+  "ancien": "Magali",
+  "preuve": "gApprentices[4].name : anglais MACY / français AMELIE (présent dans les deux ROM)",
+  "note": "autre(s) texte(s) FR minoritaire(s) : « MACY » (delta)"
+ },
+ {
+  "msgid": "DONTE",
+  "msgstr": "BRAHIM",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/apprentice.h",
+  "ligne": 340,
+  "preuve": "gApprentices[5].name : anglais DONTE / français BRAHIM (présent dans les deux ROM)",
+  "note": "autre(s) texte(s) FR minoritaire(s) : « DONTE » (delta)"
+ },
+ {
+  "msgid": "AMIRA",
+  "msgstr": "LAURE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/apprentice.h",
+  "ligne": 348,
+  "preuve": "gApprentices[6].name : anglais AMIRA / français LAURE (présent dans les deux ROM)",
+  "note": "autre(s) texte(s) FR minoritaire(s) : « AMIRA » (delta) ; même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "KALI",
+  "msgstr": "JODIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/apprentice.h",
+  "ligne": 356,
+  "preuve": "gApprentices[7].name : anglais KALI / français JODIE (présent dans les deux ROM)",
+  "note": "autre(s) texte(s) FR minoritaire(s) : « KALI » (delta)"
+ },
+ {
+  "msgid": "DILLEN",
+  "msgstr": "RENE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/apprentice.h",
+  "ligne": 372,
+  "preuve": "gApprentices[9].name : anglais DILLEN / français RENE (présent dans les deux ROM)",
+  "note": "autre(s) texte(s) FR minoritaire(s) : « DILLEN » (delta)"
+ },
+ {
+  "msgid": "DALLAS",
+  "msgstr": "BRUNO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/apprentice.h",
+  "ligne": 380,
+  "preuve": "gApprentices[10].name : anglais DALLAS / français BRUNO (présent dans les deux ROM)",
+  "note": "autre(s) texte(s) FR minoritaire(s) : « DALLAS » (delta)"
+ },
+ {
+  "msgid": "LAMONT",
+  "msgstr": "XAV",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/apprentice.h",
+  "ligne": 396,
+  "preuve": "gApprentices[12].name : anglais LAMONT / français XAV (présent dans les deux ROM)",
+  "note": "autre(s) texte(s) FR minoritaire(s) : « LAMONT » (delta)"
+ },
+ {
+  "msgid": "TYRESE",
+  "msgstr": "ANDY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/apprentice.h",
+  "ligne": 404,
+  "preuve": "gApprentices[13].name : anglais TYRESE / français ANDY (présent dans les deux ROM)",
+  "note": "autre(s) texte(s) FR minoritaire(s) : « TYRESE » (delta)"
+ },
+ {
+  "msgid": "BRADY",
+  "msgstr": "UGO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 5,
+  "preuve": "gBattleFrontierTrainers[0] US 5D5AD0 -> FR 5D9FCC"
+ },
+ {
+  "msgid": "CONNER",
+  "msgstr": "GERARD",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 13,
+  "preuve": "gBattleFrontierTrainers[1] US 5D5B04 -> FR 5DA000",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "BRADLEY",
+  "msgstr": "PIERROT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 21,
+  "preuve": "gBattleFrontierTrainers[2] US 5D5B38 -> FR 5DA034"
+ },
+ {
+  "msgid": "RODETTE",
+  "msgstr": "ODILE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 37,
+  "preuve": "gBattleFrontierTrainers[4] US 5D5BA0 -> FR 5DA09C",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "PEGGY",
+  "msgstr": "PEGGY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 45,
+  "preuve": "US 5D5BD4 -> FR 5DA0D0 (table de base US 5D5ACC / FR 5D9FC8, index +264, 2 voisins) ; gBattleFrontierTrainers[5] US 5D5BD4 -> FR 5DA0D0"
+ },
+ {
+  "msgid": "GRAYSON",
+  "msgstr": "PAOLO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 61,
+  "preuve": "US 5D5C3C -> FR 5DA138 (table de base US 5D5ACC / FR 5D9FC8, index +368, 2 voisins) ; gBattleFrontierTrainers[7] US 5D5C3C -> FR 5DA138"
+ },
+ {
+  "msgid": "LILIANA",
+  "msgstr": "LILIANA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 77,
+  "ancien": "Liliane",
+  "preuve": "US 5D5CA4 -> FR 5DA1A0 (table de base US 5D5ACC / FR 5D9FC8, index +472, 2 voisins) ; gBattleFrontierTrainers[9] US 5D5CA4 -> FR 5DA1A0"
+ },
+ {
+  "msgid": "ELISE",
+  "msgstr": "ELISE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 85,
+  "ancien": "Eléanor",
+  "preuve": "US 5D5CD8 -> FR 5DA1D4 (table de base US 5D5ACC / FR 5D9FC8, index +524, 2 voisins) ; gBattleFrontierTrainers[10] US 5D5CD8 -> FR 5DA1D4"
+ },
+ {
+  "msgid": "ZOEY",
+  "msgstr": "ZARA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 93,
+  "preuve": "US 5D5D0C -> FR 5DA208 (table de base US 5D5ACC / FR 5D9FC8, index +576, 2 voisins) ; gBattleFrontierTrainers[11] US 5D5D0C -> FR 5DA208"
+ },
+ {
+  "msgid": "MANUEL",
+  "msgstr": "ULRICH",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 101,
+  "preuve": "US 5D5D40 -> FR 5DA23C (table de base US 5D5ACC / FR 5D9FC8, index +628, 2 voisins) ; gBattleFrontierTrainers[12] US 5D5D40 -> FR 5DA23C"
+ },
+ {
+  "msgid": "DUSTIN",
+  "msgstr": "DUSTIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 117,
+  "preuve": "gBattleFrontierTrainers[14] US 5D5DA8 -> FR 5DA2A4"
+ },
+ {
+  "msgid": "TINA",
+  "msgstr": "TINA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 125,
+  "preuve": "gBattleFrontierTrainers[15] US 5D5DDC -> FR 5DA2D8",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "GILLIAN",
+  "msgstr": "REINE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 133,
+  "preuve": "US 5D88EC -> FR 5DCDE8 (table de base US 5D5ACC / FR 5D9FC8, index +11808, 2 voisins) ; gBattleFrontierTrainers[16] US 5D5E10 -> FR 5DA30C ; gBattleFrontierTrainers[227] US 5D88EC -> FR 5DCDE8",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "ZOE",
+  "msgstr": "ZOE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 141,
+  "preuve": "US 5D5E44 -> FR 5DA340 (table de base US 5D5ACC / FR 5D9FC8, index +888, 2 voisins) ; gBattleFrontierTrainers[17] US 5D5E44 -> FR 5DA340"
+ },
+ {
+  "msgid": "ANNE",
+  "msgstr": "ESTELLE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 173,
+  "preuve": "gBattleFrontierTrainers[21] US 5D5F14 -> FR 5DA410"
+ },
+ {
+  "msgid": "ALIZE",
+  "msgstr": "SOLENE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 181,
+  "ancien": "ALISE",
+  "preuve": "gBattleFrontierTrainers[22] US 5D5F48 -> FR 5DA444",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "LAUREN",
+  "msgstr": "LAUREN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 189,
+  "preuve": "US 5D5F7C -> FR 5DA478 (table de base US 5D5ACC / FR 5D9FC8, index +1200, 2 voisins) ; gBattleFrontierTrainers[23] US 5D5F7C -> FR 5DA478",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "ANN",
+  "msgstr": "LOTTE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 221,
+  "preuve": "US 5D604C -> FR 5DA548 (table de base US 5D5ACC / FR 5D9FC8, index +1408, 2 voisins) ; gBattleFrontierTrainers[27] US 5D604C -> FR 5DA548",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "EILEEN",
+  "msgstr": "MIREIA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 229,
+  "preuve": "gBattleFrontierTrainers[28] US 5D6080 -> FR 5DA57C"
+ },
+ {
+  "msgid": "CARLIE",
+  "msgstr": "ROSE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 237,
+  "preuve": "gBattleFrontierTrainers[29] US 5D60B4 -> FR 5DA5B0"
+ },
+ {
+  "msgid": "AYDEN",
+  "msgstr": "TOBY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 253,
+  "preuve": "gBattleFrontierTrainers[31] US 5D611C -> FR 5DA618"
+ },
+ {
+  "msgid": "CIERRA",
+  "msgstr": "CLARYS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 269,
+  "preuve": "US 5D6184 -> FR 5DA680 (table de base US 5D5ACC / FR 5D9FC8, index +1720, 2 voisins) ; gBattleFrontierTrainers[33] US 5D6184 -> FR 5DA680"
+ },
+ {
+  "msgid": "MARCY",
+  "msgstr": "MARCY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 277,
+  "ancien": "Marcia",
+  "preuve": "US 5D61B8 -> FR 5DA6B4 (table de base US 5D5ACC / FR 5D9FC8, index +1772, 2 voisins) ; gBattleFrontierTrainers[34] US 5D61B8 -> FR 5DA6B4",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "KATHY",
+  "msgstr": "KATHY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 285,
+  "ancien": "Kenza",
+  "preuve": "US 5D61EC -> FR 5DA6E8 (table de base US 5D5ACC / FR 5D9FC8, index +1824, 2 voisins) ; gBattleFrontierTrainers[35] US 5D61EC -> FR 5DA6E8"
+ },
+ {
+  "msgid": "PEYTON",
+  "msgstr": "VALERIO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 293,
+  "preuve": "US 5D6220 -> FR 5DA71C (table de base US 5D5ACC / FR 5D9FC8, index +1876, 2 voisins) ; gBattleFrontierTrainers[36] US 5D6220 -> FR 5DA71C"
+ },
+ {
+  "msgid": "JULIAN",
+  "msgstr": "JULIAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 301,
+  "preuve": "US 5D6254 -> FR 5DA750 (table de base US 5D5ACC / FR 5D9FC8, index +1928, 2 voisins) ; gBattleFrontierTrainers[37] US 5D6254 -> FR 5DA750"
+ },
+ {
+  "msgid": "HAYLEE",
+  "msgstr": "JULIA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 317,
+  "preuve": "US 5D62BC -> FR 5DA7B8 (table de base US 5D5ACC / FR 5D9FC8, index +2032, 2 voisins) ; gBattleFrontierTrainers[39] US 5D62BC -> FR 5DA7B8"
+ },
+ {
+  "msgid": "STACY",
+  "msgstr": "AIMEE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 333,
+  "preuve": "US 5D6324 -> FR 5DA820 (table de base US 5D5ACC / FR 5D9FC8, index +2136, 2 voisins) ; gBattleFrontierTrainers[41] US 5D6324 -> FR 5DA820",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "RAFAEL",
+  "msgstr": "RAFAEL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 342,
+  "preuve": "US 5D6358 -> FR 5DA854 (table de base US 5D5ACC / FR 5D9FC8, index +2188, 2 voisins) ; gBattleFrontierTrainers[42] US 5D6358 -> FR 5DA854"
+ },
+ {
+  "msgid": "PAYTON",
+  "msgstr": "TERENCE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 358,
+  "preuve": "US 5D63C0 -> FR 5DA8BC (table de base US 5D5ACC / FR 5D9FC8, index +2292, 2 voisins) ; gBattleFrontierTrainers[44] US 5D63C0 -> FR 5DA8BC"
+ },
+ {
+  "msgid": "PAMELA",
+  "msgstr": "PAMELA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 366,
+  "ancien": "Pam",
+  "preuve": "US 5D63F4 -> FR 5DA8F0 (table de base US 5D5ACC / FR 5D9FC8, index +2344, 2 voisins) ; gBattleFrontierTrainers[45] US 5D63F4 -> FR 5DA8F0"
+ },
+ {
+  "msgid": "ELIZA",
+  "msgstr": "ELIZA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 374,
+  "ancien": "Nanou",
+  "preuve": "US 5D6428 -> FR 5DA924 (table de base US 5D5ACC / FR 5D9FC8, index +2396, 2 voisins) ; gBattleFrontierTrainers[46] US 5D6428 -> FR 5DA924"
+ },
+ {
+  "msgid": "MARISA",
+  "msgstr": "MARISA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 382,
+  "preuve": "US 5D645C -> FR 5DA958 (table de base US 5D5ACC / FR 5D9FC8, index +2448, 2 voisins) ; gBattleFrontierTrainers[47] US 5D645C -> FR 5DA958"
+ },
+ {
+  "msgid": "DESTIN",
+  "msgstr": "BILAL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 406,
+  "preuve": "gBattleFrontierTrainers[50] US 5D64F8 -> FR 5DA9F4",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "KEON",
+  "msgstr": "BRUCE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 414,
+  "ancien": "Kleber",
+  "preuve": "gBattleFrontierTrainers[51] US 5D652C -> FR 5DAA28"
+ },
+ {
+  "msgid": "STUART",
+  "msgstr": "STUART",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 422,
+  "ancien": "Sandie",
+  "preuve": "US 5D6560 -> FR 5DAA5C (table de base US 5D5ACC / FR 5D9FC8, index +2708, 2 voisins) ; gBattleFrontierTrainers[52] US 5D6560 -> FR 5DAA5C"
+ },
+ {
+  "msgid": "NESTOR",
+  "msgstr": "NESTOR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 430,
+  "preuve": "US 5D6594 -> FR 5DAA90 (table de base US 5D5ACC / FR 5D9FC8, index +2760, 2 voisins) ; gBattleFrontierTrainers[53] US 5D6594 -> FR 5DAA90"
+ },
+ {
+  "msgid": "DERRICK",
+  "msgstr": "ARNAUD",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 438,
+  "preuve": "gBattleFrontierTrainers[54] US 5D65C8 -> FR 5DAAC4"
+ },
+ {
+  "msgid": "BRYSON",
+  "msgstr": "LUCIO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 446,
+  "preuve": "gBattleFrontierTrainers[55] US 5D65FC -> FR 5DAAF8"
+ },
+ {
+  "msgid": "CLAYTON",
+  "msgstr": "AUBIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 454,
+  "preuve": "gBattleFrontierTrainers[56] US 5D6630 -> FR 5DAB2C"
+ },
+ {
+  "msgid": "TRENTON",
+  "msgstr": "LOIC",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 462,
+  "preuve": "gBattleFrontierTrainers[57] US 5D6664 -> FR 5DAB60",
+  "note": "même nom aussi utilisé dans les données FRLG (src/trainer_tower_sets.c) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "JENSON",
+  "msgstr": "FLO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 470,
+  "preuve": "US 5D6698 -> FR 5DAB94 (table de base US 5D5ACC / FR 5D9FC8, index +3020, 2 voisins) ; gBattleFrontierTrainers[58] US 5D6698 -> FR 5DAB94"
+ },
+ {
+  "msgid": "WESLEY",
+  "msgstr": "BRODY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 478,
+  "preuve": "US 5D66CC -> FR 5DABC8 (table de base US 5D5ACC / FR 5D9FC8, index +3072, 2 voisins) ; gBattleFrontierTrainers[59] US 5D66CC -> FR 5DABC8"
+ },
+ {
+  "msgid": "ANTON",
+  "msgstr": "ANTON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 486,
+  "preuve": "US 5D6700 -> FR 5DABFC (table de base US 5D5ACC / FR 5D9FC8, index +3124, 2 voisins) ; gBattleFrontierTrainers[60] US 5D6700 -> FR 5DABFC"
+ },
+ {
+  "msgid": "LAWSON",
+  "msgstr": "ELIOT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 494,
+  "preuve": "US 5D6734 -> FR 5DAC30 (table de base US 5D5ACC / FR 5D9FC8, index +3176, 2 voisins) ; gBattleFrontierTrainers[61] US 5D6734 -> FR 5DAC30",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "SAMMY",
+  "msgstr": "SAMI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 502,
+  "preuve": "US 5D6768 -> FR 5DAC64 (table de base US 5D5ACC / FR 5D9FC8, index +3228, 2 voisins) ; gBattleFrontierTrainers[62] US 5D6768 -> FR 5DAC64",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "ADRIAN",
+  "msgstr": "ADRIAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 519,
+  "preuve": "US 5D67D0 -> FR 5DACCC (table de base US 5D5ACC / FR 5D9FC8, index +3332, 3 voisins) ; gBattleFrontierTrainers[64] US 5D67D0 -> FR 5DACCC"
+ },
+ {
+  "msgid": "JULIANA",
+  "msgstr": "JULIANA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 535,
+  "ancien": "Jehanne",
+  "preuve": "US 5D6838 -> FR 5DAD34 (table de base US 5D5ACC / FR 5D9FC8, index +3436, 3 voisins) ; gBattleFrontierTrainers[66] US 5D6838 -> FR 5DAD34"
+ },
+ {
+  "msgid": "RYLEE",
+  "msgstr": "DOLORES",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 543,
+  "preuve": "gBattleFrontierTrainers[67] US 5D686C -> FR 5DAD68"
+ },
+ {
+  "msgid": "CHELSEA",
+  "msgstr": "CHERYLL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 551,
+  "preuve": "gBattleFrontierTrainers[68] US 5D68A0 -> FR 5DAD9C",
+  "note": "même nom aussi utilisé dans les données FRLG (src/trainer_tower_sets.c) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "DANELA",
+  "msgstr": "ALBANE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 560,
+  "preuve": "gBattleFrontierTrainers[69] US 5D68D4 -> FR 5DADD0"
+ },
+ {
+  "msgid": "LIZBETH",
+  "msgstr": "LISBETH",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 568,
+  "preuve": "gBattleFrontierTrainers[70] US 5D6908 -> FR 5DAE04"
+ },
+ {
+  "msgid": "AMELIA",
+  "msgstr": "AMELIA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 576,
+  "ancien": "Léïa",
+  "preuve": "US 5D693C -> FR 5DAE38 (table de base US 5D5ACC / FR 5D9FC8, index +3696, 2 voisins) ; gBattleFrontierTrainers[71] US 5D693C -> FR 5DAE38"
+ },
+ {
+  "msgid": "JILLIAN",
+  "msgstr": "CLAUDIA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 584,
+  "ancien": "Ombline",
+  "preuve": "US 5D6970 -> FR 5DAE6C (table de base US 5D5ACC / FR 5D9FC8, index +3748, 2 voisins) ; gBattleFrontierTrainers[72] US 5D6970 -> FR 5DAE6C"
+ },
+ {
+  "msgid": "ABBIE",
+  "msgstr": "ABBIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 592,
+  "preuve": "US 5D69A4 -> FR 5DAEA0 (table de base US 5D5ACC / FR 5D9FC8, index +3800, 2 voisins) ; gBattleFrontierTrainers[73] US 5D69A4 -> FR 5DAEA0"
+ },
+ {
+  "msgid": "ANTONIO",
+  "msgstr": "TINO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 608,
+  "preuve": "US 5D6A0C -> FR 5DAF08 (table de base US 5D5ACC / FR 5D9FC8, index +3904, 2 voisins) ; gBattleFrontierTrainers[75] US 5D6A0C -> FR 5DAF08"
+ },
+ {
+  "msgid": "JADEN",
+  "msgstr": "HERCULE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 616,
+  "preuve": "US 5D6A40 -> FR 5DAF3C (table de base US 5D5ACC / FR 5D9FC8, index +3956, 2 voisins) ; gBattleFrontierTrainers[76] US 5D6A40 -> FR 5DAF3C"
+ },
+ {
+  "msgid": "DAKOTA",
+  "msgstr": "HOMERE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 624,
+  "ancien": "Dana",
+  "preuve": "US 5D6A74 -> FR 5DAF70 (table de base US 5D5ACC / FR 5D9FC8, index +4008, 2 voisins) ; gBattleFrontierTrainers[77] US 5D6A74 -> FR 5DAF70"
+ },
+ {
+  "msgid": "BRAYDEN",
+  "msgstr": "HORACE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 632,
+  "preuve": "US 5D6AA8 -> FR 5DAFA4 (table de base US 5D5ACC / FR 5D9FC8, index +4060, 2 voisins) ; gBattleFrontierTrainers[78] US 5D6AA8 -> FR 5DAFA4"
+ },
+ {
+  "msgid": "CORSON",
+  "msgstr": "OCTAVE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 640,
+  "preuve": "US 5D6ADC -> FR 5DAFD8 (table de base US 5D5ACC / FR 5D9FC8, index +4112, 2 voisins) ; gBattleFrontierTrainers[79] US 5D6ADC -> FR 5DAFD8"
+ },
+ {
+  "msgid": "TREVIN",
+  "msgstr": "TREVIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 648,
+  "preuve": "US 5D6B10 -> FR 5DB00C (table de base US 5D5ACC / FR 5D9FC8, index +4164, 2 voisins) ; gBattleFrontierTrainers[80] US 5D6B10 -> FR 5DB00C"
+ },
+ {
+  "msgid": "PATRICK",
+  "msgstr": "EDGAR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 656,
+  "preuve": "US 5D6B44 -> FR 5DB040 (table de base US 5D5ACC / FR 5D9FC8, index +4216, 2 voisins) ; gBattleFrontierTrainers[81] US 5D6B44 -> FR 5DB040"
+ },
+ {
+  "msgid": "KADEN",
+  "msgstr": "VLAD",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 664,
+  "ancien": "Kader",
+  "preuve": "gBattleFrontierTrainers[82] US 5D6B78 -> FR 5DB074",
+  "note": "même nom aussi utilisé dans les données FRLG (src/trainer_tower_sets.c) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "MAXWELL",
+  "msgstr": "MAXWELL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 672,
+  "preuve": "gBattleFrontierTrainers[83] US 5D6BAC -> FR 5DB0A8"
+ },
+ {
+  "msgid": "CADEN",
+  "msgstr": "GUILLEM",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 704,
+  "preuve": "US 5D6C7C -> FR 5DB178 (table de base US 5D5ACC / FR 5D9FC8, index +4528, 2 voisins) ; gBattleFrontierTrainers[87] US 5D6C7C -> FR 5DB178"
+ },
+ {
+  "msgid": "MARLON",
+  "msgstr": "ERIK",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 712,
+  "preuve": "US 5D6CB0 -> FR 5DB1AC (table de base US 5D5ACC / FR 5D9FC8, index +4580, 2 voisins) ; gBattleFrontierTrainers[88] US 5D6CB0 -> FR 5DB1AC",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "NASH",
+  "msgstr": "WERNER",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 720,
+  "preuve": "US 5D6CE4 -> FR 5DB1E0 (table de base US 5D5ACC / FR 5D9FC8, index +4632, 2 voisins) ; gBattleFrontierTrainers[89] US 5D6CE4 -> FR 5DB1E0",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "ROBBY",
+  "msgstr": "ROBIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 728,
+  "preuve": "US 5D6D18 -> FR 5DB214 (table de base US 5D5ACC / FR 5D9FC8, index +4684, 2 voisins) ; gBattleFrontierTrainers[90] US 5D6D18 -> FR 5DB214",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "REECE",
+  "msgstr": "GATIEN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 736,
+  "preuve": "US 5D6D4C -> FR 5DB248 (table de base US 5D5ACC / FR 5D9FC8, index +4736, 2 voisins) ; gBattleFrontierTrainers[91] US 5D6D4C -> FR 5DB248",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "KATHRYN",
+  "msgstr": "KATHRYN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 744,
+  "preuve": "US 5D6D80 -> FR 5DB27C (table de base US 5D5ACC / FR 5D9FC8, index +4788, 2 voisins) ; gBattleFrontierTrainers[92] US 5D6D80 -> FR 5DB27C"
+ },
+ {
+  "msgid": "RAMON",
+  "msgstr": "RAYMOND",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 760,
+  "preuve": "US 5D6DE8 -> FR 5DB2E4 (table de base US 5D5ACC / FR 5D9FC8, index +4892, 2 voisins) ; gBattleFrontierTrainers[94] US 5D6DE8 -> FR 5DB2E4",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "ARTHUR",
+  "msgstr": "LILIAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 768,
+  "preuve": "US 5D6E1C -> FR 5DB318 (table de base US 5D5ACC / FR 5D9FC8, index +4944, 2 voisins) ; gBattleFrontierTrainers[95] US 5D6E1C -> FR 5DB318",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "ALONDRA",
+  "msgstr": "EUNICE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 776,
+  "preuve": "US 5D6E50 -> FR 5DB34C (table de base US 5D5ACC / FR 5D9FC8, index +4996, 2 voisins) ; gBattleFrontierTrainers[96] US 5D6E50 -> FR 5DB34C"
+ },
+ {
+  "msgid": "ADRIANA",
+  "msgstr": "ADRIANA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 784,
+  "ancien": "Adara",
+  "preuve": "US 5D6E84 -> FR 5DB380 (table de base US 5D5ACC / FR 5D9FC8, index +5048, 2 voisins) ; gBattleFrontierTrainers[97] US 5D6E84 -> FR 5DB380"
+ },
+ {
+  "msgid": "MALIK",
+  "msgstr": "ROMUALD",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 792,
+  "preuve": "US 5D6EB8 -> FR 5DB3B4 (table de base US 5D5ACC / FR 5D9FC8, index +5100, 2 voisins) ; gBattleFrontierTrainers[98] US 5D6EB8 -> FR 5DB3B4",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "YAZMIN",
+  "msgstr": "FELICIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 816,
+  "preuve": "gBattleFrontierTrainers[101] US 5D6F54 -> FR 5DB450",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "JAMAL",
+  "msgstr": "JAMEL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 824,
+  "preuve": "gBattleFrontierTrainers[102] US 5D6F88 -> FR 5DB484",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "LESLIE",
+  "msgstr": "LESLIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 832,
+  "preuve": "gBattleFrontierTrainers[103] US 5D6FBC -> FR 5DB4B8",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "CARLO",
+  "msgstr": "RONAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 848,
+  "ancien": "Thai",
+  "preuve": "US 5D7024 -> FR 5DB520 (table de base US 5D5ACC / FR 5D9FC8, index +5464, 2 voisins) ; gBattleFrontierTrainers[105] US 5D7024 -> FR 5DB520"
+ },
+ {
+  "msgid": "EMILIA",
+  "msgstr": "EMILIA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 856,
+  "preuve": "US 5D7058 -> FR 5DB554 (table de base US 5D5ACC / FR 5D9FC8, index +5516, 2 voisins) ; gBattleFrontierTrainers[106] US 5D7058 -> FR 5DB554",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "DALIA",
+  "msgstr": "LYDIA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 864,
+  "preuve": "US 5D708C -> FR 5DB588 (table de base US 5D5ACC / FR 5D9FC8, index +5568, 2 voisins) ; gBattleFrontierTrainers[107] US 5D708C -> FR 5DB588",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "HITOMI",
+  "msgstr": "MEHDI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 872,
+  "preuve": "US 5D70C0 -> FR 5DB5BC (table de base US 5D5ACC / FR 5D9FC8, index +5620, 2 voisins) ; gBattleFrontierTrainers[108] US 5D70C0 -> FR 5DB5BC"
+ },
+ {
+  "msgid": "RICARDO",
+  "msgstr": "RICARDO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 880,
+  "ancien": "Ricardo",
+  "preuve": "US 5D70F4 -> FR 5DB5F0 (table de base US 5D5ACC / FR 5D9FC8, index +5672, 2 voisins) ; gBattleFrontierTrainers[109] US 5D70F4 -> FR 5DB5F0",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "SHIZUKA",
+  "msgstr": "RUBEN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 888,
+  "preuve": "US 5D7128 -> FR 5DB624 (table de base US 5D5ACC / FR 5D9FC8, index +5724, 2 voisins) ; gBattleFrontierTrainers[110] US 5D7128 -> FR 5DB624"
+ },
+ {
+  "msgid": "JOANA",
+  "msgstr": "JOHANA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 896,
+  "preuve": "US 5D715C -> FR 5DB658 (table de base US 5D5ACC / FR 5D9FC8, index +5776, 2 voisins) ; gBattleFrontierTrainers[111] US 5D715C -> FR 5DB658",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "RAYNA",
+  "msgstr": "LORRIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 912,
+  "preuve": "US 5D71C4 -> FR 5DB6C0 (table de base US 5D5ACC / FR 5D9FC8, index +5880, 2 voisins) ; gBattleFrontierTrainers[113] US 5D71C4 -> FR 5DB6C0",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "JORDAN",
+  "msgstr": "LOTHAR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 928,
+  "ancien": "Jordane",
+  "preuve": "US 5D722C -> FR 5DB728 (table de base US 5D5ACC / FR 5D9FC8, index +5984, 3 voisins) ; gBattleFrontierTrainers[115] US 5D722C -> FR 5DB728"
+ },
+ {
+  "msgid": "KRISTEN",
+  "msgstr": "KRISTY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 944,
+  "preuve": "US 5D7294 -> FR 5DB790 (table de base US 5D5ACC / FR 5D9FC8, index +6088, 3 voisins) ; gBattleFrontierTrainers[117] US 5D7294 -> FR 5DB790"
+ },
+ {
+  "msgid": "SELPHY",
+  "msgstr": "MARTINE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 952,
+  "preuve": "US 5D72C8 -> FR 5DB7C4 (table de base US 5D5ACC / FR 5D9FC8, index +6140, 3 voisins) ; gBattleFrontierTrainers[118] US 5D72C8 -> FR 5DB7C4",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "CHLOE",
+  "msgstr": "CHLOE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 960,
+  "ancien": "Chiara",
+  "preuve": "US 5D72FC -> FR 5DB7F8 (table de base US 5D5ACC / FR 5D9FC8, index +6192, 2 voisins) ; gBattleFrontierTrainers[119] US 5D72FC -> FR 5DB7F8"
+ },
+ {
+  "msgid": "LUKAS",
+  "msgstr": "MAURIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 976,
+  "preuve": "US 5D7364 -> FR 5DB860 (table de base US 5D5ACC / FR 5D9FC8, index +6296, 2 voisins) ; gBattleFrontierTrainers[121] US 5D7364 -> FR 5DB860",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "KAITLYN",
+  "msgstr": "NENA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 992,
+  "preuve": "gBattleFrontierTrainers[123] US 5D73CC -> FR 5DB8C8"
+ },
+ {
+  "msgid": "BREANNA",
+  "msgstr": "SUZON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1000,
+  "preuve": "gBattleFrontierTrainers[124] US 5D7400 -> FR 5DB8FC"
+ },
+ {
+  "msgid": "MOLLY",
+  "msgstr": "MOLLY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1016,
+  "preuve": "gBattleFrontierTrainers[126] US 5D7468 -> FR 5DB964"
+ },
+ {
+  "msgid": "JAZMIN",
+  "msgstr": "ORNELLA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1024,
+  "preuve": "US 5D749C -> FR 5DB998 (table de base US 5D5ACC / FR 5D9FC8, index +6608, 2 voisins) ; gBattleFrontierTrainers[127] US 5D749C -> FR 5DB998"
+ },
+ {
+  "msgid": "JALEN",
+  "msgstr": "KHALID",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1040,
+  "preuve": "US 5D7504 -> FR 5DBA00 (table de base US 5D5ACC / FR 5D9FC8, index +6712, 2 voisins) ; gBattleFrontierTrainers[129] US 5D7504 -> FR 5DBA00"
+ },
+ {
+  "msgid": "GRIFFEN",
+  "msgstr": "EUDES",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1048,
+  "preuve": "US 5D7538 -> FR 5DBA34 (table de base US 5D5ACC / FR 5D9FC8, index +6764, 2 voisins) ; gBattleFrontierTrainers[130] US 5D7538 -> FR 5DBA34"
+ },
+ {
+  "msgid": "XANDER",
+  "msgstr": "MERLIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1056,
+  "ancien": "Miguel",
+  "preuve": "US 5D756C -> FR 5DBA68 (table de base US 5D5ACC / FR 5D9FC8, index +6816, 2 voisins) ; gBattleFrontierTrainers[131] US 5D756C -> FR 5DBA68"
+ },
+ {
+  "msgid": "BRENNAN",
+  "msgstr": "GWENDAL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1072,
+  "preuve": "US 5D75D4 -> FR 5DBAD0 (table de base US 5D5ACC / FR 5D9FC8, index +6920, 2 voisins) ; gBattleFrontierTrainers[133] US 5D75D4 -> FR 5DBAD0",
+  "note": "même nom aussi utilisé dans les données FRLG (src/trainer_tower_sets.c) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "BALEY",
+  "msgstr": "SOREN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1080,
+  "preuve": "US 5D7608 -> FR 5DBB04 (table de base US 5D5ACC / FR 5D9FC8, index +6972, 2 voisins) ; gBattleFrontierTrainers[134] US 5D7608 -> FR 5DBB04"
+ },
+ {
+  "msgid": "ZACKARY",
+  "msgstr": "ABEL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1088,
+  "preuve": "gBattleFrontierTrainers[135] US 5D763C -> FR 5DBB38"
+ },
+ {
+  "msgid": "GABRIEL",
+  "msgstr": "EMERICK",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1096,
+  "preuve": "gBattleFrontierTrainers[136] US 5D7670 -> FR 5DBB6C",
+  "note": "même nom aussi utilisé dans les données FRLG (src/trainer_tower_sets.c) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "EMILY",
+  "msgstr": "EMILY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1104,
+  "preuve": "gBattleFrontierTrainers[137] US 5D76A4 -> FR 5DBBA0"
+ },
+ {
+  "msgid": "JORDYN",
+  "msgstr": "JORDYN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1112,
+  "preuve": "gBattleFrontierTrainers[138] US 5D76D8 -> FR 5DBBD4"
+ },
+ {
+  "msgid": "SOFIA",
+  "msgstr": "VERONA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1120,
+  "preuve": "US 5D770C -> FR 5DBC08 (table de base US 5D5ACC / FR 5D9FC8, index +7232, 2 voisins) ; gBattleFrontierTrainers[139] US 5D770C -> FR 5DBC08",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "BRADEN",
+  "msgstr": "KARL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1128,
+  "preuve": "gBattleFrontierTrainers[140] US 5D7740 -> FR 5DBC3C",
+  "note": "même nom aussi utilisé dans les données FRLG (src/trainer_tower_sets.c) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "KAYDEN",
+  "msgstr": "ELOI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1136,
+  "preuve": "gBattleFrontierTrainers[141] US 5D7774 -> FR 5DBC70",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "COOPER",
+  "msgstr": "LEE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1144,
+  "preuve": "gBattleFrontierTrainers[142] US 5D77A8 -> FR 5DBCA4",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "AMARA",
+  "msgstr": "TAMARA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1160,
+  "preuve": "US 5D7810 -> FR 5DBD0C (table de base US 5D5ACC / FR 5D9FC8, index +7492, 2 voisins) ; gBattleFrontierTrainers[144] US 5D7810 -> FR 5DBD0C",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "LYNN",
+  "msgstr": "LYNN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1168,
+  "preuve": "US 5D7844 -> FR 5DBD40 (table de base US 5D5ACC / FR 5D9FC8, index +7544, 2 voisins) ; gBattleFrontierTrainers[145] US 5D7844 -> FR 5DBD40"
+ },
+ {
+  "msgid": "JOVAN",
+  "msgstr": "EUGENE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1176,
+  "preuve": "US 5D7878 -> FR 5DBD74 (table de base US 5D5ACC / FR 5D9FC8, index +7596, 2 voisins) ; gBattleFrontierTrainers[146] US 5D7878 -> FR 5DBD74",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "DOMINIC",
+  "msgstr": "DOMINIC",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1184,
+  "preuve": "US 5D78AC -> FR 5DBDA8 (table de base US 5D5ACC / FR 5D9FC8, index +7648, 2 voisins) ; gBattleFrontierTrainers[147] US 5D78AC -> FR 5DBDA8"
+ },
+ {
+  "msgid": "NIKOLAS",
+  "msgstr": "PANIS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1192,
+  "preuve": "US 5D78E0 -> FR 5DBDDC (table de base US 5D5ACC / FR 5D9FC8, index +7700, 2 voisins) ; gBattleFrontierTrainers[148] US 5D78E0 -> FR 5DBDDC",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "VALERIA",
+  "msgstr": "YOLANDE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1200,
+  "preuve": "US 5D7914 -> FR 5DBE10 (table de base US 5D5ACC / FR 5D9FC8, index +7752, 2 voisins) ; gBattleFrontierTrainers[149] US 5D7914 -> FR 5DBE10"
+ },
+ {
+  "msgid": "DELANEY",
+  "msgstr": "URSULA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1208,
+  "ancien": "Emil",
+  "preuve": "US 5D7948 -> FR 5DBE44 (table de base US 5D5ACC / FR 5D9FC8, index +7804, 2 voisins) ; gBattleFrontierTrainers[150] US 5D7948 -> FR 5DBE44"
+ },
+ {
+  "msgid": "MEGHAN",
+  "msgstr": "MEGANE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1216,
+  "preuve": "gBattleFrontierTrainers[151] US 5D797C -> FR 5DBE78"
+ },
+ {
+  "msgid": "DAMIAN",
+  "msgstr": "FIRMIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1232,
+  "preuve": "gBattleFrontierTrainers[153] US 5D79E4 -> FR 5DBEE0"
+ },
+ {
+  "msgid": "BRODY",
+  "msgstr": "FRANZ",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1240,
+  "preuve": "gBattleFrontierTrainers[154] US 5D7A18 -> FR 5DBF14"
+ },
+ {
+  "msgid": "GRAHAM",
+  "msgstr": "FULBERT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1248,
+  "preuve": "US 5D7A4C -> FR 5DBF48 (table de base US 5D5ACC / FR 5D9FC8, index +8064, 3 voisins) ; gBattleFrontierTrainers[155] US 5D7A4C -> FR 5DBF48"
+ },
+ {
+  "msgid": "JAREN",
+  "msgstr": "NADIA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1264,
+  "preuve": "US 5D7AB4 -> FR 5DBFB0 (table de base US 5D5ACC / FR 5D9FC8, index +8168, 2 voisins) ; gBattleFrontierTrainers[157] US 5D7AB4 -> FR 5DBFB0",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "CORDELL",
+  "msgstr": "JIMMY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1272,
+  "preuve": "US 5D7AE8 -> FR 5DBFE4 (table de base US 5D5ACC / FR 5D9FC8, index +8220, 2 voisins) ; gBattleFrontierTrainers[158] US 5D7AE8 -> FR 5DBFE4",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "JAZLYN",
+  "msgstr": "SAVANNA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1280,
+  "preuve": "US 5D7B1C -> FR 5DC018 (table de base US 5D5ACC / FR 5D9FC8, index +8272, 2 voisins) ; gBattleFrontierTrainers[159] US 5D7B1C -> FR 5DC018"
+ },
+ {
+  "msgid": "ZACHERY",
+  "msgstr": "HABIB",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1288,
+  "preuve": "US 5D7B50 -> FR 5DC04C (table de base US 5D5ACC / FR 5D9FC8, index +8324, 2 voisins) ; gBattleFrontierTrainers[160] US 5D7B50 -> FR 5DC04C"
+ },
+ {
+  "msgid": "JOHAN",
+  "msgstr": "NOE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1296,
+  "preuve": "US 5D7B84 -> FR 5DC080 (table de base US 5D5ACC / FR 5D9FC8, index +8376, 2 voisins) ; gBattleFrontierTrainers[161] US 5D7B84 -> FR 5DC080",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "SHEA",
+  "msgstr": "CHUK",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1304,
+  "ancien": "Loris",
+  "preuve": "US 5D7BB8 -> FR 5DC0B4 (table de base US 5D5ACC / FR 5D9FC8, index +8428, 2 voisins) ; gBattleFrontierTrainers[162] US 5D7BB8 -> FR 5DC0B4",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "KAILA",
+  "msgstr": "LUANA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1312,
+  "preuve": "US 5D7BEC -> FR 5DC0E8 (table de base US 5D5ACC / FR 5D9FC8, index +8480, 2 voisins) ; gBattleFrontierTrainers[163] US 5D7BEC -> FR 5DC0E8"
+ },
+ {
+  "msgid": "ISIAH",
+  "msgstr": "JOSSE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1320,
+  "preuve": "US 5D7C20 -> FR 5DC11C (table de base US 5D5ACC / FR 5D9FC8, index +8532, 2 voisins) ; gBattleFrontierTrainers[164] US 5D7C20 -> FR 5DC11C"
+ },
+ {
+  "msgid": "HAYLIE",
+  "msgstr": "ESTELLA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1336,
+  "preuve": "US 5D7C88 -> FR 5DC184 (table de base US 5D5ACC / FR 5D9FC8, index +8636, 2 voisins) ; gBattleFrontierTrainers[166] US 5D7C88 -> FR 5DC184"
+ },
+ {
+  "msgid": "QUINTON",
+  "msgstr": "CANDIDE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1360,
+  "preuve": "US 5D7D24 -> FR 5DC220 (table de base US 5D5ACC / FR 5D9FC8, index +8792, 2 voisins) ; gBattleFrontierTrainers[169] US 5D7D24 -> FR 5DC220"
+ },
+ {
+  "msgid": "SALMA",
+  "msgstr": "SALMA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1368,
+  "preuve": "US 5D7D58 -> FR 5DC254 (table de base US 5D5ACC / FR 5D9FC8, index +8844, 2 voisins) ; gBattleFrontierTrainers[170] US 5D7D58 -> FR 5DC254"
+ },
+ {
+  "msgid": "ANSLEY",
+  "msgstr": "MARYLOU",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1376,
+  "preuve": "US 5D7D8C -> FR 5DC288 (table de base US 5D5ACC / FR 5D9FC8, index +8896, 2 voisins) ; gBattleFrontierTrainers[171] US 5D7D8C -> FR 5DC288"
+ },
+ {
+  "msgid": "HOLDEN",
+  "msgstr": "MILOUD",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1384,
+  "ancien": "Julian",
+  "preuve": "US 5D7DC0 -> FR 5DC2BC (table de base US 5D5ACC / FR 5D9FC8, index +8948, 2 voisins) ; gBattleFrontierTrainers[172] US 5D7DC0 -> FR 5DC2BC"
+ },
+ {
+  "msgid": "LUCA",
+  "msgstr": "ELTON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1392,
+  "preuve": "US 5D7DF4 -> FR 5DC2F0 (table de base US 5D5ACC / FR 5D9FC8, index +9000, 2 voisins) ; gBattleFrontierTrainers[173] US 5D7DF4 -> FR 5DC2F0",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "JAMISON",
+  "msgstr": "TETSUO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1400,
+  "preuve": "US 5D7E28 -> FR 5DC324 (table de base US 5D5ACC / FR 5D9FC8, index +9052, 2 voisins) ; gBattleFrontierTrainers[174] US 5D7E28 -> FR 5DC324"
+ },
+ {
+  "msgid": "GUNNAR",
+  "msgstr": "PIOTR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1408,
+  "preuve": "US 5D7E5C -> FR 5DC358 (table de base US 5D5ACC / FR 5D9FC8, index +9104, 2 voisins) ; gBattleFrontierTrainers[175] US 5D7E5C -> FR 5DC358"
+ },
+ {
+  "msgid": "CRAIG",
+  "msgstr": "ELIJAH",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1416,
+  "preuve": "US 5D7E90 -> FR 5DC38C (table de base US 5D5ACC / FR 5D9FC8, index +9156, 2 voisins) ; gBattleFrontierTrainers[176] US 5D7E90 -> FR 5DC38C"
+ },
+ {
+  "msgid": "PIERCE",
+  "msgstr": "GERARD",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1424,
+  "ancien": "Pat",
+  "preuve": "US 5D7EC4 -> FR 5DC3C0 (table de base US 5D5ACC / FR 5D9FC8, index +9208, 2 voisins) ; gBattleFrontierTrainers[177] US 5D7EC4 -> FR 5DC3C0"
+ },
+ {
+  "msgid": "REGINA",
+  "msgstr": "REGINA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1432,
+  "ancien": "Régina",
+  "preuve": "US 5D7EF8 -> FR 5DC3F4 (table de base US 5D5ACC / FR 5D9FC8, index +9260, 2 voisins) ; gBattleFrontierTrainers[178] US 5D7EF8 -> FR 5DC3F4"
+ },
+ {
+  "msgid": "ALISON",
+  "msgstr": "ALISON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1440,
+  "preuve": "US 5D7F2C -> FR 5DC428 (table de base US 5D5ACC / FR 5D9FC8, index +9312, 2 voisins) ; gBattleFrontierTrainers[179] US 5D7F2C -> FR 5DC428"
+ },
+ {
+  "msgid": "EARL",
+  "msgstr": "DAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1456,
+  "ancien": "ERLE",
+  "preuve": "US 5D7F94 -> FR 5DC490 (table de base US 5D5ACC / FR 5D9FC8, index +9416, 2 voisins) ; gBattleFrontierTrainers[181] US 5D7F94 -> FR 5DC490",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "RAMIRO",
+  "msgstr": "JO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1464,
+  "preuve": "US 5D7FC8 -> FR 5DC4C4 (table de base US 5D5ACC / FR 5D9FC8, index +9468, 3 voisins) ; gBattleFrontierTrainers[182] US 5D7FC8 -> FR 5DC4C4",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "HUNTER",
+  "msgstr": "CEDRIC",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1472,
+  "preuve": "US 5D7FFC -> FR 5DC4F8 (table de base US 5D5ACC / FR 5D9FC8, index +9520, 3 voisins) ; gBattleFrontierTrainers[183] US 5D7FFC -> FR 5DC4F8"
+ },
+ {
+  "msgid": "AIDEN",
+  "msgstr": "FLORENT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1480,
+  "ancien": "Nathan",
+  "preuve": "US 5D8030 -> FR 5DC52C (table de base US 5D5ACC / FR 5D9FC8, index +9572, 3 voisins) ; gBattleFrontierTrainers[184] US 5D8030 -> FR 5DC52C"
+ },
+ {
+  "msgid": "XAVIER",
+  "msgstr": "EWEN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1488,
+  "preuve": "US 5D8064 -> FR 5DC560 (table de base US 5D5ACC / FR 5D9FC8, index +9624, 3 voisins) ; gBattleFrontierTrainers[185] US 5D8064 -> FR 5DC560"
+ },
+ {
+  "msgid": "CLINTON",
+  "msgstr": "NEIL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1496,
+  "preuve": "gBattleFrontierTrainers[186] US 5D8098 -> FR 5DC594"
+ },
+ {
+  "msgid": "JESSE",
+  "msgstr": "SAMMY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1504,
+  "preuve": "gBattleFrontierTrainers[187] US 5D80CC -> FR 5DC5C8"
+ },
+ {
+  "msgid": "EDUARDO",
+  "msgstr": "EDUARDO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1512,
+  "preuve": "gBattleFrontierTrainers[188] US 5D8100 -> FR 5DC5FC"
+ },
+ {
+  "msgid": "GAGE",
+  "msgstr": "JAMES",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1528,
+  "preuve": "US 5D8168 -> FR 5DC664 (table de base US 5D5ACC / FR 5D9FC8, index +9884, 2 voisins) ; gBattleFrontierTrainers[190] US 5D8168 -> FR 5DC664"
+ },
+ {
+  "msgid": "JARRETT",
+  "msgstr": "KEN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1544,
+  "preuve": "US 5D81D0 -> FR 5DC6CC (table de base US 5D5ACC / FR 5D9FC8, index +9988, 2 voisins) ; gBattleFrontierTrainers[192] US 5D81D0 -> FR 5DC6CC",
+  "note": "même nom aussi utilisé dans les données FRLG (src/trainer_tower_sets.c) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "GARETT",
+  "msgstr": "GREGORY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1552,
+  "preuve": "US 5D8204 -> FR 5DC700 (table de base US 5D5ACC / FR 5D9FC8, index +10040, 2 voisins) ; gBattleFrontierTrainers[193] US 5D8204 -> FR 5DC700"
+ },
+ {
+  "msgid": "EMANUEL",
+  "msgstr": "BRAD",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1560,
+  "preuve": "US 5D8238 -> FR 5DC734 (table de base US 5D5ACC / FR 5D9FC8, index +10092, 2 voisins) ; gBattleFrontierTrainers[194] US 5D8238 -> FR 5DC734",
+  "note": "même nom aussi utilisé dans les données FRLG (src/trainer_tower_sets.c) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "GUSTAVO",
+  "msgstr": "GUSTAVO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1568,
+  "preuve": "US 5D826C -> FR 5DC768 (table de base US 5D5ACC / FR 5D9FC8, index +10144, 2 voisins) ; gBattleFrontierTrainers[195] US 5D826C -> FR 5DC768"
+ },
+ {
+  "msgid": "KAMERON",
+  "msgstr": "EDMOND",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1576,
+  "preuve": "US 5D82A0 -> FR 5DC79C (table de base US 5D5ACC / FR 5D9FC8, index +10196, 2 voisins) ; gBattleFrontierTrainers[196] US 5D82A0 -> FR 5DC79C"
+ },
+ {
+  "msgid": "ALFREDO",
+  "msgstr": "TREVOR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1584,
+  "preuve": "gBattleFrontierTrainers[197] US 5D82D4 -> FR 5DC7D0"
+ },
+ {
+  "msgid": "JAXON",
+  "msgstr": "ROMAIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1608,
+  "preuve": "gBattleFrontierTrainers[200] US 5D8370 -> FR 5DC86C",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "LOGAN",
+  "msgstr": "LUDO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1616,
+  "preuve": "US 5D83A4 -> FR 5DC8A0 (table de base US 5D5ACC / FR 5D9FC8, index +10456, 2 voisins) ; gBattleFrontierTrainers[201] US 5D83A4 -> FR 5DC8A0",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "EMILEE",
+  "msgstr": "NANETTE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1624,
+  "preuve": "US 5D83D8 -> FR 5DC8D4 (table de base US 5D5ACC / FR 5D9FC8, index +10508, 2 voisins) ; gBattleFrontierTrainers[202] US 5D83D8 -> FR 5DC8D4"
+ },
+ {
+  "msgid": "JOSIE",
+  "msgstr": "JOSIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1632,
+  "preuve": "US 5D840C -> FR 5DC908 (table de base US 5D5ACC / FR 5D9FC8, index +10560, 2 voisins) ; gBattleFrontierTrainers[203] US 5D840C -> FR 5DC908"
+ },
+ {
+  "msgid": "ARMANDO",
+  "msgstr": "HENRI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1640,
+  "preuve": "gBattleFrontierTrainers[204] US 5D8440 -> FR 5DC93C"
+ },
+ {
+  "msgid": "SKYLER",
+  "msgstr": "REGIS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1648,
+  "preuve": "gBattleFrontierTrainers[205] US 5D8474 -> FR 5DC970"
+ },
+ {
+  "msgid": "MELODY",
+  "msgstr": "MELODY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1664,
+  "preuve": "gBattleFrontierTrainers[207] US 5D84DC -> FR 5DC9D8"
+ },
+ {
+  "msgid": "GAVIN",
+  "msgstr": "CASIMIR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1712,
+  "preuve": "US 5D8614 -> FR 5DCB10 (table de base US 5D5ACC / FR 5D9FC8, index +11080, 2 voisins) ; gBattleFrontierTrainers[213] US 5D8614 -> FR 5DCB10"
+ },
+ {
+  "msgid": "MALORY",
+  "msgstr": "MALORIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1720,
+  "preuve": "gBattleFrontierTrainers[214] US 5D8648 -> FR 5DCB44"
+ },
+ {
+  "msgid": "ESTHER",
+  "msgstr": "ESTHER",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1728,
+  "preuve": "gBattleFrontierTrainers[215] US 5D867C -> FR 5DCB78"
+ },
+ {
+  "msgid": "WILSON",
+  "msgstr": "WILSON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1744,
+  "preuve": "gBattleFrontierTrainers[217] US 5D86E4 -> FR 5DCBE0"
+ },
+ {
+  "msgid": "CLARE",
+  "msgstr": "ELOISE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1752,
+  "preuve": "US 5D8718 -> FR 5DCC14 (table de base US 5D5ACC / FR 5D9FC8, index +11340, 2 voisins) ; gBattleFrontierTrainers[218] US 5D8718 -> FR 5DCC14"
+ },
+ {
+  "msgid": "TESS",
+  "msgstr": "TESS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1760,
+  "preuve": "US 5D874C -> FR 5DCC48 (table de base US 5D5ACC / FR 5D9FC8, index +11392, 2 voisins) ; gBattleFrontierTrainers[219] US 5D874C -> FR 5DCC48"
+ },
+ {
+  "msgid": "LEON",
+  "msgstr": "JUAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1768,
+  "ancien": "Loulou",
+  "preuve": "gBattleFrontierTrainers[220] US 5D8780 -> FR 5DCC7C"
+ },
+ {
+  "msgid": "ALONZO",
+  "msgstr": "ALESSIO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1776,
+  "preuve": "gBattleFrontierTrainers[221] US 5D87B4 -> FR 5DCCB0"
+ },
+ {
+  "msgid": "VINCE",
+  "msgstr": "VINCE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1784,
+  "preuve": "gBattleFrontierTrainers[222] US 5D87E8 -> FR 5DCCE4"
+ },
+ {
+  "msgid": "BRYON",
+  "msgstr": "NOLAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1792,
+  "preuve": "gBattleFrontierTrainers[223] US 5D881C -> FR 5DCD18"
+ },
+ {
+  "msgid": "AVA",
+  "msgstr": "AVA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1800,
+  "ancien": "ISSON",
+  "preuve": "US 5D8850 -> FR 5DCD4C (table de base US 5D5ACC / FR 5D9FC8, index +11652, 2 voisins) ; gBattleFrontierTrainers[224] US 5D8850 -> FR 5DCD4C"
+ },
+ {
+  "msgid": "MIRIAM",
+  "msgstr": "MIRIAM",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1808,
+  "ancien": "Brenda",
+  "preuve": "US 5D8884 -> FR 5DCD80 (table de base US 5D5ACC / FR 5D9FC8, index +11704, 2 voisins) ; gBattleFrontierTrainers[225] US 5D8884 -> FR 5DCD80",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "CHAZ",
+  "msgstr": "SACHA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1840,
+  "ancien": "Patxi",
+  "preuve": "US 5D8954 -> FR 5DCE50 (table de base US 5D5ACC / FR 5D9FC8, index +11912, 2 voisins) ; gBattleFrontierTrainers[229] US 5D8954 -> FR 5DCE50",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "NELSON",
+  "msgstr": "NELSON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1848,
+  "preuve": "US 5D8988 -> FR 5DCE84 (table de base US 5D5ACC / FR 5D9FC8, index +11964, 2 voisins) ; gBattleFrontierTrainers[230] US 5D8988 -> FR 5DCE84",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "SHANIA",
+  "msgstr": "SHANON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1856,
+  "preuve": "US 5D89BC -> FR 5DCEB8 (table de base US 5D5ACC / FR 5D9FC8, index +12016, 2 voisins) ; gBattleFrontierTrainers[231] US 5D89BC -> FR 5DCEB8",
+  "note": "même nom aussi utilisé dans les données FRLG (src/trainer_tower_sets.c) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "STELLA",
+  "msgstr": "STELLA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1864,
+  "preuve": "US 5D89F0 -> FR 5DCEEC (table de base US 5D5ACC / FR 5D9FC8, index +12068, 2 voisins) ; gBattleFrontierTrainers[232] US 5D89F0 -> FR 5DCEEC"
+ },
+ {
+  "msgid": "DORINE",
+  "msgstr": "DORIS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1872,
+  "preuve": "US 5D8A24 -> FR 5DCF20 (table de base US 5D5ACC / FR 5D9FC8, index +12120, 2 voisins) ; gBattleFrontierTrainers[233] US 5D8A24 -> FR 5DCF20"
+ },
+ {
+  "msgid": "MADDOX",
+  "msgstr": "DANIEL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1880,
+  "preuve": "US 5D8A58 -> FR 5DCF54 (table de base US 5D5ACC / FR 5D9FC8, index +12172, 2 voisins) ; gBattleFrontierTrainers[234] US 5D8A58 -> FR 5DCF54"
+ },
+ {
+  "msgid": "DAVIN",
+  "msgstr": "BENOIT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1888,
+  "preuve": "US 5D8A8C -> FR 5DCF88 (table de base US 5D5ACC / FR 5D9FC8, index +12224, 2 voisins) ; gBattleFrontierTrainers[235] US 5D8A8C -> FR 5DCF88"
+ },
+ {
+  "msgid": "TREVON",
+  "msgstr": "AXEL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1896,
+  "preuve": "US 5D8AC0 -> FR 5DCFBC (table de base US 5D5ACC / FR 5D9FC8, index +12276, 2 voisins) ; gBattleFrontierTrainers[236] US 5D8AC0 -> FR 5DCFBC"
+ },
+ {
+  "msgid": "MATEO",
+  "msgstr": "MATEO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1904,
+  "preuve": "US 5D8AF4 -> FR 5DCFF0 (table de base US 5D5ACC / FR 5D9FC8, index +12328, 2 voisins) ; gBattleFrontierTrainers[237] US 5D8AF4 -> FR 5DCFF0"
+ },
+ {
+  "msgid": "ELENA",
+  "msgstr": "HELENA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1936,
+  "preuve": "US 5D8BC4 -> FR 5DD0C0 (table de base US 5D5ACC / FR 5D9FC8, index +12536, 2 voisins) ; gBattleFrontierTrainers[241] US 5D8BC4 -> FR 5DD0C0"
+ },
+ {
+  "msgid": "ALANA",
+  "msgstr": "ELISA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1944,
+  "preuve": "US 5D8BF8 -> FR 5DD0F4 (table de base US 5D5ACC / FR 5D9FC8, index +12588, 2 voisins) ; gBattleFrontierTrainers[242] US 5D8BF8 -> FR 5DD0F4"
+ },
+ {
+  "msgid": "ALEXAS",
+  "msgstr": "JEROME",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1952,
+  "preuve": "US 5D8C2C -> FR 5DD128 (table de base US 5D5ACC / FR 5D9FC8, index +12640, 2 voisins) ; gBattleFrontierTrainers[243] US 5D8C2C -> FR 5DD128"
+ },
+ {
+  "msgid": "WESTON",
+  "msgstr": "RACHID",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1960,
+  "preuve": "US 5D8C60 -> FR 5DD15C (table de base US 5D5ACC / FR 5D9FC8, index +12692, 2 voisins) ; gBattleFrontierTrainers[244] US 5D8C60 -> FR 5DD15C"
+ },
+ {
+  "msgid": "JASPER",
+  "msgstr": "DIMITRI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1968,
+  "preuve": "US 5D8C94 -> FR 5DD190 (table de base US 5D5ACC / FR 5D9FC8, index +12744, 2 voisins) ; gBattleFrontierTrainers[245] US 5D8C94 -> FR 5DD190",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "NADIA",
+  "msgstr": "NADIA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1976,
+  "ancien": "Suzon",
+  "preuve": "US 5D8CC8 -> FR 5DD1C4 (table de base US 5D5ACC / FR 5D9FC8, index +12796, 2 voisins) ; gBattleFrontierTrainers[246] US 5D8CC8 -> FR 5DD1C4"
+ },
+ {
+  "msgid": "MIRANDA",
+  "msgstr": "MIRANDA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1984,
+  "preuve": "US 5D8CFC -> FR 5DD1F8 (table de base US 5D5ACC / FR 5D9FC8, index +12848, 2 voisins) ; gBattleFrontierTrainers[247] US 5D8CFC -> FR 5DD1F8"
+ },
+ {
+  "msgid": "ROLANDO",
+  "msgstr": "ENZO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2000,
+  "preuve": "US 5D8D64 -> FR 5DD260 (table de base US 5D5ACC / FR 5D9FC8, index +12952, 3 voisins) ; gBattleFrontierTrainers[249] US 5D8D64 -> FR 5DD260",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "DARIO",
+  "msgstr": "DARIO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2016,
+  "preuve": "US 5D8DCC -> FR 5DD2C8 (table de base US 5D5ACC / FR 5D9FC8, index +13056, 3 voisins) ; gBattleFrontierTrainers[251] US 5D8DCC -> FR 5DD2C8",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "KARLEE",
+  "msgstr": "BARBARA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2024,
+  "preuve": "US 5D8E00 -> FR 5DD2FC (table de base US 5D5ACC / FR 5D9FC8, index +13108, 3 voisins) ; gBattleFrontierTrainers[252] US 5D8E00 -> FR 5DD2FC"
+ },
+ {
+  "msgid": "JAYLIN",
+  "msgstr": "SOLANGE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2032,
+  "preuve": "US 5D8E34 -> FR 5DD330 (table de base US 5D5ACC / FR 5D9FC8, index +13160, 2 voisins) ; gBattleFrontierTrainers[253] US 5D8E34 -> FR 5DD330"
+ },
+ {
+  "msgid": "INGRID",
+  "msgstr": "LOU-ANN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2040,
+  "ancien": "Agnès",
+  "preuve": "US 5D8E68 -> FR 5DD364 (table de base US 5D5ACC / FR 5D9FC8, index +13212, 2 voisins) ; gBattleFrontierTrainers[254] US 5D8E68 -> FR 5DD364"
+ },
+ {
+  "msgid": "DELILAH",
+  "msgstr": "NELL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2048,
+  "preuve": "US 5D8E9C -> FR 5DD398 (table de base US 5D5ACC / FR 5D9FC8, index +13264, 2 voisins) ; gBattleFrontierTrainers[255] US 5D8E9C -> FR 5DD398"
+ },
+ {
+  "msgid": "CARLY",
+  "msgstr": "LORA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2056,
+  "ancien": "Cassie",
+  "preuve": "US 5D8ED0 -> FR 5DD3CC (table de base US 5D5ACC / FR 5D9FC8, index +13316, 2 voisins) ; gBattleFrontierTrainers[256] US 5D8ED0 -> FR 5DD3CC",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "LEXIE",
+  "msgstr": "LOUISE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2064,
+  "preuve": "US 5D8F04 -> FR 5DD400 (table de base US 5D5ACC / FR 5D9FC8, index +13368, 2 voisins) ; gBattleFrontierTrainers[257] US 5D8F04 -> FR 5DD400"
+ },
+ {
+  "msgid": "MARV",
+  "msgstr": "NESTOR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2080,
+  "preuve": "US 5D8F6C -> FR 5DD468 (table de base US 5D5ACC / FR 5D9FC8, index +13472, 2 voisins) ; gBattleFrontierTrainers[259] US 5D8F6C -> FR 5DD468"
+ },
+ {
+  "msgid": "LAYTON",
+  "msgstr": "SOFIAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2088,
+  "ancien": "Lolo",
+  "preuve": "US 5D8FA0 -> FR 5DD49C (table de base US 5D5ACC / FR 5D9FC8, index +13524, 2 voisins) ; gBattleFrontierTrainers[260] US 5D8FA0 -> FR 5DD49C",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "BROOKS",
+  "msgstr": "SAMY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2096,
+  "preuve": "US 5D8FD4 -> FR 5DD4D0 (table de base US 5D5ACC / FR 5D9FC8, index +13576, 2 voisins) ; gBattleFrontierTrainers[261] US 5D8FD4 -> FR 5DD4D0",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "REESE",
+  "msgstr": "XAVIER",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2112,
+  "ancien": "Bernard",
+  "preuve": "US 5D903C -> FR 5DD538 (table de base US 5D5ACC / FR 5D9FC8, index +13680, 3 voisins) ; gBattleFrontierTrainers[263] US 5D903C -> FR 5DD538"
+ },
+ {
+  "msgid": "MASON",
+  "msgstr": "BRUNO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2120,
+  "ancien": "Marvin",
+  "preuve": "US 5D9070 -> FR 5DD56C (table de base US 5D5ACC / FR 5D9FC8, index +13732, 3 voisins) ; gBattleFrontierTrainers[264] US 5D9070 -> FR 5DD56C",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "DOROTHY",
+  "msgstr": "DOROTHY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2136,
+  "preuve": "US 5D90D8 -> FR 5DD5D4 (table de base US 5D5ACC / FR 5D9FC8, index +13836, 3 voisins) ; gBattleFrontierTrainers[266] US 5D90D8 -> FR 5DD5D4"
+ },
+ {
+  "msgid": "PIPER",
+  "msgstr": "MARYLIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2144,
+  "preuve": "US 5D910C -> FR 5DD608 (table de base US 5D5ACC / FR 5D9FC8, index +13888, 2 voisins) ; gBattleFrontierTrainers[267] US 5D910C -> FR 5DD608"
+ },
+ {
+  "msgid": "FINN",
+  "msgstr": "ETIENNE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2152,
+  "preuve": "US 5D9140 -> FR 5DD63C (table de base US 5D5ACC / FR 5D9FC8, index +13940, 2 voisins) ; gBattleFrontierTrainers[268] US 5D9140 -> FR 5DD63C",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "SAMIR",
+  "msgstr": "MATHYS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2160,
+  "preuve": "US 5D9174 -> FR 5DD670 (table de base US 5D5ACC / FR 5D9FC8, index +13992, 2 voisins) ; gBattleFrontierTrainers[269] US 5D9174 -> FR 5DD670",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "FIONA",
+  "msgstr": "FIONA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2168,
+  "ancien": "Nadia",
+  "preuve": "US 5D91A8 -> FR 5DD6A4 (table de base US 5D5ACC / FR 5D9FC8, index +14044, 2 voisins) ; gBattleFrontierTrainers[270] US 5D91A8 -> FR 5DD6A4"
+ },
+ {
+  "msgid": "GLORIA",
+  "msgstr": "GLORIA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2176,
+  "preuve": "US 5D91DC -> FR 5DD6D8 (table de base US 5D5ACC / FR 5D9FC8, index +14096, 2 voisins) ; gBattleFrontierTrainers[271] US 5D91DC -> FR 5DD6D8"
+ },
+ {
+  "msgid": "HUGO",
+  "msgstr": "UGO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2248,
+  "preuve": "gBattleFrontierTrainers[280] US 5D93B0 -> FR 5DD8AC",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "TRISTON",
+  "msgstr": "IAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2272,
+  "preuve": "US 5D944C -> FR 5DD948 (table de base US 5D5ACC / FR 5D9FC8, index +14720, 2 voisins) ; gBattleFrontierTrainers[283] US 5D944C -> FR 5DD948"
+ },
+ {
+  "msgid": "DEV",
+  "msgstr": "DEV",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2328,
+  "preuve": "gBattleFrontierTrainers[290] US 5D95B8 -> FR 5DDAB4"
+ },
+ {
+  "msgid": "FERRIS",
+  "msgstr": "FERRIS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2352,
+  "preuve": "gBattleFrontierTrainers[293] US 5D9654 -> FR 5DDB50"
+ },
+ {
+  "msgid": "ALIVIA",
+  "msgstr": "ALIVIA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2360,
+  "preuve": "US 5D9688 -> FR 5DDB84 (table de base US 5D5ACC / FR 5D9FC8, index +15292, 2 voisins) ; gBattleFrontierTrainers[294] US 5D9688 -> FR 5DDB84"
+ },
+ {
+  "msgid": "ANYA",
+  "msgstr": "ANYA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2376,
+  "preuve": "US 5D96F0 -> FR 5DDBEC (table de base US 5D5ACC / FR 5D9FC8, index +15396, 3 voisins) ; gBattleFrontierTrainers[296] US 5D96F0 -> FR 5DDBEC",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "ABBY",
+  "msgstr": "ABBY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2392,
+  "preuve": "US 5D9758 -> FR 5DDC54 (table de base US 5D5ACC / FR 5D9FC8, index +15500, 3 voisins) ; gBattleFrontierTrainers[298] US 5D9758 -> FR 5DDC54"
+ },
+ {
+  "msgid": "GRETEL",
+  "msgstr": "SAFIA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2400,
+  "preuve": "gBattleFrontierTrainers[299] US 5D978C -> FR 5DDC88"
+ },
+ {
+  "msgid": "JOLIE",
+  "msgstr": "PRUNE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 514,
+  "preuve": "gBattleTentSlateport[0] US 5DDA18 -> FR 5E1F14"
+ },
+ {
+  "msgid": "MALACHI",
+  "msgstr": "EVRARD",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 522,
+  "preuve": "gBattleTentSlateport[1] US 5DDA4C -> FR 5E1F48"
+ },
+ {
+  "msgid": "DAVON",
+  "msgstr": "LORIS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 538,
+  "preuve": "gBattleTentSlateport[3] US 5DDAB4 -> FR 5E1FB0"
+ },
+ {
+  "msgid": "GLENDA",
+  "msgstr": "GLAWDYS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 546,
+  "preuve": "gBattleTentSlateport[4] US 5DDAE8 -> FR 5E1FE4"
+ },
+ {
+  "msgid": "HELENA",
+  "msgstr": "ELEANOR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 554,
+  "preuve": "gBattleTentSlateport[5] US 5DDB1C -> FR 5E2018"
+ },
+ {
+  "msgid": "RODOLFO",
+  "msgstr": "EUSEBE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 562,
+  "preuve": "gBattleTentSlateport[6] US 5DDB50 -> FR 5E204C"
+ },
+ {
+  "msgid": "DAVION",
+  "msgstr": "LOUISON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 570,
+  "preuve": "gBattleTentSlateport[7] US 5DDB84 -> FR 5E2080"
+ },
+ {
+  "msgid": "KENDALL",
+  "msgstr": "CRAIG",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 578,
+  "preuve": "gBattleTentSlateport[8] US 5DDBB8 -> FR 5E20B4"
+ },
+ {
+  "msgid": "COLTEN",
+  "msgstr": "DESIRE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 586,
+  "preuve": "gBattleTentSlateport[9] US 5DDBEC -> FR 5E20E8"
+ },
+ {
+  "msgid": "IRVIN",
+  "msgstr": "VALERY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 594,
+  "ancien": "Fantin",
+  "preuve": "gBattleTentSlateport[10] US 5DDC20 -> FR 5E211C"
+ },
+ {
+  "msgid": "SHAUN",
+  "msgstr": "ERNEST",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 602,
+  "preuve": "gBattleTentSlateport[11] US 5DDC54 -> FR 5E2150"
+ },
+ {
+  "msgid": "KYLER",
+  "msgstr": "VIRGILE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 610,
+  "ancien": "Zachary",
+  "preuve": "gBattleTentSlateport[12] US 5DDC88 -> FR 5E2184"
+ },
+ {
+  "msgid": "MAGGIE",
+  "msgstr": "MARGOT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 618,
+  "preuve": "gBattleTentSlateport[13] US 5DDCBC -> FR 5E21B8"
+ },
+ {
+  "msgid": "STEPHON",
+  "msgstr": "DAVY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 626,
+  "preuve": "gBattleTentSlateport[14] US 5DDCF0 -> FR 5E21EC"
+ },
+ {
+  "msgid": "REGGIE",
+  "msgstr": "MAXIMIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 642,
+  "ancien": "Rafaël",
+  "preuve": "gBattleTentSlateport[16] US 5DDD58 -> FR 5E2254"
+ },
+ {
+  "msgid": "JANAE",
+  "msgstr": "JANY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 650,
+  "preuve": "gBattleTentSlateport[17] US 5DDD8C -> FR 5E2288",
+  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "CAIDEN",
+  "msgstr": "KURT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 658,
+  "preuve": "gBattleTentSlateport[18] US 5DDDC0 -> FR 5E22BC"
+ },
+ {
+  "msgid": "KIRSTEN",
+  "msgstr": "KIRSTEN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 666,
+  "preuve": "gBattleTentSlateport[19] US 5DDDF4 -> FR 5E22F0"
+ },
+ {
+  "msgid": "KURTIS",
+  "msgstr": "NOAM",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 674,
+  "preuve": "gBattleTentSlateport[20] US 5DDE28 -> FR 5E2324"
+ },
+ {
+  "msgid": "STEFAN",
+  "msgstr": "STEFAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 682,
+  "preuve": "gBattleTentSlateport[21] US 5DDE5C -> FR 5E2358"
+ },
+ {
+  "msgid": "DWANE",
+  "msgstr": "RONALD",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 698,
+  "preuve": "gBattleTentSlateport[23] US 5DDEC4 -> FR 5E23C0"
+ },
+ {
+  "msgid": "MCKENNA",
+  "msgstr": "JOANNA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 706,
+  "ancien": "Maréva",
+  "preuve": "gBattleTentSlateport[24] US 5DDEF8 -> FR 5E23F4"
+ },
+ {
+  "msgid": "CAMRYN",
+  "msgstr": "CORALIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 714,
+  "preuve": "gBattleTentSlateport[25] US 5DDF2C -> FR 5E2428",
+  "note": "même nom aussi utilisé dans les données FRLG (src/trainer_tower_sets.c) : nom Émeraude FR proposé faute de FRLG FR"
+ },
+ {
+  "msgid": "NATASHA",
+  "msgstr": "NATASHA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 722,
+  "preuve": "gBattleTentSlateport[26] US 5DDF60 -> FR 5E245C"
+ },
+ {
+  "msgid": "AUSTYN",
+  "msgstr": "WALTER",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 730,
+  "preuve": "gBattleTentSlateport[27] US 5DDF94 -> FR 5E2490"
+ },
+ {
+  "msgid": "DONOVAN",
+  "msgstr": "ROMEO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 738,
+  "preuve": "gBattleTentSlateport[28] US 5DDFC8 -> FR 5E24C4"
+ },
+ {
+  "msgid": "BRENNA",
+  "msgstr": "ALISSA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1637,
+  "preuve": "gBattleTentVerdanturf[0] US 5DE614 -> FR 5E2B10"
+ },
+ {
+  "msgid": "DILAN",
+  "msgstr": "JOSSE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1645,
+  "preuve": "gBattleTentVerdanturf[1] US 5DE648 -> FR 5E2B44"
+ },
+ {
+  "msgid": "ELIANA",
+  "msgstr": "ELENA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1653,
+  "preuve": "gBattleTentVerdanturf[2] US 5DE67C -> FR 5E2B78"
+ },
+ {
+  "msgid": "CAITLYN",
+  "msgstr": "FLEUR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1669,
+  "preuve": "gBattleTentVerdanturf[4] US 5DE6E4 -> FR 5E2BE0"
+ },
+ {
+  "msgid": "DESIREE",
+  "msgstr": "DESIREE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1677,
+  "preuve": "gBattleTentVerdanturf[5] US 5DE718 -> FR 5E2C14"
+ },
+ {
+  "msgid": "ASHTEN",
+  "msgstr": "ANTON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1693,
+  "preuve": "US 5DE780 -> FR 5E2C7C (table de base US 5DE610 / FR 5E2B0C, index +368, 3 voisins) ; gBattleTentVerdanturf[7] US 5DE780 -> FR 5E2C7C"
+ },
+ {
+  "msgid": "GERARD",
+  "msgstr": "MALO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1701,
+  "preuve": "gBattleTentVerdanturf[8] US 5DE7B4 -> FR 5E2CB0"
+ },
+ {
+  "msgid": "BRADLY",
+  "msgstr": "MAEL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1709,
+  "preuve": "gBattleTentVerdanturf[9] US 5DE7E8 -> FR 5E2CE4"
+ },
+ {
+  "msgid": "PRESTIN",
+  "msgstr": "LUDWIG",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1725,
+  "preuve": "gBattleTentVerdanturf[11] US 5DE850 -> FR 5E2D4C"
+ },
+ {
+  "msgid": "ERNESTO",
+  "msgstr": "ERNESTO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1733,
+  "preuve": "gBattleTentVerdanturf[12] US 5DE884 -> FR 5E2D80"
+ },
+ {
+  "msgid": "NALA",
+  "msgstr": "YVETTE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1741,
+  "preuve": "gBattleTentVerdanturf[13] US 5DE8B8 -> FR 5E2DB4"
+ },
+ {
+  "msgid": "DARNELL",
+  "msgstr": "GIACOMO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1749,
+  "preuve": "gBattleTentVerdanturf[14] US 5DE8EC -> FR 5E2DE8"
+ },
+ {
+  "msgid": "ASHLYN",
+  "msgstr": "OLYMPE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1757,
+  "preuve": "gBattleTentVerdanturf[15] US 5DE920 -> FR 5E2E1C"
+ },
+ {
+  "msgid": "ADDISON",
+  "msgstr": "LOICK",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1765,
+  "preuve": "gBattleTentVerdanturf[16] US 5DE954 -> FR 5E2E50"
+ },
+ {
+  "msgid": "JUSTINE",
+  "msgstr": "JUSTINE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1773,
+  "preuve": "gBattleTentVerdanturf[17] US 5DE988 -> FR 5E2E84"
+ },
+ {
+  "msgid": "TYSON",
+  "msgstr": "MIKE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1781,
+  "preuve": "gBattleTentVerdanturf[18] US 5DE9BC -> FR 5E2EB8"
+ },
+ {
+  "msgid": "LAILA",
+  "msgstr": "LEILA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1789,
+  "preuve": "gBattleTentVerdanturf[19] US 5DE9F0 -> FR 5E2EEC"
+ },
+ {
+  "msgid": "WAREN",
+  "msgstr": "KILLIAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1797,
+  "preuve": "gBattleTentVerdanturf[20] US 5DEA24 -> FR 5E2F20"
+ },
+ {
+  "msgid": "TOBIAS",
+  "msgstr": "TOBIAS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1805,
+  "ancien": "Trevis",
+  "preuve": "gBattleTentVerdanturf[21] US 5DEA58 -> FR 5E2F54"
+ },
+ {
+  "msgid": "JOSIAH",
+  "msgstr": "CONRAD",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1813,
+  "preuve": "gBattleTentVerdanturf[22] US 5DEA8C -> FR 5E2F88"
+ },
+ {
+  "msgid": "DION",
+  "msgstr": "CESAR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1821,
+  "ancien": "Gabriel",
+  "preuve": "gBattleTentVerdanturf[23] US 5DEAC0 -> FR 5E2FBC"
+ },
+ {
+  "msgid": "KENZIE",
+  "msgstr": "ALEXA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1829,
+  "preuve": "US 5DEAF4 -> FR 5E2FF0 (table de base US 5DE610 / FR 5E2B0C, index +1252, 2 voisins) ; gBattleTentVerdanturf[24] US 5DEAF4 -> FR 5E2FF0"
+ },
+ {
+  "msgid": "LILLIAN",
+  "msgstr": "JOSIANE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1837,
+  "preuve": "US 5DEB28 -> FR 5E3024 (table de base US 5DE610 / FR 5E2B0C, index +1304, 2 voisins) ; gBattleTentVerdanturf[25] US 5DEB28 -> FR 5E3024"
+ },
+ {
+  "msgid": "LESLEY",
+  "msgstr": "ZAZIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1845,
+  "preuve": "US 5DEB5C -> FR 5E3058 (table de base US 5DE610 / FR 5E2B0C, index +1356, 2 voisins) ; gBattleTentVerdanturf[26] US 5DEB5C -> FR 5E3058"
+ },
+ {
+  "msgid": "MARQUIS",
+  "msgstr": "OMER",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1853,
+  "preuve": "gBattleTentVerdanturf[27] US 5DEB90 -> FR 5E308C"
+ },
+ {
+  "msgid": "FREDDY",
+  "msgstr": "ANTONIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1861,
+  "ancien": "Filip",
+  "preuve": "gBattleTentVerdanturf[28] US 5DEBC4 -> FR 5E30C0"
+ },
+ {
+  "msgid": "CECILIA",
+  "msgstr": "CECILIA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 1869,
+  "preuve": "gBattleTentVerdanturf[29] US 5DEBF8 -> FR 5E30F4"
+ },
+ {
+  "msgid": "AMBER",
+  "msgstr": "AMBRE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2563,
+  "ancien": "L AMBRE",
+  "preuve": "gBattleTentFallarbor[0] US 5DF088 -> FR 5E3584"
+ },
+ {
+  "msgid": "JAVIER",
+  "msgstr": "VIKTOR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2571,
+  "preuve": "gBattleTentFallarbor[1] US 5DF0BC -> FR 5E35B8"
+ },
+ {
+  "msgid": "NATALIE",
+  "msgstr": "NATALIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2579,
+  "preuve": "gBattleTentFallarbor[2] US 5DF0F0 -> FR 5E35EC"
+ },
+ {
+  "msgid": "TREVE",
+  "msgstr": "GUSTAVE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2587,
+  "preuve": "US 5DF124 -> FR 5E3620 (table de base US 5DF084 / FR 5E3580, index +160, 2 voisins) ; gBattleTentFallarbor[3] US 5DF124 -> FR 5E3620"
+ },
+ {
+  "msgid": "ARIANNA",
+  "msgstr": "ARIANNA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2595,
+  "preuve": "US 5DF158 -> FR 5E3654 (table de base US 5DF084 / FR 5E3580, index +212, 2 voisins) ; gBattleTentFallarbor[4] US 5DF158 -> FR 5E3654"
+ },
+ {
+  "msgid": "JADYN",
+  "msgstr": "EVE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2603,
+  "preuve": "US 5DF18C -> FR 5E3688 (table de base US 5DF084 / FR 5E3580, index +264, 2 voisins) ; gBattleTentFallarbor[5] US 5DF18C -> FR 5E3688"
+ },
+ {
+  "msgid": "GERARDO",
+  "msgstr": "MATHIS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2611,
+  "preuve": "US 5DF1C0 -> FR 5E36BC (table de base US 5DF084 / FR 5E3580, index +316, 2 voisins) ; gBattleTentFallarbor[6] US 5DF1C0 -> FR 5E36BC"
+ },
+ {
+  "msgid": "ESTEBAN",
+  "msgstr": "CLAUDIO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2627,
+  "preuve": "US 5DF228 -> FR 5E3724 (table de base US 5DF084 / FR 5E3580, index +420, 2 voisins) ; gBattleTentFallarbor[8] US 5DF228 -> FR 5E3724"
+ },
+ {
+  "msgid": "JAMESON",
+  "msgstr": "YOANN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2635,
+  "preuve": "gBattleTentFallarbor[9] US 5DF25C -> FR 5E3758"
+ },
+ {
+  "msgid": "ALANZO",
+  "msgstr": "SVEN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2643,
+  "preuve": "gBattleTentFallarbor[10] US 5DF290 -> FR 5E378C"
+ },
+ {
+  "msgid": "HOWARD",
+  "msgstr": "ALFONS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2651,
+  "ancien": "Lulu",
+  "preuve": "gBattleTentFallarbor[11] US 5DF2C4 -> FR 5E37C0"
+ },
+ {
+  "msgid": "CONRAD",
+  "msgstr": "DONOVAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2659,
+  "preuve": "gBattleTentFallarbor[12] US 5DF2F8 -> FR 5E37F4"
+ },
+ {
+  "msgid": "MAKENNA",
+  "msgstr": "LOANA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2667,
+  "preuve": "US 5DF32C -> FR 5E3828 (table de base US 5DF084 / FR 5E3580, index +680, 2 voisins) ; gBattleTentFallarbor[13] US 5DF32C -> FR 5E3828"
+ },
+ {
+  "msgid": "BRAYAN",
+  "msgstr": "CYPRIEN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2675,
+  "preuve": "US 5DF360 -> FR 5E385C (table de base US 5DF084 / FR 5E3580, index +732, 2 voisins) ; gBattleTentFallarbor[14] US 5DF360 -> FR 5E385C"
+ },
+ {
+  "msgid": "MARIANA",
+  "msgstr": "MARIANA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2683,
+  "preuve": "US 5DF394 -> FR 5E3890 (table de base US 5DF084 / FR 5E3580, index +784, 2 voisins) ; gBattleTentFallarbor[15] US 5DF394 -> FR 5E3890"
+ },
+ {
+  "msgid": "SHELDON",
+  "msgstr": "ALAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2691,
+  "preuve": "gBattleTentFallarbor[16] US 5DF3C8 -> FR 5E38C4"
+ },
+ {
+  "msgid": "GIANNA",
+  "msgstr": "GIANNA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2699,
+  "preuve": "gBattleTentFallarbor[17] US 5DF3FC -> FR 5E38F8"
+ },
+ {
+  "msgid": "YAHIR",
+  "msgstr": "AIMERIC",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2707,
+  "preuve": "gBattleTentFallarbor[18] US 5DF430 -> FR 5E392C"
+ },
+ {
+  "msgid": "BRITNEY",
+  "msgstr": "BRITNEY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2715,
+  "ancien": "Becky",
+  "preuve": "gBattleTentFallarbor[19] US 5DF464 -> FR 5E3960"
+ },
+ {
+  "msgid": "HECTER",
+  "msgstr": "DENYS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2723,
+  "preuve": "US 5DF498 -> FR 5E3994 (table de base US 5DF084 / FR 5E3580, index +1044, 2 voisins) ; gBattleTentFallarbor[20] US 5DF498 -> FR 5E3994"
+ },
+ {
+  "msgid": "TANNOR",
+  "msgstr": "GAETAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2731,
+  "preuve": "US 5DF4CC -> FR 5E39C8 (table de base US 5DF084 / FR 5E3580, index +1096, 2 voisins) ; gBattleTentFallarbor[21] US 5DF4CC -> FR 5E39C8"
+ },
+ {
+  "msgid": "BENJI",
+  "msgstr": "FRITZ",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2739,
+  "ancien": "Mathias",
+  "preuve": "US 5DF500 -> FR 5E39FC (table de base US 5DF084 / FR 5E3580, index +1148, 2 voisins) ; gBattleTentFallarbor[22] US 5DF500 -> FR 5E39FC"
+ },
+ {
+  "msgid": "RORY",
+  "msgstr": "FALCO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2747,
+  "ancien": "Paolo",
+  "preuve": "US 5DF534 -> FR 5E3A30 (table de base US 5DF084 / FR 5E3580, index +1200, 2 voisins) ; gBattleTentFallarbor[23] US 5DF534 -> FR 5E3A30"
+ },
+ {
+  "msgid": "ELEANOR",
+  "msgstr": "ELEONOR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2755,
+  "preuve": "US 5DF568 -> FR 5E3A64 (table de base US 5DF084 / FR 5E3580, index +1252, 2 voisins) ; gBattleTentFallarbor[24] US 5DF568 -> FR 5E3A64"
+ },
+ {
+  "msgid": "EVELYN",
+  "msgstr": "EVELYN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2763,
+  "preuve": "US 5DF59C -> FR 5E3A98 (table de base US 5DF084 / FR 5E3580, index +1304, 2 voisins) ; gBattleTentFallarbor[25] US 5DF59C -> FR 5E3A98"
+ },
+ {
+  "msgid": "ARIELLE",
+  "msgstr": "ARIELLE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2771,
+  "preuve": "US 5DF5D0 -> FR 5E3ACC (table de base US 5DF084 / FR 5E3580, index +1356, 2 voisins) ; gBattleTentFallarbor[26] US 5DF5D0 -> FR 5E3ACC"
+ },
+ {
+  "msgid": "CONNAR",
+  "msgstr": "CHUCK",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2779,
+  "preuve": "US 5DF604 -> FR 5E3B00 (table de base US 5DF084 / FR 5E3580, index +1408, 2 voisins) ; gBattleTentFallarbor[27] US 5DF604 -> FR 5E3B00"
+ },
+ {
+  "msgid": "MAURICE",
+  "msgstr": "BERNIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2787,
+  "preuve": "US 5DF638 -> FR 5E3B34 (table de base US 5DF084 / FR 5E3580, index +1460, 2 voisins) ; gBattleTentFallarbor[28] US 5DF638 -> FR 5E3B34"
+ },
+ {
+  "msgid": "KIANNA",
+  "msgstr": "AMEDEE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_tent.h",
+  "ligne": 2795,
+  "preuve": "gBattleTentFallarbor[29] US 5DF66C -> FR 5E3B68"
+ },
+ {
+  "msgid": "ALFONSO",
+  "msgstr": "BARTH",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 5025,
+  "preuve": "US 626968 -> FR 62A87C (table de base US 626814 / FR 62A728, index +340, 5 voisins)"
+ },
+ {
+  "msgid": "COLLEEN",
+  "msgstr": "LUCETTE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 6702,
+  "preuve": "US 627FC0 -> FR 62BED4 (table de base US 6276FC / FR 62B610, index +2244, 6 voisins)"
+ },
+ {
+  "msgid": "ANIYA",
+  "msgstr": "ANIYA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 7809,
+  "preuve": "US 628EA8 -> FR 62CDBC (table de base US 6285E4 / FR 62C4F8, index +2244, 5 voisins)"
+ },
+ {
+  "msgid": "BATRO",
+  "msgstr": "FEFE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 573,
+  "preuve": "gContestOpponents.nickname[12] US 5883A6 -> FR 58C772"
+ },
+ {
+  "msgid": "BALEDY",
+  "msgstr": "KOXX",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 834,
+  "preuve": "gContestOpponents.nickname[21] US 5885E6 -> FR 58C9B2"
+ },
+ {
+  "msgid": "BIRDLY",
+  "msgstr": "DIZY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 863,
+  "preuve": "gContestOpponents.nickname[22] US 588626 -> FR 58C9F2"
+ },
+ {
+  "msgid": "CORPY",
+  "msgstr": "ARRY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 1298,
+  "preuve": "gContestOpponents.nickname[37] US 5889E6 -> FR 58CDB2"
+ },
+ {
+  "msgid": "SNUBBINS",
+  "msgstr": "SNUBBINS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 1559,
+  "preuve": "gContestOpponents.nickname[46] US 588C26 -> FR 58CFF2"
+ },
+ {
+  "msgid": "DREAVIS",
+  "msgstr": "FEUVI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 1588,
+  "preuve": "gContestOpponents.nickname[47] US 588C66 -> FR 58D032"
+ },
+ {
+  "msgid": "PINOC",
+  "msgstr": "POMDAPY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 2197,
+  "preuve": "gContestOpponents.nickname[68] US 5891A6 -> FR 58D572"
+ },
+ {
+  "msgid": "DILTOT",
+  "msgstr": "MIMISSE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 2226,
+  "preuve": "gContestOpponents.nickname[69] US 5891E6 -> FR 58D5B2"
+ },
+ {
+  "msgid": "DOOMOND",
+  "msgstr": "MOLOM",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 2255,
+  "preuve": "gContestOpponents.nickname[70] US 589226 -> FR 58D5F2"
+ },
+ {
+  "msgid": "BLOSSOM",
+  "msgstr": "LIFLI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 2487,
+  "preuve": "gContestOpponents.nickname[78] US 589426 -> FR 58D7F2"
+ },
+ {
+  "msgid": "UTAN",
+  "msgstr": "UTAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 2545,
+  "preuve": "gContestOpponents.nickname[80] US 5894A6 -> FR 58D872"
+ },
+ {
+  "msgid": "HEROSS",
+  "msgstr": "HEROSS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 2632,
+  "preuve": "gContestOpponents.nickname[83] US 589566 -> FR 58D932"
+ },
+ {
+  "msgid": "CHUPY",
+  "msgstr": "CHUPY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 2690,
+  "preuve": "gContestOpponents.nickname[85] US 5895E6 -> FR 58D9B2"
+ },
+ {
+  "msgid": "WOBET",
+  "msgstr": "TOCTOC",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 2719,
+  "preuve": "gContestOpponents.nickname[86] US 589626 -> FR 58D9F2"
+ },
+ {
+  "msgid": "GEPITO",
+  "msgstr": "PIGETO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 2893,
+  "preuve": "gContestOpponents.nickname[92] US 5897A6 -> FR 58DB72"
+ },
+ {
+  "msgid": "SPEON",
+  "msgstr": "TALIX",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 2922,
+  "ancien": "SPEON",
+  "preuve": "gContestOpponents.nickname[93] US 5897E6 -> FR 58DBB2"
+ },
+ {
+  "msgid": "SLOWGO",
+  "msgstr": "CARPY",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 2951,
+  "preuve": "gContestOpponents.nickname[94] US 589826 -> FR 58DBF2"
+ },
+ {
+  "msgid": "URSING",
+  "msgstr": "URSING",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 2980,
+  "preuve": "gContestOpponents.nickname[95] US 589866 -> FR 58DC32"
+ }
+]

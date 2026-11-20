@@ -1,0 +1,189 @@
+[
+ {
+  "msgid": "Hello!",
+  "msgstr": "Hello!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/cable_club.inc",
+  "ligne": 182,
+  "ancien": "Bonjour!",
+  "preuve": "US 27878B -> FR 27DE99 (séquence : 1 chaîne(s) après US 27874F, 2 avant US 27879F)"
+ },
+ {
+  "msgid": "{B_OPPONENT_MON1_NAME} appeared!\\p",
+  "msgstr": "{B_OPPONENT_MON1_NAME} appeared!\\p",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/battle_message.c",
+  "ligne": 90,
+  "preuve": "US 5CBB39 -> FR 5CFF00 (séquence : 1 chaîne(s) après US 5CBB02, 1 avant US 5CBB47)"
+ },
+ {
+  "msgid": " RPM",
+  "msgstr": " RPM",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/berry_blender.c",
+  "ligne": 281,
+  "ancien": " TPM",
+  "preuve": "US 33993C -> FR 341499 (séquence : 8 chaîne(s) après US 3398DD, 1 avant US 339941)"
+ },
+ {
+  "msgid": "BERRY BLENDER\\nMAXIMUM SPEED RECORD!",
+  "msgstr": "MIXEUR\\nRECORDS DE VITESSE!",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/berry_blender.c",
+  "ligne": 290,
+  "ancien": "MIXEUR À BAIES RECORD DE VITESSE!",
+  "preuve": "US 5EE44F -> FR 5F26DF (séquence : 12 chaîne(s) après US 5EE39C, 2 avant US 5EE491)"
+ },
+ {
+  "msgid": "MOVES",
+  "msgstr": "MOVES",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/challenge_menu.c",
+  "ligne": 837,
+  "ancien": "CAPACITES",
+  "preuve": "US 5E96BE -> FR 5ED80D (séquence : 1 chaîne(s) après US 5E96B6, 1 avant US 5E96C4)"
+ },
+ {
+  "msgid": "a PSYCHIC move",
+  "msgstr": "une capacité Psy",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/types_info.h",
+  "ligne": 361,
+  "ancien": "attaque Psy",
+  "preuve": "US 5CCCAA -> FR 5D1190 (séquence : 14 chaîne(s) après US 5CCBBC, 5 avant US 5CCCFD)"
+ },
+ {
+  "msgid": "4 players\\nneeded.",
+  "msgstr": "4 players\\nneeded.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/union_room.h",
+  "ligne": 44,
+  "preuve": "US 2EDB15 -> FR 2F6AC4 (séquence : 1 chaîne(s) après US 2EDB03, 1 avant US 2EDB27)"
+ },
+ {
+  "msgid": "SUNNY",
+  "msgstr": "SOLEIL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/field_weather.c",
+  "ligne": 1200,
+  "preuve": "US 5EFC49 -> FR 5F3FB4 (séquence : 2 chaîne(s) après US 5EFC27, 14 avant US 5EFCB5)"
+ },
+ {
+  "msgid": "RAIN",
+  "msgstr": "PLUIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/field_weather.c",
+  "ligne": 1201,
+  "ancien": "Rain",
+  "preuve": "US 5EFC56 -> FR 5F3FC3 (séquence : 4 chaîne(s) après US 5EFC27, 12 avant US 5EFCB5)"
+ },
+ {
+  "msgid": "FOG",
+  "msgstr": "Brouillard",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/field_weather.c",
+  "ligne": 1216,
+  "preuve": "US 5EFC6A -> FR 5F3FD6 (séquence : 7 chaîne(s) après US 5EFC27, 9 avant US 5EFCB5)"
+ },
+ {
+  "msgid": "IDNo. /",
+  "msgstr": "IDNo. /",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 131,
+  "ancien": "Nº ID /",
+  "preuve": "US 5E8C40 -> FR 5ECD62 (séquence : 1 chaîne(s) après US 5E8C3B, 1 avant US 5E8C48)"
+ },
+ {
+  "msgid": "Game time",
+  "msgstr": "Temps de jeu",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1023,
+  "ancien": "Temps jeu",
+  "preuve": "US 5EE6A3 -> FR 5F2945 (séquence : 3 chaîne(s) après US 5EE690, 3 avant US 5EE6C3)"
+ },
+ {
+  "msgid": "RTC time",
+  "msgstr": "Temps réel",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1024,
+  "ancien": "Heure RTC",
+  "preuve": "US 5EE6AD -> FR 5F2952 (séquence : 4 chaîne(s) après US 5EE690, 2 avant US 5EE6C3)"
+ },
+ {
+  "msgid": "Updated time",
+  "msgstr": "Mise à jour",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1025,
+  "ancien": "Nouvelle heure",
+  "preuve": "US 5EE6B6 -> FR 5F295D (séquence : 5 chaîne(s) après US 5EE690, 1 avant US 5EE6C3)"
+ },
+ {
+  "msgid": "NO WEATHER",
+  "msgstr": "RIEN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1240,
+  "preuve": "US 5EFC3E -> FR 5F3FAF (séquence : 1 chaîne(s) après US 5EFC27, 15 avant US 5EFCB5)"
+ },
+ {
+  "msgid": "SUNNY2",
+  "msgstr": "SOLEIL2",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1242,
+  "preuve": "US 5EFC4F -> FR 5F3FBB (séquence : 3 chaîne(s) après US 5EFC27, 13 avant US 5EFCB5)"
+ },
+ {
+  "msgid": "VOLCANO ASH",
+  "msgstr": "CENDRES",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1247,
+  "preuve": "US 5EFC6E -> FR 5F3FE1 (séquence : 8 chaîne(s) après US 5EFC27, 8 avant US 5EFCB5)"
+ },
+ {
+  "msgid": "FOG2",
+  "msgstr": "BROUILLARD2",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1249,
+  "preuve": "US 5EFC84 -> FR 5F3FF7 (séquence : 10 chaîne(s) après US 5EFC27, 6 avant US 5EFCB5)"
+ },
+ {
+  "msgid": "CLOUDY",
+  "msgstr": "NUAGEUX",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1251,
+  "preuve": "US 5EFC92 -> FR 5F4007 (séquence : 12 chaîne(s) après US 5EFC27, 4 avant US 5EFCB5)"
+ },
+ {
+  "msgid": "SUNNY3",
+  "msgstr": "SOLEIL3",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1252,
+  "preuve": "US 5EFC99 -> FR 5F400F (séquence : 13 chaîne(s) après US 5EFC27, 3 avant US 5EFCB5)"
+ },
+ {
+  "msgid": "HEAVY RAIN",
+  "msgstr": "FORTE PLUIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1253,
+  "ancien": "Heavy Rain",
+  "preuve": "US 5EFCA0 -> FR 5F4017 (séquence : 14 chaîne(s) après US 5EFC27, 2 avant US 5EFCB5)"
+ },
+ {
+  "msgid": "SEAFLOOR2",
+  "msgstr": "MER2",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1254,
+  "preuve": "US 5EFCAB -> FR 5F4023 (séquence : 15 chaîne(s) après US 5EFC27, 1 avant US 5EFCB5)"
+ }
+]
