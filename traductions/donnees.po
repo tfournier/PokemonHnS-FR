@@ -27525,30 +27525,39 @@ msgstr "attaque Combat"
 msgid "a FLYING move"
 msgstr "attaque Vol"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté : nom complet en capitales, 8
+#. caractères max)
+#. lot : decisions
+#. ancien : Poison
 #: src/data/easy_chat/easy_chat_group_status.h:364 src/data/types_info.h:129
 msgid "POISON"
-msgstr "Poison"
+msgstr "POISON"
 
 #. source : patch FR actuel
 #: src/data/types_info.h:130
 msgid "a POISON move"
 msgstr "attaque Poison"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté : nom complet en capitales, 8
+#. caractères max)
+#. lot : decisions
+#. ancien : Sol
 #: src/data/easy_chat/easy_chat_group_status.h:232 src/data/types_info.h:151
 msgid "GROUND"
-msgstr "Sol"
+msgstr "SOL"
 
 #. source : patch FR actuel
 #: src/data/types_info.h:152
 msgid "a GROUND move"
 msgstr "attaque Sol"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté : nom complet en capitales, 8
+#. caractères max)
+#. lot : decisions
+#. ancien : Roche
 #: src/data/easy_chat/easy_chat_group_status.h:64 src/data/types_info.h:173
 msgid "ROCK"
-msgstr "Roche"
+msgstr "ROCHE"
 
 #. source : patch FR actuel
 #: src/data/types_info.h:174
@@ -27606,10 +27615,13 @@ msgstr "attaque Eau"
 msgid "a GRASS move"
 msgstr "attaque Plante"
 
-#. source : SoulSilver FR officiel
+#. source : Émeraude FR officiel (adapté : nom complet en capitales, 8
+#. caractères max)
+#. lot : decisions
+#. ancien : ELECTRIK
 #: src/data/easy_chat/easy_chat_group_status.h:346 src/data/types_info.h:338
 msgid "ELECTRIC"
-msgstr "ELECTRIK"
+msgstr "ÉLECTRIK"
 
 #. source : patch FR actuel
 #: src/data/types_info.h:339
@@ -27621,10 +27633,13 @@ msgstr "attaque Électrik"
 msgid "a PSYCHIC move"
 msgstr "attaque Psy"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté : nom complet en capitales, 8
+#. caractères max)
+#. lot : decisions
+#. ancien : Glace
 #: src/data/easy_chat/easy_chat_group_status.h:196 src/data/types_info.h:382
 msgid "ICE"
-msgstr "Glace"
+msgstr "GLACE"
 
 #. source : patch FR actuel
 #: src/data/types_info.h:383
@@ -27636,11 +27651,13 @@ msgstr "attaque Glace"
 msgid "a DRAGON move"
 msgstr "attaque Dragon"
 
-#. source : Émeraude FR officiel
-#. patch FR actuel : Ténèbres
+#. source : Émeraude FR officiel (adapté : nom complet en capitales, 8
+#. caractères max)
+#. lot : decisions
+#. ancien : TENEBR
 #: src/data/easy_chat/easy_chat_group_status.h:4 src/data/types_info.h:426
 msgid "DARK"
-msgstr "TENEBR"
+msgstr "TÉNÈBRES"
 
 #. source : patch FR actuel
 #: src/data/types_info.h:427
