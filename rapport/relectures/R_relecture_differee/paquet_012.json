@@ -1,0 +1,162 @@
+[
+ {
+  "id": 13,
+  "categorie": "terminologie",
+  "probleme": "La ligature Œ diffère de la graphie du lexique.",
+  "correction": "Oeil Miracle",
+  "justification": "Le lexique officiel fourni donne « Oeil Miracle ».",
+  "msgid": "Miracle Eye",
+  "msgstr": "Œil Miracle",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "terminologie",
+  "probleme": "Le libellé « Aucune » diffère de celui du lexique.",
+  "correction": " Aucun",
+  "justification": "Le lexique officiel fourni donne « Aucun » pour « None ». L’espace initial est conservée.",
+  "msgid": " None",
+  "msgstr": " Aucune",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "oubli",
+  "probleme": "La traduction omet le changement de type des capacités.",
+  "correction": "Ses coups passent au type Normal.",
+  "justification": "« Become » indique que le talent change le type des capacités.",
+  "msgid": "Moves become Normal-type.",
+  "msgstr": "Tous ses coups sont Normal.",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "contresens",
+  "probleme": "« Pas de statut » peut suggérer la disparition d’un statut existant.",
+  "correction": "Bloque les altérations de statut au soleil.",
+  "justification": "« Blocks status » décrit une protection contre les altérations de statut.",
+  "msgid": "Blocks status in sunshine.",
+  "msgstr": "Pas de statut au soleil.",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "oubli",
+  "probleme": "« Soigné » laisse indéterminé ce qui est restauré.",
+  "correction": "Récupère des PV par grêle ou neige.",
+  "justification": "L’anglais précise que le talent restaure des PV.",
+  "msgid": "HP recovery in Hail or Snow.",
+  "msgstr": "Soigné par grêle ou neige.",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "terminologie",
+  "probleme": "L’abréviation « ATQ. SPE. » diffère de celle du projet.",
+  "correction": "Monte l’AS si brûlé.",
+  "justification": "La convention du projet abrège l’Attaque Spéciale en « AS ».",
+  "msgid": "Ups Sp. Atk if burned.",
+  "msgstr": "Monte l’ATQ. SPE. si brûlé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "oubli",
+  "probleme": "« Rapide » omet la hausse de Vitesse.",
+  "correction": "VI accrue en tempête de sable.",
+  "justification": "« Ups Speed » indique une augmentation de la statistique.",
+  "msgid": "Ups Speed in a sandstorm.",
+  "msgstr": "Rapide en tempête de sable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "contresens",
+  "probleme": "La formulation peut désigner un coup porté par le Pokémon.",
+  "correction": "Coup Ténèbres reçu: AT accrue.",
+  "justification": "La hausse d’Attaque se déclenche lorsque le Pokémon subit un coup de type Ténèbres.",
+  "msgid": "Dark hits raise Attack.",
+  "msgstr": "Coup Ténèbres: AT accrue.",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "contresens",
+  "probleme": "La formulation peut désigner un coup porté par le Pokémon.",
+  "correction": "Coup Plante reçu: AT accrue.",
+  "justification": "La hausse d’Attaque se déclenche lorsque le Pokémon est touché par une capacité de type Plante.",
+  "msgid": "Grass increases Attack.",
+  "msgstr": "Coup Plante: AT accrue.",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "contresens",
+  "probleme": "« Dans le sable » évoque le terrain et rend la condition météo ambiguë.",
+  "correction": "Plus fort en tempête de sable.",
+  "justification": "« In a sandstorm » désigne la tempête de sable.",
+  "msgid": "Powers up in a sandstorm.",
+  "msgstr": "Plus fort dans le sable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "contresens",
+  "probleme": "« Coups directs » ne précise pas le critère du contact.",
+  "correction": "Renforce les coups de contact.",
+  "justification": "Le talent renforce les capacités qui font contact.",
+  "msgid": "Boosts contact moves.",
+  "msgstr": "Renforce les coups directs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "oubli",
+  "probleme": "« Si poison » omet que l’ennemi doit être empoisonné.",
+  "correction": "Critique garanti sur ennemi empoisonné.",
+  "justification": "« Poisoned foes » désigne les ennemis empoisonnés.",
+  "msgid": "Criticals poisoned foes.",
+  "msgstr": "Critique garanti si poison.",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "terminologie",
+  "probleme": "L’abréviation « ATQ. SPE. » diffère de celle du projet.",
+  "correction": "Monte l’AS si PV bas.",
+  "justification": "La convention du projet abrège l’Attaque Spéciale en « AS ».",
+  "msgid": "Boosts Sp. Atk at low HP.",
+  "msgstr": "Monte l’ATQ. SPE. si PV bas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "terminologie",
+  "probleme": "L’abréviation « ATQ. SPE. » diffère de celle du projet.",
+  "correction": "Monte l’AS des alliés.",
+  "justification": "La convention du projet abrège l’Attaque Spéciale en « AS ».",
+  "msgid": "Boosts ally's Sp. Atk.",
+  "msgstr": "Monte l’ATQ. SPE. des alliés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "terminologie",
+  "probleme": "L’abréviation « ATQ. SPE. » diffère de celle du projet et « après K.O. » ne précise pas qui le provoque.",
+  "correction": "Monte l’AS par K.O. infligé.",
+  "justification": "La convention du projet prescrit « AS ». La hausse se déclenche quand le Pokémon met un adversaire K.O.",
+  "msgid": "KOs raise Sp. Atk.",
+  "msgstr": "Monte l’ATQ. SPE. après K.O.",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "oubli",
+  "probleme": "« Après K.O. » ne précise pas que le Pokémon doit provoquer le K.O.",
+  "correction": "Stat max accrue par K.O. infligé.",
+  "justification": "La hausse se déclenche quand le Pokémon met un adversaire K.O.",
+  "msgid": "KOs boost best stat.",
+  "msgstr": "Stat max accrue après K.O.",
+  "msgctxt": ""
+ }
+]

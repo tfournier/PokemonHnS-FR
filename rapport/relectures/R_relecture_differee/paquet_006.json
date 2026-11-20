@@ -1,0 +1,182 @@
+[
+ {
+  "id": 3,
+  "categorie": "oubli",
+  "probleme": "La réplique ne nomme plus les formes d’Alola.",
+  "correction": "Tu sembles avoir aussi trouvé\\ntoutes les formes d’Alola\\ldes autres ILES!\\pC’est génial, {PLAYER}!\\pTu peux être très fier de toi!",
+  "justification": "L’anglais précise ce que le joueur a trouvé sur les autres îles.",
+  "msgid": "And it looks like you've found all the\\nAlolan variants on the other ISLES too!\\pThat's amazing, {PLAYER}!\\pYou should be very proud of yourself!",
+  "msgstr": "Et on dirait que tu as aussi trouvé\\ntoutes celles des autres ILES!\\pC’est génial, {PLAYER}!\\pTu peux être très fier de toi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "contresens",
+  "probleme": "La réaction devient une question explicite sur la volonté du joueur.",
+  "correction": "Ah bon?\\pMais mon savoir-faire\\ntechnologique est remarquable,\\lje t’assure.",
+  "justification": "“Oh, is that so?” marque la surprise en réaction à ce que le joueur vient de dire.",
+  "msgid": "Oh, is that so?\\pMy technological expertise\\nis outstanding, I tell you.",
+  "msgstr": "Non, tu ne veux pas?\\pMais mon savoir-faire technologique\\nest remarquable, je t’assure.",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "typographie",
+  "probleme": "La désignation commune du chercheur est entièrement en capitales.",
+  "correction": "Parfait!\\nFaisons-le tout de suite!\\p{PLAYER} donne {STR_VAR_1} au\\nchercheur des ruines.",
+  "justification": "La narration désigne le personnage par sa fonction, qui prend la minuscule.",
+  "msgid": "Excellent!\\nLet's do this right away.\\p{PLAYER} handed the {STR_VAR_1} to\\nthe RUINS RESEARCHER.",
+  "msgstr": "Parfait!\\nFaisons-le tout de suite!\\p{PLAYER} donne {STR_VAR_1} au\\nCHERCHEUR DES RUINES.",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "typographie",
+  "probleme": "Le nom commun “chercheur” est entièrement en capitales.",
+  "correction": "{PLAYER} reçoit {STR_VAR_2}\\ndu chercheur.",
+  "justification": "La narration désigne le personnage par sa fonction, qui prend la minuscule.",
+  "msgid": "{PLAYER} received {STR_VAR_2} from\\nthe RESEARCHER.",
+  "msgstr": "{PLAYER} reçoit {STR_VAR_2} de la part\\ndu CHERCHEUR.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "terminologie",
+  "probleme": "L’indication de trajet ne nomme plus la capacité Surf.",
+  "correction": "Qu’est-ce qu’il y a? Tu ne vas\\npas à la Ligue Pokémon?\\pUne fois Maître, tu pourras\\nréaffronter le Champion d’Arène\\lde ton choix.\\pVa à la Ligue Pokémon.\\pTu sais comment y aller?\\pD’ici, rends-toi à Bourg Geon.\\pPuis utilise Surf vers l’est\\njusqu’à la Ligue Pokémon.\\pLe chemin est très difficile.\\pTu n’as pas intérêt à perdre à la\\nLigue Pokémon!\\pSinon, j’aurai encore plus honte\\nd’avoir perdu contre toi!\\pDonne tout ce que tu as.",
+  "justification": "“SURF” désigne la capacité appelée “Surf” dans le lexique officiel fourni.",
+  "msgid": "What's the matter? Aren't\\nyou going on to the POKéMON\\lLEAGUE?\\pAfter you become CHAMPION, you\\ncan rematch any GYM LEADER you\\lwant.\\pGo to the POKéMON LEAGUE.\\pDo you know how to get there?\\pFrom here, go to NEW BARK TOWN.\\pThen SURF east to POKéMON LEAGUE.\\pThe route there is very tough.\\pDon't you dare lose at the POKéMON\\nLEAGUE!\\pIf you do, I'll feel even worse\\nabout having lost to you!\\pGive it everything you've got.",
+  "msgstr": "Qu’est-ce qu’il y a? Tu ne vas\\npas à la Ligue Pokémon?\\pUne fois Maître, tu pourras\\nréaffronter le Champion d’Arène\\lde ton choix.\\pVa à la Ligue Pokémon.\\pTu sais comment y aller?\\pD’ici, rends-toi à Bourg Geon.\\pPuis surfe vers l’est jusqu’à la\\nLigue Pokémon.\\pLe chemin est très difficile.\\pTu n’as pas intérêt à perdre à la\\nLigue Pokémon!\\pSinon, j’aurai encore plus honte\\nd’avoir perdu contre toi!\\pDonne tout ce que tu as.",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "contresens",
+  "probleme": "Giovanni parle de s’isoler alors qu’il compte agir seul.",
+  "correction": "……………………\\pGiovanni: On ne peut avancer\\nqu’en admettant sa défaite…\\pJe vais agir seul…\\npour l’instant…\\pPour bâtir un jour\\nune organisation plus puissante!",
+  "justification": "“Go solo” signifie qu’il poursuivra ses activités de son côté.",
+  "msgid": "....................\\pGIOVANNI: One must acknowledge one's\\ndefeat before he can move on...\\pI will go solo... for now...\\pSo that one day I will form a\\nstronger organization!",
+  "msgstr": "……………………\\pGiovanni: On ne peut pas progresser si\\nl’on refuse d’admettre ses défaites…\\pJe dois m’isoler… pour l’instant…\\pPour bâtir un jour une organisation\\nplus puissante!",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "oubli",
+  "probleme": "La qualité de l’assortiment est omise.",
+  "correction": "Le Centre Commercial de\\nCéladopole a le plus grand choix\\let les meilleurs articles!\\pSi tu ne trouves pas ton bonheur\\nlà-bas, tu ne le trouveras nulle\\lpart!\\pMince… On dirait un vendeur.",
+  "justification": "“Biggest and best” vante à la fois l’étendue et la qualité de l’assortiment.",
+  "msgid": "CELADON DEPT.STORE has the biggest\\nand best selection of merchandise.\\pIf you can't get it there, you\\ncan't get it anywhere.\\pGee… I sound like a sales clerk.",
+  "msgstr": "Le Centre Commercial de\\nCéladopole a le plus grand choix!\\pSi tu ne trouves pas ton bonheur\\nlà-bas, tu ne le trouveras nulle\\lpart!\\pMince… On dirait un vendeur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "oubli",
+  "probleme": "L’hésitation sur le rôle du père et la formule “See you soon” disparaissent. Le retour immédiat est ajouté.",
+  "correction": "Allô…\\nJe t’entends mal…\\lJe crois que ça dépend de mon\\lpère.\\lJe vois…\\nJe me mets en route. A bientôt.",
+  "justification": "Le personnage exprime une incertitude, annonce son départ et prend congé.",
+  "msgid": "Hello...\\nYou're breaking up...\\lI think it depends on my dad.\\lI see...\\nI'll be on my way. See you soon.",
+  "msgstr": "Allô…\\nAh, euh, excuse-moi…\\lJe ne t’entends pas très bien…\\lTout dépend de la décision de mon\\lpère, à ce stade…\\lBien, compris.\\lJe rentre tout de suite.",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "oubli",
+  "probleme": "La multiplicité des mystères est omise.",
+  "correction": "Quand j’annoncerai mes résultats,\\nnous irons plus loin, c’est sûr,\\pdans l’étude des nombreux\\nmystères des Pokémon.\\pTu peux compter là-dessus!",
+  "justification": "“The many mysteries” insiste sur le nombre de mystères qui restent à élucider.",
+  "msgid": "When I announce my findings,\\nI'm sure we'll delve deeper\\pinto the many mysteries of\\nPOKéMON.\\pYou can count on it!",
+  "msgstr": "Quand j’annoncerai mes résultats,\\nnous irons plus loin, c’est sûr,\\pdans l’étude des mystères\\ndes Pokémon.\\pTu peux compter là-dessus!",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "oubli",
+  "probleme": "La phrase française ne précise plus qu’Orme a appelé le joueur.",
+  "correction": "Orme: {PLAYER}! Te voilà!\\pJe t’ai appelé parce que j’ai\\nquelque chose pour toi.\\pTu vois? C’est un Passe Bateau.\\pTu vas pouvoir capturer des\\nPokémon à Kanto!",
+  "justification": "“I called” renvoie à l’appel d’Orme.",
+  "msgid": "ELM: {PLAYER}! There you are!\\pI called because I have\\nsomething for you.\\pSee? It's an S.S.TICKET.\\pNow you can catch POKéMON in\\nKANTO.",
+  "msgstr": "Orme: {PLAYER}! Te voilà!\\pJe t’ai fait venir: j’ai\\nquelque chose pour toi.\\pTu vois? C’est un Passe Bateau.\\pTu vas pouvoir capturer des\\nPokémon à Kanto!",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "contresens",
+  "probleme": "“Suite” suggère un logement alors que le panneau désigne les bureaux du gérant.",
+  "correction": "Bureau du gérant du Manoir",
+  "justification": "Dans ce contexte, “manager’s suite” désigne le local de gestion du manoir.",
+  "msgid": "CELADON MANSION MANAGER'S SUITE",
+  "msgstr": "Manoir Céladopole: suite du gérant",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "contresens",
+  "probleme": "La certitude du personnage devient une simple affirmation que la volonté du joueur l’aidera.",
+  "correction": "Ah, ta maîtrise m’impressionne\\nencore.\\pAvec ta volonté, je sais que tu\\nsurmonteras tous les obstacles\\lde la vie.",
+  "justification": "“I know you will overcome” exprime la certitude que le joueur surmontera ces obstacles.",
+  "msgid": "Ah, yet again I'm impressed by\\nyour prowess.\\pWith your strong will, I know you\\nwill overcome all life's obstacles.",
+  "msgstr": "Ah, ta maîtrise m’impressionne\\nencore.\\pTa volonté t’aidera à surmonter\\ntous les obstacles de la vie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "oubli",
+  "probleme": "L’explication du nom de la capacité et la récupération de PV sont omises.",
+  "correction": "… Zzz…\\p…\\n… Ah! C’est Repos!\\p“REPrendre des fOrceS”,\\nça donne “Repos”, tu vois?\\pCette capacité te fait dormir\\net te rend des PV.",
+  "justification": "Le jeu de lettres adapte l’explication anglaise et la dernière phrase rétablit l’effet sur les PV.",
+  "msgid": "...Zzz...\\p...Umm... Rest!\\pThe phrase 'recover fast' became\\nshortened to 'Rest,' you see?\\pThis is a move to sleep and recover\\nsome HP.",
+  "msgstr": "… Zzz…\\p…\\n… Ah! C’est Repos!\\pÇa te fait piquer un bon somme, bien\\nréparateur, et ça te soigne!",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "contresens",
+  "probleme": "“Je t’aime!” transforme une marque de sympathie en déclaration d’affection.",
+  "correction": "T’es terrible!\\nJe t’aime bien!\\pJe cherche des Pokémon ici\\ntous les jours.\\pJe trouve toutes sortes de\\nBaies dans les herbes.\\pSi tu veux, je peux t’en donner.",
+  "justification": "“I like you” exprime la sympathie. “All kinds of BERRIES” précise aussi que les Baies sont variées.",
+  "msgid": "You're awesome! I like you!\\pI look for POKéMON here every\\nday.\\pWhen I'm in the grass, I find\\nall kinds of BERRIES.\\pIf you'd like, I'll share\\nsome.",
+  "msgstr": "T’es terrible!\\nJe t’aime!\\pJe cherche des Pokémon ici\\ntous les jours.\\pJe trouve aussi des Baies\\ndans les herbes.\\pSi tu veux, je peux t’en donner.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "contresens",
+  "probleme": "La capture de LUGIA devient une appropriation de sa puissance, et l’absence de commentaire devient une absence d’enseignement.",
+  "correction": "Non seulement tu as fait\\napparaître LUGIA, mais tu l’as\\laussi capturé…\\pNous n’avons plus rien à dire.\\nPrends soin de toi tout au long\\lde ton voyage…",
+  "justification": "La réplique constate l’apparition puis la capture de LUGIA, avant de prendre congé du joueur.",
+  "msgid": "You have not only made LUGIA\\nappear, but you have also caught\\lit...\\pThere is nothing more for us to\\nsay. Take care of yourself in your\\ljourney...",
+  "msgstr": "Non seulement tu as appelé LUGIA\\njusqu’ici, mais de surcroît tu as\\lréussi à faire tienne sa puissance…\\pTu n’as plus rien à apprendre de nous.\\nQue la félicité t’accompagne jusqu’au\\lbout de ton voyage…",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "contresens",
+  "probleme": "Plusieurs rebords deviennent un seul mur.",
+  "correction": "Tu vois ces rebords? Ça fait\\nun peu peur de sauter de là.\\pMais ça permet d’aller à Bourg\\nGeon sans passer dans l’herbe!",
+  "justification": "“Those ledges” désigne les rebords que le joueur peut franchir en sautant.",
+  "msgid": "See those ledges?\\nIt's scary to jump off them.\\pBut you can go to NEW BARK\\nwithout walking through the grass.",
+  "msgstr": "Tu vois ce mur? C’est un peu\\neffrayant de sauter de là.\\pMais ça permet d’aller au Bourg Geon\\nsans marcher dans l’herbe!",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "contresens",
+  "probleme": "Le chercheur propose d’échanger tout le reste du stock.",
+  "correction": "Cette Poudre Baie est de qualité.\\nÇa fera d’excellents médicaments.\\pTu veux échanger encore un peu\\nde Poudre Baie contre autre chose?",
+  "justification": "“More BERRY POWDER” propose un échange supplémentaire sans fixer la quantité au stock restant.",
+  "msgid": "This is fine BERRY POWDER indeed.\\nIt will make excellent medicine.\\pWould you like to trade more BERRY\\nPOWDER for something else?",
+  "msgstr": "Cette Poudre Baie a l’air bonne.\\nÇa fera de bons médicaments.\\pTu veux échanger ce qui te reste de\\nPoudre Baie contre autre chose?",
+  "msgctxt": ""
+ },
+ {
+  "id": 115,
+  "categorie": "contresens",
+  "probleme": "La consigne d’appeler sa mère devient une possibilité générale, avec l’ajout de “à tout moment”.",
+  "correction": "Appelle ta mère avec ton Pokématos\\npour lui donner de tes nouvelles.$\\p",
+  "justification": "L’impératif anglais demande au joueur de passer l’appel.",
+  "msgid": "Call your mom on your POKéGEAR\\nto let her know how you're doing.$\\p",
+  "msgstr": "Avec un Pokématos, tu peux appeler ta\\nmère à tout moment pour lui\\ldonner de tes nouvelles.$\\p",
+  "msgctxt": ""
+ }
+]

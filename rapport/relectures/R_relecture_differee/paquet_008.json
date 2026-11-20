@@ -1,0 +1,262 @@
+[
+ {
+  "id": 0,
+  "categorie": "contresens",
+  "probleme": "« Sacrifie ses PV » peut laisser entendre que le Pokémon perd tous ses PV.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} sacrifie des PV et lance une Malédiction sur {B_DEF_NAME_WITH_PREFIX2}!",
+  "justification": "La capacité prélève une partie des PV du lanceur.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} cut its own HP and put a curse on {B_DEF_NAME_WITH_PREFIX2}!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} sacrifie ses PV et lance une Malédiction au {B_DEF_NAME_WITH_PREFIX2}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "typographie",
+  "probleme": "Le message dépasse la largeur d’une ligne après substitution des variables.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} ne peut pas\\nutiliser sa capacité bloquée\\l{B_CURRENT_MOVE}!\\p",
+  "justification": "Le nom du Pokémon et celui de la capacité disposent chacun de la place nécessaire.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} can't use its sealed {B_CURRENT_MOVE}!\\p",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser la capacité bloquée {B_CURRENT_MOVE}!\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "contresens",
+  "probleme": "« Ne se laisse pas faire » exprime une résistance à la capture.",
+  "correction": "Il a évité la Poké Ball! Ce Pokémon ne peut pas être capturé!",
+  "justification": "L’anglais indique que la capture est impossible.",
+  "msgid": "It dodged your thrown Poké Ball! This Pokémon can't be caught!",
+  "msgstr": "Il a évité la Poké Ball! Ce Pokémon ne se laisse pas faire!",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "typographie",
+  "probleme": "La première ligne peut dépasser la largeur prévue avec un nom long.",
+  "correction": "Les données de {B_DEF_NAME}\\nsont ajoutées au Pokédex!\\p",
+  "justification": "Le déplacement de « sont » raccourcit la ligne qui contient le nom variable.",
+  "msgid": "{B_DEF_NAME}'s data has been added to the Pokédex!\\p",
+  "msgstr": "Les données de {B_DEF_NAME} sont\\najoutées au Pokédex!\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "typographie",
+  "probleme": "La première page place les deux noms variables sur la même ligne.",
+  "correction": "{B_TRAINER1_NAME_WITH_CLASS}\\nva envoyer {B_BUFF2}.\\pVoulez-vous changer de Pokémon?",
+  "justification": "Le nom et la classe du Dresseur disposent d’une ligne entière.",
+  "msgid": "{B_TRAINER1_NAME_WITH_CLASS} is about to send out {B_BUFF2}.\\pWill you switch your Pokémon?",
+  "msgstr": "{B_BUFF2} va être envoyé par {B_TRAINER1_NAME_WITH_CLASS}.\\pVoulez-vous changer de Pokémon?",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "typographie",
+  "probleme": "La première ligne dépasse le gabarit indicatif du dialogue.",
+  "correction": "Impossible d’oublier les\\ncapacités CS maintenant.\\p",
+  "justification": "Le saut déplacé conserve le texte et répartit mieux la longueur.",
+  "msgid": "HM moves can't be forgotten now.\\p",
+  "msgstr": "Impossible d’oublier les capacités CS\\nmaintenant.\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "oubli",
+  "probleme": "« Souffle sur » omet que le vent vient de derrière l’équipe.",
+  "correction": "Un Vent Arrière souffle dans le dos de l’équipe {B_ATK_TEAM2}!",
+  "justification": "La direction du vent est explicite dans l’anglais.",
+  "msgid": "The Tailwind blew from behind {B_ATK_TEAM2} team!",
+  "msgstr": "Un Vent Arrière souffle sur l’équipe {B_ATK_TEAM2}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "oubli",
+  "probleme": "Le texte omet que les Pics Toxik se répandent au sol.",
+  "correction": "Des Pics Toxik se répandent au sol tout autour de l’équipe {B_DEF_TEAM2}!",
+  "justification": "La précision figure dans l’anglais et rétablit le parallèle avec le message des Picots.",
+  "msgid": "Poison spikes were scattered on the ground all around {B_DEF_TEAM2} team!",
+  "msgstr": "Des Pics Toxik se répandent autour de l’équipe {B_DEF_TEAM2}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "oubli",
+  "probleme": "La traduction omet le caractère mystique du clair de lune.",
+  "correction": "{B_SCR_NAME_WITH_PREFIX} baigne dans un clair de lune mystique!",
+  "justification": "« Mystique » restitue la nature de la lumière décrite.",
+  "msgid": "{B_SCR_NAME_WITH_PREFIX} became cloaked in mystical moonlight!",
+  "msgstr": "{B_SCR_NAME_WITH_PREFIX} est baigné par des rayons de lune!",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "typographie",
+  "probleme": "Le message tient sur une seule ligne malgré la largeur du dialogue.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} n’a mangé\\naucune Baie tenue et ne\\lpeut donc pas roter!\\p",
+  "justification": "Les sauts répartissent le texte et « donc » rend explicite le lien de cause à effet.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} hasn't eaten any held Berries, so it can't possibly belch!\\p",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} n’a mangé aucune Baie tenue, il ne peut pas roter!\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "typographie",
+  "probleme": "Le nom du Pokémon et celui de la forme peuvent faire déborder la ligne.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} devient\\nAMPHINOBI de Sacha!\\p",
+  "justification": "Le nom de la forme passe à la deuxième ligne.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} became Ash-Greninja!\\p",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} devient AMPHINOBI de Sacha!\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "contresens",
+  "probleme": "« Se protège mal » attribue les dégâts à une mauvaise protection.",
+  "correction": "{B_DEF_NAME_WITH_PREFIX} ne peut pas se protéger complètement et subit des dégâts!",
+  "justification": "L’anglais indique que la protection ne peut être que partielle.",
+  "msgid": "{B_DEF_NAME_WITH_PREFIX} couldn't fully protect itself and got hurt!",
+  "msgstr": "{B_DEF_NAME_WITH_PREFIX} se protège mal et subit des dégâts!",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "contresens",
+  "probleme": "La phrase présente le statut comme ce qui est soigné.",
+  "correction": "{B_BUFF1} guérit de son altération de statut!",
+  "justification": "Le Pokémon est soigné et l’altération disparaît.",
+  "msgid": "{B_BUFF1} had its status healed!",
+  "msgstr": "Le statut de {B_BUFF1} est soigné!",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "contresens",
+  "probleme": "« Est épuisé » évoque un stock à zéro.",
+  "correction": "L’objet {B_LAST_ITEM} est consommé…",
+  "justification": "Le message indique que l’utilisation a consommé l’objet.",
+  "msgid": "The {B_LAST_ITEM} was used up…",
+  "msgstr": "L’objet {B_LAST_ITEM} est épuisé…",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "typographie",
+  "probleme": "Le « é » minuscule rompt la casse du libellé de menu.",
+  "correction": "ATTAQUE{CLEAR_TO 56}SAC\\nPOKEMON{CLEAR_TO 56}FUITE",
+  "justification": "Le menu emploie des capitales sans accent.",
+  "msgid": "BATTLE{CLEAR_TO 56}BAG\\nPOKéMON{CLEAR_TO 56}RUN",
+  "msgstr": "ATTAQUE{CLEAR_TO 56}SAC\\nPOKéMON{CLEAR_TO 56}FUITE",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "typographie",
+  "probleme": "Chaque page cumule le nom et la classe du Dresseur avec le nom du Pokémon sur une seule ligne.",
+  "correction": "{B_TRAINER1_NAME_WITH_CLASS}\\nenvoie {B_OPPONENT_MON1_NAME}!\\p{B_TRAINER2_NAME_WITH_CLASS}\\nenvoie {B_OPPONENT_MON2_NAME}!",
+  "justification": "Les noms variables sont répartis sur deux lignes dans chaque page.",
+  "msgid": "{B_TRAINER1_NAME_WITH_CLASS} sent out {B_OPPONENT_MON1_NAME}!\\p{B_TRAINER2_NAME_WITH_CLASS} sent out {B_OPPONENT_MON2_NAME}!",
+  "msgstr": "{B_TRAINER1_NAME_WITH_CLASS} envoie {B_OPPONENT_MON1_NAME}!\\p{B_TRAINER2_NAME_WITH_CLASS} envoie {B_OPPONENT_MON2_NAME}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que les deux Baies viennent de loin.",
+  "correction": "deux Baies soufflées de très loin.",
+  "justification": "La correction conserve le transport par le vent et rétablit la provenance lointaine.",
+  "msgid": "two Berries blown in from far away.",
+  "msgstr": "deux Baies apportées par le vent.",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "terminologie",
+  "probleme": "« Les Insectes » désigne des insectes au lieu des Pokémon de type Insecte.",
+  "correction": "fins attirant les Pokémon Insecte.",
+  "justification": "Dans Émeraude et SoulSilver FR, « Insecte » est le nom du type. « Pokémon Insecte » conserve le référent de « Bug Pokémon ».",
+  "msgid": "Bug Pokémon with its stringy petals.",
+  "msgstr": "filiformes qui attirent les Insectes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par du texte.",
+  "correction": "Fermeté (GEN V+) garde les {PKMN}\\nà 1 PV face à un coup fatal.",
+  "justification": "Le code d’origine est rétabli dans les deux lignes prévues.",
+  "msgid": "STURDY works as in GEN V+.\\n{PKMN} survive lethal hits with 1HP.",
+  "msgstr": "Fermeté comme en GEN V+. Les Pokémon\\nsurvivent aux coups fatals avec 1 PV.",
+  "msgctxt": ""
+ },
+ {
+  "id": 111,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par « Pokémon ».",
+  "correction": "Le type Fée n’est pas ajouté aux\\n{PKMN} qui l’ont eu en GEN VI.",
+  "justification": "Le libellé rétablit le code d’origine.",
+  "msgid": "FAIRY TYPE isn't added to {PKMN}\\nthat got it in GEN VI.",
+  "msgstr": "Le TYPE Fée n’est pas ajouté aux\\nPokémon qui l’ont eu en GEN VI.",
+  "msgctxt": ""
+ },
+ {
+  "id": 112,
+  "categorie": "oubli",
+  "probleme": "« Gagnent le type Fée » omet le cas où le type Fée remplace un type existant.",
+  "correction": "Le type Fée s’ajoute ou remplace\\nun type chez des {PKMN} (GEN VI).",
+  "justification": "L’anglais mentionne explicitement l’ajout et le remplacement.",
+  "msgid": "FAIRY TYPE is added / changed to\\ncertain {PKMN}, as in GEN VI.",
+  "msgstr": "Certains {PKMN} gagnent le type\\nFée, comme en GEN VI.",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par « Pokémon ».",
+  "correction": "Vos {PKMN} seront mis K.O.\\ns’ils sont empoisonnés.",
+  "justification": "Le code d’origine reprend sa place dans la phrase.",
+  "msgid": "Your {PKMN} will faint if they are\\nPOISONED.",
+  "msgstr": "Vos Pokémon seront mis K.O.\\ns’ils sont empoisonnés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par « Pokémon ».",
+  "correction": "Vos {PKMN} survivent au poison\\navec 1 PV.",
+  "justification": "La correction rétablit le code et conserve l’effet du réglage.",
+  "msgid": "Your {PKMN} will survive the POISON\\nstatus with 1HP.",
+  "msgstr": "Vos Pokémon survivent au statut\\nPoison avec 1 PV.",
+  "msgctxt": ""
+ },
+ {
+  "id": 115,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par « Pokémon ».",
+  "correction": "Catégorie physique ou spéciale\\nselon le type du {PKMN}.",
+  "justification": "La correction rétablit le code présent dans l’anglais.",
+  "msgid": "PHYSICAL and SPECIAL MOVES\\ndepend on the {PKMN} TYPE.",
+  "msgstr": "Catégorie physique ou spéciale\\nselon le type du Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "typographie",
+  "probleme": "La première ligne dépasse le gabarit indicatif du dialogue.",
+  "correction": "Un K.O. avec une capacité à\\nrecharge dispense de la recharge.",
+  "justification": "Les deux lignes conservent le déclencheur et l’effet du réglage.",
+  "msgid": "If a RECHARGE MOVE KO's the opponent,\\nno recharge turn is needed.",
+  "msgstr": "Si une capacité à recharge met K.O.\\nl’ennemi, pas de tour de recharge.",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par « POKéMON ».",
+  "correction": "CAPA. {PKMN}",
+  "justification": "Le libellé conserve son abréviation et rétablit le code d’origine.",
+  "msgid": "{PKMN} MOVEPOOL",
+  "msgstr": "CAPA. POKéMON",
+  "msgctxt": ""
+ }
+]

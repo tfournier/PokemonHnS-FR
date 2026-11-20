@@ -1,0 +1,372 @@
+[
+ {
+  "id": 0,
+  "categorie": "oubli",
+  "probleme": "« Les voisins » laisse implicite que la capacité touche les Pokémon adjacents.",
+  "correction": "Blesse les Pokémon adjacents\\net rend la moitié des dégâts en PV.",
+  "justification": "La cible comprend les Pokémon adjacents, alliés comme ennemis.",
+  "msgid": "Damages adjacent Pokémon\\nand heals up by half of it.",
+  "msgstr": "Blesse les voisins et rend en\\nPV la moitié des dégâts.",
+  "msgctxt": ""
+ },
+ {
+  "id": 1,
+  "categorie": "terminologie",
+  "probleme": "« Atq. Spé. » ne suit pas l’abréviation prescrite.",
+  "correction": "Baisse l’AT et l’AS ennemies,\\npuis cède sa place.",
+  "justification": "Le lexique du projet donne AT et AS pour l’Attaque et l’Attaque Spéciale.",
+  "msgid": "Lowers the foe's Attack and\\nSp. Atk, then switches out.",
+  "msgstr": "Baisse Attaque et Atq. Spé.\\nennemies, puis cède sa place.",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "terminologie",
+  "probleme": "« Atq. Spé. » ne suit pas l’abréviation prescrite.",
+  "correction": "Attaque au pouvoir lunaire.\\nPeut baisser l’AS.",
+  "justification": "Le lexique du projet donne AS pour l’Attaque Spéciale.",
+  "msgid": "Attacks with the power of\\nthe moon. May lower Sp. Atk.",
+  "msgstr": "Attaque au pouvoir lunaire.\\nPeut baisser l’Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "oubli",
+  "probleme": "La tempête de diamants disparaît.",
+  "correction": "Soulève un vent de diamants.\\nPeut monter la Défense.",
+  "justification": "La source décrit des diamants soulevés en tempête.",
+  "msgid": "Whips up a storm of\\ndiamonds. May up Defense.",
+  "msgstr": "Déchaîne des diamants.\\nPeut monter la Défense.",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "terminologie",
+  "probleme": "« Atq. Spé. » ne suit pas l’abréviation prescrite.",
+  "correction": "Crache un feu spécial et\\nbrûlant. Baisse l’AS.",
+  "justification": "Le lexique du projet donne AS pour l’Attaque Spéciale.",
+  "msgid": "Breathes a special, hot\\nfire. Lowers Sp. Atk.",
+  "msgstr": "Crache un feu spécial et\\nbrûlant. Baisse l’Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "terminologie",
+  "probleme": "« Déf. Spé. » ne suit pas l’abréviation prescrite.",
+  "correction": "Augmente la DS\\nd’un Pokémon allié.",
+  "justification": "Le lexique du projet donne DS pour la Défense Spéciale.",
+  "msgid": "Raises the Sp. Def of a\\npartner Pokémon.",
+  "msgstr": "Augmente la Déf. Spé.\\nd’un Pokémon allié.",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "terminologie",
+  "probleme": "« Atq. Spé. » ne suit pas l’abréviation prescrite.",
+  "correction": "Une onde qui baisse beaucoup\\nl’AS de l’ennemi.",
+  "justification": "Le lexique du projet donne AS pour l’Attaque Spéciale.",
+  "msgid": "Exposes the foe to a pulse\\nthat sharply cuts Sp. Atk.",
+  "msgstr": "Une onde qui baisse beaucoup\\nl’Atq. Spé. de l’ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "terminologie",
+  "probleme": "« Atq. » et « Atq. Spé. » ne suivent pas les abréviations prescrites.",
+  "correction": "Ennemis empoisonnés: baisse\\nleur AT, leur AS et leur VI.",
+  "justification": "Le lexique du projet donne AT, AS et VI pour l’Attaque, l’Attaque Spéciale et la Vitesse.",
+  "msgid": "Lowers the Attack, Sp. Atk\\nand Speed of poisoned foes.",
+  "msgstr": "Ennemis empoisonnés: baisse\\nAtq., Atq. Spé. et Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "oubli",
+  "probleme": "« Des alliés » écarte le lanceur de l’effet.",
+  "correction": "Monte DF et DS chez le lanceur\\net ses alliés si Plus ou Minus.",
+  "justification": "Le lanceur peut lui aussi bénéficier de la hausse s’il possède l’un de ces talents. DF et DS suivent les abréviations du projet.",
+  "msgid": "Boosts the defenses of\\nthose with Plus or Minus.",
+  "msgstr": "Monte Défense et Déf. Spé.\\ndes alliés Plus ou Minus.",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "contresens",
+  "probleme": "« Qui le touche » étend l’empoisonnement aux alliés.",
+  "correction": "Le lanceur se protège et\\nempoisonne l’ennemi au contact.",
+  "justification": "L’anglais réserve l’effet de contact aux ennemis.",
+  "msgid": "Protects user and poisons\\nfoes on contact.",
+  "msgstr": "Le lanceur se protège et\\nempoisonne qui le touche.",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "oubli",
+  "probleme": "« Des alliés » écarte le lanceur de l’effet.",
+  "correction": "Monte AT et AS chez le lanceur\\net ses alliés si Plus ou Minus.",
+  "justification": "Le lanceur peut lui aussi bénéficier de la hausse s’il possède l’un de ces talents. AT et AS suivent les abréviations du projet.",
+  "msgid": "Boosts the attacks of\\nthose with Plus or Minus.",
+  "msgstr": "Monte Attaque et Atq. Spé.\\ndes alliés Plus ou Minus.",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "oubli",
+  "probleme": "« Et » efface le lien entre la guérison de l’ennemi et la récupération de PV.",
+  "correction": "Soigne l’altération ennemie\\npour regagner des PV.",
+  "justification": "Le lanceur récupère des PV en soignant l’altération de statut de l’ennemi.",
+  "msgid": "Cures the foe's status\\nto restore HP.",
+  "msgstr": "Guérit le statut de l’ennemi\\net regagne des PV.",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "terminologie",
+  "probleme": "« Atq. Spé. » ne suit pas l’abréviation prescrite.",
+  "correction": "Pleure et baisse l’Attaque et\\nl’AS de la cible.",
+  "justification": "Le lexique du projet donne AS pour l’Attaque Spéciale.",
+  "msgid": "The user tears up, dropping\\nAttack and Sp. Attack.",
+  "msgstr": "Pleure et baisse l’Attaque et\\nl’Atq. Spé. de la cible.",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "oubli",
+  "probleme": "La comparaison n’est pas explicitement rattachée au lanceur.",
+  "correction": "Physique ou spéciale selon\\nl’AT ou l’AS du lanceur.",
+  "justification": "La catégorie dépend des deux statistiques offensives du lanceur.",
+  "msgid": "User's highest attack stat\\ndetermines its category.",
+  "msgstr": "Physique ou spéciale selon la\\nmeilleure stat d’attaque.",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "oubli",
+  "probleme": "« Rapide » ne rend pas la priorité systématique.",
+  "correction": "Décharge électrique toujours\\nprioritaire. Coup critique sûr.",
+  "justification": "La source garantit à la fois la priorité et le coup critique.",
+  "msgid": "Electric bursts always go\\nfirst and land a critical hit.",
+  "msgstr": "Décharge électrique rapide.\\nCoup critique assuré.",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "oubli",
+  "probleme": "« Liée à » n’indique pas que la puissance augmente avec l’affection.",
+  "correction": "Plus PIKACHU vous aime, plus\\nc’est fort. Ne rate jamais.",
+  "justification": "La source indique dans quel sens l’affection fait varier la puissance.",
+  "msgid": "Pikachu's love increases its\\npower. It never misses.",
+  "msgstr": "Puissance liée à l’affection\\nde PIKACHU. Ne rate jamais.",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "oubli",
+  "probleme": "La tige ne disperse plus les graines.",
+  "correction": "Tige géante: sème des graines\\nqui volent des PV chaque tour.",
+  "justification": "L’anglais fait de la dispersion des graines une action de la capacité.",
+  "msgid": "Giant stalk scatters seeds\\nthat drain HP every turn.",
+  "msgstr": "Graines d’une tige géante qui\\nvolent des PV chaque tour.",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "oubli",
+  "probleme": "Le tourbillon n’enveloppe plus l’ennemi.",
+  "correction": "Enveloppe l’ennemi de parfum.\\nSoigne les statuts de l’équipe.",
+  "justification": "La source indique que l’ennemi est enveloppé par le parfum, puis que les altérations de l’équipe sont soignées.",
+  "msgid": "Wrap foe with whirlwind of\\nscent. Heals party's status.",
+  "msgstr": "Tourbillon parfumé. Guérit\\nles altérations de l’équipe.",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "oubli",
+  "probleme": "« Liée à » n’indique pas que la puissance augmente avec l’affection.",
+  "correction": "Plus EVOLI vous aime, plus\\nc’est fort. Touche à coup sûr.",
+  "justification": "La source indique dans quel sens l’affection fait varier la puissance.",
+  "msgid": "Eevee's love increases its\\npower. It never misses.",
+  "msgstr": "Puissance liée à l’affection\\nd’EVOLI. Touche à coup sûr.",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "oubli",
+  "probleme": "La glissade au sol n’est pas précisée.",
+  "correction": "Glisse au sol pour frapper.\\nPrioritaire sur Champ Herbu.",
+  "justification": "La source décrit une glissade au sol et une priorité conditionnée par le Champ Herbu.",
+  "msgid": "Gliding on ground, hits. Goes\\nfirst on Grassy Terrain.",
+  "msgstr": "Frappe en glissant. Agit en\\npriorité sur Champ Herbu.",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "contresens",
+  "probleme": "« Rampe » transforme un déplacement vif en reptation.",
+  "correction": "File derrière l’ennemi et\\nfrappe. Baisse son AS.",
+  "justification": "« Skitters » décrit un déplacement rapide. AS suit l’abréviation du projet.",
+  "msgid": "User skitters behind foe to\\nattack. Lowers foe's Sp. Atk.",
+  "msgstr": "Rampe derrière l’ennemi et\\nfrappe. Baisse son Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 59,
+  "categorie": "oubli",
+  "probleme": "« Sans objet » ne précise pas quel Pokémon doit tenir un objet.",
+  "correction": "Attaque avec l’objet ennemi.\\nEchoue si l’ennemi n’en a pas.",
+  "justification": "La condition d’échec porte sur l’objet tenu par l’ennemi.",
+  "msgid": "Control foe's item to attack.\\nFails if foe has no item.",
+  "msgstr": "Manipule l’objet ennemi pour\\nfrapper. Echoue sans objet.",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "orthographe",
+  "probleme": "Le complément « le lanceur et ses alliés » ne peut pas se rattacher directement à « rend des PV ».",
+  "correction": "Soigne le lanceur et ses\\nalliés en combat: PV et statut.",
+  "justification": "Les mêmes bénéficiaires récupèrent des PV et sont guéris de leurs altérations de statut.",
+  "msgid": "Heals HP and status of\\nitself and allies in battle.",
+  "msgstr": "Rend des PV et guérit le\\nlanceur et ses alliés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "terminologie",
+  "probleme": "« Atq. Spé. » ne suit pas l’abréviation prescrite.",
+  "correction": "Pouvoir mystique qui frappe.\\nMonte l’AS du lanceur.",
+  "justification": "Le lexique du projet donne AS pour l’Attaque Spéciale.",
+  "msgid": "A mysterious power strikes,\\nraising the user's Sp. Atk.",
+  "msgstr": "Pouvoir mystique qui frappe.\\nMonte l’Atq. Spé. du lanceur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "orthographe",
+  "probleme": "Le complément « le lanceur et son allié » ne peut pas se rattacher directement à « rend des PV ».",
+  "correction": "Soigne le lanceur et son\\nallié: PV et statut.",
+  "justification": "Le lanceur et son allié récupèrent tous deux des PV et sont guéris de leurs altérations de statut.",
+  "msgid": "The user heals and cures\\nitself and its ally.",
+  "msgstr": "Rend des PV et guérit le\\nlanceur et son allié.",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "oubli",
+  "probleme": "La phrase ne précise pas que la condition de téracristallisation porte sur le lanceur.",
+  "correction": "Si le lanceur se téracristallise,\\nfrappe avec son type Téracristal.",
+  "justification": "C’est le type Téracristal du lanceur qui détermine celui de l’attaque.",
+  "msgid": "If the user's Terastallized,\\nit hits with its Tera type.",
+  "msgstr": "Si téracristallisé, frappe\\navec son type Téracristal.",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "contresens",
+  "probleme": "« Coups […] doublés » peut désigner deux coups au lieu de dégâts doublés.",
+  "correction": "Au tour suivant, coups reçus\\ninratables et dégâts doublés.",
+  "justification": "Les attaques reçues touchent à coup sûr et infligent deux fois plus de dégâts.",
+  "msgid": "Foe attacks next turn can't\\nmiss and do double damage.",
+  "msgstr": "Au tour suivant, les coups\\nreçus sont sûrs et doublés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "contresens",
+  "probleme": "« Les voisins » inclut potentiellement les alliés.",
+  "correction": "Retire pièges et Vampigraine.\\nEmpoisonne les ennemis voisins.",
+  "justification": "L’empoisonnement vise les ennemis adjacents.",
+  "msgid": "Erases trap moves and Leech\\nSeed. Poisons adjacent foes.",
+  "msgstr": "Retire pièges et Vampigraine.\\nEmpoisonne les voisins.",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "terminologie",
+  "probleme": "« Atq. » et « Atq. Spé. » ne suivent pas les abréviations prescrites.",
+  "correction": "Sacrifie des PV pour beaucoup\\nmonter son AT, son AS et sa VI.",
+  "justification": "Le lexique du projet donne AT, AS et VI pour l’Attaque, l’Attaque Spéciale et la Vitesse.",
+  "msgid": "Sharply boosts offenses and\\nSpeed by using its own HP.",
+  "msgstr": "Sacrifie des PV. Monte fort\\nAtq., Atq. Spé. et Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "terminologie",
+  "probleme": "« Atq. Spé. » ne suit pas l’abréviation prescrite.",
+  "correction": "Des flammes brûlent la cible.\\nMonte l’AS du lanceur.",
+  "justification": "Le lexique du projet donne AS pour l’Attaque Spéciale.",
+  "msgid": "Flames scorch the target.\\nBoosts the user's Sp. Atk.",
+  "msgstr": "Des flammes brûlent la cible.\\nMonte l’Atq. Spé. du lanceur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "oubli",
+  "probleme": "La première phrase décrit un pas de danse sans dire qu’il sert à frapper.",
+  "correction": "Frappe d’un pas de danse fluide.\\nMonte la Vitesse du lanceur.",
+  "justification": "Les pas de danse sont le moyen de porter le coup.",
+  "msgid": "Hits with light, fluid dance\\nsteps. Ups the user's Speed.",
+  "msgstr": "Pas de danse léger et fluide.\\nMonte la Vitesse du lanceur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "oubli",
+  "probleme": "« Sa forme » n’identifie pas le lanceur.",
+  "correction": "Charge brisant les barrières.\\nType selon la forme du lanceur.",
+  "justification": "La source attribue explicitement la forme au Pokémon qui utilise la capacité.",
+  "msgid": "Tackle that breaks barriers.\\nUser's form determines type.",
+  "msgstr": "Charge brisant les barrières.\\nLe type dépend de sa forme.",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "oubli",
+  "probleme": "Le jet d’eau a perdu son effet tranchant.",
+  "correction": "Jet d’eau tranchant sous pression.\\nTaux de critiques élevé.",
+  "justification": "La source décrit une coupure produite par de l’eau sous pression.",
+  "msgid": "Pressurized water cut with a\\nhigh critical-hit ratio.",
+  "msgstr": "Jet d’eau sous pression.\\nTaux de critiques élevé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "contresens",
+  "probleme": "La phrase attribue l’effet à TERAPAGOS lui-même.",
+  "correction": "Si TERAPAGOS est en Forme\\nStellaire, touche tout ennemi.",
+  "justification": "La Forme Stellaire est la condition qui permet à la capacité de toucher tous les ennemis.",
+  "msgid": "In Terapagos's Stellar\\nForm, it hits all foes.",
+  "msgstr": "TERAPAGOS (Forme Stellaire)\\nfrappe tous les ennemis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "orthographe",
+  "probleme": "« Surtout type Dragon » laisse la fin de la phrase sans construction grammaticale.",
+  "correction": "Monte le taux critique des\\nalliés, surtout ceux de type Dragon.",
+  "justification": "« Ceux de type Dragon » rattache le bonus accru aux alliés concernés.",
+  "msgid": "Increases allies' critical hit\\nratio, especially if Dragons.",
+  "msgstr": "Monte le taux critique des\\nalliés, surtout type Dragon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "contresens",
+  "probleme": "« De dépit » présente l’attaque comme un geste de rancœur.",
+  "correction": "Attaque désespérée. Puissance\\ndoublée si échec précédent.",
+  "justification": "« Desperation attack » décrit une attaque lancée en désespoir de cause.",
+  "msgid": "A desperation attack. Power\\ndoubles if last move failed.",
+  "msgstr": "Attaque de dépit. Puissance\\ndoublée si échec précédent.",
+  "msgctxt": ""
+ },
+ {
+  "id": 112,
+  "categorie": "oubli",
+  "probleme": "La taille exceptionnelle du mont disparaît.",
+  "correction": "Lâche un mont rocheux géant sur\\nl’ennemi. Puissance variable.",
+  "justification": "« Huge » qualifie explicitement la taille de la masse rocheuse.",
+  "msgid": "Drops a huge rock mountain\\non the foe. Power varies.",
+  "msgstr": "Lâche un mont rocheux sur\\nl’ennemi. Puissance variable.",
+  "msgctxt": ""
+ }
+]

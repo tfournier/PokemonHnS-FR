@@ -1,0 +1,172 @@
+[
+ {
+  "id": 0,
+  "categorie": "typographie",
+  "probleme": "La virgule sépare inutilement le nom du pass de son complément.",
+  "correction": "Copieuse: C’est le Passe Train\\npour le Train Magnétique.\\pLe monsieur de la compagnie me l’a\\ndonné quand ils ont rasé notre\\lvieille maison pour bâtir la gare.",
+  "justification": "Le saut de ligne suffit. « Pour le Train Magnétique » complète directement « Passe Train ».",
+  "msgid": "COPYCAT: That's the PASS for the\\nMAGNET TRAIN.\\pThe rail company man gave me\\nthat when they tore down our old\\lhouse for the STATION.",
+  "msgstr": "Copieuse: C’est le Passe Train,\\npour le Train Magnétique.\\pLe monsieur de la compagnie me l’a\\ndonné quand ils ont rasé notre\\lvieille maison pour bâtir la gare.",
+  "msgctxt": ""
+ },
+ {
+  "id": 1,
+  "categorie": "contresens",
+  "probleme": "« Nouveau » ajoute une indication absente du panneau anglais.",
+  "correction": "Arène Pokémon d’ALGATIA\\pDresseurs reconnus\\npar TATIA et LEVY: {PLAYER}",
+  "justification": "L’anglais donne le titre de la liste des Dresseurs reconnus par les deux Champions.",
+  "msgid": "MOSSDEEP CITY POKéMON GYM\\pLIZA AND TATE'S CERTIFIED TRAINERS:\\n{PLAYER}",
+  "msgstr": "Arène Pokémon d’ALGATIA\\pNouveau Dresseur reconnu\\npar TATIA et LEVY: {PLAYER}",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "L’orage et les ailes argentées disparaissent.",
+  "correction": "Par une nuit noire et orageuse…\\pJ’ai vu ce Pokémon géant voler\\ndepuis les îles.\\pDes plumes s’échappaient\\nde ses ailes argentées.",
+  "justification": "« Stormy » décrit le temps et « silver » qualifie les ailes.",
+  "msgid": "It was a dark and stormy night…\\pI saw this giant POKéMON flying\\nfrom the islands.\\pIt was scattering feathers\\nfrom its silver wings.",
+  "msgstr": "Par une nuit noire et profonde…\\pJ’ai vu ce Pokémon géant voler\\ndepuis les îles.\\pIl laissait une traînée de plumes\\nd’argent derrière lui.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "oubli",
+  "probleme": "« Droit devant » remplace la mention de l’accès central.",
+  "correction": "Accès central à la\\nLigue Pokémon",
+  "justification": "« Center Gate » identifie l’accès indiqué par le panneau.",
+  "msgid": "ENTERING POKéMON LEAGUE\\nCENTER GATE",
+  "msgstr": "Entrée de la Ligue Pokémon\\nDroit devant",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "contresens",
+  "probleme": "Le Pokémon tient une lettre. « Postier » lui attribue un rôle.",
+  "correction": "{PLAYER} reçoit un Pokémon avec une lettre.",
+  "justification": "« With MAIL » indique ce qui accompagne le Pokémon lors de la remise.",
+  "msgid": "{PLAYER} received a POKéMON with MAIL.",
+  "msgstr": "{PLAYER} reçoit un Pokémon postier!",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "codes",
+  "probleme": "Le code {SUPER_ER} a été ajouté.",
+  "correction": "Votre compagnon de voyage\\p1er: Boutique du Dresseur",
+  "justification": "Le 1er étage correspond au 2F anglais avec la numérotation française. L’ordinal en toutes lettres de code n’est pas nécessaire.",
+  "msgid": "Your Travel Companion\\p2F TRAINER'S MARKET",
+  "msgstr": "Votre compagnon de voyage\\p1{SUPER_ER}: Boutique du Dresseur",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "terminologie",
+  "probleme": "L’allusion aux cinq catégories des concours est brouillée par les adjectifs.",
+  "correction": "Mon Pokémon est le meilleur!\\pSang-froid, Robustesse, Beauté,\\nGrâce et Intelligence.\\lIl est complet!\\pAutant gagner dans tous\\nles Concours.",
+  "justification": "Ce sont les cinq catégories de concours de Pokémon Émeraude FR.",
+  "msgid": "My POKéMON rules!\\pIt's cool, tough yet beautiful, cute,\\nand smart. It's complete!\\pI may as well go for wins in every\\nsingle CONTEST.",
+  "msgstr": "Mon Pokémon est le meilleur!\\pIl a du sang-froid, il est robuste,\\nbeau, gracieux et intelligent.\\lIl est complet!\\pAutant viser la victoire dans tous les\\nConcours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "terminologie",
+  "probleme": "« Talent » emploie la terminologie des générations ultérieures.",
+  "correction": "Bienvenue! Je suis l’expert en\\ncapacités spéciales!\\pJe peux échanger les capacités\\lspéciales en un clin d’œil.\\pHélas, j’ai mal au dos et je ne\\npeux pas travailler aujourd’hui.\\pRevenez plus tard!",
+  "justification": "Pokémon Émeraude et Pokémon SoulSilver FR emploient « capacité spéciale » pour « Ability ».",
+  "msgid": "Welcome! I'm the ABILITY EXPERT!\\pI can swap POKéMON's abilities\\nin a heartbeat.\\pUnfortunately, my back hurts and\\nI can't work today.\\pCome again later!",
+  "msgstr": "Bienvenue! Je suis l’Expert en\\nTalents!\\pJe peux échanger les talents des\\nPokémon en un clin d’œil.\\pHélas, j’ai mal au dos et je ne\\npeux pas travailler aujourd’hui.\\pRevenez plus tard!",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "typographie",
+  "probleme": "La deuxième page concentre tout le message sur une ligne trop longue.",
+  "correction": "Oh, oh, oh!\\pVos Points de Combat sont\\nau maximum.\\pRevenez après avoir dépensé des\\nPoints de Combat.",
+  "justification": "Le retour à la ligne ramène le message dans la largeur du dialogue.",
+  "msgid": "Oh, oh, oh!\\pYour Battle Points are maxed.\\pPlease come back after using\\nsome Battle Points.",
+  "msgstr": "Oh, oh, oh!\\pVos Points de Combat sont au maximum.\\pRevenez après avoir dépensé des\\nPoints de Combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "terminologie",
+  "probleme": "« Talent » emploie la terminologie des générations ultérieures.",
+  "correction": "Elle contient Echange.\\pElle échange la capacité spéciale\\nde ton Pokémon avec celle\\ldu Pokémon adverse.\\pUtilise-la avec sagesse…",
+  "justification": "Pokémon Émeraude et Pokémon SoulSilver FR emploient « capacité spéciale » pour « Ability ».",
+  "msgid": "It holds SKILL SWAP.\\pIt can take your opponents' abilities\\naway from them and give them your own.\\pUse it wisely...",
+  "msgstr": "Elle contient Echange.\\pCette capacité échange le talent\\nde ton Pokémon avec celui de\\ll’ennemi.\\pUtilise-la avec sagesse…",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "oubli",
+  "probleme": "« Aussi » disparaît et « fonctions » peut désigner des fonctions de code.",
+  "correction": "J’ai codé les sprites de surf\\nuniques pour chaque Pokémon!\\pComme le projet est OPEN SOURCE,\\ntu peux aussi y ajouter tes\\lpropres fonctionnalités!",
+  "justification": "Le développeur invite le joueur à contribuer lui aussi en ajoutant ses propres fonctionnalités au jeu.",
+  "msgid": "I implemented the unique surfing\\nsurfing sprites for each POKéMON!\\pSince the project is OPEN SOURCE,\\nyou can add your own features too!",
+  "msgstr": "J’ai codé les sprites de surf\\nuniques pour chaque Pokémon!\\pComme le projet est OPEN SOURCE,\\ntu peux y ajouter tes fonctions!",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "terminologie",
+  "probleme": "« Ecole Dresseurs » ne reprend pas le nom de l’établissement de Mauville.",
+  "correction": "Hé, tu es Dresseur de Pokémon?\\pVa à l’Académie des Dresseurs,\\ntu pourrais apprendre du nouveau!",
+  "justification": "Le lieu de Mauville s’appelle « Académie des Dresseurs » dans Pokémon SoulSilver FR.",
+  "msgid": "Hey, you're a POKéMON trainer?\\pIf you head to the ACADEMY,\\nyou might learn something new!",
+  "msgstr": "Hé, tu es Dresseur de Pokémon?\\pSi tu vas à l’Ecole Dresseurs, tu\\npourrais apprendre quelque chose!",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "contresens",
+  "probleme": "La découverte collective devient individuelle et l’envoi de l’assistant est ajouté.",
+  "correction": "Prof. Orme: Allô, {PLAYER}?\\nOn a découvert quelque chose\\lsur cet Œuf!\\pMon assistant est au Centre\\nPokémon de Mauville.\\pTu pourrais aller lui parler?",
+  "justification": "Orme dit « we discovered » et indique où se trouve son assistant.",
+  "msgid": "PROF.ELM: Hello, {PLAYER}? We\\ndiscovered something about the EGG!\\pMy assistant is at the POKéMON\\nCENTER in VIOLET CITY.\\pCould you talk to him?",
+  "msgstr": "Prof. Orme: Allô, {PLAYER}?\\nJ’ai découvert quelque chose\\lsur cet Œuf!\\pJ’ai envoyé mon assistant au\\nCentre Pokémon de Mauville.\\pTu pourrais aller lui parler?",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "oubli",
+  "probleme": "L’idée que l’ouverture du temple soulève davantage de questions disparaît.",
+  "correction": "Journal de recherche 5: 2 juin 1975\\pNous avons réussi à l’ouvrir…\\pJe pensais déborder de joie…\\pMais nous avons perdu des hommes\\nde valeur dans la déflagration\\ld’énergie jaillie du temple.\\pSans parler des Pokémon qui\\nnous avaient aidés à l’ouvrir.\\lPaix à leur âme…\\p…\\pPeu importe.\\pLe temple est ouvert, mais il ne\\nnous laisse que plus de questions.\\pPas de Pokémon LEGENDAIRE\\nà l’intérieur. Pas de trésor.\\pNos vivres s’épuisent, et tous\\nnos efforts n’ont encore\\lrien donné…",
+  "justification": "« More questions » marque une augmentation du nombre de questions après l’ouverture.",
+  "msgid": "Research Log 5:  June 2, 1975\\pWe managed to get it open...\\pI thought I'd be overjoyed...\\pBut we lost good men in the blast\\nof energy that sprung from the\\ltemple.\\pNot to mention the POKéMON that\\nhelped us get it open.\\lGod rest their souls...\\p........................\\pRegardless.\\pThe temple is open, but we are\\nonly left with more questions.\\pThere is no legendary POKéMON\\ninside. No treasure.\\pOur supplies are starting to run\\nout and we have nothing to show\\lfor our efforts...",
+  "msgstr": "Journal de recherche 5: 2 juin 1975\\pNous avons réussi à l’ouvrir…\\pJe pensais déborder de joie…\\pMais nous avons perdu des hommes\\nde valeur dans la déflagration\\ld’énergie jaillie du temple.\\pSans parler des Pokémon qui\\nnous avaient aidés à l’ouvrir.\\lPaix à leur âme…\\p…\\pPeu importe.\\pLe temple est ouvert, mais il ne\\nnous laisse que des questions.\\pPas de Pokémon LEGENDAIRE\\nà l’intérieur. Pas de trésor.\\pNos vivres s’épuisent, et tous\\nnos efforts n’ont encore\\lrien donné…",
+  "msgctxt": ""
+ },
+ {
+  "id": 111,
+  "categorie": "typographie",
+  "probleme": "La traduction occupe trois lignes alors qu’une seule est autorisée.",
+  "correction": "Salut! Comment va mon ex-M. MIME?",
+  "justification": "La formulation tient sur une ligne et conserve le salut, la question et le lien avec l’ancien propriétaire.",
+  "msgid": "Hi, how's my old MR MIME doing?",
+  "msgstr": "Salut!\\nComment va le M. MIME que\\lje t’ai échangé?",
+  "msgctxt": ""
+ },
+ {
+  "id": 115,
+  "categorie": "orthographe",
+  "probleme": "La préposition « à » est fautive devant « Irisia ».",
+  "correction": "Comme c’est étrange…\\p…Ohh!\\nCe que tu tiens là, c’est…\\lce qu’on appelle… un Pokédex!\\pÇa faisait une éternité que je\\nn’en avais pas vu.\\pJe m’appelle Baoba!\\nAvant, je dirigeais le Parc Safari\\lde Parmanie, mais il devenait\\ldémodé face aux nouvelles\\lattractions.\\pAlors je suis parti à l’étranger\\npour apprendre les dernières\\ltechnologies et ouvrir un Parc\\lSafari dernier cri à Irisia même.\\pCe n’est peut-être pas un hasard\\nsi nous discutons tous les deux.\\pEt si on enregistrait nos numéros\\ndans le Pokématos?\\pA l’ouverture du Parc Safari,\\nje t’appellerai avant tout le monde!",
+  "justification": "La fin est resserrée pour tenir dans la largeur du dialogue.",
+  "msgid": "How strange...\\p...Ohh!\\nWhat you are holding is...\\lwhat they call... a POKéDEX!\\pHaven't seen one of those in ages.\\pMy name is BAOBA!\\nI used to run a SAFARI ZONE in\\lFUCHSIA CITY, but it was becoming\\lout of date with new entertainment\\loptions coming out.\\pI decided to go overseas to learn\\nthe newest technology and open a\\lstate-of-the-art SAFARI ZONE\\lin CIANWOOD.\\pIt may be more than a coincidence\\nthat we are chatting.\\pWhy don't we register each other's\\nnumbers in the POKéGEAR?\\pI can give you a call once the\\nSAFARI ZONE is open before I call\\lanyone else!",
+  "msgstr": "Comme c’est étrange…\\p…Ohh!\\nCe que tu tiens là, c’est…\\lce qu’on appelle… un Pokédex!\\pÇa faisait une éternité que je\\nn’en avais pas vu.\\pJe m’appelle Baoba!\\nAvant, je dirigeais le Parc Safari\\lde Parmanie, mais il devenait\\ldémodé face aux nouvelles\\lattractions.\\pAlors je suis parti à l’étranger\\npour apprendre les dernières\\ltechnologies et ouvrir un Parc\\lSafari dernier cri à Irisia.\\pCe n’est peut-être pas un hasard\\nsi nous discutons tous les deux.\\pEt si on enregistrait nos numéros\\ndans le Pokématos?\\pQuand le Parc Safari ouvrira, tu seras\\nla première personne que j’appellerai!",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "codes",
+  "probleme": "Les codes {SUPER_ER} et {SUPER_E} ont été ajoutés. Les deux premières pages dépassent aussi la largeur prévue.",
+  "correction": "RDC: Réception\\n1er: Vente\\p2e: Personnel\\n3e: Production\\p4e: Bureau du directeur",
+  "justification": "Les ordinaux simples conservent la numérotation française sans ajouter de code. Une ligne par étage évite le débordement.",
+  "msgid": "1F RECEPTION 2F SALES\\p3F PERSONNEL 4F PRODUCTION\\p5F DIRECTOR'S OFFICE",
+  "msgstr": "RC: Réception 1{SUPER_ER}: Produits dérivés\\p2{SUPER_E}: Personnel 3{SUPER_E}: Production\\p4{SUPER_E}: Bureau du Directeur",
+  "msgctxt": ""
+ }
+]

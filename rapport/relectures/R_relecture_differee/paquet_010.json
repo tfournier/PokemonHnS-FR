@@ -1,0 +1,222 @@
+[
+ {
+  "id": 52,
+  "categorie": "terminologie",
+  "probleme": "Le libellé météo est entièrement en capitales.",
+  "correction": "Brouillard",
+  "justification": "Le lexique du projet prescrit « Brouillard » pour ce libellé.",
+  "msgid": "FOG",
+  "msgstr": "BROUILLARD",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "typographie",
+  "probleme": "Le libellé emploie « Niv. » sans espace avant le chiffre.",
+  "correction": "Pyramide N. 1",
+  "justification": "La convention du projet abrège « niveau » en « N. », suivi d’une espace avant le numéro.",
+  "msgid": "PYRAMID FLOOR 1",
+  "msgstr": "Pyramide Niv.1",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "typographie",
+  "probleme": "Le libellé emploie « Niv. » sans espace avant le chiffre.",
+  "correction": "Pyramide N. 2",
+  "justification": "La convention du projet abrège « niveau » en « N. », suivi d’une espace avant le numéro.",
+  "msgid": "PYRAMID FLOOR 2",
+  "msgstr": "Pyramide Niv.2",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "typographie",
+  "probleme": "Le libellé emploie « Niv. » sans espace avant le chiffre.",
+  "correction": "Pyramide N. 3",
+  "justification": "La convention du projet abrège « niveau » en « N. », suivi d’une espace avant le numéro.",
+  "msgid": "PYRAMID FLOOR 3",
+  "msgstr": "Pyramide Niv.3",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "typographie",
+  "probleme": "Le libellé emploie « Niv. » sans espace avant le chiffre.",
+  "correction": "Pyramide N. 4",
+  "justification": "La convention du projet abrège « niveau » en « N. », suivi d’une espace avant le numéro.",
+  "msgid": "PYRAMID FLOOR 4",
+  "msgstr": "Pyramide Niv.4",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "typographie",
+  "probleme": "Le libellé emploie « Niv. » sans espace avant le chiffre.",
+  "correction": "Pyramide N. 5",
+  "justification": "La convention du projet abrège « niveau » en « N. », suivi d’une espace avant le numéro.",
+  "msgid": "PYRAMID FLOOR 5",
+  "msgstr": "Pyramide Niv.5",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "typographie",
+  "probleme": "Le libellé emploie « Niv. » sans espace avant le chiffre.",
+  "correction": "Pyramide N. 6",
+  "justification": "La convention du projet abrège « niveau » en « N. », suivi d’une espace avant le numéro.",
+  "msgid": "PYRAMID FLOOR 6",
+  "msgstr": "Pyramide Niv.6",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "typographie",
+  "probleme": "Le libellé emploie « Niv. » sans espace avant le chiffre.",
+  "correction": "Pyramide N. 7",
+  "justification": "La convention du projet abrège « niveau » en « N. », suivi d’une espace avant le numéro.",
+  "msgid": "PYRAMID FLOOR 7",
+  "msgstr": "Pyramide Niv.7",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par du texte.",
+  "correction": "Avec animations des {PKMN}\\net des capacités.",
+  "justification": "Le code d’affichage figure dans la source et doit être conservé.",
+  "msgid": "Show the {PKMN} animations\\nand attack animations.",
+  "msgstr": "Avec animations des Pokémon\\net des capacités.",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par du texte.",
+  "correction": "Sans animations des {PKMN}\\nni des capacités.",
+  "justification": "Le code d’affichage figure dans la source et doit être conservé.",
+  "msgid": "Skip the {PKMN} animations\\nand attack animations.",
+  "msgstr": "Sans animations des Pokémon\\nni des capacités.",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par du texte.",
+  "correction": "Proposer de changer de {PKMN}\\nquand l’ennemi est K.O.",
+  "justification": "Le code désigne le Pokémon du joueur que l’option permet de remplacer.",
+  "msgid": "Get the option to switch your\\n{PKMN} after the enemies faints.",
+  "msgstr": "Proposer de changer de Pokémon\\nquand l’ennemi est K.O.",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par du texte.",
+  "correction": "Pas de changement offert après\\nun {PKMN} ennemi mis K.O.",
+  "justification": "Le code désigne le Pokémon adverse dans la source.",
+  "msgid": "No free switch after fainting the\\nenemies {PKMN}.",
+  "msgstr": "Pas de changement offert après\\nun Pokémon ennemi mis K.O.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été supprimé et « partout » ajoute une précision absente de la source.",
+  "correction": "Le 1er {PKMN} de votre équipe\\nvous suit.",
+  "justification": "La source identifie le premier Pokémon de l’équipe du joueur et indique qu’il le suit.",
+  "msgid": "Let the first {PKMN} in your\\nparty follow you.",
+  "msgstr": "Le 1er Pokémon de l’équipe\\nvous suit partout.",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par du texte.",
+  "correction": "Les gros {PKMN} vous suivent.\\nBugs graphiques possibles.",
+  "justification": "Le code d’affichage figure dans la source et doit être conservé.",
+  "msgid": "Enable large {PKMN} followers.\\nCan cause graphical issues.",
+  "msgstr": "Les gros Pokémon vous suivent.\\nBugs graphiques possibles.",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par du texte.",
+  "correction": "Les gros {PKMN} ne vous\\nsuivent pas. Recommandé.",
+  "justification": "Le code d’affichage figure dans la source et doit être conservé.",
+  "msgid": "Disable large {PKMN} followers.\\nRecommended.",
+  "msgstr": "Les gros Pokémon ne vous\\nsuivent pas. Recommandé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 87,
+  "categorie": "oubli",
+  "probleme": "Le nom de l’infirmière a été omis.",
+  "correction": "L’infirmière Joëlle soigne plus vite.",
+  "justification": "« Nurse Joy » désigne l’infirmière Joëlle.",
+  "msgid": "NURSE JOY heals you faster.",
+  "msgstr": "L’infirmière soigne plus vite.",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "oubli",
+  "probleme": "Le nom de l’infirmière a été omis.",
+  "correction": "L’infirmière Joëlle vous soigne\\navec l’animation habituelle.",
+  "justification": "« Nurse Joy » désigne l’infirmière Joëlle.",
+  "msgid": "NURSE JOY heals you with the\\nusual animation.",
+  "msgstr": "L’infirmière vous soigne avec\\nl’animation habituelle.",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par du texte.",
+  "correction": "Poids et taille des Baies et\\ndes {PKMN} en kilos et mètres.",
+  "justification": "La source emploie le code pour le second élément de la coordination.",
+  "msgid": "Display BERRY and {PKMN} weight\\nand size in kilograms and meters.",
+  "msgstr": "Poids et taille des Baies et\\nPokémon en kilos et mètres.",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par du texte.",
+  "correction": "Poids et taille des Baies et\\ndes {PKMN} en livres et pouces.",
+  "justification": "La source emploie le code pour le second élément de la coordination.",
+  "msgid": "Display BERRY and {PKMN} weight\\nand size in pounds and inches.",
+  "msgstr": "Poids et taille des Baies et\\nPokémon en livres et pouces.",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} manque dans le libellé de changement de Ball.",
+  "correction": "{R_BUTTON}: lancer une Poké Ball.\\n{L_BUTTON}/{R_BUTTON} maintenus: changer de {PKMN} Ball.",
+  "justification": "La correction rétablit le code et conserve l’appui prolongé pour changer de Ball.",
+  "msgid": "Press {R_BUTTON} in battle to use Pokeballs.\\nHold {L_BUTTON}/{R_BUTTON} to swap {PKMN}BALLS.",
+  "msgstr": "{R_BUTTON} en combat: lancer une Poké Ball.\\nMaintenez {L_BUTTON}/{R_BUTTON}: changer de Ball.",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été remplacé par « Poké ».",
+  "correction": "Masque l’indication du lancer\\nrapide de {PKMN} Balls.",
+  "justification": "La source emploie le code d’affichage dans le nom des Balls.",
+  "msgid": "Disables the prompt to use\\n{PKMN}BALLS quickly.",
+  "msgstr": "Masque l’indication du lancer\\nrapide de Poké Balls.",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "typographie",
+  "probleme": "Le libellé de la commande de combat n’est pas entièrement en capitales.",
+  "correction": "{B_BUTTON}: curseur sur FUITE\\nune fois le combat lancé.",
+  "justification": "La convention du projet impose les capitales pour les libellés de menus.",
+  "msgid": "Press {B_BUTTON} to move the cursor to the RUN\\noption after the battle started.",
+  "msgstr": "Avec {B_BUTTON}, le curseur va sur Fuite\\nune fois le combat lancé.",
+  "msgctxt": ""
+ }
+]

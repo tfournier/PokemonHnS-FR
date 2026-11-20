@@ -1,0 +1,242 @@
+[
+ {
+  "id": 7,
+  "categorie": "oubli",
+  "probleme": "La réplique ne dit plus que le professeur a confié la CS à son assistant.",
+  "correction": "On dirait que tu es sur la\\nbonne voie!\\pJ’ai confié la CS Flash à un\\nde mes assistants. Va la chercher!",
+  "justification": "Le texte anglais précise qui a remis la CS à l’assistant.",
+  "msgid": "It looks as if you're getting on\\nthe right track!\\pI've given one of my AIDES a FLASH\\nHM. Make sure you go get it!",
+  "msgstr": "On dirait que tu es sur la\\nbonne voie!\\pUn de mes assistants a la CS\\nFlash. Va vite la chercher!",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "contresens",
+  "probleme": "« Plein à attraper » amplifie le manque signalé.",
+  "correction": "Ton Pokédex pourrait être un peu\\nplus fourni!\\pEssaie de capturer d’autres\\nespèces de Pokémon!",
+  "justification": "« A bit more » indique qu’il manque encore un peu de contenu au Pokédex.",
+  "msgid": "Your POKéDEX could use a bit more\\nvolume still!\\pTry to catch other species of\\nPOKéMON!",
+  "msgstr": "Il t’en reste plein à attraper\\npour remplir ton Pokédex!\\pEssaie de capturer d’autres\\nespèces de Pokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "contresens",
+  "probleme": "La traduction parle de trouver des Pokémon et présente le résultat comme certain.",
+  "correction": "Excellent!\\pJe pense qu’en pêchant, tu pourras\\ncapturer encore plus de Pokémon!",
+  "justification": "« I think » marque une supposition et « collect » renvoie ici aux captures.",
+  "msgid": "Very good!\\pI think you'll collect even more\\nPOKéMON by going fishing!",
+  "msgstr": "Excellent!\\pEn allant pêcher, tu trouveras\\nencore plus de Pokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "terminologie",
+  "probleme": "« Pokémon pris » introduit un libellé différent pour le même compteur.",
+  "correction": "Et ton Pokédex National est:\\p{STR_VAR_1} Pokémon vus et\\n{STR_VAR_2} Pokémon capturés.",
+  "justification": "Le bilan du Pokédex reprend la formulation « Pokémon capturés » employée à l’entrée 5.",
+  "msgid": "And your NATIONAL POKéDEX is:\\p{STR_VAR_1} POKéMON seen and\\n{STR_VAR_2} POKéMON owned.",
+  "msgstr": "Et ton Pokédex National est:\\p{STR_VAR_1} Pokémon vus et\\n{STR_VAR_2} Pokémon pris.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "oubli",
+  "probleme": "« Mes oiseaux » omet qu’il s’agit de Pokémon.",
+  "correction": "Mes Pokémon oiseaux te reconnaissent!",
+  "justification": "« Bird Pokémon » caractérise les Pokémon du Dresseur.",
+  "msgid": "My bird POKéMON remember you!",
+  "msgstr": "Mes oiseaux se souviennent de toi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "contresens",
+  "probleme": "Kiri demande à Jan de confirmer leur victoire au lieu d’exprimer un espoir.",
+  "correction": "Kiri: Jan, j’espère qu’on va gagner!",
+  "justification": "« I hope » exprime le souhait de gagner le combat du jour.",
+  "msgid": "KIRI: JAN, I hope we win today.",
+  "msgstr": "Kiri: Jan, on gagne aujourd’hui, hein?",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "oubli",
+  "probleme": "« Quel gain! » ne précise pas que ce résultat est rare.",
+  "correction": "{STR_VAR_1} a joué à la {STR_VAR_2}\\net gagné {STR_VAR_3} jetons. C’est rare!\\p“Quand {STR_VAR_1} vient, il faut\\nprévoir assez de jetons.”\\pC’est ce que murmurent les\\nemployés du Casino quand notre\\ljoueur est là!\\pAu Casino, faites comme {STR_VAR_1}:\\nsurveillez vos jetons si vous\\ljouez à la {STR_VAR_2}.\\pEn direct du Casino, où l’on\\nsent toute l’effervescence!\\pCe sera tout pour aujourd’hui!",
+  "justification": "La rareté qualifie le résultat obtenu au jeu.",
+  "msgid": "{STR_VAR_1} played the {STR_VAR_2} game\\nand won a rare {STR_VAR_3} COINS.\\p“When {STR_VAR_1} comes, we need to\\nmake sure we have enough COINS.”\\pThat's what the GAME CORNER clerks\\nmutter when our gamer is in play!\\pViewers, it's best to watch your COINS\\nlike {STR_VAR_1} if you visit the GAME\\lCORNER and play the {STR_VAR_2} game.\\pThis is live from the GAME CORNER--\\nwhere you can feel the excitement!\\pThat's all for today!",
+  "msgstr": "{STR_VAR_1} a joué à la {STR_VAR_2}\\net gagné {STR_VAR_3} jetons. Quel gain!\\p“Quand {STR_VAR_1} vient, il faut\\nprévoir assez de jetons.”\\pC’est ce que murmurent les\\nemployés du Casino quand notre\\ljoueur est là!\\pAu Casino, faites comme {STR_VAR_1}:\\nsurveillez vos jetons si vous\\ljouez à la {STR_VAR_2}.\\pEn direct du Casino, où l’on\\nsent toute l’effervescence!\\pCe sera tout pour aujourd’hui!",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "oubli",
+  "probleme": "La question sur le facteur décisif de la victoire porte désormais sur la manière de gagner brillamment.",
+  "correction": "ANIMATRICE: Excusez-moi!\\nMerci de répondre à nos questions\\len direct!\\pPuis-je vous féliciter pour votre\\nvictoire?\\pQu’est-ce qui a fait la\\ndifférence dans cette brillante\\lvictoire?\\pCanon: Nous nous sommes donnés\\nà fond aujourd’hui, mon {STR_VAR_2}\\let moi!\\pMais je suis sûre que nous\\nn’aurions pas réussi sans l’aide\\lreçue avant le Concours!\\pANIMATRICE: Y a-t-il quelqu’un\\navec qui vous aimeriez\\lpartager votre joie?\\pAllez-y, nous sommes en direct!\\pCanon: Hé, tu es là?\\p{STR_VAR_3}! Tu regardes?\\nOn a réussi!\\lMerci!",
+  "justification": "« Key factor » désigne ce qui a fait la différence. Les lignes longues sont resserrées et les deux variables sont conservées.",
+  "msgid": "MC: Excuse me!\\nThanks for joining us on live TV!\\pMay I congratulate you on your win?\\pWhat was the key factor in today's\\nstunning victory?\\pBEAUTY: We gave it our best effort\\ntoday, my {STR_VAR_2} and I!\\pBut I'm sure we wouldn't have made it\\nif it weren't for all the help we\\lreceived leading up to the CONTEST!\\pMC: Do you have a special someone\\nwith whom you'd like to share your joy?\\lLet's hear it live!\\pBEAUTY: Hey, out there!\\p{STR_VAR_3}! Are you watching?\\nWe did it!\\lThank you!",
+  "msgstr": "ANIMATRICE: Excusez-moi!\\nMerci de répondre à nos questions\\len direct!\\pPuis-je vous féliciter pour votre\\nvictoire?\\pQu’est-ce qui vous a permis de\\nremporter cette victoire si\\lbrillamment?\\pCanon: Nous nous sommes donnés\\nà fond aujourd’hui, mon {STR_VAR_2}\\let moi!\\pMais je suis sûre que nous n’aurions\\npas réussi sans le soutien reçu\\lavant le Concours!\\pANIMATRICE: Y a-t-il quelqu’un en\\nparticulier avec qui vous souhaiteriez\\lpartager votre joie?\\pAllez-y, tous nos téléspectateurs\\nvous regardent!\\pCanon: Hé, tu es là?\\p{STR_VAR_3}! Est-ce que tu regardes?\\nOn a réussi!\\lMerci!",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "oubli",
+  "probleme": "« Des herbes » omet le caractère indésirable de la végétation.",
+  "correction": "OW_BERRY_WEEDS est désactivé.\\nImpossible d’ajouter de mauvaises\\lherbes sous les arbres à Baies.",
+  "justification": "« Weeds » désigne les mauvaises herbes que cette commande de débogage tente de faire apparaître.",
+  "msgid": "OW_BERRY_WEEDS is disabled.\\nUnable to force weeds onto berry trees.",
+  "msgstr": "OW_BERRY_WEEDS est désactivé.\\nImpossible de faire pousser des\\lherbes sous les arbres à Baies.",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "oubli",
+  "probleme": "L’adaptation du pangramme a supprimé le signe % du texte de test.",
+  "correction": "{FONT_SMALL_NARROWER}42 × 138 = 5796.\\nDu vieux whisky au juge blond\\lqui fume: 20 % de moins.\\lVoilà, ça “vaut” ♂1/♀1 = ¥1.\\lC’est 10 + 9 - 8 = 11\\lLa Nintendo GBA se connecte\\là une Nintendo GameCube!\\lIl dit l’avoir fait les yeux\\lfermés… Je n’y crois pas…?",
+  "justification": "Le passage sert à tester la police. La correction rétablit le signe % et conserve le pangramme français.",
+  "msgid": "{FONT_SMALL_NARROWER}42 × 138 = 5796.\\nMr Jock, TV quiz PhD: bags 20% fewer\\llynx at a café; voilà, they're “worth”\\l♂1/♀1 = ¥1. That's 10 + 9 - 8 = 11\\lNintendo GBA can connect to a Nintendo\\lGameCube console! He claimed-though I don't\\lbelieve him-to have done so in an eyes-shut\\lstate…?",
+  "msgstr": "{FONT_SMALL_NARROWER}42 × 138 = 5796.\\nPortez ce vieux whisky au juge blond\\lqui fume; voilà, ça “vaut” ♂1/♀1 = ¥1.\\lC’est 10 + 9 - 8 = 11\\lLa Nintendo GBA peut se connecter à une\\lconsole Nintendo GameCube! Il prétend\\l(je n’y crois pas) l’avoir fait les yeux\\lfermés…?",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "orthographe",
+  "probleme": "« Encouragés » traite le joueur comme un groupe, alors que le « vous » est un vouvoiement singulier.",
+  "correction": "Bienvenue dans le Parc Safari!\\pIci, vous pourrez admirer bien\\ndes espèces de Pokémon rares\\ldans cette région.\\pVous les verrez à l’état sauvage,\\ndans leur habitat naturel.\\pDe plus, les Dresseurs de Pokémon\\nsont les bienvenus dans ce parc.\\pN’hésitez pas à attraper des\\nPokémon et à les garder!\\pEntrez et profitez du Parc Safari!",
+  "justification": "L’accueil s’adresse à un seul joueur. L’impératif conserve l’invitation et les lignes sont resserrées.",
+  "msgid": "Welcome to the SAFARI ZONE!\\pHere, you may witness many kinds of\\nPOKéMON rarely seen in this region.\\pAnd, you'll see them in their wild,\\nuntamed state in natural habitats.\\pWhat's more, we've thrown open the\\ngates to POKéMON TRAINERS.\\pYou're encouraged to catch POKéMON\\nfor keeps!\\pCome in and enjoy the SAFARI ZONE!",
+  "msgstr": "Bienvenue dans le Parc Safari!\\pIci, vous pourrez admirer de nombreuses\\nespèces de Pokémon rares dans cette\\lrégion.\\pEt vous pourrez les voir à l’état\\nsauvage, dans leur habitat naturel.\\pDe plus, les Dresseurs de Pokémon\\nsont les bienvenus dans ce parc.\\pVous êtes encouragés à attraper des\\nPokémon et à les garder!\\pEntrez et amusez-vous au Parc Safari!",
+  "msgctxt": ""
+ },
+ {
+  "id": 58,
+  "categorie": "terminologie",
+  "probleme": "« Salle des Concours » diffère du nom officiel fourni.",
+  "correction": "la Salle Concours de NENUCRIQUE.",
+  "justification": "Le lexique fourni donne « Salle Concours » pour CONTEST HALL.",
+  "msgid": "the LILYCOVE CONTEST HALL.",
+  "msgstr": "la Salle des Concours de NENUCRIQUE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "oubli",
+  "probleme": "« Embarquement impossible » omet que la restriction est temporaire.",
+  "correction": "Désolé, pas d’embarquement pour l’instant.",
+  "justification": "« Now » limite l’impossibilité au moment présent.",
+  "msgid": "Sorry. You can't board now.",
+  "msgstr": "Désolé. Embarquement impossible.",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "contresens",
+  "probleme": "« Fermée » ne signale pas que la porte est verrouillée.",
+  "correction": "La porte est verrouillée…",
+  "justification": "« Locked » indique que la porte est bloquée par un verrou.",
+  "msgid": "The door is locked…",
+  "msgstr": "La porte est fermée…",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "typographie",
+  "probleme": "Le symbole monétaire est collé au montant.",
+  "correction": "Bonjour, {PLAYER}. Voulez-vous\\npasser au NIVEAU SAFARI 2?\\lCela vous coûtera 200 000 ¥.",
+  "justification": "Quand le symbole monétaire suit le montant en français, une espace les sépare.",
+  "msgid": "Hello {PLAYER}, would you\\nlike to increase your SAFARI LEVEL\\lto 2? It will cost you ¥200,000.",
+  "msgstr": "Bonjour, {PLAYER}. Voulez-vous\\npasser au NIVEAU SAFARI 2?\\lCela vous coûtera 200 000¥.",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "typographie",
+  "probleme": "Le symbole monétaire est collé au montant.",
+  "correction": "Bonjour, {PLAYER}. Voulez-vous\\npasser au NIVEAU SAFARI 3?\\lCela vous coûtera 300 000 ¥.",
+  "justification": "Quand le symbole monétaire suit le montant en français, une espace les sépare.",
+  "msgid": "Hello {PLAYER}, would you\\nlike to increase your SAFARI LEVEL\\lto 3? It will cost you ¥300,000.",
+  "msgstr": "Bonjour, {PLAYER}. Voulez-vous\\npasser au NIVEAU SAFARI 3?\\lCela vous coûtera 300 000¥.",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "typographie",
+  "probleme": "Le symbole monétaire est collé au montant.",
+  "correction": "Bonjour, {PLAYER}. Voulez-vous\\npasser au NIVEAU SAFARI 4?\\lCela vous coûtera 400 000 ¥.",
+  "justification": "Quand le symbole monétaire suit le montant en français, une espace les sépare.",
+  "msgid": "Hello {PLAYER}, would you\\nlike to increase your SAFARI LEVEL\\lto 4? It will cost you ¥400,000.",
+  "msgstr": "Bonjour, {PLAYER}. Voulez-vous\\npasser au NIVEAU SAFARI 4?\\lCela vous coûtera 400 000¥.",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "contresens",
+  "probleme": "« Toujours perdue quelque part » présente comme permanent un simple manque de sens de l’orientation.",
+  "correction": "Quelle force! Tu m’as aidée dans\\nle Bois aux Chênes.\\pJe suis NAOKO. Je n’ai pas un\\ntrès bon sens de l’orientation.\\pJ’étais là quand tu as battu la\\nTeam Rocket, quand Fargas était\\len mauvaise posture au Puits\\lRAMOLOSS.\\pLaisse-moi te défier, toi et tes\\nPokémon!",
+  "justification": "« Not so good with directions » décrit une difficulté à s’orienter.",
+  "msgid": "You are quite strong. You helped\\nme in the ILEX FOREST.\\pI'm NAOKO--not so good with\\ndirections.\\pI saw you defeat Team Rocket\\nwhen KURT was in trouble at\\lthe SLOWPOKE WELL.\\pLet me challenge you and your\\nPOKéMON!",
+  "msgstr": "Quelle force! Tu m’as aidée dans\\nle Bois aux Chênes.\\pJe suis NAOKO, toujours perdue\\nquelque part.\\pJ’étais là quand tu as battu la\\nTeam Rocket, quand Fargas était\\len mauvaise posture au Puits\\lRAMOLOSS.\\pLaisse-moi te défier, toi et tes\\nPokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "contresens",
+  "probleme": "« Tirée de la glace » évoque une extraction de la glace.",
+  "correction": "Quel courage! En me poussant,\\ntu m’as fait sortir de la glace.\\pJe patine en sandales.\\nJe suis SAYO, la Kimono!\\pJ’écoutais dans l’Antre du Dragon\\nquand tu as réussi l’épreuve de\\ll’Ancien.\\pLaisse-moi te défier, toi et tes\\nPokémon!",
+  "justification": "« Off the ice » indique que la poussée a fait quitter à Sayo la surface sur laquelle elle patinait.",
+  "msgid": "Excellent spirit! You got me\\noff the ice by pushing me.\\pI skate in sandals.\\nI am SAYO--the KIMONO GIRL!\\pI listened in the DRAGON'S DEN\\nwhen you passed the Elder's test.\\pLet me challenge you and your\\nPOKéMON!",
+  "msgstr": "Quel courage! Tu m’as tirée de\\nla glace en me poussant.\\pJe patine en sandales.\\nJe suis SAYO, la Kimono!\\pJ’écoutais dans l’Antre du Dragon\\nquand tu as réussi l’épreuve de\\ll’Ancien.\\pLaisse-moi te défier, toi et tes\\nPokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "contresens",
+  "probleme": "« Plaintes croissantes » laisse entendre que les plaintes s’intensifient.",
+  "correction": "C’est quoi, ce prospectus?\\p… Des Dresseurs mal élevés\\norganisaient des combats\\ldans le Souterrain.\\pVu le nombre croissant de\\nplaintes des riverains, le\\lSouterrain est fermé jusqu’à\\lnouvel ordre.\\pPolice de Céladopole",
+  "justification": "L’affiche explique que les combats se répétaient et que les plaintes des riverains se sont multipliées.",
+  "msgid": "What's this flyer?\\p… Uncouth trainers have been\\nholding battles in the\\lUNDERGROUND PATH.\\pBecause of rising complaints by\\nlocal residents, the UNDERGROUND\\lPATH has been sealed indefinitely.\\pCELADON POLICE",
+  "msgstr": "C’est quoi, ce prospectus?\\p… Des Dresseurs mal élevés se\\nsont battus dans le\\lSouterrain.\\pSuite aux plaintes croissantes des\\nriverains, le Souterrain est\\lfermé jusqu’à nouvel ordre.\\pPolice de Céladopole",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "contresens",
+  "probleme": "Le texte exige que les trois Pokémon tiennent un objet et ne précise pas qu’ils doivent être d’espèces différentes.",
+  "correction": "Je regrette, cher Dresseur!\\pVous n’avez pas trois Pokémon\\naptes à participer.\\pIl vous faut trois Pokémon\\nd’espèces différentes.\\pIls doivent tous être de\\nniveau 50 ou moins.\\pDeux Pokémon ne peuvent pas\\ntenir le même objet.\\pLes Œufs{STR_VAR_1}.",
+  "justification": "La règle porte sur les espèces et interdit les objets tenus en double. Tenir un objet reste facultatif.",
+  "msgid": "My dear challenger!\\pYou do not have the three POKéMON\\nrequired for entry.\\pTo qualify, you must bring three\\ndifferent kinds of POKéMON.\\pThe three different POKéMON\\nmust all be Level 50 or lower.\\pThey also must not hold the same\\nkinds of items.\\pEGGS{STR_VAR_1}.",
+  "msgstr": "Je regrette, cher Dresseur!\\pVous n’avez pas trois Pokémon\\naptes à participer.\\pIl vous faut trois Pokémon différents\\npour participer.\\pIl vous faut trois Pokémon différents\\nde niveau 50 ou moins pour participer.\\pIls doivent aussi tenir des objets\\ndifférents.\\pLes Œufs{STR_VAR_1}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "contresens",
+  "probleme": "La traduction présente l’échange comme une méthode d’élevage rapide.",
+  "correction": "Il y a plein de choses à retenir.\\pPar exemple…\\pIl y a 92 CT différentes.\\pLes Pokémon reçus par échange\\nmontent de niveau plus vite.",
+  "justification": "Le bonus de progression s’applique aux Pokémon reçus par échange.",
+  "msgid": "There is a lot to learn.\\pFor example…\\pThere are 92 kinds of TMs.\\pTraded POKéMON level up faster.",
+  "msgstr": "Il y a plein de choses à retenir.\\pPar exemple…\\pIl y a 92 CT différentes.\\pOn peut élever des Pokémon plus\\nvite en les échangeant.",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "contresens",
+  "probleme": "Le titre pluriel du panneau devient une annonce de reconnaissance individuelle.",
+  "correction": "Arène Pokémon du VILLAGE MYOKARA\\pDresseurs reconnus par BASTIEN:\\n{PLAYER}",
+  "justification": "Le panneau dresse la liste des Dresseurs reconnus par Bastien.",
+  "msgid": "DEWFORD TOWN POKéMON GYM\\pBRAWLY'S CERTIFIED TRAINERS:\\n{PLAYER}",
+  "msgstr": "Arène Pokémon du VILLAGE MYOKARA\\pNouveau Dresseur reconnu par BASTIEN:\\n{PLAYER}",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "oubli",
+  "probleme": "La dernière question ne reprend pas l’incertitude de « You think ».",
+  "correction": "{PLAYER}: Salut! On dit que tu as\\nperdu ta Poképoupée préférée.\\p{PLAYER}: Si je la retrouve, tu\\nme donnes un Passe Train?\\p{PLAYER}: Je vais la chercher!\\pTu crois l’avoir perdue en\\nallant à Carmin sur Mer?",
+  "justification": "Le joueur vérifie l’hypothèse de son interlocutrice sur le lieu de la perte.",
+  "msgid": "{PLAYER}: Hi! I heard that you\\nlost your favorite POKé DOLL.\\p{PLAYER}: If I find it, you'll give\\nme a rail PASS?\\p{PLAYER}: I'll go find it for you.\\pYou think you lost it when you\\nwent to VERMILION CITY?",
+  "msgstr": "{PLAYER}: Salut! On dit que tu as\\nperdu ta Poképoupée préférée.\\p{PLAYER}: Si je la retrouve, tu\\nme donnes un Passe Train?\\p{PLAYER}: Je vais la chercher!\\pTu l’as perdue en allant\\nà Carmin sur Mer?",
+  "msgctxt": ""
+ }
+]

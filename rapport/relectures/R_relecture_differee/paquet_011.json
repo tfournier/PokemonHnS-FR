@@ -1,0 +1,82 @@
+[
+ {
+  "id": 19,
+  "categorie": "typographie",
+  "probleme": "Le nombre est ajouté après le libellé, ce qui donne un affichage comme « % aléatoire30 ».",
+  "correction": "Chance (%): ",
+  "justification": "L’unité figure dans le libellé et l’espace finale sépare le nombre ajouté par le jeu.",
+  "msgid": "random %",
+  "msgstr": "% aléatoire",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "terminologie",
+  "probleme": "Le libellé commence par une minuscule alors que le lexique fixe la graphie « Météo ».",
+  "correction": "Météo ",
+  "justification": "Le lexique fourni prescrit « Météo ».",
+  "msgid": "weather ",
+  "msgstr": "météo ",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "orthographe",
+  "probleme": "« Tenu » doit s’accorder avec l’objet inséré, qui peut être féminin, comme une Baie.",
+  "correction": "Objet tenu: {DYNAMIC 0}.",
+  "justification": "L’accord se fait avec « objet », quel que soit le nom affiché par le code.",
+  "msgid": "{DYNAMIC 0} is now held.",
+  "msgstr": "{DYNAMIC 0} est désormais tenu.",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "typographie",
+  "probleme": "Le gabarit du poids conserve le point décimal anglais.",
+  "correction": "        ,   kg",
+  "justification": "Le français emploie la virgule décimale, déjà utilisée dans l’affichage des mesures du projet.",
+  "msgid": "        .   lbs.",
+  "msgstr": "        .   kg",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "typographie",
+  "probleme": "La deuxième ligne atteint environ 42 caractères avec un nom de joueur de sept lettres.",
+  "correction": "Conseil du Prof. Orme…\\n{PLAYER}, chaque chose en son\\ltemps!{PAUSE_UNTIL_PRESS}",
+  "justification": "Le saut de ligne de la source permet de conserver la réplique et le code de pause dans la largeur prévue.",
+  "msgid": "ELM's advice…\\n{PLAYER}, there's a time and place for\\leverything!{PAUSE_UNTIL_PRESS}",
+  "msgstr": "Conseil du Prof. Orme…\\n{PLAYER}, chaque chose en son temps!{PAUSE_UNTIL_PRESS}",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "typographie",
+  "probleme": "La ligne du prix et de la confirmation dépasse le gabarit prévu quand le prix comporte plusieurs chiffres.",
+  "correction": "Vous voulez {STR_VAR_1}?\\nÇa fera {STR_VAR_2}PCo.\\lÇa vous convient?",
+  "justification": "La confirmation passe à la ligne suivante, avec les deux variables conservées.",
+  "msgid": "You wanted {STR_VAR_1}?\\nThat'll be {STR_VAR_2}BP. Will that be okay?",
+  "msgstr": "Vous voulez {STR_VAR_1}?\\nÇa fera {STR_VAR_2}PCo. Ça vous convient?",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "terminologie",
+  "probleme": "« Atq. Spé. » ne suit pas l’abréviation de statistique retenue pour le projet.",
+  "correction": "AS",
+  "justification": "La liste d’abréviations officielles fournie indique « AS » pour l’Attaque Spéciale.",
+  "msgid": "Sp. Atk",
+  "msgstr": "Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "terminologie",
+  "probleme": "« Déf. Spé. » ne suit pas l’abréviation de statistique retenue pour le projet.",
+  "correction": "DS",
+  "justification": "La liste d’abréviations officielles fournie indique « DS » pour la Défense Spéciale.",
+  "msgid": "Sp. Def",
+  "msgstr": "Déf. Spé.",
+  "msgctxt": ""
+ }
+]

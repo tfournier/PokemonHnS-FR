@@ -1295,14 +1295,12 @@ msgid "fell!"
 msgstr "baissé!"
 
 #. source : SoulSilver FR officiel (adapté)
-#. lot : C2b_donnees
-#. preuve :  197:750 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0,
-#. 0}\naugmente! ; forme nominale « en … hausse/baisse » pour les fragments
+#. lot : R_relecture_differee
 #. ancien (SoulSilver FR officiel (adapté)) : {B_BUFF1} du
-#. {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}augmente!
+#. {B_DEF_NAME_WITH_PREFIX} en {B_BUFF2}hausse!
 #: src/battle_message.c:79
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}rose!"
-msgstr "{B_BUFF1} du {B_DEF_NAME_WITH_PREFIX} en {B_BUFF2}hausse!"
+msgstr "{B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} en {B_BUFF2}hausse!"
 
 #. source : Émeraude FR officiel (adapté)
 #. lot : C1_restes
@@ -2732,19 +2730,15 @@ msgid "{B_ATK_NAME_WITH_PREFIX} is locked in a nightmare!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est prisonnier\\nd’un Cauchemar!"
 
 #. source : Émeraude FR officiel (adapté)
-#. lot : C1_restes
-#. preuve : anglais Émeraude : « {B_ATK_NAME_WITH_PREFIX} cut its own HP
-#. and\nlaid a CURSE on {B_DEF_NAME_WITH_PREFIX}! » ; FR officiel : «
-#. {B_ATK_NAME_WITH_PREFIX} sacrifie ses PV\net lance une MALEDICTION\lau
-#. {B_DEF_NAME_WITH_PREFIX}! »
-#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} sacrifie des PV pour
-#. maudire {B_DEF_NAME_WITH_PREFIX2}!
+#. lot : R_relecture_differee
+#. ancien (Émeraude FR officiel (adapté)) : {B_ATK_NAME_WITH_PREFIX} sacrifie
+#. ses PV et lance une Malédiction au {B_DEF_NAME_WITH_PREFIX2}!
 #: src/battle_message.c:322
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX} cut its own HP and put a curse on "
 "{B_DEF_NAME_WITH_PREFIX2}!"
 msgstr ""
-"{B_ATK_NAME_WITH_PREFIX} sacrifie ses PV et lance une Malédiction au "
+"{B_ATK_NAME_WITH_PREFIX} sacrifie des PV et lance une Malédiction sur "
 "{B_DEF_NAME_WITH_PREFIX2}!"
 
 #. source : Émeraude FR officiel
@@ -3093,16 +3087,14 @@ msgstr ""
 "{B_ATK_NAME_WITH_PREFIX} scelle les capacités qu’il partage avec sa cible!"
 
 #. source : SoulSilver FR officiel (adapté)
-#. lot : C1_restes
-#. preuve : 197:616 — {STRVAR_1 1, 0, 0} ne peut pas utiliser\nla capacité
-#. bloquée {STRVAR_1 6, 1, 0}!\r
-#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser
-#. {B_CURRENT_MOVE}!\p
+#. lot : R_relecture_differee
+#. ancien (SoulSilver FR officiel (adapté)) : {B_ATK_NAME_WITH_PREFIX} ne peut
+#. pas utiliser la capacité bloquée {B_CURRENT_MOVE}!\p
 #: src/battle_message.c:361
 msgid "{B_ATK_NAME_WITH_PREFIX} can't use its sealed {B_CURRENT_MOVE}!\\p"
 msgstr ""
-"{B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser la capacité bloquée "
-"{B_CURRENT_MOVE}!\\p"
+"{B_ATK_NAME_WITH_PREFIX} ne peut pas\\nutiliser sa capacité "
+"bloquée\\l{B_CURRENT_MOVE}!\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:362
@@ -5243,16 +5235,16 @@ msgid "When the flame touched the powder on the Pokémon, it exploded!"
 msgstr "La flamme touche la poudre sur le Pokémon et la fait exploser!"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} n’a mangé aucune Baie,
-#. il ne peut pas roter!\p
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : {B_ATK_NAME_WITH_PREFIX} n’a mangé aucune
+#. Baie tenue, il ne peut pas roter!\p
 #: src/battle_message.c:659
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX} hasn't eaten any held Berries, so it can't possibly"
 " belch!\\p"
 msgstr ""
-"{B_ATK_NAME_WITH_PREFIX} n’a mangé aucune Baie tenue, il ne peut pas "
-"roter!\\p"
+"{B_ATK_NAME_WITH_PREFIX} n’a mangé\\naucune Baie tenue et ne\\lpeut donc pas"
+" roter!\\p"
 
 #. source : traduction nouvelle
 #. lot : C2b_donnees
@@ -6040,11 +6032,11 @@ msgid "{B_BUFF1} had its HP restored."
 msgstr "Les PV de {B_BUFF1} sont restaurés."
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : {B_BUFF1} est soigné!
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : Le statut de {B_BUFF1} est soigné!
 #: src/battle_message.c:786
 msgid "{B_BUFF1} had its status healed!"
-msgstr "Le statut de {B_BUFF1} est soigné!"
+msgstr "{B_BUFF1} guérit de son altération de statut!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:787
@@ -8005,11 +7997,11 @@ msgid "It grows a flower at the tip that lures"
 msgstr "Au bout pousse une fleur aux pétales"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : pétales attirent les Pokémon Insecte.
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : filiformes qui attirent les Insectes.
 #: src/berry.c:1132
 msgid "Bug Pokémon with its stringy petals."
-msgstr "filiformes qui attirent les Insectes."
+msgstr "fins attirant les Pokémon Insecte."
 
 #. source : SoulSilver FR officiel
 #: src/berry.c:1148
@@ -8740,12 +8732,12 @@ msgid "FAIRY TYPE isn't added to {PKMN}\\nthat got it in GEN VI."
 msgstr "Le TYPE Fée n’est pas ajouté aux\\nPokémon qui l’ont eu en GEN VI."
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (traduction nouvelle) : Le TYPE Fée est ajouté / modifié
-#. chez\ncertains Pokémon, comme en GEN VI.
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : Certains {PKMN} gagnent le type\nFée, comme
+#. en GEN VI.
 #: src/challenge_menu.c:387
 msgid "FAIRY TYPE is added / changed to\\ncertain {PKMN}, as in GEN VI."
-msgstr "Certains {PKMN} gagnent le type\\nFée, comme en GEN VI."
+msgstr "Le type Fée s’ajoute ou remplace un\\ntype chez des {PKMN} (GEN VI)."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:390
@@ -8829,13 +8821,12 @@ msgstr ""
 "Les CAPA. A RECHARGE comme Ultralaser\\nexigent toujours un tour de repos."
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Si une CAPA. A RECHARGE met K.O.,\naucun tour de
-#. recharge n’est requis.
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : Si une capacité à recharge met
+#. K.O.\nl’ennemi, pas de tour de recharge.
 #: src/challenge_menu.c:419
 msgid "If a RECHARGE MOVE KO's the opponent,\\nno recharge turn is needed."
-msgstr ""
-"Si une capacité à recharge met K.O.\\nl’ennemi, pas de tour de recharge."
+msgstr "Un K.O. avec une capacité à recharge\\ndispense de la recharge."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/challenge_menu.c:422
@@ -9718,11 +9709,11 @@ msgid "The player can NOT use battle items.\\nHold items are allowed!"
 msgstr "Le joueur n’a PAS droit aux objets\\nde combat. Objets tenus autorisés!"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Les Dresseurs ennemis utilisent des objets.
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : Dresseurs ennemis: objets autorisés.
 #: src/challenge_menu.c:990
 msgid "Enemy trainers can use battle items."
-msgstr "Dresseurs ennemis: objets autorisés."
+msgstr "Dresseurs ennemis: objets de combat."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:991
@@ -9738,12 +9729,12 @@ msgid "The player's {PKMN} gain effort\\nvalues as expected."
 msgstr "Les Pokémon du joueur gagnent\\ndes EV normalement."
 
 #. source : traduction nouvelle
-#. lot : H_interface
-#. ancien (patch FR actuel) : Les {PKMN} du joueur ne gagnent\nAucun point
-#. d’effort (EV)!
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : Les Pokémon du joueur ne gagnent\nAucun
+#. point d’effort (EV)!
 #: src/challenge_menu.c:995
 msgid "The player's {PKMN} do NOT gain any\\neffort values!"
-msgstr "Les Pokémon du joueur ne gagnent\\nAucun point d’effort (EV)!"
+msgstr "Les Pokémon du joueur ne gagnent\\naucun point d’effort (EV)!"
 
 #. source : traduction nouvelle
 #. lot : H_interface
@@ -10524,23 +10515,32 @@ msgstr "C’est incontestablement le\\nplus fort, {STR_VAR_1} "
 msgid "The mighty tough\\nhyper POKéMON {STR_VAR_1}"
 msgstr "Le puissant et robuste Pokémon\\n{STR_VAR_1} "
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415698 (pokefirered gString_PokemonFireRed_Staff, BPRE
+#. 0x41D198, ptr) : Equipe de\nPokémon version Rouge Feu
+#. ancien (traduction nouvelle) : Pokémon Version Rouge Feu\nEquipe
 #: src/credits_frlg.c:349
 msgid "Pokémon FireRed Version\\nStaff"
-msgstr "Pokémon Version Rouge Feu\\nEquipe"
+msgstr "Equipe de\\nPokémon version Rouge Feu"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPGF 0x4154F8 (pokefirered gString_PokemonLeafGreen_Staff, BPGE
+#. 0x41CFF4, ptr) : Equipe de\nPokémon version Vert Feuille
+#. ancien (traduction nouvelle) : Pokémon Version Vert Feuille\nEquipe
 #: src/credits_frlg.c:350
 msgid "Pokémon LeafGreen Version\\nStaff"
-msgstr "Pokémon Version Vert Feuille\\nEquipe"
+msgstr "Equipe de\\nPokémon version Vert Feuille"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x4156E4 (pokefirered gCreditsString_Director, BPRE 0x41D1D8,
+#. ptr) : \n\nDirector\n\n\n\n
+#. ancien (traduction nouvelle) : \n\nDirection\n\n\n\n
 #: src/credits_frlg.c:351
 msgid "\\n\\nDirector\\n\\n\\n\\n"
-msgstr "\\n\\nDirection\\n\\n\\n\\n"
+msgstr "\\n\\nDirector\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : C1_exceptions
@@ -10548,11 +10548,16 @@ msgstr "\\n\\nDirection\\n\\n\\n\\n"
 msgid "\\n\\n\\nJunichi Masuda\\n\\n\\n"
 msgstr "\\n\\n\\nJunichi Masuda\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x41570C (pokefirered
+#. gCreditsString_Art_Director_Battle_Director, BPRE 0x41D200, ptr) : \nArt
+#. Director\n\nBattle Director\n\n\n
+#. ancien (traduction nouvelle) : \nDirection artistique\n\nDirection des
+#. combats\n\n\n
 #: src/credits_frlg.c:353
 msgid "\\nArt Director\\n\\nBattle Director\\n\\n\\n"
-msgstr "\\nDirection artistique\\n\\nDirection des combats\\n\\n\\n"
+msgstr "\\nArt Director\\n\\nBattle Director\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10560,11 +10565,17 @@ msgstr "\\nDirection artistique\\n\\nDirection des combats\\n\\n\\n"
 msgid "\\n\\nKen Sugimori\\n\\nShigeki Morimoto\\n\\n"
 msgstr "\\n\\nKen Sugimori\\n\\nShigeki Morimoto\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415754 (pokefirered
+#. gCreditsString_Program_Leader_Planning_Leader_Graphic_Design_Leader, BPRE
+#. 0x41D248, ptr) : Program Leader\n\nPlanning Leader\n\nGraphic Design
+#. Leader\n\n
+#. ancien (traduction nouvelle) : Chef programmeur\n\nResponsable de la
+#. conception\n\nChef graphiste\n\n
 #: src/credits_frlg.c:355
 msgid "Program Leader\\n\\nPlanning Leader\\n\\nGraphic Design Leader\\n\\n"
-msgstr "Chef programmeur\\n\\nResponsable de la conception\\n\\nChef graphiste\\n\\n"
+msgstr "Program Leader\\n\\nPlanning Leader\\n\\nGraphic Design Leader\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10572,11 +10583,14 @@ msgstr "Chef programmeur\\n\\nResponsable de la conception\\n\\nChef graphiste\\
 msgid "\\nTetsuya Watanabe\\n\\nKoji Nishino\\n\\nTakao Unno\\n"
 msgstr "\\nTetsuya Watanabe\\n\\nKoji Nishino\\n\\nTakao Unno\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x4157C0 (pokefirered gCreditsString_Programmers, BPRE
+#. 0x41D2B4, ptr) : Programmers\n\n\n\n\n
+#. ancien (traduction nouvelle) : Programmeurs\n\n\n\n\n
 #: src/credits_frlg.c:357
 msgid "Programmers\\n\\n\\n\\n\\n"
-msgstr "Programmeurs\\n\\n\\n\\n\\n"
+msgstr "Programmers\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10588,11 +10602,14 @@ msgstr ""
 "\\nHiroyuki Nakamura\\nMasao Taya\\nSatoshi Nohara\\nMiyuki "
 "Iwasawa\\nDaisuke Goto\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415820 (pokefirered gCreditsString_System_Programmers, BPRE
+#. 0x41D314, ptr) : System Programmers\n\n\n\n\n\n
+#. ancien (traduction nouvelle) : Programmeurs système\n\n\n\n\n\n
 #: src/credits_frlg.c:359
 msgid "System Programmers\\n\\n\\n\\n\\n\\n"
-msgstr "Programmeurs système\\n\\n\\n\\n\\n\\n"
+msgstr "System Programmers\\n\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10600,11 +10617,14 @@ msgstr "Programmeurs système\\n\\n\\n\\n\\n\\n"
 msgid "\\nTetsuya Watanabe\\nAkito Mori\\nHisashi Sogabe\\nSousuke Tamada\\n\\n"
 msgstr "\\nTetsuya Watanabe\\nAkito Mori\\nHisashi Sogabe\\nSousuke Tamada\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x41587C (pokefirered gCreditsString_Graphic_Designers, BPRE
+#. 0x41D370, ptr) : Graphic Designers\n\n\n\n\n\n
+#. ancien (traduction nouvelle) : Graphistes\n\n\n\n\n\n
 #: src/credits_frlg.c:361
 msgid "Graphic Designers\\n\\n\\n\\n\\n\\n"
-msgstr "Graphistes\\n\\n\\n\\n\\n\\n"
+msgstr "Graphic Designers\\n\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10612,11 +10632,14 @@ msgstr "Graphistes\\n\\n\\n\\n\\n\\n"
 msgid "\\nTakao Unno\\nAsuka Iwashita\\nKanako Eo\\nHiroki Fuchino\\n\\n"
 msgstr "\\nTakao Unno\\nAsuka Iwashita\\nKanako Eo\\nHiroki Fuchino\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x4158CC (pokefirered gCreditsString_Graphic_Designers_2,
+#. BPRE 0x41D3C0, ptr) : \nGraphic Designers\n\n\n\n\n
+#. ancien (traduction nouvelle) : \nGraphistes\n\n\n\n\n
 #: src/credits_frlg.c:363
 msgid "\\nGraphic Designers\\n\\n\\n\\n\\n"
-msgstr "\\nGraphistes\\n\\n\\n\\n\\n"
+msgstr "\\nGraphic Designers\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10624,11 +10647,14 @@ msgstr "\\nGraphistes\\n\\n\\n\\n\\n"
 msgid "\\n\\nKen Sugimori\\nHironobu Yoshida\\n\\n\\n"
 msgstr "\\n\\nKen Sugimori\\nHironobu Yoshida\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415908 (pokefirered gCreditsString_Music_Composition, BPRE
+#. 0x41D3FC, ptr) : \nMusic Composition\n\n\n\n\n
+#. ancien (traduction nouvelle) : \nComposition musicale\n\n\n\n\n
 #: src/credits_frlg.c:365
 msgid "\\nMusic Composition\\n\\n\\n\\n\\n"
-msgstr "\\nComposition musicale\\n\\n\\n\\n\\n"
+msgstr "\\nMusic Composition\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10636,11 +10662,14 @@ msgstr "\\nComposition musicale\\n\\n\\n\\n\\n"
 msgid "\\n\\nGo Ichinose\\nJunichi Masuda\\n\\n\\n"
 msgstr "\\n\\nGo Ichinose\\nJunichi Masuda\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415940 (pokefirered gCreditsString_Sound_Effects, BPRE
+#. 0x41D434, ptr) : \n\nSound Effects\n\n\n\n
+#. ancien (traduction nouvelle) : \n\nEffets sonores\n\n\n\n
 #: src/credits_frlg.c:367
 msgid "\\n\\nSound Effects\\n\\n\\n\\n"
-msgstr "\\n\\nEffets sonores\\n\\n\\n\\n"
+msgstr "\\n\\nSound Effects\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -10651,11 +10680,14 @@ msgstr "\\n\\nEffets sonores\\n\\n\\n\\n"
 msgid "\\n\\n\\nGo Ichinose\\n\\n\\n"
 msgstr "\\n\\n\\nGo Ichinose\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415968 (pokefirered gCreditsString_Game_Designers, BPRE
+#. 0x41D45C, ptr) : \nGame Designers\n\n\n\n\n
+#. ancien (traduction nouvelle) : \nConception du jeu\n\n\n\n\n
 #: src/credits_frlg.c:369 src/credits_frlg.c:371
 msgid "\\nGame Designers\\n\\n\\n\\n\\n"
-msgstr "\\nConception du jeu\\n\\n\\n\\n\\n"
+msgstr "\\nGame Designers\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10669,11 +10701,14 @@ msgstr "\\n\\nJunichi Masuda\\nKoji Nishino\\nTetsuji Ohta\\n\\n"
 msgid "\\n\\nHitomi Sato\\nShigeru Ohmori\\nTadashi Takahashi\\n\\n"
 msgstr "\\n\\nHitomi Sato\\nShigeru Ohmori\\nTadashi Takahashi\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x4159FC (pokefirered gCreditsString_Game_Scenario, BPRE
+#. 0x41D4F0, ptr) : \nGame Scenario\n\n\n\n\n
+#. ancien (traduction nouvelle) : \nScénario\n\n\n\n\n
 #: src/credits_frlg.c:373
 msgid "\\nGame Scenario\\n\\n\\n\\n\\n"
-msgstr "\\nScénario\\n\\n\\n\\n\\n"
+msgstr "\\nGame Scenario\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10681,11 +10716,15 @@ msgstr "\\nScénario\\n\\n\\n\\n\\n"
 msgid "\\n\\nHitomi Sato\\nSatoshi Tajiri\\n\\n\\n"
 msgstr "\\n\\nHitomi Sato\\nSatoshi Tajiri\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415A30 (pokefirered
+#. gCreditsString_Script_Designer_Map_Designer, BPRE 0x41D524, ptr) : \nScript
+#. Designer\n\nMap Designer\n\n\n
+#. ancien (traduction nouvelle) : \nScénario\n\nConception des cartes\n\n\n
 #: src/credits_frlg.c:375
 msgid "\\nScript Designer\\n\\nMap Designer\\n\\n\\n"
-msgstr "\\nScénario\\n\\nConception des cartes\\n\\n\\n"
+msgstr "\\nScript Designer\\n\\nMap Designer\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10693,11 +10732,14 @@ msgstr "\\nScénario\\n\\nConception des cartes\\n\\n\\n"
 msgid "\\n\\nSatoshi Nohara\\n\\nShigeru Ohmori\\n\\n"
 msgstr "\\n\\nSatoshi Nohara\\n\\nShigeru Ohmori\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415A78 (pokefirered gCreditsString_Parametric_Designers,
+#. BPRE 0x41D56C, ptr) : \nParametric Designers\n\n\n\n\n
+#. ancien (traduction nouvelle) : \nParamétrage\n\n\n\n\n
 #: src/credits_frlg.c:377
 msgid "\\nParametric Designers\\n\\n\\n\\n\\n"
-msgstr "\\nParamétrage\\n\\n\\n\\n\\n"
+msgstr "\\nParametric Designers\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10705,11 +10747,14 @@ msgstr "\\nParamétrage\\n\\n\\n\\n\\n"
 msgid "\\n\\nKoji Nishino\\nTetsuji Ohta\\nShigeki Morimoto\\n\\n"
 msgstr "\\n\\nKoji Nishino\\nTetsuji Ohta\\nShigeki Morimoto\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415AC4 (pokefirered gCreditsString_POKeDEX_Text, BPRE
+#. 0x41D5B8, ptr) : \n\nPOKéDEX Text\n\n\n\n
+#. ancien (traduction nouvelle) : \n\nTextes du Pokédex\n\n\n\n
 #: src/credits_frlg.c:379
 msgid "\\n\\nPOKéDEX Text\\n\\n\\n\\n"
-msgstr "\\n\\nTextes du Pokédex\\n\\n\\n\\n"
+msgstr "\\n\\nPokédex Text\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -10720,11 +10765,14 @@ msgstr "\\n\\nTextes du Pokédex\\n\\n\\n\\n"
 msgid "\\n\\n\\nKenji Matsushima\\n\\n\\n"
 msgstr "\\n\\n\\nKenji Matsushima\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415AF0 (pokefirered gCreditsString_POKeMON_Designers, BPRE
+#. 0x41D5E4, ptr) : POKéMON Designers\n\n\n\n\n\n
+#. ancien (traduction nouvelle) : Design des Pokémon\n\n\n\n\n\n
 #: src/credits_frlg.c:381 src/credits_frlg.c:383 src/credits_frlg.c:385
 msgid "POKéMON Designers\\n\\n\\n\\n\\n\\n"
-msgstr "Design des Pokémon\\n\\n\\n\\n\\n\\n"
+msgstr "Pokémon Designers\\n\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10744,11 +10792,14 @@ msgstr "\\nSatoshi Ohta\\nAsuka Iwashita\\nTakao Unno\\nKanako Eo\\nAimi Tomita\
 msgid "\\nAtsuko Nishida\\nMuneo Saito\\nRena Yoshikawa\\nJun Okutani\\n\\n"
 msgstr "\\nAtsuko Nishida\\nMuneo Saito\\nRena Yoshikawa\\nJun Okutani\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415BF8 (pokefirered gCreditsString_Supporting_Programmers,
+#. BPRE 0x41D6EC, ptr) : Supporting Programmers\n\n\n\n
+#. ancien (traduction nouvelle) : Programmeurs assistants\n\n\n\n
 #: src/credits_frlg.c:387
 msgid "Supporting Programmers\\n\\n\\n\\n"
-msgstr "Programmeurs assistants\\n\\n\\n\\n"
+msgstr "Supporting Programmers\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10756,11 +10807,14 @@ msgstr "Programmeurs assistants\\n\\n\\n\\n"
 msgid "\\nTeruyuki Yoshioka\\nTakao Nakano\\n\\nSatoshi Mitsuhara\\nDaisuke Hoshino\\n"
 msgstr "\\nTeruyuki Yoshioka\\nTakao Nakano\\n\\nSatoshi Mitsuhara\\nDaisuke Hoshino\\n"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415C58 (pokefirered gCreditsString_NCL_Product_Testing,
+#. BPRE 0x41D74C, ptr) : \n\nNCL Product Testing\n\n\n\n
+#. ancien (traduction nouvelle) : \n\nTests produit NCL\n\n\n\n
 #: src/credits_frlg.c:389
 msgid "\\n\\nNCL Product Testing\\n\\n\\n\\n"
-msgstr "\\n\\nTests produit NCL\\n\\n\\n\\n"
+msgstr "\\n\\nNCL Product Testing\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10768,12 +10822,15 @@ msgstr "\\n\\nTests produit NCL\\n\\n\\n\\n"
 msgid "\\n\\n\\nNCL Super Mario Club\\n\\n\\n"
 msgstr "\\n\\n\\nNCL Super Mario Club\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415C90 (pokefirered gCreditsString_Special_Thanks, BPRE
+#. 0x41D784, ptr) : Special Thanks\n\n\n\n\n\n
+#. ancien (traduction nouvelle) : Remerciements\n\n\n\n\n\n
 #: src/credits_frlg.c:391 src/credits_frlg.c:393 src/credits_frlg.c:395
 #: src/credits_frlg.c:427 src/credits_frlg.c:429
 msgid "Special Thanks\\n\\n\\n\\n\\n\\n"
-msgstr "Remerciements\\n\\n\\n\\n\\n\\n"
+msgstr "Special Thanks\\n\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10797,11 +10854,14 @@ msgstr ""
 "\\nMakiko Takada\\nMikiko Ohashi\\nShusaku Egami\\nTakanao Kondo\\nRui "
 "Kawaguchi\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415DA0 (pokefirered gCreditsString_Braille_Code_Check, BPRE
+#. 0x41D894, ptr) : \n\nBraille Code Check\n\n\n\n
+#. ancien (traduction nouvelle) : \n\nVérification du braille\n\n\n\n
 #: src/credits_frlg.c:397
 msgid "\\n\\nBraille Code Check\\n\\n\\n\\n"
-msgstr "\\n\\nVérification du braille\\n\\n\\n\\n"
+msgstr "\\n\\nBraille Code Check\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10809,11 +10869,14 @@ msgstr "\\n\\nVérification du braille\\n\\n\\n\\n"
 msgid "\\n\\n\\nJapan Braille Library\\n\\n\\n"
 msgstr "\\n\\n\\nJapan Braille Library\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415DD8 (pokefirered gCreditsString_Information_Supervisors,
+#. BPRE 0x41D8CC, ptr) : Information Supervisors\n\n\n\n\n\n
+#. ancien (traduction nouvelle) : Supervision des informations\n\n\n\n\n\n
 #: src/credits_frlg.c:399
 msgid "Information Supervisors\\n\\n\\n\\n\\n\\n"
-msgstr "Supervision des informations\\n\\n\\n\\n\\n\\n"
+msgstr "Information Supervisors\\n\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10825,11 +10888,14 @@ msgstr ""
 "\\nHiroki Enomoto\\nKazuyuki Terada\\nYuri Sakurai\\nYumi Funasaka\\nNaoko "
 "Yanase\\n"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415E44 (pokefirered gCreditsString_Coordinators, BPRE
+#. 0x41D938, ptr) : Coordinators\n\n\n\n\n\n
+#. ancien (traduction nouvelle) : Coordination\n\n\n\n\n\n
 #: src/credits_frlg.c:401
 msgid "Coordinators\\n\\n\\n\\n\\n\\n"
-msgstr "Coordination\\n\\n\\n\\n\\n\\n"
+msgstr "Coordinators\\n\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10837,11 +10903,14 @@ msgstr "Coordination\\n\\n\\n\\n\\n\\n"
 msgid "\\nAzusa Tajima\\nAkira Kinashi\\nKazuki Yoshihara\\n\\nRetsuji Nomoto\\n"
 msgstr "\\nAzusa Tajima\\nAkira Kinashi\\nKazuki Yoshihara\\n\\nRetsuji Nomoto\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415E98 (pokefirered gCreditsString_Task_Managers, BPRE
+#. 0x41D98C, ptr) : \nTask Managers\n\n\n\n\n
+#. ancien (traduction nouvelle) : \nGestion des tâches\n\n\n\n\n
 #: src/credits_frlg.c:403
 msgid "\\nTask Managers\\n\\n\\n\\n\\n"
-msgstr "\\nGestion des tâches\\n\\n\\n\\n\\n"
+msgstr "\\nTask Managers\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10849,11 +10918,14 @@ msgstr "\\nGestion des tâches\\n\\n\\n\\n\\n"
 msgid "\\n\\nHitoshi Yamagami\\nGakuji Nomoto\\n\\n\\n"
 msgstr "\\n\\nHitoshi Yamagami\\nGakuji Nomoto\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415ED0 (pokefirered gCreditsString_Producers, BPRE
+#. 0x41D9C4, ptr) : \nProducers\n\n\n\n\n
+#. ancien (traduction nouvelle) : \nProducteurs\n\n\n\n\n
 #: src/credits_frlg.c:405
 msgid "\\nProducers\\n\\n\\n\\n\\n"
-msgstr "\\nProducteurs\\n\\n\\n\\n\\n"
+msgstr "\\nProducers\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10861,11 +10933,14 @@ msgstr "\\nProducteurs\\n\\n\\n\\n\\n"
 msgid "\\n\\nHiroyuki Jinnai\\nTakehiro Izushi\\nHiroaki Tsuru\\n\\n"
 msgstr "\\n\\nHiroyuki Jinnai\\nTakehiro Izushi\\nHiroaki Tsuru\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415F14 (pokefirered gCreditsString_Executive_Director, BPRE
+#. 0x41DA08, ptr) : \n\nExecutive Director\n\n\n\n
+#. ancien (traduction nouvelle) : \n\nDirecteur exécutif\n\n\n\n
 #: src/credits_frlg.c:407
 msgid "\\n\\nExecutive Director\\n\\n\\n\\n"
-msgstr "\\n\\nDirecteur exécutif\\n\\n\\n\\n"
+msgstr "\\n\\nExecutive Director\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -10876,11 +10951,14 @@ msgstr "\\n\\nDirecteur exécutif\\n\\n\\n\\n"
 msgid "\\n\\n\\nSatoshi Tajiri\\n\\n\\n"
 msgstr "\\n\\n\\nSatoshi Tajiri\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415F48 (pokefirered gCreditsString_Executive_Producer, BPRE
+#. 0x41DA3C, ptr) : \n\nExecutive Producer\n\n\n\n
+#. ancien (traduction nouvelle) : \n\nProducteur exécutif\n\n\n\n
 #: src/credits_frlg.c:409 src/credits_frlg.c:411
 msgid "\\n\\nExecutive Producer\\n\\n\\n\\n"
-msgstr "\\n\\nProducteur exécutif\\n\\n\\n\\n"
+msgstr "\\n\\nExecutive Producer\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -10898,35 +10976,53 @@ msgstr "\\n\\n\\nSatoru Iwata\\n\\n\\n"
 msgid "\\n\\n\\nTsunekaz Ishihara\\n\\n\\n"
 msgstr "\\n\\n\\nTsunekaz Ishihara\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415FAC (pokefirered
+#. gCreditsString_English_Version_Coordinators, BPRE 0x41DAA0, ptr) :
+#. \n\nFrench Version Coordinator\n\n\n\n
+#. ancien (traduction nouvelle) : \nCoordination version anglaise\n\n\n\n\n
 #: src/credits_frlg.c:413
 msgid "\\nEnglish Version Coordinators\\n\\n\\n\\n\\n"
-msgstr "\\nCoordination version anglaise\\n\\n\\n\\n\\n"
+msgstr "\\n\\nFrench Version Coordinator\\n\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_exceptions
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415FD0 (pokefirered
+#. gCreditsString_Hiro_Nakamura_Seth_McMahill, BPRE 0x41DAC4, ptr) :
+#. \n\n\nHiroyuki Uesugi\n\n\n
+#. ancien (traduction nouvelle) : \n\nHiro Nakamura\nSeth McMahill\n\n\n
 #: src/credits_frlg.c:414
 msgid "\\n\\nHiro Nakamura\\nSeth McMahill\\n\\n\\n"
-msgstr "\\n\\nHiro Nakamura\\nSeth McMahill\\n\\n\\n"
+msgstr "\\n\\n\\nHiroyuki Uesugi\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415FE8 (pokefirered gCreditsString_Translator_Text_Editor,
+#. BPRE 0x41DAE8, ptr) : \nTranslators\n\n\n\n\n
+#. ancien (traduction nouvelle) : \nTraduction\n\nRévision des textes\n\n\n
 #: src/credits_frlg.c:415
 msgid "\\nTranslator\\n\\nText Editor\\n\\n\\n"
-msgstr "\\nTraduction\\n\\nRévision des textes\\n\\n\\n"
+msgstr "\\nTranslators\\n\\n\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_exceptions
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x415FFC (pokefirered
+#. gCreditsString_Nob_Ogasawara_Teresa_Lillygren, BPRE 0x41DB04, ptr) :
+#. \n\nPierre Sanchez\nZadia Messerli\n\n\n
+#. ancien (traduction nouvelle) : \n\nNob Ogasawara\n\nTeresa Lillygren\n\n
 #: src/credits_frlg.c:416
 msgid "\\n\\nNob Ogasawara\\n\\nTeresa Lillygren\\n\\n"
-msgstr "\\n\\nNob Ogasawara\\n\\nTeresa Lillygren\\n\\n"
+msgstr "\\n\\nPierre Sanchez\\nZadia Messerli\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x416020 (pokefirered gCreditsString_Programmers_2, BPRE
+#. 0x41DB28, ptr) : Programmers\n\n\n\n\n\n
+#. ancien (traduction nouvelle) : Programmeurs\n\n\n\n\n\n
 #: src/credits_frlg.c:417
 msgid "Programmers\\n\\n\\n\\n\\n\\n"
-msgstr "Programmeurs\\n\\n\\n\\n\\n\\n"
+msgstr "Programmers\\n\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10934,11 +11030,16 @@ msgstr "Programmeurs\\n\\n\\n\\n\\n\\n"
 msgid "\\nTeruki Murakawa\\nSouichi Yamamoto\\nYuichiro Ito\\nAkira Kinashi\\n\\n"
 msgstr "\\nTeruki Murakawa\\nSouichi Yamamoto\\nYuichiro Ito\\nAkira Kinashi\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x416074 (pokefirered
+#. gCreditsString_Environment_Tool_Programmers, BPRE 0x41DB7C, ptr) :
+#. \nEnvironment & Tool Programmers\n\n\n\n\n
+#. ancien (traduction nouvelle) : \nProgrammeurs environnement et
+#. outils\n\n\n\n\n
 #: src/credits_frlg.c:419
 msgid "\\nEnvironment & Tool Programmers\\n\\n\\n\\n\\n"
-msgstr "\\nProgrammeurs environnement et outils\\n\\n\\n\\n\\n"
+msgstr "\\nEnvironment & Tool Programmers\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10946,23 +11047,34 @@ msgstr "\\nProgrammeurs environnement et outils\\n\\n\\n\\n\\n"
 msgid "\\n\\nTeruki Murakawa\\nSouichi Yamamoto\\nKimiko Nakamichi\\n\\n"
 msgstr "\\n\\nTeruki Murakawa\\nSouichi Yamamoto\\nKimiko Nakamichi\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x4160D4 (pokefirered gCreditsString_NOA_Product_Testing,
+#. BPRE 0x41DBDC, ptr) : \nNOE Product Testing\n\n\n\n\n
+#. ancien (traduction nouvelle) : Tests produit NOA\n\n\n\n\n\n
 #: src/credits_frlg.c:421
 msgid "NOA Product Testing\\n\\n\\n\\n\\n\\n"
-msgstr "Tests produit NOA\\n\\n\\n\\n\\n\\n"
+msgstr "\\nNoé Product Testing\\n\\n\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_exceptions
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x4160F0 (pokefirered
+#. gCreditsString_Thomas_Hertzog_Kathy_Huguenard_Mika_Kurosawa, BPRE 0x41DBF8,
+#. ptr) : \n\nAlessio Danieli\nRudi Schnitzer\n\n\n
+#. ancien (traduction nouvelle) : \nThomas Hertzog\nKathy Huguenard\nMika
+#. Kurosawa\n\n\n
 #: src/credits_frlg.c:422
 msgid "\\nThomas Hertzog\\nKathy Huguenard\\nMika Kurosawa\\n\\n\\n"
-msgstr "\\nThomas Hertzog\\nKathy Huguenard\\nMika Kurosawa\\n\\n\\n"
+msgstr "\\n\\nAlessio Danieli\\nRudi Schnitzer\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x416114 (pokefirered gCreditsString_Braille_Code_Check_2,
+#. BPRE 0x41DC2C, ptr) : \nNOE Product Testing\n\n\n\n\n
+#. ancien (traduction nouvelle) : Vérification du braille\n\n\n\n\n\n
 #: src/credits_frlg.c:423
 msgid "Braille Code Check\\n\\n\\n\\n\\n\\n"
-msgstr "Vérification du braille\\n\\n\\n\\n\\n\\n"
+msgstr "\\nNoé Product Testing\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10974,11 +11086,14 @@ msgstr ""
 "\\nNational Federation\\n{CLEAR_TO 0x13}of the Blind\\nPatricia A. "
 "Maurer\\nJapan Braille Library\\nEuropean Blind Union\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x416154 (pokefirered gCreditsString_Braille_Code_Check_3,
+#. BPRE 0x41DCAC, ptr) : \nNOE Product Testing\n\n\n\n\n
+#. ancien (traduction nouvelle) : \nVérification du braille\n\n\n\n\n
 #: src/credits_frlg.c:425 src/credits_frlg.c:431
 msgid "\\nBraille Code Check\\n\\n\\n\\n\\n"
-msgstr "\\nVérification du braille\\n\\n\\n\\n\\n"
+msgstr "\\nNoé Product Testing\\n\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -10990,33 +11105,53 @@ msgstr ""
 "\\n\\nNational Information Library\\n{CLEAR_TO 0x2D}Service\\nMargaret "
 "Campion\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_exceptions
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x4161C4 (pokefirered
+#. gCreditsString_Takehiro_Izushi_Motoyasu_Tojima_Hitoshi_Yamagami_Hiroyuki_Uesugi,
+#. BPRE 0x41DD20, ptr) : \nHiro Nakamura\nTakehiro Izushi\nHitoshi
+#. Yamagami\nMotoyasu Tojima\n\n
+#. ancien (traduction nouvelle) : \nTakehiro Izushi\nMotoyasu Tojima\nHitoshi
+#. Yamagami\nHiroyuki Uesugi\n\n
 #: src/credits_frlg.c:428
 msgid "\\nTakehiro Izushi\\nMotoyasu Tojima\\nHitoshi Yamagami\\nHiroyuki Uesugi\\n\\n"
-msgstr "\\nTakehiro Izushi\\nMotoyasu Tojima\\nHitoshi Yamagami\\nHiroyuki Uesugi\\n\\n"
+msgstr "\\nHiro Nakamura\\nTakehiro Izushi\\nHitoshi Yamagami\\nMotoyasu Tojima\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_exceptions
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x416220 (pokefirered
+#. gCreditsString_Nicola_Pratt_Barlow_Shellie_Dow_Anthony_Howitt_Naoko_Saeki_Kyoko_Onishi,
+#. BPRE 0x41DD7C, ptr) : \nNicola Pratt-Barlow\nSilke Sczyrba\nRika Kazama-
+#. Fanselow\nTaeko Suzuki\n\n
+#. ancien (traduction nouvelle) : \nNicola Pratt-Barlow\nShellie Dow\nAnthony
+#. Howitt\nNaoko Saeki\nKyoko Onishi\n
 #: src/credits_frlg.c:430
 msgid ""
 "\\nNicola Pratt-Barlow\\nShellie Dow\\nAnthony Howitt\\nNaoko Saeki\\nKyoko "
 "Onishi\\n"
 msgstr ""
-"\\nNicola Pratt-Barlow\\nShellie Dow\\nAnthony Howitt\\nNaoko Saeki\\nKyoko "
-"Onishi\\n"
+"\\nNicola Pratt-Barlow\\nSilke Sczyrba\\nRika Kazama-Fanselow\\nTaeko "
+"Suzuki\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_exceptions
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x416284 (pokefirered
+#. gCreditsString_The_Royal_New_Zealand_Foundation_of_the_Blind_Greg_Moran,
+#. BPRE 0x41DDE4, ptr) : \n\n\nEuropean Blind Union\n\n\n
+#. ancien (traduction nouvelle) : \n\nThe Royal New Zealand\nFoundation of the
+#. Blind\nGreg Moran\n\n
 #: src/credits_frlg.c:432
 msgid "\\n\\nThe Royal New Zealand\\nFoundation of the Blind\\nGreg Moran\\n\\n"
-msgstr "\\n\\nThe Royal New Zealand\\nFoundation of the Blind\\nGreg Moran\\n\\n"
+msgstr "\\n\\n\\nEuropean Blind Union\\n\\n\\n"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x4162A0 (pokefirered gCreditsString_Graphic_Designer, BPRE
+#. 0x41DE24, ptr) : \n\nGraphic Designer\n\n\n\n
+#. ancien (traduction nouvelle) : \n\nGraphiste\n\n\n\n
 #: src/credits_frlg.c:433
 msgid "\\n\\nGraphic Designer\\n\\n\\n\\n"
-msgstr "\\n\\nGraphiste\\n\\n\\n\\n"
+msgstr "\\n\\nGraphic Designer\\n\\n\\n\\n"
 
 #. source : traduction nouvelle
 #. lot : C1_exceptions
@@ -13851,14 +13986,14 @@ msgstr ""
 "combat."
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Appuyez sur {B_BUTTON} pour placer le
-#. curseur\nsur Fuite une fois le combat lancé.
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : Avec {B_BUTTON}, le curseur va sur
+#. Fuite\nune fois le combat lancé.
 #: src/option_menu.c:344
 msgid ""
 "Press {B_BUTTON} to move the cursor to the RUN\\noption after the battle "
 "started."
-msgstr "Avec {B_BUTTON}, le curseur va sur Fuite\\nune fois le combat lancé."
+msgstr "{B_BUTTON}: curseur sur FUITE une\\nfois le combat lancé."
 
 #. source : traduction nouvelle
 #. lot : C2b_donnees
@@ -14941,11 +15076,11 @@ msgid "Sweet"
 msgstr "Sucré"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (traduction manuelle (style SoulSilver)) : aléatoire %
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : % aléatoire
 #: src/pokedex_plus_hgss.c:6850
 msgid "random %"
-msgstr "% aléatoire"
+msgstr "Chance (%):"
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:6854
@@ -17055,11 +17190,11 @@ msgid "Put this item in the BAG?"
 msgstr "Placer objet dans le Sac?"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (traduction manuelle (style SoulSilver)) : {DYNAMIC 0} est tenu.
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : {DYNAMIC 0} est désormais tenu.
 #: src/pokemon_storage_system.c:1083
 msgid "{DYNAMIC 0} is now held."
-msgstr "{DYNAMIC 0} est désormais tenu."
+msgstr "Objet tenu: {DYNAMIC 0}."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/pokemon_storage_system.c:1084
@@ -24185,11 +24320,13 @@ msgstr "NOSFERALTO"
 msgid "SLOWBRO"
 msgstr "FLAGADOSS"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x472764 (sTrainerTowerFloor_Single_7[0]) : ILAN
+#. ancien (traduction nouvelle) : Jac
 #: src/trainer_tower_sets.c:267
 msgid "JAC"
-msgstr "Jac"
+msgstr "Ilan"
 
 #. source : Émeraude FR officiel
 #: data/maps/Route25_BillsHouse_hns/scripts.inc:319
@@ -24241,11 +24378,13 @@ msgstr "CANARTICHO"
 msgid "MR. MIME"
 msgstr "M. MIME"
 
-#. nom propre/fragment conservé (le patch FR actuel donnait un morceau d’un
-#. autre texte)
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x472B44 (sTrainerTowerFloor_Single_Unused[0]) : LUCILLE
+#. ancien (?) : MILY
 #: src/trainer_tower_sets.c:425
 msgid "MILY"
-msgstr "MILY"
+msgstr "Lucille"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/trainer_hill.h:1856
@@ -24539,11 +24678,13 @@ msgstr "MACKOGNEUR"
 msgid "HERACROSS"
 msgstr "SCARHINO"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x473AC4 (sTrainerTowerFloor_Knockout_1[0]) : ANGELO
+#. ancien (traduction nouvelle) : Jordy
 #: src/trainer_tower_sets.c:1482
 msgid "JORDY"
-msgstr "Jordy"
+msgstr "Angelo"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/trainer_hill.h:7934
@@ -24755,11 +24896,13 @@ msgstr "ARBOK"
 msgid "NIDOKING"
 msgstr "NIDOKING"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x474664 (sTrainerTowerFloor_Single_8[0]) : FLO
+#. ancien (traduction nouvelle) : Lily
 #: src/trainer_tower_sets.c:2525
 msgid "LILY"
-msgstr "Lily"
+msgstr "Flo"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/trainer_hill.h:813
@@ -24847,11 +24990,14 @@ msgstr "CARATROC"
 msgid "FORRETRESS"
 msgstr "FORETRESS"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x474E24 (sTrainerTowerFloor_Double_3[0]) : RIC & LILI ; BPRF
+#. 0x474F6C (sTrainerTowerFloor_Double_3[1]) : RIC & LILI
+#. ancien (traduction nouvelle) : Ric & Rene
 #: src/trainer_tower_sets.c:2839 src/trainer_tower_sets.c:2983
 msgid "RIC & RENE"
-msgstr "Ric & Rene"
+msgstr "Ric & Lili"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/trainer_hill.h:4577
@@ -24871,11 +25017,14 @@ msgstr "OSSATUEUR"
 msgid "ELECTABUZZ"
 msgstr "ELEKTEK"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x475204 (sTrainerTowerFloor_Double_1[0]) : ERY & KIRA ; BPRF
+#. 0x47534C (sTrainerTowerFloor_Double_1[1]) : ERY & KIRA
+#. ancien (traduction nouvelle) : Jen & Kira
 #: src/trainer_tower_sets.c:3139 src/trainer_tower_sets.c:3283
 msgid "JEN & KIRA"
-msgstr "Jen & Kira"
+msgstr "Ery & Kira"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/trainer_hill.h:8671
@@ -25199,11 +25348,13 @@ msgstr "TENTACRUEL"
 msgid "DUNSPARCE"
 msgstr "INSOLOURDO"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x476564 (sTrainerTowerFloor_Mixed_1[0]) : ALINE
+#. ancien (traduction nouvelle) : Allyson
 #: src/trainer_tower_sets.c:4782
 msgid "ALLYSON"
-msgstr "Allyson"
+msgstr "Aline"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/trainer_hill.h:7321
@@ -25237,11 +25388,14 @@ msgstr "ALIGATUEUR"
 msgid "GRANBULL"
 msgstr "GRANBULL"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x476D24 (sTrainerTowerFloor_Mixed_5[0]) : KAT & NINO ; BPRF
+#. 0x476E6C (sTrainerTowerFloor_Mixed_5[1]) : KAT & NINO
+#. ancien (traduction nouvelle) : Kat & Kipp
 #: src/trainer_tower_sets.c:5096 src/trainer_tower_sets.c:5240
 msgid "KAT & KIPP"
-msgstr "Kat & Kipp"
+msgstr "Kat & Nino"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/trainer_hill.h:2553
@@ -25298,12 +25452,14 @@ msgstr "CRUSTABRI"
 msgid "KABUTOPS"
 msgstr "KABUTOPS"
 
-#. source : traduction nouvelle
-#. lot : corrections_longueurs
-#. ancien (traduction nouvelle) : Geb & Megan
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x477104 (sTrainerTowerFloor_Double_8[0]) : GEB & MEL ; BPRF
+#. 0x47724C (sTrainerTowerFloor_Double_8[1]) : GEB & MEL
+#. ancien (traduction nouvelle) : Geb&Megan
 #: src/trainer_tower_sets.c:5396 src/trainer_tower_sets.c:5540
 msgid "GEB&MEGAN"
-msgstr "Geb&Megan"
+msgstr "Geb & Mel"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/trainer_hill.h:6324
@@ -25322,12 +25478,14 @@ msgstr "LIPPOUTOU"
 msgid "SLOWKING"
 msgstr "ROIGADA"
 
-#. source : traduction nouvelle
-#. lot : corrections_longueurs
-#. ancien (traduction nouvelle) : Lisa & Leah
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x4774E4 (sTrainerTowerFloor_Double_Unused1[0]) : LISA&ERIN ;
+#. BPRF 0x47762C (sTrainerTowerFloor_Double_Unused1[1]) : LISA&ERIN
+#. ancien (traduction nouvelle) : Lisa&Leah
 #: src/trainer_tower_sets.c:5696 src/trainer_tower_sets.c:5840
 msgid "LISA&LEAH"
-msgstr "Lisa&Leah"
+msgstr "Lisa&Erin"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/trainer_hill.h:6615
@@ -25390,11 +25548,13 @@ msgstr "NIDORAN♂"
 msgid "TOTODILE"
 msgstr "KAIMINUS"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x4778C4 (sTrainerTowerFloor_Knockout_7[0]) : NINON
+#. ancien (traduction nouvelle) : Priscilla
 #: src/trainer_tower_sets.c:5996
 msgid "PRISCILLA"
-msgstr "Priscilla"
+msgstr "Ninon"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:16218
@@ -25589,17 +25749,23 @@ msgstr "Nia & Carl"
 msgid "MUK"
 msgstr "GROTADMORV"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x479004 (sTrainerTowerFloor_Double_7[0]) : LEO & LEA ; BPRF
+#. 0x47914C (sTrainerTowerFloor_Double_7[1]) : LEO & LEA
+#. ancien (traduction nouvelle) : Axe & Ren
 #: src/trainer_tower_sets.c:7653 src/trainer_tower_sets.c:7797
 msgid "AXE & REN"
-msgstr "Axe & Ren"
+msgstr "Léo & Léa"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x4793E4 (sTrainerTowerFloor_Double_Unused3[0]) : KATI & SEB
+#. ; BPRF 0x47952C (sTrainerTowerFloor_Double_Unused3[1]) : KATI & SEB
+#. ancien (traduction nouvelle) : Kati & Geb
 #: src/trainer_tower_sets.c:7953 src/trainer_tower_sets.c:8097
 msgid "KATI & GEB"
-msgstr "Kati & Geb"
+msgstr "Kati & Seb"
 
 #. source : Émeraude FR officiel
 #: src/data/battle_frontier/trainer_hill.h:6766
@@ -25638,11 +25804,13 @@ msgstr "BEN"
 msgid "CAMDEN"
 msgstr "JACKY"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x479A54 (sTrainerTowerFloor_Knockout_6[2]) : MARIO
+#. ancien (traduction nouvelle) : Zackery
 #: src/trainer_tower_sets.c:8541
 msgid "ZACKERY"
-msgstr "Zackery"
+msgstr "Mario"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:12716
@@ -25659,11 +25827,13 @@ msgstr "SPECTRUM"
 msgid "MAURA"
 msgstr "MYRIAM"
 
-#. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x479CEC (sTrainerTowerFloor_Knockout_5[1]) : DORINE
+#. ancien (traduction nouvelle) : Mikaela
 #: src/trainer_tower_sets.c:8840
 msgid "MIKAELA"
-msgstr "Mikaela"
+msgstr "Dorine"
 
 #. source : Émeraude FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:5139
@@ -25902,16 +26072,18 @@ msgid "Speed"
 msgstr "Vitesse"
 
 #. source : traduction nouvelle
-#. lot : C1_restes
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : Atq. Spé.
 #: src/battle_debug.c:341
 msgid "Sp. Atk"
-msgstr "Atq. Spé."
+msgstr "AS"
 
 #. source : traduction nouvelle
-#. lot : C1_restes
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : Déf. Spé.
 #: src/battle_debug.c:342
 msgid "Sp. Def"
-msgstr "Déf. Spé."
+msgstr "DS"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -26106,10 +26278,11 @@ msgid "Telekinesis"
 msgstr "Lévikinésie"
 
 #. source : traduction nouvelle
-#. lot : C1_restes
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : Œil Miracle
 #: src/battle_debug.c:391
 msgid "Miracle Eye"
-msgstr "Œil Miracle"
+msgstr "Oeil Miracle"
 
 #. source : traduction nouvelle
 #. lot : C1_restes

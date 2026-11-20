@@ -1,0 +1,222 @@
+[
+ {
+  "id": 1,
+  "categorie": "terminologie",
+  "probleme": "Le nom français de l’émission ne contient pas « Pokémon ».",
+  "correction": "La Chronique du Prof. Chen\\nn’est pas diffusée ici, à Kanto.\\pDommage… J’aimerais l’écouter.",
+  "justification": "Dans Pokémon SoulSilver FR, l’émission s’appelle « Chronique du Professeur Chen ». « Prof. » suit la convention du projet.",
+  "msgid": "The PROF's POKéMON TALK radio\\nprogram isn't aired here in KANTO.\\pIt's a shame--I'd like to hear it.",
+  "msgstr": "La Chronique Pokémon du Prof. Chen\\nn’est pas diffusée ici, à Kanto.\\pDommage… J’aimerais l’écouter.",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "terminologie",
+  "probleme": "Le nom français de l’émission ne contient pas « Pokémon ».",
+  "correction": "Ne le répète à personne, mais la\\nChronique du Prof. Chen\\ln’est pas en direct.",
+  "justification": "Dans Pokémon SoulSilver FR, l’émission s’appelle « Chronique du Professeur Chen ». « Prof. » suit la convention du projet.",
+  "msgid": "Don't tell anyone, but PROF.OAK'S\\nPOKéMON TALK isn't a live broadcast.",
+  "msgstr": "Ne le répète à personne, mais la\\nChronique Pokémon du Prof. Chen\\ln’est pas en direct.",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "terminologie",
+  "probleme": "« Œuf Etrange » remplace le nom officiel de l’objet.",
+  "correction": "{PLAYER} reçoit l’Œuf Bizarre.",
+  "justification": "« Œuf Bizarre » est le nom français d’ODD EGG dans Pokémon Cristal.",
+  "msgid": "{PLAYER} Received the ODD EGG.",
+  "msgstr": "{PLAYER} reçoit l’Œuf Etrange.",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "codes",
+  "probleme": "Le code {SUPER_E} a été ajouté.",
+  "correction": "Le Boss Rocket s’est barricadé.\\pMais le directeur peut ouvrir.\\pIl est au 4e étage.\\pSauve-le! Par pitié!",
+  "justification": "La correction conserve le 4e étage, qui correspond au cinquième niveau en comptant le rez-de-chaussée, et rétablit les sauts de page de l’anglais. « Boss Rocket » suit le lexique fourni.",
+  "msgid": "The TEAM ROCKET boss has locked\\nhimself in.\\pBut the DIRECTOR can open it.\\pHe's up on the fifth floor.\\pPlease save him!",
+  "msgstr": "Le chef de la Team Rocket s’est\\nbarricadé derrière cette porte.\\pMais le directeur peut l’ouvrir!\\nIl est au 4{SUPER_E}…\\pSauve-le! Par pitié!",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "contresens",
+  "probleme": "« Comment? » ajoute une question sur la manière dont le volet s’est ouvert.",
+  "correction": "Pourquoi le volet s’est-il ouvert?\\nTu y es pour quelque chose?",
+  "justification": "Le personnage demande la raison de l’ouverture, puis interroge le joueur sur son rôle.",
+  "msgid": "Why did the shutter open? Did you\\nhave something to do with this?",
+  "msgstr": "Le volet s’est ouvert? Pourquoi?\\nComment? Tu y es pour quelque chose?",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "contresens",
+  "probleme": "« Le jeu, c’est le jeu » efface la référence aux règles.",
+  "correction": "…\\pJe… Je ne peux…\\pJe n’y crois pas. {PLAYER}…\\pJ’ai perdu contre {PLAYER}?\\pMais les règles sont les règles!\\nVoilà pour toi!",
+  "justification": "Le Champion invoque les règles pour justifier la remise de la récompense.",
+  "msgid": "…\\pI… I can't…\\pI can't believe it. {PLAYER}…\\pI lost to {PLAYER}?\\pBut, rules are rules!\\nHere, take this.",
+  "msgstr": "…\\pJe… Je ne peux…\\pJe ne peux pas le croire. {PLAYER}…\\pJ’ai perdu contre {PLAYER}?\\pMais le jeu, c’est le jeu!\\nVoilà pour toi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "contresens",
+  "probleme": "« Nouveau Dresseur » ajoute une notion de nouveauté et transforme le titre de la liste en une mention au singulier.",
+  "correction": "Arène Pokémon de CLEMENTI-VILLE\\pDresseurs reconnus par NORMAN:\\n{PLAYER}",
+  "justification": "L’anglais présente la liste des Dresseurs reconnus par Norman.",
+  "msgid": "PETALBURG CITY POKéMON GYM\\pNORMAN'S CERTIFIED TRAINERS:\\n{PLAYER}",
+  "msgstr": "Arène Pokémon de CLEMENTI-VILLE\\pNouveau Dresseur reconnu par NORMAN:\\n{PLAYER}",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "oubli",
+  "probleme": "Le texte décrit la promenade et les captures, mais omet de présenter les 500¥ comme le prix de la partie.",
+  "correction": "Pour 500¥, vous pouvez jouer!\\pVous pouvez parcourir le parc\\net y attraper les Pokémon\\lqu’il vous plaira!\\pVoulez-vous jouer?",
+  "justification": "L’anglais annonce le prix de la partie, puis explique ce qu’elle permet de faire.",
+  "msgid": "For just ¥500, you can play the\\nSAFARI GAME.\\pYou can roam the wide-open safari\\nand catch what you like.\\pWould you like to play?",
+  "msgstr": "Pour juste 500¥, vous pouvez vous\\npromener dans le parc et attraper\\ltous les Pokémon qu’il vous plaira!\\pVoulez-vous jouer?",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "terminologie",
+  "probleme": "« Lettre Evoli » développe le nom officiel de l’objet.",
+  "correction": "Oh là là, ton sac a l’air si lourd!\\pOh! Aurais-tu par hasard une\\nLetr Evoli?\\pMa fille en cherche une.\\pTu peux bien t’en séparer, non?",
+  "justification": "EON MAIL s’appelle « Letr Évoli » dans Pokémon Cristal FR. Le projet retire l’accent de la majuscule.",
+  "msgid": "Oh my, your pack looks so heavy!\\pOh! Do you happen to have\\nsomething named EON MAIL?\\pMy daughter is after one.\\pYou can part with one, can't you?",
+  "msgstr": "Oh là là, ton sac a l’air si lourd!\\pOh! Aurais-tu par hasard une Lettre\\nEvoli?\\pMa fille en cherche une.\\pTu peux bien t’en séparer, non?",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "terminologie",
+  "probleme": "« Lettre Evoli » développe le nom officiel de l’objet.",
+  "correction": "Donner une Letr Evoli?",
+  "justification": "EON MAIL s’appelle « Letr Évoli » dans Pokémon Cristal FR. Le projet retire l’accent de la majuscule.",
+  "msgid": "Give away an EON MAIL?",
+  "msgstr": "Donner une Lettre Evoli?",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "terminologie",
+  "probleme": "« Lettre Evoli » développe le nom officiel de l’objet.",
+  "correction": "{PLAYER} donne la Letr Evoli.",
+  "justification": "EON MAIL s’appelle « Letr Évoli » dans Pokémon Cristal FR. Le projet retire l’accent de la majuscule.",
+  "msgid": "{PLAYER} gave away the EON MAIL.",
+  "msgstr": "{PLAYER} donne la Lettre Evoli.",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "contresens",
+  "probleme": "« De là » décale le point de référence de « from here ».",
+  "correction": "Tu en as mis du temps, {PLAYER}!\\pComme on le pensait, cet étrange\\nsignal radio vient d’ici.",
+  "justification": "Le personnage situe la source du signal à l’endroit où il parle.",
+  "msgid": "What took you, {PLAYER}?\\pJust as we thought, that strange\\nradio signal is coming from here.",
+  "msgstr": "Tu en as mis du temps, {PLAYER}!\\pComme on le pensait, cet étrange\\nsignal radio vient de là.",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "terminologie",
+  "probleme": "« Insectes » peut désigner de simples insectes au lieu des Pokémon du type Insecte.",
+  "correction": "J’ai attrapé tous les Pokémon\\nInsecte de Jadielle. Y a-t-il\\lune meilleure forêt ailleurs?",
+  "justification": "« Insecte » est le nom français officiel du type Bug dans Pokémon SoulSilver.",
+  "msgid": "I caught every bug in VIRIDIAN.\\nIs there a better FOREST somewhere?",
+  "msgstr": "J’ai attrapé tous les insectes de\\nJadielle. Y a-t-il une meilleure\\lforêt ailleurs?",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "oubli",
+  "probleme": "La question perd « Why » et la mention des Pokémon.",
+  "correction": "Pourquoi bouder les Pokémon Insecte?",
+  "justification": "L’anglais demande pourquoi les filles boudent ce type de Pokémon.",
+  "msgid": "Why don't girls like bug POKéMON?",
+  "msgstr": "Les filles n’aiment pas les insectes?",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "contresens",
+  "probleme": "« Enfin » efface le lien concessif de « Still ».",
+  "correction": "EUSINE: Il s’en est fallu de peu!\\nJe pensais le coincer en lui\\ltendant une embuscade ici.\\pMais courir sur l’eau, ça me\\ndépasse.\\pPourtant, je commence à voir\\nune logique.\\pSUICUNE préfère l’eau!\\pCe qui veut dire…",
+  "justification": "Malgré l’échec de l’embuscade, Eusine commence à comprendre le comportement de SUICUNE.",
+  "msgid": "EUSINE: That was so close!\\nI though I could corner it by\\lambushing it here.\\pBut running on the water is beyond\\nme.\\pStill, I am starting to see\\na pattern.\\pSUICUNE prefers water!\\pThat means...",
+  "msgstr": "EUSINE: Il s’en est fallu de peu!\\nJe pensais le coincer en lui\\ltendant une embuscade ici.\\pMais courir sur l’eau, ça me\\ndépasse.\\pEnfin, je commence à voir\\nune logique.\\pSUICUNE préfère l’eau!\\pCe qui veut dire…",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "terminologie",
+  "probleme": "« Pokémon dragons » traite le nom du type comme un nom commun au pluriel.",
+  "correction": "…\\pJe ne t’avais pas dit que j’allais\\ndétruire la Team Rocket?\\p…Dis-moi, qui était ce type en cape\\navec des Pokémon Dragon?\\pMes Pokémon n’ont rien pu faire.\\pC’est ce qu’il a dit qui me\\ntracasse…\\pIl m’a dit que je n’aimais pas\\nassez mes Pokémon, que je ne leur\\lfaisais pas assez confiance.\\pC’est pas ma faute si mon équipe\\nest si nulle.\\pÇa me rend fou d’avoir perdu contre\\nun bon samaritain comme lui.\\pMais ça me fait douter.\\pEst-ce que je m’y prends mal?\\pEst-ce l’amour qui rend son\\néquipe si puissante?",
+  "justification": "« Dragon » est le nom français officiel du type dans Pokémon SoulSilver.",
+  "msgid": "…\\pDidn't I tell you that I was\\ngoing to destroy TEAM ROCKET?\\p…Tell me, who was the guy in the\\ncape who used dragon POKéMON?\\pMy POKéMON were no match at all.\\pIt's what he said that bothers\\nme…\\pHe told me that I don't love and\\ntrust my POKéMON enough.\\pIt's not my fault my team is so\\nuseless.\\pI'm furious that I lost to a\\nbleeding heart like him.\\pBut it makes me question myself.\\pIs there something I'm doing\\nwrong?\\pCould it be that love made his\\nteam so powerful?",
+  "msgstr": "…\\pJe ne t’avais pas dit que j’allais\\ndétruire la Team Rocket?\\p…Dis-moi, qui était ce type en cape\\navec des Pokémon dragons?\\pMes Pokémon n’ont rien pu faire.\\pC’est ce qu’il a dit qui me\\ntracasse…\\pIl m’a dit que je n’aimais pas\\nassez mes Pokémon, que je ne leur\\lfaisais pas assez confiance.\\pC’est pas ma faute si mon équipe\\nest si nulle.\\pÇa me rend fou d’avoir perdu contre\\nun bon samaritain comme lui.\\pMais ça me fait douter.\\pEst-ce que je m’y prends mal?\\pEst-ce l’amour qui rend son\\néquipe si puissante?",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "oubli",
+  "probleme": "La réplique perd la puissance des attaques des Pokémon, le jeu de mots sur la défense de Pierre et la comparaison avec ce qu’il attendait.",
+  "correction": "Pierre: Tes Pokémon ont percé ma\\ndéfense de roc à coups puissants…\\pTu es plus fort que je ne pensais…\\pTiens, prends ce Badge!",
+  "justification": "Pierre attribue sa défaite aux attaques des Pokémon et reconnaît que le joueur a dépassé ses attentes.",
+  "msgid": "BROCK: Your POKéMON's powerful attacks\\novercame my rock-hard defense…\\pYou're stronger than I expected…\\pGo ahead--take this BADGE.",
+  "msgstr": "Pierre: Tes attaques ont surpassé ma\\ndéfense…\\pJe ne m’attendais pas à ça!\\pTu as bien mérité ce Badge!",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "oubli",
+  "probleme": "La comparaison avec Johto ne précise plus que les Champions sont forts et dévoués.",
+  "correction": "Salut, futur Maître!\\nTu assures!\\pTu défies les Champions de Kanto?\\pIls sont forts et dévoués,\\ncomme les Champions de Johto.",
+  "justification": "L’anglais félicite le joueur et précise les deux qualités communes aux Champions de Kanto et de Johto.",
+  "msgid": "Yo! CHAMP in making! You're really\\nrocking.\\pAre you battling the GYM LEADERS of\\nKANTO?\\pThey're strong and dedicated people,\\njust like JOHTO's GYM LEADERS.",
+  "msgstr": "Salut! Futur Maître!\\nTu m’as l’air… en pleine forme!\\pTu défies les Champions de Kanto?\\pTu vas voir, ils n’ont rien à envier\\nà ceux de Johto!",
+  "msgctxt": ""
+ },
+ {
+  "id": 87,
+  "categorie": "terminologie",
+  "probleme": "« Glas Transparent » développe le libellé demandé pour l’objet.",
+  "correction": "Ah!\\pLe son de ce Glas Transp.!\\pC’est… C’est sublime!\\pJe n’ai jamais entendu un son\\naussi beau!\\pLe son de ce glas reflète l’âme\\nde celui qui le porte.\\pToi…\\pTu pourrais peut-être franchir\\nla Tour Carillon.\\pJe t’en prie, avance.",
+  "justification": "Le lexique fourni donne « Glas Transp. » pour CLEAR BELL.",
+  "msgid": "Ah!\\pThe sound of that CLEAR BELL!\\pIt… It's sublime!\\pI've never heard so beautiful a\\nsound before!\\pThat bell's chime is indicative of\\nthe bearer's soul.\\pYou…\\pYou may be able to make it through\\nTIN TOWER.\\pPlease, do go on.",
+  "msgstr": "Ah!\\pLe son de ce Glas Transparent!\\pC’est… C’est sublime!\\pJe n’ai jamais entendu un son\\naussi beau!\\pLe son de ce glas reflète l’âme\\nde celui qui le porte.\\pToi…\\pTu pourrais peut-être franchir\\nla Tour Carillon.\\pJe t’en prie, avance.",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été supprimé.",
+  "correction": "Prof. {PKMN}",
+  "justification": "Le code rétablit la mention Pokémon dans le libellé de la classe.",
+  "msgid": "{PKMN} PROF.",
+  "msgstr": "Prof.",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "orthographe",
+  "probleme": "« du » impose un article masculin devant le nom affiché du Pokémon.",
+  "correction": "{B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} en {B_BUFF2}hausse!",
+  "justification": "« de » s’emploie devant le nom affiché. La construction conserve l’accord des intensificateurs « forte » et « très forte » avec « hausse ».",
+  "msgid": "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}rose!",
+  "msgstr": "{B_BUFF1} du {B_DEF_NAME_WITH_PREFIX} en {B_BUFF2}hausse!",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "contresens",
+  "probleme": "« utilise Stockage {B_BUFF1} fois » présente le total accumulé comme un nombre d’utilisations dans la réplique.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} a stocké {B_BUFF1} fois!",
+  "justification": "Le message annonce le cumul de Stockage après l’utilisation en cours.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} stockpiled {B_BUFF1}!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} utilise Stockage {B_BUFF1} fois!",
+  "msgctxt": ""
+ }
+]

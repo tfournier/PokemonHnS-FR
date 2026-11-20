@@ -1,0 +1,282 @@
+[
+ {
+  "id": 2,
+  "categorie": "contresens",
+  "probleme": "« Poké Ball ratée » fait porter l’échec sur la Ball.",
+  "correction": "Récupère la Poké Ball après un échec.",
+  "justification": "C’est la tentative de capture qui échoue.",
+  "msgid": "Fetches failed Poké Ball.",
+  "msgstr": "Ramasse la Poké Ball ratée.",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "orthographe",
+  "probleme": "« VI baissée à tous » emploie une construction incorrecte.",
+  "correction": "Touché: baisse la VI de tous.",
+  "justification": "On baisse la Vitesse de quelqu’un.",
+  "msgid": "Lower Speed of all when hit.",
+  "msgstr": "Touché: VI baissée à tous.",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "contresens",
+  "probleme": "« Son moins subi » peut évoquer une moindre fréquence des attaques sonores.",
+  "correction": "Son émis renforcé, reçu atténué.",
+  "justification": "Le talent renforce les capacités sonores utilisées et atténue celles reçues.",
+  "msgid": "Ups and resists sound.",
+  "msgstr": "Son plus fort et moins subi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "oubli",
+  "probleme": "« L’Acier des alliés » omet les capacités.",
+  "correction": "Renforce les capacités Acier alliées.",
+  "justification": "Le renforcement vise les capacités de type Acier des alliés.",
+  "msgid": "Boosts ally's Steel moves.",
+  "msgstr": "Renforce l’Acier des alliés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "contresens",
+  "probleme": "« Coup imposé » peut suggérer que le talent dicte le choix initial.",
+  "correction": "AT accrue, même capacité imposée.",
+  "justification": "Le talent oblige à répéter la capacité choisie.",
+  "msgid": "Ups Attack and locks move.",
+  "msgstr": "Monte l’AT, coup imposé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "oubli",
+  "probleme": "« Modifs alliées » omet qu’il s’agit de statistiques.",
+  "correction": "Annule les modifs de stats d’un allié.",
+  "justification": "L’effet annule les changements de statistiques de l’allié.",
+  "msgid": "Remove ally's stat changes.",
+  "msgstr": "Annule les modifs alliées.",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "contresens",
+  "probleme": "« Depuis OYACATA » suggère un emplacement depuis lequel le Pokémon donne des ordres.",
+  "correction": "Donne des ordres à OYACATA.",
+  "justification": "OYACATA reçoit les ordres.",
+  "msgid": "Commands from Dondozo.",
+  "msgstr": "Commande depuis OYACATA.",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "oubli",
+  "probleme": "« Electrifié » ne précise pas que la condition porte sur le terrain.",
+  "correction": "Champ Electrifié: stat max +.",
+  "justification": "Le [Pokédex officiel de Paume-de-Fer](https://www.pokemon.com/fr/pokedex/paume-de-fer) précise que le champ électrifié doit être actif.",
+  "msgid": "Elec. field ups best stat.",
+  "msgstr": "Electrifié: stat max +.",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "terminologie",
+  "probleme": "« Coups de statut » emploie un libellé non officiel pour cette catégorie.",
+  "correction": "Evite les capacités de statut.",
+  "justification": "« Capacités de statut » est le nom de la catégorie dans Pokémon Ecarlate et Violet FR.",
+  "msgid": "Avoids status moves.",
+  "msgstr": "Evite les coups de statut.",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "oubli",
+  "probleme": "« Modifs alliées » omet qu’il s’agit de statistiques.",
+  "correction": "Copie les modifs de stats d’un allié.",
+  "justification": "L’effet copie les changements de statistiques de l’allié.",
+  "msgid": "Copies ally's stat changes.",
+  "msgstr": "Copie les modifs alliées.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que ce sont les capacités qui peuvent empoisonner.",
+  "correction": "Ses capacités peuvent empoisonner.",
+  "justification": "La source rattache la probabilité d’empoisonnement aux capacités utilisées.",
+  "msgid": "Moves can poison.",
+  "msgstr": "Peut empoisonner l’ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "typographie",
+  "probleme": "Deux lignes dépassent le repère d’environ 34 caractères.",
+  "correction": "Réglez l’horloge dans tout Centre\\nPokémon sans pénalité.\\nPensez aux Objets Rares du Sac et\\nau menu Options pour personnaliser\\nencore plus votre partie!\\nBon jeu!",
+  "justification": "La correction conserve les six lignes et tient dans le repère fourni.",
+  "msgid": "The clock can be changed from any\\nPOKéMON CENTER with no penalty.\\nMake sure to check your BAG's KEY ITEMS\\nand your OPTIONS MENU for even more\\nways to customize your experience.\\nEnjoy!",
+  "msgstr": "L’horloge se règle dans n’importe quel\\nCentre Pokémon, sans pénalité.\\nPensez aux Objets Rares du Sac et\\nau menu Options: encore plus de\\nfaçons de personnaliser votre partie!\\nBon jeu!",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "typographie",
+  "probleme": "« Aucun » porte une majuscule isolée et plusieurs lignes dépassent le repère de longueur.",
+  "correction": "Une mauvaise connexion peut\\nruiner votre sauvegarde à jamais.\\nConnectez-vous seulement si:\\nVous jouez tous à Heart & Soul.\\nVos versions sont identiques.\\nVos réglages de défi sont les mêmes.\\nAUCUN réglage aléatoire n’est actif.",
+  "justification": "Les capitales rétablissent l’insistance de l’anglais sur l’absence de réglages aléatoires.",
+  "msgid": "Attempting to link incorrectly may result\\nin permanent damage to your save file.\\nOnly link with another player if:\\nYou are both playing Heart & Soul.\\nYou are both on the same version.\\nYou both have the same challenge settings.\\nYou are NOT using any randomizer settings.",
+  "msgstr": "Une connexion mal faite peut endommager\\ndéfinitivement votre sauvegarde.\\nNe vous connectez avec un joueur que si:\\nVous jouez tous deux à Heart & Soul.\\nVous avez la même version du jeu.\\nVous avez les mêmes réglages de défi.\\nVous n’utilisez Aucun réglage aléatoire.",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "oubli",
+  "probleme": "La traduction omet « can » et présente le changement comme systématique.",
+  "correction": "Le TELEPORTEUR peut donner\\nDEFINITIVEMENT à des Pokémon\\nleur forme de GALAR.\\nCes formes ne sont PAS requises\\npour avancer dans l’histoire ni\\npour finir le Pokédex NATIONAL.\\n",
+  "justification": "Le texte décrit une transformation possible et définitive.",
+  "msgid": "The TELEPORTER can PERMANENTLY change\\nPOKéMON into their GALARIAN forms.\\nGALARIAN forms are NOT required\\nfor story progression or\\nNATIONAL POKéDEX completion.\\n",
+  "msgstr": "Le TELEPORTEUR change DEFINITIVEMENT\\ndes Pokémon en leur forme de GALAR.\\nCes formes ne sont PAS requises\\npour l’histoire ni pour compléter\\nle Pokédex NATIONAL.\\n",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "terminologie",
+  "probleme": "« SINJOH » seul ne reprend pas le nom français complet du lieu.",
+  "correction": "Ce PNJ donne accès à un bonus\\nfacultatif: les RUINES SINJOH.\\nIl n’est PAS requis pour avancer\\nni pour finir le Pokédex NATIONAL.\\n\\nC’est un bonus, si ça vous dit.",
+  "justification": "Le lieu s’appelle « Ruines Sinjoh » dans Pokémon SoulSilver FR.",
+  "msgid": "This NPC grants access to optional\\nbonus content: SINJOH.\\nIt is NOT required for story\\nor NATIONAL POKéDEX completion.\\n\\nIt's just a bonus. If you want it.",
+  "msgstr": "Ce PNJ donne accès à un contenu\\nbonus facultatif: SINJOH.\\nIl n’est PAS requis pour l’histoire\\nni pour le Pokédex NATIONAL.\\n\\nC’est juste un bonus, si ça vous dit.",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "oubli",
+  "probleme": "« Ni pour le Pokédex » omet l’action de le compléter.",
+  "correction": "Ce PNJ donne accès à un contenu\\nbonus facultatif: les ILES.\\nIl n’est PAS requis pour avancer\\nni pour finir le Pokédex NATIONAL.\\n\\nC’est un bonus, si ça vous dit.",
+  "justification": "La précision porte sur la complétion du Pokédex national.",
+  "msgid": "This NPC grants access to optional\\nbonus content: ISLES.\\nIt is NOT required for story\\nor NATIONAL POKéDEX completion.\\n\\nIt's just a bonus. If you want it.",
+  "msgstr": "Ce PNJ donne accès à un contenu\\nbonus facultatif: les ILES.\\nIl n’est PAS requis pour l’histoire\\nni pour le Pokédex NATIONAL.\\n\\nC’est juste un bonus, si ça vous dit.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "terminologie",
+  "probleme": "« PokéBloc » prend une majuscule interne non officielle.",
+  "correction": "Couleur du Pokébloc = IV parfaits:\\nROU: PV,AT,VI   BLE: PV,AS,VI\\nROS: AT,AS,VI   VER: PV,DF,DS\\nJAU: PV,AT,DF   VIO: AT,DF,DS\\nIND: PV,AS,DS   MAR: DF,VI,DS\\nCIE: AS,VI,DS   OLI: AT,DF,VI\\nGRI: PV,AT,AS\\nChaque Pokébloc: TALENT CACHE.",
+  "justification": "La graphie « Pokébloc » est attestée sur la [fiche officielle de Pokémon Rubis Oméga et Saphir Alpha](https://www.pokemon.com/fr/jeux-video-pokemon/pokemon-rubis-omega-et-pokemon-saphir-alpha).",
+  "msgid": "POKéBLOCK colors attract perfect IVs:\\nRED: HP,ATK,SPE   BLU: HP,SPA,SPE\\nPNK: ATK,SPA,SPE  GRN: HP,DEF,SPD\\nYEL: HP,ATK,DEF   PUR: ATK,DEF,SPD\\nIND: HP,SPA,SPD   BRN: DEF,SPE,SPD\\nLBL: SPA,SPE,SPD  OLV: ATK,DEF,SPE\\nGRY: HP,ATK,SPA\\nEvery POKéBLOCK attracts HIDDEN ABILITY.",
+  "msgstr": "Couleur du PokéBloc = IV parfaits:\\nROU: PV,AT,VI   BLE: PV,AS,VI\\nROS: AT,AS,VI   VER: PV,DF,DS\\nJAU: PV,AT,DF   VIO: AT,DF,DS\\nIND: PV,AS,DS   MAR: DF,VI,DS\\nCIE: AS,VI,DS   OLI: AT,DF,VI\\nGRI: PV,AT,AS\\nTout PokéBloc attire le TALENT CACHE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "terminologie",
+  "probleme": "« PokéBlocs » prend une majuscule interne non officielle et « Acide » rompt la casse des libellés de saveur.",
+  "correction": "Les Pokéblocs Or attirent des\\nPokémon à 5 IV parfaits. La saveur\\ndétermine l’IV qui ne l’est pas.\\nEPICE: pas AS   SEC: pas AT\\nSUCRE: pas DS   AMER: pas VI\\nACIDE: pas PV\\nChaque Pokébloc: TALENT CACHE.",
+  "justification": "La [fiche officielle de Pokémon Rubis Oméga et Saphir Alpha](https://www.pokemon.com/fr/jeux-video-pokemon/pokemon-rubis-omega-et-pokemon-saphir-alpha) emploie « Pokéblocs ».",
+  "msgid": "GOLD POKéBLOCKS attract POKéMON with\\n5 perfect IVs. Flavor determines which\\nIV is not perfect.\\nSPICY: no SP.ATK    DRY:    no ATTACK\\nSWEET: no SP.DEF   BITTER: no SPEED\\nSOUR:  no HP\\nEvery POKéBLOCK attracts HIDDEN ABILITY.",
+  "msgstr": "Les PokéBlocs Or attirent des Pokémon\\navec 5 IV parfaits. La saveur choisit\\nl’IV qui ne l’est pas.\\nEPICE: pas AS   SEC: pas AT\\nSUCRE: pas DS   AMER: pas VI\\nAcide: pas PV\\nTout PokéBloc attire le TALENT CACHE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "terminologie",
+  "probleme": "« Attirance » remplace le nom officiel « Attraction ».",
+  "correction": "Flûte en verre qui\\nannule les effets\\nd’Attraction.",
+  "justification": "Le lexique fourni et la description de la Flûte Rouge dans Pokémon Emeraude FR emploient « Attraction ».",
+  "msgid": "A glass flute that\\nsnaps Pokémon\\nout of attraction.",
+  "msgstr": "Flûte en verre qui\\nlibère un Pokémon\\nde l’attirance.",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} est ajouté par rapport à la source.",
+  "correction": "Repousse les Pokémon\\nsauvages faibles\\ndurant 100 pas.",
+  "justification": "La source écrit « Pokémon » en toutes lettres.",
+  "msgid": "Repels weak wild\\nPokémon for 100\\nsteps.",
+  "msgstr": "Repousse les {PKMN}\\nsauvages faibles\\ndurant 100 pas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} est ajouté par rapport à la source.",
+  "correction": "Repousse les Pokémon\\nsauvages faibles\\ndurant 200 pas.",
+  "justification": "La source écrit « Pokémon » en toutes lettres.",
+  "msgid": "Repels weak wild\\nPokémon for 200\\nsteps.",
+  "msgstr": "Repousse les {PKMN}\\nsauvages faibles\\ndurant 200 pas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} est ajouté par rapport à la source.",
+  "correction": "Repousse les Pokémon\\nsauvages faibles\\ndurant 250 pas.",
+  "justification": "La source écrit « Pokémon » en toutes lettres.",
+  "msgid": "Repels weak wild\\nPokémon for 250\\nsteps.",
+  "msgstr": "Repousse les {PKMN}\\nsauvages faibles\\ndurant 250 pas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "contresens",
+  "probleme": "« ADN » élargit le sens de « genes ».",
+  "correction": "Une pierre\\ncontenant les gènes\\nd’un ancien Pokémon.",
+  "justification": "La description anglaise désigne précisément les gènes du Pokémon.",
+  "msgid": "A stone containing\\nthe genes of an\\nancient Pokémon.",
+  "msgstr": "Une pierre\\ncontenant l’ADN\\nd’un ancien Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "contresens",
+  "probleme": "« Collier » évoque un bijou porté par le Pokémon.",
+  "correction": "Morceau de la collerette\\nd’un Pokémon\\npréhistorique.",
+  "justification": "Dans la description du fossile, « collar » désigne une partie de l’anatomie du Pokémon.",
+  "msgid": "A piece of a\\nprehistoric Poké-\\nmon's collar.",
+  "msgstr": "Morceau du collier\\nd’un Pokémon\\npréhistorique.",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} est ajouté par rapport à la source.",
+  "correction": "Morceau de la grande\\nmâchoire d’un Pokémon\\npréhistorique.",
+  "justification": "La source contient le nom « Pokémon », coupé entre deux lignes.",
+  "msgid": "A piece of a\\nprehistoric Poké-\\nmon's large jaw.",
+  "msgstr": "Morceau de la grande\\nmâchoire d’un {PKMN}\\npréhistorique.",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "contresens",
+  "probleme": "« Délicat » ne restitue pas « invigorating ».",
+  "correction": "Un Noigrume jaune.\\nIl dégage un arôme\\nvivifiant.",
+  "justification": "L’anglais décrit un parfum qui revigore.",
+  "msgid": "A yellow apricorn.\\nIt has an invigor-\\nating scent.",
+  "msgstr": "Un Noigrume jaune.\\nIl dégage un arôme\\ndélicat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "contresens",
+  "probleme": "« Etonnamment riche » déplace l’étrangeté vers l’intensité du parfum.",
+  "correction": "Un Noigrume vert.\\nIl dégage une odeur\\nparfumée et étrange.",
+  "justification": "« Strange, aromatic » qualifie l’odeur à la fois de parfumée et d’étrange.",
+  "msgid": "A green apricorn.\\nIt has a strange,\\naromatic scent.",
+  "msgstr": "Un Noigrume vert.\\nIl dégage un arôme\\nétonnamment riche.",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} est ajouté par rapport à la source.",
+  "correction": "Une écaille\\nmystérieuse qui fait\\névoluer un certain Pokémon.",
+  "justification": "La source écrit « Pokémon » en toutes lettres.",
+  "msgid": "A mysterious scale\\nthat evolves a\\ncertain Pokémon.",
+  "msgstr": "Une écaille\\nmystérieuse qui fait\\névoluer un certain {PKMN}.",
+  "msgctxt": ""
+ }
+]

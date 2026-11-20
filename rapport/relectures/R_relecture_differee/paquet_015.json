@@ -1,0 +1,242 @@
+[
+ {
+  "id": 0,
+  "categorie": "terminologie",
+  "probleme": "« Psyko » diffère du nom imposé par le lexique du projet.",
+  "correction": "Change le Kinésiste\\nde MEW en\\ncapacité Z.",
+  "justification": "Le lexique fourni impose « Kinésiste » pour « Psychic ». La [localisation officielle de Pokémon Soleil et Lune](https://www.pokemon.com/fr/articles/les-champs-des-gardiens-dalola) emploie « Psyko ».",
+  "msgid": "Upgrade Mew's\\nPsychic into\\na Z-Move.",
+  "msgstr": "Change le Psyko\\nde MEW en\\ncapacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "typographie",
+  "probleme": "Le saut de ligne coupe « Lariat ».",
+  "correction": "Change le Dark Lariat\\nde FELINFERNO\\nen capacité Z.",
+  "justification": "Le mot tient en entier sur la première ligne.",
+  "msgid": "Upgrade Incine-\\nroar's Darkest La-\\nriat into a Z-Move.",
+  "msgstr": "Change le Dark La-\\nriat de FELINFERNO\\nen capacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "typographie",
+  "probleme": "Le saut de ligne coupe « Clepto-Mânes ».",
+  "correction": "Change le Clepto-Mânes\\nde MARSHADOW\\nen capacité Z.",
+  "justification": "Le nom de la capacité tient sur la première ligne avec son trait d’union.",
+  "msgid": "Upgrade Marsha-\\ndow's Spectral Thi-\\nef into a Z-Move.",
+  "msgstr": "Change le Clepto-\\nMânes de MARSHADOW\\nen capacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "terminologie",
+  "probleme": "« En Z » tronque le terme « capacité Z ».",
+  "correction": "Change le Tonnerre du\\nPIKACHU à casquette\\nen capacité Z.",
+  "justification": "Le terme complet figure dans la [localisation officielle de Pokémon Soleil et Lune](https://www.pokemon.com/fr/articles/les-champs-des-gardiens-dalola).",
+  "msgid": "Upgrade Pikachu w/\\na cap's Thunderbolt\\ninto a Z-Move.",
+  "msgstr": "Change en Z le\\nTonnerre du PIKACHU\\nà casquette.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "typographie",
+  "probleme": "Il manque le point final.",
+  "correction": "Renforce les\\ncapacités Dragon et\\nSpectre de GIRATINA.",
+  "justification": "Le point clôt la phrase comme dans les deux descriptions précédentes.",
+  "msgid": "Boosts Giratina's\\nDragon and Ghost-\\ntype moves.",
+  "msgstr": "Renforce les\\ncapacités Dragon et\\nSpectre de GIRATINA",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "typographie",
+  "probleme": "Le saut de ligne coupe « baissant ».",
+  "correction": "Objet tenu qui\\nbaisse la précision\\nde l’ennemi.",
+  "justification": "La proposition relative permet de conserver trois lignes sans couper le mot.",
+  "msgid": "A hold item that\\nlowers the\\nfoe's accuracy.",
+  "msgstr": "Objet tenu bais-\\nsant la précision\\nde l’ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "contresens",
+  "probleme": "« Une sorte de capacité » peut désigner une catégorie entière.",
+  "correction": "Augmente la Vitesse,\\nmais limite l’usage\\nà une seule capacité.",
+  "justification": "« Only one move » limite le porteur à une capacité précise.",
+  "msgid": "Boosts Speed, but\\nallows the use of\\nonly one move.",
+  "msgstr": "Augmente la Vitesse,\\nmais ne permet qu’une\\nsorte de capacité.",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "oubli",
+  "probleme": "La mention de l’orbe et de son caractère étrange a disparu.",
+  "correction": "Orbe étrange qui\\nempoisonne gravement\\nson porteur au combat.",
+  "justification": "« A bizarre orb » décrit l’objet avant d’en préciser l’effet.",
+  "msgid": "A bizarre orb that\\nbadly poisons the\\nholder in battle.",
+  "msgstr": "Tenu, empoisonne\\ngravement son\\nporteur en combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "terminologie",
+  "probleme": "Le nom de la capacité est traduit comme un phénomène météo générique.",
+  "correction": "Prolonge Tempêtesable\\nsi le porteur\\nl’utilise.",
+  "justification": "« Tempêtesable » est le nom de la capacité dans Pokémon Émeraude et Pokémon SoulSilver en français, conformément au lexique fourni.",
+  "msgid": "Extends the length\\nof Sandstorm if\\nused by the holder.",
+  "msgstr": "Prolonge la tempête\\nde sable lancée par\\nle porteur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "contresens",
+  "probleme": "« Rend des PV au type Poison » présente le type comme le bénéficiaire des soins.",
+  "correction": "Rend des PV aux\\nPokémon de type Poison.\\nBlesse tous les autres.",
+  "justification": "Ce sont les Pokémon de type Poison qui récupèrent des PV.",
+  "msgid": "Restores HP for\\nPoison-types.\\nDamages all others.",
+  "msgstr": "Rend des PV au type\\nPoison. Blesse\\ntous les autres.",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "typographie",
+  "probleme": "Le saut de ligne coupe « capacités ».",
+  "correction": "Monte la DS, mais\\nbloque les capacités\\nde statut.",
+  "justification": "L’abréviation « DS » prévue par le projet permet de garder « capacités » sur une seule ligne.",
+  "msgid": "Raises Sp. Def but\\nprevents the use\\nof status moves.",
+  "msgstr": "Monte la Déf. Spé.\\nmais bloque les ca-\\npacités de statut.",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "terminologie",
+  "probleme": "« Atq. Spé. » diffère de l’abréviation retenue par le projet.",
+  "correction": "Monte l’AS\\nsi le porteur lance\\nune capacité sonore.",
+  "justification": "Les conventions du projet donnent « AS » pour l’Attaque Spéciale.",
+  "msgid": "Raises Sp. Atk. if\\nthe holder uses a\\nsound-based move.",
+  "msgstr": "Monte l’Atq. Spé.\\nsi le porteur lance\\nune capacité sonore.",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "oubli",
+  "probleme": "La description omet que l’objet doit être tenu.",
+  "correction": "Tenu, augmente la\\nprécision d’une capacité\\nsi les PV sont bas.",
+  "justification": "« When held » précise la condition d’activation de l’objet.",
+  "msgid": "When held, it ups\\nthe Accuracy of a\\nmove in a pinch.",
+  "msgstr": "Monte la Précision\\nd’une attaque si\\nles PV sont bas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "contresens",
+  "probleme": "« Les ennemis rapides » efface la comparaison avec le lanceur et la rotation n’est plus décrite comme rapide.",
+  "correction": "Tourne vite sur lui-même.\\nInflige plus de dégâts aux\\nennemis plus rapides.",
+  "justification": "La source décrit une rotation rapide et des dégâts accrus contre les ennemis plus rapides que le lanceur.",
+  "msgid": "A rapid spin that\\ndoes more damage\\nto faster foes.",
+  "msgstr": "Tourne sur lui-même.\\nPlus forte contre\\nles ennemis rapides.",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "oubli",
+  "probleme": "L’intensité de la hausse d’Attaque a disparu.",
+  "correction": "Rend l’ennemi confus,\\nmais augmente fortement\\nson Attaque.",
+  "justification": "« Sharply » indique une forte hausse d’Attaque.",
+  "msgid": "Confuses the foe,\\nbut also sharply\\nraises its Attack.",
+  "msgstr": "Rend l’ennemi\\nconfus et booste\\nson Attaque.",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "contresens",
+  "probleme": "« Fidèle » attribue une qualité au destrier alors que « beloved » exprime l’affection de SYLVEROY.",
+  "correction": "Rênes qui unissent\\nSYLVEROY à son\\ndestrier bien-aimé.",
+  "justification": "« Bien-aimé » restitue le lien affectif exprimé dans la source.",
+  "msgid": "Reins that unite\\nCalyrex with its\\nbeloved steed.",
+  "msgstr": "Rênes qui unissent\\nSYLVEROY à son\\nfidèle destrier.",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "oubli",
+  "probleme": "L’émission sur laquelle la télé est réglée n’est plus mentionnée.",
+  "correction": "Une télé réglée sur\\nune émission de conseils\\npour les Dresseurs.",
+  "justification": "« Tuned to an advice program » précise que le téléviseur est réglé sur une émission de conseils.",
+  "msgid": "A TV set tuned to\\nan advice program\\nfor Trainers.",
+  "msgstr": "Une télé qui diffuse\\ndes conseils pour\\nles Dresseurs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "oubli",
+  "probleme": "« Les ferries des Iles » ne précise pas que les ferries relient les trois îles.",
+  "correction": "Un passe pour les\\nferries entre les\\nIles 1, 2 et 3.",
+  "justification": "« Between » indique que le passe couvre les trajets entre ces îles.",
+  "msgid": "A pass for ferries\\nbetween One, Two,\\nand Three Island.",
+  "msgstr": "Un passe pour les\\nferries des\\nIles 1, 2 et 3.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "contresens",
+  "probleme": "« Touchent plus » peut être compris comme un gain de précision.",
+  "correction": "Donne des valeurs élevées.\\nLes coups multiples\\ntouchent plus de fois.",
+  "justification": "L’effet augmente le nombre de touches d’une capacité à coups multiples.",
+  "msgid": "Rolls high numbers.\\nMultihit strikes\\nhit more times.",
+  "msgstr": "Fait de gros scores.\\nLes coups multiples\\ntouchent plus.",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "terminologie",
+  "probleme": "Il manque « de la » dans le nom de l’objet.",
+  "correction": "Armure de la Fortune",
+  "justification": "« Armure de la Fortune » est le nom affiché dans Pokémon Écarlate et Violet en français.",
+  "msgid": "AUSPICIOUS ARMOR",
+  "msgstr": "Armure Fortune",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "terminologie",
+  "probleme": "Il manque « de la » dans le nom de l’objet.",
+  "correction": "Armure de la Rancune",
+  "justification": "« Armure de la Rancune » est le nom affiché dans Pokémon Écarlate et Violet en français.",
+  "msgid": "MALICIOUS ARMOR",
+  "msgstr": "Armure Rancune",
+  "msgctxt": ""
+ },
+ {
+  "id": 87,
+  "categorie": "terminologie",
+  "probleme": "Il manque « des » dans le nom de l’objet.",
+  "correction": "Rouleau des Ténèbres",
+  "justification": "« Rouleau des Ténèbres » est le nom affiché dans Pokémon Épée et Bouclier en français.",
+  "msgid": "SCROLL OF DARKNESS",
+  "msgstr": "Rouleau Ténèbres",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "typographie",
+  "probleme": "Le saut de ligne coupe « énergie ».",
+  "correction": "Ses charges d’énergie\\npermettent la\\nTéracristallisation.",
+  "justification": "« Energie » tient en entier sur la première ligne.",
+  "msgid": "Energy charges can\\nbe used to cause\\nTerastallization.",
+  "msgstr": "Ses charges d’éner-\\ngie permettent la\\nTéracristallisation.",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "typographie",
+  "probleme": "« Raid » prend une majuscule en milieu de phrase.",
+  "correction": "Charme qui donne\\nplus de Téra-Eclats\\nen raid Téracristal.",
+  "justification": "« Raid » s’écrit avec une minuscule dans la [communication officielle sur les raids Téracristal](https://www.pokemon.com/fr/actus-pokemon/affrontez-cadoizo-dans-les-raids-teracristal).",
+  "msgid": "A charm that will\\nraise the shards\\nfrom Tera Raids.",
+  "msgstr": "Charme qui donne\\nplus de Téra-Eclats\\nen Raid Téracristal.",
+  "msgctxt": ""
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "id": 10,
+  "categorie": "terminologie",
+  "probleme": "Il manque l’accent aigu dans « Melissa ».",
+  "correction": "Mélissa",
+  "justification": "Le lexique officiel fourni donne « Mélissa ».",
+  "msgid": "MELISSA",
+  "msgstr": "Melissa",
+  "msgctxt": "src/data/trainers_frlg.party"
+ },
+ {
+  "id": 11,
+  "categorie": "terminologie",
+  "probleme": "Il manque l’accent aigu dans « Melissa ».",
+  "correction": "Mélissa",
+  "justification": "Le lexique officiel fourni donne « Mélissa ».",
+  "msgid": "MELISSA",
+  "msgstr": "Melissa",
+  "msgctxt": "src/data/trainers_hns.party"
+ },
+ {
+  "id": 22,
+  "categorie": "terminologie",
+  "probleme": "Le nom du Champion de Hoenn doit être en capitales.",
+  "correction": "NORMAN",
+  "justification": "Pokémon Émeraude FR affiche le nom du Champion de Clémenti-Ville sous la forme « NORMAN ».",
+  "msgid": "NORMAN",
+  "msgstr": "Norman",
+  "msgctxt": "src/data/trainers_hns.party"
+ },
+ {
+  "id": 59,
+  "categorie": "terminologie",
+  "probleme": "Le nom de la Championne de Hoenn doit être en capitales.",
+  "correction": "ROXANNE",
+  "justification": "Pokémon Émeraude FR affiche le nom de la Championne de Mérouville sous la forme « ROXANNE ».",
+  "msgid": "ROXANNE",
+  "msgstr": "Roxanne",
+  "msgctxt": "src/data/trainers_hns.party"
+ },
+ {
+  "id": 70,
+  "categorie": "terminologie",
+  "probleme": "« Sidney » est le nom anglais de ce membre du Conseil 4 de Hoenn.",
+  "correction": "DAMIEN",
+  "justification": "Pokémon Émeraude FR emploie « DAMIEN ».",
+  "msgid": "SIDNEY",
+  "msgstr": "Sidney",
+  "msgctxt": "src/data/trainers_hns.party"
+ },
+ {
+  "id": 77,
+  "categorie": "terminologie",
+  "probleme": "Il manque l’accent grave dans « Steve ».",
+  "correction": "Stève",
+  "justification": "Le lexique officiel fourni donne « Stève ».",
+  "msgid": "STEVE",
+  "msgstr": "Steve",
+  "msgctxt": "src/data/trainers_frlg.party"
+ },
+ {
+  "id": 106,
+  "categorie": "oubli",
+  "probleme": "Le libellé omet la maison et désigne seulement son occupant.",
+  "correction": "Maison du Maître des Baies",
+  "justification": "« House » indique que le repère désigne l’habitation du Maître des Baies.",
+  "msgid": "BERRY MASTER'S HOUSE",
+  "msgstr": "MAITRE DES BAIES",
+  "msgctxt": "src/landmark.c"
+ }
+]

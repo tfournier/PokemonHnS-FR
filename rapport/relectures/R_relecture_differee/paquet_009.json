@@ -1,0 +1,112 @@
+[
+ {
+  "id": 3,
+  "categorie": "terminologie",
+  "probleme": "« CHROMA » remplace le qualificatif officiel « chromatique ».",
+  "correction": "Rencontres chromatiques très rares.\\nTaux par défaut de la génération III.",
+  "justification": "Le site officiel emploie « Pokémon chromatique ». [Pokémon, guide des Intrusions en combat](https://www.pokemon.com/fr/articles/trouvez-des-pokemon-speciaux-en-declenchant-des-intrusions-en-combat)",
+  "msgid": "Very low chance of SHINY encounter.\\nDefault chance from Generation III.",
+  "msgstr": "Rencontres CHROMA très rares.\\nTaux par défaut de la génération III.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "terminologie",
+  "probleme": "« CHROMA » remplace le qualificatif officiel « chromatique ».",
+  "correction": "Rencontres chromatiques rares.\\nTaux par défaut dès la génération VI.",
+  "justification": "Le site officiel emploie « Pokémon chromatique ». [Pokémon, guide des Intrusions en combat](https://www.pokemon.com/fr/articles/trouvez-des-pokemon-speciaux-en-declenchant-des-intrusions-en-combat)",
+  "msgid": "Low chance of SHINY encounter.\\nDefault chance from Generation VI+.",
+  "msgstr": "Rencontres CHROMA rares.\\nTaux par défaut dès la génération VI.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "terminologie",
+  "probleme": "« CHROMA » remplace le qualificatif officiel « chromatique ».",
+  "correction": "Chromatiques très fréquents.",
+  "justification": "Le site officiel emploie « Pokémon chromatique ». Le nom « Pokémon » est sous-entendu pour tenir sur une ligne. [Pokémon, guide des Intrusions en combat](https://www.pokemon.com/fr/articles/trouvez-des-pokemon-speciaux-en-declenchant-des-intrusions-en-combat)",
+  "msgid": "Very high chance of SHINY encounter.",
+  "msgstr": "Rencontres CHROMA très fréquentes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "contresens",
+  "probleme": "« De même rang » impose un rang identique, alors que l’anglais indique un rang comparable.",
+  "correction": "Tirage de Pokémon de rang voisin.\\nCritère actuel: stade d’évolution.",
+  "justification": "« Rang voisin » rend l’idée de similitude. La seconde ligne précise que le stade d’évolution est le critère utilisé actuellement.",
+  "msgid": "{PKMN} replaced with similar tiered\\nones. Currently based on evo stages.",
+  "msgstr": "Pokémon remplacés par d’autres de\\nmême rang (stade d’évolution).",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "oubli",
+  "probleme": "« Comptent » laisse implicite la règle de la première rencontre.",
+  "correction": "1re rencontre: espèce jamais\\ncapturée. CONSEILLE!",
+  "justification": "La règle précise quelles espèces peuvent compter comme première rencontre.",
+  "msgid": "Only not prior caught {PKMN} count\\nas first encounter. RECOMMENDED!",
+  "msgstr": "Seuls les Pokémon jamais capturés\\ncomptent. CONSEILLE!",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "terminologie",
+  "probleme": "« En Duo » tronque le nom officiel du format de combat.",
+  "correction": "Limite la taille de l’équipe.\\nCombat Duo: bugs visuels à 1.",
+  "justification": "Pokémon Émeraude FR emploie « Combat Duo ». La formulation conserve l’avertissement pour une équipe limitée à un Pokémon.",
+  "msgid": "Limits the amount of {PKMN} in the\\nparty. 1 has visual bugs in DOUBLES.",
+  "msgstr": "Limite le nombre de Pokémon de\\nl’équipe. 1: bugs visuels en Duo.",
+  "msgctxt": ""
+ },
+ {
+  "id": 59,
+  "categorie": "oubli",
+  "probleme": "La traduction parle d’objets en général et omet « de combat ».",
+  "correction": "Dresseurs ennemis: objets de combat.",
+  "justification": "Dans ce réglage, la précision « de combat » distingue ces objets des objets tenus.",
+  "msgid": "Enemy trainers can use battle items.",
+  "msgstr": "Dresseurs ennemis: objets autorisés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "orthographe",
+  "probleme": "« Aucun » prend une majuscule au milieu de la phrase.",
+  "correction": "Les Pokémon du joueur ne gagnent\\naucun point d’effort (EV)!",
+  "justification": "Le saut de ligne ne termine pas la phrase.",
+  "msgid": "The player's {PKMN} do NOT gain any\\neffort values!",
+  "msgstr": "Les Pokémon du joueur ne gagnent\\nAucun point d’effort (EV)!",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "contresens",
+  "probleme": "« Qu’une seule fois » laisse entendre qu’un Pokémon capturé sous une forme déjà évoluée peut encore évoluer.",
+  "correction": "Seuls les Pokémon au stade de\\nbase peuvent évoluer.",
+  "justification": "Le jeu bloque l’évolution dès que l’espèce est déjà une forme évoluée.",
+  "msgid": "{PKMN} can only evolve into their\\nfirst evolution.",
+  "msgstr": "Les Pokémon ne peuvent évoluer\\nqu’une seule fois.",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "oubli",
+  "probleme": "« Sa stratégie » omet la précision « de combat ».",
+  "correction": "{PLAYER} rentre vite se ressaisir\\net revoir sa stratégie de combat…\\p",
+  "justification": "La précision rétablit le lien avec le combat tout en conservant les deux lignes et les codes.",
+  "msgid": "{PLAYER} scurried back home, to regroup\\nand reconsider the battle strategy…\\p",
+  "msgstr": "{PLAYER} rentre vite à la maison pour se\\nremettre et revoir sa stratégie…\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "typographie",
+  "probleme": "Il manque une espace entre l’abréviation « POUP. » et le nom de l’espèce.",
+  "correction": "POUP. HERICENDRE{CLEAR_TO 0x5E}80PCo",
+  "justification": "L’espace sépare les deux mots et le libellé tient avant la colonne de prix.",
+  "msgid": "CYNDAQUIL DOLL{CLEAR_TO 0x5E}80BP",
+  "msgstr": "POUP.HERICENDRE{CLEAR_TO 0x5E}80PCo",
+  "msgctxt": ""
+ }
+]

@@ -78,3 +78,13 @@ reportées dans `traductions/glossaire.tsv`.
     Ajoutés au glossaire et appliqués, y compris quand un saut de ligne coupe le terme (« CENTRE\nPokémon »
     était resté à moitié converti). Les noms propres de Hoenn (villes, personnages, TEAM AQUA/MAGMA) gardent
     les capitales d'Émeraude FR, conformément au brief.
+18. **Autres textes officiels français, entre SoulSilver et le patch FR.** Les textes officiels de Rouge Feu /
+    Vert Feuille FR (cartes et données FRLG du code, alignés par pointeurs sur une ROM US reconstruite depuis
+    pret/pokefirered, lot F) et les descriptions / catégories du Pokédex des jeux récents (X/Y, ROSA, Soleil/Lune,
+    Épée/Bouclier…, d'après PokeAPI et Poképédia, lots K et P) passent avant le patch FR et les traductions
+    nouvelles (rang 2.8, adaptés 2.9 dans integrer_lot.py), après Émeraude FR et SoulSilver FR.
+19. **Relecture ChatGPT différée faite (lot R).** 926 remarques sur 4 437 entrées ; arbitrage automatique, puis
+    contre-relecture indépendante des corrections acceptées (sous-agent) : 244 retenues sur 926, les autres
+    refusées (pinaillage, allongement sans gain, conventions du projet : {PKMN} écrit « Pokémon », {SUPER_E},
+    capitales de Hoenn, « N. » réservé au niveau). Corrections des descriptions de capacités remises en page à
+    152 px. Détail : rapport/relectures/R_relecture_differee/ et traductions/lots/R_relecture_differee/.

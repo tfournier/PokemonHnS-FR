@@ -1,0 +1,132 @@
+[
+ {
+  "id": 6,
+  "categorie": "contresens",
+  "probleme": "L’enseigne ne propose plus de faire évaluer les surnoms.",
+  "correction": "Maison du Spécialiste des Noms\\pFaites évaluer leurs surnoms!",
+  "justification": "L’anglais invite le joueur à faire évaluer les surnoms de ses Pokémon.",
+  "msgid": "NAME RATER\\pGet Your POKéMON Nicknames Rated",
+  "msgstr": "Maison du Spécialiste des Noms\\pJe sais tout sur les noms des Pokémon",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "oubli",
+  "probleme": "Le nom de la boutique, « Blooming Beautiful », disparaît.",
+  "correction": "Fleuriste Belle Floraison",
+  "justification": "« Belle Floraison » conserve le nom floral de la boutique. Doublonville n’est pas mentionnée sur l’enseigne anglaise.",
+  "msgid": "Blooming Beautiful FLOWER SHOP",
+  "msgstr": "Fleuriste de Doublonville",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "oubli",
+  "probleme": "L’étrangeté du signal et le sentiment de culpabilité disparaissent.",
+  "correction": "Voilà la machine qui cause tous\\nces problèmes.\\pJe ne vois pas d’interrupteur…\\pNous n’avons pas le choix: il faut\\nmettre K.O. tous les ELECTRODE.\\pCela devrait arrêter la machine\\net son étrange signal.\\pCe n’est pas leur faute… Je m’en\\nveux de devoir faire ça.\\p{PLAYER}, partageons-nous la tâche.",
+  "justification": "Le locuteur qualifie le signal d’étrange et dit s’en vouloir de devoir mettre les Pokémon K.O.",
+  "msgid": "It's this machine that's causing\\nall the problems.\\pI don't see a switch on it…\\pWe have no choice. We have to\\nmake all the ELECTRODE faint.\\pThat should stop this machine\\nfrom transmitting that strange\\lsignal.\\pIt's no fault of the POKéMON, so\\nit makes me feel guilty.\\p{PLAYER}, let's split the job.",
+  "msgstr": "Voilà la machine qui cause tous\\nces problèmes.\\pJe ne vois pas d’interrupteur…\\pNous n’avons pas le choix: il faut\\nmettre K.O. tous les ELECTRODE.\\pCela devrait arrêter cette machine\\net du même coup le signal.\\pCe n’est pourtant pas de leur faute,\\nles pauvres…\\p{PLAYER}, partageons-nous la tâche.",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "oubli",
+  "probleme": "« Explorer le coin » efface l’idée de passer du temps en plein air.",
+  "correction": "J’ai acheté cette maison pour\\nexplorer la nature avec mon fils…\\pMais lui, il ne veut que jouer\\nà sa Game Boy Advance.",
+  "justification": "« The outdoors » désigne la nature et motive l’achat de la maison.",
+  "msgid": "I bought this place so that my son\\nand I could explore the outdoors…\\pAll he wants to do is play on that\\nGame Boy Advance.",
+  "msgstr": "J’ai acheté cette maison pour que\\nmon fils et moi explorions le coin…\\pMais lui, il ne veut que jouer\\nà sa Game Boy Advance.",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "contresens",
+  "probleme": "« Car je parie » fait du pari de FLORA la raison pour laquelle le joueur s’entraîne.",
+  "correction": "FLORA: Avec ces LUNET. SABLE,\\ntu traverseras sans problème le\\ldésert près de la ROUTE 111.\\pMais, waouh, {PLAYER}{KUN}…\\nTe battre dans les Arènes…\\pTu t’entraînes dur pour ne pas\\nperdre contre moi, je parie!\\p{PLAYER}{KUN}, je crois que je\\ndevrais défier ton père à\\ll’Arène de CLEMENTI-VILLE.\\pA une prochaine fois!",
+  "justification": "FLORA suppose que le joueur s’entraîne pour éviter de perdre contre elle.",
+  "msgid": "MAY: With those GO-GOGGLES, you'll\\nhave no trouble getting through the\\ldesert near ROUTE 111.\\pBut, wow, {PLAYER}{KUN}…\\nChallenging GYMS…\\pYou're trying hard because you don't\\nwant to lose to me, I bet!\\p{PLAYER}{KUN}, I think I should challenge\\nyour dad in PETALBURG GYM.\\pSee you again!",
+  "msgstr": "FLORA: Avec ces LUNET. SABLE,\\ntu pourras sans problème traverser le\\ldésert près de la ROUTE 111.\\pMais, waouh, {PLAYER}{KUN}…\\nTe battre dans les Arènes…\\pTu t’entraînes dur car je parie que tu\\nne veux pas perdre contre moi!\\p{PLAYER}{KUN}, je crois que je devrais\\ndéfier ton père à l’Arène de\\lCLEMENTI-VILLE.\\pA une prochaine fois!",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "oubli",
+  "probleme": "Fargas ne précise plus qu’il va transformer les Baies en Poké Balls.",
+  "correction": "Fargas: Oh, mais tu as des Baies!\\pParfait! J’en ferai des Poké Balls.",
+  "justification": "La seconde phrase annonce explicitement ce que Fargas va fabriquer.",
+  "msgid": "KURT: You have BERRIES for me?\\pFine! I'll turn them into POKé BALLS.",
+  "msgstr": "Fargas: Oh, mais tu as des Baies!\\pAllez, laisse-moi faire!",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "orthographe",
+  "probleme": "« Trouvé » ne s’accorde pas avec la personne qui parle.",
+  "correction": "Oh, mince. Tu m’as trouvée.\\pS’il te plaît, ne parle de moi\\nà personne.\\pJe te donne ça si tu gardes\\nmon secret. D’accord?",
+  "justification": "La femme de la Route 28 parle d’elle-même. Le participe passé s’accorde avec « m’ », placé avant le verbe.",
+  "msgid": "Oh, dear. You've found me.\\pPlease don't tell anyone about me.\\pI'll give you this for keeping my\\nsecret. Please?",
+  "msgstr": "Oh, mince. Tu m’as trouvé.\\pS’il te plaît, ne parle de moi\\nà personne.\\pJe te donne ça si tu gardes\\nmon secret. D’accord?",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "contresens",
+  "probleme": "« L’ordre des attaques s’inverse » laisse entendre que Distorsion inverse aussi leur priorité.",
+  "correction": "C’est Distorsion.\\pL’ordre de Vitesse s’inverse.\\nLes plus lents jouent en premier!\\pUtilise-la pour renverser un combat.",
+  "justification": "Distorsion fait agir les Pokémon les plus lents en premier à priorité égale.",
+  "msgid": "That's TRICK ROOM.\\pAll POKEMON in battle will change speed.\\nSlow goes first. Fast goes last.\\pUse it to turn a battle on its head.",
+  "msgstr": "C’est Distorsion.\\pL’ordre des attaques s’inverse.\\nLes lents jouent avant les rapides!\\pDe quoi renverser un combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "registre",
+  "probleme": "La fleuriste passe au tutoiement après avoir vouvoyé le joueur.",
+  "correction": "Vous avez battu Blanche? Bravo!",
+  "justification": "Le vouvoiement reste cohérent avec l’accueil de la boutique et la réplique précédente.",
+  "msgid": "Wow, you beat WHITNEY? Cool!",
+  "msgstr": "Waouh, t’as battu Blanche? Trop fort!",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "oubli",
+  "probleme": "Le défi lancé au joueur devient une affirmation catégorique.",
+  "correction": "Un volet s’ouvre, un autre ferme.\\pJe parie que tu vas te perdre!",
+  "justification": "« Bet you can’t » marque un pari moqueur sur la capacité du joueur à trouver son chemin.",
+  "msgid": "Open one shutter, another closes.\\pBet you can't get where you want!",
+  "msgstr": "Un volet s’ouvre, un autre se ferme.\\pTu n’arriveras jamais où tu veux!",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "codes",
+  "probleme": "Les codes {SUPER_ER} et {SUPER_E} sont ajoutés par rapport à l’anglais.",
+  "correction": "RDC: Réception\\n1er: Vente\\p2e: Personnel\\n3e: Production\\p4e: Bureau du Directeur",
+  "justification": "Les ordinaux peuvent s’écrire en texte simple. « Vente » restitue « Sales » sans préciser la nature des produits.",
+  "msgid": "1F RECEPTION\\n2F SALES\\p3F PERSONNEL\\n4F PRODUCTION\\p5F DIRECTOR'S OFFICE",
+  "msgstr": "RC: Réception\\n1{SUPER_ER}: Produits dérivés\\p2{SUPER_E}: Personnel\\n3{SUPER_E}: Production\\p4{SUPER_E}: Bureau du Directeur",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "contresens",
+  "probleme": "« Simple comme un bouton » omet le geste qui permet de sortir la Bicyclette.",
+  "correction": "Il suffit d’appuyer sur un bouton\\nsi tu as enregistré la Bicyclette\\ldepuis ton Sac.\\pPour aller plus vite, il faut\\nd’abord t’arrêter!\\pÇa paraît bizarre, comme conseil,\\nmais on ne peut changer de\\lvitesse qu’à l’arrêt.\\pAppuie sur R quand tu es arrêté,\\net au prochain coup de pédale,\\ltu rouleras plus vite!",
+  "justification": "L’anglais explique le raccourci par pression d’un bouton et précise l’effet du changement de vitesse.",
+  "msgid": "Riding the BIKE is as simple as\\npressing a button if you\\lREGISTER it from the BAG.\\pIf you need to go faster,\\nyou first need to come to a stop!\\pThat might seem like strange\\nadvice, but you can only change\\lgears on the BIKE while stopped.\\pPress your R button when stopped\\nand the next time you pedal,\\lyou will reach greater speeds!",
+  "msgstr": "Rouler à Bicyclette, c’est simple\\ncomme un bouton si tu\\ll’enregistres depuis ton Sac.\\pPour aller plus vite, il faut\\nd’abord t’arrêter!\\pÇa paraît bizarre, comme conseil,\\nmais on ne peut changer de\\lvitesse qu’à l’arrêt.\\pAppuie sur R quand tu es arrêté,\\net au prochain coup de pédale,\\ltu fileras comme le vent!",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "registre",
+  "probleme": "Le commerçant tutoie le joueur.",
+  "correction": "Les affaires sont dures depuis\\nqu’on a quitté Kanto.\\lMerci pour votre coup de main!\\pFaites bien la pub de notre\\nsystème de vitesses breveté!\\pIl suffit d’appuyer sur R à l’arrêt\\nsur votre Bicyclette.\\pAttention! Vous irez plus vite!",
+  "justification": "Le personnel de boutique vouvoie le joueur. La dernière phrase précise l’effet du changement de vitesse.",
+  "msgid": "Business has been hard to come\\nby since we moved from KANTO.\\lWe appreciate your help!\\pCan you make sure to show off\\nour patented gear-changing tech?\\pIt's as simple as pressing R when\\nyou are stopped on your BIKE.\\pBeware! You will then go faster!",
+  "msgstr": "Les affaires sont dures depuis\\nqu’on a quitté Kanto.\\lMerci de nous donner un coup de main!\\pFais bien la pub de notre\\nsystème de vitesses breveté!\\pIl suffit d’appuyer sur R à l’arrêt\\nsur ta Bicyclette.\\pAttention! Ensuite, ça décoiffe!",
+  "msgctxt": ""
+ }
+]

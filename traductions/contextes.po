@@ -1634,11 +1634,12 @@ msgid "POWER"
 msgstr "PUIS."
 
 #. source : traduction nouvelle
-#. lot : H_interface
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : LEGER
 #: src/challenge_menu.c:0
 msgctxt "src/challenge_menu.c"
 msgid "EASY"
-msgstr "LEGER"
+msgstr "FACILE"
 
 #. source : traduction nouvelle
 #. lot : H_interface
@@ -1699,12 +1700,14 @@ msgctxt "src/data/battle_frontier/trainer_hill.h"
 msgid "ANNIHILAPE"
 msgstr "COURROUSIN"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23C0D8 (TRAINER_BLACK_BELT_AARON) : IGOR
+#. ancien (traduction nouvelle) : Aaron
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "AARON"
-msgstr "Aaron"
+msgstr "Igor"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -1713,12 +1716,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "AARON"
 msgstr "Aaron"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23ABC0 (TRAINER_HIKER_ALAN) : AL
+#. ancien (traduction nouvelle) : Alan
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "ALAN"
-msgstr "Alan"
+msgstr "Al"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -1756,19 +1761,23 @@ msgctxt "src/data/trainers_hns.party"
 msgid "ALLAN"
 msgstr "Allan"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23AC88 (TRAINER_HIKER_ALLEN) : ALAIN
+#. ancien (traduction nouvelle) : Allen
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "ALLEN"
-msgstr "Allen"
+msgstr "Alain"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B340 (TRAINER_FISHERMAN_ANDREW) : ALI
+#. ancien (traduction nouvelle) : Andrew
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "ANDREW"
-msgstr "Andrew"
+msgstr "Ali"
 
 #. source : Émeraude FR officiel
 #. lot : C1_restes
@@ -1779,12 +1788,14 @@ msgctxt "src/data/battle_frontier/apprentice.h"
 msgid "ANDY"
 msgstr "ANDY"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D550 (TRAINER_CHANNELER_ANGELICA) : ANGELIQUE
+#. ancien (traduction nouvelle) : Angelica
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "ANGELICA"
-msgstr "Angelica"
+msgstr "Angélique"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -1800,12 +1811,14 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "ANTHONY"
 msgstr "Anthony"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D910 (TRAINER_PICNICKER_ARIANA) : KIM
+#. ancien (traduction nouvelle) : Ariana
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "ARIANA"
-msgstr "Ariana"
+msgstr "Kim"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -1830,19 +1843,23 @@ msgctxt "src/data/contest_opponents.h"
 msgid "AVERY"
 msgstr "GREG"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23AAA8 (TRAINER_SUPER_NERD_AVERY) : EVAN
+#. ancien (traduction nouvelle) : Avery
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "AVERY"
-msgstr "Avery"
+msgstr "Evan"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B4A8 (TRAINER_SWIMMER_MALE_BARRY) : BENOIT
+#. ancien (traduction nouvelle) : Barry
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "BARRY"
-msgstr "Barry"
+msgstr "Benoît"
 
 #. source : Émeraude FR officiel
 #. lot : C1_restes
@@ -1852,12 +1869,14 @@ msgctxt "src/data/contest_opponents.h"
 msgid "BEAU"
 msgstr "JANIE"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23C3F8 (TRAINER_SCIENTIST_BEAU) : YANIS
+#. ancien (traduction nouvelle) : Beau
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "BEAU"
-msgstr "Beau"
+msgstr "Yanis"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -1880,26 +1899,34 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "BENJAMIN"
 msgstr "Benjamin"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BE58 (TRAINER_BIRD_KEEPER_BENNY) : FREDO ; BPRF 0x23F648
+#. (TRAINER_BIRD_KEEPER_BENNY_2) : FREDO ; BPRF 0x23F670
+#. (TRAINER_BIRD_KEEPER_BENNY_3) : FREDO
+#. ancien (traduction nouvelle) : Benny
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "BENNY"
-msgstr "Benny"
+msgstr "Frédo"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23CD30 (TRAINER_COOLTRAINER_BERKE) : BERTRAND
+#. ancien (traduction nouvelle) : Berke
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "BERKE"
-msgstr "Berke"
+msgstr "Bertrand"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23EC20 (TRAINER_PKMN_RANGER_BETH) : BETTY
+#. ancien (traduction nouvelle) : Beth
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "BETH"
-msgstr "Beth"
+msgstr "Betty"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -1908,12 +1935,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "BETH"
 msgstr "Beth"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23EE00 (TRAINER_PKMN_BREEDER_BETHANY) : MARISSA
+#. ancien (traduction nouvelle) : Bethany
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "BETHANY"
-msgstr "Bethany"
+msgstr "Marissa"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -1939,19 +1968,23 @@ msgctxt "src/data/trade.h"
 msgid "BILLY"
 msgstr "Voltounet"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23AE90 (TRAINER_BIKER_BILLY) : WILLY
+#. ancien (traduction nouvelle) : Billy
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "BILLY"
-msgstr "Billy"
+msgstr "Willy"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23ECE8 (TRAINER_RUIN_MANIAC_BRANDON) : FLORENT
+#. ancien (traduction nouvelle) : Brandon
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "BRANDON"
-msgstr "Brandon"
+msgstr "Florent"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -1961,12 +1994,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "BRANDON"
 msgstr "Brandon"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x474A44 (sTrainerTowerFloor_Single_2[0]) : FLORENT
+#. ancien (traduction nouvelle) : Brandon
 #: src/trainer_tower_sets.c:0
 msgctxt "src/trainer_tower_sets.c"
 msgid "BRANDON"
-msgstr "Brandon"
+msgstr "Florent"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -1975,12 +2010,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "BRENDA"
 msgstr "Brenda"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A0A8 (TRAINER_BUG_CATCHER_BRENT) : BRAD
+#. ancien (traduction nouvelle) : Brent
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "BRENT"
-msgstr "Brent"
+msgstr "Brad"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -2007,12 +2044,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "BRIANA"
 msgstr "Briana"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B840 (TRAINER_BEAUTY_BRIDGET) : ELODIE
+#. ancien (traduction nouvelle) : Bridget
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "BRIDGET"
-msgstr "Bridget"
+msgstr "Elodie"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2021,12 +2060,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "BRIDGET"
 msgstr "Bridget"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23CE70 (TRAINER_COOLTRAINER_BROOKE) : BLANCHE
+#. ancien (traduction nouvelle) : Brooke
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "BROOKE"
-msgstr "Brooke"
+msgstr "Blanche"
 
 #. source : Émeraude FR officiel
 #. lot : C1_restes
@@ -2045,12 +2086,14 @@ msgctxt "src/data/contest_opponents.h"
 msgid "BRYANT"
 msgstr "JACO"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23E590 (TRAINER_CAMPER_BRYCE) : JEAN-LOIC
+#. ancien (traduction nouvelle) : Bryce
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "BRYCE"
-msgstr "Bryce"
+msgstr "Jean-Loïc"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2059,19 +2102,23 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "CALVIN"
 msgstr "Calvin"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BAE8 (TRAINER_PSYCHIC_CAMERON) : PROSPER
+#. ancien (traduction nouvelle) : Cameron
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "CAMERON"
-msgstr "Cameron"
+msgstr "Prosper"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A760 (TRAINER_PICNICKER_CAROL) : CAROLE
+#. ancien (traduction nouvelle) : Carol
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "CAROL"
-msgstr "Carol"
+msgstr "Carole"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2080,33 +2127,45 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "CAROLINE"
 msgstr "Caroline"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BFC0 (TRAINER_BIRD_KEEPER_CARTER) : FRANCIS
+#. ancien (traduction nouvelle) : Carter
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "CARTER"
-msgstr "Carter"
+msgstr "Francis"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x1C3F69 (pokefirered gNameChoice_Cassie, BPRE 0x1C57FF, ptr)
+#. : INGRID
+#. ancien (traduction nouvelle) : Cassie
 #: data/text/new_game_intro_frlg.inc:0
 msgctxt "data/text/new_game_intro_frlg.inc"
 msgid "CASSIE"
-msgstr "CASSIE"
+msgstr "Ingrid"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x239DB0 (TRAINER_YOUNGSTER_CHAD) : CEDRIC ; BPRF 0x23DCF8
+#. (TRAINER_YOUNGSTER_CHAD_2) : CEDRIC ; BPRF 0x23DDE8
+#. (TRAINER_YOUNGSTER_CHAD_3) : CEDRIC ; BPRF 0x23DE60
+#. (TRAINER_YOUNGSTER_CHAD_4) : CEDRIC
+#. ancien (traduction nouvelle) : Chad
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "CHAD"
-msgstr "Chad"
+msgstr "Cédric"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23E1F8 (TRAINER_BUG_CATCHER_CHARLIE) : CHARLES
+#. ancien (traduction nouvelle) : Charlie
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "CHARLIE"
-msgstr "Charlie"
+msgstr "Charles"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2122,26 +2181,33 @@ msgctxt "src/data/trainers_hns.party"
 msgid "CLARISSA"
 msgstr "Clarissa"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23AC10 (TRAINER_HIKER_CLARK) : LUIGI
+#. ancien (traduction nouvelle) : Clark
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "CLARK"
-msgstr "Clark"
+msgstr "Luigi"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BA48 (TRAINER_SWIMMER_FEMALE_CONNIE) : CONSTANCE
+#. ancien (traduction nouvelle) : Connie
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "CONNIE"
-msgstr "Connie"
+msgstr "Constance"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B6D8 (TRAINER_CUE_BALL_COREY) : DIDIER ; BPRF 0x23F8F0
+#. (TRAINER_CUE_BALL_COREY_2) : DIDIER
+#. ancien (traduction nouvelle) : Corey
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "COREY"
-msgstr "Corey"
+msgstr "Didier"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -2151,12 +2217,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "COREY"
 msgstr "Pietro"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B1B0 (TRAINER_FISHERMAN_DALE) : FABIO
+#. ancien (traduction nouvelle) : Dale
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "DALE"
-msgstr "Dale"
+msgstr "Fabio"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2165,12 +2233,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "DALE"
 msgstr "Dale"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D8E8 (TRAINER_PICNICKER_DANA) : CHRISTELLE
+#. ancien (traduction nouvelle) : Dana
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "DANA"
-msgstr "Dana"
+msgstr "Christelle"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2214,12 +2284,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "DAVID"
 msgstr "David"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A2B0 (TRAINER_LASS_DAWN) : MAELLE
+#. ancien (traduction nouvelle) : Dawn
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "DAWN"
-msgstr "Dawn"
+msgstr "Maëlle"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2235,26 +2307,34 @@ msgctxt "src/data/battle_frontier/trainer_hill.h"
 msgid "DEAN"
 msgstr "DEAN"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B4D0 (TRAINER_SWIMMER_MALE_DEAN) : JEAN
+#. ancien (traduction nouvelle) : Dean
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "DEAN"
-msgstr "Dean"
+msgstr "Jean"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x1AFC86 (pokefirered
+#. gFameCheckerFlavorTextOriginObjectName_Blaine2, BPRE 0x1B12D6, ptr) :
+#. DIDIER
+#. ancien (traduction nouvelle) : Derek
 #: data/text/fame_checker_frlg.inc:0
 msgctxt "data/text/fame_checker_frlg.inc"
 msgid "DEREK"
-msgstr "Derek"
+msgstr "Didier"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23AAD0 (TRAINER_SUPER_NERD_DEREK) : DIDIER
+#. ancien (traduction nouvelle) : Derek
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "DEREK"
-msgstr "Derek"
+msgstr "Didier"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -2264,19 +2344,23 @@ msgctxt "src/data/trainers_hns.party"
 msgid "DEREK"
 msgstr "Djamil"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A648 (TRAINER_PICNICKER_DIANA) : DIANE
+#. ancien (traduction nouvelle) : Diana
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "DIANA"
-msgstr "Diana"
+msgstr "Diane"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B778 (TRAINER_GAMER_DIRK) : CLEMENT
+#. ancien (traduction nouvelle) : Dirk
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "DIRK"
-msgstr "Dirk"
+msgstr "Clément"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2293,12 +2377,14 @@ msgctxt "src/data/trade.h"
 msgid "DOTS"
 msgstr "PIPIO"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B408 (TRAINER_SWIMMER_MALE_DOUGLAS) : DOMINIQUE
+#. ancien (traduction nouvelle) : Douglas
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "DOUGLAS"
-msgstr "Douglas"
+msgstr "Dominique"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2307,33 +2393,43 @@ msgctxt "src/data/trainers_hns.party"
 msgid "DOUGLAS"
 msgstr "Douglas"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23AC60 (TRAINER_HIKER_DUDLEY) : DORIAN
+#. ancien (traduction nouvelle) : Dudley
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "DUDLEY"
-msgstr "Dudley"
+msgstr "Dorian"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A440 (TRAINER_SAILOR_DUNCAN) : LUDOVIC
+#. ancien (traduction nouvelle) : Duncan
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "DUNCAN"
-msgstr "Duncan"
+msgstr "Ludovic"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x1AFBC4 (pokefirered
+#. gFameCheckerFlavorTextOriginObjectName_LtSurge4, BPRE 0x1B1227, ptr) :
+#. HAROLD
+#. ancien (traduction nouvelle) : Dwayne
 #: data/text/fame_checker_frlg.inc:0
 msgctxt "data/text/fame_checker_frlg.inc"
 msgid "DWAYNE"
-msgstr "Dwayne"
+msgstr "Harold"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A4E0 (TRAINER_SAILOR_DWAYNE) : HAROLD
+#. ancien (traduction nouvelle) : Dwayne
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "DWAYNE"
-msgstr "Dwayne"
+msgstr "Harold"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2356,12 +2452,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "EDDIE"
 msgstr "Eddie"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BCF0 (TRAINER_TAMER_EDGAR) : EDGARD
+#. ancien (traduction nouvelle) : Edgar
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "EDGAR"
-msgstr "Edgar"
+msgstr "Edgard"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2370,19 +2468,23 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "EDMOND"
 msgstr "Edmond"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BC50 (TRAINER_JUGGLER_EDWARD) : EDOUARD
+#. ancien (traduction nouvelle) : Edward
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "EDWARD"
-msgstr "Edward"
+msgstr "Edouard"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BE80 (TRAINER_BIRD_KEEPER_EDWIN) : MARTIN
+#. ancien (traduction nouvelle) : Edwin
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "EDWIN"
-msgstr "Edwin"
+msgstr "Martin"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -2427,12 +2529,14 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "ERNEST"
 msgstr "Ernest"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A558 (TRAINER_CAMPER_ETHAN) : DIEGO
+#. ancien (traduction nouvelle) : Ethan
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "ETHAN"
-msgstr "Ethan"
+msgstr "Diego"
 
 #. source : Émeraude FR officiel
 #. lot : C1_restes
@@ -2442,12 +2546,15 @@ msgctxt "src/data/contest_opponents.h"
 msgid "EVAN"
 msgstr "HUGUES"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23EB80 (TRAINER_TAMER_EVAN) : AKIM ; BPRF 0x23FFD0
+#. (TRAINER_TAMER_EVAN_2) : AKIM
+#. ancien (traduction nouvelle) : Evan
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "EVAN"
-msgstr "Evan"
+msgstr "Akim"
 
 #. source : Émeraude FR officiel
 #. lot : C1_restes
@@ -2458,26 +2565,33 @@ msgctxt "src/data/battle_frontier/apprentice.h"
 msgid "FRANK"
 msgstr "FRANK"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23AB48 (TRAINER_HIKER_FRANKLIN) : FRANÇOIS ; BPRF 0x23DE88
+#. (TRAINER_HIKER_FRANKLIN_2) : FRANÇOIS
+#. ancien (traduction nouvelle) : Franklin
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "FRANKLIN"
-msgstr "Franklin"
+msgstr "François"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23E4C8 (TRAINER_SWIMMER_MALE_GARRETT) : LOGAN
+#. ancien (traduction nouvelle) : Garrett
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "GARRETT"
-msgstr "Garrett"
+msgstr "Logan"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23CC40 (TRAINER_COOLTRAINER_GEORGE) : GEORGES
+#. ancien (traduction nouvelle) : George
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "GEORGE"
-msgstr "George"
+msgstr "Georges"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -2487,19 +2601,25 @@ msgctxt "src/data/trainers_hns.party"
 msgid "GEORGIA"
 msgstr "Odile"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x1AFE2D (pokefirered
+#. gFameCheckerFlavorTextOriginObjectName_Giovanni5, BPRE 0x1B1463, ptr) :
+#. GEDEON
+#. ancien (traduction nouvelle) : Gideon
 #: data/text/fame_checker_frlg.inc:0
 msgctxt "data/text/fame_checker_frlg.inc"
 msgid "GIDEON"
-msgstr "Gideon"
+msgstr "Gédéon"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23E400 (TRAINER_SCIENTIST_GIDEON) : GEDEON
+#. ancien (traduction nouvelle) : Gideon
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "GIDEON"
-msgstr "Gideon"
+msgstr "Gedeon"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2537,26 +2657,32 @@ msgctxt "src/data/trainers_hns.party"
 msgid "GRACE"
 msgstr "Rika"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x239F68 (TRAINER_BUG_CATCHER_GREG) : GREGORY
+#. ancien (traduction nouvelle) : Greg
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "GREG"
-msgstr "Greg"
+msgstr "Gregory"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BC28 (TRAINER_JUGGLER_GREGORY) : JB
+#. ancien (traduction nouvelle) : Gregory
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "GREGORY"
-msgstr "Gregory"
+msgstr "Jb"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D820 (TRAINER_PICNICKER_GWEN) : GWENAELLE
+#. ancien (traduction nouvelle) : Gwen
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "GWEN"
-msgstr "Gwen"
+msgstr "Gwenaëlle"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2565,12 +2691,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "HAL"
 msgstr "Hal"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B250 (TRAINER_FISHERMAN_HANK) : SERGE
+#. ancien (traduction nouvelle) : Hank
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "HANK"
-msgstr "Hank"
+msgstr "Serge"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2579,54 +2707,74 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "HAROLD"
 msgstr "Harold"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A850 (TRAINER_POKEMANIAC_HERMAN) : HERVE ; BPRF 0x23F3A0
+#. (TRAINER_POKEMANIAC_HERMAN_2) : HERVE ; BPRF 0x23F3C8
+#. (TRAINER_POKEMANIAC_HERMAN_3) : HERVE
+#. ancien (traduction nouvelle) : Herman
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "HERMAN"
-msgstr "Herman"
+msgstr "Hervé"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D410 (TRAINER_CHANNELER_HOPE) : HORTENSE
+#. ancien (traduction nouvelle) : Hope
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "HOPE"
-msgstr "Hope"
+msgstr "Hortense"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23E568 (TRAINER_BLACK_BELT_HUGH) : HUGHES ; BPRF 0x23FBC0
+#. (TRAINER_BLACK_BELT_HUGH_2) : HUGHES ; BPRF 0x23FBE8
+#. (TRAINER_BLACK_BELT_HUGH_3) : HUGHES
+#. ancien (traduction nouvelle) : Hugh
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "HUGH"
-msgstr "Hugh"
+msgstr "Hughes"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D8C0 (TRAINER_PICNICKER_IRENE) : IRENE
+#. ancien (traduction nouvelle) : Irene
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "IRENE"
-msgstr "Irene"
+msgstr "Irène"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23C510 (TRAINER_SCIENTIST_IVAN) : YVAN
+#. ancien (traduction nouvelle) : Ivan
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "IVAN"
-msgstr "Ivan"
+msgstr "Yvan"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B548 (TRAINER_SWIMMER_MALE_JACK) : JACQUES ; BPRF
+#. 0x23FA30 (TRAINER_SWIMMER_MALE_JACK_2) : JACQUES
+#. ancien (traduction nouvelle) : Jack
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "JACK"
-msgstr "Jack"
+msgstr "Jacques"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23DFA0 (TRAINER_PSYCHIC_JACLYN) : JAQUELINE ; BPRF 0x23FE18
+#. (TRAINER_PSYCHIC_JACLYN_2) : JAQUELINE
+#. ancien (traduction nouvelle) : Jaclyn
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "JACLYN"
-msgstr "Jaclyn"
+msgstr "Jaqueline"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2649,12 +2797,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "JADE"
 msgstr "Jade"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23AD50 (TRAINER_BIKER_JARED) : BORIS
+#. ancien (traduction nouvelle) : Jared
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "JARED"
-msgstr "Jared"
+msgstr "Boris"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -2681,19 +2831,25 @@ msgctxt "src/data/trainers_hns.party"
 msgid "JASMINE"
 msgstr "Jasmine"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BD18 (TRAINER_TAMER_JASON) : YOURI
+#. ancien (traduction nouvelle) : Jason
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "JASON"
-msgstr "Jason"
+msgstr "Youri"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A5A8 (TRAINER_CAMPER_JEFF) : ANTONIO ; BPRF 0x23F0D0
+#. (TRAINER_CAMPER_JEFF_2) : ANTONIO ; BPRF 0x23F0F8 (TRAINER_CAMPER_JEFF_3) :
+#. ANTONIO ; BPRF 0x23F120 (TRAINER_CAMPER_JEFF_4) : ANTONIO
+#. ancien (traduction nouvelle) : Jeff
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "JEFF"
-msgstr "Jeff"
+msgstr "Antonio"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2702,19 +2858,24 @@ msgctxt "src/data/trainers_hns.party"
 msgid "JEFFREY"
 msgstr "Jeffrey"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D780 (TRAINER_HIKER_JEREMY) : MAURICE ; BPRF 0x23F350
+#. (TRAINER_HIKER_JEREMY_2) : MAURICE
+#. ancien (traduction nouvelle) : Jeremy
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "JEREMY"
-msgstr "Jeremy"
+msgstr "Maurice"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23C380 (TRAINER_SCIENTIST_JERRY) : JULIEN
+#. ancien (traduction nouvelle) : Jerry
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "JERRY"
-msgstr "Jerry"
+msgstr "Julien"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2739,12 +2900,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "JIMMY"
 msgstr "Eusèbe"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D488 (TRAINER_CHANNELER_JODY) : JOELLE
+#. ancien (traduction nouvelle) : Jody
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "JODY"
-msgstr "Jody"
+msgstr "Joëlle"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2769,12 +2932,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "JOEY"
 msgstr "Farouk"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23EE78 (TRAINER_BUG_CATCHER_JONAH) : JONAS
+#. ancien (traduction nouvelle) : Jonah
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "JONAH"
-msgstr "Jonah"
+msgstr "Jonas"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -2784,26 +2949,32 @@ msgctxt "src/data/trade.h"
 msgid "JOSE"
 msgstr "Devon"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23C3A8 (TRAINER_SCIENTIST_JOSE) : JOSE
+#. ancien (traduction nouvelle) : Jose
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "JOSE"
-msgstr "Jose"
+msgstr "José"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x239D10 (TRAINER_YOUNGSTER_JOSH) : JOHNNY
+#. ancien (traduction nouvelle) : Josh
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "JOSH"
-msgstr "Josh"
+msgstr "Johnny"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23C448 (TRAINER_SCIENTIST_JOSHUA) : JOSEPH
+#. ancien (traduction nouvelle) : Joshua
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "JOSHUA"
-msgstr "Joshua"
+msgstr "Joseph"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2833,12 +3004,14 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "JUSTIN"
 msgstr "Justin"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BF98 (TRAINER_BIRD_KEEPER_KEITH) : MATHIEU
+#. ancien (traduction nouvelle) : Keith
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "KEITH"
-msgstr "Keith"
+msgstr "Mathieu"
 
 #. source : Émeraude FR officiel
 #. lot : C1_restes
@@ -2848,12 +3021,17 @@ msgctxt "src/data/contest_opponents.h"
 msgid "KELSEY"
 msgstr "JOHANN"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A6C0 (TRAINER_PICNICKER_KELSEY) : ZORA ; BPRF 0x23EFE0
+#. (TRAINER_PICNICKER_KELSEY_2) : ZORA ; BPRF 0x23F008
+#. (TRAINER_PICNICKER_KELSEY_3) : ZORA ; BPRF 0x23F030
+#. (TRAINER_PICNICKER_KELSEY_4) : ZORA
+#. ancien (traduction nouvelle) : Kelsey
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "KELSEY"
-msgstr "Kelsey"
+msgstr "Zora"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2869,26 +3047,33 @@ msgctxt "src/data/trainers_hns.party"
 msgid "KENDRA"
 msgstr "Kendra"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x239FB8 (TRAINER_BUG_CATCHER_KENT) : KEN
+#. ancien (traduction nouvelle) : Kent
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "KENT"
-msgstr "Kent"
+msgstr "Ken"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x1AFC17 (pokefirered
+#. gFameCheckerFlavorTextOriginObjectName_Koga2, BPRE 0x1B1274, ptr) : CHRIS
+#. ancien (traduction nouvelle) : Kirk
 #: data/text/fame_checker_frlg.inc:0
 msgctxt "data/text/fame_checker_frlg.inc"
 msgid "KIRK"
-msgstr "Kirk"
+msgstr "Chris"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BBD8 (TRAINER_JUGGLER_KIRK) : CHRIS
+#. ancien (traduction nouvelle) : Kirk
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "KIRK"
-msgstr "Kirk"
+msgstr "Chris"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2912,19 +3097,24 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "KOJI"
 msgstr "Koji"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23ADF0 (TRAINER_BIKER_LAO) : LAYO
+#. ancien (traduction nouvelle) : Lao
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "LAO"
-msgstr "Lao"
+msgstr "Layo"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23E9F0 (TRAINER_RUIN_MANIAC_LARRY) : LAURENT ; BPRF
+#. 0x23FE90 (TRAINER_RUIN_MANIAC_LARRY_2) : LAURENT
+#. ancien (traduction nouvelle) : Larry
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "LARRY"
-msgstr "Larry"
+msgstr "Laurent"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2933,19 +3123,24 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "LAURA"
 msgstr "Laura"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A418 (TRAINER_SAILOR_LEONARD) : LEONARD
+#. ancien (traduction nouvelle) : Leonard
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "LEONARD"
-msgstr "Leonard"
+msgstr "Léonard"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23EC70 (TRAINER_COOLTRAINER_LEROY) : LEON ; BPRF 0x240048
+#. (TRAINER_COOLTRAINER_LEROY_2) : LEON
+#. ancien (traduction nouvelle) : Leroy
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "LEROY"
-msgstr "Leroy"
+msgstr "Léon"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2954,12 +3149,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "LEROY"
 msgstr "Leroy"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B110 (TRAINER_BURGLAR_LEWIS) : SAMIR
+#. ancien (traduction nouvelle) : Lewis
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "LEWIS"
-msgstr "Lewis"
+msgstr "Samir"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -2976,19 +3173,24 @@ msgctxt "src/data/contest_opponents.h"
 msgid "LIAM"
 msgstr "LIAM"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A508 (TRAINER_CAMPER_LIAM) : ELVIN
+#. ancien (traduction nouvelle) : Liam
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "LIAM"
-msgstr "Liam"
+msgstr "Elvin"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg
+#. preuve : BPRF 0x1AFBE9 (pokefirered
+#. gFameCheckerFlavorTextOriginObjectName_Erika2, BPRE 0x1B1249, ptr) : LISA
+#. ancien (traduction nouvelle) : Lola
 #: data/text/fame_checker_frlg.inc:0
 msgctxt "data/text/fame_checker_frlg.inc"
 msgid "LOLA"
-msgstr "Lola"
+msgstr "Lisa"
 
 #. source : Émeraude FR officiel
 #. lot : C1_restes
@@ -2999,12 +3201,14 @@ msgctxt "src/data/battle_frontier/apprentice.h"
 msgid "LOLA"
 msgstr "LOLA"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B890 (TRAINER_BEAUTY_LORI) : LAURENCE
+#. ancien (traduction nouvelle) : Lori
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "LORI"
-msgstr "Lori"
+msgstr "Laurence"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -3036,19 +3240,25 @@ msgctxt "src/data/trainers.party"
 msgid "MARK"
 msgstr "ACHILLE"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A828 (TRAINER_POKEMANIAC_MARK) : ACHILLE ; BPRF 0x23EBA8
+#. (TRAINER_POKEMANIAC_MARK_2) : ACHILLE ; BPRF 0x23F378
+#. (TRAINER_POKEMANIAC_MARK_3) : ACHILLE
+#. ancien (traduction nouvelle) : Mark
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "MARK"
-msgstr "Mark"
+msgstr "Achille"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A7B0 (TRAINER_PICNICKER_MARTHA) : MARTHE
+#. ancien (traduction nouvelle) : Martha
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "MARTHA"
-msgstr "Martha"
+msgstr "Marthe"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -3058,12 +3268,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "MARTHA"
 msgstr "Marthe"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23CDA8 (TRAINER_COOLTRAINER_MARY) : MARIE
+#. ancien (traduction nouvelle) : Mary
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "MARY"
-msgstr "Mary"
+msgstr "Marie"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3080,18 +3292,20 @@ msgid "MEGAN"
 msgstr "Megan"
 
 #. source : traduction nouvelle
-#. lot : C1_restes
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : Melissa
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "MELISSA"
-msgstr "Melissa"
+msgstr "Mélissa"
 
 #. source : traduction nouvelle
-#. lot : C1_restes
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : Melissa
 #: src/data/trainers_hns.party:0
 msgctxt "src/data/trainers_hns.party"
 msgid "MELISSA"
-msgstr "Melissa"
+msgstr "Mélissa"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3100,12 +3314,14 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "MICHELLE"
 msgstr "Michelle"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23C088 (TRAINER_BLACK_BELT_MIKE) : MAXIME
+#. ancien (traduction nouvelle) : Mike
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "MIKE"
-msgstr "Mike"
+msgstr "Maxime"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -3115,12 +3331,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "MIKE"
 msgstr "Manolo"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x473EA4 (sTrainerTowerFloor_Knockout_2[0]) : MAXIME
+#. ancien (traduction nouvelle) : Mike
 #: src/trainer_tower_sets.c:0
 msgctxt "src/trainer_tower_sets.c"
 msgid "MIKE"
-msgstr "Mike"
+msgstr "Maxime"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3144,19 +3362,23 @@ msgctxt "src/data/trainers_hns.party"
 msgid "MITCH"
 msgstr "Florin"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BCA0 (TRAINER_JUGGLER_NATE) : VICENTE
+#. ancien (traduction nouvelle) : Nate
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "NATE"
-msgstr "Nate"
+msgstr "Vicente"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B200 (TRAINER_FISHERMAN_NED) : ERWAN
+#. ancien (traduction nouvelle) : Ned
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "NED"
-msgstr "Ned"
+msgstr "Erwan"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3165,19 +3387,23 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "NELSON"
 msgstr "Nelson"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23E090 (TRAINER_AROMA_LADY_NIKKI) : MYLENE
+#. ancien (traduction nouvelle) : Nikki
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "NIKKI"
-msgstr "Nikki"
+msgstr "Mylène"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23AB70 (TRAINER_HIKER_NOB) : HIRO
+#. ancien (traduction nouvelle) : Nob
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "NOB"
-msgstr "Nob"
+msgstr "Hiro"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -3188,18 +3414,21 @@ msgid "NOLAND"
 msgstr "Evrard"
 
 #. source : traduction nouvelle
-#. lot : C1_restes
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : Norman
 #: src/data/trainers_hns.party:0
 msgctxt "src/data/trainers_hns.party"
 msgid "NORMAN"
-msgstr "Norman"
+msgstr "NORMAN"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D118 (TRAINER_GENTLEMAN_NORTON) : PACOME
+#. ancien (traduction nouvelle) : Norton
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "NORTON"
-msgstr "Norton"
+msgstr "Pacôme"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3208,12 +3437,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "NORTON"
 msgstr "Norton"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23AD00 (TRAINER_HIKER_OLIVER) : TANGUY
+#. ancien (traduction nouvelle) : Oliver
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "OLIVER"
-msgstr "Oliver"
+msgstr "Tanguy"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3244,19 +3475,23 @@ msgctxt "src/data/contest_opponents.h"
 msgid "OMAR"
 msgstr "OMAR"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23CD08 (TRAINER_COOLTRAINER_OWEN) : OLIVER
+#. ancien (traduction nouvelle) : Owen
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "OWEN"
-msgstr "Owen"
+msgstr "Oliver"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x478464 (sTrainerTowerFloor_Mixed_3[0]) : OLIVER
+#. ancien (traduction nouvelle) : Owen
 #: src/trainer_tower_sets.c:0
 msgctxt "src/trainer_tower_sets.c"
 msgid "OWEN"
-msgstr "Owen"
+msgstr "Oliver"
 
 #. source : Émeraude FR officiel
 #. lot : C1_restes
@@ -3266,19 +3501,23 @@ msgctxt "src/data/contest_opponents.h"
 msgid "PAIGE"
 msgstr "CHANCE"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A2D8 (TRAINER_LASS_PAIGE) : MARINE
+#. ancien (traduction nouvelle) : Paige
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "PAIGE"
-msgstr "Paige"
+msgstr "Marine"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23C470 (TRAINER_SCIENTIST_PARKER) : PATRICK
+#. ancien (traduction nouvelle) : Parker
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "PARKER"
-msgstr "Parker"
+msgstr "Patrick"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -3316,12 +3555,14 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "PHIL"
 msgstr "Phil"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A4B8 (TRAINER_SAILOR_PHILLIP) : PHILIPPE
+#. ancien (traduction nouvelle) : Phillip
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "PHILLIP"
-msgstr "Phillip"
+msgstr "Philippe"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3330,33 +3571,42 @@ msgctxt "src/data/battle_frontier/trainer_hill.h"
 msgid "PRESTON"
 msgstr "PRESTON"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BB10 (TRAINER_PSYCHIC_PRESTON) : POLO
+#. ancien (traduction nouvelle) : Preston
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "PRESTON"
-msgstr "Preston"
+msgstr "Polo"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B020 (TRAINER_BURGLAR_QUINN) : ISIDORE
+#. ancien (traduction nouvelle) : Quinn
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "QUINN"
-msgstr "Quinn"
+msgstr "Isidore"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x1C3F1C (pokefirered gNameChoice_Ralph, BPRE 0x1C57BC, ptr)
+#. : RALPH
+#. ancien (traduction nouvelle) : RALPH
 #: data/text/new_game_intro_frlg.inc:0
 msgctxt "data/text/new_game_intro_frlg.inc"
 msgid "RALPH"
-msgstr "RALPH"
+msgstr "Ralph"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BB38 (TRAINER_ROCKER_RANDALL) : RAPHAEL
+#. ancien (traduction nouvelle) : Randall
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "RANDALL"
-msgstr "Randall"
+msgstr "Raphaël"
 
 #. source : Émeraude FR officiel
 #. lot : C1_restes
@@ -3366,12 +3616,14 @@ msgctxt "src/data/contest_opponents.h"
 msgid "RAUL"
 msgstr "RAUL"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B638 (TRAINER_CUE_BALL_RAUL) : JASON
+#. ancien (traduction nouvelle) : Raul
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "RAUL"
-msgstr "Raul"
+msgstr "Jason"
 
 #. source : Émeraude FR officiel
 #. lot : C1_restes
@@ -3405,12 +3657,15 @@ msgctxt "src/data/trainers_hns.party"
 msgid "REENA"
 msgstr "Audrey"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B818 (TRAINER_GAMER_RICH) : BLAISE ; BPRF 0x23F490
+#. (TRAINER_GAMER_RICH_2) : BLAISE
+#. ancien (traduction nouvelle) : Rich
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "RICH"
-msgstr "Rich"
+msgstr "Blaise"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3433,12 +3688,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "RICHARD"
 msgstr "Richard"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x239EC8 (TRAINER_BUG_CATCHER_RICK) : OMAR
+#. ancien (traduction nouvelle) : Rick
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "RICK"
-msgstr "Rick"
+msgstr "Omar"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3447,19 +3704,25 @@ msgctxt "src/data/trainers_hns.party"
 msgid "RICK"
 msgstr "Rick"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A580 (TRAINER_CAMPER_RICKY) : RACHID ; BPRF 0x23F058
+#. (TRAINER_CAMPER_RICKY_2) : RACHID ; BPRF 0x23F080 (TRAINER_CAMPER_RICKY_3)
+#. : RACHID ; BPRF 0x23F0A8 (TRAINER_CAMPER_RICKY_4) : RACHID
+#. ancien (traduction nouvelle) : Ricky
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "RICKY"
-msgstr "Ricky"
+msgstr "Rachid"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23EF68 (TRAINER_CAMPER_RILEY) : MARCEL
+#. ancien (traduction nouvelle) : Riley
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "RILEY"
-msgstr "Riley"
+msgstr "Marcel"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3468,33 +3731,43 @@ msgctxt "src/data/trainers_hns.party"
 msgid "RILEY"
 msgstr "Riley"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BE08 (TRAINER_BIRD_KEEPER_ROBERT) : BOB ; BPRF 0x23F558
+#. (TRAINER_BIRD_KEEPER_ROBERT_2) : BOB ; BPRF 0x23F580
+#. (TRAINER_BIRD_KEEPER_ROBERT_3) : BOB
+#. ancien (traduction nouvelle) : Robert
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "ROBERT"
-msgstr "Robert"
+msgstr "Bob"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23C3D0 (TRAINER_SCIENTIST_RODNEY) : RODOLPHE
+#. ancien (traduction nouvelle) : Rodney
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "RODNEY"
-msgstr "Rodney"
+msgstr "Rodolphe"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B598 (TRAINER_SWIMMER_MALE_ROLAND) : PACOME
+#. ancien (traduction nouvelle) : Roland
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "ROLAND"
-msgstr "Roland"
+msgstr "Pacôme"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B2A0 (TRAINER_FISHERMAN_RONALD) : FABIEN
+#. ancien (traduction nouvelle) : Ronald
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "RONALD"
-msgstr "Ronald"
+msgstr "Fabien"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3504,11 +3777,12 @@ msgid "RONALD"
 msgstr "Ronald"
 
 #. source : traduction nouvelle
-#. lot : C1_restes
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : Roxanne
 #: src/data/trainers_hns.party:0
 msgctxt "src/data/trainers_hns.party"
 msgid "ROXANNE"
-msgstr "Roxanne"
+msgstr "ROXANNE"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -3532,12 +3806,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "RUSSELL"
 msgstr "Russell"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D4D8 (TRAINER_CHANNELER_RUTH) : AURORE
+#. ancien (traduction nouvelle) : Ruth
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "RUTH"
-msgstr "Ruth"
+msgstr "Aurore"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -3561,33 +3837,43 @@ msgctxt "src/data/trainers_hns.party"
 msgid "SAWYER"
 msgstr "Sawyer"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A530 (TRAINER_CAMPER_SHANE) : DJAMEL
+#. ancien (traduction nouvelle) : Shane
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "SHANE"
-msgstr "Shane"
+msgstr "Djamel"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23CE20 (TRAINER_COOLTRAINER_SHANNON) : SAMIA
+#. ancien (traduction nouvelle) : Shannon
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "SHANNON"
-msgstr "Shannon"
+msgstr "Samia"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23DFC8 (TRAINER_CRUSH_GIRL_SHARON) : MORGANE ; BPRF
+#. 0x23FAD0 (TRAINER_CRUSH_GIRL_SHARON_2) : MORGANE ; BPRF 0x23FAF8
+#. (TRAINER_CRUSH_GIRL_SHARON_3) : MORGANE
+#. ancien (traduction nouvelle) : Sharon
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "SHARON"
-msgstr "Sharon"
+msgstr "Morgane"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BC00 (TRAINER_JUGGLER_SHAWN) : ROBERT
+#. ancien (traduction nouvelle) : Shawn
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "SHAWN"
-msgstr "Shawn"
+msgstr "Robert"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3605,11 +3891,12 @@ msgid "SHIRLEY"
 msgstr "Ginette"
 
 #. source : traduction nouvelle
-#. lot : C1_restes
+#. lot : R_relecture_differee
+#. ancien (traduction nouvelle) : Sidney
 #: src/data/trainers_hns.party:0
 msgctxt "src/data/trainers_hns.party"
 msgid "SIDNEY"
-msgstr "Sidney"
+msgstr "DAMIEN"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3625,19 +3912,23 @@ msgctxt "src/data/trainers_hns.party"
 msgid "SKYLAR"
 msgstr "Skylar"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B520 (TRAINER_SWIMMER_MALE_SPENCER) : SYLVAIN
+#. ancien (traduction nouvelle) : Spencer
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "SPENCER"
-msgstr "Spencer"
+msgstr "Sylvain"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B7C8 (TRAINER_GAMER_STAN) : STANISLAS
+#. ancien (traduction nouvelle) : Stan
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "STAN"
-msgstr "Stan"
+msgstr "Stanislas"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3646,19 +3937,23 @@ msgctxt "src/data/trainers_hns.party"
 msgid "STAN"
 msgstr "Stan"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23E0B8 (TRAINER_RUIN_MANIAC_STANLY) : HUGO
+#. ancien (traduction nouvelle) : Stanly
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "STANLY"
-msgstr "Stanly"
+msgstr "Hugo"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23A8A0 (TRAINER_POKEMANIAC_STEVE) : STEPHANE
+#. ancien (traduction nouvelle) : Stève
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "STEVE"
-msgstr "Steve"
+msgstr "Stéphane"
 
 #. source : Émeraude FR officiel
 #. lot : C1_restes
@@ -3668,12 +3963,17 @@ msgctxt "src/data/contest_opponents.h"
 msgid "SUMMER"
 msgstr "OLGA"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D7D0 (TRAINER_PICNICKER_SUSIE) : SUZY ; BPRF 0x23F5A8
+#. (TRAINER_PICNICKER_SUSIE_2) : SUZY ; BPRF 0x23F5D0
+#. (TRAINER_PICNICKER_SUSIE_3) : SUZY ; BPRF 0x23F5F8
+#. (TRAINER_PICNICKER_SUSIE_4) : SUZY
+#. ancien (traduction nouvelle) : Susie
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "SUSIE"
-msgstr "Susie"
+msgstr "Suzy"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -3697,19 +3997,23 @@ msgctxt "src/data/trainers_hns.party"
 msgid "TARA"
 msgstr "Tara"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23C330 (TRAINER_SCIENTIST_TED) : THEO
+#. ancien (traduction nouvelle) : Ted
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "TED"
-msgstr "Ted"
+msgstr "Théo"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D0A0 (TRAINER_GENTLEMAN_THOMAS) : TONY
+#. ancien (traduction nouvelle) : Thomas
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "THOMAS"
-msgstr "Thomas"
+msgstr "Tony"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3718,54 +4022,71 @@ msgctxt "src/data/trainers_hns.party"
 msgid "THOMAS"
 msgstr "Thomas"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B908 (TRAINER_SWIMMER_FEMALE_TIFFANY) : SABRINA
+#. ancien (traduction nouvelle) : Tiffany
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "TIFFANY"
-msgstr "Tiffany"
+msgstr "Sabrina"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23E748 (TRAINER_SWIMMER_MALE_TOBY) : MANU
+#. ancien (traduction nouvelle) : Toby
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "TOBY"
-msgstr "Toby"
+msgstr "Manu"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23E4F0 (TRAINER_FISHERMAN_TOMMY) : TOM
+#. ancien (traduction nouvelle) : Tommy
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "TOMMY"
-msgstr "Tommy"
+msgstr "Tom"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B458 (TRAINER_SWIMMER_MALE_TONY) : ANTOINE ; BPRF
+#. 0x240160 (TRAINER_SWIMMER_MALE_TONY_2) : ANTOINE
+#. ancien (traduction nouvelle) : Tony
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "TONY"
-msgstr "Tony"
+msgstr "Antoine"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23C4C0 (TRAINER_SCIENTIST_TRAVIS) : THIERRY
+#. ancien (traduction nouvelle) : Travis
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "TRAVIS"
-msgstr "Travis"
+msgstr "Thierry"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x1AFBB4 (pokefirered
+#. gFameCheckerFlavorTextOriginObjectName_LtSurge2, BPRE 0x1B1219, ptr) :
+#. ANATOLE
+#. ancien (traduction nouvelle) : Tucker
 #: data/text/fame_checker_frlg.inc:0
 msgctxt "data/text/fame_checker_frlg.inc"
 msgid "TUCKER"
-msgstr "Tucker"
+msgstr "Anatole"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D0F0 (TRAINER_GENTLEMAN_TUCKER) : ANATOLE
+#. ancien (traduction nouvelle) : Tucker
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "TUCKER"
-msgstr "Tucker"
+msgstr "Anatole"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -3775,12 +4096,14 @@ msgctxt "src/data/trainers_hns.party"
 msgid "TUCKER"
 msgstr "Sergei"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x239DD8 (TRAINER_YOUNGSTER_TYLER) : ETHAN
+#. ancien (traduction nouvelle) : Tyler
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "TYLER"
-msgstr "Tyler"
+msgstr "Ethan"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3797,26 +4120,32 @@ msgctxt "src/data/contest_opponents.h"
 msgid "TYLOR"
 msgstr "LILOU"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23E860 (TRAINER_FISHERMAN_TYLOR) : TITOUAN
+#. ancien (traduction nouvelle) : Tylor
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "TYLOR"
-msgstr "Tylor"
+msgstr "Titouan"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D7F8 (TRAINER_PICNICKER_VALERIE) : VALERIA
+#. ancien (traduction nouvelle) : Valerie
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "VALERIE"
-msgstr "Valerie"
+msgstr "Valeria"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23EEA0 (TRAINER_BUG_CATCHER_VANCE) : BASIL
+#. ancien (traduction nouvelle) : Vance
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "VANCE"
-msgstr "Vance"
+msgstr "Basil"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3832,12 +4161,14 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "VINCENT"
 msgstr "Vincent"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23D848 (TRAINER_BIKER_VIRGIL) : VIRGILE
+#. ancien (traduction nouvelle) : Virgil
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "VIRGIL"
-msgstr "Virgil"
+msgstr "Virgile"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3846,12 +4177,15 @@ msgctxt "src/data/trainers_hns.party"
 msgid "VIRGIL"
 msgstr "Virgil"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23B2F0 (TRAINER_FISHERMAN_WADE) : ARISTIDE ; BPRF 0x23FA08
+#. (TRAINER_FISHERMAN_WADE_2) : ARISTIDE
+#. ancien (traduction nouvelle) : Wade
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "WADE"
-msgstr "Wade"
+msgstr "Aristide"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3860,19 +4194,23 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "WALTER"
 msgstr "Walter"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23CD80 (TRAINER_COOLTRAINER_WARREN) : WOLFGANG
+#. ancien (traduction nouvelle) : Warren
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "WARREN"
-msgstr "Warren"
+msgstr "Wolfgang"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23AB98 (TRAINER_HIKER_WAYNE) : JEREMY
+#. ancien (traduction nouvelle) : Wayne
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "WAYNE"
-msgstr "Wayne"
+msgstr "Jérémy"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -3881,12 +4219,14 @@ msgctxt "src/data/trainers_frlg.party"
 msgid "WILLIAM"
 msgstr "William"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Rouge Feu FR officiel (adapté)
+#. lot : F_frlg
+#. preuve : BPRF 0x23BED0 (TRAINER_BIRD_KEEPER_WILTON) : WILFRIED
+#. ancien (traduction nouvelle) : Wilton
 #: src/data/trainers_frlg.party:0
 msgctxt "src/data/trainers_frlg.party"
 msgid "WILTON"
-msgstr "Wilton"
+msgstr "Wilfried"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -4198,3 +4538,24 @@ msgstr "Nappage"
 msgctxt "src/data/moves_info.h"
 msgid "POWDER"
 msgstr "Nuée de Poudre"
+
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_retouches
+#: data/text/new_game_intro_frlg.inc:0
+msgctxt "data/text/new_game_intro_frlg.inc"
+msgid "GREEN"
+msgstr "GREEN"
+
+#. source : Rouge Feu FR officiel
+#. lot : F_frlg_retouches
+#: src/data/trainers_frlg.party:0
+msgctxt "src/data/trainers_frlg.party"
+msgid "TERRY"
+msgstr "NOAH"
+
+#. source : SoulSilver FR officiel (adapté)
+#. lot : F_frlg_retouches2
+#: src/data/battle_frontier/battle_frontier_trainers.h:0
+msgctxt "src/data/battle_frontier/battle_frontier_trainers.h"
+msgid "JANINE"
+msgstr "Jeanine"

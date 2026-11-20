@@ -1,0 +1,152 @@
+[
+ {
+  "id": 0,
+  "categorie": "terminologie",
+  "probleme": "Le nom officiel est abrégé alors que la contrainte indiquée autorise le libellé complet sur une ligne.",
+  "correction": "Impact Choupinova",
+  "justification": "C’est le nom officiel dans Pokémon Soleil et Lune. [Les champs des gardiens d’Alola](https://www.pokemon.com/fr/articles/les-champs-des-gardiens-d-alola)",
+  "msgid": "TWINKLE TACKLE",
+  "msgstr": "Imp. Choupinova",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "Le verbe « frappe » efface la décharge électrique.",
+  "correction": "PIKACHU à casquette foudroie.\\nTaux de critique élevé.",
+  "justification": "« Jolt » désigne ici une décharge électrique.",
+  "msgid": "Cap Pikachu unleashes jolt.\\nHigh critical-hit ratio.",
+  "msgstr": "PIKACHU à casquette frappe.\\nTaux de critique élevé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "terminologie",
+  "probleme": "Le dernier mot du nom officiel est tronqué.",
+  "correction": "Electro-Surf Survolté",
+  "justification": "Le nom officiel dans Pokémon Soleil et Lune est « Électro-Surf Survolté ». La majuscule initiale suit la convention du projet.",
+  "msgid": "STOKED SPARKSURFER",
+  "msgstr": "Electro-Surf Surv.",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "terminologie",
+  "probleme": "Le premier mot du nom officiel est tronqué.",
+  "correction": "Supernova Originelle",
+  "justification": "C’est le nom complet de la capacité Z de MEW dans Pokémon Soleil et Lune.",
+  "msgid": "GENESIS SUPERNOVA",
+  "msgstr": "Super. Originelle",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "terminologie",
+  "probleme": "Le dernier mot du nom officiel est tronqué.",
+  "correction": "Fureur des Plumes Spectrales",
+  "justification": "C’est le nom complet de la capacité Z d’ARCHEDUC dans Pokémon Soleil et Lune.",
+  "msgid": "SINISTER ARROW RAID",
+  "msgstr": "Fureur des Plumes S.",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "terminologie",
+  "probleme": "Le premier mot du nom officiel est tronqué.",
+  "correction": "Hurlement des Roches-Lames",
+  "justification": "C’est le nom complet de la capacité Z de LOUGAROC dans Pokémon Ultra-Soleil et Ultra-Lune.",
+  "msgid": "SPLINTERED STORMSHARDS",
+  "msgstr": "Hurl. des Roches-Lames",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "terminologie",
+  "probleme": "Le premier mot du nom officiel est tronqué.",
+  "correction": "Dracacophonie Flamboyante",
+  "justification": "C’est le nom complet de la capacité Z d’EKAISER dans Pokémon Ultra-Soleil et Ultra-Lune.",
+  "msgid": "CLANGOROUS SOULBLAZE",
+  "msgstr": "Dracaco. Flamboyante",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "terminologie",
+  "probleme": "Le dernier mot du nom officiel est tronqué.",
+  "correction": "Hélio-Choc Dévastateur",
+  "justification": "C’est le nom complet de la capacité Z de SOLGALEO dans Pokémon Ultra-Soleil et Ultra-Lune.",
+  "msgid": "SEARING SUNRAZE SMASH",
+  "msgstr": "Hélio-Choc Dévast.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "contresens",
+  "probleme": "« Coup ultime » remplace la règle de calcul des dégâts.",
+  "correction": "NECROZMA utilise la meilleure stat\\nd’attaque et ignore les talents.",
+  "justification": "La capacité utilise la plus élevée des deux statistiques offensives de NECROZMA.",
+  "msgid": "Uses Necrozma's highest\\nattack. Ignores abilities.",
+  "msgstr": "Le coup ultime de NECROZMA.\\nIgnore les talents.",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "orthographe",
+  "probleme": "« Frappe poings et pieds » se lit comme si les poings et les pieds étaient les cibles.",
+  "correction": "MARSHADOW frappe du poing et\\ndu pied de toutes ses forces.",
+  "justification": "Les compléments introduits par « du » indiquent comment MARSHADOW frappe.",
+  "msgid": "Marshadow punches and\\nkicks with full force.",
+  "msgstr": "MARSHADOW frappe poings et\\npieds de toutes ses forces.",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "oubli",
+  "probleme": "La traduction ne précise pas à qui appartient la Vitesse réduite.",
+  "correction": "Attaque G-Max de KRABBOSS.\\nBaisse fort la Vitesse ennemie.",
+  "justification": "« Foe’s Speed » désigne la Vitesse de l’adversaire.",
+  "msgid": "G-max Kingler attack.\\nHarshly lowers foe's Speed.",
+  "msgstr": "Attaque G-Max de KRABBOSS.\\nBaisse beaucoup la Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "oubli",
+  "probleme": "« Tourmente » seul ne décrit pas la restriction imposée aux ennemis.",
+  "correction": "Attaque G-Max de MELMETAL.\\nInterdit deux fois le même coup.",
+  "justification": "L’effet empêche d’utiliser la même capacité deux fois de suite.",
+  "msgid": "G-max Melmetal attack.\\nPrevents repeat move use.",
+  "msgstr": "Attaque G-Max de MELMETAL.\\nTourmente les ennemis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "contresens",
+  "probleme": "« Guérit le statut » désigne le statut lui-même comme ce qui est soigné.",
+  "correction": "Attaque G-Max de DRATATIN.\\nSoigne les alliés de leurs maux.",
+  "justification": "La capacité guérit les altérations de statut des alliés.",
+  "msgid": "G-max Appletun attack.\\nHeals ally status conditions.",
+  "msgstr": "Attaque G-Max de DRATATIN.\\nGuérit le statut des alliés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "oubli",
+  "probleme": "La tempête de sable est réduite à du sable.",
+  "correction": "Attaque G-Max de DUNACONDA.\\nPiège dans une tempête de sable.",
+  "justification": "L’anglais précise que l’adversaire est pris dans une tempête de sable. [Dunaconda Gigamax](https://swordshield.pokemon.com/fr-fr/pokemon-galar-region/gigantamax-sandaconda/)",
+  "msgid": "G-max Sandaconda attack.\\nTraps foes in a sandstorm.",
+  "msgstr": "Attaque G-Max de DUNACONDA.\\nEmprisonne dans le sable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "typographie",
+  "probleme": "Le prix à cinq chiffres est écrit sans séparateur de milliers.",
+  "correction": "2 500 JETONS{CLEAR_TO 0x48}25 000¥",
+  "justification": "L’espacement français des milliers harmonise l’entrée avec les deux tarifs voisins.",
+  "msgid": "2,500 COINS{CLEAR_TO 0x48}¥25,000",
+  "msgstr": "2500 JETONS{CLEAR_TO 0x48}25000¥",
+  "msgctxt": ""
+ }
+]

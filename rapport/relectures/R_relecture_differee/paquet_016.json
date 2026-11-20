@@ -1,0 +1,252 @@
+[
+ {
+  "id": 9,
+  "categorie": "contresens",
+  "probleme": "La description indique que l’objet partage l’expérience.",
+  "correction": "Objet tenu qui fait gagner\\nde l’Exp. lors des combats.",
+  "justification": "Le texte anglais décrit le gain d’expérience permis par l’objet tenu.",
+  "msgid": "A held item that\\ngets Exp. Points\\nfrom battles.",
+  "msgstr": "Objet tenu pour\\npartager l’Exp.\\naprès un combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "contresens",
+  "probleme": "« Profond » ajoute une caractéristique au son de la cloche.",
+  "correction": "Cloche dont le son\\nrésonne pour\\nappeler LUGIA.",
+  "justification": "Le texte anglais précise que le son résonne.",
+  "msgid": "Bell that produces\\nan echoing sound\\nthat calls Lugia.",
+  "msgstr": "Cloche à l’écho\\nprofond qui\\nappelle LUGIA.",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "orthographe",
+  "probleme": "Il manque le déterminant devant « PV ».",
+  "correction": "Plus l’ennemi a de PV,\\nplus les dégâts sont élevés.",
+  "justification": "La tournure « plus…, plus… » rétablit aussi la relation progressive exprimée en anglais.",
+  "msgid": "The higher the foe's HP\\nthe more damage caused.",
+  "msgstr": "Inflige plus de dégâts si PV\\nde l’ennemi sont élevés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "contresens",
+  "probleme": "« Souffle l’ennemi » ne décrit pas clairement son expulsion.",
+  "correction": "Chasse l’ennemi pour forcer\\nson remplacement ou la fuite.",
+  "justification": "Le souffle expulse la cible et force son remplacement ou met fin au combat sauvage.",
+  "msgid": "Blows away the foe, switches\\nit out or ends wild battle.",
+  "msgstr": "Souffle l’ennemi (remplacé)\\nou finit un combat sauvage.",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "oubli",
+  "probleme": "La condition de fuite omet que le Pokémon sauvage doit utiliser la capacité.",
+  "correction": "Le lanceur sort en dernier.\\nFuit si {PKMN} sauvage l’utilise.",
+  "justification": "La fuite dépend de l’identité du lanceur.",
+  "msgid": "Switches the user out last.\\nFlees when used by wild {PKMN}.",
+  "msgstr": "Le lanceur est remplacé en\\ndernier. Fuit si {PKMN} sauvage.",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "oubli",
+  "probleme": "La durée de la copie a disparu.",
+  "correction": "Copie la dernière capacité de\\nl’ennemi le temps du combat.",
+  "justification": "« During one battle » limite la copie au combat en cours.",
+  "msgid": "Copies last move used by the\\nfoe during one battle.",
+  "msgstr": "Imite la dernière attaque\\nutilisée par l’ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "oubli",
+  "probleme": "L’ampleur de la hausse d’Attaque a disparu.",
+  "correction": "Rend l’ennemi confus et\\nmonte beaucoup son Attaque.",
+  "justification": "« Sharply raises » indique une forte hausse de la statistique.",
+  "msgid": "Confuses the foe, but also\\nsharply raises its Attack.",
+  "msgstr": "Rend l’ennemi confus et\\nbooste son Attaque.",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "orthographe",
+  "probleme": "Il manque les déterminants devant les noms des statistiques.",
+  "correction": "Le lanceur tombe K.O. Réduit\\nfortement l’AT et l’AS ennemies.",
+  "justification": "Les deux statistiques sont les compléments directs de « réduit ».",
+  "msgid": "The user faints and harshly\\nlowers foes Atk and Sp.Atk.",
+  "msgstr": "Le lanceur tombe K.O. Baisse\\nbeaucoup AT et AS ennemies.",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "contresens",
+  "probleme": "« Puissance d’attaque » peut désigner l’Attaque de l’allié.",
+  "correction": "Augmente la puissance\\ndes capacités de l’allié.",
+  "justification": "Le bonus porte sur la puissance des capacités utilisées par l’allié.",
+  "msgid": "Boosts the power of ally\\nrecipient's moves.",
+  "msgstr": "Améliore la puissance\\nd’attaque de l’allié.",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "oubli",
+  "probleme": "L’intensité de la lumière a disparu.",
+  "correction": "Concentre une vive lumière\\npour frapper 2 tours plus tard.",
+  "justification": "« Strong light » désigne une lumière intense.",
+  "msgid": "Summons strong light to\\nattack 2 turns later.",
+  "msgstr": "Récupère la lumière pour\\nfrapper 2 tours plus tard.",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que la graine est plantée sur l’ennemi.",
+  "correction": "Plante une graine sur l’ennemi\\npour lui donner Insomnia.",
+  "justification": "« On the foe » précise où la graine est plantée.",
+  "msgid": "Plants a seed on the foe\\ngiving it Insomnia.",
+  "msgstr": "Plante une graine qui donne\\nInsomnia à l’ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "terminologie",
+  "probleme": "« Déf. Spé. » s’écarte de l’abréviation retenue par le projet.",
+  "correction": "Une onde sonore qui blesse.\\nPeut baisser la DS.",
+  "justification": "Le lexique du projet retient l’abréviation officielle DS pour la Défense Spéciale.",
+  "msgid": "A damaging sound wave that\\nmay lower Sp. Def.",
+  "msgstr": "Une onde sonore qui blesse.\\nPeut baisser la Déf. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "terminologie",
+  "probleme": "« Déf. Spé. » s’écarte de l’abréviation retenue par le projet.",
+  "correction": "Une onde de choc qui baisse\\nfortement la DS.",
+  "justification": "Le lexique du projet retient l’abréviation officielle DS pour la Défense Spéciale.",
+  "msgid": "Generates a shock wave that\\nsharply reduces Sp. Def.",
+  "msgstr": "Une onde de choc qui baisse\\nfortement la Déf. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "orthographe",
+  "probleme": "La construction « fait la moyenne avec l’ennemi de Défense » ne relie pas correctement les statistiques à la moyenne.",
+  "correction": "Calcule la moyenne des DF et\\ndes DS des deux Pokémon.",
+  "justification": "Les statistiques du lanceur et de l’ennemi sont les valeurs dont on calcule la moyenne. DS suit aussi le lexique du projet.",
+  "msgid": "Averages changes to Defense\\nand Sp. Def with the foe.",
+  "msgstr": "Fait la moyenne avec l’ennemi\\nde Défense et de Déf. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "orthographe",
+  "probleme": "La construction « fait la moyenne avec l’ennemi d’Attaque » ne relie pas correctement les statistiques à la moyenne.",
+  "correction": "Calcule la moyenne des AT et\\ndes AS des deux Pokémon.",
+  "justification": "Les statistiques du lanceur et de l’ennemi sont les valeurs dont on calcule la moyenne. AS suit aussi le lexique du projet.",
+  "msgid": "Averages changes to Attack\\nand Sp. Atk with the foe.",
+  "msgstr": "Fait la moyenne avec l’ennemi\\nd’Attaque et d’Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "contresens",
+  "probleme": "Le singulier réduit l’effet à un seul ennemi.",
+  "correction": "Répand une poudre: les ennemis\\nne visent que le lanceur.",
+  "justification": "« Foes » désigne l’ensemble des ennemis concernés.",
+  "msgid": "Scatters powder to make\\nfoes attack only the user.",
+  "msgstr": "Répand une poudre: l’ennemi\\nne vise que le lanceur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "oubli",
+  "probleme": "La traduction omet le lancer et atténue la relation entre la Vitesse de la cible et les dégâts.",
+  "correction": "Lance une boule qui blesse\\nd’autant plus l’ennemi lent.",
+  "justification": "La capacité projette une boule dont les dégâts augmentent quand la cible est plus lente.",
+  "msgid": "Hurls an orb that does more\\ndamage to slower foes.",
+  "msgstr": "Une boule électrique, plus\\nforte contre un ennemi lent.",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "contresens",
+  "probleme": "« Lui donne le type Eau » peut se lire comme l’ajout d’un type.",
+  "correction": "Arrose l’ennemi, qui devient\\nde type Eau.",
+  "justification": "« Changing it to Water type » décrit un changement de type.",
+  "msgid": "Sprays water at the foe,\\nchanging it to Water type.",
+  "msgstr": "Arrose l’ennemi et lui donne\\nle type Eau.",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "oubli",
+  "probleme": "La traduction ne précise pas ce que l’acide ronge.",
+  "correction": "Projette un acide qui ronge\\nla peau. Baisse fort la DS.",
+  "justification": "« Hide-melting » précise que l’acide ronge la peau. DS suit aussi le lexique du projet.",
+  "msgid": "Sprays a hide-melting acid.\\nSharply reduces Sp. Def.",
+  "msgstr": "Projette un acide qui ronge.\\nBaisse beaucoup la Déf. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "terminologie",
+  "probleme": "« Atq. Spé. » s’écarte de l’abréviation retenue par le projet.",
+  "correction": "Se débat, frappe les ennemis\\net baisse leur AS.",
+  "justification": "Le lexique du projet retient l’abréviation officielle AS pour l’Attaque Spéciale.",
+  "msgid": "Resisting, the user attacks\\nthe foes. Lowers Sp. Atk.",
+  "msgstr": "Se débat, frappe les ennemis\\net baisse leur Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "terminologie",
+  "probleme": "« Atq. Spé. » s’écarte de l’abréviation retenue par le projet.",
+  "correction": "Se motive pour monter\\nl’Attaque et l’AS.",
+  "justification": "Le lexique du projet retient l’abréviation officielle AS pour l’Attaque Spéciale.",
+  "msgid": "The user is roused.\\nUps Attack and Sp. Atk.",
+  "msgstr": "Se motive pour monter\\nl’Attaque et l’Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "oubli",
+  "probleme": "La description ne dit plus que les feuilles blessent l’ennemi.",
+  "correction": "Blesse l’ennemi de feuilles\\net baisse sa Précision.",
+  "justification": "Le texte anglais énonce deux effets, les dégâts et la baisse de Précision.",
+  "msgid": "Circles the foe with leaves\\nto damage and cut accuracy.",
+  "msgstr": "Encercle l’ennemi de feuilles.\\nPeut baisser la Précision.",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "terminologie",
+  "probleme": "« Atq. Spé. » s’écarte de l’abréviation retenue par le projet.",
+  "correction": "Danse nimbée de flammes.\\nPeut augmenter l’AS.",
+  "justification": "Le lexique du projet retient l’abréviation officielle AS pour l’Attaque Spéciale.",
+  "msgid": "Dances cloaked in flames.\\nMay raise Sp. Atk.",
+  "msgstr": "Danse nimbée de flammes.\\nPeut augmenter l’Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 115,
+  "categorie": "terminologie",
+  "probleme": "« Atq. Spé. » s’écarte de l’abréviation retenue par le projet.",
+  "correction": "Monte l’Attaque et l’AS\\ndes Pokémon de type Plante.",
+  "justification": "Le lexique du projet retient l’abréviation officielle AS pour l’Attaque Spéciale.",
+  "msgid": "Ups the Attack and Sp. Atk\\nof Grass-type Pokémon.",
+  "msgstr": "Monte l’Attaque et l’Atq. Spé.\\ndes Pokémon de type Plante.",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "terminologie",
+  "probleme": "« Atq. Spé. » s’écarte de l’abréviation retenue par le projet.",
+  "correction": "Intimide l’ennemi et baisse\\nson Attaque et son AS.",
+  "justification": "Le lexique du projet retient l’abréviation officielle AS pour l’Attaque Spéciale.",
+  "msgid": "Intimidates the foe, to cut\\nAttack and Sp. Atk.",
+  "msgstr": "Intimide l’ennemi et baisse\\nson Attaque et son Atq. Spé.",
+  "msgctxt": ""
+ }
+]

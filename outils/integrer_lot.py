@@ -34,6 +34,9 @@ def rang(source):
         return 2.5 if adapte else 2
     if s.startswith('soulsilver fr, correspondance'):
         return 2.7
+    # autres textes officiels français (décision 18) : Rouge Feu / Vert Feuille FR, Pokédex des jeux récents
+    if s.startswith(('rouge feu fr officiel', 'vert feuille fr officiel', 'pokédex fr officiel', 'catégorie pokédex officielle')):
+        return 2.9 if adapte else 2.8
     if s.startswith('patch fr'):
         return 3
     return 4   # traduction nouvelle / manuelle / relue

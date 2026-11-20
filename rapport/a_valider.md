@@ -1,13 +1,12 @@
 Ces points ont été tranchés provisoirement ; un œil humain (idéalement avec les jeux officiels) est utile.
 
 **Noms sans source officielle vérifiée**
-- Rouge Feu / Vert Feuille (cartes FRLG non compilées) : GARY → REGIS (nom du dessin animé), CRUSHER → COGNEUR,
-  CHARINE gardé, devises des îles Sevii (sous-titres Poképédia, texte exact des panneaux non vérifié),
-  « Kanto Angels » (KANTO RIDER FEDERATION), Machine Réseau, Maniaque des Capacités, Maître Pêcheur, Gardien,
-  « Ticketaurore », « Sac à Baies », étages du Centre Commercial et de la Sylphe (RDC, 1{SUPER_ER}…),
-  Cabane Secrète, Dent d’Or, Zone Centrale (Poképédia/Pokébip, sans capture du jeu) — listes dans
-  `traductions/lots/D_dialogues/D*_douteux.json`.
-- Catégorie Pokédex « Imposant » (Méga-Draïeul), « Tomberoche » (TOMBSTONY), « Lettre Evoli ».
+- Rouge Feu / Vert Feuille : textes et noms désormais repris de Rouge Feu FR officiel (lot F, alignement par
+  pointeurs). Restent à regarder : 41 cas douteux (`traductions/lots/F_frlg/douteux.json`, gardés en traduction
+  actuelle) et les termes de Rouge Feu FR qui diffèrent du glossaire (Dingue des Capacités, Ticketaurora, Parc
+  Central, Memorydex…), retenus pour les seuls textes FRLG ; détail dans `traductions/lots/F_frlg/noms_a_valider.md`.
+- Catégorie Pokédex « Imposant » (Méga-Draïeul), « Tomberoche » (TOMBSTONY), « Lettre Evoli ». Les catégories des
+  espèces de base sont désormais vérifiées contre les catégories officielles (lot K).
 
 **Choix de projet à confirmer**
 - Décision 14 : pas d'accent sur les majuscules (comme les jeux officiels), cédille gardée.
@@ -28,5 +27,5 @@ Ces points ont été tranchés provisoirement ; un œil humain (idéalement avec
   épargne de Maman, affichage du code upstream).
 
 **Relecture**
-- Relecture ChatGPT des lots C1, C2a, C2b et de 13 paquets de l'audit : différée (limite d'usage du compte), voir
-  DECISIONS.md n° 15.
+- Relecture ChatGPT différée faite (décision 19) : 244 corrections retenues sur 926 remarques ; les refus sont
+  motivés dans `rapport/relectures/R_relecture_differee/arbitrage.tsv` et `traductions/lots/R_relecture_differee/contre_relecture.tsv`.

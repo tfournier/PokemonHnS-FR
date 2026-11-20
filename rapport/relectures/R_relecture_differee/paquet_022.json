@@ -1,0 +1,312 @@
+[
+ {
+  "id": 1,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant le nom de la capacité.",
+  "correction": "Il maîtrise bien des capacités.\\nSa barbe de feu enflamme ses\\npoings pour lancer un Poing de Feu.\\nIl tient beaucoup à ses amis.",
+  "justification": "Dans cette phrase, « lancer un Poing de Feu » désigne le coup porté et conserve le nom officiel de la capacité.",
+  "msgid": "It is adept at using many different moves.\\nIt can throw a fire punch by setting its\\nfists on fire with its fiery chin.\\nIt cares deeply about its friends.",
+  "msgstr": "Il maîtrise de nombreuses capacités. Il\\nenflamme ses poings avec sa barbe de feu\\npour lancer Poing de Feu. Il tient\\nbeaucoup à ses amis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "terminologie",
+  "probleme": "« Coquillages » efface le nom donné aux armes de MATELOUTRE.",
+  "correction": "Entraînement strict et discipline\\nlui apprennent à manier avec\\nfluidité ses deux coupillages.\\nChaque MATELOUTRE a sa technique.",
+  "justification": "Le Pokédex officiel appelle ces armes des « coupillages ». [Pokédex officiel de Mateloutre](https://www.pokemon.com/fr/pokedex/mateloutre)",
+  "msgid": "Strict training and disclipine leads it\\nto master its flowing double-scalchop\\ntechnique. Scalchop techniques differ\\nfrom one Dewott to another.",
+  "msgstr": "Un entraînement strict et rigoureux lui\\npermet de maîtriser une technique fluide\\nà deux coquillages. Chaque MATELOUTRE\\na sa propre technique.",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "orthographe",
+  "probleme": "« Lame habile » attribue l’habileté à la lame.",
+  "correction": "Cruelle et habile à la lame,\\ncette forme rare de CLAMIRAL\\nest le fruit de son évolution\\ndans la région de Hisui.",
+  "justification": "C’est le Pokémon qui manie la lame avec adresse.",
+  "msgid": "Hard of heart and deft of blade,\\nthis rare form of Samurott is a\\nproduct of the Pokémon's evolution in the\\nregion of Hisui.",
+  "msgstr": "Cœur de pierre et lame habile,\\ncette forme rare de CLAMIRAL\\nest le fruit de son évolution\\ndans la région de Hisui.",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "oubli",
+  "probleme": "La densité du pelage a disparu.",
+  "correction": "Son poil noir, dense et dur\\npousse sans cesse. Son toilettage\\ncoûte cher, ce qui rend ce\\nPokémon difficile à élever.",
+  "justification": "« Dense black fur » décrit un pelage noir et dense, tandis que « hard fur » en précise la dureté.",
+  "msgid": "Its dense black fur grows continuously.\\nThe high cost of keeping its hard fur\\nproperly groomed makes this a\\ntroublesome Pokémon to train.",
+  "msgstr": "Son poil noir et dur pousse sans cesse, et\\nson toilettage coûte un bras. Une vraie\\nplaie à élever.",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "typographie",
+  "probleme": "La troisième ligne dépasse nettement le gabarit indicatif.",
+  "correction": "Intelligent, gentil et courageux,\\nil n’attaque jamais les gens.\\nCertains parents lui confient\\nmême la garde de leurs enfants.",
+  "justification": "La redistribution conserve les quatre lignes et ramène chacune à 34 caractères au plus.",
+  "msgid": "Intelligent, good-natured, and valiant,\\nthere could be no concern that it would\\never attack people. Some parents even\\ntrust it to babysit.",
+  "msgstr": "Intelligent, gentil et courageux, il\\nn’attaque jamais les gens. Certains\\nparents lui confient même la garde de leurs\\nenfants.",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "typographie",
+  "probleme": "La première ligne est trop longue pour le gabarit indicatif.",
+  "correction": "Ses airs mignons sont une ruse\\nparfaite. Il vole les gens pour\\ns’amuser, mais ses victimes ne\\npeuvent s’empêcher de lui pardonner.",
+  "justification": "Le nouveau découpage répartit le même texte sur les quatre lignes.",
+  "msgid": "Their deceptively cute act is the\\nperfect ruse. They steal from people for\\nfun, but their victims can't help but\\nforgive them.",
+  "msgstr": "Ses airs mignons sont une ruse parfaite. Il\\nvole les gens pour s’amuser, mais ses\\nvictimes ne peuvent s’empêcher de lui\\npardonner.",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "contresens",
+  "probleme": "La température maximale possible devient une température atteinte sans réserve.",
+  "correction": "Le feu de sa houppe peut\\natteindre 300 °C. Très malin,\\nil grille les Baies avant de\\nles manger. Il aime aider les gens.",
+  "justification": "« Can reach up to » exprime une possibilité. L’unité explicite la conversion arrondie en degrés Celsius.",
+  "msgid": "The fire within the tuft on its head can\\nreach up to 600ºF. Very intelligent,\\nit roasts berries before eating them.\\nIt likes to help people.",
+  "msgstr": "Le feu de sa houppe atteint 300 degrés.\\nTrès malin, il fait griller les Baies avant de\\nles manger. Il aime aider les gens.",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "terminologie",
+  "probleme": "Le libellé anglais « Spray » remplace la catégorie française de FLOTAJOU.",
+  "correction": "Jet d’Eau",
+  "justification": "Le Pokédex français de Pokémon Noir et Blanc classe FLOTAJOU dans la catégorie « Pokémon Jet d’Eau ».",
+  "msgid": "Spray",
+  "msgstr": "Spray",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "orthographe",
+  "probleme": "La tournure « elles poussent alors très grandes » est un calque de l’anglais.",
+  "correction": "L’eau de sa houppe est riche en\\nnutriments. Il arrose les plantes\\navec sa queue. Elles deviennent\\nalors très grandes.",
+  "justification": "« Deviennent alors très grandes » exprime naturellement le résultat de leur croissance.",
+  "msgid": "The water stored inside the tuft of its\\nhead is rich in nutrients. It waters\\nplants using its tail, plants that\\nreceive its water grow large.",
+  "msgstr": "L’eau stockée dans sa houppe est très\\nnutritive. Il arrose les plantes avec sa\\nqueue, et elles poussent alors très\\ngrandes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "typographie",
+  "probleme": "Une espace superflue suit le point final.",
+  "correction": "Il apparaît devant les gens et les\\nPokémon qui font des cauchemars\\npour manger leurs rêves. MUNNA\\nflotte toujours dans les airs.",
+  "justification": "La suppression de l’espace finale conserve le texte et son découpage.",
+  "msgid": "This Pokémon appears before people\\nand Pokémon who are having nightmares\\nand eats those dreams. Munna always\\nfloat in the air. ",
+  "msgstr": "Il apparaît devant les gens et les\\nPokémon qui font des cauchemars\\npour manger leurs rêves. MUNNA\\nflotte toujours dans les airs. ",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "oubli",
+  "probleme": "Les places ont disparu des lieux où les groupes se rassemblent.",
+  "correction": "Très étourdi, il attend un nouvel\\nordre de son Dresseur même s’il\\nen a déjà reçu un. Il se rassemble\\nsouvent en groupe, dans les parcs\\net sur les places.",
+  "justification": "« Parks and plazas » désigne les parcs et les places.",
+  "msgid": "This very forgetful Pokémon will wait for\\na new order from its Trainer even though\\nit already has one. Flocks often gather\\nin parks and plazas.",
+  "msgstr": "Ce Pokémon très étourdi attend un ordre de\\nson Dresseur même s’il en a déjà reçu un. On\\nen voit souvent en groupe dans les parcs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "terminologie",
+  "probleme": "« Electrifié » ne correspond pas à la catégorie Pokédex de ZEBIBRON.",
+  "correction": "Etincélec",
+  "justification": "Le Pokédex officiel donne « Étincélec ». La correction applique la convention du projet pour les majuscules. [Pokédex officiel de Zébibron](https://www.pokemon.com/fr/pokedex/zebibron)",
+  "msgid": "Electrified",
+  "msgstr": "Electrifié",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "contresens",
+  "probleme": "« Produit de l’électricité » remplace la décharge électrique qui illumine sa crinière.",
+  "correction": "Sa crinière brille quand il lâche\\nune décharge. Il communique avec\\nses semblables par la fréquence\\net le rythme de ces éclairs.",
+  "justification": "« Discharges electricity » désigne la libération d’électricité, et les éclairs servent à communiquer entre congénères.",
+  "msgid": "Its mane shines when it discharges\\nelectricity. They use the frequency and\\nrhythm of these flashes to communicate\\nwith one another.",
+  "msgstr": "Sa crinière brille quand il produit de\\nl’électricité. Il communique grâce à la\\nfréquence et au rythme de ces éclairs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "oubli",
+  "probleme": "Le texte omet que ZEBLITZ devient dangereux lorsqu’il se met en colère.",
+  "correction": "A pleine vitesse, ZEBLITZ fait\\ gronder le tonnerre. En colère,\\nil est dangereux: sa crinière\\nlance des éclairs de tous côtés.",
+  "justification": "La correction rétablit le danger et le relie aux éclairs lancés dans toutes les directions.",
+  "msgid": "When Zebstrika run at full speed, the\\nsound of thunder reverberates. It is\\ndangerous when it's angry as it shoots\\nlightning from its mane in all directions.",
+  "msgstr": "Quand ZEBLITZ court à toute allure, on\\nentend gronder le tonnerre. En colère, il\\nlance des éclairs de sa crinière dans tous\\nles sens.",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "contresens",
+  "probleme": "« Fonce » change l’allure du Pokémon, et sa panique a disparu.",
+  "correction": "Sa cavité hexagonale est son\\noreille. Il marche vers les sons\\nqu’il entend. S’ils cessent,\\nil panique et tombe.",
+  "justification": "Le texte anglais indique qu’il marche vers les sons, puis panique et tombe quand ils cessent.",
+  "msgid": "The hexagonal cavity is its ear.\\nIt walks in the direction of sounds it\\nhears, but if the sounds cease, it panics\\nand topples over.",
+  "msgstr": "La cavité hexagonale qu’il arbore est son\\noreille. Il fonce vers tout ce qu’il entend,\\nmais chute dès que le son s’arrête.",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "oubli",
+  "probleme": "« Camions » ne précise pas qu’il s’agit de camions-bennes.",
+  "correction": "Son cristal orange est une masse\\nd’énergie. Un fragment suffirait\\nà alimenter cent camions-bennes.\\nEn forme, son noyau dépasse.",
+  "justification": "« Dump trucks » désigne précisément des camions-bennes.",
+  "msgid": "Its orange crystal is a mass of energy.\\nJust one crystal fragment would provide\\nenough fuel for a hundred dump trucks.\\nWhen it is healthy, its core sticks out.",
+  "msgstr": "Son cristal orange est une masse d’énergie.\\nUn seul fragment suffirait à alimenter\\ncent camions. En forme, son noyau dépasse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "contresens",
+  "probleme": "« Absorbe le soleil » confond le soleil et ses rayons. Les « boules » ajoutent une forme absente de l’anglais.",
+  "correction": "Des rayons du soleil, il tire\\ndes décharges d’énergie d’une\\npuissance terrifiante. Il ne\\npeut les lancer la nuit ou\\nquand il pleut.",
+  "justification": "Le Pokémon transforme les rayons du soleil en décharges d’énergie.",
+  "msgid": "The blasts of energy it makes from\\nsunbeams have terrifying power.\\nHowever, it's not able to fire its blasts\\nat night or on rainy days.",
+  "msgstr": "Il absorbe le soleil pour tirer des boules\\nd’énergie terriblement destructrices. Une\\narme inutilisable la nuit ou s’il pleut.",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "contresens",
+  "probleme": "« Les écouter » réduit l’effet à une écoute, alors qu’il suffit d’être exposé aux ultrasons.",
+  "correction": "Le mâle émet des ultrasons\\nlorsqu’il fait la cour. Ils\\naméliorent l’humeur de quiconque\\ny est exposé.",
+  "justification": "Le texte anglais applique l’effet à toute personne qui entre en contact avec ces ondes.",
+  "msgid": "Anyone who comes into contact with\\nthe ultrasonic waves emitted by a\\ncourting male experiences a positive\\nmood shift.",
+  "msgstr": "Le mâle courtise la femelle à l’aide\\nd’ultrasons. Les écouter met de très bonne\\nhumeur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "contresens",
+  "probleme": "« A cent mètres » transforme un seuil minimal en profondeur fixe.",
+  "correction": "Il creuse des nids labyrinthiques\\nà plus de 90 m sous terre. Il\\npeut abîmer les tunnels de métro,\\nmais aussi aider à les construire.",
+  "justification": "« More than 300 feet » indique une profondeur supérieure à environ 90 mètres.",
+  "msgid": "More than 300 feet below the surface,\\nthey build mazelike nests. Their activity\\ncan be destructive to subway tunnels,\\nbut it can also help with construction.",
+  "msgstr": "Il creuse des nids labyrinthiques à cent\\nmètres sous terre. Il peut abîmer les\\ntunnels de métro, mais aussi aider à les\\nconstruire.",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "oubli",
+  "probleme": "Le texte ne précise plus que les antennes se trouvent sur les oreilles.",
+  "correction": "Son ouïe est extraordinaire.\\nSes antennes, sur ses oreilles,\\nlui révèlent l’humeur des gens\\nou quand un Œuf va éclore.",
+  "justification": "« Feelers on its ears » situe explicitement ces organes sur les oreilles.",
+  "msgid": "Its auditory sense is astounding.\\nUsing the feelers on its ears, it can tell\\nhow someone is feeling or when an egg\\nmight hatch.",
+  "msgstr": "Son ouïe est extraordinaire. Ses antennes\\nlui permettent de deviner l’humeur des gens\\nou le moment où un Œuf va éclore.",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "contresens",
+  "probleme": "« Au lieu de la force brute » suggère qu’il y renonce. La rotation des piliers a aussi disparu.",
+  "correction": "Ses piliers de béton lui servent\\nde cannes. Il ne compte pas que\\nsur sa force. Il sait exploiter\\nla force centrifuge en faisant\\ntourner ses piliers.",
+  "justification": "Le texte précise qu’il ne se fie pas uniquement à sa force et qu’il fait tourner les piliers pour exploiter leur force centrifuge.",
+  "msgid": "They use concrete pillars as walking\\ncanes. Rather than rely solely on force,\\nthey master moves that utilize the\\ncentrifugal force of spinning concrete.",
+  "msgstr": "Il se sert de piliers de béton comme\\ncannes. Au lieu de la force brute, il\\nmaîtrise des techniques utilisant leur\\nforce centrifuge.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "oubli",
+  "probleme": "Le rôle du rythme dans la communication a disparu.",
+  "correction": "Il fait vibrer ses joues et émet\\ndes sons inaudibles pour les\\nhumains. Leur rythme lui sert à\\nparler et à prévenir du danger.",
+  "justification": "Le passage précise que le Pokémon communique grâce au rythme de ces sons.",
+  "msgid": "By vibrating its cheeks, it emits sound\\nwaves imperceptible to humans. It uses\\nthe rhythm of these sounds to talk and\\nwarns others of danger.",
+  "msgstr": "Il fait vibrer ses joues pour émettre des\\nsons inaudibles pour les humains. Il s’en\\nsert pour parler et prévenir du danger.",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "oubli",
+  "probleme": "Le texte omet l’emplacement des bosses et la comparaison avec un tremblement de terre.",
+  "correction": "Il vit dans l’eau et sur terre.\\nLes bosses de sa tête vibrent\\npour créer des vagues dans l’eau\\nou des secousses sismiques à terre.",
+  "justification": "L’anglais situe les bosses sur la tête et distingue deux effets selon le milieu.",
+  "msgid": "It lives in the water and on land.\\nWhen they vibrate the bumps on their\\nheads, they can make waves in water\\nor earthquake-like vibrations on land.",
+  "msgstr": "Il vit dans l’eau et sur terre. En faisant\\nvibrer ses bosses, il crée des vagues dans\\nl’eau et des secousses sur terre.",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "oubli",
+  "probleme": "Le texte omet que les JUDOKRAK sauvages tressent eux-mêmes leurs ceintures.",
+  "correction": "Il se renforce en serrant sa\\nceinture. Les JUDOKRAK sauvages\\ntressent la leur avec des lianes.\\nIl en change à mesure qu’il\\ngagne en puissance.",
+  "justification": "Le texte anglais attribue explicitement la fabrication aux individus sauvages.",
+  "msgid": "When it tightens its belt, it becomes\\nstronger. Wild Throh use vines to weave\\ntheir own belts. It changes belts as it\\ngets more powerful.",
+  "msgstr": "Il devient plus fort en serrant sa\\nceinture, tressée de lianes. Il en change à\\nmesure qu’il gagne en puissance.",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce « Karaclée » doit être écrit en capitales selon la convention du projet.",
+  "correction": "On entend KARACLEE frapper\\nroches et arbres jusque loin\\ndes montagnes où il s’entraîne.\\nLe déranger le met en colère!",
+  "justification": "La correction applique la graphie KARACLEE et restitue l’origine du bruit ainsi que la réaction du Pokémon.",
+  "msgid": "The sound of Sawk punching boulders\\nand trees can be heard all the way from\\nthe mountains where they train.\\nDisturbing their training angers them.",
+  "msgstr": "On entend jusqu’au pied des montagnes\\nKaraclée frapper rochers et arbres. Gare à\\nqui dérange son entraînement!",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "oubli",
+  "probleme": "La chaleur des langes et l’origine de la soie ont disparu.",
+  "correction": "Les feuilles qui fermentent\\ngardent ses œufs au chaud.\\nAvec la soie de sa bouche, il\\ntisse des langes de feuilles\\nbien chauds pour les LARVEYETTE.",
+  "justification": "Le texte précise que les langes gardent les LARVEYETTE au chaud et que la soie est sécrétée par la bouche.",
+  "msgid": "It keeps its eggs warm with heat from\\nfermenting leaves. It also uses leaves to\\nweave warm wrappings for Sewaddle by\\nusing the silk secreted from its mouth.",
+  "msgstr": "Il couve ses œufs à la chaleur de feuilles\\nqui fermentent. Il tisse aussi des langes\\nde feuilles pour les LARVEYETTE avec sa\\nsoie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "oubli",
+  "probleme": "Le texte omet que les antennes se trouvent sur la tête et la queue.",
+  "correction": "Par ses antennes sur la tête et\\nla queue, il capte les vibrations\\nde l’air pour situer ses proies\\net juger de leur état. Il est\\nd’une agressivité redoutable.",
+  "justification": "L’anglais précise l’emplacement des deux organes sensoriels.",
+  "msgid": "Using the feelers on its head and tail,\\nit picks up vibrations in the air to\\ndetermine its prey's location and state.\\nIt is brutally aggressive.",
+  "msgstr": "Ses antennes captent les vibrations de\\nl’air pour repérer ses proies et leur état.\\nIl est d’une agressivité redoutable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "oubli",
+  "probleme": "La vitesse de rotation et la violence du choc ont disparu.",
+  "correction": "Immobile, il garde son énergie\\npour évoluer. Attaqué, il tourne\\nà toute vitesse comme une roue\\net percute violemment l’ennemi.",
+  "justification": "Le texte anglais décrit une rotation rapide suivie d’un choc violent.",
+  "msgid": "Storing energy for evolution, it sits.\\nBut when attacked, it spins its body at\\nhigh speed like a wheel and then\\ncrashes furiously into its opponent.",
+  "msgstr": "Immobile, il accumule de l’énergie pour\\névoluer. Attaqué, il tourne sur lui-même\\ncomme une roue et fonce sur l’ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "oubli",
+  "probleme": "Le texte omet qu’il frappe jusqu’à prendre le dessus.",
+  "correction": "Il traque ses ennemis à toute\\nvitesse et les frappe sans\\nrelâche de ses cornes jusqu’à\\nles dominer. Il les achève alors\\navec un poison mortel.",
+  "justification": "« Until it prevails » précise quand cessent les coups de corne et quand intervient le poison.",
+  "msgid": "With quick movements, it chases down\\nits foes, attacking relentlessly with its\\nhorns until it prevails. Then it finishes\\nthem off with deadly poison.",
+  "msgstr": "Il traque ses ennemis à toute vitesse et\\nles frappe sans relâche de ses cornes, puis\\nles achève avec un poison mortel.",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "contresens",
+  "probleme": "L’amas devient un « véritable cumulonimbus vivant », alors que l’anglais décrit une ressemblance.",
+  "correction": "Les DOUDOUVET se collent entre\\neux quand ils se rencontrent.\\nS’ils sont assez nombreux, leur\\namas ressemble à un cumulonimbus.",
+  "justification": "« Resembles » compare la forme du groupe à celle d’un cumulonimbus.",
+  "msgid": "When it finds others of its kind, they all\\nstick together. When enough of them\\nhave collected, the mass resembles a\\ncumulonimbus cloud.",
+  "msgstr": "Les DOUDOUVET se collent entre eux quand\\nils se rencontrent. Assez nombreux, ils\\nforment de véritables cumulonimbus\\nvivants.",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "oubli",
+  "probleme": "Le texte omet qu’il faut manger les feuilles pour bénéficier de leur effet revigorant.",
+  "correction": "En taillant souvent les feuilles\\nde sa tête, on lui donne une\\njolie forme ronde. Ces feuilles\\namères revigorent quiconque\\nles mange.",
+  "justification": "L’anglais précise que l’effet se produit chez ceux qui mangent les feuilles.",
+  "msgid": "By pruning the leaves on its head with\\nregularity, this Pokémon can be grown\\ninto a fine plump shape. These bitter\\nleaves refresh those who eat them.",
+  "msgstr": "En taillant régulièrement les feuilles de sa\\ntête, on lui donne une jolie forme ronde.\\nCes feuilles amères sont revigorantes.",
+  "msgctxt": ""
+ }
+]

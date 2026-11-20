@@ -1,0 +1,412 @@
+[
+ {
+  "msgid": "CLEFAIRY: Pi pippippi!",
+  "msgstr": "MELOFEE: Féé! Fééééféééé!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/CeladonCity_Condominiums_1F_Frlg/scripts.inc",
+  "ligne": 92,
+  "ancien": "MELOFEE: Fée! Fééééféééé!",
+  "preuve": "BPRF 0x195790 (pokefirered CeladonCity_Condominiums_1F_Text_Clefairy, BPRE 0x19625B, ptr) : MELOFEE: Féé! Fééééféééé!",
+  "note": "réplique courte partagée avec : data/maps/MtMoon_Outside_hns/scripts.inc"
+ },
+ {
+  "msgid": "CELADON MANSION",
+  "msgstr": "Manoir Céladon",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/CeladonCity_Frlg/scripts.inc",
+  "ligne": 160,
+  "ancien": "MANOIR CELADON",
+  "preuve": "BPRF 0x17FF9C (pokefirered CeladonCity_Text_MansionSign, BPRE 0x1801E5, ptr) : MANOIR CELADON",
+  "note": "réplique courte partagée avec : data/maps/CeladonCity_hns/scripts.inc ; casse : MANOIR CELADON → Manoir Céladon"
+ },
+ {
+  "msgid": "No!",
+  "msgstr": "Waouargh!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/CeladonCity_Gym_Frlg/scripts.inc",
+  "ligne": 179,
+  "ancien": "Non!",
+  "preuve": "BPRF 0x196A51 (pokefirered CeladonCity_Gym_Text_TamiaDefeat, BPRE 0x197660, ptr) : Waouargh!",
+  "note": "réplique courte partagée avec : data/maps/Route20_hns/scripts.inc"
+ },
+ {
+  "msgid": "That can't be!",
+  "msgstr": "Glargh! C’est dingue!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 128,
+  "ancien": "Impossible!",
+  "preuve": "BPRF 0x191D74 (pokefirered CeruleanCity_Gym_Text_LuisDefeat, BPRE 0x192547, ptr) : Glargh!\\nC’est dingue!",
+  "note": "réplique courte partagée avec : data/maps/DragonsDen_Shrine_hns/scripts.inc ; retours à la ligne d’Rouge Feu FR supprimés (anglais sur une ligne)"
+ },
+ {
+  "msgid": "CHANSEY: Chaan! Sii!",
+  "msgstr": "LEVEINARD: Vénar! Vénar!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/CherrygroveCity_PokemonCenter_hns/scripts.inc",
+  "ligne": 57,
+  "ancien": "LEVEINARD: Vénar! Vénar!",
+  "preuve": "BPRF 0x199FCE (pokefirered SaffronCity_CopycatsHouse_1F_Text_Chansey, BPRE 0x19AC4B, ptr) : LEVEINARD : Vénar! Vénar!",
+  "note": "réplique courte partagée avec : data/maps/CherrygroveCity_PokemonCenter_hns/scripts.inc ; espace avant ! ? : ; retirée"
+ },
+ {
+  "msgid": "Thank you!",
+  "msgstr": "Merci beaucoup!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/CianwoodHouse3_hns/scripts.inc",
+  "ligne": 106,
+  "ancien": "Merci!",
+  "preuve": "BPRF 0x193FCD (pokefirered VermilionCity_House2_Text_ThankYou, BPRE 0x194A44, ptr) : Merci beaucoup!",
+  "note": "réplique courte partagée avec : data/maps/CianwoodHouse3_hns/scripts.inc"
+ },
+ {
+  "msgid": "I'm done for!",
+  "msgstr": "… C’est fini pour moi!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 162,
+  "ancien": "Je suis fichu!",
+  "preuve": "BPRF 0x197A53 (pokefirered FuchsiaCity_Gym_Text_KirkDefeat, BPRE 0x198779, ptr) : …\\nC’est fini pour moi!",
+  "note": "réplique courte partagée avec : data/maps/GoldenrodCity_RadioTower_3F_hns/scripts.inc ; retours à la ligne d’Rouge Feu FR supprimés (anglais sur une ligne)"
+ },
+ {
+  "msgid": "CELIO, this is {PLAYER}, a rising\\ncontender as the POKéMON CHAMP!",
+  "msgstr": "Ciléo, je te présente {PLAYER}.\\p{PLAYER} sera très bientôt un grand\\nChampion, j’en suis sûr!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/OneIsland_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 583,
+  "ancien": "Ciléo, voici {PLAYER}, un prétendant de\\nplus en plus sérieux au titre de\\lMaître de la Ligue!",
+  "preuve": "BPRF 0x19F925 (pokefirered OneIsland_PokemonCenter_1F_Text_PlayerIsRisingPokemonChamp, BPRE 0x1A0DAC, ptr) : CILEO, je te présente {PLAYER}.\\p{PLAYER} sera très bientôt un grand\\nCHAMPION, j’en suis sûr!",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique)"
+ },
+ {
+  "msgid": "While I was studying gemstones,\\nI discovered something important.\\pThere is another gem that forms\\na pair with this RUBY.\\pThat other gemstone is supposed to\\nbe in the SEVII ISLANDS.\\p{PLAYER}, please, I need you to go\\nfind the other gem.\\p{PLAYER}, may I have your ferry\\nPASS and the TOWN MAP?",
+  "msgstr": "Quand j’étudiais les pierres\\nprécieuses, j’ai découvert\\pquelque chose d’important.\\pIl y a une autre pierre qui va de\\npair avec ce Rubis.\\pCette pierre devrait se trouver\\nsur les Iles Sevii.\\p{PLAYER}, pourrais-tu chercher\\ncette pierre pour moi?\\pTiens, montre-moi ton Passe\\net la Carte.",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/OneIsland_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 781,
+  "ancien": "En étudiant les gemmes, j’ai\\ndécouvert quelque chose d’important.\\pIl existe une autre gemme qui va de\\npair avec ce Rubis.\\pCette autre gemme devrait se trouver\\ndans les Iles Sevii.\\p{PLAYER}, je t’en prie, va chercher\\ncette autre gemme.\\p{PLAYER}, peux-tu me donner ton passe\\nde ferry et ta Carte?",
+  "preuve": "BPRF 0x1A05A0 (pokefirered OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands, BPRE 0x1A1A3F, ptr) : Quand j’étudiais les pierres\\nprécieuses, j’ai découvert\\pquelque chose d’important.\\pIl y a une autre pierre qui va de\\npair avec ce RUBIS.\\pCette pierre devrait se trouver\\nsur les ILES SEVII.\\p{PLAYER}, pourrais-tu chercher\\ncette pierre pour moi?\\pTiens, montre-moi ton PASSE\\net la CARTE.",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique) ; casse : RUBIS → Rubis ; PASSE → Passe"
+ },
+ {
+  "msgid": "OAK: Ah, {PLAYER}!\\nYou seem to be enjoying traveling.\\pKnowing you, {PLAYER}, I can easily\\nimagine you going out to even more\\lexotic locales.\\pGood for you, good for you.\\nHohoho.",
+  "msgstr": "Chen: Ah, {PLAYER}! On dirait que\\ntu apprécies ton voyage.\\pTe connaissant, je peux facilement\\nimaginer que tu comptes déjà\\pte rendre dans des endroits\\nencore plus exotiques.",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 510,
+  "ancien": "Chen: Ah, {PLAYER}! On dirait que tu\\naimes voyager.\\pTe connaissant, {PLAYER}, je te vois\\nbien partir vers des contrées encore\\lplus exotiques.\\pC’est bien, c’est très bien. Hohoho.",
+  "preuve": "BPRF 0x17D89A (pokefirered PalletTown_Text_OakYouEnjoyingTraveling, BPRE 0x17DA16, ptr) : CHEN: Ah, {PLAYER}! On dirait que\\ntu apprécies ton voyage.\\pTe connaissant, je peux facilement\\nimaginer que tu comptes déjà\\pte rendre dans des endroits\\nencore plus exotiques.",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique) ; casse : CHEN → Chen"
+ },
+ {
+  "msgid": "{PLAYER}, I hate to say it, but you\\nwon't be necessary for this.\\pI know! I'll borrow a TOWN MAP\\nfrom my sis!\\pI'll tell her not to lend you one,\\n{PLAYER}! Hahaha!\\pDon't bother coming around to\\nmy place after this!",
+  "msgstr": "{PLAYER}, c’est clair, j’ai pas\\nbesoin de toi pour ça.\\pJe sais! Je vais prendre une Carte\\nà ma sœur!\\pEt je lui dirai de ne pas t’en\\ndonner une! Yark!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1362,
+  "ancien": "{PLAYER}, désolé de te le dire, mais tu\\nne serviras à rien.\\pJ’ai une idée! Je vais emprunter une\\nCarte à ma sœur!\\pJe vais lui dire de ne pas t’en prêter,\\n{PLAYER}! Hahaha!\\pPas la peine de venir chez moi après\\nça!",
+  "preuve": "BPRF 0x18D996 (pokefirered PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap, BPRE 0x18DEF3, ptr) : {PLAYER}, c’est clair, j’ai pas\\nbesoin de toi pour ça.\\pJe sais! Je vais prendre une CARTE\\nà ma sœur!\\pEt je lui dirai de ne pas t’en\\ndonner une! Yark!",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique)"
+ },
+ {
+  "msgid": "Ah! CHARMANDER is your choice.\\nYou should raise it patiently.\\pSo, {PLAYER}, you're claiming the\\nFIRE POKéMON CHARMANDER?",
+  "msgstr": "SALAMECHE? C’est un bon choix.\\nTu vas devoir t’occuper de lui\\pavec beaucoup de patience.\\pAlors, tu as fait ton choix?\\nTu veux ce Pokémon Feu?",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1404,
+  "ancien": "Ah! Tu choisis SALAMECHE. Il faudra\\nl’élever avec patience.\\pAlors, {PLAYER}, tu veux le Pokémon de\\ntype Feu, SALAMECHE?",
+  "preuve": "BPRF 0x18DBE3 (pokefirered PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander, BPRE 0x18E194, ptr) : SALAMECHE? C’est un bon choix.\\nTu vas devoir t’occuper de lui\\pavec beaucoup de patience.\\pAlors, tu as fait ton choix?\\nTu veux ce POKéMON FEU?",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique)"
+ },
+ {
+  "msgid": "DAISY: Hi, {PLAYER}!\\nGood timing.\\pI'm about to have some tea.\\nWould you like to join me?\\pOh, but look.\\nYour POKéMON are a little dirty.\\pWould you like me to groom one?",
+  "msgstr": "Nina: Salut! Ça tombe bien,\\nj’allais faire du thé. En veux-tu?\\pOh, tes Pokémon sont sales.\\nTu veux que j’en bichonne un?",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 212,
+  "ancien": "Nina: Salut, {PLAYER}! Tu tombes bien.\\pJ’allais prendre le thé. Tu veux te\\njoindre à moi?\\pOh, mais regarde. Tes Pokémon sont un\\npeu sales.\\pVeux-tu que j’en bichonne un?",
+  "preuve": "BPRF 0x18D313 (pokefirered PalletTown_RivalsHouse_Text_LikeMeToGroomMon, BPRE 0x18D7D3, ptr) : NINA: Salut! Ça tombe bien,\\nj’allais faire du thé. En veux-tu?\\pOh, tes POKéMON sont sales.\\nTu veux que j’en bichonne un?",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique) ; casse : NINA → Nina"
+ },
+ {
+  "msgid": "{COLOR DARK_GRAY}{STR_VAR_1} looks dreamily content…\\p{COLOR RED}DAISY: There you go! All done.\\n",
+  "msgstr": "{FONT 2}{STR_VAR_1} a l’air heureux.\\pNina: Voilààà! C’est fini!\\nAlors? Il est beau, hein?\\pUn joli petit Pokémon.",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 233,
+  "ancien": "{COLOR DARK_GRAY}{STR_VAR_1} a l’air aux anges…\\p{COLOR RED}Nina: Et voilà! C’est fini.\\n",
+  "preuve": "BPRF 0x18D421 (pokefirered PalletTown_RivalsHouse_Text_ThereYouGoAllDone, BPRE 0x18D8FE, ptr) : {FONT 2}{STR_VAR_1} a l’air heureux.\\pNINA: Voilààà! C’est fini!\\nAlors? Il est beau, hein?\\pUn joli petit POKéMON.",
+  "note": "le hack a modifié la phrase (ressemblance 68 %) ; anglais Rouge Feu : {FONT 2}{STR_VAR_1} looks dreamily content…\\p{FONT 5}DAISY: There you go! All done.\\nSee? Doesn’t it look nice?\\pGiggle…\\nIt’s such a cute POKéMON. ; contrôles : codes, fin '\\\\n' ; casse : NINA → Nina"
+ },
+ {
+  "msgid": "{FONT_NORMAL}{STR_VAR_1} looks dreamily content…\\p{FONT_FEMALE}DAISY: There you go! All done.\\n",
+  "msgstr": "{FONT 2}{STR_VAR_1} a l’air heureux.\\pNina: Voilààà! C’est fini!\\nAlors? Il est beau, hein?\\pUn joli petit Pokémon.",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 236,
+  "ancien": "{FONT_NORMAL}{STR_VAR_1} a l’air aux anges…\\p{FONT_FEMALE}Nina: Et voilà! C’est fini.\\n",
+  "preuve": "BPRF 0x18D421 (pokefirered PalletTown_RivalsHouse_Text_ThereYouGoAllDone, BPRE 0x18D8FE, ptr) : {FONT 2}{STR_VAR_1} a l’air heureux.\\pNINA: Voilààà! C’est fini!\\nAlors? Il est beau, hein?\\pUn joli petit POKéMON.",
+  "note": "le hack a modifié la phrase (ressemblance 68 %) ; anglais Rouge Feu : {FONT 2}{STR_VAR_1} looks dreamily content…\\p{FONT 5}DAISY: There you go! All done.\\nSee? Doesn’t it look nice?\\pGiggle…\\nIt’s such a cute POKéMON. ; contrôles : codes, fin '\\\\n' ; casse : NINA → Nina"
+ },
+ {
+  "msgid": "See? Doesn't it look nice?\\pGiggle…\\nIt's such a cute POKéMON.",
+  "msgstr": "{FONT 2}{STR_VAR_1} a l’air heureux.\\pNina: Voilààà! C’est fini!\\nAlors? Il est beau, hein?\\pUn joli petit Pokémon.",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 239,
+  "ancien": "Huhuhu…\\nC’est un joli petit Pokémon.",
+  "preuve": "BPRF 0x18D421 (pokefirered PalletTown_RivalsHouse_Text_ThereYouGoAllDone, BPRE 0x18D8FE, ptr) : {FONT 2}{STR_VAR_1} a l’air heureux.\\pNINA: Voilààà! C’est fini!\\nAlors? Il est beau, hein?\\pUn joli petit POKéMON.",
+  "note": "le hack a modifié la phrase (ressemblance 64 %) ; anglais Rouge Feu : {FONT 2}{STR_VAR_1} looks dreamily content…\\p{FONT 5}DAISY: There you go! All done.\\nSee? Doesn’t it look nice?\\pGiggle…\\nIt’s such a cute POKéMON. ; contrôles : codes ; casse : NINA → Nina"
+ },
+ {
+  "msgid": "Space Shuttle",
+  "msgstr": "Navette Spatiale",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/PewterCity_Museum_2F_Frlg/scripts.inc",
+  "ligne": 80,
+  "ancien": "Navette spatiale",
+  "preuve": "BPRF 0x190598 (pokefirered PewterCity_Museum_1F_Text_SpaceShuttle, BPRE 0x190C81, ptr) : NAVETTE SPATIALE",
+  "note": "réplique courte partagée avec : data/maps/PewterCity_Museum_2F_hns/scripts.inc ; casse : NAVETTE SPATIALE → Navette Spatiale"
+ },
+ {
+  "msgid": "{RIVAL}: Hey, {PLAYER}!\\pI was looking forward to seeing\\nyou, {PLAYER}.\\pMy rival should be strong to keep\\nme sharp.\\pWhile working on my POKéDEX, I\\nlooked all over for POKéMON.\\pNot only that, I assembled teams\\nthat would beat any POKéMON type.\\pAnd now…\\pI'm the POKéMON LEAGUE CHAMPION!\\p{PLAYER}!\\nDo you know what that means?\\pI'll tell you.\\pI am the most powerful TRAINER in\\nthe world!",
+  "msgstr": "{RIVAL}: Salut {PLAYER}!\\pJe t’attends depuis longtemps!\\pTon devoir en tant qu’adversaire\\nest d’entraîner mes Pokémon.\\pEn améliorant mon Pokédex, j’ai\\ncherché des Pokémon surpuissants!\\pJ’ai ainsi créé l’équipe ultime,\\nefficace contre tous les types de\\lPokémon!\\pÇa t’épate, hein?\\pJe suis le Maître de la Ligue\\nPokémon!\\pTu sais c’que ça veut dire?\\pEcoute ça, minable!\\pJe suis le Dresseur le plus\\npuissant du monde! Yaaa!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc",
+  "ligne": 228,
+  "ancien": "{RIVAL}: Hé, {PLAYER}!\\pJ’avais hâte de te voir, {PLAYER}.\\pMon rival doit être fort pour que je\\nreste au top.\\pEn complétant mon Pokédex, j’ai\\ncherché des Pokémon partout.\\pEt ce n’est pas tout: j’ai monté des\\néquipes capables de battre n’importe\\lquel type de Pokémon.\\pEt maintenant…\\pJe suis le Maître de la Ligue Pokémon!\\p{PLAYER}! Tu sais ce que ça veut dire?\\pJe vais te le dire.\\pJe suis le Dresseur le plus puissant\\ndu monde!",
+  "preuve": "BPRF 0x1788A6 (pokefirered PokemonLeague_ChampionsRoom_Text_Intro, BPRE 0x178B6C, ptr) : {RIVAL}: Salut {PLAYER}!\\pJe t’attends depuis longtemps!\\pTon devoir en tant qu’adversaire\\nest d’entraîner mes POKéMON.\\pEn améliorant mon POKéDEX, j’ai\\ncherché des POKéMON surpuissants!\\pJ’ai ainsi créé l’équipe ultime,\\nefficace contre tous les types de\\lPOKéMON!\\pÇa t’épate, hein?\\pJe suis le MAITRE de la LIGUE\\nPOKéMON!\\pTu sais c’que ça veut dire?\\pEcoute ça, minable!\\pJe suis le DRESSEUR le plus\\npuissant du monde! Yaaa!",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique)"
+ },
+ {
+  "msgid": "{RIVAL}: Hey, {PLAYER}!\\pYou came back, {PLAYER}!\\nHahah, that is so great!\\pMy rival should be strong to keep\\nme sharp.\\pWhile working on my POKéDEX, I\\nlooked all over for POKéMON.\\pNot only that, I assembled teams\\nthat would beat any POKéMON type.\\pAnd now…\\pI'm the POKéMON LEAGUE CHAMPION!\\p{PLAYER}!\\nDo you know what that means?\\pI'll tell you.\\pI am the most powerful TRAINER in\\nthe world!",
+  "msgstr": "{RIVAL}: Salut {PLAYER}!\\pT’en as pas eu assez?\\pTon devoir en tant qu’adversaire\\nest d’entraîner mes Pokémon.\\pEn améliorant mon Pokédex, j’ai\\ncherché des Pokémon surpuissants!\\pJ’ai ainsi créé l’équipe ultime,\\nefficace contre tous les types de\\lPokémon!\\pÇa t’épate, hein?\\pJe suis le Maître de la Ligue\\nPokémon!\\pTu sais c’que ça veut dire?\\pEcoute ça, minable!\\pJe suis le Dresseur le plus\\npuissant du monde! Yaaa!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc",
+  "ligne": 246,
+  "ancien": "{RIVAL}: Hé, {PLAYER}!\\pTu es revenu, {PLAYER}! Haha, c’est\\ngénial!\\pMon rival doit être fort pour que je\\nreste au top.\\pEn complétant mon Pokédex, j’ai\\ncherché des Pokémon partout.\\pEt ce n’est pas tout: j’ai monté des\\néquipes capables de battre n’importe\\lquel type de Pokémon.\\pEt maintenant…\\pJe suis le Maître de la Ligue Pokémon!\\p{PLAYER}! Tu sais ce que ça veut dire?\\pJe vais te le dire.\\pJe suis le Dresseur le plus puissant\\ndu monde!",
+  "preuve": "BPRF 0x178A3D (pokefirered PokemonLeague_ChampionsRoom_Text_RematchIntro, BPRE 0x178CD4, ptr) : {RIVAL}: Salut {PLAYER}!\\pT’en as pas eu assez?\\pTon devoir en tant qu’adversaire\\nest d’entraîner mes POKéMON.\\pEn améliorant mon POKéDEX, j’ai\\ncherché des POKéMON surpuissants!\\pJ’ai ainsi créé l’équipe ultime,\\nefficace contre tous les types de\\lPOKéMON!\\pÇa t’épate, hein?\\pJe suis le MAITRE de la LIGUE\\nPOKéMON!\\pTu sais c’que ça veut dire?\\pEcoute ça, minable!\\pJe suis le DRESSEUR le plus\\npuissant du monde! Yaaa!",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique)"
+ },
+ {
+  "msgid": "OAK: Er-hem!\\nCongratulations, {PLAYER}!\\pThis floor is the POKéMON HALL OF\\nFAME.\\pPOKéMON LEAGUE CHAMPIONS are\\nhonored for their exploits here.\\pTheir POKéMON are also recorded in\\nthe HALL OF FAME.\\p{PLAYER}!\\pYou have worked hard to become\\nthe new LEAGUE CHAMPION.\\pCongratulations, {PLAYER}, you and\\nyour POKéMON are HALL OF FAMERS!",
+  "msgstr": "Chen: Hum-hum!\\nFélicitations {PLAYER}!\\pCet étage est réservé au\\nPanthéon des Dresseurs.\\pLes Maîtres de la Ligue Pokémon\\nsont consacrés ici!\\pLeurs Pokémon sont enregistrés\\nen tant que Celebrites!\\p{PLAYER}!\\pTon périple fut long jusqu’à\\nla victoire!\\pEncore bravo. Toi et tes chers\\nPokémon êtes tous célèbres!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/PokemonLeague_HallOfFame_Frlg/scripts.inc",
+  "ligne": 57,
+  "ancien": "Chen: Hum hum! Félicitations, {PLAYER}!\\pCet étage abrite le Panthéon\\nPokémon.\\pLes Maîtres de la Ligue Pokémon y\\nsont honorés pour leurs exploits.\\pLeurs Pokémon sont aussi inscrits au\\nPanthéon.\\p{PLAYER}!\\pTu as travaillé dur pour devenir le\\nnouveau Maître de la Ligue.\\pFélicitations, {PLAYER}, toi et tes\\nPokémon entrez au Panthéon!",
+  "preuve": "BPRF 0x178FD1 (pokefirered PokemonLeague_HallOfFame_Text_OakCongratulations, BPRE 0x17922F, ptr) : CHEN: Hum-hum!\\nFélicitations {PLAYER}!\\pCet étage est réservé au\\nPANTHEON DES DRESSEURS.\\pLes MAITRES de la LIGUE POKéMON\\nsont consacrés ici!\\pLeurs POKéMON sont enregistrés\\nen tant que CELEBRITES!\\p{PLAYER}!\\pTon périple fut long jusqu’à\\nla victoire!\\pEncore bravo. Toi et tes chers\\nPOKéMON êtes tous célèbres!",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique) ; casse : CHEN → Chen ; PANTHEON DES → Panthéon des ; MAITRES → Maîtres ; CELEBRITES → Celebrites"
+ },
+ {
+  "msgid": "I give!",
+  "msgstr": "Perdu!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/RockTunnel_1F_Frlg/scripts.inc",
+  "ligne": 79,
+  "ancien": "Je me rends!",
+  "preuve": "BPRF 0x17923F (pokefirered RockTunnel_1F_Text_LucasDefeat, BPRE 0x1794AC, ptr) : Perdu!",
+  "note": "réplique courte partagée avec : data/maps/Route35_hns/scripts.inc"
+ },
+ {
+  "msgid": "Kaboom!",
+  "msgstr": "Schplaff!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/RocketHideout_B1F_hns/scripts.inc",
+  "ligne": 288,
+  "ancien": "Kaboum!",
+  "preuve": "BPRF 0x18678B (pokefirered Route16_Text_HideoDefeat, BPRE 0x186D52, ptr) : Schplaff!",
+  "note": "réplique courte partagée avec : data/maps/RocketHideout_B1F_hns/scripts.inc"
+ },
+ {
+  "msgid": "{PLAYER} played the POKé FLUTE.",
+  "msgstr": "Vous jouez de la POKéFLUTE.",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/Route12_Frlg/scripts.inc",
+  "ligne": 76,
+  "ancien": "{PLAYER} joue de la Pokéflûte.",
+  "preuve": "BPRF 0x18500A (pokefirered Text_PlayedPokeFlute, BPRE 0x1853E8, ptr) : Vous jouez de la POKéFLUTE.",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique)"
+ },
+ {
+  "msgid": "Help!",
+  "msgstr": "Glubb! J’me noie!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/Route19_Frlg/scripts.inc",
+  "ligne": 57,
+  "ancien": "A l’aide!",
+  "preuve": "BPRF 0x18735E (pokefirered Route19_Text_DavidDefeat, BPRE 0x187955, ptr) : Glubb!\\nJ’me noie!",
+  "note": "réplique courte partagée avec : data/maps/SaffronCity_FightingDojoVIP_hns/scripts.inc ; retours à la ligne d’Rouge Feu FR supprimés (anglais sur une ligne)"
+ },
+ {
+  "msgid": "{RIVAL}: What? {PLAYER}!\\nWhat a surprise to see you here!\\pSo you're going to the POKéMON\\nLEAGUE?\\pYou collected all the BADGES, too?\\nThat's cool!\\pThen I'll whip you, {PLAYER}, as a\\nwarm-up for the POKéMON LEAGUE!\\pCome on!",
+  "msgstr": "{RIVAL}: Tiens? {PLAYER}! Quelle\\nsurprise, tu es là aussi?!\\pAlors comme ça tu vas à la Ligue?\\nTu as tous les Badges aussi?\\lC’est bien!\\pBon, je vais m’occuper vite\\nfait de toi!\\pÇa me fera un échauffement\\navant la Ligue Pokémon!\\pAllez, viens te battre!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/Route22_Frlg/scripts.inc",
+  "ligne": 268,
+  "ancien": "{RIVAL}: Quoi? {PLAYER}! Quelle\\nsurprise de te voir ici!\\pAlors tu vas à la Ligue Pokémon?\\pTu as aussi tous les Badges? Pas mal!\\pAlors je vais te battre, {PLAYER}, pour\\nm’échauffer avant la Ligue Pokémon!\\pAllez, viens!",
+  "preuve": "BPRF 0x1882FF (pokefirered Route22_Text_LateRivalIntro, BPRE 0x188A3C, ptr) : {RIVAL}: Tiens? {PLAYER}! Quelle\\nsurprise, tu es là aussi?!\\pAlors comme ça tu vas à la LIGUE?\\nTu as tous les BADGES aussi?\\lC’est bien!\\pBon, je vais m’occuper vite\\nfait de toi!\\pÇa me fera un échauffement\\navant la LIGUE POKéMON!\\pAllez, viens te battre!",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique)"
+ },
+ {
+  "msgid": "Yuck!\\nShouldn't have looked!",
+  "msgstr": "Quoi?!?\\nIl a mangé ça???",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/SSAnne_CaptainsOffice_Frlg/scripts.inc",
+  "ligne": 95,
+  "ancien": "Beurk!\\nJ’aurais pas dû regarder!",
+  "preuve": "BPRF 0x17388D (pokefirered SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked, BPRE 0x1738E6, ptr) : Quoi?!?\\nIl a mangé ça???",
+  "note": "réplique courte partagée avec : data/maps/SSAqua_B1F_hns/scripts.inc"
+ },
+ {
+  "msgid": "Your BAG is full of items.",
+  "msgstr": "Ton inventaire est plein!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/SaffronCity_Gym_Frlg/scripts.inc",
+  "ligne": 140,
+  "ancien": "Ton Sac est plein.",
+  "preuve": "BPRF 0x19ACAE (pokefirered SaffronCity_Gym_Text_BagFullOfOtherItems, BPRE 0x19B849, ptr) : Ton inventaire est plein!",
+  "note": "le hack a modifié la phrase (ressemblance 89 %) ; anglais Rouge Feu : Your BAG is full of other items."
+ },
+ {
+  "msgid": "Ah, so you are the much-\\ntalked-about {PLAYER}.\\pYou certainly do have the look of\\na winner.\\pBut for me to accept you as\\na true POKéMON great…\\p… …\\pYou've still a ways to go!",
+  "msgstr": "Ah, tu es la personne dont tout le\\nmonde parle en ce moment.\\pEffectivement, je décèle un\\ncertain quelque chose en toi.\\pMais tu as encore beaucoup de\\nchemin à parcourir pour que je\\pte considère comme un grand\\nDresseur.",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 507,
+  "ancien": "Ah, c’est donc toi, ce fameux\\n{PLAYER} dont on parle tant.\\pTu as vraiment l’allure d’un\\ngagnant.\\pMais pour que je te considère comme\\nun vrai grand du monde Pokémon…\\p… …\\pIl te reste du chemin à faire!",
+  "preuve": "BPRF 0x19BCCB (pokefirered SaffronCity_PokemonTrainerFanClub_Text_YouveStillAWaysToGo, BPRE 0x19C9D5, ptr) : Ah, tu es la personne dont tout le\\nmonde parle en ce moment.\\pEffectivement, je décèle un\\ncertain quelque chose en toi.\\pMais tu as encore beaucoup de\\nchemin à parcourir pour que je\\pte considère comme un grand\\nDRESSEUR.",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique)"
+ },
+ {
+  "msgid": "Everyone stopped being {PLAYER}'s\\nfan…\\pBut that means I can have {PLAYER}\\nall to myself!\\pYay! Go for it!\\nMy one and only {PLAYER}!",
+  "msgstr": "{PLAYER} a perdu tous ses fans.\\pÇa veut dire que je peux l’avoir\\nrien que pour moi!\\pAllez, {PLAYER}!\\nEpate-moi!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 530,
+  "ancien": "Plus personne n’est fan de\\n{PLAYER}…\\pMais ça veut dire que j’ai {PLAYER}\\nrien que pour moi!\\pOuais! Vas-y!\\nMon seul et unique {PLAYER}!",
+  "preuve": "BPRF 0x19BE9D (pokefirered SaffronCity_PokemonTrainerFanClub_Text_EveryoneButMeStoppedBeingYourFan, BPRE 0x19CB62, ptr) : {PLAYER} a perdu tous ses fans.\\pÇa veut dire que je peux l’avoir\\nrien que pour moi!\\pAllez, {PLAYER}!\\nEpate-moi!",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique)"
+ },
+ {
+  "msgid": "Huh, can you believe it?\\nEveryone turned into your fans.\\pSo after all we've been through,\\nI'm the lone {STR_VAR_1} fan?\\pEh, being the one and only\\n{STR_VAR_1} fan's my style, anyway.",
+  "msgstr": "Tu le crois ça?\\nIls sont tous fans de toi.\\pComment ça se fait que je sois\\nle seul fan de {STR_VAR_1}?",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 578,
+  "ancien": "Hé, tu y crois, toi?\\nTout le monde est devenu ton fan.\\pAlors, après tout ce qu’on a vécu,\\nje suis le seul fan de {STR_VAR_1}?\\pBah, être l’unique fan de\\n{STR_VAR_1}, c’est mon style, de\\ltoute façon.",
+  "preuve": "BPRF 0x19C18E (pokefirered SaffronCity_PokemonTrainerFanClub_Text_ImLoneTrainerFan, BPRE 0x19CE3A, ptr) : Tu le crois ça?\\nIls sont tous fans de toi.\\pComment ça se fait que je sois\\nle seul fan de {STR_VAR_1}?",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique)"
+ },
+ {
+  "msgid": "Oh, my goodness!\\nIf it isn't {PLAYER}!\\pIt's so disappointing… I realized\\nI'm your number-one-and-only fan!\\pWell, it can't be helped!\\nLet me cheer you on, at least!\\pHurray, hurray, {PLAYER}!",
+  "msgstr": "Oh mon dieu, c’est toi?\\nC’est bien toi, {PLAYER}?\\pJe suis déçue… Je viens de\\nréaliser que je suis ta seule fan!\\pBon, on ne peut rien y faire…\\nLaisse-moi au moins t’encourager!\\pAllez {PLAYER}, allez {PLAYER}!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 594,
+  "ancien": "Oh, mon Dieu!\\nMais c’est {PLAYER}!\\pC’est si décevant… Je me suis rendu\\ncompte que je suis ta seule et unique\\lfan!\\pBon, tant pis!\\nLaisse-moi au moins t’encourager!\\pHourra, hourra, {PLAYER}!",
+  "preuve": "BPRF 0x19C270 (pokefirered SaffronCity_PokemonTrainerFanClub_Text_ImYourNumberOneFan, BPRE 0x19CF6D, ptr) : Oh mon dieu, c’est toi?\\nC’est bien toi, {PLAYER}?\\pJe suis déçue… Je viens de\\nréaliser que je suis ta seule fan!\\pBon, on ne peut rien y faire…\\nLaisse-moi au moins t’encourager!\\pAllez {PLAYER}, allez {PLAYER}!",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique)"
+ },
+ {
+  "msgid": "I believe in Master {STR_VAR_1}\\nwith all my heart.\\pEven if I am the only one to\\nbelieve in him.\\pI won't ever feel lonesome, though.\\pNot if I keep thinking about Master\\n{STR_VAR_1}.",
+  "msgstr": "Je crois en {STR_VAR_1} de tout mon\\ncœur.\\pMême si je suis la seule à\\npenser ça.\\pSi seulement je pouvais le\\nrencontrer, \\pje me sentirais moins seule.",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 635,
+  "ancien": "Je crois en Maître {STR_VAR_1}\\nde tout mon cœur.\\pMême si je suis la seule à croire\\nen lui.\\pJe ne me sentirai jamais seule,\\npourtant.\\pPas si je continue à penser à Maître\\n{STR_VAR_1}.",
+  "preuve": "BPRF 0x19C50F (pokefirered SaffronCity_PokemonTrainerFanClub_Text_BelieveInMasterWithAllMyHeart, BPRE 0x19D211, ptr) : Je crois en {STR_VAR_1} de tout mon\\ncœur.\\pMême si je suis la seule à\\npenser ça.\\pSi seulement je pouvais le\\nrencontrer, \\pje me sentirais moins seule.",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique)"
+ },
+ {
+  "msgid": "Ah!\\nWelcome, my friend!\\pLet me tell you something. There's\\na hidden room in the basement.\\pA TRAINER named {STR_VAR_1} is\\nwaiting there now.\\pTell me, you did come to challenge\\n{STR_VAR_1}, am I right?",
+  "msgstr": "Bienvenue!\\pJe vais t’avouer une chose, il\\ny a une salle cachée dans la cave.\\pUn Dresseur appelé {STR_VAR_1}\\nt’y attend en ce moment.\\pTu es là pour l’affronter,\\nn’est-ce pas?",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/SevenIsland_House_Room1_Frlg/scripts.inc",
+  "ligne": 187,
+  "ancien": "Ah! Bienvenue, mon ami!\\pLaisse-moi te confier un secret. Il y\\na une pièce cachée au sous-sol.\\pUn Dresseur nommé {STR_VAR_1} y\\nattend en ce moment.\\pDis-moi, tu es bien venu défier\\n{STR_VAR_1}, n’est-ce pas?",
+  "preuve": "BPRF 0x19F110 (pokefirered SevenIsland_House_Room1_Text_ChallengeVisitingTrainer, BPRE 0x1A0598, ptr) : Bienvenue!\\pJe vais t’avouer une chose, il\\ny a une salle cachée dans la cave.\\pUn DRESSEUR appelé {STR_VAR_1}\\nt’y attend en ce moment.\\pTu es là pour l’affronter,\\nn’est-ce pas?",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique)"
+ },
+ {
+  "msgid": "Ah, {PLAYER}!\\nSo we meet again!\\pThe PRESIDENT and I are discussing\\na vital business proposition.\\pKeep your nose out of grown-up\\nmatters…\\pOr, experience a world of pain!",
+  "msgstr": "x un aussi!",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/SilphCo_11F_Frlg/scripts.inc",
+  "ligne": 179,
+  "ancien": "Ah, {PLAYER}!\\nNous nous retrouvons!\\pLe Président et moi discutons d’une\\nproposition commerciale capitale.\\pNe te mêle pas des affaires des\\ngrands…\\pOu tu connaîtras un monde de\\nsouffrance!",
+  "preuve": "BPRF 0x179508 (pokefirered SilphCo_11F_Text_GiovanniIntro, BPRE 0x177108, ptr~1/2) : x un aussi!",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique) ; écart signalé par les contrôles (ratio 0.07) : traduction libre de Rouge Feu FR"
+ },
+ {
+  "msgid": "LOSTELLE: Hi, {PLAYER}!\\nYou're always so cool!\\pI'll make lunch for you, too, one\\nday, {PLAYER}.",
+  "msgstr": "Lostelle: Coucou {PLAYER}!\\nÇa marche pour toi?\\pUn de ces jours, je t’inviterai\\nà manger à la maison.",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/ThreeIsland_House1_Frlg/scripts.inc",
+  "ligne": 17,
+  "ancien": "Lostelle: Salut, {PLAYER}! Tu es\\ntoujours si génial!\\pUn jour, je te préparerai aussi un\\ndéjeuner, {PLAYER}.",
+  "preuve": "BPRF 0x1A1AA4 (pokefirered ThreeIsland_House1_Text_YoureAlwaysSoCool, BPRE 0x1A2F3E, ptr) : LOSTELLE: Coucou {PLAYER}!\\nÇa marche pour toi?\\pUn de ces jours, je t’inviterai\\nà manger à la maison.",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique) ; casse : LOSTELLE → Lostelle"
+ },
+ {
+  "msgid": "Oh, hello, {PLAYER}!\\nHow are you doing?\\pIt's me, one of PROF. OAK's AIDES.\\pDid you meet the other AIDE?\\pHe had a package from PROF. OAK\\nfor you, {PLAYER}.\\pHe said he'd look for you around\\nROUTE 2, {PLAYER}.\\pIf you're in the ROUTE 2 area,\\nplease look for him.",
+  "msgstr": "Tiens, bonjour {PLAYER}!\\nComment vas-tu?\\pJe suis un des Assistants du\\nProf. Chen.\\pTu as déjà rencontré un autre\\nassistant?\\pIl avait un paquet pour toi de la\\npart du Professeur.\\pIl a dit qu’il partait à ta\\nrencontre vers la Route 2.\\pSi tu vas par là, essaie de le\\ntrouver, {PLAYER}.",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 386,
+  "ancien": "Oh, bonjour, {PLAYER}! Comment\\nvas-tu?\\pC’est moi, l’un des assistants du\\nProf. Chen.\\pTu as rencontré l’autre assistant?\\pIl avait un colis du Prof. Chen pour\\ntoi, {PLAYER}.\\pIl a dit qu’il te chercherait du côté\\nde la Route 2, {PLAYER}.\\pSi tu passes par la Route 2,\\ncherche-le, s’il te plaît.",
+  "preuve": "BPRF 0x17FB61 (pokefirered VermilionCity_Text_Route2AideHasPackageForYou, BPRE 0x17FDD2, ptr) : Tiens, bonjour {PLAYER}!\\nComment vas-tu?\\pJe suis un des ASSISTANTS du\\nPROF. CHEN.\\pTu as déjà rencontré un autre\\nassistant?\\pIl avait un paquet pour toi de la\\npart du PROFESSEUR.\\pIl a dit qu’il partait à ta\\nrencontre vers la ROUTE 2.\\pSi tu vas par là, essaie de le\\ntrouver, {PLAYER}.",
+  "note": "contrôles : codes ; codes de mise en forme du hack remis (police/couleur/musique) ; casse : ASSISTANTS → Assistants ; CHEN → Chen ; PROFESSEUR → Professeur ; écart signalé par les contrôles (nombres) : traduction libre de Rouge Feu FR"
+ },
+ {
+  "msgid": "TM26 contains EARTHQUAKE.\\pIt is a powerful attack that causes\\na massive tremor.\\pI made it when I ran the GYM here,\\nfar too long ago… ",
+  "msgstr": "CT26: Séisme!\\pCette attaque peut créer de\\nvrais tremblements de terre!\\pJe l’ai inventée il y a bien\\nlongtemps…",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 152,
+  "ancien": "La CT26 contient Séisme.\\pCette attaque puissante provoque un\\nénorme tremblement de terre.\\pJe l’ai créée quand je dirigeais\\nl’Arène, il y a bien longtemps… ",
+  "preuve": "BPRF 0x18F0CC (pokefirered ViridianCity_Gym_Text_ExplainTM26, BPRE 0x18F695, ptr) : CT26: SEISME!\\pCette attaque peut créer de\\nvrais tremblements de terre!\\pJe l’ai inventée il y a bien\\nlongtemps…",
+  "note": "contrôles : fin ' '"
+ },
+ {
+  "msgid": "\\nNational Federation\\n{CLEAR_TO 0x13}of the Blind\\nPatricia A. Maurer\\nJapan Braille Library\\nEuropean Blind Union\\n",
+  "msgstr": "\\n\\nErkan Kasap\\nThorsten Heinze\\n\\n\\n",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 424,
+  "ancien": "\\nNational Federation\\n{CLEAR_TO 0x13}of the Blind\\nPatricia A. Maurer\\nJapan Braille Library\\nEuropean Blind Union\\n",
+  "preuve": "BPRF 0x416130 (pokefirered gCreditsString_National_Federation_of_the_Blind_Patricia_A_Maurer_Japan_Braille_Library_European_Blind_Union, BPRE 0x41DC48, ptr) : \\n\\nErkan Kasap\\nThorsten Heinze\\n\\n\\n",
+  "note": "contrôles : codes ; écart signalé par les contrôles (ratio 0.37) : traduction libre de Rouge Feu FR"
+ },
+ {
+  "msgid": "\\n\\nNational Information Library\\n{CLEAR_TO 0x2D}Service\\nMargaret Campion\\n\\n",
+  "msgstr": "\\n\\nDaniel Barsan\\nMichelangelo Vassallo\\nNoé Testing Team\\n\\n",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "src/credits_frlg.c",
+  "ligne": 426,
+  "ancien": "\\n\\nNational Information Library\\n{CLEAR_TO 0x2D}Service\\nMargaret Campion\\n\\n",
+  "preuve": "BPRF 0x416170 (pokefirered gCreditsString_National_Information_Library_Service_Margaret_Campion, BPRE 0x41DCC8, ptr) : \\n\\nDaniel Barsan\\nMichelangelo Vassallo\\nNOE Testing Team\\n\\n",
+  "note": "contrôles : codes ; casse : NOE → Noé"
+ },
+ {
+  "msgid": "LISA",
+  "msgstr": "Lisa",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 764,
+  "ancien": "Lisa",
+  "preuve": "BPRF 0x23A3A0 (TRAINER_LASS_LISA) : LISA",
+  "note": "l’entrée du .po sert aussi à : src/data/trainers_hns.party ; nom de Dresseur ; casse SoulSilver"
+ },
+ {
+  "msgid": "TREVOR",
+  "msgstr": "Trevor",
+  "source": "Rouge Feu FR officiel (adapté)",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 798,
+  "ancien": "Trevor",
+  "preuve": "BPRF 0x23A3F0 (TRAINER_SAILOR_TREVOR) : TREVOR",
+  "note": "l’entrée du .po sert aussi à : src/data/trainers_hns.party ; nom de Dresseur ; casse SoulSilver"
+ }
+]

@@ -1,0 +1,102 @@
+[
+ {
+  "id": 6,
+  "categorie": "typographie",
+  "probleme": "Le prix à sept chiffres est écrit sans séparateurs de milliers.",
+  "correction": "Bicyclette{CLEAR_TO 0x49}{FONT_SMALL}1 000 000¥",
+  "justification": "En français, les chiffres d’un nombre de cette taille se groupent par trois à partir de la droite.",
+  "msgid": "BICYCLE{CLEAR_TO 0x49}{FONT_SMALL}¥1,000,000",
+  "msgstr": "Bicyclette{CLEAR_TO 0x49}{FONT_SMALL}1000000¥",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "terminologie",
+  "probleme": "« Grain Miracle » dépasse la graphie officielle du nom de l’objet.",
+  "correction": "Grain Miracl{CLEAR_TO 0x50}{FONT_SMALL}1000 JETONS",
+  "justification": "Le lexique fourni donne « Grain Miracl » pour MIRACLE SEED.",
+  "msgid": "MIRACLE SEED{CLEAR_TO 0x50}{FONT_SMALL}1,000 COINS",
+  "msgstr": "Grain Miracle{CLEAR_TO 0x50}{FONT_SMALL}1000 JETONS",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "contresens",
+  "probleme": "Le texte donne à entendre que l’autre joueur possède déjà votre Pokémon et souhaite l’échanger.",
+  "correction": "{STR_VAR_1} ne peut pas faire\\nd’échange pour votre Pokémon.\\p",
+  "justification": "« Trade for your Pokémon » désigne un échange visant à obtenir votre Pokémon. Le message d’indisponibilité reste au présent.",
+  "msgid": "{STR_VAR_1} can't make a trade for\\nyour POKéMON right now.\\p",
+  "msgstr": "{STR_VAR_1} ne peut pas échanger\\nvotre Pokémon pour le moment.\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "oubli",
+  "probleme": "La consigne omet l’arrivée des autres Dresseurs.",
+  "correction": "Veuillez attendre que les autres\\nDresseurs arrivent et soient prêts.",
+  "justification": "« Gather and get ready » demande d’attendre que les Dresseurs soient réunis et prêts.",
+  "msgid": "Please wait for other TRAINERS to\\ngather and get ready.",
+  "msgstr": "Veuillez attendre que les autres\\nDresseurs soient prêts.",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "typographie",
+  "probleme": "L’abréviation du niveau est « Niv. » au lieu de « N. ».",
+  "correction": "N. 50 à la Tour de Combat",
+  "justification": "La convention du projet prescrit « N. » pour le niveau.",
+  "msgid": "BATTLE TOWER LV. 50",
+  "msgstr": "Niv. 50 à la Tour de Combat",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "typographie",
+  "probleme": "L’abréviation du niveau est « niv. » au lieu de « N. ».",
+  "correction": "Tour de Combat N. libre!",
+  "justification": "La convention du projet prescrit « N. » pour le niveau.",
+  "msgid": "BATTLE TOWER OPEN LEVEL",
+  "msgstr": "Tour de Combat niv. libre!",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "oubli",
+  "probleme": "La traduction omet le bond de joie et comporte un saut de ligne malgré la contrainte d’une seule ligne.",
+  "correction": "{STR_VAR_1} saute de joie!",
+  "justification": "« Jumping for joy » décrit le geste du Pokémon. La correction le restitue sur une seule ligne.",
+  "msgid": "{STR_VAR_1} is jumping for joy!",
+  "msgstr": "{STR_VAR_1} est si heureux qu’il ne\\ntient pas en place.",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "oubli",
+  "probleme": "La traduction présente l’envie de jouer comme certaine.",
+  "correction": "{STR_VAR_1} semble vouloir jouer\\navec vous!",
+  "justification": "« Seems to want » indique une impression.",
+  "msgid": "{STR_VAR_1} seems to want to play\\nwith you.",
+  "msgstr": "{STR_VAR_1} veut jouer avec\\nvous!",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "oubli",
+  "probleme": "La mention des auditeurs disparaît.",
+  "correction": "pour vous, par moi, DJ Lily!",
+  "justification": "« Pour vous » rend « to you » après « Présenté », sur la ligne précédente.",
+  "msgid": "to you by me, DJ LILY!",
+  "msgstr": "par moi, DJ Lily!",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "terminologie",
+  "probleme": "« BLABLA Pokémon » désigne la même émission que la « Chronique du Prof. Chen ».",
+  "correction": "lunaire à la Chronique du Prof. Chen!",
+  "justification": "SoulSilver FR nomme l’émission « Chronique du Professeur Chen ». L’entrée 96 emploie la forme abrégée du projet.",
+  "msgid": "moment on POKéMON TALK!",
+  "msgstr": "au clair de lune au BLABLA Pokémon!",
+  "msgctxt": ""
+ }
+]
