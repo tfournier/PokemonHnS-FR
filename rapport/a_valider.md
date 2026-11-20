@@ -30,3 +30,4 @@ Ces points ont été tranchés provisoirement ; un œil humain (idéalement avec
 **Relecture**
 - Relecture ChatGPT des lots C1, C2a, C2b et de 13 paquets de l'audit : différée (limite d'usage du compte), voir
   DECISIONS.md n° 15.
+- 14 chaînes anglaises traduites dans les .po mais encore présentes ailleurs dans la ROM (listes construites par macro ou code non lu par l'extraction) : STEVEN, SAVANNA, BATH, Fragrance, IGNORANT, ALAN… voir rapport/anglais_restant.tsv.

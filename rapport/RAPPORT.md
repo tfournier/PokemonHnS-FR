@@ -23,7 +23,7 @@ Rapport généré par `outils/rapport.py`. Détails : `DECISIONS.md`, `rapport/E
 - `rapport/trop_longs.txt` : 0 texte(s) remis en anglais faute de place.
 - `rapport/images_a_revoir.txt` : 0 image(s) modifiée(s) par HnS depuis notre traduction.
 - Contrôles automatiques (`outils/verifier.py`, 100 % des entrées) : aucune alerte.
-- Chaînes anglaises de la ROM de référence encore présentes (`outils/controle_anglais.py`) : 454, dont 192 identifiants du test sonore (exception) ; le détail est dans `rapport/anglais_restant.tsv`.
+- Chaînes anglaises de la ROM de référence encore présentes (`outils/controle_anglais.py`) : 454 — identifiants du test sonore (exception) 192, bruit de détection (données binaires décodées par hasard) 164, texte identique en français (nom propre ou exception justifiée) 84, à vérifier 14. À vérifier : ALAN, MIKE, SAM, COLIN, STEVEN, SAMMY, TOBY, JIMMY, wise-hummingbird, BATH, IGNORANT, Fragrance, MARCO, SAVANNA.
 - Test aller-retour (`outils/test_aller_retour.py`, msgstr = msgid) : ROM identique à la référence (dernier passage consigné dans l’historique git).
 
 ## Relectures ChatGPT
@@ -114,4 +114,5 @@ Ces points ont été tranchés provisoirement ; un œil humain (idéalement avec
 **Relecture**
 - Relecture ChatGPT des lots C1, C2a, C2b et de 13 paquets de l'audit : différée (limite d'usage du compte), voir
   DECISIONS.md n° 15.
+- 14 chaînes anglaises traduites dans les .po mais encore présentes ailleurs dans la ROM (listes construites par macro ou code non lu par l'extraction) : STEVEN, SAVANNA, BATH, Fragrance, IGNORANT, ALAN… voir rapport/anglais_restant.tsv.
 

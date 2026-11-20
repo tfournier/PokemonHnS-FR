@@ -74,8 +74,19 @@ v = [l.split('\t') for l in lire('verifications.tsv').split('\n')[1:] if l.strip
 vc = collections.Counter(x[0] for x in v)
 w('- Contrôles automatiques (`outils/verifier.py`, 100 %% des entrées) : %s.' % (', '.join('%s %d' % kv for kv in vc.most_common()) or 'aucune alerte'))
 a = [l.split('\t') for l in lire('anglais_restant.tsv').split('\n')[1:] if l.strip()]
-snd = sum(1 for x in a if re.match(r'^(MUS|SE|PH)-', x[2]))
-w('- Chaînes anglaises de la ROM de référence encore présentes (`outils/controle_anglais.py`) : %d, dont %d identifiants du test sonore (exception) ; le détail est dans `rapport/anglais_restant.tsv`.' % (len(a), snd))
+ident = set()
+for d in ('dialogues', 'menus', 'donnees', 'contextes'):
+    for e in polib.pofile(os.path.join(P, 'traductions', d + '.po')):
+        if e.msgstr and e.msgstr == e.msgid: ident.add(e.msgid)
+ca = collections.Counter(); autres = []
+for x in a:
+    if re.match(r'^(MUS|SE|PH)-', x[2]): ca['identifiants du test sonore (exception)'] += 1
+    elif x[2] in ident: ca['texte identique en français (nom propre ou exception justifiée)'] += 1
+    elif x[0] == '(source inconnue)': ca['bruit de détection (données binaires décodées par hasard)'] += 1
+    else: ca['à vérifier'] += 1; autres.append(x[2][:40])
+snd = ca['identifiants du test sonore (exception)']
+w('- Chaînes anglaises de la ROM de référence encore présentes (`outils/controle_anglais.py`) : %d — %s. À vérifier : %s.' % (
+    len(a), ', '.join('%s %d' % kv for kv in ca.most_common()), ', '.join(autres) or 'aucune'))
 w('- Test aller-retour (`outils/test_aller_retour.py`, msgstr = msgid) : ROM identique à la référence (dernier passage consigné dans l’historique git).\n')
 
 # ------------------------------------------------------------ relectures
