@@ -67,7 +67,7 @@ while True:
 print('chaînes texte dans la ROM anglaise :', len(segs))
 
 def at_boundary(rom, i):
-    return i == 0 or rom[i - 1] in (0xFF, 0x00) or i % 4 == 0 or rom[i - 1] not in allowed
+    return i == 0 or rom[i - 1] in (0xFF, 0x00) or rom[i - 1] not in allowed
 
 def present(b):
     pat = b + b'\xff'; i = fr.find(pat)
