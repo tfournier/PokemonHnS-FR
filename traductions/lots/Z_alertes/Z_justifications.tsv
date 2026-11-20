@@ -1,0 +1,69 @@
+controle	msgid (tronqué)	justification
+ANGLAIS	DEAN	Prénom de Dresseur du Mont Dresseurs (trainer_hill.h, étages Expert ajoutés par HnS, absents d’Émeraude US/FR : recherche ROM sans résultat) ; nom propre gardé en capitales Hoenn comme CLARISSA et PRESTON du même tableau
+ANGLAIS	Cha-Cha!	Cri de Pokémon (TRIOPIKEUR d’Alola, Akala_Cave) : onomatopée, gardée comme les autres cris (« Raah! »)
+ANGLAIS	Shuck!	Cri de Pokémon (TREPASSABLE, Ulaula) : onomatopée, pas un mot anglais à traduire
+ANGLAIS	JUNE	Nom proposé par défaut au joueur (gNameChoice_June, intro FRLG) : prénom, nom propre
+ANGLAIS	MOMO	Nom proposé par défaut (gNameChoice_Momo) : prénom, nom propre
+ANGLAIS	NORIE	Nom proposé par défaut (gNameChoice_Norie) : prénom, nom propre
+ANGLAIS	SAI	Nom proposé par défaut (gNameChoice_Sai) : prénom, nom propre
+ANGLAIS	TOSH	Nom proposé par défaut (gNameChoice_Tosh) : prénom, nom propre
+ANGLAIS	Chinchilla	Catégorie Pokédex de CHINCHIDOU : « Pokémon Chinchilla » aussi en français officiel
+ANGLAIS	Judo	Catégorie Pokédex de JUDOKRAK : « Judo » aussi en français officiel
+ANGLAIS	Jujitsu	Catégorie Pokédex de KRAKOS : « Jujitsu » aussi en français officiel
+ANGLAIS	Punk	Catégorie Pokédex de SALARSEN : « Punk » aussi en français officiel
+ANGLAIS	SEPIA	Couleur dans une liste de menu (script_menu.h, avec NORMAL, NOIR, ROSE) : « sépia » en capitales sans accent (décision 14)
+ANGLAIS	Tri-Passes	Pluriel de l’objet Tri-Passe (SoulSilver FR « Tri-Passe ») : même graphie que l’anglais
+ANGLAIS	Viking	Catégorie Pokédex de BERSERKATT : « Viking » aussi en français officiel
+ANGLAIS	MINERAL	Groupe Œuf Minéral (pokedex_plus_hgss.c), en capitales sans accent (décision 14)
+ANGLAIS	Chad	Pseudonyme de la liste sOddEggShinyNameList (scrcmd.c, noms de contributeurs) : nom propre, ne se traduit pas
+CODES	DAD: Now…\p{PLAYER}, if you want to become a\nstrong TRAINER, here's m	Texte officiel exact d’Émeraude FR (em_fr.gba 0x207C06 : « …améliores ton niveau, {PLAYER}. ») ; le {PLAYER} en plus est celui de Nintendo, aucun code anglais ne manque
+CODES	{CLEAR_TO 0x53}WIN{CLEAR_TO 0x80}LOSE{CLEAR_TO 0xB0}DRAW	Texte officiel exact d’Émeraude FR (em_fr.gba 0x5F3A0F : {CLEAR_TO 80}VICT.{CLEAR_TO 128}DEF.{CLEAR_TO 176}EGAL.) : mêmes codes, 1re colonne déplacée de 83 à 80 px par Nintendo pour « VICT. » ; 128 = 0x80 et 176 = 0xB0 sont identiques
+ESPACE	, and the feel is 	Texte officiel exact d’Émeraude FR (em_fr.gba 0x3414B8) ; la phrase est recomposée (« Saveur: X / Onctuosité: Y ») : l’espace initiale remplace la virgule anglaise collée
+FRAGMENT	TM move	Mot de milieu de phrase (MoveRelearner_Text_TMMoveLWR, version « LWR » = minuscule) : la majuscule anglaise vient du sigle TM ; série cohérente « capacité Œuf », « capacité enseignée »
+FRAGMENT	FIGHTING DOJO	Panneau de Safrania : le lieu s’appelle « Dojo » dans SoulSilver FR (« Dojo\nBienvenue à tous! ») ; « DOJO » complet, le ratio court est normal
+FRAGMENT	Cell Batteries	Pluriel de l’objet Pile (Cell Battery) : « Piles », mot complet ; ratio court normal
+FRAGMENT	OBSTAGOON	Nom français officiel d’OBSTAGOON : IXON (capitales des espèces) ; ratio court normal
+FRAGMENT	Shedding	Catégorie Pokédex de BAGGIGUANE : « Mue » en français officiel ; ratio court normal
+FRAGMENT	TOWN this week!	Radio (radio_strings.h) : ligne qui suit « MARIE: Du nouveau à Ecorcia » ; la suite d’une phrase coupée commence en minuscule
+FRAGMENT	mystical CLEFAIRY!	Radio : ligne qui suit « CHEN: Place aux mystérieux » ; l’adjectif est passé sur la ligne précédente, reste « MELOFEE! »
+FRAGMENT	Opposing	Qualificatif de combat placé après le nom (décision « … ennemi » sans article, code/nom-sauvage-ennemi.patch) : minuscule voulue
+FRAGMENT	The opposing	Qualificatif d’équipe après le nom (« L’équipe {B_ATK_TEAM1} » → « L’équipe adverse ») : minuscule voulue
+FRAGMENT	The opposing 	Qualificatif de combat après le nom (« PTITARD ennemi », code/nom-sauvage-ennemi.patch) : minuscule voulue
+FRAGMENT	The wild 	Qualificatif de combat après le nom (« PTITARD sauvage », code/nom-sauvage-ennemi.patch) : minuscule voulue
+FRAGMENT	Your	Qualificatif d’équipe après le nom (« L’équipe alliée », accord avec « équipe ») : minuscule voulue
+FRAGMENT	{STR_VAR_1}MIN. {STR_VAR_2}.{STR_VAR_3}SEC.	Vrai début de chaîne : dans hns_fr_patch.gba (0x1171A20) l’octet précédent est le 0x08 final d’une table de pointeurs, que le contrôle lit comme une lettre ; texte complet et juste (« 3MIN 25,40S »)
+FRAGMENT	 move	Suffixe après un nom de type (condition d’évolution « IF_KNOWS_MOVE_TYPE ») relu à la main ; « capacité » est un mot courant, forcément précédé de lettres ailleurs dans la ROM
+GLOSSAIRE	STEVEN: That's the story, {PLAYER}.\pThe NOBLE POKéMON that guard the\	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: When I first heard about\nthese ruins, I had to come see\lthem	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	Imagine my surprise as I\ntranslated the glyph!\pI triple and quadrupl	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: Ah, {PLAYER}.\p{STR_VAR_1} PLATES so far.\nMaking great progre	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: Ah, {PLAYER}.\p{STR_VAR_1} PLATES so far.\nNot bad at all.\pHa	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: Ah, {PLAYER}.\p{STR_VAR_1} PLATES so far.\nNot bad at all.\pI 	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: Good luck, {PLAYER}\pGo on, I'm right behind you.	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: I need to see this for\nmyself!\pOutside, {PLAYER}!	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: Let me heal your POKéMON\nbefore you go.	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: Ma'am, may I help you to\nthe spring over there?\pIt seems the	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: You are... I remember your\neyes.\pWhen I see a trainer whose 	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: {PLAYER}!\pI think I know what's going to\nhappen we bring tog	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: {PLAYER}!\pI'd recognize those eyes anywhere.\pWhat brings you	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: {PLAYER}!\pThis expedition has been the\nexperience of a lifet	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: {PLAYER}.\pAnother tremor here at the ruins.\pThe data paints 	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: {PLAYER}.\pAnother tremor. Another chamber\nopening up.\pWe st	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: {PLAYER}.\pHow's the search going?\pWe had another tremor here	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: {PLAYER}.\pWe felt a tremor at the ruins\njust now.\pEveryone'	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: {PLAYER}.\pWe're very close now. I can feel it.\p.............	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: To think, another trainer \nwould defeat me like this.\pIncred	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: You did it, {PLAYER}!\pThat battle was breathtaking.\pSeeing y	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	STEVEN: {PLAYER}.\pDid you just find another PLATE?\p.................	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte
+GLOSSAIRE	Attempting to link incorrectly may result\nin permanent damage to your	Capitales d’insistance comme l’anglais (« You are NOT using ») : « AUCUN réglage », pas l’objet Aucun du glossaire
+GLOSSAIRE	GOLD POKéBLOCKS attract POKéMON with\n5 perfect IVs. Flavor determines	Saveur de PokéBloc en capitales : Émeraude FR écrit EPICE / SEC / SUCRE / AMER / ACIDE (em_fr.gba 0x5ED480) ; pas la capacité Acide du glossaire (voir la correction de « SOUR »)
+GLOSSAIRE	POKéDEX Text	Texte officiel exact des crédits d’Émeraude FR (titres de poste laissés en anglais par Nintendo, POKéMON en capitales comme « POKéMON VERSION EMERAUDE ») : ne pas retoucher un officiel exact
+GLOSSAIRE	POKéMON Designers	Texte officiel exact des crédits d’Émeraude FR : ne pas retoucher un officiel exact
+GLOSSAIRE	Sound Effects & POKéMON Voices	Texte officiel exact des crédits d’Émeraude FR : ne pas retoucher un officiel exact
+GLOSSAIRE	NOA Product Testing\n\n\n\n\n\n	NOA = Nintendo of America (sigle), pas le personnage Noa du glossaire
+GLOSSAIRE	Press {B_BUTTON} to move the cursor to the RUN\noption after the battl	FUITE désigne l’option du menu de combat, affichée en capitales (« ATTAQUE / SAC / POKéMON / FUITE ») ; pas le talent Fuite
+GLOSSAIRE	Randomize type effectiveness.\nWARNING: CAN BE BUGGY!	Avertissement en capitales comme l’anglais (« WARNING: CAN BE BUGGY! ») ; pas le talent Attention
+GLOSSAIRE	Same rules as NORMAL but also\ndeletes SAVE on battle loss!	Nom du mode de défi affiché « NORMAL » dans le même menu (challenge_menu.c) ; pas le terme Normal du glossaire
+GLOSSAIRE	Steven Multi	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte (menu de debug : combat Multi avec Steven)
+LARGEUR	Canceled reading\nthe Card.	Fausse alerte de largeur : la limite 88 px est la ligne anglaise ; le message s’affiche dans la fenêtre WIN_MSG du Cadeau Mystère (28 tuiles = 224 px, mystery_gift_menu.c) : 101 px tiennent
+LARGEUR	\nEnvironment & Tool Programmers\n\n\n\n\n	Fausse alerte de largeur : la limite 164 px est la ligne anglaise ; titre imprimé à x = 2 dans sCreditsWindowTemplate, 30 tuiles = 240 px (credits_frlg.c) : 197 + 2 px tiennent

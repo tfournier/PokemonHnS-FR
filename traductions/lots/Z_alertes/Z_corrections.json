@@ -1,0 +1,643 @@
+[
+  {
+    "msgid": "A life-risking tackle that\\nhurts the user. May paralyze.",
+    "msgstr": "Charge risquée qui blesse\\nle lanceur. Peut paralyser.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 9241,
+    "ancien": "Une charge risquée qui blesse\\nle lanceur. Peut paralyser.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "An odd shock wave that only\\ndamages same-type {PKMN}.",
+    "msgstr": "Onde étrange qui ne blesse\\nque les {PKMN} du même type.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 12695,
+    "ancien": "Une onde étrange qui ne blesse\\nque les {PKMN} du même type.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Attack fueled by your\\nwrath. May cause flinching.",
+    "msgstr": "Attaque nourrie de colère.\\nPeut apeurer l’ennemi.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 19232,
+    "ancien": "Attaque nourrie par la colère.\\nPeut apeurer l’ennemi.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Blows very cold air at the\\nfoes. It lowers their Speed.",
+    "msgstr": "Souffle un air glacial sur les\\nennemis. Baisse leur Vitesse.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 14226,
+    "ancien": "Souffle un air glacial sur les\\nennemis et baisse leur Vitesse.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Charges with speed to climb\\nwaterfalls. May flinch.",
+    "msgstr": "Charge si vite qu’elle gravit\\nles cascades. Peut apeurer.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 3463,
+    "ancien": "Charge assez vite pour gravir\\nles cascades. Peut apeurer.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Chops the throat to disable\\nsound moves for 2 turns.",
+    "msgstr": "Frappe la gorge. Empêche les\\ncapacités sonores 2 tours.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 16463,
+    "ancien": "Frappe la gorge et bloque\\nles capacités sonores 2 tours.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Copies foe's stat changes\\nand gives to the user.",
+    "msgstr": "Le lanceur copie les stats\\nmodifiées de l’ennemi.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 6614,
+    "ancien": "Copie les changements de stats\\nde l’ennemi pour le lanceur.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Covers the user in mud to\\nweaken all Electric moves.",
+    "msgstr": "Se couvre de boue. Affaiblit\\nles capacités Electrik.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 8100,
+    "ancien": "Se couvre de boue pour affaiblir\\nles capacités Electrik.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Does double damage to foes\\nwith half HP or less.",
+    "msgstr": "Dégâts doublés si l’ennemi a\\nla moitié de ses PV ou moins.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 9699,
+    "ancien": "Dégâts doublés si l’ennemi\\na la moitié de ses PV ou moins.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Fire Dynamax attack.\\nIntensifies sun for 5 turns.",
+    "msgstr": "Attaque Dynamax Feu.\\nIntensifie le soleil 5 tours.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 22014,
+    "ancien": "Attaque Dynamax Feu.\\nSoleil intense pendant 5 tours.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Gathers electricity, then\\nfires a high-voltage shot.",
+    "msgstr": "Accumule de l’électricité et\\ntire un rayon haute tension.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 21108,
+    "ancien": "Accumule de l’électricité puis\\ntire un rayon à haute tension.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…) ; les deux lignes dépassaient"
+  },
+  {
+    "msgid": "Hits the foe with powerful\\nelectricity. Power varies.",
+    "msgstr": "Frappe d’une forte décharge.\\nPuissance variable.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 21608,
+    "ancien": "Frappe avec un puissant courant\\nélectrique. Puissance variable.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…) ; les deux lignes dépassaient"
+  },
+  {
+    "msgid": "If user's stats were lowered\\nthis turn, power is doubled.",
+    "msgstr": "Puissance x2 si les stats du\\nlanceur ont baissé ce tour.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 18894,
+    "ancien": "Puissance doublée si les stats\\ndu lanceur ont baissé ce tour.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…) ; les deux lignes dépassaient ; « Puissance doublée » ne tient sur aucune coupe"
+  },
+  {
+    "msgid": "Moves 1st and flinches. Only\\nworks on user's 1st turn.",
+    "msgstr": "Agit en 1er et apeure, mais\\nseulement au 1er tour.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 6831,
+    "ancien": "Agit en 1er et apeure. Seulement\\nau 1er tour du lanceur.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Powerful attack, moves last.\\nThe user flinches if hit.",
+    "msgstr": "Frappe fort en dernier. Rate\\nsi le lanceur est touché.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 7147,
+    "ancien": "Attaque puissante, en dernier.\\nEchoue si le lanceur est touché.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…) ; les deux lignes dépassaient"
+  },
+  {
+    "msgid": "Protects allies from status\\nproblems for 5 turns.",
+    "msgstr": "Protège les alliés des\\nproblèmes de statut 5 tours.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 5941,
+    "ancien": "Protège l’équipe des problèmes\\nde statut pendant 5 tours.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Sets sharp rocks that hurt\\nthe foe.",
+    "msgstr": "Pose des pierres pointues\\nqui blessent l’ennemi.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 19422,
+    "ancien": "Disperse des pierres\\npointues qui blessent l’ennemi.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Sharply raises Atk/Sp.Atk/\\nSpeed, but drops Def/Sp.Def.",
+    "msgstr": "Monte fort Atq./Atq.Spé./\\nVitesse. Baisse Déf./Déf.Spé.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 13153,
+    "ancien": "Monte beaucoup Atq./Atq. Spé./\\nVitesse, mais baisse Déf./Déf. Spé.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…) ; abréviations collées comme l’anglais (Sp.Atk, Sp.Def)"
+  },
+  {
+    "msgid": "Snares the foes with an\\nelectric net. Lowers Speed.",
+    "msgstr": "Un filet électrique piège les\\nennemis. Baisse leur Vitesse.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 13695,
+    "ancien": "Capture les ennemis dans un filet\\nélectrique. Baisse la Vitesse.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…) ; les deux lignes dépassaient"
+  },
+  {
+    "msgid": "Sound waves that damage and\\nprevent healing for 2 turns.",
+    "msgstr": "Blesse par ondes sonores et\\nbloque les soins 2 tours.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 21348,
+    "ancien": "Ondes sonores qui blessent et\\nbloquent les soins 2 tours.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Stomps down on the ground.\\nHits all and lowers Speed.",
+    "msgstr": "Piétine le sol. Touche tout\\nle monde. Baisse la Vitesse.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 13602,
+    "ancien": "Piétine le sol. Touche tout\\nle monde et baisse la Vitesse.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Swings the arms to strike\\nIt ignores stat changes.",
+    "msgstr": "Frappe en agitant les bras.\\nIgnore les stats modifiées.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 16165,
+    "ancien": "Frappe en balançant les bras.\\nIgnore les stats modifiées.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Toys with the target in a\\ncharming space. Power varies.",
+    "msgstr": "Malmène la cible dans un lieu\\nféerique. Puissance variable.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 21688,
+    "ancien": "Malmène la cible dans un monde\\nféerique. Puissance variable.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Traps the foe to lower Def\\nand Sp. Def each turn.",
+    "msgstr": "Piège l’ennemi. Baisse sa Déf.\\net sa Déf. Spé. à chaque tour.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 17959,
+    "ancien": "Piège l’ennemi et baisse sa Déf.\\net Déf. Spé. à chaque tour.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Whips up a vicious twister\\nto tear at foes. May flinch.",
+    "msgstr": "Une violente tornade frappe\\nles ennemis. Peut apeurer.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 6466,
+    "ancien": "Déclenche une violente tornade\\ncontre les ennemis. Peut apeurer.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…) ; les deux lignes dépassaient"
+  },
+  {
+    "msgid": "A low, tripping kick that\\nmay cause flinching.",
+    "msgstr": "Coup de pied bas qui fait\\ntrébucher. Peut apeurer.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 1878,
+    "ancien": "Un coup de pied bas fait trébucher et\\npeut apeurer.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…) ; coupure de ligne rééquilibrée"
+  },
+  {
+    "msgid": "A mysterious power strikes,\\nraising the user's Sp. Atk.",
+    "msgstr": "Pouvoir mystique qui frappe.\\nMonte l’Atq. Spé. du lanceur.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 19467,
+    "ancien": "Frappe d’un pouvoir mystique.\\nMonte l’Atq. Spé. du lanceur.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "A triangular field of energy\\nis created and launched.",
+    "msgstr": "Crée un champ d’énergie en\\ntriangle et le projette.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 4389,
+    "ancien": "Crée un champ d’énergie triangulaire\\net le projette.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Attacks in a cloak of\\nflames. Raises Speed.",
+    "msgstr": "Attaque dans un manteau de\\nflammes. Monte la Vitesse.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 12762,
+    "ancien": "Attaque dans un manteau de\\nflammes. Augmente la Vitesse.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Bad joke summons hailstorm.\\nThe user also switches out.",
+    "msgstr": "Une blague nulle fait grêler.\\nPuis le lanceur est remplacé.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 20487,
+    "ancien": "Sa blague jette un froid et fait\\ngrêler. Puis il cède sa place.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Breathes a special, hot\\nfire. Lowers Sp. Atk.",
+    "msgstr": "Crache un feu spécial et\\nbrûlant. Baisse l’Atq. Spé.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 15392,
+    "ancien": "Crache un feu spécial ardent.\\nBaisse l’Atq. Spé.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Cures the foe's status\\nto restore HP.",
+    "msgstr": "Guérit le statut de l’ennemi\\net regagne des PV.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 16708,
+    "ancien": "Guérit l’altération de statut\\nde l’ennemi et regagne des PV.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Damages adjacent Pokémon\\nand heals up by half of it.",
+    "msgstr": "Blesse les voisins et rend en\\nPV la moitié des dégâts.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 14772,
+    "ancien": "Blesse les voisins. Rend en PV\\nla moitié des dégâts infligés.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Drops the temp and freezes\\nthe target. Power varies.",
+    "msgstr": "Refroidit l’air et gèle\\nla cible. Puissance variable.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 21640,
+    "ancien": "Baisse la température et gèle\\nla cible. Puissance variable.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Foe attacks next turn can't\\nmiss and do double damage.",
+    "msgstr": "Au tour suivant, les coups\\nreçus sont sûrs et doublés.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 20123,
+    "ancien": "Au tour suivant, les coups\\nennemis sont sûrs et doublés.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…) ; coups reçus par le lanceur (Charge Epée/Glaive Rush), comme l’anglais"
+  },
+  {
+    "msgid": "G-max Centiskorch attack.\\nTraps foes in flames.",
+    "msgstr": "G-Max de SCOLOCENDRE.\\nPiège les ennemis par le feu.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 22878,
+    "ancien": "G-Max de SCOLOCENDRE.\\nPiège les ennemis dans le feu.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Hurls an orb that does more\\ndamage to slower foes.",
+    "msgstr": "Une boule électrique, plus\\nforte contre un ennemi lent.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 12716,
+    "ancien": "Lance une boule électrique,\\nplus forte sur un ennemi lent.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Ice-covered feet hit a foe\\nand destroy the terrain.",
+    "msgstr": "Coup de pied glacé qui\\ndétruit le champ actif.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 20104,
+    "ancien": "Frappe de ses pieds glacés et\\ndétruit le champ actif.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "In Terapagos's Stellar\\nForm, it hits all foes.",
+    "msgstr": "TERAPAGOS (Forme Stellaire)\\nfrappe tous les ennemis.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 21134,
+    "ancien": "En Forme Stellaire, TERAPAGOS\\nfrappe tous les ennemis.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Looses a pitch-black shock\\nwave. May lower accuracy.",
+    "msgstr": "Emet une onde de choc noire.\\nPeut baisser la Précision.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 13984,
+    "ancien": "Lance une onde de choc noire.\\nPeut baisser la Précision.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Lowers the Attack, Sp. Atk\\nand Speed of poisoned foes.",
+    "msgstr": "Ennemis empoisonnés: baisse\\nAtq., Atq. Spé. et Vitesse.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 15493,
+    "ancien": "Ennemis empoisonnés: baisse\\nAttaque, Atq. Spé. et Vitesse.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Prehistoric explosion that's\\nstronger if super effective.",
+    "msgstr": "Explosion préhistorique plus\\nforte si super efficace.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 20427,
+    "ancien": "Explosion préhistorique, plus\\nforte si super efficace.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Properly coaches allies to\\nup their Attack and Defense.",
+    "msgstr": "Coache les alliés. Augmente\\nleur Attaque et Défense.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 18959,
+    "ancien": "Coache les alliés. Augmente\\nleur Attaque et leur Défense.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Sharply boosts offenses and\\nSpeed by using its own HP.",
+    "msgstr": "Sacrifie des PV. Monte fort\\nAtq., Atq. Spé. et Vitesse.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 20250,
+    "ancien": "Sacrifie des PV et monte fort\\nAttaque, Atq. Spé. et Vitesse.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…) ; les deux lignes dépassaient"
+  },
+  {
+    "msgid": "Summons a fireball. Works\\nwell with a thunderbolt.",
+    "msgstr": "Lance une boule de feu, plus\\nforte après Eclair Croix.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 14468,
+    "ancien": "Invoque une boule de feu.\\nPlus forte après Eclair Croix.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Swaps items with the foe\\nfaster than the eye can see.",
+    "msgstr": "Echange d’objet avec la cible\\nà une vitesse fulgurante.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 10977,
+    "ancien": "Echange d’objet avec l’ennemi\\nà une vitesse fulgurante.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Uses Necrozma's highest\\nattack. Ignores abilities.",
+    "msgstr": "Le coup ultime de NECROZMA.\\nIgnore les talents.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 21964,
+    "ancien": "Prend la meilleure attaque de\\nNECROZMA. Ignore les talents.",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : description de capacité plus large que la fenêtre (limite 152 px, ligne la plus large des descriptions officielles du fichier) ; raccourcie en gardant le sens, les 2 lignes et le style des officiels (lanceur, ennemi, Peut apeurer…)"
+  },
+  {
+    "msgid": "Affected by how well the\\nprevious Pokémon's move went.",
+    "msgstr": "Dépend du succès de l’action\\ndu Pokémon précédent.",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/contest_moves.h",
+    "ligne": 326,
+    "ancien": "Dépend du succès de la capacité\\ndu Pokémon précédent.",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : description de Concours (contest_moves.h, limite 156 px) ; « capacité » → « action » pour tenir"
+  },
+  {
+    "msgid": "OAK: Hm! Excellent!\\pIf you win, you earn prize money,\\nand your POKéMON will grow!\\pBattle other TRAINERS and make\\nyour POKéMON strong!\\p",
+    "msgstr": "CHEN: Hum! Excellent!\\pUne victoire te rapporte de l’argent\\net fait progresser tes Pokémon!\\pAffronte les autres Dresseurs\\npour endurcir tes Pokémon!\\p",
+    "source": "traduction nouvelle",
+    "fichier": "src/battle_controller_oak_old_man.c",
+    "ligne": 59,
+    "ancien": "CHEN: Hum! Excellent!\\pSi tu gagnes, tu remportes de\\nl’argent et tes Pokémon progressent!\\pAffronte les autres Dresseurs\\npour endurcir tes Pokémon!\\p",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : 2e page reformulée (194 → 188 px, limite 190 de la boîte de combat) ; reste du texte du patch inchangé"
+  },
+  {
+    "msgid": "OAK: Hm…\\nHow disappointing…\\pIf you win, you earn prize money,\\nand your POKéMON grow.\\pBut if you lose, {B_PLAYER_NAME}, you end\\nup paying prize money…\\pHowever, since you had no warning\\nthis time, I'll pay for you.\\pBut things won't be this way once\\nyou step outside these doors.\\pThat's why you must strengthen your\\nPOKéMON by battling wild POKéMON.\\p",
+    "msgstr": "CHEN: Hum…\\nC’est vraiment décevant…\\pUne victoire te rapporte de l’argent\\net fait progresser tes Pokémon.\\pMais si tu perds, tu dois donner\\nde l’argent au vainqueur…\\p{B_PLAYER_NAME}, comme tu ne le savais\\npas, je vais payer pour toi.\\pMais tu devras te débrouiller sans\\nmoi une fois dehors.\\pC’est pour ça que tu dois entraîner\\ntes Pokémon contre des sauvages.\\p",
+    "source": "traduction nouvelle",
+    "fichier": "src/battle_controller_oak_old_man.c",
+    "ligne": 52,
+    "ancien": "CHEN: Hum…\\nC’est vraiment décevant…\\pSi tu gagnes, tu remportes de\\nl’argent et tes Pokémon progressent.\\pMais si tu perds, tu dois donner\\nde l’argent au vainqueur…\\p{B_PLAYER_NAME}, comme tu ne le savais\\npas, je vais payer pour toi.\\pMais tu devras te débrouiller sans\\nmoi une fois dehors.\\pC’est pour ça que tu dois entraîner\\ntes Pokémon contre des sauvages.\\p",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : même 2e page que la réplique « Hm! Excellent! » (193 → 188 px) ; reste inchangé"
+  },
+  {
+    "msgid": "The TRAINER that makes the other\\nTRAINER's POKéMON faint by lowering\\ltheir HP to “0,” wins.\\p",
+    "msgstr": "Le Dresseur qui met K.O. tous les\\nPokémon adverses en réduisant\\lleurs PV à “0” gagne le combat.\\p",
+    "source": "patch FR actuel (vérifié)",
+    "fichier": "src/battle_controller_oak_old_man.c",
+    "ligne": 57,
+    "ancien": "Le Dresseur qui met K.O. tous les\\nPokémon adverses en réduisant leurs\\lPV à “0” gagne le combat.\\p",
+    "preuve": "ancien : patch FR actuel",
+    "note": "LARGEUR : « leurs » reporté sur la 3e ligne (191 → 161 px) ; mots du patch inchangés"
+  },
+  {
+    "msgid": " frames thinking\\n",
+    "msgstr": " images d’IA\\n",
+    "source": "traduction nouvelle",
+    "fichier": "src/battle_controller_player.c",
+    "ligne": 2002,
+    "ancien": " images de réflexion\\n",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : debug IA (DEBUG_AI_DELAY_TIMER), fenêtre B_WIN_ACTION_PROMPT 14 tuiles = 112 px, précédé d’un nombre sur 3 chiffres ; « images de réflexion » débordait"
+  },
+  {
+    "msgid": "Partner will use:\\n",
+    "msgstr": "Partenaire:\\n",
+    "source": "traduction nouvelle",
+    "fichier": "src/battle_controller_player.c",
+    "ligne": 2038,
+    "ancien": "Le partenaire utilisera:\\n",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : fenêtre B_WIN_ACTION_PROMPT (112 px) ; la capacité du partenaire suit sur la 2e ligne, « Le partenaire utilisera: » (124 px) était trop long"
+  },
+  {
+    "msgid": "Music ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  {SELECT_BUTTON} GBS Off",
+    "msgstr": "Musique: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  {SELECT_BUTTON} GBS non",
+    "source": "traduction nouvelle",
+    "fichier": "src/debug.c",
+    "ligne": 476,
+    "ancien": "ID musique: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  {SELECT_BUTTON} GBS non",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : menu son du debug (fenêtre 20 tuiles) ; « ID musique: » → « Musique: » (comme « ID son: » pour les bruitages, la ligne tient dans la largeur de l’anglais)"
+  },
+  {
+    "msgid": "Music ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  {SELECT_BUTTON} GBS On",
+    "msgstr": "Musique: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  {SELECT_BUTTON} GBS oui",
+    "source": "traduction nouvelle",
+    "fichier": "src/debug.c",
+    "ligne": 477,
+    "ancien": "ID musique: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  {SELECT_BUTTON} GBS oui",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : menu son du debug (fenêtre 20 tuiles) ; « ID musique: » → « Musique: » (comme « ID son: » pour les bruitages, la ligne tient dans la largeur de l’anglais)"
+  },
+  {
+    "msgid": "{START_BUTTON} Shiny {SELECT_BUTTON} Gender\\n{B_BUTTON} Back  {A_BUTTON} Move BGs$",
+    "msgstr": "{START_BUTTON} Brillant {SELECT_BUTTON} Sexe\\n{B_BUTTON} Retour  {A_BUTTON} Dépl. fonds$",
+    "source": "traduction nouvelle",
+    "fichier": "src/pokemon_sprite_visualizer.c",
+    "ligne": 491,
+    "ancien": "{START_BUTTON} Brillant {SELECT_BUTTON} Sexe {B_BUTTON} Retour {A_BUTTON}\\nFonds de cap.$",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : coupure de ligne rétablie comme l’anglais (la traduction précédente avait tout mis sur la 1re ligne) ; « Move BGs » = déplacer les fonds ; même modèle que « Pos. ombre » / « Pos. sprite »"
+  },
+  {
+    "msgid": "{START_BUTTON} Shiny\\n{B_BUTTON} Back  {A_BUTTON} Move BGs$",
+    "msgstr": "{START_BUTTON} Brillant\\n{B_BUTTON} Retour  {A_BUTTON} Dépl. fonds$",
+    "source": "traduction nouvelle",
+    "fichier": "src/pokemon_sprite_visualizer.c",
+    "ligne": 490,
+    "ancien": "{START_BUTTON} Brillant {B_BUTTON} Retour {A_BUTTON} Fonds de\\ncap.$",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "LARGEUR : coupure de ligne rétablie comme l’anglais ; « Fonds de cap. » remplacé par « Dépl. fonds » (Move BGs)"
+  },
+  {
+    "msgid": "STEVEN: This could only mean one thing.",
+    "msgstr": "PIERRE: Ça ne peut vouloir dire\\nqu’une chose.",
+    "source": "patch FR actuel (vérifié)",
+    "fichier": "data/maps/SinjohRuins_hns/scripts.inc",
+    "ligne": 157,
+    "ancien": "PIERRE ROCHARD: Ça ne peut vouloir dire\\nqu’une chose.",
+    "preuve": "ancien : patch FR actuel (récupéré par pointeur)",
+    "note": "LARGEUR + GLOSSAIRE : Steven s’appelle PIERRE dans Émeraude FR (décision 16) et ses répliques s’ouvrent par « PIERRE: » ; « PIERRE ROCHARD: » (nom complet absent de l’anglais) débordait à 205 px"
+  },
+  {
+    "msgid": "STEVEN: {PLAYER}.\\pEver since I first saw the\\ndetermination in your eyes,\\lI felt it would lead to this.\\pI will test the bond between you\\nand your POKéMON.\\pAre you ready?",
+    "msgstr": "PIERRE: {PLAYER}.\\pDès que j’ai vu la détermination\\ndans ton regard, j’ai senti\\lque tout mènerait à ce moment.\\pJe vais mettre à l’épreuve le lien\\nqui t’unit à tes Pokémon.\\pOn y va?",
+    "source": "patch FR actuel (vérifié)",
+    "fichier": "data/maps/SinjohRuins_hns/scripts.inc",
+    "ligne": 338,
+    "ancien": "PIERRE ROCHARD: {PLAYER}.\\pDès que j’ai vu la détermination\\ndans ton regard, j’ai senti\\lque tout mènerait à ce moment.\\pJe vais mettre à l’épreuve le lien\\nqui t’unit à tes Pokémon.\\pOn y va?",
+    "preuve": "ancien : patch FR actuel",
+    "note": "GLOSSAIRE : étiquette « PIERRE ROCHARD: » → « PIERRE: » comme toutes les autres répliques de Steven (anglais « STEVEN: », décision 16) ; texte du patch inchangé"
+  },
+  {
+    "msgid": "Hi!\\nMy name is Steven.\\lThe Champion from the HOENN region.\\pHave we met...before?\\pThat's not possible. \\nAll the trainers I have battled\\lseem to have the same look, anyway.\\pEspecially the ones who gave me\\ntough battles.\\pI'm in KANTO for business.\\nRecently many HOENN POKéMON have\\lmigrated to this region.\\lThis influx risks disrupting the\\lnatural ecosystem here.\\pSo with the help of my company,\\nI'm creating a special habitat\\lto attract and contain the most\\linvasive species.\\pMake sure you keep an eye out\\nand catch any HOENN POKéMON you see.\\pSome trainers have even reported\\none that soars through the sky like\\la jet... What color was it again?",
+    "msgstr": "Bonjour!\\nJe m’appelle PIERRE,\\lle Maître de la région de HOENN.\\pNe nous serions-nous pas\\ndéjà rencontrés…?\\pC’est impossible.\\nDe toute façon, tous les\\lDresseurs que j’ai affrontés\\lse ressemblent.\\pSurtout ceux qui m’ont donné\\ndu fil à retordre.\\pJe suis à Kanto pour affaires.\\nDe nombreux Pokémon de HOENN\\lont récemment migré par ici.\\lCet afflux pourrait perturber\\ll’écosystème local.\\pAvec l’aide de mon entreprise,\\nje crée donc un habitat spécial\\lpour attirer et contenir les\\lespèces les plus envahissantes.\\pOuvre l’œil, et attrape tous\\nles Pokémon de HOENN que tu vois.\\pDes Dresseurs disent même en avoir\\nvu un fendre le ciel comme\\lun avion à réaction… Il était\\lde quelle couleur, déjà?",
+    "source": "traduction nouvelle",
+    "fichier": "data/maps/VermilionCity_hns/scripts.inc",
+    "ligne": 504,
+    "ancien": "Bonjour!\\nJe m’appelle PIERRE ROCHARD,\\lle Maître de la région de HOENN.\\pNe nous serions-nous pas\\ndéjà rencontrés…?\\pC’est impossible.\\nDe toute façon, tous les\\lDresseurs que j’ai affrontés\\lse ressemblent.\\pSurtout ceux qui m’ont donné\\ndu fil à retordre.\\pJe suis à Kanto pour affaires.\\nDe nombreux Pokémon de HOENN\\lont récemment migré par ici.\\lCet afflux pourrait perturber\\ll’écosystème local.\\pAvec l’aide de mon entreprise,\\nje crée donc un habitat spécial\\lpour attirer et contenir les\\lespèces les plus envahissantes.\\pOuvre l’œil, et attrape tous\\nles Pokémon de HOENN que tu vois.\\pDes Dresseurs disent même en avoir\\nvu un fendre le ciel comme\\lun avion à réaction… Il était\\lde quelle couleur, déjà?",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "GLOSSAIRE : l’anglais dit seulement « Steven » → « PIERRE » (Émeraude FR, décision 16) ; reste inchangé"
+  },
+  {
+    "msgid": "REQUEST NOTICE\\pPlease find the SAFARI WARDEN's\\nlost GOLD TEETH.\\lThey're around here somewhere.\\pReward offered!\\nContact: WARDEN",
+    "msgstr": "AVIS DE RECHERCHE\\pMerci de retrouver le Dentier en Or\\nperdu par le Gardien du Parc Safari.\\lIl est quelque part par ici.\\pRécompense offerte!\\nContact: le Gardien",
+    "source": "traduction nouvelle",
+    "fichier": "data/maps/SafariZone_West_Frlg/scripts.inc",
+    "ligne": 24,
+    "ancien": "AVIS DE RECHERCHE\\pMerci de retrouver la Dent d’Or perdue\\npar le Gardien du Parc Safari.\\lElle est quelque part par ici.\\pRécompense offerte!\\nContact: le Gardien",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "Harmonisation : l’objet GOLD TEETH s’appelle « Dentier en Or » (glossaire, items.h, remise au Gardien à Parmanie) ; « la Dent d’Or perdue… Elle » → « le Dentier en Or perdu… Il » ; coupe des lignes refaite (180/184 px)"
+  },
+  {
+    "msgid": "What do you want?",
+    "msgstr": "Qu’est-ce que tu me veux?",
+    "source": "traduction nouvelle",
+    "fichier": "data/maps/Route16_Frlg/scripts.inc",
+    "ligne": 77,
+    "ancien": "Quoi?",
+    "preuve": "ancien : patch FR actuel",
+    "note": "FRAGMENT (ratio 0,29) : « Quoi? » du patch résumait la phrase ; réplique du Motard LAO (Route 16, intro et revanche), traduite en entier"
+  },
+  {
+    "msgid": "to you by me, DJ LILY!",
+    "msgstr": "par moi, DJ Lily!",
+    "source": "traduction nouvelle",
+    "fichier": "src/data/text/radio_strings.h",
+    "ligne": 165,
+    "ancien": "par moi, DJ LILY!",
+    "preuve": "ancien : traduction nouvelle",
+    "note": "GLOSSAIRE : personnage LILY → « Lily » (glossaire, casse SoulSilver des personnages Johto/Kanto ; « Lily » aussi dans trainer_tower_sets.c)"
+  },
+  {
+    "msgid": "SOUR",
+    "msgstr": "ACIDE",
+    "source": "Émeraude FR officiel",
+    "fichier": "src/pokeblock.c",
+    "ligne": 711,
+    "ancien": "Acide",
+    "preuve": "em_fr.gba 0x5ED480 : EPICE / SEC / SUCRE / AMER / ACIDE (0x5ED495), table des saveurs de pokeblock.c",
+    "note": "Lié à l’alerte GLOSSAIRE « ACIDE » (help_window.h) : la saveur SOUR est « ACIDE » dans Émeraude FR, en capitales comme EPICE, SEC, SUCRE, AMER ; le passage au style avait pris le mot pour la capacité Acide (« Acide »). On rétablit l’officiel exact.",
+    "retouche_officiel": true
+  }
+]
