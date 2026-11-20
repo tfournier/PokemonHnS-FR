@@ -1,0 +1,63 @@
+# Boutique Pokémon de Ville Griotte : menu Acheter/Vendre, liste avec prix,
+# quantité, confirmation, achat, vente (sac). Part de griotte.ss ; produit boutique.ss.
+include commun.txt
+load griotte.ss
+goto CherrygroveCity_hns 41 8
+walk UP 1 120
+shot boutique_interieur
+goto CherrygroveCity_Mart_hns 4 3
+hold LEFT 6
+wait 10
+save boutique.ss
+press A 4 100
+shot vendeur_bienvenue
+press A 4 80
+shot menu_acheter_vendre
+press DOWN
+shot menu_vendre
+press DOWN
+shot menu_quitter
+press UP
+press UP
+press A 4 100
+shot liste_achat
+press DOWN
+shot liste_achat_antidote
+press DOWN
+shot liste_achat_retour
+press UP
+press UP
+press A 4 60
+shot quantite
+press UP
+press UP
+shot quantite_3
+press A 4 80
+shot confirmation
+press A 4 100
+shot achat_merci
+press A 4 80
+shot apres_achat
+press B 4 80
+shot fin_achat
+press A 4 60
+press DOWN
+press A 4 120
+shot vente_sac
+press LEFT 4 40
+shot vente_soins
+press A 4 80
+shot vente_quantite
+press A 4 100
+shot vente_confirmation
+press A 4 100
+shot vente_fait
+press A 4 80
+shot vente_apres
+press B 4 120
+shot vente_retour
+press DOWN
+press DOWN
+press A 4 80
+shot au_revoir
+press A 4 80

@@ -1,0 +1,18 @@
+# Traversée de la Route 29 (fuite des combats sauvages) et visite guidée de
+# Ville Griotte par le vieil homme. Part de apres_combat.ss ; produit griotte.ss.
+include commun.txt
+load apres_combat.ss
+mark 03005bdc
+guard 03005bdc fuite.txt
+goto Route29_hns 0 15
+walk LEFT 1 60
+guard
+shot ville_griotte
+walk LEFT 7 30
+shot guide_rencontre
+repeat 28 press A 4 96 ; shot guide
+press A 4 96
+press A 4 96
+wait 60
+shot fin_visite
+save griotte.ss

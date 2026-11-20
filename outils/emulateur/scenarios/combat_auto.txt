@@ -1,0 +1,4 @@
+# Combat automatique (appelé par « guard ») : A en boucle (ATTAQUE puis 1re capacité)
+# jusqu'au retour sur la carte. Suppose « mark 03005bdc » pris sur la carte.
+untilmark 12000 A
+wait 40

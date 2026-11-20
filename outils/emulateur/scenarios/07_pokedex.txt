@@ -1,0 +1,21 @@
+# Route 30 jusqu'à la maison de M. Pokémon : Œuf Mystère, rencontre du Prof. Chen,
+# obtention du Pokédex. Part de griotte.ss ; produit pokedex.ss.
+include commun.txt
+load griotte.ss
+mark 03005bdc
+guard 03005bdc fuite.txt
+goto CherrygroveCity_hns 34 0
+walk UP 1 30
+shot route30
+goto Route30_hns 35 5
+guard
+shot maison_m_pokemon
+walk UP 1 120
+shot interieur
+hold UP 8
+press A 4 96
+shot m_pokemon
+repeat 42 press A 4 96 ; shot dialogue
+wait 60
+shot fin
+save pokedex.ss

@@ -1,0 +1,119 @@
+# Écran titre, menu principal, options, discours du professeur, clavier de saisie
+# du nom, réglages de partie (modes) jusqu'à la chambre du joueur.
+# Démarre sur une sauvegarde vide (--fresh). Produit l'état chambre.ss.
+include commun.txt
+rtc 2026-11-20T10:00
+wait 60
+shot copyright
+wait 2340
+shot ecran_titre
+press START
+wait 120
+shot menu_principal
+# --- Options depuis le menu principal ---
+press DOWN
+press A
+wait 120
+shot options_vitesse_texte
+press DOWN
+shot options_animation
+press DOWN
+shot options_style_combat
+press DOWN
+shot options_mode_boutons
+repeat 3 press DOWN
+shot options_course_auto
+repeat 3 press DOWN
+shot options_soin_rapide
+repeat 3 press DOWN
+shot options_fenetre
+press R
+wait 40
+shot options_combat
+repeat 4 press DOWN
+shot options_combat_bas
+press R
+wait 40
+shot options_son
+press B
+wait 120
+# --- Nouvelle partie ---
+press UP
+press A
+wait 700
+shot intro_salut
+# chaque page du discours jusqu'au clavier (gMain.callback2 change alors)
+mark 03005bdc
+repeat 30 ifmark press A 4 100 ; ifmark shot intro
+wait 30
+# --- Clavier de saisie du nom ---
+wait 30
+shot clavier_majuscules
+press SELECT
+wait 40
+shot clavier_minuscules
+press SELECT
+wait 40
+shot clavier_autres
+press SELECT
+wait 40
+# M (majuscule), puis a et x (minuscules) : pas de lettres accentuées sur ce clavier
+press DOWN
+press DOWN
+press A
+press SELECT
+wait 30
+press UP
+press UP
+press A
+press DOWN
+press DOWN
+press DOWN
+repeat 4 press RIGHT
+press A
+shot clavier_nom_saisi
+press START
+wait 10
+press A 4 90
+shot confirmation_nom
+mark 03005bdc
+repeat 15 ifmark press A 4 100 ; ifmark shot reglages_info
+wait 60
+# --- Réglages de partie (modes) ---
+wait 30
+shot modes_mode
+repeat 5 press DOWN
+shot modes_mode_bas
+repeat 5 press DOWN
+shot modes_mode_fin
+press R 4 30
+shot modes_fonctions
+repeat 8 press DOWN
+shot modes_fonctions_fin
+press R 4 30
+shot modes_aleatoire
+repeat 6 press DOWN
+shot modes_aleatoire_fin
+press R 4 30
+shot modes_nuzlocke
+repeat 6 press DOWN
+shot modes_nuzlocke_fin
+press R 4 30
+shot modes_difficulte
+repeat 5 press DOWN
+shot modes_difficulte_milieu
+repeat 5 press DOWN
+shot modes_difficulte_fin
+press R 4 30
+shot modes_defis
+repeat 5 press DOWN
+shot modes_defis_milieu
+press R 4 30
+shot modes_confirmer
+press A 4 120
+shot fin_defi
+mark 03005bdc
+repeat 20 ifmark press A 4 100 ; ifmark shot fin_intro
+wait 400
+shot chambre
+save chambre.ss

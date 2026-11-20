@@ -1,0 +1,150 @@
+# Menu START et chacune de ses entrées : Pokédex (liste, menu, recherche, pages
+# INFO/ZONE/STATS/EVO/CRI/TAIL.), Pokémon (équipe, résumé), Sac (poches),
+# Pokématos (carte, condition, appels), carte Dresseur, Sauver, Options.
+# Part de pokedex.ss ; produit menu_start.ss (menu START ouvert, curseur sur Pokédex).
+include commun.txt
+load pokedex.ss
+press START 4 40
+shot menu_start
+save menu_start.ss
+repeat 7 press DOWN ; shot menu_start_entree
+# --- Pokédex ---
+load menu_start.ss
+press A 4 100
+shot pokedex_liste
+repeat 3 press DOWN
+shot pokedex_liste_espece
+press START 4 40
+shot pokedex_menu
+repeat 3 press DOWN ; shot pokedex_menu
+press B 4 40
+press SELECT 4 60
+shot pokedex_recherche
+press RIGHT 4 30
+shot pokedex_recherche_tri
+press RIGHT 4 30
+shot pokedex_recherche_retour
+press LEFT 4 30
+press LEFT 4 30
+press A 4 40
+shot pokedex_recherche_nom
+press B 4 40
+press B 4 80
+press A 4 100
+shot pokedex_info
+press RIGHT 4 60
+shot pokedex_zone
+press RIGHT 4 60
+shot pokedex_stats
+press A 4 40
+shot pokedex_stats_a
+press DOWN 4 40
+shot pokedex_stats_capa
+press RIGHT 4 60
+shot pokedex_evo
+press RIGHT 4 60
+shot pokedex_cri
+press A 4 60
+shot pokedex_cri_a
+press RIGHT 4 60
+shot pokedex_taille
+press LEFT 4 60
+press LEFT 4 60
+press START 4 60
+shot pokedex_evo_formes
+# --- Pokémon ---
+load menu_start.ss
+press DOWN
+press A 4 100
+shot equipe
+press A 4 40
+shot equipe_sousmenu
+press DOWN
+shot equipe_sousmenu_objet
+press DOWN
+shot equipe_sousmenu_suit
+press UP
+press UP
+press A 4 100
+shot resume_infos
+press RIGHT 4 60
+shot resume_aptitudes
+press L 4 40
+shot resume_aptitudes_ev
+press R 4 40
+shot resume_aptitudes_iv
+press RIGHT 4 60
+shot resume_capacites_combat
+press RIGHT 4 60
+shot resume_capacites_concours
+press RIGHT 4 60
+shot resume_page5
+press LEFT 4 60
+press A 4 40
+shot resume_capacite_detail
+press DOWN 4 30
+shot resume_capacite_detail2
+# --- Sac ---
+load menu_start.ss
+repeat 2 press DOWN
+press A 4 100
+shot sac
+repeat 6 press RIGHT 4 40 ; shot sac_poche
+press LEFT 4 40
+shot sac_soins
+press A 4 40
+shot sac_objet_menu
+# --- Pokématos ---
+load menu_start.ss
+repeat 3 press DOWN
+press A 4 120
+shot pokematos
+press A 4 100
+shot pokematos_carte
+press B 4 100
+press DOWN 4 30
+shot pokematos_condition
+press A 4 100
+shot pokematos_condition_menu
+press A 4 100
+shot pokematos_condition_equipe
+press B 4 100
+press B 4 100
+press DOWN 4 30
+shot pokematos_appels
+press A 4 100
+shot pokematos_appels_liste
+press A 4 60
+shot pokematos_appels_menu
+press A 4 100
+shot pokematos_appel
+press B 4 100
+press B 4 100
+press B 4 100
+press DOWN 4 30
+shot pokematos_eteindre
+# --- Carte Dresseur ---
+load menu_start.ss
+repeat 4 press DOWN
+press A 4 120
+shot carte_dresseur_recto
+press A 4 100
+shot carte_dresseur_verso
+# --- Sauver ---
+load menu_start.ss
+repeat 5 press DOWN
+press A 4 80
+shot sauver_question
+press A 4 60
+shot sauver_en_cours
+wait 240
+shot sauver_fait
+# --- Options ---
+load menu_start.ss
+repeat 6 press DOWN
+press A 4 120
+shot options
+press R 4 40
+shot options_combat
+press R 4 40
+shot options_son

@@ -1,0 +1,62 @@
+# Premier combat (Pokémon sauvage, Route 29) : apparition, menu de combat,
+# liste des capacités (PP, type, infos), Sac, équipe, combat jusqu'à la victoire,
+# puis un second combat avec fuite. Part de route29.ss ; produit avant_combat.ss et apres_combat.ss.
+include commun.txt
+load route29.ss
+goto Route29_hns 65 20
+save avant_combat.ss
+mark 03005bdc
+repeat 40 ifmark walk DOWN 1 ; ifmark walk UP 1
+wait 60
+shot apparition
+wait 120
+shot apparition_texte
+press B 4 100
+shot envoi
+# B fait défiler les messages d'ouverture et n'a pas d'effet dans le menu de combat
+repeat 4 press B 4 100
+shot menu_combat
+press A 4 40
+shot capacites
+press START 4 60
+shot capacites_infos
+press B 4 40
+shot capacites_retour
+press B 4 40
+press RIGHT
+shot menu_sac
+press A 4 120
+shot sac_combat
+press RIGHT 4 40
+shot sac_combat_poche2
+press RIGHT 4 40
+shot sac_combat_poche3
+press B 4 120
+press LEFT
+press DOWN
+shot menu_pokemon
+press A 4 120
+shot equipe_combat
+press A 4 40
+shot equipe_combat_sousmenu
+press B 4 40
+press B 4 120
+press UP
+shot menu_attaque
+# combat : ATTAQUE puis 1re capacité en boucle jusqu'au retour sur la carte
+repeat 60 ifnotmark press A 4 70 ; ifnotmark shot combat
+wait 60
+shot retour_carte
+save apres_combat.ss
+# second combat : fuite
+repeat 60 ifmark walk DOWN 1 ; ifmark walk UP 1
+wait 300
+shot second_combat
+repeat 5 press B 4 100
+shot second_combat_menu
+press DOWN
+press RIGHT
+shot menu_fuite
+repeat 12 ifnotmark press A 4 80 ; ifnotmark shot fuite
+wait 60
+shot apres_fuite

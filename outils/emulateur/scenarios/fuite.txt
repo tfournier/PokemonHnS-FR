@@ -1,0 +1,7 @@
+# Fuite d'un combat sauvage (appelé par « guard » pendant un walk).
+# Suppose « mark 03005bdc » (gMain.callback2) pris sur la carte avant la marche.
+wait 480
+press DOWN
+press RIGHT
+untilmark 3000 A
+wait 40

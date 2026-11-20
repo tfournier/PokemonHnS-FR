@@ -20,6 +20,23 @@
  *   include FICHIER        exécute un autre script (relatif au script courant)
  *   echo TEXTE             affiche TEXTE sur la sortie standard
  *   peek ADRESSE [N]       affiche N octets (déf. 16) à l'adresse (hexadécimale) du bus GBA
+ *   peekp PTR DECAL [N]    idem à l'adresse *(u32*)PTR + DECAL (hexadécimal)
+ *   ifeq ADR VAL CMD...    exécute CMD si le mot 32 bits à ADR vaut VAL (hexa) ; ifne : s'il diffère
+ *   goto CARTE X Y         marche jusqu'à (X,Y) sur CARTE (dossier de data/maps), trajet calculé par
+ *                          chemin.py ; recalcule si un PNJ bloque (nécessite posaddr)
+ *   mark ADR               mémorise le mot 32 bits à ADR
+ *   ifmark CMD...          exécute CMD si l'adresse marquée a toujours la valeur mémorisée
+ *   ifnotmark CMD...       exécute CMD si elle a changé
+ *   CMD1 ; CMD2            plusieurs commandes sur une ligne (utile avec repeat / ifmark)
+ *   untilmark MAX [KEY]    avance (en tapotant KEY toutes les 12 images) jusqu'à ce que ADR
+ *                          retrouve la valeur mémorisée (au plus MAX images)
+ *   guard ADR FICHIER      pendant un walk, si le mot à ADR change (ex. : gMain.callback2 au
+ *                          début d'un combat), exécute FICHIER puis reprend la marche ; « guard » seul : désactive
+ *   posaddr PTR DECAL      indique où lire la position du joueur (s16 x, s16 y à *(u32*)PTR + DECAL)
+ *                          HnS : posaddr 030041d8 4 (gSaveBlock1Ptr->pos)
+ *   pos                    affiche la position du joueur
+ *   walk DIR N [W]         avance de N cases (contrôle par la position si posaddr est défini,
+ *                          sinon 16×N images), puis attend W images (déf. 12)
  *   counter N              force le compteur de captures à N
  *
  * Touches : A B SELECT START RIGHT LEFT UP DOWN R L
@@ -55,6 +72,19 @@ static int doX2 = 0;
 static int shotCounter = 1;
 static unsigned long long totalFrames = 0;
 static int errors = 0;
+static uint32_t posPtr = 0, posOff = 0;
+static uint32_t markAddr = 0, markVal = 0;
+static uint32_t guardAddr = 0;
+static int walkBlocked = 0, blockedX = 0, blockedY = 0;
+static char exeDir[1024] = ".";
+static char guardScript[1024] = "";
+static int runScript(const char* path, int depth);
+
+static void readPos(int* x, int* y) {
+	uint32_t base = core->rawRead32(core, posPtr, -1) + posOff;
+	*x = (int16_t) core->rawRead16(core, base, -1);
+	*y = (int16_t) core->rawRead16(core, base + 2, -1);
+}
 
 /* ---- journalisation : on n'affiche que les erreurs ---- */
 static void logCb(struct mLogger* l, int cat, enum mLogLevel level, const char* fmt, va_list args) {
@@ -162,7 +192,8 @@ static int setRtc(const char* iso) {
 	tm.tm_hour = h;
 	tm.tm_min = mi;
 	tm.tm_sec = s;
-	time_t t = timegm(&tm);
+	tm.tm_isdst = -1;
+	time_t t = mktime(&tm); /* heure locale : la RTC émulée suit localtime() */
 	core->rtc.override = RTC_FAKE_EPOCH;
 	core->rtc.value = (int64_t) t * 1000;
 	return 1;
@@ -178,6 +209,18 @@ static int execLine(char* line, const char* scriptDir, const char* where, int de
 	/* echo : on garde le reste de la ligne tel quel */
 	while (*line == ' ' || *line == '\t') {
 		++line;
+	}
+	/* plusieurs commandes sur une ligne : CMD1 ; CMD2 */
+	while (*line == ' ' || *line == '\t') {
+		++line;
+	}
+	char* semi = strncmp(line, "repeat", 6) ? strstr(line, " ; ") : NULL;
+	if (semi) {
+		*semi = 0;
+		if (!execLine(line, scriptDir, where, depth)) {
+			return 0;
+		}
+		return execLine(semi + 3, scriptDir, where, depth);
 	}
 	if (!strncmp(line, "echo", 4) && (line[4] == ' ' || line[4] == 0)) {
 		printf("%s\n", line[4] ? line + 5 : "");
@@ -245,7 +288,7 @@ static int execLine(char* line, const char* scriptDir, const char* where, int de
 		joinPath(path, sizeof(path), stateDir, argv[1]);
 		mkdirs(stateDir);
 		struct VFile* vf = VFileOpen(path, O_CREAT | O_TRUNC | O_RDWR);
-		if (!vf || !mCoreSaveStateNamed(core, vf, SAVESTATE_SAVEDATA | SAVESTATE_RTC)) {
+		if (!vf || !mCoreSaveStateNamed(core, vf, SAVESTATE_SCREENSHOT | SAVESTATE_SAVEDATA | SAVESTATE_RTC | SAVESTATE_METADATA)) {
 			fprintf(stderr, "%s : échec de la sauvegarde d'état %s\n", where, path);
 			++errors;
 		}
@@ -283,6 +326,178 @@ static int execLine(char* line, const char* scriptDir, const char* where, int de
 		}
 		printf("\n");
 		fflush(stdout);
+	} else if (!strcmp(cmd, "peekp") && argc >= 3) {
+		uint32_t ptr = strtoul(argv[1], NULL, 16);
+		uint32_t base = core->rawRead32(core, ptr, -1) + strtoul(argv[2], NULL, 16);
+		int n = argc >= 4 ? atoi(argv[3]) : 16;
+		printf("%08X:", base);
+		for (int i = 0; i < n; ++i) {
+			printf(" %02X", core->rawRead8(core, base + i, -1));
+		}
+		printf("\n");
+		fflush(stdout);
+	} else if ((!strcmp(cmd, "ifeq") || !strcmp(cmd, "ifne")) && argc >= 4) {
+		/* ifeq ADRESSE VALEUR CMD... : exécute CMD si le mot de 32 bits à ADRESSE vaut VALEUR (hexa) */
+		uint32_t v = core->rawRead32(core, strtoul(argv[1], NULL, 16), -1);
+		uint32_t want = strtoul(argv[2], NULL, 16);
+		if ((v == want) == (cmd[2] == 'e' && cmd[3] == 'q')) {
+			char sub[512] = "";
+			for (int j = 3; j < argc; ++j) {
+				strlcat(sub, argv[j], sizeof(sub));
+				strlcat(sub, " ", sizeof(sub));
+			}
+			return execLine(sub, scriptDir, where, depth);
+		}
+	} else if (!strcmp(cmd, "goto") && argc >= 4) {
+		/* goto CARTE X Y : trajet calculé par chemin.py depuis la position courante ;
+		 * si un PNJ bloque, recalcule en évitant la case (5 essais). */
+		if (!posPtr) {
+			fprintf(stderr, "%s : goto nécessite posaddr\n", where);
+			++errors;
+			return 1;
+		}
+		char extra[2048] = "";
+		for (int essai = 0; essai < 6; ++essai) {
+			int x, y;
+			readPos(&x, &y);
+			if (x == atoi(argv[2]) && y == atoi(argv[3])) {
+				return 1;
+			}
+			char shcmd[4096];
+			const char* py = getenv("HNS_PYTHON");
+			snprintf(shcmd, sizeof(shcmd), "'%s' '%s/chemin.py' %s %d %d %s %s %s%s", py ? py : "python3", exeDir, argv[1], x, y,
+			         argv[2], argv[3], extra[0] ? "--bloque" : "", extra);
+			FILE* pp = popen(shcmd, "r");
+			if (!pp) {
+				break;
+			}
+			char l[256];
+			int fail = 0;
+			while (fgets(l, sizeof(l), pp)) {
+				l[strcspn(l, "\r\n")] = 0;
+				if (fail) {
+					continue;
+				}
+				walkBlocked = 0;
+				execLine(l, scriptDir, where, depth);
+				if (walkBlocked) {
+					fail = 1;
+					char t[32];
+					snprintf(t, sizeof(t), " %d,%d", blockedX, blockedY);
+					strlcat(extra, t, sizeof(extra));
+				}
+			}
+			int rc = pclose(pp);
+			if (rc != 0) {
+				fprintf(stderr, "%s : goto : chemin.py a échoué (%s)\n", where, shcmd);
+				++errors;
+				return 1;
+			}
+			if (!fail) {
+				return 1;
+			}
+			runFrames(30, 0);
+		}
+		fprintf(stderr, "%s : goto %s %s %s : abandon\n", where, argv[1], argv[2], argv[3]);
+		++errors;
+	} else if (!strcmp(cmd, "mark") && argc >= 2) {
+		markAddr = strtoul(argv[1], NULL, 16);
+		markVal = core->rawRead32(core, markAddr, -1);
+	} else if ((!strcmp(cmd, "ifmark") || !strcmp(cmd, "ifnotmark")) && argc >= 2) {
+		/* ifmark CMD... : exécute CMD si l'adresse marquée a toujours sa valeur ; ifnotmark : si elle a changé */
+		int same = core->rawRead32(core, markAddr, -1) == markVal;
+		if (same == (cmd[2] == 'm')) {
+			char sub[512] = "";
+			for (int j = 1; j < argc; ++j) {
+				strlcat(sub, argv[j], sizeof(sub));
+				strlcat(sub, " ", sizeof(sub));
+			}
+			return execLine(sub, scriptDir, where, depth);
+		}
+	} else if (!strcmp(cmd, "untilmark") && argc >= 2) {
+		/* untilmark MAX [KEY] : avance (en tapotant KEY) jusqu'à ce que l'adresse marquée retrouve sa valeur */
+		int max = atoi(argv[1]);
+		uint32_t keys = 0;
+		if (argc >= 3 && !parseKeys(argv[2], &keys)) {
+			goto bad;
+		}
+		int f = 0;
+		while (f < max && core->rawRead32(core, markAddr, -1) != markVal) {
+			runFrames(1, (keys && (f % 12) < 2) ? keys : 0);
+			++f;
+		}
+		if (f >= max) {
+			fprintf(stderr, "%s : untilmark : délai dépassé\n", where);
+		}
+	} else if (!strcmp(cmd, "guard")) {
+		/* guard ADR FICHIER : pendant walk, si le mot à ADR change, exécute FICHIER ; guard seul : désactive */
+		if (argc >= 3) {
+			guardAddr = strtoul(argv[1], NULL, 16);
+			joinPath(guardScript, sizeof(guardScript), scriptDir, argv[2]);
+		} else {
+			guardAddr = 0;
+		}
+	} else if (!strcmp(cmd, "posaddr") && argc >= 3) {
+		posPtr = strtoul(argv[1], NULL, 16);
+		posOff = strtoul(argv[2], NULL, 16);
+	} else if (!strcmp(cmd, "pos")) {
+		int x, y;
+		readPos(&x, &y);
+		printf("%s pos %d,%d\n", where, x, y);
+		fflush(stdout);
+	} else if (!strcmp(cmd, "walk") && argc >= 3) {
+		/* walk DIR N : avance de N cases.
+		 * Avec posaddr : maintient DIR jusqu'à ce que la position ait changé de N cases
+		 * (ou abandon si bloqué), sinon 16×N images. */
+		uint32_t keys;
+		if (!parseKeys(argv[1], &keys)) {
+			goto bad;
+		}
+		int n = atoi(argv[2]);
+		int after = argc >= 4 ? atoi(argv[3]) : 12;
+		if (posPtr) {
+			int x0, y0, x, y;
+			readPos(&x0, &y0);
+			int moved = 0, still = 0;
+			uint32_t gval = guardAddr ? core->rawRead32(core, guardAddr, -1) : 0;
+			core->setKeys(core, keys);
+			while (moved < n && still < 48) {
+				core->runFrame(core);
+				++totalFrames;
+				if (guardAddr && core->rawRead32(core, guardAddr, -1) != gval) {
+					core->setKeys(core, 0);
+					printf("%s : garde déclenchée pendant walk, exécution de %s\n", where, guardScript);
+					fflush(stdout);
+					runScript(guardScript, depth + 1);
+					readPos(&x0, &y0);
+					n -= moved;
+					moved = 0;
+					still = 0;
+					core->setKeys(core, keys);
+					continue;
+				}
+				readPos(&x, &y);
+				int m = abs(x - x0) + abs(y - y0);
+				if (m != moved) {
+					moved = m;
+					still = 0;
+				} else {
+					++still;
+				}
+			}
+			core->setKeys(core, 0);
+			runFrames(after, 0);
+			walkBlocked = moved < n;
+			if (moved < n) {
+				readPos(&x, &y);
+				blockedX = x + ((keys >> 4) & 1) - ((keys >> 5) & 1);
+				blockedY = y + ((keys >> 7) & 1) - ((keys >> 6) & 1);
+				fprintf(stderr, "%s : walk %s %d bloqué après %d case(s) (pos %d,%d)\n", where, argv[1], n, moved, x, y);
+			}
+		} else {
+			runFrames(n * 16, keys);
+			runFrames(after, 0);
+		}
 	} else {
 		goto bad;
 	}
@@ -368,6 +583,18 @@ int main(int argc, char** argv) {
 		return 2;
 	}
 	mLogSetDefaultLogger(&logger);
+	{
+		char tmp[1024];
+		snprintf(tmp, sizeof(tmp), "%s", argv[0]);
+		snprintf(exeDir, sizeof(exeDir), "%s", dirname(tmp));
+		if (!getenv("HNS_PYTHON")) {
+			char py[1200];
+			snprintf(py, sizeof(py), "%s/../../.venv/bin/python", exeDir);
+			if (access(py, X_OK) == 0) {
+				setenv("HNS_PYTHON", py, 1);
+			}
+		}
+	}
 
 	core = mCoreFind(rom);
 	if (!core || !core->init(core)) {
@@ -390,6 +617,11 @@ int main(int argc, char** argv) {
 	if (!mCoreLoadFile(core, rom)) {
 		fprintf(stderr, "impossible de charger la ROM %s\n", rom);
 		return 1;
+	}
+	{
+		char tmp[1024];
+		snprintf(tmp, sizeof(tmp), "%s", sav);
+		mkdirs(dirname(tmp));
 	}
 	if (fresh) {
 		unlink(sav);

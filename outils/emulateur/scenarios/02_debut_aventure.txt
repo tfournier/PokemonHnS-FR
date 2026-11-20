@@ -1,0 +1,74 @@
+# Début de l'aventure : horloge, Maman (Pokématos), laboratoire du Prof. Orme
+# (choix du starter, surnom), aide (Potion), sortie vers la Route 29.
+# Part de chambre.ss ; produit route29.ss (entrée de la Route 29).
+include commun.txt
+load chambre.ss
+wait 60
+# --- Réglage de l'horloge (déclencheur devant l'escalier) ---
+goto NewBarkTown_PlayersHouse_2F_hns 9 4
+walk UP 1 60
+mark 03005bdc
+repeat 6 ifmark press A 4 90 ; ifmark shot horloge
+wait 30
+shot horloge_reglage
+press A 4 60
+shot horloge_bonne_heure
+press UP
+press A 4 60
+untilmark 900
+wait 60
+shot horloge_info_options
+press A 4 90
+# --- Rez-de-chaussée : Maman ---
+goto NewBarkTown_PlayersHouse_2F_hns 10 2
+hold LEFT 40
+wait 120
+walk DOWN 1 60
+shot maman_prof_orme
+repeat 16 press A 4 90 ; shot maman
+goto NewBarkTown_PlayersHouse_1F_hns 9 8
+hold DOWN 30
+wait 120
+shot bourg_geon
+# --- Laboratoire ---
+goto NewBarkTown_hns 10 10
+walk UP 1 120
+shot labo_entree
+walk UP 5 60
+shot labo_orme
+repeat 30 press A 4 90 ; shot labo_orme
+wait 60
+goto NewBarkTown_Lab_hns 9 5
+hold UP 8
+wait 10
+press A 4 120
+shot starter_choix
+press A 4 120
+shot starter_super
+press A 4 120
+shot starter_recu
+press A 4 160
+shot surnom_question
+press A 4 160
+wait 60
+shot surnom_clavier
+press START 4 30
+press A 4 160
+shot apres_surnom
+goto NewBarkTown_Lab_hns 6 4
+hold UP 8
+wait 10
+press A 4 90
+shot orme_m_pokemon
+repeat 11 press A 4 90 ; shot orme_m_pokemon
+goto NewBarkTown_Lab_hns 6 11
+walk DOWN 1 60
+shot aide_potion
+repeat 6 press A 4 90 ; shot aide_potion
+hold DOWN 30
+wait 120
+# --- Route 29 ---
+goto NewBarkTown_hns 0 13
+walk LEFT 1 120
+shot route29
+save route29.ss

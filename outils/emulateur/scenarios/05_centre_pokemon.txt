@@ -1,0 +1,98 @@
+# Centre Pokémon de Ville Griotte : dialogue de soin de l'infirmière, PC
+# (choix du PC, système de stockage, boîtes, PC du joueur). Part de griotte.ss ;
+# produit centre.ss (devant le comptoir).
+include commun.txt
+load griotte.ss
+goto CherrygroveCity_hns 47 8
+walk UP 1 120
+shot centre_interieur
+goto CherrygroveCity_PokemonCenter_hns 7 4
+hold UP 6
+wait 10
+save centre.ss
+press A 4 100
+shot infirmiere_bienvenue
+press A 4 100
+shot infirmiere_soigner
+press A 4 100
+shot infirmiere_question
+press A 4 100
+shot infirmiere_soin
+wait 240
+shot infirmiere_soin2
+press A 4 100
+shot infirmiere_fin
+press A 4 100
+shot infirmiere_fin2
+press A 4 100
+# --- PC ---
+goto CherrygroveCity_PokemonCenter_hns 11 2
+hold UP 6
+wait 10
+press A 4 100
+shot pc_allume
+press A 4 100
+shot pc_choix
+press DOWN
+shot pc_choix_joueur
+press DOWN
+shot pc_choix_defis
+press DOWN
+shot pc_choix_deconnexion
+repeat 3 press UP
+press A 4 100
+shot pc_stockage_connecte
+press A 4 100
+shot pc_stockage_presentation
+press A 4 100
+shot pc_stockage_deplacer
+press DOWN
+shot pc_stockage_deposer
+press DOWN
+shot pc_stockage_retirer
+press DOWN
+shot pc_stockage_objets
+press DOWN
+shot pc_stockage_salut
+repeat 4 press UP
+press A 4 150
+shot boite
+press UP 4 30
+shot boite_titre
+press RIGHT 4 60
+shot boite_suivante
+press DOWN 4 30
+press DOWN 4 30
+shot boite_curseur
+press B 4 60
+shot boite_continuer
+press DOWN
+press A 4 150
+shot boite_quitter
+press B 4 100
+shot pc_retour_choix
+press DOWN
+press A 4 100
+shot pc_joueur
+press A 4 100
+shot pc_joueur_menu
+press DOWN
+shot pc_joueur_menu2
+press DOWN
+shot pc_joueur_menu3
+press DOWN
+shot pc_joueur_menu4
+press B 4 100
+shot pc_joueur_retour
+press DOWN
+press DOWN
+shot pc_choix_defis2
+press A 4 120
+shot pc_defis
+press A 4 100
+shot pc_defis2
+press DOWN
+shot pc_defis3
+press DOWN
+shot pc_defis4
+repeat 4 press B 4 100 ; shot pc_fin

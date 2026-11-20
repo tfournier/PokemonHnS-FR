@@ -1,0 +1,58 @@
+# Appel du Prof. Orme sur la Route 30, retour à Ville Griotte et combat contre
+# le rival (combat de Dresseur) : dialogue, menu, capacités, Sac, équipe,
+# abandon refusé, combat jusqu'au bout. Part de pokedex.ss ; produit avant_rival.ss.
+include commun.txt
+load pokedex.ss
+goto Route30_MrPokemonsHouse_hns 5 8
+hold DOWN 30
+wait 120
+walk DOWN 1 60
+shot appel_orme
+repeat 6 press A 4 96 ; shot appel_orme
+mark 03005bdc
+guard 03005bdc fuite.txt
+goto Route30_hns 25 57
+walk DOWN 1 60
+goto CherrygroveCity_hns 54 10
+guard
+shot avant_rival
+save avant_rival.ss
+walk RIGHT 2 30
+shot rival_arrive
+repeat 7 ifmark press A 4 96 ; ifmark shot rival
+wait 200
+shot combat_debut
+repeat 4 press B 4 100 ; shot combat_intro
+shot menu_combat
+press A 4 40
+shot capacites
+press START 4 60
+shot capacites_infos
+press B 4 40
+press B 4 40
+press RIGHT
+press A 4 120
+shot sac
+press B 4 120
+press LEFT
+press DOWN
+press A 4 120
+shot equipe
+press B 4 120
+press RIGHT
+shot menu_fuite
+press A 4 100
+shot abandon_question
+press A 4 100
+shot abandon_question2
+press DOWN
+press A 4 100
+shot abandon_refuse
+press B 4 60
+press UP
+press LEFT
+shot menu_attaque
+repeat 80 ifnotmark press A 4 70 ; ifnotmark shot combat
+wait 60
+shot apres_combat
+repeat 10 press A 4 96 ; shot apres_combat
