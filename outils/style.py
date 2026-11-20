@@ -54,13 +54,22 @@ def construire(ss_json, sortie):
             f.write('%s\t%s\t%s\n' % (k, rows[k][0], rows[k][1]))
     return len(rows)
 
-def charger(path):
+def charger(path, sauf_types=()):
+    """glossaire {clé: graphie} ; sauf_types=('personnage',) pour les textes Émeraude FR, dont les noms
+    de personnages Hoenn gardent les capitales officielles (ARTHUR, PIERRE = Steven…)."""
     g = {}
     for line in open(path, encoding='utf-8'):
         if line.startswith('#') or not line.strip(): continue
-        k, v, *_ = line.rstrip('\n').split('\t')
+        k, v, *r = line.rstrip('\n').split('\t')
+        if r and r[0] in sauf_types: continue
         g[k] = v
     return g
+
+
+def especes(ss_json):
+    """noms d'espèces (banque 237), sans OEUF qui y figure mais doit devenir « Œuf »."""
+    import json
+    return frozenset(cle(x) for x in json.load(open(ss_json, encoding='utf-8'))['237'] if x.strip()) - {'OEUF'}
 
 # a run of "capitalised" words: letters, digits, accents, é in POKéMON, apostrophes, dots, hyphens
 WORD = r"[A-ZÀ-ÖØ-Þé0-9][A-ZÀ-ÖØ-Þé0-9'’.\-]*"
@@ -85,9 +94,9 @@ def appliquer(text, gl, especes=frozenset()):
             else:
                 out.append(words[i]); i += 1
         return ' '.join(out)
-    # don't touch {CODES}
-    parts = re.split(r'(\{[^}]*\})', text)
-    return ''.join(p if p.startswith('{') else RUN.sub(repl, p) for p in parts)
+    # ne touche pas aux {CODES} ; \n \l \p séparent les mots (un mot collé à \n était ignoré)
+    parts = re.split(r'(\{[^}]*\}|\\[nlp])', text)
+    return ''.join(p if (p.startswith('{') or p.startswith('\\')) else RUN.sub(repl, p) for p in parts)
 
 # ---------------------------------------------------------------- casse homogène
 _ACCENTS = None

@@ -78,6 +78,7 @@ class Verif:
         if glossaire and os.path.exists(glossaire):
             import style
             self.gl = style.charger(glossaire)
+            self.gl_em = style.charger(glossaire, ('personnage',))   # noms Hoenn en capitales (Émeraude FR)
             self.style = style
         self._src = {}
 
@@ -162,7 +163,7 @@ class Verif:
                 pb.append(('LONGUEUR', '%s : %d > %d' % (nom, len(enc), n)))
         # glossaire
         if self.gl and re.search(r'[a-zà-ÿ]{2}', CODE.sub('', msgstr).replace('é', '')):
-            t = self.style.appliquer(msgstr, self.gl)
+            t = self.style.appliquer(msgstr, self.gl_em if source.lower().startswith('émeraude') else self.gl)
             if t != msgstr:
                 diff = [w for w in re.findall(r"[A-ZÀ-Þé][A-ZÀ-Þé'’.\- ]+", msgstr) if w not in t][:3]
                 pb.append(('GLOSSAIRE', 'graphie glossaire différente : %s' % diff))
