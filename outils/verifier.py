@@ -160,8 +160,8 @@ class Verif:
         ch = self.champ(occs)
         if ch:
             n, nom = ch
-            enc = self.g.encode(msgstr)
-            if enc is not None and len(enc) > n:
+            enc = self.g.encode(msgstr); enc_en = self.g.encode(msgid)
+            if enc is not None and len(enc) > n and not (enc_en is not None and len(enc_en) > n):
                 pb.append(('LONGUEUR', '%s : %d > %d' % (nom, len(enc), n)))
         # glossaire
         if self.gl and re.search(r'[a-zà-ÿ]{2}', CODE.sub('', msgstr).replace('é', '')):
