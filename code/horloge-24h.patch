@@ -1,0 +1,35 @@
+diff --git a/src/start_menu.c b/src/start_menu.c
+index 144c2d2a..62114212 100644
+--- a/src/start_menu.c
++++ b/src/start_menu.c
+@@ -512,26 +512,15 @@ static void ShowTimeWindow(void)
+     PutWindowTilemap(sStartClockWindowId);
+     DrawStdWindowFrame(sStartClockWindowId, FALSE);
+ 
+-    if (gLocalTime.hours < 12)
+-    {
+-        convertedHours = (gLocalTime.hours == 0) ? 12 : gLocalTime.hours;
+-        suffix = sText_AM;
+-    }
+-    else
+-    {
+-        convertedHours = (gLocalTime.hours == 12) ? 12 : gLocalTime.hours - 12;
+-        suffix = sText_PM;
+-    }
+-
+-    ptr = ConvertIntToDecimalStringN(gStringVar4, convertedHours, STR_CONV_MODE_LEFT_ALIGN, 3);
++    // FR: horloge 24 h (HH:MM)
++    (void)suffix;
++    (void)convertedHours;
++    ptr = ConvertIntToDecimalStringN(gStringVar4, gLocalTime.hours, STR_CONV_MODE_LEADING_ZEROS, 2);
+     *ptr = 0xF0;
+     ConvertIntToDecimalStringN(ptr + 1, gLocalTime.minutes, STR_CONV_MODE_LEADING_ZEROS, 2);
+     AddTextPrinterParameterized(sStartClockWindowId, FONT_NORMAL, gStringVar4,
+         0, 1, 0xFF, NULL);
+ 
+-    AddTextPrinterParameterized(sStartClockWindowId, FONT_NORMAL, suffix,
+-        GetStringWidth(FONT_NORMAL, gStringVar4, 0) + 3, 1, 0xFF, NULL);
+-
+     CopyWindowToVram(sStartClockWindowId, COPYWIN_GFX);
+ }
+ 

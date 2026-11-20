@@ -1,0 +1,121 @@
+--- a/src/battle_message.c
++++ b/src/battle_message.c
+@@ -130,11 +130,18 @@
+ static const u8 sText_Trainer2WithdrewPkmn[] = _("{B_TRAINER2_NAME_WITH_CLASS} withdrew {B_BUFF1}!");
+ static const u8 sText_LinkTrainer1WithdrewPkmn[] = _("{B_LINK_OPPONENT1_NAME} withdrew {B_BUFF1}!");
+ static const u8 sText_LinkTrainer2WithdrewPkmn[] = _("{B_LINK_OPPONENT2_NAME} withdrew {B_BUFF1}!");
+-static const u8 sText_WildPkmnPrefix[] = _("The wild ");
+-static const u8 sText_FoePkmnPrefix[] = _("The opposing ");
+-static const u8 sText_WildPkmnPrefixLower[] = _("the wild ");
+-static const u8 sText_FoePkmnPrefixLower[] = _("the opposing ");
++static const u8 UNUSED sText_WildPkmnPrefix[] = _("The wild ");
++static const u8 UNUSED sText_FoePkmnPrefix[] = _("The opposing ");
++static const u8 UNUSED sText_WildPkmnPrefixLower[] = _("the wild ");
++static const u8 UNUSED sText_FoePkmnPrefixLower[] = _("the opposing ");
+ static const u8 sText_EmptyString8[] = _("");
++// FR: en français, « sauvage » / « ennemi » se placent après le nom (PTITARD sauvage).
++static const u8 sText_WildPkmnSuffixFr[] = _(" sauvage");
++static const u8 sText_FoePkmnSuffixFr[] = _(" ennemi");
++static void AppendFoeSuffixFr(u8 *text)
++{
++    StringAppend(text, (gBattleTypeFlags & BATTLE_TYPE_TRAINER) ? sText_FoePkmnSuffixFr : sText_WildPkmnSuffixFr);
++}
+ static const u8 sText_FoePkmnPrefix2[] = _("Opposing");
+ static const u8 sText_AllyPkmnPrefix[] = _("Ally");
+ static const u8 sText_FoePkmnPrefix3[] = _("Opposing");
+@@ -2922,37 +2929,15 @@
+ }
+ 
+ #define HANDLE_NICKNAME_STRING_CASE(battler)                            \
+-    if (!IsOnPlayerSide(battler))                                       \
+-    {                                                                   \
+-        if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)                     \
+-            toCpy = sText_FoePkmnPrefix;                                \
+-        else                                                            \
+-            toCpy = sText_WildPkmnPrefix;                               \
+-        while (*toCpy != EOS)                                           \
+-        {                                                               \
+-            dst[dstID] = *toCpy;                                        \
+-            dstID++;                                                    \
+-            toCpy++;                                                    \
+-        }                                                               \
+-    }                                                                   \
+     GetBattlerNick(battler, text);                                      \
++    if (!IsOnPlayerSide(battler))                                       \
++        AppendFoeSuffixFr(text);                                        \
+     toCpy = text;
+ 
+-#define HANDLE_NICKNAME_STRING_LOWERCASE(battler)                       \
+-    if (!IsOnPlayerSide(battler))                       \
+-    {                                                                   \
+-        if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)                     \
+-            toCpy = sText_FoePkmnPrefixLower;                           \
+-        else                                                            \
+-            toCpy = sText_WildPkmnPrefixLower;                          \
+-        while (*toCpy != EOS)                                           \
+-        {                                                               \
+-            dst[dstID] = *toCpy;                                        \
+-            dstID++;                                                    \
+-            toCpy++;                                                    \
+-        }                                                               \
+-    }                                                                   \
++#define HANDLE_NICKNAME_STRING_LOWERCASE(battler)                            \
+     GetBattlerNick(battler, text);                                      \
++    if (!IsOnPlayerSide(battler))                                       \
++        AppendFoeSuffixFr(text);                                        \
+     toCpy = text;
+ 
+ static const u8 *BattleStringGetOpponentNameByTrainerId(u16 trainerId, u8 *text, u8 multiplayerId, enum BattlerId battler)
+@@ -3426,21 +3411,10 @@
+                 }
+                 break;
+             case B_TXT_26: // ?
+-                if (!IsOnPlayerSide(gBattleScripting.battler))
+-                {
+-                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+-                        toCpy = sText_FoePkmnPrefix;
+-                    else
+-                        toCpy = sText_WildPkmnPrefix;
+-                    while (*toCpy != EOS)
+-                    {
+-                        dst[dstID] = *toCpy;
+-                        dstID++;
+-                        toCpy++;
+-                    }
+-                }
+                 GetMonData(&GetBattlerParty(gBattleScripting.battler)[gBattleStruct->scriptPartyIdx], MON_DATA_NICKNAME, text);
+                 StringGet_Nickname(text);
++                if (!IsOnPlayerSide(gBattleScripting.battler))
++                    AppendFoeSuffixFr(text);
+                 toCpy = text;
+                 break;
+             case B_TXT_PC_CREATOR_NAME: // lanette pc
+@@ -3804,26 +3778,11 @@
+             break;
+         case B_BUFF_MON_NICK_WITH_PREFIX: // poke nick with prefix
+         case B_BUFF_MON_NICK_WITH_PREFIX_LOWER: // poke nick with lowercase prefix
+-            if (!IsOnPlayerSide(src[srcID + 1]))
+-            {
+-                if (src[srcID] == B_BUFF_MON_NICK_WITH_PREFIX_LOWER)
+-                {
+-                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+-                        StringAppend(dst, sText_FoePkmnPrefixLower);
+-                    else
+-                        StringAppend(dst, sText_WildPkmnPrefixLower);
+-                }
+-                else
+-                {
+-                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+-                        StringAppend(dst, sText_FoePkmnPrefix);
+-                    else
+-                        StringAppend(dst, sText_WildPkmnPrefix);
+-                }
+-            }
+             GetMonData(&GetBattlerParty(src[srcID + 1])[src[srcID + 2]], MON_DATA_NICKNAME, nickname);
+             StringGet_Nickname(nickname);
+             StringAppend(dst, nickname);
++            if (!IsOnPlayerSide(src[srcID + 1]))
++                AppendFoeSuffixFr(dst);
+             srcID += 3;
+             break;
+         case B_BUFF_STAT: // stats
