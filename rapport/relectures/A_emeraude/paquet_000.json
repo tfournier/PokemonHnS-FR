@@ -1,0 +1,172 @@
+[
+ {
+  "id": 1,
+  "categorie": "contresens",
+  "probleme": "La dernière question demande une quantité et suppose que l’achat est accepté.",
+  "correction": "Vous cherchez des JETONS?\\pC’est 500¥ les 50 JETONS.\\nEn voulez-vous?",
+  "justification": "Le texte anglais propose d’acheter des jetons et attend une réponse par oui ou par non.",
+  "msgid": "Were you looking for COINS?\\pIt's ¥500 for 50 COINS.\\nWould you like some?",
+  "msgstr": "Seriez-vous à la recherche de JETONS?\\pC’est 500¥ les 50 JETONS.\\nCombien en voulez-vous?",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’accent aigu à « LIGOTE ».",
+  "correction": "{B_DEF_NAME_WITH_PREFIX} est LIGOTÉ par {B_ATK_NAME_WITH_PREFIX2}!",
+  "justification": "Le participe passé « ligoté » garde son accent en capitales.",
+  "msgid": "{B_DEF_NAME_WITH_PREFIX} was wrapped by {B_ATK_NAME_WITH_PREFIX2}!",
+  "msgstr": "{B_DEF_NAME_WITH_PREFIX} est LIGOTE par {B_ATK_NAME_WITH_PREFIX2}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "contresens",
+  "probleme": "« Les dégâts du Pokémon » peut désigner les dégâts qu’il inflige.",
+  "correction": "Le CLONE encaisse pour\\n{B_DEF_NAME_WITH_PREFIX2}!\\p",
+  "justification": "Le clone subit les dégâts à la place du Pokémon protégé.",
+  "msgid": "The substitute took damage for {B_DEF_NAME_WITH_PREFIX2}!\\p",
+  "msgstr": "Le CLONE prend les\\ndégâts du {B_DEF_NAME_WITH_PREFIX2}!\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "orthographe",
+  "probleme": "« Du » ajoute un article devant le nom du Pokémon.",
+  "correction": "{B_SCR_NAME_WITH_PREFIX} copie les\\nchangements\\lde stats de {B_EFF_NAME_WITH_PREFIX2}!",
+  "justification": "Le nom fourni par le moteur s’emploie sans article, y compris avec le suffixe « ennemi » ou « sauvage ».",
+  "msgid": "{B_SCR_NAME_WITH_PREFIX} copied {B_EFF_NAME_WITH_PREFIX2}'s stat changes!",
+  "msgstr": "{B_SCR_NAME_WITH_PREFIX} copie les\\nchangements\\lde stats du {B_EFF_NAME_WITH_PREFIX2}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "orthographe",
+  "probleme": "« Du » ajoute un article devant le nom du Pokémon.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} se libère\\nde {B_BUFF1}\\lde {B_DEF_NAME_WITH_PREFIX2}!",
+  "justification": "La préposition « de » introduit le nom du Pokémon à l’origine de l’entrave.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} got free of {B_DEF_NAME_WITH_PREFIX2}'s {B_BUFF1}!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} se libère\\nde {B_BUFF1}\\ldu {B_DEF_NAME_WITH_PREFIX2}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "orthographe",
+  "probleme": "« Du » ajoute un article devant le nom du Pokémon.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} fait tomber\\n{B_LAST_ITEM}\\lde {B_DEF_NAME_WITH_PREFIX2}!",
+  "justification": "La préposition « de » introduit le nom du Pokémon qui tenait l’objet.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} knocked off {B_DEF_NAME_WITH_PREFIX2}'s {B_LAST_ITEM}!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} fait tomber\\n{B_LAST_ITEM}\\ldu {B_DEF_NAME_WITH_PREFIX2}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "contresens",
+  "probleme": "Le message annonce l’utilisation de Saisie alors que l’anglais indique que la capacité adverse a déjà été interceptée.",
+  "correction": "{B_DEF_NAME_WITH_PREFIX} dérobe\\nla capacité de\\l{B_SCR_NAME_WITH_PREFIX2}!",
+  "justification": "« Dérobe » exprime la réussite de l’interception.",
+  "msgid": "{B_DEF_NAME_WITH_PREFIX} snatched {B_SCR_NAME_WITH_PREFIX2}'s move!",
+  "msgstr": "{B_DEF_NAME_WITH_PREFIX} utilise Saisie\\nsur la capacité du\\l{B_SCR_NAME_WITH_PREFIX2}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "orthographe",
+  "probleme": "« Du » ajoute un article devant le nom du Pokémon.",
+  "correction": "{B_EFF_ABILITY} de {B_EFF_NAME_WITH_PREFIX}\\nle transforme en type {B_BUFF1}!",
+  "justification": "La préposition « de » relie le talent au nom du Pokémon.",
+  "msgid": "{B_EFF_NAME_WITH_PREFIX}'s {B_EFF_ABILITY} made it the {B_BUFF1} type!",
+  "msgstr": "{B_EFF_ABILITY} du {B_EFF_NAME_WITH_PREFIX}\\nle transforme en type {B_BUFF1}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "orthographe",
+  "probleme": "« Du » ajoute un article devant le nom du Pokémon.",
+  "correction": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX}\\nempêche la confusion!",
+  "justification": "La préposition « de » relie le talent au nom du Pokémon.",
+  "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} prevents confusion!",
+  "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX}\\nempêche la confusion!",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "orthographe",
+  "probleme": "Les deux occurrences de « du » ajoutent un article devant un nom de Pokémon.",
+  "correction": "{B_SCR_ABILITY} de\\n{B_SCR_NAME_WITH_PREFIX} réduit\\ll’ATTAQUE de {B_DEF_NAME_WITH_PREFIX2}!",
+  "justification": "Les deux noms de Pokémon sont introduits par la préposition « de » seule.",
+  "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} cuts {B_DEF_NAME_WITH_PREFIX2}'s ATTACK!",
+  "msgstr": "{B_SCR_ABILITY} du\\n{B_SCR_NAME_WITH_PREFIX} réduit\\ll’ATTAQUE du {B_DEF_NAME_WITH_PREFIX2}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "oubli",
+  "probleme": "La traduction omet la manière furtive de s’approcher.",
+  "correction": "{B_PLAYER_NAME} s’approche\\nsans bruit de {B_OPPONENT_MON1_NAME}!",
+  "justification": "« Crept closer » décrit une approche discrète.",
+  "msgid": "{B_PLAYER_NAME} crept closer to {B_OPPONENT_MON1_NAME}!",
+  "msgstr": "{B_PLAYER_NAME} se rapproche de\\n{B_OPPONENT_MON1_NAME}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "contresens",
+  "probleme": "« Perdu! » annonce une défaite alors que la partie de Safari prend fin faute de Balls.",
+  "correction": "{PLAY_SE SE_DING_DONG}ANNONCEUR: Vous n’avez plus de\\nSAFARI BALLS! Partie terminée!\\p",
+  "justification": "« Game over » signale ici la fin de la session.",
+  "msgid": "{PLAY_SE SE_DING_DONG}ANNOUNCER: You're out of Safari Balls! Game over!\\p",
+  "msgstr": "{PLAY_SE SE_DING_DONG}ANNONCEUR: Vous n’avez plus de\\nSAFARI BALLS! Perdu!\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "orthographe",
+  "probleme": "« Du » ajoute un article devant le nom du Pokémon.",
+  "correction": "{B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX}\\nrestaure un peu ses PV!",
+  "justification": "La préposition « de » relie le talent au nom du Pokémon.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY} restored its HP a little!",
+  "msgstr": "{B_ATK_ABILITY} du {B_ATK_NAME_WITH_PREFIX}\\nrestaure un peu ses PV!",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "orthographe",
+  "probleme": "« Du » ajoute un article devant le nom du Pokémon.",
+  "correction": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX}\\nguérit son problème de {B_BUFF1}!",
+  "justification": "La préposition « de » relie le talent au nom du Pokémon.",
+  "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} cured its {B_BUFF1} problem!",
+  "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX}\\nguérit son problème de {B_BUFF1}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "orthographe",
+  "probleme": "« Du » ajoute un article devant le nom du Pokémon.",
+  "correction": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX}\\nrend {B_CURRENT_MOVE} inutile!",
+  "justification": "La préposition « de » relie le talent au nom du Pokémon.",
+  "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} made {B_CURRENT_MOVE} useless!",
+  "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX}\\nrend {B_CURRENT_MOVE} inutile!",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "orthographe",
+  "probleme": "« Du Pokémon » est mal raccordé au nom complet fourni par la variable.",
+  "correction": "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX}\\nprend fin!",
+  "justification": "La préposition « de » introduit directement le nom affiché, suffixe « sauvage » ou « ennemi » compris le cas échéant.",
+  "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} wore off!",
+  "msgstr": "{B_BUFF1} du Pokémon {B_SCR_NAME_WITH_PREFIX} \\nprend fin!",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "orthographe",
+  "probleme": "Les deux occurrences de « du » ajoutent un article devant un nom de Pokémon.",
+  "correction": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX}\\nempêche {B_DEF_ABILITY} de\\l{B_DEF_NAME_WITH_PREFIX2} de fonctionner!",
+  "justification": "Chaque talent est relié au nom du Pokémon correspondant par la préposition « de ».",
+  "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} prevents {B_DEF_NAME_WITH_PREFIX2}'s {B_DEF_ABILITY} from working!",
+  "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX}\\nempêche {B_DEF_ABILITY} du\\l{B_DEF_NAME_WITH_PREFIX2} de fonctionner!",
+  "msgctxt": ""
+ }
+]
