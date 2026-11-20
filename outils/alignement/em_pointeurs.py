@@ -119,6 +119,14 @@ while queue:
             if a == b and 16 - a.count(0) - a.count(255) >= MINRES:
                 segs.append((u, f, k, 'sync')); dl[u:u + k] = D
                 u += k; f += k; ok = True; break
+        if ok: continue
+        # table de structures {pointeur, entiers différents} (mots Easy Chat…) : prochain pointeur au même décalage
+        if os.environ.get('EM_TABLES', '1') == '1':
+            for k in range(1, 13):
+                if ptr(us, u + k) is not None and ptr(fr, f + k) is not None and ptr(us, u + k - 12) is not None \
+                        and ptr(fr, f + k - 12) is not None:
+                    segs.append((u, f, k, 'tab')); dl[u:u + k] = D
+                    u += k; f += k; ok = True; break
         if not ok: break
 cov = dl != NONE
 print('marches', nwalk, 'cibles', len(pairs), 'segments', len(segs), 'couverture %.1f%%' % (100 * cov.mean()),
