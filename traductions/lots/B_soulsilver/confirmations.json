@@ -1,0 +1,952 @@
+[
+  {
+    "msgid": "Which PC should be accessed?",
+    "msgstr": "Accéder à quel PC?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/text/pc.inc",
+    "ligne": 5,
+    "ancien": "Accéder à quel PC?",
+    "preuve": "40:34 — Accéder à quel PC? {YESNO 0}",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "It's a large waterfall.\\nWould you like to use WATERFALL?",
+    "msgstr": "C’est une grande cascade.\\nVoulez-vous utiliser Cascade?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/scripts/field_move_scripts.inc",
+    "ligne": 317,
+    "ancien": "C’est une grande cascade.\\nVoulez-vous utiliser Cascade?",
+    "preuve": "211:24 — C’est une grande cascade.\\nVoulez-vous utiliser Cascade? {YESNO 0}",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "Oh, oh, oh!",
+    "msgstr": "Oh, oh, oh!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/UnionCave_1F_hns/scripts.inc",
+    "ligne": 79,
+    "ancien": "Oh, oh, oh!",
+    "preuve": "728:1129 — Oh, oh, oh!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "You are challenged by {B_LINK_OPPONENT1_NAME}!",
+    "msgstr": "{B_LINK_OPPONENT1_NAME} veut se battre!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 100,
+    "ancien": "{B_LINK_OPPONENT1_NAME} veut se battre!",
+    "preuve": "197:970 — {STRVAR_1 3, 0, 0}\\nveut se battre!\\r",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "You are challenged by {B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}!",
+    "msgstr": "{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME} veulent se battre!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 101,
+    "ancien": "{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME} veulent se battre!",
+    "preuve": "197:971 — {STRVAR_1 3, 0, 0} et {STRVAR_1 3, 1, 0}\\nveulent se battre!\\r",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_TRAINER1_NAME_WITH_CLASS} sent out {B_OPPONENT_MON1_NAME}!",
+    "msgstr": "{B_TRAINER1_NAME_WITH_CLASS} envoie {B_OPPONENT_MON1_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 102,
+    "ancien": "{B_TRAINER1_NAME_WITH_CLASS} envoie {B_OPPONENT_MON1_NAME}!",
+    "preuve": "197:974 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_TRAINER1_NAME_WITH_CLASS} sent out {B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME}!",
+    "msgstr": "{B_TRAINER1_NAME_WITH_CLASS} envoie {B_OPPONENT_MON1_NAME} et {B_OPPONENT_MON2_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 103,
+    "ancien": "{B_TRAINER1_NAME_WITH_CLASS} envoie {B_OPPONENT_MON1_NAME} et {B_OPPONENT_MON2_NAME}!",
+    "preuve": "197:975 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0} et {STRVAR_1 1, 2, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_TRAINER1_NAME_WITH_CLASS} sent out {B_BUFF1}!",
+    "msgstr": "{B_TRAINER1_NAME_WITH_CLASS} envoie {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 104,
+    "ancien": "{B_TRAINER1_NAME_WITH_CLASS} envoie {B_BUFF1}!",
+    "preuve": "197:974 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_LINK_OPPONENT1_NAME} sent out {B_OPPONENT_MON1_NAME}!",
+    "msgstr": "{B_LINK_OPPONENT1_NAME} envoie {B_OPPONENT_MON1_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 105,
+    "ancien": "{B_LINK_OPPONENT1_NAME} envoie {B_OPPONENT_MON1_NAME}!",
+    "preuve": "197:974 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_LINK_OPPONENT2_NAME} sent out {B_OPPONENT_MON2_NAME}!",
+    "msgstr": "{B_LINK_OPPONENT2_NAME} envoie {B_OPPONENT_MON2_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 106,
+    "ancien": "{B_LINK_OPPONENT2_NAME} envoie {B_OPPONENT_MON2_NAME}!",
+    "preuve": "197:974 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_LINK_OPPONENT1_NAME} sent out {B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME}!",
+    "msgstr": "{B_LINK_OPPONENT1_NAME} envoie {B_OPPONENT_MON1_NAME} et {B_OPPONENT_MON2_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 107,
+    "ancien": "{B_LINK_OPPONENT1_NAME} envoie {B_OPPONENT_MON1_NAME} et {B_OPPONENT_MON2_NAME}!",
+    "preuve": "197:975 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0} et {STRVAR_1 1, 2, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_LINK_OPPONENT1_NAME} sent out {B_LINK_OPPONENT_MON1_NAME}! {B_LINK_OPPONENT2_NAME} sent out {B_LINK_OPPONENT_MON2_NAME}!",
+    "msgstr": "{B_LINK_OPPONENT1_NAME} envoie {B_LINK_OPPONENT_MON1_NAME}! {B_LINK_OPPONENT2_NAME} envoie {B_LINK_OPPONENT_MON2_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 108,
+    "ancien": "{B_LINK_OPPONENT1_NAME} envoie {B_LINK_OPPONENT_MON1_NAME}! {B_LINK_OPPONENT2_NAME} envoie {B_LINK_OPPONENT_MON2_NAME}!",
+    "preuve": "197:976 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!\\f{STRVAR_1 3, 2, 0} envoie\\f{STRVAR_1 1, 3, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_LINK_OPPONENT1_NAME} sent out {B_BUFF1}!",
+    "msgstr": "{B_LINK_OPPONENT1_NAME} envoie {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 109,
+    "ancien": "{B_LINK_OPPONENT1_NAME} envoie {B_BUFF1}!",
+    "preuve": "197:974 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_LINK_PARTNER_NAME} sent out {B_LINK_PLAYER_MON1_NAME}!",
+    "msgstr": "{B_LINK_PARTNER_NAME} envoie {B_LINK_PLAYER_MON1_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 120,
+    "ancien": "{B_LINK_PARTNER_NAME} envoie {B_LINK_PLAYER_MON1_NAME}!",
+    "preuve": "197:974 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_LINK_PARTNER_NAME} sent out {B_LINK_PLAYER_MON2_NAME}!",
+    "msgstr": "{B_LINK_PARTNER_NAME} envoie {B_LINK_PLAYER_MON2_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 121,
+    "ancien": "{B_LINK_PARTNER_NAME} envoie {B_LINK_PLAYER_MON2_NAME}!",
+    "preuve": "197:974 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "OK, {B_BUFF1}! Come back!",
+    "msgstr": "OK, {B_BUFF1}! Reviens!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 127,
+    "ancien": "OK, {B_BUFF1}! Reviens!",
+    "preuve": "197:986 — OK, {STRVAR_1 1, 0, 0}!\\nReviens!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX}'s attack missed!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} rate son attaque!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 206,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} rate son attaque!",
+    "preuve": "197:12 — {STRVAR_1 1, 0, 0}\\nrate son attaque!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} protected itself!",
+    "msgstr": "{B_SCR_NAME_WITH_PREFIX} se protège!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 207,
+    "ancien": "{B_SCR_NAME_WITH_PREFIX} se protège!",
+    "preuve": "197:15 — {STRVAR_1 1, 0, 0}\\nse protège!",
+    "note": "autre(s) variante(s) SS : {B_SCR_NAME_WITH_PREFIX} est prêt à se protéger! ; identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "It doesn't affect {B_DEF_NAME_WITH_PREFIX2}…",
+    "msgstr": "Ça n’affecte pas {B_DEF_NAME_WITH_PREFIX2}…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 209,
+    "ancien": "Ça n’affecte pas {B_DEF_NAME_WITH_PREFIX2}…",
+    "preuve": "197:27 — Ça n’affecte pas\\n{STRVAR_1 1, 0, 0}...",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "It doesn't affect {B_SCR_NAME_WITH_PREFIX2}…",
+    "msgstr": "Ça n’affecte pas {B_SCR_NAME_WITH_PREFIX2}…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 210,
+    "ancien": "Ça n’affecte pas {B_SCR_NAME_WITH_PREFIX2}…",
+    "preuve": "197:27 — Ça n’affecte pas\\n{STRVAR_1 1, 0, 0}...",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_EFF_NAME_WITH_PREFIX} fell asleep!",
+    "msgstr": "{B_EFF_NAME_WITH_PREFIX} s’endort!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 219,
+    "ancien": "{B_EFF_NAME_WITH_PREFIX} s’endort!",
+    "preuve": "197:47 — {STRVAR_1 1, 0, 0}\\ns’endort!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} is already asleep!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} dort déjà!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 221,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} dort déjà!",
+    "preuve": "197:57 — {STRVAR_1 1, 0, 0} dort déjà!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} is already asleep!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} dort déjà!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 222,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} dort déjà!",
+    "preuve": "197:57 — {STRVAR_1 1, 0, 0} dort déjà!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_EFF_NAME_WITH_PREFIX} was poisoned!",
+    "msgstr": "{B_EFF_NAME_WITH_PREFIX} est empoisonné!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 223,
+    "ancien": "{B_EFF_NAME_WITH_PREFIX} est empoisonné!",
+    "preuve": "197:63 — {STRVAR_1 1, 0, 0}\\nest empoisonné!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_EFF_NAME_WITH_PREFIX} was burned!",
+    "msgstr": "{B_EFF_NAME_WITH_PREFIX} est brûlé!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 229,
+    "ancien": "{B_EFF_NAME_WITH_PREFIX} est brûlé!",
+    "preuve": "197:85 — {STRVAR_1 1, 0, 0} est brûlé!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} burned {B_EFF_NAME_WITH_PREFIX2}!",
+    "msgstr": "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} brûle {B_EFF_NAME_WITH_PREFIX2}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 230,
+    "ancien": "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} brûle {B_EFF_NAME_WITH_PREFIX2}!",
+    "preuve": "197:88 — {STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0}\\nbrûle {STRVAR_1 1, 2, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_EFF_NAME_WITH_PREFIX} was frozen solid!",
+    "msgstr": "{B_EFF_NAME_WITH_PREFIX} est gelé!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 232,
+    "ancien": "{B_EFF_NAME_WITH_PREFIX} est gelé!",
+    "preuve": "197:101 — {STRVAR_1 1, 0, 0} est gelé!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} froze {B_EFF_NAME_WITH_PREFIX2} solid!",
+    "msgstr": "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} gèle {B_EFF_NAME_WITH_PREFIX2}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 233,
+    "ancien": "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} gèle {B_EFF_NAME_WITH_PREFIX2}!",
+    "preuve": "197:104 — {STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0}\\ngèle {STRVAR_1 1, 2, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} is frozen solid!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} est gelé!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 234,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} est gelé!",
+    "preuve": "197:111 — {STRVAR_1 1, 0, 0} est gelé!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} is already paralyzed!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} est déjà paralysé!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 240,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} est déjà paralysé!",
+    "preuve": "197:133 — {STRVAR_1 1, 0, 0} est déjà\\nparalysé!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} is confused!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} est confus!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 244,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} est confus!",
+    "preuve": "197:150 — {STRVAR_1 1, 0, 0} est confus!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} is already confused!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} est déjà confus!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 247,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} est déjà confus!",
+    "preuve": "197:159 — {STRVAR_1 1, 0, 0} est\\ndéjà confus!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} is in love with {B_SCR_NAME_WITH_PREFIX2}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} est amoureux de {B_SCR_NAME_WITH_PREFIX2}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 249,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} est amoureux de {B_SCR_NAME_WITH_PREFIX2}!",
+    "preuve": "197:165 — {STRVAR_1 1, 0, 0} est amoureux\\nde {STRVAR_1 1, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} transformed into the {B_BUFF1} type!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} prend le type {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 251,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} prend le type {B_BUFF1}!",
+    "preuve": "197:178 — {STRVAR_1 1, 0, 0} prend le\\ntype {STRVAR_1 15, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} went to sleep!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} s’endort!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 260,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} s’endort!",
+    "preuve": "197:205 — {STRVAR_1 1, 0, 0} s’endort!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} flew up high!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} s’envole!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 266,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} s’envole!",
+    "preuve": "197:223 — {STRVAR_1 1, 0, 0} s’envole!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} was wrapped by {B_ATK_NAME_WITH_PREFIX2}!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} est ligoté par {B_ATK_NAME_WITH_PREFIX2}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 270,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} est ligoté par {B_ATK_NAME_WITH_PREFIX2}!",
+    "preuve": "197:248 — {STRVAR_1 1, 0, 0} est ligoté\\npar {STRVAR_1 1, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} kept going and crashed!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} s’écrase au sol!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 274,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} s’écrase au sol!",
+    "preuve": "197:268 — {STRVAR_1 1, 0, 0} s’écrase au\\nsol!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} protected itself!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} se protège!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 279,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} se protège!",
+    "preuve": "197:15 — {STRVAR_1 1, 0, 0}\\nse protège!",
+    "note": "autre(s) variante(s) SS : {B_ATK_NAME_WITH_PREFIX} est prêt à se protéger! ; identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} was seeded!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} est infecté!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 282,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} est infecté!",
+    "preuve": "197:290 — {STRVAR_1 1, 0, 0} est infecté!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} avoided the attack!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} évite l’attaque!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 283,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} évite l’attaque!",
+    "preuve": "197:24 — {STRVAR_1 1, 0, 0} évite\\nl’attaque!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX}'s health is sapped by Leech Seed!",
+    "msgstr": "Vampigraine draine l’énergie de {B_ATK_NAME_WITH_PREFIX}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 284,
+    "ancien": "Vampigraine draine l’énergie de {B_ATK_NAME_WITH_PREFIX}!",
+    "preuve": "197:296 — Vampigraine draine\\nl’énergie de {STRVAR_1 1, 0, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} is fast asleep.",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} dort profondément.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 285,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} dort profondément.",
+    "preuve": "197:299 — {STRVAR_1 1, 0, 0} dort\\nprofondément.",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} calmed down.",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} se calme.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 290,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} se calme.",
+    "preuve": "197:314 — {STRVAR_1 1, 0, 0} se calme.",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} is unaffected!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} n’est pas affecté!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 299,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} n’est pas affecté!",
+    "preuve": "197:342 — {STRVAR_1 1, 0, 0} n’est pas\\naffecté!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} transformed into {B_BUFF1}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} se transforme en {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 300,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} se transforme en {B_BUFF1}!",
+    "preuve": "197:345 — {STRVAR_1 1, 0, 0} se transforme\\nen {STRVAR_1 0, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} already has a substitute!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} a déjà un clone!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 302,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} a déjà un clone!",
+    "preuve": "197:351 — {STRVAR_1 1, 0, 0} a déjà un clone!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} took aim at {B_DEF_NAME_WITH_PREFIX2}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} vise {B_DEF_NAME_WITH_PREFIX2}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 313,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} vise {B_DEF_NAME_WITH_PREFIX2}!",
+    "preuve": "197:378 — {STRVAR_1 1, 0, 0} vise\\n{STRVAR_1 1, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "Magnitude {B_BUFF1}!",
+    "msgstr": "Ampleur {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 330,
+    "ancien": "Ampleur {B_BUFF1}!",
+    "preuve": "197:448 — Ampleur {STRVAR_1 50, 0, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} foresaw an attack!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} prévoit une attaque!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 337,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} prévoit une attaque!",
+    "preuve": "197:472 — {STRVAR_1 1, 0, 0} prévoit une\\nattaque!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_BUFF1}'s attack!",
+    "msgstr": "Attaque de {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 339,
+    "ancien": "Attaque de {B_BUFF1}!",
+    "preuve": "197:481 — Attaque de {STRVAR_1 1, 0, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} is ready to help {B_DEF_NAME_WITH_PREFIX2}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} est prêt à aider {B_DEF_NAME_WITH_PREFIX2}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 350,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} est prêt à aider {B_DEF_NAME_WITH_PREFIX2}!",
+    "preuve": "197:503 — {STRVAR_1 1, 0, 0} est prêt à aider\\n{STRVAR_1 1, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} was protected by {B_DEF_ABILITY}!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} est protégé par {B_DEF_ABILITY}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 369,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} est protégé par {B_DEF_ABILITY}!",
+    "preuve": "197:625 — {STRVAR_1 1, 0, 0} est protégé\\npar {STRVAR_1 5, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} prevents {B_ATK_NAME_WITH_PREFIX2} from using {B_CURRENT_MOVE}!",
+    "msgstr": "{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} empêche {B_ATK_NAME_WITH_PREFIX2} d’utiliser {B_CURRENT_MOVE}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 370,
+    "ancien": "{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} empêche {B_ATK_NAME_WITH_PREFIX2} d’utiliser {B_CURRENT_MOVE}!",
+    "preuve": "197:628 — {STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0}\\nempêche {STRVAR_1 1, 2, 0} d’utiliser\\f{STRVAR_1 6, 3, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "And…\\p",
+    "msgstr": "Et…\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 391,
+    "ancien": "Et…\\p",
+    "preuve": "197:777 — Et...",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} ignored orders!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} ignore les ordres!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 446,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} ignore les ordres!",
+    "preuve": "197:826 — {STRVAR_1 1, 0, 0} ignore les\\nordres!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} began to nap!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} fait la sieste!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 447,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} fait la sieste!",
+    "preuve": "197:827 — {STRVAR_1 1, 0, 0} fait la sieste!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} won't obey!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} n’obéit pas!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 449,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} n’obéit pas!",
+    "preuve": "197:829 — {STRVAR_1 1, 0, 0} n’obéit pas!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} turned away!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} tourne le dos!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 450,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} tourne le dos!",
+    "preuve": "197:830 — {STRVAR_1 1, 0, 0} tourne le dos!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} hung on using its {B_LAST_ITEM}!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} tient bon grâce à {B_LAST_ITEM}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 473,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} tient bon grâce à {B_LAST_ITEM}!",
+    "preuve": "197:912 — {STRVAR_1 1, 0, 0} tient bon grâce\\nà {STRVAR_1 8, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} transformed!",
+    "msgstr": "{B_SCR_NAME_WITH_PREFIX} se transforme!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 482,
+    "ancien": "{B_SCR_NAME_WITH_PREFIX} se transforme!",
+    "preuve": "197:721 — {STRVAR_1 1, 0, 0} se transforme!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} hid underwater!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} se cache sous l’eau!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 485,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} se cache sous l’eau!",
+    "preuve": "197:229 — {STRVAR_1 1, 0, 0} se cache sous\\nl’eau!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} sprang up!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} bondit!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 486,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} bondit!",
+    "preuve": "197:232 — {STRVAR_1 1, 0, 0} bondit!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} found one {B_LAST_ITEM}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} trouve {B_LAST_ITEM}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 488,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} trouve {B_LAST_ITEM}!",
+    "preuve": "197:589 — {STRVAR_1 1, 0, 0} trouve\\n{STRVAR_1 8, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} avoided the attack!",
+    "msgstr": "{B_SCR_NAME_WITH_PREFIX} évite l’attaque!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 511,
+    "ancien": "{B_SCR_NAME_WITH_PREFIX} évite l’attaque!",
+    "preuve": "197:24 — {STRVAR_1 1, 0, 0} évite\\nl’attaque!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} went back to {B_ATK_TRAINER_NAME}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} revient vers {B_ATK_TRAINER_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 549,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} revient vers {B_ATK_TRAINER_NAME}!",
+    "preuve": "197:1067 — {STRVAR_1 1, 0, 0} revient vers\\n{STRVAR_1 3, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} surrounded itself with a veil of water!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} s’entoure d’un voile d’eau!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 559,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} s’entoure d’un voile d’eau!",
+    "preuve": "197:1027 — {STRVAR_1 1, 0, 0} s’entoure d’un\\nvoile d’eau!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} twisted the dimensions!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} fausse les dimensions!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 561,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} fausse les dimensions!",
+    "preuve": "197:1070 — {STRVAR_1 1, 0, 0} fausse les\\ndimensions!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} was poisoned!",
+    "msgstr": "{B_SCR_NAME_WITH_PREFIX} est empoisonné!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 618,
+    "ancien": "{B_SCR_NAME_WITH_PREFIX} est empoisonné!",
+    "preuve": "197:63 — {STRVAR_1 1, 0, 0}\\nest empoisonné!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} was badly poisoned!",
+    "msgstr": "{B_SCR_NAME_WITH_PREFIX} est gravement empoisonné!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 619,
+    "ancien": "{B_SCR_NAME_WITH_PREFIX} est gravement empoisonné!",
+    "preuve": "197:79 — {STRVAR_1 1, 0, 0} est gravement\\nempoisonné!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_OPPONENT_MON1_NAME} is eating!",
+    "msgstr": "{B_OPPONENT_MON1_NAME} mange!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 884,
+    "ancien": "{B_OPPONENT_MON1_NAME} mange!",
+    "preuve": "197:852 — {STRVAR_1 0, 0, 0} mange!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "What will\\n{B_BUFF1} do?",
+    "msgstr": "Que doit faire\\n{B_BUFF1}?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 1421,
+    "ancien": "Que doit faire\\n{B_BUFF1}?",
+    "preuve": "197:921 — Que doit faire\\n{STRVAR_1 1, 0, 0}?{YESNO 0}",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_TRAINER2_NAME_WITH_CLASS} sent out {B_BUFF1}!",
+    "msgstr": "{B_TRAINER2_NAME_WITH_CLASS} envoie {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 1485,
+    "ancien": "{B_TRAINER2_NAME_WITH_CLASS} envoie {B_BUFF1}!",
+    "preuve": "197:974 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON1_NAME}!",
+    "msgstr": "{B_PARTNER_NAME_WITH_CLASS} envoie {B_PLAYER_MON1_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 1489,
+    "ancien": "{B_PARTNER_NAME_WITH_CLASS} envoie {B_PLAYER_MON1_NAME}!",
+    "preuve": "197:974 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON2_NAME}!",
+    "msgstr": "{B_PARTNER_NAME_WITH_CLASS} envoie {B_PLAYER_MON2_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 1490,
+    "ancien": "{B_PARTNER_NAME_WITH_CLASS} envoie {B_PLAYER_MON2_NAME}!",
+    "preuve": "197:974 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{STR_VAR_1} is trembling with fear.",
+    "msgstr": "{STR_VAR_1} tremble de peur.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 54,
+    "ancien": "{STR_VAR_1} tremble de peur.",
+    "preuve": "265:704 — {STRVAR_1 1, 0, 0} tremble de peur.",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "Take good care of {STR_VAR_3}!",
+    "msgstr": "Prends bien soin de {STR_VAR_3}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/strings.c",
+    "ligne": 1072,
+    "ancien": "Prends bien soin de {STR_VAR_3}!",
+    "preuve": "179:3 — Prends bien soin de {STRVAR_1 0, 1, 0}!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}The trade has\\nbeen canceled.",
+    "msgstr": "{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}L’échange a été\\nannulé.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trade.h",
+    "ligne": 53,
+    "ancien": "{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}L’échange a été\\nannulé.",
+    "preuve": "183:24 — L’échange a été\\nannulé.",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "The trade will be started.{PAUSE 60}",
+    "msgstr": "L’échange va commencer.{PAUSE 60}",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/union_room.h",
+    "ligne": 283,
+    "ancien": "L’échange va commencer.{PAUSE 60}",
+    "preuve": "738:27 — L’échange va commencer.",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "The battle will be started.{PAUSE 60}",
+    "msgstr": "Le combat va commencer.{PAUSE 60}",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/union_room.h",
+    "ligne": 284,
+    "ancien": "Le combat va commencer.{PAUSE 60}",
+    "preuve": "738:22 — Le combat va commencer.",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{STR_VAR_1} is scared and snuggled\\nup to you!",
+    "msgstr": "{STR_VAR_1} a peur et se blottit\\ncontre vous!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 225,
+    "ancien": "{STR_VAR_1} a peur et se blottit\\ncontre vous!",
+    "preuve": "265:181 — {STRVAR_1 1, 0, 0} a peur et se blottit\\ncontre vous!",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "COOLTRAINER",
+    "msgstr": "Topdresseur",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_main.c",
+    "ligne": 314,
+    "ancien": "Topdresseur",
+    "preuve": "730:24 — Topdresseur",
+    "note": "équivalence de classe HGSS : Ace Trainer ; identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "POKéMANIAC",
+    "msgstr": "Pokémaniac",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_main.c",
+    "ligne": 332,
+    "ancien": "Pokémaniac",
+    "preuve": "730:68 — Pokémaniac",
+    "note": "équivalence de classe HGSS : Poké Maniac ; identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "MUK",
+    "msgstr": "GROTADMORV",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/battle_frontier/trainer_hill.h",
+    "ligne": 5914,
+    "ancien": "GROTADMORV",
+    "preuve": "237:89 — GROTADMORV",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "FLY",
+    "msgstr": "Vol",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 616,
+    "ancien": "Vol",
+    "preuve": "750:19 — Vol",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "DIG",
+    "msgstr": "Tunnel",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 2499,
+    "ancien": "Tunnel",
+    "preuve": "750:91 — Tunnel",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "MEW",
+    "msgstr": "MEW",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+    "ligne": 21524,
+    "ancien": "MEW",
+    "preuve": "237:151 — MEW",
+    "note": "identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "You may battle with your friends\\nhere.",
+    "msgstr": "Vous pouvez affronter vos amis ici.",
+    "source": "SoulSilver FR officiel (adapté)",
+    "fichier": "data/scripts/cable_club_frlg.inc",
+    "ligne": 1426,
+    "ancien": "Vous pouvez affronter vos amis ici.",
+    "preuve": "46:0 — Vous pouvez affronter vos amis ici.",
+    "note": "pages 2-2/2 ; identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "MOM: Here you go!",
+    "msgstr": "Maman: Et voilà!",
+    "source": "SoulSilver FR officiel (adapté)",
+    "fichier": "data/maps/NewBarkTown_PlayersHouse_1F_hns/scripts.inc",
+    "ligne": 190,
+    "ancien": "Maman: Et voilà!",
+    "preuve": "426:39 — Et voilà!\\r",
+    "note": "interlocuteur MOM → Maman ; identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "We've been waiting for you!",
+    "msgstr": "Nous vous attendions!",
+    "source": "SoulSilver FR officiel (adapté)",
+    "fichier": "data/maps/BattleFrontier_BattleDomeLobby/scripts.inc",
+    "ligne": 546,
+    "ancien": "Nous vous attendions!",
+    "preuve": "96:16 — Nous vous attendions!",
+    "note": "pages 1-1/2 ; identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "Your POKéMON party is full.\\nMake room, then come see me.",
+    "msgstr": "Ton équipe Pokémon est au complet.\\nFais de la place et reviens me voir.",
+    "source": "SoulSilver FR officiel (adapté)",
+    "fichier": "data/text/day_care_frlg.inc",
+    "ligne": 98,
+    "ancien": "Ton équipe Pokémon est au complet.\\nFais de la place et reviens me voir.",
+    "preuve": "439:32 — Ton équipe Pokémon est au complet.\\nFais de la place et reviens me voir.",
+    "note": "relu à la main : anglais HnS proche, texte SS repris tel quel ; identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} is protected by the mist!",
+    "msgstr": "{B_SCR_NAME_WITH_PREFIX} est protégé par la Brume!",
+    "source": "SoulSilver FR officiel (adapté)",
+    "fichier": "src/battle_message.c",
+    "ligne": 276,
+    "ancien": "{B_SCR_NAME_WITH_PREFIX} est protégé par la Brume!",
+    "preuve": "197:273 — {STRVAR_1 1, 0, 0} est protégé par\\nla Brume!",
+    "note": "formulation anglaise : «  » / « the » ; identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "The sandstorm is raging.",
+    "msgstr": "La tempête de sable fait rage.",
+    "source": "SoulSilver FR officiel (adapté)",
+    "fichier": "src/battle_message.c",
+    "ligne": 408,
+    "ancien": "La tempête de sable fait rage.",
+    "preuve": "197:873 — La tempête de sable\\nfait rage.",
+    "note": "formulation anglaise : « a » / « the » ; identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "A corkscrewing attack with\\nthe beak acting as a drill.",
+    "msgstr": "Une attaque utilisant le\\nbec comme une perceuse.",
+    "source": "SoulSilver FR officiel (adapté)",
+    "fichier": "src/data/moves_info.h",
+    "ligne": 1825,
+    "ancien": "Une attaque utilisant le\\nbec comme une perceuse.",
+    "preuve": "749:65 — Une attaque utilisant\\nle bec comme une\\nperceuse.",
+    "note": "relu à la main : anglais HnS proche, texte SS repris tel quel ; identique au msgstr actuel : seule la source change"
+  },
+  {
+    "msgid": "Oh, all right.\\nCome see me anytime, okay?\\p",
+    "msgstr": "Bon, OK.\\nA la prochaine alors.\\p",
+    "source": "SoulSilver FR officiel (adapté)",
+    "fichier": "src/data/union_room.h",
+    "ligne": 339,
+    "ancien": "Bon, OK.\\nA la prochaine alors.\\p",
+    "preuve": "738:76 — Bon, OK.\\nA la prochaine alors.",
+    "note": "anglais identique aux espaces/abréviations près ; identique au msgstr actuel : seule la source change"
+  }
+]

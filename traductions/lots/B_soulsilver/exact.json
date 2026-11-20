@@ -1,0 +1,3779 @@
+[
+  {
+    "msgid": "Is there anything else I may do for you?",
+    "msgstr": "Souhaitez-vous autre chose?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/text/move_relearner.inc",
+    "ligne": 21,
+    "ancien": "Puis-je faire autre chose pour vous?",
+    "preuve": "435:6 — Souhaitez-vous autre chose? {YESNO 0}"
+  },
+  {
+    "msgid": "Accessed {PLAYER}'s PC.",
+    "msgstr": "Accès au PC de {PLAYER}.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/text/pc.inc",
+    "ligne": 14,
+    "ancien": "PC de {PLAYER} connecté.",
+    "preuve": "40:36 — Accès au PC de {STRVAR_1 3, 0, 0}.\\r"
+  },
+  {
+    "msgid": "Hello, and welcome to\\nthe POKéMON CENTER.\\pWe restore your tired POKéMON\\nto full health.\\pWould you like to rest your POKéMON?",
+    "msgstr": "Bonjour! Bienvenue au\\nCentre Pokémon.\\pNous pouvons soigner vos Pokémon.\\pVoulez-vous les soigner?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/text/pkmn_center_nurse.inc",
+    "ligne": 2,
+    "ancien": "Bonjour! Bienvenue au CENTRE\\nPOKéMON.\\pNous pouvons soigner vos Pokémon.\\pVoulez-vous les soigner?",
+    "preuve": "40:0 — Bonjour! Bienvenue au\\nCentre Pokémon.\\rNous pouvons soigner vos Pokémon.\\rVoulez-vous les soigner? {YESNO 0}"
+  },
+  {
+    "msgid": "Wow!\\nThat is a complete Johto POKéDEX!\\pThanks to you, {PLAYER}, the Johto\\nPOKéDEX is complete!\\pWow...\\nYou've done an incredible job!",
+    "msgstr": "Oh!\\nLe Pokédex de Johto est complet!\\pEt c’est grâce à toi, {PLAYER}!\\pTu es quelqu’un d’exceptionnel!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/text/pokedex_rating.inc",
+    "ligne": 356,
+    "ancien": "Ouah!\\nUn Pokédex de Johto complet!\\pGrâce à toi, {PLAYER},\\nle Pokédex de Johto est fini!\\pOuah…\\nTu as fait un travail incroyable!",
+    "preuve": "666:22 — Oh!\\nLe Pokédex de Johto est complet!\\rEt c’est grâce à toi, {STRVAR_1 3, 0, 0}!\\rTu es quelqu’un d’exceptionnel!"
+  },
+  {
+    "msgid": "This rock appears to be breakable.\\nWould you like to use ROCK SMASH?",
+    "msgstr": "Ce bloc de pierre peut être brisé.\\nVoulez-vous utiliser Eclate-Roc?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/scripts/field_move_scripts.inc",
+    "ligne": 221,
+    "ancien": "Ce rocher a l’air fragile. Voulez-vous\\nutiliser Éclate-Roc?",
+    "preuve": "211:3 — Ce bloc de pierre peut être brisé.\\nVoulez-vous utiliser Eclate-Roc? {YESNO 0}"
+  },
+  {
+    "msgid": "It's a big boulder, but a POKéMON\\nmay be able to push it aside.\\pWould you like to use STRENGTH?",
+    "msgstr": "C’est un gros rocher, mais un Pokémon\\npeut être apte à le déplacer.\\pVoulez-vous utiliser Force?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/scripts/field_move_scripts.inc",
+    "ligne": 271,
+    "ancien": "C’est un gros rocher, mais un Pokémon\\npourrait peut-être le déplacer.\\pVoulez-vous utiliser Force?",
+    "preuve": "211:7 — C’est un gros rocher, mais un Pokémon\\npeut être apte à le déplacer.\\rVoulez-vous utiliser Force? {YESNO 0}"
+  },
+  {
+    "msgid": "{STR_VAR_1} used STRENGTH!\\p{STR_VAR_1}'s STRENGTH made it\\npossible to move boulders around!",
+    "msgstr": "{STR_VAR_1} utilise Force.\\pLa capacité Force de {STR_VAR_1}\\npermet de déplacer le rocher.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/scripts/field_move_scripts.inc",
+    "ligne": 276,
+    "preuve": "211:8 — {STRVAR_1 0, 0, 0} utilise Force.\\rLa capacité Force de {STRVAR_1 0, 0, 0}\\npermet de déplacer le rocher."
+  },
+  {
+    "msgid": "{STR_VAR_1} used Rock Climb!",
+    "msgstr": "{STR_VAR_1} utilise Escalade.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/scripts/field_move_scripts.inc",
+    "ligne": 476,
+    "ancien": "{STR_VAR_1} utilise Escalade!",
+    "preuve": "211:21 — {STRVAR_1 0, 0, 0} utilise Escalade.\\r",
+    "note": "autre(s) variante(s) SS : {STR_VAR_1} utilise\\nEscalade!"
+  },
+  {
+    "msgid": "A TOWN MAP.",
+    "msgstr": "Carte",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/scripts/flavor_text.inc",
+    "ligne": 126,
+    "preuve": "223:442 — {COLOR 255}Carte{COLOR 0}"
+  },
+  {
+    "msgid": "Would you like to exit the SAFARI\\nZONE right now?",
+    "msgstr": "Voulez-vous quitter la partie?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/scripts/safari_zone.inc",
+    "ligne": 125,
+    "ancien": "Voulez-vous quitter le Parc Safari\\ntout de suite?",
+    "preuve": "427:3 — Voulez-vous quitter la partie? {YESNO 0}"
+  },
+  {
+    "msgid": "You must be {PLAYER},\\ncorrect? That was indeed\\lexcellent.\\pKind and strong... Good at\\nraising POKéMON as well...\\pThat person does know what\\nto look for in people...\\pOhoho! That was just me\\ntalking to myself.\\lNever mind.",
+    "msgstr": "Tu t’appelles {PLAYER}, c’est bien\\ncela? Ta victoire fut éclatante!\\pLa manière dont tu as élevé tes\\nPokémon, avec douceur et fermeté\\là la fois, est exceptionnelle!\\pA n’en point douter, tu es…\\pOublie ces derniers mots. Ce ne\\nsont que mes élucubrations.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/EcruteakCity_Theater_hns/scripts.inc",
+    "ligne": 197,
+    "ancien": "Tu dois être {PLAYER},\\nn’est-ce pas? C’était vraiment\\lexcellent.\\pBonté et force… Et du talent\\npour élever les Pokémon…\\pCette personne sait vraiment\\njuger les gens…\\pOhoho! Je pensais tout haut.\\lN’y fais pas attention.",
+    "preuve": "618:9 — Tu t’appelles {STRVAR_1 3, 0, 0}, c’est bien\\ncela? Ta victoire fut éclatante!\\rLa manière dont tu as élevé tes\\nPokémon, avec douceur et fermeté\\fà la fois, est exceptionnelle!\\rA n’en point douter, tu es...\\rOublie ces derniers mots. Ce ne\\nsont que mes élucubrations."
+  },
+  {
+    "msgid": "ZUKI: {PLAYER}!\\nWe'll be at the WHIRL ISLANDS.\\lSee you there!",
+    "msgstr": "Tamao: Jeune {PLAYER}!\\nNous partons sans plus attendre\\lpour les Tourb’Iles!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/EcruteakCity_Theater_hns/scripts.inc",
+    "ligne": 1064,
+    "ancien": "ZUKI: {PLAYER}!\\nNous serons aux Tourb’Iles.\\lÀ tout à l’heure!",
+    "preuve": "618:24 — Tamao: Jeune {STRVAR_1 3, 0, 0}!\\nNous partons sans plus attendre\\fpour les Tourb’Iles!\\r"
+  },
+  {
+    "msgid": "How'd you like my MOOMOO MILK?\\pIt's my pride and joy, there.\\pGive it to POKéMON to restore HP!\\pI'll give it to ya fer just\\n¥500.",
+    "msgstr": "Qu’est-ce que tu dirais d’un peu\\nd’Lait Meumeu, not’spécialité?\\pSi t’en donnes à un Pokémon, ça\\nle soigne bien!\\pC’est 500¥ la bouteille!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route39_FarmHouse_hns/scripts.inc",
+    "ligne": 92,
+    "ancien": "Y t’plaît, mon Lait Meumeu?\\pC’est ma fierté, ça!\\pDonne-le à tes Pokémon pour leur\\nrendre des PV!\\pJ’te l’fais pour seulement\\n500¥.",
+    "preuve": "397:1 — Qu’est-ce que tu dirais d’un peu\\nd’Lait Meumeu, not’spécialité?\\rSi t’en donnes à un Pokémon, ça\\nle soigne bien!\\rC’est 500 $ la bouteille! {YESNO 0}"
+  },
+  {
+    "msgid": "I, I'm in shock!\\pA guy about your age with piercing\\neyes and long hair came in.\\pHe scared me into giving him my\\nprized POKéMON!\\pI still have one left, but what if\\nhe comes back?\\pYou look strong. Could you look\\nafter my POKéMON for a while?",
+    "msgstr": "C’est vraiment affreux…\\pUn garçon à peu près de ton âge,\\navec un regard méchant,\\lde longs cheveux rouges,\\let un air patibulaire,\\lm’a volé un de mes Pokémon!\\pIl m’en reste encore un, mais s’il\\nrevient, il va me le voler aussi…\\pToi, tu respires la force…\\nTu peux le prendre avec toi?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/CianwoodHouse3_hns/scripts.inc",
+    "ligne": 73,
+    "ancien": "Je… je suis sous le choc!\\pUn garçon de ton âge, au regard\\nperçant et aux cheveux longs,\\lest entré ici.\\pIl m’a forcé à lui donner mon\\nPOKéMON chéri!\\pIl m’en reste un, mais s’il\\nrevenait?\\pToi, t’es solide. Tu veux bien\\nveiller sur mon Pokémon un temps?",
+    "preuve": "576:0 — C’est vraiment affreux...\\rUn garçon à peu près de ton âge,\\navec un regard méchant,\\fde longs cheveux rouges,\\fet un air patibulaire,\\fm’a volé un de mes Pokémon!\\rIl m’en reste encore un, mais s’il\\nrevient, il va me le voler aussi...\\rToi, tu respires la force...\\nTu peux le prendre avec toi? {YESNO 0}"
+  },
+  {
+    "msgid": "{PLAYER} received a POKéMON.",
+    "msgstr": "{PLAYER} reçoit un Pokémon\\ndu collectionneur!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/CianwoodHouse3_hns/scripts.inc",
+    "ligne": 88,
+    "ancien": "{PLAYER} reçoit un Pokémon.",
+    "preuve": "576:2 — {STRVAR_1 3, 0, 0} reçoit un Pokémon\\ndu collectionneur!"
+  },
+  {
+    "msgid": "Hi! How's my POKéMON?\\pI think I'm safe now, so may I\\nhave it back?",
+    "msgstr": "Mon Pokémon va bien?\\pJe crois que je suis en sécurité à\\nprésent, je peux le reprendre?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/CianwoodHouse3_hns/scripts.inc",
+    "ligne": 101,
+    "ancien": "Salut! Comment va mon Pokémon?\\pJe crois que je ne risque plus rien.\\nTu peux me le rendre?",
+    "preuve": "576:5 — Mon Pokémon va bien?\\rJe crois que je suis en sécurité à\\nprésent, je peux le reprendre? {YESNO 0}"
+  },
+  {
+    "msgid": "You will be facing opponent no. {STR_VAR_1}.\\nAre you ready?",
+    "msgstr": "L’adversaire numéro {STR_VAR_1} est\\nprêt!\\lOn continue?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc",
+    "ligne": 440,
+    "ancien": "Vous allez affronter l’adversaire nº\\n{STR_VAR_1}. Êtes-vous prêt?",
+    "preuve": "97:1 — L’adversaire numéro {STRVAR_1 50, 0, 0} est prêt!\\nOn continue?"
+  },
+  {
+    "msgid": "Hiya, kid!\\pI see you're new in MAHOGANY TOWN.\\pSince you're new, you should try a\\nyummy RAGECANDYBAR!\\pRight now, it can be yours for just\\n¥300! Want one?",
+    "msgstr": "Hep hep hep!\\pSi tu viens à Acajou, il FAUT essayer\\nles Bonbons Rage! C’est la tradition!\\pC’est seulement 300¥!\\nJe t’en mets un?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Mahoganytown_hns/scripts.inc",
+    "ligne": 251,
+    "ancien": "Salut, toi!\\pPremière fois à Acajou, hein?\\pAlors faut que tu goûtes un\\ndélicieux Bonbon Rage!\\pEn ce moment, il est à toi pour\\nseulement 300¥! Ça te tente?",
+    "preuve": "620:0 — Hep hep hep!\\rSi tu viens à Acajou, il FAUT essayer\\nles Bonbons Rage! C’est la tradition!\\rC’est seulement 300 $!\\nJe t’en mets un? {YESNO 0}"
+  },
+  {
+    "msgid": "Oh, fine then…",
+    "msgstr": "Oh, très bien…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Mahoganytown_hns/scripts.inc",
+    "ligne": 265,
+    "ancien": "Oh, bon, d’accord…",
+    "preuve": "620:9 — Oh, très bien..."
+  },
+  {
+    "msgid": "Oh, no, no, no.",
+    "msgstr": "Oh, non, non, non!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/SixIsland_WaterPath_Frlg/scripts.inc",
+    "ligne": 43,
+    "preuve": "728:158 — Oh, non, non, non!"
+  },
+  {
+    "msgid": "LANCE: I've been waiting for you.\\p{PLAYER}!\\pI knew that you, with your skills,\\nwould eventually reach me here.\\pThere's no need for words now.\\pWe will battle to determine who is\\nthe stronger of the two of us.\\pAs the most powerful trainer and as\\nthe POKéMON LEAGUE CHAMPION…\\pI, LANCE the dragon master, accept\\nyour challenge!",
+    "msgstr": "Peter: Je t’attendais!\\p{PLAYER}!\\pJe savais que tu allais finir par\\narriver jusqu’ici.\\pBon. Assez parlé!\\pNous allons juste nous battre pour\\nsavoir qui est le plus fort.\\pJe suis le Dresseur le plus puissant!\\nLe Maître de la Ligue!\\pL’expert Dracologue!\\nEn garde!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/PokemonLeague_ChampionsRoom_hns/scripts.inc",
+    "ligne": 346,
+    "ancien": "PETER: Je t’attendais.\\p{PLAYER}!\\pJe savais qu’avec ton talent, tu\\nfinirais par arriver jusqu’à moi.\\pPlus besoin de mots.\\pCombattons pour savoir qui de\\nnous deux l’emportera.\\pEn tant que plus puissant Dresseur\\net Maître de la Ligue Pokémon…\\pmoi, PETER, le maître des dragons,\\nj’accepte ton défi!",
+    "preuve": "527:0 — Peter: Je t’attendais!\\r{STRVAR_1 3, 0, 0}!\\rJe savais que tu allais finir par\\narriver jusqu’ici.\\rBon. Assez parlé!\\rNous allons juste nous battre pour\\nsavoir qui est le plus fort.\\rJe suis le Dresseur le plus puissant!\\nLe Maître de la Ligue!\\rL’expert Dracologue!\\nEn garde!\\r"
+  },
+  {
+    "msgid": "…Whew.\\pYou have become truly powerful,\\n{PLAYER}.\\pYour POKéMON have responded to your\\nstrong and upstanding nature.\\pAs a trainer, you will continue to\\ngrow strong with your POKéMON.",
+    "msgstr": "… Eh bien…\\pTu as bien progressé, {PLAYER}.\\pToi et ton équipe êtes en parfaite\\nharmonie.\\pJe suis sûr que vous continuerez à\\nprogresser encore…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/PokemonLeague_ChampionsRoom_hns/scripts.inc",
+    "ligne": 367,
+    "ancien": "…Ouf.\\pTu es devenu vraiment puissant,\\n{PLAYER}.\\pTes Pokémon ont répondu à ta\\nnature forte et droite.\\pEn tant que Dresseur, tu\\ncontinueras de grandir avec eux.",
+    "preuve": "527:2 — ... Eh bien...\\rTu as bien progressé, {STRVAR_1 3, 0, 0}.\\rToi et ton équipe êtes en parfaite\\nharmonie.\\rJe suis sûr que vous continuerez à\\nprogresser encore...\\r"
+  },
+  {
+    "msgid": "LANCE: This is getting to be a bit\\ntoo noisy…\\p{PLAYER}, could you come with me?",
+    "msgstr": "Peter: Eh bien, quelle animation\\ntout d’un coup…\\p{PLAYER}!\\nSuis-moi!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/PokemonLeague_ChampionsRoom_hns/scripts.inc",
+    "ligne": 420,
+    "ancien": "PETER: Ça devient un peu trop\\nbruyant ici…\\p{PLAYER}, tu veux bien me suivre?",
+    "preuve": "527:9 — Peter: Eh bien, quelle animation\\ntout d’un coup...\\r{STRVAR_1 3, 0, 0}!\\nSuis-moi!\\r"
+  },
+  {
+    "msgid": "{PLAYER}: Hi! Do you like POKéMON?\\p{PLAYER}: Uh, no, I just asked you.\\p{PLAYER}: Huh? You're strange!",
+    "msgstr": "{PLAYER}: Salut! Tu aimes\\nles Pokémon?\\p{PLAYER}: Non, pas moi, toi!\\p{PLAYER}: Hé! Tu fais quoi?!\\nT’es trop bizarre!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/SaffronCity_CopyCatsHouse_2F_hns/scripts.inc",
+    "ligne": 212,
+    "ancien": "{PLAYER}: Salut! Tu aimes les\\nPOKéMON?\\p{PLAYER}: Euh, non, c’est moi qui\\nte le demande.\\p{PLAYER}: Hein? T’es bizarre, toi!",
+    "preuve": "541:0 — {STRVAR_1 3, 0, 0}: Salut! Tu aimes\\nles Pokémon?\\r{STRVAR_1 3, 0, 0}: Non, pas moi, toi!\\r{STRVAR_1 3, 0, 0}: Hé! Tu fais quoi?!\\nT’es trop bizarre!\\r"
+  },
+  {
+    "msgid": "I knew I'd lose…",
+    "msgstr": "Pfff… perdu.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/RocketHideout_B2F_hns/scripts.inc",
+    "ligne": 791,
+    "ancien": "Je savais que j’allais perdre…",
+    "preuve": "728:402 — Pfff... perdu.",
+    "note": "autre(s) variante(s) SS : Hum, j’ai perdu?"
+  },
+  {
+    "msgid": "Have you gone to the POKéMON GYM?\\nYou can test your POKéMON and\\pyourself there.\\nIt's a rite of passage for all\\ptrainers!",
+    "msgstr": "As-tu déjà visité une Arène Pokémon?\\nEn y allant, tu apprendras beaucoup\\lde choses, et tes Pokémon aussi.\\pTous les Dresseurs savent ça!\\nTu devrais y aller!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route32_hns/scripts.inc",
+    "ligne": 378,
+    "ancien": "Tu es allé à l’Arène Pokémon?\\nTu peux y tester tes Pokémon et\\pte tester toi-même.\\nC’est un passage obligé pour tous\\ples Dresseurs!",
+    "preuve": "380:3 — As-tu déjà visité une Arène Pokémon?\\nEn y allant, tu apprendras beaucoup\\fde choses, et tes Pokémon aussi.\\rTous les Dresseurs savent ça!\\nTu devrais y aller!"
+  },
+  {
+    "msgid": "How would you like to have this\\ntasty, nutritious SLOWPOKETAIL?\\pFor you right now, just\\n¥1,000,000!\\pYou'll want this!",
+    "msgstr": "Que dirais-tu d’une friandise\\npleine de bons éléments nutritifs?\\pJ’te fais un prix: 1 000 000¥!\\nÇa te dit?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route32_hns/scripts.inc",
+    "ligne": 399,
+    "ancien": "Ça te dirait, cette délicieuse et\\nnutritive QUEUE DE RAMOLOSS?\\pRien que pour toi, maintenant,\\npour 1 000 000¥!\\pTu ne peux pas refuser!",
+    "preuve": "380:14 — Que dirais-tu d’une friandise\\npleine de bons éléments nutritifs?\\rJ’te fais un prix: 1 000 000 $!\\nÇa te dit? {YESNO 0}"
+  },
+  {
+    "msgid": "Tch! I thought kids\\nthese days were loaded…",
+    "msgstr": "T’as pas assez d’argent!\\pTss! Et moi qui pensais que les\\nenfants de nos jours étaient pleins\\lde tunes…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route32_hns/scripts.inc",
+    "ligne": 406,
+    "ancien": "Tss! Je croyais que les jeunes\\nd’aujourd’hui étaient riches…",
+    "preuve": "380:15 — T’as pas assez d’argent!\\rTss! Et moi qui pensais que les enfants\\nde nos jours étaient pleins de tunes..."
+  },
+  {
+    "msgid": "You're strong!",
+    "msgstr": "Oulààà!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route32_hns/scripts.inc",
+    "ligne": 472,
+    "ancien": "Trop fort!",
+    "preuve": "728:680 — Oulààà!",
+    "note": "autre(s) variante(s) SS : Quelle force! | Ouh là là!"
+  },
+  {
+    "msgid": "Ohh… I lost…",
+    "msgstr": "Oh mince!\\nJ’ai perdu.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route9_hns/scripts.inc",
+    "ligne": 87,
+    "ancien": "Ohh… J’ai perdu…",
+    "preuve": "728:357 — Oh mince!\\nJ’ai perdu.",
+    "note": "autre(s) variante(s) SS : Ohh… pas cool."
+  },
+  {
+    "msgid": "Oh, fine then.",
+    "msgstr": "Oh, très bien…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/MtChimney/scripts.inc",
+    "ligne": 727,
+    "ancien": "Bon, très bien.",
+    "preuve": "620:9 — Oh, très bien..."
+  },
+  {
+    "msgid": "Don't be so cruel.\\nYou will push my back, won't you?",
+    "msgstr": "Je t’en prie, ne sois pas\\nsi insensible…\\lPousse-moi, veux-tu?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/IcePath_1F_hns/scripts.inc",
+    "ligne": 120,
+    "ancien": "Ne sois pas sans cœur.\\nTu vas bien me pousser, hein?",
+    "preuve": "122:6 — Je t’en prie, ne sois pas\\nsi insensible...\\fPousse-moi, veux-tu? {YESNO 0}"
+  },
+  {
+    "msgid": "Which move should be forgotten?",
+    "msgstr": "Oublier quelle capacité?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/BlackthornCity_House3_hns/scripts.inc",
+    "ligne": 79,
+    "ancien": "Quelle capacité doit être oubliée?",
+    "preuve": "197:939 — Oublier quelle capacité?"
+  },
+  {
+    "msgid": "That can't be!",
+    "msgstr": "OBJECTION!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+    "ligne": 128,
+    "ancien": "Impossible!",
+    "preuve": "130:11 — {SIZE 200}OBJECTION!{SIZE 100}\\r"
+  },
+  {
+    "msgid": "{PLAYER} registered BAOBA\\nin the POKéGEAR!",
+    "msgstr": "{PLAYER} a enregistré Baoba\\ndans son Pokématos!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route39_hns/scripts.inc",
+    "ligne": 165,
+    "ancien": "{PLAYER} enregistre Baoba\\ndans le Pokématos!",
+    "preuve": "396:8 — {STRVAR_1 3, 0, 0} a enregistré Baoba\\ndans son Pokématos!"
+  },
+  {
+    "msgid": "{PLAYER}'s POKéDEX was upgraded\\nwith the NATIONAL MODE!",
+    "msgstr": "Le Mode National a été ajouté au\\nPokédex de {PLAYER}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/OlivineCity_PortInside_hns/scripts.inc",
+    "ligne": 76,
+    "ancien": "Le Pokédex de {PLAYER} a reçu\\nle MODE NATIONAL!",
+    "preuve": "255:11 — Le Mode National a été ajouté au\\nPokédex de {STRVAR_1 3, 0, 0}!"
+  },
+  {
+    "msgid": "KURT: Hey there, {PLAYER}!\\pThe guard up top took off when\\nI shouted at him.\\pBut then I took a tumble down\\nthe WELL.\\pI slammed down hard on my back,\\nso I can't move.\\pRats! If I were fit, my POKéMON\\nwould've punished them…\\pAh, it can't be helped.\\p{PLAYER}, show them how gutsy\\nyou are in my place!",
+    "msgstr": "Fargas: Oh! {PLAYER}!\\pLe garde a décampé quand je lui ai\\ncrié dessus…\\pEt puis je suis descendu dans le\\npuits, mais j’me suis planté et…\\lJe peux plus bouger.\\pPfff! Si j’étais en forme, mes Pokémon\\nles auraient punis…\\pC’est vraiment trop bête.\\n{PLAYER}, va leur mettre une raclée à\\lma place!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/SlowpokeWell_B1F_hns/scripts.inc",
+    "ligne": 84,
+    "ancien": "Fargas: Ah, te voilà, {PLAYER}!\\pLe garde, en haut, a filé quand\\nje lui ai crié dessus.\\pMais ensuite, j’ai dégringolé\\ndans le PUITS.\\pJe me suis fait mal au dos en\\ntombant, je ne peux plus bouger.\\pZut! Si j’étais en forme, mes\\nPOKéMON leur auraient réglé leur\\lcompte…\\pBah, on n’y peut rien.\\p{PLAYER}, montre-leur ce que\\ntu as dans le ventre!",
+    "preuve": "90:0 — Fargas: Oh! {STRVAR_1 3, 0, 0}!\\rLe garde a décampé quand je\\nlui ai crié dessus...\\rEt puis je suis descendu dans le puits,\\nmais j’me suis planté et...\\fJe peux plus bouger.\\rPfff! Si j’étais en forme, mes Pokémon\\nles auraient punis...\\rC’est vraiment trop bête.\\n{STRVAR_1 3, 0, 0}, va leur mettre une\\fraclée à ma place!"
+  },
+  {
+    "msgid": "KURT: Way to go, {PLAYER}!\\pTEAM ROCKET has taken off.\\pMy back's better too.\\nLet's get out of here.",
+    "msgstr": "Fargas: Bravo, {PLAYER}!\\nLa Team Rocket a décampé!\\pMon dos va mieux.\\nAllez… Rentrons.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/SlowpokeWell_B1F_hns/scripts.inc",
+    "ligne": 98,
+    "ancien": "Fargas: Bravo, {PLAYER}!\\pLa Team Rocket a déguerpi.\\pEt mon dos va mieux.\\nSortons d’ici.",
+    "preuve": "91:0 — Fargas: Bravo, {STRVAR_1 3, 0, 0}!\\nLa Team Rocket a décampé!\\rMon dos va mieux.\\nAllez... Rentrons.\\r"
+  },
+  {
+    "msgid": "A SLOWPOKE with its TAIL cut off…\\pHuh? It has MAIL.\\nRead it?",
+    "msgstr": "Un RAMOLOSS à la queue coupée…\\nHein? Il tient une Lettre.\\lLa lire?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/SlowpokeWell_B1F_hns/scripts.inc",
+    "ligne": 172,
+    "ancien": "Un RAMOLOSS à la queue coupée…\\pHein? Il a une Lettre. La lire?",
+    "preuve": "91:3 — Un RAMOLOSS à la queue coupée...\\nHein? Il tient une Lettre.\\fLa lire? {YESNO 0}"
+  },
+  {
+    "msgid": "{PLAYER} read the MAIL.\\pBe good and look after the\\nhouse with Grandpa and SLOWPOKE.\\pLove, Dad",
+    "msgstr": "{PLAYER} lit la Lettre.\\pSois sage et occupe-toi bien de la\\nmaison avec papy et le RAMOLOSS.\\pBisous.\\nPapa.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/SlowpokeWell_B1F_hns/scripts.inc",
+    "ligne": 177,
+    "ancien": "{PLAYER} lit la Lettre.\\pSois sage et garde la maison avec\\nGrand-père et RAMOLOSS.\\pBisous, Papa",
+    "preuve": "91:4 — {STRVAR_1 3, 0, 0} lit la Lettre.\\rSois sage et occupe-toi bien de la\\nmaison avec papy et le RAMOLOSS.\\rBisous.\\n             Papa."
+  },
+  {
+    "msgid": "Welcome!\\pWe exchange your game coins for\\nfabulous prizes!",
+    "msgstr": "Bienvenue!\\pVous pouvez échanger vos Jetons\\ncontre de fabuleux prix!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/GoldenrodCity_GameCorner_hns/scripts.inc",
+    "ligne": 594,
+    "ancien": "Bienvenue!\\pÉchangez vos jetons contre des\\nlots fabuleux!",
+    "preuve": "509:9 — Bienvenue!\\rVous pouvez échanger vos Jetons\\ncontre de fabuleux prix! {YESNO 0}"
+  },
+  {
+    "msgid": "Sorry! You need more coins.",
+    "msgstr": "Vous n’avez pas assez de Jetons!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/GoldenrodCity_GameCorner_hns/scripts.inc",
+    "ligne": 605,
+    "ancien": "Désolé! Il vous faut plus de jetons.",
+    "preuve": "509:11 — Vous n’avez pas assez de Jetons! {YESNO 0}"
+  },
+  {
+    "msgid": "Play VOLTORB Flip Lv. {STR_VAR_1}?",
+    "msgstr": "Jouer à Voltorbataille niveau\\n{STR_VAR_1}?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/GoldenrodCity_GameCorner_hns/scripts.inc",
+    "ligne": 827,
+    "ancien": "VOLTORBATAILLE niveau {STR_VAR_1}?",
+    "preuve": "39:15 — Jouer à Voltorbataille niveau {STRVAR_1 50, 0, 0}?"
+  },
+  {
+    "msgid": "Advanced to Game Lv. {STR_VAR_1}!",
+    "msgstr": "Le jeu est monté au niveau\\n{STR_VAR_1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/GoldenrodCity_GameCorner_hns/scripts.inc",
+    "ligne": 839,
+    "ancien": "Passage au niveau {STR_VAR_1}!",
+    "preuve": "39:41 — Le jeu est monté au niveau {STRVAR_1 50, 0, 0}!\\r"
+  },
+  {
+    "msgid": "Dropped to Game Lv. {STR_VAR_1}.",
+    "msgstr": "Le jeu est descendu au niveau\\n{STR_VAR_1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/GoldenrodCity_GameCorner_hns/scripts.inc",
+    "ligne": 845,
+    "ancien": "Retour au niveau {STR_VAR_1}.",
+    "preuve": "39:43 — Le jeu est descendu au niveau {STRVAR_1 50, 0, 0}!\\r"
+  },
+  {
+    "msgid": "Would you like to take the MULTI\\nBATTLE ROOM challenge?",
+    "msgstr": "Voulez-vous relever le défi d’une\\nSalle de Combat Multi?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/BattleFrontier_BattleTowerLobby/scripts.inc",
+    "ligne": 1235,
+    "ancien": "Voulez-vous relever le défi d’une\\nSALLE DE Combat MULTI?",
+    "preuve": "96:21 — Voulez-vous relever le défi d’une\\nSalle de Combat Multi? {YESNO 0}"
+  },
+  {
+    "msgid": "I'm the CHAIRMAN of the POKéMON\\nFAN CLUB.\\pI've raised over 150 POKéMON.\\pI'm very fussy when it comes to\\nPOKéMON.\\pDid you visit just to hear about\\nmy POKéMON?",
+    "msgstr": "Je suis le Président\\ndu Fan Club Pokémon!\\pJ’ai élevé plus de 150 Pokémon!\\nJe suis très difficile\\ldès qu’il s’agit de Pokémon!\\pTu es ici pour profiter de mon\\nimmense expérience en Pokémon?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/VermilionCity_FanClub_hns/scripts.inc",
+    "ligne": 83,
+    "ancien": "Je suis le PRESIDENT du FAN CLUB\\nPOKéMON.\\pJ’ai élevé plus de 150 Pokémon.\\pEt je suis très exigeant en\\nmatière de Pokémon.\\pTu es venu écouter les histoires\\nde mes Pokémon?",
+    "preuve": "488:0 — Je suis le Président\\ndu Fan Club Pokémon!\\rJ’ai élevé plus de 150 Pokémon!\\nJe suis très difficile\\fdès qu’il s’agit de Pokémon!\\rTu es ici pour profiter de mon\\nimmense expérience en Pokémon? {YESNO 0}"
+  },
+  {
+    "msgid": "Hello, {PLAYER}!\\pDid you come see me about my\\nPOKéMON again?\\pNo? Oh… I had more tales to\\ntell…",
+    "msgstr": "Salut salut, {PLAYER}!\\pTu es ici pour profiter encore de mon\\nimmense expérience en Pokémon?\\pHein? Non? Oh…\\nPfff… C’est nul.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/VermilionCity_FanClub_hns/scripts.inc",
+    "ligne": 120,
+    "ancien": "Bonjour, {PLAYER}!\\pTu reviens écouter les histoires\\nde mes Pokémon?\\pNon? Oh… J’en avais encore tant\\nà raconter…",
+    "preuve": "488:4 — Salut salut, {STRVAR_1 3, 0, 0}!\\rTu es ici pour profiter encore de mon\\nimmense expérience en Pokémon?\\rHein? Non? Oh...\\nPfff... C’est nul."
+  },
+  {
+    "msgid": "It's a CLEFAIRY! Huh?\\pOh, right. It's a CLEFAIRY POKé\\nDOLL.",
+    "msgstr": "C’est un MELOFEE!\\n…?\\pAh, non: c’est une Poképoupée\\nMELOFEE.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/VermilionCity_FanClub_hns/scripts.inc",
+    "ligne": 166,
+    "ancien": "C’est un MÉLOFÉE! Hein?\\pAh, c’est vrai. C’est une Poupée\\nMÉLOFÉE.",
+    "preuve": "488:15 — C’est un MELOFEE!\\n...?\\rAh, non: c’est une Poképoupée\\nMELOFEE.",
+    "note": "autre(s) variante(s) SS : C’est un MELOFEE!\\nHein?\\pAh, non, c’est une Poképoupée\\nd’un MELOFEE."
+  },
+  {
+    "msgid": "Ohh!\\nI lost!",
+    "msgstr": "Oh mince!\\nJ’ai perdu.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route13_Frlg/scripts.inc",
+    "ligne": 32,
+    "preuve": "728:357 — Oh mince!\\nJ’ai perdu.",
+    "note": "autre(s) variante(s) SS : Ohh… pas cool."
+  },
+  {
+    "msgid": "JASMINE: …Will that medicine cure\\nAMPHY?",
+    "msgstr": "Jasmine: … Ce médicament va-t-il\\nvraiment soigner Phary?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/OlivineCity_Lighthouse_hns/scripts.inc",
+    "ligne": 319,
+    "ancien": "Jasmine: …Ce médicament va-t-il\\nguérir AMPHY?",
+    "preuve": "94:2 — Jasmine: ... Ce médicament va-t-il\\nvraiment soigner Phary? {YESNO 0}\\n"
+  },
+  {
+    "msgid": "AMPHY: Palu! Palulu!",
+    "msgstr": "Phary: Phapha!\\nPhaaaaaa!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/OlivineCity_Lighthouse_hns/scripts.inc",
+    "ligne": 421,
+    "ancien": "AMPHY: Palu! Palulu!",
+    "preuve": "94:6 — Phary: Phapha!\\nPhaaaaaa!\\r",
+    "note": "autre(s) variante(s) SS : Phary: Phapha! Phaaaaaa!"
+  },
+  {
+    "msgid": "{PLAYER} gave an ORAN BERRY to\\nMILTANK.",
+    "msgstr": "{PLAYER} a donné\\nune Baie Oran!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route39_Barn_hns/scripts.inc",
+    "ligne": 161,
+    "ancien": "{PLAYER} donne une Baie Oran à\\nECREMEUH.",
+    "preuve": "398:14 — {STRVAR_1 3, 0, 0} a donné\\nune Baie Oran!"
+  },
+  {
+    "msgid": "{PLAYER} has no ORAN BERRIES…",
+    "msgstr": "{PLAYER} n’a pas de Baie Oran\\nà donner.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route39_Barn_hns/scripts.inc",
+    "ligne": 177,
+    "ancien": "{PLAYER} n’a pas de Baie Oran…",
+    "preuve": "398:18 — {STRVAR_1 3, 0, 0} n’a pas de Baie Oran\\nà donner."
+  },
+  {
+    "msgid": "{PLAYER} wouldn't give an\\nORAN BERRY.\\pMILTANK looks sad.",
+    "msgstr": "{PLAYER} refuse de donner une\\nBaie Oran…\\pECREMEUH lui lance un regard triste…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route39_Barn_hns/scripts.inc",
+    "ligne": 180,
+    "ancien": "{PLAYER} ne donne pas de\\nBAIE ORAN.\\pECREMEUH a l’air triste.",
+    "preuve": "398:19 — {STRVAR_1 3, 0, 0} refuse de donner une\\nBaie Oran...\\rECREMEUH lui lance un regard triste..."
+  },
+  {
+    "msgid": "Hi, {PLAYER}! My husband's always\\nso busy--I hope he's OK.\\pWhen he's caught up in his\\nPOKéMON research, he even\\lforgets to eat.",
+    "msgstr": "Ah! {PLAYER}!\\pMon mari est très occupé…\\nJ’ai peur qu’il se surmène!\\pQuand il se plonge dans ses\\nrecherches sur les Pokémon, il en\\loublie de manger!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/NewBarkTown_House2_hns/scripts.inc",
+    "ligne": 22,
+    "ancien": "Bonjour, {PLAYER}! Mon mari est\\ntoujours si occupé… J’espère\\lqu’il va bien.\\pQuand il est plongé dans ses\\nrecherches sur les Pokémon, il\\len oublie même de manger.",
+    "preuve": "544:0 — Ah! {STRVAR_1 3, 0, 0}!\\rMon mari est très occupé...\\nJ’ai peur qu’il se surmène!\\rQuand il se plonge dans ses recherches\\nsur les Pokémon, il en oublie de manger!"
+  },
+  {
+    "msgid": "Sorry, {PLAYER}. I saw how well you\\nwere doing, so I just hung back.\\pNow all there is left to do is to turn\\noff that odd radio signal.",
+    "msgstr": "Excuse-moi, {PLAYER}.\\nComme tu te débrouillais plutôt bien,\\lje ne me suis pas battu à fond.\\pTout ce qu’il nous reste à faire,\\nc’est arrêter le signal radio.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/RocketHideout_B2F_hns/scripts.inc",
+    "ligne": 610,
+    "ancien": "Désolé, {PLAYER}. Je voyais que tu\\nt’en sortais bien, alors je suis resté\\len retrait.\\pIl ne reste plus qu’à couper ce\\nsignal radio bizarre.",
+    "preuve": "113:10 — Excuse-moi, {STRVAR_1 3, 0, 0}.\\nComme tu te débrouillais plutôt bien,\\fje ne me suis pas battu à fond.\\rTout ce qu’il nous reste à faire,\\nc’est arrêter le signal radio.\\r"
+  },
+  {
+    "msgid": "Ow, ow, ow!",
+    "msgstr": "Oh, oh, oh!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/GoldenrodCity_UndergroundTunnel_hns/scripts.inc",
+    "ligne": 399,
+    "ancien": "Aïe, aïe, aïe!",
+    "preuve": "728:1242 — Oh, oh, oh!"
+  },
+  {
+    "msgid": "{PLAYER}!\\pYou seem to be around where\\nSUICUNE would appear.\\pWell, that's OK.\\lMy desire to search for\\nSUICUNE is far beyond yours...\\pMy grandpa was... quite into\\nmyths.\\pI've heard so many stories\\nabout SUICUNE from him.",
+    "msgstr": "{PLAYER}!\\nTu es toujours là où SUICUNE\\lapparaît!\\pMais je ne t’en veux pas.\\nCar tu ne peux pas désirer SUICUNE\\lplus que moi…\\pMon grand-père…\\nIl connaissait toutes les légendes.\\lJ’ai appris toutes celles de SUICUNE\\ldès mon enfance.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route42_hns/scripts.inc",
+    "ligne": 142,
+    "ancien": "{PLAYER}!\\pOn dirait que tu traînes toujours\\nlà où SUICUNE apparaît.\\pBah, peu importe.\\lMon désir de trouver SUICUNE\\lest bien plus fort que le tien…\\pMon grand-père… adorait\\nles légendes.\\pIl m’a raconté tant d’histoires\\nsur SUICUNE!",
+    "preuve": "399:8 — {STRVAR_1 3, 0, 0}!\\nTu es toujours là où SUICUNE apparaît!\\rMais je ne t’en veux pas.\\nCar tu ne peux pas désirer SUICUNE\\fplus que moi...\\rMon grand-père...\\nIl connaissait toutes les légendes.\\fJ’ai appris toutes celles de SUICUNE\\fdès mon enfance.\\r"
+  },
+  {
+    "msgid": "Having lost, I have no right to\\nsay anything…\\pGo face your next challenge!",
+    "msgstr": "J’ai perdu.\\nJ’ai perdu le droit de te parler.\\lAvance vers la prochaine salle!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/PokemonLeague_BrunosRoom_hns/scripts.inc",
+    "ligne": 94,
+    "ancien": "J’ai perdu, je n’ai rien à dire…\\pVa relever ton prochain défi!",
+    "preuve": "525:1 — J’ai perdu.\\nJ’ai perdu le droit de te parler.\\fAvance vers la prochaine salle!\\r"
+  },
+  {
+    "msgid": "{PLAYER}, you have not found a partner\\nfor your tag team.\\pWould you like to quit looking and\\nreturn to the reception counter?",
+    "msgstr": "{PLAYER}, vous n’avez pas trouvé\\nde partenaire.\\pVoulez-vous arrêter de chercher\\net retourner à la réception?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
+    "ligne": 284,
+    "ancien": "{PLAYER}, vous n’avez pas trouvé\\nde partenaire.\\pVoulez-vous arrêter de chercher et\\nretourner au guichet d’inscription?",
+    "preuve": "99:1 — {STRVAR_1 3, 0, 0}, vous n’avez pas trouvé\\nde partenaire.\\rVoulez-vous arrêter de chercher\\net retourner à la réception? {YESNO 0}"
+  },
+  {
+    "msgid": "You don't have room for this.",
+    "msgstr": "Tu n’as plus de place…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+    "ligne": 146,
+    "preuve": "127:3 — Tu n’as plus de place...",
+    "note": "autre(s) variante(s) SS : Ah! Tu n’as plus de place…"
+  },
+  {
+    "msgid": "Really? Great!\\pGive me your name and phone number,\\nand I'll loan you a BICYCLE.",
+    "msgstr": "V… Vraiment?\\pAlors donne-moi ton nom et ton\\nnuméro de téléphone!\\lJe vais te prêter une Bicyclette!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/GoldenrodCity_BikeShop_hns/scripts.inc",
+    "ligne": 64,
+    "ancien": "C’est vrai? Génial!\\pDonne-moi ton nom et ton numéro,\\net je te prête une Bicyclette.",
+    "preuve": "584:1 — V... Vraiment?\\rAlors donne-moi ton nom et ton\\nnuméro de téléphone!\\fJe vais te prêter une Bicyclette! {YESNO 0}"
+  },
+  {
+    "msgid": "Are you a TRAINER?\\pI've got a useful phone number\\nfor you.",
+    "msgstr": "Tu es un Dresseur de Pokémon?\\pAlors tu veux peut-être que je\\nt’apprenne un numéro de téléphone\\lsuper utile?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/GoldenrodCity_BillsHouse_hns/scripts.inc",
+    "ligne": 112,
+    "ancien": "Es-tu un Dresseur?\\pJ’ai un numéro de téléphone utile pour\\ntoi.",
+    "preuve": "586:12 — Tu es un Dresseur de Pokémon?\\rAlors tu veux peut-être que je\\nt’apprenne un numéro de téléphone\\fsuper utile? {YESNO 0}"
+  },
+  {
+    "msgid": "FAST SHIP S.S.AQUA has arrived in\\nVERMILION CITY.",
+    "msgstr": "Le Bateau Express Aquaria est arrivé\\nà Carmin sur Mer.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/SSAqua_1F_hns/scripts.inc",
+    "ligne": 286,
+    "ancien": "Le BATEAU RAPIDE L’AQUARIA est\\narrivé à Carmin sur Mer.",
+    "preuve": "259:2 — Le Bateau Express Aquaria est arrivé\\nà Carmin sur Mer.\\r",
+    "note": "autre(s) variante(s) SS : Le Bateau Express Aquaria est\\narrivé au port de Carmin sur Mer."
+  },
+  {
+    "msgid": "So, want to know how to raise\\nPOKéMON well?",
+    "msgstr": "Alors! Tu veux savoir\\ncomment élever des\\lPokémon! qui sont forts?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/VioletCity_TrainerSchool_hns/scripts.inc",
+    "ligne": 108,
+    "ancien": "Alors, tu veux savoir comment bien\\nélever tes Pokémon?",
+    "preuve": "560:2 — Alors! Tu veux savoir\\ncomment élever des\\fPokémon! qui sont forts? {YESNO 0}"
+  },
+  {
+    "msgid": "Before throwing a POKé BALL,\\nweaken the target first.\\pA poisoned or burned POKéMON\\nis easier to catch.\\pKeep reading?",
+    "msgstr": "Avant de lancer une Poké Ball,\\nlaissez votre Pokémon empoisonner\\lou brûler l’adversaire.\\pIl sera plus facile à attraper.\\pVoulez-vous lire la suite?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/VioletCity_TrainerSchool_hns/scripts.inc",
+    "ligne": 172,
+    "ancien": "Avant de lancer une Poké Ball,\\naffaiblis d’abord la cible.\\pUn Pokémon empoisonné ou brûlé est\\nplus facile à attraper.\\pContinuer la lecture?",
+    "preuve": "560:20 — Avant de lancer une Poké Ball,\\nlaissez votre Pokémon empoisonner\\fou brûler l’adversaire.\\rIl sera plus facile à attraper.\\rVoulez-vous lire la suite? {YESNO 0}"
+  },
+  {
+    "msgid": "Some moves may cause confusion.\\pConfusion may make a POKéMON\\nattack itself.\\pLeaving battle clears up any\\nconfusion.\\pKeep reading?",
+    "msgstr": "Certaines capacités peuvent\\nembrouiller l’esprit d’un Pokémon.\\pUne fois confus, le Pokémon peut\\ns’attaquer lui-même.\\pFuir le combat annule tout effet de\\nconfusion.\\pVoulez-vous lire la suite?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/VioletCity_TrainerSchool_hns/scripts.inc",
+    "ligne": 179,
+    "ancien": "Certaines capacités causent la\\nconfusion.\\pLa confusion peut pousser un Pokémon\\nà s’attaquer lui-même.\\pQuitter le combat met fin à la\\nconfusion.\\pContinuer la lecture?",
+    "preuve": "560:21 — Certaines capacités peuvent embrouiller\\nl’esprit d’un Pokémon.\\rUne fois confus, le Pokémon peut\\ns’attaquer lui-même.\\rFuir le combat annule tout effet\\nde confusion.\\rVoulez-vous lire la suite? {YESNO 0}"
+  },
+  {
+    "msgid": "Hello, hello!\\nI am the official NAME RATER!\\pWant me to rate the nicknames of\\nyour POKéMON?",
+    "msgstr": "Bon… Bon…\\nJe suis le Spécialiste des Noms.\\pVeux-tu que j’examine les surnoms\\nque tu as donnés à tes Pokémon?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/LavenderTown_House2_Frlg/scripts.inc",
+    "ligne": 65,
+    "preuve": "591:0 — Bon... Bon...\\nJe suis le Spécialiste des Noms.\\rVeux-tu que j’examine les surnoms\\nque tu as donnés à tes Pokémon? {YESNO 0}"
+  },
+  {
+    "msgid": "{PLAYER} used the SQUIRTBOTTLE.",
+    "msgstr": "{PLAYER} utilise le\\nCARAPUCE à O!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route36_hns/scripts.inc",
+    "ligne": 239,
+    "ancien": "{PLAYER} utilise la CARAPUCE à O.",
+    "preuve": "390:1 — {STRVAR_1 3, 0, 0} utilise le\\nCARAPUCE à O!\\r"
+  },
+  {
+    "msgid": "Oh no! You seen me already!\\nI make big mistake!",
+    "msgstr": "… Oh noes!\\nYou m’a déjà seen!\\lJ’ai made a huge erreur!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/CeruleanCity_Gym_hns/scripts.inc",
+    "ligne": 224,
+    "ancien": "Oh non! Toi déjà vu moi!\\nMoi faire grosse erreur!",
+    "preuve": "469:2 — ... Oh noes!\\nYou m’a déjà seen!\\fJ’ai made a huge erreur!\\r"
+  },
+  {
+    "msgid": "{RIVAL} used an ESCAPE ROPE!",
+    "msgstr": "{RIVAL} utilise Corde Sortie!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/SproutTower_3F_hns/scripts.inc",
+    "ligne": 187,
+    "ancien": "{RIVAL} utilise une Corde Sortie!",
+    "preuve": "56:2 — {STRVAR_1 3, 0, 0} utilise Corde Sortie!"
+  },
+  {
+    "msgid": "{RIVAL}: What aspect of you was\\nnumber one?\\pGathering so many only to be\\ndefeated by a mere child!",
+    "msgstr": "{RIVAL}: C’est quoi, la force!\\pT’as créé cette grosse organisation,\\net au final vous vous êtes faits\\lbattre par un gamin seul!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route22_hns/scripts.inc",
+    "ligne": 302,
+    "ancien": "{RIVAL}: En quoi étais-tu\\nle numéro un?\\pTu as réuni tant de monde pour\\nperdre contre un simple gamin!",
+    "preuve": "360:3 — {STRVAR_1 3, 0, 0}: C’est quoi, la force!\\rT’as créé cette grosse organisation,\\net au final vous vous êtes faits battre\\fpar un gamin seul!\\r"
+  },
+  {
+    "msgid": "{RIVAL}: I don't understand you!\\pYou don't make any sense!",
+    "msgstr": "{RIVAL}: J’y comprends rien!\\pJe comprends rien à ce que tu\\nracontes, papa!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route22_hns/scripts.inc",
+    "ligne": 319,
+    "ancien": "{RIVAL}: Je ne te comprends pas!\\pÇa n’a aucun sens!",
+    "preuve": "360:4 — {STRVAR_1 3, 0, 0}: J’y comprends rien!\\rJe comprends rien à ce que tu racontes,\\npapa!\\r"
+  },
+  {
+    "msgid": "{RIVAL}: I don't want to\\nunderstand you!\\pI will never become someone like\\nyou.\\pA coward when you're alone and\\nacting like a tyrant when you're\\lin front of other cowards!\\pI will become strong!\\pI will become a stronger man all\\nby myself!",
+    "msgstr": "{RIVAL}: Je ne veux pas savoir!\\pJe ne deviendrai jamais comme toi!\\pJe ne serai jamais un de tes avortons,\\nqui se regroupent en troupeaux et qui\\lse croient les rois du monde!\\pJe serai un homme puissant!\\pEt je le deviendrai seul!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route22_hns/scripts.inc",
+    "ligne": 328,
+    "ancien": "{RIVAL}: Je ne veux pas te\\ncomprendre!\\pJe ne deviendrai jamais\\ncomme toi.\\pUn lâche quand tu es seul, et\\nun tyran quand tu es entouré\\lpar d’autres lâches!\\pJe deviendrai fort!\\pJe deviendrai plus fort, et tout\\nseul!",
+    "preuve": "360:5 — {STRVAR_1 3, 0, 0}: Je ne veux pas savoir!\\rJe ne deviendrai jamais comme toi!\\rJe ne serai jamais un de tes avortons,\\nqui se regroupent en troupeaux et qui\\fse croient les rois du monde!\\rJe serai un homme puissant!\\rEt je le deviendrai seul!\\r"
+  },
+  {
+    "msgid": "ALL BY MYSELF!",
+    "msgstr": "SEUL…!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route22_hns/scripts.inc",
+    "ligne": 340,
+    "ancien": "TOUT SEUL!",
+    "preuve": "360:6 —  {SIZE 200}SEUL...!{SIZE 100}\\r"
+  },
+  {
+    "msgid": "{RIVAL}: ... What are you staring at?",
+    "msgstr": "{RIVAL}: … T’as un problème?\\nMe regarde pas comme ça!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route22_hns/scripts.inc",
+    "ligne": 343,
+    "ancien": "{RIVAL}: … Qu’est-ce que tu regardes?",
+    "preuve": "360:7 — {STRVAR_1 3, 0, 0}: ... T’as un problème?\\nMe regarde pas comme ça!\\r"
+  },
+  {
+    "msgid": "You're kidding.",
+    "msgstr": "Sans blague?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route25_hns/scripts.inc",
+    "ligne": 465,
+    "ancien": "Tu plaisantes.",
+    "preuve": "728:591 — Sans blague?",
+    "note": "autre(s) variante(s) SS : Arrête ça!"
+  },
+  {
+    "msgid": "What are POKéMON to you?",
+    "msgstr": "Que représente un Pokémon\\nà tes yeux?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/DragonsDen_Shrine_hns/scripts.inc",
+    "ligne": 189,
+    "ancien": "Que sont les Pokémon pour toi?",
+    "preuve": "130:1 — Que représente un Pokémon\\nà tes yeux? {YESNO 0}"
+  },
+  {
+    "msgid": "What helps you to win battles?",
+    "msgstr": "Qu’est-ce qui permet de gagner\\nun combat de Pokémon?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/DragonsDen_Shrine_hns/scripts.inc",
+    "ligne": 192,
+    "ancien": "Qu’est-ce qui t’aide à gagner\\ntes combats?",
+    "preuve": "130:2 — Qu’est-ce qui permet de gagner\\nun combat de Pokémon? {YESNO 0}"
+  },
+  {
+    "msgid": "What kind of trainer do you wish\\nto battle?",
+    "msgstr": "Quel type de Dresseur désires-tu\\naffronter?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/DragonsDen_Shrine_hns/scripts.inc",
+    "ligne": 195,
+    "ancien": "Quel genre de dresseur voulez-vous\\naffronter?",
+    "preuve": "130:3 — Quel type de Dresseur désires-tu\\naffronter? {YESNO 0}"
+  },
+  {
+    "msgid": "What is most important for\\nraising POKéMON?",
+    "msgstr": "Quelle est la chose fondamentale\\npour bien élever son Pokémon?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/DragonsDen_Shrine_hns/scripts.inc",
+    "ligne": 199,
+    "ancien": "Qu’est-ce qui compte le plus pour\\nélever des Pokémon?",
+    "preuve": "130:4 — Quelle est la chose fondamentale\\npour bien élever son Pokémon? {YESNO 0}"
+  },
+  {
+    "msgid": "Strong POKéMON. Weak POKéMON.\\nWhich is more important?",
+    "msgstr": "Entre deux Pokémon, un puissant\\net un faible, lequel préfères-tu?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/DragonsDen_Shrine_hns/scripts.inc",
+    "ligne": 203,
+    "ancien": "Pokémon forts. Pokémon faibles.\\nLesquels sont les plus importants?",
+    "preuve": "130:5 — Entre deux Pokémon, un puissant\\net un faible, lequel préfères-tu? {YESNO 0}"
+  },
+  {
+    "msgid": "Hm… I see…\\pYou care deeply for POKéMON.\\pVery commendable.\\pThat conviction is what is\\nimportant!\\p{PLAYER}, don't lose that belief.\\pIt will see you through at the\\nPOKéMON LEAGUE.",
+    "msgstr": "Hmm… Je vois…\\pTu prends grand soin de tes Pokémon.\\nTant mieux, tant mieux…\\pC’est absolument essentiel!\\p{PLAYER}, tu ne dois jamais oublier\\nce sentiment.\\lSi tu le gardes en toi, même la Ligue\\lPokémon ne te résistera pas!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/DragonsDen_Shrine_hns/scripts.inc",
+    "ligne": 216,
+    "ancien": "Hm… Je vois…\\pTu tiens énormément aux Pokémon.\\pC’est tout à ton honneur.\\pC’est cette conviction qui compte!\\p{PLAYER}, garde cette foi.\\pElle te guidera jusqu’à la\\nLIGUE Pokémon.",
+    "preuve": "130:6 — Hmm... Je vois...\\rTu prends grand soin de tes Pokémon.\\nTant mieux, tant mieux...\\rC’est absolument essentiel!\\r{STRVAR_1 3, 0, 0}, tu ne dois jamais oublier\\nce sentiment.\\fSi tu le gardes en toi, même la Ligue\\fPokémon ne te résistera pas!\\r"
+  },
+  {
+    "msgid": "Hey, kid! I just had a double shot\\nof espresso, and I am wired!\\pI need to talk to someone, so you'll\\nhave to do!\\pI might not look like much now, but\\nI was an expert at catching POKéMON.\\pDo you believe me?",
+    "msgstr": "Uééééé! Hips… Reste là!\\nReste là et écoute moi!\\pOn dirait pas, mais dans ma jeunesse,\\nj’étais un super Dresseur de Pokémon!\\pTu me crois, hein?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/ViridianCity_hns/scripts.inc",
+    "ligne": 86,
+    "ancien": "Hé, petit! Je viens d’avaler un\\ndouble expresso, je suis survolté!\\pIl faut que je parle à quelqu’un,\\nalors ce sera toi!\\pJ’en ai pas l’air, mais j’étais\\nun as de la capture de Pokémon.\\pTu me crois?",
+    "preuve": "452:0 — Uééééé! Hips... Reste là!\\nReste là et écoute moi!\\rOn dirait pas, mais dans ma jeunesse,\\nj’étais un super Dresseur de Pokémon!\\rTu me crois, hein? {YESNO 0}"
+  },
+  {
+    "msgid": "{RIVAL}: How...? How is this\\npossible? How can I lose to mere\\lKIMONO GIRLS...?",
+    "msgstr": "{RIVAL}: Pourquoi? Pourquoi?\\nPourquoi j’arrive pas à gagner?\\pCe sont que des femmes en kimono\\npourtant!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/EcruteakCity_hns/scripts.inc",
+    "ligne": 124,
+    "ancien": "{RIVAL}: Comment…? Comment\\nest-ce possible? Battu par de\\lsimples KIMONOS…?",
+    "preuve": "612:17 — {STRVAR_1 3, 1, 0}: Pourquoi? Pourquoi?\\nPourquoi j’arrive pas à gagner?\\rCe sont que des femmes en kimono\\npourtant!\\r"
+  },
+  {
+    "msgid": "{PLAYER} handed over the\\nPOKéMON holding the MAIL.",
+    "msgstr": "{PLAYER} donne le Pokémon tenant\\nla Lettre!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route31_hns/scripts.inc",
+    "ligne": 154,
+    "ancien": "{PLAYER} remet le Pokémon\\nqui tient la LETTRE.",
+    "preuve": "378:5 — {STRVAR_1 3, 0, 0} donne le Pokémon tenant\\nla Lettre!"
+  },
+  {
+    "msgid": "If you have that POKéMON, may I\\nsee it, please?",
+    "msgstr": "Si tu as ce Pokémon, tu voudrais\\nbien me le montrer?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route25_BillsHouse_hns/scripts.inc",
+    "ligne": 588,
+    "ancien": "Si tu as ce Pokémon, je peux\\nle voir, s’il te plaît?",
+    "preuve": "364:11 — Si tu as ce Pokémon, tu voudrais\\nbien me le montrer? {YESNO 0}"
+  },
+  {
+    "msgid": "Whew, {PLAYER}. You did great!\\pI was cowering in the corner\\nout of pure terror!",
+    "msgstr": "Waouh, {PLAYER}!\\nBien joué!\\pJ’avais tellement peur que j’étais\\nplanqué dans un coin!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/EcruteakCity_Gym_hns/scripts.inc",
+    "ligne": 213,
+    "ancien": "Pfiou, {PLAYER}. Tu as été génial!\\pMoi, j’étais recroquevillé dans\\nun coin, mort de peur!",
+    "preuve": "614:8 — Waouh, {STRVAR_1 3, 0, 0}!\\nBien joué!\\rJ’avais tellement peur que j’étais\\nplanqué dans un coin!"
+  },
+  {
+    "msgid": "However hard we battle,\\nthe TOWER will stand strong.",
+    "msgstr": "Même en y mettant toutes nos forces,\\non pourra à peine ébranler la tour!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/SproutTower_2F_hns/scripts.inc",
+    "ligne": 31,
+    "ancien": "Si fort qu’on se batte, la TOUR\\nreste debout.",
+    "preuve": "55:0 — Même en y mettant toutes nos forces,\\non pourra à peine ébranler la tour!",
+    "note": "autre(s) variante(s) SS : Même en y mettant toutes nos forces,\\non ne pourra même pas ébranler la\\ltour!"
+  },
+  {
+    "msgid": "There's something written here.\\pRead it?",
+    "msgstr": "… Il y a un carnet!\\nVoulez-vous le lire?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route26_House2_hns/scripts.inc",
+    "ligne": 26,
+    "ancien": "Il y a quelque chose d’écrit.\\pVoulez-vous le lire?",
+    "preuve": "367:0 — ... Il y a un carnet!\\nVoulez-vous le lire? {YESNO 0}\\n"
+  },
+  {
+    "msgid": "To my brothers and sisters:\\pWe take pride in serving POKéMON\\ntrainers.\\pWhen trainers talk to you, give\\nthem something useful.\\pLove,\\nMONICA\\pKeep reading?",
+    "msgstr": "A mes frères et sœurs:\\nNotre joie dans la vie est d’aider\\lles Dresseurs de Pokémon!\\pQuand un Dresseur vient vous parler,\\noffrez-lui un objet utile!\\pJe vous embrasse tous,\\nLucie\\pContinuer à lire?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route26_House2_hns/scripts.inc",
+    "ligne": 30,
+    "ancien": "À mes frères et sœurs:\\pNous sommes fiers de servir les\\nDRESSEURS de Pokémon.\\pQuand un Dresseur vous parle,\\noffrez-lui quelque chose d’utile.\\pAffectueusement,\\nMONICA\\pContinuer la lecture?",
+    "preuve": "367:1 — A mes frères et sœurs:\\nNotre joie dans la vie est d’aider\\fles Dresseurs de Pokémon!\\rQuand un Dresseur vient vous parler,\\noffrez-lui un objet utile!\\rJe vous embrasse tous,\\nLucie\\rContinuer à lire? {YESNO 0}"
+  },
+  {
+    "msgid": "Hi, {PLAYER}! Leaving again?\\pYou should tell your mom if\\nyou are leaving.",
+    "msgstr": "Bonjour, {PLAYER}!\\nTu sors encore?\\pN’oublie pas que tu dois avertir ta\\nmère avant de partir!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/NewBarkTown_hns/scripts.inc",
+    "ligne": 257,
+    "ancien": "Salut, {PLAYER}! Tu repars déjà?\\pTu devrais prévenir ta maman\\navant de partir.",
+    "preuve": "542:6 — Bonjour, {STRVAR_1 3, 0, 0}!\\nTu sors encore?\\rN’oublie pas que tu dois avertir ta\\nmère avant de partir!"
+  },
+  {
+    "msgid": "…What are you staring at?",
+    "msgstr": "… Tu veux quoi?\\nMe regarde pas comme ça!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/NewBarkTown_hns/scripts.inc",
+    "ligne": 271,
+    "ancien": "…Qu’est-ce que tu regardes?",
+    "preuve": "542:14 — ... Tu veux quoi?\\nMe regarde pas comme ça!\\r"
+  },
+  {
+    "msgid": "It's the CARD KEY slot.",
+    "msgstr": "Un lecteur de Carte Magnétique.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/GoldenrodCity_RadioTower_3F_hns/scripts.inc",
+    "ligne": 134,
+    "ancien": "C’est la fente pour Carte MAGN.",
+    "preuve": "67:11 — Un lecteur de Carte Magnétique.\\r",
+    "note": "autre(s) variante(s) SS : Un lecteur de Carte Magnétique"
+  },
+  {
+    "msgid": "{PLAYER} inserted the CARD KEY.",
+    "msgstr": "{PLAYER} insère\\nla Carte Magnétique.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/GoldenrodCity_RadioTower_3F_hns/scripts.inc",
+    "ligne": 137,
+    "ancien": "{PLAYER} insère la Carte MAGN.",
+    "preuve": "67:12 — {STRVAR_1 3, 0, 0} insère\\nla Carte Magnétique.\\r"
+  },
+  {
+    "msgid": "You're kidding!",
+    "msgstr": "Sans blague?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/GoldenrodCity_RadioTower_3F_hns/scripts.inc",
+    "ligne": 205,
+    "ancien": "Tu plaisantes!",
+    "preuve": "728:591 — Sans blague?",
+    "note": "autre(s) variante(s) SS : Arrête ça!"
+  },
+  {
+    "msgid": "EUSINE: Yo, {PLAYER}.\\pWasn't that SUICUNE just now?\\pI only caught a quick glimpse, but\\nI thought I saw SUICUNE running on\\lthe waves.\\pSUICUNE is beautiful and grand.\\pAnd it races through towns and\\nroads at simply awesome speeds.\\pIt's wonderful…\\pI want to see SUICUNE up close…\\pI've decided.\\pI'll battle you as a trainer to\\nearn SUICUNE's respect!\\pCome on, {PLAYER}. Let's battle now!",
+    "msgstr": "Eusine: Salut, {PLAYER}.\\pC’était…\\nC’était SUICUNE, hein?\\pJe l’ai à peine aperçu,\\nmais j’ai cru le voir courir sur l’eau…\\pIl est si beau et si élégant…\\pEt il traverse villes et routes\\nà une vitesse prodigieuse…\\pQuel être extraordinaire…\\pJ’aimerais tellement pouvoir\\nl’admirer de plus près…\\pJe sais!\\pJe vais me battre avec toi pour que\\nSUICUNE remarque mes talents!\\pEn garde! {PLAYER}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/CianwoodCity_hns/scripts.inc",
+    "ligne": 274,
+    "ancien": "EUSINE: Salut, {PLAYER}.\\pC’était bien SUICUNE, à l’instant?\\pJe ne l’ai aperçu qu’une seconde,\\nmais j’ai cru voir SUICUNE filer\\lsur les vagues.\\pSUICUNE est si beau, si majestueux.\\pEt il traverse villes et routes\\nà une vitesse renversante!\\pC’est merveilleux…\\pJe veux voir SUICUNE de près…\\pC’est décidé.\\pJe vais t’affronter en tant que\\nDRESSEUR pour gagner le respect\\lde SUICUNE!\\pAllez, {PLAYER}. En garde!",
+    "preuve": "572:15 — Eusine: Salut, {STRVAR_1 3, 0, 0}.\\rC’était...\\nC’était SUICUNE, hein?\\rJe l’ai à peine aperçu,\\nmais j’ai cru le voir courir sur l’eau...\\rIl est si beau et si élégant...\\rEt il traverse villes et routes\\nà une vitesse prodigieuse...\\rQuel être extraordinaire...\\rJ’aimerais tellement pouvoir\\nl’admirer de plus près...\\rJe sais!\\rJe vais me battre avec toi pour que\\nSUICUNE remarque mes talents!\\rEn garde! {STRVAR_1 3, 0, 0}!"
+  },
+  {
+    "msgid": "You have to warm up before\\ngoing into the water.\\pThat's basic.",
+    "msgstr": "Il faut s’échauffer avant de se\\nbaigner. Tout le monde sait ça!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route40_hns/scripts.inc",
+    "ligne": 20,
+    "ancien": "Il faut s’échauffer avant d’aller\\ndans l’eau.\\pC’est la base.",
+    "preuve": "728:797 — Il faut s’échauffer avant de se\\nbaigner. Tout le monde sait ça!\\r"
+  },
+  {
+    "msgid": "Are you going to CIANWOOD?\\pHow about a quick battle\\nfirst?",
+    "msgstr": "Tu vas à Irisia?\\pOn s’bat d’abord?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/Route40_hns/scripts.inc",
+    "ligne": 54,
+    "ancien": "Tu vas à Irisia?\\pEt si on faisait un petit combat\\navant?",
+    "preuve": "744:6 — Tu vas à Irisia?\\rOn s’bat d’abord?",
+    "note": "autre(s) variante(s) SS : Tu vas à Irisia?\\nOn s’bat d’abord?"
+  },
+  {
+    "msgid": "Hi! Is it your first time here at\\nthe SAFARI ZONE?",
+    "msgstr": "Bienvenue au Parc Safari!\\pC’est votre première visite?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/FuchsiaCity_SafariZone_Entrance_Frlg/scripts.inc",
+    "ligne": 257,
+    "preuve": "135:14 — Bienvenue au Parc Safari!\\rC’est votre première visite? {YESNO 0}"
+  },
+  {
+    "msgid": "LANCE: {PLAYER}, we should split up\\nto check this place.\\pI'll go first.",
+    "msgstr": "Peter: {PLAYER}, nous ferions mieux\\nde nous séparer. Je passe en premier.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/MahoganyTown_Shop_hns/scripts.inc",
+    "ligne": 261,
+    "ancien": "PETER: {PLAYER}, séparons-nous\\npour fouiller les lieux.\\pJe passe devant.",
+    "preuve": "111:8 — Peter: {STRVAR_1 3, 0, 0}, nous ferions mieux\\nde nous séparer. Je passe en premier.\\r"
+  },
+  {
+    "msgid": "Sorry {PLAYER}, I've got to go!",
+    "msgstr": "Désolé, {PLAYER}!\\nJe dois y aller!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/VermilionCity_hns/scripts.inc",
+    "ligne": 323,
+    "ancien": "Désolé, {PLAYER}, je dois filer!",
+    "preuve": "483:15 — Désolé, {STRVAR_1 3, 0, 0}!\\nJe dois y aller!\\r"
+  },
+  {
+    "msgid": "The door's closed…\\p{PLAYER} entered the two passwords.\\pThe door opened!",
+    "msgstr": "La porte est fermée…\\p{PLAYER} tape les deux\\nmots de passe…\\pLa porte s’ouvre!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/RocketHideout_B3F_hns/scripts.inc",
+    "ligne": 276,
+    "ancien": "La porte est fermée…\\p{PLAYER} entre les deux mots de passe.\\pLa porte s’ouvre!",
+    "preuve": "114:12 — La porte est fermée...\\r{STRVAR_1 3, 0, 0} tape les deux\\nmots de passe...\\rLa porte s’ouvre!\\r"
+  },
+  {
+    "msgid": "Muhahaha, we've been waiting\\nfor you. So, you are {PLAYER}...\\pMe? You don't know who I am?\\nIt is me, GIOVANNI.\\pThe majestic GIOVANNI himself!\\nWahahaha!",
+    "msgstr": "Gnihihi… Enfin…\\nC’est donc toi, {PLAYER}…?\\pQuoi?\\nTu ne sais pas qui je suis?\\pJe suis Giovanni! Le maître Giovanni!\\nWahahaha!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/RocketHideout_B3F_hns/scripts.inc",
+    "ligne": 564,
+    "ancien": "Mouhahaha, nous t’attendions.\\nAlors c’est toi, {PLAYER}…\\pMoi? Tu ne sais pas qui je suis?\\nC’est moi, GIOVANNI.\\pLe majestueux GIOVANNI en\\npersonne! Wahahaha!",
+    "preuve": "114:4 — Gnihihi... Enfin...\\nC’est donc toi, {STRVAR_1 3, 0, 0}...?\\rQuoi?\\nTu ne sais pas qui je suis?\\rJe suis Giovanni! Le maître Giovanni!\\nWahahaha!\\r"
+  },
+  {
+    "msgid": "Ah. You're on an adventure with\\nyour POKéMON?\\pWell, what's an adventure without\\ntreasure hunting?\\pAm I right, or am I right?",
+    "msgstr": "Ah! Tu vas par monts et par vaux avec\\ntes Pokémon?\\pMais que serait une aventure sans\\nchasse au trésor?\\lTu n’es pas d’accord?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/EcruteakCity_House2_hns/scripts.inc",
+    "ligne": 5,
+    "ancien": "Ah. Tu pars à l’aventure avec\\ntes Pokémon?\\pEt une aventure sans chasse au\\ntrésor, c’est quoi, hein?\\pJ’ai raison, ou j’ai raison?",
+    "preuve": "619:0 — Ah! Tu vas par monts et par vaux avec\\ntes Pokémon?\\rMais que serait une aventure sans\\nchasse au trésor?\\fTu n’es pas d’accord? {YESNO 0}"
+  },
+  {
+    "msgid": "HISTORY OF ECRUTEAK\\pWant to read it?",
+    "msgstr": "“Histoire de Rosalia”\\pDésirez-vous lire?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/EcruteakCity_House2_hns/scripts.inc",
+    "ligne": 77,
+    "ancien": "HISTOIRE DE Rosalia\\pLire le livre?",
+    "preuve": "619:5 — “Histoire de Rosalia”\\rDésirez-vous lire? {YESNO 0}"
+  },
+  {
+    "msgid": "In ECRUTEAK, there were two towers.\\pEach tower was the roost of\\npowerful flying POKéMON.\\pBut one of the towers burned to\\nthe ground.\\pThe two POKéMON haven't been seen\\nsince…\\pKeep reading?",
+    "msgstr": "Il existait à Rosalia deux tours qu’un\\nlégendaire Pokémon venait\\lvisiter depuis les cieux.\\pMais quand l’une d’elle brûla, son\\ncéleste visiteur plus jamais\\lne parut…\\l… dit la légende.\\pContinuer à lire?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/EcruteakCity_House2_hns/scripts.inc",
+    "ligne": 81,
+    "ancien": "Rosalia comptait jadis deux tours.\\pChacune abritait un puissant\\nPOKéMON volant.\\pMais l’une d’elles a été réduite\\nen cendres.\\pDepuis, nul n’a revu les deux\\nPOKéMON…\\pContinuer la lecture?",
+    "preuve": "619:6 — Il existait à Rosalia deux tours qu’un\\nlégendaire Pokémon venait\\fvisiter depuis les cieux.\\rMais quand l’une d’elle brûla, son\\ncéleste visiteur plus jamais\\fne parut...\\f... dit la légende.\\rContinuer à lire? {YESNO 0}"
+  },
+  {
+    "msgid": "Oh, no, no, no!",
+    "msgstr": "Oh, non, non, non!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/maps/GoldenrodCity_Gym_hns/scripts.inc",
+    "ligne": 198,
+    "ancien": "Oh non, non, non!",
+    "preuve": "728:158 — Oh, non, non, non!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} is getting pumped!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} se gonfle!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 74,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} se gonfle à bloc!",
+    "preuve": "5:36 — {STRVAR_1 1, 0, 0} se gonfle!"
+  },
+  {
+    "msgid": "{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME} fled!",
+    "msgstr": "{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME} s’enfuient!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 88,
+    "ancien": "{PLAY_SE 17 0}{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME} fuient!",
+    "preuve": "197:792 — {STRVAR_1 3, 0, 0} et\\n{STRVAR_1 3, 1, 0} s’enfuient!"
+  },
+  {
+    "msgid": "You are challenged by {B_TRAINER1_NAME_WITH_CLASS}!\\p",
+    "msgstr": "{B_TRAINER1_NAME_WITH_CLASS}\\nveut se battre!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 99,
+    "ancien": "{B_TRAINER1_NAME_WITH_CLASS} veut se battre!\\p",
+    "preuve": "197:970 — {STRVAR_1 3, 0, 0}\\nveut se battre!\\r"
+  },
+  {
+    "msgid": "{B_LINK_SCR_TRAINER_NAME} sent out {B_BUFF1}!",
+    "msgstr": "{B_LINK_SCR_TRAINER_NAME} envoie {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 110,
+    "preuve": "197:974 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!"
+  },
+  {
+    "msgid": "Go! {B_PLAYER_MON1_NAME} and {B_PLAYER_MON2_NAME}!",
+    "msgstr": "{B_PLAYER_MON1_NAME} et {B_PLAYER_MON2_NAME}! Go!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 112,
+    "ancien": "{B_PLAYER_MON1_NAME} et {B_PLAYER_MON2_NAME}, go!",
+    "preuve": "197:978 — {STRVAR_1 1, 0, 0} et\\n{STRVAR_1 1, 1, 0}! Go!"
+  },
+  {
+    "msgid": "You're in charge, {B_BUFF1}!",
+    "msgstr": "{B_BUFF1}! Fonce!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 114,
+    "ancien": "À toi de jouer, {B_BUFF1}!",
+    "preuve": "197:980 — {STRVAR_1 1, 0, 0}! Fonce!"
+  },
+  {
+    "msgid": "Just a little more! Hang in there, {B_BUFF1}!",
+    "msgstr": "Un dernier petit effort! Tiens bon, {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 116,
+    "preuve": "197:983 — Un dernier petit effort!\\nTiens bon, {STRVAR_1 1, 0, 0}!"
+  },
+  {
+    "msgid": "{B_LINK_PARTNER_NAME} sent out {B_LINK_PLAYER_MON1_NAME}! Go! {B_LINK_PLAYER_MON2_NAME}!",
+    "msgstr": "{B_LINK_PARTNER_NAME} envoie {B_LINK_PLAYER_MON1_NAME}! {B_LINK_PLAYER_MON2_NAME}! Go!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 118,
+    "ancien": "{B_LINK_PARTNER_NAME} envoie {B_LINK_PLAYER_MON1_NAME}! Go! {B_LINK_PLAYER_MON2_NAME}!",
+    "preuve": "197:977 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!\\f{STRVAR_1 1, 2, 0}! Go!"
+  },
+  {
+    "msgid": "{B_LINK_PARTNER_NAME} sent out {B_LINK_PLAYER_MON2_NAME}! Go! {B_LINK_PLAYER_MON1_NAME}!",
+    "msgstr": "{B_LINK_PARTNER_NAME} envoie {B_LINK_PLAYER_MON2_NAME}! {B_LINK_PLAYER_MON1_NAME}! Go!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 119,
+    "ancien": "{B_LINK_PARTNER_NAME} envoie {B_LINK_PLAYER_MON2_NAME}! {B_LINK_PLAYER_MON1_NAME}, go!",
+    "preuve": "197:977 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!\\f{STRVAR_1 1, 2, 0}! Go!"
+  },
+  {
+    "msgid": "{B_LINK_PARTNER_NAME} withdrew {B_LINK_PLAYER_MON1_NAME}!",
+    "msgstr": "{B_LINK_PARTNER_NAME} retire {B_LINK_PLAYER_MON1_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 122,
+    "ancien": "{B_LINK_PARTNER_NAME} rappelle {B_LINK_PLAYER_MON1_NAME}!",
+    "preuve": "197:990 — {STRVAR_1 3, 0, 0} retire\\n{STRVAR_1 1, 1, 0}!"
+  },
+  {
+    "msgid": "{B_LINK_PARTNER_NAME} withdrew {B_LINK_PLAYER_MON2_NAME}!",
+    "msgstr": "{B_LINK_PARTNER_NAME} retire {B_LINK_PLAYER_MON2_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 123,
+    "ancien": "{B_LINK_PARTNER_NAME} rappelle {B_LINK_PLAYER_MON2_NAME}!",
+    "preuve": "197:990 — {STRVAR_1 3, 0, 0} retire\\n{STRVAR_1 1, 1, 0}!"
+  },
+  {
+    "msgid": "{B_BUFF1}, switch out! Come back!",
+    "msgstr": "{B_BUFF1}, on change! Reviens!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 124,
+    "preuve": "197:984 — {STRVAR_1 1, 0, 0}, on change!\\nReviens!"
+  },
+  {
+    "msgid": "{B_TRAINER1_NAME_WITH_CLASS} withdrew {B_BUFF1}!",
+    "msgstr": "{B_TRAINER1_NAME_WITH_CLASS} retire {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 129,
+    "ancien": "{B_TRAINER1_NAME_WITH_CLASS} rappelle {B_BUFF1}!",
+    "preuve": "197:990 — {STRVAR_1 3, 0, 0} retire\\n{STRVAR_1 1, 1, 0}!"
+  },
+  {
+    "msgid": "{B_TRAINER2_NAME_WITH_CLASS} withdrew {B_BUFF1}!",
+    "msgstr": "{B_TRAINER2_NAME_WITH_CLASS} retire {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 130,
+    "ancien": "{B_TRAINER2_NAME_WITH_CLASS} rappelle {B_BUFF1}!",
+    "preuve": "197:990 — {STRVAR_1 3, 0, 0} retire\\n{STRVAR_1 1, 1, 0}!"
+  },
+  {
+    "msgid": "{B_LINK_OPPONENT1_NAME} withdrew {B_BUFF1}!",
+    "msgstr": "{B_LINK_OPPONENT1_NAME} retire {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 131,
+    "ancien": "{B_LINK_OPPONENT1_NAME} rappelle {B_BUFF1}!",
+    "preuve": "197:990 — {STRVAR_1 3, 0, 0} retire\\n{STRVAR_1 1, 1, 0}!"
+  },
+  {
+    "msgid": "{B_LINK_OPPONENT2_NAME} withdrew {B_BUFF1}!",
+    "msgstr": "{B_LINK_OPPONENT2_NAME} retire {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 132,
+    "ancien": "{B_LINK_OPPONENT2_NAME} rappelle {B_BUFF1}!",
+    "preuve": "197:990 — {STRVAR_1 3, 0, 0} retire\\n{STRVAR_1 1, 1, 0}!"
+  },
+  {
+    "msgid": "{B_BUFF1} grew to Lv. {B_BUFF2}!{WAIT_SE}\\p",
+    "msgstr": "{B_BUFF1} monte au\\nN. {B_BUFF2}!{WAIT_SE}\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 197,
+    "ancien": "{B_BUFF1} monte au N. {B_BUFF2}!{WAIT_SE}\\p",
+    "preuve": "197:3 — {STRVAR_1 1, 0, 0} monte au\\nN. {STRVAR_1 52, 1, 0}!{WAIT 5}{WAIT 2}\\r"
+  },
+  {
+    "msgid": "{B_BUFF1} learned {B_BUFF2}!{WAIT_SE}\\p",
+    "msgstr": "{B_BUFF1} apprend\\n{B_BUFF2}!{WAIT_SE}\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 198,
+    "ancien": "{B_BUFF1} apprend {B_BUFF2}!{WAIT_SE}\\p",
+    "preuve": "197:4 — {STRVAR_1 1, 0, 0} apprend\\n{STRVAR_1 6, 1, 0}!{WAIT 5}{WAIT 2}\\r",
+    "note": "autre(s) variante(s) SS : {B_BUFF1} apprend {B_BUFF2}!{WAIT_SE}\\p | {B_BUFF1} apprend\\n{B_BUFF2}.{WAIT_SE}\\p"
+  },
+  {
+    "msgid": "{B_BUFF1} wants to learn the move {B_BUFF2}.\\p",
+    "msgstr": "{B_BUFF1} tente d’apprendre\\n{B_BUFF2}.\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 199,
+    "ancien": "{B_BUFF1} veut apprendre {B_BUFF2}.\\p",
+    "preuve": "197:1178 — {STRVAR_1 1, 0, 0} tente d’apprendre\\n{STRVAR_1 6, 1, 0}.\\r"
+  },
+  {
+    "msgid": "However, {B_BUFF1} already knows four moves.\\p",
+    "msgstr": "Mais {B_BUFF1} ne peut pas\\navoir plus de quatre capacités.\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 200,
+    "ancien": "Mais {B_BUFF1} connaît déjà 4 capacités.\\p",
+    "preuve": "197:1194 — Mais {STRVAR_1 1, 0, 0} ne peut pas\\navoir plus de quatre capacités.\\r"
+  },
+  {
+    "msgid": "{B_BUFF1} did not learn {B_BUFF2}.\\p",
+    "msgstr": "{B_BUFF1} n’a pas appris\\n{B_BUFF2}.\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 204,
+    "ancien": "{B_BUFF1} n’a pas appris {B_BUFF2}.\\p",
+    "preuve": "197:10 — {STRVAR_1 1, 0, 0} n’a pas appris\\n{STRVAR_1 6, 1, 0}.\\r"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX}'s stats won't go any higher!",
+    "msgstr": "Les stats du {B_ATK_NAME_WITH_PREFIX} n’iront pas plus haut!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 208,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} est déjà au maximum!",
+    "preuve": "197:768 — Les stats du {STRVAR_1 1, 0, 0}\\nn’iront pas plus haut!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} fainted!\\p",
+    "msgstr": "{B_SCR_NAME_WITH_PREFIX}\\nest K.O.!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 211,
+    "ancien": "{B_SCR_NAME_WITH_PREFIX} est K.O.!\\p",
+    "preuve": "197:30 — {STRVAR_1 1, 0, 0}\\nest K.O.!\\r"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} prevents escape with {B_SCR_ABILITY}!\\p",
+    "msgstr": "{B_SCR_NAME_WITH_PREFIX} empêche la\\nfuite avec {B_SCR_ABILITY}!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 217,
+    "ancien": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} empêche la fuite!\\p",
+    "preuve": "197:39 — {STRVAR_1 1, 0, 0} empêche la\\nfuite avec {STRVAR_1 5, 1, 0}!\\r"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} is already poisoned!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} est déjà empoisonné.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 226,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} est déjà empoisonné!",
+    "preuve": "197:76 — {STRVAR_1 1, 0, 0} est déjà\\nempoisonné."
+  },
+  {
+    "msgid": "{B_EFF_NAME_WITH_PREFIX} was badly poisoned!",
+    "msgstr": "{B_EFF_NAME_WITH_PREFIX} est gravement empoisonné!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 227,
+    "ancien": "{B_EFF_NAME_WITH_PREFIX} est intoxiqué!",
+    "preuve": "197:79 — {STRVAR_1 1, 0, 0} est gravement\\nempoisonné!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} had its energy drained!",
+    "msgstr": "L’énergie du {B_DEF_NAME_WITH_PREFIX} est drainée!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 228,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} perd son énergie!",
+    "preuve": "197:82 — L’énergie du {STRVAR_1 1, 0, 0}\\nest drainée!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} thawed out!",
+    "msgstr": "{B_SCR_NAME_WITH_PREFIX} est dégelé!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 235,
+    "ancien": "{B_SCR_NAME_WITH_PREFIX} dégèle!",
+    "preuve": "197:114 — {STRVAR_1 1, 0, 0} est dégelé!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} was cured of paralysis!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} n’est plus paralysé.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 241,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} n’est plus paralysé!",
+    "preuve": "6:84 — {STRVAR_1 1, 0, 0} n’est plus\\nparalysé.",
+    "note": "autre(s) variante(s) SS : {B_DEF_NAME_WITH_PREFIX} n’est plus paralysé!"
+  },
+  {
+    "msgid": "{B_EFF_NAME_WITH_PREFIX} became confused!",
+    "msgstr": "Cela rend {B_EFF_NAME_WITH_PREFIX} confus!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 246,
+    "ancien": "{B_EFF_NAME_WITH_PREFIX} devient confus!",
+    "preuve": "197:156 — Cela rend {STRVAR_1 1, 0, 0}\\nconfus!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} fell in love!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} est amoureux!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 248,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} tombe amoureux!",
+    "preuve": "197:162 — {STRVAR_1 1, 0, 0} est amoureux!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} is immobilized by love!",
+    "msgstr": "L’amour empêche {B_ATK_NAME_WITH_PREFIX} d’attaquer!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 250,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} est figé par l’amour!",
+    "preuve": "197:172 — L’amour empêche {STRVAR_1 1, 0, 0}\\nd’attaquer!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} whipped up a whirlwind!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} déclenche un cyclone!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 262,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} crée une bourrasque!",
+    "preuve": "197:211 — {STRVAR_1 1, 0, 0} déclenche un\\ncyclone!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} absorbed light!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} rayonne!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 263,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} absorbe la lumière!",
+    "preuve": "197:214 — {STRVAR_1 1, 0, 0} rayonne!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} tucked in its head!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} baisse la tête!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 264,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} rentre la tête!",
+    "preuve": "197:217 — {STRVAR_1 1, 0, 0} baisse la tête!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} became cloaked in a harsh light!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} est entouré d’une lumière intense!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 265,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} est baigné d’une lumière intense!",
+    "preuve": "197:220 — {STRVAR_1 1, 0, 0} est entouré d’une\\nlumière intense!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} burrowed its way under the ground!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} creuse un trou!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 267,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} s’enfonce dans le sol!",
+    "preuve": "197:226 — {STRVAR_1 1, 0, 0} creuse un trou!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} is hurt by {B_BUFF1}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} est blessé par {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 272,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} souffre de {B_BUFF1}!",
+    "preuve": "197:262 — {STRVAR_1 1, 0, 0} est blessé par\\n{STRVAR_1 6, 1, 0}!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} was freed from {B_BUFF1}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} est libéré de {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 273,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} se libère de {B_BUFF1}!",
+    "preuve": "197:265 — {STRVAR_1 1, 0, 0} est libéré de\\n{STRVAR_1 6, 1, 0}!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} caused an uproar!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} provoque un Brouhaha!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 288,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} crée un brouhaha!",
+    "preuve": "197:308 — {STRVAR_1 1, 0, 0} provoque\\nun Brouhaha!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} is making an uproar!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} fait un Brouhaha!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 289,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} fait du brouhaha!",
+    "preuve": "197:311 — {STRVAR_1 1, 0, 0} fait un\\nBrouhaha!"
+  },
+  {
+    "msgid": "But {B_DEF_NAME_WITH_PREFIX2} can't sleep in an uproar!",
+    "msgstr": "Mais le Brouhaha empêche {B_DEF_NAME_WITH_PREFIX2} de dormir!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 292,
+    "ancien": "Mais {B_DEF_NAME_WITH_PREFIX2} ne peut dormir avec ce bruit!",
+    "preuve": "197:323 — Mais le Brouhaha empêche\\n{STRVAR_1 1, 0, 0} de dormir!"
+  },
+  {
+    "msgid": "But the uproar kept {B_DEF_NAME_WITH_PREFIX2} awake!",
+    "msgstr": "Mais le Brouhaha tient {B_DEF_NAME_WITH_PREFIX2} éveillé!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 293,
+    "ancien": "Mais le Brouhaha empêche {B_DEF_NAME_WITH_PREFIX2} de dormir!",
+    "preuve": "197:326 — Mais le Brouhaha tient\\n{STRVAR_1 1, 0, 0} éveillé!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} is storing energy!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} se concentre!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 295,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} accumule de l’énergie!",
+    "preuve": "197:332 — {STRVAR_1 1, 0, 0} se concentre!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} became confused due to fatigue!",
+    "msgstr": "La fatigue rend {B_SCR_NAME_WITH_PREFIX} confus!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 297,
+    "ancien": "{B_SCR_NAME_WITH_PREFIX} est épuisé et devient confus!",
+    "preuve": "197:338 — La fatigue rend {STRVAR_1 1, 0, 0}\\nconfus!"
+  },
+  {
+    "msgid": "The substitute took damage for {B_DEF_NAME_WITH_PREFIX2}!\\p",
+    "msgstr": "Le clone prend les\\ndégâts du {B_DEF_NAME_WITH_PREFIX2}!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 303,
+    "ancien": "Le clone encaisse les coups à la place de {B_DEF_NAME_WITH_PREFIX2}!\\p",
+    "preuve": "197:354 — Le clone prend les\\ndégâts du {STRVAR_1 1, 0, 0}!\\r"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX}'s substitute faded!\\p",
+    "msgstr": "Le clone du {B_DEF_NAME_WITH_PREFIX}\\ndisparaît!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 304,
+    "ancien": "Le clone de {B_DEF_NAME_WITH_PREFIX} s’efface!\\p",
+    "preuve": "197:357 — Le clone du {STRVAR_1 1, 0, 0}\\ndisparaît!\\r"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} must recharge!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} doit se recharger!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 305,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} doit se reposer!",
+    "preuve": "197:360 — {STRVAR_1 1, 0, 0} doit\\nse recharger!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX}'s rage is building!",
+    "msgstr": "La Frénésie du {B_DEF_NAME_WITH_PREFIX} augmente!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 306,
+    "ancien": "La colère de {B_DEF_NAME_WITH_PREFIX} monte!",
+    "preuve": "197:363 — La Frénésie du {STRVAR_1 1, 0, 0}\\naugmente!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} was disabled!",
+    "msgstr": "{B_BUFF1} du {B_DEF_NAME_WITH_PREFIX} est mis sous Entrave!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 307,
+    "ancien": "{B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} est bloqué!",
+    "preuve": "197:366 — {STRVAR_1 6, 1, 0} du {STRVAR_1 1, 0, 0}\\nest mis sous Entrave!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE} is disabled!\\p",
+    "msgstr": "Il y a une Entrave sur {B_CURRENT_MOVE}\\ndu {B_ATK_NAME_WITH_PREFIX}!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 308,
+    "ancien": "{B_CURRENT_MOVE} de {B_ATK_NAME_WITH_PREFIX} est bloqué!\\p",
+    "preuve": "197:609 — Il y a une Entrave sur {STRVAR_1 6, 1, 0}\\ndu {STRVAR_1 1, 0, 0}!\\r"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} sketched {B_BUFF1}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} Gribouille {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 314,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} copie {B_BUFF1}!",
+    "preuve": "197:385 — {STRVAR_1 1, 0, 0} Gribouille\\n{STRVAR_1 6, 1, 0}!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} stole {B_EFF_NAME_WITH_PREFIX2}'s {B_LAST_ITEM}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} vole {B_LAST_ITEM} au {B_EFF_NAME_WITH_PREFIX2}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 318,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} vole {B_LAST_ITEM} à {B_EFF_NAME_WITH_PREFIX2}!",
+    "preuve": "197:401 — {STRVAR_1 1, 0, 0} vole {STRVAR_1 8, 2, 0} au\\n{STRVAR_1 1, 1, 0}!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} can no longer escape!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} ne peut pas s’échapper!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 319,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} ne peut plus s’enfuir!",
+    "preuve": "197:408 — {STRVAR_1 1, 0, 0} ne peut pas\\ns’échapper!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} began having a nightmare!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} commence un Cauchemar!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 320,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} commence à cauchemarder!",
+    "preuve": "197:411 — {STRVAR_1 1, 0, 0} commence un\\nCauchemar!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} is locked in a nightmare!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} est prisonnier d’un Cauchemar!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 321,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} fait un cauchemar!",
+    "preuve": "197:414 — {STRVAR_1 1, 0, 0} est prisonnier\\nd’un Cauchemar!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} is afflicted by the curse!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} est touché par la Malédiction!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 323,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} subit la malédiction!",
+    "preuve": "197:424 — {STRVAR_1 1, 0, 0} est touché par\\nla Malédiction!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} cut its own HP and maximized its ATTACK!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} sacrifie ses PV et monte son Attaque au maximum!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 331,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} sacrifie des PV et maximise son ATTAQUE!",
+    "preuve": "197:449 — {STRVAR_1 1, 0, 0} sacrifie ses PV\\net monte son Attaque au maximum!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} got free of {B_DEF_NAME_WITH_PREFIX2}'s {B_BUFF1}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} se libère de {B_BUFF1} du {B_DEF_NAME_WITH_PREFIX2}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 333,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} se libère de {B_BUFF1} de {B_DEF_NAME_WITH_PREFIX2}!",
+    "preuve": "197:459 — {STRVAR_1 1, 0, 0} se libère de\\n{STRVAR_1 6, 2, 0} du {STRVAR_1 1, 1, 0}!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} fled from battle!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} s’enfuit!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 336,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} quitte le combat!",
+    "preuve": "197:469 — {STRVAR_1 1, 0, 0} s’enfuit!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} took the {B_BUFF1} attack!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} reçoit l’attaque {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 338,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} subit l’attaque {B_BUFF1}!",
+    "preuve": "197:475 — {STRVAR_1 1, 0, 0} reçoit l’attaque\\n{STRVAR_1 6, 1, 0}!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} became the center of attention!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} devient le centre d’attention!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 340,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} devient le centre de l’attention!",
+    "preuve": "197:484 — {STRVAR_1 1, 0, 0} devient le centre\\nd’attention!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} began charging power!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} se met à charger son énergie!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 341,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} se charge en énergie!",
+    "preuve": "197:487 — {STRVAR_1 1, 0, 0} se met à\\ncharger son énergie!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX}'s status returned to normal!",
+    "msgstr": "Le statut du {B_ATK_NAME_WITH_PREFIX} revient à la normale!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 343,
+    "ancien": "Le statut de {B_ATK_NAME_WITH_PREFIX} est normal!",
+    "preuve": "197:491 — Le statut du {STRVAR_1 1, 0, 0}\\nrevient à la normale!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} was subjected to torment!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} est victime de la Tourmente!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 345,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} est tourmenté!",
+    "preuve": "197:494 — {STRVAR_1 1, 0, 0} est victime de la\\nTourmente!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} can't use the same move twice in a row due to the torment!\\p",
+    "msgstr": "La Tourmente empêche {B_ATK_NAME_WITH_PREFIX}\\nd’utiliser une capacité deux fois de\\lsuite!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 346,
+    "ancien": "Tourmente empêche {B_ATK_NAME_WITH_PREFIX} de répéter la même capacité!\\p",
+    "preuve": "197:612 — La Tourmente empêche {STRVAR_1 1, 0, 0}\\nd’utiliser une capacité deux fois de\\fsuite!\\r"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} is tightening its focus!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} se concentre davantage!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 347,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} se concentre à fond!",
+    "preuve": "197:497 — {STRVAR_1 1, 0, 0} se concentre\\ndavantage!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} fell for the taunt!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} répond à la Provoc!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 348,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} se laisse provoquer!",
+    "preuve": "197:500 — {STRVAR_1 1, 0, 0} répond à\\nla Provoc!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} can't use {B_CURRENT_MOVE} after the taunt!\\p",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} ne peut pas\\nutiliser {B_CURRENT_MOVE} après Provoc!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 349,
+    "ancien": "Provoc empêche {B_ATK_NAME_WITH_PREFIX} d’utiliser {B_CURRENT_MOVE}!\\p",
+    "preuve": "197:613 — {STRVAR_1 1, 0, 0} ne peut pas\\nutiliser {STRVAR_1 6, 1, 0} après Provoc!\\r"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} switched items with its target!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} change d’objet avec sa cible!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 351,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} échange son objet avec la cible!",
+    "preuve": "197:510 — {STRVAR_1 1, 0, 0} change d’objet\\navec sa cible!"
+  },
+  {
+    "msgid": "{B_BUFF1}'s wish came true!",
+    "msgstr": "Le Voeu du {B_BUFF1} se réalise!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 353,
+    "ancien": "Le vœu de {B_BUFF1} se réalise!",
+    "preuve": "197:533 — Le Voeu du {STRVAR_1 1, 0, 0}\\nse réalise!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} planted its roots!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} plante ses racines!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 354,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} plante ses\\nracines!",
+    "preuve": "197:536 — {STRVAR_1 1, 0, 0} plante ses\\nracines!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} absorbed nutrients with its roots!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} absorbe des nutriments avec ses racines!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 355,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} se nourrit par ses racines!",
+    "preuve": "197:539 — {STRVAR_1 1, 0, 0} absorbe des\\nnutriments avec ses racines!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} anchored itself with its roots!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} s’accroche avec ses racines!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 356,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} plante ses racines!",
+    "preuve": "197:542 — {STRVAR_1 1, 0, 0} s’accroche\\navec ses racines!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} knocked off {B_DEF_NAME_WITH_PREFIX2}'s {B_LAST_ITEM}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} fait tomber {B_LAST_ITEM} du {B_DEF_NAME_WITH_PREFIX2}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 358,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} fait tomber {B_LAST_ITEM} de {B_DEF_NAME_WITH_PREFIX2}!",
+    "preuve": "197:552 — {STRVAR_1 1, 0, 0} fait tomber\\n{STRVAR_1 8, 2, 0} du {STRVAR_1 1, 1, 0}!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} lost all its PP due to the grudge!",
+    "msgstr": "{B_BUFF1} du {B_ATK_NAME_WITH_PREFIX} perd ses PP à cause de la Rancune!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 363,
+    "ancien": "{B_BUFF1} de {B_ATK_NAME_WITH_PREFIX} perd tous ses PP: c’est Rancune!",
+    "preuve": "197:568 — {STRVAR_1 6, 1, 0} du {STRVAR_1 1, 0, 0}\\nperd ses PP à cause de la Rancune!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} shrouded itself with Magic Coat!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} s’entoure du Reflet Magik!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 364,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} s’entoure de Reflet Magik!",
+    "preuve": "197:571 — {STRVAR_1 1, 0, 0} s’entoure\\ndu Reflet Magik!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} waits for a target to make a move!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} attend que son ennemi passe à l’acte!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 366,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} attend que la cible agisse!",
+    "preuve": "197:577 — {STRVAR_1 1, 0, 0} attend que son\\nennemi passe à l’acte!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} made it rain!",
+    "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} fait tomber la pluie!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 368,
+    "ancien": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} fait tomber la pluie!",
+    "preuve": "197:619 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\\nfait tomber la pluie!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} restored HP using its {B_SCR_ABILITY}!",
+    "msgstr": "{B_SCR_NAME_WITH_PREFIX} restaure ses PV grâce à {B_SCR_ABILITY}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 371,
+    "ancien": "{B_SCR_NAME_WITH_PREFIX} récupère des PV grâce à {B_SCR_ABILITY}!",
+    "preuve": "197:635 — {STRVAR_1 1, 0, 0} restaure ses PV\\ngrâce à {STRVAR_1 5, 1, 0}!"
+  },
+  {
+    "msgid": "{B_EFF_NAME_WITH_PREFIX}'s {B_EFF_ABILITY} made it the {B_BUFF1} type!",
+    "msgstr": "{B_EFF_ABILITY} du {B_EFF_NAME_WITH_PREFIX} le transforme en type {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 372,
+    "ancien": "{B_EFF_ABILITY} de {B_EFF_NAME_WITH_PREFIX} le rend de type {B_BUFF1}!",
+    "preuve": "197:641 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\\nle transforme en type {STRVAR_1 15, 2, 0}!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} prevents romance!",
+    "msgstr": "{B_DEF_ABILITY} du {B_DEF_NAME_WITH_PREFIX} empêche la romance!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 373,
+    "ancien": "{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} empêche l’amour!",
+    "preuve": "197:647 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\\nempêche la romance!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} prevents confusion!",
+    "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} empêche la confusion!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 374,
+    "ancien": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} empêche la confusion!",
+    "preuve": "197:653 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\\nempêche la confusion!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} anchors itself with {B_DEF_ABILITY}!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} s’accroche avec {B_DEF_ABILITY}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 376,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} s’ancre au sol avec {B_DEF_ABILITY}!",
+    "preuve": "197:659 — {STRVAR_1 1, 0, 0} s’accroche\\navec {STRVAR_1 5, 1, 0}!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} prevents stat loss!",
+    "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} empêche la perte de stats!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 378,
+    "ancien": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} protège ses stats!",
+    "preuve": "197:669 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\\nempêche la perte de stats!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} was hurt by {B_DEF_NAME_WITH_PREFIX2}'s {B_BUFF1}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} est blessé par {B_BUFF1} du {B_DEF_NAME_WITH_PREFIX2}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 379,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} est blessé par {B_BUFF1} de {B_DEF_NAME_WITH_PREFIX2}!",
+    "preuve": "197:1099 — {STRVAR_1 1, 2, 0} est blessé par\\n{STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}!"
+  },
+  {
+    "msgid": "{PLAY_SE SE_FLEE}The wild {B_BUFF1} fled!",
+    "msgstr": "{PLAY_SE SE_FLEE}{B_BUFF1} sauvage fuit!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 395,
+    "ancien": "{PLAY_SE 17 0}{B_BUFF1} sauvage s’enfuit!",
+    "preuve": "197:784 — {STRVAR_1 1, 0, 0} sauvage fuit!"
+  },
+  {
+    "msgid": "It hurt itself in its confusion!",
+    "msgstr": "Il se blesse dans sa confusion.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 401,
+    "ancien": "Il se blesse dans sa confusion!",
+    "preuve": "197:797 — Il se blesse dans sa\\nconfusion."
+  },
+  {
+    "msgid": "The sandstorm subsided.",
+    "msgstr": "La tempête de sable se calme.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 409,
+    "ancien": "La tempête de sable\\nse calme.",
+    "preuve": "197:806 — La tempête de sable\\nse calme."
+  },
+  {
+    "msgid": "But there was no PP left for the move!",
+    "msgstr": "Mais il n’y a plus de PP pour cette capacité!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 423,
+    "ancien": "Mais la capacité n’a plus de PP!",
+    "preuve": "197:824 — Mais il n’y a plus de PP pour\\ncette capacité!"
+  },
+  {
+    "msgid": "Oh no! The Pokémon broke free!",
+    "msgstr": "Oh, non! Le Pokémon s’est libéré!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 429,
+    "ancien": "Oh non! Le Pokémon s’est libéré!",
+    "preuve": "197:863 — Oh, non!\\nLe Pokémon s’est libéré!"
+  },
+  {
+    "msgid": "Aww! It appeared to be caught!",
+    "msgstr": "Raaah! Ça y était presque!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 430,
+    "ancien": "Raah! On y était presque!",
+    "preuve": "197:864 — Raaah!\\nÇa y était presque!"
+  },
+  {
+    "msgid": "Aargh! Almost had it!",
+    "msgstr": "Aaaaaah! Presque!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 431,
+    "ancien": "Argh! Presque!",
+    "preuve": "197:865 — Aaaaaah!\\nPresque!"
+  },
+  {
+    "msgid": "Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM 659}\\p",
+    "msgstr": "Et hop!\\n{B_DEF_NAME} est attrapé!{WAIT_SE}{PLAY_BGM 659}\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 434,
+    "preuve": "197:867 — {WAIT 3}Et hop!\\n{STRVAR_1 1, 0, 0} est attrapé!{WAIT 2}\\r"
+  },
+  {
+    "msgid": "Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM 659}{PAUSE 127}",
+    "msgstr": "Et hop! {B_DEF_NAME} est attrapé!{WAIT_SE}{PLAY_BGM 659}{PAUSE 127}",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 435,
+    "preuve": "197:867 — {WAIT 3}Et hop!\\n{STRVAR_1 1, 0, 0} est attrapé!{WAIT 2}\\r"
+  },
+  {
+    "msgid": "Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\\p",
+    "msgstr": "Et hop!\\n{B_DEF_NAME} est attrapé!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 437,
+    "preuve": "197:867 — {WAIT 3}Et hop!\\n{STRVAR_1 1, 0, 0} est attrapé!{WAIT 2}\\r"
+  },
+  {
+    "msgid": "Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}",
+    "msgstr": "Et hop! {B_DEF_NAME} est attrapé!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 438,
+    "preuve": "197:867 — {WAIT 3}Et hop!\\n{STRVAR_1 1, 0, 0} est attrapé!{WAIT 2}\\r"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} is loafing around!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} paresse!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 448,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} se la coule douce!",
+    "preuve": "197:828 — {STRVAR_1 1, 0, 0} paresse!"
+  },
+  {
+    "msgid": "{B_PLAYER_NAME} crept closer to {B_OPPONENT_MON1_NAME}!",
+    "msgstr": "{B_PLAYER_NAME} se rapproche de {B_OPPONENT_MON1_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 453,
+    "ancien": "{B_PLAYER_NAME} s’approche de {B_OPPONENT_MON1_NAME}!",
+    "preuve": "197:840 — {STRVAR_1 3, 0, 0} se rapproche de\\n{STRVAR_1 1, 1, 0}!"
+  },
+  {
+    "msgid": "{B_OPPONENT_MON1_NAME} is watching carefully!",
+    "msgstr": "{B_OPPONENT_MON1_NAME} surveille attentivement!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 455,
+    "ancien": "{B_OPPONENT_MON1_NAME} observe attentivement!",
+    "preuve": "197:842 — {STRVAR_1 1, 0, 0} surveille\\nattentivement!"
+  },
+  {
+    "msgid": "{PLAY_SE SE_DING_DONG}ANNOUNCER: You're out of Safari Balls! Game over!\\p",
+    "msgstr": "{PLAY_SE SE_DING_DONG}Annonceur: Vous n’avez plus de\\nSafari Balls!\\lTerminé!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 460,
+    "ancien": "{PLAY_SE 73 0}SPEAKER: Plus de Safari Ball! C’est terminé!\\p",
+    "preuve": "197:847 — Annonceur: Vous n’avez plus de\\nSafari Balls!\\fTerminé!\\r",
+    "note": "autre(s) variante(s) SS : {PLAY_SE SE_DING_DONG}Annonceur: Vous n’avez plus de\\nSafari Balls! Terminé!\\p"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} cured its paralysis!",
+    "msgstr": "{B_LAST_ITEM} du {B_SCR_NAME_WITH_PREFIX} le sort de sa paralysie!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 461,
+    "ancien": "{B_LAST_ITEM} de {B_SCR_NAME_WITH_PREFIX} soigne sa paralysie!",
+    "preuve": "197:875 — {STRVAR_1 8, 1, 0} du {STRVAR_1 1, 0, 0}\\nle sort de sa paralysie!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} defrosted it!",
+    "msgstr": "{B_LAST_ITEM} du {B_SCR_NAME_WITH_PREFIX} le dégèle!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 464,
+    "ancien": "{B_LAST_ITEM} de {B_SCR_NAME_WITH_PREFIX} le dégèle!",
+    "preuve": "197:884 — {STRVAR_1 8, 1, 0} du {STRVAR_1 1, 0, 0}\\nle dégèle!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} restored its health using its {B_LAST_ITEM}!",
+    "msgstr": "{B_LAST_ITEM} du {B_SCR_NAME_WITH_PREFIX} restaure son énergie!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 468,
+    "ancien": "{B_SCR_NAME_WITH_PREFIX} retrouve la santé grâce à {B_LAST_ITEM}!",
+    "preuve": "197:899 — {STRVAR_1 8, 1, 0} du {STRVAR_1 1, 0, 0}\\nrestaure son énergie!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} restored a little HP using its {B_LAST_ITEM}!",
+    "msgstr": "Les PV du {B_SCR_NAME_WITH_PREFIX} sont un peu restaurés par {B_LAST_ITEM}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 471,
+    "ancien": "{B_SCR_NAME_WITH_PREFIX} récupère quelques PV grâce à {B_LAST_ITEM}!",
+    "preuve": "197:908 — Les PV du {STRVAR_1 1, 0, 0} sont\\nun peu restaurés par {STRVAR_1 8, 1, 0}!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} whipped up a sandstorm!",
+    "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} provoque une tempête de sable!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 476,
+    "ancien": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} lève une tempête de sable!",
+    "preuve": "197:695 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\\nprovoque une tempête de sable!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} prevents {B_BUFF1} loss!",
+    "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} empêche {B_BUFF1} de baisser!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 477,
+    "ancien": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} protège {B_BUFF1}!",
+    "preuve": "197:704 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\\nempêche {STRVAR_1 13, 2, 0} de baisser!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} infatuated {B_ATK_NAME_WITH_PREFIX2}!",
+    "msgstr": "{B_DEF_ABILITY} du {B_DEF_NAME_WITH_PREFIX} rend {B_ATK_NAME_WITH_PREFIX2} amoureux!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 478,
+    "ancien": "{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} séduit {B_ATK_NAME_WITH_PREFIX2}!",
+    "preuve": "197:707 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\\nrend {STRVAR_1 1, 2, 0} amoureux!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} made {B_CURRENT_MOVE} ineffective!",
+    "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} rend {B_CURRENT_MOVE} inefficace!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 479,
+    "ancien": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} rend {B_CURRENT_MOVE} inefficace!",
+    "preuve": "197:714 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\\nrend {STRVAR_1 6, 2, 0} inefficace!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} used the {B_LAST_ITEM} to get pumped!",
+    "msgstr": "{B_SCR_NAME_WITH_PREFIX} est plein d’énergie grâce à {B_LAST_ITEM}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 494,
+    "ancien": "{B_SCR_NAME_WITH_PREFIX} utilise {B_LAST_ITEM} et se motive!",
+    "preuve": "197:597 — {STRVAR_1 1, 0, 0} est plein\\nd’énergie grâce à {STRVAR_1 8, 1, 0}!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} made {B_CURRENT_MOVE} useless!",
+    "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} rend {B_CURRENT_MOVE} inutile!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 495,
+    "ancien": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} rend {B_CURRENT_MOVE} inutile!",
+    "preuve": "197:638 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\\nrend {STRVAR_1 6, 2, 0} inutile!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} intensified the sun's rays!",
+    "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} intensifie les rayons du soleil!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 499,
+    "ancien": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} intensifie le soleil!",
+    "preuve": "197:698 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\\nintensifie les rayons du soleil!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} took the attack!",
+    "msgstr": "{B_DEF_ABILITY} du {B_DEF_NAME_WITH_PREFIX} reçoit l’attaque!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 501,
+    "ancien": "{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} attire le coup!",
+    "preuve": "197:724 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\\nreçoit l’attaque!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} lost its focus and couldn't move!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} est déconcentré et ne peut pas attaquer!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 503,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} est déconcentré et n’agit pas!",
+    "preuve": "197:600 — {STRVAR_1 1, 0, 0} est déconcentré\\net ne peut pas attaquer!"
+  },
+  {
+    "msgid": "{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fled using its {B_LAST_ITEM}!\\p",
+    "msgstr": "{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fuit en\\nutilisant {B_LAST_ITEM}!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 505,
+    "ancien": "{PLAY_SE 17 0}{B_ATK_NAME_WITH_PREFIX} fuit avec {B_LAST_ITEM}!\\p",
+    "preuve": "197:782 — {STRVAR_1 1, 0, 0} fuit en\\nutilisant {STRVAR_1 8, 1, 0}!\\r"
+  },
+  {
+    "msgid": "{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fled using {B_ATK_ABILITY}!\\p",
+    "msgstr": "{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fuit en\\nutilisant {B_ATK_ABILITY}!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 506,
+    "ancien": "{PLAY_SE 17 0}{B_ATK_NAME_WITH_PREFIX} fuit avec {B_ATK_ABILITY}!\\p",
+    "preuve": "197:783 — {STRVAR_1 1, 0, 0} fuit en\\nutilisant {STRVAR_1 5, 1, 0}!\\r"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} was dragged out!\\p",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} est traîné de\\nforce au combat!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 507,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} est forcé au combat!\\p",
+    "preuve": "197:603 — {STRVAR_1 1, 0, 0} est traîné de\\nforce au combat!\\r"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} made it ineffective!",
+    "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} le rend inefficace!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 512,
+    "ancien": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} la rend inefficace!",
+    "preuve": "197:734 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\\nle rend inefficace!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX}'s stats won't go any lower!",
+    "msgstr": "Les stats du {B_DEF_NAME_WITH_PREFIX} n’iront pas plus bas!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 515,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} a ses stats au plus bas!",
+    "preuve": "197:771 — Les stats du {STRVAR_1 1, 0, 0}\\nn’iront pas plus bas!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} blocks {B_CURRENT_MOVE}!",
+    "msgstr": "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX} bloque {B_CURRENT_MOVE}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 516,
+    "ancien": "{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} bloque {B_CURRENT_MOVE}!",
+    "preuve": "197:689 — {STRVAR_1 5, 1, 0} du {STRVAR_1 1, 0, 0}\\nbloque {STRVAR_1 6, 2, 0}!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} can't escape!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} ne peut pas fuir!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 520,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} ne peut\\npas fuir!",
+    "preuve": "197:43 — {STRVAR_1 1, 0, 0} ne peut\\npas fuir!\\r"
+  },
+  {
+    "msgid": "Would you like to forfeit the match and quit now?",
+    "msgstr": "Voulez-vous abandonner et quitter le combat?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 535,
+    "ancien": "Voulez-vous abandonner le match et partir?",
+    "preuve": "197:955 — Voulez-vous abandonner et\\nquitter le combat? {YESNO 0}"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} became fully charged due to its {B_LAST_ITEM}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} est complètement chargé grâce à {B_LAST_ITEM}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 544,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} est chargé à bloc grâce à {B_LAST_ITEM}!",
+    "preuve": "197:1251 — {STRVAR_1 1, 0, 0} est complètement\\nchargé grâce à {STRVAR_1 8, 1, 0}!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} can't use items anymore!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} ne peut plus utiliser d’objets!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 550,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} est privé d’objets!",
+    "preuve": "197:1135 — {STRVAR_1 1, 0, 0} ne peut plus utiliser\\nd’objets!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} flung its {B_LAST_ITEM}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} lance son objet: {B_LAST_ITEM}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 551,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} lance {B_LAST_ITEM}!",
+    "preuve": "197:1144 — {STRVAR_1 1, 0, 0} lance son objet:\\n{STRVAR_1 8, 1, 0}!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} was prevented from healing!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} ne peut pas guérir!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 552,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} ne peut plus être soigné!",
+    "preuve": "197:1051 — {STRVAR_1 1, 0, 0} ne peut pas guérir!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} switched its ATTACK and DEFENSE!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} échange son Attaque et sa Défense!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 553,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} échange son ATTAQUE et sa DEFENSE!",
+    "preuve": "197:1009 — {STRVAR_1 1, 0, 0} échange son\\nAttaque et sa Défense!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} acquired {B_DEF_ABILITY}!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} acquiert {B_DEF_ABILITY}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 556,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} obtient {B_DEF_ABILITY}!",
+    "preuve": "197:1021 — {STRVAR_1 1, 0, 0} acquiert\\n{STRVAR_1 5, 1, 0}!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} became trapped by swirling magma!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} est piégé dans un tourbillon de feu!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 563,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} est piégé dans le magma!",
+    "preuve": "197:1247 — {STRVAR_1 1, 0, 0} est piégé dans\\nun tourbillon de feu!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} vanished instantly!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} a disparu instantanément!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 564,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} disparaît d’un coup!",
+    "preuve": "197:1082 — {STRVAR_1 1, 0, 0} a disparu\\ninstantanément!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} transformed into the {B_BUFF1} type!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} prend le type {B_BUFF1}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 573,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} devient de type {B_BUFF1}!",
+    "preuve": "197:178 — {STRVAR_1 1, 0, 0} prend le\\ntype {STRVAR_1 15, 1, 0}!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} wore off!",
+    "msgstr": "{B_BUFF1} du {B_SCR_NAME_WITH_PREFIX} prend fin!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 580,
+    "ancien": "{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX} prend fin!",
+    "preuve": "197:1060 — {STRVAR_1 6, 1, 0} du {STRVAR_1 1, 0, 0}\\nprend fin!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} finally got its act together!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} arrive enfin à s’y mettre sérieusement!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 604,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} se reprend enfin en main!",
+    "preuve": "197:1115 — {STRVAR_1 1, 0, 0} arrive enfin à\\ns’y mettre sérieusement!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} acquired {B_ATK_ABILITY}!",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} acquiert {B_ATK_ABILITY}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 625,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} obtient {B_ATK_ABILITY}!",
+    "preuve": "197:1021 — {STRVAR_1 1, 0, 0} acquiert\\n{STRVAR_1 5, 1, 0}!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} can't use {B_CURRENT_MOVE} because of gravity!\\p",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser\\n{B_CURRENT_MOVE} à cause de la Gravité!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 631,
+    "ancien": "La gravité empêche {B_ATK_NAME_WITH_PREFIX} d’utiliser {B_CURRENT_MOVE}!\\p",
+    "preuve": "197:1001 — {STRVAR_1 1, 0, 0} ne peut pas utiliser\\n{STRVAR_1 6, 1, 0} à cause de la Gravité!"
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX} was prevented from healing!\\p",
+    "msgstr": "{B_ATK_NAME_WITH_PREFIX} ne peut pas guérir!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 632,
+    "ancien": "{B_ATK_NAME_WITH_PREFIX} ne peut pas se soigner!\\p",
+    "preuve": "197:1051 — {STRVAR_1 1, 0, 0} ne peut pas guérir!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} fell for the feint!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} succombe à la Ruse!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 655,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} tombe dans le piège!",
+    "preuve": "197:1048 — {STRVAR_1 1, 0, 0} succombe à la Ruse!"
+  },
+  {
+    "msgid": "{B_SCR_NAME_WITH_PREFIX} got over its infatuation!",
+    "msgstr": "{B_SCR_NAME_WITH_PREFIX} n’est plus amoureux.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 708,
+    "ancien": "{B_SCR_NAME_WITH_PREFIX} n’est plus amoureux!",
+    "preuve": "6:91 — {STRVAR_1 1, 0, 0} n’est plus amoureux."
+  },
+  {
+    "msgid": "It broke through {B_DEF_NAME_WITH_PREFIX2}'s protection!",
+    "msgstr": "Ça transperce la protection du {B_DEF_NAME_WITH_PREFIX2}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 735,
+    "ancien": "La protection de {B_DEF_NAME_WITH_PREFIX2} est brisée!",
+    "preuve": "197:1243 — Ça transperce la protection du\\n{STRVAR_1 1, 0, 0}!"
+  },
+  {
+    "msgid": "{B_DEF_NAME_WITH_PREFIX} was cured of its poisoning!",
+    "msgstr": "{B_DEF_NAME_WITH_PREFIX} n’est plus empoisonné.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 738,
+    "ancien": "{B_DEF_NAME_WITH_PREFIX} n’est plus empoisonné!",
+    "preuve": "6:83 — {STRVAR_1 1, 0, 0} n’est plus\\nempoisonné."
+  },
+  {
+    "msgid": "{B_ATK_NAME_WITH_PREFIX}'s stockpiled effect wore off!",
+    "msgstr": "Les effets cumulés du {B_ATK_NAME_WITH_PREFIX} se dissipent!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 783,
+    "ancien": "Le Stockage de {B_ATK_NAME_WITH_PREFIX} s’est dissipé!",
+    "preuve": "197:994 — Les effets cumulés du {STRVAR_1 1, 0, 0} se\\ndissipent!"
+  },
+  {
+    "msgid": "{B_PLAYER_NAME} threw some BAIT\\nat the {B_OPPONENT_MON1_NAME}!",
+    "msgstr": "{B_PLAYER_NAME} lance un Appât\\nau {B_OPPONENT_MON1_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 882,
+    "ancien": "{B_PLAYER_NAME} lance un APPAT\\nà {B_OPPONENT_MON1_NAME}!",
+    "preuve": "197:851 — {STRVAR_1 3, 0, 0} lance\\nun Appât au {STRVAR_1 0, 1, 0}!"
+  },
+  {
+    "msgid": "{B_OPPONENT_MON1_NAME} is angry!",
+    "msgstr": "{B_OPPONENT_MON1_NAME} se fâche!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 883,
+    "ancien": "{B_OPPONENT_MON1_NAME} enrage!",
+    "preuve": "197:855 — {STRVAR_1 0, 0, 0} se fâche!"
+  },
+  {
+    "msgid": "{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}Which move should\\nbe forgotten?",
+    "msgstr": "{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}Oublier quelle\\ncapacité?",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 1432,
+    "ancien": "{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}Quelle capacité\\ndoit être oubliée?",
+    "preuve": "197:939 — Oublier quelle capacité?"
+  },
+  {
+    "msgid": "{B_TRAINER1_NAME_WITH_CLASS} sent out {B_OPPONENT_MON1_NAME}!\\p{B_TRAINER2_NAME_WITH_CLASS} sent out {B_OPPONENT_MON2_NAME}!",
+    "msgstr": "{B_TRAINER1_NAME_WITH_CLASS} envoie\\n{B_OPPONENT_MON1_NAME}!\\l{B_TRAINER2_NAME_WITH_CLASS} envoie\\l{B_OPPONENT_MON2_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 1484,
+    "ancien": "{B_TRAINER1_NAME_WITH_CLASS} envoie {B_OPPONENT_MON1_NAME}!\\p{B_TRAINER2_NAME_WITH_CLASS} envoie {B_OPPONENT_MON2_NAME}!",
+    "preuve": "197:976 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!\\f{STRVAR_1 3, 2, 0} envoie\\f{STRVAR_1 1, 3, 0}!"
+  },
+  {
+    "msgid": "You are challenged by {B_TRAINER1_NAME_WITH_CLASS} and {B_TRAINER2_NAME_WITH_CLASS}!\\p",
+    "msgstr": "{B_TRAINER1_NAME_WITH_CLASS} et {B_TRAINER2_NAME_WITH_CLASS}\\nveulent se battre!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 1486,
+    "ancien": "{B_TRAINER1_NAME_WITH_CLASS} et {B_TRAINER2_NAME_WITH_CLASS} veulent se battre!\\p",
+    "preuve": "197:971 — {STRVAR_1 3, 0, 0} et {STRVAR_1 3, 1, 0}\\nveulent se battre!\\r"
+  },
+  {
+    "msgid": "{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON2_NAME}! Go, {B_PLAYER_MON1_NAME}!",
+    "msgstr": "{B_PARTNER_NAME_WITH_CLASS} envoie {B_PLAYER_MON2_NAME}! {B_PLAYER_MON1_NAME}! Go!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 1487,
+    "ancien": "{B_PARTNER_NAME_WITH_CLASS} envoie {B_PLAYER_MON2_NAME}! Va, {B_PLAYER_MON1_NAME}!",
+    "preuve": "197:977 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!\\f{STRVAR_1 1, 2, 0}! Go!"
+  },
+  {
+    "msgid": "{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON1_NAME}! Go, {B_PLAYER_MON2_NAME}!",
+    "msgstr": "{B_PARTNER_NAME_WITH_CLASS} envoie {B_PLAYER_MON1_NAME}! {B_PLAYER_MON2_NAME}! Go!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 1488,
+    "ancien": "{B_PARTNER_NAME_WITH_CLASS} envoie {B_PLAYER_MON1_NAME}! Go! {B_PLAYER_MON2_NAME}!",
+    "preuve": "197:977 — {STRVAR_1 3, 0, 0} envoie\\n{STRVAR_1 1, 1, 0}!\\f{STRVAR_1 1, 2, 0}! Go!"
+  },
+  {
+    "msgid": "{B_PARTNER_NAME_WITH_CLASS} withdrew {B_PLAYER_MON1_NAME}!",
+    "msgstr": "{B_PARTNER_NAME_WITH_CLASS} retire {B_PLAYER_MON1_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 1491,
+    "ancien": "{B_PARTNER_NAME_WITH_CLASS} rappelle {B_PLAYER_MON1_NAME}!",
+    "preuve": "197:990 — {STRVAR_1 3, 0, 0} retire\\n{STRVAR_1 1, 1, 0}!"
+  },
+  {
+    "msgid": "{B_PARTNER_NAME_WITH_CLASS} withdrew {B_PLAYER_MON2_NAME}!",
+    "msgstr": "{B_PARTNER_NAME_WITH_CLASS} retire {B_PLAYER_MON2_NAME}!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 1492,
+    "ancien": "{B_PARTNER_NAME_WITH_CLASS} rappelle {B_PLAYER_MON2_NAME}!",
+    "preuve": "197:990 — {STRVAR_1 3, 0, 0} retire\\n{STRVAR_1 1, 1, 0}!"
+  },
+  {
+    "msgid": "{PLAY_SE SE_FLEE}{B_TRAINER1_NAME_WITH_CLASS} fled!",
+    "msgstr": "{PLAY_SE SE_FLEE}{B_TRAINER1_NAME_WITH_CLASS} s’enfuit!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 1515,
+    "preuve": "197:791 — {STRVAR_1 3, 0, 0} s’enfuit!"
+  },
+  {
+    "msgid": "You are challenged by {B_LINK_OPPONENT1_NAME}!\\p",
+    "msgstr": "{B_LINK_OPPONENT1_NAME}\\nveut se battre!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 1520,
+    "ancien": "{B_LINK_OPPONENT1_NAME} veut se battre!\\p",
+    "preuve": "197:970 — {STRVAR_1 3, 0, 0}\\nveut se battre!\\r"
+  },
+  {
+    "msgid": "You are challenged by {B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}!\\p",
+    "msgstr": "{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME}\\nveulent se battre!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_message.c",
+    "ligne": 1521,
+    "ancien": "{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME} veulent se battre!\\p",
+    "preuve": "197:971 — {STRVAR_1 3, 0, 0} et {STRVAR_1 3, 1, 0}\\nveulent se battre!\\r"
+  },
+  {
+    "msgid": "{PLAYER} scurried to a POKéMON CENTER,\\nprotecting the exhausted and fainted\\nPOKéMON from further harm…\\p",
+    "msgstr": "{PLAYER} se hâte vers un\\nCentre Pokémon pour éviter que\\nses pauvres Pokémon ne souffrent\\ndavantage.\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/field_screen_effect.c",
+    "ligne": 63,
+    "ancien": "{PLAYER} court au Centre Pokémon\\npour protéger ses Pokémon épuisés\\net K.O. de tout danger…\\p",
+    "preuve": "203:3 — {STRVAR_1 3, 0, 0} se hâte vers un\\nCentre Pokémon pour éviter que\\nses pauvres Pokémon ne souffrent\\ndavantage."
+  },
+  {
+    "msgid": "{PLAYER} scurried back home, protecting\\nthe exhausted and fainted POKéMON from\\nfurther harm…\\p",
+    "msgstr": "{PLAYER} se hâte vers sa\\nmaison pour bénéficier au plus vite\\ndes soins de Maman.\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/field_screen_effect.c",
+    "ligne": 64,
+    "ancien": "{PLAYER} rentre vite à la maison pour\\nprotéger ses Pokémon épuisés et K.O.\\nde tout danger…\\p",
+    "preuve": "203:4 — {STRVAR_1 3, 0, 0} se hâte vers sa\\nmaison pour bénéficier au plus vite\\ndes soins de Maman."
+  },
+  {
+    "msgid": "{STR_VAR_1} danced happily.",
+    "msgstr": "{STR_VAR_1} danse avec entrain.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 18,
+    "ancien": "{STR_VAR_1} danse joyeusement.",
+    "preuve": "265:521 — {STRVAR_1 1, 0, 0} danse avec entrain."
+  },
+  {
+    "msgid": "{STR_VAR_1} danced beautifully.",
+    "msgstr": "{STR_VAR_1} danse avec grâce!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 19,
+    "ancien": "{STR_VAR_1} danse avec grâce.",
+    "preuve": "265:520 — {STRVAR_1 1, 0, 0} danse avec grâce!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is vigorously producing\\nfire!",
+    "msgstr": "{STR_VAR_1} produit de vives\\nflammes!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 22,
+    "ancien": "{STR_VAR_1} produit des flammes\\navec ardeur!",
+    "preuve": "265:96 — {STRVAR_1 1, 0, 0} produit de vives flammes!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is vigorously breathing\\nfire!",
+    "msgstr": "{STR_VAR_1} produit de vives\\nflammes!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 24,
+    "ancien": "{STR_VAR_1} souffle du feu avec\\nvigueur!",
+    "preuve": "265:358 — {STRVAR_1 1, 0, 0} produit de vives flammes!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is staring straight at\\nthe POKéMON LEAGUE.",
+    "msgstr": "{STR_VAR_1} regarde droit vers la\\nLigue Pokémon.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 26,
+    "ancien": "{STR_VAR_1} fixe intensément la\\nLIGUE Pokémon.",
+    "preuve": "265:301 — {STRVAR_1 1, 0, 0} regarde droit vers\\nla Ligue Pokémon."
+  },
+  {
+    "msgid": "Sniff sniff, something smells good!",
+    "msgstr": "Snif! Snif! Il a repéré une bonne odeur!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 28,
+    "ancien": "Snif, snif! Ça sent bon par ici!",
+    "preuve": "265:460 — Snif! Snif!\\nIl a repéré une bonne odeur!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is staring intently at\\nthe shelves.",
+    "msgstr": "{STR_VAR_1} fixe les étagères.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 30,
+    "ancien": "{STR_VAR_1} examine attentivement\\nles étagères.",
+    "preuve": "265:510 — {STRVAR_1 1, 0, 0} fixe les étagères."
+  },
+  {
+    "msgid": "{STR_VAR_1} focused with a sharp\\ngaze!",
+    "msgstr": "{STR_VAR_1} a le regard qui\\nbrille!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 163,
+    "ancien": "{STR_VAR_1} se concentre\\nintensément!",
+    "preuve": "265:321 — {STRVAR_1 1, 0, 0} a le regard qui brille!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is swaying with the\\nboat!",
+    "msgstr": "{STR_VAR_1} tangue avec le\\nbateau.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 35,
+    "ancien": "{STR_VAR_1} tangue avec le\\nbateau!",
+    "preuve": "265:292 — {STRVAR_1 1, 0, 0} tangue avec le bateau."
+  },
+  {
+    "msgid": "{STR_VAR_1} is dancing along with\\nthe rolling of the ship.",
+    "msgstr": "{STR_VAR_1} sautille au rythme\\ndu tangage du bateau.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 36,
+    "ancien": "{STR_VAR_1} danse au rythme du\\nroulis du navire.",
+    "preuve": "265:347 — {STRVAR_1 1, 0, 0} sautille au rythme du\\ntangage du bateau."
+  },
+  {
+    "msgid": "{STR_VAR_1} doesn't want to get off\\nthe boat yet!",
+    "msgstr": "{STR_VAR_1} n’a pas encore l’air de\\nvouloir descendre du bateau.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 37,
+    "ancien": "{STR_VAR_1} ne veut pas encore\\ndescendre du bateau!",
+    "preuve": "265:307 — {STRVAR_1 1, 0, 0} n’a pas encore l’air de\\nvouloir descendre du bateau."
+  },
+  {
+    "msgid": "{STR_VAR_1} is playing around,\\nplucking bits of grass.",
+    "msgstr": "{STR_VAR_1} s’amuse à gratter\\nles herbes.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 43,
+    "ancien": "{STR_VAR_1} s’amuse à arracher\\ndes brins d’herbe.",
+    "preuve": "265:157 — {STRVAR_1 1, 0, 0} s’amuse à gratter les\\nherbes."
+  },
+  {
+    "msgid": "{STR_VAR_1} is feeling nervous and a\\ntouch claustrophobic.",
+    "msgstr": "{STR_VAR_1} est à l’étroit et a peur.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 45,
+    "ancien": "{STR_VAR_1} a l’air nerveux et un\\npeu claustrophobe.",
+    "preuve": "265:750 — {STRVAR_1 1, 0, 0} est à l’étroit et a peur."
+  },
+  {
+    "msgid": "{STR_VAR_1} is cautious about the\\nconfined area!",
+    "msgstr": "{STR_VAR_1} est à l’étroit et se\\nmet en alerte!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 46,
+    "ancien": "{STR_VAR_1} se méfie de cet\\nendroit exigu!",
+    "preuve": "265:213 — {STRVAR_1 1, 0, 0} est à l’étroit et se met\\nen alerte!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is growling softly.",
+    "msgstr": "{STR_VAR_1} gémit faiblement…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 53,
+    "ancien": "{STR_VAR_1} grogne doucement.",
+    "preuve": "265:230 — {STRVAR_1 1, 0, 0} gémit faiblement..."
+  },
+  {
+    "msgid": "{STR_VAR_1} seems somehow sad…",
+    "msgstr": "{STR_VAR_1} a l’air triste…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 55,
+    "ancien": "{STR_VAR_1} a l’air un peu triste…",
+    "preuve": "265:703 — {STRVAR_1 1, 0, 0} a l’air triste..."
+  },
+  {
+    "msgid": "{STR_VAR_1} is taking shelter in the\\ngrass from the rain.",
+    "msgstr": "{STR_VAR_1} se met à l’abri dans les\\nhautes herbes.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 127,
+    "ancien": "{STR_VAR_1} s’abrite de la pluie\\ndans les hautes herbes.",
+    "preuve": "265:371 — {STRVAR_1 1, 0, 0} se met à l’abri dans les\\nhautes herbes."
+  },
+  {
+    "msgid": "{STR_VAR_1} is staring at the sea.",
+    "msgstr": "{STR_VAR_1} fixe la mer.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 59,
+    "ancien": "{STR_VAR_1} contemple la mer.",
+    "preuve": "265:113 — {STRVAR_1 1, 0, 0} fixe la mer."
+  },
+  {
+    "msgid": "{STR_VAR_1} is listening to the\\nsound of the waterfall.",
+    "msgstr": "{STR_VAR_1} écoute le bruit de\\nla cascade.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 63,
+    "ancien": "{STR_VAR_1} écoute le bruit de la\\ncascade.",
+    "preuve": "265:222 — {STRVAR_1 1, 0, 0} écoute le bruit de la\\ncascade."
+  },
+  {
+    "msgid": "{STR_VAR_1} seems to be happy about\\nthe rain!",
+    "msgstr": "{STR_VAR_1} a l’air d’aimer la pluie!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 64,
+    "ancien": "{STR_VAR_1} a l’air ravi\\nde la pluie!",
+    "preuve": "265:92 — {STRVAR_1 1, 0, 0} a l’air d’aimer la pluie!"
+  },
+  {
+    "msgid": "{STR_VAR_1} seems to relax as it\\nhears the sound of rustling leaves…",
+    "msgstr": "{STR_VAR_1} se détend en entendant\\nle bruissement des feuilles…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 66,
+    "ancien": "{STR_VAR_1} se détend en écoutant\\nles feuilles bruisser…",
+    "preuve": "265:280 — {STRVAR_1 1, 0, 0} se détend en entendant le\\nbruissement des feuilles..."
+  },
+  {
+    "msgid": "{STR_VAR_1} is gnawing at the ice.",
+    "msgstr": "{STR_VAR_1} gratte la glace.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 67,
+    "ancien": "{STR_VAR_1} mordille la glace.",
+    "preuve": "265:173 — {STRVAR_1 1, 0, 0} gratte la glace."
+  },
+  {
+    "msgid": "{STR_VAR_1} is touching the ice.",
+    "msgstr": "{STR_VAR_1} tripote la glace.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 68,
+    "ancien": "{STR_VAR_1} touche la glace.",
+    "preuve": "265:172 — {STRVAR_1 1, 0, 0} tripote la glace."
+  },
+  {
+    "msgid": "{STR_VAR_1}'s burn looks painful!",
+    "msgstr": "{STR_VAR_1} souffre de sa brûlure.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 70,
+    "ancien": "{STR_VAR_1} souffre de brûlure!",
+    "preuve": "265:328 — {STRVAR_1 1, 0, 0} souffre de sa brûlure."
+  },
+  {
+    "msgid": "{STR_VAR_1} is happy to see what's\\noutdoors!",
+    "msgstr": "{STR_VAR_1} regarde dehors, la\\nmine réjouie.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/follower_helper.c",
+    "ligne": 71,
+    "ancien": "{STR_VAR_1} est ravi d’être\\ndehors!",
+    "preuve": "265:215 — {STRVAR_1 1, 0, 0} regarde dehors, la mine\\nréjouie."
+  },
+  {
+    "msgid": "{STR_VAR_1} gained {STR_VAR_2} Exp. Points!{PAUSE_UNTIL_PRESS}",
+    "msgstr": "{STR_VAR_1} a gagné {STR_VAR_2} points Exp.!{PAUSE_UNTIL_PRESS}",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/strings.c",
+    "ligne": 321,
+    "ancien": "{STR_VAR_1} gagne {STR_VAR_2} points d’Exp.!{PAUSE_UNTIL_PRESS}",
+    "preuve": "197:1 — {STRVAR_1 1, 0, 0} a gagné\\n{STRVAR_1 54, 1, 0} points Exp.!\\r"
+  },
+  {
+    "msgid": "Please enter a phrase or word.",
+    "msgstr": "Entrez une expression ou un mot.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/strings.c",
+    "ligne": 675,
+    "ancien": "Entrez un mot ou une phrase.",
+    "preuve": "233:2 — Entrez une expression ou un mot.",
+    "note": "autre(s) variante(s) SS : Entrez une expression ou un mot!"
+  },
+  {
+    "msgid": "{STR_VAR_1} survived the poisoning.\\nThe poison faded away!\\p",
+    "msgstr": "{STR_VAR_1} a survécu au poison.\\nLe poison s’est dissipé!\\p",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/strings.c",
+    "ligne": 751,
+    "ancien": "{STR_VAR_1} a survécu au poison.\\nIl n’est plus empoisonné!\\p",
+    "preuve": "40:53 — {STRVAR_1 1, 0, 0} a survécu au poison.\\nLe poison s’est dissipé!\\r"
+  },
+  {
+    "msgid": "Macho Brace",
+    "msgstr": "Brac. Macho",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2188,
+    "preuve": "222:215 — Brac. Macho"
+  },
+  {
+    "msgid": "Exp Share",
+    "msgstr": "Multi Exp",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2189,
+    "preuve": "222:216 — Multi Exp"
+  },
+  {
+    "msgid": "Quick Claw",
+    "msgstr": "Vive Griffe",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2190,
+    "preuve": "222:217 — Vive Griffe"
+  },
+  {
+    "msgid": "Mental Herb",
+    "msgstr": "Herbe Mental",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2192,
+    "preuve": "222:219 — Herbe Mental"
+  },
+  {
+    "msgid": "Choice Band",
+    "msgstr": "Band. Choix",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2193,
+    "preuve": "222:220 — Band. Choix"
+  },
+  {
+    "msgid": "Repel",
+    "msgstr": "Repousse",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2196,
+    "preuve": "222:79 — Repousse"
+  },
+  {
+    "msgid": "Soul Dew",
+    "msgstr": "Rosée Ame",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2197,
+    "preuve": "222:225 — Rosée Ame"
+  },
+  {
+    "msgid": "Focus Band",
+    "msgstr": "Bandeau",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2202,
+    "preuve": "222:230 — Bandeau"
+  },
+  {
+    "msgid": "Lucky Egg",
+    "msgstr": "Oeuf Chance",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2203,
+    "preuve": "222:231 — Oeuf Chance"
+  },
+  {
+    "msgid": "Scope Lens",
+    "msgstr": "Lentilscope",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2204,
+    "preuve": "222:232 — Lentilscope"
+  },
+  {
+    "msgid": "Light Ball",
+    "msgstr": "Ballelumière",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2206,
+    "preuve": "222:236 — Ballelumière"
+  },
+  {
+    "msgid": "Shell Bell",
+    "msgstr": "Grelot Coque",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2208,
+    "preuve": "222:253 — Grelot Coque"
+  },
+  {
+    "msgid": "Lucky Punch",
+    "msgstr": "Poing Chance",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2209,
+    "preuve": "222:256 — Poing Chance"
+  },
+  {
+    "msgid": "Metal Powder",
+    "msgstr": "Poudre Métal",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2210,
+    "preuve": "222:257 — Poudre Métal"
+  },
+  {
+    "msgid": "Thick Club",
+    "msgstr": "Masse Os",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2211,
+    "preuve": "222:258 — Masse Os"
+  },
+  {
+    "msgid": "Choice Scarf",
+    "msgstr": "Mouch. Choix",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2213,
+    "preuve": "222:287 — Mouch. Choix"
+  },
+  {
+    "msgid": "Damp Rock",
+    "msgstr": "Roche Humide",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2215,
+    "preuve": "222:285 — Roche Humide"
+  },
+  {
+    "msgid": "Heat Rock",
+    "msgstr": "Roche Chaude",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2217,
+    "preuve": "222:284 — Roche Chaude"
+  },
+  {
+    "msgid": "Icy Rock",
+    "msgstr": "Roche Glace",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2218,
+    "preuve": "222:282 — Roche Glace"
+  },
+  {
+    "msgid": "Light Clay",
+    "msgstr": "Lumargile",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2219,
+    "preuve": "222:269 — Lumargile"
+  },
+  {
+    "msgid": "Smooth Rock",
+    "msgstr": "Roche Lisse",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2220,
+    "preuve": "222:283 — Roche Lisse"
+  },
+  {
+    "msgid": "Power Herb",
+    "msgstr": "Herbe Pouv.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2221,
+    "preuve": "222:271 — Herbe Pouv."
+  },
+  {
+    "msgid": "Expert Belt",
+    "msgstr": "Ceinture Pro",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2223,
+    "preuve": "222:268 — Ceinture Pro"
+  },
+  {
+    "msgid": "Life Orb",
+    "msgstr": "Orbe Vie",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2224,
+    "preuve": "222:270 — Orbe Vie"
+  },
+  {
+    "msgid": "Metronome",
+    "msgstr": "Métronome",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2225,
+    "preuve": "222:277 — Métronome",
+    "note": "autre(s) variante(s) SS : METRONOME"
+  },
+  {
+    "msgid": "Muscle Band",
+    "msgstr": "Band. Muscle",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2226,
+    "preuve": "222:266 — Band. Muscle"
+  },
+  {
+    "msgid": "Wide Lens",
+    "msgstr": "Loupe",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2227,
+    "preuve": "222:265 — Loupe"
+  },
+  {
+    "msgid": "Zoom Lens",
+    "msgstr": "Lentil. Zoom",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2229,
+    "preuve": "222:276 — Lentil. Zoom"
+  },
+  {
+    "msgid": "Lagging Tail",
+    "msgstr": "Ralentiqueue",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2230,
+    "preuve": "222:279 — Ralentiqueue"
+  },
+  {
+    "msgid": "Focus Sash",
+    "msgstr": "Ceint. Force",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2231,
+    "preuve": "222:275 — Ceint. Force"
+  },
+  {
+    "msgid": "Flame Orb",
+    "msgstr": "Orbe Flamme",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2232,
+    "preuve": "222:273 — Orbe Flamme"
+  },
+  {
+    "msgid": "Toxic Orb",
+    "msgstr": "Orbe Toxique",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2233,
+    "preuve": "222:272 — Orbe Toxique"
+  },
+  {
+    "msgid": "Sticky Barb",
+    "msgstr": "Piquants",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2234,
+    "preuve": "222:288 — Piquants"
+  },
+  {
+    "msgid": "Black Sludge",
+    "msgstr": "Boue Noire",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2236,
+    "preuve": "222:281 — Boue Noire"
+  },
+  {
+    "msgid": "Destiny Knot",
+    "msgstr": "Noeud Destin",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2237,
+    "preuve": "222:280 — Noeud Destin"
+  },
+  {
+    "msgid": "Shed Shell",
+    "msgstr": "Carapace Mue",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2238,
+    "preuve": "222:295 — Carapace Mue"
+  },
+  {
+    "msgid": "Quick Powder",
+    "msgstr": "Poudre Vite",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2239,
+    "preuve": "222:274 — Poudre Vite"
+  },
+  {
+    "msgid": "Adamant Orb",
+    "msgstr": "Orbe Adamant",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2240,
+    "preuve": "222:135 — Orbe Adamant"
+  },
+  {
+    "msgid": "Lustrous Orb",
+    "msgstr": "Orbe Perlé",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2241,
+    "preuve": "222:136 — Orbe Perlé"
+  },
+  {
+    "msgid": "Griseous Orb",
+    "msgstr": "Orbe Platiné",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2242,
+    "preuve": "222:112 — Orbe Platiné"
+  },
+  {
+    "msgid": "Enigma Berry",
+    "msgstr": "Baie Enigma",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2243,
+    "preuve": "222:208 — Baie Enigma"
+  },
+  {
+    "msgid": "Micle Berry",
+    "msgstr": "Baie Micle",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2247,
+    "preuve": "222:209 — Baie Micle"
+  },
+  {
+    "msgid": "Custap Berry",
+    "msgstr": "Baie Chérim",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2248,
+    "preuve": "222:210 — Baie Chérim"
+  },
+  {
+    "msgid": "Jaboca Berry",
+    "msgstr": "Baie Jaboca",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2249,
+    "preuve": "222:211 — Baie Jaboca"
+  },
+  {
+    "msgid": "Rowap Berry",
+    "msgstr": "Baie Pommo",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_debug.c",
+    "ligne": 2250,
+    "preuve": "222:212 — Baie Pommo"
+  },
+  {
+    "msgid": "{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}Waiting for your friend\\nto finish…",
+    "msgstr": "{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}Votre ami(e) n’a pas\\nencore fini.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trade.h",
+    "ligne": 55,
+    "ancien": "{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}Attente de votre ami…",
+    "preuve": "183:28 — Votre ami(e) n’a pas\\nencore fini."
+  },
+  {
+    "msgid": "An “OK” was sent\\nto {STR_VAR_1}.",
+    "msgstr": "Vous avez répondu\\n“OK” à {STR_VAR_1}.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/union_room.h",
+    "ligne": 95,
+    "ancien": "“OK” a été envoyé\\nà {STR_VAR_1}.",
+    "preuve": "135:80 — Vous avez répondu “OK”\\nà {STRVAR_1 3, 0, 0}."
+  },
+  {
+    "msgid": "Awaiting a response from\\n{STR_VAR_1}…",
+    "msgstr": "En attente d’une\\nréponse de {STR_VAR_1}…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/union_room.h",
+    "ligne": 216,
+    "ancien": "En attente d’une réponse de\\n{STR_VAR_1}…",
+    "preuve": "738:9 — En attente d’une réponse de\\n{STRVAR_1 3, 0, 0}..."
+  },
+  {
+    "msgid": "A battle? Of course, but I need\\ntime to get ready.",
+    "msgstr": "Un combat, hein? Très bien,\\njuste un instant.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/union_room.h",
+    "ligne": 260,
+    "ancien": "Un combat? Bien sûr!\\nJuste un instant, je me prépare.",
+    "preuve": "738:57 — Un combat, hein?\\nTrès bien, juste un instant.",
+    "note": "autre(s) variante(s) SS : Un combat? Bien sûr! Juste un\\ninstant, je me prépare."
+  },
+  {
+    "msgid": "Thanks for waiting!\\nLet's get our battle started!{PAUSE 60}",
+    "msgstr": "Merci d’avoir patienté! Allez,\\ncommençons le combat!{PAUSE 60}",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/union_room.h",
+    "ligne": 279,
+    "ancien": "Merci d’avoir patienté!\\nAllez, commençons le combat!{PAUSE 60}",
+    "preuve": "738:58 — Merci d’avoir patienté!\\nAllez, commençons le combat!"
+  },
+  {
+    "msgid": "Awaiting {STR_VAR_1}'s response…",
+    "msgstr": "En attente d’une réponse de {STR_VAR_1}…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/union_room.h",
+    "ligne": 526,
+    "ancien": "Attente d’une réponse de {STR_VAR_1}…",
+    "preuve": "135:73 — En attente d’une réponse de\\n{STRVAR_1 3, 0, 0}..."
+  },
+  {
+    "msgid": "{STR_VAR_1} began poking you in the\\nstomach.",
+    "msgstr": "{STR_VAR_1} vous touche le ventre!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 22,
+    "ancien": "{STR_VAR_1} se met à vous tapoter\\nle ventre.",
+    "preuve": "265:132 — {STRVAR_1 1, 0, 0} vous touche le ventre!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is happy but shy.",
+    "msgstr": "{STR_VAR_1} rougit de plaisir!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 23,
+    "ancien": "{STR_VAR_1} rayonne, mais reste timide.",
+    "preuve": "265:362 — {STRVAR_1 1, 0, 0} rougit de plaisir!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is coming along happily.",
+    "msgstr": "{STR_VAR_1} vous suit avec entrain.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 24,
+    "ancien": "{STR_VAR_1} vous suit gaiement.",
+    "preuve": "265:385 — {STRVAR_1 1, 0, 0} vous suit avec entrain."
+  },
+  {
+    "msgid": "{STR_VAR_1} is composed.",
+    "msgstr": "{STR_VAR_1} est relaxé!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 25,
+    "ancien": "{STR_VAR_1} garde son sang-froid.",
+    "preuve": "265:420 — {STRVAR_1 1, 0, 0} est relaxé!"
+  },
+  {
+    "msgid": "{STR_VAR_1} seems to be feeling\\ngreat about walking with you!",
+    "msgstr": "{STR_VAR_1} vous suit, l’air\\nsatisfait.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 26,
+    "ancien": "{STR_VAR_1} adore se promener\\navec vous!",
+    "preuve": "265:55 — {STRVAR_1 1, 0, 0} vous suit, l’air satisfait."
+  },
+  {
+    "msgid": "{STR_VAR_1} is glowing with health.",
+    "msgstr": "{STR_VAR_1} est plein de vie!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 27,
+    "ancien": "{STR_VAR_1} respire la santé.",
+    "preuve": "265:169 — {STRVAR_1 1, 0, 0} est plein de vie!"
+  },
+  {
+    "msgid": "{STR_VAR_1} looks very happy.",
+    "msgstr": "{STR_VAR_1} a vraiment l’air content!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 28,
+    "ancien": "{STR_VAR_1} a l’air très heureux.",
+    "preuve": "265:54 — {STRVAR_1 1, 0, 0} a vraiment l’air content!"
+  },
+  {
+    "msgid": "{STR_VAR_1} put in extra effort.",
+    "msgstr": "{STR_VAR_1} y met de la force!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 29,
+    "ancien": "{STR_VAR_1} redouble d’efforts.",
+    "preuve": "265:56 — {STRVAR_1 1, 0, 0} y met de la force!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is smelling the scents\\nof the surrounding air.",
+    "msgstr": "{STR_VAR_1} renifle les alentours.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 30,
+    "ancien": "{STR_VAR_1} hume les odeurs qui\\nflottent dans l’air.",
+    "preuve": "265:105 — {STRVAR_1 1, 0, 0} renifle les alentours."
+  },
+  {
+    "msgid": "{STR_VAR_1} is still feeling great!",
+    "msgstr": "{STR_VAR_1} a l’air encore en forme!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 32,
+    "ancien": "{STR_VAR_1} tient toujours la forme!",
+    "preuve": "265:306 — {STRVAR_1 1, 0, 0} a l’air encore en forme!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is poking at your belly.",
+    "msgstr": "{STR_VAR_1} vous touche le ventre!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 34,
+    "ancien": "{STR_VAR_1} vous tapote le bidon.",
+    "preuve": "265:364 — {STRVAR_1 1, 0, 0} vous touche le ventre!"
+  },
+  {
+    "msgid": "{STR_VAR_1} looks like it wants to\\nlead!",
+    "msgstr": "On dirait que {STR_VAR_1} veut\\npasser devant!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 36,
+    "ancien": "{STR_VAR_1} a l’air de vouloir\\nouvrir la marche!",
+    "preuve": "265:38 — On dirait que {STRVAR_1 1, 0, 0} veut passer\\ndevant!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is doing its best to\\nkeep up with you.",
+    "msgstr": "{STR_VAR_1} vous suit de son\\nmieux!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 37,
+    "ancien": "{STR_VAR_1} fait de son mieux pour\\nvous suivre.",
+    "preuve": "265:51 — {STRVAR_1 1, 0, 0} vous suit de son mieux!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is happily cuddling up\\nto you!",
+    "msgstr": "{STR_VAR_1} vous câline, la mine\\nréjouie.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 38,
+    "ancien": "{STR_VAR_1} se blottit joyeusement\\ncontre vous!",
+    "preuve": "265:53 — {STRVAR_1 1, 0, 0} vous câline,\\nla mine réjouie."
+  },
+  {
+    "msgid": "{STR_VAR_1} seems to be very happy!",
+    "msgstr": "{STR_VAR_1} a l’air si heureux!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 40,
+    "ancien": "{STR_VAR_1} nage dans le bonheur!",
+    "preuve": "265:62 — {STRVAR_1 1, 0, 0} a l’air si heureux!",
+    "note": "autre(s) variante(s) SS : {STR_VAR_1} a l’air ravi!"
+  },
+  {
+    "msgid": "{STR_VAR_1} nodded slowly.",
+    "msgstr": "{STR_VAR_1} gémit doucement.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 42,
+    "ancien": "{STR_VAR_1} hoche lentement la tête.",
+    "preuve": "265:755 — {STRVAR_1 1, 0, 0} gémit doucement."
+  },
+  {
+    "msgid": "{STR_VAR_1} is very eager!",
+    "msgstr": "{STR_VAR_1} veut en découdre!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 43,
+    "ancien": "{STR_VAR_1} trépigne d’impatience!",
+    "preuve": "265:334 — {STRVAR_1 1, 0, 0} veut en découdre!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is wandering around and\\nlistening to the different sounds.",
+    "msgstr": "{STR_VAR_1} écoute un bruit avec\\nintérêt.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 44,
+    "ancien": "{STR_VAR_1} se promène en écoutant\\nles bruits alentour.",
+    "preuve": "265:148 — {STRVAR_1 1, 0, 0} écoute un bruit avec\\nintérêt."
+  },
+  {
+    "msgid": "{STR_VAR_1} looks very interested.",
+    "msgstr": "{STR_VAR_1} a l’air très intéressé!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 45,
+    "ancien": "{STR_VAR_1} montre un vif intérêt.",
+    "preuve": "265:146 — {STRVAR_1 1, 0, 0} a l’air très intéressé!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is somehow forcing\\nitself to keep going.",
+    "msgstr": "{STR_VAR_1} a l’air de pouvoir\\nvous suivre.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 46,
+    "ancien": "{STR_VAR_1} se force tant bien que\\nmal à avancer.",
+    "preuve": "265:401 — {STRVAR_1 1, 0, 0} a l’air de pouvoir vous\\nsuivre."
+  },
+  {
+    "msgid": "{STR_VAR_1} gave you a sunny look!",
+    "msgstr": "{STR_VAR_1} salue avec entrain!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 47,
+    "ancien": "{STR_VAR_1} vous lance un regard\\nradieux!",
+    "preuve": "265:500 — {STRVAR_1 1, 0, 0} salue avec entrain!"
+  },
+  {
+    "msgid": "{STR_VAR_1} gives you a happy look\\nand a smile.",
+    "msgstr": "{STR_VAR_1} salue en souriant!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 48,
+    "ancien": "{STR_VAR_1} vous regarde d’un air\\njoyeux et sourit.",
+    "preuve": "265:552 — {STRVAR_1 1, 0, 0} salue en souriant!"
+  },
+  {
+    "msgid": "{STR_VAR_1} seems very happy to see\\nyou!",
+    "msgstr": "{STR_VAR_1} vous salue, l’air\\nheureux.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 50,
+    "ancien": "{STR_VAR_1} se réjouit de vous\\nvoir!",
+    "preuve": "265:117 — {STRVAR_1 1, 0, 0} vous salue, l’air heureux."
+  },
+  {
+    "msgid": "{STR_VAR_1} faced this way and\\ngrinned.",
+    "msgstr": "{STR_VAR_1} se retourne et\\nvous sourit.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 51,
+    "ancien": "{STR_VAR_1} se tourne vers vous et\\nsourit de toutes ses dents.",
+    "preuve": "265:176 — {STRVAR_1 1, 0, 0} se retourne et vous\\nsourit."
+  },
+  {
+    "msgid": "{STR_VAR_1} is steadily poking at\\nthe ground.",
+    "msgstr": "{STR_VAR_1} creuse le sol.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 75,
+    "ancien": "{STR_VAR_1} tapote le sol avec\\napplication.",
+    "preuve": "265:200 — {STRVAR_1 1, 0, 0} creuse le sol."
+  },
+  {
+    "msgid": "{STR_VAR_1} is standing guard.",
+    "msgstr": "{STR_VAR_1} est en alerte!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 76,
+    "ancien": "{STR_VAR_1} monte la garde.",
+    "preuve": "265:168 — {STRVAR_1 1, 0, 0} est en alerte!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is staring patiently at\\nnothing at all.",
+    "msgstr": "{STR_VAR_1} regarde dans le vide…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 77,
+    "ancien": "{STR_VAR_1} fixe patiemment…\\nle vide.",
+    "preuve": "265:400 — {STRVAR_1 1, 0, 0} regarde dans le vide..."
+  },
+  {
+    "msgid": "{STR_VAR_1} is wandering around.",
+    "msgstr": "{STR_VAR_1} est intenable.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 78,
+    "ancien": "{STR_VAR_1} flâne tranquillement.",
+    "preuve": "265:150 — {STRVAR_1 1, 0, 0} est intenable."
+  },
+  {
+    "msgid": "{STR_VAR_1} is gazing around\\nrestlessly.",
+    "msgstr": "{STR_VAR_1} scrute les\\nalentours avec intérêt.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 82,
+    "ancien": "{STR_VAR_1} regarde partout,\\nsans tenir en place.",
+    "preuve": "265:147 — {STRVAR_1 1, 0, 0} scrute les alentours\\navec intérêt."
+  },
+  {
+    "msgid": "{STR_VAR_1} let out a battle cry.",
+    "msgstr": "{STR_VAR_1} veut en découdre!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 83,
+    "ancien": "{STR_VAR_1} pousse un cri de guerre.",
+    "preuve": "265:756 — {STRVAR_1 1, 0, 0} veut en découdre!"
+  },
+  {
+    "msgid": "{STR_VAR_1} danced a wonderful\\ndance!",
+    "msgstr": "{STR_VAR_1} danse super bien!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 84,
+    "ancien": "{STR_VAR_1} exécute une danse\\nmagnifique!",
+    "preuve": "265:518 — {STRVAR_1 1, 0, 0} danse super bien!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is very eager.",
+    "msgstr": "{STR_VAR_1} veut en découdre!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 85,
+    "ancien": "{STR_VAR_1} brûle d’impatience.",
+    "preuve": "265:334 — {STRVAR_1 1, 0, 0} veut en découdre!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is staring intently into\\nthe distance.",
+    "msgstr": "{STR_VAR_1} regarde fixement au\\nloin.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 86,
+    "ancien": "{STR_VAR_1} fixe intensément\\nl’horizon.",
+    "preuve": "265:534 — {STRVAR_1 1, 0, 0} regarde fixement au loin."
+  },
+  {
+    "msgid": "{STR_VAR_1} is on the lookout!",
+    "msgstr": "{STR_VAR_1} inspecte les alentours.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 87,
+    "ancien": "{STR_VAR_1} fait le guet!",
+    "preuve": "265:356 — {STRVAR_1 1, 0, 0} inspecte les alentours."
+  },
+  {
+    "msgid": "{STR_VAR_1} is dizzy.",
+    "msgstr": "{STR_VAR_1} est étourdi.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 106,
+    "ancien": "{STR_VAR_1} a la tête qui tourne.",
+    "preuve": "265:293 — {STRVAR_1 1, 0, 0} est étourdi."
+  },
+  {
+    "msgid": "{STR_VAR_1} seems a little tired.",
+    "msgstr": "{STR_VAR_1} a l’air un peu fatigué.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 108,
+    "ancien": "{STR_VAR_1} montre des signes de\\nfatigue.",
+    "preuve": "265:208 — {STRVAR_1 1, 0, 0} a l’air un peu fatigué."
+  },
+  {
+    "msgid": "{STR_VAR_1} seems to be about to\\nfall over!",
+    "msgstr": "{STR_VAR_1} va sûrement tomber!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 112,
+    "ancien": "{STR_VAR_1} semble sur le point de\\ns’effondrer!",
+    "preuve": "265:359 — {STRVAR_1 1, 0, 0} va sûrement tomber!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is trying very hard to\\nkeep up with you…",
+    "msgstr": "{STR_VAR_1} fait de son mieux\\npour vous suivre.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 113,
+    "ancien": "{STR_VAR_1} s’efforce de vous\\nsuivre…",
+    "preuve": "265:165 — {STRVAR_1 1, 0, 0} fait de son mieux pour\\nvous suivre."
+  },
+  {
+    "msgid": "{STR_VAR_1} seems unhappy somehow…",
+    "msgstr": "{STR_VAR_1} fait une drôle de tête…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 123,
+    "ancien": "{STR_VAR_1} a l’air un peu morose…",
+    "preuve": "265:523 — {STRVAR_1 1, 0, 0} fait une drôle de tête..."
+  },
+  {
+    "msgid": "{STR_VAR_1} is making an unhappy\\nface.",
+    "msgstr": "{STR_VAR_1} n’a pas l’air\\nd’apprécier…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 124,
+    "ancien": "{STR_VAR_1} fait la moue.",
+    "preuve": "265:232 — {STRVAR_1 1, 0, 0} n’a pas l’air\\nd’apprécier..."
+  },
+  {
+    "msgid": "{STR_VAR_1} let out a roar!",
+    "msgstr": "{STR_VAR_1} pousse un cri.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 136,
+    "ancien": "{STR_VAR_1} pousse un rugissement!",
+    "preuve": "265:111 — {STRVAR_1 1, 0, 0} pousse un cri."
+  },
+  {
+    "msgid": "{STR_VAR_1} is making a face like\\nit's angry!",
+    "msgstr": "{STR_VAR_1} gémit, l’air fâché!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 137,
+    "ancien": "{STR_VAR_1} fronce les sourcils,\\nl’air fâché!",
+    "preuve": "265:557 — {STRVAR_1 1, 0, 0} gémit, l’air fâché!"
+  },
+  {
+    "msgid": "{STR_VAR_1} cried out.",
+    "msgstr": "{STR_VAR_1} pousse un cri!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 140,
+    "ancien": "{STR_VAR_1} pousse un cri.",
+    "preuve": "265:71 — {STRVAR_1 1, 0, 0} pousse un cri!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is looking down\\nsteadily.",
+    "msgstr": "{STR_VAR_1} regarde en bas\\nfixement.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 149,
+    "ancien": "{STR_VAR_1} garde les yeux rivés\\nvers le sol.",
+    "preuve": "265:197 — {STRVAR_1 1, 0, 0} regarde en bas fixement."
+  },
+  {
+    "msgid": "{STR_VAR_1} is surveying the area.",
+    "msgstr": "{STR_VAR_1} scrute les alentours.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 150,
+    "ancien": "{STR_VAR_1} inspecte les environs.",
+    "preuve": "265:88 — {STRVAR_1 1, 0, 0} scrute les alentours."
+  },
+  {
+    "msgid": "{STR_VAR_1} is peering down.",
+    "msgstr": "{STR_VAR_1} regarde en bas.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 151,
+    "ancien": "{STR_VAR_1} regarde vers le bas.",
+    "preuve": "265:387 — {STRVAR_1 1, 0, 0} regarde en bas."
+  },
+  {
+    "msgid": "{STR_VAR_1} is somehow fighting off\\nsleep…",
+    "msgstr": "{STR_VAR_1} a l’air de supporter la\\nfatigue.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 152,
+    "ancien": "{STR_VAR_1} tente de résister au\\nsommeil…",
+    "preuve": "265:402 — {STRVAR_1 1, 0, 0} a l’air de supporter la\\nfatigue."
+  },
+  {
+    "msgid": "{STR_VAR_1} is looking around\\nabsentmindedly.",
+    "msgstr": "{STR_VAR_1} regarde\\nalentour, l’air vague.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 154,
+    "ancien": "{STR_VAR_1} regarde alentour,\\nl’esprit ailleurs.",
+    "preuve": "265:312 — {STRVAR_1 1, 0, 0} regarde alentour, l’air\\nvague."
+  },
+  {
+    "msgid": "{STR_VAR_1} is relaxing comfortably.",
+    "msgstr": "{STR_VAR_1} se repose tout son soûl.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 156,
+    "ancien": "{STR_VAR_1} se détend tranquillement.",
+    "preuve": "265:344 — {STRVAR_1 1, 0, 0} se repose tout son soûl."
+  },
+  {
+    "msgid": "{STR_VAR_1} is focusing its\\nattention on you.",
+    "msgstr": "{STR_VAR_1} regarde dans\\nvotre direction…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 159,
+    "ancien": "{STR_VAR_1} vous accorde toute\\nson attention.",
+    "preuve": "265:58 — {STRVAR_1 1, 0, 0} regarde dans votre\\ndirection..."
+  },
+  {
+    "msgid": "{STR_VAR_1} is staring into the\\ndepths.",
+    "msgstr": "{STR_VAR_1} regarde au loin…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 160,
+    "ancien": "{STR_VAR_1} scrute les\\nprofondeurs.",
+    "preuve": "265:127 — {STRVAR_1 1, 0, 0} regarde au loin..."
+  },
+  {
+    "msgid": "{STR_VAR_1} is sniffing at the\\nground.",
+    "msgstr": "{STR_VAR_1} renifle le sol.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 161,
+    "ancien": "{STR_VAR_1} renifle le\\nsol.",
+    "preuve": "265:195 — {STRVAR_1 1, 0, 0} renifle le sol."
+  },
+  {
+    "msgid": "{STR_VAR_1} is concentrating.",
+    "msgstr": "{STR_VAR_1} se concentre…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 164,
+    "ancien": "{STR_VAR_1} est en pleine\\nconcentration.",
+    "preuve": "265:757 — {STRVAR_1 1, 0, 0} se concentre..."
+  },
+  {
+    "msgid": "{STR_VAR_1} seems a bit nervous…",
+    "msgstr": "{STR_VAR_1} a l’air un peu inquiet.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 166,
+    "ancien": "{STR_VAR_1} a l’air un peu nerveux…",
+    "preuve": "265:205 — {STRVAR_1 1, 0, 0} a l’air un peu inquiet."
+  },
+  {
+    "msgid": "{STR_VAR_1} suddenly started walking\\ncloser!",
+    "msgstr": "{STR_VAR_1} se blottit contre vos\\njambes!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 183,
+    "ancien": "{STR_VAR_1} vient soudain marcher\\ntout près de vous!",
+    "preuve": "265:43 — {STRVAR_1 1, 0, 0} se blottit contre vos\\njambes!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is regarding you with\\nadoration!",
+    "msgstr": "{STR_VAR_1} vous regarde en\\nespérant des caresses…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "data/scripts/follower.inc",
+    "ligne": 2,
+    "ancien": "{STR_VAR_1} vous regarde\\navec adoration!",
+    "preuve": "265:50 — {STRVAR_1 1, 0, 0} vous regarde en espérant\\ndes caresses..."
+  },
+  {
+    "msgid": "{STR_VAR_1} is keeping close to your\\nfeet.",
+    "msgstr": "{STR_VAR_1} se frotte contre vos\\njambes.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 192,
+    "ancien": "{STR_VAR_1} ne vous lâche pas d’une\\nsemelle.",
+    "preuve": "265:12 — {STRVAR_1 1, 0, 0} se frotte contre vos\\njambes."
+  },
+  {
+    "msgid": "{STR_VAR_1} is in danger of falling\\nover!",
+    "msgstr": "{STR_VAR_1} a manqué de\\ntrébucher!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 208,
+    "ancien": "{STR_VAR_1} est à deux doigts de\\ntomber!",
+    "preuve": "265:357 — {STRVAR_1 1, 0, 0} a manqué de trébucher!"
+  },
+  {
+    "msgid": "{STR_VAR_1} feels something and is\\nhowling!",
+    "msgstr": "{STR_VAR_1} a senti quelque chose\\net gémit!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 213,
+    "ancien": "{STR_VAR_1} sent quelque chose\\net se met à hurler!",
+    "preuve": "265:399 — {STRVAR_1 1, 0, 0} a senti quelque chose et\\ngémit!"
+  },
+  {
+    "msgid": "{STR_VAR_1} suddenly turned around\\nand started barking!",
+    "msgstr": "{STR_VAR_1} se retourne tout à\\ncoup et crie!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 215,
+    "ancien": "{STR_VAR_1} se retourne soudain\\net se met à aboyer!",
+    "preuve": "265:99 — {STRVAR_1 1, 0, 0} se retourne tout à coup\\net crie!"
+  },
+  {
+    "msgid": "{STR_VAR_1} suddenly turned around!",
+    "msgstr": "{STR_VAR_1} se retourne d’un coup!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 216,
+    "ancien": "{STR_VAR_1} se retourne brusquement!",
+    "preuve": "265:100 — {STRVAR_1 1, 0, 0} se retourne d’un coup!"
+  },
+  {
+    "msgid": "{STR_VAR_1} feels refreshed.",
+    "msgstr": "{STR_VAR_1} a l’air d’apprécier!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 219,
+    "ancien": "{STR_VAR_1} se sent revivre.",
+    "preuve": "265:136 — {STRVAR_1 1, 0, 0} a l’air d’apprécier!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is wobbling and seems\\nabout to fall over.",
+    "msgstr": "{STR_VAR_1} vacille et va tomber!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 220,
+    "ancien": "{STR_VAR_1} vacille et semble sur\\nle point de tomber.",
+    "preuve": "265:345 — {STRVAR_1 1, 0, 0} vacille et va tomber!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is in danger of falling\\nover.",
+    "msgstr": "{STR_VAR_1} a manqué de\\ntrébucher!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 221,
+    "ancien": "{STR_VAR_1} risque de perdre\\nl’équilibre.",
+    "preuve": "265:357 — {STRVAR_1 1, 0, 0} a manqué de trébucher!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is walking along\\ncautiously.",
+    "msgstr": "{STR_VAR_1} vous suit\\nprudemment.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 222,
+    "ancien": "{STR_VAR_1} avance avec\\nprudence.",
+    "preuve": "265:202 — {STRVAR_1 1, 0, 0} vous suit prudemment."
+  },
+  {
+    "msgid": "{STR_VAR_1} is getting tense with\\nnervous energy.",
+    "msgstr": "{STR_VAR_1} est tout tendu.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 223,
+    "ancien": "{STR_VAR_1} se crispe, en proie à\\nla nervosité.",
+    "preuve": "265:156 — {STRVAR_1 1, 0, 0} est tout tendu."
+  },
+  {
+    "msgid": "{STR_VAR_1} sensed something strange\\nand was surprised!",
+    "msgstr": "{STR_VAR_1} a été surpris par une\\nodeur.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 224,
+    "ancien": "{STR_VAR_1} sursaute en sentant\\nquelque chose d’étrange!",
+    "preuve": "265:258 — {STRVAR_1 1, 0, 0} a été surpris par une\\nodeur."
+  },
+  {
+    "msgid": "{STR_VAR_1} is feeling an unusual\\npresence…",
+    "msgstr": "{STR_VAR_1} sent quelque chose\\nd’inhabituel…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 226,
+    "ancien": "{STR_VAR_1} ressent une présence\\ninhabituelle…",
+    "preuve": "265:226 — {STRVAR_1 1, 0, 0} sent quelque chose\\nd’inhabituel..."
+  },
+  {
+    "msgid": "{STR_VAR_1} is rolling a pebble\\naround playfully.",
+    "msgstr": "{STR_VAR_1} s’amuse à\\nprojeter des gravillons.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 250,
+    "ancien": "{STR_VAR_1} s’amuse à faire rouler\\nun caillou.",
+    "preuve": "265:104 — {STRVAR_1 1, 0, 0} s’amuse à projeter des\\ngravillons."
+  },
+  {
+    "msgid": "{STR_VAR_1} is wandering around and\\nsearching for something.",
+    "msgstr": "{STR_VAR_1} cherche quelque chose\\nfrénétiquement.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 251,
+    "ancien": "{STR_VAR_1} furète çà et là, en quête\\nde quelque chose.",
+    "preuve": "265:149 — {STRVAR_1 1, 0, 0} cherche quelque chose\\nfrénétiquement."
+  },
+  {
+    "msgid": "{STR_VAR_1} seems to be a little\\nhesitant…",
+    "msgstr": "{STR_VAR_1} a l’air perdu…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 253,
+    "ancien": "{STR_VAR_1} a l’air un peu\\nhésitant…",
+    "preuve": "265:236 — {STRVAR_1 1, 0, 0} a l’air perdu..."
+  },
+  {
+    "msgid": "{STR_VAR_1} is showing off its\\nagility!",
+    "msgstr": "{STR_VAR_1} bouge avec\\nlégèreté!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 264,
+    "ancien": "{STR_VAR_1} fait étalage de son\\nagilité!",
+    "preuve": "265:60 — {STRVAR_1 1, 0, 0} bouge avec légèreté!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is moving around\\nhappily!",
+    "msgstr": "{STR_VAR_1} tient la forme!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 265,
+    "ancien": "{STR_VAR_1} gambade\\njoyeusement!",
+    "preuve": "265:64 — {STRVAR_1 1, 0, 0} tient la forme!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is steadily keeping up\\nwith you!",
+    "msgstr": "{STR_VAR_1} vous suit, l’air\\nguilleret!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 267,
+    "ancien": "{STR_VAR_1} vous suit d’un pas\\nrégulier!",
+    "preuve": "265:48 — {STRVAR_1 1, 0, 0} vous suit, l’air guilleret!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is singing and humming.",
+    "msgstr": "{STR_VAR_1} fredonne.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 270,
+    "ancien": "{STR_VAR_1} chante et fredonne.",
+    "preuve": "265:554 — {STRVAR_1 1, 0, 0} fredonne."
+  },
+  {
+    "msgid": "{STR_VAR_1} is nipping at your feet!",
+    "msgstr": "{STR_VAR_1} vous marche sur les pieds.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 271,
+    "ancien": "{STR_VAR_1} vous mordille les pieds!",
+    "preuve": "265:83 — {STRVAR_1 1, 0, 0} vous marche sur les\\npieds."
+  },
+  {
+    "msgid": "Whoa! {STR_VAR_1} suddenly danced in\\nhappiness!",
+    "msgstr": "Ah! {STR_VAR_1} dansotte\\njoyeusement.",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 274,
+    "ancien": "Ouah! {STR_VAR_1} se lance soudain\\ndans une danse de joie!",
+    "preuve": "265:616 — Ah! {STRVAR_1 1, 0, 0} dansotte\\njoyeusement."
+  },
+  {
+    "msgid": "{STR_VAR_1} is cheerful!",
+    "msgstr": "{STR_VAR_1} est tout excité!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 275,
+    "ancien": "{STR_VAR_1} est d’humeur joyeuse!",
+    "preuve": "265:109 — {STRVAR_1 1, 0, 0} est tout excité!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is jumping around in a\\ncarefree way!",
+    "msgstr": "{STR_VAR_1} a fait un bond\\ngracieux!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 276,
+    "ancien": "{STR_VAR_1} bondit partout, sans\\nle moindre souci!",
+    "preuve": "265:63 — {STRVAR_1 1, 0, 0} a fait un bond gracieux!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is very happy about the\\nrain.",
+    "msgstr": "{STR_VAR_1} adore la pluie!",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 279,
+    "ancien": "{STR_VAR_1} a l’air ravi qu’il\\npleuve.",
+    "preuve": "265:93 — {STRVAR_1 1, 0, 0} adore la pluie!"
+  },
+  {
+    "msgid": "{STR_VAR_1} is shivering with the\\neffects of being poisoned.",
+    "msgstr": "{STR_VAR_1} tremble à cause du\\npoison…",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/text/follower_messages.h",
+    "ligne": 297,
+    "ancien": "{STR_VAR_1} frissonne sous l’effet\\ndu poison.",
+    "preuve": "265:395 — {STRVAR_1 1, 0, 0} tremble à cause\\ndu poison..."
+  }
+]

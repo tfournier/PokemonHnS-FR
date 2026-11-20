@@ -53,7 +53,7 @@ def nombres(s):
 
 
 # ---------------------------------------------------------------- codes HnS
-VARIABLE_HNS = re.compile(r'\{(STR_VAR_\d|PLAYER|RIVAL|B_[A-Z_0-9]+|KUN|STRING \d+)\}')
+VARIABLE_HNS = re.compile(r'\{(STR_VAR_\d|PLAYER|RIVAL|B_[A-Z_0-9]+|KUN|STRING \d+|DYNAMIC \d+)\}')
 
 
 def codes_hns(s):
@@ -104,12 +104,15 @@ def convertir_fr(fr, table):
         return None
     # codes HGSS sans équivalent HnS (couleurs, OUI/NON, alignement, pauses) : supprimés
     s = re.sub(r'\{(COLOR|YESNO|ALN_CENTER|ALN_RIGHT|PAUSE|WAIT|SIZE|CURSOR_X|CURSOR_Y|UNK_[0-9A-F]+|TRNAME)[^}]*\}', '', s)
-    if CODE.sub('', s).count('{') or re.search(r'\{(?!STR_VAR|PLAYER|RIVAL|B_|KUN|STRING)', s):
+    if CODE.sub('', s).count('{') or re.search(r'\{(?!STR_VAR|PLAYER|RIVAL|B_|KUN|STRING|DYNAMIC|PKMN\}|SUPER_E)', s):
         return None
     s = s.replace('«\u00a0', '“').replace('\u00a0»', '”').replace('« ', '“').replace(' »', '”')
     s = s.replace('«', '“').replace('»', '”')
+    s = re.sub(r'[ \u00a0\u2009]?\$', '¥', s)   # Pokédollar : « $ » vaut 0xFF (fin de chaîne) en Gen 3
+    s = s.replace('₧₦', '{PKMN}').replace('¹', '{SUPER_ER}').replace('⁴', '{SUPER_E}')
     s = s.replace('\u2009', '').replace('\u202f', '').replace('\u00a0', ' ')
-    s = s.replace('\r', '\\p').replace('\f', '\\p').replace('\n', '\\n')
+    # \r (Gen 4 : attente + nouvelle boîte) → \p ; \f (attente + défilement d'une ligne) → \l
+    s = s.replace('\r', '\\p').replace('\f', '\\l').replace('\n', '\\n')
     s = s.replace('...', '…')
     s = re.sub(r' +([!?:;])', r'\1', s)
     s = re.sub(r'  +', ' ', s)

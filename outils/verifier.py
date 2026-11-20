@@ -36,7 +36,7 @@ CHAMPS = [
     (re.compile(r'items\.h$'), re.compile(r'\.pluralName\s*='), 22, 'objet (pluriel)'),
     (re.compile(r'moves_info\.h$'), re.compile(r'\.name\s*='), 16, 'capacité'),
     (re.compile(r'abilities\.h$'), re.compile(r'\.name\s*='), 16, 'talent'),
-    (re.compile(r'battle_main\.c$|trainer_class'), re.compile(r'\.name\s*='), 12, 'classe de Dresseur'),
+    (re.compile(r'battle_main\.c$|trainer_class'), re.compile(r'\.name\s*=|\[TRAINER_CLASS_\w+\]\s*=\s*\{\s*_\('), 12, 'classe de Dresseur'),
     (re.compile(r'battle_frontier_trainers\.h$|battle_tent\.h$'), re.compile(r'\.trainerName\s*='), 7, 'Dresseur Frontier'),
     (re.compile(r'trainer_hill\.h$'), re.compile(r'\.nickname\s*='), 10, 'surnom Mont Dresseurs'),
     (re.compile(r'trainer_hill\.h$'), re.compile(r'\.name\s*='), 7, 'Dresseur Mont Dresseurs'),
@@ -136,6 +136,8 @@ class Verif:
         if KANA.search(msgstr):
             pb.append(('KANA', ''.join(sorted(set(KANA.findall(msgstr))))))
         bad = self.cm.invalid(msgstr)
+        if '$' in msgstr and '$' not in msgid:
+            bad = list(bad) + ['$ (= 0xFF, fin de chaîne)']
         if bad:
             pb.append(('CARACTERE', repr(sorted(set(bad))[:6])))
         # largeur (dialogues : textes multi-lignes ou domaine dialogues)
@@ -205,7 +207,7 @@ def main():
             dom = os.path.basename(f)[:-3]
         else:
             ents = [(d['msgid'], d.get('msgstr', ''), [(d['fichier'], d.get('ligne', 0))] if d.get('fichier') else [],
-                     d.get('source', ''), d.get('msgctxt', '')) for d in json.load(open(f, encoding='utf-8'))]
+                     'source : ' + (d.get('source') or ''), d.get('msgctxt', '')) for d in json.load(open(f, encoding='utf-8'))]
             dom = ''
         for mid, mstr, occ, com, ctx in ents:
             n += 1

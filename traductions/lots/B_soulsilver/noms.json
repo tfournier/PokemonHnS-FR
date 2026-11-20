@@ -1,0 +1,2606 @@
+[
+  {
+    "msgid": "MIKEY",
+    "msgstr": "Mandé",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 103,
+    "preuve": "729:47 — Mandé (YOUNGSTER, équipe PIDGEY/RATTATA)",
+    "note": "TRAINER_MIKEY_HNS (Youngster Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "ALBERT",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Roméo",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 120,
+    "preuve": "729:49 — Roméo (YOUNGSTER, équipe RATTATA/ZUBAT)",
+    "note": "TRAINER_ALBERT_HNS (Youngster Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party, src/trainer_tower_sets.c : contexte par fichier"
+  },
+  {
+    "msgid": "GORDON",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Momo",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 137,
+    "preuve": "729:56 — Momo (YOUNGSTER, équipe WOOPER)",
+    "note": "TRAINER_GORDON_HNS (Youngster Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "SAMUEL",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Gontran",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 150,
+    "preuve": "729:62 — Gontran (YOUNGSTER, équipe RATTATA/SANDSHREW/SPEAROW)",
+    "note": "TRAINER_SAMUEL_HNS (Youngster Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "WARREN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Romain",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 188,
+    "preuve": "729:378 — Romain (YOUNGSTER, équipe FEAROW/RATICATE)",
+    "note": "TRAINER_WARREN_HNS (Youngster Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "OWEN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Sancho",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 218,
+    "ancien": "Owen",
+    "preuve": "729:380 — Sancho (YOUNGSTER, équipe GROWLITHE)",
+    "note": "TRAINER_OWEN_HNS (Youngster Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party, src/trainer_tower_sets.c : contexte par fichier"
+  },
+  {
+    "msgid": "JASON",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Mercutio",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 231,
+    "ancien": "Jason",
+    "preuve": "729:381 — Mercutio (YOUNGSTER, équipe CROBAT/SANDSLASH)",
+    "note": "TRAINER_JASON_HNS (Youngster Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "JACK",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Timéo",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 248,
+    "preuve": "729:178 — Timéo (SCHOOL_KID_M, équipe ODDISH/VOLTORB)",
+    "note": "TRAINER_JACK_2_HNS (School Kid Hns, trainers_hns.party) → sûr; TRAINER_JACK_3_HNS (School Kid Hns, trainers_hns.party) → sûr; TRAINER_JACK_4_HNS (School Kid Hns, trainers_hns.party) → sûr; TRAINER_JACK_5_HNS (School Kid Hns, trainers_hns.party) → sûr; TRAINER_JACK_HNS (School Kid Hns, trainers_hns.p ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "KIPP",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Cyril",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 265,
+    "preuve": "729:179 — Cyril (SCHOOL_KID_M, équipe MAGNEMITE/MAGNETON/VOLTORB)",
+    "note": "TRAINER_KIPP_HNS (School Kid Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "ALAN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Aimé",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 282,
+    "preuve": "729:24 — Aimé (SCHOOL_KID_M, équipe TANGELA)",
+    "note": "TRAINER_ALAN_2_HNS (School Kid Hns, trainers_hns.party) → sûr; TRAINER_ALAN_3_HNS (School Kid Hns, trainers_hns.party) → sûr; TRAINER_ALAN_4_HNS (School Kid Hns, trainers_hns.party) → sûr; TRAINER_ALAN_5_HNS (School Kid Hns, trainers_hns.party) → sûr; TRAINER_ALAN_HNS (School Kid Hns, trainers_hns.p ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "JOHNNY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Nestor",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 299,
+    "ancien": "JOHNNY",
+    "preuve": "729:135 — Nestor (SCHOOL_KID_M, équipe BELLSPROUT/VICTREEBEL/WEEPINBELL)",
+    "note": "TRAINER_JOHNNY_HNS (School Kid Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/main_menu.c : contexte par fichier"
+  },
+  {
+    "msgid": "DANNY",
+    "msgstr": "Davon",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 316,
+    "preuve": "729:327 — Davon (SCHOOL_KID_M, équipe ELECTABUZZ/JYNX/MAGMAR)",
+    "note": "TRAINER_DANNY_HNS (School Kid Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "TOMMY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Tommy",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 337,
+    "preuve": "729:328 — Tommy (SCHOOL_KID_M, équipe ALAKAZAM/XATU)",
+    "note": "TRAINER_TOMMY_HNS (School Kid Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "DUDLEY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Benoit",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 354,
+    "preuve": "729:329 — Benoit (SCHOOL_KID_M, équipe ODDISH)",
+    "note": "TRAINER_DUDLEY_HNS (School Kid Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "JOE",
+    "msgstr": "Joël",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 367,
+    "preuve": "729:330 — Joël (SCHOOL_KID_M, équipe TANGELA/VAPOREON)",
+    "note": "TRAINER_JOE_HNS (School Kid Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "BILLY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Bilhal",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 384,
+    "ancien": "S",
+    "preuve": "729:642 — Bilhal (SCHOOL_KID_M, équipe DITTO/MRMIME/PARASECT/POLIWRATH)",
+    "note": "TRAINER_BILLY_2_HNS (School Kid Hns, trainers_hns.party) → sûr; TRAINER_BILLY_3_HNS (School Kid Hns, trainers_hns.party) → sûr; TRAINER_BILLY_HNS (School Kid Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trade.h, src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "CHAD",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Mathys",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 405,
+    "preuve": "729:434 — Mathys (SCHOOL_KID_M, équipe MAGNEMITE/MRMIME)",
+    "note": "TRAINER_CHAD_2_HNS (School Kid Hns, trainers_hns.party) → sûr; TRAINER_CHAD_3_HNS (School Kid Hns, trainers_hns.party) → sûr; TRAINER_CHAD_4_HNS (School Kid Hns, trainers_hns.party) → sûr; TRAINER_CHAD_5_HNS (School Kid Hns, trainers_hns.party) → sûr; TRAINER_CHAD_HNS (School Kid Hns, trainers_hns.p ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "NATE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Basile",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 422,
+    "ancien": "NATE",
+    "preuve": "729:428 — Basile (SCHOOL_KID_M, équipe EXEGGUTOR/LEDIAN)",
+    "note": "TRAINER_NATE_HNS (School Kid Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "RICKY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Benjamin",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 439,
+    "preuve": "729:429 — Benjamin (SCHOOL_KID_M, équipe AIPOM/DITTO)",
+    "note": "TRAINER_RICKY_HNS (School Kid Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier ; occurrence src/data/trainers_hns.party:439 absente des références du .po"
+  },
+  {
+    "msgid": "ROD",
+    "msgstr": "Elie",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 456,
+    "preuve": "729:29 — Elie (BIRD_KEEPER_GS, équipe PIDGEY)",
+    "note": "TRAINER_ROD_HNS (Bird Keeper Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "ABE",
+    "msgstr": "Ben",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 473,
+    "preuve": "729:50 — Ben (BIRD_KEEPER_GS, équipe SPEAROW)",
+    "note": "TRAINER_ABE_HNS (Bird Keeper Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "BRYAN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Greg",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 486,
+    "preuve": "729:72 — Greg (BIRD_KEEPER_GS, équipe PIDGEOTTO/PIDGEY)",
+    "note": "TRAINER_BRYAN_HNS (Bird Keeper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "THEO",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Tom",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 507,
+    "ancien": "Manu",
+    "preuve": "729:73 — Tom (BIRD_KEEPER_GS, équipe PIDGEY)",
+    "note": "TRAINER_THEO_HNS (Bird Keeper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "TOBY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Toby",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 520,
+    "preuve": "729:82 — Toby (BIRD_KEEPER_GS, équipe DODUO)",
+    "note": "TRAINER_TOBY_HNS (Bird Keeper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "DENIS",
+    "msgstr": "Tony",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 537,
+    "preuve": "729:217 — Tony (BIRD_KEEPER_GS, équipe FEAROW/SPEAROW)",
+    "note": "TRAINER_DENIS_HNS (Bird Keeper Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "VANCE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Alban",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 554,
+    "preuve": "729:612 — Alban (BIRD_KEEPER_GS, équipe NOCTOWL/PIDGEOT)",
+    "note": "TRAINER_VANCE_2_HNS (Bird Keeper Hns, trainers_hns.party) → sûr; TRAINER_VANCE_3_HNS (Bird Keeper Hns, trainers_hns.party) → sûr; TRAINER_VANCE_HNS (Bird Keeper Hns, trainers_hns.party) → sûr ; noms différents selon le fichier"
+  },
+  {
+    "msgid": "HANK",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Phil",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 579,
+    "ancien": "Horace",
+    "preuve": "729:299 — Phil (BIRD_KEEPER_GS, équipe PIDGEOT/PIDGEY)",
+    "note": "TRAINER_HANK_HNS (Bird Keeper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "BORIS",
+    "msgstr": "Sam",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 613,
+    "preuve": "729:301 — Sam (BIRD_KEEPER_GS, équipe DODRIO/DODUO)",
+    "note": "TRAINER_BORIS_HNS (Bird Keeper Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "BOB",
+    "msgstr": "Bob",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 634,
+    "preuve": "729:302 — Bob (BIRD_KEEPER_GS, équipe NOCTOWL)",
+    "note": "TRAINER_BOB_HNS (Bird Keeper Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "JOSE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Brett",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 647,
+    "preuve": "729:303 — Brett (BIRD_KEEPER_GS, équipe FARFETCHD)",
+    "note": "TRAINER_JOSE_2_HNS (Bird Keeper Hns, trainers_hns.party) → sûr; TRAINER_JOSE_3_HNS (Bird Keeper Hns, trainers_hns.party) → sûr; TRAINER_JOSE_HNS (Bird Keeper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trade.h, src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "PETER",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Joe",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 672,
+    "ancien": "Peyo",
+    "preuve": "729:383 — Joe (BIRD_KEEPER_GS, équipe PIDGEY/SPEAROW)",
+    "note": "TRAINER_PETER_HNS (Bird Keeper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "PERRY",
+    "msgctxt": "src/data/trainers_frlg.party",
+    "msgstr": "Jeff",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_frlg.party",
+    "ligne": 3939,
+    "preuve": "729:420 — Jeff (BIRD_KEEPER_GS, équipe FARFETCHD)",
+    "note": "TRAINER_BIRD_KEEPER_PERRY (Bird Keeper Frlg, trainers_frlg.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "PERRY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Jeff",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 689,
+    "preuve": "729:420 — Jeff (BIRD_KEEPER_GS, équipe FARFETCHD)",
+    "note": "TRAINER_PERRY_HNS (Bird Keeper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "CARRIE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Jennifer",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 719,
+    "preuve": "729:22 — Jennifer (LASS, équipe SNUBBULL)",
+    "note": "TRAINER_CARRIE_HNS (Lass Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "ALICE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Alice",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 749,
+    "ancien": "Alicia",
+    "preuve": "729:183 — Alice (LASS, équipe ARBOK/GLOOM/VILEPLUME)",
+    "note": "TRAINER_ALICE_HNS (Lass Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/trainer_hill.h, src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "KRISE",
+    "msgstr": "Jezebel",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 770,
+    "preuve": "729:184 — Jezebel (LASS, équipe CUBONE/ODDISH)",
+    "note": "TRAINER_KRISE_HNS (Lass Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "CONNIE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Aurore",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 787,
+    "preuve": "729:215 — Aurore (LASS, équipe MARILL)",
+    "note": "TRAINER_CONNIE_HNS (Lass Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "LINDA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Mina",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 804,
+    "preuve": "729:136 — Mina (LASS, équipe BULBASAUR/IVYSAUR/VENUSAUR)",
+    "note": "TRAINER_LINDA_HNS (Lass Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "LAURA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Laura",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 825,
+    "preuve": "729:354 — Laura (LASS, équipe BELLOSSOM/GLOOM/PIDGEOTTO)",
+    "note": "TRAINER_LAURA_HNS (Lass Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "SHANNON",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Diane",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 846,
+    "preuve": "729:355 — Diane (LASS, équipe PARAS/PARASECT)",
+    "note": "TRAINER_SHANNON_HNS (Lass Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "MICHELLE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Michelle",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 867,
+    "preuve": "729:356 — Michelle (LASS, équipe HOPPIP/JUMPLUFF/SKIPLOOM)",
+    "note": "TRAINER_MICHELLE_HNS (Lass Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "DANA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Rekka",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 888,
+    "preuve": "729:400 — Rekka (LASS, équipe FLAAFFY/PSYDUCK)",
+    "note": "TRAINER_DANA_2_HNS (Lass Hns, trainers_hns.party) → sûr; TRAINER_DANA_3_HNS (Lass Hns, trainers_hns.party) → sûr; TRAINER_DANA_4_HNS (Lass Hns, trainers_hns.party) → sûr; TRAINER_DANA_5_HNS (Lass Hns, trainers_hns.party) → sûr; TRAINER_DANA_HNS (Lass Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "ELLEN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Gaëlle",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 905,
+    "preuve": "729:419 — Gaëlle (LASS, équipe GRANBULL/WIGGLYTUFF)",
+    "note": "TRAINER_ELLEN_HNS (Lass Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "NICK",
+    "msgstr": "Gurvan",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 922,
+    "preuve": "729:205 — Gurvan (ACE_TRAINER_M, équipe BULBASAUR/CHARMANDER/SQUIRTLE)",
+    "note": "TRAINER_NICK_HNS (Cooltrainer Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "GAVEN",
+    "msgstr": "Sean",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1035,
+    "preuve": "729:102 — Sean (ACE_TRAINER_M, équipe FLAREON/KINGLER/VICTREEBEL)",
+    "note": "TRAINER_GAVEN_2_HNS (Cooltrainer Hns, trainers_hns.party) → sûr; TRAINER_GAVEN_3_HNS (Cooltrainer Hns, trainers_hns.party) → sûr; TRAINER_GAVEN_HNS (Cooltrainer Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "RYAN",
+    "msgstr": "Jean",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1064,
+    "preuve": "729:108 — Jean (ACE_TRAINER_M, équipe ELECTABUZZ/PIDGEOT)",
+    "note": "TRAINER_RYAN_HNS (Cooltrainer Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "JAKE",
+    "msgstr": "Jack",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1085,
+    "preuve": "729:28 — Jack (ACE_TRAINER_M, équipe GOLDUCK/PARASECT/VAPOREON)",
+    "note": "TRAINER_JAKE_HNS (Cooltrainer Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "BLAKE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Félix",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1114,
+    "preuve": "729:103 — Félix (ACE_TRAINER_M, équipe EXEGGCUTE/MAGNETON/QUAGSIRE)",
+    "note": "TRAINER_BLAKE_HNS (Cooltrainer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "BRIAN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Hatem",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1139,
+    "preuve": "729:104 — Hatem (ACE_TRAINER_M, équipe MAREEP)",
+    "note": "TRAINER_BRIAN_HNS (Cooltrainer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/apprentice.h : contexte par fichier"
+  },
+  {
+    "msgid": "ALLEN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Abib",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1294,
+    "preuve": "729:407 — Abib (ACE_TRAINER_M, équipe CHARMELEON/MAGNEMITE)",
+    "note": "TRAINER_ALLEN_HNS (Cooltrainer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "GWEN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Gerry",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1336,
+    "preuve": "729:206 — Gerry (ACE_TRAINER_F, équipe EEVEE/FLAREON/JOLTEON/VAPOREON)",
+    "note": "TRAINER_GWEN_HNS (Cooltrainer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "LOIS",
+    "msgstr": "Sally",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1361,
+    "preuve": "729:116 — Sally (ACE_TRAINER_F, équipe MAREEP/NINETALES)",
+    "note": "TRAINER_LOIS_HNS (Cooltrainer Hns, trainers_hns.party) → sûr; TRAINER_ULAULA_COOLTRAINER_HNS (Cooltrainer Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "FRAN",
+    "msgstr": "Alix",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1378,
+    "preuve": "729:119 — Alix (ACE_TRAINER_F, équipe SEADRA)",
+    "note": "TRAINER_FRAN_HNS (Cooltrainer Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "LOLA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Linda",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1399,
+    "ancien": "LOLA",
+    "preuve": "729:117 — Linda (ACE_TRAINER_F, équipe DRAGONAIR/DRATINI)",
+    "note": "TRAINER_LOLA_HNS (Cooltrainer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans data/text/fame_checker_frlg.inc, src/data/battle_frontier/apprentice.h, src/data/trainers.party : contexte par fichier ; occurrence src/data/trainers_hns.party:1399 absente des références du .po"
+  },
+  {
+    "msgid": "KATE",
+    "msgstr": "Irène",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1424,
+    "preuve": "729:118 — Irène (ACE_TRAINER_F, équipe CLOYSTER/SHELLDER)",
+    "note": "TRAINER_KATE_HNS (Cooltrainer Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "IRENE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Amy",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1441,
+    "preuve": "729:120 — Amy (ACE_TRAINER_F, équipe GOLDEEN/SEAKING)",
+    "note": "TRAINER_IRENE_HNS (Cooltrainer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "KELLY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Karin",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1458,
+    "preuve": "729:121 — Karin (ACE_TRAINER_F, équipe MARILL/WARTORTLE)",
+    "note": "TRAINER_KELLY_HNS (Cooltrainer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "JOYCE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Cathy",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1483,
+    "preuve": "729:36 — Cathy (ACE_TRAINER_F, équipe BLASTOISE/PIKACHU)",
+    "note": "TRAINER_JOYCE_HNS (Cooltrainer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "MEGAN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Leia",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1570,
+    "preuve": "729:115 — Leia (ACE_TRAINER_F, équipe BULBASAUR/IVYSAUR/VENUSAUR)",
+    "note": "TRAINER_MEGAN_HNS (Cooltrainer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "CAROL",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Caro",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1595,
+    "preuve": "729:237 — Caro (ACE_TRAINER_F, équipe ELECTRODE/NINETALES/STARMIE)",
+    "note": "TRAINER_CAROL_HNS (Cooltrainer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "QUINN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Mimi",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1616,
+    "preuve": "729:362 — Mimi (ACE_TRAINER_F, équipe IVYSAUR/STARMIE)",
+    "note": "TRAINER_QUINN_HNS (Cooltrainer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "EMMA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Emma",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1633,
+    "preuve": "729:363 — Emma (ACE_TRAINER_F, équipe POLIWHIRL)",
+    "note": "TRAINER_EMMA_HNS (Cooltrainer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "CYBIL",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Alizée",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1646,
+    "preuve": "729:408 — Alizée (ACE_TRAINER_F, équipe BELLOSSOM/MAREEP)",
+    "note": "TRAINER_CYBIL_HNS (Cooltrainer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "JENN",
+    "msgstr": "Maria",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1667,
+    "preuve": "729:417 — Maria (ACE_TRAINER_F, équipe STARMIE/STARYU)",
+    "note": "TRAINER_JENN_HNS (Cooltrainer Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "SAMANTHA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Carla",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1722,
+    "preuve": "729:70 — Carla (BEAUTY, équipe MEOWTH)",
+    "note": "TRAINER_SAMANTHA_HNS (Beauty Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "CASSIE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Claudia",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1774,
+    "preuve": "729:209 — Claudia (BEAUTY, équipe BUTTERFREE/VILEPLUME)",
+    "note": "TRAINER_CASSIE_HNS (Beauty Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans data/text/new_game_intro_frlg.inc : contexte par fichier"
+  },
+  {
+    "msgid": "CAROLINE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Caroline",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1791,
+    "preuve": "729:210 — Caroline (BEAUTY, équipe MARILL/SEEL)",
+    "note": "TRAINER_CAROLINE_HNS (Beauty Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "JULIA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Noémie",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1890,
+    "preuve": "729:346 — Noémie (BEAUTY, équipe CARNIVINE/PARAS/PARASECT)",
+    "note": "TRAINER_JULIA_HNS (Beauty Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "VALERIE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Cléo",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1924,
+    "preuve": "729:398 — Cléo (BEAUTY, équipe HOPPIP/SKIPLOOM)",
+    "note": "TRAINER_VALERIE_HNS (Beauty Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier ; occurrence src/data/trainers_hns.party:1924 absente des références du .po"
+  },
+  {
+    "msgid": "LARRY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Raynal",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1954,
+    "preuve": "729:23 — Raynal (POKE_MANIAC, équipe SLOWPOKE)",
+    "note": "TRAINER_LARRY_HNS (Pokemaniac Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "ANDREW",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Evan",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1967,
+    "preuve": "729:201 — Evan (POKE_MANIAC, équipe MAROWAK)",
+    "note": "TRAINER_ANDREW_HNS (Pokemaniac Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "CALVIN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Denis",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1984,
+    "preuve": "729:202 — Denis (POKE_MANIAC, équipe KANGASKHAN)",
+    "note": "TRAINER_CALVIN_HNS (Pokemaniac Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier ; occurrence src/data/trainers_hns.party:1984 absente des références du .po"
+  },
+  {
+    "msgid": "SHANE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Seb",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 1997,
+    "preuve": "729:129 — Seb (POKE_MANIAC, équipe NIDORINA/NIDORINO)",
+    "note": "TRAINER_SHANE_HNS (Pokemaniac Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "BRENT",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Wilfrid",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 2031,
+    "preuve": "729:173 — Wilfrid (POKE_MANIAC, équipe GYARADOS/LICKITUNG/NIDORINA/NIDORINO)",
+    "note": "TRAINER_BRENT_2_HNS (Pokemaniac Hns, trainers_hns.party) → sûr; TRAINER_BRENT_3_HNS (Pokemaniac Hns, trainers_hns.party) → sûr; TRAINER_BRENT_4_HNS (Pokemaniac Hns, trainers_hns.party) → sûr; TRAINER_BRENT_HNS (Pokemaniac Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "RON",
+    "msgstr": "Thomas",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 2048,
+    "ancien": "ER",
+    "preuve": "729:132 — Thomas (POKE_MANIAC, équipe NIDOKING)",
+    "note": "TRAINER_RON_HNS (Pokemaniac Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "ISSAC",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Matias",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 2082,
+    "preuve": "729:391 — Matias (POKE_MANIAC, équipe LICKITUNG)",
+    "note": "TRAINER_ISSAC_HNS (Pokemaniac Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "DONALD",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Daniel",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 2095,
+    "preuve": "729:392 — Daniel (POKE_MANIAC, équipe SLOWPOKE)",
+    "note": "TRAINER_DONALD_HNS (Pokemaniac Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "ZACH",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Franck",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 2112,
+    "preuve": "729:406 — Franck (POKE_MANIAC, équipe RHYHORN)",
+    "note": "TRAINER_ZACH_HNS (Pokemaniac Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "PRESTON",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Tancred",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 2822,
+    "preuve": "729:37 — Tancred (GENTLEMAN, équipe GROWLITHE)",
+    "note": "TRAINER_PRESTON_HNS (Gentleman Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/trainer_hill.h, src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "EDWARD",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Charles",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 2839,
+    "preuve": "729:231 — Charles (GENTLEMAN, équipe PERSIAN)",
+    "note": "TRAINER_EDWARD_HNS (Gentleman Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "GREGORY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Hugues",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 2852,
+    "preuve": "729:337 — Hugues (GENTLEMAN, équipe ELECTRIKE/FLAAFFY/PIKACHU)",
+    "note": "TRAINER_GREGORY_HNS (Gentleman Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "ALFRED",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Louis",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 2882,
+    "preuve": "729:401 — Louis (GENTLEMAN, équipe NOCTOWL)",
+    "note": "TRAINER_ALFRED_HNS (Gentleman Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/trainer_hill.h : contexte par fichier"
+  },
+  {
+    "msgid": "DON",
+    "msgstr": "Jean-Raoul",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 2968,
+    "ancien": "OR",
+    "preuve": "729:249 — Jean-Raoul (BUG_CATCHER, équipe CATERPIE)",
+    "note": "TRAINER_DON_HNS (Bug Catcher Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "ROB",
+    "msgstr": "Aymeric",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 2985,
+    "preuve": "729:48 — Aymeric (BUG_CATCHER, équipe BEEDRILL/BUTTERFREE)",
+    "note": "TRAINER_ROB_2_HNS (Bug Catcher Hns, trainers_hns.party) → sûr; TRAINER_ROB_3_HNS (Bug Catcher Hns, trainers_hns.party) → sûr; TRAINER_ROB_HNS (Bug Catcher Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "ED",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Odilon",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3002,
+    "ancien": "E",
+    "preuve": "729:248 — Odilon (BUG_CATCHER, équipe BEEDRILL/BURMY/BUTTERFREE)",
+    "note": "TRAINER_ED_HNS (Bug Catcher Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "WADE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Francis",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3023,
+    "preuve": "729:4 — Francis (BUG_CATCHER, équipe CATERPIE/WEEDLE)",
+    "note": "TRAINER_WADE_2_HNS (Bug Catcher Hns, trainers_hns.party) → sûr; TRAINER_WADE_3_HNS (Bug Catcher Hns, trainers_hns.party) → sûr; TRAINER_WADE_4_HNS (Bug Catcher Hns, trainers_hns.party) → sûr; TRAINER_WADE_5_HNS (Bug Catcher Hns, trainers_hns.party) → sûr; TRAINER_WADE_HNS (Bug Catcher Hns, trainers_ ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "BENNY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Foulque",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3040,
+    "preuve": "729:67 — Foulque (BUG_CATCHER, équipe BEEDRILL/KAKUNA/WEEDLE)",
+    "note": "TRAINER_BENNY_HNS (Bug Catcher Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "AL",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Jean-Loïc",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3057,
+    "ancien": "ME",
+    "preuve": "729:68 — Jean-Loïc (BUG_CATCHER, équipe CATERPIE/WEEDLE)",
+    "note": "TRAINER_AL_HNS (Bug Catcher Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "JOSH",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Arnaud",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3074,
+    "preuve": "729:69 — Arnaud (BUG_CATCHER, équipe PARAS)",
+    "note": "TRAINER_JOSH_HNS (Bug Catcher Hns, trainers_hns.party) → départagé ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "KEN",
+    "msgstr": "Amaury",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3104,
+    "ancien": "U",
+    "preuve": "729:79 — Amaury (BUG_CATCHER, équipe ARIADOS/PINSIR)",
+    "note": "TRAINER_KEN_HNS (Bug Catcher Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "DOUG",
+    "msgctxt": "src/data/trainers_frlg.party",
+    "msgstr": "Constantin",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_frlg.party",
+    "ligne": 240,
+    "preuve": "729:140 — Constantin (BUG_CATCHER, équipe ARIADOS/BUTTERFREE)",
+    "note": "TRAINER_BUG_CATCHER_DOUG (Bug Catcher Frlg, trainers_frlg.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "DOUG",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Constantin",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3121,
+    "preuve": "729:140 — Constantin (BUG_CATCHER, équipe ARIADOS/BUTTERFREE)",
+    "note": "TRAINER_DOUG_HNS (Bug Catcher Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "WAYNE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Léopold",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3134,
+    "preuve": "729:533 — Léopold (BUG_CATCHER, équipe LEDYBA/PARAS)",
+    "note": "TRAINER_WAYNE_HNS (Bug Catcher Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "JUSTIN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "César",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3151,
+    "preuve": "729:18 — César (FISHERMAN, équipe MAGIKARP)",
+    "note": "TRAINER_JUSTIN_HNS (Fisherman Hns, trainers_hns.party) → départagé ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "RALPH",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Auffray",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3164,
+    "preuve": "729:57 — Auffray (FISHERMAN, équipe GOLDEEN)",
+    "note": "TRAINER_RALPH_2_HNS (Fisherman Hns, trainers_hns.party) → sûr; TRAINER_RALPH_3_HNS (Fisherman Hns, trainers_hns.party) → sûr; TRAINER_RALPH_4_HNS (Fisherman Hns, trainers_hns.party) → sûr; TRAINER_RALPH_5_HNS (Fisherman Hns, trainers_hns.party) → sûr; TRAINER_RALPH_HNS (Fisherman Hns, trainers_hns.p ; msgid aussi utilisé dans data/text/new_game_intro_frlg.inc, src/data/contest_opponents.h : contexte par fichier"
+  },
+  {
+    "msgid": "ARNOLD",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Martial",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3177,
+    "ancien": "Anis",
+    "preuve": "729:58 — Martial (FISHERMAN, équipe SHELLDER)",
+    "note": "TRAINER_ARNOLD_HNS (Fisherman Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "KYLE",
+    "msgstr": "Olive",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3194,
+    "preuve": "729:661 — Olive (FISHERMAN, équipe QWILFISH/SEAKING)",
+    "note": "TRAINER_KYLE_2_HNS (Fisherman Hns, trainers_hns.party) → sûr; TRAINER_KYLE_3_HNS (Fisherman Hns, trainers_hns.party) → sûr; TRAINER_KYLE_HNS (Fisherman Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "HENRY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Loïc",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3215,
+    "preuve": "729:60 — Loïc (FISHERMAN, équipe POLIWAG)",
+    "note": "TRAINER_HENRY_HNS (Fisherman Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/trainer_hill.h, src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "MARVIN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Eugène",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3232,
+    "preuve": "729:122 — Eugène (FISHERMAN, équipe GYARADOS/MAGIKARP)",
+    "note": "TRAINER_MARVIN_HNS (Fisherman Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "TULLY",
+    "msgstr": "Conan",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3249,
+    "preuve": "729:123 — Conan (FISHERMAN, équipe QWILFISH)",
+    "note": "TRAINER_TULLY_2_HNS (Fisherman Hns, trainers_hns.party) → sûr; TRAINER_TULLY_3_HNS (Fisherman Hns, trainers_hns.party) → sûr; TRAINER_TULLY_4_HNS (Fisherman Hns, trainers_hns.party) → sûr; TRAINER_TULLY_HNS (Fisherman Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "ANDRE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Panis",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3262,
+    "ancien": "Arthur",
+    "preuve": "729:126 — Panis (FISHERMAN, équipe GYARADOS)",
+    "note": "TRAINER_ANDRE_HNS (Fisherman Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "RAYMOND",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Lucas",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3275,
+    "preuve": "729:127 — Lucas (FISHERMAN, équipe MAGIKARP)",
+    "note": "TRAINER_RAYMOND_HNS (Fisherman Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h, src/data/contest_opponents.h : contexte par fichier"
+  },
+  {
+    "msgid": "WILTON",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Renan",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3288,
+    "preuve": "729:608 — Renan (FISHERMAN, équipe SEAKING)",
+    "note": "TRAINER_WILTON_2_HNS (Fisherman Hns, trainers_hns.party) → sûr; TRAINER_WILTON_3_HNS (Fisherman Hns, trainers_hns.party) → sûr; TRAINER_WILTON_HNS (Fisherman Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier ; occurrence src/data/trainers_hns.party:3288 absente des références du .po"
+  },
+  {
+    "msgid": "EDGAR",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Marius",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3309,
+    "preuve": "729:125 — Marius (FISHERMAN, équipe REMORAID)",
+    "note": "TRAINER_EDGAR_HNS (Fisherman Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "JONAH",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Joseph",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3330,
+    "preuve": "729:128 — Joseph (FISHERMAN, équipe CLOYSTER/OCTILLERY/REMORAID/SHELLDER)",
+    "note": "TRAINER_JONAH_HNS (Fisherman Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "MARTIN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Pascal",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3355,
+    "preuve": "729:320 — Pascal (FISHERMAN, équipe OCTILLERY/REMORAID)",
+    "note": "TRAINER_MARTIN_HNS (Fisherman Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/contest_opponents.h : contexte par fichier"
+  },
+  {
+    "msgid": "STEPHEN",
+    "msgstr": "Simonin",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3372,
+    "preuve": "729:321 — Simonin (FISHERMAN, équipe QUAGSIRE/QWILFISH/TENTACRUEL)",
+    "note": "TRAINER_STEPHEN_HNS (Fisherman Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "BARNEY",
+    "msgstr": "Yvon",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3397,
+    "preuve": "729:322 — Yvon (FISHERMAN, équipe GYARADOS)",
+    "note": "TRAINER_BARNEY_HNS (Fisherman Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "SCOTT",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Matéo",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3418,
+    "ancien": "SCOTT",
+    "preuve": "729:413 — Matéo (FISHERMAN, équipe QWILFISH/SEAKING)",
+    "note": "TRAINER_SCOTT_HNS (Fisherman Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/pokenav_match_call_data.c : contexte par fichier"
+  },
+  {
+    "msgid": "HAROLD",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Bjon",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3443,
+    "preuve": "729:252 — Bjon (SWIMMER_M, équipe REMORAID/SEADRA)",
+    "note": "TRAINER_HAROLD_HNS (Swimmer M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "SIMON",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Vladimir",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3460,
+    "preuve": "729:16 — Vladimir (SWIMMER_M, équipe TENTACOOL)",
+    "note": "TRAINER_SIMON_HNS (Swimmer M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "RANDALL",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Boris",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3477,
+    "preuve": "729:86 — Boris (SWIMMER_M, équipe SHELLDER/WARTORTLE)",
+    "note": "TRAINER_RANDALL_HNS (Swimmer M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "CHARLIE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Helmut",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3494,
+    "preuve": "729:95 — Helmut (SWIMMER_M, équipe SHELLDER/TENTACOOL/TENTACRUEL)",
+    "note": "TRAINER_CHARLIE_HNS (Swimmer M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "GEORGE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Johan",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3511,
+    "preuve": "729:96 — Johan (SWIMMER_M, équipe REMORAID/STARYU/TENTACOOL)",
+    "note": "TRAINER_GEORGE_HNS (Swimmer M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "BERKE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Sigmund",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3532,
+    "preuve": "729:97 — Sigmund (SWIMMER_M, équipe QWILFISH)",
+    "note": "TRAINER_BERKE_HNS (Swimmer M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "JEROME",
+    "msgctxt": "src/data/trainers_frlg.party",
+    "msgstr": "Jürgen",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_frlg.party",
+    "ligne": 2930,
+    "preuve": "729:370 — Jürgen (SWIMMER_M, équipe GOLDEEN/SEADRA/TENTACOOL/TENTACRUEL)",
+    "note": "TRAINER_SWIMMER_MALE_JEROME (Swimmer M Frlg, trainers_frlg.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "JEROME",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Jürgen",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3680,
+    "preuve": "729:370 — Jürgen (SWIMMER_M, équipe GOLDEEN/SEADRA/TENTACOOL/TENTACRUEL)",
+    "note": "TRAINER_JEROME_HNS (Swimmer M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "PARKER",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Sigfried",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3815,
+    "preuve": "729:377 — Sigfried (SWIMMER_M, équipe HORSEA/SEADRA)",
+    "note": "TRAINER_PARKER_HNS (Swimmer M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "PAULA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Anna",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3849,
+    "preuve": "729:85 — Anna (SWIMMER_F, équipe SHELLDER/STARYU)",
+    "note": "TRAINER_PAULA_HNS (Swimmer F Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans data/text/new_game_intro_frlg.inc, src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "KAYLEE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Ludmila",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3866,
+    "preuve": "729:90 — Ludmila (SWIMMER_F, équipe GOLDEEN/SEAKING)",
+    "note": "TRAINER_KAYLEE_HNS (Swimmer F Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "DENISE",
+    "msgctxt": "src/data/trainers_frlg.party",
+    "msgstr": "Ute",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_frlg.party",
+    "ligne": 10227,
+    "preuve": "729:92 — Ute (SWIMMER_F, équipe SEEL)",
+    "note": "TRAINER_SWIMMER_FEMALE_DENISE (Swimmer F Frlg, trainers_frlg.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "DENISE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Ute",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3904,
+    "preuve": "729:92 — Ute (SWIMMER_F, équipe SEEL)",
+    "note": "TRAINER_DENISE_HNS (Swimmer F Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "KARA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Birgit",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3917,
+    "ancien": "Kara",
+    "preuve": "729:93 — Birgit (SWIMMER_F, équipe STARMIE/STARYU)",
+    "note": "TRAINER_KARA_HNS (Swimmer F Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "WENDY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Wendy",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3934,
+    "preuve": "729:94 — Wendy (SWIMMER_F, équipe HORSEA)",
+    "note": "TRAINER_WENDY_HNS (Swimmer F Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "KATIE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Anke",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 3990,
+    "preuve": "729:243 — Anke (SWIMMER_F, équipe DEWGONG)",
+    "note": "TRAINER_KATIE_HNS (Swimmer F Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "NICOLE",
+    "msgstr": "Stéfie",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_frlg.party",
+    "ligne": 10167,
+    "preuve": "729:293 — Stéfie (SWIMMER_F, équipe LAPRAS/MARILL)",
+    "note": "TRAINER_NICOLE_2_HNS (Swimmer F Hns, trainers_hns.party) → sûr; TRAINER_NICOLE_3_HNS (Swimmer F Hns, trainers_hns.party) → sûr; TRAINER_NICOLE_HNS (Swimmer F Hns, trainers_hns.party) → sûr; TRAINER_SWIMMER_FEMALE_NICOLE (Swimmer F Frlg, trainers_frlg.party) → sûr; TRAINER_SWIMMER_FEMALE_NICOLE_2 (Sw"
+  },
+  {
+    "msgid": "LORI",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Sonja",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4046,
+    "preuve": "729:294 — Sonja (SWIMMER_F, équipe STARMIE)",
+    "note": "TRAINER_LORI_HNS (Swimmer F Hns, trainers_hns.party) → sûr ; noms différents selon le fichier"
+  },
+  {
+    "msgid": "NIKKI",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Nikki",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4076,
+    "preuve": "729:296 — Nikki (SWIMMER_F, équipe DEWGONG/SEEL)",
+    "note": "TRAINER_NIKKI_HNS (Swimmer F Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "DIANA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Diana",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4097,
+    "preuve": "729:297 — Diana (SWIMMER_F, équipe GOLDUCK)",
+    "note": "TRAINER_DIANA_HNS (Swimmer F Hns, trainers_hns.party) → départagé ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier ; occurrence src/data/trainers_hns.party:4097 absente des références du .po"
+  },
+  {
+    "msgid": "EUGENE",
+    "msgstr": "Jacob",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4139,
+    "preuve": "729:39 — Jacob (SAILOR, équipe KRABBY/POLIWHIRL/RATICATE)",
+    "note": "TRAINER_EUGENE_HNS (Sailor Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "HUEY",
+    "msgctxt": "src/data/trainers_frlg.party",
+    "msgstr": "Logan",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_frlg.party",
+    "ligne": 849,
+    "preuve": "729:211 — Logan (SAILOR, équipe POLIWAG/POLIWHIRL)",
+    "note": "TRAINER_SAILOR_HUEY (Sailor Frlg, trainers_frlg.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "HUEY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Logan",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4156,
+    "preuve": "729:440 — Logan (SAILOR, équipe POLIWHIRL)",
+    "note": "TRAINER_HUEY_2_HNS (Sailor Hns, trainers_hns.party) → sûr; TRAINER_HUEY_3_HNS (Sailor Hns, trainers_hns.party) → sûr; TRAINER_HUEY_4_HNS (Sailor Hns, trainers_hns.party) → sûr; TRAINER_HUEY_HNS (Sailor Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "TERRELL",
+    "msgstr": "Alberto",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4173,
+    "preuve": "729:212 — Alberto (SAILOR, équipe POLIWHIRL)",
+    "note": "TRAINER_TERRELL_HNS (Sailor Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "KENT",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Noé",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4186,
+    "preuve": "729:213 — Noé (SAILOR, équipe KRABBY)",
+    "note": "TRAINER_KENT_HNS (Sailor Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "JEFF",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Olivier",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4224,
+    "preuve": "729:239 — Olivier (SAILOR, équipe MAKUHITA/RATICATE)",
+    "note": "TRAINER_JEFF_HNS (Sailor Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "GARRETT",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Simbad",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4241,
+    "preuve": "729:240 — Simbad (SAILOR, équipe KINGLER)",
+    "note": "TRAINER_GARRETT_HNS (Sailor Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "KENNETH",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Cédric",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4254,
+    "ancien": "Kenneth",
+    "preuve": "729:241 — Cédric (SAILOR, équipe MACHOP/POLIWRATH)",
+    "note": "TRAINER_KENNETH_HNS (Sailor Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "STANLY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Gaston",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4279,
+    "preuve": "729:238 — Gaston (SAILOR, équipe MACHOKE/MACHOP/PSYDUCK)",
+    "note": "TRAINER_STANLY_HNS (Sailor Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "HARRY",
+    "msgstr": "Isaac",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4300,
+    "preuve": "729:410 — Isaac (SAILOR, équipe WOOPER)",
+    "note": "TRAINER_HARRY_HNS (Sailor Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "ERIC",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Steven",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4326,
+    "preuve": "729:233 — Steven (SUPER_NERD, équipe GRIMER)",
+    "note": "TRAINER_ERIC_HNS (Super Nerd Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "SAM",
+    "msgstr": "Edouard",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4394,
+    "preuve": "729:364 — Edouard (SUPER_NERD, équipe GRIMER/MUK)",
+    "note": "TRAINER_SAM_HNS (Super Nerd Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "PAT",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Arthus",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4428,
+    "preuve": "729:366 — Arthus (SUPER_NERD, équipe PORYGON)",
+    "note": "TRAINER_PAT_HNS (Super Nerd Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "SHAWN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Gilbert",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4449,
+    "preuve": "729:367 — Gilbert (SUPER_NERD, équipe MAGNEMITE/MUK)",
+    "note": "TRAINER_SHAWN_HNS (Super Nerd Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "TERU",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Gibus",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4470,
+    "ancien": "GIBUS",
+    "preuve": "729:393 — Gibus (SUPER_NERD, équipe MAGNEMITE/VOLTORB)",
+    "note": "TRAINER_TERU_HNS (Super Nerd Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/main_menu.c : contexte par fichier"
+  },
+  {
+    "msgid": "HUGH",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Guillaume",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4525,
+    "ancien": "Hugh",
+    "preuve": "729:538 — Guillaume (SUPER_NERD, équipe SEADRA)",
+    "note": "TRAINER_HUGH_HNS (Super Nerd Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "MARKUS",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Gauvain",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4538,
+    "preuve": "729:539 — Gauvain (SUPER_NERD, équipe SLOWPOKE)",
+    "note": "TRAINER_MARKUS_HNS (Super Nerd Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_tent.h : contexte par fichier"
+  },
+  {
+    "msgid": "CLYDE",
+    "msgstr": "Django",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4551,
+    "preuve": "729:41 — Django (GUITARIST, équipe ELECTABUZZ)",
+    "note": "TRAINER_CLYDE_HNS (Guitarist Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "VINCENT",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Carlos",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4564,
+    "preuve": "729:232 — Carlos (GUITARIST, équipe JOLTEON/MAGNEMITE/VOLTORB)",
+    "note": "TRAINER_VINCENT_HNS (Guitarist Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "ANTHONY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Olwen",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4589,
+    "preuve": "729:61 — Olwen (HIKER, équipe GEODUDE/MACHOP)",
+    "note": "TRAINER_ANTHONY_2_HNS (Hiker Hns, trainers_hns.party) → sûr; TRAINER_ANTHONY_3_HNS (Hiker Hns, trainers_hns.party) → sûr; TRAINER_ANTHONY_4_HNS (Hiker Hns, trainers_hns.party) → sûr; TRAINER_ANTHONY_5_HNS (Hiker Hns, trainers_hns.party) → sûr; TRAINER_ANTHONY_HNS (Hiker Hns, trainers_hns.party) → sû ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "PHILLIP",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Gérard",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4623,
+    "preuve": "729:203 — Gérard (HIKER, équipe GEODUDE/GRAVELER)",
+    "note": "TRAINER_PHILLIP_HNS (Hiker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "LEONARD",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Michel",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4644,
+    "preuve": "729:204 — Michel (HIKER, équipe GEODUDE/MACHOP)",
+    "note": "TRAINER_LEONARD_HNS (Hiker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "BENJAMIN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Moïse",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4661,
+    "preuve": "729:134 — Moïse (HIKER, équipe DIGLETT/DUGTRIO/GEODUDE)",
+    "note": "TRAINER_BENJAMIN_HNS (Hiker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier ; occurrence src/data/trainers_hns.party:4661 absente des références du .po"
+  },
+  {
+    "msgid": "ERIK",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Juste",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4678,
+    "preuve": "729:143 — Juste (HIKER, équipe GRAVELER/MACHOP)",
+    "note": "TRAINER_ERIK_HNS (Hiker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "MICHAEL",
+    "msgstr": "Lucien",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4699,
+    "preuve": "729:144 — Lucien (HIKER, équipe GEODUDE/GOLEM/GRAVELER)",
+    "note": "TRAINER_MICHAEL_HNS (Hiker Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "PARRY",
+    "msgstr": "Noa",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4720,
+    "preuve": "729:452 — Noa (HIKER, équipe GRAVELER/STEELIX)",
+    "note": "TRAINER_PARRY_2_HNS (Hiker Hns, trainers_hns.party) → sûr; TRAINER_PARRY_3_HNS (Hiker Hns, trainers_hns.party) → sûr; TRAINER_PARRY_HNS (Hiker Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "TIMOTHY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Firmin",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4741,
+    "preuve": "729:146 — Firmin (HIKER, équipe DIGLETT/DUGTRIO)",
+    "note": "TRAINER_TIMOTHY_HNS (Hiker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "BAILEY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Edgar",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4766,
+    "preuve": "729:154 — Edgar (HIKER, équipe GEODUDE)",
+    "note": "TRAINER_BAILEY_HNS (Hiker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "KENNY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Gilles",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4850,
+    "ancien": "GWENN",
+    "preuve": "729:358 — Gilles (HIKER, équipe GOLEM/GRAVELER/SANDSLASH)",
+    "note": "TRAINER_KENNY_2_HNS (Hiker Hns, trainers_hns.party) → sûr; TRAINER_KENNY_3_HNS (Hiker Hns, trainers_hns.party) → sûr; TRAINER_KENNY_HNS (Hiker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/main_menu.c : contexte par fichier"
+  },
+  {
+    "msgid": "JIM",
+    "msgstr": "Albin",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4875,
+    "preuve": "729:359 — Albin (HIKER, équipe MACHAMP)",
+    "note": "TRAINER_JIM_HNS (Hiker Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "DEVIN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Gabin",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4888,
+    "preuve": "729:731 — Gabin (HIKER, équipe DUNSPARCE)",
+    "note": "TRAINER_DEVIN_HNS (Hiker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/contest_opponents.h : contexte par fichier"
+  },
+  {
+    "msgid": "DANIEL",
+    "msgstr": "Sammy",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4909,
+    "preuve": "729:384 — Sammy (HIKER, équipe ONIX)",
+    "note": "TRAINER_DANIEL_HNS (Hiker Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "DWAYNE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Bruno",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4943,
+    "preuve": "729:309 — Bruno (BIKER, équipe KOFFING)",
+    "note": "TRAINER_DWAYNE_HNS (Biker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans data/text/fame_checker_frlg.inc, src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "HARRIS",
+    "msgstr": "Christophe",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4968,
+    "preuve": "729:310 — Christophe (BIKER, équipe FLAREON)",
+    "note": "TRAINER_HARRIS_HNS (Biker Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "ZEKE",
+    "msgstr": "Johnny",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4981,
+    "preuve": "729:311 — Johnny (BIKER, équipe KOFFING)",
+    "note": "TRAINER_ZEKE_HNS (Biker Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "CHARLES",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Dick",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 4998,
+    "preuve": "729:312 — Dick (BIKER, équipe CHARMELEON/KOFFING/WEEZING)",
+    "note": "TRAINER_CHARLES_2_HNS (Biker Hns, trainers_hns.party) → sûr; TRAINER_CHARLES_3_HNS (Biker Hns, trainers_hns.party) → sûr; TRAINER_CHARLES_HNS (Biker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "JOEL",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Lorenzo",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5032,
+    "preuve": "729:314 — Lorenzo (BIKER, équipe MAGMAR)",
+    "note": "TRAINER_JOEL_2_HNS (Biker Hns, trainers_hns.party) → sûr; TRAINER_JOEL_3_HNS (Biker Hns, trainers_hns.party) → sûr; TRAINER_JOEL_HNS (Biker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "GLENN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Jean-Marc",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5049,
+    "preuve": "729:315 — Jean-Marc (BIKER, équipe KOFFING/MAGMAR/WEEZING)",
+    "note": "TRAINER_GLENN_HNS (Biker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "DUNCAN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Elmer",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5070,
+    "preuve": "729:14 — Elmer (BURGLAR, équipe KOFFING/MAGMAR)",
+    "note": "TRAINER_DUNCAN_HNS (Burglar Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "OTIS",
+    "msgstr": "Otis",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5159,
+    "preuve": "729:15 — Otis (FIREBREATHER, équipe CAMERUPT/MAGMAR/WEEZING)",
+    "note": "TRAINER_OTIS_HNS (Firebreather Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "NED",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Pipo",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5193,
+    "preuve": "729:282 — Pipo (FIREBREATHER, équipe GROWLITHE/KOFFING)",
+    "note": "TRAINER_NED_HNS (Firebreather Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "BURT",
+    "msgstr": "Akim",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5214,
+    "preuve": "729:318 — Akim (FIREBREATHER, équipe MAGCARGO/WEEZING)",
+    "note": "TRAINER_BURT_HNS (Firebreather Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "BILL",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Andréa",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5231,
+    "ancien": "Léo",
+    "preuve": "729:319 — Andréa (FIREBREATHER, équipe KOFFING)",
+    "note": "TRAINER_BILL_HNS (Firebreather Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/scrcmd.c : contexte par fichier"
+  },
+  {
+    "msgid": "WALT",
+    "msgstr": "Bimbo",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5244,
+    "preuve": "729:388 — Bimbo (FIREBREATHER, équipe MAGMAR)",
+    "note": "TRAINER_WALT_HNS (Firebreather Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "RAY",
+    "msgstr": "Luigi",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5261,
+    "preuve": "729:390 — Luigi (FIREBREATHER, équipe VULPIX)",
+    "note": "TRAINER_RAY_HNS (Firebreather Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "LYLE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Bozo",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5274,
+    "preuve": "729:399 — Bozo (FIREBREATHER, équipe FLAREON/KOFFING)",
+    "note": "TRAINER_LYLE_HNS (Firebreather Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "IRWIN",
+    "msgstr": "Anthony",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5295,
+    "preuve": "729:7 — Anthony (JUGGLER, équipe VOLTORB)",
+    "note": "TRAINER_IRWIN_2_HNS (Juggler Hns, trainers_hns.party) → sûr; TRAINER_IRWIN_3_HNS (Juggler Hns, trainers_hns.party) → sûr; TRAINER_IRWIN_4_HNS (Juggler Hns, trainers_hns.party) → sûr; TRAINER_IRWIN_5_HNS (Juggler Hns, trainers_hns.party) → sûr; TRAINER_IRWIN_HNS (Juggler Hns, trainers_hns.party) → sû"
+  },
+  {
+    "msgid": "FRITZ",
+    "msgstr": "Chico",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5316,
+    "preuve": "729:242 — Chico (JUGGLER, équipe MACHOKE/MAGMAR/MRMIME)",
+    "note": "TRAINER_FRITZ_HNS (Juggler Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "HORTON",
+    "msgstr": "Harpo",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5337,
+    "preuve": "729:396 — Harpo (JUGGLER, équipe ELECTRODE)",
+    "note": "TRAINER_HORTON_HNS (Juggler Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "KENJI",
+    "msgstr": "Jacky",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5362,
+    "preuve": "729:278 — Jacky (BLACK_BELT, équipe HITMONLEE/MACHAMP/ONIX)",
+    "note": "TRAINER_KENJI_2_HNS (Black Belt Hns, trainers_hns.party) → sûr; TRAINER_KENJI_HNS (Black Belt Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "YOSHI",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Hiro",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5387,
+    "preuve": "729:156 — Hiro (BLACK_BELT, équipe HITMONLEE)",
+    "note": "TRAINER_YOSHI_HNS (Black Belt Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "LAO",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Lao",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5400,
+    "preuve": "729:157 — Lao (BLACK_BELT, équipe HITMONCHAN)",
+    "note": "TRAINER_LAO_HNS (Black Belt Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier ; occurrence src/data/trainers_hns.party:5400 absente des références du .po"
+  },
+  {
+    "msgid": "NOB",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Ryu",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5413,
+    "preuve": "729:251 — Ryu (BLACK_BELT, équipe MACHOKE/MACHOP)",
+    "note": "TRAINER_NOB_HNS (Black Belt Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier ; occurrence src/data/trainers_hns.party:5413 absente des références du .po"
+  },
+  {
+    "msgid": "KIYO",
+    "msgctxt": "src/data/trainers_frlg.party",
+    "msgstr": "Fei",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_frlg.party",
+    "ligne": 4377,
+    "preuve": "729:158 — Fei (BLACK_BELT, équipe HITMONCHAN/HITMONLEE)",
+    "note": "TRAINER_BLACK_BELT_KIYO (Black Belt Frlg, trainers_frlg.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "KIYO",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Fei",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5430,
+    "preuve": "729:158 — Fei (BLACK_BELT, équipe HITMONCHAN/HITMONLEE)",
+    "note": "TRAINER_KIYO_HNS (Black Belt Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "LUNG",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Ping",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5447,
+    "preuve": "729:159 — Ping (BLACK_BELT, équipe MANKEY/PRIMEAPE)",
+    "note": "TRAINER_LUNG_HNS (Black Belt Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "WAI",
+    "msgstr": "Keisuke",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5468,
+    "preuve": "729:339 — Keisuke (BLACK_BELT, équipe MACHOKE/MEDITITE)",
+    "note": "TRAINER_WAI_HNS (Black Belt Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "FRANKLIN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Norbert",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5502,
+    "preuve": "729:230 — Norbert (PSYCHIC_M, équipe GIRAFARIG/KADABRA)",
+    "note": "TRAINER_FRANKLIN_HNS (Psychic M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "HERMAN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Romuald",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5515,
+    "preuve": "729:316 — Romuald (PSYCHIC_M, équipe EXEGGCUTE/EXEGGUTOR)",
+    "note": "TRAINER_HERMAN_HNS (Psychic M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "FIDEL",
+    "msgstr": "Florent",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5536,
+    "preuve": "729:317 — Florent (PSYCHIC_M, équipe XATU)",
+    "note": "TRAINER_FIDEL_HNS (Psychic M Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "GREG",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Ulrik",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5549,
+    "preuve": "729:386 — Ulrik (PSYCHIC_M, équipe DROWZEE)",
+    "note": "TRAINER_GREG_HNS (Psychic M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "MARK",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Freddy",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5579,
+    "ancien": "MARQUER",
+    "preuve": "729:395 — Freddy (PSYCHIC_M, équipe ABRA/KADABRA)",
+    "note": "TRAINER_MARK_HNS (Psychic M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party, src/pokemon_storage_system.c : contexte par fichier"
+  },
+  {
+    "msgid": "PHIL",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Gabriel",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5600,
+    "preuve": "729:405 — Gabriel (PSYCHIC_M, équipe KADABRA/NATU)",
+    "note": "TRAINER_PHIL_HNS (Psychic M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "JARED",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Honoré",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5663,
+    "ancien": "Jared",
+    "preuve": "729:415 — Honoré (PSYCHIC_M, équipe EXEGGCUTE/MRMIME)",
+    "note": "TRAINER_JARED_HNS (Psychic M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "RODNEY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Dany",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5684,
+    "ancien": "Rodney",
+    "preuve": "729:422 — Dany (PSYCHIC_M, équipe CHINGLING/HYPNO)",
+    "note": "TRAINER_RODNEY_HNS (Psychic M Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "LIZ",
+    "msgstr": "Elisabeth",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5701,
+    "preuve": "729:27 — Elisabeth (PICNICKER, équipe NIDORANF)",
+    "note": "TRAINER_LIZ_2_HNS (Picnicker Hns, trainers_hns.party) → sûr; TRAINER_LIZ_3_HNS (Picnicker Hns, trainers_hns.party) → sûr; TRAINER_LIZ_4_HNS (Picnicker Hns, trainers_hns.party) → sûr; TRAINER_LIZ_5_HNS (Picnicker Hns, trainers_hns.party) → sûr; TRAINER_LIZ_HNS (Picnicker Hns, trainers_hns.party) → sû"
+  },
+  {
+    "msgid": "GINA",
+    "msgstr": "Albertine",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5714,
+    "preuve": "729:65 — Albertine (PICNICKER, équipe BULBASAUR/HOPPIP)",
+    "note": "TRAINER_GINA_2_HNS (Picnicker Hns, trainers_hns.party) → sûr; TRAINER_GINA_3_HNS (Picnicker Hns, trainers_hns.party) → sûr; TRAINER_GINA_4_HNS (Picnicker Hns, trainers_hns.party) → sûr; TRAINER_GINA_5_HNS (Picnicker Hns, trainers_hns.party) → sûr; TRAINER_GINA_HNS (Picnicker Hns, trainers_hns.party)"
+  },
+  {
+    "msgid": "BROOKE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Brooke",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5731,
+    "preuve": "729:76 — Brooke (PICNICKER, équipe PIKACHU)",
+    "note": "TRAINER_BROOKE_HNS (Picnicker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier ; occurrence src/data/trainers_hns.party:5731 absente des références du .po"
+  },
+  {
+    "msgid": "KIM",
+    "msgstr": "Kala",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5744,
+    "preuve": "729:77 — Kala (PICNICKER, équipe VULPIX)",
+    "note": "TRAINER_KIM_HNS (Picnicker Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "CINDY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Sandy",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5757,
+    "preuve": "729:83 — Sandy (PICNICKER, équipe NIDOQUEEN)",
+    "note": "TRAINER_CINDY_HNS (Picnicker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier ; occurrence src/data/trainers_hns.party:5757 absente des références du .po"
+  },
+  {
+    "msgid": "HOPE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Suza",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5774,
+    "preuve": "729:152 — Suza (PICNICKER, équipe FLAAFFY)",
+    "note": "TRAINER_HOPE_HNS (Picnicker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "SHARON",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Tara",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5787,
+    "preuve": "729:153 — Tara (PICNICKER, équipe FURRET/RAPIDASH)",
+    "note": "TRAINER_SHARON_HNS (Picnicker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "DEBRA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Debra",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5804,
+    "preuve": "729:139 — Debra (PICNICKER, équipe SEAKING)",
+    "note": "TRAINER_DEBRA_HNS (Picnicker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "HEIDI",
+    "msgctxt": "src/data/trainers_frlg.party",
+    "msgstr": "Paule",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_frlg.party",
+    "ligne": 1147,
+    "preuve": "729:332 — Paule (PICNICKER, équipe SKIPLOOM)",
+    "note": "TRAINER_PICNICKER_HEIDI (Picnicker Frlg, trainers_frlg.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "HEIDI",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Paule",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5842,
+    "preuve": "729:332 — Paule (PICNICKER, équipe SKIPLOOM)",
+    "note": "TRAINER_HEIDI_HNS (Picnicker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "EDNA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Edna",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5859,
+    "preuve": "729:333 — Edna (PICNICKER, équipe NIDORINA/RAICHU)",
+    "note": "TRAINER_EDNA_HNS (Picnicker Hns, trainers_hns.party) → sûr ; noms différents selon le fichier"
+  },
+  {
+    "msgid": "TIFFANY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Flavie",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5876,
+    "preuve": "729:402 — Flavie (PICNICKER, équipe CLEFAIRY)",
+    "note": "TRAINER_TIFFANY_2_HNS (Picnicker Hns, trainers_hns.party) → sûr; TRAINER_TIFFANY_3_HNS (Picnicker Hns, trainers_hns.party) → sûr; TRAINER_TIFFANY_4_HNS (Picnicker Hns, trainers_hns.party) → sûr; TRAINER_TIFFANY_HNS (Picnicker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "TANYA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Lalie",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5893,
+    "preuve": "729:336 — Lalie (PICNICKER, équipe EXEGGUTOR)",
+    "note": "TRAINER_TANYA_HNS (Picnicker Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "ROLAND",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Raymond",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5914,
+    "preuve": "729:26 — Raymond (CAMPER, équipe NIDORANM)",
+    "note": "TRAINER_ROLAND_HNS (Camper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "TODD",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Matthias",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5927,
+    "ancien": "Mathias",
+    "preuve": "729:66 — Matthias (CAMPER, équipe PSYDUCK)",
+    "note": "TRAINER_TODD_2_HNS (Camper Hns, trainers_hns.party) → sûr; TRAINER_TODD_3_HNS (Camper Hns, trainers_hns.party) → sûr; TRAINER_TODD_4_HNS (Camper Hns, trainers_hns.party) → sûr; TRAINER_TODD_5_HNS (Camper Hns, trainers_hns.party) → sûr; TRAINER_TODD_HNS (Camper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "IVAN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Yvan",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5940,
+    "preuve": "729:74 — Yvan (CAMPER, équipe DIGLETT/ZUBAT)",
+    "note": "TRAINER_IVAN_HNS (Camper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "ELLIOT",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Amilcar",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5957,
+    "preuve": "729:75 — Amilcar (CAMPER, équipe MARILL/SANDSHREW)",
+    "note": "TRAINER_ELLIOT_HNS (Camper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier ; occurrence src/data/trainers_hns.party:5957 absente des références du .po"
+  },
+  {
+    "msgid": "BARRY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "René",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5974,
+    "preuve": "729:84 — René (CAMPER, équipe NIDOKING)",
+    "note": "TRAINER_BARRY_HNS (Camper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "LLOYD",
+    "msgstr": "Stéphane",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 5991,
+    "preuve": "729:148 — Stéphane (CAMPER, équipe NIDOKING)",
+    "note": "TRAINER_LLOYD_HNS (Camper Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "DEAN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Jeannot",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6004,
+    "preuve": "729:149 — Jeannot (CAMPER, équipe GOLDUCK/SANDSLASH)",
+    "note": "TRAINER_DEAN_HNS (Camper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/trainer_hill.h, src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "SID",
+    "msgstr": "Claude",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6021,
+    "preuve": "729:150 — Claude (CAMPER, équipe DUGTRIO/POLIWRATH/PRIMEAPE)",
+    "note": "TRAINER_SID_HNS (Camper Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "TED",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Laurent",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6068,
+    "preuve": "729:147 — Laurent (CAMPER, équipe MANKEY)",
+    "note": "TRAINER_TED_HNS (Camper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "JERRY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Scotty",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6189,
+    "preuve": "729:308 — Scotty (CAMPER, équipe RHYDON)",
+    "note": "TRAINER_JERRY_HNS (Camper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier ; occurrence src/data/trainers_hns.party:6189 absente des références du .po"
+  },
+  {
+    "msgid": "GRANT",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Titouan",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6210,
+    "preuve": "729:732 — Titouan (CAMPER, équipe MARILL/SKIPLOOM)",
+    "note": "TRAINER_GRANT_HNS (Camper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/contest_opponents.h : contexte par fichier"
+  },
+  {
+    "msgid": "SPENCER",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Rémi",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6227,
+    "preuve": "729:403 — Rémi (CAMPER, équipe SANDSHREW/SANDSLASH/ZUBAT)",
+    "note": "TRAINER_SPENCER_HNS (Camper Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "CHOW",
+    "msgstr": "Quentin",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6269,
+    "preuve": "729:43 — Quentin (SAGE, équipe BELLSPROUT)",
+    "note": "TRAINER_CHOW_HNS (Sage Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "NICO",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Horst",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6290,
+    "preuve": "729:51 — Horst (SAGE, équipe BELLSPROUT)",
+    "note": "TRAINER_NICO_HNS (Sage Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "JIN",
+    "msgstr": "Alfonse",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6311,
+    "preuve": "729:53 — Alfonse (SAGE, équipe BELLSPROUT)",
+    "note": "TRAINER_JIN_HNS (Sage Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "TROY",
+    "msgstr": "Batiste",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6324,
+    "preuve": "729:54 — Batiste (SAGE, équipe BELLSPROUT/HOOTHOOT)",
+    "note": "TRAINER_TROY_HNS (Sage Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "EDMOND",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Briand",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6375,
+    "preuve": "729:52 — Briand (SAGE, équipe BELLSPROUT)",
+    "note": "TRAINER_EDMOND_HNS (Sage Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "NEAL",
+    "msgstr": "Achille",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6396,
+    "preuve": "729:55 — Achille (SAGE, équipe BELLSPROUT)",
+    "note": "TRAINER_NEAL_HNS (Sage Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "WILLIAM",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Marcel",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6663,
+    "preuve": "729:181 — Marcel (POKEFAN_M, équipe RAICHU)",
+    "note": "TRAINER_WILLIAM_HNS (Pokefan Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "ROBERT",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Rob",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6693,
+    "preuve": "729:348 — Rob (POKEFAN_M, équipe QUAGSIRE)",
+    "note": "TRAINER_ROBERT_HNS (Pokefan Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier ; occurrence src/data/trainers_hns.party:6693 absente des références du .po"
+  },
+  {
+    "msgid": "JOSHUA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Josh",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6706,
+    "preuve": "729:349 — Josh (POKEFAN_M, équipe PIKACHU)",
+    "note": "TRAINER_JOSHUA_HNS (Pokefan Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "CARTER",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Donald",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6727,
+    "preuve": "729:350 — Donald (POKEFAN_M, équipe BULBASAUR/CHARMANDER/SQUIRTLE)",
+    "note": "TRAINER_CARTER_2_HNS (Pokefan Hns, trainers_hns.party) → sûr; TRAINER_CARTER_3_HNS (Pokefan Hns, trainers_hns.party) → sûr; TRAINER_CARTER_HNS (Pokefan Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "JEREMY",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Abel",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6774,
+    "preuve": "729:423 — Abel (POKEFAN_M, équipe MEOWTH)",
+    "note": "TRAINER_JEREMY_HNS (Pokefan Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "COLIN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Léandre",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6795,
+    "preuve": "729:424 — Léandre (POKEFAN_M, équipe DELIBIRD)",
+    "note": "TRAINER_COLIN_HNS (Pokefan Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "REX",
+    "msgstr": "Victor",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6829,
+    "preuve": "729:540 — Victor (POKEFAN_M, équipe PHANPY)",
+    "note": "TRAINER_REX_HNS (Pokefan Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "NAOKO",
+    "msgstr": "Umeko",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6855,
+    "preuve": "729:160 — Umeko (KIMONO_GIRL, équipe ESPEON)",
+    "note": "TRAINER_NAOKO_HNS (Kimono Girl Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "SAYO",
+    "msgstr": "Sakura",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6873,
+    "preuve": "729:161 — Sakura (KIMONO_GIRL, équipe JOLTEON)",
+    "note": "TRAINER_SAYO_HNS (Kimono Girl Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "ZUKI",
+    "msgstr": "Tamao",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6891,
+    "preuve": "729:162 — Tamao (KIMONO_GIRL, équipe UMBREON)",
+    "note": "TRAINER_ZUKI_HNS (Kimono Girl Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "KUNI",
+    "msgstr": "Komomo",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6909,
+    "preuve": "729:163 — Komomo (KIMONO_GIRL, équipe VAPOREON)",
+    "note": "TRAINER_KUNI_HNS (Kimono Girl Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "MIKI",
+    "msgstr": "Satsuki",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 6927,
+    "preuve": "729:164 — Satsuki (KIMONO_GIRL, équipe FLAREON)",
+    "note": "TRAINER_MIKI_HNS (Kimono Girl Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "KEITH",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Nicolas",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 7106,
+    "preuve": "729:6 — Nicolas (POLICEMAN, équipe GROWLITHE)",
+    "note": "TRAINER_KEITH_HNS (Officer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "DIRK",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Baptiste",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 7119,
+    "preuve": "729:80 — Baptiste (POLICEMAN, équipe GROWLITHE)",
+    "note": "TRAINER_DIRK_HNS (Officer Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "DUFF & EDA",
+    "msgstr": "Ludo&Dalia",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 7153,
+    "preuve": "729:729 — Ludo&Dalia (YOUNG_COUPLE, équipe CLOYSTER/ONIX)",
+    "note": "TRAINER_DUFF_AND_EDA_HNS (Young Couple Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "CLAIR",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Sandra",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 8167,
+    "preuve": "729:35 — Sandra (LEADER_CLAIR, équipe DRAGONAIR/GYARADOS/KINGDRA)",
+    "note": "TRAINER_CLAIR_1_HNS (Leader Hns, trainers_hns.party) → sûr; TRAINER_CLAIR_2_HNS (Leader Hns, trainers_hns.party) → sûr; TRAINER_CLAIR_3_HNS (Leader Hns, trainers_hns.party) → sûr; TRAINER_CLAIR_POSTOBC_HNS (Leader Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "JANINE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Jeannine",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 8572,
+    "ancien": "Jeanine",
+    "preuve": "729:257 — Jeannine (LEADER_JANINE, équipe ARIADOS/CROBAT/VENOMOTH/WEEZING)",
+    "note": "TRAINER_JANINE_HNS (Leader Kanto Hns, trainers_hns.party) → sûr; TRAINER_JANINE_POSTOBC_HNS (Leader Kanto Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h : contexte par fichier"
+  },
+  {
+    "msgid": "BLUE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Blue",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 8690,
+    "ancien": "BLEU",
+    "preuve": "729:727 — Blue (LEADER_BLUE, équipe ARCANINE/EXEGGUTOR/MACHAMP/PIDGEOT/RHYPERIOR/TYRANITAR)",
+    "note": "TRAINER_BLUE_2_HNS (Leader Kanto Hns, trainers_hns.party) → sûr; TRAINER_BLUE_HNS (Leader Kanto Hns, trainers_hns.party) → sûr; TRAINER_BLUE_POSTOBC_HNS (Leader Kanto Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/battle_frontier/battle_frontier_trainers.h, src/data/script_menu.h, src/strings.c : contexte par fichier"
+  },
+  {
+    "msgid": "WILL",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Clément",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 8808,
+    "ancien": "JE VAIS",
+    "preuve": "729:245 — Clément (ELITE_FOUR_WILL, équipe EXEGGUTOR/JYNX/SLOWBRO/XATU)",
+    "note": "TRAINER_WILL_1_HNS (Elite Four Hns, trainers_hns.party) → sûr; TRAINER_WILL_2_HNS (Elite Four Hns, trainers_hns.party) → sûr; TRAINER_WILL_POSTOBC_HNS (Elite Four Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/easy_chat/easy_chat_group_endings.h : contexte par fichier"
+  },
+  {
+    "msgid": "BRUNO",
+    "msgctxt": "src/data/trainers_frlg.party",
+    "msgstr": "Aldo",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_frlg.party",
+    "ligne": 6885,
+    "preuve": "729:418 — Aldo (ELITE_FOUR_BRUNO, équipe HITMONCHAN/HITMONLEE/HITMONTOP/MACHAMP/ONIX)",
+    "note": "TRAINER_ELITE_FOUR_BRUNO (Elite Four Frlg, trainers_frlg.party) → sûr; TRAINER_ELITE_FOUR_BRUNO_2 (Elite Four Frlg, trainers_frlg.party) → sûr ; msgid aussi utilisé dans data/text/fame_checker_frlg.inc, src/data/battle_frontier/apprentice.h : contexte par fichier"
+  },
+  {
+    "msgid": "BRUNO",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Aldo",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 8918,
+    "preuve": "729:418 — Aldo (ELITE_FOUR_BRUNO, équipe HITMONCHAN/HITMONLEE/HITMONTOP/MACHAMP/ONIX)",
+    "note": "TRAINER_BRUNO_1_HNS (Elite Four Hns, trainers_hns.party) → sûr; TRAINER_BRUNO_2_HNS (Elite Four Hns, trainers_hns.party) → sûr; TRAINER_BRUNO_POSTOBC_HNS (Elite Four Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans data/text/fame_checker_frlg.inc, src/data/battle_frontier/apprentice.h : contexte par fichier"
+  },
+  {
+    "msgid": "KAREN",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Marion",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 9028,
+    "preuve": "729:246 — Marion (ELITE_FOUR_KAREN, équipe GENGAR/HOUNDOOM/MURKROW/UMBREON/VILEPLUME)",
+    "note": "TRAINER_KAREN_1_HNS (Elite Four Hns, trainers_hns.party) → sûr; TRAINER_KAREN_2_HNS (Elite Four Hns, trainers_hns.party) → sûr; TRAINER_KAREN_POSTOBC_HNS (Elite Four Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "KOGA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Koga",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 9138,
+    "ancien": "KOGA",
+    "preuve": "729:247 — Koga (ELITE_FOUR_KOGA, équipe ARIADOS/CROBAT/FORRETRESS/MUK/VENOMOTH)",
+    "note": "TRAINER_KOGA_1_HNS (Elite Four Hns, trainers_hns.party) → sûr; TRAINER_KOGA_2_HNS (Elite Four Hns, trainers_hns.party) → sûr; TRAINER_KOGA_POSTOBC_HNS (Elite Four Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans data/text/fame_checker_frlg.inc, src/trainer_fan_club.c : contexte par fichier"
+  },
+  {
+    "msgid": "LANCE",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Peter",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 9248,
+    "ancien": "PETER",
+    "preuve": "729:244 — Peter (CHAMPION, équipe AERODACTYL/CHARIZARD/DRAGONITE/GYARADOS)",
+    "note": "TRAINER_LANCE_1_HNS (Champion Hns, trainers_hns.party) → sûr; TRAINER_LANCE_2_HNS (Champion Hns, trainers_hns.party) → sûr; TRAINER_LANCE_3_HNS (Champion Hns, trainers_hns.party) → sûr; TRAINER_LANCE_POSTOBC_HNS (Champion Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans data/text/fame_checker_frlg.inc, src/data/battle_frontier/battle_frontier_trainers.h, src/data/battle_partners.party : contexte par fichier ; occurrence src/data/trainers_hns.party:9248 absente des références du .po"
+  },
+  {
+    "msgid": "RED",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Red",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 10390,
+    "ancien": "ROUGE",
+    "preuve": "729:260 — Red (PKMN_TRAINER_RED, équipe BLASTOISE/CHARIZARD/LAPRAS/PIKACHU/SNORLAX/VENUSAUR)",
+    "note": "TRAINER_RED_HNS (Pkmn Trainer 1 Hns, trainers_hns.party) → sûr; TRAINER_RED_POSTOBC_HNS (Pkmn Trainer 1 Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans data/text/new_game_intro_frlg.inc, src/data/battle_frontier/battle_frontier_trainers.h, src/data/easy_chat/easy_chat_group_trainer.h, src/data/script_menu.h, src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "EUSINE",
+    "msgstr": "Eusine",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 10448,
+    "preuve": "729:498 — Eusine (MYSTERY_MAN, équipe DROWZEE/ELECTRODE/HAUNTER)",
+    "note": "TRAINER_EUSINE_HNS (Mystery Man Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "PROTON",
+    "msgstr": "Lance",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 10542,
+    "preuve": "729:486 — Lance (EXECUTIVE_PROTON, équipe KOFFING/ZUBAT)",
+    "note": "TRAINER_PROTON_1_HNS (Rocket Admin Hns, trainers_hns.party) → sûr; TRAINER_PROTON_2_HNS (Rocket Admin Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "ARCHER",
+    "msgstr": "Amos",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 10615,
+    "preuve": "729:485 — Amos (EXECUTIVE_ARCHER, équipe HOUNDOOM/HOUNDOUR/KOFFING)",
+    "note": "TRAINER_ARCHER_1_HNS (Rocket Admin Hns, trainers_hns.party) → sûr; TRAINER_ARCHER_4_HNS (Rocket Admin Hns, trainers_hns.party) → sûr; TRAINER_ARCHER_5_HNS (Rocket Admin Hns, trainers_hns.party) → sûr; TRAINER_ARCHER_HNS (Rocket Admin Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "PETREL",
+    "msgstr": "Lambda",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 10803,
+    "preuve": "729:487 — Lambda (EXECUTIVE_PETREL, équipe KOFFING/WEEZING)",
+    "note": "TRAINER_PETREL_1_HNS (Rocket Admin Hns, trainers_hns.party) → sûr; TRAINER_PETREL_2_HNS (Rocket Admin Hns, trainers_hns.party) → sûr"
+  },
+  {
+    "msgid": "ARIANA",
+    "msgctxt": "src/data/trainers_hns.party",
+    "msgstr": "Ariane",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_hns.party",
+    "ligne": 10889,
+    "preuve": "729:478 — Ariane (EXECUTIVE_ARIANA, équipe ARBOK/MURKROW/VILEPLUME)",
+    "note": "TRAINER_ARIANA_1_HNS (Rocket Admin Hns, trainers_hns.party) → sûr; TRAINER_ARIANA_2_HNS (Rocket Admin Hns, trainers_hns.party) → sûr ; msgid aussi utilisé dans src/data/contest_opponents.h : contexte par fichier"
+  },
+  {
+    "msgid": "LUIS",
+    "msgctxt": "src/data/trainers_frlg.party",
+    "msgstr": "Lenaig",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_frlg.party",
+    "ligne": 2681,
+    "preuve": "729:586 — Lenaig (SWIMMER_M, équipe QUAGSIRE/SEADRA)",
+    "note": "TRAINER_SWIMMER_MALE_LUIS (Swimmer M Frlg, trainers_frlg.party) → sûr ; msgid aussi utilisé dans data/text/fame_checker_frlg.inc, src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "MATTHEW",
+    "msgctxt": "src/data/trainers_frlg.party",
+    "msgstr": "Matthew",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/trainers_frlg.party",
+    "ligne": 2736,
+    "preuve": "729:99 — Matthew (SWIMMER_M, équipe KRABBY)",
+    "note": "TRAINER_SWIMMER_MALE_MATTHEW (Swimmer M Frlg, trainers_frlg.party) → sûr; TRAINER_SWIMMER_MALE_MATTHEW_2 (Swimmer M Frlg, trainers_frlg.party) → sûr ; msgid aussi utilisé dans src/data/trainers.party : contexte par fichier"
+  },
+  {
+    "msgid": "BOSS",
+    "msgstr": "Boss Rocket",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_main.c",
+    "ligne": 402,
+    "ancien": "BOSS",
+    "preuve": "730:124 — Boss Rocket",
+    "note": "équivalence de classe HGSS : Rocket Boss"
+  },
+  {
+    "msgid": "OFFICER",
+    "msgstr": "Agent",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_main.c",
+    "ligne": 457,
+    "ancien": "AGENT",
+    "preuve": "730:38 — Agent",
+    "note": "équivalence de classe HGSS : Policeman"
+  },
+  {
+    "msgid": "ROCKET ADMIN",
+    "msgstr": "Commandant",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_main.c",
+    "ligne": 468,
+    "ancien": "ADMIN ROCKET",
+    "preuve": "730:114 — Commandant",
+    "note": "équivalence de classe HGSS : Executive"
+  },
+  {
+    "msgid": "ROCKET",
+    "msgstr": "Rocket",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/battle_main.c",
+    "ligne": 477,
+    "ancien": "ROCKET",
+    "preuve": "730:55 — Rocket",
+    "note": "équivalence de classe HGSS : Team Rocket"
+  },
+  {
+    "msgid": "ROUTE 23",
+    "msgstr": "Route 23",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/region_map/region_map_sections.json",
+    "ligne": 1015,
+    "preuve": "279:171 — Route 23",
+    "note": "nom de lieu SS"
+  },
+  {
+    "msgid": "POKéMON MANSION",
+    "msgstr": "Manoir Pokémon",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/region_map/region_map_sections.json",
+    "ligne": 1117,
+    "preuve": "279:106 — Manoir Pokémon",
+    "note": "nom de lieu SS"
+  },
+  {
+    "msgid": "MT. MORTAR",
+    "msgstr": "Mont Creuset",
+    "source": "SoulSilver FR officiel",
+    "fichier": "src/data/region_map/region_map_sections.json",
+    "ligne": 2523,
+    "preuve": "279:216 — Mont Creuset",
+    "note": "nom de lieu SS"
+  }
+]

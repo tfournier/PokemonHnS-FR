@@ -51,3 +51,11 @@ reportées dans `traductions/glossaire.tsv`.
    Une source moins bonne ne remplace jamais une meilleure, sauf correction justifiée (`--corriger`),
    et jamais un officiel exact sauf alignement faux démontré.
 10. **Commits non signés** dans ce dépôt (clé GPG sur YubiKey, bloquante pour un agent).
+11. **Sauts de ligne SoulSilver.** `\f` (Gen 4 : défilement d'une ligne dans la même boîte) devient `\l`
+    et non `\p` : `\p` coupait les phrases en deux pages. `\r` (nouvelle boîte) devient `\p`. (Lot B.)
+12. **Symbole monétaire.** Le « $ » des textes SoulSilver (Pokédollar) vaut 0xFF en Gen 3, c'est-à-dire la
+    fin de chaîne : il est converti en « ¥ » après le nombre (« 500¥ »), comme Émeraude FR. Le
+    vérificateur rejette désormais tout « $ » absent de l'anglais.
+13. **Noms de Dresseurs homonymes.** Un même prénom anglais peut désigner des personnes différentes selon
+    la région (BILL Cracheur de feu → Andréa ; BILL le personnage → Léo). Les noms de Dresseurs
+    SoulSilver sont donc posés avec `msgctxt` = fichier `.party` (contextes.po).
