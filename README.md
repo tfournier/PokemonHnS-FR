@@ -73,6 +73,26 @@ officiels, patch FR actuel, traduction nouvelle).
    (la ROM anglaise de la nouvelle version doit être reconstruite à partir de son patch officiel).
 6. Traduire les nouveautés par lots (`docs/CONSIGNES.md`, `outils/integrer_lot.py`), faire relire
    (`outils/relecture_chatgpt.py`, `outils/arbitrer_relecture.py`), reconstruire, tester en émulateur.
+7. CI : mettre à jour `outils/ci/empreintes.txt` (SHA-256 du nouveau patch officiel `pokemonHnS_<version>.ups`
+   et de la nouvelle ROM anglaise `memoires/hns_en.gba`).
+
+## Publication automatique (GitHub Actions)
+
+À chaque push sur `main`, `.github/workflows/publier.yml` construit la traduction et remplace la release
+**derniere-version** du dépôt, avec le seul fichier UPS (sur Heart & Soul anglais) en pièce jointe. Aucune
+ROM n'est publiée.
+
+- La CI reconstruit la ROM anglaise de HnS : Émeraude US, chiffrée avec gpg (AES-256), est dans le dépôt
+  **privé** `tfournier/hns-roms` ; le patch officiel HnS vient de la release publique de pokehns-expansion.
+  Les empreintes de ces fichiers sont contrôlées (`outils/ci/preparer_rom.sh`, `outils/ci/empreintes.txt`).
+- Secrets du dépôt (Settings → Secrets and variables → Actions) : `HNS_ROMS_DEPLOY_KEY` (clé SSH en lecture
+  seule, déclarée comme deploy key de `tfournier/hns-roms`) et `ROM_PASSPHRASE` (phrase de passe du fichier gpg).
+- Même chaîne ARM qu'en local (xPack 14.2.1, empreinte vérifiée) : la ROM publiée est identique à celle
+  construite par `./build.sh` ; son CRC32 figure dans les notes de la release.
+- La construction échoue si un texte est remis en anglais faute de place, si une image a été modifiée
+  par upstream, ou si le patch ne redonne pas exactement la ROM construite.
+- Changer de ROM ou de phrase de passe : rechiffrer (`gpg --symmetric --cipher-algo AES256`), remplacer
+  `emeraude_us.gba.gpg` dans `tfournier/hns-roms` et mettre à jour le secret `ROM_PASSPHRASE`.
 
 ## Choix de traduction
 

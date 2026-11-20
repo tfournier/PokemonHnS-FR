@@ -105,3 +105,9 @@ reportées dans `traductions/glossaire.tsv`.
     « POKéMON » pour 0 « Pokémon » dans les cartes HnS), alors que HeartGold anglais écrit « Pokémon »,
     « Pokémon Center ». L'équivalent fidèle serait le style d'Émeraude FR ; le style SoulSilver FR est gardé :
     c'est celui du jeu que HnS refait, il est plus lisible, et il est déjà appliqué et vérifié partout.
+23. **Publication automatique du patch (GitHub Actions).** À chaque push sur main, la CI construit la ROM et
+    remplace la release « derniere-version » par le seul fichier UPS. Pour calculer le patch, elle reconstruit
+    la ROM anglaise de HnS à partir d'Émeraude US (chiffrée avec gpg, dans le dépôt privé tfournier/hns-roms,
+    récupérée avec une deploy key en lecture seule) et du patch officiel HnS (release publique). Une ROM
+    téléchargée sur un site tiers (archive.org) a été écartée : copie non autorisée, lien fragile. Les secrets
+    GitHub Actions (48 Ko) ne peuvent pas contenir une ROM.

@@ -1,0 +1,91 @@
+# Construit la traduction et publie le patch UPS (sur Heart & Soul anglais) à chaque push sur main.
+#
+# Secrets du dépôt (Settings → Secrets and variables → Actions) :
+#   HNS_ROMS_DEPLOY_KEY  clé SSH privée, en lecture seule, du dépôt privé tfournier/hns-roms
+#   ROM_PASSPHRASE       phrase de passe de emeraude_us.gba.gpg (dans tfournier/hns-roms)
+# Aucune ROM n'est publiée : seul le fichier UPS est joint à la release « derniere-version ».
+name: Publier le patch UPS
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publier-patch
+  cancel-in-progress: true
+
+env:
+  XPACK: xpack-arm-none-eabi-gcc-14.2.1-1.1-linux-x64.tar.gz
+  XPACK_SHA256: ed8c7d207a85d00da22b90cf80ab3b0b2c7600509afadf6b7149644e9d4790a6
+  XPACK_URL: https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v14.2.1-1.1
+
+jobs:
+  patch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Dépendances
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q libpng-dev gnupg
+          python -m pip install -q polib==1.2.0
+
+      - name: Chaîne ARM (xPack 14.2.1, la même qu'en local)
+        run: |
+          curl -fsSL -o "/tmp/$XPACK" "$XPACK_URL/$XPACK"
+          echo "$XPACK_SHA256  /tmp/$XPACK" | sha256sum -c -
+          mkdir -p ~/.local && tar -xzf "/tmp/$XPACK" -C ~/.local
+
+      - name: ROM anglaise de HnS (Émeraude US chiffrée + patch officiel)
+        env:
+          DEPLOY_KEY: ${{ secrets.HNS_ROMS_DEPLOY_KEY }}
+          ROM_PASSPHRASE: ${{ secrets.ROM_PASSPHRASE }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/hns_roms && chmod 600 ~/.ssh/hns_roms
+          echo 'github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl' > ~/.ssh/known_hosts
+          GIT_SSH_COMMAND='ssh -i ~/.ssh/hns_roms -o IdentitiesOnly=yes' \
+            git clone -q --depth 1 git@github.com:tfournier/hns-roms.git "$RUNNER_TEMP/hns-roms"
+          rm -f ~/.ssh/hns_roms
+          outils/ci/preparer_rom.sh "$RUNNER_TEMP/hns-roms/emeraude_us.gba.gpg"
+          rm -rf "$RUNNER_TEMP/hns-roms"
+
+      - name: Construction (make hns) et patch vérifié
+        run: ./build.sh
+
+      - name: Contrôles
+        run: |
+          ok=1
+          if grep -q '[^[:space:]]' rapport/trop_longs.txt; then echo "::error::textes remis en anglais faute de place (rapport/trop_longs.txt)"; cat rapport/trop_longs.txt; ok=0; fi
+          if grep -q '[^[:space:]]' rapport/images_a_revoir.txt; then echo "::error::images modifiées par upstream (rapport/images_a_revoir.txt)"; cat rapport/images_a_revoir.txt; ok=0; fi
+          ls dist/*_sur_HnS_anglais.ups
+          [ "$ok" = 1 ]
+
+      - name: Release « derniere-version »
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ups=$(ls dist/*_sur_HnS_anglais.ups)
+          crc=$(python -c 'import zlib,sys; print("%08X" % zlib.crc32(open(sys.argv[1],"rb").read()))' build/pokehns_fr.gba)
+          tag=$(tr -d '[:space:]' < upstream.txt)
+          cat > "$RUNNER_TEMP/notes.md" <<EOF
+          Traduction française de Pokémon Heart & Soul ($tag), construite automatiquement à partir du commit ${GITHUB_SHA::8}.
+
+          **À appliquer sur la ROM anglaise officielle de Heart & Soul** (Pokémon Émeraude US + patch officiel \`pokemonHnS_${tag#Release-}.ups\`), avec un outil UPS (Floating IPS, Rom Patcher JS…).
+
+          - CRC32 de la ROM obtenue : \`$crc\`
+          - Aucune ROM n'est distribuée ici.
+          EOF
+          gh release delete derniere-version --cleanup-tag --yes || true
+          gh release create derniere-version "$ups" --target "$GITHUB_SHA" \
+            --title "Heart & Soul FR — dernière version (${GITHUB_SHA::8})" --notes-file "$RUNNER_TEMP/notes.md" --latest
