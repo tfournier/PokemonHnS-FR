@@ -793,7 +793,8 @@ msgstr "Mademoiselle"
 
 #. source : Émeraude FR officiel
 #: src/battle_main.c:330 src/battle_main.c:392 src/battle_main.c:430
-#: src/contest.c:690 src/contest_painting.c:64 src/strings.c:519
+#: src/contest.c:690 src/contest_painting.c:64
+#: src/data/easy_chat/easy_chat_group_status.h:76
 msgid "BEAUTY"
 msgstr "BEAUTE"
 
@@ -834,7 +835,8 @@ msgstr "ENTOMOMANIAC"
 
 #. source : SoulSilver FR officiel
 #: src/battle_main.c:338 src/battle_main.c:394 src/battle_main.c:465
-#: src/battle_main.c:466 src/data/moves_info.h:2584 src/data/types_info.h:360
+#: src/battle_main.c:466 src/data/easy_chat/easy_chat_group_status.h:88
+#: src/data/moves_info.h:2584
 msgid "PSYCHIC"
 msgstr "KINÉSISTE"
 
@@ -1061,8 +1063,8 @@ msgid "RIVAL"
 msgstr "Rival"
 
 #. source : SoulSilver FR officiel
-#: src/battle_main.c:401 data/text/fame_checker_frlg.inc:1362
-#: data/text/fame_checker_frlg.inc:1365
+#: data/text/fame_checker_frlg.inc:1362 data/text/fame_checker_frlg.inc:1365
+#: src/battle_main.c:401
 msgid "SCIENTIST"
 msgstr "Scientifique"
 
@@ -1072,8 +1074,8 @@ msgid "BOSS"
 msgstr "BOSS"
 
 #. source : SoulSilver FR officiel
-#: src/battle_main.c:404 src/data/text/radio_strings.h:210
-#: data/text/fame_checker_frlg.inc:1344
+#: data/text/fame_checker_frlg.inc:1344 src/battle_main.c:404
+#: src/data/text/radio_strings.h:210
 msgid "TEAM ROCKET"
 msgstr "Rocket"
 
@@ -1155,9 +1157,10 @@ msgid "DEVELOPER"
 msgstr "DÉVELOPPEUR"
 
 #. source : SoulSilver FR officiel
+#: data/text/fame_checker_frlg.inc:1221 data/text/fame_checker_frlg.inc:1224
 #: src/battle_main.c:2048
 #: src/data/battle_frontier/battle_frontier_trainers.h:2456
-#: data/text/fame_checker_frlg.inc:1221 data/text/fame_checker_frlg.inc:1224
+#: src/data/trainers_frlg.party:7238 src/data/trainers_hns.party:8513
 msgid "SABRINA"
 msgstr "Morgane"
 
@@ -1523,14 +1526,15 @@ msgid "{B_ATK_NAME_WITH_PREFIX} used {B_BUFF3}!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} utilise {B_BUFF3}!"
 
 #. source : Émeraude FR officiel
+#: data/maps/SaffronCity_FightingDojo_hns/scripts.inc:193
 #: src/battle_message.c:150 src/pokedex_plus_hgss.c:138 src/strings.c:272
-#: src/strings.c:401 data/maps/SaffronCity_FightingDojo_hns/scripts.inc:193
+#: src/strings.c:401
 msgid "HP"
 msgstr "PV"
 
 #. source : Émeraude FR officiel
-#: src/battle_message.c:151 src/strings.c:396 src/strings.c:1077
-#: src/data/easy_chat/easy_chat_group_battle.h:112
+#: src/battle_message.c:151 src/data/easy_chat/easy_chat_group_battle.h:112
+#: src/strings.c:396 src/strings.c:1077
 msgid "ATTACK"
 msgstr "ATTAQUE"
 
@@ -5406,7 +5410,9 @@ msgid "Bad Egg"
 msgstr "Mauv. Oeuf"
 
 #. source : Émeraude FR officiel
-#: src/battle_message.c:1456
+#: src/battle_message.c:1456 src/data/trainers.party:9455
+#: src/data/trainers.party:12036 src/data/trainers.party:12049
+#: src/data/trainers.party:12099 src/data/trainers.party:12149
 msgid "WALLY"
 msgstr "TIMMY"
 
@@ -5426,7 +5432,7 @@ msgid "{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}Draw"
 msgstr "{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}Nul"
 
 #. source : Émeraude FR officiel
-#: src/battle_message.c:1460 data/text/mauville_man.inc:27
+#: data/text/mauville_man.inc:27 src/battle_message.c:1460
 msgid " is"
 msgstr " est"
 
@@ -6747,9 +6753,8 @@ msgstr "GAMINE"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Maître
-#: src/berry_blender.c:264 src/strings.c:526
-#: src/data/easy_chat/easy_chat_group_events.h:20
-#: src/data/easy_chat/easy_chat_group_events.h:148
+#: src/berry_blender.c:264 src/data/easy_chat/easy_chat_group_events.h:20
+#: src/data/easy_chat/easy_chat_group_events.h:148 src/strings.c:526
 msgid "MASTER"
 msgstr "Master"
 
@@ -6847,8 +6852,8 @@ msgstr " / Onctuosité: "
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : SAUVEGARDE EN COURS…\nN’ETEIGNEZ PAS LA CONSOLE.
-#: src/berry_blender.c:289 src/strings.c:125 src/strings.c:827
-#: data/text/save.inc:10 data/text/save.inc:32
+#: data/text/save.inc:10 data/text/save.inc:32 src/berry_blender.c:289
+#: src/strings.c:125 src/strings.c:827
 msgid "SAVING…\\nDON'T TURN OFF THE POWER."
 msgstr "SAUVEGARDE EN COURS…\\nNE PAS ETEINDRE."
 
@@ -6992,8 +6997,8 @@ msgstr "NON"
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
-#: src/challenge_menu.c:338 src/challenge_menu.c:342 src/option_menu.c:203
-#: src/data/easy_chat/easy_chat_group_endings.h:268
+#: src/challenge_menu.c:338 src/challenge_menu.c:342
+#: src/data/easy_chat/easy_chat_group_endings.h:268 src/option_menu.c:203
 msgid "ON"
 msgstr "OUI"
 
@@ -7013,8 +7018,9 @@ msgid "ORIGINAL"
 msgstr "ORIGINAL"
 
 #. source : patch FR actuel
-#: src/challenge_menu.c:353 src/option_menu.c:237
+#: src/challenge_menu.c:353
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:124
+#: src/option_menu.c:237
 msgid "MODERN"
 msgstr "MODERNE"
 
@@ -7034,9 +7040,9 @@ msgid "{R_BUTTON}SAVE"
 msgstr "{R_BUTTON}SAUVE"
 
 #. source : Émeraude FR officiel
-#: src/challenge_menu.c:359 src/pokenav_main_menu.c:97
-#: src/pokenav_main_menu.c:98 src/pokenav_main_menu.c:112
-#: src/pokenav_main_menu.c:115 src/data/union_room.h:88
+#: src/challenge_menu.c:359 src/data/union_room.h:88
+#: src/pokenav_main_menu.c:97 src/pokenav_main_menu.c:98
+#: src/pokenav_main_menu.c:112 src/pokenav_main_menu.c:115
 msgid "{B_BUTTON}CANCEL"
 msgstr "{B_BUTTON}RETOUR"
 
@@ -7286,13 +7292,15 @@ msgstr "CHAOS"
 
 #. source : Émeraude FR officiel
 #: src/challenge_menu.c:529 src/challenge_menu.c:599 src/challenge_menu.c:605
-#: src/strings.c:509 src/strings.c:1095 src/strings.c:1105
+#: src/data/easy_chat/easy_chat_group_greetings.h:10 src/strings.c:509
+#: src/strings.c:1095
 msgid "YES"
 msgstr "OUI"
 
 #. source : Émeraude FR officiel
 #: src/challenge_menu.c:530 src/challenge_menu.c:600 src/challenge_menu.c:606
-#: src/option_menu.c:246 src/strings.c:510 src/strings.c:1096
+#: src/data/easy_chat/easy_chat_group_greetings.h:178
+#: src/data/script_menu.h:642 src/option_menu.c:246
 msgid "NO"
 msgstr "NON"
 
@@ -7318,15 +7326,15 @@ msgid "FAKE RTC"
 msgstr "FAUX RTC"
 
 #. source : SoulSilver FR officiel
-#: src/challenge_menu.c:553 src/pokedex_plus_hgss.c:163
-#: src/data/easy_chat/easy_chat_group_battle.h:340
+#: src/challenge_menu.c:553 src/data/easy_chat/easy_chat_group_battle.h:340
+#: src/pokedex_plus_hgss.c:163
 msgid "EASY"
 msgstr "FACILE"
 
 #. source : SoulSilver FR officiel
-#: src/challenge_menu.c:554 src/challenge_menu.c:574 src/option_menu.c:218
-#: src/strings.c:523 src/data/types_info.h:65
-#: src/data/easy_chat/easy_chat_group_status.h:418
+#: src/challenge_menu.c:554 src/challenge_menu.c:574
+#: src/data/easy_chat/easy_chat_group_status.h:418 src/data/types_info.h:65
+#: src/option_menu.c:218 src/strings.c:523
 msgid "NORMAL"
 msgstr "NORMAL"
 
@@ -7343,8 +7351,8 @@ msgid "CEMETERY"
 msgstr "TOMBE"
 
 #. source : Émeraude FR officiel
-#: src/challenge_menu.c:560 src/pokemon_storage_system.c:8219
-#: src/data/easy_chat/easy_chat_group_actions.h:322
+#: src/challenge_menu.c:560 src/data/easy_chat/easy_chat_group_actions.h:322
+#: src/pokemon_storage_system.c:8219
 msgid "RELEASE"
 msgstr "RELÂCHER"
 
@@ -7710,8 +7718,8 @@ msgstr "GÉNÉRATIONS"
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
-#: src/challenge_menu.c:831 src/item_menu.c:314 src/item_menu.c:2850
-#: src/option_menu.c:701 src/data/easy_chat/easy_chat_group_status.h:304
+#: src/challenge_menu.c:831 src/data/easy_chat/easy_chat_group_status.h:304
+#: src/item_menu.c:314 src/item_menu.c:2850 src/option_menu.c:701
 msgid "TYPE"
 msgstr "TYPE"
 
@@ -8387,8 +8395,8 @@ msgstr ""
 " 15}"
 
 #. source : Émeraude FR officiel
-#: src/contest.c:680 src/strings.c:518 src/strings.c:527
-#: src/data/easy_chat/easy_chat_group_status.h:130
+#: src/contest.c:680 src/data/easy_chat/easy_chat_group_status.h:130
+#: src/strings.c:518 src/strings.c:527
 msgid "COOL"
 msgstr "SG-FD"
 
@@ -8423,8 +8431,8 @@ msgid "anxiety"
 msgstr "anxiété"
 
 #. source : Émeraude FR officiel
-#: src/contest.c:700 src/strings.c:520 src/strings.c:529
-#: src/data/easy_chat/easy_chat_group_status.h:148
+#: src/contest.c:700 src/data/easy_chat/easy_chat_group_status.h:148
+#: src/strings.c:520 src/strings.c:529
 msgid "CUTE"
 msgstr "GRACE"
 
@@ -8444,8 +8452,8 @@ msgid "laziness"
 msgstr "paresse"
 
 #. source : Émeraude FR officiel
-#: src/contest.c:710 src/strings.c:521 src/strings.c:530
-#: src/data/easy_chat/easy_chat_group_status.h:112
+#: src/contest.c:710 src/data/easy_chat/easy_chat_group_status.h:112
+#: src/strings.c:521 src/strings.c:530
 msgid "SMART"
 msgstr "INTEL."
 
@@ -8465,8 +8473,8 @@ msgid "hesitancy"
 msgstr "hésitation"
 
 #. source : Émeraude FR officiel
-#: src/contest.c:720 src/strings.c:522 src/strings.c:531
-#: src/data/easy_chat/easy_chat_group_status.h:310
+#: src/contest.c:720 src/data/easy_chat/easy_chat_group_status.h:310
+#: src/strings.c:522 src/strings.c:531
 msgid "TOUGH"
 msgstr "ROBUS."
 
@@ -9037,7 +9045,8 @@ msgid ""
 msgstr "{PLAYER} rentre vite à la maison pour\\nrevoir sa stratégie de combat…\\p"
 
 #. source : SoulSilver FR officiel
-#: src/field_screen_effect.c:1475 data/text/fame_checker_frlg.inc:1092
+#: data/text/fame_checker_frlg.inc:1092 src/data/trainers_frlg.party:8942
+#: src/field_screen_effect.c:1475
 msgid "PROF. OAK"
 msgstr "Prof. Chen"
 
@@ -9087,70 +9096,74 @@ msgid " time(s)"
 msgstr " fois"
 
 #. source : Émeraude FR officiel
-#: src/field_specials.c:185
+#: src/data/trainers.party:6244 src/field_specials.c:185
 msgid "WALLACE"
 msgstr "MARC"
 
 #. source : Émeraude FR officiel
-#: src/field_specials.c:186 src/pokenav_match_call_data.c:281
-#: src/pokenav_match_call_data.c:729 src/data/trade.h:1146
-#: src/data/battle_frontier/battle_frontier_trainers.h:2560
 #: data/maps/SinjohRuins_House1_hns/scripts.inc:778
+#: src/data/battle_frontier/battle_frontier_trainers.h:2560
+#: src/data/battle_partners.party:10 src/data/trade.h:1146
+#: src/data/trainers.party:15857 src/data/trainers_hns.party:14333
 msgid "STEVEN"
 msgstr "Pierre"
 
 #. source : Émeraude FR officiel
-#: src/field_specials.c:187
+#: src/data/trainers.party:4826 src/data/trainers.party:14357
+#: src/data/trainers.party:14399 src/data/trainers.party:14441
+#: src/data/trainers.party:14491 src/field_specials.c:187
 msgid "BRAWLY"
 msgstr "BASTIEN"
 
 #. source : Émeraude FR officiel
-#: src/field_specials.c:188
+#: src/data/trainers.party:4986 src/data/trainers.party:15157
+#: src/data/trainers.party:15207 src/data/trainers.party:15265
+#: src/data/trainers.party:15323 src/field_specials.c:188
 msgid "WINONA"
 msgstr "ALIZEE"
 
 #. source : Émeraude FR officiel
-#: src/field_specials.c:189
+#: src/data/trainers.party:4639 src/field_specials.c:189
 msgid "PHOEBE"
 msgstr "SPECTRA"
 
 #. source : Émeraude FR officiel
-#: src/field_specials.c:190 src/data/trainers.h:12714
+#: src/data/trainers.party:4690 src/field_specials.c:190
 msgid "GLACIA"
 msgstr "GLACIA"
 
 #. source : Émeraude FR officiel
-#: src/field_specials.c:2558 src/data/items.h:2210 src/data/script_menu.h:250
+#: src/data/items.h:2210 src/data/script_menu.h:250 src/field_specials.c:2558
 msgid "BLUE FLUTE"
 msgstr "Flûte Bleue"
 
 #. source : Émeraude FR officiel
-#: src/field_specials.c:2559 src/data/items.h:2230 src/data/script_menu.h:251
+#: src/data/items.h:2230 src/data/script_menu.h:251 src/field_specials.c:2559
 msgid "YELLOW FLUTE"
 msgstr "Flûte Jaune"
 
 #. source : Émeraude FR officiel
-#: src/field_specials.c:2560 src/data/items.h:2250 src/data/script_menu.h:252
+#: src/data/items.h:2250 src/data/script_menu.h:252 src/field_specials.c:2560
 msgid "RED FLUTE"
 msgstr "Flûte Rouge"
 
 #. source : Émeraude FR officiel
-#: src/field_specials.c:2561 src/data/items.h:2291 src/data/script_menu.h:253
+#: src/data/items.h:2291 src/data/script_menu.h:253 src/field_specials.c:2561
 msgid "WHITE FLUTE"
 msgstr "Flûteblanche"
 
 #. source : Émeraude FR officiel
-#: src/field_specials.c:2562 src/data/items.h:2272 src/data/script_menu.h:254
+#: src/data/items.h:2272 src/data/script_menu.h:254 src/field_specials.c:2562
 msgid "BLACK FLUTE"
 msgstr "Flûte Noire"
 
 #. source : Émeraude FR officiel
-#: src/field_specials.c:2563 src/data/decoration/header.h:162
+#: src/data/decoration/header.h:162 src/field_specials.c:2563
 msgid "PRETTY CHAIR"
 msgstr "JOLIE CHAISE"
 
 #. source : Émeraude FR officiel
-#: src/field_specials.c:2564 src/data/decoration/header.h:78
+#: src/data/decoration/header.h:78 src/field_specials.c:2564
 msgid "PRETTY DESK"
 msgstr "JOLI BUREAU"
 
@@ -9540,9 +9553,9 @@ msgid "Now on:"
 msgstr "Etage:"
 
 #. source : Émeraude FR officiel
-#: src/field_weather.c:1198 src/pokemon_sprite_visualizer.c:162
-#: src/strings.c:120 src/strings.c:146 src/data/types_info.h:53
 #: src/data/easy_chat/easy_chat_group_conditions.h:286
+#: src/data/types_info.h:53 src/field_weather.c:1198
+#: src/pokemon_sprite_visualizer.c:162 src/strings.c:120 src/strings.c:146
 msgid "NONE"
 msgstr "Aucun"
 
@@ -9580,7 +9593,7 @@ msgstr "Volcanic Ash"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : TEMPETE DE SABLE
-#: src/field_weather.c:1206 src/strings.c:1248 src/data/moves_info.h:5467
+#: src/data/moves_info.h:5467 src/field_weather.c:1206 src/strings.c:1248
 msgid "SANDSTORM"
 msgstr "Tempêtesable"
 
@@ -9589,7 +9602,12 @@ msgid "FOG DIAGONAL"
 msgstr ""
 
 #. source : Émeraude FR officiel
-#: src/field_weather.c:1208
+#: src/data/region_map/region_map_sections.json:406
+#: src/data/region_map/region_map_sections.json:414
+#: src/data/region_map/region_map_sections.json:422
+#: src/data/region_map/region_map_sections.json:430
+#: src/data/region_map/region_map_sections.json:438
+#: src/data/region_map/region_map_sections.json:561
 msgid "UNDERWATER"
 msgstr "FOND Marin"
 
@@ -9598,8 +9616,8 @@ msgid "SHADE"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/field_weather.c:1210 src/data/abilities.h:533
-#: src/data/easy_chat/easy_chat_group_status.h:460
+#: src/data/abilities.h:533 src/data/easy_chat/easy_chat_group_status.h:460
+#: src/field_weather.c:1210
 msgid "DROUGHT"
 msgstr "Sécheresse"
 
@@ -9717,7 +9735,7 @@ msgstr "{STR_VAR_1} examine attentivement\\nles étagères."
 
 #. source : patch FR actuel (correspondance douteuse, à vérifier)
 #. source : patch FR actuel (récupéré par pointeur)
-#: src/follower_helper.c:32 src/data/text/follower_messages.h:163
+#: src/data/text/follower_messages.h:163 src/follower_helper.c:32
 msgid "{STR_VAR_1} focused with a sharp\\ngaze!"
 msgstr "{STR_VAR_1} se concentre\\nintensément!"
 
@@ -9823,7 +9841,7 @@ msgid "{STR_VAR_1} seems somehow sad…"
 msgstr "{STR_VAR_1} a l’air un peu triste…"
 
 #. source : patch FR actuel
-#: src/follower_helper.c:57 src/data/text/follower_messages.h:127
+#: src/data/text/follower_messages.h:127 src/follower_helper.c:57
 msgid "{STR_VAR_1} is taking shelter in the\\ngrass from the rain."
 msgstr "{STR_VAR_1} s’abrite de la pluie\\ndans les hautes herbes."
 
@@ -10018,7 +10036,7 @@ msgid "Urk…"
 msgstr "Oh, j’ai perdu…"
 
 #. source : Émeraude FR officiel
-#: src/frontier_util.c:254 data/maps/Route18_Frlg/scripts.inc:56
+#: data/maps/Route18_Frlg/scripts.inc:56 src/frontier_util.c:254
 msgid "Darn!"
 msgstr "Grrr…"
 
@@ -10091,7 +10109,7 @@ msgstr "VOIR"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : BALADE
-#: src/item_menu.c:306 src/data/easy_chat/easy_chat_group_hobbies.h:124
+#: src/data/easy_chat/easy_chat_group_hobbies.h:124 src/item_menu.c:306
 msgid "WALK"
 msgstr "MARCHER"
 
@@ -10106,13 +10124,13 @@ msgid "CHECK TAG"
 msgstr "LIRE ETIQUETTE"
 
 #. source : Émeraude FR officiel
-#: src/item_menu.c:310 src/data/easy_chat/easy_chat_group_actions.h:400
+#: src/data/easy_chat/easy_chat_group_actions.h:400 src/item_menu.c:310
 msgid "SHOW"
 msgstr "MONTRER"
 
 #. source : Émeraude FR officiel
-#: src/item_menu.c:313 src/item_menu.c:2849 src/pokemon_storage_system.c:8223
-#: src/strings.c:132 src/data/easy_chat/easy_chat_group_lifestyle.h:184
+#: src/data/easy_chat/easy_chat_group_lifestyle.h:184 src/item_menu.c:313
+#: src/item_menu.c:2849 src/pokemon_storage_system.c:8223 src/strings.c:132
 msgid "NAME"
 msgstr "NOM"
 
@@ -10277,7 +10295,7 @@ msgid "This POKéMON doesn't match\\nyour type challenge!\\p"
 msgstr "Ce Pokémon ne respecte pas\\nvotre défi monotype!\\p"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:18
+#: src/data/region_map/region_map_sections.json:1585 src/landmark.c:18
 msgid "MAGMA HIDEOUT"
 msgstr "PLANQUE MAGMA"
 
@@ -10287,18 +10305,19 @@ msgid "FLOWER SHOP"
 msgstr "Fleuriste"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:21
+#: src/data/region_map/region_map_sections.json:480 src/landmark.c:21
 msgid "PETALBURG WOODS"
 msgstr "BOIS CLEMENTI"
 
 #. source : patch FR actuel (correspondance douteuse, à vérifier)
 #. source : patch FR actuel (récupéré par pointeur)
-#: src/landmark.c:22 data/maps/Route104/scripts.inc:1056
+#: data/maps/Route104/scripts.inc:1056 src/landmark.c:22
 msgid "MR. BRINEY'S COTTAGE"
 msgstr "COTTAGE DE M. MARCO"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:23
+#: src/data/region_map/region_map_sections.json:496
+#: src/data/region_map/region_map_sections.json:1738 src/landmark.c:23
 msgid "ABANDONED SHIP"
 msgstr "EPAVE"
 
@@ -10318,7 +10337,7 @@ msgid "CYCLING ROAD"
 msgstr "PISTE CYCLABLE"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:27
+#: src/data/region_map/region_map_sections.json:505 src/landmark.c:27
 msgid "NEW MAUVILLE"
 msgstr "NEW LAVANDIA"
 
@@ -10353,12 +10372,13 @@ msgid "GLASS WORKSHOP"
 msgstr "ATELIER DU VERRE"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:34 data/maps/Route119/scripts.inc:601
+#: data/maps/Route119/scripts.inc:601 src/landmark.c:34
 msgid "WEATHER INSTITUTE"
 msgstr "CENTRE Météo"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:35
+#: src/data/region_map/region_map_sections.json:513
+#: src/data/region_map/region_map_sections.json:521 src/landmark.c:35
 msgid "METEOR FALLS"
 msgstr "SITE METEORE"
 
@@ -10368,7 +10388,7 @@ msgid "TUNNELER'S RESTHOUSE"
 msgstr "REFUGE DES FOREURS"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:37
+#: src/data/region_map/region_map_sections.json:488 src/landmark.c:37
 msgid "RUSTURF TUNNEL"
 msgstr "Tunnel MERAZON"
 
@@ -10383,23 +10403,24 @@ msgid "SAFARI ZONE ENTRANCE"
 msgstr "ENTREE Parc Safari"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:40 src/data/script_menu.h:771
+#: src/data/region_map/region_map_sections.json:529 src/data/script_menu.h:771
+#: src/landmark.c:40
 msgid "MT. PYRE"
 msgstr "MONT MEMORIA"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : TREFONDS
-#: src/landmark.c:41
+#: src/data/region_map/region_map_sections.json:545 src/landmark.c:41
 msgid "SHOAL CAVE"
 msgstr "Grotte TREFONDS"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:42
+#: src/data/region_map/region_map_sections.json:553 src/landmark.c:42
 msgid "SEAFLOOR CAVERN"
 msgstr "CAVERNE FONDMER"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:43
+#: src/data/region_map/region_map_sections.json:446 src/landmark.c:43
 msgid "GRANITE CAVE"
 msgstr "Grotte GRANITE"
 
@@ -10410,49 +10431,51 @@ msgstr "COURANT Marin"
 
 #. source : patch FR actuel (correspondance douteuse, à vérifier)
 #. source : patch FR actuel (récupéré par pointeur)
-#: src/landmark.c:45 data/maps/Route114/scripts.inc:201
+#: data/maps/Route114/scripts.inc:201 src/landmark.c:45
 msgid "LANETTE'S HOUSE"
 msgstr "MAISON D’ANNETTE"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:46
+#: src/data/region_map/region_map_sections.json:603
+#: src/data/region_map/region_map_sections.json:611 src/landmark.c:46
 msgid "FIERY PATH"
 msgstr "CHEMIN ARDENT"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : SINUROC
-#: src/landmark.c:47
+#: src/data/region_map/region_map_sections.json:619
+#: src/data/region_map/region_map_sections.json:627 src/landmark.c:47
 msgid "JAGGED PASS"
 msgstr "SENTIER SINUROC"
 
 #. source : patch FR actuel (correspondance douteuse, à vérifier)
 #. source : patch FR actuel (récupéré par pointeur)
-#: src/landmark.c:48 data/maps/Route123/scripts.inc:197
+#: data/maps/Route123/scripts.inc:197 src/landmark.c:48
 msgid "BERRY MASTER'S HOUSE"
 msgstr "MAISON Maître Baies"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:49
+#: src/data/region_map/region_map_sections.json:659 src/landmark.c:49
 msgid "ISLAND CAVE"
 msgstr "Grotte ISLAND"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:50
+#: src/data/region_map/region_map_sections.json:667 src/landmark.c:50
 msgid "DESERT RUINS"
 msgstr "RUINES DESERT"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:51
+#: src/data/region_map/region_map_sections.json:651 src/landmark.c:51
 msgid "SCORCHED SLAB"
 msgstr "Grotte Zénith"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:52
+#: src/data/region_map/region_map_sections.json:675 src/landmark.c:52
 msgid "ANCIENT TOMB"
 msgstr "TOMBEAU ANTIQUE"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:53
+#: src/data/region_map/region_map_sections.json:635 src/landmark.c:53
 msgid "SEALED CHAMBER"
 msgstr "SANCTUAIRE"
 
@@ -10462,32 +10485,36 @@ msgid "FOSSIL MANIAC'S HOUSE"
 msgstr "MANIAQUE DES FOSSILES"
 
 #. source : patch FR actuel (récupéré par pointeur)
-#: src/landmark.c:55 data/maps/Route124/scripts.inc:103
+#: data/maps/Route124/scripts.inc:103 src/landmark.c:55
 msgid "HUNTER'S HOUSE"
 msgstr "MAISON DU CHERCHEUR DE TRESORS"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:56 src/data/script_menu.h:772
+#: src/data/region_map/region_map_sections.json:687 src/data/script_menu.h:772
+#: src/landmark.c:56
 msgid "SKY PILLAR"
 msgstr "PILIER CELESTE"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:57
+#: src/data/region_map/region_map_sections.json:1593 src/landmark.c:57
 msgid "MIRAGE TOWER"
 msgstr "TOUR MIRAGE"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:58
+#: src/data/region_map/region_map_sections.json:1473
+#: src/data/region_map/region_map_sections.json:1663 src/landmark.c:58
 msgid "ALTERING CAVE"
 msgstr "Grotte METAMO"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:59
+#: src/data/region_map/region_map_sections.json:1655 src/landmark.c:59
 msgid "DESERT UNDERPASS"
 msgstr "VOIE DU DESERT"
 
 #. source : Émeraude FR officiel
-#: src/landmark.c:60 src/region_map.c:266
+#: src/data/region_map/region_map_sections.json:1726
+#: src/data/region_map/region_map_sections.json:1794 src/landmark.c:60
+#: src/region_map.c:266
 msgid "TRAINER HILL"
 msgstr "MONT Dresseurs"
 
@@ -10569,15 +10596,15 @@ msgid "PLAYER"
 msgstr "JOUEUR"
 
 #. source : Émeraude FR officiel
-#: src/main_menu.c:275 src/strings.c:28 src/strings.c:763 src/strings.c:1118
 #: src/data/easy_chat/easy_chat_group_time.h:118
-#: src/data/easy_chat/easy_chat_groups.h:127
+#: src/data/easy_chat/easy_chat_groups.h:127 src/main_menu.c:275
+#: src/strings.c:28 src/strings.c:763 src/strings.c:1118
 msgid "TIME"
 msgstr "DUREE JEU"
 
 #. source : Émeraude FR officiel
-#: src/main_menu.c:276 src/strings.c:27 src/strings.c:556 src/strings.c:759
-#: src/strings.c:1026 src/strings.c:1117
+#: src/data/easy_chat/easy_chat_group_trainer.h:100 src/main_menu.c:276
+#: src/strings.c:27 src/strings.c:556 src/strings.c:759 src/strings.c:1026
 msgid "POKéDEX"
 msgstr "Pokédex"
 
@@ -10597,12 +10624,13 @@ msgid "MILTON"
 msgstr "Manuel"
 
 #. source : Émeraude FR officiel
-#: src/main_menu.c:483
+#: src/data/trainers_hns.party:4407 src/main_menu.c:483
 msgid "TOM"
 msgstr "SEB"
 
 #. source : Émeraude FR officiel
-#: src/main_menu.c:484
+#: src/data/trainers_hns.party:4850 src/data/trainers_hns.party:13282
+#: src/data/trainers_hns.party:13303 src/main_menu.c:484
 msgid "KENNY"
 msgstr "GWENN"
 
@@ -10632,12 +10660,12 @@ msgid "WALKER"
 msgstr "Alec"
 
 #. source : Émeraude FR officiel
-#: src/main_menu.c:490
+#: src/data/trainers_hns.party:4470 src/main_menu.c:490
 msgid "TERU"
 msgstr "GIBUS"
 
 #. source : Émeraude FR officiel
-#: src/main_menu.c:491 src/data/trainers_hns.h:841
+#: src/data/trainers_hns.party:299 src/main_menu.c:491
 msgid "JOHNNY"
 msgstr "JOHNNY"
 
@@ -10647,12 +10675,14 @@ msgid "BRETT"
 msgstr "Fabrice"
 
 #. source : Émeraude FR officiel
-#: src/main_menu.c:493
+#: src/data/trainers_hns.party:3752 src/main_menu.c:493
 msgid "SETH"
 msgstr "DANIEL"
 
 #. source : Émeraude FR officiel
-#: src/main_menu.c:494 src/data/battle_frontier/trainer_hill.h:4320
+#: src/data/battle_frontier/trainer_hill.h:4320 src/data/trainers.party:10699
+#: src/data/trainers_frlg.party:4432 src/data/trainers_frlg.party:4447
+#: src/data/trainers_frlg.party:4462 src/data/trainers_frlg.party:4477
 msgid "TERRY"
 msgstr "THOMAS"
 
@@ -10677,12 +10707,12 @@ msgid "COLLIN"
 msgstr "COLIN"
 
 #. source : Émeraude FR officiel
-#: src/main_menu.c:499
+#: src/data/trainers_hns.party:13898 src/main_menu.c:499
 msgid "STANLEY"
 msgstr "Stan"
 
 #. source : Émeraude FR officiel
-#: src/main_menu.c:500
+#: src/data/trainers.party:6043 src/main_menu.c:500
 msgid "QUINCY"
 msgstr "SEVERIN"
 
@@ -10777,6 +10807,7 @@ msgid "TERRA"
 msgstr "SOLENE"
 
 #. source : Émeraude FR officiel
+#: src/data/trainers.party:15980 src/data/trainers_hns.party:11048
 #: src/main_menu.c:522
 msgid "LUCY"
 msgstr "CYNTHIA"
@@ -10842,14 +10873,14 @@ msgid "AMY"
 msgstr "EVE"
 
 #. source : Émeraude FR officiel
-#: src/match_call.c:2009 src/data/trainers_frlg.h:10818
-#: src/data/trainers_hns.h:17457
 #: src/data/battle_frontier/battle_frontier_trainers.h:213
+#: src/data/trainers_frlg.party:3897 src/data/trainers_hns.party:6164
+#: src/match_call.c:2009
 msgid "JOHN"
 msgstr "JOHN"
 
 #. source : Émeraude FR officiel
-#: src/match_call.c:2010
+#: src/data/trainers_hns.party:596 src/match_call.c:2010
 msgid "ROY"
 msgstr "SAM"
 
@@ -10965,8 +10996,8 @@ msgid "Enter code:"
 msgstr "Code:"
 
 #. source : Émeraude FR officiel
-#: src/oak_speech_hns.c:209 src/strings.c:464 src/strings.c:1017
-#: src/data/easy_chat/easy_chat_group_trainer.h:142
+#: src/data/easy_chat/easy_chat_group_trainer.h:142 src/oak_speech_hns.c:209
+#: src/strings.c:464 src/strings.c:1017
 msgid "GOLD"
 msgstr "or"
 
@@ -10989,8 +11020,8 @@ msgstr ""
 "jamais\\ldurcies."
 
 #. source : Émeraude FR officiel
-#: src/option_menu.c:208 src/pokemon_storage_system.c:8216
-#: src/data/party_menu.h:712
+#: src/data/party_menu.h:712 src/option_menu.c:208
+#: src/pokemon_storage_system.c:8216
 msgid "SHIFT"
 msgstr "CHANGER"
 
@@ -11025,8 +11056,8 @@ msgstr "MOY."
 
 #. source : patch FR actuel (correspondance douteuse, à vérifier)
 #. source : patch FR actuel (récupéré par pointeur)
-#: src/option_menu.c:226 src/pokedex_plus_hgss.c:180
-#: src/data/easy_chat/easy_chat_group_conditions.h:316
+#: src/data/easy_chat/easy_chat_group_conditions.h:316 src/option_menu.c:226
+#: src/pokedex_plus_hgss.c:180
 msgid "FAST"
 msgstr "RAPIDE"
 
@@ -11047,8 +11078,8 @@ msgstr "IMPÉRIAL"
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
-#: src/option_menu.c:236
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:184
+#: src/option_menu.c:236
 msgid "OLD"
 msgstr "ANCIEN"
 
@@ -11428,7 +11459,7 @@ msgid "SOUND"
 msgstr "SON"
 
 #. source : patch FR actuel
-#: src/option_menu.c:506 src/data/easy_chat/easy_chat_group_hobbies.h:52
+#: src/data/easy_chat/easy_chat_group_hobbies.h:52 src/option_menu.c:506
 msgid "MUSIC"
 msgstr "MUSIQUE"
 
@@ -11581,7 +11612,7 @@ msgid "TURN OFF"
 msgstr "ETEINDRE"
 
 #. source : Émeraude FR officiel
-#: src/player_pc.c:230 src/data/party_menu.h:710
+#: src/data/party_menu.h:710 src/player_pc.c:230
 msgid "READ"
 msgstr "LIRE"
 
@@ -11591,8 +11622,8 @@ msgid "MOVE TO BAG"
 msgstr "METTRE DANS Sac"
 
 #. source : Émeraude FR officiel
-#: src/player_pc.c:232 src/pokemon_storage_system.c:8208 src/strings.c:141
-#: src/strings.c:162 src/data/easy_chat/easy_chat_group_actions.h:16
+#: src/data/easy_chat/easy_chat_group_actions.h:16 src/player_pc.c:232
+#: src/pokemon_storage_system.c:8208 src/strings.c:141 src/strings.c:162
 msgid "GIVE"
 msgstr "DONNER"
 
@@ -11753,14 +11784,14 @@ msgid "{A_BUTTON}Toggle   {DPAD_UPDOWN}Moves"
 msgstr ""
 
 #. source : patch FR actuel
-#: src/pokedex_plus_hgss.c:139
 #: data/maps/SaffronCity_FightingDojo_hns/scripts.inc:195
+#: src/pokedex_plus_hgss.c:139
 msgid "ATK"
 msgstr "ATT"
 
 #. source : Émeraude FR officiel
-#: src/pokedex_plus_hgss.c:140 src/strings.c:88
 #: data/maps/SaffronCity_FightingDojo_hns/scripts.inc:197
+#: src/pokedex_plus_hgss.c:140 src/strings.c:88
 msgid "DEF"
 msgstr "DEF"
 
@@ -11869,16 +11900,16 @@ msgid "WATER {CIRCLE_1}"
 msgstr "Eau {CIRCLE_1}"
 
 #. source : patch FR actuel
-#: src/pokedex_plus_hgss.c:188 src/data/types_info.h:195
-#: src/data/text/radio_strings.h:243
 #: src/data/easy_chat/easy_chat_group_status.h:586
+#: src/data/text/radio_strings.h:243 src/data/types_info.h:195
+#: src/pokedex_plus_hgss.c:188
 msgid "BUG"
 msgstr "Insecte"
 
 #. source : SoulSilver FR officiel
-#: src/pokedex_plus_hgss.c:189 src/data/types_info.h:107
-#: src/data/text/radio_strings.h:242
 #: src/data/easy_chat/easy_chat_group_status.h:454
+#: src/data/text/radio_strings.h:242 src/data/types_info.h:107
+#: src/pokedex_plus_hgss.c:189
 msgid "FLYING"
 msgstr "VOL"
 
@@ -11889,14 +11920,14 @@ msgid "FIELD"
 msgstr "Field"
 
 #. source : patch FR actuel
-#: src/pokedex_plus_hgss.c:191 src/data/types_info.h:448
+#: src/data/types_info.h:448 src/pokedex_plus_hgss.c:191
 msgid "FAIRY"
 msgstr "Fée"
 
 #. source : SoulSilver FR officiel
-#: src/pokedex_plus_hgss.c:192 src/data/types_info.h:316
-#: src/data/text/radio_strings.h:244
 #: src/data/easy_chat/easy_chat_group_status.h:172
+#: src/data/text/radio_strings.h:244 src/data/types_info.h:316
+#: src/pokedex_plus_hgss.c:192
 msgid "GRASS"
 msgstr "PLANTE"
 
@@ -11926,14 +11957,14 @@ msgid "WATER {CIRCLE_2}"
 msgstr "Eau {CIRCLE_2}"
 
 #. source : SoulSilver FR officiel
-#: src/pokedex_plus_hgss.c:198
 #: src/data/pokemon/species_info/gen_1_families.h:18707
+#: src/pokedex_plus_hgss.c:198
 msgid "DITTO"
 msgstr "METAMORPH"
 
 #. source : SoulSilver FR officiel
-#: src/pokedex_plus_hgss.c:199 src/data/types_info.h:404
-#: src/data/easy_chat/easy_chat_group_status.h:376
+#: src/data/easy_chat/easy_chat_group_status.h:376 src/data/types_info.h:404
+#: src/pokedex_plus_hgss.c:199
 msgid "DRAGON"
 msgstr "DRAGON"
 
@@ -11943,8 +11974,8 @@ msgstr ""
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
-#: src/pokedex_plus_hgss.c:203
 #: src/data/easy_chat/easy_chat_group_actions.h:424
+#: src/pokedex_plus_hgss.c:203
 msgid "OWN"
 msgstr "PRIS"
 
@@ -12052,8 +12083,8 @@ msgid "{STR_VAR_1} has no alternate forms."
 msgstr "{STR_VAR_1} n’a pas d’autre forme."
 
 #. source : traduction manuelle (style SoulSilver)
-#: src/pokedex_plus_hgss.c:6727 src/pokedex_plus_hgss.c:6735
 #: src/data/pokemon/species_info.h:106 src/data/pokemon/species_info.h:207
+#: src/pokedex_plus_hgss.c:6727 src/pokedex_plus_hgss.c:6735
 msgid "Unknown"
 msgstr "Inconnu"
 
@@ -12115,12 +12146,12 @@ msgid "CW/CCW >10s"
 msgstr "H/AH >10s"
 
 #. source : SoulSilver FR officiel
-#: src/pokedex_plus_hgss.c:6792 src/data/script_menu.h:171
+#: src/data/script_menu.h:171 src/pokedex_plus_hgss.c:6792
 msgid "Male"
 msgstr "Male"
 
 #. source : SoulSilver FR officiel
-#: src/pokedex_plus_hgss.c:6793 src/data/script_menu.h:172
+#: src/data/script_menu.h:172 src/pokedex_plus_hgss.c:6793
 msgid "Female"
 msgstr "Female"
 
@@ -12146,24 +12177,24 @@ msgstr "Att < Déf"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Matin
-#: src/pokedex_plus_hgss.c:6811
+#: src/debug.c:448 src/pokedex_plus_hgss.c:6811
 msgid "Morning"
 msgstr "Morning"
 
 #. source : patch FR actuel
-#: src/pokedex_plus_hgss.c:6812 src/pokedex_plus_hgss.c:6823
+#: src/debug.c:449 src/pokedex_plus_hgss.c:6812 src/pokedex_plus_hgss.c:6823
 msgid "Day"
 msgstr "Jour"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Soir
-#: src/pokedex_plus_hgss.c:6813
+#: src/debug.c:450 src/pokedex_plus_hgss.c:6813
 msgid "Evening"
 msgstr "Evening"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Nuit
-#: src/pokedex_plus_hgss.c:6814
+#: src/debug.c:451 src/pokedex_plus_hgss.c:6814
 msgid "Night"
 msgstr "Night"
 
@@ -12420,7 +12451,7 @@ msgid "BOLD"
 msgstr "Assuré"
 
 #. source : SoulSilver FR officiel
-#: src/pokemon.c:2635 src/data/easy_chat/easy_chat_group_conditions.h:136
+#: src/data/easy_chat/easy_chat_group_conditions.h:136 src/pokemon.c:2635
 msgid "DOCILE"
 msgstr "Docile"
 
@@ -12446,7 +12477,7 @@ msgid "HASTY"
 msgstr "Pressé"
 
 #. source : patch FR actuel
-#: src/pokemon.c:2707 src/data/easy_chat/easy_chat_group_battle.h:268
+#: src/data/easy_chat/easy_chat_group_battle.h:268 src/pokemon.c:2707
 msgid "SERIOUS"
 msgstr "SERIEUX"
 
@@ -13147,18 +13178,17 @@ msgid "SHAKE GLOW PURPLE SLOW"
 msgstr ""
 
 #. source : Émeraude FR officiel
-#: src/pokemon_sprite_visualizer.c:350 src/data/script_menu.h:185
 #: data/text/tv.inc:232 data/text/tv.inc:235 data/text/tv.inc:238
-#: data/text/tv.inc:241
+#: data/text/tv.inc:241 src/data/script_menu.h:185 src/debug.c:1056
 msgid "None"
 msgstr "Rien"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Sombre
-#: src/pokemon_sprite_visualizer.c:351
 #: src/data/pokemon/species_info/gen_2_families.h:7436
 #: src/data/pokemon/species_info/gen_2_families.h:7504
 #: src/data/pokemon/species_info/gen_2_families.h:7590
+#: src/pokemon_sprite_visualizer.c:351
 msgid "Dark"
 msgstr "TENEBRES"
 
@@ -13185,11 +13215,11 @@ msgid "Impact - Contests"
 msgstr ""
 
 #. source : patch FR actuel
-#: src/pokemon_sprite_visualizer.c:357
 #: src/data/pokemon/species_info/gen_1_families.h:4999
 #: src/data/pokemon/species_info/gen_1_families.h:5222
 #: src/data/pokemon/species_info/gen_1_families.h:15270
 #: src/data/pokemon/species_info/gen_1_families.h:15360
+#: src/pokemon_sprite_visualizer.c:357
 msgid "Drill"
 msgstr "Perceur"
 
@@ -13207,8 +13237,8 @@ msgstr ""
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Foudre
-#: src/pokemon_sprite_visualizer.c:361
 #: src/data/pokemon/species_info/gen_2_families.h:8123
+#: src/pokemon_sprite_visualizer.c:361
 msgid "Thunder"
 msgstr "Fatal-Foudre"
 
@@ -13224,7 +13254,7 @@ msgstr ""
 msgid "Guillotine - Contests"
 msgstr ""
 
-#: src/pokemon_sprite_visualizer.c:365 src/data/battle_environment.h:672
+#: src/data/battle_environment.h:672 src/pokemon_sprite_visualizer.c:365
 msgid "Ice"
 msgstr ""
 
@@ -13245,8 +13275,8 @@ msgid "Sky - Contests"
 msgstr ""
 
 #. source : patch FR actuel
-#: src/pokemon_sprite_visualizer.c:370
 #: src/data/pokemon/species_info/gen_2_families.h:8286
+#: src/pokemon_sprite_visualizer.c:370
 msgid "Aurora"
 msgstr "Aurore"
 
@@ -13316,7 +13346,7 @@ msgid "Dark Void"
 msgstr "Trou Noir"
 
 #. source : SoulSilver FR officiel
-#: src/pokemon_sprite_visualizer.c:386 src/data/battle_environment.h:140
+#: src/data/battle_environment.h:140 src/pokemon_sprite_visualizer.c:386
 msgid "Water"
 msgstr "EAU"
 
@@ -13344,7 +13374,8 @@ msgid "Water 2"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/pokemon_sprite_visualizer.c:392 data/scripts/debug.inc:701
+#: data/scripts/debug.inc:701 src/battle_debug.c:348
+#: src/pokemon_sprite_visualizer.c:392
 msgid "Poison"
 msgstr "POISON"
 
@@ -13401,9 +13432,9 @@ msgid "Hyperspace Fury"
 msgstr ""
 
 #. source : patch FR actuel
-#: src/pokemon_sprite_visualizer.c:405
 #: src/data/pokemon/species_info/gen_5_families.h:13131
 #: src/data/pokemon/species_info/gen_5_families.h:13222
+#: src/pokemon_sprite_visualizer.c:405
 msgid "Bolt Strike"
 msgstr "Foudroyeur"
 
@@ -13519,7 +13550,8 @@ msgid "Rainbow - Opponent"
 msgstr ""
 
 #. source : patch FR actuel
-#: src/pokemon_sprite_visualizer.c:433 src/data/battle_environment.h:646
+#: src/battle_debug.c:420 src/data/battle_environment.h:646
+#: src/pokemon_sprite_visualizer.c:433
 msgid "Swamp"
 msgstr "Marécage"
 
@@ -13821,48 +13853,54 @@ msgid "Wrong type!"
 msgstr "Mauvais type!"
 
 #. source : Émeraude FR officiel
-#: src/pokemon_storage_system.c:8212 src/pokenav_match_call_gfx.c:209
-#: src/strings.c:143 src/strings.c:144 src/strings.c:877 src/strings.c:1108
+#: data/maps/AkalaIsle_hns/scripts.inc:543
+#: data/maps/NewSinjoh_HotSprings_hns/scripts.inc:307
+#: data/maps/PoniIsle_hns/scripts.inc:421
+#: data/maps/Route25_BillsHouse_hns/scripts.inc:364
+#: data/maps/UlaUla_Forest_hns/scripts.inc:376
+#: data/maps/UlaulaIsle_hns/scripts.inc:714
 msgid "CANCEL"
 msgstr "Retour"
 
 #. source : Émeraude FR officiel
-#: src/pokemon_storage_system.c:8213 src/data/party_menu.h:716
-#: src/data/easy_chat/easy_chat_group_lifestyle.h:70
+#: src/data/easy_chat/easy_chat_group_lifestyle.h:70 src/data/party_menu.h:716
+#: src/pokemon_storage_system.c:8213
 msgid "STORE"
 msgstr "DEPOSER"
 
 #. source : Émeraude FR officiel
-#: src/pokemon_storage_system.c:8214 src/strings.c:496
-#: src/data/moves_info.h:3007
+#: src/data/moves_info.h:3007 src/pokemon_storage_system.c:8214
+#: src/strings.c:496
 msgid "WITHDRAW"
 msgstr "RETIRER"
 
 #. source : Émeraude FR officiel
-#: src/pokemon_storage_system.c:8215 src/data/party_menu.h:707
-#: src/data/easy_chat/easy_chat_group_battle.h:376
+#: src/data/easy_chat/easy_chat_group_battle.h:376 src/data/party_menu.h:707
+#: src/pokemon_storage_system.c:8215
 msgid "MOVE"
 msgstr "DEPLACER"
 
 #. source : Émeraude FR officiel
-#: src/pokemon_storage_system.c:8217
 #: src/data/easy_chat/easy_chat_group_people.h:166
+#: src/pokemon_storage_system.c:8217
 msgid "PLACE"
 msgstr "PLACER"
 
 #. source : Émeraude FR officiel
-#: src/pokemon_storage_system.c:8218 src/strings.c:1091 src/strings.c:1102
 #: src/data/party_menu.h:701 src/data/trade.h:46 src/data/trade.h:50
+#: src/pokemon_storage_system.c:8218 src/strings.c:1091 src/strings.c:1102
 msgid "SUMMARY"
 msgstr "RESUME"
 
 #. source : Émeraude FR officiel
-#: src/pokemon_storage_system.c:8220
+#: src/data/trainers.party:2656 src/data/trainers_frlg.party:1265
+#: src/data/trainers_frlg.party:10522 src/data/trainers_frlg.party:11528
+#: src/data/trainers_hns.party:5579 src/pokemon_storage_system.c:8220
 msgid "MARK"
 msgstr "MARQUER"
 
 #. source : Émeraude FR officiel
-#: src/pokemon_storage_system.c:8221 src/data/script_menu.h:231
+#: src/data/script_menu.h:231 src/pokemon_storage_system.c:8221
 msgid "JUMP"
 msgstr "BOITES"
 
@@ -13873,26 +13911,26 @@ msgstr "FONDS"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : PRENDR.
-#: src/pokemon_storage_system.c:8224 src/data/party_menu.h:706
-#: src/data/party_menu.h:709 src/data/easy_chat/easy_chat_group_actions.h:430
+#: src/data/easy_chat/easy_chat_group_actions.h:430 src/data/party_menu.h:706
+#: src/data/party_menu.h:709 src/pokemon_storage_system.c:8224
 msgid "TAKE"
 msgstr "PRENDRE"
 
 #. source : Émeraude FR officiel
-#: src/pokemon_storage_system.c:8227 src/strings.c:416
-#: src/data/party_menu.h:702
+#: src/data/party_menu.h:702 src/pokemon_storage_system.c:8227
+#: src/strings.c:416
 msgid "SWITCH"
 msgstr "ORDRE"
 
 #. source : Émeraude FR officiel
-#: src/pokemon_storage_system.c:8228 src/strings.c:558 src/strings.c:1028
 #: src/data/easy_chat/easy_chat_group_trainer.h:130
+#: src/pokemon_storage_system.c:8228 src/strings.c:558 src/strings.c:1028
 msgid "BAG"
 msgstr "Sac"
 
 #. source : Émeraude FR officiel
-#: src/pokemon_storage_system.c:8229 src/strings.c:421 src/strings.c:499
 #: src/data/script_menu.h:95 src/data/union_room.h:543
+#: src/pokemon_storage_system.c:8229 src/strings.c:421 src/strings.c:499
 msgid "INFO"
 msgstr "INFOS"
 
@@ -13982,14 +14020,15 @@ msgid "POKéCENTER"
 msgstr "CENTRE PKMN"
 
 #. source : Émeraude FR officiel
-#: src/pokemon_storage_system.c:8249
 #: src/data/easy_chat/easy_chat_group_lifestyle.h:214
+#: src/pokemon_storage_system.c:8249
 msgid "MACHINE"
 msgstr "ENGRENAGE"
 
 #. source : Émeraude FR officiel
-#: src/pokemon_storage_system.c:8250 src/data/abilities.h:652
+#: src/data/abilities.h:652
 #: src/data/easy_chat/easy_chat_group_conditions.h:400
+#: src/pokemon_storage_system.c:8250
 msgid "SIMPLE"
 msgstr "UNI"
 
@@ -14030,7 +14069,7 @@ msgid "No. {DYNAMIC 0}"
 msgstr "Nº {DYNAMIC 0}"
 
 #. source : Émeraude FR officiel
-#: src/pokenav_list.c:104 src/data/easy_chat/easy_chat_group_battle.h:136
+#: src/data/easy_chat/easy_chat_group_battle.h:136 src/pokenav_list.c:104
 msgid "STRATEGY"
 msgstr "STRATEGIE"
 
@@ -14136,8 +14175,8 @@ msgid "CALM & KIND"
 msgstr "Calme et douce"
 
 #. source : Émeraude FR officiel
-#: src/pokenav_match_call_data.c:243 src/pokenav_match_call_data.c:708
-#: src/strings.c:489 src/strings.c:493 src/data/speaker_names.h:3
+#: src/data/speaker_names.h:3 src/pokenav_match_call_data.c:243
+#: src/pokenav_match_call_data.c:708 src/strings.c:489 src/strings.c:493
 msgid "MOM"
 msgstr "Maman"
 
@@ -14148,10 +14187,10 @@ msgid "SAFARI WARDEN"
 msgstr "Directeur Safari"
 
 #. source : SoulSilver FR officiel
-#: src/pokenav_match_call_data.c:260 data/maps/SaffronCity_hns/scripts.inc:10
+#: data/maps/FuchsiaCity_hns/scripts.inc:21
 #: data/maps/OlivineCity_hns/scripts.inc:32
 #: data/maps/Route27_hns/scripts.inc:20
-#: data/maps/FuchsiaCity_hns/scripts.inc:21
+#: data/maps/SaffronCity_hns/scripts.inc:10 src/pokenav_match_call_data.c:260
 msgid "BAOBA"
 msgstr "Baoba"
 
@@ -14177,8 +14216,8 @@ msgid "ELUSIVE EYES"
 msgstr "Regard Noir"
 
 #. source : Émeraude FR officiel
-#: src/pokenav_match_call_data.c:391 src/pokenav_match_call_data.c:839
-#: src/data/trainers_hns.h:9681
+#: src/data/trainers_hns.party:3418 src/pokenav_match_call_data.c:391
+#: src/pokenav_match_call_data.c:839
 msgid "SCOTT"
 msgstr "SCOTT"
 
@@ -14427,468 +14466,544 @@ msgid "RIBBONS {DYNAMIC 0}"
 msgstr "RUBANS {DYNAMIC 0}"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:158
+#: src/data/region_map/region_map_sections.json:2211 src/region_map.c:158
 msgid "VIOLET CITY"
 msgstr "Mauville"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:159 src/data/text/radio_strings.h:241
+#: src/data/region_map/region_map_sections.json:2219
+#: src/data/text/radio_strings.h:241 src/region_map.c:159
 msgid "AZALEA TOWN"
 msgstr "Ecorcia"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:160
+#: src/data/region_map/region_map_sections.json:2227 src/region_map.c:160
 msgid "GOLDENROD CITY"
 msgstr "Doublonville"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:161
+#: src/data/region_map/region_map_sections.json:2235 src/region_map.c:161
 msgid "ECRUTEAK CITY"
 msgstr "Rosalia"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:162
+#: src/data/region_map/region_map_sections.json:2243 src/region_map.c:162
 msgid "OLIVINE CITY"
 msgstr "Oliville"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:163
+#: src/data/region_map/region_map_sections.json:2251 src/region_map.c:163
 msgid "CIANWOOD CITY"
 msgstr "Irisia"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:164
+#: src/data/region_map/region_map_sections.json:2627 src/region_map.c:164
 msgid "SAFARI ZONE GATE"
 msgstr "Portail Safari"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:165
+#: src/data/region_map/region_map_sections.json:2259 src/region_map.c:165
 msgid "MAHOGANY TOWN"
 msgstr "Acajou"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:166
+#: src/data/region_map/region_map_sections.json:2267 src/region_map.c:166
 msgid "BLACKTHORN CITY"
 msgstr "Ebènelle"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:167 src/data/text/radio_strings.h:240
+#: src/data/region_map/region_map_sections.json:2203
+#: src/data/text/radio_strings.h:240 src/region_map.c:167
 msgid "CHERRYGROVE CITY"
 msgstr "Ville Griotte"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:168 src/data/text/radio_strings.h:239
+#: src/data/region_map/region_map_sections.json:2195
+#: src/data/text/radio_strings.h:239 src/region_map.c:168
 msgid "NEW BARK TOWN"
 msgstr "Bourg Geon"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:169 data/text/fame_checker_frlg.inc:1002
-#: data/text/fame_checker_frlg.inc:1005 data/text/fame_checker_frlg.inc:1029
-#: data/text/fame_checker_frlg.inc:1032
+#: data/text/fame_checker_frlg.inc:1002 data/text/fame_checker_frlg.inc:1005
+#: data/text/fame_checker_frlg.inc:1029 data/text/fame_checker_frlg.inc:1032
+#: src/data/region_map/region_map_sections.json:783
+#: src/data/region_map/region_map_sections.json:1923
 msgid "INDIGO PLATEAU"
 msgstr "Plateau Indigo"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:170 src/strings.c:517
+#: src/data/region_map/region_map_sections.json:471
+#: src/data/region_map/region_map_sections.json:1746 src/region_map.c:170
+#: src/strings.c:517
 msgid "BATTLE FRONTIER"
 msgstr "Zone de Combat"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:171 src/data/region_map/region_map_entries.h:520
+#: src/data/region_map/region_map_sections.json:2275 src/region_map.c:171
 msgid "ROUTE 26"
 msgstr "Route 26"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:172 src/data/region_map/region_map_entries.h:527
+#: src/data/region_map/region_map_sections.json:2283 src/region_map.c:172
 msgid "ROUTE 27"
 msgstr "Route 27"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:173 src/data/region_map/region_map_entries.h:534
 #: data/maps/Route28_hns/scripts.inc:19
+#: src/data/region_map/region_map_sections.json:2291 src/region_map.c:173
 msgid "ROUTE 28"
 msgstr "Route 28"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:174 src/data/region_map/region_map_entries.h:541
+#: src/data/region_map/region_map_sections.json:2299 src/region_map.c:174
 msgid "ROUTE 29"
 msgstr "Route 29"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:175 src/data/region_map/region_map_entries.h:548
+#: src/data/region_map/region_map_sections.json:2307 src/region_map.c:175
 msgid "ROUTE 30"
 msgstr "Route 30"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:176 src/data/region_map/region_map_entries.h:555
+#: src/data/region_map/region_map_sections.json:2315 src/region_map.c:176
 msgid "ROUTE 31"
 msgstr "Route 31"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:177 src/data/region_map/region_map_entries.h:562
+#: src/data/region_map/region_map_sections.json:2323 src/region_map.c:177
 msgid "ROUTE 32"
 msgstr "Route 32"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:178 src/data/region_map/region_map_entries.h:569
+#: src/data/region_map/region_map_sections.json:2331 src/region_map.c:178
 msgid "ROUTE 33"
 msgstr "Route 33"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:179 src/data/region_map/region_map_entries.h:576
+#: src/data/region_map/region_map_sections.json:2339 src/region_map.c:179
 msgid "ROUTE 34"
 msgstr "Route 34"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:180 src/data/region_map/region_map_entries.h:583
 #: data/maps/Route35_hns/scripts.inc:240
+#: src/data/region_map/region_map_sections.json:2347 src/region_map.c:180
 msgid "ROUTE 35"
 msgstr "Route 35"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:181 src/data/region_map/region_map_entries.h:590
 #: data/maps/Route36_hns/scripts.inc:323
+#: src/data/region_map/region_map_sections.json:2355 src/region_map.c:181
 msgid "ROUTE 36"
 msgstr "Route 36"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:182 src/data/region_map/region_map_entries.h:597
+#: src/data/region_map/region_map_sections.json:2363 src/region_map.c:182
 msgid "ROUTE 37"
 msgstr "Route 37"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:183 src/data/region_map/region_map_entries.h:604
+#: src/data/region_map/region_map_sections.json:2371 src/region_map.c:183
 msgid "ROUTE 38"
 msgstr "Route 38"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:184 src/data/region_map/region_map_entries.h:611
+#: src/data/region_map/region_map_sections.json:2379 src/region_map.c:184
 msgid "ROUTE 39"
 msgstr "Route 39"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:185
+#: src/data/region_map/region_map_sections.json:2387 src/region_map.c:185
 msgid "ROUTE 40"
 msgstr "Chenal 40"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:186
+#: src/data/region_map/region_map_sections.json:2395 src/region_map.c:186
 msgid "ROUTE 41"
 msgstr "Chenal 41"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:187 src/data/region_map/region_map_entries.h:632
+#: src/data/region_map/region_map_sections.json:2403 src/region_map.c:187
 msgid "ROUTE 42"
 msgstr "Route 42"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:188 src/data/region_map/region_map_entries.h:639
+#: src/data/region_map/region_map_sections.json:2411 src/region_map.c:188
 msgid "ROUTE 43"
 msgstr "Route 43"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:189 src/data/region_map/region_map_entries.h:646
+#: src/data/region_map/region_map_sections.json:2419 src/region_map.c:189
 msgid "ROUTE 44"
 msgstr "Route 44"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:190 src/data/region_map/region_map_entries.h:653
+#: src/data/region_map/region_map_sections.json:2427 src/region_map.c:190
 msgid "ROUTE 45"
 msgstr "Route 45"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:191 src/data/region_map/region_map_entries.h:660
+#: src/data/region_map/region_map_sections.json:2435 src/region_map.c:191
 msgid "ROUTE 46"
 msgstr "Route 46"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:192 src/data/region_map/region_map_entries.h:667
+#: src/data/region_map/region_map_sections.json:2443 src/region_map.c:192
 msgid "ROUTE 47"
 msgstr "Route 47"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:193 src/data/region_map/region_map_entries.h:674
+#: src/data/region_map/region_map_sections.json:2451 src/region_map.c:193
 msgid "ROUTE 48"
 msgstr "Route 48"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:194 data/text/fame_checker_frlg.inc:924
+#: data/text/fame_checker_frlg.inc:924
+#: src/data/region_map/region_map_sections.json:462
+#: src/data/region_map/region_map_sections.json:1125
+#: src/data/region_map/region_map_sections.json:1778 src/region_map.c:194
 msgid "SAFARI ZONE"
 msgstr "Parc Safari"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:195
+#: src/data/region_map/region_map_sections.json:569
+#: src/data/region_map/region_map_sections.json:1092
+#: src/data/region_map/region_map_sections.json:1843
+#: src/data/region_map/region_map_sections.json:2539 src/region_map.c:195
 msgid "VICTORY ROAD"
 msgstr "Route Victoire"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:196 data/text/fame_checker_frlg.inc:801
+#: data/text/fame_checker_frlg.inc:801
+#: src/data/region_map/region_map_sections.json:702
+#: src/data/region_map/region_map_sections.json:1851 src/region_map.c:196
 msgid "PALLET TOWN"
 msgstr "Bourg Palette"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:197 data/text/fame_checker_frlg.inc:810
-#: data/text/fame_checker_frlg.inc:828
+#: data/text/fame_checker_frlg.inc:810 data/text/fame_checker_frlg.inc:828
+#: src/data/region_map/region_map_sections.json:711
+#: src/data/region_map/region_map_sections.json:1859 src/region_map.c:197
 msgid "VIRIDIAN CITY"
 msgstr "Jadielle"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:198 data/text/fame_checker_frlg.inc:837
-#: data/text/fame_checker_frlg.inc:843
+#: data/text/fame_checker_frlg.inc:837 data/text/fame_checker_frlg.inc:843
+#: src/data/region_map/region_map_sections.json:720
+#: src/data/region_map/region_map_sections.json:1867 src/region_map.c:198
 msgid "PEWTER CITY"
 msgstr "Argenta"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:199 data/text/fame_checker_frlg.inc:855
-#: data/text/fame_checker_frlg.inc:870 data/text/fame_checker_frlg.inc:1035
-#: data/text/fame_checker_frlg.inc:1038
+#: data/text/fame_checker_frlg.inc:855 data/text/fame_checker_frlg.inc:870
+#: data/text/fame_checker_frlg.inc:1035 data/text/fame_checker_frlg.inc:1038
+#: src/data/region_map/region_map_sections.json:729
+#: src/data/region_map/region_map_sections.json:1875
 msgid "CERULEAN CITY"
 msgstr "Azuria"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:200 data/text/fame_checker_frlg.inc:1053
-#: data/text/fame_checker_frlg.inc:1059 data/text/fame_checker_frlg.inc:1062
+#: data/text/fame_checker_frlg.inc:1053 data/text/fame_checker_frlg.inc:1059
+#: data/text/fame_checker_frlg.inc:1062
+#: src/data/region_map/region_map_sections.json:738
+#: src/data/region_map/region_map_sections.json:1883 src/region_map.c:200
 msgid "LAVENDER TOWN"
 msgstr "Lavanville"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:201 data/text/fame_checker_frlg.inc:822
-#: data/text/fame_checker_frlg.inc:873 data/text/fame_checker_frlg.inc:888
+#: data/text/fame_checker_frlg.inc:822 data/text/fame_checker_frlg.inc:873
+#: data/text/fame_checker_frlg.inc:888
+#: src/data/region_map/region_map_sections.json:747
+#: src/data/region_map/region_map_sections.json:1891 src/region_map.c:201
 msgid "VERMILION CITY"
 msgstr "Carmin sur Mer"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:202 data/text/fame_checker_frlg.inc:891
+#: data/text/fame_checker_frlg.inc:891
+#: src/data/region_map/region_map_sections.json:756
+#: src/data/region_map/region_map_sections.json:1899 src/region_map.c:202
 msgid "CELADON CITY"
 msgstr "Céladopole"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:203 data/text/fame_checker_frlg.inc:909
-#: data/text/fame_checker_frlg.inc:918 data/text/fame_checker_frlg.inc:921
-#: data/text/fame_checker_frlg.inc:1041
+#: data/text/fame_checker_frlg.inc:909 data/text/fame_checker_frlg.inc:918
+#: data/text/fame_checker_frlg.inc:921 data/text/fame_checker_frlg.inc:1041
+#: src/data/region_map/region_map_sections.json:765
+#: src/data/region_map/region_map_sections.json:1907
 msgid "FUCHSIA CITY"
 msgstr "Parmanie"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:204 src/strings.c:568
+#: src/data/region_map/region_map_sections.json:594
+#: src/data/region_map/region_map_sections.json:1786 src/region_map.c:204
+#: src/strings.c:568
 msgid "SOUTHERN ISLAND"
 msgstr "ILE DU SUD"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:205 src/strings.c:570
+#: src/data/region_map/region_map_sections.json:1606
+#: src/data/region_map/region_map_sections.json:1762 src/region_map.c:205
+#: src/strings.c:570
 msgid "FARAWAY ISLAND"
 msgstr "ILE LOINTAINE"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:206 src/strings.c:569
+#: src/data/region_map/region_map_sections.json:1505
+#: src/data/region_map/region_map_sections.json:1601
+#: src/data/region_map/region_map_sections.json:1754 src/region_map.c:206
+#: src/strings.c:569
 msgid "BIRTH ISLAND"
 msgstr "ILE Aurore"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:207 data/text/fame_checker_frlg.inc:945
-#: data/text/fame_checker_frlg.inc:954 data/text/fame_checker_frlg.inc:1068
+#: data/text/fame_checker_frlg.inc:945 data/text/fame_checker_frlg.inc:954
+#: data/text/fame_checker_frlg.inc:1068
+#: src/data/region_map/region_map_sections.json:774
+#: src/data/region_map/region_map_sections.json:1915 src/region_map.c:207
 msgid "CINNABAR ISLAND"
 msgstr "Cramois’Ile"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:208 data/text/fame_checker_frlg.inc:927
-#: data/text/fame_checker_frlg.inc:939 data/text/fame_checker_frlg.inc:987
-#: data/text/fame_checker_frlg.inc:1023
+#: data/text/fame_checker_frlg.inc:927 data/text/fame_checker_frlg.inc:939
+#: data/text/fame_checker_frlg.inc:987 data/text/fame_checker_frlg.inc:1023
+#: src/data/region_map/region_map_sections.json:792
+#: src/data/region_map/region_map_sections.json:1931
 msgid "SAFFRON CITY"
 msgstr "Safrania"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:209
+#: src/data/region_map/region_map_sections.json:817
+#: src/data/region_map/region_map_sections.json:1939 src/region_map.c:209
 msgid "ROUTE 1"
 msgstr "Route 1"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:210
+#: src/data/region_map/region_map_sections.json:826
+#: src/data/region_map/region_map_sections.json:1947 src/region_map.c:210
 msgid "ROUTE 2"
 msgstr "Route 2"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:211
+#: src/data/region_map/region_map_sections.json:835
+#: src/data/region_map/region_map_sections.json:1955 src/region_map.c:211
 msgid "ROUTE 3"
 msgstr "Route 3"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:212 data/text/fame_checker_frlg.inc:846
+#: data/text/fame_checker_frlg.inc:846
+#: src/data/region_map/region_map_sections.json:801
+#: src/data/region_map/region_map_sections.json:844
+#: src/data/region_map/region_map_sections.json:1963 src/region_map.c:212
 msgid "ROUTE 4"
 msgstr "Route 4"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:213
+#: src/data/region_map/region_map_sections.json:853
+#: src/data/region_map/region_map_sections.json:1971 src/region_map.c:213
 msgid "ROUTE 5"
 msgstr "Route 5"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:214
+#: src/data/region_map/region_map_sections.json:862
+#: src/data/region_map/region_map_sections.json:1979 src/region_map.c:214
 msgid "ROUTE 6"
 msgstr "Route 6"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:215
+#: src/data/region_map/region_map_sections.json:871
+#: src/data/region_map/region_map_sections.json:1987 src/region_map.c:215
 msgid "ROUTE 7"
 msgstr "Route 7"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:216
+#: src/data/region_map/region_map_sections.json:880
+#: src/data/region_map/region_map_sections.json:1995 src/region_map.c:216
 msgid "ROUTE 8"
 msgstr "Route 8"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:217
+#: src/data/region_map/region_map_sections.json:889
+#: src/data/region_map/region_map_sections.json:2003 src/region_map.c:217
 msgid "ROUTE 9"
 msgstr "Route 9"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:218
+#: src/data/region_map/region_map_sections.json:809
+#: src/data/region_map/region_map_sections.json:898
+#: src/data/region_map/region_map_sections.json:2011 src/region_map.c:218
 msgid "ROUTE 10"
 msgstr "Route 10"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:219 data/maps/Route11_hns/scripts.inc:89
+#: data/maps/Route11_hns/scripts.inc:89
+#: src/data/region_map/region_map_sections.json:907
+#: src/data/region_map/region_map_sections.json:2019 src/region_map.c:219
 msgid "ROUTE 11"
 msgstr "Route 11"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:220
+#: src/data/region_map/region_map_sections.json:916
+#: src/data/region_map/region_map_sections.json:2027 src/region_map.c:220
 msgid "ROUTE 12"
 msgstr "Route 12"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:221
+#: src/data/region_map/region_map_sections.json:925
+#: src/data/region_map/region_map_sections.json:2035 src/region_map.c:221
 msgid "ROUTE 13"
 msgstr "Route 13"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:222
+#: src/data/region_map/region_map_sections.json:934
+#: src/data/region_map/region_map_sections.json:2043 src/region_map.c:222
 msgid "ROUTE 14"
 msgstr "Route 14"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:223
+#: src/data/region_map/region_map_sections.json:943
+#: src/data/region_map/region_map_sections.json:2051 src/region_map.c:223
 msgid "ROUTE 15"
 msgstr "Route 15"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:224
+#: src/data/region_map/region_map_sections.json:952
+#: src/data/region_map/region_map_sections.json:2059 src/region_map.c:224
 msgid "ROUTE 16"
 msgstr "Route 16"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:225
+#: src/data/region_map/region_map_sections.json:961
+#: src/data/region_map/region_map_sections.json:2067 src/region_map.c:225
 msgid "ROUTE 17"
 msgstr "Route 17"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:226
+#: src/data/region_map/region_map_sections.json:970
+#: src/data/region_map/region_map_sections.json:2075 src/region_map.c:226
 msgid "ROUTE 18"
 msgstr "Route 18"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:227
+#: src/data/region_map/region_map_sections.json:979
+#: src/data/region_map/region_map_sections.json:2083 src/region_map.c:227
 msgid "ROUTE 19"
 msgstr "Chenal 19"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:228
+#: src/data/region_map/region_map_sections.json:988
+#: src/data/region_map/region_map_sections.json:2091 src/region_map.c:228
 msgid "ROUTE 20"
 msgstr "Chenal 20"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:229
+#: src/data/region_map/region_map_sections.json:997
+#: src/data/region_map/region_map_sections.json:2099 src/region_map.c:229
 msgid "ROUTE 21"
 msgstr "Chenal 21"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:230
+#: src/data/region_map/region_map_sections.json:1006
+#: src/data/region_map/region_map_sections.json:2107 src/region_map.c:230
 msgid "ROUTE 22"
 msgstr "Route 22"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:231
+#: src/data/region_map/region_map_sections.json:1023
+#: src/data/region_map/region_map_sections.json:2115 src/region_map.c:231
 msgid "ROUTE 24"
 msgstr "Route 24"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:232
+#: src/data/region_map/region_map_sections.json:1032
+#: src/data/region_map/region_map_sections.json:2123 src/region_map.c:232
 msgid "ROUTE 25"
 msgstr "Route 25"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:233
+#: src/data/region_map/region_map_sections.json:1041
+#: src/data/region_map/region_map_sections.json:2131 src/region_map.c:233
 msgid "VIRIDIAN FOREST"
 msgstr "Forêt de Jade"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:234 data/text/fame_checker_frlg.inc:849
+#: data/text/fame_checker_frlg.inc:849
+#: src/data/region_map/region_map_sections.json:1050
+#: src/data/region_map/region_map_sections.json:2139 src/region_map.c:234
 msgid "MT. MOON"
 msgstr "Mont Sélénite"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:235 data/maps/Route11_Frlg/scripts.inc:119
-#: data/maps/Route2_Frlg/scripts.inc:17 data/maps/Route2_hns/scripts.inc:78
+#: data/maps/Route11_Frlg/scripts.inc:119 data/maps/Route2_Frlg/scripts.inc:17
+#: data/maps/Route2_hns/scripts.inc:78
 #: data/maps/VermilionCity_hns/scripts.inc:414
+#: src/data/region_map/region_map_sections.json:1083
+#: src/data/region_map/region_map_sections.json:2147
 msgid "DIGLETT'S CAVE"
 msgstr "Cave TAUPIQUEUR"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:236 data/text/fame_checker_frlg.inc:1071
+#: data/text/fame_checker_frlg.inc:1071
+#: src/data/region_map/region_map_sections.json:1100
+#: src/data/region_map/region_map_sections.json:2155
+#: src/data/region_map/region_map_sections.json:2531 src/region_map.c:236
 msgid "ROCKET HIDEOUT"
 msgstr "Repaire Rocket"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:237 data/maps/Route10_Frlg/scripts.inc:100
+#: data/maps/Route10_Frlg/scripts.inc:100
+#: src/data/region_map/region_map_sections.json:1141
+#: src/data/region_map/region_map_sections.json:2163 src/region_map.c:237
 msgid "ROCK TUNNEL"
 msgstr "Grotte"
 
 #. source : Émeraude FR officiel
-#: src/region_map.c:238 data/text/fame_checker_frlg.inc:864
 #: data/maps/Route20_Frlg/scripts.inc:147
-#: data/maps/Route20_hns/scripts.inc:118
+#: data/maps/Route20_hns/scripts.inc:118 data/text/fame_checker_frlg.inc:864
+#: src/data/region_map/region_map_sections.json:1150
+#: src/data/region_map/region_map_sections.json:2171 src/region_map.c:238
 msgid "SEAFOAM ISLANDS"
 msgstr "Iles Ecume"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:239
+#: src/data/region_map/region_map_sections.json:1167
+#: src/data/region_map/region_map_sections.json:2179 src/region_map.c:239
 msgid "CERULEAN CAVE"
 msgstr "Caverne Azurée"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:240 data/maps/Route10_Frlg/scripts.inc:103
-#: data/maps/Route10_hns/scripts.inc:98
+#: data/maps/Route10_Frlg/scripts.inc:103 data/maps/Route10_hns/scripts.inc:98
+#: src/data/region_map/region_map_sections.json:1176
+#: src/data/region_map/region_map_sections.json:2187 src/region_map.c:240
 msgid "POWER PLANT"
 msgstr "Centrale"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:241 data/maps/Route31_hns/scripts.inc:244
+#: data/maps/Route31_hns/scripts.inc:244
+#: src/data/region_map/region_map_sections.json:2475 src/region_map.c:241
 msgid "DARK CAVE"
 msgstr "Antre Noir"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:242
+#: src/data/region_map/region_map_sections.json:2675 src/region_map.c:242
 msgid "UNION CAVE"
 msgstr "Caves Jumelles"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:243
+#: src/data/region_map/region_map_sections.json:2507 src/region_map.c:243
 msgid "ILEX FOREST"
 msgstr "Bois aux Chênes"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:244
+#: src/data/region_map/region_map_sections.json:2603 src/region_map.c:244
 msgid "NATIONAL PARK"
 msgstr "Parc Naturel"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:245
+#: src/data/region_map/region_map_sections.json:2683 src/region_map.c:245
 msgid "WHIRL ISLANDS"
 msgstr "Tourb’Iles"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:246
+#: src/data/region_map/region_map_sections.json:2467 src/region_map.c:246
 msgid "CLIFF CAVE"
 msgstr "Grotte Falaise"
 
@@ -14898,89 +15013,92 @@ msgid "MT MORTAR"
 msgstr "Mont Creuset"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:248
+#: src/data/region_map/region_map_sections.json:2515 src/region_map.c:248
 msgid "LAKE OF RAGE"
 msgstr "Lac Colère"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:249
+#: src/data/region_map/region_map_sections.json:2499 src/region_map.c:249
 msgid "ICE PATH"
 msgstr "Route de Glace"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:250 data/maps/MtSilver_Outside_hns/scripts.inc:16
+#: data/maps/MtSilver_Outside_hns/scripts.inc:16
+#: src/data/region_map/region_map_sections.json:2547 src/region_map.c:250
 msgid "MT. SILVER"
 msgstr "Mont Argenté"
 
 #. source : patch FR actuel (correspondance douteuse, à vérifier)
 #. source : patch FR actuel (récupéré par pointeur)
-#: src/region_map.c:251
+#: src/data/region_map/region_map_sections.json:2563 src/region_map.c:251
 msgid "SNOWSWEPT CAVERN"
 msgstr "CAVERNE GIVREE"
 
 #. source : traduction manuelle (style SoulSilver)
-#: src/region_map.c:252 src/data/region_map/region_map_entries.h:779
+#: src/data/region_map/region_map_sections.json:2571 src/region_map.c:252
 msgid "ROUTE 49"
 msgstr "ROUTE 49"
 
 #. source : patch FR actuel
-#: src/region_map.c:253 data/maps/NewSinjoh_hns/scripts.inc:312
+#: data/maps/NewSinjoh_hns/scripts.inc:312
+#: src/data/region_map/region_map_sections.json:2587 src/region_map.c:253
 msgid "NEW SINJOH"
 msgstr "NOUVEAU SINJOH"
 
 #. source : traduction manuelle (style SoulSilver)
-#: src/region_map.c:254 src/data/region_map/region_map_entries.h:786
+#: src/data/region_map/region_map_sections.json:2579 src/region_map.c:254
 msgid "ROUTE 50"
 msgstr "ROUTE 50"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:255 data/maps/SinjohRuins_hns/scripts.inc:363
+#: data/maps/SinjohRuins_hns/scripts.inc:363
+#: src/data/region_map/region_map_sections.json:2595 src/region_map.c:255
 msgid "SINJOH RUINS"
 msgstr "Ruines Sinjoh"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:256
+#: src/data/region_map/region_map_sections.json:2667 src/region_map.c:256
 msgid "TOHJO FALLS"
 msgstr "Chutes Tohjo"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:257
+#: src/data/region_map/region_map_sections.json:2643 src/region_map.c:257
 msgid "SPROUT TOWER"
 msgstr "Tour CHETIFLOR"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:258
+#: src/data/region_map/region_map_sections.json:2635 src/region_map.c:258
 msgid "SLOWPOKE WELL"
 msgstr "Puits RAMOLOSS"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:259
+#: src/data/region_map/region_map_sections.json:2459 src/region_map.c:259
 msgid "BURNED TOWER"
 msgstr "Tour Cendrée"
 
 #. source : patch FR actuel
-#: src/region_map.c:260
+#: src/data/region_map/region_map_sections.json:2659 src/region_map.c:260
 msgid "TIN TOWER"
 msgstr "Tour Carillon"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:261
+#: src/data/region_map/region_map_sections.json:2483 src/region_map.c:261
 msgid "DRAGON'S DEN"
 msgstr "Antre du Dragon"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:262
+#: src/data/region_map/region_map_sections.json:2619 src/region_map.c:262
 msgid "RUINS OF ALPH"
 msgstr "Ruines d’Alpha"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : L’AQUARIA
-#: src/region_map.c:263
+#: src/data/region_map/region_map_sections.json:2651 src/region_map.c:263
 msgid "S.S. AQUA"
 msgstr "Aquaria"
 
 #. source : SoulSilver FR officiel
-#: src/region_map.c:264
+#: src/data/region_map/region_map_sections.json:2491 src/region_map.c:264
 msgid "EMBEDDED TOWER"
 msgstr "Tour Enfouie"
 
@@ -14990,38 +15108,42 @@ msgid "LIGHTHOUSE"
 msgstr "Phare"
 
 #. source : patch FR actuel
-#: src/region_map.c:267 data/maps/UlaUla_Forest_hns/scripts.inc:364
-#: data/maps/MelemeleIsle_hns/scripts.inc:782
 #: data/maps/AkalaIsle_hns/scripts.inc:534
-#: data/maps/PoniIsle_hns/scripts.inc:412
+#: data/maps/MelemeleIsle_hns/scripts.inc:782
 #: data/maps/Melemele_PlayerHouse_hns/scripts.inc:644
+#: data/maps/PoniIsle_hns/scripts.inc:412
+#: data/maps/UlaUla_Forest_hns/scripts.inc:364
+#: src/data/region_map/region_map_sections.json:1675
 msgid "MELEMELE ISLE"
 msgstr "ILE DE MELE-MELE"
 
 #. source : patch FR actuel
-#: src/region_map.c:268 data/maps/UlaUla_Forest_hns/scripts.inc:367
-#: data/maps/MelemeleIsle_hns/scripts.inc:785
 #: data/maps/AkalaIsle_hns/scripts.inc:497
-#: data/maps/PoniIsle_hns/scripts.inc:415
+#: data/maps/MelemeleIsle_hns/scripts.inc:785
 #: data/maps/Melemele_PlayerHouse_hns/scripts.inc:647
+#: data/maps/PoniIsle_hns/scripts.inc:415
+#: data/maps/UlaUla_Forest_hns/scripts.inc:367
+#: src/data/region_map/region_map_sections.json:1681
 msgid "AKALA ISLE"
 msgstr "ILE D’AKALA"
 
 #. source : patch FR actuel
-#: src/region_map.c:269 data/maps/UlaUla_Forest_hns/scripts.inc:370
-#: data/maps/UlaulaIsle_hns/scripts.inc:318
-#: data/maps/MelemeleIsle_hns/scripts.inc:788
 #: data/maps/AkalaIsle_hns/scripts.inc:537
+#: data/maps/MelemeleIsle_hns/scripts.inc:788
+#: data/maps/Melemele_PlayerHouse_hns/scripts.inc:650
 #: data/maps/PoniIsle_hns/scripts.inc:418
+#: data/maps/UlaUla_Forest_hns/scripts.inc:370
+#: data/maps/UlaulaIsle_hns/scripts.inc:318
 msgid "ULA'ULA ISLE"
 msgstr "ILE D’ULA-ULA"
 
 #. source : patch FR actuel
-#: src/region_map.c:270 data/maps/UlaUla_Forest_hns/scripts.inc:373
-#: data/maps/MelemeleIsle_hns/scripts.inc:791
 #: data/maps/AkalaIsle_hns/scripts.inc:540
-#: data/maps/PoniIsle_hns/scripts.inc:391
+#: data/maps/MelemeleIsle_hns/scripts.inc:791
 #: data/maps/Melemele_PlayerHouse_hns/scripts.inc:653
+#: data/maps/PoniIsle_hns/scripts.inc:391
+#: data/maps/UlaUla_Forest_hns/scripts.inc:373
+#: src/data/region_map/region_map_sections.json:1691
 msgid "PONI ISLE"
 msgstr "ILE DE PONI"
 
@@ -15032,24 +15154,29 @@ msgstr "MER D’ALOLA"
 
 #. source : patch FR actuel (correspondance douteuse, à vérifier)
 #. source : patch FR actuel (récupéré par pointeur)
-#: src/region_map.c:272
+#: src/data/region_map/region_map_sections.json:1701
+#: src/data/region_map/region_map_sections.json:1822 src/region_map.c:272
 msgid "AKALA CAVE"
 msgstr "Grotte D’AKALA"
 
 #. source : patch FR actuel (correspondance douteuse, à vérifier)
 #. source : patch FR actuel (récupéré par pointeur)
-#: src/region_map.c:273
+#: src/data/region_map/region_map_sections.json:1706
+#: src/data/region_map/region_map_sections.json:1826 src/region_map.c:273
 msgid "AKALA FOREST"
 msgstr "FORET D’AKALA"
 
 #. source : patch FR actuel (correspondance douteuse, à vérifier)
 #. source : patch FR actuel (récupéré par pointeur)
-#: src/region_map.c:274
+#: src/data/region_map/region_map_sections.json:1711
+#: src/data/region_map/region_map_sections.json:1830 src/region_map.c:274
 msgid "PONI CAVE"
 msgstr "Grotte PONI"
 
 #. source : patch FR actuel
-#: src/region_map.c:275 src/region_map.c:276
+#: src/data/region_map/region_map_sections.json:1721
+#: src/data/region_map/region_map_sections.json:1838 src/region_map.c:275
+#: src/region_map.c:276
 msgid "ULA'ULA CAVE"
 msgstr "Grotte ULA-ULA"
 
@@ -15059,7 +15186,7 @@ msgid "The minimum wager at this table\\nis {STR_VAR_1}. Do you want to play?"
 msgstr "Mise minimale à cette table:\\n{STR_VAR_1}. Voulez-vous jouer?"
 
 #. source : Émeraude FR officiel
-#: src/roulette.c:420 data/maps/MauvilleCity_GameCorner/scripts.inc:1010
+#: data/maps/MauvilleCity_GameCorner/scripts.inc:1010 src/roulette.c:420
 msgid "You don't have enough COINS."
 msgstr "Vous n’avez pas assez de JETONS."
 
@@ -15117,8 +15244,8 @@ msgstr ""
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
-#: src/rtc.c:22 src/start_menu.c:502
-#: src/data/easy_chat/easy_chat_group_misc.h:148
+#: src/data/easy_chat/easy_chat_group_misc.h:148 src/rtc.c:22
+#: src/start_menu.c:502
 msgid "AM"
 msgstr "AM"
 
@@ -15145,7 +15272,7 @@ msgid "KENYA"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/scrcmd.c:1375 src/data/trade.h:1047
+#: src/data/trade.h:1047 src/scrcmd.c:1375
 msgid "RUDY"
 msgstr "Gontran"
 
@@ -15155,17 +15282,21 @@ msgid "SHUCKIE"
 msgstr "Nessie"
 
 #. source : SoulSilver FR officiel
-#: src/scrcmd.c:1377 data/text/fame_checker_frlg.inc:1203
+#: data/text/fame_checker_frlg.inc:1203 src/data/trainers.party:3358
+#: src/data/trainers_frlg.party:3682 src/data/trainers_hns.party:3545
+#: src/scrcmd.c:1377
 msgid "KIRK"
 msgstr "Otto"
 
 #. source : SoulSilver FR officiel
-#: src/scrcmd.c:1378
+#: src/data/trainers_hns.party:5231 src/scrcmd.c:1378
 msgid "BILL"
 msgstr "Léo"
 
 #. source : patch FR actuel
-#: src/scrcmd.c:1757
+#: src/data/trainers.party:6803 src/data/trainers.party:6816
+#: src/data/trainers.party:6829 src/data/trainers.party:6842
+#: src/data/trainers.party:6855 src/data/trainers_frlg.party:866
 msgid "DYLAN"
 msgstr "REGIS"
 
@@ -15253,7 +15384,7 @@ msgid "Papito"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/scrcmd.c:1778 src/scrcmd.c:1784
+#: src/data/credits_hns.h:111 src/scrcmd.c:1778 src/scrcmd.c:1784
 msgid "Casper"
 msgstr "Casey"
 
@@ -15285,11 +15416,11 @@ msgstr ""
 msgid "leob050"
 msgstr ""
 
-#: src/scrcmd.c:1787
+#: src/data/credits_hns.h:114 src/scrcmd.c:1787
 msgid "Sayu"
 msgstr ""
 
-#: src/scrcmd.c:1788
+#: src/data/credits_hns.h:116 src/scrcmd.c:1788
 msgid "Brick"
 msgstr ""
 
@@ -15302,7 +15433,7 @@ msgid "JIRAIYA"
 msgstr ""
 
 #. source : patch FR actuel
-#: src/script_menu.c:1323 src/data/easy_chat/easy_chat_group_endings.h:88
+#: src/data/easy_chat/easy_chat_group_endings.h:88 src/script_menu.c:1323
 msgid "OTHER"
 msgstr "AUTRE"
 
@@ -15380,19 +15511,19 @@ msgstr ""
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : SAPHIR
-#: src/strings.c:10 src/data/items.h:14879
-#: src/data/easy_chat/easy_chat_group_trainer.h:22
+#: src/data/easy_chat/easy_chat_group_trainer.h:22 src/data/items.h:14879
+#: src/strings.c:10
 msgid "SAPPHIRE"
 msgstr "Sapphire"
 
 #. source : patch FR actuel
-#: src/strings.c:11 src/data/items.h:14862
-#: src/data/easy_chat/easy_chat_group_trainer.h:106
+#: src/data/easy_chat/easy_chat_group_trainer.h:106 src/data/items.h:14862
+#: src/strings.c:11
 msgid "RUBY"
 msgstr "RUBIS"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:12 src/data/easy_chat/easy_chat_group_trainer.h:160
+#: src/data/easy_chat/easy_chat_group_trainer.h:160 src/strings.c:12
 msgid "EMERALD"
 msgstr "EMERAUDE"
 
@@ -15408,66 +15539,72 @@ msgid "MAGMA"
 msgstr "MAGMA"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:15
+#: src/data/trainers.party:592 src/strings.c:15
 msgid "ARCHIE"
 msgstr "Arthur"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:16
+#: src/data/trainers.party:11004 src/data/trainers.party:11026
+#: src/data/trainers.party:13530 src/strings.c:16
 msgid "MAXIE"
 msgstr "MAX"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:17 src/data/pokemon/species_info/gen_3_families.h:12828
-#: src/data/pokemon/species_info/gen_3_families.h:12903
+#: src/data/pokemon/species_info/gen_3_families.h:12828
+#: src/data/pokemon/species_info/gen_3_families.h:12903 src/strings.c:17
 msgid "KYOGRE"
 msgstr "KYOGRE"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:18 src/data/pokemon/species_info/gen_3_families.h:12984
-#: src/data/pokemon/species_info/gen_3_families.h:13059
+#: src/data/pokemon/species_info/gen_3_families.h:12984
+#: src/data/pokemon/species_info/gen_3_families.h:13059 src/strings.c:18
 msgid "GROUDON"
 msgstr "GROUDON"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:19
+#: src/data/trainers.party:9505 src/data/trainers.party:9518
+#: src/data/trainers.party:9539 src/data/trainers.party:9560
+#: src/data/trainers.party:9573 src/data/trainers.party:9594
 msgid "BRENDAN"
 msgstr "BRICE"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:20
+#: src/data/trainers.party:9670 src/data/trainers.party:9683
+#: src/data/trainers.party:9704 src/data/trainers.party:9725
+#: src/data/trainers.party:9738 src/data/trainers.party:9759
 msgid "MAY"
 msgstr "FLORA"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:21 src/strings.c:96 src/data/script_menu.h:756
-#: src/data/easy_chat/easy_chat_group_trainer.h:118
-#: src/data/battle_frontier/battle_frontier_trainers.h:2496
 #: data/text/new_game_intro_frlg.inc:8
+#: src/data/battle_frontier/battle_frontier_trainers.h:2496
+#: src/data/easy_chat/easy_chat_group_trainer.h:118 src/data/script_menu.h:756
+#: src/data/trainers.party:16830 src/data/trainers_hns.party:10390
 msgid "RED"
 msgstr "ROUGE"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:22 src/strings.c:99
-#: src/data/easy_chat/easy_chat_group_trainer.h:124
 #: data/text/new_game_intro_frlg.inc:5
+#: src/data/easy_chat/easy_chat_group_trainer.h:124 src/strings.c:22
+#: src/strings.c:99
 msgid "GREEN"
 msgstr "VERT"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:23 src/strings.c:465 src/strings.c:1016
-#: src/data/easy_chat/easy_chat_group_trainer.h:154
+#: src/data/easy_chat/easy_chat_group_trainer.h:154 src/strings.c:23
+#: src/strings.c:465 src/strings.c:1016
 msgid "SILVER"
 msgstr "argent"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:24 src/data/easy_chat/easy_chat_group_trainer.h:52
+#: src/data/easy_chat/easy_chat_group_trainer.h:52 src/strings.c:24
 msgid "EGG"
 msgstr "OEUF"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:25 src/strings.c:136 src/strings.c:557 src/strings.c:831
-#: src/strings.c:1027 src/data/easy_chat/easy_chat_group_trainer.h:88
+#: src/data/easy_chat/easy_chat_group_trainer.h:88
+#: src/data/easy_chat/easy_chat_groups.h:29 src/strings.c:25 src/strings.c:136
+#: src/strings.c:557 src/strings.c:831
 msgid "POKéMON"
 msgstr "Pokémon"
 
@@ -15493,7 +15630,7 @@ msgstr "Bouton L"
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
-#: src/strings.c:34 src/data/easy_chat/easy_chat_group_time.h:142
+#: src/data/easy_chat/easy_chat_group_time.h:142 src/strings.c:34
 msgid "START"
 msgstr "START"
 
@@ -15543,13 +15680,13 @@ msgid "{A_BUTTON}EXIT"
 msgstr "{A_BUTTON}Retour"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:45 src/data/easy_chat/easy_chat_group_people.h:76
 #: data/text/fame_checker_frlg.inc:1134
+#: src/data/easy_chat/easy_chat_group_people.h:76 src/strings.c:45
 msgid "BOY"
 msgstr "GARÇON"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:46 src/data/easy_chat/easy_chat_group_people.h:130
+#: src/data/easy_chat/easy_chat_group_people.h:130 src/strings.c:46
 msgid "GIRL"
 msgstr "FILLE"
 
@@ -15749,8 +15886,10 @@ msgid "YZ"
 msgstr "YZ"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:97 src/data/script_menu.h:757
 #: src/data/battle_frontier/battle_frontier_trainers.h:2512
+#: src/data/script_menu.h:757 src/data/trainers_hns.party:8690
+#: src/data/trainers_hns.party:8749 src/data/trainers_hns.party:15576
+#: src/strings.c:97
 msgid "BLUE"
 msgstr "BLEU"
 
@@ -15869,7 +16008,7 @@ msgid "LEAGUE CHAMPION!\\nCONGRATULATIONS!"
 msgstr "Maître DE LA Ligue!\\nFELICITATIONS!"
 
 #. source : patch FR actuel (récupéré par pointeur)
-#: src/strings.c:130 src/data/trade.h:39
+#: src/data/trade.h:39 src/strings.c:130
 msgid "Lv. "
 msgstr "N. "
 
@@ -15899,7 +16038,7 @@ msgid "FLY to where?"
 msgstr "VOLER où?"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:138 src/data/easy_chat/easy_chat_group_actions.h:256
+#: src/data/easy_chat/easy_chat_group_actions.h:256 src/strings.c:138
 msgid "USE"
 msgstr "UTILIS."
 
@@ -15924,7 +16063,7 @@ msgid "Go back to the\\nprevious menu."
 msgstr "Retourner au menu\\nprécédent."
 
 #. source : Émeraude FR officiel
-#: src/strings.c:161 data/scripts/secret_base.inc:703
+#: data/scripts/secret_base.inc:703 src/strings.c:161
 msgid "What would you like to do?"
 msgstr "Que voulez-vous faire?"
 
@@ -16071,9 +16210,9 @@ msgid "MEDICINE"
 msgstr "Soins"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:226 src/strings.c:833 src/data/script_menu.h:1244
-#: src/data/union_room.h:538 src/data/easy_chat/easy_chat_group_battle.h:244
-#: src/data/easy_chat/easy_chat_groups.h:50
+#: src/data/easy_chat/easy_chat_group_battle.h:244
+#: src/data/easy_chat/easy_chat_groups.h:50 src/data/script_menu.h:1244
+#: src/data/union_room.h:538 src/strings.c:226 src/strings.c:833
 msgid "BATTLE"
 msgstr "Combat"
 
@@ -16093,7 +16232,7 @@ msgid "SELL"
 msgstr "VENDRE"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:236 data/maps/GoldenrodCity_GameCorner_hns/scripts.inc:808
+#: data/maps/GoldenrodCity_GameCorner_hns/scripts.inc:808 src/strings.c:236
 msgid "QUIT"
 msgstr "QUITTER"
 
@@ -16194,7 +16333,7 @@ msgid "And you wanted {STR_VAR_2} of 'em?\\nThat will be {STR_VAR_3} berry."
 msgstr "Et tu en veux {STR_VAR_2}?\\nÇa fera {STR_VAR_3} baie."
 
 #. source : patch FR actuel
-#: src/strings.c:259 data/maps/AzaleaTown_KurtsHouse_hns/scripts.inc:264
+#: data/maps/AzaleaTown_KurtsHouse_hns/scripts.inc:264 src/strings.c:259
 msgid "KURT: I'll get started right now!"
 msgstr "Fargas: Je m’y mets tout de suite!"
 
@@ -16592,7 +16731,7 @@ msgid "Teach which POKéMON?"
 msgstr "Enseigner à quel Pokémon?"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:333 src/strings.c:347 src/data/trade.h:45
+#: src/data/trade.h:45 src/strings.c:333 src/strings.c:347
 msgid "Choose a POKéMON."
 msgstr "Choisir un Pokémon."
 
@@ -16778,7 +16917,7 @@ msgstr "APPRIS"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : AVOIR
-#: src/strings.c:374 src/data/easy_chat/easy_chat_group_endings.h:184
+#: src/data/easy_chat/easy_chat_group_endings.h:184 src/strings.c:374
 msgid "HAVE"
 msgstr "PORTE"
 
@@ -16830,7 +16969,7 @@ msgid "Want to return to the healing spot\\nused last in {STR_VAR_1}?"
 msgstr "Retourner au dernier lieu de\\nsoins, à {STR_VAR_1}?"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:386 src/data/trade.h:54
+#: src/data/trade.h:54 src/strings.c:386
 msgid "That's your only\\nPOKéMON for battle."
 msgstr "C’est votre seul\\nPOKéMON pour combattre."
 
@@ -16886,7 +17025,7 @@ msgid "RENTAL POKéMON"
 msgstr "LOCATION"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:406 src/data/easy_chat/easy_chat_group_battle.h:184
+#: src/data/easy_chat/easy_chat_group_battle.h:184 src/strings.c:406
 msgid "POWER"
 msgstr "POUVOIR"
 
@@ -16896,9 +17035,9 @@ msgid "ACCURACY"
 msgstr "PRECIS."
 
 #. source : Émeraude FR officiel
-#: src/strings.c:408 src/strings.c:1230
 #: src/data/easy_chat/easy_chat_group_events.h:1
-#: src/data/easy_chat/easy_chat_group_events.h:34
+#: src/data/easy_chat/easy_chat_group_events.h:34 src/strings.c:408
+#: src/strings.c:1230
 msgid "APPEAL"
 msgstr "Charme"
 
@@ -16908,7 +17047,7 @@ msgid "JAM"
 msgstr "BLOCAG."
 
 #. source : Émeraude FR officiel
-#: src/strings.c:410 src/data/easy_chat/easy_chat_groups.h:43
+#: src/data/easy_chat/easy_chat_groups.h:43 src/strings.c:410
 msgid "STATUS"
 msgstr "STATUT"
 
@@ -16929,9 +17068,9 @@ msgstr "RUBANS: {STR_VAR_1}"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : EVENEMENT
-#: src/strings.c:415 src/data/easy_chat/easy_chat_group_events.h:2
+#: src/data/easy_chat/easy_chat_group_events.h:2
 #: src/data/easy_chat/easy_chat_group_events.h:40
-#: src/data/easy_chat/easy_chat_groups.h:148
+#: src/data/easy_chat/easy_chat_groups.h:148 src/strings.c:415
 msgid "EVENTS"
 msgstr "EVENEMENTS"
 
@@ -17122,7 +17261,7 @@ msgstr "EFF. REGIST."
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
-#: src/strings.c:448 src/data/moves_info.h:18097
+#: src/data/moves_info.h:18097 src/strings.c:448
 msgid "DECORATE"
 msgstr "DÉCORER"
 
@@ -17332,8 +17471,9 @@ msgid "SAVING"
 msgstr "EPARGNE"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:498 src/strings.c:567 src/strings.c:621 src/strings.c:814
-#: src/strings.c:1037 src/strings.c:1140
+#: data/maps/GoldenrodCity_GameCorner_hns/scripts.inc:511
+#: src/data/union_room.h:541 src/data/union_room.h:542 src/strings.c:498
+#: src/strings.c:567 src/strings.c:621
 msgid "EXIT"
 msgstr "Retour"
 
@@ -17345,8 +17485,8 @@ msgstr "SANG-FROID"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : INTELLIGENCE
-#: src/strings.c:501 src/data/union_room.h:560
-#: src/data/text/ribbon_descriptions.h:4
+#: src/data/text/ribbon_descriptions.h:4 src/data/union_room.h:560
+#: src/strings.c:501
 msgid "BEAUTY CONTEST"
 msgstr "BEAUTE"
 
@@ -17380,51 +17520,51 @@ msgstr "REGISTRE"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : INFOS
-#: src/strings.c:508 src/data/easy_chat/easy_chat_group_lifestyle.h:112
+#: src/data/easy_chat/easy_chat_group_lifestyle.h:112 src/strings.c:508
 msgid "INFORMATION"
 msgstr "INFORMATION"
 
 #. source : patch FR actuel
-#: src/strings.c:511 src/strings.c:977 src/strings.c:993
-#: src/data/script_menu.h:648
+#: src/data/script_menu.h:648 src/strings.c:511 src/strings.c:977
+#: src/strings.c:993
 msgid "LV. 50"
 msgstr "Niveau 50"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:512 src/strings.c:994 src/data/script_menu.h:649
-#: src/data/script_menu.h:695
+#: src/data/script_menu.h:649 src/data/script_menu.h:695 src/strings.c:512
+#: src/strings.c:994
 msgid "OPEN LEVEL"
 msgstr "NIVEAU LIBRE"
 
 #. source : SoulSilver FR officiel
-#: src/strings.c:513 src/data/items.h:2993
+#: src/data/items.h:2993 src/strings.c:513
 msgid "RED SHARD"
 msgstr "Tesson Rouge"
 
 #. source : SoulSilver FR officiel
-#: src/strings.c:514 src/data/items.h:3021
+#: src/data/items.h:3021 src/strings.c:514
 msgid "YELLOW SHARD"
 msgstr "Tesson Jaune"
 
 #. source : SoulSilver FR officiel
-#: src/strings.c:515 src/data/items.h:3007
+#: src/data/items.h:3007 src/strings.c:515
 msgid "BLUE SHARD"
 msgstr "Tesson Bleu"
 
 #. source : SoulSilver FR officiel
-#: src/strings.c:516 src/data/items.h:3035
+#: src/data/items.h:3035 src/strings.c:516
 msgid "GREEN SHARD"
 msgstr "Tesson Vert"
 
 #. source : SoulSilver FR officiel
-#: src/strings.c:524 src/data/easy_chat/easy_chat_group_events.h:8
-#: src/data/easy_chat/easy_chat_group_events.h:76
+#: src/data/easy_chat/easy_chat_group_events.h:8
+#: src/data/easy_chat/easy_chat_group_events.h:76 src/strings.c:524
 msgid "SUPER"
 msgstr "Super"
 
 #. source : traduction manuelle (style SoulSilver)
-#: src/strings.c:525 src/data/easy_chat/easy_chat_group_events.h:12
-#: src/data/easy_chat/easy_chat_group_events.h:100
+#: src/data/easy_chat/easy_chat_group_events.h:12
+#: src/data/easy_chat/easy_chat_group_events.h:100 src/strings.c:525
 msgid "HYPER"
 msgstr "HYPER"
 
@@ -17453,8 +17593,8 @@ msgid "{PLAYER}'s PC"
 msgstr "PC de {PLAYER}"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:546 src/data/easy_chat/easy_chat_group_events.h:10
-#: src/data/easy_chat/easy_chat_group_events.h:88
+#: src/data/easy_chat/easy_chat_group_events.h:10
+#: src/data/easy_chat/easy_chat_group_events.h:88 src/strings.c:546
 msgid "HALL OF FAME"
 msgstr "PANTHEON"
 
@@ -17465,12 +17605,12 @@ msgid "LOG OFF"
 msgstr "DECONNEXION"
 
 #. source : patch FR actuel
-#: src/strings.c:549 src/data/easy_chat/easy_chat_group_people.h:4
+#: src/data/easy_chat/easy_chat_group_people.h:4 src/strings.c:549
 msgid "OPPONENT"
 msgstr "ADVERSAIRE"
 
 #. source : patch FR actuel
-#: src/strings.c:550 src/data/script_menu.h:684
+#: src/data/script_menu.h:684 src/strings.c:550
 msgid "TOURNEY TREE"
 msgstr "TABLEAU"
 
@@ -17495,7 +17635,7 @@ msgid "MULTI"
 msgstr "MULTI"
 
 #. source : traduction manuelle (style SoulSilver)
-#: src/strings.c:555 src/data/script_menu.h:677
+#: src/data/script_menu.h:677 src/strings.c:555
 msgid "MULTI-LINK"
 msgstr "MULTI-LINK"
 
@@ -17505,13 +17645,14 @@ msgid "POKéGEAR"
 msgstr "Pokématos"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:562 src/strings.c:1032
-#: src/data/easy_chat/easy_chat_group_trainer.h:82
+#: src/data/easy_chat/easy_chat_group_trainer.h:82 src/strings.c:562
+#: src/strings.c:1032
 msgid "POKéNAV"
 msgstr "PokéNav"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:571
+#: src/data/region_map/region_map_sections.json:1401
+#: src/data/region_map/region_map_sections.json:1671 src/strings.c:571
 msgid "NAVEL ROCK"
 msgstr "ROC NOMBRI"
 
@@ -17546,13 +17687,13 @@ msgid "COLOSSEUM"
 msgstr "COLISEE"
 
 #. source : patch FR actuel
-#: src/strings.c:578 src/data/union_room.h:558
+#: src/data/union_room.h:558 src/strings.c:578
 msgid "RECORD CORNER"
 msgstr "CENTRE DE DONNEES"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:579 src/strings.c:772 src/strings.c:871
-#: src/data/union_room.h:554
+#: src/data/union_room.h:554 src/strings.c:579 src/strings.c:772
+#: src/strings.c:871
 msgid "BERRY CRUSH"
 msgstr "BROYEUR DE Baies"
 
@@ -17639,12 +17780,12 @@ msgstr "Suite"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : ENREG.
-#: src/strings.c:596 src/strings.c:981 src/data/script_menu.h:658
+#: src/data/script_menu.h:658 src/strings.c:596 src/strings.c:981
 msgid "RECORD"
 msgstr "RECORD"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:597 src/strings.c:1039 src/data/moves_info.h:4234
+#: src/data/moves_info.h:4234 src/strings.c:597 src/strings.c:1039
 msgid "REST"
 msgstr "Repos"
 
@@ -17674,12 +17815,13 @@ msgid "EXCHANGE SERVICE"
 msgstr "SERVICE D’ECHANGE"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:619
+#: src/data/region_map/region_map_sections.json:101
+#: src/data/region_map/region_map_sections.json:1770 src/strings.c:619
 msgid "LILYCOVE CITY"
 msgstr "NENUCRIQUE"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:620
+#: src/data/region_map/region_map_sections.json:69 src/strings.c:620
 msgid "SLATEPORT CITY"
 msgstr "POIVRESSEL"
 
@@ -18071,9 +18213,9 @@ msgid "The lyrics can't be deleted."
 msgstr "Impossible d’effacer les paroles."
 
 #. source : Émeraude FR officiel
-#: src/strings.c:711 src/data/text/gift_ribbon_descriptions.h:15
 #: data/text/fame_checker_frlg.inc:813 data/text/fame_checker_frlg.inc:963
 #: data/text/fame_checker_frlg.inc:966 data/text/fame_checker_frlg.inc:981
+#: data/text/fame_checker_frlg.inc:984 data/text/fame_checker_frlg.inc:999
 msgid "POKéMON LEAGUE"
 msgstr "Ligue Pokémon"
 
@@ -18157,8 +18299,9 @@ msgid "FERRY"
 msgstr "FERRY"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:725 src/data/easy_chat/easy_chat_group_events.h:17
+#: src/data/easy_chat/easy_chat_group_events.h:17
 #: src/data/easy_chat/easy_chat_group_events.h:130
+#: src/data/region_map/region_map_sections.json:695 src/strings.c:725
 msgid "SECRET BASE"
 msgstr "BASE SECRETE"
 
@@ -18242,7 +18385,7 @@ msgstr "aigre"
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
-#: src/strings.c:743 src/data/easy_chat/easy_chat_group_trendy_saying.h:142
+#: src/data/easy_chat/easy_chat_group_trendy_saying.h:142 src/strings.c:743
 msgid "KNOCKOUT"
 msgstr "K.O."
 
@@ -18280,7 +18423,7 @@ msgid "{STR_VAR_1} survived the poisoning.\\nThe poison faded away!\\p"
 msgstr "{STR_VAR_1} a survécu au poison.\\nIl n’est plus empoisonné!\\p"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:754 src/data/battle_frontier/battle_frontier_trainers.h:261
+#: src/data/battle_frontier/battle_frontier_trainers.h:261 src/strings.c:754
 msgid "MARCO"
 msgstr "Marcus"
 
@@ -18290,7 +18433,7 @@ msgid "NAME: "
 msgstr "NOM "
 
 #. source : Émeraude FR officiel
-#: src/strings.c:757 src/data/easy_chat/easy_chat_group_lifestyle.h:16
+#: src/data/easy_chat/easy_chat_group_lifestyle.h:16 src/strings.c:757
 msgid "MONEY"
 msgstr "ARGENT"
 
@@ -18322,7 +18465,7 @@ msgstr "COMBATS CABLE LINK"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : ECHANGES DE PKMN
-#: src/strings.c:770 src/data/union_room.h:548
+#: src/data/union_room.h:548 src/strings.c:770
 msgid "POKéMON TRADES"
 msgstr "ECHANGES DE Pokémon"
 
@@ -18357,9 +18500,9 @@ msgid "{STR_VAR_1}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BP"
 msgstr "{STR_VAR_1}{COLOR 2}{SHADOW 3}Pco"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:779 src/strings.c:781 src/strings.c:893
 #: src/data/easy_chat/easy_chat_group_events.h:13
-#: src/data/easy_chat/easy_chat_group_events.h:106
+#: src/data/easy_chat/easy_chat_group_events.h:106 src/strings.c:779
+#: src/strings.c:781 src/strings.c:893
 msgid "BATTLE TOWER"
 msgstr "Tour de Combat"
 
@@ -18476,7 +18619,7 @@ msgid "OTHERS"
 msgstr "Retour"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:812 src/data/script_menu.h:657
+#: src/data/script_menu.h:657 src/strings.c:812
 msgid "SYMBOLS"
 msgstr "SYMBOLES"
 
@@ -18526,7 +18669,7 @@ msgid "The registered text has been changed.\\nIs it okay to save the game?"
 msgstr "Le texte enregistré a été modifié.\\nSauvegarder la partie?"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:826 data/text/save.inc:6
+#: data/text/save.inc:6 src/strings.c:826
 msgid "There is already a saved file.\\nIs it okay to overwrite it?"
 msgstr "Il y a déjà une partie sauvegardée.\\nVoulez-vous la remplacer?"
 
@@ -18541,20 +18684,20 @@ msgid "If the LEADER leaves, the chat\\nwill end. Is that okay?"
 msgstr "Si le MENEUR part, le forum\\nse termine. OK?"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:830 src/data/easy_chat/easy_chat_group_greetings.h:94
+#: src/data/easy_chat/easy_chat_group_greetings.h:94 src/strings.c:830
 msgid "HELLO"
 msgstr "SALUT"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:832 src/data/party_menu.h:693 src/data/script_menu.h:1243
-#: src/data/trade.h:47 src/data/trade.h:51
-#: src/data/easy_chat/easy_chat_group_trainer.h:16
+#: src/data/easy_chat/easy_chat_group_trainer.h:16 src/data/party_menu.h:693
+#: src/data/script_menu.h:1243 src/data/trade.h:47 src/data/trade.h:51
+#: src/strings.c:832
 msgid "TRADE"
 msgstr "Echange"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : ALLONS
-#: src/strings.c:834 src/data/easy_chat/easy_chat_group_endings.h:82
+#: src/data/easy_chat/easy_chat_group_endings.h:82 src/strings.c:834
 msgid "LET'S"
 msgstr "ÇA VA?"
 
@@ -18564,7 +18707,7 @@ msgid "OK!"
 msgstr "OK!"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:836 src/data/easy_chat/easy_chat_group_greetings.h:70
+#: src/data/easy_chat/easy_chat_group_greetings.h:70 src/strings.c:836
 msgid "SORRY"
 msgstr "DESOLE"
 
@@ -18574,7 +18717,7 @@ msgid "YAY{EMOJI_BIGSMILE}"
 msgstr "OUAIS{EMOJI_BIGSMILE}"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:838 src/data/easy_chat/easy_chat_group_greetings.h:106
+#: src/data/easy_chat/easy_chat_group_greetings.h:106 src/strings.c:838
 msgid "THANK YOU"
 msgstr "MERCI"
 
@@ -18821,7 +18964,7 @@ msgstr ""
 "Partez à l’aventure et rendez-vous au\\nsommet pour prouver votre bravoure."
 
 #. source : Émeraude FR officiel
-#: src/strings.c:907 src/data/moves_info.h:15515
+#: src/data/moves_info.h:15515 src/strings.c:907
 msgid "POWDER"
 msgstr "POUDRE"
 
@@ -19018,7 +19161,7 @@ msgid "Win streak: {STR_VAR_1}"
 msgstr "Victoires: {STR_VAR_1}"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:980 src/data/easy_chat/easy_chat_group_time.h:46
+#: src/data/easy_chat/easy_chat_group_time.h:46 src/strings.c:980
 msgid "CURRENT"
 msgstr "ACTUEL"
 
@@ -19168,7 +19311,7 @@ msgid "COPPER"
 msgstr "CUIVRE"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:1018 src/data/easy_chat/easy_chat_group_time.h:28
+#: src/data/easy_chat/easy_chat_group_time.h:28 src/strings.c:1018
 msgid "DAY"
 msgstr "JOUR"
 
@@ -19427,7 +19570,7 @@ msgid "{PKMN} FOR SWAP"
 msgstr "{PKMN} Echange"
 
 #. source : patch FR actuel
-#: src/strings.c:1110 src/data/easy_chat/easy_chat_group_battle.h:322
+#: src/data/easy_chat/easy_chat_group_battle.h:322 src/strings.c:1110
 msgid "ACCEPT"
 msgstr "ACCEPTER"
 
@@ -19489,12 +19632,12 @@ msgstr "{DYNAMIC 3} joueurs"
 
 #. source : patch FR actuel
 #. SoulSilver (approché) : Carte Miracle
-#: src/strings.c:1136 src/data/union_room.h:551
+#: src/data/union_room.h:551 src/strings.c:1136
 msgid "WONDER CARDS"
 msgstr "CARTES MIRACLE"
 
 #. source : patch FR actuel
-#: src/strings.c:1137 src/data/union_room.h:552
+#: src/data/union_room.h:552 src/strings.c:1137
 msgid "WONDER NEWS"
 msgstr "INFOS MIRACLE"
 
@@ -19504,7 +19647,7 @@ msgid "WIRELESS COMMUNICATION"
 msgstr "COMMUNICATION SANS FIL"
 
 #. source : SoulSilver FR officiel
-#: src/strings.c:1139 src/data/easy_chat/easy_chat_group_people.h:310
+#: src/data/easy_chat/easy_chat_group_people.h:310 src/strings.c:1139
 msgid "FRIEND"
 msgstr "AMI"
 
@@ -19824,8 +19967,8 @@ msgid "TIME CLEARED "
 msgstr "TEMPS "
 
 #. source : Émeraude FR officiel
-#: src/strings.c:1209 data/maps/TrainerHill_Entrance/scripts.inc:423
-#: data/maps/TrainerTower_Lobby_Frlg/scripts.inc:305
+#: data/maps/TrainerHill_Entrance/scripts.inc:423
+#: data/maps/TrainerTower_Lobby_Frlg/scripts.inc:305 src/strings.c:1209
 msgid "{STR_VAR_1} min. {STR_VAR_2}.{STR_VAR_3} sec."
 msgstr "{STR_VAR_1} min {STR_VAR_2},{STR_VAR_3} s"
 
@@ -19987,8 +20130,8 @@ msgid "ANSWER"
 msgstr "REPONSE"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:1261 src/data/easy_chat/easy_chat_group_events.h:4
-#: src/data/easy_chat/easy_chat_group_events.h:52
+#: src/data/easy_chat/easy_chat_group_events.h:4
+#: src/data/easy_chat/easy_chat_group_events.h:52 src/strings.c:1261
 msgid "BERRY"
 msgstr "Baie"
 
@@ -20008,8 +20151,8 @@ msgid "The Exp. Share has been turned off.{PAUSE_UNTIL_PRESS}"
 msgstr "Le Multi Exp est désactivé.{PAUSE_UNTIL_PRESS}"
 
 #. source : SoulSilver FR officiel
-#: src/strings.c:1266 src/data/types_info.h:217
-#: src/data/easy_chat/easy_chat_group_status.h:190
+#: src/data/easy_chat/easy_chat_group_status.h:190 src/data/types_info.h:217
+#: src/strings.c:1266
 msgid "GHOST"
 msgstr "SPECTRE"
 
@@ -20088,37 +20231,37 @@ msgstr ""
 "s’effacent.{PAUSE_UNTIL_PRESS}"
 
 #. source : patch FR actuel
-#: src/strings.c:1281 src/data/easy_chat/easy_chat_group_time.h:196
+#: src/data/easy_chat/easy_chat_group_time.h:196 src/strings.c:1281
 msgid "SUNDAY"
 msgstr "DIMANCHE"
 
 #. source : patch FR actuel
-#: src/strings.c:1282 src/data/easy_chat/easy_chat_group_time.h:94
+#: src/data/easy_chat/easy_chat_group_time.h:94 src/strings.c:1282
 msgid "MONDAY"
 msgstr "LUNDI"
 
 #. source : patch FR actuel
-#: src/strings.c:1283 src/data/easy_chat/easy_chat_group_time.h:70
+#: src/data/easy_chat/easy_chat_group_time.h:70 src/strings.c:1283
 msgid "TUESDAY"
 msgstr "MARDI"
 
 #. source : patch FR actuel
-#: src/strings.c:1284 src/data/easy_chat/easy_chat_group_time.h:130
+#: src/data/easy_chat/easy_chat_group_time.h:130 src/strings.c:1284
 msgid "WEDNESDAY"
 msgstr "MERCREDI"
 
 #. source : patch FR actuel
-#: src/strings.c:1285 src/data/easy_chat/easy_chat_group_time.h:250
+#: src/data/easy_chat/easy_chat_group_time.h:250 src/strings.c:1285
 msgid "THURSDAY"
 msgstr "JEUDI"
 
 #. source : patch FR actuel
-#: src/strings.c:1286 src/data/easy_chat/easy_chat_group_time.h:88
+#: src/data/easy_chat/easy_chat_group_time.h:88 src/strings.c:1286
 msgid "FRIDAY"
 msgstr "VENDREDI"
 
 #. source : patch FR actuel
-#: src/strings.c:1287 src/data/easy_chat/easy_chat_group_time.h:184
+#: src/data/easy_chat/easy_chat_group_time.h:184 src/strings.c:1287
 msgid "SATURDAY"
 msgstr "SAMEDI"
 
@@ -20227,7 +20370,7 @@ msgstr "LA FORCE"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Savoir
-#: src/strings.c:1308 src/data/pokemon/species_info/gen_4_families.h:6480
+#: src/data/pokemon/species_info/gen_4_families.h:6480 src/strings.c:1308
 msgid "Knowledge"
 msgstr "Savoir"
 
@@ -20265,141 +20408,8 @@ msgstr "Rouge"
 msgid "BLUE STONE"
 msgstr "Bleue"
 
-#. source : patch FR actuel
-#: src/text_input_strings.c:4
-msgid ""
-"{CLEAR 11}A{CLEAR 6}B{CLEAR 6}C{CLEAR 26}D{CLEAR 6}E{CLEAR 6}F{CLEAR "
-"26}others"
-msgstr ""
-"{CLEAR 11}A{CLEAR 6}B{CLEAR 6}C{CLEAR 26}D{CLEAR 6}E{CLEAR 6}F{CLEAR "
-"26}autres"
-
 #. source : Émeraude FR officiel
-#: src/text_input_strings.c:5
-msgid "{CLEAR 11}G{CLEAR 6}H{CLEAR 6}I{CLEAR 26}J{CLEAR 6}K{CLEAR 6}L"
-msgstr "{CLEAR 11}G{CLEAR 6}H{CLEAR 6}I{CLEAR 26}J{CLEAR 6}K{CLEAR 6}L"
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:6 src/text_input_strings.c:16
-msgid ""
-"{CLEAR 11}M{CLEAR 6}N{CLEAR 6}O{CLEAR 26}P{CLEAR 6}Q{CLEAR 6}R{CLEAR "
-"6}S{CLEAR 26} "
-msgstr ""
-"{CLEAR 11}Q{CLEAR 6}R{CLEAR 6}S{CLEAR 6}T{CLEAR 20}U{CLEAR 6}V{CLEAR "
-"6}W{CLEAR 6}X{CLEAR 20} "
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:7 src/text_input_strings.c:17
-msgid ""
-"{CLEAR 11}T{CLEAR 6}U{CLEAR 6}V{CLEAR 26}W{CLEAR 6}X{CLEAR 6}Y{CLEAR "
-"6}Z{CLEAR 26} "
-msgstr ""
-"{CLEAR 11}Y{CLEAR 6}Z{CLEAR 6} {CLEAR 9} {CLEAR 23}-{CLEAR 6} {CLEAR 6} "
-"{CLEAR 6} {CLEAR 20} "
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:10
-msgid ""
-"{CLEAR 11}a{CLEAR 6}b{CLEAR 6}c{CLEAR 26}d{CLEAR 6}e{CLEAR 6}f{CLEAR 6} "
-"{CLEAR 30}."
-msgstr ""
-"{CLEAR 11}a{CLEAR 6}b{CLEAR 6}c{CLEAR 6}d{CLEAR 20}e{CLEAR 6}f{CLEAR "
-"6}g{CLEAR 6}h{CLEAR 20}."
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:11
-msgid ""
-"{CLEAR 11}g{CLEAR 6}h{CLEAR 7}i{CLEAR 27}j{CLEAR 7}k{CLEAR 7}l{CLEAR 7} "
-"{CLEAR 30},"
-msgstr ""
-"{CLEAR 12}i{CLEAR 7}j{CLEAR 7}k{CLEAR 7}l{CLEAR 21}m{CLEAR 6}n{CLEAR "
-"6}o{CLEAR 6}p{CLEAR 20},"
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:12
-msgid ""
-"{CLEAR 11}m{CLEAR 6}n{CLEAR 6}o{CLEAR 26}p{CLEAR 6}q{CLEAR 7}r{CLEAR "
-"6}s{CLEAR 27} "
-msgstr ""
-"{CLEAR 11}q{CLEAR 7}r{CLEAR 6}s{CLEAR 6}t{CLEAR 20}u{CLEAR 6}v{CLEAR "
-"6}w{CLEAR 6}x{CLEAR 20} "
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:13
-msgid ""
-"{CLEAR 11}t{CLEAR 6}u{CLEAR 6}v{CLEAR 26}w{CLEAR 6}x{CLEAR 6}y{CLEAR "
-"6}z{CLEAR 26} "
-msgstr ""
-"{CLEAR 11}y{CLEAR 6}z{CLEAR 6} {CLEAR 9} {CLEAR 23}-{CLEAR 6} {CLEAR 6} "
-"{CLEAR 6} {CLEAR 20} "
-
-#: src/text_input_strings.c:14
-msgid ""
-"{CLEAR 11}A{CLEAR 6}B{CLEAR 6}C{CLEAR 26}D{CLEAR 6}E{CLEAR 6}F{CLEAR 6} "
-"{CLEAR 30}."
-msgstr ""
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:15
-msgid ""
-"{CLEAR 11}G{CLEAR 6}H{CLEAR 6}I{CLEAR 26}J{CLEAR 6}K{CLEAR 6}L{CLEAR 6} "
-"{CLEAR 30},"
-msgstr ""
-"{CLEAR 11}I{CLEAR 6}J{CLEAR 6}K{CLEAR 6}L{CLEAR 20}M{CLEAR 6}N{CLEAR "
-"6}O{CLEAR 6}P{CLEAR 20},"
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:24
-msgid "ABCDE"
-msgstr "ABCDE"
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:25
-msgid "FGHIJ"
-msgstr "FGHIJ"
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:26
-msgid "KLMNO"
-msgstr "KLMNO"
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:27
-msgid "PQRST"
-msgstr "PQRST"
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:28
-msgid "UVWXY"
-msgstr "UVWXY"
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:34
-msgid "abcde"
-msgstr "abcde"
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:35
-msgid "fghij"
-msgstr "fghij"
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:36
-msgid "klmno"
-msgstr "klmno"
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:37
-msgid "pqrst"
-msgstr "pqrst"
-
-#. source : Émeraude FR officiel
-#: src/text_input_strings.c:38
-msgid "uvwxy"
-msgstr "uvwxy"
-
-#. source : Émeraude FR officiel
-#: src/trader.c:20 src/data/battle_frontier/battle_frontier_trainers.h:527
+#: src/data/battle_frontier/battle_frontier_trainers.h:527 src/trader.c:20
 msgid "TRISTAN"
 msgstr "FRANCK"
 
@@ -20409,24 +20419,25 @@ msgid "PHILIP"
 msgstr "Aymeric"
 
 #. source : Émeraude FR officiel
-#: src/trader.c:22 src/data/battle_frontier/battle_tent.h:1717
+#: src/data/battle_frontier/battle_tent.h:1717 src/trader.c:22
 msgid "DENNIS"
 msgstr "Gilles"
 
 #. source : Émeraude FR officiel
-#: src/trader.c:23 src/data/battle_frontier/battle_frontier_trainers.h:1224
+#: src/data/battle_frontier/battle_frontier_trainers.h:1224 src/trader.c:23
 msgid "ROBERTO"
 msgstr "Roberto"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_fan_club.c:282 data/text/fame_checker_frlg.inc:1164
+#: data/text/fame_checker_frlg.inc:1164 src/data/trainers_frlg.party:7086
+#: src/trainer_fan_club.c:282
 msgid "LT. SURGE"
 msgstr "Major Bob"
 
 #. source : traduction manuelle (style SoulSilver)
-#: src/trainer_fan_club.c:283 src/data/trainers_frlg.h:19432
-#: src/data/trainers_hns.h:25231 src/data/trainers_hns.h:25360
-#: src/data/trainers_hns.h:43257 data/text/fame_checker_frlg.inc:1200
+#: data/text/fame_checker_frlg.inc:1200 src/data/trainers_frlg.party:7154
+#: src/data/trainers_hns.party:9138 src/data/trainers_hns.party:9189
+#: src/data/trainers_hns.party:15700 src/trainer_fan_club.c:283
 msgid "KOGA"
 msgstr "KOGA"
 
@@ -20435,49 +20446,51 @@ msgstr "KOGA"
 msgid "{STR_VAR_1}MIN. {STR_VAR_2}.{STR_VAR_3}SEC."
 msgstr "{STR_VAR_1}MIN {STR_VAR_2},{STR_VAR_3}S"
 
-#: src/trainer_tower_sets.c:109 src/data/trainers.h:9570
-#: src/data/trainers_frlg.h:10722
+#: src/data/trainers.party:3547 src/data/trainers_frlg.party:3863
+#: src/trainer_tower_sets.c:109
 msgid "COLE"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:137 src/trainer_tower_sets.c:1120
-#: src/trainer_tower_sets.c:4741 src/trainer_tower_sets.c:8491
+#: src/data/battle_frontier/trainer_hill.h:7656
 #: src/data/pokemon/species_info/gen_1_families.h:2196
 #: src/data/pokemon/species_info/gen_1_families.h:2372
+#: src/data/pokemon/species_info/gen_1_families.h:2447
+#: src/trainer_tower_sets.c:137 src/trainer_tower_sets.c:1120
 msgid "RATICATE"
 msgstr "RATTATAC"
 
 #. source : SoulSilver FR officiel
+#: src/data/pokemon/species_info/gen_1_families.h:17697
 #: src/trainer_tower_sets.c:159 src/trainer_tower_sets.c:2285
 #: src/trainer_tower_sets.c:2933
-#: src/data/pokemon/species_info/gen_1_families.h:17697
 msgid "MAGMAR"
 msgstr "MAGMAR"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:181
-#: src/data/pokemon/species_info/gen_2_families.h:6365
 #: src/data/battle_frontier/trainer_hill.h:7340
+#: src/data/pokemon/species_info/gen_2_families.h:6365
+#: src/trainer_tower_sets.c:181
 msgid "MAGCARGO"
 msgstr "VOLCAROPOD"
 
 #. source : SoulSilver FR officiel
+#: src/data/pokemon/species_info/gen_1_families.h:8198
 #: src/trainer_tower_sets.c:203 src/trainer_tower_sets.c:1442
 #: src/trainer_tower_sets.c:2329 src/trainer_tower_sets.c:8513
-#: src/data/pokemon/species_info/gen_1_families.h:8198
 msgid "PRIMEAPE"
 msgstr "COLOSSINGE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:225
 #: src/data/pokemon/species_info/gen_1_families.h:6250
+#: src/trainer_tower_sets.c:225
 msgid "GOLBAT"
 msgstr "NOSFERALTO"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:247 src/trainer_tower_sets.c:2440
-#: src/trainer_tower_sets.c:4675
+#: data/maps/Route25_BillsHouse_hns/scripts.inc:331
+#: src/data/battle_frontier/trainer_hill.h:1040
+#: src/data/battle_frontier/trainer_hill.h:5551
 #: src/data/pokemon/species_info/gen_1_families.h:10916
 #: src/data/pokemon/species_info/gen_1_families.h:11057
 #: src/data/pokemon/species_info/gen_1_families.h:11217
@@ -20489,50 +20502,52 @@ msgid "JAC"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:295 src/trainer_tower_sets.c:2597
+#: data/maps/Route25_BillsHouse_hns/scripts.inc:319
+#: src/data/battle_frontier/trainer_hill.h:2145
+#: src/data/battle_frontier/trainer_hill.h:7577
 #: src/data/pokemon/species_info/gen_1_families.h:7455
 #: src/data/pokemon/species_info/gen_1_families.h:7608
 #: src/data/pokemon/species_info/gen_1_families.h:7769
-#: src/data/pokemon/species_info/gen_1_families.h:7912
 msgid "MEOWTH"
 msgstr "MIAOUSS"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:317 src/trainer_tower_sets.c:2163
-#: src/trainer_tower_sets.c:3211 src/trainer_tower_sets.c:3355
-#: src/data/script_menu.h:819
+#: src/data/battle_frontier/trainer_hill.h:5106
 #: src/data/pokemon/species_info/gen_1_families.h:19167
+#: src/data/script_menu.h:819 src/trainer_tower_sets.c:317
+#: src/trainer_tower_sets.c:2163 src/trainer_tower_sets.c:3211
 msgid "FLAREON"
 msgstr "PYROLI"
 
 #. source : SoulSilver FR officiel
+#: src/data/pokemon/species_info/gen_1_families.h:19582
 #: src/trainer_tower_sets.c:339 src/trainer_tower_sets.c:7177
 #: src/trainer_tower_sets.c:7869
-#: src/data/pokemon/species_info/gen_1_families.h:19582
 msgid "PORYGON"
 msgstr "PORYGON"
 
 #. source : SoulSilver FR officiel
+#: src/data/pokemon/species_info/gen_1_families.h:15517
 #: src/trainer_tower_sets.c:361 src/trainer_tower_sets.c:453
 #: src/trainer_tower_sets.c:541 src/trainer_tower_sets.c:6533
-#: src/data/pokemon/species_info/gen_1_families.h:15517
 msgid "CHANSEY"
 msgstr "LEVEINARD"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:383
+#: data/maps/Route25_BillsHouse_hns/scripts.inc:337
 #: src/data/pokemon/species_info/gen_1_families.h:11616
 #: src/data/pokemon/species_info/gen_1_families.h:11703
-#: data/maps/Route25_BillsHouse_hns/scripts.inc:337
+#: src/trainer_tower_sets.c:383
 msgid "FARFETCH'D"
 msgstr "CANARTICHO"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:405 src/trainer_tower_sets.c:1320
-#: src/trainer_tower_sets.c:7224
+#: data/maps/Route25_BillsHouse_hns/scripts.inc:343
+#: src/data/battle_frontier/trainer_hill.h:1527
+#: src/data/battle_frontier/trainer_hill.h:1977
+#: src/data/battle_frontier/trainer_hill.h:5384
 #: src/data/pokemon/species_info/gen_1_families.h:16691
 #: src/data/pokemon/species_info/gen_1_families.h:16767
-#: src/data/battle_frontier/trainer_hill.h:1527
 msgid "MR. MIME"
 msgstr "M. MIME"
 
@@ -20543,19 +20558,20 @@ msgid "MILY"
 msgstr "MILY"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:475 src/trainer_tower_sets.c:563
-#: src/trainer_tower_sets.c:9034
+#: src/data/battle_frontier/trainer_hill.h:1856
 #: src/data/pokemon/species_info/gen_1_families.h:5462
 #: src/data/pokemon/species_info/gen_1_families.h:5533
-#: src/data/battle_frontier/trainer_hill.h:1856
+#: src/trainer_tower_sets.c:475 src/trainer_tower_sets.c:563
+#: src/trainer_tower_sets.c:9034
 msgid "CLEFABLE"
 msgstr "MELODELFE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:497 src/trainer_tower_sets.c:519
-#: src/trainer_tower_sets.c:976 src/trainer_tower_sets.c:4586
-#: src/trainer_tower_sets.c:8069
+#: src/data/battle_frontier/trainer_hill.h:1925
+#: src/data/battle_frontier/trainer_hill.h:6125
 #: src/data/pokemon/species_info/gen_2_families.h:1723
+#: src/trainer_tower_sets.c:497 src/trainer_tower_sets.c:519
+#: src/trainer_tower_sets.c:976
 msgid "TOGETIC"
 msgstr "TOGETIC"
 
@@ -20564,104 +20580,113 @@ msgid "JOS & ANNE"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:610 src/trainer_tower_sets.c:2141
-#: src/trainer_tower_sets.c:2506 src/trainer_tower_sets.c:4232
+#: data/maps/Route25_BillsHouse_hns/scripts.inc:325
+#: src/data/battle_frontier/trainer_hill.h:7359
 #: src/data/pokemon/species_info/gen_1_families.h:10609
 #: src/data/pokemon/species_info/gen_1_families.h:10761
+#: src/trainer_tower_sets.c:610 src/trainer_tower_sets.c:2141
 msgid "RAPIDASH"
 msgstr "GALOPA"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:632 src/trainer_tower_sets.c:3855
-#: src/data/pokemon/species_info/gen_1_families.h:5669
-#: src/data/pokemon/species_info/gen_1_families.h:5826
 #: src/data/battle_frontier/trainer_hill.h:1171
 #: src/data/battle_frontier/trainer_hill.h:5682
+#: src/data/battle_frontier/trainer_hill.h:8751
+#: src/data/battle_frontier/trainer_hill.h:9174
+#: src/data/pokemon/species_info/gen_1_families.h:5669
+#: src/data/pokemon/species_info/gen_1_families.h:5826
 msgid "NINETALES"
 msgstr "FEUNARD"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:654 src/trainer_tower_sets.c:8635
-#: src/data/pokemon/species_info/gen_2_families.h:3945
 #: src/data/battle_frontier/trainer_hill.h:4916
 #: src/data/battle_frontier/trainer_hill.h:9321
+#: src/data/pokemon/species_info/gen_2_families.h:3945
+#: src/trainer_tower_sets.c:654 src/trainer_tower_sets.c:8635
 msgid "MISDREAVUS"
 msgstr "FEUFOREVE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:676 src/trainer_tower_sets.c:1232
-#: src/trainer_tower_sets.c:5634 src/trainer_tower_sets.c:7268
-#: src/trainer_tower_sets.c:7425
+#: src/data/battle_frontier/trainer_hill.h:4019
+#: src/data/battle_frontier/trainer_hill.h:5748
+#: src/data/battle_frontier/trainer_hill.h:8492
+#: src/data/battle_frontier/trainer_hill.h:8691
 #: src/data/pokemon/species_info/gen_1_families.h:9143
+#: src/data/pokemon/species_info/gen_1_families.h:9233
 msgid "ALAKAZAM"
 msgstr "ALAKAZAM"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:698 src/trainer_tower_sets.c:6799
-#: src/trainer_tower_sets.c:7133
-#: src/data/pokemon/species_info/gen_1_families.h:15596
 #: src/data/battle_frontier/trainer_hill.h:4278
 #: src/data/battle_frontier/trainer_hill.h:5768
+#: src/data/pokemon/species_info/gen_1_families.h:15596
+#: src/trainer_tower_sets.c:698 src/trainer_tower_sets.c:6799
+#: src/trainer_tower_sets.c:7133
 msgid "BLISSEY"
 msgstr "LEUPHORIE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:720 src/trainer_tower_sets.c:3699
-#: src/trainer_tower_sets.c:8657
-#: src/data/pokemon/species_info/gen_1_families.h:6357
 #: src/data/battle_frontier/trainer_hill.h:594
 #: src/data/battle_frontier/trainer_hill.h:4218
+#: src/data/battle_frontier/trainer_hill.h:8858
+#: src/data/pokemon/species_info/gen_1_families.h:6357
+#: src/trainer_tower_sets.c:720 src/trainer_tower_sets.c:3699
 msgid "CROBAT"
 msgstr "NOSTENFER"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:754 src/trainer_tower_sets.c:1420
-#: src/trainer_tower_sets.c:2063
+#: src/data/battle_frontier/trainer_hill.h:2840
+#: src/data/battle_frontier/trainer_hill.h:8164
 #: src/data/pokemon/species_info/gen_2_families.h:7501
 #: src/data/pokemon/species_info/gen_2_families.h:7583
-#: src/data/battle_frontier/trainer_hill.h:2840
+#: src/trainer_tower_sets.c:754 src/trainer_tower_sets.c:1420
 msgid "HOUNDOOM"
 msgstr "DEMOLOSSE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:776
-#: src/data/pokemon/species_info/gen_1_families.h:20119
-#: src/data/pokemon/species_info/gen_1_families.h:20192
 #: src/data/battle_frontier/trainer_hill.h:2441
 #: src/data/battle_frontier/trainer_hill.h:2513
+#: src/data/pokemon/species_info/gen_1_families.h:20119
+#: src/data/pokemon/species_info/gen_1_families.h:20192
+#: src/trainer_tower_sets.c:776
 msgid "AERODACTYL"
 msgstr "PTERA"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:798 src/trainer_tower_sets.c:2019
-#: src/trainer_tower_sets.c:3999 src/trainer_tower_sets.c:4542
+#: src/data/battle_frontier/trainer_hill.h:2688
 #: src/data/pokemon/species_info/gen_1_families.h:8414
 #: src/data/pokemon/species_info/gen_1_families.h:8566
+#: src/trainer_tower_sets.c:798 src/trainer_tower_sets.c:2019
+#: src/trainer_tower_sets.c:3999
 msgid "ARCANINE"
 msgstr "ARCANIN"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:820 src/trainer_tower_sets.c:6954
-#: src/trainer_tower_sets.c:8569
+#: data/maps/Route25_BillsHouse_hns/scripts.inc:340
+#: src/data/battle_frontier/trainer_hill.h:4977
+#: src/data/battle_frontier/trainer_hill.h:5876
 #: src/data/pokemon/species_info/gen_1_families.h:15027
 #: src/data/pokemon/species_info/gen_1_families.h:15104
-#: src/data/battle_frontier/trainer_hill.h:4977
+#: src/trainer_tower_sets.c:820
 msgid "WEEZING"
 msgstr "SMOGOGO"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:842 src/trainer_tower_sets.c:1975
+#: src/data/battle_frontier/trainer_hill.h:5702
 #: src/data/pokemon/species_info/gen_1_families.h:543
 #: src/data/pokemon/species_info/gen_1_families.h:612
 #: src/data/pokemon/species_info/gen_1_families.h:684
 #: src/data/pokemon/species_info/gen_1_families.h:759
+#: src/trainer_tower_sets.c:842
 msgid "CHARIZARD"
 msgstr "DRACAUFEU"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:864 src/trainer_tower_sets.c:3677
-#: src/trainer_tower_sets.c:7290 src/trainer_tower_sets.c:7403
-#: src/trainer_tower_sets.c:8613
+#: src/data/battle_frontier/trainer_hill.h:4814
+#: src/data/battle_frontier/trainer_hill.h:8452
+#: src/data/battle_frontier/trainer_hill.h:8918
+#: src/data/battle_frontier/trainer_hill.h:9243
+#: src/data/battle_frontier/trainer_hill.h:9281
 #: src/data/pokemon/species_info/gen_1_families.h:12805
 msgid "GENGAR"
 msgstr "ECTOPLASMA"
@@ -20671,78 +20696,80 @@ msgid "EMY & ALEK"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:910 src/trainer_tower_sets.c:2418
-#: src/trainer_tower_sets.c:6555 src/trainer_tower_sets.c:7547
 #: src/data/pokemon/species_info/gen_1_families.h:18005
 #: src/data/pokemon/species_info/gen_1_families.h:18079
+#: src/data/pokemon/species_info/gen_1_families.h:18159
+#: src/data/pokemon/species_info/gen_1_families.h:18239
+#: src/trainer_tower_sets.c:910 src/trainer_tower_sets.c:2418
 msgid "TAUROS"
 msgstr "TAUROS"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:932 src/trainer_tower_sets.c:5011
-#: src/trainer_tower_sets.c:7525 src/trainer_tower_sets.c:8535
+#: src/data/battle_frontier/trainer_hill.h:8340
 #: src/data/pokemon/species_info/gen_1_families.h:15827
 #: src/data/pokemon/species_info/gen_1_families.h:15899
+#: src/trainer_tower_sets.c:932 src/trainer_tower_sets.c:5011
+#: src/trainer_tower_sets.c:7525
 msgid "KANGASKHAN"
 msgstr "KANGOUREX"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:954 src/trainer_tower_sets.c:3977
-#: src/data/pokemon/species_info/gen_1_families.h:2593
 #: src/data/battle_frontier/trainer_hill.h:3562
+#: src/data/pokemon/species_info/gen_1_families.h:2593
+#: src/trainer_tower_sets.c:954 src/trainer_tower_sets.c:3977
 msgid "FEAROW"
 msgstr "RAPASDEPIC"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:998
 #: src/data/pokemon/species_info/gen_1_families.h:1966
 #: src/data/pokemon/species_info/gen_1_families.h:2036
+#: src/trainer_tower_sets.c:998
 msgid "PIDGEOT"
 msgstr "ROUCARNAGE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1020 src/trainer_tower_sets.c:3811
-#: src/trainer_tower_sets.c:5590
-#: src/data/pokemon/species_info/gen_2_families.h:6070
 #: src/data/battle_frontier/trainer_hill.h:8300
 #: src/data/battle_frontier/trainer_hill.h:8579
+#: src/data/pokemon/species_info/gen_2_families.h:6070
+#: src/trainer_tower_sets.c:1020 src/trainer_tower_sets.c:3811
+#: src/trainer_tower_sets.c:5590
 msgid "URSARING"
 msgstr "URSARING"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1054 src/trainer_tower_sets.c:8469
-#: src/data/pokemon/species_info/gen_1_families.h:14792
 #: src/data/battle_frontier/trainer_hill.h:5531
+#: src/data/pokemon/species_info/gen_1_families.h:14792
+#: src/trainer_tower_sets.c:1054 src/trainer_tower_sets.c:8469
 msgid "LICKITUNG"
 msgstr "EXCELANGUE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1076 src/trainer_tower_sets.c:3833
-#: src/data/pokemon/species_info/gen_2_families.h:1117
 #: src/data/battle_frontier/trainer_hill.h:2017
 #: src/data/battle_frontier/trainer_hill.h:3504
+#: src/data/pokemon/species_info/gen_2_families.h:1117
+#: src/trainer_tower_sets.c:1076 src/trainer_tower_sets.c:3833
 msgid "NOCTOWL"
 msgstr "NOARFANG"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1098 src/trainer_tower_sets.c:5268
 #: src/data/pokemon/species_info/gen_2_families.h:964
+#: src/trainer_tower_sets.c:1098 src/trainer_tower_sets.c:5268
 msgid "FURRET"
 msgstr "FOUINAR"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1142 src/trainer_tower_sets.c:9012
-#: src/data/pokemon/species_info/gen_1_families.h:6086
 #: src/data/battle_frontier/trainer_hill.h:1020
 #: src/data/battle_frontier/trainer_hill.h:2037
 #: src/data/battle_frontier/trainer_hill.h:6156
+#: src/data/pokemon/species_info/gen_1_families.h:6086
+#: src/trainer_tower_sets.c:1142 src/trainer_tower_sets.c:9012
 msgid "WIGGLYTUFF"
 msgstr "GRODOUDOU"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1164 src/trainer_tower_sets.c:7155
-#: src/data/pokemon/species_info/gen_1_families.h:19659
 #: src/data/battle_frontier/trainer_hill.h:8126
+#: src/data/pokemon/species_info/gen_1_families.h:19659
+#: src/trainer_tower_sets.c:1164 src/trainer_tower_sets.c:7155
 msgid "PORYGON2"
 msgstr "PORYGON2"
 
@@ -20751,67 +20778,68 @@ msgid "JO & HALEY"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1210 src/trainer_tower_sets.c:5124
 #: src/data/pokemon/species_info/gen_2_families.h:5655
 #: src/data/pokemon/species_info/gen_2_families.h:5833
+#: src/trainer_tower_sets.c:1210 src/trainer_tower_sets.c:5124
 msgid "SNEASEL"
 msgstr "FARFURET"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1254
-#: src/data/pokemon/species_info/gen_1_families.h:14719
 #: src/data/battle_frontier/trainer_hill.h:761
 #: src/data/battle_frontier/trainer_hill.h:3633
 #: src/data/battle_frontier/trainer_hill.h:5232
+#: src/data/pokemon/species_info/gen_1_families.h:14719
+#: src/trainer_tower_sets.c:1254
 msgid "HITMONTOP"
 msgstr "KAPOERA"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1276 src/trainer_tower_sets.c:5534
-#: src/trainer_tower_sets.c:7312
-#: src/data/pokemon/species_info/gen_2_families.h:4363
 #: src/data/battle_frontier/trainer_hill.h:401
 #: src/data/battle_frontier/trainer_hill.h:1679
+#: src/data/battle_frontier/trainer_hill.h:3079
+#: src/data/pokemon/species_info/gen_2_families.h:4363
+#: src/trainer_tower_sets.c:1276 src/trainer_tower_sets.c:5534
 msgid "GIRAFARIG"
 msgstr "GIRAFARIG"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1298 src/trainer_tower_sets.c:3721
-#: src/data/pokemon/species_info/gen_2_families.h:1951
 #: src/data/battle_frontier/trainer_hill.h:1297
 #: src/data/battle_frontier/trainer_hill.h:2057
+#: src/data/pokemon/species_info/gen_2_families.h:1951
+#: src/trainer_tower_sets.c:1298 src/trainer_tower_sets.c:3721
 msgid "XATU"
 msgstr "XATU"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1354 src/trainer_tower_sets.c:7246
-#: src/data/pokemon/species_info/gen_1_families.h:13331
 #: src/data/battle_frontier/trainer_hill.h:1238
 #: src/data/battle_frontier/trainer_hill.h:4445
+#: src/data/pokemon/species_info/gen_1_families.h:13331
+#: src/trainer_tower_sets.c:1354 src/trainer_tower_sets.c:7246
 msgid "HYPNO"
 msgstr "HYPNOMADE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1376 src/trainer_tower_sets.c:3077
-#: src/data/pokemon/species_info/gen_1_families.h:14639
 #: src/data/battle_frontier/trainer_hill.h:5292
 #: src/data/battle_frontier/trainer_hill.h:8038
+#: src/data/pokemon/species_info/gen_1_families.h:14639
+#: src/trainer_tower_sets.c:1376 src/trainer_tower_sets.c:3077
 msgid "HITMONCHAN"
 msgstr "TYGNON"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1398 src/trainer_tower_sets.c:2307
-#: src/trainer_tower_sets.c:3011 src/trainer_tower_sets.c:6511
+#: src/data/battle_frontier/trainer_hill.h:3827
+#: src/data/battle_frontier/trainer_hill.h:8559
 #: src/data/pokemon/species_info/gen_1_families.h:9479
 #: src/data/pokemon/species_info/gen_1_families.h:9558
+#: src/trainer_tower_sets.c:1398 src/trainer_tower_sets.c:2307
 msgid "MACHAMP"
 msgstr "MACKOGNEUR"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1464 src/trainer_tower_sets.c:2955
+#: src/data/battle_frontier/trainer_hill.h:5212
 #: src/data/pokemon/species_info/gen_2_families.h:5488
 #: src/data/pokemon/species_info/gen_2_families.h:5576
-#: src/data/battle_frontier/trainer_hill.h:5212
+#: src/trainer_tower_sets.c:1464 src/trainer_tower_sets.c:2955
 msgid "HERACROSS"
 msgstr "SCARHINO"
 
@@ -20820,179 +20848,189 @@ msgid "JORDY"
 msgstr ""
 
 #. source : SoulSilver FR officiel
+#: src/data/battle_frontier/trainer_hill.h:7934
+#: src/data/pokemon/species_info/gen_1_families.h:17625
 #: src/trainer_tower_sets.c:1510 src/trainer_tower_sets.c:1676
 #: src/trainer_tower_sets.c:1908
-#: src/data/pokemon/species_info/gen_1_families.h:17625
-#: src/data/battle_frontier/trainer_hill.h:7934
 msgid "MAGBY"
 msgstr "MAGBY"
 
 #. source : SoulSilver FR officiel
+#: src/data/battle_frontier/trainer_hill.h:7894
+#: src/data/pokemon/species_info/gen_1_families.h:5303
 #: src/trainer_tower_sets.c:1532 src/trainer_tower_sets.c:1654
 #: src/trainer_tower_sets.c:1842 src/trainer_tower_sets.c:8790
-#: src/data/pokemon/species_info/gen_1_families.h:5303
-#: src/data/battle_frontier/trainer_hill.h:7894
 msgid "CLEFFA"
 msgstr "MELO"
 
 #. source : SoulSilver FR officiel
+#: src/data/pokemon/species_info/gen_1_families.h:5916
 #: src/trainer_tower_sets.c:1554 src/trainer_tower_sets.c:1742
 #: src/trainer_tower_sets.c:1864 src/trainer_tower_sets.c:8768
-#: src/data/pokemon/species_info/gen_1_families.h:5916
 msgid "IGGLYBUFF"
 msgstr "TOUDOUDOU"
 
 #. source : SoulSilver FR officiel
+#: src/data/battle_frontier/trainer_hill.h:7834
+#: src/data/pokemon/species_info/gen_1_families.h:17249
 #: src/trainer_tower_sets.c:1576 src/trainer_tower_sets.c:1720
 #: src/trainer_tower_sets.c:1886
-#: src/data/pokemon/species_info/gen_1_families.h:17249
-#: src/data/battle_frontier/trainer_hill.h:7834
 msgid "SMOOCHUM"
 msgstr "LIPPOUTI"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1598 src/trainer_tower_sets.c:1698
-#: src/trainer_tower_sets.c:1820 src/trainer_tower_sets.c:2575
-#: src/trainer_tower_sets.c:8169
+#: src/data/battle_frontier/trainer_hill.h:3358
+#: src/data/battle_frontier/trainer_hill.h:5424
 #: src/data/pokemon/species_info/gen_2_families.h:1653
+#: src/trainer_tower_sets.c:1598 src/trainer_tower_sets.c:1698
+#: src/trainer_tower_sets.c:1820
 msgid "TOGEPI"
 msgstr "TOGEPI"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1620 src/trainer_tower_sets.c:1764
-#: src/trainer_tower_sets.c:1798 src/trainer_tower_sets.c:8125
-#: src/trainer_tower_sets.c:8724
+#: src/data/battle_frontier/trainer_hill.h:3378
 #: src/data/pokemon/species_info/gen_1_families.h:2818
+#: src/data/pokemon/species_info/gen_1_families.h:2889
+#: src/trainer_tower_sets.c:1620 src/trainer_tower_sets.c:1764
+#: src/trainer_tower_sets.c:1798
 msgid "PICHU"
 msgstr "PICHU"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1626
+#: src/data/trainers.party:8970 src/data/trainers.party:9063
+#: src/data/trainers.party:9084 src/data/trainers.party:9105
+#: src/data/trainers.party:9126 src/data/trainers_frlg.party:1941
 msgid "ERNEST"
 msgstr "Samuel"
 
-#: src/trainer_tower_sets.c:1770
 #: src/data/battle_frontier/battle_frontier_trainers.h:1096
+#: src/trainer_tower_sets.c:1770
 msgid "GABRIEL"
 msgstr ""
 
-#: src/trainer_tower_sets.c:1925 src/data/trainers.h:31755
-#: src/data/trainers.h:31813 src/data/trainers_frlg.h:11938
-#: src/data/trainers_hns.h:2869
+#: src/data/trainers.party:11589 src/data/trainers.party:11610
+#: src/data/trainers_frlg.party:4288 src/data/trainers_hns.party:1014
+#: src/trainer_tower_sets.c:1925
 msgid "MIKE"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:1953 src/trainer_tower_sets.c:3033
-#: src/data/pokemon/species_info/gen_1_families.h:17849
-#: src/data/pokemon/species_info/gen_1_families.h:17922
 #: src/data/battle_frontier/trainer_hill.h:5145
 #: src/data/battle_frontier/trainer_hill.h:5272
+#: src/data/pokemon/species_info/gen_1_families.h:17849
+#: src/data/pokemon/species_info/gen_1_families.h:17922
+#: src/trainer_tower_sets.c:1953 src/trainer_tower_sets.c:3033
 msgid "PINSIR"
 msgstr "SCARABRUTE"
 
 #. source : SoulSilver FR officiel
+#: src/data/battle_frontier/trainer_hill.h:6655
+#: src/data/pokemon/species_info/gen_1_families.h:15267
 #: src/trainer_tower_sets.c:1997 src/trainer_tower_sets.c:2889
 #: src/trainer_tower_sets.c:5678 src/trainer_tower_sets.c:7591
-#: src/data/pokemon/species_info/gen_1_families.h:15267
-#: src/data/battle_frontier/trainer_hill.h:6655
 msgid "RHYDON"
 msgstr "RHINOFEROS"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2041 src/trainer_tower_sets.c:2911
-#: src/trainer_tower_sets.c:3555 src/trainer_tower_sets.c:4077
-#: src/trainer_tower_sets.c:6976
+#: src/data/battle_frontier/trainer_hill.h:3807
 #: src/data/pokemon/species_info/gen_1_families.h:10223
+#: src/data/pokemon/species_info/gen_1_families.h:10461
+#: src/trainer_tower_sets.c:2041 src/trainer_tower_sets.c:2911
+#: src/trainer_tower_sets.c:3555
 msgid "GOLEM"
 msgstr "GROLEM"
 
-#: src/trainer_tower_sets.c:2069 src/data/trainers_hns.h:18597
-#: src/data/battle_frontier/battle_tent.h:634
+#: src/data/battle_frontier/battle_tent.h:634 src/data/trainers_hns.party:6566
+#: src/trainer_tower_sets.c:2069
 msgid "REBECCA"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2097 src/trainer_tower_sets.c:4298
-#: src/trainer_tower_sets.c:5234
+#: src/data/battle_frontier/trainer_hill.h:4405
 #: src/data/pokemon/species_info/gen_1_families.h:4599
 #: src/data/pokemon/species_info/gen_1_families.h:4755
-#: src/data/battle_frontier/trainer_hill.h:4405
+#: src/trainer_tower_sets.c:2097 src/trainer_tower_sets.c:4298
+#: src/trainer_tower_sets.c:5234
 msgid "SANDSLASH"
 msgstr "SABLAIREAU"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2119 src/trainer_tower_sets.c:7891
 #: src/data/pokemon/species_info/gen_1_families.h:21070
+#: src/trainer_tower_sets.c:2119 src/trainer_tower_sets.c:7891
 msgid "DRAGONAIR"
 msgstr "DRACO"
 
 #. source : SoulSilver FR officiel
+#: src/data/battle_frontier/trainer_hill.h:5662
+#: src/data/pokemon/species_info/gen_1_families.h:4996
 #: src/trainer_tower_sets.c:2185 src/trainer_tower_sets.c:4320
 #: src/trainer_tower_sets.c:5490 src/trainer_tower_sets.c:9056
-#: src/data/pokemon/species_info/gen_1_families.h:4996
-#: src/data/battle_frontier/trainer_hill.h:5662
 msgid "NIDOQUEEN"
 msgstr "NIDOQUEEN"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2207 src/trainer_tower_sets.c:6843
-#: src/trainer_tower_sets.c:7913 src/trainer_tower_sets.c:8447
+#: src/data/battle_frontier/trainer_hill.h:980
+#: src/data/battle_frontier/trainer_hill.h:2185
 #: src/data/pokemon/species_info/gen_1_families.h:7535
 #: src/data/pokemon/species_info/gen_1_families.h:7689
+#: src/trainer_tower_sets.c:2207 src/trainer_tower_sets.c:6843
 msgid "PERSIAN"
 msgstr "PERSIAN"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2213
+#: src/data/trainers.party:7191 src/data/trainers.party:7208
+#: src/data/trainers.party:7225 src/data/trainers.party:7242
+#: src/data/trainers.party:7263 src/data/trainers_frlg.party:9064
 msgid "NICOLAS"
 msgstr "Nohan"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2241 src/trainer_tower_sets.c:2867
-#: src/data/pokemon/species_info/gen_1_families.h:14568
 #: src/data/battle_frontier/trainer_hill.h:681
 #: src/data/battle_frontier/trainer_hill.h:1111
 #: src/data/battle_frontier/trainer_hill.h:8107
+#: src/data/pokemon/species_info/gen_1_families.h:14568
+#: src/trainer_tower_sets.c:2241 src/trainer_tower_sets.c:2867
 msgid "HITMONLEE"
 msgstr "KICKLEE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2263
 #: src/data/pokemon/species_info/gen_1_families.h:16915
+#: src/trainer_tower_sets.c:2263
 msgid "SCYTHER"
 msgstr "INSECATEUR"
 
 #. source : SoulSilver FR officiel
+#: src/data/pokemon/species_info/gen_1_families.h:8802
 #: src/trainer_tower_sets.c:2351 src/trainer_tower_sets.c:2977
 #: src/trainer_tower_sets.c:3121 src/trainer_tower_sets.c:4989
-#: src/data/pokemon/species_info/gen_1_families.h:8802
 msgid "POLIWRATH"
 msgstr "TARTARD"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2368
+#: src/data/trainers.party:6005 src/data/trainers_frlg.party:78
+#: src/data/trainers_hns.party:90 src/data/trainers_hns.party:11074
+#: src/data/trainers_hns.party:11090 src/data/trainers_hns.party:11106
 msgid "JOEY"
 msgstr "Farouk"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2396 src/trainer_tower_sets.c:4210
 #: src/data/pokemon/species_info/gen_2_families.h:3787
+#: src/trainer_tower_sets.c:2396 src/trainer_tower_sets.c:4210
 msgid "MURKROW"
 msgstr "CORNEBRE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2462
-#: src/data/pokemon/species_info/gen_1_families.h:2748
 #: src/data/battle_frontier/trainer_hill.h:3179
+#: src/data/pokemon/species_info/gen_1_families.h:2748
+#: src/trainer_tower_sets.c:2462
 msgid "ARBOK"
 msgstr "ARBOK"
 
 #. source : SoulSilver FR officiel
+#: src/data/battle_frontier/trainer_hill.h:1151
+#: src/data/pokemon/species_info/gen_1_families.h:5219
 #: src/trainer_tower_sets.c:2484 src/trainer_tower_sets.c:3467
 #: src/trainer_tower_sets.c:5656 src/trainer_tower_sets.c:9078
-#: src/data/pokemon/species_info/gen_1_families.h:5219
-#: src/data/battle_frontier/trainer_hill.h:1151
 msgid "NIDOKING"
 msgstr "NIDOKING"
 
@@ -21001,85 +21039,85 @@ msgid "LILY"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2553 src/trainer_tower_sets.c:5812
-#: src/trainer_tower_sets.c:8978
-#: src/data/pokemon/species_info/gen_1_families.h:5380
 #: src/data/battle_frontier/trainer_hill.h:813
 #: src/data/battle_frontier/trainer_hill.h:6049
+#: src/data/pokemon/species_info/gen_1_families.h:5380
+#: src/trainer_tower_sets.c:2553 src/trainer_tower_sets.c:5812
+#: src/trainer_tower_sets.c:8978
 msgid "CLEFAIRY"
 msgstr "MELOFEE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2619 src/trainer_tower_sets.c:5934
-#: src/trainer_tower_sets.c:8956
-#: src/data/pokemon/species_info/gen_1_families.h:5994
 #: src/data/battle_frontier/trainer_hill.h:6106
 #: src/data/battle_frontier/trainer_hill.h:6301
+#: src/data/pokemon/species_info/gen_1_families.h:5994
+#: src/trainer_tower_sets.c:2619 src/trainer_tower_sets.c:5934
+#: src/trainer_tower_sets.c:8956
 msgid "JIGGLYPUFF"
 msgstr "RONDOUDOU"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2641 src/trainer_tower_sets.c:4608
-#: src/trainer_tower_sets.c:6577
+#: src/data/battle_frontier/trainer_hill.h:8260
 #: src/data/pokemon/species_info/gen_1_families.h:20344
 #: src/data/pokemon/species_info/gen_1_families.h:20417
-#: src/data/battle_frontier/trainer_hill.h:8260
+#: src/trainer_tower_sets.c:2641 src/trainer_tower_sets.c:4608
+#: src/trainer_tower_sets.c:6577
 msgid "SNORLAX"
 msgstr "RONFLEX"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2663 src/trainer_tower_sets.c:5912
-#: src/data/pokemon/species_info/gen_2_families.h:5034
 #: src/data/battle_frontier/trainer_hill.h:3418
+#: src/data/pokemon/species_info/gen_2_families.h:5034
+#: src/trainer_tower_sets.c:2663 src/trainer_tower_sets.c:5912
 msgid "SNUBBULL"
 msgstr "SNUBBULL"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2682 src/data/trainers.h:43433
-#: src/data/trainers_frlg.h:29258 src/data/trainers_hns.h:19149
-#: src/data/trainers_hns.h:30088
+#: src/data/trainers.party:15993 src/data/trainers_frlg.party:10765
+#: src/data/trainers_hns.party:6761 src/data/trainers_hns.party:11061
+#: src/trainer_tower_sets.c:2682
 msgid "BRANDON"
 msgstr "Brandon"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2710
 #: src/data/pokemon/species_info/gen_1_families.h:1331
 #: src/data/pokemon/species_info/gen_1_families.h:1427
+#: src/trainer_tower_sets.c:2710
 msgid "BUTTERFREE"
 msgstr "PAPILUSION"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2732
+#: src/data/battle_frontier/trainer_hill.h:7636
 #: src/data/pokemon/species_info/gen_1_families.h:1651
 #: src/data/pokemon/species_info/gen_1_families.h:1728
-#: src/data/battle_frontier/trainer_hill.h:7636
+#: src/trainer_tower_sets.c:2732
 msgid "BEEDRILL"
 msgstr "DARDARGNAN"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2754 src/trainer_tower_sets.c:4398
 #: src/data/pokemon/species_info/gen_1_families.h:6883
+#: src/trainer_tower_sets.c:2754 src/trainer_tower_sets.c:4398
 msgid "PARASECT"
 msgstr "PARASECT"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2776
-#: src/data/pokemon/species_info/gen_2_families.h:3286
 #: src/data/battle_frontier/trainer_hill.h:6488
+#: src/data/pokemon/species_info/gen_2_families.h:3286
+#: src/trainer_tower_sets.c:2776
 msgid "YANMA"
 msgstr "YANMA"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2798
-#: src/data/pokemon/species_info/gen_2_families.h:5418
 #: src/data/battle_frontier/trainer_hill.h:4345
+#: src/data/pokemon/species_info/gen_2_families.h:5418
+#: src/trainer_tower_sets.c:2798
 msgid "SHUCKLE"
 msgstr "CARATROC"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:2820 src/trainer_tower_sets.c:7020
-#: src/data/pokemon/species_info/gen_2_families.h:4588
 #: src/data/battle_frontier/trainer_hill.h:9097
+#: src/data/pokemon/species_info/gen_2_families.h:4588
+#: src/trainer_tower_sets.c:2820 src/trainer_tower_sets.c:7020
 msgid "FORRETRESS"
 msgstr "FORETRESS"
 
@@ -21088,19 +21126,20 @@ msgid "RIC & RENE"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3055 src/trainer_tower_sets.c:4498
-#: src/trainer_tower_sets.c:5568
+#: src/data/battle_frontier/trainer_hill.h:4577
+#: src/data/battle_frontier/trainer_hill.h:9050
 #: src/data/pokemon/species_info/gen_1_families.h:14257
 #: src/data/pokemon/species_info/gen_1_families.h:14336
 #: src/data/pokemon/species_info/gen_1_families.h:14411
+#: src/trainer_tower_sets.c:3055
 msgid "MAROWAK"
 msgstr "OSSATUEUR"
 
 #. source : SoulSilver FR officiel
+#: src/data/battle_frontier/trainer_hill.h:6747
+#: src/data/pokemon/species_info/gen_1_families.h:17471
 #: src/trainer_tower_sets.c:3099 src/trainer_tower_sets.c:7825
 #: src/trainer_tower_sets.c:8047 src/trainer_tower_sets.c:8303
-#: src/data/pokemon/species_info/gen_1_families.h:17471
-#: src/data/battle_frontier/trainer_hill.h:6747
 msgid "ELECTABUZZ"
 msgstr "ELEKTEK"
 
@@ -21109,42 +21148,42 @@ msgid "JEN & KIRA"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3167 src/trainer_tower_sets.c:3311
-#: src/trainer_tower_sets.c:7111 src/trainer_tower_sets.c:7447
-#: src/data/script_menu.h:820
+#: src/data/battle_frontier/trainer_hill.h:8671
 #: src/data/pokemon/species_info/gen_1_families.h:19099
+#: src/data/script_menu.h:820 src/trainer_tower_sets.c:3167
+#: src/trainer_tower_sets.c:3311 src/trainer_tower_sets.c:7111
 msgid "JOLTEON"
 msgstr "VOLTALI"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3189 src/trainer_tower_sets.c:3333
-#: src/trainer_tower_sets.c:6777
-#: src/data/pokemon/species_info/gen_1_families.h:19236
 #: src/data/battle_frontier/trainer_hill.h:3999
 #: src/data/battle_frontier/trainer_hill.h:5845
+#: src/data/battle_frontier/trainer_hill.h:8412
+#: src/data/pokemon/species_info/gen_1_families.h:19236
+#: src/trainer_tower_sets.c:3189 src/trainer_tower_sets.c:3333
 msgid "ESPEON"
 msgstr "MENTALI"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3233 src/trainer_tower_sets.c:3377
-#: src/trainer_tower_sets.c:4653 src/trainer_tower_sets.c:6755
-#: src/data/script_menu.h:821
+#: src/data/battle_frontier/trainer_hill.h:5471
 #: src/data/pokemon/species_info/gen_1_families.h:19031
+#: src/data/script_menu.h:821 src/trainer_tower_sets.c:3233
+#: src/trainer_tower_sets.c:3377 src/trainer_tower_sets.c:4653
 msgid "VAPOREON"
 msgstr "AQUALI"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3255 src/trainer_tower_sets.c:3399
-#: src/data/script_menu.h:818
 #: src/data/pokemon/species_info/gen_1_families.h:18786
 #: src/data/pokemon/species_info/gen_1_families.h:18894
 #: src/data/pokemon/species_info/gen_1_families.h:18954
+#: src/data/script_menu.h:818 src/trainer_tower_sets.c:3255
+#: src/trainer_tower_sets.c:3399
 msgid "EEVEE"
 msgstr "EVOLI"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3277 src/trainer_tower_sets.c:3421
 #: src/data/pokemon/species_info/gen_1_families.h:19303
+#: src/trainer_tower_sets.c:3277 src/trainer_tower_sets.c:3421
 msgid "UMBREON"
 msgstr "NOCTALI"
 
@@ -21153,248 +21192,255 @@ msgid "ISAC & MAG"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3489
 #: src/data/pokemon/species_info/gen_2_families.h:4872
+#: src/trainer_tower_sets.c:3489
 msgid "GLIGAR"
 msgstr "SCORPLANE"
 
 #. source : SoulSilver FR officiel
+#: src/data/pokemon/species_info/gen_2_families.h:3556
 #: src/trainer_tower_sets.c:3511 src/trainer_tower_sets.c:4876
 #: src/trainer_tower_sets.c:5190 src/trainer_tower_sets.c:5356
 #: src/trainer_tower_sets.c:8003
-#: src/data/pokemon/species_info/gen_2_families.h:3556
 msgid "QUAGSIRE"
 msgstr "MARAISTE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3533
 #: src/data/pokemon/species_info/gen_2_families.h:6515
+#: src/trainer_tower_sets.c:3533
 msgid "PILOSWINE"
 msgstr "COCHIGNON"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3577
+#: src/data/battle_frontier/trainer_hill.h:4776
 #: src/data/pokemon/species_info/gen_1_families.h:13086
 #: src/data/pokemon/species_info/gen_1_families.h:13173
-#: src/data/battle_frontier/trainer_hill.h:4776
+#: src/trainer_tower_sets.c:3577
 msgid "STEELIX"
 msgstr "STEELIX"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3611
 #: src/data/pokemon/species_info/gen_2_families.h:7300
 #: src/data/pokemon/species_info/gen_2_families.h:7371
+#: src/trainer_tower_sets.c:3611
 msgid "SKARMORY"
 msgstr "AIRMURE"
 
 #. source : SoulSilver FR officiel
+#: src/data/battle_frontier/trainer_hill.h:8057
+#: src/data/pokemon/species_info/gen_2_families.h:7227
 #: src/trainer_tower_sets.c:3633 src/trainer_tower_sets.c:6312
 #: src/trainer_tower_sets.c:6356 src/trainer_tower_sets.c:7703
-#: src/data/pokemon/species_info/gen_2_families.h:7227
-#: src/data/battle_frontier/trainer_hill.h:8057
 msgid "MANTINE"
 msgstr "DEMANTA"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3655
 #: src/data/pokemon/species_info/gen_2_families.h:2896
+#: src/trainer_tower_sets.c:3655
 msgid "JUMPLUFF"
 msgstr "COTOVOL"
 
-#: src/trainer_tower_sets.c:3739
 #: src/data/battle_frontier/battle_frontier_trainers.h:551
+#: src/trainer_tower_sets.c:3739
 msgid "CHELSEA"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3767 src/trainer_tower_sets.c:4420
-#: src/data/pokemon/species_info/gen_1_families.h:6613
 #: src/data/battle_frontier/trainer_hill.h:1389
 #: src/data/battle_frontier/trainer_hill.h:1902
 #: src/data/battle_frontier/trainer_hill.h:2337
+#: src/data/pokemon/species_info/gen_1_families.h:6613
+#: src/trainer_tower_sets.c:3767 src/trainer_tower_sets.c:4420
 msgid "VILEPLUME"
 msgstr "RAFFLESIA"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3789 src/trainer_tower_sets.c:4810
-#: src/trainer_tower_sets.c:6821 src/trainer_tower_sets.c:7334
-#: src/trainer_tower_sets.c:7935
+#: src/data/battle_frontier/trainer_hill.h:554
+#: src/data/battle_frontier/trainer_hill.h:4238
+#: src/data/battle_frontier/trainer_hill.h:6251
+#: src/data/battle_frontier/trainer_hill.h:8432
+#: src/data/battle_frontier/trainer_hill.h:8711
 #: src/data/pokemon/species_info/gen_1_families.h:16466
 msgid "STARMIE"
 msgstr "STAROSS"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3877
 #: src/data/pokemon/species_info/gen_2_families.h:1268
+#: src/trainer_tower_sets.c:3877
 msgid "LEDIAN"
 msgstr "COXYCLAQUE"
 
-#: src/trainer_tower_sets.c:3883
 #: src/data/battle_frontier/battle_frontier_trainers.h:462
+#: src/trainer_tower_sets.c:3883
 msgid "TRENTON"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3911 src/trainer_tower_sets.c:5446
-#: src/trainer_tower_sets.c:6378 src/trainer_tower_sets.c:6422
-#: src/trainer_tower_sets.c:7791
+#: src/data/battle_frontier/trainer_hill.h:2708
+#: src/data/battle_frontier/trainer_hill.h:4795
+#: src/data/battle_frontier/trainer_hill.h:9262
 #: src/data/pokemon/species_info/gen_1_families.h:18407
+#: src/data/pokemon/species_info/gen_1_families.h:18490
+#: src/trainer_tower_sets.c:3911
 msgid "GYARADOS"
 msgstr "LEVIATOR"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3933 src/trainer_tower_sets.c:4376
 #: src/data/pokemon/species_info/gen_1_families.h:9779
 #: src/data/pokemon/species_info/gen_1_families.h:9854
+#: src/trainer_tower_sets.c:3933 src/trainer_tower_sets.c:4376
 msgid "VICTREEBEL"
 msgstr "EMPIFLOR"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:3955
 #: src/data/pokemon/species_info/gen_2_families.h:7734
+#: src/trainer_tower_sets.c:3955
 msgid "DONPHAN"
 msgstr "DONPHAN"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:4021
 #: src/data/pokemon/species_info/gen_2_families.h:1432
+#: src/trainer_tower_sets.c:4021
 msgid "ARIADOS"
 msgstr "MIGALOS"
 
-#: src/trainer_tower_sets.c:4027 src/data/trainers.h:3787
-#: src/data/trainers_hns.h:337
+#: src/data/trainers.party:1459 src/data/trainers_hns.party:120
+#: src/trainer_tower_sets.c:4027
 msgid "ALBERT"
 msgstr ""
 
 #. source : SoulSilver FR officiel
+#: src/data/pokemon/species_info/gen_1_families.h:16145
 #: src/trainer_tower_sets.c:4055 src/trainer_tower_sets.c:4854
 #: src/trainer_tower_sets.c:6489
-#: src/data/pokemon/species_info/gen_1_families.h:16145
 msgid "KINGDRA"
 msgstr "HYPOROI"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:4099 src/trainer_tower_sets.c:4920
-#: src/trainer_tower_sets.c:7613
+#: src/data/battle_frontier/trainer_hill.h:4166
+#: src/data/battle_frontier/trainer_hill.h:8639
 #: src/data/pokemon/species_info/gen_1_families.h:21146
 #: src/data/pokemon/species_info/gen_1_families.h:21220
-#: src/data/battle_frontier/trainer_hill.h:4166
+#: src/trainer_tower_sets.c:4099 src/trainer_tower_sets.c:4920
 msgid "DRAGONITE"
 msgstr "DRACOLOSSE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:4121
-#: src/data/pokemon/species_info/gen_2_families.h:8496
-#: src/data/pokemon/species_info/gen_2_families.h:8567
 #: src/data/battle_frontier/trainer_hill.h:4146
 #: src/data/battle_frontier/trainer_hill.h:8619
+#: src/data/pokemon/species_info/gen_2_families.h:8496
+#: src/data/pokemon/species_info/gen_2_families.h:8567
+#: src/trainer_tower_sets.c:4121
 msgid "TYRANITAR"
 msgstr "TYRANOCIF"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:4143 src/trainer_tower_sets.c:8391
-#: src/trainer_tower_sets.c:9122
+#: src/data/battle_frontier/trainer_hill.h:5068
 #: src/data/pokemon/species_info/gen_2_families.h:2189
 #: src/data/pokemon/species_info/gen_2_families.h:2260
-#: src/data/battle_frontier/trainer_hill.h:5068
+#: src/trainer_tower_sets.c:4143 src/trainer_tower_sets.c:8391
+#: src/trainer_tower_sets.c:9122
 msgid "AMPHAROS"
 msgstr "PHARAMP"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:4165 src/trainer_tower_sets.c:4442
+#: src/data/battle_frontier/trainer_hill.h:7194
 #: src/data/pokemon/species_info/gen_1_families.h:175
 #: src/data/pokemon/species_info/gen_1_families.h:259
 #: src/data/pokemon/species_info/gen_1_families.h:334
-#: src/data/battle_frontier/trainer_hill.h:7194
+#: src/trainer_tower_sets.c:4165 src/trainer_tower_sets.c:4442
 msgid "VENUSAUR"
 msgstr "FLORIZARRE"
 
-#: src/trainer_tower_sets.c:4182 src/data/battle_frontier/battle_tent.h:714
+#: src/data/battle_frontier/battle_tent.h:714 src/trainer_tower_sets.c:4182
 msgid "CAMRYN"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:4254 src/trainer_tower_sets.c:5033
-#: src/trainer_tower_sets.c:7569
-#: src/data/pokemon/species_info/gen_2_families.h:8040
 #: src/data/battle_frontier/trainer_hill.h:853
 #: src/data/battle_frontier/trainer_hill.h:1659
+#: src/data/battle_frontier/trainer_hill.h:8280
+#: src/data/pokemon/species_info/gen_2_families.h:8040
+#: src/trainer_tower_sets.c:4254 src/trainer_tower_sets.c:5033
 msgid "MILTANK"
 msgstr "ECREMEUH"
 
 #. source : SoulSilver FR officiel
+#: src/data/battle_frontier/trainer_hill.h:7302
+#: src/data/pokemon/species_info/gen_1_families.h:8045
 #: src/trainer_tower_sets.c:4276 src/trainer_tower_sets.c:5055
 #: src/trainer_tower_sets.c:8091
-#: src/data/pokemon/species_info/gen_1_families.h:8045
-#: src/data/battle_frontier/trainer_hill.h:7302
 msgid "GOLDUCK"
 msgstr "AKWAKWAK"
 
-#: src/trainer_tower_sets.c:4326 src/data/contest_opponents.h:1531
+#: src/data/contest_opponents.h:1531 src/trainer_tower_sets.c:4326
 msgid "NATALIA"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:4354
-#: src/data/pokemon/species_info/gen_1_families.h:6702
 #: src/data/battle_frontier/trainer_hill.h:1369
 #: src/data/battle_frontier/trainer_hill.h:1810
 #: src/data/battle_frontier/trainer_hill.h:5953
+#: src/data/pokemon/species_info/gen_1_families.h:6702
+#: src/trainer_tower_sets.c:4354
 msgid "BELLOSSOM"
 msgstr "JOLIFLOR"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:4464
+#: src/data/battle_frontier/trainer_hill.h:5973
 #: src/data/pokemon/species_info/gen_2_families.h:170
 #: src/data/pokemon/species_info/gen_2_families.h:253
-#: src/data/battle_frontier/trainer_hill.h:5973
+#: src/trainer_tower_sets.c:4464
 msgid "MEGANIUM"
 msgstr "MEGANIUM"
 
-#: src/trainer_tower_sets.c:4470 src/data/trainers.h:29320
+#: src/data/trainers.party:10725 src/trainer_tower_sets.c:4470
 msgid "KATHLEEN"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:4520 src/trainer_tower_sets.c:4898
-#: src/trainer_tower_sets.c:5468 src/trainer_tower_sets.c:6467
-#: src/trainer_tower_sets.c:7635
+#: src/data/battle_frontier/trainer_hill.h:4477
+#: src/data/battle_frontier/trainer_hill.h:8950
 #: src/data/pokemon/species_info/gen_1_families.h:18569
+#: src/data/pokemon/species_info/gen_1_families.h:18643
+#: src/trainer_tower_sets.c:4520 src/trainer_tower_sets.c:4898
 msgid "LAPRAS"
 msgstr "LOKHLASS"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:4564 src/trainer_tower_sets.c:7491
-#: src/trainer_tower_sets.c:8369 src/trainer_tower_sets.c:9100
+#: src/data/battle_frontier/trainer_hill.h:2317
 #: src/data/pokemon/species_info/gen_1_families.h:4237
 #: src/data/pokemon/species_info/gen_1_families.h:4325
+#: src/data/pokemon/species_info/gen_1_families.h:4403
+#: src/data/pokemon/species_info/gen_1_families.h:4464
+#: src/trainer_tower_sets.c:4564
 msgid "RAICHU"
 msgstr "RAICHU"
 
-#: src/trainer_tower_sets.c:4625
 #: src/data/battle_frontier/battle_frontier_trainers.h:1128
+#: src/trainer_tower_sets.c:4625
 msgid "BRADEN"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:4697 src/trainer_tower_sets.c:5424
-#: src/data/pokemon/species_info/gen_1_families.h:8877
 #: src/data/battle_frontier/trainer_hill.h:1833
 #: src/data/battle_frontier/trainer_hill.h:4557
 #: src/data/battle_frontier/trainer_hill.h:9030
+#: src/data/pokemon/species_info/gen_1_families.h:8877
+#: src/trainer_tower_sets.c:4697 src/trainer_tower_sets.c:5424
 msgid "POLITOED"
 msgstr "TARPAUD"
 
 #. source : SoulSilver FR officiel
+#: src/data/pokemon/species_info/gen_1_families.h:9990
 #: src/trainer_tower_sets.c:4719 src/trainer_tower_sets.c:6721
 #: src/trainer_tower_sets.c:7769
-#: src/data/pokemon/species_info/gen_1_families.h:9990
 msgid "TENTACRUEL"
 msgstr "TENTACRUEL"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:4763
 #: src/data/pokemon/species_info/gen_2_families.h:4664
+#: src/trainer_tower_sets.c:4763
 msgid "DUNSPARCE"
 msgstr "INSOLOURDO"
 
@@ -21403,30 +21449,30 @@ msgid "ALLYSON"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:4832
+#: src/data/battle_frontier/trainer_hill.h:7321
 #: src/data/pokemon/species_info/gen_1_families.h:969
 #: src/data/pokemon/species_info/gen_1_families.h:1041
 #: src/data/pokemon/species_info/gen_1_families.h:1116
-#: src/data/battle_frontier/trainer_hill.h:7321
+#: src/trainer_tower_sets.c:4832
 msgid "BLASTOISE"
 msgstr "TORTANK"
 
-#: src/trainer_tower_sets.c:4939 src/data/trainers.h:515
+#: src/data/trainers.party:257 src/trainer_tower_sets.c:4939
 msgid "ALBERTO"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:4967
+#: src/data/battle_frontier/trainer_hill.h:4624
 #: src/data/pokemon/species_info/gen_2_families.h:760
 #: src/data/pokemon/species_info/gen_2_families.h:833
-#: src/data/battle_frontier/trainer_hill.h:4624
+#: src/trainer_tower_sets.c:4967
 msgid "FERALIGATR"
 msgstr "ALIGATUEUR"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5077 src/trainer_tower_sets.c:8425
-#: src/data/pokemon/species_info/gen_2_families.h:5110
 #: src/data/battle_frontier/trainer_hill.h:1607
+#: src/data/pokemon/species_info/gen_2_families.h:5110
+#: src/trainer_tower_sets.c:5077 src/trainer_tower_sets.c:8425
 msgid "GRANBULL"
 msgstr "GRANBULL"
 
@@ -21435,57 +21481,57 @@ msgid "KAT & KIPP"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5146
-#: src/data/pokemon/species_info/gen_1_families.h:19893
 #: src/data/battle_frontier/trainer_hill.h:2553
 #: src/data/battle_frontier/trainer_hill.h:5511
+#: src/data/pokemon/species_info/gen_1_families.h:19893
+#: src/trainer_tower_sets.c:5146
 msgid "OMASTAR"
 msgstr "AMONISTAR"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5168 src/trainer_tower_sets.c:7725
-#: src/data/pokemon/species_info/gen_1_families.h:12108
 #: src/data/battle_frontier/trainer_hill.h:4537
 #: src/data/battle_frontier/trainer_hill.h:9010
+#: src/data/pokemon/species_info/gen_1_families.h:12108
+#: src/trainer_tower_sets.c:5168 src/trainer_tower_sets.c:7725
 msgid "DEWGONG"
 msgstr "LAMANTINE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5212
-#: src/data/pokemon/species_info/gen_2_families.h:6695
-#: src/data/pokemon/species_info/gen_2_families.h:6770
+#: data/maps/Route25_BillsHouse_hns/scripts.inc:355
 #: src/data/battle_frontier/trainer_hill.h:3458
 #: src/data/battle_frontier/trainer_hill.h:6213
-#: data/maps/Route25_BillsHouse_hns/scripts.inc:355
+#: src/data/pokemon/species_info/gen_2_families.h:6695
+#: src/data/pokemon/species_info/gen_2_families.h:6770
+#: src/trainer_tower_sets.c:5212
 msgid "CORSOLA"
 msgstr "CORAYON"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5290 src/trainer_tower_sets.c:6865
 #: src/data/pokemon/species_info/gen_2_families.h:2501
+#: src/trainer_tower_sets.c:5290 src/trainer_tower_sets.c:6865
 msgid "AZUMARILL"
 msgstr "AZUMARILL"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5312
-#: src/data/pokemon/species_info/gen_1_families.h:13491
-#: src/data/pokemon/species_info/gen_1_families.h:13562
 #: src/data/battle_frontier/trainer_hill.h:4126
 #: src/data/battle_frontier/trainer_hill.h:8599
+#: src/data/pokemon/species_info/gen_1_families.h:13491
+#: src/data/pokemon/species_info/gen_1_families.h:13562
+#: src/trainer_tower_sets.c:5312
 msgid "KINGLER"
 msgstr "KRABBOSS"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5334 src/trainer_tower_sets.c:7747
-#: src/data/pokemon/species_info/gen_1_families.h:12572
 #: src/data/battle_frontier/trainer_hill.h:1000
+#: src/data/pokemon/species_info/gen_1_families.h:12572
+#: src/trainer_tower_sets.c:5334 src/trainer_tower_sets.c:7747
 msgid "CLOYSTER"
 msgstr "CRUSTABRI"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5378
-#: src/data/pokemon/species_info/gen_1_families.h:20049
 #: src/data/battle_frontier/trainer_hill.h:2533
+#: src/data/pokemon/species_info/gen_1_families.h:20049
+#: src/trainer_tower_sets.c:5378
 msgid "KABUTOPS"
 msgstr "KABUTOPS"
 
@@ -21494,19 +21540,19 @@ msgid "GEB&MEGAN"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5512
-#: src/data/pokemon/species_info/gen_1_families.h:17323
 #: src/data/battle_frontier/trainer_hill.h:6324
+#: src/data/pokemon/species_info/gen_1_families.h:17323
+#: src/trainer_tower_sets.c:5512
 msgid "JYNX"
 msgstr "LIPPOUTOU"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5612
-#: src/data/pokemon/species_info/gen_1_families.h:10986
-#: src/data/pokemon/species_info/gen_1_families.h:11296
+#: data/maps/Route25_BillsHouse_hns/scripts.inc:334
 #: src/data/battle_frontier/trainer_hill.h:1258
 #: src/data/battle_frontier/trainer_hill.h:3919
 #: src/data/battle_frontier/trainer_hill.h:8000
+#: src/data/battle_frontier/trainer_hill.h:8392
+#: src/data/pokemon/species_info/gen_1_families.h:10986
 msgid "SLOWKING"
 msgstr "ROIGADA"
 
@@ -21515,60 +21561,60 @@ msgid "LISA&LEAH"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5724
-#: src/data/pokemon/species_info/gen_1_families.h:8645
 #: src/data/battle_frontier/trainer_hill.h:6615
+#: src/data/pokemon/species_info/gen_1_families.h:8645
+#: src/trainer_tower_sets.c:5724
 msgid "POLIWAG"
 msgstr "PTITARD"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5746
 #: src/data/pokemon/species_info/gen_1_families.h:820
+#: src/trainer_tower_sets.c:5746
 msgid "SQUIRTLE"
 msgstr "CARAPUCE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5768 src/trainer_tower_sets.c:6611
 #: src/data/pokemon/species_info/gen_2_families.h:1503
+#: src/trainer_tower_sets.c:5768 src/trainer_tower_sets.c:6611
 msgid "CHINCHOU"
 msgstr "LOUPIO"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5790 src/trainer_tower_sets.c:8812
 #: src/data/pokemon/species_info/gen_1_families.h:4837
+#: src/trainer_tower_sets.c:5790 src/trainer_tower_sets.c:8812
 msgid "NIDORAN♀"
 msgstr "NIDORAN♀"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5834
 #: src/data/pokemon/species_info/gen_1_families.h:15981
+#: src/trainer_tower_sets.c:5834
 msgid "HORSEA"
 msgstr "HYPOTREMPE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5868 src/trainer_tower_sets.c:8235
+#: src/data/battle_frontier/trainer_hill.h:6595
 #: src/data/pokemon/species_info/gen_2_families.h:3473
 #: src/data/pokemon/species_info/gen_2_families.h:3639
-#: src/data/battle_frontier/trainer_hill.h:6595
+#: src/trainer_tower_sets.c:5868 src/trainer_tower_sets.c:8235
 msgid "WOOPER"
 msgstr "AXOLOTO"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5890 src/trainer_tower_sets.c:8191
-#: src/data/pokemon/species_info/gen_1_families.h:7974
 #: src/data/battle_frontier/trainer_hill.h:6635
+#: src/data/pokemon/species_info/gen_1_families.h:7974
+#: src/trainer_tower_sets.c:5890 src/trainer_tower_sets.c:8191
 msgid "PSYDUCK"
 msgstr "PSYKOKWAK"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5956 src/trainer_tower_sets.c:8834
 #: src/data/pokemon/species_info/gen_1_families.h:5066
+#: src/trainer_tower_sets.c:5956 src/trainer_tower_sets.c:8834
 msgid "NIDORAN♂"
 msgstr "NIDORAN♀"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:5978
 #: src/data/pokemon/species_info/gen_2_families.h:612
+#: src/trainer_tower_sets.c:5978
 msgid "TOTODILE"
 msgstr "KAIMINUS"
 
@@ -21577,147 +21623,151 @@ msgid "PRISCILLA"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:6024 src/trainer_tower_sets.c:6112
 #: src/data/pokemon/species_info/gen_1_families.h:16218
+#: src/trainer_tower_sets.c:6024 src/trainer_tower_sets.c:6112
 msgid "GOLDEEN"
 msgstr "POISSIRENE"
 
 #. source : SoulSilver FR officiel
+#: src/data/battle_frontier/trainer_hill.h:4684
+#: src/data/pokemon/species_info/gen_1_families.h:16307
 #: src/trainer_tower_sets.c:6046 src/trainer_tower_sets.c:6134
 #: src/trainer_tower_sets.c:6699
-#: src/data/pokemon/species_info/gen_1_families.h:16307
-#: src/data/battle_frontier/trainer_hill.h:4684
 msgid "SEAKING"
 msgstr "POISSOROY"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:6068 src/trainer_tower_sets.c:6090
-#: src/trainer_tower_sets.c:7681 src/trainer_tower_sets.c:8325
-#: src/data/pokemon/species_info/gen_2_families.h:1577
 #: src/data/battle_frontier/trainer_hill.h:1879
+#: src/data/battle_frontier/trainer_hill.h:7213
+#: src/data/pokemon/species_info/gen_2_families.h:1577
+#: src/trainer_tower_sets.c:6068 src/trainer_tower_sets.c:6090
+#: src/trainer_tower_sets.c:7681
 msgid "LANTURN"
 msgstr "LANTURN"
 
-#: src/trainer_tower_sets.c:6140 src/data/trainers.h:36227
+#: src/data/trainers.party:13237 src/trainer_tower_sets.c:6140
 msgid "CHARLOTTE"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:6168 src/trainer_tower_sets.c:6256
-#: src/data/pokemon/species_info/gen_2_families.h:6993
 #: src/data/battle_frontier/trainer_hill.h:2860
+#: src/data/pokemon/species_info/gen_2_families.h:6993
+#: src/trainer_tower_sets.c:6168 src/trainer_tower_sets.c:6256
 msgid "OCTILLERY"
 msgstr "OCTILLERY"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:6190 src/trainer_tower_sets.c:6278
 #: src/data/pokemon/species_info/gen_2_families.h:5185
 #: src/data/pokemon/species_info/gen_2_families.h:5265
+#: src/trainer_tower_sets.c:6190 src/trainer_tower_sets.c:6278
 msgid "QWILFISH"
 msgstr "QWILFISH"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:6212 src/trainer_tower_sets.c:6234
 #: src/data/pokemon/species_info/gen_2_families.h:6919
+#: src/trainer_tower_sets.c:6212 src/trainer_tower_sets.c:6234
 msgid "REMORAID"
 msgstr "REMORAID"
 
-#: src/trainer_tower_sets.c:6284
 #: src/data/battle_frontier/battle_frontier_trainers.h:1856
+#: src/trainer_tower_sets.c:6284
 msgid "SHANIA"
 msgstr ""
 
 #. source : SoulSilver FR officiel
+#: src/data/pokemon/species_info/gen_1_families.h:18319
 #: src/trainer_tower_sets.c:6334 src/trainer_tower_sets.c:6400
 #: src/trainer_tower_sets.c:6677
-#: src/data/pokemon/species_info/gen_1_families.h:18319
 msgid "MAGIKARP"
 msgstr "MAGICARPE"
 
-#: src/trainer_tower_sets.c:6439
 #: src/data/battle_frontier/battle_frontier_trainers.h:1072
+#: src/trainer_tower_sets.c:6439
 msgid "BRENNAN"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:6583
 #: src/data/battle_frontier/battle_frontier_trainers.h:664
+#: src/trainer_tower_sets.c:6583
 msgid "KADEN"
 msgstr "Kader"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:6633
 #: src/data/pokemon/species_info/gen_1_families.h:21000
+#: src/trainer_tower_sets.c:6633
 msgid "DRATINI"
 msgstr "MINIDRACO"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:6655
+#: data/maps/Route25_BillsHouse_hns/scripts.inc:328
 #: src/data/pokemon/species_info/gen_1_families.h:10840
 #: src/data/pokemon/species_info/gen_1_families.h:11131
-#: data/maps/Route25_BillsHouse_hns/scripts.inc:328
+#: src/trainer_tower_sets.c:6655
 msgid "SLOWPOKE"
 msgstr "RAMOLOSS"
 
-#: src/trainer_tower_sets.c:6727
 #: src/data/battle_frontier/battle_frontier_trainers.h:1560
+#: src/trainer_tower_sets.c:6727
 msgid "EMANUEL"
 msgstr ""
 
-#: src/trainer_tower_sets.c:6882
 #: src/data/battle_frontier/battle_frontier_trainers.h:1544
+#: src/trainer_tower_sets.c:6882
 msgid "JARRETT"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:6910 src/trainer_tower_sets.c:7469
-#: src/trainer_tower_sets.c:8281
+#: src/data/battle_frontier/trainer_hill.h:534
+#: src/data/battle_frontier/trainer_hill.h:8898
+#: src/data/battle_frontier/trainer_hill.h:9116
 #: src/data/pokemon/species_info/gen_1_families.h:13701
 #: src/data/pokemon/species_info/gen_1_families.h:13854
-#: src/data/battle_frontier/trainer_hill.h:534
+#: src/trainer_tower_sets.c:6910
 msgid "ELECTRODE"
 msgstr "ELECTRODE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:6932
+#: src/data/battle_frontier/trainer_hill.h:6826
 #: src/data/pokemon/species_info/gen_1_families.h:13623
 #: src/data/pokemon/species_info/gen_1_families.h:13775
-#: src/data/battle_frontier/trainer_hill.h:6826
+#: src/trainer_tower_sets.c:6932
 msgid "VOLTORB"
 msgstr "VOLTORBE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:6998
 #: src/data/pokemon/species_info/gen_1_families.h:13934
+#: src/trainer_tower_sets.c:6998
 msgid "EXEGGCUTE"
 msgstr "NOEUNOEUF"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:7039 src/data/trainers.h:3973
-#: src/data/trainers_frlg.h:17191 src/data/trainers_hns.h:613
+#: src/data/trainers.party:1525 src/data/trainers_frlg.party:6234
+#: src/data/trainers_hns.party:218 src/trainer_tower_sets.c:7039
 msgid "OWEN"
 msgstr "Owen"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:7067 src/trainer_tower_sets.c:7847
-#: src/trainer_tower_sets.c:8347
-#: src/data/pokemon/species_info/gen_1_families.h:11450
 #: src/data/battle_frontier/trainer_hill.h:3139
 #: src/data/battle_frontier/trainer_hill.h:5125
+#: src/data/pokemon/species_info/gen_1_families.h:11450
+#: src/trainer_tower_sets.c:7067 src/trainer_tower_sets.c:7847
+#: src/trainer_tower_sets.c:8347
 msgid "MAGNETON"
 msgstr "MAGNETON"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:7089 src/trainer_tower_sets.c:8025
-#: src/trainer_tower_sets.c:8912
+#: src/data/battle_frontier/trainer_hill.h:6068
 #: src/data/pokemon/species_info/gen_1_families.h:2972
 #: src/data/pokemon/species_info/gen_1_families.h:3065
 #: src/data/pokemon/species_info/gen_1_families.h:3135
+#: src/data/pokemon/species_info/gen_1_families.h:3206
+#: src/data/pokemon/species_info/gen_1_families.h:3277
 msgid "PIKACHU"
 msgstr "PIKACHU"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:7196 src/data/trade.h:1095
+#: src/data/trade.h:1095 src/data/trainers.party:10248
+#: src/trainer_tower_sets.c:7196
 msgid "LORENZO"
 msgstr "Quantin"
 
@@ -21726,10 +21776,10 @@ msgid "NIA & CARL"
 msgstr ""
 
 #. source : patch FR actuel
-#: src/trainer_tower_sets.c:7381 src/trainer_tower_sets.c:8591
+#: src/data/battle_frontier/trainer_hill.h:5914
 #: src/data/pokemon/species_info/gen_1_families.h:12252
 #: src/data/pokemon/species_info/gen_1_families.h:12411
-#: src/data/battle_frontier/trainer_hill.h:5914
+#: src/trainer_tower_sets.c:7381 src/trainer_tower_sets.c:8591
 msgid "MUK"
 msgstr "GROTADMORV"
 
@@ -21742,32 +21792,32 @@ msgid "KATI & GEB"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:7981 src/trainer_tower_sets.c:8934
-#: src/data/pokemon/species_info/gen_2_families.h:2111
 #: src/data/battle_frontier/trainer_hill.h:6766
+#: src/data/pokemon/species_info/gen_2_families.h:2111
+#: src/trainer_tower_sets.c:7981 src/trainer_tower_sets.c:8934
 msgid "FLAAFFY"
 msgstr "LAINERGIE"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:8147
-#: src/data/pokemon/species_info/gen_1_families.h:17397
 #: src/data/battle_frontier/trainer_hill.h:7874
+#: src/data/pokemon/species_info/gen_1_families.h:17397
+#: src/trainer_tower_sets.c:8147
 msgid "ELEKID"
 msgstr "ELEKID"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:8213 src/trainer_tower_sets.c:8746
 #: src/data/pokemon/species_info/gen_2_families.h:2038
+#: src/trainer_tower_sets.c:8213 src/trainer_tower_sets.c:8746
 msgid "MAREEP"
 msgstr "WATTOUAT"
 
-#: src/trainer_tower_sets.c:8253 src/data/trainers.h:16270
-#: src/data/trainers_frlg.h:35 src/data/trainers_frlg.h:587
-#: src/data/trainers_frlg.h:23635 src/data/trainers_frlg.h:23683
+#: src/data/trainers.party:6018 src/data/trainers_frlg.party:10
+#: src/data/trainers_frlg.party:206 src/data/trainers_frlg.party:8709
+#: src/data/trainers_frlg.party:8726 src/data/trainers_hns.party:2014
 msgid "BEN"
 msgstr ""
 
-#: src/trainer_tower_sets.c:8397 src/data/trainers.h:18800
+#: src/data/trainers.party:6933 src/trainer_tower_sets.c:8397
 msgid "CAMDEN"
 msgstr ""
 
@@ -21776,13 +21826,13 @@ msgid "ZACKERY"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:8679
 #: src/data/pokemon/species_info/gen_1_families.h:12716
+#: src/trainer_tower_sets.c:8679
 msgid "HAUNTER"
 msgstr "SPECTRUM"
 
 #. source : patch FR actuel (récupéré par pointeur)
-#: src/trainer_tower_sets.c:8696 src/data/trainers.h:11720
+#: src/data/trainers.party:4314 src/trainer_tower_sets.c:8696
 msgid "MAURA"
 msgstr "MAGARA"
 
@@ -21791,19 +21841,19 @@ msgid "MIKAELA"
 msgstr ""
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:8868
 #: src/data/pokemon/species_info/gen_1_families.h:5139
+#: src/trainer_tower_sets.c:8868
 msgid "NIDORINO"
 msgstr "NIDORINO"
 
 #. source : SoulSilver FR officiel
-#: src/trainer_tower_sets.c:8890
 #: src/data/pokemon/species_info/gen_1_families.h:4917
+#: src/trainer_tower_sets.c:8890
 msgid "NIDORINA"
 msgstr "NIDORINA"
 
-#: src/trainer_tower_sets.c:8984 src/data/trainers.h:32869
-#: src/data/trainers_frlg.h:22561
+#: src/data/trainers.party:11998 src/data/trainers_frlg.party:8328
+#: src/trainer_tower_sets.c:8984
 msgid "FLINT"
 msgstr ""
 
@@ -21818,7 +21868,7 @@ msgid "Very good"
 msgstr "très bon"
 
 #. source : Émeraude FR officiel
-#: src/tv.c:194 src/data/script_menu.h:308
+#: src/data/script_menu.h:308 src/tv.c:194
 msgid "Excellent"
 msgstr "excellent"
 
@@ -21882,3 +21932,1676 @@ msgstr "NATURE/"
 #: src/voltorb_flip.c:150
 msgid "Lv."
 msgstr "N."
+
+#: src/battle_debug.c:236
+msgid "Ability"
+msgstr ""
+
+#: src/battle_debug.c:237
+msgid "Held Item"
+msgstr ""
+
+#: src/battle_debug.c:238
+msgid "Hold Effect"
+msgstr ""
+
+#: src/battle_debug.c:315
+msgid "Moves"
+msgstr ""
+
+#: src/battle_debug.c:318
+msgid "PP"
+msgstr ""
+
+#: src/battle_debug.c:319
+msgid "Types"
+msgstr ""
+
+#: src/battle_debug.c:320
+msgid "Stats"
+msgstr ""
+
+#: src/battle_debug.c:321
+msgid "Stat Stages"
+msgstr ""
+
+#: src/battle_debug.c:322
+msgid "Status1"
+msgstr ""
+
+#: src/battle_debug.c:323
+msgid "Volatiles"
+msgstr ""
+
+#: src/battle_debug.c:324
+msgid "Hazards"
+msgstr ""
+
+#: src/battle_debug.c:325
+msgid "Side Status"
+msgstr ""
+
+#: src/battle_debug.c:326
+msgid "AI"
+msgstr ""
+
+#: src/battle_debug.c:327
+msgid "AI Pts/Dmg"
+msgstr ""
+
+#: src/battle_debug.c:328
+msgid "AI Info"
+msgstr ""
+
+#: src/battle_debug.c:329
+msgid "AI Party"
+msgstr ""
+
+#: src/battle_debug.c:330
+msgid "Various"
+msgstr ""
+
+#: src/battle_debug.c:331
+msgid "Instant Win"
+msgstr ""
+
+#: src/battle_debug.c:336
+msgid "HP Current"
+msgstr ""
+
+#: src/battle_debug.c:337
+msgid "HP Max"
+msgstr ""
+
+#: src/battle_debug.c:338
+msgid "Attack"
+msgstr ""
+
+#: src/battle_debug.c:339
+msgid "Defense"
+msgstr ""
+
+#: src/battle_debug.c:340
+msgid "Speed"
+msgstr ""
+
+#: src/battle_debug.c:341
+msgid "Sp. Atk"
+msgstr ""
+
+#: src/battle_debug.c:342
+msgid "Sp. Def"
+msgstr ""
+
+#: src/battle_debug.c:352
+msgid "Toxic Poison"
+msgstr ""
+
+#: src/battle_debug.c:353
+msgid "Toxic Counter"
+msgstr ""
+
+#: src/battle_debug.c:359
+msgid "Confusion"
+msgstr ""
+
+#: src/battle_debug.c:360
+msgid "Flinched"
+msgstr ""
+
+#: src/battle_debug.c:361
+msgid "Torment"
+msgstr ""
+
+#: src/battle_debug.c:362
+msgid "Powder"
+msgstr ""
+
+#: src/battle_debug.c:363
+msgid "DefenseCurl"
+msgstr ""
+
+#: src/battle_debug.c:364
+msgid "Rage"
+msgstr ""
+
+#: src/battle_debug.c:365
+msgid "DestinyBond"
+msgstr ""
+
+#: src/battle_debug.c:366
+msgid "EscapePrevention"
+msgstr ""
+
+#: src/battle_debug.c:367
+msgid "Cursed"
+msgstr ""
+
+#: src/battle_debug.c:368
+msgid "Foresight"
+msgstr ""
+
+#: src/battle_debug.c:369
+msgid "DragonCheer"
+msgstr ""
+
+#: src/battle_debug.c:370
+msgid "FocusEnergy"
+msgstr ""
+
+#: src/battle_debug.c:372
+msgid "MudSport"
+msgstr ""
+
+#: src/battle_debug.c:373
+msgid "WaterSport"
+msgstr ""
+
+#: src/battle_debug.c:374
+msgid "Infinite Confusion"
+msgstr ""
+
+#: src/battle_debug.c:375
+msgid "Salt Cure"
+msgstr ""
+
+#: src/battle_debug.c:376
+msgid "Syrup Bomb"
+msgstr ""
+
+#: src/battle_debug.c:377
+msgid "Glaive Rush"
+msgstr ""
+
+#: src/battle_debug.c:378
+msgid "Leech Seed"
+msgstr ""
+
+#: src/battle_debug.c:379
+msgid "Lock On"
+msgstr ""
+
+#: src/battle_debug.c:380
+msgid "Perish Song"
+msgstr ""
+
+#: src/battle_debug.c:381
+msgid "Minimize"
+msgstr ""
+
+#: src/battle_debug.c:382
+msgid "Charge"
+msgstr ""
+
+#: src/battle_debug.c:383
+msgid "Root"
+msgstr ""
+
+#: src/battle_debug.c:384
+msgid "Yawn"
+msgstr ""
+
+#: src/battle_debug.c:385
+msgid "Imprison"
+msgstr ""
+
+#: src/battle_debug.c:387
+msgid "Gastro Acid"
+msgstr ""
+
+#: src/battle_debug.c:388
+msgid "Embargo"
+msgstr ""
+
+#: src/battle_debug.c:389
+msgid "Smack Down"
+msgstr ""
+
+#: src/battle_debug.c:390
+msgid "Telekinesis"
+msgstr ""
+
+#: src/battle_debug.c:391
+msgid "Miracle Eye"
+msgstr ""
+
+#: src/battle_debug.c:392
+msgid "Magnet Rise"
+msgstr ""
+
+#: src/battle_debug.c:393
+msgid "Heal Block"
+msgstr ""
+
+#: src/battle_debug.c:394
+msgid "Aqua Ring"
+msgstr ""
+
+#: src/battle_debug.c:395
+msgid "Laser Focus"
+msgstr ""
+
+#: src/battle_debug.c:396
+msgid "Power Trick"
+msgstr ""
+
+#: src/battle_debug.c:402
+msgid "Sticky Web"
+msgstr ""
+
+#: src/battle_debug.c:403
+msgid "Toxic Spikes"
+msgstr ""
+
+#: src/battle_debug.c:404
+msgid "Stealth Rock"
+msgstr ""
+
+#: src/battle_debug.c:405
+msgid "Steelsurge"
+msgstr ""
+
+#: src/battle_debug.c:410
+msgid "Reflect"
+msgstr ""
+
+#: src/battle_debug.c:411
+msgid "Light Screen"
+msgstr ""
+
+#: src/battle_debug.c:412
+msgid "Safeguard"
+msgstr ""
+
+#: src/battle_debug.c:413
+msgid "Mist"
+msgstr ""
+
+#: src/battle_debug.c:414
+msgid "Tailwind"
+msgstr ""
+
+#: src/battle_debug.c:415
+msgid "Aurora Veil"
+msgstr ""
+
+#: src/battle_debug.c:416
+msgid "Lucky Chant"
+msgstr ""
+
+#: src/battle_debug.c:417
+msgid "Damage Non-Types"
+msgstr ""
+
+#: src/battle_debug.c:419
+msgid "Sea of Fire"
+msgstr ""
+
+#: src/battle_debug.c:425
+msgid "Check Bad Move"
+msgstr ""
+
+#: src/battle_debug.c:426
+msgid "Try to Faint"
+msgstr ""
+
+#: src/battle_debug.c:427
+msgid "Check Viability"
+msgstr ""
+
+#: src/battle_debug.c:428
+msgid "Force Setup First Turn"
+msgstr ""
+
+#: src/battle_debug.c:429
+msgid "Risky"
+msgstr ""
+
+#: src/battle_debug.c:430
+msgid "Try to 2HKO"
+msgstr ""
+
+#: src/battle_debug.c:431
+msgid "Prefer Baton Pass"
+msgstr ""
+
+#: src/battle_debug.c:432
+msgid "Double Battle"
+msgstr ""
+
+#: src/battle_debug.c:433
+msgid "HP Aware"
+msgstr ""
+
+#: src/battle_debug.c:434
+msgid "Powerful Status"
+msgstr ""
+
+#: src/battle_debug.c:435
+msgid "Negate Unaware"
+msgstr ""
+
+#: src/battle_debug.c:436
+msgid "Will Suicide"
+msgstr ""
+
+#: src/battle_debug.c:437
+msgid "Prefer Status Moves"
+msgstr ""
+
+#: src/battle_debug.c:438
+msgid "Stall"
+msgstr ""
+
+#: src/battle_debug.c:439
+msgid "Smart Switching"
+msgstr ""
+
+#: src/battle_debug.c:440
+msgid "Ace Pokémon"
+msgstr ""
+
+#: src/battle_debug.c:441
+msgid "Omniscient"
+msgstr ""
+
+#: src/battle_debug.c:442
+msgid "Smart Mon Choices"
+msgstr ""
+
+#: src/battle_debug.c:443
+msgid "Conservative"
+msgstr ""
+
+#: src/battle_debug.c:444
+msgid "Sequence Switching"
+msgstr ""
+
+#: src/battle_debug.c:445
+msgid "Double Ace Pokémon"
+msgstr ""
+
+#: src/battle_debug.c:446
+msgid "Weigh Ability Prediction"
+msgstr ""
+
+#: src/battle_debug.c:447
+msgid "Prefer Highest Damage Move"
+msgstr ""
+
+#: src/battle_debug.c:448
+msgid "Predict Switch"
+msgstr ""
+
+#: src/battle_debug.c:449
+msgid "Predict Incoming Mon"
+msgstr ""
+
+#: src/battle_debug.c:450
+msgid "Dynamic Func"
+msgstr ""
+
+#: src/battle_debug.c:451
+msgid "Roaming"
+msgstr ""
+
+#: src/battle_debug.c:452
+msgid "Safari"
+msgstr ""
+
+#: src/battle_debug.c:453
+msgid "First Battle"
+msgstr ""
+
+#: src/battle_debug.c:458
+msgid "Show HP"
+msgstr ""
+
+#: src/battle_debug.c:459
+msgid "Substitute HP"
+msgstr ""
+
+#: src/battle_debug.c:460
+msgid "In Love"
+msgstr ""
+
+#: src/battle_debug.c:737
+msgid "Score/Dmg"
+msgstr ""
+
+#: src/battle_debug.c:778
+msgid "Switching to "
+msgstr ""
+
+#: src/battle_debug.c:1440
+msgid "All"
+msgstr ""
+
+#: src/battle_debug.c:2165
+msgid "Restore Hp"
+msgstr ""
+
+#: src/battle_debug.c:2166
+msgid "Cure Par"
+msgstr ""
+
+#: src/battle_debug.c:2167
+msgid "Cure Slp"
+msgstr ""
+
+#: src/battle_debug.c:2168
+msgid "Cure Psn"
+msgstr ""
+
+#: src/battle_debug.c:2169
+msgid "Cure Brn"
+msgstr ""
+
+#: src/battle_debug.c:2170
+msgid "Cure Frz"
+msgstr ""
+
+#: src/battle_debug.c:2171
+msgid "Restore Pp"
+msgstr ""
+
+#: src/battle_debug.c:2172
+msgid "Cure Confusion"
+msgstr ""
+
+#: src/battle_debug.c:2173
+msgid "Cure Status"
+msgstr ""
+
+#: src/battle_debug.c:2174
+msgid "Confuse Spicy"
+msgstr ""
+
+#: src/battle_debug.c:2175
+msgid "Confuse Dry"
+msgstr ""
+
+#: src/battle_debug.c:2176
+msgid "Confuse Sweet"
+msgstr ""
+
+#: src/battle_debug.c:2177
+msgid "Confuse Bitter"
+msgstr ""
+
+#: src/battle_debug.c:2178
+msgid "Confuse Sour"
+msgstr ""
+
+#: src/battle_debug.c:2179
+msgid "Attack Up"
+msgstr ""
+
+#: src/battle_debug.c:2180
+msgid "Defense Up"
+msgstr ""
+
+#: src/battle_debug.c:2181
+msgid "Speed Up"
+msgstr ""
+
+#: src/battle_debug.c:2182
+msgid "Sp Attack Up"
+msgstr ""
+
+#: src/battle_debug.c:2183
+msgid "Sp Defense Up"
+msgstr ""
+
+#: src/battle_debug.c:2184
+msgid "Critical Up"
+msgstr ""
+
+#: src/battle_debug.c:2185
+msgid "Random Stat Up"
+msgstr ""
+
+#: src/battle_debug.c:2186
+msgid "Evasion Up"
+msgstr ""
+
+#: src/battle_debug.c:2187
+msgid "Restore Stats"
+msgstr ""
+
+#: src/battle_debug.c:2188
+msgid "Macho Brace"
+msgstr ""
+
+#: src/battle_debug.c:2189
+msgid "Exp Share"
+msgstr ""
+
+#: src/battle_debug.c:2190
+msgid "Quick Claw"
+msgstr ""
+
+#: src/battle_debug.c:2191
+msgid "Friendship Up"
+msgstr ""
+
+#: src/battle_debug.c:2192
+msgid "Mental Herb"
+msgstr ""
+
+#: src/battle_debug.c:2193
+msgid "Choice Band"
+msgstr ""
+
+#: src/battle_debug.c:2194
+msgid "Flinch"
+msgstr ""
+
+#: src/battle_debug.c:2195
+msgid "Double Prize"
+msgstr ""
+
+#: src/battle_debug.c:2196
+msgid "Repel"
+msgstr ""
+
+#: src/battle_debug.c:2197
+msgid "Soul Dew"
+msgstr ""
+
+#: src/battle_debug.c:2198
+msgid "Deep Sea Tooth"
+msgstr ""
+
+#: src/battle_debug.c:2199
+msgid "Deep Sea Scale"
+msgstr ""
+
+#: src/battle_debug.c:2200
+msgid "Can Always Run"
+msgstr ""
+
+#: src/battle_debug.c:2201
+msgid "Prevent Evolve"
+msgstr ""
+
+#: src/battle_debug.c:2202
+msgid "Focus Band"
+msgstr ""
+
+#: src/battle_debug.c:2203
+msgid "Lucky Egg"
+msgstr ""
+
+#: src/battle_debug.c:2204
+msgid "Scope Lens"
+msgstr ""
+
+#: src/battle_debug.c:2206
+msgid "Light Ball"
+msgstr ""
+
+#: src/battle_debug.c:2207
+msgid "Type Power"
+msgstr ""
+
+#: src/battle_debug.c:2208
+msgid "Shell Bell"
+msgstr ""
+
+#: src/battle_debug.c:2209
+msgid "Lucky Punch"
+msgstr ""
+
+#: src/battle_debug.c:2210
+msgid "Metal Powder"
+msgstr ""
+
+#: src/battle_debug.c:2211
+msgid "Thick Club"
+msgstr ""
+
+#: src/battle_debug.c:2212
+msgid "Leek"
+msgstr ""
+
+#: src/battle_debug.c:2213
+msgid "Choice Scarf"
+msgstr ""
+
+#: src/battle_debug.c:2215
+msgid "Damp Rock"
+msgstr ""
+
+#: src/battle_debug.c:2216
+msgid "Grip Claw"
+msgstr ""
+
+#: src/battle_debug.c:2217
+msgid "Heat Rock"
+msgstr ""
+
+#: src/battle_debug.c:2218
+msgid "Icy Rock"
+msgstr ""
+
+#: src/battle_debug.c:2219
+msgid "Light Clay"
+msgstr ""
+
+#: src/battle_debug.c:2220
+msgid "Smooth Rock"
+msgstr ""
+
+#: src/battle_debug.c:2221
+msgid "Power Herb"
+msgstr ""
+
+#: src/battle_debug.c:2222
+msgid "Big Root"
+msgstr ""
+
+#: src/battle_debug.c:2223
+msgid "Expert Belt"
+msgstr ""
+
+#: src/battle_debug.c:2224
+msgid "Life Orb"
+msgstr ""
+
+#: src/battle_debug.c:2225
+msgid "Metronome"
+msgstr ""
+
+#: src/battle_debug.c:2226
+msgid "Muscle Band"
+msgstr ""
+
+#: src/battle_debug.c:2227
+msgid "Wide Lens"
+msgstr ""
+
+#: src/battle_debug.c:2229
+msgid "Zoom Lens"
+msgstr ""
+
+#: src/battle_debug.c:2230
+msgid "Lagging Tail"
+msgstr ""
+
+#: src/battle_debug.c:2231
+msgid "Focus Sash"
+msgstr ""
+
+#: src/battle_debug.c:2232
+msgid "Flame Orb"
+msgstr ""
+
+#: src/battle_debug.c:2233
+msgid "Toxic Orb"
+msgstr ""
+
+#: src/battle_debug.c:2234
+msgid "Sticky Barb"
+msgstr ""
+
+#: src/battle_debug.c:2236
+msgid "Black Sludge"
+msgstr ""
+
+#: src/battle_debug.c:2237
+msgid "Destiny Knot"
+msgstr ""
+
+#: src/battle_debug.c:2238
+msgid "Shed Shell"
+msgstr ""
+
+#: src/battle_debug.c:2239
+msgid "Quick Powder"
+msgstr ""
+
+#: src/battle_debug.c:2240
+msgid "Adamant Orb"
+msgstr ""
+
+#: src/battle_debug.c:2241
+msgid "Lustrous Orb"
+msgstr ""
+
+#: src/battle_debug.c:2242
+msgid "Griseous Orb"
+msgstr ""
+
+#: src/battle_debug.c:2243
+msgid "Enigma Berry"
+msgstr ""
+
+#: src/battle_debug.c:2244
+msgid "Resist Berry"
+msgstr ""
+
+#: src/battle_debug.c:2245
+msgid "Power Item"
+msgstr ""
+
+#: src/battle_debug.c:2246
+msgid "Restore Pct Hp"
+msgstr ""
+
+#: src/battle_debug.c:2247
+msgid "Micle Berry"
+msgstr ""
+
+#: src/battle_debug.c:2248
+msgid "Custap Berry"
+msgstr ""
+
+#: src/battle_debug.c:2249
+msgid "Jaboca Berry"
+msgstr ""
+
+#: src/battle_debug.c:2250
+msgid "Rowap Berry"
+msgstr ""
+
+#: src/battle_debug.c:2251
+msgid "Kee Berry"
+msgstr ""
+
+#: src/battle_debug.c:2252
+msgid "Maranga Berry"
+msgstr ""
+
+#: src/battle_debug.c:2254
+msgid "Float Stone"
+msgstr ""
+
+#: src/battle_debug.c:2255
+msgid "Eviolite"
+msgstr ""
+
+#: src/battle_debug.c:2256
+msgid "Assault Vest"
+msgstr ""
+
+#: src/battle_debug.c:2257
+msgid "Drive"
+msgstr ""
+
+#: src/battle_debug.c:2258
+msgid "Gems"
+msgstr ""
+
+#: src/battle_debug.c:2259
+msgid "Rocky Helmet"
+msgstr ""
+
+#: src/battle_debug.c:2260
+msgid "Air Balloon"
+msgstr ""
+
+#: src/battle_debug.c:2261
+msgid "Red Card"
+msgstr ""
+
+#: src/battle_debug.c:2262
+msgid "Ring Target"
+msgstr ""
+
+#: src/battle_debug.c:2263
+msgid "Binding Band"
+msgstr ""
+
+#: src/battle_debug.c:2264
+msgid "Eject Button"
+msgstr ""
+
+#: src/battle_debug.c:2265
+msgid "Absorb Bulb"
+msgstr ""
+
+#: src/battle_debug.c:2266
+msgid "Cell Battery"
+msgstr ""
+
+#: src/battle_debug.c:2267
+msgid "Mega Stone"
+msgstr ""
+
+#: src/battle_debug.c:2270
+msgid "Snowball"
+msgstr ""
+
+#: src/battle_debug.c:2271
+msgid "Weakness Policy"
+msgstr ""
+
+#: src/battle_debug.c:2272
+msgid "Primal Orb"
+msgstr ""
+
+#: src/battle_debug.c:2274
+msgid "Terrain Extender"
+msgstr ""
+
+#: src/battle_debug.c:2275
+msgid "Seeds"
+msgstr ""
+
+#: src/battle_debug.c:2276
+msgid "Adrenaline Orb"
+msgstr ""
+
+#: src/battle_debug.c:2277
+msgid "Memory"
+msgstr ""
+
+#: src/battle_debug.c:2278
+msgid "Z-Crystal"
+msgstr ""
+
+#: src/battle_debug.c:2279
+msgid "Utility Umbrella"
+msgstr ""
+
+#: src/battle_debug.c:2280
+msgid "Eject Pack"
+msgstr ""
+
+#: src/battle_debug.c:2281
+msgid "Room Service"
+msgstr ""
+
+#: src/battle_debug.c:2282
+msgid "Blunder Policy"
+msgstr ""
+
+#: src/battle_debug.c:2283
+msgid "Heavy Duty Boots"
+msgstr ""
+
+#: src/battle_debug.c:2284
+msgid "Throat Spray"
+msgstr ""
+
+#: src/battle_debug.c:2285
+msgid "Ability Shield"
+msgstr ""
+
+#: src/battle_debug.c:2286
+msgid "Clear Amulet"
+msgstr ""
+
+#: src/battle_debug.c:2287
+msgid "Mirror Herb"
+msgstr ""
+
+#: src/battle_debug.c:2288
+msgid "Punching Glove"
+msgstr ""
+
+#: src/battle_debug.c:2289
+msgid "Covert Cloak"
+msgstr ""
+
+#: src/battle_debug.c:2291
+msgid "Booster Energy"
+msgstr ""
+
+#: src/battle_debug.c:2292
+msgid "Ogerpon Mask"
+msgstr ""
+
+#: src/battle_debug.c:2293
+msgid "Berserk Gene"
+msgstr ""
+
+#: src/debug.c:421
+msgid "TRUE"
+msgstr ""
+
+#: src/debug.c:422
+msgid "FALSE"
+msgstr ""
+
+#: src/debug.c:423
+msgid "{COLOR GREEN}TRUE"
+msgstr ""
+
+#: src/debug.c:424
+msgid "{COLOR RED}FALSE"
+msgstr ""
+
+#: src/debug.c:427
+msgid "Continue…"
+msgstr ""
+
+#: src/debug.c:429
+msgid ""
+"Group: {STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n\\n{STR_VAR_3}{CLEAR_TO "
+"90}"
+msgstr ""
+
+#: src/debug.c:430
+msgid ""
+"Map: {STR_VAR_1}{CLEAR_TO 90}\\nMapSec:{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO "
+"90}\\n{STR_VAR_3}{CLEAR_TO 90}"
+msgstr ""
+
+#: src/debug.c:431
+msgid ""
+"Warp:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{STR_VAR_3}{CLEAR_TO 90}"
+msgstr ""
+
+#: src/debug.c:433
+msgid "Weather ID: {STR_VAR_3}\\n{STR_VAR_1}\\n{STR_VAR_2}"
+msgstr ""
+
+#: src/debug.c:438
+msgid "Sunday"
+msgstr ""
+
+#: src/debug.c:439
+msgid "Monday"
+msgstr ""
+
+#: src/debug.c:440
+msgid "Tuesday"
+msgstr ""
+
+#: src/debug.c:441
+msgid "Wednesday"
+msgstr ""
+
+#: src/debug.c:442
+msgid "Thursday"
+msgstr ""
+
+#: src/debug.c:443
+msgid "Friday"
+msgstr ""
+
+#: src/debug.c:444
+msgid "Saturday"
+msgstr ""
+
+#: src/debug.c:457
+msgid "Brendan"
+msgstr ""
+
+#: src/debug.c:458
+msgid "May"
+msgstr ""
+
+#: src/debug.c:459
+msgid "Steven"
+msgstr ""
+
+#: src/debug.c:460
+msgid "Wally"
+msgstr ""
+
+#: src/debug.c:461
+msgid "Red"
+msgstr ""
+
+#: src/debug.c:467 src/debug.c:468
+msgid ""
+"Var: {STR_VAR_1}{CLEAR_TO 90}\\nVal: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_2}"
+msgstr ""
+
+#: src/debug.c:470
+msgid ""
+"Shiny:{CLEAR_TO 90}\\n   {STR_VAR_2}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{CLEAR_TO 90}"
+msgstr ""
+
+#: src/debug.c:471
+msgid ""
+"IV {STR_VAR_1}:{CLEAR_TO 90}\\n    {STR_VAR_3}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{STR_VAR_2}{CLEAR_TO 90}"
+msgstr ""
+
+#: src/debug.c:472
+msgid ""
+"EV {STR_VAR_1}:{CLEAR_TO 90}\\n    {STR_VAR_3}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{STR_VAR_2}{CLEAR_TO 90}"
+msgstr ""
+
+#: src/debug.c:474
+msgid ""
+"SFX ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  "
+"{SELECT_BUTTON} GBS Off"
+msgstr ""
+
+#: src/debug.c:475
+msgid ""
+"SFX ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  "
+"{SELECT_BUTTON} GBS On"
+msgstr ""
+
+#: src/debug.c:476
+msgid ""
+"Music ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}"
+"  {SELECT_BUTTON} GBS Off"
+msgstr ""
+
+#: src/debug.c:477
+msgid ""
+"Music ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}"
+"  {SELECT_BUTTON} GBS On"
+msgstr ""
+
+#: src/debug.c:541
+msgid "Get time…"
+msgstr ""
+
+#: src/debug.c:542
+msgid "Get time of day…"
+msgstr ""
+
+#: src/debug.c:543
+msgid "Set time of day…"
+msgstr ""
+
+#: src/debug.c:544
+msgid "Set weekday…"
+msgstr ""
+
+#: src/debug.c:545
+msgid "Check wall clock…"
+msgstr ""
+
+#: src/debug.c:546
+msgid "Set wall clock…"
+msgstr ""
+
+#: src/debug.c:552
+msgid "Clear map trees"
+msgstr ""
+
+#: src/debug.c:553
+msgid "Ready map trees"
+msgstr ""
+
+#: src/debug.c:554
+msgid "Grow map trees"
+msgstr ""
+
+#: src/debug.c:555
+msgid "Give map trees pests"
+msgstr ""
+
+#: src/debug.c:556
+msgid "Give map trees weeds"
+msgstr ""
+
+#: src/debug.c:562
+msgid "Create Follower"
+msgstr ""
+
+#: src/debug.c:563
+msgid "Destroy Follower"
+msgstr ""
+
+#: src/debug.c:569
+msgid "Fly to map…"
+msgstr ""
+
+#: src/debug.c:570
+msgid "Warp to map warp…"
+msgstr ""
+
+#: src/debug.c:571
+msgid "Set weather…"
+msgstr ""
+
+#: src/debug.c:572
+msgid "Font Test…"
+msgstr ""
+
+#: src/debug.c:573
+msgid "Time Functions…"
+msgstr ""
+
+#: src/debug.c:574
+msgid "Watch credits…"
+msgstr ""
+
+#: src/debug.c:575
+msgid "Cheat start"
+msgstr ""
+
+#: src/debug.c:576
+msgid "Berry Functions…"
+msgstr ""
+
+#: src/debug.c:577
+msgid "EWRAM Counters…"
+msgstr ""
+
+#: src/debug.c:578
+msgid "Follower NPC…"
+msgstr ""
+
+#: src/debug.c:579
+msgid "Wally Tutorial"
+msgstr ""
+
+#: src/debug.c:580
+msgid "Steven Multi"
+msgstr ""
+
+#: src/debug.c:581
+msgid "Lance Multi"
+msgstr ""
+
+#: src/debug.c:582
+msgid "Silver Multi"
+msgstr ""
+
+#: src/debug.c:588
+msgid "Fill PC Boxes Fast"
+msgstr ""
+
+#: src/debug.c:589
+msgid "Fill PC Boxes Slow (LAG!)"
+msgstr ""
+
+#: src/debug.c:590
+msgid "Fill PC Items"
+msgstr ""
+
+#: src/debug.c:591
+msgid "Fill Pocket Items"
+msgstr ""
+
+#: src/debug.c:592
+msgid "Fill Pocket Poké Balls"
+msgstr ""
+
+#: src/debug.c:593
+msgid "Fill Pocket TMHM"
+msgstr ""
+
+#: src/debug.c:594
+msgid "Fill Pocket Berries"
+msgstr ""
+
+#: src/debug.c:595
+msgid "Fill Pocket Key Items"
+msgstr ""
+
+#: src/debug.c:601
+msgid "Access PC"
+msgstr ""
+
+#: src/debug.c:602
+msgid "Fill…"
+msgstr ""
+
+#: src/debug.c:603
+msgid "Clear Bag"
+msgstr ""
+
+#: src/debug.c:604
+msgid "Clear Storage Boxes"
+msgstr ""
+
+#: src/debug.c:610
+msgid "Inflict Status1"
+msgstr ""
+
+#: src/debug.c:611
+msgid "Faint Pokemon"
+msgstr ""
+
+#: src/debug.c:612
+msgid "Set Hidden Nature"
+msgstr ""
+
+#: src/debug.c:613
+msgid "Set Friendship"
+msgstr ""
+
+#: src/debug.c:614
+msgid "Set Ability"
+msgstr ""
+
+#: src/debug.c:620
+msgid "Move Relearner"
+msgstr ""
+
+#: src/debug.c:621
+msgid "Hatch an Egg"
+msgstr ""
+
+#: src/debug.c:622
+msgid "Heal party"
+msgstr ""
+
+#: src/debug.c:623
+msgid "Edit Pokemon"
+msgstr ""
+
+#: src/debug.c:624
+msgid "Check EVs"
+msgstr ""
+
+#: src/debug.c:625
+msgid "Check IVs"
+msgstr ""
+
+#: src/debug.c:626
+msgid "Give Pokerus"
+msgstr ""
+
+#: src/debug.c:627
+msgid "Clear Pokerus"
+msgstr ""
+
+#: src/debug.c:628
+msgid "Clear Party"
+msgstr ""
+
+#: src/debug.c:629
+msgid "Set Party"
+msgstr ""
+
+#: src/debug.c:630
+msgid "Start Debug Battle"
+msgstr ""
+
+#: src/debug.c:636
+msgid "Give item XYZ…"
+msgstr ""
+
+#: src/debug.c:637
+msgid "Pokémon (Basic)"
+msgstr ""
+
+#: src/debug.c:638
+msgid "Pokémon (Complex)"
+msgstr ""
+
+#: src/debug.c:639
+msgid "Give Egg"
+msgstr ""
+
+#: src/debug.c:640
+msgid "Give Decoration…"
+msgstr ""
+
+#: src/debug.c:641
+msgid "Max Money"
+msgstr ""
+
+#: src/debug.c:642
+msgid "Max Coins"
+msgstr ""
+
+#: src/debug.c:643
+msgid "Max Battle Points"
+msgstr ""
+
+#: src/debug.c:644
+msgid "Daycare Egg"
+msgstr ""
+
+#: src/debug.c:650
+msgid "Player name"
+msgstr ""
+
+#: src/debug.c:651
+msgid "Toggle gender"
+msgstr ""
+
+#: src/debug.c:652
+msgid "New Trainer ID"
+msgstr ""
+
+#: src/debug.c:658
+msgid "Script 1"
+msgstr ""
+
+#: src/debug.c:659
+msgid "Script 2"
+msgstr ""
+
+#: src/debug.c:660
+msgid "Script 3"
+msgstr ""
+
+#: src/debug.c:661
+msgid "Script 4"
+msgstr ""
+
+#: src/debug.c:662
+msgid "Script 5"
+msgstr ""
+
+#: src/debug.c:663
+msgid "Script 6"
+msgstr ""
+
+#: src/debug.c:664
+msgid "Script 7"
+msgstr ""
+
+#: src/debug.c:665
+msgid "Script 8"
+msgstr ""
+
+#: src/debug.c:671
+msgid "Choose trainer from map"
+msgstr ""
+
+#: src/debug.c:672
+msgid "Trainer 1: {STR_VAR_1}"
+msgstr ""
+
+#: src/debug.c:673
+msgid "Trainer 2: {STR_VAR_1}"
+msgstr ""
+
+#: src/debug.c:674
+msgid "Partner: {STR_VAR_1}"
+msgstr ""
+
+#: src/debug.c:675
+msgid "Double Battle: {STR_VAR_1}"
+msgstr ""
+
+#: src/debug.c:676
+msgid "Matches {STR_VAR_1}/{STR_VAR_2}"
+msgstr ""
+
+#: src/debug.c:677
+msgid "Rematch Ready {STR_VAR_1}"
+msgstr ""
+
+#: src/debug.c:678
+msgid "Try Battle"
+msgstr ""
+
+#: src/debug.c:679
+msgid "Recharge VS Seeker"
+msgstr ""
+
+#: src/debug.c:685
+msgid "SFX…"
+msgstr ""
+
+#: src/debug.c:686
+msgid "Music…"
+msgstr ""
+
+#: src/debug.c:692
+msgid "Save Block space"
+msgstr ""
+
+#: src/debug.c:693
+msgid "ROM space"
+msgstr ""
+
+#: src/debug.c:694
+msgid "Expansion Version"
+msgstr ""
+
+#: src/debug.c:700
+msgid "Set Flag XYZ…"
+msgstr ""
+
+#: src/debug.c:701
+msgid "Set Var XYZ…"
+msgstr ""
+
+#: src/debug.c:702
+msgid "Pokédex Flags All"
+msgstr ""
+
+#: src/debug.c:703
+msgid "Pokédex Flags Reset"
+msgstr ""
+
+#: src/debug.c:704
+msgid "Toggle {STR_VAR_1}Pokédex"
+msgstr ""
+
+#: src/debug.c:705
+msgid "Toggle {STR_VAR_1}National Dex"
+msgstr ""
+
+#: src/debug.c:706
+msgid "Toggle {STR_VAR_1}PokéNav"
+msgstr ""
+
+#: src/debug.c:707
+msgid "Toggle {STR_VAR_1}Match Call"
+msgstr ""
+
+#: src/debug.c:708
+msgid "Toggle {STR_VAR_1}Running Shoes"
+msgstr ""
+
+#: src/debug.c:709
+msgid "Toggle {STR_VAR_1}Fly Flags"
+msgstr ""
+
+#: src/debug.c:710
+msgid "Toggle {STR_VAR_1}All badges"
+msgstr ""
+
+#: src/debug.c:711
+msgid "Toggle {STR_VAR_1}Game clear"
+msgstr ""
+
+#: src/debug.c:712
+msgid "Toggle {STR_VAR_1}Frontier Pass"
+msgstr ""
+
+#: src/debug.c:713
+msgid "Toggle {STR_VAR_1}Collision OFF"
+msgstr ""
+
+#: src/debug.c:714
+msgid "Toggle {STR_VAR_1}Encounter OFF"
+msgstr ""
+
+#: src/debug.c:715
+msgid "Toggle {STR_VAR_1}Trainer See OFF"
+msgstr ""
+
+#: src/debug.c:716
+msgid "Toggle {STR_VAR_1}Catching OFF"
+msgstr ""
+
+#: src/debug.c:717
+msgid "Toggle {STR_VAR_1}Bag Use OFF"
+msgstr ""
+
+#: src/debug.c:723
+msgid "No Bag: {STR_VAR_1}Inactive"
+msgstr ""
+
+#: src/debug.c:724
+msgid "No Bag: {STR_VAR_1}VS Trainers"
+msgstr ""
+
+#: src/debug.c:725
+msgid "No Bag: {STR_VAR_1}Active"
+msgstr ""
+
+#: src/debug.c:726
+msgid "No Bag: {STR_VAR_1}Invalid value"
+msgstr ""
+
+#: src/debug.c:731
+msgid "Utilities…"
+msgstr ""
+
+#: src/debug.c:732
+msgid "PC/Bag…"
+msgstr ""
+
+#: src/debug.c:733
+msgid "Party…"
+msgstr ""
+
+#: src/debug.c:734
+msgid "Give X…"
+msgstr ""
+
+#: src/debug.c:735
+msgid "Player…"
+msgstr ""
+
+#: src/debug.c:736
+msgid "Scripts…"
+msgstr ""
+
+#: src/debug.c:737
+msgid "Trainers…"
+msgstr ""
+
+#: src/debug.c:738
+msgid "Flags & Vars…"
+msgstr ""
+
+#: src/debug.c:739
+msgid "Sound…"
+msgstr ""
+
+#: src/debug.c:740
+msgid "ROM Info…"
+msgstr ""
+
+#: src/debug.c:1068 src/debug.c:1099
+msgid "{COLOR GREEN} TRUE"
+msgstr ""
+
+#: src/debug.c:1070 src/debug.c:1101
+msgid "{COLOR RED} FALSE"
+msgstr ""
+
+#: src/debug.c:1818
+msgid "\\nRelease Build"
+msgstr ""
+
+#: src/debug.c:1819
+msgid "\\nDevelopment Build"
+msgstr ""
+
+#: src/debug.c:1918
+msgid "Not a Trainer"
+msgstr ""
+
+#: src/debug.c:1924
+msgid ""
+"Local ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO "
+"90}"
+msgstr ""
+
+#: src/debug.c:2048
+msgid "ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO 90}"
+msgstr ""
+
+#: src/debug.c:2256
+msgid "Flag: {STR_VAR_1}{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}\\n{STR_VAR_3}"
+msgstr ""
+
+#: src/debug.c:2707
+msgid " None"
+msgstr ""
+
+#: src/debug.c:2713
+msgid "Item ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}"
+msgstr ""
+
+#: src/debug.c:2757
+msgid "Quantity:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}"
+msgstr ""
+
+#: src/debug.c:2853
+msgid "Species Disabled"
+msgstr ""
+
+#: src/debug.c:2862
+msgid ""
+"Species: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO "
+"90}"
+msgstr ""
+
+#: src/debug.c:2997
+msgid ""
+"Level:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{STR_VAR_2}{CLEAR_TO 90}"
+msgstr ""
+
+#: src/debug.c:3112
+msgid "Random"
+msgstr ""
+
+#: src/debug.c:3115
+msgid ""
+"Nature ID: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{STR_VAR_2}{CLEAR_TO 90}"
+msgstr ""
+
+#: src/debug.c:3152
+msgid ""
+"Ability Num: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO"
+" 90}\\n{STR_VAR_2}{CLEAR_TO 90}"
+msgstr ""
+
+#: src/debug.c:3205
+msgid ""
+"Tera Type: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{STR_VAR_2}{CLEAR_TO 90}"
+msgstr ""
+
+#: src/debug.c:3264
+msgid ""
+"Dmax Lvl:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{STR_VAR_2}{CLEAR_TO 90}"
+msgstr ""
+
+#: src/debug.c:3310
+msgid ""
+"Gmax Factor:{CLEAR_TO 90}\\n   {STR_VAR_2}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{CLEAR_TO 90}"
+msgstr ""
+
+#: src/debug.c:3431
+msgid "Default"
+msgstr ""
+
+#: src/debug.c:3436
+msgid "Move "
+msgstr ""
+
+#: src/debug.c:3664
+msgid "Decor ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}"
+msgstr ""
+
+#: src/debug.c:4988
+msgid "Friendship:\\n{STR_VAR_1} {RIGHT_ARROW} {STR_VAR_2}\\n\\n{STR_VAR_3}"
+msgstr ""
+
+#: src/debug.c:5047
+msgid "Inactive"
+msgstr ""
+
+#: src/debug.c:5049
+msgid "No Pokerus"
+msgstr ""
+
+#: src/debug.c:5053
+msgid "Days Left:\\n{STR_VAR_1}\\n{STR_VAR_2}{CLEAR_TO 90}\\n{STR_VAR_3}"
+msgstr ""
+
+#: src/debug.c:5083
+msgid "Strain:\\n{STR_VAR_1}\\n\\n{STR_VAR_3}"
+msgstr ""

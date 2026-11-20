@@ -10,8 +10,11 @@ Les textes sont identifiés par la phrase anglaise elle-même (msgid des fichier
 import os, re, sys, collections
 
 EXCLUDE_DIRS = ('/tools', '/test', '/build', '/.git', '/docs', '/migration_scripts', '/dev_scripts')
-EXCLUDE_FILES = ('src/debug.c', 'src/battle_debug.c',
-                 'src/text_input_strings.c')  # claviers : la disposition affichee doit suivre celle du code
+EXCLUDE_FILES = ('src/text_input_strings.c',)  # claviers : la disposition affichée doit suivre celle du code
+# fichiers texte non C : noms de Dresseurs (.party, convertis en .h à la compilation) et noms de lieux
+PARTY_NAME = re.compile(r'^(Name:[ \t]*)(.*?)[ \t]*$', re.M)
+JSON_FILES = ('src/data/region_map/region_map_sections.json',)
+JSON_NAME = re.compile(r'("name"\s*:\s*")((?:[^"\\]|\\.)*)"')
 LIT = r'"(?:[^"\\\n]|\\.)*"'
 C_RE = re.compile(r'(?<![A-Za-z0-9_])(_|COMPOUND_STRING|ITEM_NAME|ITEM_PLURAL_NAME)\(\s*((?:' + LIT + r'\s*)+)\)')
 LIT_RE = re.compile(LIT)
@@ -37,6 +40,15 @@ def scan_file(root, rel):
     except (UnicodeDecodeError, FileNotFoundError):
         return []
     occ = []
+    if rel.endswith('.party'):
+        for m in PARTY_NAME.finditer(txt):
+            if m.group(2):
+                occ.append(Occ(rel, 'party', m.start(2), m.end(2), m.group(2), '', txt.count('\n', 0, m.start()) + 1))
+        return occ
+    if rel.endswith('.json'):
+        for m in JSON_NAME.finditer(txt):
+            occ.append(Occ(rel, 'json', m.start(2), m.end(2), m.group(2), '', txt.count('\n', 0, m.start()) + 1))
+        return occ
     if rel.endswith(('.inc', '.s')):
         pos = 0; lines = txt.split('\n'); offs = []
         for l in lines:
@@ -72,18 +84,30 @@ def scan_file(root, rel):
     return occ
 
 
+def fichiers_suivis(root):
+    """Fichiers suivis par git (les .h générés à la compilation sont exclus)."""
+    import subprocess
+    try:
+        top = subprocess.run(['git', 'rev-parse', '--show-toplevel'], cwd=root, capture_output=True, text=True, check=True).stdout.strip()
+        if os.path.realpath(top) != os.path.realpath(root): raise ValueError('pas un dépôt git')
+        r = subprocess.run(['git', 'ls-files', '-z'], cwd=root, capture_output=True, check=True)
+        return sorted(f.decode('utf-8') for f in r.stdout.split(b'\0') if f)
+    except Exception:
+        out = []
+        for dp, dn, fn in os.walk(root):
+            for f in fn: out.append(os.path.relpath(os.path.join(dp, f), root))
+        return sorted(out)
+
+
 def scan(root):
     out = []
-    for dp, dn, fn in os.walk(root):
-        rd = '/' + os.path.relpath(dp, root)
+    for rel in fichiers_suivis(root):
+        rd = '/' + os.path.dirname(rel)
         if any(rd.startswith(x) for x in EXCLUDE_DIRS):
             continue
-        for f in sorted(fn):
-            if not f.endswith(('.inc', '.s', '.c', '.h')):
-                continue
-            rel = os.path.relpath(os.path.join(dp, f), root)
-            if rel in EXCLUDE_FILES or rel.startswith('src/data/credits'):
-                continue
+        if rel in EXCLUDE_FILES:
+            continue
+        if rel.endswith(('.inc', '.s', '.c', '.h', '.party')) or rel in JSON_FILES:
             out += scan_file(root, rel)
     return out
 
@@ -96,7 +120,7 @@ def wanted(text):
 def domain(path):
     if path.startswith('data/maps/') or path.startswith('data/scripts') or path.startswith('data/event_scripts') or path.startswith('data/text'):
         return 'dialogues'
-    if path.startswith('src/data/'):
+    if path.startswith('src/data/') or path.endswith('.party'):
         return 'donnees'
     return 'menus'
 
@@ -138,6 +162,8 @@ class Charmap:
 
 # ------------------------------------------------------------------ write back
 def render(occ, fr, orig=''):
+    if occ.kind in ('party', 'json'):
+        return fr
     if occ.kind == 'c':
         # keep the same number of lines (assertions use __LINE__)
         nl = orig.count('\n')

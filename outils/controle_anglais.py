@@ -55,14 +55,26 @@ pos = 0
 while True:
     e = en.find(b'\xff', pos)
     if e < 0: break
-    s = en[pos:e]
-    if 3 <= len(s) <= 2000 and not s.translate(None, dele):
-        # start: try the whole segment then shrink from the left if it fails to decode
+    a = e
+    while a > pos and e - a < 2000 and en[a - 1] in allowed: a -= 1
+    while a < e and en[a] == 0: a += 1          # espaces de remplissage
+    s = en[a:e]
+    if len(s) >= 3:
         t = g.decode(s)
         if t and re.search(r'[A-Za-z]{3}', t):
-            segs.append((pos, s, t))
+            segs.append((a, s, t))
     pos = e + 1
 print('chaînes texte dans la ROM anglaise :', len(segs))
+
+def at_boundary(rom, i):
+    return i == 0 or rom[i - 1] in (0xFF, 0x00) or i % 4 == 0 or rom[i - 1] not in allowed
+
+def present(b):
+    pat = b + b'\xff'; i = fr.find(pat)
+    while i >= 0:
+        if at_boundary(fr, i): return True
+        i = fr.find(pat, i + 1)
+    return False
 
 found = {}
 for a, s, t in segs:
@@ -70,7 +82,7 @@ for a, s, t in segs:
     if not ew: continue
     if len(ew) == 1 and len(re.findall(r'[A-Za-z]+', t)) > 4:  # un seul mot anglais dans une phrase française
         continue
-    if (s + b'\xff') in fr:
+    if present(s):
         found.setdefault(t, (a, ew))
 
 # rattachement aux sources
@@ -90,10 +102,20 @@ for dp, dn, fn in os.walk(os.path.join(root, 'src', 'data')):
             for m in re.finditer(r'"name"\s*:\s*"([^"]+)"', open(p, encoding='utf-8').read()):
                 b = g.encode(m.group(1))
                 if b: occ[b].add(rel)
-for path in ('src/debug.c', 'src/battle_debug.c', 'src/text_input_strings.c'):
+import glob
+for path in ['src/debug.c', 'src/battle_debug.c', 'src/text_input_strings.c'] + [os.path.relpath(x, root) for x in glob.glob(os.path.join(root, 'src/data/credits*'))]:
     for o in hnsfr.scan_file(root, path):
         b = g.encode(o.text)
         if b: occ[b].add(path + ' (exclu)')
+
+for b, paths in occ.items():
+    if len(b) < 3: continue
+    t = g.decode(b)
+    if not t or t in found: continue
+    ew = english_words(t)
+    if not ew or (len(ew) == 1 and len(re.findall(r'[A-Za-z]+', t)) > 4): continue
+    if (b + b'\xff') in en and present(b):
+        found[t] = (en.find(b + b'\xff'), ew)
 
 rows = []
 by = collections.Counter()
