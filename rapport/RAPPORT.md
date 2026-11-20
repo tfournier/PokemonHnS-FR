@@ -6,24 +6,24 @@ Rapport généré par `outils/rapport.py`. Détails : `DECISIONS.md`, `rapport/E
 
 | Source | dialogues | menus | donnees | contextes | Total |
 |---|---|---|---|---|---|
-| Émeraude FR officiel | 7022 | 1918 | 4718 | 36 | **13694** |
-| Émeraude FR officiel (adapté) | 86 | 200 | 100 | 9 | **395** |
-| SoulSilver FR officiel | 1494 | 457 | 882 | 231 | **3064** |
+| Émeraude FR officiel | 7022 | 1918 | 4685 | 36 | **13661** |
+| Émeraude FR officiel (adapté) | 86 | 200 | 134 | 9 | **429** |
+| SoulSilver FR officiel | 1494 | 457 | 897 | 233 | **3081** |
 | SoulSilver FR officiel (adapté) | 441 | 27 | 26 | 2 | **496** |
-| patch FR existant (vérifié) | 379 | 38 | 457 | 0 | **874** |
-| patch FR existant | 1515 | 730 | 3704 | 0 | **5949** |
-| traduction nouvelle ou manuelle | 3834 | 1038 | 1102 | 257 | **6231** |
-| gardé tel quel (exception) | 80 | 119 | 283 | 8 | **490** |
+| patch FR existant (vérifié) | 381 | 39 | 1200 | 0 | **1620** |
+| patch FR existant | 1503 | 727 | 2916 | 0 | **5146** |
+| traduction nouvelle ou manuelle | 3844 | 1040 | 1154 | 259 | **6297** |
+| gardé tel quel (exception) | 80 | 119 | 260 | 8 | **467** |
 | sans source | 3 | 1 | 1 | 7 | **12** |
-| **Total** | 14854 | 4528 | 11273 | 550 | **31205** |
+| **Total** | 14854 | 4528 | 11273 | 554 | **31209** |
 
 ## Construction et contrôles
 
 - Construction : `./build.sh` (make hns) — traduit: 38071 ; non traduit: 2.
 - `rapport/trop_longs.txt` : 0 texte(s) remis en anglais faute de place.
 - `rapport/images_a_revoir.txt` : 0 image(s) modifiée(s) par HnS depuis notre traduction.
-- Contrôles automatiques (`outils/verifier.py`, 100 % des entrées) : LARGEUR 60, GLOSSAIRE 36, ANGLAIS 17, FRAGMENT 17, CODES 2, ESPACE 1.
-- Chaînes anglaises de la ROM de référence encore présentes (`outils/controle_anglais.py`) : 489, dont 192 identifiants du test sonore (exception) ; le détail est dans `rapport/anglais_restant.tsv`.
+- Contrôles automatiques (`outils/verifier.py`, 100 % des entrées) : aucune alerte.
+- Chaînes anglaises de la ROM de référence encore présentes (`outils/controle_anglais.py`) : 454, dont 192 identifiants du test sonore (exception) ; le détail est dans `rapport/anglais_restant.tsv`.
 - Test aller-retour (`outils/test_aller_retour.py`, msgstr = msgid) : ROM identique à la référence (dernier passage consigné dans l’historique git).
 
 ## Relectures ChatGPT
