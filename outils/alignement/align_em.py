@@ -1,8 +1,14 @@
+"""[Ancien script, remplacé par em_pointeurs.py / em_candidats.py (lot A) ; chemins rendus relatifs au projet.]
+Sorties dans $LOTA_TMP (défaut memoires/lotA) ; les mémoires historiques de memoires/ ne sont pas écrasées."""
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from em_commun import P, MEM, TMP, ROOT
+os.makedirs(TMP, exist_ok=True)
 """Align Emerald US and FR ROMs, map every pointer target in US to its FR counterpart.
 Output: pickle {us_target: fr_target} for targets that look like text."""
 import struct, collections, pickle, sys
-us = open('/home/claude/roms/em_us.gba', 'rb').read()
-fr = open('/home/claude/roms/em_fr.gba', 'rb').read()
+us = open(os.path.join(MEM, 'emeraude_us.gba'), 'rb').read()
+fr = open(os.path.join(MEM, 'em_fr.gba'), 'rb').read()
 N = len(us)
 
 def mask(rom):
@@ -53,5 +59,5 @@ for p in range(0, N - 3):
     if not (0x08000000 <= w < 0x09000000): continue
     mp[v - 0x08000000][w - 0x08000000] += 1
 best = {u: c.most_common(1)[0][0] for u, c in mp.items()}
-pickle.dump(best, open('/home/claude/em_ptrmap.pkl', 'wb'))
+pickle.dump(best, open(os.path.join(TMP, 'em_ptrmap.pkl'), 'wb'))
 print('mapped targets', len(best), file=sys.stderr)

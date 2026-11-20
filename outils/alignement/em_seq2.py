@@ -1,15 +1,21 @@
-import pickle,sys,re,bisect,polib,glob; sys.path.insert(0,'/home/claude/pokehns-fr/outils')
+"""[Ancien script, remplacé par em_pointeurs.py / em_candidats.py (lot A) ; chemins rendus relatifs au projet.]
+Sorties dans $LOTA_TMP (défaut memoires/lotA) ; les mémoires historiques de memoires/ ne sont pas écrasées."""
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from em_commun import P, MEM, TMP, ROOT
+os.makedirs(TMP, exist_ok=True)
+import pickle,sys,re,bisect,polib,glob; sys.path.insert(0, os.path.join(P, 'outils'))
 from gen3 import Gen3
-g=Gen3('/home/claude/pokehns-fr/build/upstream')
-us=open('/home/claude/roms/em_us.gba','rb').read(); fr=open('/home/claude/roms/em_fr.gba','rb').read()
-m=pickle.load(open('/home/claude/em_ptrmap2.pkl','rb'))
+g=Gen3(ROOT)
+us=open(os.path.join(MEM, 'emeraude_us.gba'),'rb').read(); fr=open(os.path.join(MEM, 'em_fr.gba'),'rb').read()
+m=pickle.load(open(os.path.join(TMP, 'em_ptrmap.pkl'),'rb'))
 # keep only mappings whose targets look like text in both
 known=sorted(k for k,v in m.items() if 0<k<len(us) and 0<v<len(fr))
 prev={}
 vals=set(m.values())
 def codes(s): return sorted(re.findall(r'\{[A-Z_0-9]+',s))
 out=dict(prev); n=0
-for f in glob.glob('traductions/*.po'):
+for f in glob.glob(os.path.join(P, 'traductions', '*.po')):
     for e in polib.pofile(f):
         if (e.msgstr and 'fuzzy' not in e.flags) or e.msgid in out: continue
         try: b=g.encode(e.msgid)
@@ -49,4 +55,4 @@ for f in glob.glob('traductions/*.po'):
             if t and not re.search(r'[\u3040-\u30ff]',t) and t!=e.msgid and re.search(r'[a-zà-ÿ]{2}',t):
                 out[e.msgid]=t; n+=1
 print('nouveaux',n,'total',len(out))
-pickle.dump(out,open('memoires/em_seq_pairs.pkl','wb'))
+pickle.dump(out,open(os.path.join(TMP, 'em_seq_pairs.pkl'),'wb'))
