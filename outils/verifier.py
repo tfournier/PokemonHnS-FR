@@ -85,6 +85,26 @@ class Verif:
             self.style = style
         self._src = {}
 
+    def fenetre(self, fichier):
+        """largeur de fenêtre estimée pour un fichier de données : la ligne la plus large des textes
+        officiels français (Émeraude/SoulSilver exacts) et des textes anglais multi-lignes du même fichier."""
+        if not hasattr(self, '_fen'):
+            import polib
+            self._fen = {}
+            P = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            for d in ('dialogues', 'menus', 'donnees', 'contextes'):
+                f = os.path.join(P, 'traductions', d + '.po')
+                if not os.path.exists(f): continue
+                for e in polib.pofile(f):
+                    if not e.occurrences or not re.search(r'\\[nlp]', e.msgid): continue
+                    fi = e.occurrences[0][0]
+                    w = max(self.g.largeur(l) for l in lignes(e.msgid))
+                    src = (re.search(r'source : ([^\n]*)', e.comment or '') or [None, ''])[1].lower()
+                    if e.msgstr and re.match(r'(émeraude|soulsilver) fr officiel', src) and 'adapt' not in src:
+                        w = max(w, max(self.g.largeur(l) for l in lignes(e.msgstr)))
+                    self._fen[fi] = max(self._fen.get(fi, 0), w)
+        return self._fen.get(fichier, MAXW)
+
     def cibles(self):
         """adresses visées par un pointeur (aligné ou non) dans la ROM du patch FR."""
         if self._cibles is None:
@@ -142,7 +162,8 @@ class Verif:
         # codes
         a = collections.Counter(self.code_bytes(c) for c in CODE.findall(msgid) if self.est_code(c))
         b = collections.Counter(self.code_bytes(c) for c in CODE.findall(msgstr) if self.est_code(c))
-        if a != b:
+        exact_officiel = re.match(r'(émeraude|soulsilver) fr officiel', source.lower()) and 'adapt' not in source.lower()
+        if a != b and not (exact_officiel and not (b - a)):
             a, b = codes(msgid), codes(msgstr)
             manque = list((a - b).elements()); trop = list((b - a).elements())
             pb.append(('CODES', 'manque %s ; en trop %s' % (manque[:4], trop[:4])))
@@ -166,13 +187,21 @@ class Verif:
             pb.append(('CARACTERE', repr(sorted(set(bad))[:6])))
         # largeur (dialogues : textes multi-lignes ou domaine dialogues)
         dialogue = bool(re.search(r'\\[nlp]', msgid)) or domaine == 'dialogues'
-        if dialogue and not re.search(r'\{(DYNAMIC|CLEAR_TO|CLEAR|FONT|SHIFT)', msgstr):
+        officiel_exact = bool(re.match(r'(émeraude|soulsilver) fr officiel', source.lower())) and 'adapt' not in source.lower()
+        if dialogue and not officiel_exact and not re.search(r'\{(DYNAMIC|CLEAR_TO|CLEAR|FONT|SHIFT)', msgstr):
             wmax_en = max(self.g.largeur(l) for l in lignes(msgid))
             officiel = 'officiel' in source
+            fichier = occs[0][0] if occs else ''
+            if domaine == 'dialogues' or fichier.startswith(('data/maps', 'data/scripts', 'data/text')):
+                limite = FENETRE if officiel else MAXW            # fenêtre de dialogue
+            elif 'species_info' in fichier or 'pokedex' in fichier:
+                limite = 236                                      # description du Pokédex (texte sur 240 px)
+            else:
+                limite = max(wmax_en, self.fenetre(fichier))     # données et menus : fenêtre estimée du fichier
             for l in lignes(msgstr):
                 w = self.g.largeur(l)
-                if w > (FENETRE if officiel else MAXW) and w > wmax_en:
-                    pb.append(('LARGEUR', '%d px : %s' % (w, l[:50]))); break
+                if w > limite and w > wmax_en:
+                    pb.append(('LARGEUR', '%d px > %d : %s' % (w, limite, l[:50]))); break
         # champs fixes
         ch = self.champ(occs)
         if ch:
@@ -206,7 +235,7 @@ class Verif:
                 if ma and mf and ma.isupper() and mf.islower():
                     pb.append(('FRAGMENT', 'minuscule initiale (anglais en majuscule)'))
         # identique à l'anglais
-        if msgstr == msgid and anglais(msgid):
+        if msgstr == msgid and anglais(msgid) and 'officiel' not in source and 'exception' not in (comment or '').lower():
             pb.append(('ANGLAIS', 'traduction identique à l’anglais'))
         return pb
 
@@ -224,6 +253,11 @@ def main():
     root, files = args[0], args[1:]
     V = Verif(root, patch, gl)
     rows = []; tot = collections.Counter(); n = 0
+    ctx_couverts = set()
+    for f in files:
+        if f.endswith('contextes.po'):
+            import polib
+            ctx_couverts |= {(e.msgctxt, e.msgid) for e in polib.pofile(f) if e.msgctxt}
     for f in files:
         if f.endswith('.po'):
             import polib
@@ -236,6 +270,7 @@ def main():
             dom = ''
         for mid, mstr, occ, com, ctx in ents:
             n += 1
+            if not ctx: occ = [o for o in occ if (o[0], mid) not in ctx_couverts]
             d = dom or (hnsfr.domain(occ[0][0]) if occ else '')
             for k, msg in V.check(mid, mstr, occ, com, d):
                 tot[k] += 1

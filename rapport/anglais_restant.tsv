@@ -1,33 +1,14 @@
 catégorie	adresse_EN	texte	sources	mots_anglais
-(source inconnue)	0x04214FD	ÁVee Vee?		Vee Vee
 (source inconnue)	0x049150B	ËÑ   AMELIA		AMELIA
 (source inconnue)	0x0491D5F	Ë;   KELLY		KELLY
 (source inconnue)	0x0492037	ËÏ   MOLLY		MOLLY
 (source inconnue)	0x0492927	ËÛ   SALMA		SALMA
 (source inconnue)	0x0492AFB	ËŒ   ALISON		ALISON
-(source inconnue)	0x0493077	Ëê   RUTH		RUTH
 (source inconnue)	0x04930AB	Ëê   MELODY		MELODY
 (source inconnue)	0x049341F	ËÚ   AVA		AVA
-(source inconnue)	0x04936F7	Ëこ   BRET		BRET
-(source inconnue)	0x0493B07	Ëá   MILLER		MILLER
-(source inconnue)	0x0493F4B	Ë&   BAILEY		BAILEY
-(source inconnue)	0x04940B7	ËÇ   DIRK		DIRK
 (source inconnue)	0x0494187	Ë    DEV		DEV
-(source inconnue)	0x04942F3	ËÑ   DAWN		DAWN
 (source inconnue)	0x04BF5BB	ËZero		Zero
-(source inconnue)	0x04C9CDD	Ñ SAWYER		SAWYER
-(source inconnue)	0x04C9D79	ÛÈJED		JED
-(source inconnue)	0x04CA565	Û9BRET		BRET
-(source inconnue)	0x04CAD1D	ÙÑBETH		BETH
-(source inconnue)	0x04CB4A1	ÛçMILLER		MILLER
 (source inconnue)	0x04CC5D3	Ë                3ŒÊWALTER		WALTER
-(source inconnue)	0x04CC66F	Ë                3ŒÊTUCKER		TUCKER
-(source inconnue)	0x04CC6A3	Ë                3ŒÊRICK		RICK
-(source inconnue)	0x04CCFC7	Ë                1ÛTRUSS		TRUSS
-(source inconnue)	0x04CD6C1	Ñ6NARD		NARD
-(source inconnue)	0x04CE1B9	ÔëDALE		DALE
-(source inconnue)	0x04CEA75	ÔëALLAN		ALLAN
-(source inconnue)	0x04D146F	Ë                3ŒÊJIMMY		JIMMY
 (source inconnue)	0x04EB570	SE-PIKE-CURTAIN-OPEN		PIKE CURTAIN
 (source inconnue)	0x04EB588	SE-PIKE-CURTAIN-CLOSE		PIKE CURTAIN
 (source inconnue)	0x04EB688	SE-RG-BALL-CLICK		CLICK
@@ -235,7 +216,6 @@ catégorie	adresse_EN	texte	sources	mots_anglais
 (source inconnue)	0x07D1344	こ  ÑFires three types of beams.\nMay burn/paralyze/freeze.		burn paralyze
 (source inconnue)	0x0809898	â  Judo		Judo
 (source inconnue)	0x080BC30	(  Chinchilla		Chinchilla
-(source inconnue)	0x080BD3C	(  Scarf		Scarf
 (source inconnue)	0x0813064	4  Fragrance		Fragrance
 (source inconnue)	0x081ECCE	ÈÈÇ ♂ {NAME_END} Viking		Viking
 (source inconnue)	0x0996B57	DD+nDznDAwnAzADwmA		Awn
@@ -268,7 +248,6 @@ catégorie	adresse_EN	texte	sources	mots_anglais
 (source inconnue)	0x10B54E5	BAAkQQA		BAA
 (source inconnue)	0x10B54ED	ABB		ABB
 (source inconnue)	0x10DFBE8	AA9éAAAéBAAéÙBAé		BAA
-(source inconnue)	0x1176C1A	À ËËÁÓMIKE		MIKE
 (source inconnue)	0x12FD947	SEND  OUT		SEND
 (source inconnue)	0x12FD951	SUMM ARY		ARY
 (source inconnue)	0x12FD978	BATT LE MOVES 		BATT
@@ -376,12 +355,9 @@ catégorie	adresse_EN	texte	sources	mots_anglais
 (source inconnue)	0x1CC6EAC	kTJNZels▶ö		els
 (source inconnue)	0x1CC78CC	ÁこÔèéÛÎÁ▶pnyü\pËÚÙàáÏ▶aesÀÙèèŒÔÔÈüÜ		aes
 (source inconnue)	0x1CC9093	önA6Ady		Ady
-Dresseurs (.party)	0x049119F	RICK	src/data/trainers.party src/data/trainers_frlg.party src/data/trainers_hns.party	RICK
-Dresseurs (.party)	0x04C9CDF	SAWYER	src/data/trainers.party src/data/trainers_hns.party	SAWYER
 Dresseurs (.party)	0x04CA087	ALAN	src/data/trainers.party src/data/trainers_frlg.party src/data/trainers_hns.party	ALAN
 Dresseurs (.party)	0x04CA8A7	MIKE	src/data/trainers.party src/data/trainers_frlg.party src/data/trainers_hns.party	MIKE
 Dresseurs (.party)	0x04CC5E7	WALTER	src/data/trainers.party src/data/trainers_frlg.party src/data/trainers_hns.party	WALTER
-Dresseurs (.party)	0x04CCA5F	TARA	src/data/trainers.party src/data/trainers_hns.party	TARA
 Dresseurs (.party)	0x04CCED7	SAM	src/data/trainers_hns.party	SAM
 Dresseurs (.party)	0x04CE1EF	TED	src/data/trainers.party src/data/trainers_frlg.party src/data/trainers_hns.party	TED
 Dresseurs (.party)	0x04CE4C7	PING	src/data/trainers_hns.party	PING
@@ -399,23 +375,7 @@ data/scripts	0x033225D	{FONT 11}Quanta quanta qophs for the inquest\nsheqel of t
 data/scripts	0x0332385	{FONT 11}Uncle uncle udder for the dunes cloud\nof the hindu thou and continuum. Vulcan\lvulcan vocal for the alluvial ovoid of\lthe yugoslav chekhov and revved. Whale\lwhale woman for the meanwhile blowout\lof the forepaw meadow and glowworm.\lXmas xmas xenon for the bauxite\ldoxology of the tableaux equinox and\lexxon.	data/scripts/debug.inc	Uncle uncle udder thou continuum
 data/scripts	0x03324BA	{FONT 11}Yunnan yunnan young for the dynamo\ncoyote of the obloquy employ and\lsayyid. Zloty zloty zodiac for the gizmo\lozone of the franz laissez and buzzing.	data/scripts/debug.inc	dynamo coyote obloquy employ Zloty
 data/scripts	0x0332552	{FONT 11}42 × 138 = 5796.\nMr Jock, TV quiz PhD: bags 20% fewer\llynx at a café; voilà, they’re “worth”\l♂1/♀1 = ¥1. That’s 10 + 9 - 8 = 11\lNintendo GBA can connect to a Nintendo\lGameCube console! He claimed-though I don’t\lbelieve him-to have done so in an eyes-shut\lstate…?	data/scripts/debug.inc	Jock lynx worth connect him
-data/text	0x04CFDC3	TUCKER	data/text/fame_checker_frlg.inc src/data/trainers.party src/data/trainers_frlg.party	TUCKER
-src/battle_debug.c	0x046C940	Restore Pp	src/battle_debug.c src/battle_debug.c (exclu)	Restore
-src/battle_debug.c	0x046C988	Restore Hp	src/battle_debug.c src/battle_debug.c (exclu)	Restore
 src/battle_debug.c	0x046CB78	Omniscient	src/battle_debug.c src/battle_debug.c (exclu)	Omniscient
-src/battle_debug.c	0x046CBA0	Stall	src/battle_debug.c src/battle_debug.c (exclu)	Stall
-src/battle_debug.c	0x046CCA8	Lucky Chant	src/battle_debug.c src/battle_debug.c (exclu)	Lucky
-src/battle_debug.c	0x046CCD4	Safeguard	src/battle_debug.c src/battle_debug.c (exclu)	Safeguard
-src/battle_debug.c	0x046CCF0	Reflect	src/battle_debug.c src/battle_debug.c (exclu)	Reflect
-src/battle_debug.c	0x046CD04	Stealth Rock	src/battle_debug.c src/battle_debug.c (exclu)	Stealth
-src/battle_debug.c	0x046CE8C	Heal Block	src/battle_debug.c src/battle_debug.c (exclu)	Heal
-src/battle_debug.c	0x046CE98	Magnet Rise	src/battle_debug.c src/battle_debug.c (exclu)	Rise
-src/battle_debug.c	0x046CEE4	Imprison	src/battle_debug.c src/battle_debug.c (exclu)	Imprison
-src/battle_debug.c	0x046CEF0	Yawn	src/battle_debug.c src/battle_debug.c (exclu)	Yawn
-src/battle_debug.c	0x046CF08	Minimize	src/battle_debug.c src/battle_debug.c (exclu)	Minimize
-src/battle_debug.c	0x046CF14	Perish Song	src/battle_debug.c src/battle_debug.c (exclu)	Perish Song
-src/battle_debug.c	0x046CFA8	Foresight	src/battle_debug.c src/battle_debug.c (exclu)	Foresight
-src/battle_debug.c	0x046CFF8	Torment	src/battle_debug.c src/battle_debug.c (exclu)	Torment
 src/battle_main.c	0x04757E4	LASS	src/battle_main.c	LASS
 src/berry_blender.c	0x04B0F78	MISS	src/berry_blender.c src/data/easy_chat/easy_chat_group_speech.h	MISS
 src/data	0x0430FC6	ANN	src/data/battle_frontier/battle_frontier_trainers.h src/data/trainers_frlg.party	ANN
@@ -423,8 +383,8 @@ src/data	0x043101C	LIONEL	src/data/battle_frontier/apprentice.h	LIONEL
 src/data	0x043108C	WENZEL	src/data/battle_frontier/apprentice.h	WENZEL
 src/data	0x043119C	ROQUE	src/data/battle_frontier/apprentice.h	ROQUE
 src/data	0x0431244	KARO	src/data/battle_frontier/apprentice.h	KARO
+src/data	0x043138C	FRANK	src/data/battle_frontier/apprentice.h src/data/trainers_hns.party	FRANK
 src/data	0x04314B4	PABLO	src/data/battle_frontier/apprentice.h src/data/trainers.party	PABLO
-src/data	0x046C717	Scarf	src/data/pokemon/species_info/gen_5_families.h	Scarf
 src/data	0x04907A8	PEGGY	src/data/battle_frontier/battle_frontier_trainers.h	PEGGY
 src/data	0x049133C	SAMMY	src/data/battle_frontier/battle_frontier_trainers.h src/data/trainers_frlg.party	SAMMY
 src/data	0x0491510	AMELIA	src/data/battle_frontier/battle_frontier_trainers.h	AMELIA
@@ -433,22 +393,15 @@ src/data	0x0491D64	KELLY	src/data/battle_frontier/battle_frontier_trainers.h src
 src/data	0x049203C	MOLLY	src/data/battle_frontier/battle_frontier_trainers.h	MOLLY
 src/data	0x049292C	SALMA	src/data/battle_frontier/battle_frontier_trainers.h	SALMA
 src/data	0x0492B00	ALISON	src/data/battle_frontier/battle_frontier_trainers.h	ALISON
-src/data	0x0492B68	EARL	src/data/battle_frontier/battle_frontier_trainers.h src/data/trainers_frlg.party	EARL
 src/data	0x0492FE0	JOSIE	src/data/battle_frontier/battle_frontier_trainers.h	JOSIE
 src/data	0x04930B0	MELODY	src/data/battle_frontier/battle_frontier_trainers.h	MELODY
 src/data	0x0493424	AVA	src/data/battle_frontier/battle_frontier_trainers.h	AVA
 src/data	0x049355C	NELSON	src/data/battle_frontier/battle_frontier_trainers.h src/data/trainers_frlg.party	NELSON
-src/data	0x04936FC	BRET	src/data/battle_frontier/battle_frontier_trainers.h src/data/trainers_hns.party	BRET
-src/data	0x0493B0C	MILLER	src/data/battle_frontier/battle_frontier_trainers.h src/data/trainers_hns.party	MILLER
 src/data	0x0493C78	TOBY	src/data/battle_frontier/battle_frontier_trainers.h src/data/trainers_frlg.party src/data/trainers_hns.party	TOBY
-src/data	0x0493F50	BAILEY	src/data/battle_frontier/battle_frontier_trainers.h src/data/trainers_hns.party	BAILEY
-src/data	0x04940BC	DIRK	src/data/battle_frontier/battle_frontier_trainers.h src/data/trainers_frlg.party src/data/trainers_hns.party	DIRK
 src/data	0x049418C	DEV	src/data/battle_frontier/battle_frontier_trainers.h	DEV
 src/data	0x04B75CB	JIMMY	src/data/contest_opponents.h src/data/trainers_hns.party	JIMMY
-src/data	0x04B7733	GRANT	src/data/contest_opponents.h src/data/trainers_hns.party	GRANT
 src/data	0x04B801B	ALIYAH	src/data/contest_opponents.h	ALIYAH
 src/data	0x04B83DB	NOEL	src/data/contest_opponents.h	NOEL
-src/data	0x04B8C72	ALLAN	src/data/contest_opponents.h src/data/trainers_hns.party	ALLAN
 src/data	0x04BF0E0	Seth McMahill	src/data/credits.h src/data/credits.h (exclu) src/data/credits_hns.h	Seth
 src/data	0x04BF104	Graphic Designer	src/data/credits.h src/data/credits.h (exclu) src/data/credits_hns.h	Designer
 src/data	0x04BF138	Package & Manual Illustration	src/data/credits.h src/data/credits.h (exclu) src/data/credits_hns.h	Manual Illustration
@@ -490,8 +443,6 @@ src/data	0x04BFC60	TixoRebel	src/data/credits_hns.h src/data/credits_hns.h (excl
 src/data	0x04BFC78	InfiniteBacon42	src/data/credits_hns.h src/data/credits_hns.h (exclu)	Infinite Bacon
 src/data	0x04BFCA4	LIL DILL	src/data/credits_hns.h src/data/credits_hns.h (exclu)	DILL
 src/data	0x04CC13B	HENRY	src/data/battle_frontier/trainer_hill.h src/data/trainers.party src/data/trainers_hns.party	HENRY
-src/data	0x04CCA2B	DAWN	src/data/battle_frontier/battle_frontier_trainers.h src/data/trainers_frlg.party src/data/trainers_hns.party	DAWN
-src/data	0x04CECE7	RUTH	src/data/battle_frontier/battle_frontier_trainers.h src/data/trainers_frlg.party src/data/trainers_hns.party	RUTH
 src/data	0x04ECB5C	TORY	src/data/trade.h	TORY
 src/data	0x04F9018	WINNER	src/data/easy_chat/easy_chat_group_trendy_saying.h	WINNER
 src/data	0x04FA584	SONG	src/data/easy_chat/easy_chat_group_hobbies.h	SONG
@@ -509,11 +460,8 @@ src/data	0x079A02C	Tri-Passes	src/data/items.h	Tri
 src/data	0x079A3BC	SCANNER	src/data/items.h	SCANNER
 src/data	0x079A434	DEVON SCOPE	src/data/items.h	SCOPE
 src/data	0x07A43BC	LURE	src/data/items.h	LURE
-src/data	0x07C5AD4	G-MAX RESONANCE	src/data/moves_info.h	RESONANCE
-src/data	0x07C88C0	COACHING	src/data/moves_info.h	COACHING
 src/data	0x07C9284	BODY PRESS	src/data/moves_info.h	PRESS
 src/data	0x07CA054	INSTRUCT	src/data/moves_info.h	INSTRUCT
-src/data	0x07CB640	FLYING PRESS	src/data/moves_info.h	PRESS
 src/data	0x07D1CDC	SMOG	src/data/moves_info.h	SMOG
 src/data	0x07D2EE0	SING	src/data/moves_info.h	SING
 src/data	0x080989B	Judo	src/data/pokemon/species_info/gen_5_families.h	Judo
@@ -522,19 +470,11 @@ src/data	0x0813067	Fragrance	src/data/pokemon/species_info/gen_6_families.h	Frag
 src/data	0x081DE2F	Punk	src/data/pokemon/species_info/gen_8_families.h	Punk
 src/data	0x081E25F	Jujitsu	src/data/pokemon/species_info/gen_8_families.h	Jujitsu
 src/data	0x081ECD7	Viking	src/data/pokemon/species_info/gen_1_families.h	Viking
-src/data	0x0D364C4	PICKPOCKET	src/data/abilities.h	PICKPOCKET
-src/data	0x0D36D30	BERSERK	src/data/abilities.h	BERSERK
-src/data	0x0D36E64	CORROSION	src/data/abilities.h	CORROSION
-src/data	0x0D371E4	PUNK ROCK	src/data/abilities.h	PUNK
-src/data	0x0D373DC	TRANSISTOR	src/data/abilities.h	TRANSISTOR
 src/data	0x0D5EC24	SEPIA	src/data/script_menu.h	SEPIA
 src/data	0x0D6D3C4	MARCO	src/data/battle_frontier/battle_frontier_trainers.h src/strings.c	MARCO
 src/data	0x113B46C	DEAN	src/data/battle_frontier/trainer_hill.h src/data/trainers.party src/data/trainers_frlg.party	DEAN
-src/debug.c	0x04EF2B8	Partner: {STR_VAR_1}	src/debug.c src/debug.c (exclu)	Partner
-src/debug.c	0x04EFD24	Steven	src/debug.c src/debug.c (exclu)	Steven
 src/field_specials.c	0x05F7C00	SampleCode	src/field_specials.c	Sample
 src/player_pc.c	0x07DAB10	DECORATION	src/player_pc.c src/strings.c	DECORATION
-src/pokedex_plus_hgss.c	0x07E14D8	MEDIUM	src/pokedex_plus_hgss.c	MEDIUM
 src/pokedex_plus_hgss.c	0x07E15C8	MINERAL	src/pokedex_plus_hgss.c	MINERAL
 src/pokemon_storage_system.c	0x0D3CC0C	SAVANNA	src/pokemon_storage_system.c	SAVANNA
 src/scrcmd.c	0x0D5E02C	Zee	src/scrcmd.c	Zee
