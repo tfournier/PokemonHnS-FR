@@ -1,0 +1,1140 @@
+[
+ {
+  "msgid": "OAK: Hey! Wait!\\nDon't go out!",
+  "msgstr": "Chen: Hé! Attends! Ne sors pas!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 452,
+  "note": "Prof. Chen, première sortie vers les herbes. « OAK: » → « Chen: ». [PalletTown_EventScript_OakTrigger ; non compilé]"
+ },
+ {
+  "msgid": "OAK: It's unsafe!\\nWild POKéMON live in tall grass!\\pYou need your own POKéMON for\\nyour protection.\\pI know!\\nHere, come with me!",
+  "msgstr": "Chen: C’est dangereux!\\pDes Pokémon sauvages vivent dans les\\nhautes herbes!\\pIl te faut ton propre Pokémon pour te\\nprotéger.\\pJ’ai une idée! Viens avec moi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 456,
+  "note": "Prof. Chen (tutoiement). [PalletTown_EventScript_OakTrigger ; non compilé]"
+ },
+ {
+  "msgid": "I'm raising POKéMON, too.\\pWhen they get strong, they can\\nprotect me.",
+  "msgstr": "Moi aussi, j’élève des Pokémon.\\pQuand ils seront forts, ils pourront\\nme protéger.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 464,
+  "note": "Fillette de Bourg Palette. [PalletTown_EventScript_SignLadyDone ; non compilé]"
+ },
+ {
+  "msgid": "Technology is incredible!\\pYou can now store and recall items\\nand POKéMON as data via PC.",
+  "msgstr": "La technologie, c’est incroyable!\\pLe PC permet de stocker et de\\nrécupérer objets et Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 469,
+  "note": "Gros homme. [PalletTown_EventScript_FatMan ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER}'s house",
+  "msgstr": "Maison de {PLAYER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 477,
+  "note": "Panneau. [PalletTown_EventScript_PlayersHouseSign ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}'s house",
+  "msgstr": "Maison de {RIVAL}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 480,
+  "note": "Panneau. [PalletTown_EventScript_RivalsHouseSign ; non compilé]"
+ },
+ {
+  "msgid": "PALLET TOWN\\nShades of your journey await!",
+  "msgstr": "Bourg Palette\\nTon voyage haut en couleur t’attend!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 483,
+  "note": "Panneau de la ville. [PalletTown_EventScript_TownSign ; non compilé]"
+ },
+ {
+  "msgid": "OAK: Ah, {PLAYER}!\\nYou're back, are you?\\pHow much have you filled in your\\nPOKéDEX?\\pMay I see it?\\pLet's see…",
+  "msgstr": "Chen: Ah, {PLAYER}! Te voilà de retour?\\pOù en est ton Pokédex?\\pJe peux le voir?\\pVoyons voir…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 487,
+  "note": "Prof. Chen, évaluation du Pokédex. [PalletTown_EventScript_OakRatingScene ; non compilé]"
+ },
+ {
+  "msgid": "You've caught {STR_VAR_2}…\\pHm, it looks as if you're putting\\nin an honest effort.\\pWhen you manage to fill it some\\nmore, come show me, please.",
+  "msgstr": "Tu as attrapé {STR_VAR_2} Pokémon…\\pHm, on dirait que tu fais de vrais\\nefforts.\\pQuand tu l’auras un peu plus rempli,\\nreviens me le montrer, s’il te plaît.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 495,
+  "note": "Prof. Chen. {STR_VAR_2} = nombre. [PalletTown_EventScript_NotEnoughMonsForNationalDex ; non compilé]"
+ },
+ {
+  "msgid": "You've caught… {STR_VAR_2}!?\\nNow, this is impressive!\\pThere's something I wanted to ask\\nof you, {PLAYER}.\\pCome.\\nFollow me.",
+  "msgstr": "Tu as attrapé… {STR_VAR_2} Pokémon?!\\nVoilà qui est impressionnant!\\pIl y a quelque chose que je voulais te\\ndemander, {PLAYER}.\\pViens. Suis-moi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 502,
+  "note": "Prof. Chen, avant le Pokédex National. [PalletTown_EventScript_OakRatingScene ; non compilé]"
+ },
+ {
+  "msgid": "OAK: Ah, {PLAYER}!\\nYou seem to be enjoying traveling.\\pKnowing you, {PLAYER}, I can easily\\nimagine you going out to even more\\lexotic locales.\\pGood for you, good for you.\\nHohoho.",
+  "msgstr": "Chen: Ah, {PLAYER}! On dirait que tu\\naimes voyager.\\pTe connaissant, {PLAYER}, tu iras vers\\ndes contrées encore plus exotiques.\\pC’est bien, c’est très bien. Hohoho.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 510,
+  "note": "Prof. Chen. [PalletTown_EventScript_NotBeenToOneIslandYet ; non compilé]"
+ },
+ {
+  "msgid": "Hmm…\\nIs that right…",
+  "msgstr": "Hmm… C’est donc ça…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 520,
+  "note": "Fillette lisant le panneau. [PalletTown_EventScript_SignLady ; non compilé]"
+ },
+ {
+  "msgid": "Oh!\\nLook, look!",
+  "msgstr": "Oh! Regarde, regarde!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 524,
+  "note": "[PalletTown_EventScript_SignLady ; non compilé]"
+ },
+ {
+  "msgid": "Read it, read it!",
+  "msgstr": "Lis-le, lis-le!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 528,
+  "note": "[PalletTown_EventScript_SignLadyGoReadSign ; non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS\\pPress START to open the MENU!",
+  "msgstr": "Conseils aux Dresseurs!\\pAppuyez sur START pour ouvrir le\\nMENU!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 532,
+  "note": "Panneau (vouvoiement des panneaux, comme SoulSilver FR). [PalletTown_EventScript_TrainerTips ; non compilé]"
+ },
+ {
+  "msgid": "Signs are useful, aren't they?",
+  "msgstr": "Les panneaux, c’est utile, hein?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 536,
+  "note": "[PalletTown_EventScript_SignLadyJustShowedSign ; non compilé]"
+ },
+ {
+  "msgid": "Look, look!\\pI copied what it said on one of\\nthose TRAINER TIPS signs!",
+  "msgstr": "Regarde, regarde!\\pJ’ai recopié ce qui était écrit sur un\\ndes panneaux Conseils aux Dresseurs!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 539,
+  "note": "[PalletTown_EventScript_SignLadyShowSign ; non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS!\\pPress START to open the MENU!",
+  "msgstr": "Conseils aux Dresseurs!\\pAppuyez sur START pour ouvrir le\\nMENU!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_Frlg/scripts.inc",
+  "ligne": 545,
+  "note": "Copie du panneau montrée par la fillette (même texte que le panneau). [PalletTown_EventScript_SignLadyShowSign ; non compilé]"
+ },
+ {
+  "msgid": "MOM: …Right.\\nAll boys leave home someday.\\lIt said so on TV.\\pOh, yes. PROF. OAK, next door, was\\nlooking for you.",
+  "msgstr": "Maman: … C’est vrai. Tous les garçons\\nquittent la maison un jour.\\pIls l’ont dit à la télé.\\pOh, au fait. Le Prof. Chen, notre\\nvoisin, te cherchait.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_PlayersHouse_1F_Frlg/scripts.inc",
+  "ligne": 57,
+  "note": "Maman (joueur garçon). [PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouMale ; non compilé]"
+ },
+ {
+  "msgid": "MOM: …Right.\\nAll girls dream of traveling.\\lIt said so on TV.\\pOh, yes. PROF. OAK, next door, was\\nlooking for you.",
+  "msgstr": "Maman: … C’est vrai. Toutes les filles\\nrêvent de voyager.\\pIls l’ont dit à la télé.\\pOh, au fait. Le Prof. Chen, notre\\nvoisin, te cherchait.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_PlayersHouse_1F_Frlg/scripts.inc",
+  "ligne": 64,
+  "note": "Maman (joueuse fille). [PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouFemale ; non compilé]"
+ },
+ {
+  "msgid": "MOM: {PLAYER}!\\nYou should take a quick rest.",
+  "msgstr": "Maman: {PLAYER}! Tu devrais te reposer\\nun peu.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_PlayersHouse_1F_Frlg/scripts.inc",
+  "ligne": 71,
+  "note": "[PalletTown_PlayersHouse_1F_EventScript_MomHeal ; non compilé]"
+ },
+ {
+  "msgid": "MOM: Oh, good! You and your\\nPOKéMON are looking great.\\lTake care now!",
+  "msgstr": "Maman: Oh, très bien!\\pToi et tes Pokémon, vous avez l’air en\\npleine forme. Prends soin de toi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_PlayersHouse_1F_Frlg/scripts.inc",
+  "ligne": 75,
+  "note": "[PalletTown_PlayersHouse_1F_EventScript_MomHeal ; non compilé]"
+ },
+ {
+  "msgid": "There's a movie on TV.\\nFour boys are walking on railroad\\ltracks.\\p…I better go, too.",
+  "msgstr": "Il y a un film à la télé. Quatre garçons\\nmarchent le long d’une voie ferrée.\\p… Je ferais mieux d’y aller, moi aussi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_PlayersHouse_1F_Frlg/scripts.inc",
+  "ligne": 80,
+  "note": "Télévision (joueur garçon) : clin d’œil à « Stand by Me ». [PalletTown_PlayersHouse_1F_EventScript_TVScreenMale ; non compilé]"
+ },
+ {
+  "msgid": "There's a movie on TV.\\nA girl with her hair in pigtails is\\lwalking up a brick road.\\p…I better go, too.",
+  "msgstr": "Il y a un film à la télé.\\pUne fille avec des couettes marche\\nsur une route de briques.\\p… Je ferais mieux d’y aller, moi aussi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_PlayersHouse_1F_Frlg/scripts.inc",
+  "ligne": 86,
+  "note": "Télévision (joueuse fille) : clin d’œil au « Magicien d’Oz ». [PalletTown_PlayersHouse_1F_EventScript_TVScreenFemale ; non compilé]"
+ },
+ {
+  "msgid": "Oops, wrong side…",
+  "msgstr": "Oups, mauvais côté…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_PlayersHouse_1F_Frlg/scripts.inc",
+  "ligne": 92,
+  "note": "Arrière de la télévision. [PalletTown_PlayersHouse_1F_EventScript_TV ; non compilé]"
+ },
+ {
+  "msgid": "It's a posted notice…\\pIf you're confused, ask for HELP!\\nPress the L or R Button!",
+  "msgstr": "C’est une affiche…\\pSi vous êtes perdu, demandez de\\nl’AIDE! Appuyez sur L ou R!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_PlayersHouse_2F_Frlg/scripts.inc",
+  "ligne": 37,
+  "note": "Affiche de la chambre (vouvoiement). [PalletTown_PlayersHouse_2F_EventScript_Sign ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: What, it's only {PLAYER}?\\nGramps isn't around.",
+  "msgstr": "{RIVAL}: Quoi, c’est que toi, {PLAYER}?\\nPapy n’est pas là.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1302,
+  "note": "Rival. « Gramps » = « Papy ». [PalletTown_ProfessorOaksLab_EventScript_Rival ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Gramps!\\nI'm fed up with waiting!",
+  "msgstr": "{RIVAL}: Papy! J’en ai marre\\nd’attendre!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1306,
+  "note": "[PalletTown_ProfessorOaksLab_ChooseStarterScene ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Hey! Gramps! No fair!\\nWhat about me?",
+  "msgstr": "{RIVAL}: Hé! Papy! C’est pas juste! Et\\nmoi alors?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1310,
+  "note": "[PalletTown_ProfessorOaksLab_ChooseStarterScene ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Heh, I don't need to be\\ngreedy like you. I'm mature!\\pGo ahead and choose, {PLAYER}!",
+  "msgstr": "{RIVAL}: Héhé, j’ai pas besoin d’être\\naussi gourmand que toi.\\pMoi, je suis mature!\\pVas-y, choisis, {PLAYER}!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1314,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_RivalWaitingForStarter ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: I'll take this one, then!",
+  "msgstr": "{RIVAL}: Alors je prends celui-là!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1319,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_RivalTakesStarter ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: My POKéMON looks a lot\\ntougher than yours.",
+  "msgstr": "{RIVAL}: Mon Pokémon a l’air bien plus\\ncostaud que le tien.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1326,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_RivalChoseStarter ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Wait, {PLAYER}!\\nLet's check out our POKéMON!\\pCome on, I'll take you on!",
+  "msgstr": "{RIVAL}: Attends, {PLAYER}! Testons\\nnos Pokémon!\\pAllez, je vais t’affronter!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1330,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_RivalBattle ; non compilé]"
+ },
+ {
+  "msgid": "WHAT?\\nUnbelievable!\\lI picked the wrong POKéMON!",
+  "msgstr": "QUOI? Incroyable! J’ai choisi le\\nmauvais Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1335,
+  "note": "Rival, défaite. [PalletTown_ProfessorOaksLab_EventScript_RivalBattleSquirtle (TRAINER_RIVAL_OAKS_LAB_SQUIRTLE) ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Yeah!\\nAm I great or what?",
+  "msgstr": "{RIVAL}: Ouais! Je suis trop fort,\\nnon?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1341,
+  "note": "Rival, victoire. [PalletTown_ProfessorOaksLab_EventScript_RivalBattleSquirtle (TRAINER_RIVAL_OAKS_LAB_SQUIRTLE) ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Okay! I'll make my\\nPOKéMON battle to toughen it up!\\p{PLAYER}! Gramps!\\nSmell you later!",
+  "msgstr": "{RIVAL}: OK! Je vais faire combattre\\nmon Pokémon pour l’endurcir!\\p{PLAYER}! Papy! À plus, minables!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1345,
+  "note": "Rival (« Smell you later! » au pluriel : s’adresse au joueur et à son grand-père). [PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Gramps!",
+  "msgstr": "{RIVAL}: Papy!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1351,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_Rival ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: I almost forgot!\\nWhat did you call me for?",
+  "msgstr": "{RIVAL}: J’allais oublier! Pourquoi tu\\nm’as appelé?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1354,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: All right, Gramps!\\nLeave it all to me!",
+  "msgstr": "{RIVAL}: D’accord, Papy! Laisse-moi\\nfaire!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1358,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER}, I hate to say it, but you\\nwon't be necessary for this.\\pI know! I'll borrow a TOWN MAP\\nfrom my sis!\\pI'll tell her not to lend you one,\\n{PLAYER}! Hahaha!\\pDon't bother coming around to\\nmy place after this!",
+  "msgstr": "{PLAYER}, désolé de te le dire, mais tu\\nne serviras à rien.\\pJ’ai une idée! Je vais emprunter une\\nCarte à ma sœur!\\pJe vais lui dire de ne pas t’en prêter,\\n{PLAYER}! Hahaha!\\pPas la peine de venir chez moi après\\nça!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1362,
+  "note": "Rival. TOWN MAP = Carte. [PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene ; non compilé]"
+ },
+ {
+  "msgid": "OAK: {RIVAL}?\\nLet me think…\\pOh, that's right, I told you to\\ncome! Just wait!\\pHere, {PLAYER}.\\pThere are three POKéMON here.\\pHaha!\\pThe POKéMON are held inside\\nthese POKé BALLS.\\pWhen I was young, I was a serious\\nPOKéMON TRAINER.\\pBut now, in my old age, I have\\nonly these three left.\\pYou can have one.\\nGo on, choose!",
+  "msgstr": "Chen: {RIVAL}? Laisse-moi réfléchir…\\pAh oui, c’est vrai, je t’ai dit de venir!\\nAttends un peu!\\pTiens, {PLAYER}.\\pIl y a trois Pokémon ici.\\pHaha!\\pLes Pokémon sont dans ces Poké Balls.\\pQuand j’étais jeune, j’étais un\\nDresseur de Pokémon passionné.\\pMais maintenant, à mon âge, il ne me\\nreste plus que ces trois-là.\\pTu peux en prendre un. Allez, choisis!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1372,
+  "note": "Prof. Chen. [PalletTown_ProfessorOaksLab_ChooseStarterScene ; non compilé]"
+ },
+ {
+  "msgid": "OAK: Be patient, {RIVAL}.\\nYou can have one, too!",
+  "msgstr": "Chen: Patience, {RIVAL}. Tu en auras\\nun aussi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1389,
+  "note": "[PalletTown_ProfessorOaksLab_ChooseStarterScene ; non compilé]"
+ },
+ {
+  "msgid": "OAK: Now, {PLAYER}.\\pInside those three POKé BALLS are\\nPOKéMON.\\pWhich one will you choose for\\nyourself?",
+  "msgstr": "Chen: Alors, {PLAYER}.\\pDans ces trois Poké Balls se trouvent\\ndes Pokémon.\\pLequel vas-tu choisir?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1393,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_ProfOak ; non compilé]"
+ },
+ {
+  "msgid": "OAK: Hey!\\nDon't go away yet!",
+  "msgstr": "Chen: Hé! Ne t’en va pas tout de suite!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1400,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_LeaveStarterSceneTrigger ; non compilé]"
+ },
+ {
+  "msgid": "Ah! CHARMANDER is your choice.\\nYou should raise it patiently.\\pSo, {PLAYER}, you're claiming the\\nFIRE POKéMON CHARMANDER?",
+  "msgstr": "Ah! Tu choisis SALAMECHE. Il faudra\\nl’élever avec patience.\\pAlors, {PLAYER}, tu veux le Pokémon de\\ntype Feu, SALAMECHE?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1404,
+  "note": "Prof. Chen, confirmation (oui/non). [PalletTown_ProfessorOaksLab_EventScript_ConfirmCharmander ; non compilé]"
+ },
+ {
+  "msgid": "Hm! SQUIRTLE is your choice.\\nIt's one worth raising.\\pSo, {PLAYER}, you've decided on the\\nWATER POKéMON SQUIRTLE?",
+  "msgstr": "Hm! Tu choisis CARAPUCE. Il vaut la\\npeine d’être élevé.\\pAlors, {PLAYER}, tu as choisi le\\nPokémon de type Eau, CARAPUCE?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1410,
+  "note": "Prof. Chen, confirmation. [PalletTown_ProfessorOaksLab_EventScript_ConfirmSquirtle ; non compilé]"
+ },
+ {
+  "msgid": "I see! BULBASAUR is your choice.\\nIt's very easy to raise.\\pSo, {PLAYER}, you want to go with\\nthe GRASS POKéMON BULBASAUR?",
+  "msgstr": "Je vois! Tu choisis BULBIZARRE. Il est\\ntrès facile à élever.\\pAlors, {PLAYER}, tu veux le Pokémon de\\ntype Plante, BULBIZARRE?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1416,
+  "note": "Prof. Chen, confirmation. [PalletTown_ProfessorOaksLab_EventScript_ConfirmBulbasaur ; non compilé]"
+ },
+ {
+  "msgid": "OAK: If a wild POKéMON appears,\\nyour POKéMON can battle it.\\pWith it at your side, you should be\\nable to reach the next town.",
+  "msgstr": "Chen: Si un Pokémon sauvage apparaît,\\nton Pokémon peut le combattre.\\pAvec lui à tes côtés, tu devrais\\npouvoir atteindre la prochaine ville.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1430,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_OakCanReachNextTownWithMon ; non compilé]"
+ },
+ {
+  "msgid": "OAK: {PLAYER}, raise your young\\nPOKéMON by making it battle.\\pIt has to battle for it to grow.",
+  "msgstr": "Chen: {PLAYER}, fais combattre ton\\njeune Pokémon pour l’élever.\\pIl doit se battre pour grandir.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1436,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_OakBattleMonForItToGrow ; non compilé]"
+ },
+ {
+  "msgid": "OAK: Oh, {PLAYER}!\\nHow is my old POKéMON?\\pWell, it seems to be growing more\\nattached to you.\\pYou must be talented as a POKéMON\\nTRAINER.\\pWhat's that?\\nYou have something for me?",
+  "msgstr": "Chen: Oh, {PLAYER}! Comment va mon\\nvieux Pokémon?\\pEh bien, il a l’air de s’attacher à toi.\\pTu dois être un Dresseur de Pokémon\\ndoué.\\pQu’est-ce que c’est? Tu as quelque\\nchose pour moi?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1441,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} delivered OAK'S PARCEL.",
+  "msgstr": "{PLAYER} remet le Colis de Chen.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1451,
+  "note": "OAK’S PARCEL : « Colis de Chen » dans les dialogues (Poképédia, page Colis de Chen). [PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene ; non compilé]"
+ },
+ {
+  "msgid": "Ah! \\nIt's the custom POKé BALL!\\pI had it on order.\\nThank you!",
+  "msgstr": "Ah! C’est la Poké Ball spéciale!\\pJe l’avais commandée. Merci!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1454,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene ; non compilé]"
+ },
+ {
+  "msgid": "OAK: Oh, right!\\nI have a request for you two.",
+  "msgstr": "Chen: Ah oui, c’est vrai!\\pJ’ai un service à vous demander à tous\\nles deux.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1460,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene ; non compilé]"
+ },
+ {
+  "msgid": "On the desk there is my invention,\\nthe POKéDEX!\\pIt automatically records data on\\nPOKéMON you've seen or caught.\\pIt's a high-tech encyclopedia!",
+  "msgstr": "Sur le bureau, il y a mon invention, le\\nPokédex!\\pIl enregistre tout seul les données\\ndes Pokémon vus ou attrapés.\\pC’est une encyclopédie high-tech!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1464,
+  "note": "Prof. Chen s’adresse au joueur et au rival (vous pluriel). [PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene ; non compilé]"
+ },
+ {
+  "msgid": "OAK: {PLAYER} and {RIVAL}.\\nTake these with you.",
+  "msgstr": "Chen: {PLAYER} et {RIVAL}. Prenez ceci\\navec vous.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1471,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene ; non compilé]"
+ },
+ {
+  "msgid": "OAK: You can't get detailed data\\non POKéMON by just seeing them.\\pYou must catch them to obtain\\ncomplete data.\\pSo, here are some tools for\\ncatching wild POKéMON.",
+  "msgstr": "Chen: Voir un Pokémon ne suffit pas\\npour obtenir des données détaillées.\\pIl faut l’attraper pour obtenir ses\\ndonnées complètes.\\pAlors voici de quoi attraper les\\nPokémon sauvages.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1479,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received five POKé BALLS.",
+  "msgstr": "{PLAYER} reçoit cinq Poké Balls.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1487,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene ; non compilé]"
+ },
+ {
+  "msgid": "When a wild POKéMON appears,\\nit's fair game.\\pJust throw a POKé BALL at it and\\ntry to catch it!\\pThis won't always work, however.\\pA healthy POKéMON can escape.\\nYou have to be lucky!",
+  "msgstr": "Quand un Pokémon sauvage apparaît,\\ntu peux tenter ta chance.\\pLance-lui simplement une Poké Ball et\\nessaie de l’attraper!\\pMais ça ne marche pas à tous les\\ncoups.\\pUn Pokémon en pleine forme peut\\ns’échapper.\\pIl faut avoir de la chance!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1490,
+  "note": "Prof. Chen. [PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene ; non compilé]"
+ },
+ {
+  "msgid": "To make a complete guide on all\\nthe POKéMON in the world…\\pThat was my dream!\\pBut, I'm too old.\\nI can't get the job done.\\pSo, I want you two to fulfill my\\ndream for me.\\pGet moving, you two.\\pThis is a great undertaking in\\nPOKéMON history!",
+  "msgstr": "Faire un guide complet de tous les\\nPokémon du monde…\\pC’était mon rêve!\\pMais je suis trop vieux. Je n’y\\narriverai pas.\\pAlors, je veux que vous réalisiez ce\\nrêve à ma place.\\pAllez, en route, vous deux.\\pC’est une grande entreprise dans\\nl’histoire des Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1499,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene ; non compilé]"
+ },
+ {
+  "msgid": "POKéMON around the world wait for\\nyou, {PLAYER}!",
+  "msgstr": "Les Pokémon du monde entier\\nt’attendent, {PLAYER}!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1511,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_MonsAroundWorldWait ; non compilé]"
+ },
+ {
+  "msgid": "Ah, {PLAYER}!\\nHow is your POKéDEX shaping up?\\p{RIVAL} has already caught some\\nPOKéMON and added to the data.\\pSo, {PLAYER}, let's have a look at\\nyour POKéDEX.\\p…What's the matter?\\nYou've added no new data at all.\\pI'll give you these, so do try a\\nlittle harder.",
+  "msgstr": "Ah, {PLAYER}! Comment avance ton\\nPokédex?\\p{RIVAL} a déjà attrapé des Pokémon\\net ajouté des données.\\pAlors, {PLAYER}, jetons un œil à ton\\nPokédex.\\p… Qu’y a-t-il? Tu n’as ajouté aucune\\nnouvelle donnée.\\pJe te donne ceci, alors fais un petit\\neffort.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1515,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_GivePlayerMoreBalls ; non compilé]"
+ },
+ {
+  "msgid": "OAK: Come see me sometime.\\pAfter all, I want to know how your\\nPOKéDEX is coming along.",
+  "msgstr": "Chen: Viens me voir de temps en temps.\\pAprès tout, je veux savoir comment\\navance ton Pokédex.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1527,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_PlayerAlreadyGotBalls ; non compilé]"
+ },
+ {
+  "msgid": "It's like an encyclopedia, but the\\npages are blank.",
+  "msgstr": "On dirait une encyclopédie, mais les\\npages sont vierges.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1532,
+  "note": "Pokédex sur le bureau. [PalletTown_ProfessorOaksLab_EventScript_Pokedex ; non compilé]"
+ },
+ {
+  "msgid": "Those are POKé BALLS.\\nThey contain POKéMON!",
+  "msgstr": "Ce sont des Poké Balls. Elles\\ncontiennent des Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1536,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_BulbasaurBall ; non compilé]"
+ },
+ {
+  "msgid": "That's PROF. OAK's last POKéMON.",
+  "msgstr": "Le dernier Pokémon du Prof. Chen.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1540,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_LastPokeBall ; non compilé]"
+ },
+ {
+  "msgid": "Press START to open the MENU!",
+  "msgstr": "Appuyez sur START pour le MENU!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1543,
+  "note": "Affiche du laboratoire. [PalletTown_ProfessorOaksLab_EventScript_LeftSign ; non compilé]"
+ },
+ {
+  "msgid": "The SAVE option is on the MENU.\\nUse it regularly.",
+  "msgstr": "L’option SAUVER se trouve dans le\\nMENU. Utilisez-la régulièrement.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1546,
+  "note": "Affiche. SAVE = SAUVER (menu START). [PalletTown_ProfessorOaksLab_EventScript_RightSign ; non compilé]"
+ },
+ {
+  "msgid": "All POKéMON types have strong and\\nweak points against others.",
+  "msgstr": "Chaque type de Pokémon a des forces\\net des faiblesses face aux autres.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1550,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_RightSignAlt ; non compilé]"
+ },
+ {
+  "msgid": "There's an e-mail message here.\\p…\\pFinally!\\nThe ultimate TRAINERS of the\\lPOKéMON LEAGUE are ready to\\ltake on all comers!\\pBring your best POKéMON and see\\nhow you rate as a TRAINER!\\pPOKéMON LEAGUE HQ\\nINDIGO PLATEAU\\pPROF. OAK, please visit us!\\n…",
+  "msgstr": "Il y a un e-mail ici.\\p…\\pEnfin!\\pL’élite de la Ligue Pokémon est prête\\nà affronter tous les challengers!\\pVenez avec vos meilleurs Pokémon et\\nvoyez ce que vous valez!\\pQG de la Ligue Pokémon\\nPlateau Indigo\\pProf. Chen, venez nous rendre visite!\\n…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1554,
+  "note": "Ordinateur du laboratoire. [PalletTown_ProfessorOaksLab_EventScript_Computer ; non compilé]"
+ },
+ {
+  "msgid": "I study POKéMON as PROF. OAK's\\nAIDE.",
+  "msgstr": "J’étudie les Pokémon en tant\\nqu’assistant du Prof. Chen.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1568,
+  "note": "Assistant (AIDE = assistant). [PalletTown_ProfessorOaksLab_EventScript_Aide1 ; non compilé]"
+ },
+ {
+  "msgid": "Hi, {PLAYER}. I bet you've become\\ngood friends with your POKéMON.\\pBy the way, did you know about\\nDAISY?\\pIf you show DAISY your POKéMON,\\nshe can tell how much it likes you.\\pOccasionally, she will even groom\\na POKéMON for you.\\pThis is a secret, so please don't\\ntell anyone.",
+  "msgstr": "Salut, {PLAYER}. Je parie que tu es\\ndevenu ami avec tes Pokémon.\\pAu fait, tu connais Nina?\\pSi tu lui montres un Pokémon, elle\\npeut te dire à quel point il t’aime.\\pParfois, elle va même jusqu’à le\\nbichonner.\\pC’est un secret, alors ne le répète à\\npersonne, s’il te plaît.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1572,
+  "note": "Assistant après la Ligue. DAISY = Nina (SoulSilver FR). [PalletTown_ProfessorOaksLab_EventScript_Aide2GameClear ; non compilé]"
+ },
+ {
+  "msgid": "PROF. OAK is going to have his own\\nradio show soon.\\pThe program will be called PROF.\\nOAK's POKéMON SEMINAR.",
+  "msgstr": "Le Prof. Chen va bientôt avoir sa\\npropre émission de radio.\\pElle s’appellera Le Séminaire Pokémon\\ndu Prof. Chen.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1584,
+  "note": "Assistant (clin d’œil à l’émission de radio de SoulSilver). [PalletTown_ProfessorOaksLab_EventScript_Aide1GameClear ; non compilé]"
+ },
+ {
+  "msgid": "PROF. OAK may not look like much,\\nbut he's the authority on POKéMON.\\pMany POKéMON TRAINERS hold him in\\nhigh regard.",
+  "msgstr": "Le Prof.\\pChen n’a l’air de rien, mais c’est une\\nautorité en matière de Pokémon.\\pDe nombreux Dresseurs de Pokémon le\\ntiennent en haute estime.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1590,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_Aide3 ; non compilé]"
+ },
+ {
+  "msgid": "Ah, now this is excellent!\\p{PLAYER}, I have another important\\nfavor to ask of you.\\pI need you to listen closely.",
+  "msgstr": "Ah, voilà qui est excellent!\\p{PLAYER}, j’ai un autre service\\nimportant à te demander.\\pÉcoute-moi bien.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1596,
+  "note": "Prof. Chen, Pokédex National. [PalletTown_ProfessorOaksLab_EventScript_TryStartNationalDexScene ; non compilé]"
+ },
+ {
+  "msgid": "Recently, there have been sightings\\nof many rare POKéMON species.\\pI'm talking about POKéMON that\\nhave never been seen in KANTO.\\pI would love to go see things for\\nmyself, but I'm much too old.\\pSince I can't do it, {PLAYER}, I'd\\nlike you to go in my place.",
+  "msgstr": "Récemment, on a aperçu de nombreuses\\nespèces de Pokémon rares.\\pJe parle de Pokémon qu’on n’avait\\njamais vus à Kanto.\\pJ’aimerais aller voir ça moi-même, mais\\nje suis bien trop vieux.\\pComme je ne peux pas y aller, {PLAYER},\\nj’aimerais que tu y ailles à ma place.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1602,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_NationalDexScene ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Hey, I heard that!\\pGramps, what's with favoring\\n{PLAYER} over me all the time?\\pI went and collected more POKéMON,\\nand faster, too.\\pYou should just let me handle\\neverything.",
+  "msgstr": "{RIVAL}: Hé, j’ai entendu!\\pPapy, pourquoi tu préfères toujours\\n{PLAYER} à moi?\\pJ’ai attrapé plus de Pokémon, et plus\\nvite!\\pTu devrais me laisser m’occuper de\\ntout.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1612,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_NationalDexScene ; non compilé]"
+ },
+ {
+  "msgid": "OAK: I know, I know.\\nOf course I need your help, too.\\pNow, I need to see both your\\nPOKéDEXES.",
+  "msgstr": "Chen: Je sais, je sais. Bien sûr que\\nj’ai besoin de ton aide aussi.\\pMaintenant, montrez-moi vos deux\\nPokédex.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1621,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_NationalDexScene ; non compilé]"
+ },
+ {
+  "msgid": "PROF. OAK took both POKéDEX\\nunits.",
+  "msgstr": "Le Prof. Chen prend les deux Pokédex.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1627,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_NationalDexScene ; non compilé]"
+ },
+ {
+  "msgid": "… … …  … … …\\p… … …  … … …\\p…And that's done!\\pNow these units can record data on\\na lot more POKéMON.",
+  "msgstr": "… … … … … …\\p… … … … … …\\p… Et voilà!\\pCes appareils peuvent désormais\\nenregistrer bien plus de Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1631,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_NationalDexScene ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER}'s POKéDEX was upgraded!",
+  "msgstr": "Le Pokédex de {PLAYER} a été amélioré!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1638,
+  "note": "Proche de SoulSilver FR « Le Mode National a été ajouté au Pokédex de {PLAYER}! ». [PalletTown_ProfessorOaksLab_EventScript_NationalDexScene ; non compilé]"
+ },
+ {
+  "msgid": "Now, {PLAYER} and {RIVAL}!\\pThis time, you really must work\\ntowards filling your POKéDEXES.\\pI urge you to make them the best\\nand the most complete of all time!\\pTruly, this is a monumentally great\\nundertaking in POKéMON history!",
+  "msgstr": "Bien, {PLAYER} et {RIVAL}!\\pCette fois, vous devez vraiment vous\\nefforcer de remplir vos Pokédex.\\pJe vous demande d’en faire les plus\\ncomplets de tous les temps!\\pC’est une entreprise monumentale\\ndans l’histoire des Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1641,
+  "note": "[PalletTown_ProfessorOaksLab_EventScript_NationalDexScene ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Gramps, calm down.\\nDon't get so excited.\\pI'll get the POKéDEX completed,\\ndon't you worry about a thing.\\pI think I'll try looking around\\nONE ISLAND first…\\pAnyways, I'm outta here!",
+  "msgstr": "{RIVAL}: Papy, calme-toi. Ne t’excite\\npas comme ça.\\pJe vais le compléter, ce Pokédex, ne\\nt’inquiète de rien.\\pJe crois que je vais d’abord jeter un\\nœil à l’Ile 1…\\pBref, moi, je me tire!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1650,
+  "note": "Rival. ONE ISLAND = « Ile 1 » (Poképédia : « Île 1 » ; graphie sans accent du .po « ILE 1 » et du glossaire « Iles Ecume »). [PalletTown_ProfessorOaksLab_EventScript_NationalDexScene ; non compilé]"
+ },
+ {
+  "msgid": "DAISY: Hi, {PLAYER}!\\pMy brother, {RIVAL}, is out at\\nGrandpa's LAB.",
+  "msgstr": "Nina: Salut, {PLAYER}!\\pMon frère, {RIVAL}, est au\\nlaboratoire de Papy.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 169,
+  "note": "Nina (DAISY), sœur du rival, tutoiement. [PalletTown_RivalsHouse_EventScript_Daisy ; non compilé]"
+ },
+ {
+  "msgid": "DAISY: {PLAYER}, I heard you had\\na battle against {RIVAL}.\\pI wish I'd seen that!",
+  "msgstr": "Nina: {PLAYER}, il paraît que tu as\\naffronté {RIVAL}.\\pJ’aurais bien aimé voir ça!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 174,
+  "note": "[PalletTown_RivalsHouse_EventScript_HeardBattledRival ; non compilé]"
+ },
+ {
+  "msgid": "Grandpa asked you to run an\\nerrand?\\pGee, that's lazy of him.\\nHere, this will help you.",
+  "msgstr": "Papy t’a demandé de faire une course\\npour lui?\\pPff, quel paresseux. Tiens, ça va\\nt’aider.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 179,
+  "note": "Nina. [PalletTown_RivalsHouse_EventScript_GiveTownMap ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received a TOWN MAP\\nfrom DAISY.",
+  "msgstr": "{PLAYER} reçoit une Carte\\nde Nina!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 185,
+  "note": "[PalletTown_RivalsHouse_EventScript_GiveTownMap ; non compilé]"
+ },
+ {
+  "msgid": "You don't have space for this in\\nyour BAG.",
+  "msgstr": "Tu n’as pas de place dans ton Sac pour\\nça.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 189,
+  "note": "[PalletTown_RivalsHouse_EventScript_NoRoomForTownMap ; non compilé]"
+ },
+ {
+  "msgid": "You can use the TOWN MAP to find\\nout where you are, or check the\\lnames of places.",
+  "msgstr": "Avec la Carte, tu peux savoir où tu te\\ntrouves ou vérifier le nom des lieux.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 193,
+  "note": "[PalletTown_RivalsHouse_EventScript_ExplainTownMap ; non compilé]"
+ },
+ {
+  "msgid": "DAISY: Just like people, POKéMON\\nare living things.\\pWhen they get tired, please give\\nthem a rest.",
+  "msgstr": "Nina: Tout comme les humains, les\\nPokémon sont des êtres vivants.\\pQuand ils sont fatigués, laisse-les se\\nreposer.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 198,
+  "note": "[PalletTown_RivalsHouse_EventScript_PleaseGiveMonsRest ; non compilé]"
+ },
+ {
+  "msgid": "It's a big map of the KANTO region.\\nNow this would be useful!",
+  "msgstr": "C’est une grande carte de la région de\\nKanto. Ça pourrait être utile!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 204,
+  "note": "Carte murale. [PalletTown_RivalsHouse_EventScript_TownMap ; non compilé]"
+ },
+ {
+  "msgid": "The shelves are crammed full of\\nbooks on POKéMON.",
+  "msgstr": "Les étagères sont remplies de livres\\nsur les Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 208,
+  "note": "[PalletTown_RivalsHouse_EventScript_Bookshelf ; non compilé]"
+ },
+ {
+  "msgid": "DAISY: Hi, {PLAYER}!\\nGood timing.\\pI'm about to have some tea.\\nWould you like to join me?\\pOh, but look.\\nYour POKéMON are a little dirty.\\pWould you like me to groom one?",
+  "msgstr": "Nina: Salut, {PLAYER}! Tu tombes bien.\\pJ’allais prendre le thé. Tu veux te\\njoindre à moi?\\pOh, mais regarde. Tes Pokémon sont un\\npeu sales.\\pVeux-tu que j’en bichonne un?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 212,
+  "preuve": "Nina: Bienvenue!\\nTu tombes bien, j’allais faire du thé.\\rEn veux-tu?\\nOh, vous êtes tout crottés.\\rJe peux te bichonner un Pokémon.",
+  "note": "Nina. Proche de SoulSilver FR (banque 449:1 « Tu tombes bien, j’allais faire du thé… Je peux te bichonner un Pokémon. »). [PalletTown_RivalsHouse_EventScript_GroomMon ; non compilé]"
+ },
+ {
+  "msgid": "You don't need any grooming done?\\nOkay, we'll just have tea.",
+  "msgstr": "Tu ne veux pas que je bichonne un\\nPokémon?\\pD’accord, on va juste prendre le thé.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 221,
+  "note": "[PalletTown_RivalsHouse_EventScript_DeclineGrooming ; non compilé]"
+ },
+ {
+  "msgid": "DAISY: Okay, I'll get it looking\\nnice in no time.",
+  "msgstr": "Nina: D’accord, il sera tout beau en un\\nrien de temps.",
+  "source": "patch FR actuel (vérifié)",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 228,
+  "preuve": "NINA: D’accord, il sera tout beau\\nen un rien de temps.",
+  "note": "Repris de PalletTown_House2_hns (patch FR, sens vérifié), casse SoulSilver. [PalletTown_RivalsHouse_EventScript_GroomMon ; non compilé]"
+ },
+ {
+  "msgid": "{COLOR DARK_GRAY}{STR_VAR_1} looks dreamily content…\\p{COLOR RED}DAISY: There you go! All done.\\n",
+  "msgstr": "{COLOR DARK_GRAY}{STR_VAR_1} a l’air aux anges…\\p{COLOR RED}Nina: Et voilà! C’est fini.\\n",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 233,
+  "note": "Fragment (fin en \\n) : suite concaténée à l’exécution. [PalletTown_RivalsHouse_EventScript_GroomMon ; non compilé]"
+ },
+ {
+  "msgid": "{FONT_NORMAL}{STR_VAR_1} looks dreamily content…\\p{FONT_FEMALE}DAISY: There you go! All done.\\n",
+  "msgstr": "{FONT_NORMAL}{STR_VAR_1} a l’air aux anges…\\p{FONT_FEMALE}Nina: Et voilà! C’est fini.\\n",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 236,
+  "note": "Fragment (variante polices). [PalletTown_RivalsHouse_EventScript_GroomMon ; non compilé]"
+ },
+ {
+  "msgid": "DAISY: Your POKéMON grow to love\\nyou if you raise them with love.\\pFor example, {PLAYER}, may I see\\nyour first POKéMON?",
+  "msgstr": "Nina: Tes Pokémon t’aimeront si tu les\\nélèves avec amour.\\pPar exemple, {PLAYER}, je peux voir ton\\npremier Pokémon?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 248,
+  "note": "[PalletTown_RivalsHouse_EventScript_RateMonFriendship ; non compilé]"
+ },
+ {
+  "msgid": "It couldn't possibly love you\\nany more than it does now.\\pYour POKéMON is happy beyond\\nwords.",
+  "msgstr": "Il ne pourrait pas t’aimer plus qu’il ne\\nt’aime déjà.\\pTon Pokémon est heureux au-delà des\\nmots.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 254,
+  "note": "Nina, évaluation de l’amitié. [PalletTown_RivalsHouse_EventScript_MonFriendshipHighest ; non compilé]"
+ },
+ {
+  "msgid": "It looks very happy.\\pI wish {RIVAL} could see this and\\nlearn something from it.",
+  "msgstr": "Il a l’air très heureux.\\pJ’aimerais que {RIVAL} voie ça et en\\nprenne de la graine.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 260,
+  "note": "[PalletTown_RivalsHouse_EventScript_MonFriendshipHigher ; non compilé]"
+ },
+ {
+  "msgid": "It's quite friendly with you.\\nKeep being good to it!",
+  "msgstr": "Il t’aime beaucoup. Continue à être\\ngentil avec lui!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 265,
+  "note": "[PalletTown_RivalsHouse_EventScript_MonFriendshipHigh ; non compilé]"
+ },
+ {
+  "msgid": "It's warming up to you.\\nTrust must be growing between you.",
+  "msgstr": "Il commence à s’attacher à toi. La\\nconfiance grandit entre vous.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 269,
+  "note": "[PalletTown_RivalsHouse_EventScript_MonFriendshipMid ; non compilé]"
+ },
+ {
+  "msgid": "It's not quite familiar with you\\nyet.\\pPOKéMON are all quite wary when\\nyou first get them.",
+  "msgstr": "Il n’est pas encore très familier avec\\ntoi.\\pTous les Pokémon sont méfiants au\\ndébut.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 273,
+  "note": "[PalletTown_RivalsHouse_EventScript_MonFriendshipLow ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER}, I don't like the way it\\nglares at you.\\pCould you try being a little nicer\\nto it?",
+  "msgstr": "{PLAYER}, je n’aime pas la façon dont il\\nte regarde.\\pTu pourrais essayer d’être un peu\\nplus gentil avec lui?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 279,
+  "note": "[PalletTown_RivalsHouse_EventScript_MonFriendshipLower ; non compilé]"
+ },
+ {
+  "msgid": "…Um, it's not easy for me to say\\nthis, but…\\pIs there some reason why your\\nPOKéMON would hate you so much?",
+  "msgstr": "… Euh, ce n’est pas facile à dire, mais…\\pY a-t-il une raison pour que ton\\nPokémon te déteste autant?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 285,
+  "note": "[PalletTown_RivalsHouse_EventScript_MonFriendshipLowest ; non compilé]"
+ },
+ {
+  "msgid": "“The lovely and sweet\\nCLEFAIRY”",
+  "msgstr": "“La belle et douce\\nMELOFEE”",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PalletTown_RivalsHouse_Frlg/scripts.inc",
+  "ligne": 291,
+  "note": "Tableau. [PalletTown_RivalsHouse_EventScript_Picture ; non compilé]"
+ },
+ {
+  "msgid": "Yawn!\\nI must have dozed off in the sun.\\pI had this weird dream about\\na DROWZEE eating my dream.\\pAnd…\\nI learned how to eat dreams…\\pOogh, this is too spooky!\\pLet me teach it to a POKéMON so\\nI can forget about it!",
+  "msgstr": "Ouaaah! J’ai dû m’assoupir au soleil.\\pJ’ai fait un rêve bizarre où un\\nSOPORIFIK dévorait mon rêve.\\pEt… j’ai appris à dévorer les rêves…\\pBrrr, ça fait trop peur!\\pLaisse-moi l’apprendre à un Pokémon\\npour que je puisse l’oublier!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 846,
+  "note": "Maître des capacités (Dévorêve), Argenta. [texte Text_DreamEaterTeach ; non compilé]"
+ },
+ {
+  "msgid": "Which POKéMON wants to learn\\nDREAM EATER?",
+  "msgstr": "Quel Pokémon veut apprendre\\nDévorêve?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 860,
+  "note": "[texte Text_DreamEaterWhichMon ; non compilé]"
+ },
+ {
+  "msgid": "…ZZZ…\\nI…can't eat…anymore…",
+  "msgstr": "… ZZZ… Je… peux plus… rien avaler…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 864,
+  "note": "[texte Text_DreamEaterTaught ; non compilé]"
+ },
+ {
+  "msgid": "CLEFAIRY came from the moon.\\nThat's what the rumor is.\\pThey appeared after MOON STONES\\nfell on MT. MOON.",
+  "msgstr": "Les MELOFEE viendraient de la lune.\\nC’est ce que dit la rumeur.\\pIls seraient apparus après la chute\\nde Pierres Lune sur le Mont Sélénite.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 868,
+  "note": "Fillette. [PewterCity_EventScript_Lass ; non compilé]"
+ },
+ {
+  "msgid": "There aren't many serious POKéMON\\nTRAINERS here.\\pThey're all like BUG CATCHERS,\\nyou know, just hobbyists.\\pBut PEWTER GYM's BROCK isn't like\\nthat, not one bit.",
+  "msgstr": "Il n’y a pas beaucoup de Dresseurs\\nsérieux par ici.\\pCe sont tous des genres de Scouts, tu\\nvois, des amateurs.\\pMais Pierre, de l’Arène d’Argenta,\\nn’est pas du tout comme ça.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 874,
+  "note": "Gros homme. Aligné sur la citation déjà traduite du Mémorydex (fame_checker_frlg.inc). [PewterCity_EventScript_FatMan ; non compilé]"
+ },
+ {
+  "msgid": "Did you check out the MUSEUM?",
+  "msgstr": "Tu as visité le Musée?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 882,
+  "note": "Guide du Musée (tutoiement, gamin). [PewterCity_EventScript_MuseumGuide ; non compilé]"
+ },
+ {
+  "msgid": "Weren't those fossils from MT. MOON\\namazing?",
+  "msgstr": "Ils étaient géniaux, les fossiles du\\nMont Sélénite, non?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 885,
+  "note": "[PewterCity_EventScript_CheckedOutMuseum ; non compilé]"
+ },
+ {
+  "msgid": "Really?\\nYou absolutely have to go!",
+  "msgstr": "Non? Il faut absolument que tu y\\nailles!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 889,
+  "note": "[PewterCity_EventScript_MuseumGuide ; non compilé]"
+ },
+ {
+  "msgid": "This is it, the MUSEUM.\\pYou have to pay to get in, but it's\\nworth it. See you around!",
+  "msgstr": "Le voilà, c’est le Musée.\\pL’entrée est payante, mais ça vaut le\\ncoup. À plus!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 893,
+  "note": "[PewterCity_EventScript_MuseumGuide ; non compilé]"
+ },
+ {
+  "msgid": "Psssst!\\nDo you know what I'm doing?",
+  "msgstr": "Psssst! Tu sais ce que je fais?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 898,
+  "note": "Scout. [PewterCity_EventScript_BugCatcher ; non compilé]"
+ },
+ {
+  "msgid": "That's right!\\nIt's hard work!",
+  "msgstr": "C’est ça! C’est du boulot!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 902,
+  "note": "[PewterCity_EventScript_KnowWhatTheyreDoing ; non compilé]"
+ },
+ {
+  "msgid": "I'm spraying REPEL to keep wild\\nPOKéMON out of my garden!",
+  "msgstr": "Je mets du Repousse pour chasser les\\nPokémon sauvages du jardin!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 906,
+  "note": "[PewterCity_EventScript_BugCatcher ; non compilé]"
+ },
+ {
+  "msgid": "You're a TRAINER, right?\\pBROCK's looking for new\\nchallengers. Follow me!",
+  "msgstr": "Tu es Dresseur, hein?\\pPierre cherche de nouveaux\\nchallengers. Suis-moi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 910,
+  "note": "Guide vers l’Arène. [PewterCity_EventScript_GymGuide ; non compilé]"
+ },
+ {
+  "msgid": "If you have the right stuff,\\ngo take on BROCK!",
+  "msgstr": "Si tu as l’étoffe d’un champion, va\\naffronter Pierre!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 915,
+  "note": "[PewterCity_EventScript_GymGuide ; non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS\\pAll POKéMON that appear in battle,\\nhowever briefly, earn EXP Points.",
+  "msgstr": "Conseils aux Dresseurs!\\pTout Pokémon qui participe à un\\ncombat, même un instant, gagne de\\ll’EXP.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 919,
+  "note": "Panneau. [PewterCity_EventScript_TrainerTips ; non compilé]"
+ },
+ {
+  "msgid": "NOTICE!\\pThieves have been stealing POKéMON\\nfossils from MT. MOON.\\pPlease call the PEWTER POLICE if\\nyou have any information.",
+  "msgstr": "Avis!\\pDes voleurs dérobent des fossiles de\\nPokémon au Mont Sélénite.\\pToute information est à signaler à la\\npolice d’Argenta.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 924,
+  "note": "Panneau de police (vouvoiement). [PewterCity_EventScript_PoliceNotice ; non compilé]"
+ },
+ {
+  "msgid": "I'm glad I caught up to you.\\nI'm PROF. OAK's AIDE.\\pI've been asked to deliver this,\\nso here you go.",
+  "msgstr": "Heureusement que je t’ai rattrapé. Je\\nsuis l’assistant du Prof. Chen.\\pOn m’a demandé de te remettre ceci,\\nalors tiens.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 946,
+  "note": "Assistant du Prof. Chen. [PewterCity_EventScript_AideGiveRunningShoes ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received the\\nRUNNING SHOES from the AIDE.",
+  "msgstr": "{PLAYER} reçoit les Chaussures de\\nSport de l’assistant.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 952,
+  "note": "RUNNING SHOES = Chaussures de Sport (SoulSilver FR). [PewterCity_EventScript_AideGiveRunningShoes ; non compilé]"
+ },
+ {
+  "msgid": "Press the B Button to run.\\nBut only where there's room to run!",
+  "msgstr": "Appuie sur le bouton B pour courir.\\nMais seulement là où il y a de la place!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 960,
+  "note": "[PewterCity_EventScript_AideGiveRunningShoes ; non compilé]"
+ },
+ {
+  "msgid": "Well, I must be going back to\\nthe LAB.\\pBye-bye!",
+  "msgstr": "Bon, je dois retourner au laboratoire.\\pÀ bientôt!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 964,
+  "note": "[PewterCity_EventScript_AideGiveRunningShoes ; non compilé]"
+ },
+ {
+  "msgid": "There's a letter attached…\\pDear {PLAYER},\\pHere is a pair of RUNNING SHOES\\nfor my beloved challenger.\\pRemember, I'll always cheer for\\nyou! Don't ever give up!\\pFrom Mom",
+  "msgstr": "Il y a une lettre jointe…\\pMon cher {PLAYER},\\pVoici une paire de Chaussures de\\nSport pour mon challenger adoré.\\pN’oublie pas que je t’encouragerai\\ntoujours! N’abandonne jamais!\\pMaman",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Frlg/scripts.inc",
+  "ligne": 969,
+  "note": "Lettre de Maman (masculin par défaut, comme les officiels). [PewterCity_EventScript_AideGiveRunningShoes ; non compilé]"
+ },
+ {
+  "msgid": "So, you're here. I'm BROCK.\\nI'm PEWTER's GYM LEADER.\\pMy rock-hard willpower is evident\\neven in my POKéMON.\\pMy POKéMON are all rock hard, and\\nhave true-grit determination.\\pThat's right - my POKéMON are all\\nthe ROCK type!\\pFuhaha! You're going to challenge\\nme knowing that you'll lose?\\pThat's the TRAINER's honor that\\ncompels you to challenge me.\\pFine, then!\\nShow me your best!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgstr": "Alors, te voilà. Je suis Pierre, le\\nChampion de l’Arène d’Argenta.\\pMa volonté de roc se voit jusque dans\\nmes Pokémon.\\pMes Pokémon sont durs comme la pierre\\net d’une ténacité sans faille.\\pC’est ça, mes Pokémon sont tous de\\ntype Roche!\\pFuhaha! Tu viens me défier tout en\\nsachant que tu vas perdre?\\pC’est ton honneur de Dresseur qui te\\npousse à me défier.\\pTrès bien! Montre-moi ce que tu vaux!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 85,
+  "note": "Pierre (tutoiement). [PewterCity_Gym_EventScript_Brock (TRAINER_LEADER_BROCK) ; non compilé]"
+ },
+ {
+  "msgid": "I took you for granted, and so\\nI lost.\\pAs proof of your victory, I confer\\non you this…the official POKéMON\\lLEAGUE BOULDERBADGE.\\p{FONT_NORMAL}{PLAYER} received the BOULDERBADGE\\nfrom BROCK!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\\p{FONT_MALE}Just having the BOULDERBADGE makes\\nyour POKéMON more powerful.\\pIt also enables the use of the\\nmove FLASH outside of battle.\\pOf course, a POKéMON must know the\\nmove FLASH to use it.",
+  "msgstr": "Je t’ai sous-estimé, et j’ai perdu.\\pEn preuve de ta victoire, je te remets\\nceci…\\ple Badge Roche officiel de la Ligue\\nPokémon.\\p{FONT_NORMAL}{PLAYER} reçoit le Badge Roche\\nde Pierre!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\\p{FONT_MALE}Le Badge Roche rend tes Pokémon plus\\npuissants.\\pIl permet aussi d’utiliser la capacité\\nFlash hors combat.\\pBien sûr, un Pokémon doit connaître\\nla capacité Flash pour l’utiliser.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 101,
+  "note": "Pierre, défaite. Phrase de réception calquée sur SoulSilver FR (462:2 « reçoit le Badge Roche\\nde Pierre! »). [PewterCity_Gym_EventScript_Brock (TRAINER_LEADER_BROCK) ; non compilé]"
+ },
+ {
+  "msgid": "Wait!\\nTake this with you.",
+  "msgstr": "Attends! Prends ceci avec toi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 116,
+  "note": "[PewterCity_Gym_EventScript_GiveTM39 ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received TM39\\nfrom BROCK.",
+  "msgstr": "{PLAYER} reçoit la CT39\\nde Pierre!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 120,
+  "note": "[PewterCity_Gym_EventScript_GiveTM39 ; non compilé]"
+ },
+ {
+  "msgid": "A TM, Technical Machine, contains a\\ntechnique for POKéMON.\\pUsing a TM teaches the move it\\ncontains to a POKéMON.\\pA TM is good for only one use.\\pSo, when you use one, pick the\\nPOKéMON carefully.\\pAnyways…\\nTM39 contains ROCK TOMB.\\pIt hurls boulders at the foe and\\nlowers its SPEED.",
+  "msgstr": "Une CT, ou Capsule Technique,\\ncontient une capacité pour Pokémon.\\pUtiliser une CT apprend à un Pokémon\\nla capacité qu’elle contient.\\pUne CT ne peut servir qu’une seule\\nfois.\\pAlors quand tu en utilises une,\\nchoisis bien ton Pokémon.\\pBref… La CT39 contient Tomberoche.\\pElle projette des rochers sur l’ennemi\\net baisse sa Vitesse.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 124,
+  "note": "Pierre. ROCK TOMB = Tomberoche (glossaire). CT unique usage en Gen 3. [PewterCity_Gym_EventScript_GiveTM39 ; non compilé]"
+ },
+ {
+  "msgid": "There are all kinds of TRAINERS in\\nthis huge world of ours.\\pYou appear to be very gifted as a\\nPOKéMON TRAINER.\\pSo let me make a suggestion.\\pGo to the GYM in CERULEAN and test\\nyour abilities.",
+  "msgstr": "Il y a toutes sortes de Dresseurs\\ndans ce vaste monde.\\pTu as l’air d’être un Dresseur de\\nPokémon très doué.\\pAlors laisse-moi te faire une\\nsuggestion.\\pVa à l’Arène d’Azuria et mets tes\\ntalents à l’épreuve.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 137,
+  "note": "[PewterCity_Gym_EventScript_Brock ; non compilé]"
+ },
+ {
+  "msgid": "Stop right there, kid!\\pYou're ten thousand light-years \\nfrom facing BROCK!",
+  "msgstr": "Halte-là, gamin!\\pT’es à dix mille années-lumière de\\npouvoir affronter Pierre!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 149,
+  "note": "Campeur Liam. [PewterCity_Gym_EventScript_Liam (TRAINER_CAMPER_LIAM) ; non compilé]"
+ },
+ {
+  "msgid": "Darn!\\pLight-years isn't time…\\nIt measures distance!",
+  "msgstr": "Zut!\\pLes années-lumière, c’est pas du\\ntemps… Ça mesure les distances!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 154,
+  "note": "[PewterCity_Gym_EventScript_Liam (TRAINER_CAMPER_LIAM) ; non compilé]"
+ },
+ {
+  "msgid": "You're pretty hot.\\n…But not as hot as BROCK!",
+  "msgstr": "T’es pas mal. … Mais pas autant que\\nPierre!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 159,
+  "note": "[PewterCity_Gym_EventScript_Liam ; non compilé]"
+ },
+ {
+  "msgid": "Hiya!\\nDo you want to dream big?\\pDo you dare to dream of becoming\\nthe POKéMON champ?\\pI'm no TRAINER, but I can advise\\nyou on how to win.\\pLet me take you to the top!",
+  "msgstr": "Salut! Tu veux voir grand?\\pOses-tu rêver de devenir Maître\\nPokémon?\\pJe ne suis pas Dresseur, mais je peux\\nte conseiller pour gagner.\\pLaisse-moi te mener au sommet!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 163,
+  "note": "Guide de l’Arène. [PewterCity_Gym_EventScript_GymGuy ; non compilé]"
+ },
+ {
+  "msgid": "All right!\\nLet's get happening!",
+  "msgstr": "Parfait! C’est parti!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 172,
+  "note": "[PewterCity_Gym_EventScript_GymGuyTakeMeToTop ; non compilé]"
+ },
+ {
+  "msgid": "The first POKéMON out in a match is\\nat the left of the POKéMON LIST.\\pBy changing the order of POKéMON,\\nyou may gain an advantage.\\pTry different orders to suit your\\nopponent's party.",
+  "msgstr": "Le premier Pokémon à entrer en combat\\nest celui en tête de ton équipe.\\pEn changeant l’ordre de tes Pokémon,\\ntu peux prendre l’avantage.\\pEssaie différents ordres selon\\nl’équipe de ton adversaire.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 176,
+  "note": "[PewterCity_Gym_EventScript_GymGuyAdvice ; non compilé]"
+ },
+ {
+  "msgid": "It's a free service!\\nLet's get happening!",
+  "msgstr": "C’est un service gratuit! C’est parti!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 184,
+  "note": "[PewterCity_Gym_EventScript_GymGuyDontTakeMeToTop ; non compilé]"
+ },
+ {
+  "msgid": "Just as I thought!\\nYou're POKéMON champ material!",
+  "msgstr": "Je le savais! Tu as l’étoffe d’un\\nMaître Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 188,
+  "note": "[PewterCity_Gym_EventScript_GymGuyPostVictory ; non compilé]"
+ },
+ {
+  "msgid": "PEWTER POKéMON GYM\\nLEADER: BROCK\\pWINNING TRAINERS:\\n{RIVAL}",
+  "msgstr": "Arène Pokémon d’Argenta\\nChampion: Pierre\\pVainqueurs:\\n{RIVAL}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 192,
+  "note": "Statue. [PewterCity_Gym_EventScript_GymStatue ; non compilé]"
+ },
+ {
+  "msgid": "PEWTER POKéMON GYM\\nLEADER: BROCK\\pWINNING TRAINERS:\\n{RIVAL}, {PLAYER}",
+  "msgstr": "Arène Pokémon d’Argenta\\nChampion: Pierre\\pVainqueurs:\\n{RIVAL}, {PLAYER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PewterCity_Gym_Frlg/scripts.inc",
+  "ligne": 198,
+  "note": "Statue. [PewterCity_Gym_EventScript_GymStatuePostVictory ; non compilé]"
+ }
+]

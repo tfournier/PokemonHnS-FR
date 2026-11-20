@@ -9,14 +9,6 @@
   "preuve": "US 27878B -> FR 27DE99 (séquence : 1 chaîne(s) après US 27874F, 2 avant US 27879F)"
  },
  {
-  "msgid": "{B_OPPONENT_MON1_NAME} appeared!\\p",
-  "msgstr": "{B_OPPONENT_MON1_NAME} appeared!\\p",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/battle_message.c",
-  "ligne": 90,
-  "preuve": "US 5CBB39 -> FR 5CFF00 (séquence : 1 chaîne(s) après US 5CBB02, 1 avant US 5CBB47)"
- },
- {
   "msgid": " RPM",
   "msgstr": " RPM",
   "source": "Émeraude FR officiel",
@@ -35,15 +27,6 @@
   "preuve": "US 5EE44F -> FR 5F26DF (séquence : 12 chaîne(s) après US 5EE39C, 2 avant US 5EE491)"
  },
  {
-  "msgid": "MOVES",
-  "msgstr": "MOVES",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/challenge_menu.c",
-  "ligne": 837,
-  "ancien": "CAPACITES",
-  "preuve": "US 5E96BE -> FR 5ED80D (séquence : 1 chaîne(s) après US 5E96B6, 1 avant US 5E96C4)"
- },
- {
   "msgid": "a PSYCHIC move",
   "msgstr": "une capacité Psy",
   "source": "Émeraude FR officiel",
@@ -51,39 +34,6 @@
   "ligne": 361,
   "ancien": "attaque Psy",
   "preuve": "US 5CCCAA -> FR 5D1190 (séquence : 14 chaîne(s) après US 5CCBBC, 5 avant US 5CCCFD)"
- },
- {
-  "msgid": "4 players\\nneeded.",
-  "msgstr": "4 players\\nneeded.",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/union_room.h",
-  "ligne": 44,
-  "preuve": "US 2EDB15 -> FR 2F6AC4 (séquence : 1 chaîne(s) après US 2EDB03, 1 avant US 2EDB27)"
- },
- {
-  "msgid": "SUNNY",
-  "msgstr": "SOLEIL",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/field_weather.c",
-  "ligne": 1200,
-  "preuve": "US 5EFC49 -> FR 5F3FB4 (séquence : 2 chaîne(s) après US 5EFC27, 14 avant US 5EFCB5)"
- },
- {
-  "msgid": "RAIN",
-  "msgstr": "PLUIE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/field_weather.c",
-  "ligne": 1201,
-  "ancien": "Rain",
-  "preuve": "US 5EFC56 -> FR 5F3FC3 (séquence : 4 chaîne(s) après US 5EFC27, 12 avant US 5EFCB5)"
- },
- {
-  "msgid": "FOG",
-  "msgstr": "Brouillard",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/field_weather.c",
-  "ligne": 1216,
-  "preuve": "US 5EFC6A -> FR 5F3FD6 (séquence : 7 chaîne(s) après US 5EFC27, 9 avant US 5EFCB5)"
  },
  {
   "msgid": "IDNo. /",

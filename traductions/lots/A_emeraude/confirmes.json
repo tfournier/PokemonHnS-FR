@@ -7457,7 +7457,7 @@
   "ligne": 94,
   "ancien": "GOELISE: Goéééliiise!",
   "preuve": "US 217EE0 -> FR 21AE53 (pointeur x1) ; US 22222E -> FR 22598B (pointeur x1) ; table octets EN->FR (x2)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : plusieurs textes Émeraude FR pour le même anglais : « GOELISE: Liiise? » (ptr+tm)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
   "msgid": "The tree houses of FORTREE are great!\\pI think it's the number one town for\\nliving together with POKéMON.",
@@ -7537,7 +7537,7 @@
   "ligne": 820,
   "ancien": "Retour",
   "preuve": "US 31A274 -> FR 321DA4 (zone parallèle, décalage +31536)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/moves_info.h, pas pour data/maps/GoldenrodCity_GameCorner_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "Hi, hi! I'm the NAME RATER!\\nI'm the fortune-teller of names!\\pI shall be pleased to rate your\\nPOKéMON's nickname.",
@@ -15277,7 +15277,7 @@
   "ligne": 103,
   "ancien": "Centrale",
   "preuve": "US 5A111F -> FR 5A57C6 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/region_map/region_map_sections.json, src/region_map.c, pas pour data/maps/Route10_Frlg/scripts.inc, data/maps/Route10_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "MAY: Hi, {PLAYER}{KUN}, long time no see!\\pWhile I was searching for other\\nPOKéMON, my POKéMON grew stronger.\\pSo…\\nHow about a little battle?",
@@ -15568,16 +15568,6 @@
   "ancien": "Sur la PISTE CYCLABLE, on peut rouler\\naussi vite qu’on veut.\\pLa vitesse c’est grisant, mais un\\naccident est vite arrivé!",
   "preuve": "US 26EAC1 -> FR 273CA7 (pointeur x1) ; US 26EC23 -> FR 273E1A (pointeur x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
- },
- {
-  "msgid": "Sorry, you can't walk on CYCLING\\nROAD. It's too dangerous.\\pPlease come back with a BIKE.",
-  "msgstr": "Désolé, mais vous ne pouvez pas vous\\ndéplacer à pied sur la PISTE CYCLABLE.\\lC’est trop dangereux.\\pRevenez avec un VELO.",
-  "source": "Émeraude FR officiel",
-  "fichier": "data/maps/Route110_SeasideCyclingRoadNorthEntrance/scripts.inc",
-  "ligne": 62,
-  "ancien": "Désolé, mais vous ne pouvez pas vous\\ndéplacer à pied sur la PISTE CYCLABLE.\\lC’est trop dangereux.\\pRevenez avec un VELO.",
-  "preuve": "US 26EB48 -> FR 273D20 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : plusieurs textes Émeraude FR pour le même anglais : « Désolé, mais vous ne pouvez pas marcher\\nsur la PISTE CYCLABLE. C’est dangereux. » (ptr+tm)"
  },
  {
   "msgid": "Aak!\\nYou've made it to me?\\lHmmm… You're sharp!",
@@ -16997,7 +16987,7 @@
   "ligne": 201,
   "ancien": "MAISON D’ANNETTE",
   "preuve": "US 1F2910 -> FR 1F396B (pointeur x1) ; US 5B8E17 -> FR 5BCEB0 (pointeur x1) ; table octets EN->FR (x2)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (correspondance douteuse, à vérifier))"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (correspondance douteuse, à vérifier)) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/landmark.c, pas pour data/maps/Route114/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "If you make a POKéMON DIG inside a\\ncave, you're returned to the entrance…",
@@ -17510,16 +17500,6 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
-  "msgid": "HUNTER'S HOUSE",
-  "msgstr": "MAISON DU CHERCHEUR DE TRESORS",
-  "source": "Émeraude FR officiel",
-  "fichier": "data/maps/Route124/scripts.inc",
-  "ligne": 103,
-  "ancien": "MAISON DU CHERCHEUR DE TRESORS",
-  "preuve": "US 1F6739 -> FR 1F7A4C (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (récupéré par pointeur)) ; réserve : plusieurs textes Émeraude FR pour le même anglais : « CHERCHEUR DE TRESORS » (ptr+tm)"
- },
- {
   "msgid": "I'm the DIVING TREASURE HUNTER!\\pI'm the awesome dude who makes\\ndeep-sea dives to gather treasures\\lresting at the bottom.",
   "msgstr": "Je suis le CHERCHEUR DE TRESORS!\\pC’est moi, le type incroyable qui plonge\\ndans les profondeurs océaniques pour\\ly trouver des trésors.",
   "source": "Émeraude FR officiel",
@@ -17677,7 +17657,7 @@
   "ligne": 319,
   "ancien": "MIAOUSS",
   "preuve": "US 318804 -> FR 320334 (zone parallèle, décalage +31536) ; US 628B7C -> FR 62CA90 (table de base US 6285E4 / FR 62C4F8, index +1432, 3 voisins)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/trainer_hill.h, src/data/pokemon/species_info/gen_1_families.h, pas pour data/maps/Route25_BillsHouse_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "PONYTA",
@@ -17687,7 +17667,7 @@
   "ligne": 322,
   "ancien": "PONYTA",
   "preuve": "US 318917 -> FR 320447 (zone parallèle, décalage +31536)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/pokemon/species_info/gen_1_families.h, pas pour data/maps/Route25_BillsHouse_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "RAPIDASH",
@@ -17697,7 +17677,7 @@
   "ligne": 325,
   "ancien": "GALOPA",
   "preuve": "US 318922 -> FR 320452 (zone parallèle, décalage +31536) ; US 628848 -> FR 62C75C (zone parallèle, décalage +16148)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/trainer_hill.h, src/data/pokemon/species_info/gen_1_families.h, pas pour data/maps/Route25_BillsHouse_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "SLOWPOKE",
@@ -17707,7 +17687,7 @@
   "ligne": 328,
   "ancien": "RAMOLOSS",
   "preuve": "US 31892D -> FR 32045D (zone parallèle, décalage +31536)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/pokemon/species_info/gen_1_families.h, src/trainer_tower_sets.c, pas pour data/maps/Route25_BillsHouse_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "SLOWBRO",
@@ -17717,7 +17697,7 @@
   "ligne": 331,
   "ancien": "FLAGADOSS",
   "preuve": "US 318938 -> FR 320468 (zone parallèle, décalage +31536) ; US 6270A0 -> FR 62AFB4 (zone parallèle, décalage +16148)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/trainer_hill.h, src/data/pokemon/species_info/gen_1_families.h, pas pour data/maps/Route25_BillsHouse_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "SLOWKING",
@@ -17727,7 +17707,7 @@
   "ligne": 334,
   "ancien": "ROIGADA",
   "preuve": "US 318E55 -> FR 320985 (zone parallèle, décalage +31536) ; US 6291A4 -> FR 62D0B8 (table de base US 6285E4 / FR 62C4F8, index +3008, 9 voisins) ; US 629680 -> FR 62D594 (table de base US 6294CC / FR 62D3E0, index +436, 7 voisins)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/trainer_hill.h, src/data/pokemon/species_info/gen_1_families.h, pas pour data/maps/Route25_BillsHouse_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "FARFETCH'D",
@@ -17737,7 +17717,7 @@
   "ligne": 337,
   "ancien": "CANARTICHO",
   "preuve": "US 318959 -> FR 320489 (zone parallèle, décalage +31536)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/pokemon/species_info/gen_1_families.h, src/trainer_tower_sets.c, pas pour data/maps/Route25_BillsHouse_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "WEEZING",
@@ -17747,7 +17727,7 @@
   "ligne": 340,
   "ancien": "SMOGOGO",
   "preuve": "US 318A82 -> FR 3205B2 (zone parallèle, décalage +31536) ; US 626904 -> FR 62A818 (table de base US 626814 / FR 62A728, index +240, 8 voisins) ; US 6274F0 -> FR 62B404 (table de base US 626814 / FR 62A728, index +3292, 6 voisins)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/trainer_hill.h, src/data/pokemon/species_info/gen_1_families.h, pas pour data/maps/Route25_BillsHouse_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "MR. MIME",
@@ -17757,7 +17737,7 @@
   "ligne": 343,
   "ancien": "M. MIME",
   "preuve": "US 318B06 -> FR 320636 (zone parallèle, décalage +31536) ; US 626E04 -> FR 62AD18 (zone parallèle, décalage +16148)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/trainer_hill.h, src/data/pokemon/species_info/gen_1_families.h, pas pour data/maps/Route25_BillsHouse_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "ARTICUNO",
@@ -17767,7 +17747,7 @@
   "ligne": 346,
   "ancien": "ARTIKODIN",
   "preuve": "US 318BF8 -> FR 320728 (zone parallèle, décalage +31536) ; US 62939C -> FR 62D2B0 (zone parallèle, décalage +16148)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/trainer_hill.h, src/data/pokemon/species_info/gen_1_families.h, pas pour data/maps/Route25_BillsHouse_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "ZAPDOS",
@@ -17777,7 +17757,7 @@
   "ligne": 349,
   "ancien": "ELECTHOR",
   "preuve": "US 318C03 -> FR 320733 (zone parallèle, décalage +31536) ; US 629254 -> FR 62D168 (zone parallèle, décalage +16148)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/trainer_hill.h, src/data/pokemon/species_info/gen_1_families.h, pas pour data/maps/Route25_BillsHouse_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "MOLTRES",
@@ -17787,7 +17767,7 @@
   "ligne": 352,
   "ancien": "SULFURA",
   "preuve": "US 318C0E -> FR 32073E (zone parallèle, décalage +31536) ; US 628874 -> FR 62C788 (zone parallèle, décalage +16148)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/trainer_hill.h, src/data/pokemon/species_info/gen_1_families.h, pas pour data/maps/Route25_BillsHouse_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "CORSOLA",
@@ -17797,7 +17777,7 @@
   "ligne": 355,
   "ancien": "CORAYON",
   "preuve": "US 318F52 -> FR 320A82 (zone parallèle, décalage +31536) ; US 627934 -> FR 62B848 (zone parallèle, décalage +16148)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/trainer_hill.h, src/data/pokemon/species_info/gen_2_families.h, pas pour data/maps/Route25_BillsHouse_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "LINOONE",
@@ -17807,7 +17787,7 @@
   "ligne": 361,
   "ancien": "LINEON",
   "preuve": "US 319233 -> FR 320D63 (zone parallèle, décalage +31536) ; US 6270CC -> FR 62AFE0 (zone parallèle, décalage +16148)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/trainer_hill.h, src/data/pokemon/species_info/gen_3_families.h, pas pour data/maps/Route25_BillsHouse_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "I'm the DAY-CARE MAN.\\pI help take care of the precious\\nPOKéMON of TRAINERS.\\pIf you'd like me to raise your POKéMON,\\nhave a word with my wife.",
@@ -21027,7 +21007,7 @@
   "ligne": 669,
   "ancien": "Vampirisme",
   "preuve": "US 319EA5 -> FR 3219D5 (table de base US 319E57 / FR 321987, index +78, 15 voisins)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/moves_info.h, pas pour data/maps/UlaulaIsle_hns/scripts.inc (msgctxt proposé)"
  },
  {
   "msgid": "“SUBMARINE EXPLORER 1” is painted\\non the hull.\\pThis is the submarine TEAM AQUA\\nstole in SLATEPORT!\\pTEAM AQUA must have gone\\nashore here.",
@@ -25907,7 +25887,7 @@
   "ligne": 834,
   "ancien": "ILE 4",
   "preuve": "US 5A114E -> FR 5A57E1 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour data/text/fame_checker_frlg.inc, src/data/region_map/region_map_sections.json, pas pour src/data/script_menu.h (msgctxt proposé)"
  },
  {
   "msgid": "THREE ISLAND",
@@ -25917,7 +25897,7 @@
   "ligne": 930,
   "ancien": "ILE 3",
   "preuve": "US 5A1141 -> FR 5A57DB (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour data/text/fame_checker_frlg.inc, src/data/region_map/region_map_sections.json, pas pour src/data/script_menu.h (msgctxt proposé)"
  },
  {
   "msgid": "FIVE ISLAND",
@@ -25927,7 +25907,7 @@
   "ligne": 972,
   "ancien": "ILE 5",
   "preuve": "US 5A115A -> FR 5A57E7 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour data/text/fame_checker_frlg.inc, src/data/region_map/region_map_sections.json, pas pour src/data/script_menu.h (msgctxt proposé)"
  },
  {
   "msgid": "TWO ISLAND",
@@ -25937,7 +25917,7 @@
   "ligne": 993,
   "ancien": "ILE 2",
   "preuve": "US 5A1136 -> FR 5A57D5 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour data/text/fame_checker_frlg.inc, src/data/region_map/region_map_sections.json, pas pour src/data/script_menu.h (msgctxt proposé)"
  },
  {
   "msgid": "SEVEN ISLAND",
@@ -25947,7 +25927,7 @@
   "ligne": 1008,
   "ancien": "ILE 7",
   "preuve": "US 5A1166 -> FR 5A57ED (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour data/text/fame_checker_frlg.inc, src/data/region_map/region_map_sections.json, pas pour src/data/script_menu.h (msgctxt proposé)"
  },
  {
   "msgid": "SIX ISLAND",
@@ -25957,7 +25937,7 @@
   "ligne": 1014,
   "ancien": "ILE 6",
   "preuve": "US 5A1173 -> FR 5A57F3 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour data/text/fame_checker_frlg.inc, src/data/region_map/region_map_sections.json, pas pour src/data/script_menu.h (msgctxt proposé)"
  },
  {
   "msgid": "ONE ISLAND",
@@ -25967,7 +25947,7 @@
   "ligne": 1044,
   "ancien": "ILE 1",
   "preuve": "US 5A112B -> FR 5A57CF (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour data/text/fame_checker_frlg.inc, src/data/region_map/region_map_sections.json, pas pour src/data/script_menu.h (msgctxt proposé)"
  },
  {
   "msgid": "WOMAN",
@@ -26777,7 +26757,17 @@
   "ligne": 11,
   "ancien": "FEUILLE",
   "preuve": "EasyChat trainer[24] US 5980DA -> FR 59C4CA ; US 56C8B0 -> FR 571C14 (zone parallèle, décalage +21348) ; US 56C8D0 -> FR 571C34 (zone parallèle, décalage +21348)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (correspondance douteuse, à vérifier)) ; réserve : plusieurs textes Émeraude FR pour le même anglais : « LEAF » (delta+tidx)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (correspondance douteuse, à vérifier)) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/easy_chat/easy_chat_group_trainer.h, pas pour data/text/new_game_intro_frlg.inc, src/data/battle_frontier/battle_frontier_trainers.h, src/data/trainers.party (msgctxt proposé)"
+ },
+ {
+  "msgid": "FIRE",
+  "msgstr": "FEU",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/new_game_intro_frlg.inc",
+  "ligne": 14,
+  "ancien": "FEU",
+  "preuve": "EasyChat status[90] US 598573 -> FR 59C963 ; US 31AE7E -> FR 3229AE (pointeur x2) ; US 598573 -> FR 59C963 (pointeur x1)",
+  "note": "texte Émeraude FR « Feu » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "{PLAYER} found one {STR_VAR_2}!",
@@ -34747,7 +34737,7 @@
   "ligne": 321,
   "ancien": "Ceint.Noire",
   "preuve": "US 585D34 -> FR 58A100 (zone parallèle, décalage +17356)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : plusieurs textes Émeraude FR pour le même anglais : « KARATEKA » (table)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : plusieurs textes Émeraude FR pour le même anglais : « KARATEKA » (table) ; même anglais, sens différents : texte Émeraude trouvé pour src/data/items.h, pas pour src/battle_main.c (msgctxt proposé)"
  },
  {
   "msgid": "AQUA LEADER",
@@ -34880,6 +34870,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
+  "msgid": "PSYCHIC",
+  "msgstr": "KINÉSISTE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/battle_main.c",
+  "ligne": 338,
+  "ancien": "KINÉSISTE",
+  "preuve": "US 30FE4D -> FR 31797D (zone parallèle, décalage +31536)",
+  "note": "texte Émeraude FR « Kinésiste » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "GENTLEMAN",
   "msgstr": "Gentleman",
   "source": "Émeraude FR officiel",
@@ -34998,6 +34998,16 @@
   "ancien": "Combattante",
   "preuve": "US 30FF03 -> FR 317A33 (table de base US 30FCD4 / FR 317804, index +559, 14 voisins)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "PARASOL LADY",
+  "msgstr": "Sœur Parasol",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/battle_main.c",
+  "ligne": 353,
+  "ancien": "Sœur Parasol",
+  "preuve": "US 30FF10 -> FR 317A40 (table de base US 30FCD4 / FR 317804, index +572, 13 voisins)",
+  "note": "texte Émeraude FR « SŒUR PARASOL » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "TWINS",
@@ -35167,7 +35177,37 @@
   "ligne": 416,
   "ancien": "Prof.{PKMN}",
   "preuve": "US 5EFBC9 -> FR 5F3F41 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (récupéré par pointeur))"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (récupéré par pointeur)) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/AkalaIsle_hns/scripts.inc, data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/NewSinjoh_HotSprings_hns/scripts.inc) ; même anglais, sens différents : texte Émeraude trouvé pour src/pokenav_match_call_data.c, pas pour src/battle_main.c (msgctxt proposé)"
+ },
+ {
+  "msgid": "fell!",
+  "msgstr": "baissé!",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/battle_message.c",
+  "ligne": 78,
+  "ancien": "baissé!",
+  "preuve": "US 5CB399 -> FR 5CF6E3 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « baisse! » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "accuracy",
+  "msgstr": "PRECISION",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/battle_message.c",
+  "ligne": 156,
+  "ancien": "PRECISION",
+  "preuve": "US 5CBDE9 -> FR 5D01DF (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « précision » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "evasiveness",
+  "msgstr": "ESQUIVE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/battle_message.c",
+  "ligne": 157,
+  "ancien": "ESQUIVE",
+  "preuve": "US 5CBDF2 -> FR 5D01E9 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « esquive » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
  },
  {
   "msgid": "was too spicy!",
@@ -35227,7 +35267,7 @@
   "ligne": 182,
   "ancien": "Baie Enigma",
   "preuve": "US 5857B4 -> FR 589B80 (zone parallèle, décalage +17356)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/items.h, pas pour src/battle_message.c (msgctxt proposé)"
  },
  {
   "msgid": "{B_EFF_NAME_WITH_PREFIX} was burned!",
@@ -35458,6 +35498,16 @@
   "ancien": "La grêle s’est arrêtée.",
   "preuve": "US 5CB7D3 -> FR 5CFB7D (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "A bell chimed!",
+  "msgstr": "Un Grelot sonne!",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/battle_message.c",
+  "ligne": 420,
+  "ancien": "Un Grelot sonne!",
+  "preuve": "US 5CB8CF -> FR 5CFC75 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « Un GRELOT sonne! » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "Don't be a thief!",
@@ -35710,6 +35760,36 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
+  "msgid": "SYNCHRONIZE",
+  "msgstr": "SYNCHRO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/challenge_menu.c",
+  "ligne": 439,
+  "ancien": "SYNCHRO",
+  "preuve": "EasyChat status[42] US 5983A5 -> FR 59C7AB ; US 31B847 -> FR 3233BA (table de base US 31B6DB / FR 32324E, index +364, 15 voisins) ; US 5983A5 -> FR 59C7AB (pointeur x1)",
+  "note": "texte Émeraude FR « Synchro » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "STURDY",
+  "msgstr": "FERMETÉ",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/challenge_menu.c",
+  "ligne": 445,
+  "ancien": "FERMETÉ",
+  "preuve": "EasyChat status[26] US 59831A -> FR 59C719 ; US 31B71C -> FR 32328F (zone parallèle, décalage +31603) ; US 59831A -> FR 59C719 (pointeur x1)",
+  "note": "texte Émeraude FR « Fermeté » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "SITRUS BERRY",
+  "msgstr": "BAIE SITRUS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/challenge_menu.c",
+  "ligne": 451,
+  "ancien": "BAIE SITRUS",
+  "preuve": "US 585208 -> FR 5895D4 (zone parallèle, décalage +17356)",
+  "note": "texte Émeraude FR « Baie Sitrus » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "EASY",
   "msgstr": "FACILE",
   "source": "Émeraude FR officiel",
@@ -35718,6 +35798,16 @@
   "ancien": "FACILE",
   "preuve": "EasyChat battle[56] US 598CE1 -> FR 59D0FE ; US 598CE1 -> FR 59D0FE (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "NORMAL",
+  "msgstr": "NORMAL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/challenge_menu.c",
+  "ligne": 554,
+  "ancien": "NORMAL",
+  "preuve": "EasyChat status[69] US 5984AB -> FR 59C896 ; US 31AE38 -> FR 322968 (pointeur x7) ; US 5984AB -> FR 59C896 (pointeur x1)",
+  "note": "texte Émeraude FR « Normal » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "HARD",
@@ -35737,7 +35827,7 @@
   "ligne": 831,
   "ancien": "TYPE",
   "preuve": "EasyChat status[50] US 5983F7 -> FR 59C7F8 ; US 5983F7 -> FR 59C7F8 (pointeur x1) ; US 9C0367 -> FR 9C47B7 (zone parallèle, décalage +17488)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : relu et corrigé à la main (le patch FR actuel donnait un morceau)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : relu et corrigé à la main (le patch FR actuel donnait un morceau) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/easy_chat/easy_chat_group_status.h, pas pour src/challenge_menu.c, src/item_menu.c, src/option_menu.c (msgctxt proposé)"
  },
  {
   "msgid": "ITEMS",
@@ -35747,7 +35837,7 @@
   "ligne": 867,
   "ancien": "OBJETS",
   "preuve": "US 5E91CE -> FR 5ED32A (pointeur x1) ; US 5EB13C -> FR 5EF307 (pointeur x1) ; table octets EN->FR (x2)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (correspondance douteuse, à vérifier))"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (correspondance douteuse, à vérifier)) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/strings.c, pas pour src/challenge_menu.c (msgctxt proposé)"
  },
  {
   "msgid": "COOL Move",
@@ -36700,16 +36790,6 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
-  "msgid": "HYPER CUTTER",
-  "msgstr": "Hyper Cutter",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/abilities.h",
-  "ligne": 400,
-  "ancien": "Hyper Cutter",
-  "preuve": "EasyChat status[15] US 5982B4 -> FR 59C6AE ; US 31B97F -> FR 3234F2 (table de base US 31B6DB / FR 32324E, index +676, 15 voisins) ; US 5982B4 -> FR 59C6AE (pointeur x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
- },
- {
   "msgid": "PICKUP",
   "msgstr": "Ramassage",
   "source": "Émeraude FR officiel",
@@ -36790,6 +36870,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
+  "msgid": "PLUS",
+  "msgstr": "Plus",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/abilities.h",
+  "ligne": 437,
+  "ancien": "Plus",
+  "preuve": "EasyChat status[83] US 598530 -> FR 59C920 ; US 31B9C0 -> FR 323533 (table de base US 31B6DB / FR 32324E, index +741, 14 voisins) ; US 598530 -> FR 59C920 (pointeur x1)",
+  "note": "texte Émeraude FR « PLUS » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "MINUS",
   "msgstr": "Minus",
   "source": "Émeraude FR officiel",
@@ -36867,7 +36957,17 @@
   "ligne": 476,
   "ancien": "Cran",
   "preuve": "EasyChat status[33] US 598351 -> FR 59C752 ; US 31BA01 -> FR 323574 (table de base US 31B6DB / FR 32324E, index +806, 14 voisins) ; US 598351 -> FR 59C752 (pointeur x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/abilities.h, src/data/easy_chat/easy_chat_group_status.h, pas pour src/data/battle_frontier/trainer_hill.h (msgctxt proposé)"
+ },
+ {
+  "msgid": "MARVEL SCALE",
+  "msgstr": "Ecaille Spé.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/abilities.h",
+  "ligne": 483,
+  "ancien": "Ecaille Spé.",
+  "preuve": "EasyChat status[79] US 598504 -> FR 59C8F2 ; US 31BA0E -> FR 323581 (table de base US 31B6DB / FR 32324E, index +819, 15 voisins) ; US 598504 -> FR 59C8F2 (pointeur x1)",
+  "note": "texte Émeraude FR « ECAILLE SPE. » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "LIQUID OOZE",
@@ -36957,7 +37057,7 @@
   "ligne": 533,
   "ancien": "Sécheresse",
   "preuve": "EasyChat status[76] US 5984E2 -> FR 59C8CD ; US 31BA69 -> FR 3235DC (table de base US 31B6DB / FR 32324E, index +910, 14 voisins) ; US 5984E2 -> FR 59C8CD (pointeur x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/abilities.h, src/data/easy_chat/easy_chat_group_status.h, pas pour src/field_weather.c (msgctxt proposé)"
  },
  {
   "msgid": "Summons sunlight in battle.",
@@ -37030,16 +37130,6 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
-  "msgid": "AIR LOCK",
-  "msgstr": "Air Lock",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/abilities.h",
-  "ligne": 578,
-  "ancien": "Air Lock",
-  "preuve": "EasyChat status[13] US 5982A3 -> FR 59C6A1 ; US 5982A3 -> FR 59C6A1 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
- },
- {
   "msgid": "LEO",
   "msgstr": "LEO",
   "source": "Émeraude FR officiel",
@@ -37068,6 +37158,36 @@
   "ancien": "CHEN",
   "preuve": "US 5D5E78 -> FR 5DA374 (table de base US 5D5ACC / FR 5D9FC8, index +940, 2 voisins) ; gBattleFrontierTrainers[18] US 5D5E78 -> FR 5DA374",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : ?)"
+ },
+ {
+  "msgid": "RICARDO",
+  "msgstr": "Ricardo",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 880,
+  "ancien": "Ricardo",
+  "preuve": "US 5D70F4 -> FR 5DB5F0 (table de base US 5D5ACC / FR 5D9FC8, index +5672, 2 voisins) ; gBattleFrontierTrainers[109] US 5D70F4 -> FR 5DB5F0",
+  "note": "texte Émeraude FR « RICARDO » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "REGINA",
+  "msgstr": "Régina",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1432,
+  "ancien": "Régina",
+  "preuve": "US 5D7EF8 -> FR 5DC3F4 (table de base US 5D5ACC / FR 5D9FC8, index +9260, 2 voisins) ; gBattleFrontierTrainers[178] US 5D7EF8 -> FR 5DC3F4",
+  "note": "texte Émeraude FR « REGINA » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "OMAR",
+  "msgstr": "Omar",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2312,
+  "ancien": "Omar",
+  "preuve": "US 58809A -> FR 58C466 (zone parallèle, décalage +17356) ; gDefaultContestWinners.trainerName[7] US 58809A -> FR 58C466",
+  "note": "texte Émeraude FR « OMAR » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "GIRAFARIG",
@@ -38307,7 +38427,7 @@
   "ligne": 5106,
   "ancien": "PYROLI",
   "preuve": "US 318BA0 -> FR 3206D0 (zone parallèle, décalage +31536) ; US 626A4C -> FR 62A960 (zone parallèle, décalage +16148)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/trainer_hill.h, src/data/pokemon/species_info/gen_1_families.h, pas pour src/data/script_menu.h (msgctxt proposé)"
  },
  {
   "msgid": "PINSIR",
@@ -38397,7 +38517,7 @@
   "ligne": 5471,
   "ancien": "AQUALI",
   "preuve": "US 318B8A -> FR 3206BA (zone parallèle, décalage +31536) ; US 626FF0 -> FR 62AF04 (zone parallèle, décalage +16148)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/trainer_hill.h, src/data/pokemon/species_info/gen_1_families.h, pas pour src/data/script_menu.h (msgctxt proposé)"
  },
  {
   "msgid": "DODRIO",
@@ -38720,6 +38840,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
+  "msgid": "FRANCISCO",
+  "msgstr": "Francisco",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 6975,
+  "ancien": "Francisco",
+  "preuve": "US 628378 -> FR 62C28C (zone parallèle, décalage +16148)",
+  "note": "texte Émeraude FR « FRANCISCO » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "TANGELA",
   "msgstr": "SAQUEDENEU",
   "source": "Émeraude FR officiel",
@@ -38997,7 +39127,7 @@
   "ligne": 8671,
   "ancien": "VOLTALI",
   "preuve": "US 318B95 -> FR 3206C5 (zone parallèle, décalage +31536) ; US 629A38 -> FR 62D94C (table de base US 6294CC / FR 62D3E0, index +1388, 4 voisins)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/trainer_hill.h, src/data/pokemon/species_info/gen_1_families.h, pas pour src/data/script_menu.h (msgctxt proposé)"
  },
  {
   "msgid": "DUGTRIO",
@@ -40540,6 +40670,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR, correspondance approchée (96 %) avec « Blue)"
  },
  {
+  "msgid": "YELLOW BALLOON",
+  "msgstr": "Ballon Jaune",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/decoration/header.h",
+  "ligne": 366,
+  "ancien": "Ballon Jaune",
+  "preuve": "US 5A5FC9 -> FR 5AA5B5 (zone parallèle, décalage +17900)",
+  "note": "texte Émeraude FR « BALLON JAUNE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "RED TENT",
   "msgstr": "TENTE ROUGE",
   "source": "Émeraude FR officiel",
@@ -41580,6 +41720,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "CHANGE",
+  "msgstr": "CHANGER",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_actions.h",
+  "ligne": 118,
+  "ancien": "CHANGER",
+  "preuve": "EasyChat actions[19] US 59B0D6 -> FR 59F64F ; US 59B0D6 -> FR 59F64F (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « CHANGE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel (correspondance douteuse, à vérifier))"
+ },
+ {
   "msgid": "STORY",
   "msgstr": "HISTOIRE",
   "source": "Émeraude FR officiel",
@@ -41698,6 +41848,16 @@
   "ancien": "CONNAIS",
   "preuve": "EasyChat actions[33] US 59B12F -> FR 59F6BF ; US 59B12F -> FR 59F6BF (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "REFUSE",
+  "msgstr": "REFUSER",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_actions.h",
+  "ligne": 208,
+  "ancien": "REFUSER",
+  "preuve": "EasyChat actions[34] US 59B135 -> FR 59F6C7 ; US 59B135 -> FR 59F6C7 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « REFUSE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
  },
  {
   "msgid": "STORES",
@@ -42370,6 +42530,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "GO",
+  "msgstr": "Allez",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_battle.h",
+  "ligne": 10,
+  "ancien": "Allez",
+  "preuve": "EasyChat battle[1] US 598B45 -> FR 59CF3E ; US 598B45 -> FR 59CF3E (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « ALLEZ » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
   "msgid": "DECIDE",
   "msgstr": "DECIDER",
   "source": "Émeraude FR officiel",
@@ -42568,6 +42738,26 @@
   "ancien": "FUIR",
   "preuve": "EasyChat battle[26] US 598C03 -> FR 59D00E ; US 598C03 -> FR 59D00E (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "SENSE",
+  "msgstr": "SENSATION",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_battle.h",
+  "ligne": 166,
+  "ancien": "SENSATION",
+  "preuve": "EasyChat battle[27] US 598C0D -> FR 59D013 ; US 598C0D -> FR 59D013 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « SENS » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "VERSUS",
+  "msgstr": "CONTRE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_battle.h",
+  "ligne": 172,
+  "ancien": "CONTRE",
+  "preuve": "EasyChat battle[28] US 598C13 -> FR 59D018 ; US 598C13 -> FR 59D018 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « Contre » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "FIGHTS",
@@ -43000,6 +43190,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (correspondance douteuse, à vérifier)) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "DOCILE",
+  "msgstr": "Docile",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_conditions.h",
+  "ligne": 136,
+  "ancien": "Docile",
+  "preuve": "EasyChat conditions[22] US 59ABB2 -> FR 59F0F7 ; US 59ABB2 -> FR 59F0F7 (pointeur x1) ; US 61CAD4 -> FR 620ECF (pointeur x1)",
+  "note": "texte Émeraude FR « DOCILE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "AMUSING",
   "msgstr": "AMUSANT",
   "source": "Émeraude FR officiel",
@@ -43180,6 +43380,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "DIFFERENT",
+  "msgstr": "DIFFÉRENT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_conditions.h",
+  "ligne": 250,
+  "ancien": "DIFFÉRENT",
+  "preuve": "EasyChat conditions[41] US 59AC5D -> FR 59F19E ; US 59AC5D -> FR 59F19E (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « DIFFERENT » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : traduction manuelle (style SoulSilver))"
+ },
+ {
   "msgid": "TIRED",
   "msgstr": "FATIGUE",
   "source": "Émeraude FR officiel",
@@ -43188,6 +43398,16 @@
   "ancien": "FATIGUE",
   "preuve": "EasyChat conditions[42] US 59AC67 -> FR 59F1A8 ; US 59AC67 -> FR 59F1A8 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "SKILL",
+  "msgstr": "Habileté",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_conditions.h",
+  "ligne": 262,
+  "ancien": "Habileté",
+  "preuve": "EasyChat conditions[43] US 59AC6D -> FR 59F1B0 ; US 59AC6D -> FR 59F1B0 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « HABILETE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "TOP",
@@ -43420,6 +43640,26 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (récupéré par pointeur)) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "IS IT?",
+  "msgstr": "D’Accord?",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_endings.h",
+  "ligne": 34,
+  "ancien": "D’Accord?",
+  "preuve": "EasyChat endings[5] US 59A17A -> FR 59E61E ; US 59A17A -> FR 59E61E (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « D’ACCORD? » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "BE",
+  "msgstr": "Etre",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_endings.h",
+  "ligne": 40,
+  "ancien": "Etre",
+  "preuve": "EasyChat endings[6] US 59A181 -> FR 59E628 ; US 59A181 -> FR 59E628 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « ETRE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel (correspondance douteuse, à vérifier))"
+ },
+ {
   "msgid": "GIMME",
   "msgstr": "D’UN",
   "source": "Émeraude FR officiel",
@@ -43570,6 +43810,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "DO",
+  "msgstr": "Je Perds",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_endings.h",
+  "ligne": 148,
+  "ancien": "Je Perds",
+  "preuve": "EasyChat endings[24] US 59A1E8 -> FR 59E692 ; US 59A1E8 -> FR 59E692 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « JE PERDS » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel (correspondance douteuse, à vérifier))"
+ },
+ {
   "msgid": "DOES",
   "msgstr": "ES-TU",
   "source": "Émeraude FR officiel",
@@ -43628,6 +43878,16 @@
   "ancien": "LESQUELLES",
   "preuve": "EasyChat endings[31] US 59A20F -> FR 59E6C6 ; US 59A20F -> FR 59E6C6 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "AN",
+  "msgstr": "Une",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_endings.h",
+  "ligne": 202,
+  "ancien": "Une",
+  "preuve": "EasyChat endings[33] US 59A219 -> FR 59E6D4 ; US 59A219 -> FR 59E6D4 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « UNE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel (récupéré par pointeur))"
  },
  {
   "msgid": "NOT",
@@ -43710,6 +43970,26 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "AS",
+  "msgstr": "Donc",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_endings.h",
+  "ligne": 280,
+  "ancien": "Donc",
+  "preuve": "EasyChat endings[46] US 59A250 -> FR 59E71E ; US 59A250 -> FR 59E71E (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « DONC » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel (récupéré par pointeur))"
+ },
+ {
+  "msgid": "TO",
+  "msgstr": "Tu Fais",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_endings.h",
+  "ligne": 286,
+  "ancien": "Tu Fais",
+  "preuve": "EasyChat endings[47] US 59A253 -> FR 59E723 ; US 59A253 -> FR 59E723 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « TU FAIS » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel (correspondance douteuse, à vérifier))"
+ },
+ {
   "msgid": "WITH",
   "msgstr": "AVEC",
   "source": "Émeraude FR officiel",
@@ -43778,6 +44058,16 @@
   "ancien": "PAREIL",
   "preuve": "EasyChat endings[57] US 59A285 -> FR 59E759 ; US 59A285 -> FR 59E759 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "LIKE",
+  "msgstr": "J’AIME",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_endings.h",
+  "ligne": 352,
+  "ancien": "J’AIME",
+  "preuve": "EasyChat endings[58] US 59A289 -> FR 59E760 ; US 59A289 -> FR 59E760 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « J’Aimé » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
  },
  {
   "msgid": "DID",
@@ -43900,6 +44190,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "MC",
+  "msgstr": "Animatrice",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_events.h",
+  "ligne": 6,
+  "ancien": "Animatrice",
+  "preuve": "EasyChat events[5] US 59C6B1 -> FR 5A0D52 ; US 59C6B1 -> FR 5A0D52 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « ANIMATRICE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
   "msgid": "JUDGE",
   "msgstr": "JUGE",
   "source": "Émeraude FR officiel",
@@ -43908,6 +44208,16 @@
   "ancien": "JUGE",
   "preuve": "EasyChat events[6] US 59C6B4 -> FR 5A0D5D ; US 59C6B4 -> FR 5A0D5D (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "SUPER",
+  "msgstr": "Super",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_events.h",
+  "ligne": 8,
+  "ancien": "Super",
+  "preuve": "EasyChat events[7] US 59C6BA -> FR 5A0D62 ; US 59C6BA -> FR 5A0D62 (pointeur x1) ; US 5EB10C -> FR 5EF2D3 (pointeur x1)",
+  "note": "texte Émeraude FR « SUPER » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "STAGE",
@@ -44128,6 +44438,16 @@
   "ancien": "DEMORALISE",
   "preuve": "EasyChat feelings[11] US 59A654 -> FR 59EB49 ; US 59A654 -> FR 59EB49 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "DISAPPOINTED",
+  "msgstr": "DEÇU",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_feelings.h",
+  "ligne": 13,
+  "ancien": "DEÇU",
+  "preuve": "EasyChat feelings[12] US 59A65C -> FR 59EB54 ; US 59A65C -> FR 59EB54 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « DECU » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "DISAPPOINTS",
@@ -44790,6 +45110,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "SEE YA",
+  "msgstr": "A Plus",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_greetings.h",
+  "ligne": 130,
+  "ancien": "A Plus",
+  "preuve": "EasyChat greetings[21] US 5990AF -> FR 59D4E3 ; US 5990AF -> FR 59D4E3 (séquence : 1 chaîne(s) après US 5990A8, 2 avant US 5990C0)",
+  "note": "texte Émeraude FR « A PLUS » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
   "msgid": "GO AHEAD",
   "msgstr": "VAS-Y",
   "source": "Émeraude FR officiel",
@@ -44878,6 +45208,16 @@
   "ancien": "BONJOUR",
   "preuve": "EasyChat greetings[35] US 59911A -> FR 59D552 ; US 59911A -> FR 59D552 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "LISTENING",
+  "msgstr": "A Plus!",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_greetings.h",
+  "ligne": 220,
+  "ancien": "A Plus!",
+  "preuve": "EasyChat greetings[36] US 599120 -> FR 59D55A ; US 599120 -> FR 59D55A (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « A PLUS! » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
  },
  {
   "msgid": "HOO-HAH",
@@ -45070,16 +45410,6 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (correspondance douteuse, à vérifier)) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
-  "msgid": "HOBBY",
-  "msgstr": "HOBBY",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_hobbies.h",
-  "ligne": 136,
-  "ancien": "HOBBY",
-  "preuve": "EasyChat hobbies[22] US 59B9FA -> FR 5A000B ; US 59B9FA -> FR 5A000B (séquence : 1 chaîne(s) après US 59B9F5, 2 avant US 59BA07)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
- },
- {
   "msgid": "SPORTS",
   "msgstr": "SPORT",
   "source": "Émeraude FR officiel",
@@ -45150,6 +45480,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "DESIGN",
+  "msgstr": "DESSINER",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_hobbies.h",
+  "ligne": 208,
+  "ancien": "DESSINER",
+  "preuve": "EasyChat hobbies[34] US 59BA4D -> FR 5A006D ; US 59BA4D -> FR 5A006D (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « DESSIN » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "LOCOMOTIVE",
   "msgstr": "PETIT TRAIN",
   "source": "Émeraude FR officiel",
@@ -45168,6 +45508,16 @@
   "ancien": "NOUNOURS",
   "preuve": "EasyChat hobbies[36] US 59BA5F -> FR 5A0080 ; US 59BA5F -> FR 5A0080 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "PC",
+  "msgstr": "Informatique",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_hobbies.h",
+  "ligne": 226,
+  "ancien": "Informatique",
+  "preuve": "EasyChat hobbies[37] US 59BA6A -> FR 5A0089 ; US 59BA6A -> FR 5A0089 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « INFORMATIQUE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel (récupéré par pointeur))"
  },
  {
   "msgid": "HERO",
@@ -45450,16 +45800,6 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
-  "msgid": "TELEVISION",
-  "msgstr": "TELEVISION",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_lifestyle.h",
-  "ligne": 166,
-  "ancien": "TELEVISION",
-  "preuve": "EasyChat lifestyle[27] US 59B6C8 -> FR 59FCA7 ; US 59B6C8 -> FR 59FCA7 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
- },
- {
   "msgid": "PHONE",
   "msgstr": "TELEPHONE",
   "source": "Émeraude FR officiel",
@@ -45550,6 +45890,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "RADIO",
+  "msgstr": "RADIO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_lifestyle.h",
+  "ligne": 256,
+  "ancien": "RADIO",
+  "preuve": "EasyChat lifestyle[42] US 59B731 -> FR 59FD1E ; US 59B731 -> FR 59FD1E (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « Radio » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "RENTAL",
   "msgstr": "LOYER",
   "source": "Émeraude FR officiel",
@@ -45588,6 +45938,16 @@
   "ancien": "PROFONDEUR",
   "preuve": "EasyChat misc[1] US 59C0BA -> FR 5A0718 ; US 59C0BA -> FR 5A0718 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "UM",
+  "msgstr": "Facon",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_misc.h",
+  "ligne": 16,
+  "ancien": "Facon",
+  "preuve": "EasyChat misc[2] US 59C0BF -> FR 5A0723 ; US 59C0BF -> FR 5A0723 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « FACON » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel (correspondance douteuse, à vérifier))"
  },
  {
   "msgid": "REAR",
@@ -45788,6 +46148,16 @@
   "ancien": "DEVANT",
   "preuve": "EasyChat misc[26] US 59C163 -> FR 5A07D3 ; US 59C163 -> FR 5A07D3 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "UP",
+  "msgstr": "Sur",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_misc.h",
+  "ligne": 166,
+  "ancien": "Sur",
+  "preuve": "EasyChat misc[27] US 59C169 -> FR 5A07DA ; US 59C169 -> FR 5A07DA (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « SUR » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel (correspondance douteuse, à vérifier))"
  },
  {
   "msgid": "CHOICE",
@@ -46130,6 +46500,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "HE'S",
+  "msgstr": "Il est",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
+  "ligne": 184,
+  "ancien": "Il est",
+  "preuve": "EasyChat people[30] US 5993FB -> FR 59D82B ; US 5993FB -> FR 59D82B (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « IL EST » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
   "msgid": "AREN'T",
   "msgstr": "SE",
   "source": "Émeraude FR officiel",
@@ -46170,6 +46550,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "MR.",
+  "msgstr": "Monsieur",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
+  "ligne": 214,
+  "ancien": "Monsieur",
+  "preuve": "EasyChat people[35] US 59941D -> FR 59D846 ; US 59941D -> FR 59D846 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « MONSIEUR » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
   "msgid": "MRS.",
   "msgstr": "MADAME",
   "source": "Émeraude FR officiel",
@@ -46208,6 +46598,26 @@
   "ancien": "ON A",
   "preuve": "EasyChat people[39] US 599433 -> FR 59D864 ; US 599433 -> FR 59D864 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "MY",
+  "msgstr": "Mon",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
+  "ligne": 244,
+  "ancien": "Mon",
+  "preuve": "EasyChat people[40] US 599439 -> FR 59D869 ; US 599439 -> FR 59D869 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « MON » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "I AM",
+  "msgstr": "Je Suis",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
+  "ligne": 250,
+  "ancien": "Je Suis",
+  "preuve": "EasyChat people[41] US 59943C -> FR 59D86D ; US 59943C -> FR 59D86D (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « JE SUIS » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
  },
  {
   "msgid": "I'VE",
@@ -46278,6 +46688,16 @@
   "ancien": "MES",
   "preuve": "EasyChat people[48] US 599468 -> FR 59D891 ; US 599468 -> FR 59D891 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "IT'S",
+  "msgstr": "C’est",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
+  "ligne": 298,
+  "ancien": "C’est",
+  "preuve": "EasyChat people[49] US 59946F -> FR 59D895 ; US 59946F -> FR 59D895 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « C’EST » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
  },
  {
   "msgid": "FRIEND",
@@ -46370,6 +46790,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "WE",
+  "msgstr": "Nous",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
+  "ligne": 370,
+  "ancien": "Nous",
+  "preuve": "EasyChat people[61] US 5994BE -> FR 59D8E9 ; US 5994BE -> FR 59D8E9 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « NOUS » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
   "msgid": "BEEN",
   "msgstr": "SON",
   "source": "Émeraude FR officiel",
@@ -46388,6 +46818,26 @@
   "ancien": "ON",
   "preuve": "EasyChat people[63] US 5994C6 -> FR 59D8F2 ; US 5994C6 -> FR 59D8F2 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "WE'RE",
+  "msgstr": "Nous Voulons",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
+  "ligne": 394,
+  "ancien": "Nous Voulons",
+  "preuve": "EasyChat people[65] US 5994D0 -> FR 59D8FB ; US 5994D0 -> FR 59D8FB (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « NOUS VOULONS » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "WE'VE",
+  "msgstr": "Nous Avons",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
+  "ligne": 406,
+  "ancien": "Nous Avons",
+  "preuve": "EasyChat people[67] US 5994DC -> FR 59D90E ; US 5994DC -> FR 59D90E (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « NOUS AVONS » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
  },
  {
   "msgid": "SHE",
@@ -46720,6 +47170,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "JUST",
+  "msgstr": "Juste",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_speech.h",
+  "ligne": 184,
+  "ancien": "Juste",
+  "preuve": "EasyChat speech[30] US 599DA4 -> FR 59E228 ; US 599DA4 -> FR 59E228 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « JUSTE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
   "msgid": "EVEN SO,",
   "msgstr": "A",
   "source": "Émeraude FR officiel",
@@ -46758,6 +47218,16 @@
   "ancien": "C’EST SUR",
   "preuve": "EasyChat speech[34] US 599DC4 -> FR 59E241 ; US 599DC4 -> FR 59E241 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "UNDERSTOOD",
+  "msgstr": "COMPRIS!",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_speech.h",
+  "ligne": 214,
+  "ancien": "COMPRIS!",
+  "preuve": "EasyChat speech[35] US 599DCD -> FR 59E24B ; US 599DCD -> FR 59E24B (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « COMPRIS » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "JOKING",
@@ -46880,6 +47350,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "AS IF",
+  "msgstr": "Comme Si",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_speech.h",
+  "ligne": 298,
+  "ancien": "Comme Si",
+  "preuve": "EasyChat speech[49] US 599E3D -> FR 59E2CC ; US 599E3D -> FR 59E2CC (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « COMME SI » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
   "msgid": "MOOD",
   "msgstr": "DES",
   "source": "Émeraude FR officiel",
@@ -47000,6 +47480,56 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "FIGHTING",
+  "msgstr": "COMBAT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 100,
+  "ancien": "COMBAT",
+  "preuve": "EasyChat status[16] US 5982C1 -> FR 59C6BB ; US 5982C1 -> FR 59C6BB (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « Combat » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "GRASS",
+  "msgstr": "PLANTE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 172,
+  "ancien": "PLANTE",
+  "preuve": "EasyChat status[28] US 59832E -> FR 59C72A ; US 31AE8C -> FR 3229BC (pointeur x2) ; US 59832E -> FR 59C72A (pointeur x1)",
+  "note": "texte Émeraude FR « Plante » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "GHOST",
+  "msgstr": "SPECTRE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 190,
+  "ancien": "SPECTRE",
+  "preuve": "US 31AE69 -> FR 322999 (pointeur x2) ; table octets EN->FR (x2)",
+  "note": "texte Émeraude FR « SPECTR » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "DRAGON",
+  "msgstr": "DRAGON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 376,
+  "ancien": "DRAGON",
+  "preuve": "EasyChat status[62] US 59846D -> FR 59C861 ; US 31AEA8 -> FR 3229D8 (pointeur x2) ; US 56C430 -> FR 571794 (zone parallèle, décalage +21348)",
+  "note": "texte Émeraude FR « Dragon » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "STEEL",
+  "msgstr": "ACIER",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 424,
+  "ancien": "ACIER",
+  "preuve": "EasyChat status[70] US 5984B2 -> FR 59C89D ; US 31AE70 -> FR 3229A0 (pointeur x2) ; table octets EN->FR (x2)",
+  "note": "texte Émeraude FR « Acier » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "SHINE",
   "msgstr": "SOLEIL",
   "source": "Émeraude FR officiel",
@@ -47008,6 +47538,16 @@
   "ancien": "SOLEIL",
   "preuve": "EasyChat status[74] US 5984D5 -> FR 59C8C2 ; US 5984D5 -> FR 59C8C2 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "FLYING",
+  "msgstr": "VOL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 454,
+  "ancien": "VOL",
+  "preuve": "EasyChat status[75] US 5984DB -> FR 59C8C9 ; US 31AE46 -> FR 322976 (pointeur x2) ; US 5984DB -> FR 59C8C9 (pointeur x1)",
+  "note": "texte Émeraude FR « Vol » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "LIGHTNINGROD",
@@ -47028,6 +47568,26 @@
   "ancien": "Oeil Composé",
   "preuve": "EasyChat status[78] US 5984F7 -> FR 59C8E5 ; US 31B791 -> FR 323304 (table de base US 31B6DB / FR 32324E, index +182, 15 voisins) ; US 5984F7 -> FR 59C8E5 (pointeur x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "{PK}RS",
+  "msgstr": "Pokérus",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 538,
+  "ancien": "Pokérus",
+  "preuve": "EasyChat status[89] US 59856F -> FR 59C95B ; US 59856F -> FR 59C95B (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « POKéRUS » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "WATER",
+  "msgstr": "EAU",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 574,
+  "ancien": "EAU",
+  "preuve": "EasyChat status[95] US 59859F -> FR 59C990 ; US 31AE85 -> FR 3229B5 (pointeur x2) ; US 59859F -> FR 59C990 (pointeur x1)",
+  "note": "texte Émeraude FR « Eau » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "PATTERN",
@@ -47168,6 +47728,26 @@
   "ancien": "LUNDI",
   "preuve": "EasyChat time[15] US 59BDCB -> FR 5A040C ; US 59BDCB -> FR 5A040C (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "LATER",
+  "msgstr": "Plus TARD",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_time.h",
+  "ligne": 100,
+  "ancien": "Plus TARD",
+  "preuve": "EasyChat time[16] US 59BDD2 -> FR 5A0412 ; US 59BDD2 -> FR 5A0412 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « PLUS TARD » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "EARLIER",
+  "msgstr": "Plus TOT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_time.h",
+  "ligne": 106,
+  "ancien": "Plus TOT",
+  "preuve": "EasyChat time[17] US 59BDD8 -> FR 5A041C ; US 59BDD8 -> FR 5A041C (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « PLUS TOT » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
  },
  {
   "msgid": "ANOTHER",
@@ -47408,6 +47988,16 @@
   "ancien": "ENCYCLOPEDIE",
   "preuve": "EasyChat trainer[5] US 59805A -> FR 59C43F ; US 59805A -> FR 59C43F (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "NATURE",
+  "msgstr": "Nature",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_trainer.h",
+  "ligne": 40,
+  "ancien": "Nature",
+  "preuve": "EasyChat trainer[6] US 598067 -> FR 59C44C ; US 598067 -> FR 59C44C (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « NATURE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "CENTER",
@@ -47730,6 +48320,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "UH-OH",
+  "msgstr": "Hum Hum",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_voices.h",
+  "ligne": 58,
+  "ancien": "Hum Hum",
+  "preuve": "EasyChat voices[9] US 5998AB -> FR 59DCE9 ; US 5998AB -> FR 59DCE9 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « HUM HUM » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
   "msgid": "WAAAH",
   "msgstr": "OUAH",
   "source": "Émeraude FR officiel",
@@ -47840,6 +48440,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
+  "msgid": "EH?",
+  "msgstr": "Quoi?",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_voices.h",
+  "ligne": 148,
+  "ancien": "Quoi?",
+  "preuve": "EasyChat voices[24] US 599908 -> FR 59DD58 ; US 599908 -> FR 59DD58 (séquence : 1 chaîne(s) après US 599902, 2 avant US 599910)",
+  "note": "texte Émeraude FR « QUOI? » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
   "msgid": "CRY",
   "msgstr": "CRI",
   "source": "Émeraude FR officiel",
@@ -47858,6 +48468,16 @@
   "ancien": "HE! HE! HE!",
   "preuve": "EasyChat voices[26] US 599910 -> FR 59DD62 ; US 599910 -> FR 59DD62 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
+ },
+ {
+  "msgid": "OI, OI, OI",
+  "msgstr": "Aie Aie Aie",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_voices.h",
+  "ligne": 166,
+  "ancien": "Aie Aie Aie",
+  "preuve": "EasyChat voices[27] US 599916 -> FR 59DD6E ; US 599916 -> FR 59DD6E (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « AIE AIE AIE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
  },
  {
   "msgid": "OH",
@@ -47957,16 +48577,6 @@
   "ligne": 262,
   "ancien": "HOUHOUHOU",
   "preuve": "EasyChat voices[43] US 599978 -> FR 59DDDA ; US 599978 -> FR 59DDDA (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
- },
- {
-  "msgid": "LOL",
-  "msgstr": "HI! HI! HI!",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_voices.h",
-  "ligne": 268,
-  "ancien": "HI! HI! HI!",
-  "preuve": "EasyChat voices[44] US 59997F -> FR 59DDE4 ; US 59997F -> FR 59DDE4 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)"
  },
  {
@@ -48520,16 +49130,6 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
-  "msgid": "ELIXIR",
-  "msgstr": "Elixir",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/items.h",
-  "ligne": 1151,
-  "ancien": "Elixir",
-  "preuve": "US 583FD0 -> FR 58839C (zone parallèle, décalage +17356)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
- },
- {
   "msgid": "Restores the PP\\nof all moves by 10.",
   "msgstr": "Restaure 10 PP\\nde toutes les\\nattaques.",
   "source": "Émeraude FR officiel",
@@ -48538,16 +49138,6 @@
   "ancien": "Restaure 10 PP\\nde toutes les\\nattaques.",
   "preuve": "US 5804C1 -> FR 584872 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
- },
- {
-  "msgid": "MAX ELIXIR",
-  "msgstr": "Max Elixir",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/items.h",
-  "ligne": 1170,
-  "ancien": "Max Elixir",
-  "preuve": "US 583FFC -> FR 5883C8 (zone parallèle, décalage +17356)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "BERRY JUICE",
@@ -48607,7 +49197,7 @@
   "ligne": 1439,
   "ancien": "Fer",
   "preuve": "US 56E510 -> FR 573874 (zone parallèle, décalage +21348) ; US 5844CC -> FR 588898 (zone parallèle, décalage +17356)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/items.h, pas pour src/data/trade.h (msgctxt proposé)"
  },
  {
   "msgid": "CALCIUM",
@@ -48738,6 +49328,46 @@
   "ancien": "Pour sortir rapide-\\nment d’une grotte\\nou d’un souterrain.",
   "preuve": "US 580B1F -> FR 584ED7 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "X ATTACK",
+  "msgstr": "Attaque +",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 2448,
+  "ancien": "Attaque +",
+  "preuve": "US 584684 -> FR 588A50 (zone parallèle, décalage +17356)",
+  "note": "texte Émeraude FR « ATTAQUE + » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "X SPEED",
+  "msgstr": "Vitesse +",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 2552,
+  "ancien": "Vitesse +",
+  "preuve": "US 5846DC -> FR 588AA8 (zone parallèle, décalage +17356)",
+  "note": "texte Émeraude FR « VITESSE + » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "X ACCURACY",
+  "msgstr": "Précision +",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 2578,
+  "ancien": "Précision +",
+  "preuve": "US 584708 -> FR 588AD4 (zone parallèle, décalage +17356)",
+  "note": "texte Émeraude FR « PRECISION + » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "DIRE HIT",
+  "msgstr": "Muscle +",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 2605,
+  "ancien": "Muscle +",
+  "preuve": "US 584658 -> FR 588A24 (zone parallèle, décalage +17356)",
+  "note": "texte Émeraude FR « MUSCLE + » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "Raises the\\ncritical-hit ratio\\nduring one battle.",
@@ -48997,7 +49627,7 @@
   "ligne": 3279,
   "ancien": "Nautile",
   "preuve": "US 5876FC -> FR 58BAC8 (zone parallèle, décalage +17356)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/items.h, pas pour src/data/script_menu.h (msgctxt proposé)"
  },
  {
   "msgid": "DOME FOSSIL",
@@ -49007,7 +49637,7 @@
   "ligne": 3302,
   "ancien": "Fossile Dôme",
   "preuve": "US 587728 -> FR 58BAF4 (zone parallèle, décalage +17356)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/items.h, pas pour src/data/script_menu.h (msgctxt proposé)"
  },
  {
   "msgid": "OLD AMBER",
@@ -49017,7 +49647,7 @@
   "ligne": 3325,
   "ancien": "Vieil Ambre",
   "preuve": "US 587678 -> FR 58BA44 (zone parallèle, décalage +17356)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/items.h, pas pour src/data/script_menu.h (msgctxt proposé)"
  },
  {
   "msgid": "ROOT FOSSIL",
@@ -49430,6 +50060,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
+  "msgid": "MAGNET",
+  "msgstr": "Aimant",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 8983,
+  "ancien": "Aimant",
+  "preuve": "US 585D60 -> FR 58A12C (zone parallèle, décalage +17356)",
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "MIRACLE SEED",
   "msgstr": "Grain Miracl",
   "source": "Émeraude FR officiel",
@@ -49630,6 +50270,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
+  "msgid": "CLEANSE TAG",
+  "msgstr": "Rune Purif.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 9884,
+  "ancien": "Rune Purif.",
+  "preuve": "US 585A48 -> FR 589E14 (zone parallèle, décalage +17356)",
+  "note": "texte Émeraude FR « RUNE PURIF. » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "SMOKE BALL",
   "msgstr": "Boule Fumée",
   "source": "Émeraude FR officiel",
@@ -49737,7 +50387,7 @@
   "ligne": 10267,
   "ancien": "Métronome",
   "preuve": "US 319D7A -> FR 3218AA (zone parallèle, décalage +31536)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/moves_info.h, pas pour src/data/items.h (msgctxt proposé)"
  },
  {
   "msgid": "CHERI BERRY",
@@ -51310,6 +51960,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
+  "msgid": "POKé FLUTE",
+  "msgstr": "Pokéflûte",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 14328,
+  "ancien": "Pokéflûte",
+  "preuve": "US 5875C8 -> FR 58B994 (zone parallèle, décalage +17356)",
+  "note": "texte Émeraude FR « POKéFLUTE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "FAME CHECKER",
   "msgstr": "MEMORYDEX",
   "source": "Émeraude FR officiel",
@@ -51440,6 +52100,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
+  "msgid": "METEORITE",
+  "msgstr": "MÉTÉORITE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 14637,
+  "ancien": "MÉTÉORITE",
+  "preuve": "US 56DFD0 -> FR 573334 (zone parallèle, décalage +21348) ; US 56DFF0 -> FR 573354 (zone parallèle, décalage +21348) ; US 5869C0 -> FR 58AD8C (zone parallèle, décalage +17356)",
+  "note": "texte Émeraude FR « METEORITE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : traduction manuelle (style SoulSilver))"
+ },
+ {
   "msgid": "MAGMA EMBLEM",
   "msgstr": "SCEAU MAGMA",
   "source": "Émeraude FR officiel",
@@ -51480,6 +52150,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
+  "msgid": "CARD KEY",
+  "msgstr": "Carte Magn.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 14756,
+  "ancien": "Carte Magn.",
+  "preuve": "US 5876A4 -> FR 58BA70 (zone parallèle, décalage +17356)",
+  "note": "texte Émeraude FR « Carte MAGN. » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "SILPH SCOPE",
   "msgstr": "SCOPE SYLPHE",
   "source": "Émeraude FR officiel",
@@ -51508,6 +52188,16 @@
   "ancien": "PASSE PRISME",
   "preuve": "US 5878E0 -> FR 58BCAC (zone parallèle, décalage +17356)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "TEA",
+  "msgstr": "THE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 14845,
+  "ancien": "THE",
+  "preuve": "US 58790C -> FR 58BCD8 (zone parallèle, décalage +17356)",
+  "note": "texte Émeraude FR « Thé » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
  },
  {
   "msgid": "A thirst-quenching\\ntea prepared by an\\nold lady.",
@@ -51778,16 +52468,6 @@
   "ancien": "Empoigne l’ennemi avec\\nde puissantes pinces.",
   "preuve": "US 618368 -> FR 61C713 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
- },
- {
-  "msgid": "GUILLOTINE",
-  "msgstr": "Guillotine",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/moves_info.h",
-  "ligne": 419,
-  "ancien": "Guillotine",
-  "preuve": "US 319818 -> FR 321348 (table de base US 31977C / FR 3212AC, index +156, 15 voisins)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "RAZOR WIND",
@@ -52880,6 +53560,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
+  "msgid": "THUNDER",
+  "msgstr": "Fatal-Foudre",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 2400,
+  "ancien": "Fatal-Foudre",
+  "preuve": "US 319BE7 -> FR 321717 (table de base US 319B0A / FR 32163A, index +221, 14 voisins)",
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "A lightning attack that may\\ncause paralysis.",
   "msgstr": "Une attaque foudroyante\\npouvant paralyser l’ennemi.",
   "source": "Émeraude FR officiel",
@@ -53010,6 +53700,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
+  "msgid": "MEDITATE",
+  "msgstr": "Yoga",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 2635,
+  "ancien": "Yoga",
+  "preuve": "US 319C5C -> FR 32178C (zone parallèle, décalage +31536)",
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "AGILITY",
   "msgstr": "Hâte",
   "source": "Émeraude FR officiel",
@@ -53077,7 +53777,7 @@
   "ligne": 2818,
   "ancien": "Grincement",
   "preuve": "US 319CB7 -> FR 3217E7 (zone parallèle, décalage +31536)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : plusieurs textes Émeraude FR pour le même anglais : « STRIDENT » (delta)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "Creates illusory copies to\\nraise evasiveness.",
@@ -53177,7 +53877,7 @@
   "ligne": 3059,
   "ancien": "Bouclier",
   "preuve": "US 319D2C -> FR 32185C (zone parallèle, décalage +31536)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : plusieurs textes Émeraude FR pour le même anglais : « BLOQUEUR » (delta)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "LIGHT SCREEN",
@@ -53338,6 +54038,16 @@
   "ancien": "Un gaz nocif pouvant\\nempoisonner l’ennemi.",
   "preuve": "US 61987E -> FR 61DC7D (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "SLUDGE",
+  "msgstr": "Détritus",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 3386,
+  "ancien": "Détritus",
+  "preuve": "US 319DC8 -> FR 3218F8 (zone parallèle, décalage +31536)",
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "BONE CLUB",
@@ -53548,6 +54258,16 @@
   "ancien": "Aspire la moitié des dégâts\\ninfligés à l’ennemi endormi.",
   "preuve": "US 619B46 -> FR 61DF47 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "POISON GAS",
+  "msgstr": "Gaz Toxik",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 3784,
+  "ancien": "Gaz Toxik",
+  "preuve": "US 319E8B -> FR 3219BB (table de base US 319E57 / FR 321987, index +52, 15 voisins)",
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "BARRAGE",
@@ -54130,16 +54850,6 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
-  "msgid": "CONVERSION 2",
-  "msgstr": "Conversion 2",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/moves_info.h",
-  "ligne": 4804,
-  "ancien": "Conversion 2",
-  "preuve": "US 31A06C -> FR 321B9C (zone parallèle, décalage +31536)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
- },
- {
   "msgid": "Makes the user resistant\\nto the last attack's type.",
   "msgstr": "Permet de résister au type\\nde la dernière attaque.",
   "source": "Émeraude FR officiel",
@@ -54217,16 +54927,6 @@
   "ligne": 4964,
   "ancien": "Abri",
   "preuve": "US 31A0BA -> FR 321BEA (zone parallèle, décalage +31536)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
- },
- {
-  "msgid": "MACH PUNCH",
-  "msgstr": "Mach Punch",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/moves_info.h",
-  "ligne": 4997,
-  "ancien": "Mach Punch",
-  "preuve": "US 31A0C7 -> FR 321BF7 (table de base US 319F00 / FR 321A30, index +455, 15 voisins)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
@@ -54337,7 +55037,7 @@
   "ligne": 5198,
   "ancien": "Picots",
   "preuve": "US 31A12F -> FR 321C5F (zone parallèle, décalage +31536)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : plusieurs textes Émeraude FR pour le même anglais : « PIQUANT » (delta)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "Sets spikes that hurt a \\nfoe switching in.",
@@ -54467,7 +55167,7 @@
   "ligne": 5467,
   "ancien": "Tempêtesable",
   "preuve": "US 31A1B1 -> FR 321CE1 (table de base US 319F00 / FR 321A30, index +689, 15 voisins)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/moves_info.h, pas pour src/field_weather.c, src/strings.c (msgctxt proposé)"
  },
  {
   "msgid": "Causes a sandstorm that\\nrages for several turns.",
@@ -54950,6 +55650,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
+  "msgid": "MOONLIGHT",
+  "msgstr": "Rayon Lune",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 6387,
+  "ancien": "Rayon Lune",
+  "preuve": "US 31A378 -> FR 321EA8 (table de base US 31A32A / FR 321E5A, index +78, 15 voisins)",
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "HIDDEN POWER",
   "msgstr": "Puis. Cachée",
   "source": "Émeraude FR officiel",
@@ -55157,7 +55867,7 @@
   "ligne": 6941,
   "ancien": "Avale",
   "preuve": "US 31A47C -> FR 321FAC (zone parallèle, décalage +31536)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : plusieurs textes Émeraude FR pour le même anglais : « HIRONDELLE » (delta)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "Absorbs stockpiled power\\nand restores HP.",
@@ -55400,6 +56110,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
+  "msgid": "WISH",
+  "msgstr": "Voeu",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 7396,
+  "ancien": "Voeu",
+  "preuve": "US 31A559 -> FR 322089 (table de base US 31A421 / FR 321F51, index +312, 14 voisins)",
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "A wish that restores HP.\\nIt takes time to work.",
   "msgstr": "Un vœu qui restaure les PV.\\nDemande un certain temps.",
   "source": "Émeraude FR officiel",
@@ -55448,6 +56168,16 @@
   "ancien": "Plante des racines, regagne\\nPV, ne peut plus changer.",
   "preuve": "US 61B5AE -> FR 61F99E (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "SUPERPOWER",
+  "msgstr": "Surpuissance",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 7481,
+  "ancien": "Surpuissance",
+  "preuve": "US 31A580 -> FR 3220B0 (table de base US 31A421 / FR 321F51, index +351, 15 voisins)",
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "Boosts strength sharply,\\nbut lowers abilities.",
@@ -55567,16 +56297,6 @@
   "ligne": 7655,
   "ancien": "Effort",
   "preuve": "US 31A5DB -> FR 32210B (table de base US 31A421 / FR 321F51, index +442, 15 voisins)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
- },
- {
-  "msgid": "ERUPTION",
-  "msgstr": "Eruption",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/moves_info.h",
-  "ligne": 7679,
-  "ancien": "Eruption",
-  "preuve": "US 31A5E8 -> FR 322118 (table de base US 31A421 / FR 321F51, index +455, 15 voisins) ; US 56DE10 -> FR 573174 (zone parallèle, décalage +21348)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
@@ -55717,7 +56437,7 @@
   "ligne": 7889,
   "ancien": "Cogne",
   "preuve": "US 31A650 -> FR 322180 (zone parallèle, décalage +31536)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : plusieurs textes Émeraude FR pour le même anglais : « COGNEUR » (delta)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "Straight-arm punches that\\nstrike the foe 2 to 5 times.",
@@ -56620,6 +57340,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
+  "msgid": "DECORATE",
+  "msgstr": "DÉCORER",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 18097,
+  "ancien": "DÉCORER",
+  "preuve": "US 5EA7B1 -> FR 5EE977 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « DECORER » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : relu et corrigé à la main (le patch FR actuel donnait un morceau)"
+ },
+ {
   "msgid": "BULBASAUR",
   "msgstr": "BULBIZARRE",
   "source": "Émeraude FR officiel",
@@ -57357,7 +58087,7 @@
   "ligne": 18707,
   "ancien": "METAMORPH",
   "preuve": "US 318B74 -> FR 3206A4 (zone parallèle, décalage +31536)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/pokemon/species_info/gen_1_families.h, pas pour src/pokedex_plus_hgss.c (msgctxt proposé)"
  },
  {
   "msgid": "EEVEE",
@@ -57367,7 +58097,7 @@
   "ligne": 18786,
   "ancien": "EVOLI",
   "preuve": "US 318B7F -> FR 3206AF (zone parallèle, décalage +31536)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/data/pokemon/species_info/gen_1_families.h, src/trainer_tower_sets.c, pas pour src/data/script_menu.h (msgctxt proposé)"
  },
  {
   "msgid": "UMBREON",
@@ -58460,16 +59190,6 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
  },
  {
-  "msgid": "DNA",
-  "msgstr": "ADN",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/pokemon/species_info/gen_3_families.h",
-  "ligne": 13396,
-  "ancien": "ADN",
-  "preuve": "US 56E5F0 -> FR 573954 (zone parallèle, décalage +21348)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : src/data/abilities.h, src/data/easy_chat/easy_chat_group_adjectives.h, src/data/easy_chat/easy_chat_group_feelings.h)"
- },
- {
   "msgid": "It stores electricity in the electric sacs\\non its cheeks. When it releases pent-up\\nenergy in a burst, the electric power is\\nequal to a lightning bolt.",
   "msgstr": "Il stocke de l’électricité dans les poches\\nde ses joues. Quand il relâche d’un coup\\ntoute l’énergie accumulée, la puissance\\nélectrique équivaut à celle d’un éclair.",
   "source": "Émeraude FR officiel",
@@ -58680,6 +59400,26 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
+  "msgid": "SINGLE BATTLE",
+  "msgstr": "COMBAT SOLO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 497,
+  "ancien": "COMBAT SOLO",
+  "preuve": "US 2EFDB0 -> FR 2F8CE4 (pointeur x1) ; US 5EAE6E -> FR 5EF011 (pointeur x1) ; table octets EN->FR (x2)",
+  "note": "texte Émeraude FR « Combat SOLO » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "DOUBLE BATTLE",
+  "msgstr": "COMBAT DUO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 498,
+  "ancien": "COMBAT DUO",
+  "preuve": "US 2EFDC0 -> FR 2F8CF0 (pointeur x1) ; US 5EAE7C -> FR 5EF01D (pointeur x1) ; table octets EN->FR (x2)",
+  "note": "texte Émeraude FR « Combat Duo » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "POKéMON JUMP",
   "msgstr": "SAUT Pokémon",
   "source": "Émeraude FR officiel",
@@ -58808,6 +59548,16 @@
   "ancien": "DEUX STYLES",
   "preuve": "US 5EB3DF -> FR 5EF5AB (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "LV. 50",
+  "msgstr": "Niveau 50",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 648,
+  "ancien": "Niveau 50",
+  "preuve": "US 5EAEB1 -> FR 5EF05D (pointeur x4) ; US 5EB3EA -> FR 5EF5B7 (pointeur x1) ; US 5EE3B0 -> FR 5F2654 (pointeur x1)",
+  "note": "texte Émeraude FR « NIVEAU 50 » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
  },
  {
   "msgid": "HOLD ITEMS",
@@ -58980,6 +59730,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
+  "msgid": "CHAMPION RIBBON",
+  "msgstr": "Ruban Maître",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/text/gift_ribbon_descriptions.h",
+  "ligne": 2,
+  "ancien": "Ruban Maître",
+  "preuve": "US 623A8A -> FR 627982 (pointeur x12) ; table octets EN->FR (x12)",
+  "note": "texte Émeraude FR « RUBAN Maître » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "2003 NATIONAL TOURNEY",
   "msgstr": "TOURNOI NATIONAL 2003",
   "source": "Émeraude FR officiel",
@@ -59120,6 +59880,16 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
+  "msgid": "Difficulty-clearing",
+  "msgstr": "Ruban commémoratif pour",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/text/gift_ribbon_descriptions.h",
+  "ligne": 21,
+  "ancien": "Ruban commémoratif pour",
+  "preuve": "US 623BE7 -> FR 627AEC (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « RUBAN commémoratif pour » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
+ },
+ {
   "msgid": "Commemorative RIBBON",
   "msgstr": "avoir tout réussi.",
   "source": "Émeraude FR officiel",
@@ -59240,6 +60010,66 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
+  "msgid": "Summer Holidays RIBBON",
+  "msgstr": "Ruban vacances d’été",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/text/gift_ribbon_descriptions.h",
+  "ligne": 35,
+  "ancien": "Ruban vacances d’été",
+  "preuve": "US 623CFA -> FR 627C16 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « RUBAN vacances d’été » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "Winter Holidays RIBBON",
+  "msgstr": "Ruban vacances d’hiver",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/text/gift_ribbon_descriptions.h",
+  "ligne": 37,
+  "ancien": "Ruban vacances d’hiver",
+  "preuve": "US 623D12 -> FR 627C2C (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « RUBAN vacances d’hiver » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "Spring Holidays RIBBON",
+  "msgstr": "Ruban vac. de printemps",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/text/gift_ribbon_descriptions.h",
+  "ligne": 38,
+  "ancien": "Ruban vac. de printemps",
+  "preuve": "US 623D29 -> FR 627C43 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « RUBAN vac. de printemps » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "Evergreen RIBBON",
+  "msgstr": "Ruban feuilles persist.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/text/gift_ribbon_descriptions.h",
+  "ligne": 39,
+  "ancien": "Ruban feuilles persist.",
+  "preuve": "US 623D40 -> FR 627C5B (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « RUBAN feuilles persist. » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "Special Holiday RIBBON",
+  "msgstr": "Ruban vac. spéciales",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/text/gift_ribbon_descriptions.h",
+  "ligne": 40,
+  "ancien": "Ruban vac. spéciales",
+  "preuve": "US 623D51 -> FR 627C73 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « RUBAN vac. spéciales » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "Hard Worker RIBBON",
+  "msgstr": "Ruban travailleur",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/text/gift_ribbon_descriptions.h",
+  "ligne": 41,
+  "ancien": "Ruban travailleur",
+  "preuve": "US 623D68 -> FR 627C88 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « RUBAN travailleur » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "A commemorative RIBBON",
   "msgstr": "RUBAN souvenir pour",
   "source": "Émeraude FR officiel",
@@ -59268,6 +60098,16 @@
   "ancien": "au PANTHEON",
   "preuve": "US 623853 -> FR 627735 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+ },
+ {
+  "msgid": "For clearing LV50",
+  "msgstr": "Ruban de victoire N.50",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/text/ribbon_descriptions.h",
+  "ligne": 12,
+  "ancien": "Ruban de victoire N.50",
+  "preuve": "US 6238FC -> FR 6277FC (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « RUBAN de victoire N.50 » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : patch FR actuel)"
  },
  {
   "msgid": "at the BATTLE TOWER.",
@@ -59320,6 +60160,26 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (récupéré par pointeur))"
  },
  {
+  "msgid": "KEVIN",
+  "msgstr": "Kevin",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers.party",
+  "ligne": 3042,
+  "ancien": "Kevin",
+  "preuve": "US 311AEC -> FR 31961C (zone parallèle, décalage +31536) ; gTrainers[171] US 311AEC -> FR 31961C",
+  "note": "texte Émeraude FR « KEVIN » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "VICTORIA",
+  "msgstr": "Victoria",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers.party",
+  "ligne": 5629,
+  "ancien": "Victoria",
+  "preuve": "US 312EEC -> FR 31AA1C (zone parallèle, décalage +31536) ; gTrainers[299] US 312EEC -> FR 31AA1C",
+  "note": "texte Émeraude FR « VICTORIA » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
   "msgid": "DYLAN",
   "msgstr": "REGIS",
   "source": "Émeraude FR officiel",
@@ -59328,6 +60188,16 @@
   "ancien": "REGIS",
   "preuve": "US 313914 -> FR 31B444 (zone parallèle, décalage +31536) ; US 31393C -> FR 31B46C (zone parallèle, décalage +31536) ; US 313964 -> FR 31B494 (zone parallèle, décalage +31536)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : nom de table Émeraude aussi porté dans HnS par : src/scrcmd.c (personnage Johto/Kanto : nom SoulSilver prioritaire)"
+ },
+ {
+  "msgid": "JAMES",
+  "msgstr": "James",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers.party",
+  "ligne": 11358,
+  "ancien": "James",
+  "preuve": "US 31613C -> FR 31DC6C (zone parallèle, décalage +31536) ; US 316164 -> FR 31DC94 (zone parallèle, décalage +31536) ; US 31618C -> FR 31DCBC (zone parallèle, décalage +31536)",
+  "note": "texte Émeraude FR « JAMES » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "Please start over from the beginning.",
@@ -60310,16 +61180,6 @@
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
  },
  {
-  "msgid": "MONO",
-  "msgstr": "MONO",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/option_menu.c",
-  "ligne": 213,
-  "ancien": "MONO",
-  "preuve": "US 5EE623 -> FR 5F28C3 (zone parallèle, décalage +17056)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : SoulSilver FR officiel)"
- },
- {
   "msgid": "RED {POKEBLOCK}",
   "msgstr": "{POKEBLOCK} ROUGE",
   "source": "Émeraude FR officiel",
@@ -60327,7 +61187,7 @@
   "ligne": 205,
   "ancien": "{POKEBLOCK} ROUGE",
   "preuve": "US 5E9275 -> FR 5ED3D9 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/AkalaIsle_hns/scripts.inc, data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/NewSinjoh_HotSprings_hns/scripts.inc)"
  },
  {
   "msgid": "BLUE {POKEBLOCK}",
@@ -60337,7 +61197,7 @@
   "ligne": 206,
   "ancien": "{POKEBLOCK} BLEU",
   "preuve": "US 5E927F -> FR 5ED3E5 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (correspondance douteuse, à vérifier))"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (correspondance douteuse, à vérifier)) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/AkalaIsle_hns/scripts.inc, data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/NewSinjoh_HotSprings_hns/scripts.inc)"
  },
  {
   "msgid": "PINK {POKEBLOCK}",
@@ -60347,7 +61207,7 @@
   "ligne": 207,
   "ancien": "{POKEBLOCK} ROSE",
   "preuve": "US 5E928A -> FR 5ED3F0 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/AkalaIsle_hns/scripts.inc, data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/NewSinjoh_HotSprings_hns/scripts.inc)"
  },
  {
   "msgid": "GREEN {POKEBLOCK}",
@@ -60357,7 +61217,7 @@
   "ligne": 208,
   "ancien": "{POKEBLOCK} VERT",
   "preuve": "US 5E9295 -> FR 5ED3FB (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/AkalaIsle_hns/scripts.inc, data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/NewSinjoh_HotSprings_hns/scripts.inc)"
  },
  {
   "msgid": "YELLOW {POKEBLOCK}",
@@ -60367,7 +61227,7 @@
   "ligne": 209,
   "ancien": "{POKEBLOCK} JAUNE",
   "preuve": "US 5E92A1 -> FR 5ED406 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/AkalaIsle_hns/scripts.inc, data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/NewSinjoh_HotSprings_hns/scripts.inc)"
  },
  {
   "msgid": "PURPLE {POKEBLOCK}",
@@ -60377,7 +61237,7 @@
   "ligne": 210,
   "ancien": "{POKEBLOCK} VIOLET",
   "preuve": "US 5E92AE -> FR 5ED412 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/AkalaIsle_hns/scripts.inc, data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/NewSinjoh_HotSprings_hns/scripts.inc)"
  },
  {
   "msgid": "INDIGO {POKEBLOCK}",
@@ -60387,7 +61247,7 @@
   "ligne": 211,
   "ancien": "{POKEBLOCK} INDIGO",
   "preuve": "US 5E92BB -> FR 5ED41F (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : ?)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : ?) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/AkalaIsle_hns/scripts.inc, data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/NewSinjoh_HotSprings_hns/scripts.inc)"
  },
  {
   "msgid": "BROWN {POKEBLOCK}",
@@ -60397,7 +61257,7 @@
   "ligne": 212,
   "ancien": "{POKEBLOCK} MARRON",
   "preuve": "US 5E92C8 -> FR 5ED42C (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/AkalaIsle_hns/scripts.inc, data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/NewSinjoh_HotSprings_hns/scripts.inc)"
  },
  {
   "msgid": "LITEBLUE {POKEBLOCK}",
@@ -60407,7 +61267,7 @@
   "ligne": 213,
   "ancien": "{POKEBLOCK} BLEU CIEL",
   "preuve": "US 5E92D4 -> FR 5ED439 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/AkalaIsle_hns/scripts.inc, data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/NewSinjoh_HotSprings_hns/scripts.inc)"
  },
  {
   "msgid": "OLIVE {POKEBLOCK}",
@@ -60417,7 +61277,7 @@
   "ligne": 214,
   "ancien": "{POKEBLOCK} OLIVE",
   "preuve": "US 5E92E3 -> FR 5ED449 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : ?)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : ?) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/SaffronCity_FightingDojo_hns/scripts.inc, data/scripts/secret_base.inc)"
  },
  {
   "msgid": "GRAY {POKEBLOCK}",
@@ -60427,7 +61287,7 @@
   "ligne": 215,
   "ancien": "{POKEBLOCK} GRIS",
   "preuve": "US 5E92EF -> FR 5ED455 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/SaffronCity_FightingDojo_hns/scripts.inc, data/scripts/secret_base.inc)"
  },
  {
   "msgid": "BLACK {POKEBLOCK}",
@@ -60437,7 +61297,7 @@
   "ligne": 216,
   "ancien": "{POKEBLOCK} NOIR",
   "preuve": "US 5E92FA -> FR 5ED460 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/SaffronCity_FightingDojo_hns/scripts.inc, data/scripts/secret_base.inc)"
  },
  {
   "msgid": "WHITE {POKEBLOCK}",
@@ -60447,7 +61307,7 @@
   "ligne": 217,
   "ancien": "{POKEBLOCK} BLANC",
   "preuve": "US 5E9306 -> FR 5ED46B (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/SaffronCity_FightingDojo_hns/scripts.inc, data/scripts/secret_base.inc)"
  },
  {
   "msgid": "GOLD {POKEBLOCK}",
@@ -60457,7 +61317,87 @@
   "ligne": 218,
   "ancien": "{POKEBLOCK} OR",
   "preuve": "US 5E9312 -> FR 5ED477 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/SaffronCity_FightingDojo_hns/scripts.inc, data/scripts/secret_base.inc)"
+ },
+ {
+  "msgid": "RELAXED",
+  "msgstr": "Relax",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokedex_plus_hgss.c",
+  "ligne": 162,
+  "ancien": "Relax",
+  "preuve": "US 61CADB -> FR 620ED6 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « RELAX » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "HARDY",
+  "msgstr": "Hardi",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2563,
+  "ancien": "Hardi",
+  "preuve": "US 61CAAC -> FR 620EA8 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « HARDI » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "LONELY",
+  "msgstr": "Solo",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2575,
+  "ancien": "Solo",
+  "preuve": "US 61CAB2 -> FR 620EAE (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « SOLO » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "BRAVE",
+  "msgstr": "Brave",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2587,
+  "ancien": "Brave",
+  "preuve": "US 61CAB9 -> FR 620EB3 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « BRAVE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "ADAMANT",
+  "msgstr": "Rigide",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2599,
+  "ancien": "Rigide",
+  "preuve": "US 61CABF -> FR 620EB9 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « RIGIDE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "NAUGHTY",
+  "msgstr": "Mauvais",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2611,
+  "ancien": "Mauvais",
+  "preuve": "US 61CAC7 -> FR 620EC0 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « MAUVAIS » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "BOLD",
+  "msgstr": "Assuré",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2623,
+  "ancien": "Assuré",
+  "preuve": "US 61CACF -> FR 620EC8 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « ASSURE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "IMPISH",
+  "msgstr": "Malin",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2659,
+  "ancien": "Malin",
+  "preuve": "US 61CAE3 -> FR 620EDC (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « MALIN » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "LAX",
@@ -60468,6 +61408,146 @@
   "ancien": "LACHE",
   "preuve": "US 61CAEA -> FR 620EE2 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel (correspondance douteuse, à vérifier))"
+ },
+ {
+  "msgid": "TIMID",
+  "msgstr": "Timide",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2683,
+  "ancien": "Timide",
+  "preuve": "US 61CAEE -> FR 620EE8 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « TIMIDE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "HASTY",
+  "msgstr": "Pressé",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2695,
+  "ancien": "Pressé",
+  "preuve": "US 61CAF4 -> FR 620EEF (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « Presse » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "JOLLY",
+  "msgstr": "Jovial",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2719,
+  "ancien": "Jovial",
+  "preuve": "US 56D790 -> FR 572AF4 (zone parallèle, décalage +21348) ; US 61CB02 -> FR 620EFE (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « JOVIAL » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "NAIVE",
+  "msgstr": "Naïf",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2731,
+  "ancien": "Naïf",
+  "preuve": "US 61CB08 -> FR 620F05 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « NAIF » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "MODEST",
+  "msgstr": "Modeste",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2743,
+  "ancien": "Modeste",
+  "preuve": "US 61CB0E -> FR 620F0A (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « MODESTE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "MILD",
+  "msgstr": "Doux",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2755,
+  "ancien": "Doux",
+  "preuve": "US 61CB15 -> FR 620F12 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « DOUX » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "QUIET",
+  "msgstr": "Discret",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2767,
+  "ancien": "Discret",
+  "preuve": "US 61CB1A -> FR 620F17 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « DISCRET » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "BASHFUL",
+  "msgstr": "Pudique",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2779,
+  "ancien": "Pudique",
+  "preuve": "US 61CB20 -> FR 620F1F (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « PUDIQUE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "RASH",
+  "msgstr": "Foufou",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2791,
+  "ancien": "Foufou",
+  "preuve": "US 61CB28 -> FR 620F27 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « FOUFOU » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "CALM",
+  "msgstr": "Calme",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2803,
+  "ancien": "Calme",
+  "preuve": "US 61CB2D -> FR 620F2E (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « CALME » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "GENTLE",
+  "msgstr": "Gentil",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2815,
+  "ancien": "Gentil",
+  "preuve": "US 61CB32 -> FR 620F34 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « GENTIL » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "SASSY",
+  "msgstr": "Malpoli",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2827,
+  "ancien": "Malpoli",
+  "preuve": "US 61CB39 -> FR 620F3B (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « MALPOLI » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "CAREFUL",
+  "msgstr": "Prudent",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2839,
+  "ancien": "Prudent",
+  "preuve": "US 61CB3F -> FR 620F43 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « PRUDENT » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
+ },
+ {
+  "msgid": "QUIRKY",
+  "msgstr": "Bizarre",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2851,
+  "ancien": "Bizarre",
+  "preuve": "US 61CB47 -> FR 620F4B (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « BIZARRE » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : SoulSilver FR officiel)"
  },
  {
   "msgid": "Move POKéMON stored in BOXES to\\nyour party.",
@@ -60577,7 +61657,7 @@
   "ligne": 8251,
   "ancien": "SELECT",
   "preuve": "US 5E8504 -> FR 5EC620 (zone parallèle, décalage +16668)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : relu et corrigé à la main (le patch FR actuel donnait un morceau)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : relu et corrigé à la main (le patch FR actuel donnait un morceau) ; réserve : même anglais, sens différents : texte Émeraude trouvé pour src/strings.c, pas pour src/pokemon_storage_system.c (msgctxt proposé)"
  },
  {
   "msgid": "No. ",
@@ -60597,7 +61677,7 @@
   "ligne": 369,
   "ancien": "AMI DES {PKMN}",
   "preuve": "US 5EFB3E -> FR 5F3EB4 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel)"
+  "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : patch FR actuel) ; réserve : nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/AkalaIsle_hns/scripts.inc, data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/NewSinjoh_HotSprings_hns/scripts.inc)"
  },
  {
   "msgid": "{DPAD_UPDOWN}PICK {A_BUTTON}NEXT {B_BUTTON}CANCEL",
@@ -60808,6 +61888,16 @@
   "ancien": "CHAISE",
   "preuve": "US 5EA85E -> FR 5EEA0F (pointeur x1) ; table octets EN->FR (x1)",
   "note": "texte actuel identique au texte Émeraude FR officiel (source actuelle : relu et corrigé à la main (le patch FR actuel donnait un morceau)"
+ },
+ {
+  "msgid": "PLANT",
+  "msgstr": "PLANTE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 458,
+  "ancien": "PLANTE",
+  "preuve": "US 5EA864 -> FR 5EEA16 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "texte Émeraude FR « Plante » : même terme que l’actuel à la casse/aux accents près ou abrégé (source actuelle : relu et corrigé à la main (le patch FR actuel donnait un morceau)"
  },
  {
   "msgid": "ORNAMENT",

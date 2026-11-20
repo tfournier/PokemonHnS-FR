@@ -1,0 +1,1013 @@
+[
+ {
+  "msgid": "Go to the deepest part of the\\nSAFARI ZONE. You will win a prize!",
+  "msgstr": "Va au fin fond du Parc Safari.\\nTu gagneras un prix!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SafariZone_North_RestHouse_Frlg/scripts.inc",
+  "ligne": 23,
+  "note": "SafariZone_North_RestHouse : Fisher (PrizeInDeepestPartOfSafariZone). [non compilé]"
+ },
+ {
+  "msgid": "My EEVEE evolved into FLAREON.\\pBut, a friend's EEVEE turned into a\\nVAPOREON. I wonder why?",
+  "msgstr": "Mon EVOLI a évolué en PYROLI.\\pMais l’EVOLI d’un ami est devenu\\nAQUALI. Je me demande pourquoi?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SafariZone_North_RestHouse_Frlg/scripts.inc",
+  "ligne": 27,
+  "note": "SafariZone_North_RestHouse : Gentleman (MyEeveeEvolvedIntoFlareon). [non compilé]"
+ },
+ {
+  "msgid": "No pedestrians are allowed on\\nCYCLING ROAD!",
+  "msgstr": "Les piétons sont interdits sur la\\nPiste Cyclable!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_NorthEntrance_1F_Frlg/scripts.inc",
+  "ligne": 117,
+  "note": "Route16_NorthEntrance_1F : NeedBikeTrigger (NoPedestriansOnCyclingRoad). [non compilé]"
+ },
+ {
+  "msgid": "CYCLING ROAD is a downhill course\\nby the sea. It's a great ride.",
+  "msgstr": "La Piste Cyclable descend le long de\\nla mer. C’est une super balade.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_NorthEntrance_1F_Frlg/scripts.inc",
+  "ligne": 121,
+  "note": "Route16_NorthEntrance_1F : Guard (CyclingRoadIsDownhillCourse). [non compilé]"
+ },
+ {
+  "msgid": "Excuse me!\\nWait up, please!",
+  "msgstr": "Pardon!\\nAttends un peu, s’il te plaît!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_NorthEntrance_1F_Frlg/scripts.inc",
+  "ligne": 125,
+  "note": "Route16_NorthEntrance_1F : NeedBikeTrigger (ExcuseMeWaitUp) ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "How'd you get in?\\nGood effort!",
+  "msgstr": "Comment t’es entré?\\nBel effort!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_NorthEntrance_1F_Frlg/scripts.inc",
+  "ligne": 129,
+  "note": "Route16_NorthEntrance_1F : OldMan (HowdYouGetInGoodEffort) ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "You need a BICYCLE to go out on\\nCYCLING ROAD!",
+  "msgstr": "Il te faut une Bicyclette pour aller\\nsur la Piste Cyclable!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route18_EastEntrance_1F_Frlg/scripts.inc",
+  "ligne": 113,
+  "note": "Route18_EastEntrance_1F : NeedBikeTrigger (NeedBicycleForCyclingRoad) ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "CYCLING ROAD is all uphill from\\nhere.",
+  "msgstr": "À partir d’ici, la Piste Cyclable n’est\\nqu’une longue montée.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route18_EastEntrance_1F_Frlg/scripts.inc",
+  "ligne": 117,
+  "note": "Route18_EastEntrance_1F : Guard (CyclingRoadAllUphillFromHere). [non compilé]"
+ },
+ {
+  "msgid": "MAX REPEL keeps weaker POKéMON\\nfrom appearing.\\pMAX REPEL stays effective longer\\nthan SUPER REPEL.",
+  "msgstr": "Le Max Repousse empêche les Pokémon\\nplus faibles d’apparaître.\\pIl agit plus longtemps que le\\nSuperepousse.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_Mart_Frlg/scripts.inc",
+  "ligne": 35,
+  "note": "SaffronCity_Mart : Youngster (MaxRepelMoreEffectiveThanSuper). [non compilé]"
+ },
+ {
+  "msgid": "REVIVE is costly, but it revives\\nfainted POKéMON!",
+  "msgstr": "Le Rappel coûte cher, mais il ranime\\nles Pokémon K.O.!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_Mart_Frlg/scripts.inc",
+  "ligne": 41,
+  "note": "SaffronCity_Mart : Lass (ReviveIsCostly). [non compilé]"
+ },
+ {
+  "msgid": "There's no getting rich quick in\\nbattling kids.",
+  "msgstr": "On ne s’enrichit pas vite en\\naffrontant des gamins.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 29,
+  "note": "Route17 : Dresseur RAUL (Cue Ball), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "Burned out!",
+  "msgstr": "Grillé!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 33,
+  "note": "Route17 : Dresseur RAUL (Cue Ball), défaite. [non compilé]"
+ },
+ {
+  "msgid": "You can find good stuff lying\\naround on CYCLING ROAD.\\pThere's good money in picking them\\nup and selling them.",
+  "msgstr": "On trouve des trucs sympas qui\\ntraînent sur la Piste Cyclable.\\pOn se fait pas mal d’argent en les\\nramassant pour les revendre.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 36,
+  "note": "Route17 : Dresseur RAUL (Cue Ball), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "I could belly-bump you outta\\nhere!",
+  "msgstr": "Je pourrais t’éjecter d’ici d’un coup\\nde bedaine!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 49,
+  "note": "Route17 : Dresseur ISAIAH (Cue Ball), après le combat ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "You heading to FUCHSIA?",
+  "msgstr": "Tu vas à Parmanie?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 53,
+  "note": "Route17 : Dresseur VIRGIL (Biker), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "I love racing downhill!",
+  "msgstr": "J’adore dévaler les pentes!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 59,
+  "note": "Route17 : Dresseur VIRGIL (Biker), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "Smoked!",
+  "msgstr": "Cramé!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 66,
+  "note": "Route17 : Dresseur BILLY (Biker), défaite. [non compilé]"
+ },
+ {
+  "msgid": "Are you looking for adventure?",
+  "msgstr": "Tu cherches l’aventure?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 69,
+  "note": "Route17 : Dresseur BILLY (Biker), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "Let VOLTORB electrify you!",
+  "msgstr": "Laisse VOLTORBE t’électriser!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 72,
+  "note": "Route17 : Dresseur NIKOLAS (Biker), avant le combat ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "Grounded out!",
+  "msgstr": "Court-circuité!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 75,
+  "note": "Route17 : Dresseur NIKOLAS (Biker), défaite. [non compilé]"
+ },
+ {
+  "msgid": "I got my VOLTORB at the abandoned\\nPOWER PLANT.",
+  "msgstr": "J’ai eu mon VOLTORBE à la Centrale\\nabandonnée.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 78,
+  "note": "Route17 : Dresseur NIKOLAS (Biker), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "I leveled up my POKéMON, but it\\nwon't evolve. Why?",
+  "msgstr": "J’ai fait monter mon Pokémon de\\nniveau, mais il n’évolue pas.\\lPourquoi?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 82,
+  "note": "Route17 : Dresseur ZEEK (Cue Ball), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "Why, you!",
+  "msgstr": "Espèce de…!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 86,
+  "note": "Route17 : Dresseur ZEEK (Cue Ball), défaite. [non compilé]"
+ },
+ {
+  "msgid": "Maybe some POKéMON need element\\nSTONES to evolve.",
+  "msgstr": "Il faut peut-être une pierre\\nd’évolution à certains Pokémon pour\\lévoluer.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 89,
+  "note": "Route17 : Dresseur ZEEK (Cue Ball), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "I need a little exercise!",
+  "msgstr": "J’ai besoin d’un peu d’exercice!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 93,
+  "note": "Route17 : Dresseur JAMAL (Cue Ball), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "Whew!\\nGood workout!",
+  "msgstr": "Ouf!\\nBonne séance!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 96,
+  "note": "Route17 : Dresseur JAMAL (Cue Ball), défaite. [non compilé]"
+ },
+ {
+  "msgid": "I'm sure I lost weight there!",
+  "msgstr": "Je suis sûr d’avoir perdu du poids!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 100,
+  "note": "Route17 : Dresseur JAMAL (Cue Ball), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "Aaaargh!",
+  "msgstr": "Aaaargh!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 106,
+  "note": "Route17 : Dresseur COREY (Cue Ball), défaite. [non compilé]"
+ },
+ {
+  "msgid": "Be ready to fight for your beliefs!",
+  "msgstr": "Bats-toi pour tes convictions!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 109,
+  "note": "Route17 : Dresseur COREY (Cue Ball), après le combat ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "Nice BIKE!\\nHow's it handle?",
+  "msgstr": "Joli Vélo!\\nIl se conduit comment?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 112,
+  "note": "Route17 : Dresseur JAXON (Biker), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "Shoot!",
+  "msgstr": "Zut!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 116,
+  "note": "Route17 : Dresseur JAXON (Biker), défaite. [non compilé]"
+ },
+ {
+  "msgid": "The slope makes it hard to steer.",
+  "msgstr": "Avec la pente, c’est dur de diriger.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 119,
+  "note": "Route17 : Dresseur JAXON (Biker), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "Are you satisfied?",
+  "msgstr": "T’es content?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 126,
+  "note": "Route17 : Dresseur WILLIAM (Biker), défaite. [non compilé]"
+ },
+ {
+  "msgid": "I need to catch a few z's!",
+  "msgstr": "Faut que je pique un petit roupillon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 129,
+  "note": "Route17 : Dresseur WILLIAM (Biker), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "It's a notice.\\pWatch out for discarded items.",
+  "msgstr": "C’est une affiche.\\pAttention aux objets abandonnés.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 132,
+  "note": "Route17 : ItemsNotice (WatchOutForDiscardedItems). [non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS\\pAll POKéMON are unique.\\pEven POKéMON of the same species\\nand level grow at different rates.",
+  "msgstr": "Conseils aux Dresseurs\\pTous les Pokémon sont uniques.\\pMême les Pokémon de la même espèce\\net du même niveau grandissent à des\\lrythmes différents.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 136,
+  "note": "Route17 : TrainerTips1 (SameSpeciesGrowDifferentRates) ; vouvoiement. [non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS\\pPress the B Button to stay in place\\nwhile on a slope.",
+  "msgstr": "Conseils aux Dresseurs\\pAppuyez sur le bouton B pour rester\\nsur place dans une pente.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 142,
+  "note": "Route17 : TrainerTips2 (PressBToStayInPlace) ; vouvoiement. [non compilé]"
+ },
+ {
+  "msgid": "ROUTE 17\\nCELADON CITY - FUCHSIA CITY",
+  "msgstr": "Route 17\\nCéladopole - Parmanie",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 147,
+  "preuve": "SS 340:0 « Route 9\\nAzuria - Grotte » (format des panneaux de route SS)",
+  "note": "Route17 : RouteSign (RouteSign). [non compilé]"
+ },
+ {
+  "msgid": "It's a notice!\\pDon't throw the game, throw POKé\\nBALLS instead!",
+  "msgstr": "C’est une affiche!\\pNe jetez pas l’éponge, jetez plutôt\\ndes Poké Balls!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 151,
+  "note": "Route17 : BallsNotice (DontThrowGameThrowBalls) ; vouvoiement ; Jeu de mots anglais (throw the game / throw POKé BALLS) adapté : « jeter l’éponge ».. [non compilé]"
+ },
+ {
+  "msgid": "CYCLING ROAD\\nSlope ends here!",
+  "msgstr": "Piste Cyclable\\nFin de la descente!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route17_Frlg/scripts.inc",
+  "ligne": 156,
+  "note": "Route17 : CyclingRoadSign (CyclingRoadSign). [non compilé]"
+ },
+ {
+  "msgid": "The SAFARI ZONE's huge, wouldn't\\nyou say?\\pFUCHSIA's GYM LEADER, KOGA, \\npatrols the grounds every so often.\\pThanks to him, we can play here\\nknowing that we're safe.",
+  "msgstr": "Il est immense, ce Parc Safari, tu ne\\ntrouves pas?\\pKoga, le Champion d’Arène de Parmanie,\\npatrouille dans le parc de temps en\\ltemps.\\pGrâce à lui, on peut s’amuser ici en\\ntoute sécurité.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SafariZone_West_RestHouse_Frlg/scripts.inc",
+  "ligne": 17,
+  "note": "SafariZone_West_RestHouse : SafariZone_West_Text_KogaPatrolsSafariEverySoOften (texte sans référence dans les scripts) ; tutoiement ; Reprise mot pour mot de la citation déjà traduite dans fame_checker_frlg.inc (lot D1), pour harmoniser Mémorydex et PNJ. Script non référencé (texte orphelin).. [non compilé]"
+ },
+ {
+  "msgid": "Tossing ROCKS at POKéMON might\\nmake them run, but they'll be\\leasier to catch.",
+  "msgstr": "Lancer des Cailloux aux Pokémon peut\\nles faire fuir, mais ils seront plus\\lfaciles à attraper.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SafariZone_West_RestHouse_Frlg/scripts.inc",
+  "ligne": 25,
+  "note": "SafariZone_West_RestHouse : Scientist (RocksMakeMonRunButEasierCatch). [non compilé]"
+ },
+ {
+  "msgid": "Using BAIT will make POKéMON more\\nlikely to stick around if they get\\lbusy eating.",
+  "msgstr": "Avec un Appât, les Pokémon auront\\ntendance à rester plus longtemps\\ls’ils sont occupés à manger.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SafariZone_West_RestHouse_Frlg/scripts.inc",
+  "ligne": 30,
+  "note": "SafariZone_West_RestHouse : Man (BaitMakesMonStickAround). [non compilé]"
+ },
+ {
+  "msgid": "I hiked a lot, but I didn't see any\\nPOKéMON I wanted.",
+  "msgstr": "J’ai beaucoup marché, mais je n’ai vu\\naucun des Pokémon que je voulais.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SafariZone_West_RestHouse_Frlg/scripts.inc",
+  "ligne": 35,
+  "note": "SafariZone_West_RestHouse : CooltrainerF (HikedLotsDidntSeeMonIWanted). [non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS\\pThe SECRET HOUSE is still ahead.",
+  "msgstr": "Conseils aux Dresseurs\\pLa Cabane Secrète est encore plus\\nloin.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SafariZone_North_Frlg/scripts.inc",
+  "ligne": 28,
+  "note": "SafariZone_North : TrainerTips1 (SecretHouseStillAhead) ; vouvoiement ; Panneau. Cabane Secrète : Poképédia / Pokébip.. [non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS\\pPOKéMON hide in tall grass.\\pZigzag through grassy areas to\\nflush them out.",
+  "msgstr": "Conseils aux Dresseurs\\pLes Pokémon se cachent dans les\\nhautes herbes.\\pZigzaguez dans les herbes pour les\\ndébusquer.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SafariZone_North_Frlg/scripts.inc",
+  "ligne": 35,
+  "note": "SafariZone_North : TrainerTips2 (ZigzagThroughTallGrass) ; vouvoiement. [non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS\\pWin a free HM for finding the\\nSECRET HOUSE.",
+  "msgstr": "Conseils aux Dresseurs\\pGagnez une CS gratuite en trouvant\\nla Cabane Secrète!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SafariZone_North_Frlg/scripts.inc",
+  "ligne": 41,
+  "note": "SafariZone_North : TrainerTips3 (WinFreeHMFindSecretHouse) ; vouvoiement ; Panneau. Cabane Secrète : Poképédia / Pokébip.. [non compilé]"
+ },
+ {
+  "msgid": "Sssh!\\nCan't you see I'm hiding?",
+  "msgstr": "Chut!\\nTu vois pas que je me cache?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_4F_Frlg/scripts.inc",
+  "ligne": 43,
+  "note": "SilphCo_4F : WorkerM (CantYouSeeImHiding). [non compilé]"
+ },
+ {
+  "msgid": "Huh?\\nTEAM ROCKET is gone?",
+  "msgstr": "Hein?\\nLa Team Rocket est partie?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_4F_Frlg/scripts.inc",
+  "ligne": 47,
+  "note": "SilphCo_4F : WorkerMRocketsGone (TeamRocketIsGone). [non compilé]"
+ },
+ {
+  "msgid": "TEAM ROCKET has taken control\\nof SILPH CO.!",
+  "msgstr": "La Team Rocket a pris le contrôle\\nde la Sylphe SARL!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_4F_Frlg/scripts.inc",
+  "ligne": 51,
+  "note": "SilphCo_4F : Dresseur GRUNT (Team Rocket), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "Fwahahaha!\\nMy BOSS has been after this place!",
+  "msgstr": "Fwahahaha!\\nMon Boss convoitait cet endroit!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_4F_Frlg/scripts.inc",
+  "ligne": 58,
+  "note": "SilphCo_4F : Dresseur GRUNT (Team Rocket), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "My POKéMON is my loyal servant.",
+  "msgstr": "Mon Pokémon est mon fidèle serviteur.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_4F_Frlg/scripts.inc",
+  "ligne": 62,
+  "note": "SilphCo_4F : Dresseur RODNEY (Scientist), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "Darn!\\nYou weak POKéMON!",
+  "msgstr": "Zut!\\nPokémon minable!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_4F_Frlg/scripts.inc",
+  "ligne": 65,
+  "note": "SilphCo_4F : Dresseur RODNEY (Scientist), défaite. [non compilé]"
+ },
+ {
+  "msgid": "The doors are electronically\\nlocked.\\pIt takes a CARD KEY to open the\\ndoors here.",
+  "msgstr": "Les portes sont verrouillées\\nélectroniquement.\\pIl faut une Carte Magnétique pour\\nouvrir les portes, ici.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_4F_Frlg/scripts.inc",
+  "ligne": 69,
+  "note": "SilphCo_4F : Dresseur RODNEY (Scientist), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "Intruder spotted!",
+  "msgstr": "Intrus repéré!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_4F_Frlg/scripts.inc",
+  "ligne": 75,
+  "note": "SilphCo_4F : Dresseur GRUNT (Team Rocket), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "I better tell the BOSS on 11F!",
+  "msgstr": "Je vais prévenir le Boss au 10e étage!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_4F_Frlg/scripts.inc",
+  "ligne": 81,
+  "note": "SilphCo_4F : Dresseur GRUNT (Team Rocket), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "SILPH CO. HEAD OFFICE\\n4F",
+  "msgstr": "Sylphe SARL - Siège social\\n3e étage",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_4F_Frlg/scripts.inc",
+  "ligne": 84,
+  "note": "SilphCo_4F : FloorSign (FloorSign). [non compilé]"
+ },
+ {
+  "msgid": "Oh! Hi! You're not a ROCKET!\\nYou came to save us?\\lWhy, thank you!\\pI want you to have this POKéMON\\nfor saving us.",
+  "msgstr": "Oh! Salut! Tu n’es pas de la Team\\nRocket! Tu es venu nous sauver?\\lEh bien, merci!\\pJe veux te donner ce Pokémon pour\\nnous avoir sauvés.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 236,
+  "note": "SilphCo_7F : LaprasGuy (HaveMonForSavingUs) ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} obtained a LAPRAS from\\nthe SILPH employee!",
+  "msgstr": "{PLAYER} obtient un LOKHLASS de\\nla part de l’employé de la Sylphe!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 243,
+  "note": "SilphCo_7F : ReceiveLaprasParty (ObtainedLaprasFromEmployee). [non compilé]"
+ },
+ {
+  "msgid": "It's a LAPRAS.\\nIt's a very intelligent POKéMON.\\pWe kept it in our lab, but it will\\nbe much better off with you.\\pI think you will be a good TRAINER\\nfor LAPRAS!\\pIt's a good swimmer.\\nIt'll give you a lift across water!",
+  "msgstr": "C’est un LOKHLASS.\\nC’est un Pokémon très intelligent.\\pOn le gardait dans notre labo, mais il\\nsera bien mieux avec toi.\\pJe pense que tu seras un bon\\nDresseur pour LOKHLASS!\\pIl nage très bien.\\nIl pourra te faire traverser l’eau!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 247,
+  "note": "SilphCo_7F : EndReceiveLapras (ExplainLapras) ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "TEAM ROCKET's BOSS went to the\\nboardroom!\\pIs our PRESIDENT okay?\\nI'm worried.",
+  "msgstr": "Le Boss de la Team Rocket est allé\\ndans la salle du conseil!\\pEst-ce que notre Président va bien?\\nJe m’inquiète.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 257,
+  "note": "SilphCo_7F : AlreadyGotLapras (RocketBossWentToBoardroom). [non compilé]"
+ },
+ {
+  "msgid": "TEAM ROCKET was after the MASTER\\nBALL, which catches any POKéMON.",
+  "msgstr": "La Team Rocket voulait la Master\\nBall, qui capture n’importe quel\\lPokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 263,
+  "note": "SilphCo_7F : WorkerM1 (RocketsAfterMasterBall). [non compilé]"
+ },
+ {
+  "msgid": "We canceled the MASTER BALL\\nproject because of TEAM ROCKET.",
+  "msgstr": "Nous avons annulé le projet Master\\nBall à cause de la Team Rocket.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 267,
+  "note": "SilphCo_7F : WorkerM1RocketsGone (CanceledMasterBallProject). [non compilé]"
+ },
+ {
+  "msgid": "It would be bad if TEAM ROCKET\\ntook over SILPH or our POKéMON.",
+  "msgstr": "Ce serait terrible si la Team Rocket\\nprenait le contrôle de la Sylphe ou de\\lnos Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 271,
+  "note": "SilphCo_7F : WorkerM2 (BadIfTeamRocketTookOver). [non compilé]"
+ },
+ {
+  "msgid": "Wow!\\pYou chased off TEAM ROCKET all by\\nyourself?",
+  "msgstr": "Waouh!\\pTu as chassé la Team Rocket tout\\nseul?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 275,
+  "note": "SilphCo_7F : WorkerM2RocketsGone (WowYouChasedOffTeamRocket). [non compilé]"
+ },
+ {
+  "msgid": "You!\\nIt's really dangerous here!\\pYou came to save me?\\nYou can't!",
+  "msgstr": "Toi!\\nC’est vraiment dangereux, ici!\\pTu es venu me sauver?\\nTu n’y arriveras pas!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 280,
+  "note": "SilphCo_7F : WorkerF (ReallyDangerousHere). [non compilé]"
+ },
+ {
+  "msgid": "Uh-oh!\\nI smell a little mouse!",
+  "msgstr": "Oh, oh!\\nJe sens une petite souris!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 289,
+  "note": "SilphCo_7F : Dresseur GRUNT (Team Rocket), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "Lights out!",
+  "msgstr": "Extinction des feux!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 293,
+  "note": "SilphCo_7F : Dresseur GRUNT (Team Rocket), défaite. [non compilé]"
+ },
+ {
+  "msgid": "You won't find my BOSS by just\\nscurrying around!",
+  "msgstr": "Tu ne trouveras pas mon Boss en\\ncourant dans tous les sens!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 296,
+  "note": "SilphCo_7F : Dresseur GRUNT (Team Rocket), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "Heheh!\\pYou mistook me for a SILPH worker?",
+  "msgstr": "Héhé!\\pTu m’as pris pour un employé de la\\nSylphe?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 300,
+  "note": "SilphCo_7F : Dresseur JOSHUA (Scientist), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "I'm done!",
+  "msgstr": "C’est fini pour moi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 304,
+  "note": "SilphCo_7F : Dresseur JOSHUA (Scientist), défaite. [non compilé]"
+ },
+ {
+  "msgid": "Despite your age, you are a\\nskilled TRAINER!",
+  "msgstr": "Malgré ton âge, tu es un Dresseur\\ndoué!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 307,
+  "note": "SilphCo_7F : Dresseur JOSHUA (Scientist), après le combat ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "I am one of the four ROCKET\\nBROTHERS!",
+  "msgstr": "Je suis l’un des quatre Frères\\nRocket!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_6F_Frlg/scripts.inc",
+  "ligne": 133,
+  "note": "SilphCo_6F : Dresseur GRUNT (Team Rocket), avant le combat ; ROCKET BROTHERS = Frères Rocket (traduction nouvelle).. [non compilé]"
+ },
+ {
+  "msgid": "Aack!\\nBrothers, I lost!",
+  "msgstr": "Aack!\\nMes frères, j’ai perdu!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 315,
+  "note": "SilphCo_7F : Dresseur GRUNT (Team Rocket), défaite. [non compilé]"
+ },
+ {
+  "msgid": "Doesn't matter.\\nMy brothers will repay the favor!",
+  "msgstr": "Peu importe.\\nMes frères te le feront payer!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 319,
+  "note": "SilphCo_7F : Dresseur GRUNT (Team Rocket), après le combat ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "A child intruder?\\nThat must be you!",
+  "msgstr": "Un enfant intrus?\\nÇa doit être toi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 323,
+  "note": "SilphCo_7F : Dresseur GRUNT (Team Rocket), avant le combat ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "Go on home before my BOSS gets\\nticked off!",
+  "msgstr": "Rentre chez toi avant que mon Boss\\nse fâche!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 331,
+  "note": "SilphCo_7F : Dresseur GRUNT (Team Rocket), après le combat ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: What kept you, {PLAYER}?",
+  "msgstr": "{RIVAL}: T’étais où, {PLAYER}?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 335,
+  "note": "SilphCo_7F : RivalScene (RivalWhatKeptYou). [non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Hahaha! I thought you'd\\nturn up if I waited here!\\pI guess TEAM ROCKET slowed you\\ndown! Not that I care!\\pI saw you in SAFFRON, so I decided\\nto see if you got better!",
+  "msgstr": "{RIVAL}: Hahaha! Je me doutais que\\ntu viendrais si je t’attendais ici!\\pLa Team Rocket a dû te ralentir!\\nRemarque, je m’en fiche!\\pJe t’ai vu à Safrania, alors j’ai\\ndécidé de voir si tu avais progressé!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 338,
+  "note": "SilphCo_7F : RivalScene (RivalIntro) ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "Oh, man!\\nSo, you are ready for BOSS\\lROCKET!",
+  "msgstr": "Oh, la vache!\\nAlors tu es prêt pour le Boss\\lRocket!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 346,
+  "note": "SilphCo_7F : Dresseur TERRY (Rival Late), défaite ; tutoiement ; BOSS ROCKET = Boss Rocket (glossaire).. [non compilé]"
+ },
+ {
+  "msgid": "Well, {PLAYER}!\\nI'm moving on up and ahead!\\pBy checking my POKéDEX, I'm\\nstarting to see what's strong and\\lhow they evolve!\\pAm I a genius or what?\\pI'm going to the POKéMON LEAGUE to\\nboot out the ELITE FOUR.\\pI'll become the world's most\\npowerful TRAINER!\\p{PLAYER}, well, good luck to you!\\nDon't sweat it!\\lSmell ya!",
+  "msgstr": "Bon, {PLAYER}!\\nMoi, je continue d’avancer!\\pEn consultant mon Pokédex, je\\ncommence à voir ce qui est fort et\\lcomment ça évolue!\\pJe suis un génie ou quoi?\\pJe vais à la Ligue Pokémon pour\\nécraser le Conseil 4.\\pJe vais devenir le Dresseur le plus\\npuissant du monde!\\p{PLAYER}, bonne chance à toi!\\nT’en fais pas!\\lÀ plus!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 351,
+  "note": "SilphCo_7F : RivalScene (RivalPostBattle) ; tutoiement ; « Smell ya! » = « À plus! ».. [non compilé]"
+ },
+ {
+  "msgid": "SILPH CO. HEAD OFFICE\\n7F",
+  "msgstr": "Sylphe SARL - Siège social\\n6e étage",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_7F_Frlg/scripts.inc",
+  "ligne": 366,
+  "note": "SilphCo_7F : FloorSign (FloorSign). [non compilé]"
+ },
+ {
+  "msgid": "I wonder if you are good enough\\nfor me?",
+  "msgstr": "Je me demande si tu es assez fort\\npour moi?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VictoryRoad_1F_Frlg/scripts.inc",
+  "ligne": 47,
+  "note": "VictoryRoad_1F : Dresseur NAOMI (Cooltrainer), avant le combat ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "I lost out…",
+  "msgstr": "J’ai perdu…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VictoryRoad_1F_Frlg/scripts.inc",
+  "ligne": 51,
+  "note": "VictoryRoad_1F : Dresseur NAOMI (Cooltrainer), défaite. [non compilé]"
+ },
+ {
+  "msgid": "I never wanted to lose to anybody,\\nespecially to a younger kid…",
+  "msgstr": "Je n’ai jamais voulu perdre contre qui\\nque ce soit, surtout pas contre plus\\ljeune que moi…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VictoryRoad_1F_Frlg/scripts.inc",
+  "ligne": 54,
+  "note": "VictoryRoad_1F : Dresseur NAOMI (Cooltrainer), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "I can see you're good.\\nLet me see exactly how good!",
+  "msgstr": "Je vois que tu es fort.\\nVoyons exactement à quel point!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VictoryRoad_1F_Frlg/scripts.inc",
+  "ligne": 58,
+  "note": "VictoryRoad_1F : Dresseur ROLANDO (Cooltrainer), avant le combat ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "I had a chance…",
+  "msgstr": "J’avais une chance…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VictoryRoad_1F_Frlg/scripts.inc",
+  "ligne": 62,
+  "note": "VictoryRoad_1F : Dresseur ROLANDO (Cooltrainer), défaite. [non compilé]"
+ },
+ {
+  "msgid": "Tch!\\nI concede, you are better than I!",
+  "msgstr": "Tss!\\nJe l’admets, tu es meilleur que moi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VictoryRoad_1F_Frlg/scripts.inc",
+  "ligne": 65,
+  "note": "VictoryRoad_1F : Dresseur ROLANDO (Cooltrainer), après le combat ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "Don't you dare laugh!",
+  "msgstr": "T’as intérêt à pas rigoler!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 80,
+  "note": "Route16 : Dresseur LAO (Biker), défaite. [non compilé]"
+ },
+ {
+  "msgid": "We like just hanging here.\\nWhat's it to you?",
+  "msgstr": "On aime traîner ici.\\nÇa te pose un problème?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 83,
+  "note": "Route16 : Dresseur LAO (Biker), après le combat ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "Nice BIKE!\\nHand it over!",
+  "msgstr": "Joli Vélo!\\nDonne-le-moi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 87,
+  "note": "Route16 : Dresseur KOJI (Cue Ball), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "Knockout!",
+  "msgstr": "K.O.!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 91,
+  "note": "Route16 : Dresseur KOJI (Cue Ball), défaite. [non compilé]"
+ },
+ {
+  "msgid": "Forget it, who needs your BIKE!",
+  "msgstr": "Laisse tomber, ton Vélo, je m’en fiche!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 94,
+  "note": "Route16 : Dresseur KOJI (Cue Ball), après le combat ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "Come out and play, little mouse!",
+  "msgstr": "Viens jouer, petite souris!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 97,
+  "note": "Route16 : Dresseur LUKE (Cue Ball), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "You little rat!",
+  "msgstr": "Sale petit rat!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 100,
+  "note": "Route16 : Dresseur LUKE (Cue Ball), défaite. [non compilé]"
+ },
+ {
+  "msgid": "I hate losing!\\nGet out of my face!",
+  "msgstr": "J’ai horreur de perdre!\\nDégage de ma vue!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 103,
+  "note": "Route16 : Dresseur LUKE (Cue Ball), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "Hey, you just bumped me!",
+  "msgstr": "Hé, tu viens de me bousculer!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 107,
+  "note": "Route16 : Dresseur HIDEO (Biker), avant le combat ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "We'll always be hanging around here\\neven if you don't like it.\\pYou can detour to VERMILION from\\nFUCHSIA going along the coast.",
+  "msgstr": "On traînera toujours ici, même si ça\\nte plaît pas.\\pTu peux rejoindre Carmin sur Mer\\ndepuis Parmanie en longeant la côte.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 113,
+  "note": "Route16 : Dresseur HIDEO (Biker), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "I'm feeling hungry and mean!\\nI need a punching bag!",
+  "msgstr": "J’ai faim et je suis de mauvais poil!\\nIl me faut quelqu’un sur qui me\\ldéfouler!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 119,
+  "note": "Route16 : Dresseur CAMRON (Cue Ball), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "Bad, bad, bad!",
+  "msgstr": "Nul, nul, nul!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 123,
+  "note": "Route16 : Dresseur CAMRON (Cue Ball), défaite. [non compilé]"
+ },
+ {
+  "msgid": "If I'm going to have POKéMON, they\\nmay as well be ferocious.\\pI'd use them to leave my enemies\\nin tatters.",
+  "msgstr": "Quitte à avoir des Pokémon, autant\\nqu’ils soient féroces.\\pJe m’en servirais pour réduire mes\\nennemis en charpie.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 126,
+  "note": "Route16 : Dresseur CAMRON (Cue Ball), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "Hey, there!\\nLet's have ourselves a good time!",
+  "msgstr": "Salut!\\nOn va bien s’amuser!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 132,
+  "note": "Route16 : Dresseur RUBEN (Biker), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "Don't make me mad!",
+  "msgstr": "Me mets pas en rogne!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 136,
+  "note": "Route16 : Dresseur RUBEN (Biker), défaite. [non compilé]"
+ },
+ {
+  "msgid": "I get my kicks by harassing people\\nwith my stinking POKéMON.\\pThey're great for startling people.\\nAnd, they bite, too.",
+  "msgstr": "Je m’éclate à embêter les gens avec\\nmes Pokémon qui puent.\\pIls sont parfaits pour faire peur aux\\ngens. Et en plus, ils mordent.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 139,
+  "note": "Route16 : Dresseur RUBEN (Biker), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "Enjoy the slope!\\nCYCLING ROAD",
+  "msgstr": "Une descente d’enfer!\\nPiste Cyclable",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 149,
+  "preuve": "SS 354:0 « Piste Cyclable\\nUne descente d’enfer! » (lignes inversées comme l’anglais)",
+  "note": "Route16 : CyclingRoadSign (CyclingRoadSign). [non compilé]"
+ },
+ {
+  "msgid": "ROUTE 16\\nCELADON CITY - FUCHSIA CITY",
+  "msgstr": "Route 16\\nCéladopole - Parmanie",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 153,
+  "preuve": "SS 340:0 « Route 9\\nAzuria - Grotte » (format des panneaux de route SS)",
+  "note": "Route16 : RouteSign (RouteSign). [non compilé]"
+ },
+ {
+  "msgid": "JED: Our love knows no bounds.\\nWe're in love and we show it!",
+  "msgstr": "Jed: Notre amour ne connaît pas de\\nlimites. On s’aime et on le montre!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 157,
+  "note": "Route16 : Dresseur LEA & JED (Young Couple), avant le combat. [non compilé]"
+ },
+ {
+  "msgid": "JED: Oh, no!\\nMy love has seen me as a loser!",
+  "msgstr": "Jed: Oh, non!\\nMon amour m’a vu perdre!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 161,
+  "note": "Route16 : Dresseur LEA & JED (Young Couple), défaite. [non compilé]"
+ },
+ {
+  "msgid": "JED: Listen, LEA.\\nYou need to focus less on me.",
+  "msgstr": "Jed: Écoute, Lea. Tu devrais moins te\\nconcentrer sur moi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 165,
+  "note": "Route16 : Dresseur LEA & JED (Young Couple), après le combat ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "JED: You have just one POKéMON?\\nIs there no love in your heart?",
+  "msgstr": "Jed: Tu n’as qu’un seul Pokémon?\\nN’y a-t-il pas d’amour dans ton cœur?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 169,
+  "note": "Route16 : Dresseur LEA & JED (Young Couple), si le joueur a moins de deux Pokémon ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "LEA: Ohh! But JED looks cool\\neven in a loss!",
+  "msgstr": "Lea: Ohh! Mais Jed reste cool,\\nmême quand il perd!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 177,
+  "note": "Route16 : Dresseur LEA & JED (Young Couple), défaite. [non compilé]"
+ },
+ {
+  "msgid": "LEA: Ehehe, I'm sorry.\\nJED is so cool.",
+  "msgstr": "Lea: Hihi, désolée.\\nJed est trop cool.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 181,
+  "note": "Route16 : Dresseur LEA & JED (Young Couple), après le combat. [non compilé]"
+ },
+ {
+  "msgid": "LEA: Oh, you don't have two\\nPOKéMON with you?\\pDoesn't it feel lonely for you or\\nyour POKéMON?",
+  "msgstr": "Lea: Oh, tu n’as pas deux Pokémon\\navec toi?\\pTu ne te sens pas seul? Et tes\\nPokémon, ils ne se sentent pas seuls?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route16_Frlg/scripts.inc",
+  "ligne": 185,
+  "note": "Route16 : Dresseur LEA & JED (Young Couple), si le joueur a moins de deux Pokémon ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "Are you the kid who's working on\\na POKéDEX?\\pPROF. OAK's AIDE came by here.",
+  "msgstr": "C’est toi, le gamin qui remplit un\\nPokédex?\\pUn assistant du Prof. Chen est passé\\npar ici.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route15_WestEntrance_1F_Frlg/scripts.inc",
+  "ligne": 9,
+  "note": "Route15_WestEntrance_1F : Guard (OaksAideCameByHere) ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "Huh?\\nYou…",
+  "msgstr": "Hein?\\nToi…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 387,
+  "note": "SaffronCity_PokemonTrainerFanClub : MeetFirstFans (HuhYou). [non compilé]"
+ },
+ {
+  "msgid": "Are you maybe…\\n… …\\pYou are!\\nYou are {PLAYER}!\\pWe were just talking about you!\\pWe were talking about how an\\nincredibly good TRAINER appeared.\\pAnd that someone is you!\\nYou're so cool!\\pSo, we decided that we'll become\\nyour FAN CLUB!\\pWe all hope you'll keep battling\\nand show us how cool you are.\\pThat way, maybe other people will\\nbecome fans just like me.",
+  "msgstr": "Tu serais pas…\\n… …\\pC’est toi!\\nTu es {PLAYER}!\\pOn parlait justement de toi!\\pOn disait qu’un Dresseur\\nincroyablement doué était apparu.\\pEt c’est toi!\\nTu es trop cool!\\pAlors, on a décidé de devenir ton\\nFan Club!\\pOn espère tous que tu continueras à\\nte battre pour nous montrer à quel\\lpoint tu es cool.\\pComme ça, d’autres gens deviendront\\npeut-être fans, comme moi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 391,
+  "note": "SaffronCity_PokemonTrainerFanClub : MeetFirstFans (YourePlayerWereYourFansNow) ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "I'll always be cheering for you!\\pGo, {PLAYER}, go!",
+  "msgstr": "Je t’encouragerai toujours!\\pAllez, {PLAYER}, allez!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 408,
+  "note": "SaffronCity_PokemonTrainerFanClub : BattleGirlPlayersFan (AlwaysCheerForYou) ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "I'll always believe in you,\\n{PLAYER}.\\pPlease show the others what you're\\nlike when you battle seriously.",
+  "msgstr": "Je croirai toujours en toi,\\n{PLAYER}.\\pMontre aux autres comment tu te\\nbats quand tu es sérieux.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 412,
+  "note": "SaffronCity_PokemonTrainerFanClub : BattleGirlOnlyFan (IllAlwaysBelieveInYou) ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "I'm sorry.\\nI was your fan before.\\pBut now, you seem to have lost\\nthe drive you had before.\\pLately, I think {STR_VAR_1} has been\\na lot cooler.",
+  "msgstr": "Je suis désolée.\\nAvant, j’étais ta fan.\\pMais maintenant, tu sembles avoir\\nperdu la motivation que tu avais.\\pCes derniers temps, je trouve\\n{STR_VAR_1} bien plus cool.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 418,
+  "note": "SaffronCity_PokemonTrainerFanClub : BattleGirl (WasYourFanNotAnymore) ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "Oh!\\n{PLAYER}!\\pEveryone's been all excited about\\nyou recently.\\pI can understand why.\\nI know that you're strong.\\pBut, do you know what?\\pOnce I became {STR_VAR_1}'s fan,\\nI can't just stop being a fan.",
+  "msgstr": "Oh!\\n{PLAYER}!\\pTout le monde ne parle que de toi,\\nces derniers temps.\\pJe comprends pourquoi.\\nJe sais que tu es fort.\\pMais tu sais quoi?\\pUne fois devenue fan de\\n{STR_VAR_1}, je ne peux pas cesser\\ld’être fan comme ça.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 426,
+  "note": "SaffronCity_PokemonTrainerFanClub : BattleGirlOnlyNonFan (EveryonesYourFanButICantBe) ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "I think TRAINERS are so cool when\\nthey're battling.\\pDon't you think so, too?",
+  "msgstr": "Je trouve les Dresseurs tellement\\ncool quand ils se battent.\\pTu ne trouves pas?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 437,
+  "note": "SaffronCity_PokemonTrainerFanClub : BattleGirlPlayerNotChampion (TrainersCoolWhenBattling). [non compilé]"
+ },
+ {
+  "msgid": "Oh! It's {PLAYER}!\\nToo cool!\\pOh!\\nOh, yeah!\\pCan you autograph something?\\nHow about my shorts?",
+  "msgstr": "Oh! C’est {PLAYER}!\\nTrop cool!\\pOh!\\nOh, ouais!\\pTu peux me signer un autographe?\\nSur mon short, par exemple?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 442,
+  "note": "SaffronCity_PokemonTrainerFanClub : YoungsterPlayersFan (CanYouAutographShorts). [non compilé]"
+ },
+ {
+  "msgid": "However hot it's been…\\pAnd however cold it may get…\\pI've always believed in, and worn,\\nshorts!\\pI'm counting on you to keep\\nwinning!\\pI believe in you just as much as\\nI believe in shorts!",
+  "msgstr": "Qu’il fasse chaud…\\pOu qu’il fasse froid…\\pJ’ai toujours cru au short, et j’en ai\\ntoujours porté!\\pJe compte sur toi pour continuer à\\ngagner!\\pJe crois en toi autant que je crois\\nau short!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 450,
+  "note": "SaffronCity_PokemonTrainerFanClub : YoungsterOnlyFan (CountingOnYou) ; tutoiement. [non compilé]"
+ },
+ {
+  "msgid": "BROCK's my hero!\\nHe's a man among men!\\pHeheh, I got my mom to do\\nsomething for me.\\pI got her to embroider “BROCK”\\non my shorts!",
+  "msgstr": "Pierre, c’est mon héros!\\nC’est un homme, un vrai!\\pHéhé, j’ai demandé un truc à ma\\nmaman.\\pJe lui ai fait broder “Pierre” sur\\nmon short!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 460,
+  "note": "SaffronCity_PokemonTrainerFanClub : Youngster (BrocksMyHero). [non compilé]"
+ },
+ {
+  "msgid": "…  …\\p…  …\\nI'm BROCK's fan!\\pEven if I were his only fan,\\nI swear it on my rock-hard will,\\land on my shorts!\\pI'll be his fan to the bitter end!",
+  "msgstr": "…  …\\p…  …\\nJe suis fan de Pierre!\\pMême si j’étais son seul fan, je le\\njure sur ma volonté dure comme la\\lroche et sur mon short!\\pJe serai son fan jusqu’au bout!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 468,
+  "note": "SaffronCity_PokemonTrainerFanClub : YoungsterOnlyNonFan (BrocksFanToBitterEnd). [non compilé]"
+ },
+ {
+  "msgid": "BROCK's the last word on cool,\\nend of story!\\pNow there's a guy who I want to\\nbe like!",
+  "msgstr": "Pierre, c’est le summum du cool,\\npoint final!\\pVoilà un gars à qui je veux\\nressembler!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_PokemonTrainerFanClub_Frlg/scripts.inc",
+  "ligne": 477,
+  "note": "SaffronCity_PokemonTrainerFanClub : YoungsterPlayerNotChampion (BrocksLastWordOnCool). [non compilé]"
+ }
+]

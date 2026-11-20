@@ -1,0 +1,1127 @@
+[
+ {
+  "msgid": "Wow!\\nSurprised me!",
+  "msgstr": "Waouh! Tu m’as surpris!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 361,
+  "note": "Marin Dwayne. [VermilionCity_Gym_EventScript_Dwayne (TRAINER_SAILOR_DWAYNE) ; non compilé]"
+ },
+ {
+  "msgid": "LT. SURGE installed the traps in\\nthe GYM himself.\\pHe set up double locks everywhere.\\nLet me give you a hint.\\pWhen you open the first lock, the\\nsecond lock is right next to it.",
+  "msgstr": "Le Major Bob a installé lui-même les\\npièges de l’Arène.\\pIl a mis des doubles serrures partout.\\nJe vais te donner un indice.\\pQuand tu ouvres la première serrure,\\nla seconde est juste à côté.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 365,
+  "note": "[VermilionCity_Gym_EventScript_Dwayne ; non compilé]"
+ },
+ {
+  "msgid": "Yo!\\nChamp in the making!\\pLT. SURGE has a nickname.\\pPeople refer to him as the\\nLightning American!\\pHe's an expert on electric\\nPOKéMON.\\pBIRD/WATER-type POKéMON match\\npoorly against the ELECTRIC type.\\pBeware of paralysis, too.\\pLT. SURGE is very cautious.\\pHe's locked himself in, so it won't\\nbe easy getting to him.",
+  "msgstr": "Yo! Futur Maître!\\pLe Major Bob a un surnom.\\pOn l’appelle l’Éclair Américain!\\pC’est un expert des Pokémon\\nélectriques.\\pLes Pokémon Vol et Eau ne font pas le\\npoids face au type Électrik.\\pMéfie-toi aussi de la paralysie.\\pLe Major Bob est très prudent.\\pIl s’est barricadé, alors ce ne sera\\npas facile de l’atteindre.",
+  "source": "patch FR actuel (vérifié)",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 373,
+  "preuve": "Yo!\\nFutur Maître!\\pLe MAJOR BOB a un surnom.\\pOn l’appelle l’Éclair Américain!\\pC’est un expert des Pokémon\\nélectriques.\\pLes Pokémon Vol et Eau ne font pas\\nle poids face au type Électrik.\\pMéfie-toi aussi de la paralysie.\\pLe MAJOR BOB est très prudent.\\pIl s’est barricadé, alors ce ne\\nsera pas facile de l’atteindre.",
+  "note": "Guide de l’Arène. Repris de VermilionCity_Gym_hns (patch FR, sens vérifié), « MAJOR BOB » → « Major Bob ». [VermilionCity_Gym_EventScript_GymGuy ; non compilé]"
+ },
+ {
+  "msgid": "Whew!\\nThat match was electric!",
+  "msgstr": "Ouf! Ce combat était électrique!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 388,
+  "note": "Guide de l’Arène. [VermilionCity_Gym_EventScript_GymGuyPostVictory ; non compilé]"
+ },
+ {
+  "msgid": "VERMILION POKéMON GYM\\nLEADER: LT. SURGE\\pWINNING TRAINERS:\\n{RIVAL}",
+  "msgstr": "Arène Pokémon de Carmin sur Mer\\nChampion: Major Bob\\pVainqueurs:\\n{RIVAL}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 392,
+  "note": "Statue. [VermilionCity_Gym_EventScript_GymStatue ; non compilé]"
+ },
+ {
+  "msgid": "VERMILION POKéMON GYM\\nLEADER: LT. SURGE\\pWINNING TRAINERS:\\n{RIVAL}, {PLAYER}",
+  "msgstr": "Arène Pokémon de Carmin sur Mer\\nChampion: Major Bob\\pVainqueurs:\\n{RIVAL}, {PLAYER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 398,
+  "note": "Statue. [VermilionCity_Gym_EventScript_GymStatuePostVictory ; non compilé]"
+ },
+ {
+  "msgid": "I'm the FISHING GURU!\\pI simply looove fishing!\\nI can't bear to go without.\\pTell me, do you like to fish?",
+  "msgstr": "Je suis le Maître Pêcheur!\\pJ’adooore la pêche! Je ne peux pas\\nm’en passer.\\pDis-moi, tu aimes pêcher?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_House1_Frlg/scripts.inc",
+  "ligne": 36,
+  "note": "Maître Pêcheur (FISHING GURU, nom FRLG FR non vérifié). [VermilionCity_House1_EventScript_FishingGuru ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received an OLD ROD from\\nthe FISHING GURU.",
+  "msgstr": "{PLAYER} reçoit une Canne\\ndu Maître Pêcheur!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_House1_Frlg/scripts.inc",
+  "ligne": 47,
+  "note": "OLD ROD = Canne (SoulSilver FR). [VermilionCity_House1_EventScript_GiveOldRod ; non compilé]"
+ },
+ {
+  "msgid": "Fishing is a way of life!\\nIt is like the finest poetry.\\pFrom the seas to rivers, go out\\nand land the big one, my friend.",
+  "msgstr": "La pêche, c’est un art de vivre! C’est\\ncomme la plus belle des poésies.\\pDes mers aux rivières, va attraper le\\ngros poisson, mon ami.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_House1_Frlg/scripts.inc",
+  "ligne": 51,
+  "note": "[VermilionCity_House1_EventScript_GiveOldRod ; non compilé]"
+ },
+ {
+  "msgid": "Oh, no!\\pI had a nice gift for you, but you\\nhave no room for it!",
+  "msgstr": "Oh, non!\\pJ’avais un joli cadeau pour toi, mais\\ntu n’as pas de place!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_House1_Frlg/scripts.inc",
+  "ligne": 65,
+  "note": "[VermilionCity_House1_EventScript_NoRoomForOldRod ; non compilé]"
+ },
+ {
+  "msgid": "Hi!\\nDo you have a {STR_VAR_1}?\\pWant to trade it for my\\n{STR_VAR_2}?",
+  "msgstr": "Salut! Tu as un {STR_VAR_1}?\\pTu veux l’échanger contre mon\\n{STR_VAR_2}?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_House2_Frlg/scripts.inc",
+  "ligne": 39,
+  "note": "Échange en jeu. Proche de BlackthornCity_House2_hns (patch FR). [VermilionCity_House2_EventScript_Elyssa ; non compilé]"
+ },
+ {
+  "msgid": "…This is no {STR_VAR_1}.\\pIf you get one, please trade it\\nto me!",
+  "msgstr": "… Ce n’est pas un {STR_VAR_1}.\\pSi tu en trouves un, échange-le-moi,\\ns’il te plaît!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_House2_Frlg/scripts.inc",
+  "ligne": 48,
+  "note": "Aligné sur ingame_trade_frlg.inc (lot D1). [VermilionCity_House2_EventScript_NotRequestedMon ; non compilé]"
+ },
+ {
+  "msgid": "How is my old {STR_VAR_2}?\\pMy {STR_VAR_1} is doing great!",
+  "msgstr": "Comment va mon ancien {STR_VAR_2}?\\pMon {STR_VAR_1} va très bien!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_House2_Frlg/scripts.inc",
+  "ligne": 56,
+  "note": "Aligné sur ingame_trade_frlg.inc (lot D1). [VermilionCity_House2_EventScript_AlreadyTraded ; non compilé]"
+ },
+ {
+  "msgid": "I'm getting my PIDGEY to fly a\\nletter to SAFFRON in the north.",
+  "msgstr": "Mon ROUCOOL va porter une lettre à\\nSafrania, au nord.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_House3_Frlg/scripts.inc",
+  "ligne": 27,
+  "note": "Petite fille. [VermilionCity_House3_EventScript_Boy ; non compilé]"
+ },
+ {
+  "msgid": "Dear PIPPI,\\nI hope to see you soon.\\pI heard SAFFRON has problems with\\nTEAM ROCKET.\\pVERMILION appears to be safe.",
+  "msgstr": "Cher Pippi,\\nJ’espère te voir bientôt.\\pIl paraît que Safrania a des\\nproblèmes avec la Team Rocket.\\pCarmin sur Mer a l’air tranquille.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_House3_Frlg/scripts.inc",
+  "ligne": 34,
+  "note": "Lettre. PIPPI = nom gardé. [VermilionCity_House3_EventScript_Letter ; non compilé]"
+ },
+ {
+  "msgid": "I want to exchange MAIL with all\\nsorts of people.\\pI send my PIDGEY to a UNION ROOM\\nto exchange MAIL for me.",
+  "msgstr": "Je veux échanger des Lettres avec\\ntoutes sortes de gens.\\pMon ROUCOOL va en Salle Union\\néchanger des Lettres pour moi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_House3_Frlg/scripts.inc",
+  "ligne": 41,
+  "note": "MAIL = Lettre ; UNION ROOM = Salle Union. [VermilionCity_House3_EventScript_Lass ; non compilé]"
+ },
+ {
+  "msgid": "There are wicked people who will\\nuse POKéMON for criminal acts.\\pTEAM ROCKET traffics in rare\\nPOKéMON, for example.\\pThey also abandon POKéMON that\\nthey consider unpopular or useless.\\pThat's the sort of horrid people\\nthey are, TEAM ROCKET.",
+  "msgstr": "Certains méchants se servent des\\nPokémon pour commettre des crimes.\\pPar exemple, la Team Rocket fait du\\ntrafic de Pokémon rares.\\pElle abandonne aussi les Pokémon\\nqu’elle juge impopulaires ou inutiles.\\pVoilà le genre de gens horribles qu’ils\\nsont, à la Team Rocket.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Mart_Frlg/scripts.inc",
+  "ligne": 36,
+  "note": "Client de la Boutique. [VermilionCity_Mart_EventScript_BaldingMan ; non compilé]"
+ },
+ {
+  "msgid": "I think POKéMON can be good or\\nbad. It depends on the TRAINER.",
+  "msgstr": "Je crois que les Pokémon peuvent être\\nbons ou mauvais.\\pÇa dépend du Dresseur.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Mart_Frlg/scripts.inc",
+  "ligne": 46,
+  "note": "[VermilionCity_Mart_EventScript_CooltrainerF ; non compilé]"
+ },
+ {
+  "msgid": "Even if they are the same level,\\nPOKéMON can have very different\\lstats and abilities.\\pA POKéMON raised by a TRAINER is\\nstronger than one in the wild.",
+  "msgstr": "À niveau égal, des Pokémon peuvent\\navoir des stats très différentes.\\pUn Pokémon élevé par un Dresseur est\\nplus fort qu’un Pokémon sauvage.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 47,
+  "note": "[VermilionCity_PokemonCenter_1F_EventScript_Hiker ; non compilé]"
+ },
+ {
+  "msgid": "My POKéMON was poisoned!\\nIt fainted while we were walking!",
+  "msgstr": "Mon Pokémon a été empoisonné! Il est\\ntombé K.O. pendant qu’on marchait!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 54,
+  "note": "[VermilionCity_PokemonCenter_1F_EventScript_Man ; non compilé]"
+ },
+ {
+  "msgid": "It is true that a higher-level\\nPOKéMON will be more powerful…\\pBut, all POKéMON will have weak\\npoints against specific types.\\pSo, there appears to be no\\nuniversally strong POKéMON.",
+  "msgstr": "C’est vrai qu’un Pokémon de plus haut\\nniveau est plus puissant…\\pMais tous les Pokémon ont des\\nfaiblesses face à certains types.\\pIl semble donc qu’il n’existe aucun\\nPokémon fort contre tout.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 58,
+  "note": "[VermilionCity_PokemonCenter_1F_EventScript_Youngster ; non compilé]"
+ },
+ {
+  "msgid": "The urge to battle with someone\\nyou've tangled with before…\\pHave you ever had that urge?\\nI'm sure you have.\\pI wanted to battle certain people\\nagain over and over, too.\\pSo, I've been giving these away.\\nPlease, take one!",
+  "msgstr": "L’envie de se mesurer à nouveau à\\nquelqu’un qu’on a déjà affronté…\\pTu as déjà ressenti ça? J’en suis\\nsûre.\\pMoi aussi, je voulais affronter\\ncertains Dresseurs encore et encore.\\pAlors j’offre ces appareils. Tiens,\\nprends-en un!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 66,
+  "note": "Femme qui offre le Cherche VS. [VermilionCity_PokemonCenter_1F_EventScript_VSSeekerWoman ; non compilé]"
+ },
+ {
+  "msgid": "Use that device and you'll find\\nTRAINERS looking for a rematch.\\pYou have to charge its battery to\\nuse it, though.",
+  "msgstr": "Avec cet appareil, tu trouveras les\\nDresseurs qui veulent une revanche.\\pMais il faut recharger sa batterie\\npour pouvoir l’utiliser.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 76,
+  "note": "[VermilionCity_PokemonCenter_1F_EventScript_VSSeekerWoman ; non compilé]"
+ },
+ {
+  "msgid": "How do you use the VS SEEKER?\\nThere's nothing to it.\\pUse it like beep-beep-beep, and\\nTRAINERS around you will notice.\\pIf any TRAINER wants a rematch,\\nit will let you know immediately.\\pCharge its battery and use it\\nwhile you're on a road.",
+  "msgstr": "Comment utiliser le Cherche VS? C’est\\ntout simple.\\pFais bip-bip-bip, et les Dresseurs\\nautour de toi le remarqueront.\\pSi un Dresseur veut une revanche, il\\nte le fera savoir aussitôt.\\pRecharge sa batterie et utilise-le\\nquand tu es sur une route.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 82,
+  "note": "VS SEEKER = Cherche VS (glossaire). [VermilionCity_PokemonCenter_1F_EventScript_ExplainVSSeeker ; non compilé]"
+ },
+ {
+  "msgid": "Won't you admire my PIKACHU's\\nadorable tail?",
+  "msgstr": "Tu ne veux pas admirer la queue\\nadorable de mon PIKACHU?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonFanClub_Frlg/scripts.inc",
+  "ligne": 122,
+  "note": "Membre du Fan Club Pokémon. [VermilionCity_PokemonFanClub_EventScript_FatMan ; non compilé]"
+ },
+ {
+  "msgid": "Humph!\\pMy PIKACHU is twice as cute as\\nthat one!",
+  "msgstr": "Hmph!\\pMon PIKACHU est deux fois plus mignon\\nque celui-là!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonFanClub_Frlg/scripts.inc",
+  "ligne": 126,
+  "note": "[VermilionCity_PokemonFanClub_EventScript_FatManSpokeToWoman ; non compilé]"
+ },
+ {
+  "msgid": "I just adore my SEEL!\\nIt's so lovable!\\pIt squeals, “Kyuuuh,” when I\\nhug it!",
+  "msgstr": "J’adore mon OTARIA! Il est si\\nattachant!\\pIl fait “Kyuuuh” quand je le serre\\ndans mes bras!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonFanClub_Frlg/scripts.inc",
+  "ligne": 131,
+  "note": "[VermilionCity_PokemonFanClub_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "Oh, dear!\\pMy SEEL is far more attractive.\\nBy double, I would say.",
+  "msgstr": "Oh, voyons!\\pMon OTARIA est bien plus séduisant.\\nDeux fois plus, je dirais.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonFanClub_Frlg/scripts.inc",
+  "ligne": 137,
+  "note": "[VermilionCity_PokemonFanClub_EventScript_WomanSpokeToFatMan ; non compilé]"
+ },
+ {
+  "msgid": "PIKACHU: Chu! Pikachu!",
+  "msgstr": "PIKACHU: Chu! Pikachu!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonFanClub_Frlg/scripts.inc",
+  "ligne": 142,
+  "note": "[VermilionCity_PokemonFanClub_EventScript_FatManSpokeToWoman ; non compilé]"
+ },
+ {
+  "msgid": "SEEL: Kyuoo!",
+  "msgstr": "OTARIA: Kyuoo!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonFanClub_Frlg/scripts.inc",
+  "ligne": 145,
+  "note": "[VermilionCity_PokemonFanClub_EventScript_WomanSpokeToFatMan ; non compilé]"
+ },
+ {
+  "msgid": "I chair the POKéMON Fan Club!\\pI raise more than a hundred\\nPOKéMON!\\pI'm very fussy when it comes to\\nPOKéMON! I surely am!\\pSo…\\pDid you come visit to hear about\\nmy POKéMON?",
+  "msgstr": "Je suis le Président du Fan Club\\nPokémon!\\pJ’élève plus d’une centaine de\\nPokémon!\\pJe suis très difficile dès qu’il s’agit\\nde Pokémon! Oh que oui!\\pAlors…\\pTu es venu écouter mes histoires de\\nPokémon?",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/VermilionCity_PokemonFanClub_Frlg/scripts.inc",
+  "ligne": 148,
+  "preuve": "Je suis le Président\\ndu Fan Club Pokémon!\\pJ’ai élevé plus de 150 Pokémon!\\nJe suis très difficile\\ldès qu’il s’agit de Pokémon!\\pTu es ici pour profiter de mon\\nimmense expérience en Pokémon?",
+  "note": "Président du Fan Club. Proche de SoulSilver FR (VermilionCity_FanClub_hns). [VermilionCity_PokemonFanClub_EventScript_Chairman ; non compilé]"
+ },
+ {
+  "msgid": "Good!\\nThen listen up!\\pMy favorite RAPIDASH…\\pIt's…cute…lovely…smart… \\nplus…amazing…you think so?…\\loh yes…it's…stunning…\\lkindly…love it!\\pHug it…when…sleeping…warm\\nand cuddly…spectacular…\\lravishing…\\l…Oops! Look at the time!\\lI kept you too long!\\pThanks for hearing me out!\\nI want you to have this!",
+  "msgstr": "Parfait! Alors écoute bien!\\pMon GALOPA adoré…\\pIl est… mignon… adorable… malin…\\nen plus… génial… tu trouves aussi?…\\loh oui… il est… éblouissant…\\lgentil… je l’adore!\\pLe câliner… quand il dort… tout\\nchaud et tout doux… spectaculaire…\\lsomptueux…\\l… Oups! Regarde l’heure!\\lJe t’ai retenu trop longtemps!\\pMerci de m’avoir écouté! Je veux que\\ntu aies ceci!",
+  "source": "patch FR actuel (vérifié)",
+  "fichier": "data/maps/VermilionCity_PokemonFanClub_Frlg/scripts.inc",
+  "ligne": 158,
+  "preuve": "Parfait! Alors écoute bien!\\pDonc… mon GALOPA adoré…\\pIl est… mignon… adorable… malin…\\ninsupportablement…\\len plus… génial… oh… tu trouves\\laussi?…",
+  "note": "Président. Inspiré de VermilionCity_FanClub_hns (patch FR, sens vérifié), mise en page de l’anglais FRLG. [VermilionCity_PokemonFanClub_EventScript_ChairmanStory ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received a BIKE VOUCHER\\nfrom the CHAIRMAN.",
+  "msgstr": "{PLAYER} reçoit un Bon Commande\\ndu Président!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonFanClub_Frlg/scripts.inc",
+  "ligne": 174,
+  "note": "BIKE VOUCHER = Bon Commande (Poképédia). [VermilionCity_PokemonFanClub_EventScript_ChairmanStory ; non compilé]"
+ },
+ {
+  "msgid": "Take that BIKE VOUCHER to the\\nBIKE SHOP in CERULEAN CITY.\\pExchange that for a BICYCLE\\nfree of charge!\\pDon't worry, my favorite FEAROW\\nwill FLY me anywhere I need to go.\\pSo, I have no need for a BICYCLE.\\pI hope you like cycling!",
+  "msgstr": "Apporte ce Bon Commande à Cycles à\\nGogo, à Azuria.\\pÉchange-le contre une Bicyclette\\ngratuite!\\pNe t’en fais pas, mon RAPASDEPIC\\nadoré m’emmène partout avec Vol.\\pAlors je n’ai pas besoin de Bicyclette.\\pJ’espère que tu aimes le vélo!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonFanClub_Frlg/scripts.inc",
+  "ligne": 178,
+  "note": "[VermilionCity_PokemonFanClub_EventScript_ChairmanStory ; non compilé]"
+ },
+ {
+  "msgid": "Oh. Come back when you want to\\nhear my story!",
+  "msgstr": "Oh. Reviens quand tu voudras\\nentendre mon histoire!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonFanClub_Frlg/scripts.inc",
+  "ligne": 188,
+  "note": "[VermilionCity_PokemonFanClub_EventScript_Chairman ; non compilé]"
+ },
+ {
+  "msgid": "Hello, {PLAYER}!\\pDid you come see me about my\\nPOKéMON again?\\pNo?\\nToo bad!",
+  "msgstr": "Salut, {PLAYER}!\\pTu es revenu écouter mes histoires de\\nPokémon?\\pNon? Dommage!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonFanClub_Frlg/scripts.inc",
+  "ligne": 192,
+  "note": "Proche de SoulSilver FR (« Salut salut, {PLAYER}! … Hein? Non? Oh… »). [VermilionCity_PokemonFanClub_EventScript_AlreadyHeardStory ; non compilé]"
+ },
+ {
+  "msgid": "Our CHAIRMAN is very vocal about\\nPOKéMON.",
+  "msgstr": "Notre Président ne s’arrête jamais de\\nparler de Pokémon.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/VermilionCity_PokemonFanClub_Frlg/scripts.inc",
+  "ligne": 202,
+  "preuve": "Notre Président ne s’arrête jamais de\\nparler de Pokémon...",
+  "note": "SoulSilver FR (VermilionCity_FanClub_hns), ponctuation adaptée. [VermilionCity_PokemonFanClub_EventScript_WorkerF ; non compilé]"
+ },
+ {
+  "msgid": "Our CHAIRMAN really does adore his\\nPOKéMON.\\pBut the person who is most liked by\\nPOKéMON is DAISY, I think.",
+  "msgstr": "Notre Président adore vraiment ses\\nPokémon.\\pMais la personne que les Pokémon\\naiment le plus, je crois que c’est Nina.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_PokemonFanClub_Frlg/scripts.inc",
+  "ligne": 213,
+  "note": "DAISY = Nina. [VermilionCity_PokemonFanClub_EventScript_WorkerFGameClear ; non compilé]"
+ },
+ {
+  "msgid": "Those POKé BALLS at your waist!\\nYou have POKéMON, don't you?\\pIt's great that you can carry and\\nuse POKéMON anytime, anywhere.",
+  "msgstr": "Ces Poké Balls à ta ceinture! Tu as\\ndes Pokémon, hein?\\pC’est génial de pouvoir emmener ses\\nPokémon partout avec soi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 236,
+  "note": "Gamin de Jadielle. [ViridianCity_EventScript_Boy ; non compilé]"
+ },
+ {
+  "msgid": "This POKéMON GYM is always closed.\\pI wonder who the LEADER is?",
+  "msgstr": "Cette Arène Pokémon est toujours\\nfermée.\\pJe me demande qui est le Champion.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 242,
+  "note": "[ViridianCity_EventScript_OldMan ; non compilé]"
+ },
+ {
+  "msgid": "VIRIDIAN GYM's LEADER returned!",
+  "msgstr": "Le Champion de Jadielle est revenu!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 246,
+  "note": "[ViridianCity_EventScript_OldManGymLeaderReturned ; non compilé]"
+ },
+ {
+  "msgid": "You want to know about the two\\nkinds of caterpillar POKéMON?",
+  "msgstr": "Tu veux tout savoir sur les deux\\nespèces de Pokémon chenilles?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 249,
+  "note": "Gamin. [ViridianCity_EventScript_Youngster ; non compilé]"
+ },
+ {
+  "msgid": "Oh, okay then!",
+  "msgstr": "Ah, bon, d’accord!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 253,
+  "note": "[ViridianCity_EventScript_YoungsterDeclineExplanation ; non compilé]"
+ },
+ {
+  "msgid": "CATERPIE has no poison,\\nbut WEEDLE does.\\pWatch that your POKéMON aren't\\nstabbed by WEEDLE's POISON STING.",
+  "msgstr": "CHENIPAN n’est pas venimeux, mais\\nASPICOT, si.\\pMéfie-toi du Dard-Venin d’ASPICOT, il\\npeut empoisonner tes Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 256,
+  "note": "[ViridianCity_EventScript_YoungsterExplainCaterpillars ; non compilé]"
+ },
+ {
+  "msgid": "Oh, Grandpa!\\nDon't be so mean!\\pI'm so sorry.\\nHe hasn't had his coffee yet.",
+  "msgstr": "Oh, Papy! Ne sois pas si méchant!\\pJe suis désolée. Il n’a pas encore bu\\nson café.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 262,
+  "note": "Petite-fille du vieil homme. [ViridianCity_EventScript_WomanRoadBlocked ; non compilé]"
+ },
+ {
+  "msgid": "I go shopping in PEWTER CITY\\noccasionally.\\pI have to take the winding trail in\\nVIRIDIAN FOREST when I go.",
+  "msgstr": "Je vais parfois faire des courses à\\nArgenta.\\pPour y aller, je dois prendre le\\nsentier sinueux de la Forêt de Jade.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 268,
+  "note": "[ViridianCity_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "I absolutely forbid you from\\ngoing through here!\\pThis is private property!",
+  "msgstr": "Je t’interdis formellement de passer\\npar ici!\\pC’est une propriété privée!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 274,
+  "note": "Vieil homme (avant son café). [ViridianCity_EventScript_TutorialNotReady ; non compilé]"
+ },
+ {
+  "msgid": "Well, now, I've had my coffee, and\\nthat's what I need to get going!\\pHm?\\nWhat is that red box you have?\\pAh, so you're working on your\\nPOKéDEX.\\pThen let me give you a word of\\nadvice.\\pWhenever you catch a POKéMON,\\nthe POKéDEX automatically updates\\lits data.\\p…You don't know how to catch\\na POKéMON?\\pI suppose I had better show you\\nthen!",
+  "msgstr": "Ah, voilà, j’ai bu mon café, et c’est ce\\nqu’il me fallait pour démarrer!\\pHm? Qu’est-ce que c’est que cette\\nboîte rouge?\\pAh, tu travailles sur ton Pokédex.\\pAlors laisse-moi te donner un conseil.\\pDès que tu attrapes un Pokémon, ton\\nPokédex se met à jour tout seul.\\p… Tu ne sais pas comment attraper un\\nPokémon?\\pDans ce cas, je ferais mieux de te\\nmontrer!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 279,
+  "note": "Vieil homme (démonstration de capture). [ViridianCity_EventScript_DoTutorialBattle ; non compilé]"
+ },
+ {
+  "msgid": "There! Now tell me, that was\\neducational, was it not?\\pAnd here, take this, too.",
+  "msgstr": "Voilà! Alors, dis-moi, c’était\\ninstructif, n’est-ce pas?\\pEt tiens, prends ceci aussi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 296,
+  "note": "[ViridianCity_EventScript_TutorialUnused ; non compilé]"
+ },
+ {
+  "msgid": "If there's something you don't\\nunderstand, watch that.\\pIt will teach you about the basics\\nof being a POKéMON TRAINER.",
+  "msgstr": "Si tu ne comprends pas quelque chose,\\nregarde ça.\\pÇa t’apprendra les bases du métier de\\nDresseur de Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 301,
+  "note": "Vieil homme (TV ABC). [ViridianCity_EventScript_WatchToLearnBasics ; non compilé]"
+ },
+ {
+  "msgid": "Well, now, I've had my coffee, and\\nthat's what I need to get going!\\pBut I made it too strong.\\nIt gave me a headache…\\pIncidentally, are you filling your\\nPOKéDEX?\\pAt first, focus on weakening the\\nPOKéMON before trying to catch it.",
+  "msgstr": "Ah, voilà, j’ai bu mon café, et c’est ce\\nqu’il me fallait pour démarrer!\\pMais je l’ai fait trop fort. J’en ai mal\\nà la tête…\\pAu fait, tu remplis ton Pokédex?\\pPour commencer, affaiblis bien le\\nPokémon avant d’essayer de\\ll’attraper.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 307,
+  "note": "[ViridianCity_EventScript_TutorialCompleted ; non compilé]"
+ },
+ {
+  "msgid": "Well, now, I've had my coffee, and\\nthat's what I need to get going!\\pBut I made it too strong.\\nIt gave me a headache…\\pIncidentally, is my old TEACHY TV\\nhelping you?",
+  "msgstr": "Ah, voilà, j’ai bu mon café, et c’est ce\\nqu’il me fallait pour démarrer!\\pMais je l’ai fait trop fort. J’en ai mal\\nà la tête…\\pAu fait, ma vieille TV ABC t’est-elle\\nutile?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 317,
+  "note": "TEACHY TV = TV ABC. [ViridianCity_EventScript_AskIfTeachyTVHelpful ; non compilé]"
+ },
+ {
+  "msgid": "Wahaha!\\nIt's my grandson on the show!\\pSince he's the one doing the\\nteaching, you're bound to learn.",
+  "msgstr": "Wahaha! C’est mon petit-fils dans\\nl’émission!\\pComme c’est lui qui enseigne, tu vas\\nforcément apprendre.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 325,
+  "note": "[ViridianCity_EventScript_AskIfTeachyTVHelpful ; non compilé]"
+ },
+ {
+  "msgid": "Hm… You're too busy to not even\\nhave the time for TEACHY TV…\\pTime is money, and neither should\\nbe ill spent…",
+  "msgstr": "Hm… Tu es trop occupé pour avoir le\\ntemps de regarder la TV ABC…\\pLe temps, c’est de l’argent, et il ne\\nfaut gaspiller ni l’un ni l’autre…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 331,
+  "note": "[ViridianCity_EventScript_TeachyTVNotHelpful ; non compilé]"
+ },
+ {
+  "msgid": "VIRIDIAN CITY \\nThe Eternally Green Paradise",
+  "msgstr": "Jadielle \\nLe paradis éternellement vert",
+  "source": "patch FR actuel (vérifié)",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 337,
+  "preuve": "Jadielle\\pLe paradis éternellement vert",
+  "note": "Panneau. Repris de ViridianCity_hns (patch FR « Jadielle\\pLe paradis éternellement vert »), espace avant \\n conservée comme l’anglais. [ViridianCity_EventScript_CitySign ; non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS\\pCatch POKéMON and expand your\\ncollection.\\pThe more you have, the easier it\\nis to battle.",
+  "msgstr": "Conseils aux Dresseurs!\\pAttrapez des Pokémon pour agrandir\\nvotre collection.\\pPlus vous en avez, plus les combats\\nsont faciles.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 341,
+  "note": "Panneau. [ViridianCity_EventScript_TrainerTips1 ; non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS\\pThe battle moves of POKéMON are\\nlimited by their POWER POINTS, PP.\\pTo replenish PP, rest your tired\\nPOKéMON at a POKéMON CENTER.",
+  "msgstr": "Conseils aux Dresseurs!\\pLes capacités des Pokémon sont\\nlimitées par leurs PP.\\pPour restaurer les PP, faites reposer\\nvos Pokémon dans un Centre Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 348,
+  "note": "Panneau. [ViridianCity_EventScript_TrainerTips2 ; non compilé]"
+ },
+ {
+  "msgid": "VIRIDIAN GYM's doors are locked…",
+  "msgstr": "L’Arène de Jadielle est fermée à clé…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Frlg/scripts.inc",
+  "ligne": 358,
+  "note": "[ViridianCity_EventScript_GymDoorLocked ; non compilé]"
+ },
+ {
+  "msgid": "Fwahahaha!\\nWelcome to my hideout!\\pIt shall be so until I can restore\\nTEAM ROCKET to its former glory.\\pBut, you have found me again.\\nSo be it.\\lThis time, I'm not holding back!\\pOnce more, you shall face\\nGIOVANNI, the greatest TRAINER!{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}",
+  "msgstr": "Fwahahaha! Bienvenue dans ma\\ncachette!\\pJ’y resterai tant que la Team Rocket\\nn’aura pas retrouvé sa gloire.\\pMais tu m’as encore trouvé. Soit.\\nCette fois, je ne me retiendrai pas!\\pUne fois de plus, tu vas affronter\\nGiovanni, le plus grand des Dresseurs!{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 108,
+  "note": "Giovanni (tutoiement hautain). [ViridianCity_Gym_EventScript_Giovanni (TRAINER_LEADER_GIOVANNI) ; non compilé]"
+ },
+ {
+  "msgid": "Ha!\\nThat was a truly intense fight.\\lYou have won!\\pAs proof, here is the EARTHBADGE!\\n{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}",
+  "msgstr": "Ha! Ce fut un combat vraiment\\nintense. Tu as gagné!\\pEn preuve, voici le Badge Terre!\\n{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 119,
+  "note": "Giovanni, défaite. EARTHBADGE = Badge Terre (SoulSilver FR 454:2). [ViridianCity_Gym_EventScript_Giovanni (TRAINER_LEADER_GIOVANNI) ; non compilé]"
+ },
+ {
+  "msgid": "Having lost in this fashion, \\nI can't face my followers.\\lI have betrayed their trust.\\pAs of today, TEAM ROCKET is\\nfinished forever!\\pAs for myself, I shall dedicate\\nmy life to training again.\\pLet us meet again someday!\\nFarewell!",
+  "msgstr": "Après une telle défaite, je ne peux\\nplus faire face à mes troupes.\\lJ’ai trahi leur confiance.\\pÀ partir d’aujourd’hui, la Team Rocket\\nest dissoute à jamais!\\pQuant à moi, je vais consacrer ma vie à\\nl’entraînement.\\pRetrouvons-nous un jour! Adieu!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 126,
+  "note": "[ViridianCity_Gym_EventScript_Giovanni ; non compilé]"
+ },
+ {
+  "msgid": "The EARTHBADGE makes POKéMON of\\nany level obey without question.\\pIt is evidence of your mastery as\\na POKéMON TRAINER.\\pWith it, you can challenge the\\nPOKéMON LEAGUE.\\pAlso, take this TM.\\pConsider it a gift for your POKéMON\\nLEAGUE challenge.",
+  "msgstr": "Avec le Badge Terre, les Pokémon de\\ntout niveau t’obéiront sans discuter.\\pIl prouve ta maîtrise en tant que\\nDresseur de Pokémon.\\pAvec lui, tu peux défier la Ligue\\nPokémon.\\pPrends aussi cette CT.\\pConsidère-la comme un cadeau pour\\nton défi de la Ligue Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 137,
+  "note": "[ViridianCity_Gym_EventScript_GiveTM26 ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received TM26\\nfrom GIOVANNI.",
+  "msgstr": "{PLAYER} reçoit la CT26\\nde Giovanni!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 148,
+  "note": "[ViridianCity_Gym_EventScript_GiveTM26 ; non compilé]"
+ },
+ {
+  "msgid": "TM26 contains EARTHQUAKE.\\pIt is a powerful attack that causes\\na massive tremor.\\pI made it when I ran the GYM here,\\nfar too long ago… ",
+  "msgstr": "La CT26 contient Séisme.\\pCette attaque puissante provoque un\\nénorme tremblement de terre.\\pJe l’ai créée quand je dirigeais\\nl’Arène, il y a bien longtemps… ",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 152,
+  "note": "Fin en espace conservée comme l’anglais. [ViridianCity_Gym_EventScript_GiveTM26 ; non compilé]"
+ },
+ {
+  "msgid": "You do not have space for this!",
+  "msgstr": "Tu n’as pas de place pour ceci!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 159,
+  "note": "[ViridianCity_Gym_EventScript_NoRoomForTM26 ; non compilé]"
+ },
+ {
+  "msgid": "Heh!\\nYou must be running out of steam\\lby now!",
+  "msgstr": "Heh! Tu dois être à bout de souffle,\\nmaintenant!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 162,
+  "note": "Topdresseur Yuji. [ViridianCity_Gym_EventScript_Yuji (TRAINER_COOLTRAINER_YUJI) ; non compilé]"
+ },
+ {
+  "msgid": "I ran out of gas!",
+  "msgstr": "Je suis à plat!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 167,
+  "note": "[ViridianCity_Gym_EventScript_Yuji (TRAINER_COOLTRAINER_YUJI) ; non compilé]"
+ },
+ {
+  "msgid": "You'll need power to keep up with\\nour GYM LEADER.",
+  "msgstr": "Il te faudra de la puissance pour\\ntenir tête à notre Champion.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 170,
+  "note": "[ViridianCity_Gym_EventScript_Yuji ; non compilé]"
+ },
+ {
+  "msgid": "Rrrroar!\\nI'm working myself into a rage!",
+  "msgstr": "Grrrraaah! Je me mets en rage!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 174,
+  "note": "Karatéka Atsushi. [ViridianCity_Gym_EventScript_Atsushi (TRAINER_BLACK_BELT_ATSUSHI) ; non compilé]"
+ },
+ {
+  "msgid": "Wargh!",
+  "msgstr": "Ouargh!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 178,
+  "note": "[ViridianCity_Gym_EventScript_Atsushi (TRAINER_BLACK_BELT_ATSUSHI) ; non compilé]"
+ },
+ {
+  "msgid": "I'm still not worthy!",
+  "msgstr": "Je ne suis pas encore à la hauteur!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 181,
+  "note": "[ViridianCity_Gym_EventScript_Atsushi ; non compilé]"
+ },
+ {
+  "msgid": "POKéMON and I, we make wonderful\\nmusic together!",
+  "msgstr": "Mes Pokémon et moi, nous faisons de la\\nmusique merveilleuse ensemble!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 184,
+  "note": "Dompteur Jason. [ViridianCity_Gym_EventScript_Jason (TRAINER_TAMER_JASON) ; non compilé]"
+ },
+ {
+  "msgid": "You are in perfect harmony!",
+  "msgstr": "Tu es en parfaite harmonie!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 188,
+  "note": "[ViridianCity_Gym_EventScript_Jason (TRAINER_TAMER_JASON) ; non compilé]"
+ },
+ {
+  "msgid": "Do you know the identity of our\\nGYM LEADER?",
+  "msgstr": "Tu connais l’identité de notre\\nChampion?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 191,
+  "note": "[ViridianCity_Gym_EventScript_Jason ; non compilé]"
+ },
+ {
+  "msgid": "Karate is the ultimate form of\\nmartial arts!",
+  "msgstr": "Le karaté est l’art martial ultime!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 195,
+  "note": "Karatéka Kiyo. [ViridianCity_Gym_EventScript_Kiyo (TRAINER_BLACK_BELT_KIYO) ; non compilé]"
+ },
+ {
+  "msgid": "If my POKéMON were as good at\\nkarate as I…",
+  "msgstr": "Si seulement mes Pokémon étaient\\naussi doués que moi au karaté…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 202,
+  "note": "[ViridianCity_Gym_EventScript_Kiyo ; non compilé]"
+ },
+ {
+  "msgid": "The truly talented win with style.",
+  "msgstr": "Les vrais talents gagnent avec style.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 206,
+  "note": "Topdresseur Warren. [ViridianCity_Gym_EventScript_Warren (TRAINER_COOLTRAINER_WARREN) ; non compilé]"
+ },
+ {
+  "msgid": "I lost my grip!",
+  "msgstr": "J’ai perdu pied!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 209,
+  "note": "[ViridianCity_Gym_EventScript_Warren (TRAINER_COOLTRAINER_WARREN) ; non compilé]"
+ },
+ {
+  "msgid": "The LEADER will scold me for\\nlosing this way…",
+  "msgstr": "Le Champion va me gronder d’avoir\\nperdu comme ça…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 212,
+  "note": "[ViridianCity_Gym_EventScript_Warren ; non compilé]"
+ },
+ {
+  "msgid": "I'm the KARATE KING!\\nYour fate rests with me!",
+  "msgstr": "Je suis le Roi du Karaté! Ton destin\\nest entre mes mains!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 216,
+  "note": "Karatéka Takashi. [ViridianCity_Gym_EventScript_Takashi (TRAINER_BLACK_BELT_TAKASHI) ; non compilé]"
+ },
+ {
+  "msgid": "The POKéMON LEAGUE?\\nYou? Don't get cocky!",
+  "msgstr": "La Ligue Pokémon? Toi? Prends pas la\\ngrosse tête!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 223,
+  "note": "[ViridianCity_Gym_EventScript_Takashi ; non compilé]"
+ },
+ {
+  "msgid": "Your POKéMON will cower at the\\ncrack of my whip!",
+  "msgstr": "Tes Pokémon vont trembler au\\nclaquement de mon fouet!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 227,
+  "note": "Dompteur Cole. [ViridianCity_Gym_EventScript_Cole (TRAINER_TAMER_COLE) ; non compilé]"
+ },
+ {
+  "msgid": "Yowch!\\nWhiplash!",
+  "msgstr": "Aïe! Coup de fouet!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 231,
+  "note": "[ViridianCity_Gym_EventScript_Cole (TRAINER_TAMER_COLE) ; non compilé]"
+ },
+ {
+  "msgid": "Wait!\\nI was just careless!",
+  "msgstr": "Attends! J’ai juste été négligent!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 235,
+  "note": "[ViridianCity_Gym_EventScript_Cole ; non compilé]"
+ },
+ {
+  "msgid": "VIRIDIAN GYM was closed for a\\nlong time.\\pBut now, our LEADER is back!",
+  "msgstr": "L’Arène de Jadielle est restée fermée\\nlongtemps.\\pMais maintenant, notre Champion est\\nde retour!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 239,
+  "note": "Topdresseur Samuel. [ViridianCity_Gym_EventScript_Samuel (TRAINER_COOLTRAINER_SAMUEL) ; non compilé]"
+ },
+ {
+  "msgid": "I was beaten?",
+  "msgstr": "J’ai été battu?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 244,
+  "note": "[ViridianCity_Gym_EventScript_Samuel (TRAINER_COOLTRAINER_SAMUEL) ; non compilé]"
+ },
+ {
+  "msgid": "You can go on to the POKéMON\\nLEAGUE only by defeating our GYM\\lLEADER!",
+  "msgstr": "Tu ne peux aller à la Ligue Pokémon\\nqu’en battant notre Champion!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 247,
+  "note": "[ViridianCity_Gym_EventScript_Samuel ; non compilé]"
+ },
+ {
+  "msgid": "Yo!\\nChamp in the making!\\pEven I don't know the VIRIDIAN\\nLEADER's identity.\\pBut one thing's certain.\\nThis will be the toughest of all\\lthe GYM LEADERS.\\pAlso, I heard that the TRAINERS\\nhere like GROUND-type POKéMON.",
+  "msgstr": "Yo! Futur Maître!\\pMême moi, je ne connais pas l’identité\\ndu Champion de Jadielle.\\pMais une chose est sûre.\\pCe sera le plus coriace de tous les\\nChampions d’Arène.\\pEt il paraît que les Dresseurs d’ici\\naiment les Pokémon de type Sol.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 252,
+  "note": "Guide de l’Arène. [ViridianCity_Gym_EventScript_GymGuy ; non compilé]"
+ },
+ {
+  "msgid": "Blow me away! GIOVANNI was the\\nGYM LEADER of VIRIDIAN?",
+  "msgstr": "Ça alors! Giovanni était le Champion\\nde Jadielle?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 263,
+  "note": "[ViridianCity_Gym_EventScript_GymGuyPostVictory ; non compilé]"
+ },
+ {
+  "msgid": "VIRIDIAN POKéMON GYM\\nLEADER: ?\\pWINNING TRAINERS:\\n{RIVAL}",
+  "msgstr": "Arène Pokémon de Jadielle\\nChampion: ?\\pVainqueurs:\\n{RIVAL}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 267,
+  "note": "Statue. [ViridianCity_Gym_EventScript_GymStatue ; non compilé]"
+ },
+ {
+  "msgid": "VIRIDIAN POKéMON GYM\\nLEADER: GIOVANNI\\pWINNING TRAINERS:\\n{RIVAL}, {PLAYER}",
+  "msgstr": "Arène Pokémon de Jadielle\\nChampion: Giovanni\\pVainqueurs:\\n{RIVAL}, {PLAYER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Gym_Frlg/scripts.inc",
+  "ligne": 273,
+  "note": "Statue. [ViridianCity_Gym_EventScript_GymStatuePostVictory ; non compilé]"
+ },
+ {
+  "msgid": "Coming up with nicknames is fun,\\nbut it's not so easy to do.\\pClever names are nice, but simple\\nnames are easier to remember.",
+  "msgstr": "Trouver des surnoms, c’est amusant,\\nmais ce n’est pas si facile.\\pUn nom astucieux, c’est bien, mais un\\nnom simple se retient mieux.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_House_Frlg/scripts.inc",
+  "ligne": 27,
+  "note": "Père de famille. [ViridianCity_House_EventScript_BaldingMan ; non compilé]"
+ },
+ {
+  "msgid": "My daddy loves POKéMON, too.",
+  "msgstr": "Mon papa aime aussi les Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_House_Frlg/scripts.inc",
+  "ligne": 33,
+  "note": "Petite fille. [ViridianCity_House_EventScript_LittleGirl ; non compilé]"
+ },
+ {
+  "msgid": "SPEARY: Tetweet!",
+  "msgstr": "PIAFI: Tuituit!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_House_Frlg/scripts.inc",
+  "ligne": 36,
+  "note": "PIAFABEC surnommé SPEARY → « PIAFI » (surnom adapté). [ViridianCity_House_EventScript_Speary ; non compilé]"
+ },
+ {
+  "msgid": "SPEAROW\\nName: SPEARY",
+  "msgstr": "PIAFABEC\\nNom: PIAFI",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_House_Frlg/scripts.inc",
+  "ligne": 39,
+  "note": "Panneau (fiche du Pokémon). [ViridianCity_House_EventScript_NicknameSign ; non compilé]"
+ },
+ {
+  "msgid": "Hey!\\nYou came from PALLET TOWN?",
+  "msgstr": "Hé! Tu viens de Bourg Palette?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Mart_Frlg/scripts.inc",
+  "ligne": 87,
+  "note": "Vendeur de la Boutique (tutoie l’enfant, comme FRLG). [ViridianCity_Mart_EventScript_ParcelScene ; non compilé]"
+ },
+ {
+  "msgid": "You know PROF. OAK, right?\\pHis order came in.\\nCan I get you to take it to him?",
+  "msgstr": "Tu connais le Prof. Chen, hein?\\pSa commande est arrivée. Tu peux la\\nlui apporter?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Mart_Frlg/scripts.inc",
+  "ligne": 91,
+  "note": "[ViridianCity_Mart_EventScript_ParcelScene ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received OAK'S PARCEL\\nfrom the POKéMON MART clerk.",
+  "msgstr": "{PLAYER} reçoit le Colis de Chen\\ndu vendeur de la Boutique!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Mart_Frlg/scripts.inc",
+  "ligne": 96,
+  "note": "OAK’S PARCEL = Colis de Chen (dialogues, Poképédia). [ViridianCity_Mart_EventScript_ParcelScene ; non compilé]"
+ },
+ {
+  "msgid": "Okay, thanks! Please say hi to\\nPROF. OAK for me, too.",
+  "msgstr": "OK, merci! Salue aussi le Prof. Chen de\\nma part.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Mart_Frlg/scripts.inc",
+  "ligne": 100,
+  "note": "[ViridianCity_Mart_EventScript_SayHiToOak ; non compilé]"
+ },
+ {
+  "msgid": "This shop does good business in\\nANTIDOTES, I've heard.",
+  "msgstr": "Il paraît que cette boutique vend\\nbeaucoup d’Antidotes.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Mart_Frlg/scripts.inc",
+  "ligne": 104,
+  "note": "[ViridianCity_Mart_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "I've got to buy some POTIONS.\\pYou never know when your POKéMON\\nwill need quick healing.",
+  "msgstr": "Il faut que j’achète des Potions.\\pOn ne sait jamais quand ses Pokémon\\nauront besoin de soins.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_Mart_Frlg/scripts.inc",
+  "ligne": 108,
+  "note": "[ViridianCity_Mart_EventScript_Youngster ; non compilé]"
+ },
+ {
+  "msgid": "Please feel free to use that PC in\\nthe corner.\\pThe receptionist told me so.\\nIt's so kind of her!",
+  "msgstr": "N’hésite pas à utiliser le PC dans le\\ncoin.\\pC’est la réceptionniste qui me l’a dit.\\nElle est si gentille!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 30,
+  "note": "[ViridianCity_PokemonCenter_1F_EventScript_Gentleman ; non compilé]"
+ },
+ {
+  "msgid": "There's a POKéMON CENTER in every\\ntown ahead.\\pThey charge no money, so don't\\nbe shy about healing POKéMON.",
+  "msgstr": "Il y a un Centre Pokémon dans chaque\\nville.\\pIls sont gratuits, alors n’hésite pas\\nà y soigner tes Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 36,
+  "note": "[ViridianCity_PokemonCenter_1F_EventScript_Boy ; non compilé]"
+ },
+ {
+  "msgid": "POKéMON CENTERS heal your tired,\\nhurt, or fainted POKéMON.\\pThey make all POKéMON completely\\nhealthy.",
+  "msgstr": "Les Centres Pokémon soignent tes\\nPokémon fatigués, blessés ou K.O.\\pIls remettent tous les Pokémon en\\npleine forme.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 42,
+  "note": "[ViridianCity_PokemonCenter_1F_EventScript_Youngster ; non compilé]"
+ },
+ {
+  "msgid": "Whew! I'm trying to memorize all my\\nnotes.",
+  "msgstr": "Ouf! J’essaie d’apprendre toutes mes\\nnotes par cœur.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_School_Frlg/scripts.inc",
+  "ligne": 97,
+  "note": "Élève de l’école. [ViridianCity_School_EventScript_Lass ; non compilé]"
+ },
+ {
+  "msgid": "Okay!\\pBe sure to read what's on the\\nblackboard carefully!",
+  "msgstr": "Bon!\\pLisez bien ce qui est écrit au\\ntableau!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_School_Frlg/scripts.inc",
+  "ligne": 101,
+  "note": "Institutrice. [ViridianCity_School_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "Let's check out the notebook.\\pFirst page…\\pPOKé BALLS are used to catch\\nPOKéMON.\\pUp to six POKéMON can be carried\\nin your party.\\pPeople who raise and battle\\nwith POKéMON are called TRAINERS.",
+  "msgstr": "Jetons un œil au cahier.\\pPremière page…\\pLes Poké Balls servent à attraper les\\nPokémon.\\pOn peut emmener jusqu’à six Pokémon\\ndans son équipe.\\pCeux qui élèvent des Pokémon et les\\nfont combattre sont des Dresseurs.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_School_Frlg/scripts.inc",
+  "ligne": 106,
+  "note": "[ViridianCity_School_EventScript_Notebook ; non compilé]"
+ },
+ {
+  "msgid": "Second page…\\pA healthy POKéMON may be hard to\\ncatch, so weaken it first.\\pPoison, burn, or cause another\\nstatus problem to weaken it.",
+  "msgstr": "Deuxième page…\\pUn Pokémon en forme est dur à\\nattraper, alors affaiblis-le d’abord.\\pEmpoisonne-le, brûle-le ou inflige-lui\\nun autre problème de statut.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_School_Frlg/scripts.inc",
+  "ligne": 116,
+  "note": "[ViridianCity_School_EventScript_Notebook ; non compilé]"
+ },
+ {
+  "msgid": "Third page…\\pPOKéMON TRAINERS seek others to\\nengage in POKéMON battles.\\pTo TRAINERS, the taste of victory\\nis sweet, indeed.\\pBattles are constantly waged at\\nPOKéMON GYMS everywhere.",
+  "msgstr": "Troisième page…\\pLes Dresseurs cherchent des\\nadversaires pour des combats\\lPokémon.\\pPour les Dresseurs, le goût de la\\nvictoire est vraiment délicieux.\\pDes combats ont lieu sans arrêt dans\\nles Arènes Pokémon de partout.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_School_Frlg/scripts.inc",
+  "ligne": 123,
+  "note": "[ViridianCity_School_EventScript_Notebook ; non compilé]"
+ },
+ {
+  "msgid": "Fourth page…\\pThe ultimate goal for all POKéMON\\nTRAINERS is simple.\\pIt is to defeat the top eight\\nPOKéMON GYM LEADERS.\\pDo so to earn the right to face…\\pThe ELITE FOUR of the POKéMON\\nLEAGUE!",
+  "msgstr": "Quatrième page…\\pLe but ultime de tous les Dresseurs\\nde Pokémon est simple.\\pIl s’agit de battre les huit meilleurs\\nChampions d’Arène.\\pAlors, on obtient le droit\\nd’affronter…\\pLe Conseil 4 de la Ligue Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_School_Frlg/scripts.inc",
+  "ligne": 132,
+  "note": "[ViridianCity_School_EventScript_Notebook ; non compilé]"
+ },
+ {
+  "msgid": "Turn the page?",
+  "msgstr": "Tourner la page?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_School_Frlg/scripts.inc",
+  "ligne": 142,
+  "note": "[ViridianCity_School_EventScript_Notebook ; non compilé]"
+ },
+ {
+  "msgid": "GIRL: Hey!\\nDon't look at my notes!",
+  "msgstr": "Fille: Hé! Ne regarde pas mes notes!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_School_Frlg/scripts.inc",
+  "ligne": 145,
+  "note": "[ViridianCity_School_EventScript_Notebook ; non compilé]"
+ },
+ {
+  "msgid": "The blackboard lists POKéMON\\nSTATUS problems during battles.",
+  "msgstr": "Le tableau présente les problèmes de\\nstatut des Pokémon en combat.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_School_Frlg/scripts.inc",
+  "ligne": 149,
+  "note": "[ViridianCity_School_EventScript_Blackboard ; non compilé]"
+ },
+ {
+  "msgid": "A POKéMON can't attack if it's\\nasleep.\\pPOKéMON will stay asleep even\\nafter battles.\\pUse AWAKENING to awaken one\\nfrom sleep.",
+  "msgstr": "Un Pokémon endormi ne peut pas\\nattaquer.\\pIl reste endormi même après les\\ncombats.\\pUtilise un Réveil pour le réveiller.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_School_Frlg/scripts.inc",
+  "ligne": 156,
+  "note": "[ViridianCity_School_EventScript_ReadSleep ; non compilé]"
+ },
+ {
+  "msgid": "A burn reduces ATTACK power.\\nIt also causes ongoing HP loss.\\pA burn remains after a battle.\\nUse BURN HEAL to cure a burn.",
+  "msgstr": "Une brûlure baisse l’Attaque et fait\\nperdre des PV à chaque tour.\\pElle persiste après le combat. Utilise\\nun Anti-Brûle pour la soigner.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_School_Frlg/scripts.inc",
+  "ligne": 164,
+  "note": "[ViridianCity_School_EventScript_ReadBurn ; non compilé]"
+ },
+ {
+  "msgid": "When poisoned, a POKéMON's health\\nsteadily drops.\\pPoison lingers after battles.\\nUse an ANTIDOTE to cure poison!",
+  "msgstr": "Un Pokémon empoisonné perd peu à peu\\ndes PV.\\pLe poison persiste après les combats.\\nUtilise un Antidote pour le soigner!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_School_Frlg/scripts.inc",
+  "ligne": 170,
+  "note": "[ViridianCity_School_EventScript_ReadPoison ; non compilé]"
+ },
+ {
+  "msgid": "A frozen POKéMON becomes\\nhelplessly immobile.\\pIt stays frozen even after the\\nbattle ends.\\pUse ICE HEAL to thaw out the\\nsuffering POKéMON.",
+  "msgstr": "Un Pokémon gelé est complètement\\nimmobilisé.\\pIl reste gelé même après la fin du\\ncombat.\\pUtilise un Antigel pour dégeler le\\npauvre Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_School_Frlg/scripts.inc",
+  "ligne": 176,
+  "note": "[ViridianCity_School_EventScript_ReadFreeze ; non compilé]"
+ },
+ {
+  "msgid": "Paralysis reduces SPEED and may\\nprevent the POKéMON from moving.\\pParalysis remains after battles.\\nUse PARLYZ HEAL for treatment.",
+  "msgstr": "La paralysie réduit la Vitesse et peut\\nempêcher le Pokémon d’agir.\\pElle persiste après les combats.\\nUtilise un Anti-Para pour la soigner.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianCity_School_Frlg/scripts.inc",
+  "ligne": 184,
+  "note": "PARLYZ HEAL = Anti-Para (glossaire). [ViridianCity_School_EventScript_ReadParalysis ; non compilé]"
+ },
+ {
+  "msgid": "I came here with some friends to\\ncatch us some BUG POKéMON!\\pThey're all itching to get into\\nsome POKéMON battles!",
+  "msgstr": "Je suis venu ici avec des amis pour\\nattraper des Pokémon Insecte!\\pIls ont tous hâte de livrer des\\ncombats Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 67,
+  "note": "Scout. [ViridianForest_EventScript_Youngster ; non compilé]"
+ },
+ {
+  "msgid": "Hey! You have POKéMON!\\nCome on!\\lLet's battle 'em!",
+  "msgstr": "Hé! Tu as des Pokémon! Allez, viens! On\\nse bat!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 73,
+  "note": "Scout Rick. [ViridianForest_EventScript_Rick (TRAINER_BUG_CATCHER_RICK) ; non compilé]"
+ },
+ {
+  "msgid": "No!\\nCATERPIE can't hack it!",
+  "msgstr": "Non! CHENIPAN n’a pas tenu le coup!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 78,
+  "note": "[ViridianForest_EventScript_Rick (TRAINER_BUG_CATCHER_RICK) ; non compilé]"
+ },
+ {
+  "msgid": "Ssh! You'll scare the bugs away.\\nAnother time, okay?",
+  "msgstr": "Chut! Tu vas faire fuir les insectes.\\nUne autre fois, d’accord?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 81,
+  "note": "[ViridianForest_EventScript_Rick ; non compilé]"
+ },
+ {
+  "msgid": "Yo!\\nYou can't jam out if you're a\\lPOKéMON TRAINER!",
+  "msgstr": "Yo! Un Dresseur de Pokémon ne se\\ndéfile pas!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 85,
+  "note": "Scout Doug. [ViridianForest_EventScript_Doug (TRAINER_BUG_CATCHER_DOUG) ; non compilé]"
+ },
+ {
+  "msgid": "Huh?\\nI ran out of POKéMON!",
+  "msgstr": "Hein? J’ai plus de Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 90,
+  "note": "[ViridianForest_EventScript_Doug (TRAINER_BUG_CATCHER_DOUG) ; non compilé]"
+ },
+ {
+  "msgid": "That totally stinks! I'm going to\\ncatch some stronger ones!",
+  "msgstr": "C’est trop nul! Je vais en attraper\\ndes plus forts!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 94,
+  "note": "[ViridianForest_EventScript_Doug ; non compilé]"
+ },
+ {
+  "msgid": "Hey, wait up!\\nWhat's the hurry? Why the rush?",
+  "msgstr": "Hé, attends! Pourquoi tu es si\\npressé?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 98,
+  "note": "Scout Sammy. [ViridianForest_EventScript_Sammy (TRAINER_BUG_CATCHER_SAMMY) ; non compilé]"
+ },
+ {
+  "msgid": "I give!\\nYou're good at this!",
+  "msgstr": "J’abandonne! T’es doué!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 102,
+  "note": "[ViridianForest_EventScript_Sammy (TRAINER_BUG_CATCHER_SAMMY) ; non compilé]"
+ },
+ {
+  "msgid": "Sometimes, you can find stuff on\\nthe ground.\\pI'm looking for the stuff I\\ndropped. Can you help me?",
+  "msgstr": "Parfois, on trouve des objets par\\nterre.\\pJe cherche ce que j’ai laissé tomber.\\nTu peux m’aider?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 106,
+  "note": "[ViridianForest_EventScript_Sammy ; non compilé]"
+ },
+ {
+  "msgid": "I might be little, but I won't like\\nit if you go easy on me!",
+  "msgstr": "Je suis peut-être petit, mais\\nj’aimerais pas que tu me ménages!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 112,
+  "note": "Scout Anthony. [ViridianForest_EventScript_Anthony (TRAINER_BUG_CATCHER_ANTHONY) ; non compilé]"
+ },
+ {
+  "msgid": "Oh, boo.\\nNothing went right.",
+  "msgstr": "Oh, zut. Rien n’a marché.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 116,
+  "note": "[ViridianForest_EventScript_Anthony (TRAINER_BUG_CATCHER_ANTHONY) ; non compilé]"
+ },
+ {
+  "msgid": "I lost some of my allowance…",
+  "msgstr": "J’ai perdu de mon argent de poche…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 120,
+  "note": "[ViridianForest_EventScript_Anthony ; non compilé]"
+ },
+ {
+  "msgid": "Did you know that POKéMON evolve?",
+  "msgstr": "Tu savais que les Pokémon évoluent?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 123,
+  "note": "Scout Charlie. [ViridianForest_EventScript_Charlie (TRAINER_BUG_CATCHER_CHARLIE) ; non compilé]"
+ },
+ {
+  "msgid": "BUG POKéMON evolve quickly.\\nThey're a lot of fun!",
+  "msgstr": "Les Pokémon Insecte évoluent vite.\\nC’est trop amusant!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 130,
+  "note": "[ViridianForest_EventScript_Charlie ; non compilé]"
+ },
+ {
+  "msgid": "I was throwing POKé BALLS to\\ncatch POKéMON, and I ran out.\\pThat's why you can never have too\\nmany POKé BALLS.",
+  "msgstr": "J’ai lancé des Poké Balls sur des\\nPokémon, et je n’en ai plus.\\pC’est pour ça qu’on n’a jamais trop de\\nPoké Balls.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 134,
+  "note": "[ViridianForest_EventScript_Boy ; non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS\\pIf your POKéMON are weak and you\\nwant to avoid battles, stay away\\lfrom grassy areas!",
+  "msgstr": "Conseils aux Dresseurs!\\pVos Pokémon sont faibles?\\pPour éviter les combats, fuyez les\\nhautes herbes!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 140,
+  "note": "Panneau. [ViridianForest_EventScript_TrainerTips1 ; non compilé]"
+ },
+ {
+  "msgid": "For poison, use ANTIDOTE!\\nGet it at POKéMON MARTS!",
+  "msgstr": "Contre le poison, utilisez un\\nAntidote!\\pEn vente dans les Boutiques Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 146,
+  "note": "Panneau. [ViridianForest_EventScript_TrainerTips2 ; non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS\\pContact PROF. OAK via a PC to\\nget your POKéDEX evaluated!",
+  "msgstr": "Conseils aux Dresseurs!\\pContactez le Prof. Chen depuis un PC\\npour faire évaluer votre Pokédex!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 150,
+  "note": "Panneau. [ViridianForest_EventScript_TrainerTips3 ; non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS\\pYou can't catch a POKéMON that\\nbelongs to someone else.\\pThrow POKé BALLS only at wild\\nPOKéMON to catch them!",
+  "msgstr": "Conseils aux Dresseurs!\\pVous ne pouvez pas attraper un\\nPokémon qui appartient à quelqu’un.\\pLancez vos Poké Balls uniquement sur\\nles Pokémon sauvages!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 155,
+  "note": "Panneau. [ViridianForest_EventScript_TrainerTips4 ; non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS\\pWeaken POKéMON before attempting\\ncapture!\\pWhen healthy, they may escape!",
+  "msgstr": "Conseils aux Dresseurs!\\pAffaiblissez les Pokémon avant de les\\ncapturer!\\pEn pleine forme, ils risquent de\\ns’échapper!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 162,
+  "note": "Panneau. [ViridianForest_EventScript_TrainerTips5 ; non compilé]"
+ },
+ {
+  "msgid": "LEAVING VIRIDIAN FOREST\\nPEWTER CITY AHEAD",
+  "msgstr": "Sortie de la Forêt de Jade\\nArgenta droit devant",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/ViridianForest_Frlg/scripts.inc",
+  "ligne": 168,
+  "note": "Panneau. [ViridianForest_EventScript_ExitSign ; non compilé]"
+ }
+]

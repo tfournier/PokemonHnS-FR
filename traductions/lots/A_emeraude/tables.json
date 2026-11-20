@@ -45,15 +45,6 @@
   "note": "même nom aussi utilisé dans les données FRLG (data/text/new_game_intro_frlg.inc, src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
  },
  {
-  "msgid": "PARASOL LADY",
-  "msgstr": "SŒUR PARASOL",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/battle_main.c",
-  "ligne": 353,
-  "ancien": "Sœur Parasol",
-  "preuve": "US 30FF10 -> FR 317A40 (table de base US 30FCD4 / FR 317804, index +572, 13 voisins)"
- },
- {
   "msgid": "SWIMMER♀",
   "msgstr": "Nageuse",
   "source": "Émeraude FR officiel",
@@ -78,7 +69,7 @@
   "fichier": "src/data/battle_frontier/apprentice.h",
   "ligne": 300,
   "preuve": "gApprentices[0].name : anglais ALANN / français ALAIN (présent dans les deux ROM)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « ALANN » (delta)"
+  "note": "table par index retenue ; autre(s) correspondance(s) : « ALANN » (delta)"
  },
  {
   "msgid": "SONNY",
@@ -87,7 +78,7 @@
   "fichier": "src/data/battle_frontier/apprentice.h",
   "ligne": 316,
   "preuve": "gApprentices[2].name : anglais SONNY / français HERVE (présent dans les deux ROM)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « SONNY » (delta)"
+  "note": "table par index retenue ; autre(s) correspondance(s) : « SONNY » (delta)"
  },
  {
   "msgid": "MACY",
@@ -97,7 +88,7 @@
   "ligne": 332,
   "ancien": "Magali",
   "preuve": "gApprentices[4].name : anglais MACY / français AMELIE (présent dans les deux ROM)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « MACY » (delta)"
+  "note": "table par index retenue ; autre(s) correspondance(s) : « MACY » (delta)"
  },
  {
   "msgid": "DONTE",
@@ -106,7 +97,7 @@
   "fichier": "src/data/battle_frontier/apprentice.h",
   "ligne": 340,
   "preuve": "gApprentices[5].name : anglais DONTE / français BRAHIM (présent dans les deux ROM)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « DONTE » (delta)"
+  "note": "table par index retenue ; autre(s) correspondance(s) : « DONTE » (delta)"
  },
  {
   "msgid": "AMIRA",
@@ -115,7 +106,7 @@
   "fichier": "src/data/battle_frontier/apprentice.h",
   "ligne": 348,
   "preuve": "gApprentices[6].name : anglais AMIRA / français LAURE (présent dans les deux ROM)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « AMIRA » (delta) ; même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
+  "note": "table par index retenue ; autre(s) correspondance(s) : « AMIRA » (delta) ; même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
  },
  {
   "msgid": "KALI",
@@ -124,7 +115,7 @@
   "fichier": "src/data/battle_frontier/apprentice.h",
   "ligne": 356,
   "preuve": "gApprentices[7].name : anglais KALI / français JODIE (présent dans les deux ROM)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « KALI » (delta)"
+  "note": "table par index retenue ; autre(s) correspondance(s) : « KALI » (delta)"
  },
  {
   "msgid": "DILLEN",
@@ -133,7 +124,7 @@
   "fichier": "src/data/battle_frontier/apprentice.h",
   "ligne": 372,
   "preuve": "gApprentices[9].name : anglais DILLEN / français RENE (présent dans les deux ROM)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « DILLEN » (delta)"
+  "note": "table par index retenue ; autre(s) correspondance(s) : « DILLEN » (delta)"
  },
  {
   "msgid": "DALLAS",
@@ -142,7 +133,7 @@
   "fichier": "src/data/battle_frontier/apprentice.h",
   "ligne": 380,
   "preuve": "gApprentices[10].name : anglais DALLAS / français BRUNO (présent dans les deux ROM)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « DALLAS » (delta)"
+  "note": "table par index retenue ; autre(s) correspondance(s) : « DALLAS » (delta)"
  },
  {
   "msgid": "LAMONT",
@@ -151,7 +142,7 @@
   "fichier": "src/data/battle_frontier/apprentice.h",
   "ligne": 396,
   "preuve": "gApprentices[12].name : anglais LAMONT / français XAV (présent dans les deux ROM)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « LAMONT » (delta)"
+  "note": "table par index retenue ; autre(s) correspondance(s) : « LAMONT » (delta)"
  },
  {
   "msgid": "TYRESE",
@@ -160,7 +151,7 @@
   "fichier": "src/data/battle_frontier/apprentice.h",
   "ligne": 404,
   "preuve": "gApprentices[13].name : anglais TYRESE / français ANDY (présent dans les deux ROM)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « TYRESE » (delta)"
+  "note": "table par index retenue ; autre(s) correspondance(s) : « TYRESE » (delta)"
  },
  {
   "msgid": "BRADY",
@@ -862,16 +853,6 @@
   "preuve": "US 5D70C0 -> FR 5DB5BC (table de base US 5D5ACC / FR 5D9FC8, index +5620, 2 voisins) ; gBattleFrontierTrainers[108] US 5D70C0 -> FR 5DB5BC"
  },
  {
-  "msgid": "RICARDO",
-  "msgstr": "RICARDO",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
-  "ligne": 880,
-  "ancien": "Ricardo",
-  "preuve": "US 5D70F4 -> FR 5DB5F0 (table de base US 5D5ACC / FR 5D9FC8, index +5672, 2 voisins) ; gBattleFrontierTrainers[109] US 5D70F4 -> FR 5DB5F0",
-  "note": "même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR"
- },
- {
   "msgid": "SHIZUKA",
   "msgstr": "RUBEN",
   "source": "Émeraude FR officiel",
@@ -1327,15 +1308,6 @@
   "ligne": 1424,
   "ancien": "Pat",
   "preuve": "US 5D7EC4 -> FR 5DC3C0 (table de base US 5D5ACC / FR 5D9FC8, index +9208, 2 voisins) ; gBattleFrontierTrainers[177] US 5D7EC4 -> FR 5DC3C0"
- },
- {
-  "msgid": "REGINA",
-  "msgstr": "REGINA",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
-  "ligne": 1432,
-  "ancien": "Régina",
-  "preuve": "US 5D7EF8 -> FR 5DC3F4 (table de base US 5D5ACC / FR 5D9FC8, index +9260, 2 voisins) ; gBattleFrontierTrainers[178] US 5D7EF8 -> FR 5DC3F4"
  },
  {
   "msgid": "ALISON",

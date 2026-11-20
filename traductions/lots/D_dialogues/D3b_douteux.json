@@ -1,0 +1,119 @@
+[
+ {
+  "msgid": "Grunt!\\pI am the KARATE MASTER!\\nI am the LEADER here!\\pYou wish to challenge us?\\nExpect no mercy!\\pFwaaa!",
+  "msgstr": "Hmpf!\\pJe suis le Maître Karaté!\\nC’est moi qui dirige ce Dojo!\\pTu veux nous défier?\\nN’attends aucune pitié!\\pFwaaa!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_Dojo_Frlg/scripts.inc",
+  "ligne": 153,
+  "raison": "KARATE MASTER = « Maître Karaté » : forme du lot D1 (Mémorydex), non vérifiée dans Rouge Feu/Vert Feuille FR ; SoulSilver FR a « Roi du Karaté » pour KARATE KING.",
+  "note": "Entrée également présente dans D3b_003.json (traduction proposée) ; à confirmer."
+ },
+ {
+  "msgid": "{PLAYER} received the {STR_VAR_1}\\nfrom the KARATE MASTER.",
+  "msgstr": "{PLAYER} reçoit {STR_VAR_1}\\nde la part du Maître Karaté.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SaffronCity_Dojo_Frlg/scripts.inc",
+  "ligne": 231,
+  "raison": "KARATE MASTER = « Maître Karaté » (voir 341).",
+  "note": "Entrée également présente dans D3b_003.json (traduction proposée) ; à confirmer."
+ },
+ {
+  "msgid": "SABRINA just wiped out the KARATE\\nMASTER next door.",
+  "msgstr": "Le Maître Karaté du Dojo d’à côté\\nvient de se faire retourner comme\\lune crêpe par Morgane.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/SaffronCity_Gym_Frlg/scripts.inc",
+  "ligne": 187,
+  "raison": "KARATE MASTER = « Maître Karaté » (voir 341).",
+  "note": "Entrée également présente dans D3b_001.json (traduction proposée) ; à confirmer."
+ },
+ {
+  "msgid": "I am one of the four ROCKET\\nBROTHERS!",
+  "msgstr": "Je suis l’un des quatre Frères\\nRocket!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_6F_Frlg/scripts.inc",
+  "ligne": 133,
+  "raison": "ROCKET BROTHERS = « Frères Rocket » : pas de nom FRLG FR trouvé.",
+  "note": "Entrée également présente dans D3b_002.json (traduction proposée) ; à confirmer."
+ },
+ {
+  "msgid": "That rotten PRESIDENT!\\pServes him right for shipping me\\noff to the TIKSI BRANCH!\\pThat's why TEAM ROCKET came after\\nus, I'm sure of it!",
+  "msgstr": "Ce maudit Président!\\pBien fait pour lui! Il m’a expédié à la\\nfiliale de Tiksi!\\pC’est pour ça que la Team Rocket s’en\\nest prise à nous, j’en suis sûr!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_6F_Frlg/scripts.inc",
+  "ligne": 144,
+  "raison": "TIKSI BRANCH = « filiale de Tiksi » : pas de forme FRLG FR trouvée.",
+  "note": "Entrée également présente dans D3b_004.json (traduction proposée) ; à confirmer."
+ },
+ {
+  "msgid": "TIKSI BRANCH?\\nIt's in Russian no-man's-land!",
+  "msgstr": "La filiale de Tiksi?\\nC’est au fin fond de la Russie!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_6F_Frlg/scripts.inc",
+  "ligne": 154,
+  "raison": "TIKSI BRANCH = « filiale de Tiksi » (voir 380).",
+  "note": "Entrée également présente dans D3b_004.json (traduction proposée) ; à confirmer."
+ },
+ {
+  "msgid": "REQUEST NOTICE\\pPlease find the SAFARI WARDEN's\\nlost GOLD TEETH.\\lThey're around here somewhere.\\pReward offered!\\nContact: WARDEN",
+  "msgstr": "AVIS DE RECHERCHE\\pMerci de retrouver la Dent d’Or perdue\\npar le Gardien du Parc Safari.\\lElle est quelque part par ici.\\pRécompense offerte!\\nContact: le Gardien",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SafariZone_West_Frlg/scripts.inc",
+  "ligne": 24,
+  "raison": "WARDEN = « Gardien » (Poképédia parle d’« intendant » pour RFVF, le .po a « Gardien du Parc Naturel » / « Balthazar, le Gardien ») ; GOLD TEETH = « Dent d’Or » (Poképédia).",
+  "note": "Entrée également présente dans D3b_004.json (traduction proposée) ; à confirmer."
+ },
+ {
+  "msgid": "Welcome.\\pThe PRESIDENT is in the boardroom\\non 11F.",
+  "msgstr": "Bienvenue.\\pLe Président se trouve dans la salle\\ndu conseil, au 10e étage.",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/SilphCo_1F_Frlg/scripts.inc",
+  "ligne": 18,
+  "raison": "Étages de la Sylphe : numérotation française (1F = rez-de-chaussée, 11F = 10e étage), comme « 4E: PHARMACIE » pour 5F au .po. À harmoniser avec le menu d’ascenseur (gText_1F… non traduits).",
+  "note": "Entrée également présente dans D3b_005.json (traduction proposée) ; à confirmer."
+ },
+ {
+  "msgid": "Welcome to 10F!\\nSo good of you to join me!",
+  "msgstr": "Bienvenue au 9e étage!\\nC’est gentil de te joindre à moi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_10F_Frlg/scripts.inc",
+  "ligne": 37,
+  "raison": "Étages : 10F = 9e étage (voir 548).",
+  "note": "Entrée également présente dans D3b_001.json (traduction proposée) ; à confirmer."
+ },
+ {
+  "msgid": "I better tell the BOSS on 11F!",
+  "msgstr": "Je vais prévenir le Boss au 10e étage!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_4F_Frlg/scripts.inc",
+  "ligne": 81,
+  "raison": "Étages : 11F = 10e étage (voir 548).",
+  "note": "Entrée également présente dans D3b_002.json (traduction proposée) ; à confirmer."
+ },
+ {
+  "msgid": "You're only on 5F.\\nIt's a long way to my BOSS!",
+  "msgstr": "Tu n’es qu’au 4e étage.\\nLa route est longue jusqu’à mon Boss!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SilphCo_5F_Frlg/scripts.inc",
+  "ligne": 101,
+  "raison": "Étages : 5F = 4e étage (voir 548).",
+  "note": "Entrée également présente dans D3b_003.json (traduction proposée) ; à confirmer."
+ },
+ {
+  "msgid": "CENTER AREA",
+  "msgstr": "Zone Centrale",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SafariZone_Center_Frlg/scripts.inc",
+  "ligne": 30,
+  "raison": "CENTER AREA = « Zone Centrale » : forme des guides (Pokébip « zone centrale »), panneau FRLG FR non vu.",
+  "note": "Entrée également présente dans D3b_001.json (traduction proposée) ; à confirmer."
+ },
+ {
+  "msgid": "TRAINER TIPS\\pThe SECRET HOUSE is still ahead.",
+  "msgstr": "Conseils aux Dresseurs\\pLa Cabane Secrète est encore plus\\nloin.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SafariZone_North_Frlg/scripts.inc",
+  "ligne": 28,
+  "raison": "SECRET HOUSE = « Cabane Secrète » : Poképédia et Pokébip (pas de capture du jeu).",
+  "note": "Entrée également présente dans D3b_002.json (traduction proposée) ; à confirmer."
+ }
+]

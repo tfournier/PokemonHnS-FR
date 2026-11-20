@@ -1,0 +1,1098 @@
+[
+ {
+  "msgid": "Which POKéMON wants to learn\\nSUBSTITUTE?",
+  "msgstr": "Quel Pokémon veut apprendre\\nClonage?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Frlg/scripts.inc",
+  "ligne": 240,
+  "note": "FuchsiaCity_Frlg, SubstituteTutor (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Boy, what I'd give to crawl inside\\na KANGASKHAN belly pouch…",
+  "msgstr": "Ah, ce que je donnerais pour me\\nglisser dans la poche ventrale d’un\\lKANGOUREX…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Frlg/scripts.inc",
+  "ligne": 244,
+  "note": "FuchsiaCity_Frlg, EventScript_SubstituteTaught (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "My father is the GYM LEADER of\\nthis town.\\pI'm training to use POISON POKéMON\\nas well as my father.",
+  "msgstr": "Mon père est le Champion d’Arène de\\ncette ville.\\pJe m’entraîne à utiliser les Pokémon\\nPoison aussi bien que lui.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Frlg/scripts.inc",
+  "ligne": 248,
+  "note": "FuchsiaCity_Frlg, Lass (msgbox) ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "KOGA: Fwahahaha!\\pA mere child like you dares to\\nchallenge me?\\pThe very idea makes me shiver\\nwith mirth!\\pVery well, I shall show you true\\nterror as a ninja master.\\pPoison brings steady doom.\\nSleep renders foes helpless.\\pDespair to the creeping horror of\\nPOISON-type POKéMON!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgstr": "Koga: Fwahahaha!\\pUn simple enfant comme toi ose me\\ndéfier?\\pRien que cette idée me fait frémir de\\nrire!\\pTrès bien, je vais te montrer la vraie\\nterreur d’un maître ninja.\\pLe poison apporte une mort lente. Le\\nsommeil rend l’ennemi impuissant.\\pDésespère face à l’horreur rampante\\ndes Pokémon de type Poison!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 93,
+  "note": "FuchsiaCity_Gym_Frlg, Dresseur LEADER_KOGA (intro) ; tutoiement ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "Humph!\\nYou have proven your worth!\\pHere!\\nTake the SOULBADGE!",
+  "msgstr": "Hmph! Tu as prouvé ta valeur!\\pTiens! Prends le Badge Âme!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 106,
+  "note": "FuchsiaCity_Gym_Frlg, Dresseur LEADER_KOGA (défaite) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "When afflicted by TOXIC, a POKéMON\\nsuffers more and more.\\pIt suffers worsening damage as the\\nbattle wears on!\\pIt will surely terrorize foes!",
+  "msgstr": "Quand il est touché par Toxik, un\\nPokémon souffre de plus en plus.\\pLes dégâts s’aggravent au fil du\\ncombat!\\pÇa terrorisera sûrement tes ennemis!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 112,
+  "note": "FuchsiaCity_Gym_Frlg, Koga (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Now that you have the SOULBADGE,\\nthe DEFENSE of your POKéMON rises.\\pIt also lets you SURF outside of\\nbattle.\\pAh!\\nTake this, too!",
+  "msgstr": "Maintenant que tu as le Badge Âme, la\\nDÉFENSE de tes Pokémon augmente.\\pIl te permet aussi d’utiliser Surf\\nhors combat.\\pAh! Prends ceci aussi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 119,
+  "note": "FuchsiaCity_Gym_Frlg, GiveTM06 (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received TM06\\nfrom KOGA.",
+  "msgstr": "{PLAYER} reçoit la CT06\\nde la part de Koga.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 127,
+  "note": "FuchsiaCity_Gym_Frlg, GiveTM06 (giveitem_msg) [non compilé]"
+ },
+ {
+  "msgid": "Sealed within that TM06 lies\\nTOXIC!\\pIt is a secret technique dating\\nback some four hundred years.",
+  "msgstr": "Dans cette CT06 est scellée la\\ncapacité Toxik!\\pC’est une technique secrète vieille\\nde quatre cents ans.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 131,
+  "note": "FuchsiaCity_Gym_Frlg, GiveTM06 (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Strength isn't the key for POKéMON.\\nDo you understand this?\\pPOKéMON is about strategy!\\pI'll show you how strategy can\\nbeat brute strength.",
+  "msgstr": "La force n’est pas la clé avec les\\nPokémon. Tu comprends ça?\\pLes Pokémon, c’est une affaire de\\nstratégie!\\pJe vais te montrer comment la\\nstratégie peut vaincre la force\\lbrute.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 140,
+  "note": "FuchsiaCity_Gym_Frlg, Dresseur JUGGLER_KAYDEN (intro) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "What?\\nExtraordinary!",
+  "msgstr": "Quoi?\\nExtraordinaire!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 147,
+  "note": "FuchsiaCity_Gym_Frlg, Dresseur JUGGLER_KAYDEN (défaite) [non compilé]"
+ },
+ {
+  "msgid": "So, you mix brawn with brains?\\nGood strategy!\\pThat's remarkable for a child\\nTRAINER.",
+  "msgstr": "Alors, tu allies les muscles et la\\ncervelle? Bonne stratégie!\\pC’est remarquable pour un jeune\\nDresseur.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 151,
+  "note": "FuchsiaCity_Gym_Frlg, Kayden (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "I was a magician once upon a time.\\pBut I dreamt of becoming a ninja,\\nso I joined this GYM.",
+  "msgstr": "Autrefois, j’étais magicien.\\pMais je rêvais de devenir ninja, alors\\nj’ai rejoint cette Arène.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 157,
+  "note": "FuchsiaCity_Gym_Frlg, Dresseur JUGGLER_KIRK (intro) [non compilé]"
+ },
+ {
+  "msgid": "Even though I've lost, I will keep\\ntraining according to the teachings\\lof KOGA, my ninja master.",
+  "msgstr": "Même si j’ai perdu, je continuerai à\\nm’entraîner selon les enseignements\\lde Koga, mon maître ninja.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 165,
+  "note": "FuchsiaCity_Gym_Frlg, Kirk (msgbox) ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "Let's see you beat my special\\ntechniques!",
+  "msgstr": "Voyons si tu peux battre mes\\ntechniques spéciales!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 170,
+  "note": "FuchsiaCity_Gym_Frlg, Dresseur JUGGLER_NATE (intro) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "You had me fooled!",
+  "msgstr": "Tu m’as bien eu!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 174,
+  "note": "FuchsiaCity_Gym_Frlg, Dresseur JUGGLER_NATE (défaite) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "I like poison and sleep techniques,\\nas they linger after battle!",
+  "msgstr": "J’aime les techniques de poison et de\\nsommeil, car leurs effets persistent\\laprès le combat!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 177,
+  "note": "FuchsiaCity_Gym_Frlg, Nate (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Stop right there!\\pThe famed invisible walls of\\nFUCHSIA GYM have you frustrated?",
+  "msgstr": "Halte-là!\\pLes célèbres murs invisibles de\\nl’Arène de Parmanie te donnent du fil\\là retordre?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 181,
+  "note": "FuchsiaCity_Gym_Frlg, Dresseur TAMER_PHIL (intro) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Whoa!\\nYou've got it!",
+  "msgstr": "Ouah!\\nTu as compris!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 186,
+  "note": "FuchsiaCity_Gym_Frlg, Dresseur TAMER_PHIL (défaite) [non compilé]"
+ },
+ {
+  "msgid": "You impressed me!\\nHere's a hint!\\pLook very closely for gaps in the\\ninvisible walls!",
+  "msgstr": "Tu m’as impressionné! Voici un indice!\\pCherche bien les passages dans les\\nmurs invisibles!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 190,
+  "note": "FuchsiaCity_Gym_Frlg, Phil (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "I also study the way of the ninja\\nwith Master KOGA!\\pNinja have a long history of using\\nanimals!",
+  "msgstr": "J’étudie moi aussi la voie du ninja\\nauprès de Maître Koga!\\pLes ninjas utilisent des animaux\\ndepuis très longtemps!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 196,
+  "note": "FuchsiaCity_Gym_Frlg, Dresseur TAMER_EDGAR (intro) [non compilé]"
+ },
+ {
+  "msgid": "Awoo!",
+  "msgstr": "Aouuh!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 202,
+  "note": "FuchsiaCity_Gym_Frlg, Dresseur TAMER_EDGAR (défaite) [non compilé]"
+ },
+ {
+  "msgid": "I still have much to learn.",
+  "msgstr": "J’ai encore beaucoup à apprendre.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 205,
+  "note": "FuchsiaCity_Gym_Frlg, Edgar (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Master KOGA comes from a long line\\nof ninjas.\\pWhat did you descend from?",
+  "msgstr": "Maître Koga descend d’une longue\\nlignée de ninjas.\\pEt toi, tu descends de quoi?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 208,
+  "note": "FuchsiaCity_Gym_Frlg, Dresseur JUGGLER_SHAWN (intro) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "You're more skilled than I'd\\nthought!",
+  "msgstr": "Tu es plus habile que je ne le pensais!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 213,
+  "note": "FuchsiaCity_Gym_Frlg, Dresseur JUGGLER_SHAWN (défaite) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Where there is light, there is\\nshadow!\\pLight and shadow!\\nWhich do you choose?",
+  "msgstr": "Là où il y a de la lumière, il y a de\\nl’ombre!\\pLa lumière ou l’ombre! Laquelle\\nchoisis-tu?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 217,
+  "note": "FuchsiaCity_Gym_Frlg, Shawn (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Yo!\\nChamp in the making!\\pFUCHSIA GYM is a tricked-up place.\\nIt's riddled with invisible walls!\\pKOGA might appear close, but he's\\nblocked off.\\pYou have to find gaps in the walls\\nto reach him.",
+  "msgstr": "Yo! Futur Champion!\\pL’Arène de Parmanie est pleine de\\npièges. Elle est truffée de murs\\linvisibles!\\pKoga a l’air tout près, mais le passage\\nest bloqué.\\pTu dois trouver les ouvertures dans\\nles murs pour l’atteindre.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 223,
+  "note": "FuchsiaCity_Gym_Frlg, GymGuy (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "It's amazing how ninja can terrify,\\neven now!",
+  "msgstr": "C’est fou comme les ninjas peuvent\\nencore terrifier, même de nos jours!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 233,
+  "note": "FuchsiaCity_Gym_Frlg, GymGuyPostVictory (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "FUCHSIA POKéMON GYM\\nLEADER: KOGA\\pWINNING TRAINERS:\\n{RIVAL}",
+  "msgstr": "Arène Pokémon de Parmanie\\nChampion: Koga\\pVainqueurs:\\n{RIVAL}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 237,
+  "note": "FuchsiaCity_Gym_Frlg, GymStatue (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "FUCHSIA POKéMON GYM\\nLEADER: KOGA\\pWINNING TRAINERS:\\n{RIVAL}, {PLAYER}",
+  "msgstr": "Arène Pokémon de Parmanie\\nChampion: Koga\\pVainqueurs:\\n{RIVAL}, {PLAYER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 243,
+  "note": "FuchsiaCity_Gym_Frlg, GymStatuePostVictory (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "The SAFARI ZONE's WARDEN is old, \\nbut he's still very much active.\\pAll his teeth are false, though.",
+  "msgstr": "Le Gardien du Parc Safari est vieux,\\nmais il est encore très actif.\\pPar contre, toutes ses dents sont\\nfausses.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_House1_Frlg/scripts.inc",
+  "ligne": 21,
+  "note": "FuchsiaCity_House1_Frlg, Woman (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Hmm?\\nYou've met BILL?\\pHe's my grandson!\\pHe always liked collecting things,\\neven as a child!",
+  "msgstr": "Hmm? Tu as rencontré Léo?\\pC’est mon petit-fils!\\pIl a toujours aimé collectionner des\\nchoses, même tout petit!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_House1_Frlg/scripts.inc",
+  "ligne": 26,
+  "note": "FuchsiaCity_House1_Frlg, OldMan (msgbox) ; tutoiement ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "BILL files his own POKéMON data on\\nhis PC.\\pDid he show you?",
+  "msgstr": "Léo classe ses propres données sur\\nles Pokémon dans son PC.\\pIl te les a montrées?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_House1_Frlg/scripts.inc",
+  "ligne": 33,
+  "note": "FuchsiaCity_House1_Frlg, LittleBoy (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "I'm the FISHING GURU's older\\nbrother.\\pI simply looove fishing!\\nI can't bear to go without.\\pTell me, do you like to fish?",
+  "msgstr": "Je suis le grand frère du Maître\\nPêcheur.\\pJ’adoooore la pêche! Je ne peux pas\\nm’en passer.\\pDis-moi, tu aimes pêcher?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_House2_Frlg/scripts.inc",
+  "ligne": 35,
+  "note": "FuchsiaCity_House2_Frlg, FishingGurusBrother (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Grand! I like your style.\\nI think we can be friends.\\pTake this and fish, young friend!",
+  "msgstr": "Formidable! J’aime ton style. Je pense\\nqu’on peut devenir amis.\\pPrends ceci et va pêcher, mon jeune\\nami!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_House2_Frlg/scripts.inc",
+  "ligne": 42,
+  "note": "FuchsiaCity_House2_Frlg, GiveGoodRod (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received a GOOD ROD from\\nthe FISHING GURU's brother.",
+  "msgstr": "{PLAYER} reçoit une Super Canne de la\\npart du frère du Maître Pêcheur.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_House2_Frlg/scripts.inc",
+  "ligne": 47,
+  "note": "FuchsiaCity_House2_Frlg, GiveGoodRod (giveitem_msg) [non compilé]"
+ },
+ {
+  "msgid": "Fishing is a way of life!\\nIt is like the finest poetry.\\pA crummy OLD ROD could only catch\\nMAGIKARP, yes?\\pBut with a GOOD ROD, you can\\ncatch much better POKéMON.",
+  "msgstr": "La pêche, c’est un art de vivre! C’est\\ncomme la plus belle des poésies.\\pAvec une vieille Canne, on ne pouvait\\nattraper que des MAGICARPE, pas\\lvrai?\\pMais avec une Super Canne, tu peux\\nattraper de bien meilleurs Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_House2_Frlg/scripts.inc",
+  "ligne": 51,
+  "note": "FuchsiaCity_House2_Frlg, GiveGoodRod (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Hello there, {PLAYER}!\\pHow are the fish biting?",
+  "msgstr": "Bonjour, {PLAYER}!\\pAlors, ça mord?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_House2_Frlg/scripts.inc",
+  "ligne": 63,
+  "note": "FuchsiaCity_House2_Frlg, AlreadyGotGoodRod (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Oh, no!\\pI had a gift for you, but you have\\nno room for it!",
+  "msgstr": "Oh, non!\\pJ’avais un cadeau pour toi, mais tu\\nn’as pas de place pour le prendre!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_House2_Frlg/scripts.inc",
+  "ligne": 67,
+  "note": "FuchsiaCity_House2_Frlg, NoRoomForGoodRod (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Uh…\\nOh, yes, I'm the MOVE DELETER.\\pI can make POKéMON forget their\\nmoves.\\pWould you like me to do that?",
+  "msgstr": "Hum… Ah, oui, je suis l’Effaceur de\\nCapacités.\\pJe peux faire oublier leurs capacités\\naux Pokémon.\\pTu veux que je le fasse?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_House3_Frlg/scripts.inc",
+  "ligne": 57,
+  "note": "FuchsiaCity_House3_Frlg, MoveDeleter (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "{STR_VAR_1} seems to know only one\\nmove…",
+  "msgstr": "{STR_VAR_1} ne semble connaître\\nqu’une seule capacité…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_House3_Frlg/scripts.inc",
+  "ligne": 71,
+  "note": "FuchsiaCity_House3_Frlg, CantForgetOnlyMove (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Come again if there are other\\nmoves to be forgotten.",
+  "msgstr": "Reviens me voir si tu veux faire\\noublier d’autres capacités.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_House3_Frlg/scripts.inc",
+  "ligne": 84,
+  "note": "FuchsiaCity_House3_Frlg, CancelForgetMove (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Don't they have any pennants\\npromoting the SAFARI ZONE?\\pHow about some paper lanterns?\\nAren't there even any calendars?",
+  "msgstr": "Ils n’ont pas de fanions à l’effigie du\\nParc Safari?\\pEt des lanternes en papier? Il n’y a\\nmême pas de calendriers?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Mart_Frlg/scripts.inc",
+  "ligne": 35,
+  "note": "FuchsiaCity_Mart_Frlg, Gentleman (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Did you try X SPEED?\\nIt speeds up a POKéMON in battle.",
+  "msgstr": "Tu as essayé Vitesse +? Ça accélère\\nun Pokémon en combat.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_Mart_Frlg/scripts.inc",
+  "ligne": 41,
+  "note": "FuchsiaCity_Mart_Frlg, CooltrainerF (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "You can't become a good TRAINER\\nwith just one strong POKéMON.\\pBut raising many POKéMON evenly\\nis no easy task, either.",
+  "msgstr": "On ne peut pas devenir un bon\\nDresseur avec un seul Pokémon\\lpuissant.\\pMais élever beaucoup de Pokémon de\\nmanière égale n’est pas facile non\\lplus.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 30,
+  "note": "FuchsiaCity_PokemonCenter_1F_Frlg, Man (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "There's a narrow trail west of\\nVIRIDIAN CITY.\\pIt goes to the POKéMON LEAGUE HQ.\\nThe HQ governs all TRAINERS.",
+  "msgstr": "Il y a un sentier étroit à l’ouest de\\nJadielle.\\pIl mène au QG de la Ligue Pokémon. Le\\nQG régit tous les Dresseurs.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 36,
+  "note": "FuchsiaCity_PokemonCenter_1F_Frlg, CooltrainerF (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "If you're working on a POKéDEX,\\nvisit the SAFARI ZONE.\\pAll sorts of rare POKéMON breed\\nthere.",
+  "msgstr": "Si tu complètes un Pokédex, va au\\nParc Safari.\\pToutes sortes de Pokémon rares y\\nvivent.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 42,
+  "note": "FuchsiaCity_PokemonCenter_1F_Frlg, Youngster (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Welcome to the SAFARI ZONE!",
+  "msgstr": "Bienvenue au Parc Safari!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Entrance_Frlg/scripts.inc",
+  "ligne": 209,
+  "note": "FuchsiaCity_SafariZone_Entrance_Frlg, AskEnterSafariZone (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "For just ¥500, you can play the\\nSAFARI GAME.\\pYou can roam the wide-open safari\\nand catch what you like.\\pWould you like to play?",
+  "msgstr": "Pour seulement 500 ¥, vous pouvez\\nparticiper au Jeu Safari.\\pVous pourrez parcourir le vaste parc\\net attraper tous les Pokémon qu’il\\lvous plaira.\\pVoulez-vous jouer?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Entrance_Frlg/scripts.inc",
+  "ligne": 212,
+  "note": "FuchsiaCity_SafariZone_Entrance_Frlg, AskEnterSafariZone (msgbox) ; vouvoiement [non compilé]"
+ },
+ {
+  "msgid": "That'll be ¥500, please!\\pWe only use a special kind of \\nPOKé BALLS here.",
+  "msgstr": "Ce sera 500 ¥, s’il vous plaît!\\pIci, nous n’utilisons qu’un type\\nspécial de Poké Ball.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Entrance_Frlg/scripts.inc",
+  "ligne": 219,
+  "note": "FuchsiaCity_SafariZone_Entrance_Frlg, TryEnterSafariZone (msgbox) ; vouvoiement [non compilé]"
+ },
+ {
+  "msgid": "We'll call you on the PA when you\\nrun out of time or SAFARI BALLS.\\pWell, I'll wish you the best of\\nluck!",
+  "msgstr": "Nous vous appellerons par\\nhaut-parleur quand votre temps sera\\lécoulé ou que vous n’aurez plus de\\lSafari Balls.\\pEh bien, je vous souhaite bonne\\nchance!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Entrance_Frlg/scripts.inc",
+  "ligne": 228,
+  "note": "FuchsiaCity_SafariZone_Entrance_Frlg, TryEnterSafariZone (msgbox) ; vouvoiement [non compilé]"
+ },
+ {
+  "msgid": "Oops!\\nNot enough money!",
+  "msgstr": "Oups!\\nPas assez d’argent!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Entrance_Frlg/scripts.inc",
+  "ligne": 238,
+  "note": "FuchsiaCity_SafariZone_Entrance_Frlg, NotEnoughMoney (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Are you going to leave the\\nSAFARI ZONE early?",
+  "msgstr": "Voulez-vous quitter le Parc Safari\\nplus tôt?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Entrance_Frlg/scripts.inc",
+  "ligne": 242,
+  "note": "FuchsiaCity_SafariZone_Entrance_Frlg, ExitEarly (msgbox) ; vouvoiement [non compilé]"
+ },
+ {
+  "msgid": "Please return any SAFARI BALLS\\nyou may have left.",
+  "msgstr": "Veuillez rendre les Safari Balls qui\\nvous restent.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Entrance_Frlg/scripts.inc",
+  "ligne": 246,
+  "note": "FuchsiaCity_SafariZone_Entrance_Frlg, ExitEarly (msgbox) ; vouvoiement [non compilé]"
+ },
+ {
+  "msgid": "Did you catch your fair share?\\nCome again!",
+  "msgstr": "Avez-vous attrapé votre part?\\nRevenez nous voir!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Entrance_Frlg/scripts.inc",
+  "ligne": 253,
+  "note": "FuchsiaCity_SafariZone_Entrance_Frlg, ExitWarpIn (msgbox) ; vouvoiement [non compilé]"
+ },
+ {
+  "msgid": "The SAFARI ZONE actually has\\nfour zones in it.\\pEach zone has different kinds of\\nPOKéMON, even some rare ones.\\pUse the supplied SAFARI BALLS to\\ncatch them.\\pYou can also throw BAIT or ROCKS\\nbesides the SAFARI BALLS.\\pIf you throw BAIT, the POKéMON\\nbecomes less likely to flee, but\\lharder to catch.\\pIf you throw ROCKS, the POKéMON\\nbecomes more likely to flee, but\\leasier to catch.\\pWhen you run out of time or SAFARI\\nBALLS, it's game over for you!",
+  "msgstr": "Le Parc Safari comporte en fait\\nquatre zones.\\pChaque zone abrite des Pokémon\\ndifférents, parfois même des espèces\\lrares.\\pUtilisez les Safari Balls fournies\\npour les attraper.\\pEn plus des Safari Balls, vous pouvez\\naussi lancer des Appâts ou des\\lCailloux.\\pSi vous lancez un Appât, le Pokémon\\nrisque moins de fuir, mais il est plus\\ldur à attraper.\\pSi vous lancez un Caillou, le Pokémon\\nrisque plus de fuir, mais il est plus\\lfacile à attraper.\\pQuand votre temps est écoulé ou que\\nvous n’avez plus de Safari Balls, la\\lpartie est terminée!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Entrance_Frlg/scripts.inc",
+  "ligne": 261,
+  "note": "FuchsiaCity_SafariZone_Entrance_Frlg, ExplainSafariZone (msgbox) ; vouvoiement [non compilé]"
+ },
+ {
+  "msgid": "Sorry, you're a regular here!",
+  "msgstr": "Désolé, vous êtes un habitué!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Entrance_Frlg/scripts.inc",
+  "ligne": 279,
+  "note": "FuchsiaCity_SafariZone_Entrance_Frlg, InfoAttendant (msgbox) ; vouvoiement [non compilé]"
+ },
+ {
+  "msgid": "We nicknamed the WARDEN\\n“SLOWPOKE.”\\pYou know, he has that vacant look\\nlike a SLOWPOKE.",
+  "msgstr": "On a surnommé le Gardien “RAMOLOSS”.\\pTu sais, il a ce regard vide, comme un\\nRAMOLOSS.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Office_Frlg/scripts.inc",
+  "ligne": 21,
+  "note": "FuchsiaCity_SafariZone_Office_Frlg, Worker1 (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "WARDEN SLOWPOKE is very\\nknowledgeable about POKéMON.\\pHe even has some fossils of rare,\\nextinct POKéMON.",
+  "msgstr": "Le Gardien RAMOLOSS en connaît un\\nrayon sur les Pokémon.\\pIl possède même des fossiles de\\nPokémon rares et disparus.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Office_Frlg/scripts.inc",
+  "ligne": 27,
+  "note": "FuchsiaCity_SafariZone_Office_Frlg, Worker2 (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "WARDEN SLOWPOKE came in, but\\nI couldn't understand him.\\pI think he's got a speech problem!",
+  "msgstr": "Le Gardien RAMOLOSS est passé, mais\\nje n’ai rien compris à ce qu’il disait.\\pJe crois qu’il a un problème\\nd’élocution!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Office_Frlg/scripts.inc",
+  "ligne": 33,
+  "note": "FuchsiaCity_SafariZone_Office_Frlg, Worker3 (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "WARDEN SLOWPOKE is running a\\npromotion campaign right now.\\pTry to get to the farthest corner\\nof the SAFARI ZONE.\\pIf you can make it, you'll win a\\nvery convenient prize.",
+  "msgstr": "Le Gardien RAMOLOSS organise une\\ncampagne promotionnelle en ce\\lmoment.\\pEssaie d’atteindre le coin le plus\\néloigné du Parc Safari.\\pSi tu y arrives, tu gagneras un lot\\ntrès pratique.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_SafariZone_Office_Frlg/scripts.inc",
+  "ligne": 38,
+  "note": "FuchsiaCity_SafariZone_Office_Frlg, Worker4 (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "WARDEN: Hif fuff hefifoo!\\pHa lof ha feef ee hafahi ho.\\nHeff hee fwee!",
+  "msgstr": "Gardien: Hif fuff héfifou!\\pF’ai ferfu fes fents fans fe Farc\\nFafari. Fu feux m’aifer?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_WardensHouse_Frlg/scripts.inc",
+  "ligne": 62,
+  "note": "FuchsiaCity_WardensHouse_Frlg, Warden (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Ah howhee ho hoo!\\nEef ee hafahi ho!",
+  "msgstr": "Ah fouffe fo fou!\\nF’est fans fe Farc Fafari!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_WardensHouse_Frlg/scripts.inc",
+  "ligne": 67,
+  "note": "FuchsiaCity_WardensHouse_Frlg, WardenYes (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Ha?\\nHe ohay heh ha hoo ee haheh!",
+  "msgstr": "Ha?\\nFe fois fas fon, fe fe fafe!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_WardensHouse_Frlg/scripts.inc",
+  "ligne": 71,
+  "note": "FuchsiaCity_WardensHouse_Frlg, WardenNo (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} gave the GOLD TEETH\\nto the WARDEN.",
+  "msgstr": "{PLAYER} donne le Dentier en Or\\nau Gardien.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_WardensHouse_Frlg/scripts.inc",
+  "ligne": 75,
+  "note": "FuchsiaCity_WardensHouse_Frlg, GiveGoldTeeth (message) ; GOLD TEETH = Dentier en Or (Poképédia, page Dentier en Or) [non compilé]"
+ },
+ {
+  "msgid": "The WARDEN popped in his teeth!",
+  "msgstr": "Le Gardien remet son dentier!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_WardensHouse_Frlg/scripts.inc",
+  "ligne": 79,
+  "note": "FuchsiaCity_WardensHouse_Frlg, GiveGoldTeeth (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "WARDEN: Thanks, son!\\nYou're a real lifesaver!\\pNo one could understand a word\\nthat I said, not a one!\\pI was too ashamed to show my face\\naround the OFFICE, even.\\pLet me give you something for your\\ntrouble.",
+  "msgstr": "Gardien: Merci, mon garçon! Tu me\\nsauves la vie!\\pPersonne ne comprenait un traître\\nmot de ce que je disais, personne!\\pJ’avais même trop honte pour me\\nmontrer au Bureau.\\pLaisse-moi te donner quelque chose\\npour ta peine.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_WardensHouse_Frlg/scripts.inc",
+  "ligne": 82,
+  "note": "FuchsiaCity_WardensHouse_Frlg, WardenThanksMale (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "WARDEN: Thank you, lassie!\\nYou're a real lifesaver!\\pNo one could understand a word\\nthat I said, not a one!\\pI was too ashamed to show my face\\naround the OFFICE, even.\\pLet me give you something for your\\ntrouble.",
+  "msgstr": "Gardien: Merci, ma petite! Tu me\\nsauves la vie!\\pPersonne ne comprenait un traître\\nmot de ce que je disais, personne!\\pJ’avais même trop honte pour me\\nmontrer au Bureau.\\pLaisse-moi te donner quelque chose\\npour ta peine.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_WardensHouse_Frlg/scripts.inc",
+  "ligne": 92,
+  "note": "FuchsiaCity_WardensHouse_Frlg, WardenThanksFemale (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received HM04\\nfrom the WARDEN.",
+  "msgstr": "{PLAYER} reçoit la CS04\\nde la part du Gardien.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_WardensHouse_Frlg/scripts.inc",
+  "ligne": 102,
+  "note": "FuchsiaCity_WardensHouse_Frlg, GiveGoldTeeth (giveitem_msg) [non compilé]"
+ },
+ {
+  "msgid": "WARDEN: Inside HM04 you'll find\\nSTRENGTH.\\pIt lets POKéMON move boulders when\\nyou're outside of battle.\\pOh yes, did you find the SECRET\\nHOUSE in the SAFARI ZONE?",
+  "msgstr": "Gardien: Dans la CS04, tu trouveras\\nForce.\\pElle permet aux Pokémon de déplacer\\ndes rochers hors combat.\\pAh oui, tu as trouvé la Maison Secrète\\ndans le Parc Safari?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_WardensHouse_Frlg/scripts.inc",
+  "ligne": 106,
+  "note": "FuchsiaCity_WardensHouse_Frlg, ExplainStrength (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "POKéMON photos and fossils are on\\ndisplay.",
+  "msgstr": "Des photos et des fossiles de\\nPokémon sont exposés.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_WardensHouse_Frlg/scripts.inc",
+  "ligne": 119,
+  "note": "FuchsiaCity_WardensHouse_Frlg, panneau / objet (DisplaySign1) [non compilé]"
+ },
+ {
+  "msgid": "Old POKéMON merchandise is on\\ndisplay.",
+  "msgstr": "De vieux produits dérivés Pokémon\\nsont exposés.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/FuchsiaCity_WardensHouse_Frlg/scripts.inc",
+  "ligne": 123,
+  "note": "FuchsiaCity_WardensHouse_Frlg, panneau / objet (DisplaySign2) [non compilé]"
+ },
+ {
+  "msgid": "Yo!\\nChamp in the making!\\pAt the POKéMON LEAGUE, you will\\nface the ELITE FOUR all in a row.\\pIf you lose, you have to start all\\nover again!\\pThis is it!\\nGo for it!",
+  "msgstr": "Yo! Futur Champion!\\pÀ la Ligue Pokémon, tu vas affronter\\nle Conseil 4 à la suite.\\pSi tu perds, tu dois tout recommencer\\ndepuis le début!\\pC’est le moment! Fonce!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/IndigoPlateau_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 72,
+  "note": "IndigoPlateau_PokemonCenter_1F_Frlg, GymGuy (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "From here on, you face the\\nELITE FOUR one by one.\\pIf you win, a door opens to the\\nnext TRAINER. Good luck!",
+  "msgstr": "À partir d’ici, vous affronterez les\\nmembres du Conseil 4 un par un.\\pSi vous gagnez, une porte s’ouvre\\nvers le Dresseur suivant. Bonne\\lchance!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/IndigoPlateau_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 82,
+  "note": "IndigoPlateau_PokemonCenter_1F_Frlg, SeviiIslandComplete (msgbox) ; vouvoiement [non compilé]"
+ },
+ {
+  "msgid": "I am so sorry, but you've wasted\\nyour time coming here.\\pLORELEI of the ELITE FOUR is\\nabsent, you see.\\pAs a result, the POKéMON LEAGUE is\\nclosed for the time being.",
+  "msgstr": "Je suis vraiment désolée, mais vous\\nêtes venu pour rien.\\pVoyez-vous, Olga du Conseil 4 est\\nabsente.\\pPar conséquent, la Ligue Pokémon est\\nfermée pour le moment.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/IndigoPlateau_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 88,
+  "note": "IndigoPlateau_PokemonCenter_1F_Frlg, CheckSeviiIslandComplete (msgbox) ; vouvoiement [non compilé]"
+ },
+ {
+  "msgid": "AGATHA's GHOST-type POKéMON are\\nhorrifically terrifying in toughness.\\pI took my FIGHTING-type POKéMON\\nand raised them to the max.\\pI went at AGATHA feeling pretty\\nconfident, but she whupped us.\\pThat old lady's also got a really\\nshort fuse, too.\\pIt doesn't take anything to get\\nthat scary lady hollering.",
+  "msgstr": "Les Pokémon de type Spectre d’Agatha\\nsont d’une résistance horriblement\\lterrifiante.\\pJ’ai pris mes Pokémon de type Combat\\net je les ai entraînés au maximum.\\pJ’ai attaqué Agatha plein de\\nconfiance, mais elle nous a écrasés.\\pCette vieille dame a aussi un sale\\ncaractère.\\pIl ne faut pas grand-chose pour\\nqu’elle se mette à hurler.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/IndigoPlateau_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 96,
+  "note": "IndigoPlateau_PokemonCenter_1F_Frlg, BlackBelt (msgbox) ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "Maybe becoming an ELITE FOUR\\nmember is in the blood.\\pFrom what I've heard, LANCE has\\na cousin who's a GYM LEADER\\lsomewhere far away.",
+  "msgstr": "Peut-être que devenir membre du\\nConseil 4, c’est dans le sang.\\pD’après ce que j’ai entendu, Peter a\\nune cousine qui est Championne\\ld’Arène quelque part très loin.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/IndigoPlateau_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 108,
+  "note": "IndigoPlateau_PokemonCenter_1F_Frlg, CooltrainerM (msgbox) ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "Do you believe in ghosts?",
+  "msgstr": "Tu crois aux fantômes?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_Frlg/scripts.inc",
+  "ligne": 50,
+  "note": "LavenderTown_Frlg, LittleGirl (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Really?\\nSo there are believers…",
+  "msgstr": "Vraiment?\\nAlors il y a des gens qui y croient…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_Frlg/scripts.inc",
+  "ligne": 53,
+  "note": "LavenderTown_Frlg, LittleGirlBelieve (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Hahaha, I guess not.\\pThat white hand on your shoulder…\\nI'm just imagining it.",
+  "msgstr": "Hahaha, j’imagine que non.\\pCette main blanche sur ton épaule… Je\\ndois l’imaginer.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_Frlg/scripts.inc",
+  "ligne": 57,
+  "note": "LavenderTown_Frlg, LittleGirl (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "This town is known as the grave\\nsite of POKéMON.\\pMemorial services are held in\\nPOKéMON TOWER.",
+  "msgstr": "Cette ville est connue pour être le\\ncimetière des Pokémon.\\pDes cérémonies funéraires ont lieu à\\nla Tour Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_Frlg/scripts.inc",
+  "ligne": 62,
+  "note": "LavenderTown_Frlg, WorkerM (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Ghosts appeared in POKéMON TOWER.\\pI think they're the spirits of\\nPOKéMON that the ROCKETS killed.",
+  "msgstr": "Des fantômes sont apparus dans la\\nTour Pokémon.\\pJe pense que ce sont les esprits des\\nPokémon tués par la Team Rocket.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_Frlg/scripts.inc",
+  "ligne": 68,
+  "note": "LavenderTown_Frlg, Boy (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "LAVENDER TOWN\\nThe Noble Purple Town",
+  "msgstr": "Lavanville\\nLa noble ville pourpre",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_Frlg/scripts.inc",
+  "ligne": 73,
+  "note": "LavenderTown_Frlg, panneau / objet (TownSign) [non compilé]"
+ },
+ {
+  "msgid": "New SILPH SCOPE!\\nMake the Invisible Plain to See!\\pSILPH CO.",
+  "msgstr": "Nouveau Scope Sylphe!\\nRendez l’invisible visible!\\pSylphe SARL",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_Frlg/scripts.inc",
+  "ligne": 77,
+  "note": "LavenderTown_Frlg, panneau / objet (SilphScopeNotice) [non compilé]"
+ },
+ {
+  "msgid": "POKéMON TOWER\\nBecalm the Spirits of POKéMON",
+  "msgstr": "Tour Pokémon\\nApaisez les esprits des Pokémon",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_Frlg/scripts.inc",
+  "ligne": 86,
+  "note": "LavenderTown_Frlg, panneau / objet (PokemonTowerSign) [non compilé]"
+ },
+ {
+  "msgid": "CUBONE: Kyarugoo!",
+  "msgstr": "OSSELAIT: Kyarugoo!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_House1_Frlg/scripts.inc",
+  "ligne": 28,
+  "note": "LavenderTown_House1_Frlg, Cubone (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Those horrible ROCKETS!\\nThey deserve no mercy!\\pThat poor CUBONE's mother…\\pIt was killed trying to escape from\\nTEAM ROCKET.",
+  "msgstr": "Ces horribles Rocket! Ils ne méritent\\naucune pitié!\\pLa mère de ce pauvre OSSELAIT…\\pElle a été tuée en essayant\\nd’échapper à la Team Rocket.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_House1_Frlg/scripts.inc",
+  "ligne": 31,
+  "note": "LavenderTown_House1_Frlg, CooltrainerF (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "The ghost of POKéMON TOWER is\\ngone!\\pSomeone must have soothed its\\nrestless spirit!",
+  "msgstr": "Le fantôme de la Tour Pokémon a\\ndisparu!\\pQuelqu’un a dû apaiser son esprit\\ntourmenté!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_House1_Frlg/scripts.inc",
+  "ligne": 38,
+  "note": "LavenderTown_House1_Frlg, CooltrainerFGhostGone (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "I'm searching for items that raise\\nthe stats of POKéMON.\\pThey're effective over the course\\nof a single battle.\\pX ATTACK, X DEFEND, X SPEED, \\nand X SPECIAL are what I'm after.\\pDo you know where I can get them?",
+  "msgstr": "Je cherche des objets qui augmentent\\nles stats des Pokémon.\\pIls font effet pendant tout un\\ncombat.\\pAttaque +, Défense +, Vitesse + et\\nSpécial +, voilà ce que je cherche.\\pTu sais où je peux en trouver?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_Mart_Frlg/scripts.inc",
+  "ligne": 42,
+  "note": "LavenderTown_Mart_Frlg, BaldingMan (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "Did you buy some REVIVES?\\nThey revive any fainted POKéMON!",
+  "msgstr": "Tu as acheté des Rappels? Ils\\nraniment n’importe quel Pokémon K.O.!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_Mart_Frlg/scripts.inc",
+  "ligne": 51,
+  "note": "LavenderTown_Mart_Frlg, Rocker (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Sometimes, a TRAINER duo will\\nchallenge you with two POKéMON\\lat the same time.\\pIf that happens, you have to send\\nout two POKéMON to battle, too.",
+  "msgstr": "Parfois, un duo de Dresseurs te défie\\navec deux Pokémon en même temps.\\pDans ce cas, tu dois toi aussi envoyer\\ndeux Pokémon au combat.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_Mart_Frlg/scripts.inc",
+  "ligne": 55,
+  "note": "LavenderTown_Mart_Frlg, Youngster (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "TEAM ROCKET will do anything for\\nthe sake of money!\\pThere is no job too dirty, no deed\\ntoo heinous, no crime too wicked!",
+  "msgstr": "La Team Rocket ferait n’importe quoi\\npour de l’argent!\\pAucun travail n’est trop sale, aucun\\nacte trop odieux, aucun crime trop\\lvil!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 30,
+  "note": "LavenderTown_PokemonCenter_1F_Frlg, Gentleman (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "I saw CUBONE's mother trying to\\nescape from TEAM ROCKET.\\pShe was killed trying to get away…",
+  "msgstr": "J’ai vu la mère d’OSSELAIT essayer\\nd’échapper à la Team Rocket.\\pElle a été tuée en tentant de\\ns’enfuir…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 36,
+  "note": "LavenderTown_PokemonCenter_1F_Frlg, Lass (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "You know how the CUBONE species\\nwears skulls, right?\\pPeople will pay a lot for one.",
+  "msgstr": "Tu sais que les OSSELAIT portent un\\ncrâne, pas vrai?\\pCertaines personnes paient très cher\\npour en avoir un.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 41,
+  "note": "LavenderTown_PokemonCenter_1F_Frlg, Youngster (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "I recently moved to this town.\\pI hear that MR. FUJI's not from\\nthese parts originally, either.",
+  "msgstr": "Je viens d’emménager dans cette ville.\\pIl paraît que M. Fuji n’est pas non\\nplus d’ici, à l’origine.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_VolunteerPokemonHouse_Frlg/scripts.inc",
+  "ligne": 84,
+  "note": "LavenderTown_VolunteerPokemonHouse_Frlg, BaldingMan (msgbox) ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "That's odd, MR. FUJI isn't here.\\nWhere'd he go?",
+  "msgstr": "C’est bizarre, M. Fuji n’est pas là. Où\\nest-il passé?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_VolunteerPokemonHouse_Frlg/scripts.inc",
+  "ligne": 89,
+  "note": "LavenderTown_VolunteerPokemonHouse_Frlg, Youngster (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "MR. FUJI had been praying alone\\nfor CUBONE's mother.",
+  "msgstr": "M. Fuji priait seul pour la mère\\nd’OSSELAIT.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_VolunteerPokemonHouse_Frlg/scripts.inc",
+  "ligne": 93,
+  "note": "LavenderTown_VolunteerPokemonHouse_Frlg, YoungsterFujiBack (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "This is really MR. FUJI's house.\\pHe's really kind.\\pHe looks after abandoned and\\norphaned POKéMON.",
+  "msgstr": "C’est bien la maison de M. Fuji.\\pIl est vraiment gentil.\\pIl s’occupe des Pokémon abandonnés\\net orphelins.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_VolunteerPokemonHouse_Frlg/scripts.inc",
+  "ligne": 97,
+  "note": "LavenderTown_VolunteerPokemonHouse_Frlg, LittleGirl (msgbox) ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "It's so warm!\\nPOKéMON are so nice to hug.",
+  "msgstr": "C’est tout chaud!\\nC’est si bon de câliner les Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_VolunteerPokemonHouse_Frlg/scripts.inc",
+  "ligne": 103,
+  "note": "LavenderTown_VolunteerPokemonHouse_Frlg, LittleBoy (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "NIDORINO: Gaoo!",
+  "msgstr": "NIDORINO: Gaoo!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_VolunteerPokemonHouse_Frlg/scripts.inc",
+  "ligne": 107,
+  "note": "LavenderTown_VolunteerPokemonHouse_Frlg, Nidorino (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "PSYDUCK: Gwappa!",
+  "msgstr": "PSYKOKWAK: Kwak!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_VolunteerPokemonHouse_Frlg/scripts.inc",
+  "ligne": 110,
+  "note": "LavenderTown_VolunteerPokemonHouse_Frlg, Psyduck (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "MR. FUJI: {PLAYER}…\\pYour POKéDEX quest is one that\\nrequires strong dedication.\\pWithout deep love for POKéMON,\\nyour quest may fail.\\pI'm not sure if this will help you,\\nbut I'd like you to have it.",
+  "msgstr": "M. Fuji: {PLAYER}…\\pCompléter le Pokédex est une quête\\nqui demande un grand dévouement.\\pSans un profond amour pour les\\nPokémon, ta quête risque d’échouer.\\pJe ne sais pas si cela t’aidera, mais\\nj’aimerais que tu prennes ceci.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_VolunteerPokemonHouse_Frlg/scripts.inc",
+  "ligne": 113,
+  "note": "LavenderTown_VolunteerPokemonHouse_Frlg, MrFuji (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received a POKé FLUTE\\nfrom MR. FUJI.",
+  "msgstr": "{PLAYER} reçoit une Pokéflûte\\nde la part de M. Fuji.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_VolunteerPokemonHouse_Frlg/scripts.inc",
+  "ligne": 122,
+  "note": "LavenderTown_VolunteerPokemonHouse_Frlg, MrFuji (giveitem_msg) [non compilé]"
+ },
+ {
+  "msgid": "Upon hearing the POKé FLUTE,\\nsleeping POKéMON will spring awake.\\pTry using it on POKéMON that are\\nsleeping obstacles.",
+  "msgstr": "En entendant la Pokéflûte, les\\nPokémon endormis se réveillent en\\lsursaut.\\pEssaie-la sur les Pokémon endormis\\nqui te barrent la route.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_VolunteerPokemonHouse_Frlg/scripts.inc",
+  "ligne": 126,
+  "note": "LavenderTown_VolunteerPokemonHouse_Frlg, MrFuji (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "You must make room for this!",
+  "msgstr": "Tu dois faire de la place pour ceci!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_VolunteerPokemonHouse_Frlg/scripts.inc",
+  "ligne": 132,
+  "note": "LavenderTown_VolunteerPokemonHouse_Frlg, NoRoomForPokeFlute (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "MR. FUJI: Has my POKé FLUTE\\nhelped you?",
+  "msgstr": "M. Fuji: Ma Pokéflûte t’a-t-elle\\nété utile?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_VolunteerPokemonHouse_Frlg/scripts.inc",
+  "ligne": 135,
+  "note": "LavenderTown_VolunteerPokemonHouse_Frlg, AlreadyHavePokeFlute (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "POKéMON FAN MAGAZINE\\nMonthly Grand Prize Drawing!\\pThe application form is…\\pGone! It's been clipped out.\\nSomeone must have applied already.",
+  "msgstr": "Magazine des fans de Pokémon Grand\\ntirage au sort mensuel!\\pLe bulletin de participation est…\\pParti! Il a été découpé. Quelqu’un a\\ndéjà dû participer.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_VolunteerPokemonHouse_Frlg/scripts.inc",
+  "ligne": 139,
+  "note": "LavenderTown_VolunteerPokemonHouse_Frlg, PokemonFanMagazine (msgbox) ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "POKéMON magazines line the shelf.\\pPOKéMON INSIDER…\\pPOKéMON FAN…",
+  "msgstr": "Des magazines Pokémon garnissent\\nl’étagère.\\pPOKéMON INSIDER…\\pPOKéMON FAN…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/LavenderTown_VolunteerPokemonHouse_Frlg/scripts.inc",
+  "ligne": 146,
+  "note": "LavenderTown_VolunteerPokemonHouse_Frlg, panneau / objet (Bookshelf) [non compilé]"
+ },
+ {
+  "msgid": "I am AGATHA of the ELITE FOUR.\\pI hear OAK's taken a lot of\\ninterest in you, child.\\pThat old duff was once tough and\\nhandsome.\\pBut that was decades ago.\\nHe's a shadow of his former self.\\pNow he just wants to fiddle with\\nhis POKéDEX.\\pHe's wrong.\\nPOKéMON are for battling!\\p{PLAYER}! I'll show you how a real\\nTRAINER battles!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgstr": "Je suis Agatha, du Conseil 4.\\pIl paraît que Chen s’intéresse\\nbeaucoup à toi, gamin.\\pCe vieux schnock était fort et beau,\\nautrefois.\\pMais c’était il y a des décennies. Il\\nn’est plus que l’ombre de lui-même.\\pMaintenant, il ne pense qu’à bricoler\\nson Pokédex.\\pIl a tort. Les Pokémon sont faits pour\\nse battre!\\p{PLAYER}! Je vais te montrer comment\\nse bat un vrai Dresseur!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_AgathasRoom_Frlg/scripts.inc",
+  "ligne": 92,
+  "note": "PokemonLeague_AgathasRoom_Frlg, Intro (msgbox) ; tutoiement ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "I am AGATHA of the ELITE FOUR.\\pYou're the child that OAK's taken\\nunder his wing, aren't you?\\pThat old duff was once tough and\\nhandsome.\\pBut that was decades ago.\\nHe's a shadow of his former self.\\pNow he just wants to fiddle with\\nhis POKéDEX.\\pHe's wrong.\\nPOKéMON are for battling!\\p{PLAYER}! I'll show you how a real\\nTRAINER battles!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgstr": "Je suis Agatha, du Conseil 4.\\pC’est toi, le gamin que Chen a pris\\nsous son aile, n’est-ce pas?\\pCe vieux schnock était fort et beau,\\nautrefois.\\pMais c’était il y a des décennies. Il\\nn’est plus que l’ombre de lui-même.\\pMaintenant, il ne pense qu’à bricoler\\nson Pokédex.\\pIl a tort. Les Pokémon sont faits pour\\nse battre!\\p{PLAYER}! Je vais te montrer comment\\nse bat un vrai Dresseur!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_AgathasRoom_Frlg/scripts.inc",
+  "ligne": 107,
+  "note": "PokemonLeague_AgathasRoom_Frlg, RematchIntro (msgbox) ; tutoiement ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "Oh, my!\\nYou're something special, child!",
+  "msgstr": "Oh, ça alors!\\nTu es vraiment spécial, gamin!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_AgathasRoom_Frlg/scripts.inc",
+  "ligne": 122,
+  "note": "PokemonLeague_AgathasRoom_Frlg, Dresseur ELITE_FOUR_AGATHA (défaite) [non compilé]"
+ },
+ {
+  "msgid": "You win!\\pI see what the old duff sees in\\nyou now.\\pI have nothing else to say.\\nRun along now, child!",
+  "msgstr": "Tu as gagné!\\pJe comprends maintenant ce que ce\\nvieux schnock te trouve.\\pJe n’ai rien d’autre à dire. Allez, file,\\ngamin!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_AgathasRoom_Frlg/scripts.inc",
+  "ligne": 126,
+  "note": "PokemonLeague_AgathasRoom_Frlg, DefeatedAgatha (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "I am BRUNO of the ELITE FOUR!\\pThrough rigorous training, people\\nand POKéMON can become stronger\\lwithout limit.\\pI've lived and trained with my\\nfighting POKéMON!\\lAnd that will never change!\\p{PLAYER}!\\pWe will grind you down with our\\nsuperior power!\\pHoo hah!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgstr": "Je suis Aldo, du Conseil 4!\\pGrâce à un entraînement rigoureux,\\nles humains et les Pokémon peuvent\\ldevenir toujours plus forts.\\pJ’ai vécu et je me suis entraîné avec\\nmes Pokémon Combat! Et ça ne\\lchangera jamais!\\p{PLAYER}!\\pNous allons t’écraser de notre\\npuissance supérieure!\\pHou ha!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_BrunosRoom_Frlg/scripts.inc",
+  "ligne": 116,
+  "note": "PokemonLeague_BrunosRoom_Frlg, Intro (msgbox) ; tutoiement ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "My job is done.\\nGo face your next challenge.",
+  "msgstr": "Mon travail est terminé. Va relever\\nton prochain défi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_BrunosRoom_Frlg/scripts.inc",
+  "ligne": 146,
+  "note": "PokemonLeague_BrunosRoom_Frlg, DefeatedBruno (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Hey, {PLAYER}!\\pI was looking forward to seeing\\nyou, {PLAYER}.\\pMy rival should be strong to keep\\nme sharp.\\pWhile working on my POKéDEX, I\\nlooked all over for POKéMON.\\pNot only that, I assembled teams\\nthat would beat any POKéMON type.\\pAnd now…\\pI'm the POKéMON LEAGUE CHAMPION!\\p{PLAYER}!\\nDo you know what that means?\\pI'll tell you.\\pI am the most powerful TRAINER in\\nthe world!",
+  "msgstr": "{RIVAL}: Hé, {PLAYER}!\\pJ’avais hâte de te voir, {PLAYER}.\\pMon rival doit être fort pour que je\\nreste au top.\\pEn complétant mon Pokédex, j’ai\\ncherché des Pokémon partout.\\pEt ce n’est pas tout: j’ai monté des\\néquipes capables de battre n’importe\\lquel type de Pokémon.\\pEt maintenant…\\pJe suis le Maître de la Ligue Pokémon!\\p{PLAYER}! Tu sais ce que ça veut dire?\\pJe vais te le dire.\\pJe suis le Dresseur le plus puissant\\ndu monde!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc",
+  "ligne": 228,
+  "note": "PokemonLeague_ChampionsRoom_Frlg, Intro (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Hey, {PLAYER}!\\pYou came back, {PLAYER}!\\nHahah, that is so great!\\pMy rival should be strong to keep\\nme sharp.\\pWhile working on my POKéDEX, I\\nlooked all over for POKéMON.\\pNot only that, I assembled teams\\nthat would beat any POKéMON type.\\pAnd now…\\pI'm the POKéMON LEAGUE CHAMPION!\\p{PLAYER}!\\nDo you know what that means?\\pI'll tell you.\\pI am the most powerful TRAINER in\\nthe world!",
+  "msgstr": "{RIVAL}: Hé, {PLAYER}!\\pTu es revenu, {PLAYER}! Haha, c’est\\ngénial!\\pMon rival doit être fort pour que je\\nreste au top.\\pEn complétant mon Pokédex, j’ai\\ncherché des Pokémon partout.\\pEt ce n’est pas tout: j’ai monté des\\néquipes capables de battre n’importe\\lquel type de Pokémon.\\pEt maintenant…\\pJe suis le Maître de la Ligue Pokémon!\\p{PLAYER}! Tu sais ce que ça veut dire?\\pJe vais te le dire.\\pJe suis le Dresseur le plus puissant\\ndu monde!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc",
+  "ligne": 246,
+  "note": "PokemonLeague_ChampionsRoom_Frlg, RematchIntro (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "NO!\\nThat can't be!\\lYou beat me at my best!\\pAfter all that work to become\\nthe LEAGUE CHAMP?\\pMy reign is over already?\\nIt's not fair!",
+  "msgstr": "NON! C’est impossible! Tu m’as battu\\nalors que j’étais au sommet!\\pTout ce travail pour devenir Maître\\nde la Ligue?\\pMon règne est déjà fini? C’est pas\\njuste!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc",
+  "ligne": 264,
+  "note": "PokemonLeague_ChampionsRoom_Frlg, Dresseur CHAMPION_FIRST_SQUIRTLE (défaite) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Why?\\nWhy did I lose?\\pI never made any mistakes raising\\nmy POKéMON…\\pDarn it! You're the new POKéMON\\nLEAGUE CHAMPION!\\pAlthough I don't like to admit it…",
+  "msgstr": "Pourquoi? Pourquoi j’ai perdu?\\pJe n’ai jamais fait la moindre erreur\\nen élevant mes Pokémon…\\pZut! C’est toi le nouveau Maître de la\\nLigue Pokémon!\\pMême si ça me coûte de l’admettre…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc",
+  "ligne": 284,
+  "note": "PokemonLeague_ChampionsRoom_Frlg, EnterRoom (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "OAK: {PLAYER}!",
+  "msgstr": "Chen: {PLAYER}!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc",
+  "ligne": 293,
+  "note": "PokemonLeague_ChampionsRoom_Frlg, EnterRoom (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "OAK: So, you've won!\\nSincerely, congratulations!\\pYou're the new POKéMON LEAGUE\\nCHAMPION!\\pYou've grown up so much since you\\nfirst left with {STR_VAR_1} to work\\lon the POKéDEX.\\p{PLAYER}, you have come of age!",
+  "msgstr": "Chen: Alors, tu as gagné! Toutes mes\\nfélicitations, sincèrement!\\pTu es le nouveau Maître de la Ligue\\nPokémon!\\pTu as tellement grandi depuis ton\\ndépart avec {STR_VAR_1} pour\\lcompléter le Pokédex.\\p{PLAYER}, te voilà devenu adulte!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc",
+  "ligne": 296,
+  "note": "PokemonLeague_ChampionsRoom_Frlg, EnterRoom (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "OAK: {RIVAL}…\\nI'm disappointed in you.\\pI came when I heard you'd beaten\\nthe ELITE FOUR.\\pBut, when I got here, you had\\nalready lost!\\p{RIVAL}, do you understand why\\nyou lost?\\pYou have forgotten to treat your\\nPOKéMON with love and trust.\\pWithout them, you will never\\nbecome a CHAMP again!",
+  "msgstr": "Chen: {RIVAL}… Tu me déçois.\\pJe suis venu quand j’ai appris que tu\\navais battu le Conseil 4.\\pMais quand je suis arrivé, tu avais\\ndéjà perdu!\\p{RIVAL}, comprends-tu pourquoi tu as\\nperdu?\\pTu as oublié de traiter tes Pokémon\\navec amour et confiance.\\pSans cela, tu ne redeviendras jamais\\nMaître!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc",
+  "ligne": 306,
+  "note": "PokemonLeague_ChampionsRoom_Frlg, EnterRoom (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "OAK: {PLAYER}.\\pYou understand that your victory\\nwas not just your own doing.\\pThe bond you share with your\\nPOKéMON is marvelous.\\p{PLAYER}!\\nCome with me!",
+  "msgstr": "Chen: {PLAYER}.\\pTu comprends que ta victoire n’est\\npas seulement ton œuvre.\\pLe lien qui t’unit à tes Pokémon est\\nmerveilleux.\\p{PLAYER}! Viens avec moi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc",
+  "ligne": 320,
+  "note": "PokemonLeague_ChampionsRoom_Frlg, EnterRoom (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "OAK: Er-hem!\\nCongratulations, {PLAYER}!\\pThis floor is the POKéMON HALL OF\\nFAME.\\pPOKéMON LEAGUE CHAMPIONS are\\nhonored for their exploits here.\\pTheir POKéMON are also recorded in\\nthe HALL OF FAME.\\p{PLAYER}!\\pYou have worked hard to become\\nthe new LEAGUE CHAMPION.\\pCongratulations, {PLAYER}, you and\\nyour POKéMON are HALL OF FAMERS!",
+  "msgstr": "Chen: Hum hum! Félicitations, {PLAYER}!\\pCet étage abrite le Panthéon\\nPokémon.\\pLes Maîtres de la Ligue Pokémon y\\nsont honorés pour leurs exploits.\\pLeurs Pokémon sont aussi inscrits au\\nPanthéon.\\p{PLAYER}!\\pTu as travaillé dur pour devenir le\\nnouveau Maître de la Ligue.\\pFélicitations, {PLAYER}, toi et tes\\nPokémon entrez au Panthéon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_HallOfFame_Frlg/scripts.inc",
+  "ligne": 57,
+  "note": "PokemonLeague_HallOfFame_Frlg, EnterRoom (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Ah! I've heard about you,\\n{PLAYER}!\\pI lead the ELITE FOUR.\\pYou can call me LANCE the dragon\\nTRAINER.\\pYou know that dragons are\\nmythical POKéMON.\\pThey're hard to catch and raise,\\nbut their powers are superior.\\pThey're virtually indestructible.\\nThere's no being clever with them.\\pWell, are you ready to lose?\\pYour LEAGUE challenge ends with\\nme, {PLAYER}!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgstr": "Ah! J’ai entendu parler de toi,\\n{PLAYER}!\\pJe suis à la tête du Conseil 4.\\pTu peux m’appeler Peter, le Dresseur\\nde dragons.\\pTu sais que les dragons sont des\\nPokémon légendaires.\\pIls sont difficiles à attraper et à\\nélever, mais leur puissance est\\lsupérieure.\\pIls sont pratiquement\\nindestructibles. Pas moyen de ruser\\lavec eux.\\pAlors, tu es prêt à perdre?\\pTon défi de la Ligue s’arrête ici,\\n{PLAYER}!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_LancesRoom_Frlg/scripts.inc",
+  "ligne": 168,
+  "note": "PokemonLeague_LancesRoom_Frlg, Intro (msgbox) ; tutoiement ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "Ah!\\nSo, you've returned, {PLAYER}!\\pI lead the ELITE FOUR.\\pYou can call me LANCE the dragon\\nTRAINER.\\pYou know that dragons are\\nmythical POKéMON.\\pThey're hard to catch and raise,\\nbut their powers are superior.\\pThey're virtually indestructible.\\nThere's no being clever with them.\\pWell, are you ready to lose?\\pYour LEAGUE challenge ends with\\nme, {PLAYER}!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgstr": "Ah! Alors, tu es revenu, {PLAYER}!\\pJe suis à la tête du Conseil 4.\\pTu peux m’appeler Peter, le Dresseur\\nde dragons.\\pTu sais que les dragons sont des\\nPokémon légendaires.\\pIls sont difficiles à attraper et à\\nélever, mais leur puissance est\\lsupérieure.\\pIls sont pratiquement\\nindestructibles. Pas moyen de ruser\\lavec eux.\\pAlors, tu es prêt à perdre?\\pTon défi de la Ligue s’arrête ici,\\n{PLAYER}!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_LancesRoom_Frlg/scripts.inc",
+  "ligne": 184,
+  "note": "PokemonLeague_LancesRoom_Frlg, RematchIntro (msgbox) ; tutoiement ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "That's it!\\pI hate to admit it, but you are a\\nPOKéMON master!",
+  "msgstr": "C’en est fini!\\pÇa me coûte de l’admettre, mais tu es\\nun vrai Maître Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_LancesRoom_Frlg/scripts.inc",
+  "ligne": 200,
+  "note": "PokemonLeague_LancesRoom_Frlg, Dresseur ELITE_FOUR_LANCE (défaite) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "I still can't believe my dragons\\nlost to you, {PLAYER}.\\pYou are now the POKéMON LEAGUE\\nCHAMPION!\\p…Or, you would have been, but\\nyou have one more challenge left.\\pThere is one more TRAINER to face!\\nHis name is…\\p{RIVAL}!\\pHe beat the ELITE FOUR before\\nyou.\\pHe is the real POKéMON LEAGUE\\nCHAMPION.",
+  "msgstr": "Je n’arrive toujours pas à croire que\\nmes dragons aient perdu contre toi,\\l{PLAYER}.\\pTu es maintenant le Maître de la Ligue\\nPokémon!\\p… Enfin, tu le serais, mais il te reste\\nun défi à relever.\\pIl reste un Dresseur à affronter! Il\\ns’appelle…\\p{RIVAL}!\\pIl a battu le Conseil 4 avant toi.\\pC’est lui, le vrai Maître de la Ligue\\nPokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_LancesRoom_Frlg/scripts.inc",
+  "ligne": 205,
+  "note": "PokemonLeague_LancesRoom_Frlg, DefeatedLance (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Welcome to the POKéMON LEAGUE.\\pI am LORELEI of the ELITE FOUR.\\pNo one can best me when it comes\\nto icy POKéMON.\\pFreezing moves are powerful.\\pYour POKéMON will be at my mercy\\nwhen they are frozen solid.\\pHahaha!\\nAre you ready?{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgstr": "Bienvenue à la Ligue Pokémon.\\pJe suis Olga, du Conseil 4.\\pPersonne ne peut me battre quand il\\ns’agit de Pokémon de glace.\\pLes capacités gelantes sont\\npuissantes.\\pTes Pokémon seront à ma merci une\\nfois gelés.\\pHahaha! Tu es prêt?{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_LoreleisRoom_Frlg/scripts.inc",
+  "ligne": 96,
+  "note": "PokemonLeague_LoreleisRoom_Frlg, Intro (msgbox) ; tutoiement ; phrase harmonisée avec la fiche Mémorydex du lot D1 (fame_checker_frlg.inc) [non compilé]"
+ },
+ {
+  "msgid": "Welcome to the POKéMON LEAGUE.\\pI, LORELEI of the ELITE FOUR,\\nhave returned!\\pYou know how it goes.\\nNo one can best me when it comes\\lto icy POKéMON.\\pFreezing moves are powerful.\\pYour POKéMON will be at my mercy\\nwhen they are frozen solid.\\pHahaha!\\nAre you ready?{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgstr": "Bienvenue à la Ligue Pokémon.\\pMoi, Olga du Conseil 4, je suis de\\nretour!\\pTu connais la chanson. Personne ne\\npeut me battre quand il s’agit de\\lPokémon de glace.\\pLes capacités gelantes sont\\npuissantes.\\pTes Pokémon seront à ma merci une\\nfois gelés.\\pHahaha! Tu es prêt?{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_LoreleisRoom_Frlg/scripts.inc",
+  "ligne": 107,
+  "note": "PokemonLeague_LoreleisRoom_Frlg, RematchIntro (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "…Things shouldn't be this way!",
+  "msgstr": "… Ça ne devrait pas finir ainsi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_LoreleisRoom_Frlg/scripts.inc",
+  "ligne": 120,
+  "note": "PokemonLeague_LoreleisRoom_Frlg, Dresseur ELITE_FOUR_LORELEI (défaite) [non compilé]"
+ },
+ {
+  "msgid": "You're better than I thought.\\nGo on ahead.\\pYou only got a taste of the\\nPOKéMON LEAGUE's power.",
+  "msgstr": "Tu es meilleur que je ne le pensais.\\nContinue.\\pTu n’as eu qu’un avant-goût de la\\npuissance de la Ligue Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonLeague_LoreleisRoom_Frlg/scripts.inc",
+  "ligne": 123,
+  "note": "PokemonLeague_LoreleisRoom_Frlg, DefeatedLorelei (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Who are you?\\nThere shouldn't be anyone here.",
+  "msgstr": "Qui es-tu? Il ne devrait y avoir\\npersonne ici.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonMansion_1F_Frlg/scripts.inc",
+  "ligne": 35,
+  "note": "PokemonMansion_1F_Frlg, Dresseur SCIENTIST_TED (intro) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "A key? I don't know what you're\\ntalking about.",
+  "msgstr": "Une clé? Je ne vois pas de quoi tu\\nparles.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonMansion_1F_Frlg/scripts.inc",
+  "ligne": 42,
+  "note": "PokemonMansion_1F_Frlg, Ted (msgbox) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "W-w-waah! You startled me!\\nI thought you were a ghost.",
+  "msgstr": "Ou-ou-ouah! Tu m’as fait peur! J’ai\\ncru que tu étais un fantôme.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonMansion_1F_Frlg/scripts.inc",
+  "ligne": 46,
+  "note": "PokemonMansion_1F_Frlg, Dresseur YOUNGSTER_JOHNSON (intro) ; tutoiement [non compilé]"
+ },
+ {
+  "msgid": "Tch!\\nI can't get any wins.",
+  "msgstr": "Tss!\\nJe n’arrive pas à gagner.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonMansion_1F_Frlg/scripts.inc",
+  "ligne": 50,
+  "note": "PokemonMansion_1F_Frlg, Dresseur YOUNGSTER_JOHNSON (défaite) [non compilé]"
+ },
+ {
+  "msgid": "I was exploring here by myself,\\nbut I feel spooked.\\pI ought to go soon.",
+  "msgstr": "J’explorais tout seul ici, mais j’ai la\\nfrousse.\\pJe devrais bientôt partir.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonMansion_1F_Frlg/scripts.inc",
+  "ligne": 54,
+  "note": "PokemonMansion_1F_Frlg, Johnson (msgbox) [non compilé]"
+ },
+ {
+  "msgid": "A secret switch!\\pPress it?",
+  "msgstr": "Un interrupteur secret!\\pAppuyer dessus?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/PokemonMansion_2F_Frlg/scripts.inc",
+  "ligne": 33,
+  "note": "PokemonMansion_2F_Frlg, SecretSwitch (msgbox) [non compilé]"
+ }
+]

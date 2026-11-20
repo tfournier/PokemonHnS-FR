@@ -1,0 +1,1135 @@
+[
+ {
+  "msgid": "Mew!",
+  "msgstr": "Mew!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCave_B1F_Frlg/scripts.inc",
+  "ligne": 59,
+  "note": "[CeruleanCave_B1F_EventScript_Mewtwo ; non compilé]"
+ },
+ {
+  "msgid": "Hi!\\nWelcome to our BIKE SHOP.\\pHave we got just the BIKE for\\nyou!",
+  "msgstr": "Bonjour! Bienvenue chez Cycles à\\nGogo!\\pNous avons sûrement le vélo qu’il vous\\nfaut!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_BikeShop_Frlg/scripts.inc",
+  "ligne": 76,
+  "note": "Vendeur de Cycles à Gogo (vouvoiement). Nom officiel FRLG « Cycles à Gogo » (Poképédia). [CeruleanCity_BikeShop_EventScript_Clerk ; non compilé]"
+ },
+ {
+  "msgid": "Sorry!\\nYou can't afford it!",
+  "msgstr": "Désolé! Vous n’avez pas les moyens!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_BikeShop_Frlg/scripts.inc",
+  "ligne": 82,
+  "note": "[CeruleanCity_BikeShop_EventScript_TryPurchaseBicycle ; non compilé]"
+ },
+ {
+  "msgid": "Oh, that's…\\pA BIKE VOUCHER!\\pOkay!\\nHere you go!",
+  "msgstr": "Oh, mais c’est…\\pUn Bon Commande!\\pTrès bien! Voici votre vélo!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_BikeShop_Frlg/scripts.inc",
+  "ligne": 86,
+  "note": "[CeruleanCity_BikeShop_EventScript_ExchangeBikeVoucher ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} exchanged the\\nBIKE VOUCHER for a BICYCLE.",
+  "msgstr": "{PLAYER} échange le Bon Commande\\ncontre une Bicyclette.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_BikeShop_Frlg/scripts.inc",
+  "ligne": 92,
+  "note": "[CeruleanCity_BikeShop_EventScript_ExchangeBikeVoucher ; non compilé]"
+ },
+ {
+  "msgid": "Thank you!\\nCome back again sometime!",
+  "msgstr": "Merci! Revenez nous voir quand vous\\nvoulez!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_BikeShop_Frlg/scripts.inc",
+  "ligne": 96,
+  "note": "[CeruleanCity_BikeShop_EventScript_ClerkGoodbye ; non compilé]"
+ },
+ {
+  "msgid": "How do you like your new BICYCLE?\\nDo you like how it rides?\\pYou can take it out on CYCLING\\nROAD and even into caves!",
+  "msgstr": "Comment trouvez-vous votre nouvelle\\nBicyclette? Elle roule bien?\\pVous pouvez l’utiliser sur la Piste\\nCyclable et même dans les grottes!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_BikeShop_Frlg/scripts.inc",
+  "ligne": 100,
+  "note": "[CeruleanCity_BikeShop_EventScript_AlreadyGotBicycle ; non compilé]"
+ },
+ {
+  "msgid": "You better make room for your\\nBICYCLE!",
+  "msgstr": "Faites de la place pour votre\\nBicyclette!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_BikeShop_Frlg/scripts.inc",
+  "ligne": 106,
+  "note": "[CeruleanCity_BikeShop_EventScript_NoRoomForBicycle ; non compilé]"
+ },
+ {
+  "msgid": "A plain city bike is good enough\\nfor me.\\pAfter all, you can't put a shopping\\nbasket on a mountain bike.",
+  "msgstr": "Un simple vélo de ville me suffit.\\pAprès tout, on ne peut pas mettre de\\npanier sur un VTT.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_BikeShop_Frlg/scripts.inc",
+  "ligne": 110,
+  "note": "Femme cliente. [CeruleanCity_BikeShop_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "These bikes are cool, but they're\\nway expensive!",
+  "msgstr": "Ces vélos sont trop cool, mais\\nbeaucoup trop chers!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_BikeShop_Frlg/scripts.inc",
+  "ligne": 116,
+  "note": "Gamin. [CeruleanCity_BikeShop_EventScript_Youngster ; non compilé]"
+ },
+ {
+  "msgid": "Wow.\\nYour BIKE is really cool!",
+  "msgstr": "Waouh! Ton vélo est vraiment trop\\ncool!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_BikeShop_Frlg/scripts.inc",
+  "ligne": 120,
+  "note": "Gamin, après obtention de la Bicyclette. [CeruleanCity_BikeShop_EventScript_YoungsterHaveBike ; non compilé]"
+ },
+ {
+  "msgid": "A shiny new BICYCLE!",
+  "msgstr": "Une Bicyclette toute neuve!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_BikeShop_Frlg/scripts.inc",
+  "ligne": 130,
+  "note": "Panneau (objet exposé). [CeruleanCity_BikeShop_EventScript_Bicycle ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Yo! {PLAYER}!\\pYou're still struggling along back\\nhere?\\pI'm doing great! I caught a bunch\\nof strong and smart POKéMON!\\pHere, let me see what you caught,\\n{PLAYER}!",
+  "msgstr": "{RIVAL}: Yo! {PLAYER}!\\pT’en es encore là, toi? Tu rames, hein?\\pMoi, tout va super bien! J’ai attrapé\\nplein de Pokémon forts et malins!\\pAllez, montre-moi ce que tu as\\nattrapé, {PLAYER}!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 361,
+  "note": "Rival (tutoiement, ton arrogant). [CeruleanCity_EventScript_Rival ; non compilé]"
+ },
+ {
+  "msgid": "Hey!\\nTake it easy!\\lYou won already!",
+  "msgstr": "Hé! Doucement! Tu as déjà gagné!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 370,
+  "note": "Rival, défaite. [CeruleanCity_EventScript_RivalSquirtle (TRAINER_RIVAL_CERULEAN_SQUIRTLE) ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Hey, guess what?\\pI went to BILL's and got him to\\nshow me his rare POKéMON.\\pThat added a lot of pages to my\\nPOKéDEX!\\pAfter all, BILL's world famous as a\\nPOKéMANIAC.\\pHe invented the POKéMON Storage\\nSystem on PC, too.\\pSince you're using his system,\\nyou should go thank him.\\pWell, I better get rolling!\\nSmell ya later!",
+  "msgstr": "{RIVAL}: Hé, devine quoi!\\pJe suis allé chez Léo et il m’a montré\\nses Pokémon rares.\\pÇa m’a rempli plein de pages de mon\\nPokédex!\\pFaut dire que Léo est un Pokémaniac\\nmondialement connu.\\pC’est aussi lui qui a inventé le\\nSystème de Stockage Pokémon sur PC.\\pComme tu utilises son système, tu\\ndevrais aller le remercier.\\pBon, faut que j’y aille! À plus,\\nminable!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 375,
+  "note": "Rival. « Smell ya later! » rendu par « À plus, minable! » (forme retenue pour tout le lot). [CeruleanCity_EventScript_Rival ; non compilé]"
+ },
+ {
+  "msgid": "Oh, yeah, right.\\pI feel sorry for you. No, really.\\nYou're always plodding behind me.\\pSo here, I'll give you a little\\npresent as a favor.",
+  "msgstr": "Ah oui, c’est vrai.\\pJe te plains. Non, sérieux. Tu es\\ntoujours à la traîne derrière moi.\\pAlors tiens, je vais te faire un petit\\ncadeau.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 390,
+  "note": "Rival, avant de donner le Mémorydex. [CeruleanCity_EventScript_Rival ; non compilé]"
+ },
+ {
+  "msgid": "A chatty gossip like you…\\nThat thing's perfect.\\pI don't need it because I don't\\ngive a hoot about others.\\pAll right, this time I really am\\ngone. Smell ya!",
+  "msgstr": "Une pipelette comme toi… Ce truc est\\nparfait pour toi.\\pMoi, j’en ai pas besoin, je me fiche pas\\nmal des autres.\\pBon, cette fois, je m’en vais pour de\\nbon. À plus, minable!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 397,
+  "note": "Rival, Mémorydex. [CeruleanCity_EventScript_Rival ; non compilé]"
+ },
+ {
+  "msgid": "Hey! Stay out!\\nIt's not your yard!\\p…Huh?\\nMe?\\pI'm an innocent bystander!\\nDon't you believe me?{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}",
+  "msgstr": "Hé! Dégage! C’est pas ton jardin!\\p… Hein? Moi?\\pJe suis un simple passant innocent!\\nTu me crois pas?{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 405,
+  "note": "Sbire de la Team Rocket (cambrioleur), tutoiement. [CeruleanCity_EventScript_Grunt ; non compilé]"
+ },
+ {
+  "msgid": "GRUNT: Stop! I give up!\\nI'll leave quietly!",
+  "msgstr": "Sbire: Stop! J’abandonne! Je m’en vais\\nsans faire d’histoires!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 413,
+  "note": "Sbire Rocket, défaite. « GRUNT: » → « Sbire: ». [CeruleanCity_EventScript_Grunt (TRAINER_TEAM_ROCKET_GRUNT_5) ; non compilé]"
+ },
+ {
+  "msgid": "…Okay.\\nI'll return the TM I stole.",
+  "msgstr": "… D’accord. Je te rends la CT que j’ai\\nvolée.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 417,
+  "note": "[CeruleanCity_EventScript_GruntDefeated ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} recovered TM28 from\\nthe TEAM ROCKET GRUNT.",
+  "msgstr": "{PLAYER} récupère la CT28 auprès du\\nSbire de la Team Rocket.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 421,
+  "note": "[CeruleanCity_EventScript_GruntDefeated ; non compilé]"
+ },
+ {
+  "msgid": "I better get moving!\\nBye!",
+  "msgstr": "Bon, faut que je file! Salut!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 425,
+  "note": "[CeruleanCity_EventScript_GruntDefeated ; non compilé]"
+ },
+ {
+  "msgid": "Make room for this!\\nI can't run until I give it to you!",
+  "msgstr": "Fais de la place pour ça! Je peux pas\\nfiler tant que je te l’ai pas rendue!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 429,
+  "note": "[CeruleanCity_EventScript_NoRoomForTM28 ; non compilé]"
+ },
+ {
+  "msgid": "You're a TRAINER, too?\\pCollecting, battling…\\nIt's a tough life, isn't it?",
+  "msgstr": "Toi aussi, tu es Dresseur?\\pCollectionner, combattre… C’est une\\nvie difficile, hein?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 433,
+  "note": "Gamin. [CeruleanCity_EventScript_Youngster ; non compilé]"
+ },
+ {
+  "msgid": "Did you know that you can CUT down\\nsmall trees?\\pEven that small tree in front of\\nthe shop can be CUT down.\\pI think there's a way around it,\\nthough.",
+  "msgstr": "Tu savais qu’on peut utiliser Coupe\\nsur les petits arbres?\\pMême le petit arbre devant la\\nboutique peut être coupé.\\pMais je crois qu’il y a un autre chemin\\npour le contourner.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 438,
+  "note": "Petit garçon. [CeruleanCity_EventScript_LittleBoySlowbroMoved ; non compilé]"
+ },
+ {
+  "msgid": "If that SLOWBRO wasn't there, you\\ncould CUT down the small tree.\\pThat way, you could get to the\\nother side.\\pI think there's a way around it,\\nthough.",
+  "msgstr": "Sans ce FLAGADOSS, tu pourrais\\ncouper le petit arbre avec Coupe.\\pComme ça, tu pourrais passer de\\nl’autre côté.\\pMais je crois qu’il y a un autre chemin\\npour le contourner.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 446,
+  "note": "Petit garçon. [CeruleanCity_EventScript_LittleBoy ; non compilé]"
+ },
+ {
+  "msgid": "You're making an encyclopedia on\\nPOKéMON? That sounds amusing.",
+  "msgstr": "Tu fais une encyclopédie sur les\\nPokémon? Ça a l’air amusant.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 454,
+  "note": "Homme chauve. [CeruleanCity_EventScript_BaldingMan ; non compilé]"
+ },
+ {
+  "msgid": "The people here were robbed.\\pIt's obvious that TEAM ROCKET is\\nbehind this most heinous crime!\\pEven our POLICE FORCE has\\ntrouble with the ROCKETS!",
+  "msgstr": "Les gens d’ici ont été cambriolés.\\pIl est évident que la Team Rocket est\\nderrière ce crime odieux!\\pMême nos forces de police ont du mal\\navec la Team Rocket!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 458,
+  "note": "Policier. [CeruleanCity_EventScript_Policeman ; non compilé]"
+ },
+ {
+  "msgid": "Okay! SLOWBRO!\\nUse SONICBOOM!",
+  "msgstr": "OK! FLAGADOSS! Utilise Sonicboom!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 465,
+  "note": "Dresseur entraînant son FLAGADOSS. SONICBOOM = Sonicboom (glossaire). [CeruleanCity_EventScript_SlowbroCommand1 ; non compilé]"
+ },
+ {
+  "msgid": "Come on, SLOWBRO, pay attention!",
+  "msgstr": "Allez, FLAGADOSS, fais attention!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 469,
+  "note": "[CeruleanCity_EventScript_SlowbroFailed1 ; non compilé]"
+ },
+ {
+  "msgid": "SLOWBRO, punch!",
+  "msgstr": "FLAGADOSS, coup de poing!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 472,
+  "note": "[CeruleanCity_EventScript_SlowbroCommand2 ; non compilé]"
+ },
+ {
+  "msgid": "No!\\nYou blew it again!",
+  "msgstr": "Non! Tu as encore tout raté!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 475,
+  "note": "[CeruleanCity_EventScript_SlowbroFailed2 ; non compilé]"
+ },
+ {
+  "msgid": "SLOWBRO, WITHDRAW!",
+  "msgstr": "FLAGADOSS, REPLI!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 479,
+  "note": "Ordre de la capacité Repli (WITHDRAW), en capitales comme l’anglais. [CeruleanCity_EventScript_SlowbroCommand3 ; non compilé]"
+ },
+ {
+  "msgid": "No! That's wrong!\\nIt's so hard to control POKéMON!\\pYour POKéMON's obedience depends\\non your abilities as a TRAINER.",
+  "msgstr": "Non! C’est pas ça! C’est dur de\\ncontrôler les Pokémon!\\pL’obéissance de tes Pokémon dépend\\nde tes talents de Dresseur.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 482,
+  "note": "[CeruleanCity_EventScript_SlowbroFailed3 ; non compilé]"
+ },
+ {
+  "msgid": "SLOWBRO took a snooze…",
+  "msgstr": "FLAGADOSS fait la sieste…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 488,
+  "note": "[CeruleanCity_EventScript_SlowbroText1 ; non compilé]"
+ },
+ {
+  "msgid": "SLOWBRO turned away…",
+  "msgstr": "FLAGADOSS se détourne…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 494,
+  "note": "[CeruleanCity_EventScript_SlowbroText3 ; non compilé]"
+ },
+ {
+  "msgid": "SLOWBRO ignored orders…",
+  "msgstr": "FLAGADOSS ignore les ordres…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 497,
+  "note": "[CeruleanCity_EventScript_SlowbroText4 ; non compilé]"
+ },
+ {
+  "msgid": "I want a bright red bicycle.\\pI'll keep it at home, so it won't\\nget dirty.",
+  "msgstr": "Je veux un vélo rouge vif.\\pJe le garderai à la maison pour qu’il ne\\nse salisse pas.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 500,
+  "note": "Femme. [CeruleanCity_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "This is CERULEAN CAVE.\\pHorribly strong POKéMON live inside\\nthere.\\pIt takes a very special TRAINER to\\nbe allowed inside there.\\pYou'd have to be strong enough to\\nbecome the POKéMON LEAGUE\\lCHAMPION for starters.\\pAnd, you would have to have\\nmade a great achievement.",
+  "msgstr": "Voici la Caverne Azurée.\\pDes Pokémon terriblement forts\\nvivent là-dedans.\\pSeul un Dresseur exceptionnel peut\\navoir le droit d’y entrer.\\pIl faudrait déjà être assez fort pour\\ndevenir Maître de la Ligue Pokémon.\\pEt aussi avoir accompli un exploit\\nhors du commun.",
+  "source": "patch FR actuel (vérifié)",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 505,
+  "preuve": "CeruleanCity_hns : « …pour devenir Maître de la\\lLIGUE Pokémon de KANTO… »",
+  "note": "Garde de la Caverne Azurée. Reprise de CeruleanCity_hns (patch FR) adaptée : sans « de KANTO », « LIGUE » → « Ligue ». [CeruleanCity_EventScript_CeruleanCaveGuard ; non compilé]"
+ },
+ {
+  "msgid": "CERULEAN CITY\\nA Mysterious, Blue Aura Surrounds\\lIt",
+  "msgstr": "Azuria\\nUne mystérieuse aura bleue l’entoure",
+  "source": "patch FR actuel (vérifié)",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 517,
+  "preuve": "Azuria\\pUne mystérieuse aura bleue\\nl’entoure",
+  "note": "Panneau de la ville. Repris de CeruleanCity_hns (patch FR : « Azuria\\pUne mystérieuse aura bleue\\nl’entoure »), mise en page de l’anglais FRLG. [CeruleanCity_EventScript_CitySign ; non compilé]"
+ },
+ {
+  "msgid": "TRAINER TIPS\\pA POKéMON can be made to hold\\nan item.\\pSome items can even be used by\\nthe holding POKéMON in battle.",
+  "msgstr": "Conseils aux Dresseurs!\\pOn peut faire tenir un objet à un\\nPokémon.\\pCertains objets peuvent même servir\\nen combat au Pokémon qui les tient.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 522,
+  "note": "Panneau « TRAINER TIPS » = « Conseils aux Dresseurs! » (SoulSilver FR). [CeruleanCity_EventScript_TrainerTips ; non compilé]"
+ },
+ {
+  "msgid": "Grass and caves handled easily!\\nBIKE SHOP",
+  "msgstr": "Herbes et grottes en toute facilité!\\nCycles à Gogo",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 529,
+  "note": "Panneau de la boutique. [CeruleanCity_EventScript_BikeShopSign ; non compilé]"
+ },
+ {
+  "msgid": "Hi, you're a new face!\\pOnly those TRAINERS who have a\\npolicy about POKéMON can turn pro.\\pWhat is your approach when you\\ncatch and train POKéMON?\\pMy policy is an all-out offensive\\nwith WATER-type POKéMON!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgstr": "Salut! Je ne t’ai jamais vu ici!\\pSeuls les Dresseurs qui ont une vraie\\nphilosophie peuvent passer pros.\\pQuelle est ta méthode pour capturer\\net entraîner les Pokémon?\\pMoi, c’est l’offensive totale avec les\\nPokémon de type Eau!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 73,
+  "note": "Ondine (tutoiement familier, comme SoulSilver FR). [CeruleanCity_Gym_EventScript_Misty (TRAINER_LEADER_MISTY) ; non compilé]"
+ },
+ {
+  "msgid": "TM03 teaches WATER PULSE.\\pUse it on an aquatic POKéMON!",
+  "msgstr": "La CT03 contient Vibraqua.\\pUtilise-la sur un Pokémon aquatique!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 82,
+  "note": "Ondine. [CeruleanCity_Gym_EventScript_Misty ; non compilé]"
+ },
+ {
+  "msgid": "The CASCADEBADGE makes all\\nPOKéMON up to Lv. 30 obey.\\pThat includes even outsiders you\\ngot in trades.\\pThere's more. You can now use CUT\\nanytime, even out of battle.\\pYou can CUT down small trees to\\nopen new pathways.\\pYou can also have my favorite TM.",
+  "msgstr": "Avec le Badge Cascade, les Pokémon\\njusqu’au niveau 30 t’obéiront.\\pMême ceux que tu as obtenus lors\\nd’échanges.\\pEt ce n’est pas tout.\\pTu peux maintenant utiliser Coupe à\\ntout moment, même hors combat.\\pTu peux couper les petits arbres pour\\nouvrir de nouveaux chemins.\\pTu peux aussi prendre ma CT préférée.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 86,
+  "note": "Ondine. [CeruleanCity_Gym_EventScript_GiveTM03 ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received TM03\\nfrom MISTY.",
+  "msgstr": "{PLAYER} reçoit la CT03\\nd’Ondine!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 97,
+  "note": "[CeruleanCity_Gym_EventScript_GiveTM03 ; non compilé]"
+ },
+ {
+  "msgid": "You better make room for this!",
+  "msgstr": "Fais-lui de la place!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 101,
+  "note": "Ondine, sac plein. [CeruleanCity_Gym_EventScript_NoRoomForTM03 ; non compilé]"
+ },
+ {
+  "msgid": "Wow!\\nYou're too much!\\pAll right!\\pYou can have the CASCADEBADGE to\\nshow you beat me.",
+  "msgstr": "Waouh! T’es trop balèze!\\pBon, d’accord!\\pTu peux prendre le Badge Cascade\\npour prouver que tu m’as battue.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 104,
+  "note": "Ondine, défaite (formulation neutre : le texte ne varie pas selon le sexe du joueur). [CeruleanCity_Gym_EventScript_Misty (TRAINER_LEADER_MISTY) ; non compilé]"
+ },
+ {
+  "msgid": "What? You?\\nI'm more than good enough for you!\\pMISTY won't have to be bothered.",
+  "msgstr": "Quoi? Toi?\\pJe suffis largement pour te battre!\\pOndine n’aura pas besoin d’être\\ndérangée.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 111,
+  "note": "Pique-Niqueuse Diana. [CeruleanCity_Gym_EventScript_Diana (TRAINER_PICNICKER_DIANA) ; non compilé]"
+ },
+ {
+  "msgid": "You overwhelmed me!",
+  "msgstr": "Tu m’as écrasée!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 116,
+  "note": "Pique-Niqueuse Diana, défaite. [CeruleanCity_Gym_EventScript_Diana (TRAINER_PICNICKER_DIANA) ; non compilé]"
+ },
+ {
+  "msgid": "You have to face other TRAINERS\\nto see how good you really are.",
+  "msgstr": "Il faut affronter d’autres Dresseurs\\npour savoir ce qu’on vaut vraiment.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 119,
+  "note": "[CeruleanCity_Gym_EventScript_Diana ; non compilé]"
+ },
+ {
+  "msgid": "Splash!\\pI'm first up!\\nLet's do it!",
+  "msgstr": "Plouf!\\pC’est moi le premier! Allons-y!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 123,
+  "note": "Nageur Luis. [CeruleanCity_Gym_EventScript_Luis (TRAINER_SWIMMER_MALE_LUIS) ; non compilé]"
+ },
+ {
+  "msgid": "MISTY is a TRAINER who's going to\\nkeep improving.\\pShe won't lose to someone like you!",
+  "msgstr": "Ondine est une Dresseuse qui ne va\\npas cesser de progresser.\\pElle ne perdra pas contre quelqu’un\\ncomme toi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 131,
+  "note": "Nageur Luis, après combat. [CeruleanCity_Gym_EventScript_Luis ; non compilé]"
+ },
+ {
+  "msgid": "Yo!\\nChamp in the making!\\pLet me give you some advice!\\pThe LEADER, MISTY, is a pro who\\nuses WATER-type POKéMON.\\pYou can drain all their water with\\nGRASS-type POKéMON.\\pOr, you might use ELECTRIC-type\\nPOKéMON and zap them!",
+  "msgstr": "Yo! Futur Maître!\\pLaisse-moi te donner un conseil!\\pLa Championne, Ondine, est une pro\\ndes Pokémon de type Eau.\\pTu peux pomper toute leur eau avec\\ndes Pokémon de type Plante.\\pOu bien utiliser des Pokémon de type\\nÉlectrik pour les électrocuter!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 136,
+  "note": "Guide de l’Arène (tutoiement, comme SoulSilver FR). [CeruleanCity_Gym_EventScript_GymGuy ; non compilé]"
+ },
+ {
+  "msgid": "You beat MISTY!\\nSee, what'd I tell ya?\\pYou and me, kid, we make a pretty\\ndarn-good team!",
+  "msgstr": "Tu as battu Ondine! Tu vois, qu’est-ce\\nque je t’avais dit?\\pToi et moi, on fait une sacrée bonne\\néquipe!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 147,
+  "note": "Guide de l’Arène. [CeruleanCity_Gym_EventScript_GymGuyPostVictory ; non compilé]"
+ },
+ {
+  "msgid": "CERULEAN POKéMON GYM\\nLEADER: MISTY\\pWINNING TRAINERS:\\n{RIVAL}",
+  "msgstr": "Arène Pokémon d’Azuria\\nChampionne: Ondine\\pVainqueurs:\\n{RIVAL}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 153,
+  "note": "Statue de l’Arène (casse SoulSilver). [CeruleanCity_Gym_EventScript_GymStatue ; non compilé]"
+ },
+ {
+  "msgid": "CERULEAN POKéMON GYM\\nLEADER: MISTY\\pWINNING TRAINERS:\\n{RIVAL}, {PLAYER}",
+  "msgstr": "Arène Pokémon d’Azuria\\nChampionne: Ondine\\pVainqueurs:\\n{RIVAL}, {PLAYER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Gym_Frlg/scripts.inc",
+  "ligne": 159,
+  "note": "Statue de l’Arène. [CeruleanCity_Gym_EventScript_GymStatuePostVictory ; non compilé]"
+ },
+ {
+  "msgid": "Only skilled TRAINERS can collect\\nPOKéMON BADGES.\\pI see you have at least one.\\pThose BADGES have amazing secrets,\\ndid you know?",
+  "msgstr": "Seuls les Dresseurs doués peuvent\\ncollectionner les Badges Pokémon.\\pJe vois que tu en as au moins un.\\pCes Badges cachent d’incroyables\\nsecrets, le savais-tu?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House1_Frlg/scripts.inc",
+  "ligne": 76,
+  "note": "Vieil homme aux Badges (tutoiement bienveillant). [CeruleanCity_House1_EventScript_BadgeGuy ; non compilé]"
+ },
+ {
+  "msgid": "Now then…\\pWhich of the eight BADGES should\\nI describe?",
+  "msgstr": "Bien…\\pLequel des huit Badges veux-tu que\\nje te décrive?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House1_Frlg/scripts.inc",
+  "ligne": 83,
+  "note": "[CeruleanCity_House1_EventScript_DescribeAnotherBadge ; non compilé]"
+ },
+ {
+  "msgid": "Come visit me anytime you wish.",
+  "msgstr": "Reviens me voir quand tu veux.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House1_Frlg/scripts.inc",
+  "ligne": 88,
+  "note": "[CeruleanCity_House1_EventScript_StopDescribingBadges ; non compilé]"
+ },
+ {
+  "msgid": "The ATTACK stat of all your\\nPOKéMON increases a little bit.\\pIt also lets you use the move\\nFLASH outside of battle.",
+  "msgstr": "La statistique d’Attaque de tous tes\\nPokémon augmente un peu.\\pIl te permet aussi d’utiliser la\\ncapacité Flash hors combat.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House1_Frlg/scripts.inc",
+  "ligne": 91,
+  "note": "Badge Roche. [CeruleanCity_House1_EventScript_DescribeBoulderBadge ; non compilé]"
+ },
+ {
+  "msgid": "POKéMON up to Lv. 30 will obey\\nyou.\\pThat includes even outsiders you\\nobtain in trades.\\pPOKéMON of higher levels will\\nbe unruly in battle, however.\\pIt also lets you use the move\\nCUT outside of battle.",
+  "msgstr": "Les Pokémon jusqu’au niveau 30\\nt’obéiront.\\pMême ceux que tu obtiens lors\\nd’échanges.\\pMais ceux de niveau supérieur\\nrisquent de désobéir en combat.\\pIl te permet aussi d’utiliser la\\ncapacité Coupe hors combat.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House1_Frlg/scripts.inc",
+  "ligne": 97,
+  "note": "Badge Cascade. [CeruleanCity_House1_EventScript_DescribeCascadeBadge ; non compilé]"
+ },
+ {
+  "msgid": "The SPEED stat of all your\\nPOKéMON increases a little bit.\\pIt also lets you use the move\\nFLY outside of battle.",
+  "msgstr": "La statistique de Vitesse de tous tes\\nPokémon augmente un peu.\\pIl te permet aussi d’utiliser la\\ncapacité Vol hors combat.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House1_Frlg/scripts.inc",
+  "ligne": 107,
+  "note": "Badge Foudre. [CeruleanCity_House1_EventScript_DescribeThunderBadge ; non compilé]"
+ },
+ {
+  "msgid": "POKéMON up to Lv. 50 will obey\\nyou.\\pThat includes even outsiders you\\nobtain in trades.\\pPOKéMON of higher levels will\\nbe unruly in battle, however.\\pIt also lets you use the move\\nSTRENGTH outside of battle.",
+  "msgstr": "Les Pokémon jusqu’au niveau 50\\nt’obéiront.\\pMême ceux que tu obtiens lors\\nd’échanges.\\pMais ceux de niveau supérieur\\nrisquent de désobéir en combat.\\pIl te permet aussi d’utiliser la\\ncapacité Force hors combat.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House1_Frlg/scripts.inc",
+  "ligne": 113,
+  "note": "Badge Prisme. [CeruleanCity_House1_EventScript_DescribeRainbowBadge ; non compilé]"
+ },
+ {
+  "msgid": "The DEFENSE stat of all your\\nPOKéMON increases a little bit.\\pIt also lets you use the move\\nSURF outside of battle.",
+  "msgstr": "La statistique de Défense de tous\\ntes Pokémon augmente un peu.\\pIl te permet aussi d’utiliser la\\ncapacité Surf hors combat.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House1_Frlg/scripts.inc",
+  "ligne": 123,
+  "note": "Badge Âme. [CeruleanCity_House1_EventScript_DescribeSoulBadge ; non compilé]"
+ },
+ {
+  "msgid": "POKéMON up to Lv. 70 will obey\\nyou.\\pThat includes even outsiders you\\nobtain in trades.\\pPOKéMON of higher levels will\\nbe unruly in battle, however.\\pIt also lets you use the move\\nROCK SMASH outside of battle.",
+  "msgstr": "Les Pokémon jusqu’au niveau 70\\nt’obéiront.\\pMême ceux que tu obtiens lors\\nd’échanges.\\pMais ceux de niveau supérieur\\nrisquent de désobéir en combat.\\pIl te permet aussi d’utiliser la\\ncapacité Éclate-Roc hors combat.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House1_Frlg/scripts.inc",
+  "ligne": 129,
+  "note": "Badge Marais. [CeruleanCity_House1_EventScript_DescribeMarshBadge ; non compilé]"
+ },
+ {
+  "msgid": "The SP. ATK and SP. DEF stats of\\nall your POKéMON rise a little bit.\\pIt also lets you use the move\\nWATERFALL outside of battle.",
+  "msgstr": "L’Attaque Spé. et la Défense Spé. de\\ntous tes Pokémon augmentent un peu.\\pIl te permet aussi d’utiliser la\\ncapacité Cascade hors combat.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House1_Frlg/scripts.inc",
+  "ligne": 139,
+  "note": "Badge Volcan. [CeruleanCity_House1_EventScript_DescribeVolcanoBadge ; non compilé]"
+ },
+ {
+  "msgid": "All POKéMON will obey you!",
+  "msgstr": "Tous les Pokémon t’obéiront!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House1_Frlg/scripts.inc",
+  "ligne": 145,
+  "note": "Badge Terre. [CeruleanCity_House1_EventScript_DescribeEarthBadge ; non compilé]"
+ },
+ {
+  "msgid": "Those miserable ROCKETS!\\pLook what they've done to my\\nhouse!\\pThey stole a TM for teaching\\nPOKéMON how to DIG holes!\\pI was going to use it on a\\nMANKEY or a SANDSHREW…\\pThat cost me a bundle, it did!",
+  "msgstr": "Ces maudits sbires de la Team Rocket!\\pRegarde ce qu’ils ont fait à ma\\nmaison!\\pIls ont volé une CT pour apprendre\\naux Pokémon à creuser des tunnels!\\pJe voulais l’utiliser sur un FEROSINGE\\nou un SABELETTE…\\pElle m’a coûté une fortune, celle-là!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House2_Frlg/scripts.inc",
+  "ligne": 26,
+  "note": "Montagnard cambriolé. DIG = Tunnel (jeu de mots sur « creuser »). [CeruleanCity_House2_EventScript_Hiker ; non compilé]"
+ },
+ {
+  "msgid": "I figure what's lost is lost.\\pI decided to teach DIGLETT how to\\nDIG without a TM.",
+  "msgstr": "Ce qui est perdu est perdu, je me suis\\ndit.\\pJ’ai décidé d’apprendre Tunnel à\\nTAUPIQUEUR sans CT.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House2_Frlg/scripts.inc",
+  "ligne": 36,
+  "note": "Montagnard, après récupération de la CT28. [CeruleanCity_House2_EventScript_HikerGotTM28 ; non compilé]"
+ },
+ {
+  "msgid": "TEAM ROCKET must be trying to DIG\\ntheir way into no good!",
+  "msgstr": "La Team Rocket doit creuser un tunnel\\npour faire un mauvais coup!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House2_Frlg/scripts.inc",
+  "ligne": 41,
+  "note": "Fillette. [CeruleanCity_House2_EventScript_Lass ; non compilé]"
+ },
+ {
+  "msgid": "TEAM ROCKET left a way out!",
+  "msgstr": "La Team Rocket a laissé une sortie!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House2_Frlg/scripts.inc",
+  "ligne": 45,
+  "note": "Trou dans le mur. [CeruleanCity_House2_EventScript_WallHole ; non compilé]"
+ },
+ {
+  "msgid": "My husband likes trading POKéMON.\\pYou're collecting POKéMON for your\\nPOKéDEX, aren't you?\\pWould you please trade with him?",
+  "msgstr": "Mon mari adore échanger des Pokémon.\\pTu collectionnes les Pokémon pour ton\\nPokédex, n’est-ce pas?\\pVeux-tu bien faire un échange avec\\nlui?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House3_Frlg/scripts.inc",
+  "ligne": 43,
+  "note": "Vieille dame. [CeruleanCity_House3_EventScript_OldWoman ; non compilé]"
+ },
+ {
+  "msgid": "Sigh…\\nToo much time, too little to do…\\pIs nothing entertaining happening\\nanywhere?",
+  "msgstr": "Pfff… Trop de temps, et si peu à\\nfaire…\\pIl ne se passe donc rien d’amusant\\nnulle part?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House4_Frlg/scripts.inc",
+  "ligne": 94,
+  "note": "Homme aux nouvelles (échanges de nouvelles sans fil). [CeruleanCity_House4_EventScript_NoNews ; non compilé]"
+ },
+ {
+  "msgid": "Ah!\\nA new news report!\\pHmm…\\pI see!\\nThat was quite informative!\\pI applaud you for taking interest\\nin the news at your young age.\\pAs my thanks for sharing the news\\nwith me, I want you to have this.",
+  "msgstr": "Ah! Une nouvelle information!\\pHmm…\\pJe vois! C’était très instructif!\\pJe te félicite de t’intéresser à\\nl’actualité à ton âge.\\pPour te remercier de cette nouvelle,\\nje veux te donner ceci.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House4_Frlg/scripts.inc",
+  "ligne": 100,
+  "note": "[CeruleanCity_House4_EventScript_Reward_RecvSmall ; non compilé]"
+ },
+ {
+  "msgid": "Oh, oh!\\nTh-this news report!\\pHmm…\\pAmazing!\\nWhat an incredible piece of news!\\pI haven't seen a news story this\\nincredible in too long a time!\\pThanks for sharing this fantastic\\nnews. Have a bunch of BERRIES!",
+  "msgstr": "Oh, oh! Ce-cette nouvelle!\\pHmm…\\pIncroyable! Quelle nouvelle\\nextraordinaire!\\pÇa faisait bien longtemps que je\\nn’avais rien lu d’aussi incroyable!\\pMerci de m’avoir fait part de cette\\nfantastique nouvelle.\\pPrends donc ces Baies!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House4_Frlg/scripts.inc",
+  "ligne": 111,
+  "note": "[CeruleanCity_House4_EventScript_Reward_RecvBig ; non compilé]"
+ },
+ {
+  "msgid": "It seems such a shame to not share\\nthis news with other folks…\\pI wish I could tell someone…\\nLet others know the news…",
+  "msgstr": "C’est dommage de ne pas partager\\ncette nouvelle avec d’autres gens…\\pJ’aimerais tant pouvoir la raconter à\\nquelqu’un… Que d’autres l’apprennent…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House4_Frlg/scripts.inc",
+  "ligne": 122,
+  "note": "[CeruleanCity_House4_EventScript_Waiting ; non compilé]"
+ },
+ {
+  "msgid": "Ah, you've spread the news for me?\\pGood news becomes worthwhile when\\nall sorts of people share it.\\pAs my thanks for your spreading\\nthe news, take this!",
+  "msgstr": "Ah, tu as répandu la nouvelle pour\\nmoi?\\pUne bonne nouvelle prend tout son\\nsens quand on la partage.\\pPour te remercier de l’avoir répandue,\\nprends ceci!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House4_Frlg/scripts.inc",
+  "ligne": 128,
+  "note": "[CeruleanCity_House4_EventScript_Reward_SentSmall ; non compilé]"
+ },
+ {
+  "msgid": "You've spread the news some more?\\nMagnificent!\\pThat piece of news must be\\ndelighted to be passed around so.\\pYes, indeed!\\pConsider this a show of\\nappreciation from me and the news.\\pI'll give you more BERRIES than\\nI usually do.",
+  "msgstr": "Tu as encore répandu la nouvelle?\\nMagnifique!\\pCette nouvelle doit être ravie de\\ncirculer ainsi.\\pOui, vraiment!\\pAccepte ceci en remerciement, de ma\\npart et de celle de la nouvelle.\\pJe vais te donner plus de Baies que\\nd’habitude.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House4_Frlg/scripts.inc",
+  "ligne": 135,
+  "note": "[CeruleanCity_House4_EventScript_Reward_SentBig ; non compilé]"
+ },
+ {
+  "msgid": "I'm quite enjoying myself with all\\nsorts of news.\\pYes, I am satisfied!\\nI won't be bored for a while.",
+  "msgstr": "Je m’amuse beaucoup avec toutes\\nsortes de nouvelles.\\pOui, je suis satisfait! Je ne\\nm’ennuierai pas de sitôt.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House4_Frlg/scripts.inc",
+  "ligne": 146,
+  "note": "[CeruleanCity_House4_EventScript_AtMax ; non compilé]"
+ },
+ {
+  "msgid": "Hm? Your BERRY POUCH is full.\\nMy gift remains ungiven, then.",
+  "msgstr": "Hm? Ton Sac à Baies est plein. Mon\\ncadeau attendra, alors.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House4_Frlg/scripts.inc",
+  "ligne": 152,
+  "note": "BERRY POUCH = Sac à Baies (FRLG FR « SAC A BAIES »). [CeruleanCity_House4_EventScript_NoRoomForBerries ; non compilé]"
+ },
+ {
+  "msgid": "I concoct a variety of medicine\\nfrom BERRY POWDER.\\pUsing good BERRY POWDER, I can\\nmake any kind of medicine.\\pNow tell me, have you any interest\\nin BERRIES?",
+  "msgstr": "Je prépare toutes sortes de remèdes\\nà partir de Poudre Baie.\\pAvec de la bonne Poudre Baie, je peux\\nfaire n’importe quel remède.\\pDis-moi, les Baies\\nt’intéressent-elles?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House5_Frlg/scripts.inc",
+  "ligne": 177,
+  "note": "Homme à la Poudre Baie (équivalent FRLG de celui de Poivressel). BERRY POWDER = Poudre Baie. [CeruleanCity_House5_EventScript_BerryPowderMan ; non compilé]"
+ },
+ {
+  "msgid": "Ah, good! For you, then, I have\\njust the thing.",
+  "msgstr": "Ah, très bien! J’ai justement ce qu’il\\nte faut.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House5_Frlg/scripts.inc",
+  "ligne": 185,
+  "note": "[CeruleanCity_House5_EventScript_BerryPowderMan ; non compilé]"
+ },
+ {
+  "msgid": "There's something new on the second\\nfloor of POKéMON CENTERS, at the\\lDIRECT CORNER.\\pThey installed a Wireless Adapter\\nmachine for crushing BERRIES.\\pThis is where you come in.\\pI have a favor to ask, one that\\nI can entrust only to you.\\pCould you make BERRY POWDER for\\nme using that machine?\\pDon't forget, the machine is at the\\nDIRECT CORNER of POKéMON CENTERS.\\pI'll concoct medicine for you if\\nyou bring me some BERRY POWDER.\\pDon't forget, crush BERRIES into\\nBERRY POWDER and bring it to me.",
+  "msgstr": "Il y a du nouveau au premier étage des\\nCentres Pokémon, au Coin Direct.\\pIls ont installé une machine à broyer\\nles Baies avec l’Adaptateur Sans Fil.\\pC’est là que tu interviens.\\pJ’ai un service à te demander, que je\\nne peux confier qu’à toi.\\pPourrais-tu me faire de la Poudre Baie\\navec cette machine?\\pN’oublie pas, la machine se trouve au\\nCoin Direct des Centres Pokémon.\\pJe te préparerai des remèdes si tu\\nm’apportes de la Poudre Baie.\\pBroie des Baies pour en faire de la\\nPoudre Baie, et apporte-la-moi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House5_Frlg/scripts.inc",
+  "ligne": 189,
+  "note": "DIRECT CORNER = « Coin Direct » (non vérifié dans FRLG FR, voir rapport). « second floor » = premier étage (usage français). [CeruleanCity_House5_EventScript_BerryPowderMan ; non compilé]"
+ },
+ {
+  "msgid": "Why must you lie to me?\\pHow many BERRIES do you have?\\nNot a one!",
+  "msgstr": "Pourquoi me mens-tu?\\pCombien de Baies as-tu? Pas une\\nseule!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House5_Frlg/scripts.inc",
+  "ligne": 207,
+  "note": "[CeruleanCity_House5_EventScript_NoBerries ; non compilé]"
+ },
+ {
+  "msgid": "You have no interest in BERRIES?\\pYoung one, it's important to take an\\ninterest in all sorts of things.",
+  "msgstr": "Les Baies ne t’intéressent pas?\\pMon enfant, il faut s’intéresser à\\ntoutes sortes de choses.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House5_Frlg/scripts.inc",
+  "ligne": 212,
+  "note": "« Young one » = « Mon enfant » (neutre). [CeruleanCity_House5_EventScript_NoInterestInBerries ; non compilé]"
+ },
+ {
+  "msgid": "Er-hem! Have you brought me some\\nBERRY POWDER?",
+  "msgstr": "Hum-hum! M’as-tu apporté de la Poudre\\nBaie?",
+  "source": "Émeraude FR officiel (adapté)",
+  "fichier": "data/maps/CeruleanCity_House5_Frlg/scripts.inc",
+  "ligne": 217,
+  "preuve": "M’as-tu amené de la POUDRE Baie?",
+  "note": "Repris d’Émeraude FR (Poivressel) : « M’as-tu amené de la POUDRE Baie? ». [CeruleanCity_House5_EventScript_AskToExchangePowder ; non compilé]"
+ },
+ {
+  "msgid": "With what would you like to \\nexchange it?",
+  "msgstr": "Contre quoi veux-tu l’échanger?",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/CeruleanCity_House5_Frlg/scripts.inc",
+  "ligne": 221,
+  "preuve": "Contre quoi veux-tu l’échanger?",
+  "note": "Émeraude FR (Poivressel). [CeruleanCity_House5_EventScript_ChooseExchangeItem ; non compilé]"
+ },
+ {
+  "msgid": "Fine, you'll exchange your BERRY\\nPOWDER for one {STR_VAR_1}?",
+  "msgstr": "Bien. Tu veux échanger ta Poudre Baie\\ncontre 1 {STR_VAR_1}?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House5_Frlg/scripts.inc",
+  "ligne": 225,
+  "note": "[CeruleanCity_House5_EventScript_ExchangePowderForItem ; non compilé]"
+ },
+ {
+  "msgid": "Hm? You don't have enough\\nBERRY POWDER.",
+  "msgstr": "Hm? Tu n’as pas assez de Poudre Baie.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House5_Frlg/scripts.inc",
+  "ligne": 229,
+  "note": "Proche de « Hmm.\\nTu n’as pas assez de POUDRE Baie. » (patch FR, Poivressel). [CeruleanCity_House5_EventScript_NotEnoughBerryPowder ; non compilé]"
+ },
+ {
+  "msgid": "This is fine BERRY POWDER indeed.\\nIt will make excellent medicine.\\pWould you like to trade more BERRY\\nPOWDER for something else?",
+  "msgstr": "Cette Poudre Baie est vraiment bonne.\\nÇa fera d’excellents remèdes.\\pTu veux échanger ce qui te reste de\\nPoudre Baie contre autre chose?",
+  "source": "Émeraude FR officiel (adapté)",
+  "fichier": "data/maps/CeruleanCity_House5_Frlg/scripts.inc",
+  "ligne": 233,
+  "preuve": "Cette POUDRE Baie a l’air bonne.\\nÇa fera de bons médicaments.\\pTu veux échanger ce qui te reste de\\nPOUDRE Baie contre autre chose?",
+  "note": "Émeraude FR (Poivressel), adapté. [CeruleanCity_House5_EventScript_ExchangePowderForItem ; non compilé]"
+ },
+ {
+  "msgid": "That's fine, then.\\nI'll hope to see you back again.",
+  "msgstr": "Très bien, alors. J’espère te revoir\\nbientôt.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House5_Frlg/scripts.inc",
+  "ligne": 239,
+  "note": "[CeruleanCity_House5_EventScript_ExchangePowderForItem ; non compilé]"
+ },
+ {
+  "msgid": "Come see me if you'd like to trade\\nyour BERRY POWDER.",
+  "msgstr": "Reviens me voir si tu veux échanger\\nta Poudre Baie.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_House5_Frlg/scripts.inc",
+  "ligne": 243,
+  "note": "[CeruleanCity_House5_EventScript_ExitMenu ; non compilé]"
+ },
+ {
+  "msgid": "REPEL not only keeps bugs away,\\nit also works on weak POKéMON.\\pPut your strongest POKéMON at the\\nleft of the POKéMON LIST.\\pIf your first POKéMON is strong,\\nREPEL's effect is boosted.",
+  "msgstr": "Le Repousse n’éloigne pas que les\\ninsectes.\\pIl marche aussi sur les Pokémon\\nfaibles.\\pMets ton Pokémon le plus fort en tête\\nde ton équipe.\\pSi ton premier Pokémon est fort,\\nl’effet du Repousse est renforcé.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Mart_Frlg/scripts.inc",
+  "ligne": 38,
+  "note": "Gamin de la Boutique. [CeruleanCity_Mart_EventScript_Youngster ; non compilé]"
+ },
+ {
+  "msgid": "Do you know about RARE CANDY?\\nThey don't sell it in shops.\\pI think it makes POKéMON grow\\nvery quickly all of a sudden.",
+  "msgstr": "Tu connais les Super Bonbons? On n’en\\nvend pas en boutique.\\pJe crois qu’ils font grandir les\\nPokémon très vite, d’un seul coup.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_Mart_Frlg/scripts.inc",
+  "ligne": 46,
+  "note": "Femme de la Boutique. [CeruleanCity_Mart_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "That BILL!\\pI heard that he'll do whatever it\\ntakes to get rare POKéMON.\\pHe's not above doing all sorts\\nof things, I've heard.",
+  "msgstr": "Ce Léo!\\pIl paraît qu’il ferait n’importe quoi\\npour obtenir des Pokémon rares.\\pIl ne reculerait devant rien, à ce\\nqu’on dit.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 38,
+  "note": "Rockeur. [CeruleanCity_PokemonCenter_1F_EventScript_Rocker ; non compilé]"
+ },
+ {
+  "msgid": "Have you heard about BILL?\\pEveryone calls him a POKéMANIAC!\\pI think people are just jealous of\\nBILL, though.\\pWho wouldn't want to boast about\\ntheir POKéMON?",
+  "msgstr": "Tu as entendu parler de Léo?\\pTout le monde dit que c’est un\\nPokémaniac!\\pMais je crois que les gens sont juste\\njaloux de Léo.\\pQui n’aimerait pas se vanter de ses\\nPokémon?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 45,
+  "note": "Gentleman. [CeruleanCity_PokemonCenter_1F_EventScript_Gentleman ; non compilé]"
+ },
+ {
+  "msgid": "BILL has lots of POKéMON!\\nHe collects rare ones, too!",
+  "msgstr": "Léo a plein de Pokémon! Il\\ncollectionne aussi les rares!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 53,
+  "note": "Gamin. [CeruleanCity_PokemonCenter_1F_EventScript_Youngster ; non compilé]"
+ },
+ {
+  "msgid": "Why don't you go upstairs and try\\ntrading POKéMON with your friends?\\pYou could get a lot more variety\\nby trading.\\pThe POKéMON you get in trades grow\\nquickly, too.",
+  "msgstr": "Pourquoi ne pas monter à l’étage pour\\néchanger des Pokémon avec tes amis?\\pTu pourrais avoir bien plus de variété\\ngrâce aux échanges.\\pEt les Pokémon obtenus lors\\nd’échanges grandissent vite.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/CeruleanCity_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 57,
+  "note": "Fillette. [CeruleanCity_PokemonCenter_1F_EventScript_Lass ; non compilé]"
+ },
+ {
+  "msgid": "I went inside ROCK TUNNEL, but it's\\npitch-black and scary in there.\\pIf I could get a POKéMON to use\\nFLASH and light it up…",
+  "msgstr": "Je suis entré dans la Grotte, mais il y\\nfait noir complet et ça fait peur.\\pSi un Pokémon pouvait utiliser Flash\\npour l’éclairer…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/DiglettsCave_NorthEntrance_Frlg/scripts.inc",
+  "ligne": 9,
+  "note": "Montagnard. ROCK TUNNEL = Grotte. [DiglettsCave_NorthEntrance_EventScript_Hiker ; non compilé]"
+ },
+ {
+  "msgid": "Well, isn't this a surprise!\\nDIGLETT dug this long tunnel!\\pIt goes right to VIRIDIAN CITY,\\nthey tell me.",
+  "msgstr": "Ça alors, quelle surprise!\\pCe sont des TAUPIQUEUR qui ont\\ncreusé ce long tunnel!\\pIl mène tout droit à Jadielle, à ce\\nqu’on m’a dit.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/DiglettsCave_SouthEntrance_Frlg/scripts.inc",
+  "ligne": 9,
+  "note": "Vieil homme, entrée sud de la Cave TAUPIQUEUR. [DiglettsCave_SouthEntrance_EventScript_OldMan ; non compilé]"
+ },
+ {
+  "msgid": "WHOA!\\nYou shocked me!\\l…Oh, you're just a kid!",
+  "msgstr": "OUAH! Tu m’as fait peur!\\n… Oh, c’est qu’un gamin!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 49,
+  "note": "Montagnard Marcos. [MtMoon_1F_EventScript_Marcos (TRAINER_HIKER_MARCOS) ; non compilé]"
+ },
+ {
+  "msgid": "Wow!\\nShocked again!",
+  "msgstr": "Waouh! Encore une frayeur!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 54,
+  "note": "Montagnard Marcos, défaite. [MtMoon_1F_EventScript_Marcos (TRAINER_HIKER_MARCOS) ; non compilé]"
+ },
+ {
+  "msgid": "Kids like you shouldn't be\\nwandering around here in the dark.",
+  "msgstr": "Les gamins comme toi ne devraient pas\\ntraîner ici dans le noir.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 58,
+  "note": "[MtMoon_1F_EventScript_Marcos ; non compilé]"
+ },
+ {
+  "msgid": "Did you come to explore the cave,\\ntoo?",
+  "msgstr": "Toi aussi, tu viens explorer la\\ngrotte?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 62,
+  "note": "Gamin Josh. [MtMoon_1F_EventScript_Josh (TRAINER_YOUNGSTER_JOSH) ; non compilé]"
+ },
+ {
+  "msgid": "Losing stinks!\\nIt's so uncool.",
+  "msgstr": "Perdre, c’est nul! C’est pas cool du\\ntout.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 66,
+  "note": "[MtMoon_1F_EventScript_Josh (TRAINER_YOUNGSTER_JOSH) ; non compilé]"
+ },
+ {
+  "msgid": "I came all the way down here to\\nshow off to girls.",
+  "msgstr": "Je suis venu jusqu’ici pour frimer\\ndevant les filles.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 70,
+  "note": "[MtMoon_1F_EventScript_Josh ; non compilé]"
+ },
+ {
+  "msgid": "Wow! It's way bigger in here than\\nI thought!",
+  "msgstr": "Waouh! C’est bien plus grand que je\\npensais là-dedans!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 74,
+  "note": "Fillette Miriam. [MtMoon_1F_EventScript_Miriam (TRAINER_LASS_MIRIAM) ; non compilé]"
+ },
+ {
+  "msgid": "Oh!\\nI lost it!",
+  "msgstr": "Oh! J’ai perdu!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 78,
+  "note": "[MtMoon_1F_EventScript_Miriam (TRAINER_LASS_MIRIAM) ; non compilé]"
+ },
+ {
+  "msgid": "How do you get out of here?\\nIt's so big, I may get lost.",
+  "msgstr": "Comment on sort d’ici? C’est si grand\\nque je risque de me perdre.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 82,
+  "note": "[MtMoon_1F_EventScript_Miriam ; non compilé]"
+ },
+ {
+  "msgid": "What!\\nDon't sneak up on me!",
+  "msgstr": "Quoi! Ne t’approche pas de moi en\\ndouce!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 86,
+  "note": "Intello Jovan. [MtMoon_1F_EventScript_Jovan (TRAINER_SUPER_NERD_JOVAN) ; non compilé]"
+ },
+ {
+  "msgid": "My POKéMON won't do!",
+  "msgstr": "Mes Pokémon ne font pas le poids!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 90,
+  "note": "[MtMoon_1F_EventScript_Jovan (TRAINER_SUPER_NERD_JOVAN) ; non compilé]"
+ },
+ {
+  "msgid": "I have to find stronger POKéMON.\\nWhere might they be?",
+  "msgstr": "Il me faut des Pokémon plus forts. Où\\npourraient-ils bien être?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 93,
+  "note": "[MtMoon_1F_EventScript_Jovan ; non compilé]"
+ },
+ {
+  "msgid": "What?\\nI'm waiting for my friends to find\\lme here.",
+  "msgstr": "Quoi? J’attends que mes amis me\\nretrouvent ici.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 97,
+  "note": "Fillette Iris. [MtMoon_1F_EventScript_Iris (TRAINER_LASS_IRIS) ; non compilé]"
+ },
+ {
+  "msgid": "I came because I heard there are\\nsome very rare fossils here.",
+  "msgstr": "Je suis venue parce qu’il paraît qu’il\\ny a des fossiles très rares ici.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 105,
+  "note": "[MtMoon_1F_EventScript_Iris ; non compilé]"
+ },
+ {
+  "msgid": "Suspicious men are in the cave.\\nWhat about you?",
+  "msgstr": "Il y a des hommes louches dans la\\ngrotte. Et toi, qui es-tu?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 109,
+  "note": "Scout Kent. [MtMoon_1F_EventScript_Kent (TRAINER_BUG_CATCHER_KENT) ; non compilé]"
+ },
+ {
+  "msgid": "I saw them!\\nI'm sure they're from TEAM ROCKET!",
+  "msgstr": "Je les ai vus! Je suis sûr qu’ils font\\npartie de la Team Rocket!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 116,
+  "note": "[MtMoon_1F_EventScript_Kent ; non compilé]"
+ },
+ {
+  "msgid": "You need to go through this cave\\nto get to CERULEAN CITY.",
+  "msgstr": "Il faut traverser cette grotte pour\\naller à Azuria.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 120,
+  "note": "Scout Robby. [MtMoon_1F_EventScript_Robby (TRAINER_BUG_CATCHER_ROBBY) ; non compilé]"
+ },
+ {
+  "msgid": "ZUBAT is tough!\\nBut if you can catch one, you'll\\lbe able to count on it.",
+  "msgstr": "NOSFERAPTI est coriace!\\pMais si tu arrives à en attraper un, tu\\npourras compter sur lui.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 127,
+  "note": "[MtMoon_1F_EventScript_Robby ; non compilé]"
+ },
+ {
+  "msgid": "Beware!\\nZUBAT is a bloodsucker!",
+  "msgstr": "Attention! NOSFERAPTI suce le sang!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 132,
+  "note": "Panneau. [MtMoon_1F_EventScript_ZubatSign ; non compilé]"
+ },
+ {
+  "msgid": "Hi, I'm excavating for fossils here\\nunder MT. MOON.\\pSometimes, BROCK of PEWTER GYM\\nlends me a hand.",
+  "msgstr": "Bonjour, je cherche des fossiles ici,\\nsous le Mont Sélénite.\\pParfois, Pierre de l’Arène d’Argenta\\nme donne un coup de main.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_1F_Frlg/scripts.inc",
+  "ligne": 136,
+  "note": "Chercheur de fossiles. [texte MtMoon_1F_Text_BrockHelpsExcavateFossils ; non compilé]"
+ },
+ {
+  "msgid": "Hey, stop!\\pI found these fossils!\\nThey're both mine!",
+  "msgstr": "Hé, stop!\\pC’est moi qui ai trouvé ces fossiles!\\nIls sont tous les deux à moi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 137,
+  "note": "Intello Miguel. [MtMoon_B2F_EventScript_BattleMiguel ; non compilé]"
+ },
+ {
+  "msgid": "Okay!\\nI'll share!",
+  "msgstr": "OK! On partage!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 142,
+  "note": "[MtMoon_B2F_EventScript_BattleMiguel (TRAINER_SUPER_NERD_MIGUEL) ; non compilé]"
+ },
+ {
+  "msgid": "We'll each take a fossil!\\nNo being greedy!",
+  "msgstr": "On prend chacun un fossile! Pas de\\ngourmandise!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 146,
+  "note": "[MtMoon_B2F_EventScript_BattleMiguel ; non compilé]"
+ },
+ {
+  "msgid": "All right.\\nThen this fossil is mine!",
+  "msgstr": "Très bien. Alors ce fossile-là est à\\nmoi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 150,
+  "note": "[MtMoon_B2F_EventScript_DomeFossil ; non compilé]"
+ },
+ {
+  "msgid": "Far away, on CINNABAR ISLAND,\\nthere's a POKéMON LAB.\\pThey do research on regenerating\\nfossils.",
+  "msgstr": "Loin d’ici, sur Cramois’Ile, il y a un\\nLaboratoire Pokémon.\\pIls font des recherches pour\\nressusciter les fossiles.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 154,
+  "note": "Intello Miguel. [MtMoon_B2F_EventScript_MiguelFossilPicked ; non compilé]"
+ },
+ {
+  "msgid": "We, TEAM ROCKET, shall find the\\nfossils!\\pReviving POKéMON from them will\\nearn us huge riches!",
+  "msgstr": "Nous, la Team Rocket, allons trouver\\nles fossiles!\\pEn ressuscitant ces Pokémon, on va se\\nfaire un paquet de fric!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 160,
+  "note": "Sbire Rocket. [MtMoon_B2F_EventScript_Grunt1 (TRAINER_TEAM_ROCKET_GRUNT) ; non compilé]"
+ },
+ {
+  "msgid": "Urgh!\\nNow I'm mad!",
+  "msgstr": "Argh! Là, je suis furax!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 166,
+  "note": "[MtMoon_B2F_EventScript_Grunt1 (TRAINER_TEAM_ROCKET_GRUNT) ; non compilé]"
+ },
+ {
+  "msgid": "You made me mad!\\nTEAM ROCKET will blacklist you!",
+  "msgstr": "Tu m’as mis en rogne! La Team Rocket\\nva te mettre sur sa liste noire!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 170,
+  "note": "[MtMoon_B2F_EventScript_Grunt1 ; non compilé]"
+ },
+ {
+  "msgid": "We, TEAM ROCKET, are POKéMON\\ngangsters!\\lWe strike fear with our strength!",
+  "msgstr": "Nous, la Team Rocket, sommes les\\ngangsters des Pokémon!\\pNotre force sème la terreur!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 174,
+  "note": "Sbire Rocket. [MtMoon_B2F_EventScript_Grunt2 (TRAINER_TEAM_ROCKET_GRUNT_2) ; non compilé]"
+ },
+ {
+  "msgid": "Darn it all!\\nMy associates won't stand for this!",
+  "msgstr": "Bon sang! Mes associés ne vont pas\\nlaisser passer ça!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 182,
+  "note": "[MtMoon_B2F_EventScript_Grunt2 ; non compilé]"
+ },
+ {
+  "msgid": "We're pulling a big job here!\\nGet lost, kid!",
+  "msgstr": "On prépare un gros coup ici! Dégage,\\ngamin!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 186,
+  "note": "Sbire Rocket. [MtMoon_B2F_EventScript_Grunt3 (TRAINER_TEAM_ROCKET_GRUNT_3) ; non compilé]"
+ },
+ {
+  "msgid": "So, you are good…",
+  "msgstr": "Alors, tu es doué…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 190,
+  "note": "[MtMoon_B2F_EventScript_Grunt3 (TRAINER_TEAM_ROCKET_GRUNT_3) ; non compilé]"
+ },
+ {
+  "msgid": "If you find a fossil, give it to me\\nand scram!",
+  "msgstr": "Si tu trouves un fossile, file-le-moi\\net décampe!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 193,
+  "note": "[MtMoon_B2F_EventScript_Grunt3 ; non compilé]"
+ },
+ {
+  "msgid": "Little kids shouldn't be messing\\naround with grown-ups!\\pIt could be bad news!",
+  "msgstr": "Les petits ne devraient pas se mêler\\ndes affaires des grands!\\pÇa pourrait mal tourner!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 197,
+  "note": "Sbire Rocket. [MtMoon_B2F_EventScript_Grunt4 (TRAINER_TEAM_ROCKET_GRUNT_4) ; non compilé]"
+ },
+ {
+  "msgid": "I'm steamed!",
+  "msgstr": "Je bous de rage!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 202,
+  "note": "[MtMoon_B2F_EventScript_Grunt4 (TRAINER_TEAM_ROCKET_GRUNT_4) ; non compilé]"
+ },
+ {
+  "msgid": "POKéMON lived here long before\\npeople came.",
+  "msgstr": "Les Pokémon vivaient ici bien avant\\nl’arrivée des humains.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 205,
+  "note": "[MtMoon_B2F_EventScript_Grunt4 ; non compilé]"
+ },
+ {
+  "msgid": "Do you want the DOME FOSSIL?",
+  "msgstr": "Veux-tu le Fossile Dôme?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 209,
+  "note": "[MtMoon_B2F_EventScript_DomeFossil ; non compilé]"
+ },
+ {
+  "msgid": "Do you want the HELIX FOSSIL?",
+  "msgstr": "Veux-tu le Nautile?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 212,
+  "note": "HELIX FOSSIL = Nautile (SoulSilver FR). [MtMoon_B2F_EventScript_HelixFossil ; non compilé]"
+ },
+ {
+  "msgid": "Obtained the HELIX FOSSIL!",
+  "msgstr": "Nautile obtenu!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 215,
+  "note": "Message système (pas de {PLAYER} dans l’anglais). [MtMoon_B2F_EventScript_HelixFossil ; non compilé]"
+ },
+ {
+  "msgid": "Obtained the DOME FOSSIL!",
+  "msgstr": "Fossile Dôme obtenu!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/MtMoon_B2F_Frlg/scripts.inc",
+  "ligne": 218,
+  "note": "[MtMoon_B2F_EventScript_DomeFossil ; non compilé]"
+ }
+]

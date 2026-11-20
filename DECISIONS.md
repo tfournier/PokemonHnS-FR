@@ -58,10 +58,8 @@ reportées dans `traductions/glossaire.tsv`.
 13. **Noms de Dresseurs homonymes.** Un même prénom anglais peut désigner des personnes différentes selon
     la région (BILL Cracheur de feu → Andréa ; BILL le personnage → Léo). Les noms de Dresseurs
     SoulSilver sont donc posés avec `msgctxt` = fichier `.party` (contextes.po).
-14. **Capitales sans accent dans les libellés en capitales** (corrige la première version de la décision 3).
-    Mesuré dans Émeraude FR : RESUME, DEPLACER, BOITE, ETEINDRE, DEFENSE, CAPACITE, DUREE, ATQ. SPE
-    apparaissent sans accent, et aucune forme accentuée n'existe ; SoulSilver FR fait de même (HERICENDRE,
-    ELECTRIK). Les libellés entièrement en capitales (menus, onglets, types, espèces) ne portent donc
-    jamais d'accent, sauf le « é » minuscule de POKéMON / POKéDEX. Dans le texte courant (casse normale),
-    les majuscules gardent leurs accents comme le glossaire du projet (« À la prochaine », « Cramois’Île »,
-    « Îles Écume »).
+14. **Pas de capitale accentuée** (corrige la première version de la décision 3). Mesuré dans Émeraude FR :
+    RESUME, DEPLACER, BOITE, ETEINDRE, DEFENSE, CAPACITE, DUREE, ATQ. SPE, « A la » (20 fois contre 4
+    « À la ») ; SoulSilver FR fait de même, y compris en casse normale (HERICENDRE, ELECTRIK, Iles Ecume,
+    Ile de Fer, Cramois’Ile, Badge Ame), et le glossaire du projet suit SoulSilver. Donc aucune majuscule
+    ne porte d'accent (seul le « é » minuscule de POKéMON / POKéDEX reste). Types : ELECTRIK, TENEBRES, FEE.

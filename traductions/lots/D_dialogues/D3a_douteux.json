@@ -1,0 +1,72 @@
+[
+ {
+  "msgid": "Humph!\\nYou have proven your worth!\\pHere!\\nTake the SOULBADGE!",
+  "msgstr": "Hmph! Tu as prouvé ta valeur!\\pTiens! Prends le Badge Âme!",
+  "fichier": "data/maps/FuchsiaCity_Gym_Frlg/scripts.inc",
+  "ligne": 106,
+  "raison": "SOULBADGE = « Badge Âme » : SoulSilver FR écrit « Badge Ame » (pas de capitale accentuée) ; accent ajouté comme le permet le §3. À trancher au glossaire."
+ },
+ {
+  "msgid": "I'm the FISHING GURU's older\\nbrother.\\pI simply looove fishing!\\nI can't bear to go without.\\pTell me, do you like to fish?",
+  "msgstr": "Je suis le grand frère du Maître\\nPêcheur.\\pJ’adoooore la pêche! Je ne peux pas\\nm’en passer.\\pDis-moi, tu aimes pêcher?",
+  "fichier": "data/maps/FuchsiaCity_House2_Frlg/scripts.inc",
+  "ligne": 35,
+  "raison": "FISHING GURU = « Maître Pêcheur » : aucun nom officiel FRLG FR trouvé (traduction nouvelle)."
+ },
+ {
+  "msgid": "I'm the FISHING GURU's younger\\nbrother.\\pI simply looove fishing!\\nI can't bear to go without.\\pTell me, do you like to fish?",
+  "msgstr": "Je suis le petit frère du Maître\\nPêcheur.\\pJ’adoooore la pêche! Je ne peux pas\\nm’en passer.\\pDis-moi, tu aimes pêcher?",
+  "fichier": "data/maps/Route12_FishingHouse_Frlg/scripts.inc",
+  "ligne": 102,
+  "raison": "FISHING GURU = « Maître Pêcheur » : aucun nom officiel FRLG FR trouvé (traduction nouvelle)."
+ },
+ {
+  "msgid": "SAFARI ZONE\\nWARDEN'S HOME",
+  "msgstr": "Parc Safari\\nMaison du Gardien",
+  "fichier": "data/maps/FuchsiaCity_Frlg/scripts.inc",
+  "ligne": 175,
+  "raison": "SAFARI ZONE WARDEN = « Gardien (du Parc Safari) », calqué sur SS « Gardien du Parc Naturel » ; nom FRLG FR non vérifié."
+ },
+ {
+  "msgid": "TM28 contains TOMBSTONY?",
+  "msgstr": "La CT28 contient Tomberoche?",
+  "fichier": "data/maps/CinnabarIsland_Gym_Frlg/scripts.inc",
+  "ligne": 892,
+  "raison": "TOMBSTONY (capacité inventée du quiz) rendu par « Tomberoche » (vraie capacité, mais pas en CT28) : la réponse attendue reste « non ». Le nom du quiz FRLG FR n’a pas été retrouvé."
+ },
+ {
+  "msgid": "… … …Whoa!\\n{STR_VAR_2} inches!\\pYou have a rare appreciation for\\nthe fine, poetic aspects of fishing!\\pYou must take this.\\nI insist!",
+  "msgstr": "… … … Ouah! {STR_VAR_2} pouces!\\pTu as un sens rare de la beauté\\npoétique de la pêche!\\pTu dois prendre ceci. J’insiste!",
+  "fichier": "data/maps/Route12_FishingHouse_Frlg/scripts.inc",
+  "ligne": 148,
+  "raison": "« inches » rendu par « pouces » : la valeur {STR_VAR_2} est calculée en pouces par le code anglais. Si le code est un jour localisé (cm), remplacer « pouces »."
+ },
+ {
+  "msgid": "1F: SERVICE COUNTER\\p2F: TRAINER'S MARKET\\p3F: TV GAME SHOP\\p4F: WISE MAN GIFTS\\p5F: DRUGSTORE\\pROOFTOP SQUARE: VENDING MACHINES",
+  "msgstr": "RDC: Accueil\\p1{SUPER_ER}: Marché du Dresseur\\p2{SUPER_E}: Jeux Vidéo\\p3{SUPER_E}: Cadeaux Sagesse\\p4{SUPER_E}: Pharmacie\\pToit: Distributeurs",
+  "fichier": "data/maps/CeladonCity_DepartmentStore_1F_Frlg/scripts.inc",
+  "ligne": 23,
+  "raison": "Étages du Centre Commercial : RDC / 1{SUPER_ER} / 2{SUPER_E}… (numérotation française, comme SS 495:2 « 1¹ ») ; libellés « Jeux Vidéo », « Cadeaux Sagesse » traduction nouvelle."
+ },
+ {
+  "msgid": "ROCKET GAME CORNER\\nThe playground for grown-ups!",
+  "msgstr": "Casino Rocket\\nLe terrain de jeu des grands!",
+  "fichier": "data/maps/CeladonCity_Frlg/scripts.inc",
+  "ligne": 179,
+  "raison": "ROCKET GAME CORNER = « Casino Rocket » (casse SS ; le vérificateur signalait la forme en capitales)."
+ },
+ {
+  "msgid": "CINNABAR ISLAND\\nThe Fiery Town of Burning Desire",
+  "msgstr": "Cramois’Ile\\nLa ville ardente du désir brûlant",
+  "fichier": "data/maps/CinnabarIsland_Frlg/scripts.inc",
+  "ligne": 370,
+  "raison": "Graphie « Cramois’Ile » (glossaire, .po et SS banque 279) au lieu de « Cramois’Île » écrit dans CONSIGNES_FRLG.md : à harmoniser entre les lots D2–D4."
+ },
+ {
+  "msgid": "To link only with a friend, go to\\nthe DIRECT CORNER.\\pIt is the right counter at the\\nPOKéMON WIRELESS CLUB.\\pGo into the TRADE CORNER or the\\nCOLOSSEUM with your friend.",
+  "msgstr": "Pour te connecter avec un seul ami, va\\nau COIN DIRECT.\\pC’est le comptoir de droite du CLUB\\nSANS FIL Pokémon.\\pEntre au COIN ECHANGE ou au COLISEE\\navec ton ami.",
+  "fichier": "data/maps/CeladonCity_Condominiums_RoofRoom_Frlg/scripts.inc",
+  "ligne": 135,
+  "raison": "« COIN ECHANGE » (TRADE CORNER) en capitales comme COIN DIRECT / SALLE UNION / COLISEE déjà au .po ; signalé GLOSSAIRE par le vérificateur (non bloquant)."
+ }
+]

@@ -1,0 +1,149 @@
+[
+ {
+  "msgid": "FIVE ISLAND\\nChrono Island: Where Time Goes",
+  "msgstr": "Île 5\\nL’île où le temps s’écoule\\lcomme une rivière",
+  "fichier": "data/maps/FiveIsland_Frlg/scripts.inc",
+  "ligne": 22,
+  "raison": "Devise de l’Île 5 : “L’île où le temps s’écoule comme une rivière” = accroche Poképédia ; panneau non vérifié."
+ },
+ {
+  "msgid": "{PLAYER} entered a password.\\p“GOLDEEN need log.”\\p… …  … …  … …\\pAnother password is needed to\\nopen the door…",
+  "msgstr": "{PLAYER} entre un mot de passe.\\p“Ici GIRAFARIG ici.”\\p… … … … … …\\pIl faut un autre mot de passe pour\\nouvrir la porte…",
+  "fichier": "data/maps/FiveIsland_Meadow_Frlg/scripts.inc",
+  "ligne": 59,
+  "raison": "Mot de passe : forme officielle FR “Ici Girafarig ici” d’après Poképédia (Entrepôt Rocket ; Mont Braise écrit “Ici, Girafarig, Ici”) ; ponctuation/casse exactes non vérifiées."
+ },
+ {
+  "msgid": "{PLAYER} entered two passwords.\\p“GOLDEEN need log.”\\n“Yes, nah, CHANSEY.”\\p… …  … …  … …\\pThe WAREHOUSE's door opened!",
+  "msgstr": "{PLAYER} entre les deux mots de passe.\\p“Ici GIRAFARIG ici.”\\n“TARSAL la star.”\\p… …  … …  … …\\pLa porte de l’Entrepôt s’ouvre!",
+  "fichier": "data/maps/FiveIsland_Meadow_Frlg/scripts.inc",
+  "ligne": 66,
+  "raison": "Mots de passe officiels FR “Ici Girafarig ici” / “Tarsal la star” (Poképédia), ponctuation exacte non vérifiée."
+ },
+ {
+  "msgid": "GILLIAN?\\nPlease tilt your head slightly…\\lThere! That's the look I want!",
+  "msgstr": "Reine? Penche un peu la tête… Voilà!\\nC’est l’expression que je veux!",
+  "fichier": "data/maps/FiveIsland_ResortGorgeous_Frlg/scripts.inc",
+  "ligne": 68,
+  "raison": "GILLIAN = Reine (Mademoiselle aux Wattouat/Lainergie du Camp de Vacances, Poképédia) : à aligner avec le nom de la Dresseuse dans trainers_frlg.party."
+ },
+ {
+  "msgid": "FOUR ISLAND\\nThe Warm, Blue, Floe Island",
+  "msgstr": "Île 4\\nLa chaleureuse île glacée",
+  "fichier": "data/maps/FourIsland_Frlg/scripts.inc",
+  "ligne": 164,
+  "raison": "Devise de l’Île 4 : “La chaleureuse île glacée” = sous-titre Poképédia ; panneau non vérifié."
+ },
+ {
+  "msgid": "What, you forgot the password?\\nThere're actually two.\\pThe first one's “GOLDEEN need\\nlog.”\\pAnd the second one is…",
+  "msgstr": "Quoi, t’as oublié le mot de passe? En\\nfait, il y en a deux.\\pLe premier, c’est “Ici GIRAFARIG ici.”\\pEt le deuxième, c’est…",
+  "fichier": "data/maps/MtEmber_Exterior_Frlg/scripts.inc",
+  "ligne": 168,
+  "raison": "Mot de passe officiel FR (Poképédia, Mont Braise)."
+ },
+ {
+  "msgid": "ONE ISLAND\\nFriends Gather at Knot Island",
+  "msgstr": "Île 1\\nLes amis se réunissent ici",
+  "fichier": "data/maps/OneIsland_Frlg/scripts.inc",
+  "ligne": 155,
+  "raison": "Devise de l’Île 1 : “Les amis se réunissent ici” = sous-titre Poképédia ; texte exact du panneau FR non vérifié."
+ },
+ {
+  "msgid": "Light the Fire in Your Heart!\\nEMBER SPA",
+  "msgstr": "Allumez le feu de votre cœur!\\nSource Braise",
+  "fichier": "data/maps/OneIsland_KindleRoad_Frlg/scripts.inc",
+  "ligne": 173,
+  "raison": "Panneau de la Source Braise : nom officiel (Poképédia), slogan traduit librement."
+ },
+ {
+  "msgid": "CELIO: Hello!\\nYou look awfully busy as always.\\pHow am I doing?\\pWell, I'm modifying my Network\\nMachine.\\pWhen I get done with the machine,\\nI hope you'll be first to use it,\\l{PLAYER}.",
+  "msgstr": "Ciléo: Bonjour! Tu as l’air toujours\\naussi occupé.\\pComment je vais?\\pEh bien, je suis en train de modifier\\nma Machine Réseau.\\pQuand j’en aurai fini avec la machine,\\nj’espère que tu seras le premier à\\ll’utiliser, {PLAYER}.",
+  "fichier": "data/maps/OneIsland_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 717,
+  "raison": "Network Machine = “Machine Réseau” : aucun nom officiel trouvé (Poképédia parle seulement de “la machine de Ciléo”)."
+ },
+ {
+  "msgid": "SEVEN ISLAND\\nQuest Island of Infinity",
+  "msgstr": "Île 7\\nL’île de l’infinité",
+  "fichier": "data/maps/SevenIsland_Frlg/scripts.inc",
+  "ligne": 41,
+  "raison": "Devise de l’Île 7 : “L’île de l’infinité” = sous-titre Poképédia ; panneau non vérifié."
+ },
+ {
+  "msgid": "CLIFFORD is teaching me how to\\npaint.",
+  "msgstr": "Xavier m’apprend à peindre.",
+  "fichier": "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.inc",
+  "ligne": 32,
+  "raison": "CLIFFORD = Xavier (Gentleman des Ruines Tanoby, Poképédia) : à aligner avec trainers_frlg.party."
+ },
+ {
+  "msgid": "I said that I wanted to paint an\\nold building.\\pSo CLIFFORD brought me here.",
+  "msgstr": "J’ai dit que je voulais peindre un\\nvieux bâtiment.\\pAlors Xavier m’a amenée ici.",
+  "fichier": "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.inc",
+  "ligne": 40,
+  "raison": "CLIFFORD = Xavier (voir ci-dessus)."
+ },
+ {
+  "msgid": "I knew that there was a SAPPHIRE\\nhere, so it belongs to me!\\pI'll sell it to TEAM ROCKET for\\nserious money.\\p…D-don't glare at me like that!\\pIf you want it back, why don't you\\ngo get it after I sell it?\\pI'll even tell you one of the\\npasswords to TEAM ROCKET's\\lWAREHOUSE.\\pThe WAREHOUSE password I know is\\n“Yes, nah, CHANSEY.”\\pI'm done.\\nDon't think badly of me!",
+  "msgstr": "Je savais qu’il y avait un Saphir ici,\\nalors il m’appartient!\\pJe vais le vendre à la Team Rocket\\npour une petite fortune.\\p… N-ne me regarde pas comme ça!\\pSi tu veux le récupérer, pourquoi ne\\npas aller le chercher une fois que je\\ll’aurai vendu?\\pJe vais même te donner un des mots de\\npasse de l’Entrepôt de la Team\\lRocket.\\pLe mot de passe de l’Entrepôt que je\\nconnais, c’est “TARSAL la star.”\\pC’est tout. Ne m’en veux pas!",
+  "fichier": "data/maps/SixIsland_DottedHole_SapphireRoom_Frlg/scripts.inc",
+  "ligne": 250,
+  "raison": "Mot de passe officiel FR “Tarsal la star” (Poképédia, Entrepôt Rocket) ; attribution au Scientifique (et non aux Sbires) déduite de l’ordre des mots de passe."
+ },
+ {
+  "msgid": "SIX ISLAND\\nFortune Island of Aged Wisdom",
+  "msgstr": "Île 6\\nL’île de la sagesse",
+  "fichier": "data/maps/SixIsland_Frlg/scripts.inc",
+  "ligne": 22,
+  "raison": "Devise de l’Île 6 : “L’île de la sagesse” = surnom Poképédia ; panneau non vérifié."
+ },
+ {
+  "msgid": "Gasp… Gasp…\\pI swam here from SIX ISLE PORT\\nin one go.",
+  "msgstr": "Pff… Pff…\\pJ’ai nagé d’une traite depuis le port\\nde l’Île 6.",
+  "fichier": "data/maps/SixIsland_OutcastIsland_Frlg/scripts.inc",
+  "ligne": 34,
+  "raison": "SIX ISLE PORT = “port de l’Île 6” (par analogie avec Port Île 3 ; harmonisé avec la revanche déjà au .po). Nom officiel non trouvé."
+ },
+ {
+  "msgid": "THREE ISLAND\\nKin Island of Family Bonding",
+  "msgstr": "Île 3\\nL’île où on se sent chez soi",
+  "fichier": "data/maps/ThreeIsland_Frlg/scripts.inc",
+  "ligne": 389,
+  "raison": "Devise de l’Île 3 : “L’île où on se sent chez soi” = sous-titre Poképédia ; panneau non vérifié."
+ },
+ {
+  "msgid": "We're the KANTO RIDER FEDERATION!\\nVroom! Vavavavooom! Vroom!\\pMy bike's wimpy, so I have to\\nmake exhaust noises myself!",
+  "msgstr": "On est les Kanto Angels! Vroum!\\nVrrrrrroum! Vroum!\\pMa moto est minable, alors je dois\\nfaire le bruit du moteur moi-même!",
+  "fichier": "data/maps/ThreeIsland_Port_Frlg/scripts.inc",
+  "ligne": 40,
+  "raison": "KANTO RIDER FEDERATION rendu par “Kanto Angels”, nom que Poképédia (Île 3 (ville)) donne à la bande ; réplique exacte du jeu FR non vérifiée."
+ },
+ {
+  "msgid": "Here at TRAINER TOWER, there is an\\nevent called TIME ATTACK.\\pYou will be timed on how quickly\\nyou can get from the reception\\lcounter to the OWNER on the roof.\\pThe best times will be recorded on\\nthe Time Board.\\pTry competing with friends to see\\nwho can beat it the fastest.\\pYou will not earn any EXP. Points\\nor money by beating TRAINERS here.",
+  "msgstr": "Ici, à la Tour Dresseurs, a lieu une\\népreuve appelée Contre-la-Montre.\\pVous serez chronométré entre le\\ncomptoir d’accueil et le Propriétaire,\\lsur le toit.\\pLes meilleurs temps seront inscrits\\nau Tableau des Temps.\\pAffrontez vos amis pour voir qui sera\\nle plus rapide.\\pVaincre des Dresseurs ici ne rapporte\\nni points d’Exp. ni argent.",
+  "fichier": "data/maps/TrainerTower_Lobby_Frlg/scripts.inc",
+  "ligne": 316,
+  "raison": "TIME ATTACK / Time Board / OWNER : “Contre-la-Montre”, “Tableau des Temps”, “Propriétaire” (traduction nouvelle)."
+ },
+ {
+  "msgid": "TWO ISLAND\\nBoon Island for Two",
+  "msgstr": "Île 2\\nLe bonheur à deux",
+  "fichier": "data/maps/TwoIsland_Frlg/scripts.inc",
+  "ligne": 219,
+  "raison": "Devise de l’Île 2 : “Le bonheur à deux” = sous-titre Poképédia ; panneau non vérifié."
+ },
+ {
+  "msgid": "Skip & Chomp!\\nJoyful GAME CORNER",
+  "msgstr": "Sautez et croquez!\\nSalle de Jeu",
+  "fichier": "data/maps/TwoIsland_Frlg/scripts.inc",
+  "ligne": 223,
+  "raison": "Enseigne de la Salle de Jeu “Skip & Chomp!” : traduction libre."
+ },
+ {
+  "msgid": "I'm the POKéMON MOVE MANIAC.\\pI know every single move that\\nPOKéMON learn growing up.\\pI'm also a mushroom maniac.\\pBring me two TINYMUSHROOMS,\\nor one BIG MUSHROOM.\\pIf you do that for me, I'll teach\\na move to one POKéMON.",
+  "msgstr": "Je suis le Maniaque des Capacités.\\pJe connais toutes les capacités que\\nles Pokémon apprennent en\\lgrandissant.\\pJe suis aussi un maniaque des\\nchampignons.\\pApporte-moi deux Petits Champis, ou\\nun Gros Champi.\\pSi tu fais ça pour moi, j’apprendrai\\nune capacité à un de tes Pokémon.",
+  "fichier": "data/maps/TwoIsland_House_Frlg/scripts.inc",
+  "ligne": 121,
+  "raison": "POKéMON MOVE MANIAC = “Maniaque des Capacités” : nom officiel FRLG non trouvé."
+ }
+]

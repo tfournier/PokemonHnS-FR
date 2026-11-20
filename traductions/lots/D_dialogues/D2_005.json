@@ -1,0 +1,1146 @@
+[
+ {
+  "msgid": "Huh?\\nYou want to talk to me?",
+  "msgstr": "Hein? Tu veux me parler?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 43,
+  "note": "Campeur Jeff. [texte Route6_Text_JeffIntro ; non compilé]"
+ },
+ {
+  "msgid": "This stinks…\\nI couldn't beat your challenge…",
+  "msgstr": "C’est nul… Je n’ai pas relevé ton défi…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 47,
+  "note": "[texte Route6_Text_JeffDefeat ; non compilé]"
+ },
+ {
+  "msgid": "I should bring more POKéMON with\\nme. I'll feel safer that way.",
+  "msgstr": "Je devrais emmener plus de Pokémon\\navec moi.\\pJe me sentirais plus en sécurité.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 51,
+  "note": "[texte Route6_Text_JeffPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "Me?\\nWell, okay. I'll play!",
+  "msgstr": "Moi? Bon, d’accord. Je joue!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 55,
+  "note": "Pique-Niqueuse Isabelle. [texte Route6_Text_IsabelleIntro ; non compilé]"
+ },
+ {
+  "msgid": "Things just didn't work…",
+  "msgstr": "Rien n’a marché…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 59,
+  "note": "[texte Route6_Text_IsabelleDefeat ; non compilé]"
+ },
+ {
+  "msgid": "I want to get stronger.\\nWhat's your secret?",
+  "msgstr": "Je veux devenir plus forte. C’est quoi\\nton secret?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 62,
+  "note": "[texte Route6_Text_IsabellePostBattle ; non compilé]"
+ },
+ {
+  "msgid": "I've never seen you around.\\nAre you good?",
+  "msgstr": "Je ne t’ai jamais vu dans le coin. Tu es\\nfort?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 66,
+  "note": "Scout Elijah. [texte Route6_Text_ElijahIntro ; non compilé]"
+ },
+ {
+  "msgid": "You're too good!",
+  "msgstr": "T’es trop fort!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 70,
+  "note": "[texte Route6_Text_ElijahDefeat ; non compilé]"
+ },
+ {
+  "msgid": "Are my POKéMON weak?\\nOr, am I just bad?\\lWhich do you think?",
+  "msgstr": "Mes Pokémon sont faibles? Ou c’est\\nmoi qui suis nul?\\pQu’est-ce que t’en penses?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 73,
+  "note": "[texte Route6_Text_ElijahPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "Bonjour!\\nI am le waiter on this ship!\\pI will be happy to serve you\\nanything you please!\\p… … …\\nAh! Le strong silent type!",
+  "msgstr": "Hello! Je suis the serveur de ce\\nnavire!\\pJe serai ravi de vous servir tout ce\\nque vous voulez!\\p… … … Ah! Le genre fort et silencieux!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Corridor_Frlg/scripts.inc",
+  "ligne": 13,
+  "note": "Serveur de l’Océane. Le français dans l’anglais (« le waiter ») devient de l’anglais dans le français (comme le Major Bob de SoulSilver FR). [SSAnne_1F_Corridor_EventScript_WorkerM ; non compilé]"
+ },
+ {
+  "msgid": "The passengers are restless from\\nthis long voyage.\\pYou might be challenged by the\\nmore bored ones!",
+  "msgstr": "Les passagers s’impatientent\\npendant ce long voyage.\\pLes plus désœuvrés risquent de te\\ndéfier!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Corridor_Frlg/scripts.inc",
+  "ligne": 21,
+  "note": "Marin. [SSAnne_1F_Corridor_EventScript_Sailor ; non compilé]"
+ },
+ {
+  "msgid": "Ssh…!\\nI'm a GLOBAL POLICE agent.\\pI'm on the trail of TEAM ROCKET.\\nThey're up to nothing good!",
+  "msgstr": "Chut…! Je suis agent de la Police\\nInternationale.\\pJe suis sur la piste de la Team Rocket.\\nIls préparent un mauvais coup!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room1_Frlg/scripts.inc",
+  "ligne": 9,
+  "note": "GLOBAL POLICE = Police Internationale. [SSAnne_1F_Room1_EventScript_Gentleman ; non compilé]"
+ },
+ {
+  "msgid": "I love POKéMON!\\nDo you?",
+  "msgstr": "J’adore les Pokémon! Et toi?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room2_Frlg/scripts.inc",
+  "ligne": 19,
+  "note": "Gamin Tyler. [SSAnne_1F_Room2_EventScript_Tyler (TRAINER_YOUNGSTER_TYLER) ; non compilé]"
+ },
+ {
+  "msgid": "Wow! \\nYou're great!",
+  "msgstr": "Waouh! T’es génial!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room2_Frlg/scripts.inc",
+  "ligne": 23,
+  "note": "[SSAnne_1F_Room2_EventScript_Tyler (TRAINER_YOUNGSTER_TYLER) ; non compilé]"
+ },
+ {
+  "msgid": "Listen, listen!\\nLet me be your friend, okay?\\pThen we can trade POKéMON and\\ndo stuff.",
+  "msgstr": "Écoute, écoute! Soyons amis,\\nd’accord?\\pComme ça, on pourra échanger des\\nPokémon et tout ça.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room2_Frlg/scripts.inc",
+  "ligne": 27,
+  "note": "[SSAnne_1F_Room2_EventScript_Tyler ; non compilé]"
+ },
+ {
+  "msgid": "I collected these POKéMON\\nfrom all around the world!",
+  "msgstr": "J’ai rassemblé ces Pokémon des quatre\\ncoins du monde!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room2_Frlg/scripts.inc",
+  "ligne": 33,
+  "note": "Fillette Ann. [SSAnne_1F_Room2_EventScript_Ann (TRAINER_LASS_ANN) ; non compilé]"
+ },
+ {
+  "msgid": "Oh, no!\\nI went around the world for these!",
+  "msgstr": "Oh, non! J’ai fait le tour du monde\\npour eux!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room2_Frlg/scripts.inc",
+  "ligne": 37,
+  "note": "[SSAnne_1F_Room2_EventScript_Ann (TRAINER_LASS_ANN) ; non compilé]"
+ },
+ {
+  "msgid": "You hurt my poor POKéMON!\\pI demand that you heal them at a\\nPOKéMON CENTER!",
+  "msgstr": "Tu as blessé mes pauvres Pokémon!\\pJ’exige que tu les soignes dans un\\nCentre Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room2_Frlg/scripts.inc",
+  "ligne": 41,
+  "note": "[SSAnne_1F_Room2_EventScript_Ann ; non compilé]"
+ },
+ {
+  "msgid": "We are cruising around the world,\\nmy children and I.",
+  "msgstr": "Nous faisons le tour du monde en\\ncroisière, mes enfants et moi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room2_Frlg/scripts.inc",
+  "ligne": 46,
+  "note": "Mère de famille. [SSAnne_1F_Room2_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "A world cruise is so elegant yet\\ncozy!",
+  "msgstr": "Une croisière autour du monde, c’est\\nsi élégant et si douillet à la fois!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room3_Frlg/scripts.inc",
+  "ligne": 23,
+  "note": "Passagère. [SSAnne_1F_Room3_EventScript_BaldingMan ; non compilé]"
+ },
+ {
+  "msgid": "I always travel with WIGGLYTUFF.\\nI never leave home without it.",
+  "msgstr": "Je voyage toujours avec GRODOUDOU.\\nJe ne pars jamais sans lui.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room3_Frlg/scripts.inc",
+  "ligne": 27,
+  "note": "Passager. [SSAnne_1F_Room3_EventScript_LittleGirl ; non compilé]"
+ },
+ {
+  "msgid": "WIGGLYTUFF: Puup pupuu!",
+  "msgstr": "GRODOUDOU: Puup pupuu!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room3_Frlg/scripts.inc",
+  "ligne": 31,
+  "note": "[SSAnne_1F_Room3_EventScript_Wigglytuff ; non compilé]"
+ },
+ {
+  "msgid": "Waiter, I would like a cherry pie,\\nplease!",
+  "msgstr": "Serveur, je voudrais une tarte aux\\ncerises, s’il vous plaît!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room4_Frlg/scripts.inc",
+  "ligne": 19,
+  "note": "Passager (joueur garçon pris pour un serveur). [SSAnne_1F_Room4_EventScript_WomanPlayerMale ; non compilé]"
+ },
+ {
+  "msgid": "Waitress, I would like a cherry\\npie, please!",
+  "msgstr": "Serveuse, je voudrais une tarte aux\\ncerises, s’il vous plaît!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room4_Frlg/scripts.inc",
+  "ligne": 23,
+  "note": "Passager (joueuse fille prise pour une serveuse). [SSAnne_1F_Room4_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "You insolent pup!\\nHow dare you barge in!",
+  "msgstr": "Petit insolent! Comment oses-tu\\nentrer ainsi?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room5_Frlg/scripts.inc",
+  "ligne": 10,
+  "note": "Gentleman Arthur (tutoie l’enfant avec mépris). [SSAnne_1F_Room5_EventScript_Arthur (TRAINER_GENTLEMAN_ARTHUR) ; non compilé]"
+ },
+ {
+  "msgid": "Humph! You rude child!\\nYou have no sense of courtesy!",
+  "msgstr": "Hmph! Enfant mal élevé! Tu n’as\\naucune politesse!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room5_Frlg/scripts.inc",
+  "ligne": 14,
+  "note": "[SSAnne_1F_Room5_EventScript_Arthur (TRAINER_GENTLEMAN_ARTHUR) ; non compilé]"
+ },
+ {
+  "msgid": "I wish to be left alone!\\nGet out!",
+  "msgstr": "Je souhaite qu’on me laisse\\ntranquille! Dehors!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room5_Frlg/scripts.inc",
+  "ligne": 18,
+  "note": "[SSAnne_1F_Room5_EventScript_Arthur ; non compilé]"
+ },
+ {
+  "msgid": "You look tired. Would you like to\\ntake a short rest?",
+  "msgstr": "Vous avez l’air fatigué. Voulez-vous\\nvous reposer un peu?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room6_Frlg/scripts.inc",
+  "ligne": 28,
+  "note": "Passagère (soins). [SSAnne_1F_Room6_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "I'm glad to see that everyone is\\nlooking refreshed and chipper.",
+  "msgstr": "Je suis contente de voir que tout le\\nmonde a l’air reposé et en forme.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room6_Frlg/scripts.inc",
+  "ligne": 32,
+  "note": "[SSAnne_1F_Room6_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "Oh, I'm sorry for fussing over you.\\nYou look like my little brother…",
+  "msgstr": "Oh, pardon de m’occuper de vous comme\\nça.\\pVous ressemblez à mon petit frère…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room6_Frlg/scripts.inc",
+  "ligne": 36,
+  "note": "Joueur garçon. [SSAnne_1F_Room6_EventScript_DeclineHealMale ; non compilé]"
+ },
+ {
+  "msgid": "Oh, I'm sorry for fussing over you.\\nYou look like my little sister…",
+  "msgstr": "Oh, pardon de m’occuper de vous comme\\nça. Vous ressemblez à ma petite sœur…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room6_Frlg/scripts.inc",
+  "ligne": 40,
+  "note": "Joueuse fille. [SSAnne_1F_Room6_EventScript_DeclineHeal ; non compilé]"
+ },
+ {
+  "msgid": "I am but a solitary traveler…\\pMy sole companions and friends are\\nPOKéMON I caught on my journeys…",
+  "msgstr": "Je ne suis qu’un voyageur solitaire…\\pMes seuls compagnons et amis sont les\\nPokémon que j’ai attrapés en route…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room7_Frlg/scripts.inc",
+  "ligne": 10,
+  "note": "Gentleman Thomas. [SSAnne_1F_Room7_EventScript_Thomas (TRAINER_GENTLEMAN_THOMAS) ; non compilé]"
+ },
+ {
+  "msgid": "My, my friends…",
+  "msgstr": "Mes… mes amis…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room7_Frlg/scripts.inc",
+  "ligne": 15,
+  "note": "[SSAnne_1F_Room7_EventScript_Thomas (TRAINER_GENTLEMAN_THOMAS) ; non compilé]"
+ },
+ {
+  "msgid": "You should be nice to friends!",
+  "msgstr": "Il faut être gentil avec ses amis!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_1F_Room7_Frlg/scripts.inc",
+  "ligne": 18,
+  "note": "[SSAnne_1F_Room7_EventScript_Thomas ; non compilé]"
+ },
+ {
+  "msgid": "This ship, she is a luxury liner for\\nTRAINERS of the world!\\pAt every port, we hold parties with\\ninvited TRAINERS.",
+  "msgstr": "Ce navire est un paquebot de luxe\\npour les Dresseurs du monde entier!\\pÀ chaque escale, nous organisons des\\nfêtes avec des Dresseurs invités!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Corridor_Frlg/scripts.inc",
+  "ligne": 172,
+  "note": "Marin. [SSAnne_2F_Corridor_EventScript_Sailor ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: Bonjour!\\n{PLAYER}!\\pImagine seeing you here!\\n{PLAYER}, were you really invited?\\pSo how's your POKéDEX coming?\\pI already caught 40 kinds, pal.\\nDifferent kinds are everywhere.\\pCrawl around in grassy areas, and\\nlook hard for them.",
+  "msgstr": "{RIVAL}: Hello! {PLAYER}!\\pÇa alors, te voir ici! {PLAYER}, t’as\\nvraiment été invité?\\pAlors, ça avance, ton Pokédex?\\pMoi, j’ai déjà attrapé 40 espèces, mon\\nvieux. Y en a partout.\\pFouille les hautes herbes et cherche\\nbien.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Corridor_Frlg/scripts.inc",
+  "ligne": 178,
+  "note": "Rival à bord (le « Bonjour! » anglais devient « Hello! »). [SSAnne_2F_Corridor_EventScript_RivalTrigger ; non compilé]"
+ },
+ {
+  "msgid": "Humph!\\pAt least you're raising your\\nPOKéMON!",
+  "msgstr": "Hmph!\\pAu moins, tu entraînes tes Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Corridor_Frlg/scripts.inc",
+  "ligne": 189,
+  "note": "[SSAnne_2F_Corridor_EventScript_RivalSquirtle (TRAINER_RIVAL_SS_ANNE_SQUIRTLE) ; non compilé]"
+ },
+ {
+  "msgid": "{RIVAL}: I heard there was a CUT\\nmaster on board.\\pBut he was just a seasick old man!\\pCUT itself is really useful.\\nYup, it'll be handy.\\pYou should go see him, too.\\nSmell ya!",
+  "msgstr": "{RIVAL}: Il paraît qu’il y avait un\\nmaître de Coupe à bord.\\pMais c’était juste un vieux qui a le\\nmal de mer!\\pCoupe, c’est vraiment utile. Ouais, ça\\nva servir.\\pTu devrais aller le voir, toi aussi. À\\nplus, minable!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Corridor_Frlg/scripts.inc",
+  "ligne": 200,
+  "note": "[SSAnne_2F_Corridor_EventScript_RivalTrigger ; non compilé]"
+ },
+ {
+  "msgid": "I've journeyed far and wide, but in\\nall my travels I've never seen\\lany POKéMON sleep like this one!\\pIt was something like this!",
+  "msgstr": "J’ai beaucoup voyagé, mais jamais vu\\nun Pokémon dormir comme ça!\\pIl ressemblait à ça!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room1_Frlg/scripts.inc",
+  "ligne": 18,
+  "note": "Passager (dessin de RONFLEX). [SSAnne_2F_Room1_EventScript_Gentleman ; non compilé]"
+ },
+ {
+  "msgid": "Competing against the young keeps\\nme youthful.",
+  "msgstr": "Affronter des jeunes me garde jeune.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room2_Frlg/scripts.inc",
+  "ligne": 15,
+  "note": "Gentleman Brooks. [SSAnne_2F_Room2_EventScript_Brooks (TRAINER_GENTLEMAN_BROOKS) ; non compilé]"
+ },
+ {
+  "msgid": "Good match!\\nAh, I feel young again!",
+  "msgstr": "Beau combat! Ah, je me sens rajeuni!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room2_Frlg/scripts.inc",
+  "ligne": 19,
+  "note": "[SSAnne_2F_Room2_EventScript_Brooks (TRAINER_GENTLEMAN_BROOKS) ; non compilé]"
+ },
+ {
+  "msgid": "Fifteen years ago, I would\\nhave won!",
+  "msgstr": "Il y a quinze ans, j’aurais gagné!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room2_Frlg/scripts.inc",
+  "ligne": 23,
+  "note": "[SSAnne_2F_Room2_EventScript_Brooks ; non compilé]"
+ },
+ {
+  "msgid": "Check out what I fished up!",
+  "msgstr": "Regarde ce que j’ai pêché!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room2_Frlg/scripts.inc",
+  "ligne": 27,
+  "note": "Pêcheur Dale. [SSAnne_2F_Room2_EventScript_Dale (TRAINER_FISHERMAN_DALE) ; non compilé]"
+ },
+ {
+  "msgid": "I'm all out!",
+  "msgstr": "J’ai plus rien!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room2_Frlg/scripts.inc",
+  "ligne": 30,
+  "note": "[SSAnne_2F_Room2_EventScript_Dale (TRAINER_FISHERMAN_DALE) ; non compilé]"
+ },
+ {
+  "msgid": "Party?\\pThe cruise ship's party should be\\nover by now.",
+  "msgstr": "La fête?\\pLa fête du bateau doit être finie, à\\nl’heure qu’il est.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room2_Frlg/scripts.inc",
+  "ligne": 33,
+  "note": "[SSAnne_2F_Room2_EventScript_Dale ; non compilé]"
+ },
+ {
+  "msgid": "Ah, yes, I have seen some POKéMON\\nferry people across the water!",
+  "msgstr": "Ah oui, j’ai déjà vu des Pokémon faire\\ntraverser l’eau à des gens!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room3_Frlg/scripts.inc",
+  "ligne": 13,
+  "note": "Passager (allusion à Surf). [SSAnne_2F_Room3_EventScript_Gentleman ; non compilé]"
+ },
+ {
+  "msgid": "Small trees can be chopped down\\nusing the move CUT.\\pBut remember this!\\nCUT is an HM technique.\\pOnce learned, it is not so easily\\ndiscarded.",
+  "msgstr": "On peut abattre les petits arbres\\navec la capacité Coupe.\\pMais n’oublie pas! Coupe est une\\ncapacité de CS.\\pUne fois apprise, on ne peut pas\\nl’oublier si facilement.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room3_Frlg/scripts.inc",
+  "ligne": 17,
+  "note": "[SSAnne_2F_Room3_EventScript_OldMan ; non compilé]"
+ },
+ {
+  "msgid": "Which do you find more worthy,\\na strong or a rare POKéMON?",
+  "msgstr": "Que trouves-tu le plus précieux, un\\nPokémon fort ou un Pokémon rare?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room4_Frlg/scripts.inc",
+  "ligne": 15,
+  "note": "Gentleman Lamar. [SSAnne_2F_Room4_EventScript_Lamar (TRAINER_GENTLEMAN_LAMAR) ; non compilé]"
+ },
+ {
+  "msgid": "I must salute you!",
+  "msgstr": "Je te salue bien bas!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room4_Frlg/scripts.inc",
+  "ligne": 19,
+  "note": "[SSAnne_2F_Room4_EventScript_Lamar (TRAINER_GENTLEMAN_LAMAR) ; non compilé]"
+ },
+ {
+  "msgid": "Personally, I prefer strong and\\nrare POKéMON.",
+  "msgstr": "Personnellement, je préfère les\\nPokémon forts et rares.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room4_Frlg/scripts.inc",
+  "ligne": 22,
+  "note": "[SSAnne_2F_Room4_EventScript_Lamar ; non compilé]"
+ },
+ {
+  "msgid": "I don't believe I saw you at the\\nparty?",
+  "msgstr": "Je ne crois pas t’avoir vu à la fête?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room4_Frlg/scripts.inc",
+  "ligne": 26,
+  "note": "Fillette Dawn. [SSAnne_2F_Room4_EventScript_Dawn (TRAINER_LASS_DAWN) ; non compilé]"
+ },
+ {
+  "msgid": "Oh, I adore your strong POKéMON!\\nOh, how I envy you for them!",
+  "msgstr": "Oh, j’adore tes Pokémon si forts! Oh,\\ncomme je t’envie!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room4_Frlg/scripts.inc",
+  "ligne": 33,
+  "note": "[SSAnne_2F_Room4_EventScript_Dawn ; non compilé]"
+ },
+ {
+  "msgid": "Have you gone to the SAFARI ZONE\\nin FUCHSIA CITY?\\pThere are many kinds of rare\\nPOKéMON.",
+  "msgstr": "Tu es déjà allé au Parc Safari de\\nParmanie?\\pIl y a plein d’espèces de Pokémon\\nrares.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room5_Frlg/scripts.inc",
+  "ligne": 13,
+  "note": "Petite fille. [SSAnne_2F_Room5_EventScript_Gentleman ; non compilé]"
+ },
+ {
+  "msgid": "Me and my daddy think the SAFARI\\nZONE is awesome!\\lI wish we could go there again.",
+  "msgstr": "Papa et moi, on adore le Parc Safari!\\nJ’aimerais bien qu’on y retourne.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room5_Frlg/scripts.inc",
+  "ligne": 19,
+  "note": "[SSAnne_2F_Room5_EventScript_LittleBoy ; non compilé]"
+ },
+ {
+  "msgid": "The CAPTAIN said he's awfully sick.\\nHe was all pale.",
+  "msgstr": "Le Capitaine a dit qu’il était très\\nmalade. Il était tout pâle.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room6_Frlg/scripts.inc",
+  "ligne": 13,
+  "note": "Petit garçon. [SSAnne_2F_Room6_EventScript_Woman1 ; non compilé]"
+ },
+ {
+  "msgid": "I hear many people get seasick.",
+  "msgstr": "Beaucoup de gens ont le mal de mer.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_2F_Room6_Frlg/scripts.inc",
+  "ligne": 17,
+  "note": "[SSAnne_2F_Room6_EventScript_Woman2 ; non compilé]"
+ },
+ {
+  "msgid": "Our CAPTAIN is a sword master.\\nHe's awesome at using CUT.\\pThey say he even teaches CUT\\nto POKéMON!",
+  "msgstr": "Notre Capitaine est un maître\\nd’armes. Il est génial avec Coupe.\\pOn dit même qu’il apprend Coupe aux\\nPokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_3F_Corridor_Frlg/scripts.inc",
+  "ligne": 9,
+  "note": "Marin. [SSAnne_3F_Corridor_EventScript_Sailor ; non compilé]"
+ },
+ {
+  "msgid": "Matey, you're walking the plank if\\nyou lose!",
+  "msgstr": "Moussaillon, si tu perds, tu passes\\npar-dessus bord!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room1_Frlg/scripts.inc",
+  "ligne": 15,
+  "note": "Marin Phillip. [SSAnne_B1F_Room1_EventScript_Phillip (TRAINER_SAILOR_PHILLIP) ; non compilé]"
+ },
+ {
+  "msgid": "Argh!\\nBeaten by a kid!",
+  "msgstr": "Argh! Battu par un gamin!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room1_Frlg/scripts.inc",
+  "ligne": 19,
+  "note": "[SSAnne_B1F_Room1_EventScript_Phillip (TRAINER_SAILOR_PHILLIP) ; non compilé]"
+ },
+ {
+  "msgid": "When we're out at sea, jellyfish\\nPOKéMON sometimes drift by.",
+  "msgstr": "En mer, des Pokémon méduses passent\\nparfois à côté du navire.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room1_Frlg/scripts.inc",
+  "ligne": 23,
+  "note": "[SSAnne_B1F_Room1_EventScript_Phillip ; non compilé]"
+ },
+ {
+  "msgid": "Hello, stranger!\\pI can't tell if you're from the seas\\nor mountains, but stop and chat.\\pAll my POKéMON are from the sea.",
+  "msgstr": "Salut, étranger!\\pTu viens de la mer ou de la montagne?\\nViens donc discuter.\\pTous mes Pokémon viennent de la mer.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room1_Frlg/scripts.inc",
+  "ligne": 27,
+  "note": "Marin Barny. [SSAnne_B1F_Room1_EventScript_Barny (TRAINER_FISHERMAN_BARNY) ; non compilé]"
+ },
+ {
+  "msgid": "Darn!\\nI let that one get away!",
+  "msgstr": "Zut! J’ai laissé filer celui-là!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room1_Frlg/scripts.inc",
+  "ligne": 33,
+  "note": "[SSAnne_B1F_Room1_EventScript_Barny (TRAINER_FISHERMAN_BARNY) ; non compilé]"
+ },
+ {
+  "msgid": "I was going to make you my\\nassistant, too!",
+  "msgstr": "Je voulais aussi faire de toi mon\\nassistant!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room1_Frlg/scripts.inc",
+  "ligne": 37,
+  "note": "[SSAnne_B1F_Room1_EventScript_Barny ; non compilé]"
+ },
+ {
+  "msgid": "Even us sailors have POKéMON, too!",
+  "msgstr": "Nous, les marins, on a des Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room2_Frlg/scripts.inc",
+  "ligne": 10,
+  "note": "Marin Huey. [SSAnne_B1F_Room2_EventScript_Huey (TRAINER_SAILOR_HUEY) ; non compilé]"
+ },
+ {
+  "msgid": "Okay, you're not bad.",
+  "msgstr": "OK, t’es pas mauvais.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room2_Frlg/scripts.inc",
+  "ligne": 13,
+  "note": "[SSAnne_B1F_Room2_EventScript_Huey (TRAINER_SAILOR_HUEY) ; non compilé]"
+ },
+ {
+  "msgid": "We caught all our POKéMON while\\nwe were out at sea.",
+  "msgstr": "On a attrapé tous nos Pokémon en mer.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room2_Frlg/scripts.inc",
+  "ligne": 16,
+  "note": "[SSAnne_B1F_Room2_EventScript_Huey ; non compilé]"
+ },
+ {
+  "msgid": "I like feisty kids like you!",
+  "msgstr": "J’aime les gamins fougueux comme toi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room3_Frlg/scripts.inc",
+  "ligne": 10,
+  "note": "Marin Dylan. [SSAnne_B1F_Room3_EventScript_Dylan (TRAINER_SAILOR_DYLAN) ; non compilé]"
+ },
+ {
+  "msgid": "Argh!\\nLost it!",
+  "msgstr": "Argh! Perdu!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room3_Frlg/scripts.inc",
+  "ligne": 13,
+  "note": "[SSAnne_B1F_Room3_EventScript_Dylan (TRAINER_SAILOR_DYLAN) ; non compilé]"
+ },
+ {
+  "msgid": "Sea POKéMON live in deep water.\\nYou'll need a ROD to fish them up!",
+  "msgstr": "Les Pokémon marins vivent en eau\\nprofonde.\\pIl te faudra une Canne pour les\\npêcher!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room3_Frlg/scripts.inc",
+  "ligne": 17,
+  "note": "ROD = Canne. [SSAnne_B1F_Room3_EventScript_Dylan ; non compilé]"
+ },
+ {
+  "msgid": "You know what they say about\\nsailors and battling!",
+  "msgstr": "Tu sais ce qu’on dit des marins et des\\ncombats!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room4_Frlg/scripts.inc",
+  "ligne": 15,
+  "note": "Marin Leonard. [SSAnne_B1F_Room4_EventScript_Leonard (TRAINER_SAILOR_LEONARD) ; non compilé]"
+ },
+ {
+  "msgid": "Right!\\nGood battle, mate!",
+  "msgstr": "Bien! Beau combat, mon gars!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room4_Frlg/scripts.inc",
+  "ligne": 19,
+  "note": "[SSAnne_B1F_Room4_EventScript_Leonard (TRAINER_SAILOR_LEONARD) ; non compilé]"
+ },
+ {
+  "msgid": "Hahaha!\\nWant to be a sailor, mate?",
+  "msgstr": "Hahaha! Tu veux devenir marin, mon\\ngars?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room4_Frlg/scripts.inc",
+  "ligne": 23,
+  "note": "[SSAnne_B1F_Room4_EventScript_Leonard ; non compilé]"
+ },
+ {
+  "msgid": "Come on, then!\\nMy sailor's pride is at stake!",
+  "msgstr": "Allez, viens! Ma fierté de marin est en\\njeu!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room4_Frlg/scripts.inc",
+  "ligne": 27,
+  "note": "Marin Duncan. [SSAnne_B1F_Room4_EventScript_Duncan (TRAINER_SAILOR_DUNCAN) ; non compilé]"
+ },
+ {
+  "msgid": "Your spirit sank me!",
+  "msgstr": "Ton courage m’a coulé!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room4_Frlg/scripts.inc",
+  "ligne": 31,
+  "note": "[SSAnne_B1F_Room4_EventScript_Duncan (TRAINER_SAILOR_DUNCAN) ; non compilé]"
+ },
+ {
+  "msgid": "Did you see the FISHING GURU in\\nVERMILION CITY?",
+  "msgstr": "Tu as vu le Maître Pêcheur de Carmin\\nsur Mer?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room4_Frlg/scripts.inc",
+  "ligne": 34,
+  "note": "FISHING GURU = Maître Pêcheur (nom FRLG FR non vérifié). [SSAnne_B1F_Room4_EventScript_Duncan ; non compilé]"
+ },
+ {
+  "msgid": "My buddy MACHOKE is super strong!\\pHe has enough STRENGTH to move\\nbig rocks!",
+  "msgstr": "Mon pote MACHOPEUR est super fort!\\pIl a assez de Force pour déplacer de\\ngros rochers!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room5_Frlg/scripts.inc",
+  "ligne": 19,
+  "note": "[SSAnne_B1F_Room5_EventScript_Boy ; non compilé]"
+ },
+ {
+  "msgid": "MACHOKE: Gwoh! Goggoh!",
+  "msgstr": "MACHOPEUR: Gwoh! Goggoh!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_B1F_Room5_Frlg/scripts.inc",
+  "ligne": 24,
+  "note": "[SSAnne_B1F_Room5_EventScript_Boy ; non compilé]"
+ },
+ {
+  "msgid": "CAPTAIN: Ooargh…\\nI feel hideous…\\lUrrp! Seasick…",
+  "msgstr": "Capitaine: Bouargh… Je me sens\\naffreusement mal…\\pBeurp! Le mal de mer…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_CaptainsOffice_Frlg/scripts.inc",
+  "ligne": 50,
+  "note": "Capitaine de l’Océane. [SSAnne_CaptainsOffice_EventScript_Captain ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} rubbed the CAPTAIN's\\nback!\\pRub-rub…\\nRub-rub…",
+  "msgstr": "{PLAYER} frotte le dos du Capitaine!\\pFrotti-frotta… Frotti-frotta…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_CaptainsOffice_Frlg/scripts.inc",
+  "ligne": 55,
+  "note": "[SSAnne_CaptainsOffice_EventScript_Captain ; non compilé]"
+ },
+ {
+  "msgid": "CAPTAIN: Whew! Thank you!\\nI'm feeling much better now.\\pYou want to see my hidden CUT\\ntechnique?\\pI could show you my prized CUT\\ntechnique if I weren't so ill…\\pI know! You can have this!\\nThis HIDDEN MACHINE!\\pTeach CUT to your POKéMON, and\\nyou can see it CUT anytime!",
+  "msgstr": "Capitaine: Ouf! Merci! Je me sens\\nbeaucoup mieux.\\pTu veux voir ma botte secrète, Coupe?\\pJe te montrerais bien ma technique\\nCoupe si je n’étais pas malade…\\pJ’ai une idée! Prends ceci! Cette\\nCapsule Secrète!\\pApprends Coupe à ton Pokémon, et tu\\npourras le voir couper quand tu veux!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_CaptainsOffice_Frlg/scripts.inc",
+  "ligne": 61,
+  "note": "HIDDEN MACHINE = Capsule Secrète (CS). [SSAnne_CaptainsOffice_EventScript_Captain ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} obtained HM01\\nfrom the CAPTAIN!",
+  "msgstr": "{PLAYER} obtient la CS01\\ndu Capitaine!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_CaptainsOffice_Frlg/scripts.inc",
+  "ligne": 73,
+  "note": "[SSAnne_CaptainsOffice_EventScript_Captain ; non compilé]"
+ },
+ {
+  "msgid": "Using CUT, you can chop down\\nsmall trees.\\pWhy not try it with the trees\\naround VERMILION CITY?",
+  "msgstr": "Avec Coupe, tu peux abattre les\\npetits arbres.\\pPourquoi ne pas essayer sur les\\narbres autour de Carmin sur Mer?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_CaptainsOffice_Frlg/scripts.inc",
+  "ligne": 77,
+  "note": "[SSAnne_CaptainsOffice_EventScript_Captain ; non compilé]"
+ },
+ {
+  "msgid": "CAPTAIN: …Whew!\\pNow that I'm not sick anymore,\\nI guess it's time.\\pThe S.S. ANNE will set sail soon!\\pFarewell, until our return to\\nVERMILION CITY!",
+  "msgstr": "Capitaine: … Ouf!\\pMaintenant que je ne suis plus malade,\\nje crois que c’est l’heure.\\pL’Océane va bientôt lever l’ancre!\\pAdieu, jusqu’à notre retour à Carmin\\nsur Mer!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_CaptainsOffice_Frlg/scripts.inc",
+  "ligne": 83,
+  "note": "[SSAnne_CaptainsOffice_EventScript_AlreadyGotCut ; non compilé]"
+ },
+ {
+  "msgid": "Oh, no!\\nYou have no room for this!",
+  "msgstr": "Oh, non! Tu n’as pas de place pour ça!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_CaptainsOffice_Frlg/scripts.inc",
+  "ligne": 91,
+  "note": "[SSAnne_CaptainsOffice_EventScript_NoRoomForCut ; non compilé]"
+ },
+ {
+  "msgid": "How to Conquer Seasickness…\\nThe CAPTAIN's reading this!",
+  "msgstr": "Comment vaincre le mal de mer… Le\\nCapitaine lit ça!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_CaptainsOffice_Frlg/scripts.inc",
+  "ligne": 99,
+  "note": "Livre du bureau. [SSAnne_CaptainsOffice_EventScript_Book ; non compilé]"
+ },
+ {
+  "msgid": "The party's over.\\nThe ship will be departing soon.",
+  "msgstr": "La fête est finie. Le navire va\\nbientôt partir.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Deck_Frlg/scripts.inc",
+  "ligne": 27,
+  "note": "Marin. [SSAnne_Deck_EventScript_Youngster ; non compilé]"
+ },
+ {
+  "msgid": "Whew!\\nScrubbing decks is hard work!",
+  "msgstr": "Ouf! Briquer le pont, c’est dur!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Deck_Frlg/scripts.inc",
+  "ligne": 31,
+  "note": "[SSAnne_Deck_EventScript_Sailor ; non compilé]"
+ },
+ {
+  "msgid": "Urf… I feel ill…\\pI got seasick, so I stepped out to\\nget some air…",
+  "msgstr": "Beurk… Je ne me sens pas bien…\\pJ’ai le mal de mer, alors je suis sorti\\nprendre l’air…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Deck_Frlg/scripts.inc",
+  "ligne": 35,
+  "note": "[SSAnne_Deck_EventScript_BaldingMan ; non compilé]"
+ },
+ {
+  "msgid": "Hey, matey!\\pLet's do a little jig!",
+  "msgstr": "Hé, moussaillon!\\pDansons une petite gigue!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Deck_Frlg/scripts.inc",
+  "ligne": 40,
+  "note": "Marin Edmond. [SSAnne_Deck_EventScript_Edmond (TRAINER_SAILOR_EDMOND) ; non compilé]"
+ },
+ {
+  "msgid": "You're impressive!",
+  "msgstr": "Impressionnant!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Deck_Frlg/scripts.inc",
+  "ligne": 44,
+  "note": "[SSAnne_Deck_EventScript_Edmond (TRAINER_SAILOR_EDMOND) ; non compilé]"
+ },
+ {
+  "msgid": "How many kinds of POKéMON do you\\nthink there are in this big world?",
+  "msgstr": "Combien d’espèces de Pokémon y a-t-il\\ndans ce vaste monde, à ton avis?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Deck_Frlg/scripts.inc",
+  "ligne": 47,
+  "note": "[SSAnne_Deck_EventScript_Edmond ; non compilé]"
+ },
+ {
+  "msgid": "Ahoy, there!\\nAre you seasick?",
+  "msgstr": "Ohé! Tu as le mal de mer?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Deck_Frlg/scripts.inc",
+  "ligne": 51,
+  "note": "Marin Trevor. [SSAnne_Deck_EventScript_Trevor (TRAINER_SAILOR_TREVOR) ; non compilé]"
+ },
+ {
+  "msgid": "I was just careless!",
+  "msgstr": "J’ai juste été négligent!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Deck_Frlg/scripts.inc",
+  "ligne": 55,
+  "note": "[SSAnne_Deck_EventScript_Trevor (TRAINER_SAILOR_TREVOR) ; non compilé]"
+ },
+ {
+  "msgid": "My pa said there are 100 kinds of\\nPOKéMON. I think there are more.",
+  "msgstr": "Mon père dit qu’il y a 100 espèces de\\nPokémon.\\pMoi, je pense qu’il y en a plus.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Deck_Frlg/scripts.inc",
+  "ligne": 58,
+  "note": "[SSAnne_Deck_EventScript_Trevor ; non compilé]"
+ },
+ {
+  "msgid": "You, mon petit!\\nWe're busy here!\\lOut of the way!",
+  "msgstr": "Toi, little one! On a du travail ici!\\nPousse-toi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Kitchen_Frlg/scripts.inc",
+  "ligne": 53,
+  "note": "Cuisinier (franglais, cf. #577). [SSAnne_Kitchen_EventScript_Chef1 ; non compilé]"
+ },
+ {
+  "msgid": "I saw an odd BERRY in the trash.\\nI wonder what that was?",
+  "msgstr": "J’ai vu une drôle de Baie dans la\\npoubelle.\\pQu’est-ce que ça pouvait bien être?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Kitchen_Frlg/scripts.inc",
+  "ligne": 58,
+  "note": "[SSAnne_Kitchen_EventScript_Chef2 ; non compilé]"
+ },
+ {
+  "msgid": "I'm so busy I'm getting dizzy!\\nYou have to give me room here!",
+  "msgstr": "J’ai tellement de travail que j’en ai le\\ntournis! Laisse-moi de la place!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Kitchen_Frlg/scripts.inc",
+  "ligne": 62,
+  "note": "[SSAnne_Kitchen_EventScript_Chef3 ; non compilé]"
+ },
+ {
+  "msgid": "Hum-de-hum-de-ho…\\pI peel spuds every day!\\nHum-hum…",
+  "msgstr": "Lalala-lalalère…\\pJ’épluche des patates tous les jours!\\nLalala…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Kitchen_Frlg/scripts.inc",
+  "ligne": 66,
+  "note": "[SSAnne_Kitchen_EventScript_Chef5 ; non compilé]"
+ },
+ {
+  "msgid": "Did you hear about SNORLAX?\\nIt's a glutton.\\pNo other POKéMON eats and sleeps\\nthe way SNORLAX can and does!",
+  "msgstr": "Tu connais RONFLEX? C’est un glouton.\\pAucun autre Pokémon ne mange et ne\\ndort autant que RONFLEX!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Kitchen_Frlg/scripts.inc",
+  "ligne": 71,
+  "note": "[SSAnne_Kitchen_EventScript_Chef6 ; non compilé]"
+ },
+ {
+  "msgid": "Snivel… Sniff…\\pI only get to peel onions…\\nSnivel…",
+  "msgstr": "Snif… Snif…\\pOn ne me laisse éplucher que des\\noignons… Snif…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Kitchen_Frlg/scripts.inc",
+  "ligne": 77,
+  "note": "[SSAnne_Kitchen_EventScript_Chef7 ; non compilé]"
+ },
+ {
+  "msgid": "Er-hem!\\nIndeed I am le CHEF!\\pLe main course is",
+  "msgstr": "Hum-hum! Je suis bien the CHEF!\\pThe plat principal est",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Kitchen_Frlg/scripts.inc",
+  "ligne": 82,
+  "note": "Chef (franglais). Suite (#669-#671) affichée à la page suivante. [SSAnne_Kitchen_EventScript_Chef4 ; non compilé]"
+ },
+ {
+  "msgid": "Salmon du Salad!\\pLes guests may gripe it's fish\\nagain, however!",
+  "msgstr": "Salade of saumon!\\pThe invités vont encore râler parce\\nque c’est du poisson!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Kitchen_Frlg/scripts.inc",
+  "ligne": 87,
+  "note": "[SSAnne_Kitchen_EventScript_SalmonDuSalad ; non compilé]"
+ },
+ {
+  "msgid": "Eels au Barbecue!\\pLes guests will mutiny, I fear.",
+  "msgstr": "Anguilles au barbecue!\\pThe invités vont se mutiner, j’en ai\\npeur.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Kitchen_Frlg/scripts.inc",
+  "ligne": 92,
+  "note": "[SSAnne_Kitchen_EventScript_EelsAuBarbecue ; non compilé]"
+ },
+ {
+  "msgid": "Prime Beefsteak!\\pBut, have I enough fillets du\\nbeef?",
+  "msgstr": "Steak de bœuf première qualité!\\pMais ai-je assez de filets of bœuf?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/SSAnne_Kitchen_Frlg/scripts.inc",
+  "ligne": 96,
+  "note": "[SSAnne_Kitchen_EventScript_PrimeBeefsteak ; non compilé]"
+ },
+ {
+  "msgid": "The DEPARTMENT STORE in CELADON\\nhas a great selection.\\pDo you go there very often?",
+  "msgstr": "Le Centre Commercial de Céladopole a\\nun grand choix.\\pTu y vas souvent?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/UndergroundPath_EastEntrance_Frlg/scripts.inc",
+  "ligne": 9,
+  "note": "DEPARTMENT STORE = Centre Commercial de Céladopole. [UndergroundPath_EastEntrance_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "People often lose things in the\\ndarkness of the UNDERGROUND PATH.",
+  "msgstr": "Les gens perdent souvent des objets\\ndans l’obscurité du Souterrain.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/UndergroundPath_SouthEntrance_Frlg/scripts.inc",
+  "ligne": 9,
+  "note": "[UndergroundPath_SouthEntrance_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "I heard a sleepy POKéMON appeared\\nout near CELADON CITY, too.",
+  "msgstr": "Il paraît qu’un Pokémon endormi est\\naussi apparu près de Céladopole.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/UndergroundPath_WestEntrance_Frlg/scripts.inc",
+  "ligne": 9,
+  "note": "[UndergroundPath_WestEntrance_EventScript_BaldingMan ; non compilé]"
+ },
+ {
+  "msgid": "We're careful about pollution here.\\pWe've heard GRIMER multiplies in\\ntoxic sludge.",
+  "msgstr": "Ici, on fait attention à la pollution.\\pIl paraît que les TADMORV se\\nmultiplient dans la boue toxique.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 267,
+  "note": "Femme. [VermilionCity_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "Did you see the S.S. ANNE moored\\nin the harbor?",
+  "msgstr": "Tu as vu l’Océane amarrée au port?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 272,
+  "note": "[VermilionCity_EventScript_OldMan1 ; non compilé]"
+ },
+ {
+  "msgid": "So, the S.S. ANNE has departed?\\pShe'll be back in VERMILION about\\nthis time next year.",
+  "msgstr": "Alors, l’Océane est partie?\\pElle reviendra à Carmin sur Mer à peu\\nprès à la même époque l’an prochain.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 276,
+  "note": "[VermilionCity_EventScript_OldMan1SSAnneLeft ; non compilé]"
+ },
+ {
+  "msgid": "I'm putting up a building on this\\nplot of land. I own it all.\\pMy POKéMON is tamping the land\\nto lay the foundation.",
+  "msgstr": "Je construis un immeuble sur ce\\nterrain. Il est entièrement à moi.\\pMon Pokémon tasse le sol pour poser\\nles fondations.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 281,
+  "note": "Propriétaire du terrain. [VermilionCity_EventScript_OldMan2 ; non compilé]"
+ },
+ {
+  "msgid": "A MACHOP is stomping the land flat.",
+  "msgstr": "Un MACHOC tasse le sol en piétinant.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 290,
+  "note": "Proche du texte de VermilionCity_hns (patch FR). [VermilionCity_EventScript_Machop ; non compilé]"
+ },
+ {
+  "msgid": "The S.S. ANNE is a famous luxury\\ncruise ship.\\pIt visits VERMILION once a year.",
+  "msgstr": "L’Océane est un célèbre paquebot de\\ncroisière de luxe.\\pIl fait escale à Carmin sur Mer une\\nfois par an.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 293,
+  "note": "[VermilionCity_EventScript_Sailor ; non compilé]"
+ },
+ {
+  "msgid": "NOTICE!\\pROUTE 12 may be blocked off by a\\nsleeping POKéMON.\\pDetour through ROCK TUNNEL to\\nLAVENDER TOWN.\\pVERMILION POLICE",
+  "msgstr": "Avis!\\pLa Route 12 risque d’être bloquée par\\nun Pokémon endormi.\\pFaites un détour par la Grotte pour\\nrejoindre Lavanville.\\pPolice de Carmin sur Mer",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 302,
+  "note": "Panneau de police. [VermilionCity_EventScript_SnorlaxNotice ; non compilé]"
+ },
+ {
+  "msgid": "VERMILION HARBOR",
+  "msgstr": "Port de Carmin sur Mer",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 319,
+  "note": "Panneau. [VermilionCity_EventScript_HarborSign ; non compilé]"
+ },
+ {
+  "msgid": "Welcome to the S.S. ANNE!",
+  "msgstr": "Bienvenue à bord de l’Océane!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 322,
+  "note": "Marin à l’entrée. [VermilionCity_EventScript_FerrySailor ; non compilé]"
+ },
+ {
+  "msgid": "Welcome to the S.S. ANNE!\\pExcuse me, do you have a ticket?",
+  "msgstr": "Bienvenue à bord de l’Océane!\\pExcusez-moi, avez-vous un billet?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 325,
+  "note": "Marin (vouvoiement du personnel). [VermilionCity_EventScript_CheckTicket ; non compilé]"
+ },
+ {
+  "msgid": "{FONT_NORMAL}{PLAYER} flashed the S.S. TICKET!\\p{FONT_MALE}Great!\\nWelcome to the S.S. ANNE!",
+  "msgstr": "{FONT_NORMAL}{PLAYER} montre le Passe Bateau!\\p{FONT_MALE}Parfait! Bienvenue à bord de l’Océane!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 329,
+  "note": "[VermilionCity_EventScript_CheckTicket ; non compilé]"
+ },
+ {
+  "msgid": "{FONT_NORMAL}{PLAYER} doesn't have the needed\\nS.S. TICKET.\\p{FONT_MALE}Sorry!\\pYou need a ticket to get aboard.",
+  "msgstr": "{FONT_NORMAL}{PLAYER} n’a pas le Passe Bateau\\nnécessaire.\\p{FONT_MALE}Désolé!\\pIl vous faut un billet pour monter à\\nbord.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 334,
+  "note": "[VermilionCity_EventScript_DontHaveSSTicket ; non compilé]"
+ },
+ {
+  "msgid": "The ship set sail.",
+  "msgstr": "Le navire a levé l’ancre.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 340,
+  "note": "[VermilionCity_EventScript_CheckSeagallopPresent ; non compilé]"
+ },
+ {
+  "msgid": "Ah, you have a TRI-PASS.\\pWould you like to board\\na SEAGALLOP ferry?",
+  "msgstr": "Ah, vous avez un Tri-Passe.\\pVoulez-vous embarquer sur un Ferry\\nFlèche des Mers?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 343,
+  "note": "TRI-PASS = Tri-Passe ; SEAGALLOP = Flèche des Mers (Poképédia). [VermilionCity_EventScript_ChooseSeagallopDestTriPass ; non compilé]"
+ },
+ {
+  "msgid": "Okay, everything's in order.\\pSEAGALLOP HI-SPEED 7 will be\\ndeparting immediately.",
+  "msgstr": "Très bien, tout est en ordre.\\pLe Ferry Flèche des Mers 7 va partir\\nimmédiatement.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 348,
+  "note": "[texte VermilionCity_Text_Seagallop7Departing ; non compilé]"
+ },
+ {
+  "msgid": "Ah, you have a RAINBOW PASS.\\pWould you like to board\\na SEAGALLOP ferry?",
+  "msgstr": "Ah, vous avez un Passe Prisme.\\pVoulez-vous embarquer sur un Ferry\\nFlèche des Mers?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 353,
+  "note": "RAINBOW PASS = Passe Prisme (Poképédia). [VermilionCity_EventScript_ChooseSeagallopDestRainbowPass ; non compilé]"
+ },
+ {
+  "msgid": "Oh! That's a MYSTICTICKET!\\nNow that is rare.\\pWe'll be happy to take you to\\nNAVEL ROCK anytime.",
+  "msgstr": "Oh! C’est un Ticketmystik! Voilà qui\\nest rare.\\pNous serons ravis de vous emmener au\\nRoc Nombri quand vous voulez.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 358,
+  "note": "MYSTICTICKET = Ticketmystik, NAVEL ROCK = Roc Nombri (Poképédia). [VermilionCity_EventScript_ShowMysticTicket ; non compilé]"
+ },
+ {
+  "msgid": "Oh! That's an AURORATICKET!\\nNow that is rare.\\pWe'll be happy to take you to\\nBIRTH ISLAND anytime.",
+  "msgstr": "Oh! C’est un Ticketaurore! Voilà qui\\nest rare.\\pNous serons ravis de vous emmener à\\nl’Ile Aurore quand vous voulez.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 364,
+  "note": "AURORATICKET = Ticketaurore, BIRTH ISLAND = Ile Aurore (Émeraude FR « ILE AURORE »). [VermilionCity_EventScript_ShowAuroraTicket ; non compilé]"
+ },
+ {
+  "msgid": "Would you like to board\\na SEAGALLOP ferry?",
+  "msgstr": "Voulez-vous embarquer sur un Ferry\\nFlèche des Mers?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 370,
+  "note": "[VermilionCity_EventScript_HasMysticTicket ; non compilé]"
+ },
+ {
+  "msgid": "Okay, everything's in order for you\\nto board a special ferry.\\pSEAGALLOP HI-SPEED 10 will be\\ndeparting immediately.",
+  "msgstr": "Très bien, tout est en ordre pour\\nembarquer sur un ferry spécial.\\pLe Ferry Flèche des Mers 10 va partir\\nimmédiatement.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 374,
+  "note": "[EventScript_SailToNavelRock ; non compilé]"
+ },
+ {
+  "msgid": "Okay, everything's in order for you\\nto board a special ferry.\\pSEAGALLOP HI-SPEED 12 will be\\ndeparting immediately.",
+  "msgstr": "Très bien, tout est en ordre pour\\nembarquer sur un ferry spécial.\\pLe Ferry Flèche des Mers 12 va partir\\nimmédiatement.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 380,
+  "note": "[EventScript_SailToBirthIsland ; non compilé]"
+ },
+ {
+  "msgid": "Oh, hello, {PLAYER}!\\nHow are you doing?\\pIt's me, one of PROF. OAK's AIDES.\\pDid you meet the other AIDE?\\pHe had a package from PROF. OAK\\nfor you, {PLAYER}.\\pHe said he'd look for you around\\nROUTE 2, {PLAYER}.\\pIf you're in the ROUTE 2 area,\\nplease look for him.",
+  "msgstr": "Oh, bonjour, {PLAYER}! Comment\\nvas-tu?\\pC’est moi, l’un des assistants du Prof.\\nChen.\\pTu as rencontré l’autre assistant?\\pIl avait un colis du Prof. Chen pour\\ntoi, {PLAYER}.\\pIl a dit qu’il te chercherait du côté\\nde la Route 2, {PLAYER}.\\pSi tu passes par la Route 2,\\ncherche-le, s’il te plaît.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 386,
+  "note": "[VermilionCity_EventScript_OaksAide ; non compilé]"
+ },
+ {
+  "msgid": "Hey, kid! What do you think you're\\ndoing here?\\pYou won't live long in combat!\\nNot with your puny power!\\pI tell you, kid, electric POKéMON\\nsaved me during the war!\\pThey zapped my enemies into\\nparalysis!\\pThe same as I'll do to you!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgstr": "Hey, kid! Qu’est-ce que tu fais ici?\\pTu ne tiendrais pas longtemps au\\ncombat!\\pPas avec ta puissance minable!\\pJe te le dis, kid, les Pokémon\\nélectriques m’ont sauvé à la guerre!\\pIls paralysaient mes ennemis!\\pEt c’est ce que je vais te faire!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 289,
+  "note": "Major Bob (franglais léger, comme SoulSilver FR). [VermilionCity_Gym_EventScript_LtSurge (TRAINER_LEADER_LT_SURGE) ; non compilé]"
+ },
+ {
+  "msgid": "A little word of advice, kid!\\pElectricity is sure powerful!\\pBut, it's useless against GROUND-\\ntype POKéMON!",
+  "msgstr": "Un petit conseil, kid!\\pL’électricité, c’est puissant!\\pMais c’est inutile contre les Pokémon\\nde type Sol!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 300,
+  "note": "[VermilionCity_Gym_EventScript_LtSurge ; non compilé]"
+ },
+ {
+  "msgid": "The THUNDERBADGE cranks up your\\nPOKéMON's SPEED!\\pIt also lets your POKéMON FLY\\nlightning-quick anytime, kid!\\pYou're special, kid!\\nTake this!",
+  "msgstr": "Le Badge Foudre booste la Vitesse de\\ntes Pokémon!\\pEt tes Pokémon peuvent utiliser Vol\\nquand tu veux, kid!\\pT’es spécial, kid! Prends ça!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 306,
+  "note": "THUNDERBADGE = Badge Foudre (SoulSilver FR 485). [VermilionCity_Gym_EventScript_GiveTM34 ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received TM34\\nfrom LT. SURGE.",
+  "msgstr": "{PLAYER} reçoit la CT34\\ndu Major Bob!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 314,
+  "note": "Calqué sur SoulSilver FR 485:2 « reçoit le Badge Foudre\\ndu Major Bob! ». [VermilionCity_Gym_EventScript_GiveTM34 ; non compilé]"
+ },
+ {
+  "msgid": "TM34 contains SHOCK WAVE!\\pTeach it to an ELECTRIC POKéMON!",
+  "msgstr": "La CT34 contient Onde de Choc!\\pApprends-la à un Pokémon Électrik!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 318,
+  "note": "[VermilionCity_Gym_EventScript_GiveTM34 ; non compilé]"
+ },
+ {
+  "msgid": "Yo, kid, make room in your BAG!",
+  "msgstr": "Yo, kid, fais de la place dans ton Sac!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 322,
+  "note": "[VermilionCity_Gym_EventScript_NoRoomForTM34 ; non compilé]"
+ },
+ {
+  "msgid": "Now that's a shocker!\\pYou're the real deal, kid!\\pFine, then, take the THUNDERBADGE!",
+  "msgstr": "Ça, c’est électrisant!\\pT’es un vrai de vrai, kid!\\pOK, prends le Badge Foudre!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 325,
+  "note": "[VermilionCity_Gym_EventScript_LtSurge (TRAINER_LEADER_LT_SURGE) ; non compilé]"
+ },
+ {
+  "msgid": "When I was in the Army, LT. SURGE\\nwas my strict CO.\\pHe was a hard taskmaster.",
+  "msgstr": "Quand j’étais dans l’armée, le Major\\nBob était mon commandant.\\pIl était très exigeant.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 330,
+  "note": "Gentleman Tucker (ancien militaire). [VermilionCity_Gym_EventScript_Tucker (TRAINER_GENTLEMAN_TUCKER) ; non compilé]"
+ },
+ {
+  "msgid": "Stop!\\nYou're very good!",
+  "msgstr": "Stop! T’es très fort!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 335,
+  "note": "[VermilionCity_Gym_EventScript_Tucker (TRAINER_GENTLEMAN_TUCKER) ; non compilé]"
+ },
+ {
+  "msgid": "It's not easy opening that door.\\pLT. SURGE was always famous for\\nhis cautious nature in the Army.",
+  "msgstr": "Ce n’est pas facile d’ouvrir cette\\nporte.\\pDans l’armée, le Major Bob était connu\\npour sa prudence.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 339,
+  "note": "[VermilionCity_Gym_EventScript_Tucker ; non compilé]"
+ },
+ {
+  "msgid": "I'm a lightweight, but I'm good\\nwith electricity!\\pThat's why I joined this GYM.",
+  "msgstr": "Je suis un poids plume, mais je m’y\\nconnais en électricité!\\pC’est pour ça que je suis entré dans\\ncette Arène.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 344,
+  "note": "Ingénieur Baily. [VermilionCity_Gym_EventScript_Baily (TRAINER_ENGINEER_BAILY) ; non compilé]"
+ },
+ {
+  "msgid": "Fried!",
+  "msgstr": "Grillé!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 349,
+  "note": "[VermilionCity_Gym_EventScript_Baily (TRAINER_ENGINEER_BAILY) ; non compilé]"
+ },
+ {
+  "msgid": "Okay, I'll talk!\\pLT. SURGE said he hid door\\nswitches inside something.",
+  "msgstr": "OK, je vais parler!\\pLe Major Bob a caché les\\ninterrupteurs dans quelque chose.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 352,
+  "note": "[VermilionCity_Gym_EventScript_Baily ; non compilé]"
+ },
+ {
+  "msgid": "This is no place for kids!\\nNot even if you're good!",
+  "msgstr": "C’est pas un endroit pour les gamins!\\nMême s’ils sont doués!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 357,
+  "note": "Marin Dwayne. [VermilionCity_Gym_EventScript_Dwayne (TRAINER_SAILOR_DWAYNE) ; non compilé]"
+ }
+]

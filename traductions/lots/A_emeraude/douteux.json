@@ -22,6 +22,30 @@
   "methode": "approche"
  },
  {
+  "msgid": "Before I show you to the BATTLE DOME,\\nI must save the data. Is that okay?",
+  "msgctxt": "data/maps/BattleFrontier_BattleDomeLobby/scripts.inc",
+  "msgstr": "Vous devez sauvegarder avant d’entrer\\ndans le DOME DE Combat. Patientez.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/BattleFrontier_BattleDomeLobby/scripts.inc",
+  "ligne": 476,
+  "ancien": "Avant de pouvoir me suivre dans le DOME\\nDE Combat, vous devez sauvegarder. OK?",
+  "preuve": "US 24A61A -> FR 24FA61 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "Before I show you to the BATTLE DOME,\\nI must save the data. Is that okay?",
+  "msgctxt": "data/maps/BattleFrontier_BattleDomeLobby_hns/scripts.inc",
+  "msgstr": "Vous devez sauvegarder avant d’entrer\\ndans le DOME DE Combat. Patientez.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/BattleFrontier_BattleDomeLobby_hns/scripts.inc",
+  "ligne": 476,
+  "ancien": "Avant de pouvoir me suivre dans le DOME\\nDE Combat, vous devez sauvegarder. OK?",
+  "preuve": "US 24A61A -> FR 24FA61 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "The TRAINER is apparently skilled\\nin the handling of the FAIRY type.",
   "msgstr": "Ce Dresseur semble être doué\\nen ce qui concerne le type Feu.",
   "source": "Émeraude FR officiel (adapté)",
@@ -31,6 +55,30 @@
   "ligne": 566,
   "ancien": "Ce Dresseur semble être doué\\nen ce qui concerne le type Fée.",
   "methode": "approche"
+ },
+ {
+  "msgid": "I feel privileged for having seen\\nyour POKéMON's exploits.\\pThe results will be recorded.\\nI must ask you to briefly wait.",
+  "msgctxt": "data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc",
+  "msgstr": "Ce fut un privilège de pouvoir assister\\nà un tel combat.\\pVotre résultat va être sauvegardé.\\nJe vous demande de patienter un peu.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc",
+  "ligne": 463,
+  "ancien": "Ce fut un privilège de pouvoir assister\\nà un tel combat.\\pVotre résultat va être sauvegardé.\\nJe vous demande de patienter un peu.",
+  "preuve": "US 24E41E -> FR 253842 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "I feel privileged for having seen\\nyour POKéMON's exploits.\\pThe results will be recorded.\\nI must ask you to briefly wait.",
+  "msgctxt": "data/maps/BattleFrontier_BattlePalaceLobby_hns/scripts.inc",
+  "msgstr": "Ce fut un privilège de pouvoir assister\\nà un tel combat.\\pVotre résultat va être sauvegardé.\\nJe vous demande de patienter un peu.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/BattleFrontier_BattlePalaceLobby_hns/scripts.inc",
+  "ligne": 463,
+  "ancien": "Ce fut un privilège de pouvoir assister\\nà un tel combat.\\pVotre résultat va être sauvegardé.\\nJe vous demande de patienter un peu.",
+  "preuve": "US 24E41E -> FR 253842 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "I beg your pardon, but…\\pYou do not have three eligible\\nPOKéMON for the Battle Choice event.\\pYou must have three different POKéMON\\nof Level 50 or less to enter.\\pThey also must be holding different\\nkinds of items.\\pEGGS{STR_VAR_1}.",
@@ -89,6 +137,18 @@
  },
  {
   "msgid": "One {STR_VAR_2} with {STR_VAR_1} and",
+  "msgctxt": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
+  "msgstr": "J’ai avec moi…\\nun {STR_VAR_2} avec {STR_VAR_1} et",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
+  "ligne": 1648,
+  "ancien": "Un {STR_VAR_2} avec {STR_VAR_1} et",
+  "preuve": "US 24856A -> FR 24D88E (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "One {STR_VAR_2} with {STR_VAR_1} and",
   "msgstr": "J’ai avec moi…\\nun {STR_VAR_2} avec {STR_VAR_1} et",
   "source": "Émeraude FR officiel",
   "fichier": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
@@ -97,6 +157,18 @@
   "preuve": "US 24856A -> FR 24D88E (pointeur x1) ; table octets EN->FR (x1)",
   "note": "plusieurs textes Émeraude FR pour le même anglais : « Un {STR_VAR_2} qui utilise {STR_VAR_1} » (ptr+tm) ; anglais sur une ligne mais texte FR trop large pour une ligne : retours à la ligne d’Émeraude FR conservés",
   "methode": "ptr"
+ },
+ {
+  "msgid": "One {STR_VAR_1}-using {STR_VAR_2}",
+  "msgctxt": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
+  "msgstr": "Mes Pokémon? J’ai un\\n{STR_VAR_2} qui utilise {STR_VAR_1} et",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc",
+  "ligne": 1668,
+  "ancien": "J’ai un {STR_VAR_2} avec {STR_VAR_1} et",
+  "preuve": "US 248661 -> FR 24D98C (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "One {STR_VAR_1}-using {STR_VAR_2}",
@@ -110,6 +182,30 @@
   "methode": "ptr"
  },
  {
+  "msgid": "One {STR_VAR_2} with {STR_VAR_1} and",
+  "msgctxt": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom_hns/scripts.inc",
+  "msgstr": "J’ai avec moi…\\nun {STR_VAR_2} avec {STR_VAR_1} et",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom_hns/scripts.inc",
+  "ligne": 1648,
+  "ancien": "Un {STR_VAR_2} avec {STR_VAR_1} et",
+  "preuve": "US 24856A -> FR 24D88E (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "One {STR_VAR_1}-using {STR_VAR_2}",
+  "msgctxt": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom_hns/scripts.inc",
+  "msgstr": "Mes Pokémon? J’ai un\\n{STR_VAR_2} qui utilise {STR_VAR_1} et",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom_hns/scripts.inc",
+  "ligne": 1668,
+  "ancien": "J’ai un {STR_VAR_2} avec {STR_VAR_1} et",
+  "preuve": "US 248661 -> FR 24D98C (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "You've chosen the {STR_VAR_1}.\\nIs that correct?",
   "msgstr": "Vous avez choisi le prix Fer.\\nC’est bien cela?",
   "source": "Émeraude FR officiel (adapté)",
@@ -121,6 +217,30 @@
   "methode": "approche"
  },
  {
+  "msgid": "Hmhm…\\pThis one says it looks after itself!\\nBut if it gets enough ouchies,\\lit will hit back!",
+  "msgctxt": "data/maps/BattleFrontier_Lounge5/scripts.inc",
+  "msgstr": "Hum…\\pCelui-là dit qu’il prend soin de lui!\\nMais s’il est couvert de bobos, il\\lripostera!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/BattleFrontier_Lounge5/scripts.inc",
+  "ligne": 73,
+  "ancien": "Hum…\\pCelui-là dit qu’il prend soin de lui!\\nMais s’il accumule les bobos, il\\lripostera!",
+  "preuve": "US 264DD7 -> FR 269BD4 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "Hmhm…\\pThis one says it looks after itself!\\nBut if it gets enough ouchies,\\lit will hit back!",
+  "msgctxt": "data/maps/BattleFrontier_Lounge5_hns/scripts.inc",
+  "msgstr": "Hum…\\pCelui-là dit qu’il prend soin de lui!\\nMais s’il est couvert de bobos, il\\lripostera!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/BattleFrontier_Lounge5_hns/scripts.inc",
+  "ligne": 73,
+  "ancien": "Hum…\\pCelui-là dit qu’il prend soin de lui!\\nMais s’il accumule les bobos, il\\lripostera!",
+  "preuve": "US 264DD7 -> FR 269BD4 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "Powerful, but\\nleaves the user\\nimmobile one turn.",
   "msgstr": "Puissant, mais immobilise\\nle lanceur au tour suivant.",
   "source": "Émeraude FR officiel (adapté)",
@@ -130,6 +250,30 @@
   "ligne": 604,
   "ancien": "Puissant, mais\\nle lanceur doit\\nsouffler un tour.",
   "methode": "approche"
+ },
+ {
+  "msgid": "Which would you like to learn about?",
+  "msgctxt": "data/maps/BattleFrontier_ReceptionGate/scripts.inc",
+  "msgstr": "Sur quel bâtiment souhaitez-vous\\navoir des informations?",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/BattleFrontier_ReceptionGate/scripts.inc",
+  "ligne": 347,
+  "ancien": "Sur quel bâtiment souhaitez-vous\\navoir des informations?",
+  "preuve": "US 26689D -> FR 26B72B (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "Which would you like to learn about?",
+  "msgctxt": "data/maps/BattleFrontier_ReceptionGate_hns/scripts.inc",
+  "msgstr": "Sur quel bâtiment souhaitez-vous\\navoir des informations?",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/BattleFrontier_ReceptionGate_hns/scripts.inc",
+  "ligne": 349,
+  "ancien": "Sur quel bâtiment souhaitez-vous\\navoir des informations?",
+  "preuve": "US 26689D -> FR 26B72B (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "Whoops!\\nYour COIN CASE is full.",
@@ -214,6 +358,18 @@
   "preuve": "US 1EB3CA -> FR 1EBEED (pointeur x1) ; table octets EN->FR (x1)",
   "note": "nombres différents ([] / ['4'])",
   "methode": "ptr"
+ },
+ {
+  "msgid": "Here you go!",
+  "msgctxt": "data/maps/GoldenrodCity_GameCorner_hns/scripts.inc",
+  "msgstr": "Voici!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/GoldenrodCity_GameCorner_hns/scripts.inc",
+  "ligne": 602,
+  "ancien": "Et voilà!",
+  "preuve": "US 21079C -> FR 212E24 (pointeur x3) ; table octets EN->FR (x3)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "Here you go!",
@@ -315,6 +471,18 @@
   "methode": "approche"
  },
  {
+  "msgid": "Here you go!",
+  "msgctxt": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+  "msgstr": "Voici!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+  "ligne": 1026,
+  "ancien": "Et voilà!",
+  "preuve": "US 21079C -> FR 212E24 (pointeur x3) ; table octets EN->FR (x3)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "Up to three COINS can be used to play\\nthe SLOTS.",
   "msgstr": "Il est possible de mettre jusqu’à trois\\nJETONS dans une MACHINE A SOUS.\\pPlus tu mets de JETONS, plus tu as\\nde chances de gagner le jackpot.",
   "source": "Émeraude FR officiel",
@@ -380,6 +548,101 @@
   "methode": "approche"
  },
  {
+  "msgid": "MAY: Oh, what's the matter?\\pHaven't you caught or raised your\\nPOKéMON very much?\\pThat's not very good for a TRAINER!",
+  "msgctxt": "data/maps/Route104/scripts.inc",
+  "msgstr": "FLORA: Quoi? Tu n’avais pas dressé\\ntes Pokémon?\\pCe n’est pas une très bonne\\nperformance pour un Dresseur…",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/Route104/scripts.inc",
+  "ligne": 1101,
+  "ancien": "FLORA: Quoi?\\nQuel est le problème?\\pTu n’as pas attrapé ni dressé beaucoup\\nde Pokémon?\\pCe n’est pas une très bonne\\nperformance pour un Dresseur…",
+  "preuve": "US 1EDD2A -> FR 1EEAA5 (pointeur x2) ; table octets EN->FR (x2)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "MAY: You just became a TRAINER,\\n{PLAYER}{KUN}. I'm not going to lose!",
+  "msgctxt": "data/maps/Route104/scripts.inc",
+  "msgstr": "FLORA: Tu es un tout jeune Dresseur,\\n{PLAYER}{KUN}, je ne peux pas perdre!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/Route104/scripts.inc",
+  "ligne": 1111,
+  "ancien": "FLORA: Tu es un trop jeune Dresseur.\\nJe ne peux pas perdre!",
+  "preuve": "US 1EDDDB -> FR 1EEB3E (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "BRENDAN: What's the matter? Don't have\\nany confidence in your POKéMON?",
+  "msgctxt": "data/maps/Route104/scripts.inc",
+  "msgstr": "BRICE: Quel est le problème? Tu n’as\\npas confiance en tes Pokémon?",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/Route104/scripts.inc",
+  "ligne": 1147,
+  "ancien": "BRICE: Y a un problème?\\nT’as pas confiance dans tes Pokémon?",
+  "preuve": "US 1EE04D -> FR 1EEDCF (pointeur x2) ; table octets EN->FR (x2)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "BRENDAN: What's up?\\nWant to have a battle with me?",
+  "msgctxt": "data/maps/Route104/scripts.inc",
+  "msgstr": "BRICE: Ça roule?\\nTu veux te battre contre moi?",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/Route104/scripts.inc",
+  "ligne": 1151,
+  "ancien": "BRICE: Bah quoi?\\nTu veux te battre contre moi?",
+  "preuve": "US 1EE094 -> FR 1EEE12 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "BRENDAN: I know you just became\\na TRAINER, but I won't go easy!",
+  "msgctxt": "data/maps/Route104/scripts.inc",
+  "msgstr": "BRICE: Je sais que ça ne fait pas\\nlongtemps que tu es Dresseur,\\pmais j’vais me battre sans retenir\\nmes coups!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/Route104/scripts.inc",
+  "ligne": 1155,
+  "ancien": "BRICE: Je sais que c’est nouveau\\npour toi tout ça!\\pMais je ne vais pas retenir mes coups.",
+  "preuve": "US 1EE0C7 -> FR 1EEE41 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "Hmm…\\nYou're pretty good.",
+  "msgctxt": "data/maps/Route104/scripts.inc",
+  "msgstr": "Hum…\\nT’as sacrément bien progressé.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/Route104/scripts.inc",
+  "ligne": 1159,
+  "ancien": "Hum, tu te défends bien.",
+  "preuve": "US 1EE107 -> FR 1EEEAF (pointeur x3) ; table octets EN->FR (x3)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "Hmm…\\nYou're pretty good.",
+  "msgstr": "Hum…\\nT’as bien progressé.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/Route104/scripts.inc",
+  "ligne": 1159,
+  "ancien": "Hum, tu te défends bien.",
+  "preuve": "US 1E1FE9 -> FR 1E2210 (pointeur x3) ; table octets EN->FR (x3)",
+  "note": "plusieurs textes Émeraude FR pour le même anglais : « Hum…\\nT’as sacrément bien progressé. » (ptr+tm) | « Humm…\\nPas mal du tout. » (ptr+tm)",
+  "methode": "ptr"
+ },
+ {
+  "msgid": "Here you go!",
+  "msgctxt": "data/maps/Route109_SeashoreHouse/scripts.inc",
+  "msgstr": "Voilà!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/Route109_SeashoreHouse/scripts.inc",
+  "ligne": 137,
+  "ancien": "Et voilà!",
+  "preuve": "US 21071B -> FR 212DB2 (pointeur x5) ; US 2697C8 -> FR 26E69F (pointeur x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "That's hot!",
   "msgstr": "J’ai pas eu le temps de m’ennuyer!",
   "source": "Émeraude FR officiel",
@@ -389,6 +652,30 @@
   "preuve": "US 269947 -> FR 26E842 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "rapport de longueur 3.09",
   "methode": "ptr"
+ },
+ {
+  "msgid": "Hmm…\\nYou're pretty good.",
+  "msgctxt": "data/maps/Route110/scripts.inc",
+  "msgstr": "Humm…\\nPas mal du tout.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/Route110/scripts.inc",
+  "ligne": 791,
+  "ancien": "Hum, tu te défends bien.",
+  "preuve": "US 1EFEB4 -> FR 1F0D25 (pointeur x3) ; table octets EN->FR (x3)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "RUSTURF TUNNEL\\n“Linking RUSTBORO and VERDANTURF\\p“The tunnel project has been\\ncanceled.”",
+  "msgctxt": "data/maps/Route116/scripts.inc",
+  "msgstr": "Tunnel MERAZON\\n“Passage entre MEROUVILLE\\let VERGAZON.\\pLe projet de création du tunnel\\na été annulé.”",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/Route116/scripts.inc",
+  "ligne": 447,
+  "ancien": "Tunnel MERAZON\\n“Relie MEROUVILLE et VERGAZON”\\p“Le projet de création du tunnel\\na été annulé.”",
+  "preuve": "US 1F37B7 -> FR 1F489D (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "RUSTURF TUNNEL\\n“Linking RUSTBORO and VERDANTURF\\p“The tunnel project has been\\ncanceled.”",
@@ -403,6 +690,18 @@
  },
  {
   "msgid": "BERRY MASTER'S HOUSE",
+  "msgctxt": "data/maps/Route123/scripts.inc",
+  "msgstr": "MAISON DU Maître DES Baies",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/Route123/scripts.inc",
+  "ligne": 197,
+  "ancien": "MAISON Maître Baies",
+  "preuve": "US 1F6557 -> FR 1F7864 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "BERRY MASTER'S HOUSE",
   "msgstr": "MAISON DU Maître DES Baies",
   "source": "Émeraude FR officiel",
   "fichier": "data/maps/Route123/scripts.inc",
@@ -410,6 +709,17 @@
   "ancien": "MAISON Maître Baies",
   "preuve": "US 1F6557 -> FR 1F7864 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "plusieurs textes Émeraude FR pour le même anglais : « MAITRE DES BAIES » (ptr+tm)",
+  "methode": "ptr"
+ },
+ {
+  "msgid": "HUNTER'S HOUSE",
+  "msgstr": "CHERCHEUR DE TRESORS",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/Route124/scripts.inc",
+  "ligne": 103,
+  "ancien": "MAISON DU CHERCHEUR DE TRESORS",
+  "preuve": "US 5B8EB7 -> FR 5BCF5A (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : texte Émeraude trouvé pour src/landmark.c, pas pour data/maps/Route124/scripts.inc (msgctxt proposé) ; plusieurs textes Émeraude FR pour le même anglais ; retenu celui du même contexte (fichier HnS voisin) ; autres : « MAISON DU CHERCHEUR DE TRESORS »",
   "methode": "ptr"
  },
  {
@@ -522,6 +832,78 @@
   "methode": "approche"
  },
  {
+  "msgid": "MAY: Oh, what's the matter?\\pHaven't you caught or raised your\\nPOKéMON very much?\\pThat's not very good for a TRAINER!",
+  "msgctxt": "data/maps/RustboroCity/scripts.inc",
+  "msgstr": "FLORA: Quoi?\\nQuel est le problème?\\pTu n’as pas attrapé ni dressé beaucoup\\nde Pokémon?\\pCe n’est pas une très bonne\\nperformance pour un Dresseur…",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/RustboroCity/scripts.inc",
+  "ligne": 1153,
+  "ancien": "FLORA: Quoi?\\nQuel est le problème?\\pTu n’as pas attrapé ni dressé beaucoup\\nde Pokémon?\\pCe n’est pas une très bonne\\nperformance pour un Dresseur…",
+  "preuve": "US 1E1BD3 -> FR 1E1DBC (pointeur x2) ; table octets EN->FR (x2)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "MAY: You just became a TRAINER,\\n{PLAYER}{KUN}. I'm not going to lose!",
+  "msgctxt": "data/maps/RustboroCity/scripts.inc",
+  "msgstr": "FLORA: Tu es un trop jeune Dresseur.\\nJe ne peux pas perdre!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/RustboroCity/scripts.inc",
+  "ligne": 1163,
+  "ancien": "FLORA: Tu es un trop jeune Dresseur.\\nJe ne peux pas perdre!",
+  "preuve": "US 1E1C84 -> FR 1E1E7B (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "BRENDAN: What's the matter? Don't have\\nany confidence in your POKéMON?",
+  "msgctxt": "data/maps/RustboroCity/scripts.inc",
+  "msgstr": "BRICE: Y a un problème?\\nT’as pas confiance dans tes Pokémon?",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/RustboroCity/scripts.inc",
+  "ligne": 1201,
+  "ancien": "BRICE: Y a un problème?\\nT’as pas confiance dans tes Pokémon?",
+  "preuve": "US 1E1F2F -> FR 1E214A (pointeur x2) ; table octets EN->FR (x2)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "BRENDAN: What's up?\\nWant to have a battle with me?",
+  "msgctxt": "data/maps/RustboroCity/scripts.inc",
+  "msgstr": "BRICE: Bah quoi?\\nTu veux te battre contre moi?",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/RustboroCity/scripts.inc",
+  "ligne": 1205,
+  "ancien": "BRICE: Bah quoi?\\nTu veux te battre contre moi?",
+  "preuve": "US 1E1F76 -> FR 1E2187 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "BRENDAN: I know you just became\\na TRAINER, but I won't go easy!",
+  "msgctxt": "data/maps/RustboroCity/scripts.inc",
+  "msgstr": "BRICE: Je sais que c’est nouveau\\npour toi tout ça!\\pMais je ne vais pas retenir mes coups.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/RustboroCity/scripts.inc",
+  "ligne": 1209,
+  "ancien": "BRICE: Je sais que c’est nouveau\\npour toi tout ça!\\pMais je ne vais pas retenir mes coups.",
+  "preuve": "US 1E1FA9 -> FR 1E21B6 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "Hmm…\\nYou're pretty good.",
+  "msgctxt": "data/maps/RustboroCity/scripts.inc",
+  "msgstr": "Hum…\\nT’as bien progressé.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/RustboroCity/scripts.inc",
+  "ligne": 1213,
+  "ancien": "Hum, tu te défends bien.",
+  "preuve": "US 1E1FE9 -> FR 1E2210 (pointeur x3) ; table octets EN->FR (x3)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "Ow!\\nDown and out!",
   "msgstr": "A terre et hors combat!",
   "source": "Émeraude FR officiel (adapté)",
@@ -606,6 +988,18 @@
   "fichier": "data/maps/TwoIsland_House_Frlg/scripts.inc",
   "ligne": 143,
   "methode": "approche"
+ },
+ {
+  "msgid": "RUSTURF TUNNEL\\n“Linking RUSTBORO and VERDANTURF\\p“The tunnel project has been\\ncanceled.”",
+  "msgctxt": "data/maps/VerdanturfTown/scripts.inc",
+  "msgstr": "Tunnel MERAZON\\n“Passage entre MEROUVILLE\\let VERGAZON”.\\p“Le projet de création du tunnel\\na été annulé.”",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/VerdanturfTown/scripts.inc",
+  "ligne": 121,
+  "ancien": "Tunnel MERAZON\\n“Relie MEROUVILLE et VERGAZON”\\p“Le projet de création du tunnel\\na été annulé.”",
+  "preuve": "US 1EBA59 -> FR 1EC61E (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "That's too bad.",
@@ -825,6 +1219,18 @@
   "methode": "approche"
  },
  {
+  "msgid": "I feel privileged for having seen\\nyour POKéMON's exploits.\\pThe results will be recorded.\\nI must ask you to briefly wait.",
+  "msgctxt": "data/text/battle_tent.inc",
+  "msgstr": "Ce fut un privilège de pouvoir assister\\nà un tel combat.\\pVotre résultat va être sauvegardé.\\nVeuillez patienter.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/battle_tent.inc",
+  "ligne": 222,
+  "ancien": "Ce fut un privilège de pouvoir assister\\nà un tel combat.\\pVotre résultat va être sauvegardé.\\nJe vous demande de patienter un peu.",
+  "preuve": "US 2C56B8 -> FR 2CE552 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "Welcome to the BATTLE TENT!\\pI am your guide to the Battle Swap\\nTournament.",
   "msgstr": "Bienvenue dans la TENTE DE Combat\\nde POIVRESSEL!\\pJe serai votre guide pour le TOURNOI\\nCombat Echange.",
   "source": "Émeraude FR officiel (adapté)",
@@ -869,6 +1275,90 @@
   "methode": "approche"
  },
  {
+  "msgid": "FOUR ISLAND",
+  "msgctxt": "data/text/fame_checker_frlg.inc",
+  "msgstr": "ILE 4",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 834,
+  "ancien": "ILE 4",
+  "preuve": "US 5A114E -> FR 5A57E1 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "THREE ISLAND",
+  "msgctxt": "data/text/fame_checker_frlg.inc",
+  "msgstr": "ILE 3",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 930,
+  "ancien": "ILE 3",
+  "preuve": "US 5A1141 -> FR 5A57DB (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "FIVE ISLAND",
+  "msgctxt": "data/text/fame_checker_frlg.inc",
+  "msgstr": "ILE 5",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 972,
+  "ancien": "ILE 5",
+  "preuve": "US 5A115A -> FR 5A57E7 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "TWO ISLAND",
+  "msgctxt": "data/text/fame_checker_frlg.inc",
+  "msgstr": "ILE 2",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 993,
+  "ancien": "ILE 2",
+  "preuve": "US 5A1136 -> FR 5A57D5 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "SEVEN ISLAND",
+  "msgctxt": "data/text/fame_checker_frlg.inc",
+  "msgstr": "ILE 7",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 1008,
+  "ancien": "ILE 7",
+  "preuve": "US 5A1166 -> FR 5A57ED (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "SIX ISLAND",
+  "msgctxt": "data/text/fame_checker_frlg.inc",
+  "msgstr": "ILE 6",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 1014,
+  "ancien": "ILE 6",
+  "preuve": "US 5A1173 -> FR 5A57F3 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "ONE ISLAND",
+  "msgctxt": "data/text/fame_checker_frlg.inc",
+  "msgstr": "ILE 1",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/fame_checker_frlg.inc",
+  "ligne": 1044,
+  "ancien": "ILE 1",
+  "preuve": "US 5A112B -> FR 5A57CF (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "TUCKER",
   "msgstr": "TAKIM",
   "source": "Émeraude FR officiel",
@@ -896,7 +1386,7 @@
   "ligne": 1185,
   "ancien": "LOLA",
   "preuve": "US 31091C -> FR 31844C (zone parallèle, décalage +31536) ; US 310994 -> FR 3184C4 (zone parallèle, décalage +31536) ; US 3109BC -> FR 3184EC (zone parallèle, décalage +31536)",
-  "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire) ; autre(s) texte(s) FR minoritaire(s) : « LOLA » (delta)",
+  "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire) ; table par index retenue ; autre(s) correspondance(s) : « LOLA » (delta)",
   "methode": "delta"
  },
  {
@@ -928,7 +1418,7 @@
   "fichier": "data/text/fame_checker_frlg.inc",
   "ligne": 1269,
   "preuve": "US 610CF0 -> FR 615078 (zone parallèle, décalage +17288)",
-  "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
+  "note": "même anglais, sens différents : texte Émeraude trouvé pour src/data/battle_frontier/apprentice.h, src/data/trainers_hns.party, pas pour data/text/fame_checker_frlg.inc (msgctxt proposé) ; nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
   "methode": "delta"
  },
  {
@@ -955,6 +1445,18 @@
  },
  {
   "msgid": "…Er, {PLAYER}{KUN}?\\n{STR_VAR_1} here…\\pOh, yeah, you were over at\\nthe {STR_VAR_2}, right?\\pAnd you won {STR_VAR_3} battles in a row.\\pOh, there goes a rare POKéMON!\\nI have to go!",
+  "msgctxt": "data/text/match_call.inc",
+  "msgstr": "Heu… {PLAYER}{KUN}?\\nIci {STR_VAR_1}…\\pTu as combattu dans la ZONE DE\\nCombat, non? {STR_VAR_2}?\\pC’est vrai que tu as gagné {STR_VAR_3}\\ncombats à la suite?\\pJe viens d’apercevoir un Pokémon\\nrare! Je te laisse!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/match_call.inc",
+  "ligne": 1442,
+  "ancien": "…Euh, {PLAYER}{KUN}? Ici {STR_VAR_1}…\\pAh oui, tu étais à {STR_VAR_2}, c’est\\nça?\\pEt tu as gagné {STR_VAR_3} combats\\nd’affilée.\\pOh, un Pokémon rare! Je dois y aller!",
+  "preuve": "US 2AFF64 -> FR 2B8B28 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "…Er, {PLAYER}{KUN}?\\n{STR_VAR_1} here…\\pOh, yeah, you were over at\\nthe {STR_VAR_2}, right?\\pAnd you won {STR_VAR_3} battles in a row.\\pOh, there goes a rare POKéMON!\\nI have to go!",
   "msgstr": "Heu… {PLAYER}{KUN}?\\nIci {STR_VAR_1}…\\pTu as combattu dans la ZONE DE\\nCombat, non? {STR_VAR_2}?\\pC’est vrai que tu as gagné {STR_VAR_3}\\ncombats à la suite?\\pJe viens d’apercevoir un Pokémon\\nrare! Je te laisse!",
   "source": "Émeraude FR officiel",
   "fichier": "data/text/match_call.inc",
@@ -963,6 +1465,18 @@
   "preuve": "US 2AFF64 -> FR 2B8B28 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "plusieurs textes Émeraude FR pour le même anglais : « Heu… {PLAYER}{KUN}?\\nIci {STR_VAR_1}…\\pC’est vrai que tu as relevé le défi\\nde c » (ptr+tm)",
   "methode": "ptr"
+ },
+ {
+  "msgid": "Oh, {PLAYER}{KUN}, hi there!\\nThis is {STR_VAR_1}!\\pI heard! Your {STR_VAR_3}-win streak at\\nthe {STR_VAR_2}!\\pThat is so cool!\\nI'd better try harder, too!",
+  "msgctxt": "data/text/match_call.inc",
+  "msgstr": "Salut, {PLAYER}{KUN}!\\nC’est {STR_VAR_1}!\\pOn m’a parlé de tes {STR_VAR_3} victoires\\nà la suite dans la Zone de Combat!\\l{STR_VAR_2}, c’est ça?\\pC’est formidable!\\nBon, je ferais bien de t’imiter!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/match_call.inc",
+  "ligne": 1461,
+  "ancien": "Oh, {PLAYER}{KUN}, salut! C’est {STR_VAR_1}!\\pJ’ai appris ta série de {STR_VAR_3}\\nvictoires à {STR_VAR_2}!\\pC’est trop cool! Je dois faire plus\\nd’efforts, moi aussi!",
+  "preuve": "US 2B00B5 -> FR 2B8C86 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "Oh, {PLAYER}{KUN}, hi there!\\nThis is {STR_VAR_1}!\\pI heard! Your {STR_VAR_3}-win streak at\\nthe {STR_VAR_2}!\\pThat is so cool!\\nI'd better try harder, too!",
@@ -977,6 +1491,18 @@
  },
  {
   "msgid": "Oh, {PLAYER}{KUN}, hello…\\nThis is {STR_VAR_1}.\\pYou won {STR_VAR_3} straight battles at\\nthe {STR_VAR_2}?\\pThat's quite the accomplishment.\\nI need to work harder.",
+  "msgctxt": "data/text/match_call.inc",
+  "msgstr": "Coucou, {PLAYER}{KUN}…\\nC’est moi, {STR_VAR_1}.\\pC’est vrai que tu as gagné {STR_VAR_3}\\ncombats à la suite dans la ZONE DE\\lCombat? {STR_VAR_2}!?!\\pJe vais essayer de suivre ton\\nexemple. Je dois m’améliorer.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/match_call.inc",
+  "ligne": 1469,
+  "ancien": "Oh, {PLAYER}{KUN}, bonjour… Ici {STR_VAR_1}.\\pTu as gagné {STR_VAR_3} combats\\nd’affilée à {STR_VAR_2}?\\pC’est tout un exploit. Je dois\\ntravailler plus dur.",
+  "preuve": "US 2B0129 -> FR 2B8D22 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "Oh, {PLAYER}{KUN}, hello…\\nThis is {STR_VAR_1}.\\pYou won {STR_VAR_3} straight battles at\\nthe {STR_VAR_2}?\\pThat's quite the accomplishment.\\nI need to work harder.",
   "msgstr": "Coucou, {PLAYER}{KUN}…\\nC’est moi, {STR_VAR_1}.\\pC’est vrai que tu as gagné {STR_VAR_3}\\ncombats à la suite dans la ZONE DE\\lCombat? {STR_VAR_2}!?!\\pJe vais essayer de suivre ton\\nexemple. Je dois m’améliorer.",
   "source": "Émeraude FR officiel",
   "fichier": "data/text/match_call.inc",
@@ -988,6 +1514,18 @@
  },
  {
   "msgid": "Ah, {PLAYER}{KUN}.\\nThis is {STR_VAR_1}.\\pI hear you're the terror of\\nthe {STR_VAR_2}?\\pYou won, what, {STR_VAR_3} matches in\\na row?\\pYou're good, you.\\nI wonder how many I can win?",
+  "msgctxt": "data/text/match_call.inc",
+  "msgstr": "{PLAYER}{KUN}?\\nBonjour, c’est {STR_VAR_1}.\\pOn va devoir t’appeler sa Majesté\\n{STR_VAR_2} bientôt, non?\\pTu as gagné {STR_VAR_3} combats à la\\nsuite!\\pC’est vraiment bien!\\nJe devrais essayer, moi aussi!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/match_call.inc",
+  "ligne": 1477,
+  "ancien": "Ah, {PLAYER}{KUN}.\\nC’est {STR_VAR_1}.\\pIl paraît que tu es la terreur\\nde: {STR_VAR_2}?\\pTu as gagné {STR_VAR_3} matchs\\nd’affilée?\\pT’assures, toi.\\nCombien j’en gagnerais, moi?",
+  "preuve": "US 2B01A5 -> FR 2B8DCA (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "Ah, {PLAYER}{KUN}.\\nThis is {STR_VAR_1}.\\pI hear you're the terror of\\nthe {STR_VAR_2}?\\pYou won, what, {STR_VAR_3} matches in\\na row?\\pYou're good, you.\\nI wonder how many I can win?",
   "msgstr": "{PLAYER}{KUN}?\\nBonjour, c’est {STR_VAR_1}.\\pOn va devoir t’appeler sa Majesté\\n{STR_VAR_2} bientôt, non?\\pTu as gagné {STR_VAR_3} combats à la\\nsuite!\\pC’est vraiment bien!\\nJe devrais essayer, moi aussi!",
   "source": "Émeraude FR officiel",
   "fichier": "data/text/match_call.inc",
@@ -996,6 +1534,30 @@
   "preuve": "US 2B01A5 -> FR 2B8DCA (pointeur x1) ; table octets EN->FR (x1)",
   "note": "plusieurs textes Émeraude FR pour le même anglais : « {PLAYER}{KUN}?\\nBonjour, c’est {STR_VAR_1}.\\pOn va devoir t’appeler sa Majesté\\n » (ptr+tm)",
   "methode": "ptr"
+ },
+ {
+  "msgid": "Hello, {PLAYER}{KUN}.\\nIt's me, {STR_VAR_1}.\\lAre you keeping well?\\pSomeone passed on word about you.\\nHow you won {STR_VAR_3} straight battles\\lat a place named {STR_VAR_2}?\\pThat's quite the tale.\\nSee you!",
+  "msgctxt": "data/text/match_call.inc",
+  "msgstr": "Bonjour, {PLAYER}{KUN}.\\nC’est {STR_VAR_1}.\\lÇa va?\\pTu as gagné {STR_VAR_3} combats à\\nla suite dans un endroit appelé\\l{STR_VAR_2}, il paraît.\\pC’est assez impressionnant.\\nAu revoir!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/match_call.inc",
+  "ligne": 1487,
+  "ancien": "Bonjour, {PLAYER}{KUN}.\\nC’est {STR_VAR_1}.\\lÇa va?\\pTu as gagné {STR_VAR_3} combats à\\nla suite dans un endroit appelé\\l{STR_VAR_2}, il paraît.\\pC’est assez impressionnant.\\nAu revoir!",
+  "preuve": "US 2B0232 -> FR 2B8E6D (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "Ah, hello, {PLAYER}{KUN}!\\nThis is {STR_VAR_1}!\\lI hope you've been keeping well.\\pThey say you won {STR_VAR_3} straight\\nbattles at the {STR_VAR_2}.\\pI admire your energy!\\nBye now.",
+  "msgctxt": "data/text/match_call.inc",
+  "msgstr": "Bonjour, {PLAYER}{KUN}!\\nC’est {STR_VAR_1} qui appelle!\\lJ’espère que tout va bien.\\pIl paraît que tu as gagné {STR_VAR_3}\\ncombats à la suite dans un endroit\\ldu nom de {STR_VAR_2}.\\pQuelle énergie! Je t’admire.\\nA bientôt.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/match_call.inc",
+  "ligne": 1497,
+  "ancien": "Ah, bonjour, {PLAYER}{KUN}! Ici {STR_VAR_1}!\\nJ’espère que tu vas bien.\\pOn dit que tu as gagné {STR_VAR_3}\\ncombats d’affilée à {STR_VAR_2}.\\pJ’admire ton énergie! Au revoir.",
+  "preuve": "US 2B02D9 -> FR 2B8EFC (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "Ah, hello, {PLAYER}{KUN}!\\nThis is {STR_VAR_1}!\\lI hope you've been keeping well.\\pThey say you won {STR_VAR_3} straight\\nbattles at the {STR_VAR_2}.\\pI admire your energy!\\nBye now.",
@@ -1095,6 +1657,18 @@
   "methode": "ptr"
  },
  {
+  "msgid": "We hope to see you again!",
+  "msgctxt": "data/text/pkmn_center_nurse.inc",
+  "msgstr": "A une prochaine fois peut-être!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/pkmn_center_nurse.inc",
+  "ligne": 18,
+  "ancien": "A une prochaine fois peut-être!",
+  "preuve": "US 272640 -> FR 277908 (pointeur x1) ; US 2727DB -> FR 277A74 (pointeur x3)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "PROF. ELM: Ah, {PLAYER}{KUN}!\\pAre you curious about how your\\nPOKéDEX is coming along?",
   "msgstr": "Prof. SEKO: Ah, {PLAYER}{KUN}!\\pTu veux que je te donne mon avis\\nsur ton Pokédex?",
   "source": "Émeraude FR officiel (adapté)",
@@ -1115,6 +1689,18 @@
   "ligne": 259,
   "ancien": "Prof. Orme: Ah, {PLAYER}{KUN}!\\pTu veux savoir où en est\\nton Pokédex NATIONAL?",
   "methode": "approche"
+ },
+ {
+  "msgid": "We hope to see you again!",
+  "msgctxt": "data/text/record_mix.inc",
+  "msgstr": "A une prochaine fois peut-être!",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/record_mix.inc",
+  "ligne": 6,
+  "ancien": "A une prochaine fois peut-être!",
+  "preuve": "US 272640 -> FR 277908 (pointeur x1) ; US 2727DB -> FR 277A74 (pointeur x3)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "WARNING!\\pThere is a different game file that\\nis already saved.\\pIf you save now, the other file's\\nadventure, including items and\\lPOKéMON, will be entirely lost.\\pAre you sure you want to save now\\nand overwrite the other save file?",
@@ -1139,6 +1725,18 @@
   "methode": "ptr"
  },
  {
+  "msgid": "You really do have to be careful with\\nany sort of fire in a forest.\\pDon't ever underestimate the power\\nof fire.",
+  "msgctxt": "data/text/trainers.inc",
+  "msgstr": "En forêt, il faut faire très attention\\nau feu sous toutes ses formes.\\pNe sous-estime pas la puissance du\\nfeu.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/trainers.inc",
+  "ligne": 1877,
+  "ancien": "En forêt, il faut faire très attention\\nau feu sous toutes ses formes.\\pNe sous-estime pas la puissance du\\nfeu.",
+  "preuve": "US 29AB36 -> FR 2A1FD4 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "Aiyiyi!\\nNo contest at all!",
   "msgstr": "Aïe aïe aïe!",
   "source": "Émeraude FR officiel",
@@ -1148,6 +1746,18 @@
   "preuve": "US 29C365 -> FR 2A3A5E (pointeur x1) ; table octets EN->FR (x1)",
   "note": "rapport de longueur 0.44",
   "methode": "ptr"
+ },
+ {
+  "msgid": "LILA: You're planning to battle us?\\nNot unless you have two POKéMON.",
+  "msgctxt": "data/text/trainers.inc",
+  "msgstr": "RITA: Tu comptes nous affronter?\\nSeulement si tu as deux Pokémon.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/text/trainers.inc",
+  "ligne": 3694,
+  "ancien": "RITA: Tu comptes nous affronter?\\nSeulement si tu as deux Pokémon.",
+  "preuve": "US 2A0F8C -> FR 2A8E6E (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "IAN: If you have two POKéMON,\\nwe'll take you on!",
@@ -1205,15 +1815,40 @@
   "methode": "ptr"
  },
  {
+  "msgid": "BLACK BELT",
+  "msgctxt": "src/battle_main.c",
+  "msgstr": "Karatéka",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/battle_main.c",
+  "ligne": 321,
+  "ancien": "Ceint.Noire",
+  "preuve": "US 30FD70 -> FR 3178A0 (table de base US 30FCD4 / FR 317804, index +156, 15 voisins)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "PSYCHIC",
+  "msgctxt": "src/battle_main.c",
   "msgstr": "Kinésiste",
   "source": "Émeraude FR officiel",
   "fichier": "src/battle_main.c",
   "ligne": 338,
   "ancien": "KINÉSISTE",
   "preuve": "US 30FE4D -> FR 31797D (zone parallèle, décalage +31536)",
-  "note": "plusieurs textes Émeraude FR pour le même anglais : « PSYKO » (delta)",
-  "methode": "delta"
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "PSYCHIC",
+  "msgctxt": "src/battle_main.c",
+  "msgstr": "Kinésiste",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/battle_main.c",
+  "ligne": 338,
+  "ancien": "KINÉSISTE",
+  "preuve": "US 30FE4D -> FR 31797D (zone parallèle, décalage +31536)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
  },
  {
   "msgid": "RIVAL",
@@ -1777,17 +2412,6 @@
   "methode": "seq"
  },
  {
-  "msgid": "MISS",
-  "msgstr": "L’",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/berry_blender.c",
-  "ligne": 266,
-  "ancien": "MLLE",
-  "preuve": "EasyChat speech[14] US 599D3E -> FR 59E1B7 ; US 599D3E -> FR 59E1B7 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
   "msgid": " has no BERRIES to put in\\nthe BERRY BLENDER.",
   "msgstr": "{STR_VAR_1} n’a pas de Baies à mettre\\ndans le MIXEUR.",
   "source": "Émeraude FR officiel",
@@ -1860,6 +2484,17 @@
   "ancien": "MODERNE",
   "preuve": "EasyChat trendy_saying[20] US 59CC29 -> FR 5A12E6 ; US 59CC29 -> FR 5A12E6 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "nombres différents ([] / ['33']) ; mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
+  "methode": "ptr"
+ },
+ {
+  "msgid": "NEXT",
+  "msgstr": "PROCHAIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/challenge_menu.c",
+  "ligne": 499,
+  "ancien": "SUIVANT",
+  "preuve": "EasyChat time[28] US 59BE1E -> FR 5A0477 ; US 59BE1E -> FR 5A0477 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
   "methode": "ptr"
  },
  {
@@ -2003,6 +2638,78 @@
   "methode": "approche"
  },
  {
+  "msgid": "STURDY",
+  "msgctxt": "src/data/abilities.h",
+  "msgstr": "Fermeté",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/abilities.h",
+  "ligne": 43,
+  "ancien": "FERMETÉ",
+  "preuve": "EasyChat status[26] US 59831A -> FR 59C719 ; US 31B71C -> FR 32328F (zone parallèle, décalage +31603)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "Prevents sleep.",
+  "msgctxt": "src/data/abilities.h",
+  "msgstr": "Empêche de s’endormir.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/abilities.h",
+  "ligne": 121,
+  "ancien": "Empêche de s’endormir.",
+  "preuve": "US 31B0F8 -> FR 322C3D (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "SYNCHRONIZE",
+  "msgctxt": "src/data/abilities.h",
+  "msgstr": "Synchro",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/abilities.h",
+  "ligne": 221,
+  "ancien": "SYNCHRO",
+  "preuve": "EasyChat status[42] US 5983A5 -> FR 59C7AB ; US 31B847 -> FR 3233BA (table de base US 31B6DB / FR 32324E, index +364, 15 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "Prevents ability reduction.",
+  "msgctxt": "src/data/abilities.h",
+  "msgstr": "Empêche réduction des cap.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/abilities.h",
+  "ligne": 229,
+  "ancien": "Empêche réduction de cap.",
+  "preuve": "US 31B667 -> FR 3231CA (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "GUTS",
+  "msgctxt": "src/data/abilities.h",
+  "msgstr": "Cran",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/abilities.h",
+  "ligne": 476,
+  "ancien": "Cran",
+  "preuve": "EasyChat status[33] US 598351 -> FR 59C752 ; US 31BA01 -> FR 323574 (table de base US 31B6DB / FR 32324E, index +806, 14 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "DROUGHT",
+  "msgctxt": "src/data/abilities.h",
+  "msgstr": "Sécheresse",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/abilities.h",
+  "ligne": 533,
+  "ancien": "Sécheresse",
+  "preuve": "EasyChat status[76] US 5984E2 -> FR 59C8CD ; US 31BA69 -> FR 3235DC (table de base US 31B6DB / FR 32324E, index +910, 14 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "ANTICIPATION",
   "msgstr": "ATTENDU",
   "source": "Émeraude FR officiel",
@@ -2034,6 +2741,17 @@
   "ligne": 880,
   "ancien": "Invoque la grêle en combat.",
   "methode": "approche"
+ },
+ {
+  "msgid": "BRUNO",
+  "msgctxt": "src/data/battle_frontier/apprentice.h",
+  "msgstr": "BRUNO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/apprentice.h",
+  "ligne": 380,
+  "preuve": "US 610CF0 -> FR 615078 (zone parallèle, décalage +17288)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
  },
  {
   "msgid": "FRANK",
@@ -2316,6 +3034,17 @@
  },
  {
   "msgid": "EVAN",
+  "msgctxt": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "msgstr": "AKIM",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 920,
+  "preuve": "US 5D71F8 -> FR 5DB6F4 (table de base US 5D5ACC / FR 5D9FC8, index +5932, 2 voisins) ; gBattleFrontierTrainers[114] US 5D71F8 -> FR 5DB6F4",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "EVAN",
   "msgstr": "HUGUES",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
@@ -2366,6 +3095,17 @@
  },
  {
   "msgid": "KELSEY",
+  "msgctxt": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "msgstr": "ZORA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1032,
+  "preuve": "US 5D74D0 -> FR 5DB9CC (table de base US 5D5ACC / FR 5D9FC8, index +6660, 2 voisins) ; gBattleFrontierTrainers[128] US 5D74D0 -> FR 5DB9CC",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "KELSEY",
   "msgstr": "JOHANN",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
@@ -2393,6 +3133,17 @@
   "preuve": "gBattleFrontierTrainers[143] US 5D77DC -> FR 5DBCD8",
   "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
   "methode": "tidx"
+ },
+ {
+  "msgid": "TYLOR",
+  "msgctxt": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "msgstr": "TITOUAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1256,
+  "preuve": "US 5D7A80 -> FR 5DBF7C (table de base US 5D5ACC / FR 5D9FC8, index +8116, 2 voisins) ; gBattleFrontierTrainers[156] US 5D7A80 -> FR 5DBF7C",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
  },
  {
   "msgid": "TYLOR",
@@ -2551,6 +3302,17 @@
  },
  {
   "msgid": "RAUL",
+  "msgctxt": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "msgstr": "JASON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 1920,
+  "preuve": "US 5D8B5C -> FR 5DD058 (table de base US 5D5ACC / FR 5D9FC8, index +12432, 2 voisins) ; gBattleFrontierTrainers[239] US 5D8B5C -> FR 5DD058",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "RAUL",
   "msgstr": "RAUL",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
@@ -2642,6 +3404,17 @@
  },
  {
   "msgid": "AVERY",
+  "msgctxt": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "msgstr": "EVAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2216,
+  "preuve": "US 5D92E0 -> FR 5DD7DC (table de base US 5D5ACC / FR 5D9FC8, index +14356, 2 voisins) ; gBattleFrontierTrainers[276] US 5D92E0 -> FR 5DD7DC",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "AVERY",
   "msgstr": "EVAN",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
@@ -2649,6 +3422,17 @@
   "preuve": "US 5D92E0 -> FR 5DD7DC (table de base US 5D5ACC / FR 5D9FC8, index +14356, 2 voisins) ; gBattleFrontierTrainers[276] US 5D92E0 -> FR 5DD7DC ; gBattleTentSlateport[22] US 5DDE90 -> FR 5E238C",
   "note": "plusieurs textes Émeraude FR pour le même anglais : « GREG » (delta+tidx) ; même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR",
   "methode": "tidx"
+ },
+ {
+  "msgid": "LIAM",
+  "msgctxt": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "msgstr": "ELVIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2224,
+  "preuve": "US 5D9314 -> FR 5DD810 (table de base US 5D5ACC / FR 5D9FC8, index +14408, 2 voisins) ; gBattleFrontierTrainers[277] US 5D9314 -> FR 5DD810",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
  },
  {
   "msgid": "LIAM",
@@ -2693,6 +3477,17 @@
  },
  {
   "msgid": "RAYMOND",
+  "msgctxt": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "msgstr": "MOUNIR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2288,
+  "preuve": "US 5D94B4 -> FR 5DD9B0 (table de base US 5D5ACC / FR 5D9FC8, index +14824, 2 voisins) ; gBattleFrontierTrainers[285] US 5D94B4 -> FR 5DD9B0",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "RAYMOND",
   "msgstr": "SEB",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
@@ -2723,14 +3518,15 @@
  },
  {
   "msgid": "OMAR",
-  "msgstr": "OMAR",
+  "msgctxt": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "msgstr": "MALCOLM",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
   "ligne": 2312,
   "ancien": "Omar",
-  "preuve": "US 58809A -> FR 58C466 (zone parallèle, décalage +17356) ; gDefaultContestWinners.trainerName[7] US 58809A -> FR 58C466",
-  "note": "plusieurs textes Émeraude FR pour le même anglais : « MALCOLM » (table+tidx)",
-  "methode": "delta"
+  "preuve": "US 5D9550 -> FR 5DDA4C (table de base US 5D5ACC / FR 5D9FC8, index +14980, 2 voisins) ; gBattleFrontierTrainers[288] US 5D9550 -> FR 5DDA4C",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
  },
  {
   "msgid": "PETER",
@@ -2763,6 +3559,17 @@
   "preuve": "gBattleFrontierTrainers[292] US 5D9620 -> FR 5DDB1C",
   "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
   "methode": "tidx"
+ },
+ {
+  "msgid": "PAIGE",
+  "msgctxt": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "msgstr": "MARINE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/battle_frontier_trainers.h",
+  "ligne": 2368,
+  "preuve": "US 5D96BC -> FR 5DDBB8 (table de base US 5D5ACC / FR 5D9FC8, index +15344, 3 voisins) ; gBattleFrontierTrainers[295] US 5D96BC -> FR 5DDBB8",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
  },
  {
   "msgid": "PAIGE",
@@ -2836,6 +3643,42 @@
   "methode": "delta"
  },
  {
+  "msgid": "SLOWBRO",
+  "msgctxt": "src/data/battle_frontier/trainer_hill.h",
+  "msgstr": "FLAGADOSS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 1040,
+  "ancien": "FLAGADOSS",
+  "preuve": "US 318938 -> FR 320468 (zone parallèle, décalage +31536) ; US 6270A0 -> FR 62AFB4 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "SLOWKING",
+  "msgctxt": "src/data/battle_frontier/trainer_hill.h",
+  "msgstr": "ROIGADA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 1258,
+  "ancien": "ROIGADA",
+  "preuve": "US 318E55 -> FR 320985 (zone parallèle, décalage +31536) ; US 6291A4 -> FR 62D0B8 (table de base US 6285E4 / FR 62C4F8, index +3008, 9 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "MR. MIME",
+  "msgctxt": "src/data/battle_frontier/trainer_hill.h",
+  "msgstr": "M. MIME",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 1527,
+  "ancien": "M. MIME",
+  "preuve": "US 318B06 -> FR 320636 (zone parallèle, décalage +31536) ; US 626E04 -> FR 62AD18 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "PRESTON",
   "msgstr": "POLO",
   "source": "Émeraude FR officiel",
@@ -2844,6 +3687,18 @@
   "preuve": "US 31249C -> FR 319FCC (zone parallèle, décalage +31536) ; gTrainers[233] US 31249C -> FR 319FCC",
   "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
   "methode": "delta"
+ },
+ {
+  "msgid": "MEOWTH",
+  "msgctxt": "src/data/battle_frontier/trainer_hill.h",
+  "msgstr": "MIAOUSS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 2145,
+  "ancien": "MIAOUSS",
+  "preuve": "US 318804 -> FR 320334 (zone parallèle, décalage +31536) ; US 628B7C -> FR 62CA90 (table de base US 6285E4 / FR 62C4F8, index +1432, 3 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
  },
  {
   "msgid": "CLARISSA",
@@ -2864,6 +3719,18 @@
   "preuve": "US 316894 -> FR 31E3C4 (zone parallèle, décalage +31536) ; gTrainers[668] US 316894 -> FR 31E3C4",
   "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
   "methode": "delta"
+ },
+ {
+  "msgid": "CORSOLA",
+  "msgctxt": "src/data/battle_frontier/trainer_hill.h",
+  "msgstr": "CORAYON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 3458,
+  "ancien": "CORAYON",
+  "preuve": "US 318F52 -> FR 320A82 (zone parallèle, décalage +31536) ; US 627934 -> FR 62B848 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
  },
  {
   "msgid": "DEAN",
@@ -2887,6 +3754,54 @@
   "methode": "delta"
  },
  {
+  "msgid": "WEEZING",
+  "msgctxt": "src/data/battle_frontier/trainer_hill.h",
+  "msgstr": "SMOGOGO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 4977,
+  "ancien": "SMOGOGO",
+  "preuve": "US 318A82 -> FR 3205B2 (zone parallèle, décalage +31536) ; US 626904 -> FR 62A818 (table de base US 626814 / FR 62A728, index +240, 8 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "FLAREON",
+  "msgctxt": "src/data/battle_frontier/trainer_hill.h",
+  "msgstr": "PYROLI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 5106,
+  "ancien": "PYROLI",
+  "preuve": "US 318BA0 -> FR 3206D0 (zone parallèle, décalage +31536) ; US 626A4C -> FR 62A960 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "VAPOREON",
+  "msgctxt": "src/data/battle_frontier/trainer_hill.h",
+  "msgstr": "AQUALI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 5471,
+  "ancien": "AQUALI",
+  "preuve": "US 318B8A -> FR 3206BA (zone parallèle, décalage +31536) ; US 626FF0 -> FR 62AF04 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "LINOONE",
+  "msgctxt": "src/data/battle_frontier/trainer_hill.h",
+  "msgstr": "LINEON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 5571,
+  "ancien": "LINEON",
+  "preuve": "US 319233 -> FR 320D63 (zone parallèle, décalage +31536) ; US 6270CC -> FR 62AFE0 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "VERONICA",
   "msgstr": "VERONICA",
   "source": "Émeraude FR officiel",
@@ -2897,6 +3812,54 @@
   "methode": "delta"
  },
  {
+  "msgid": "RAPIDASH",
+  "msgctxt": "src/data/battle_frontier/trainer_hill.h",
+  "msgstr": "GALOPA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 7359,
+  "ancien": "GALOPA",
+  "preuve": "US 318922 -> FR 320452 (zone parallèle, décalage +31536) ; US 628848 -> FR 62C75C (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "MOLTRES",
+  "msgctxt": "src/data/battle_frontier/trainer_hill.h",
+  "msgstr": "SULFURA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 7378,
+  "ancien": "SULFURA",
+  "preuve": "US 318C0E -> FR 32073E (zone parallèle, décalage +31536) ; US 628874 -> FR 62C788 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "ZAPDOS",
+  "msgctxt": "src/data/battle_frontier/trainer_hill.h",
+  "msgstr": "ELECTHOR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 8076,
+  "ancien": "ELECTHOR",
+  "preuve": "US 318C03 -> FR 320733 (zone parallèle, décalage +31536) ; US 629254 -> FR 62D168 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "ARTICUNO",
+  "msgctxt": "src/data/battle_frontier/trainer_hill.h",
+  "msgstr": "ARTIKODIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 8202,
+  "ancien": "ARTIKODIN",
+  "preuve": "US 318BF8 -> FR 320728 (zone parallèle, décalage +31536) ; US 62939C -> FR 62D2B0 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "ALFRED",
   "msgstr": "ALBAN",
   "source": "Émeraude FR officiel",
@@ -2905,6 +3868,18 @@
   "preuve": "US 6294D8 -> FR 62D3EC (zone parallèle, décalage +16148)",
   "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
   "methode": "delta"
+ },
+ {
+  "msgid": "JOLTEON",
+  "msgctxt": "src/data/battle_frontier/trainer_hill.h",
+  "msgstr": "VOLTALI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/battle_frontier/trainer_hill.h",
+  "ligne": 8671,
+  "ancien": "VOLTALI",
+  "preuve": "US 318B95 -> FR 3206C5 (zone parallèle, décalage +31536) ; US 629A38 -> FR 62D94C (table de base US 6294CC / FR 62D3E0, index +1388, 4 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
  },
  {
   "msgid": "ALLAN",
@@ -2918,6 +3893,17 @@
  },
  {
   "msgid": "BRYANT",
+  "msgctxt": "src/data/contest_opponents.h",
+  "msgstr": "JACO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 206,
+  "preuve": "US 58807A -> FR 58C446 (zone parallèle, décalage +17356) ; gDefaultContestWinners.trainerName[6] US 58807A -> FR 58C446",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "BRYANT",
   "msgstr": "RAOUL",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/contest_opponents.h",
@@ -2925,6 +3911,18 @@
   "preuve": "US 3174C4 -> FR 31EFF4 (zone parallèle, décalage +31536) ; gTrainers[746] US 3174C4 -> FR 31EFF4",
   "note": "plusieurs textes Émeraude FR pour le même anglais : « JACO » (delta+tidx)",
   "methode": "delta"
+ },
+ {
+  "msgid": "OMAR",
+  "msgctxt": "src/data/contest_opponents.h",
+  "msgstr": "OMAR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 215,
+  "ancien": "Omar",
+  "preuve": "US 58809A -> FR 58C466 (zone parallèle, décalage +17356) ; gDefaultContestWinners.trainerName[7] US 58809A -> FR 58C466",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
  },
  {
   "msgid": "JIMMY",
@@ -2937,6 +3935,62 @@
   "methode": "delta"
  },
  {
+  "msgid": "EVAN",
+  "msgctxt": "src/data/contest_opponents.h",
+  "msgstr": "HUGUES",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 284,
+  "preuve": "US 588131 -> FR 58C4FD (zone parallèle, décalage +17356) ; gContestOpponents.trainerName[2] US 588131 -> FR 58C4FD",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "DOTS",
+  "msgctxt": "src/data/contest_opponents.h",
+  "msgstr": "NIPIOT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 312,
+  "ancien": "DOTS",
+  "preuve": "US 588166 -> FR 58C532 (zone parallèle, décalage +17356) ; gContestOpponents.nickname[3] US 588166 -> FR 58C532",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "DOTS",
+  "msgstr": "PIPIO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 312,
+  "ancien": "DOTS",
+  "preuve": "US 338ED0 -> FR 340A54 (pointeur x4) ; sIngameTrades.nickname[0] US 338ED0 -> FR 340A54 ; table octets EN->FR (x4)",
+  "note": "plusieurs textes Émeraude FR pour le même anglais : « NIPIOT » (delta+tidx)",
+  "methode": "ptr"
+ },
+ {
+  "msgid": "KELSEY",
+  "msgctxt": "src/data/contest_opponents.h",
+  "msgstr": "JOHANN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 313,
+  "preuve": "US 588171 -> FR 58C53D (zone parallèle, décalage +17356) ; gContestOpponents.trainerName[3] US 588171 -> FR 58C53D",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "RAYMOND",
+  "msgctxt": "src/data/contest_opponents.h",
+  "msgstr": "SEB",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 371,
+  "preuve": "US 5881F1 -> FR 58C5BD (zone parallèle, décalage +17356) ; gContestOpponents.trainerName[5] US 5881F1 -> FR 58C5BD",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "GRANT",
   "msgstr": "QUENTIN",
   "source": "Émeraude FR officiel",
@@ -2945,6 +3999,17 @@
   "preuve": "US 588231 -> FR 58C5FD (zone parallèle, décalage +17356) ; gContestOpponents.trainerName[6] US 588231 -> FR 58C5FD",
   "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
   "methode": "delta"
+ },
+ {
+  "msgid": "PAIGE",
+  "msgctxt": "src/data/contest_opponents.h",
+  "msgstr": "CHANCE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 429,
+  "preuve": "US 588271 -> FR 58C63D (zone parallèle, décalage +17356) ; gContestOpponents.trainerName[7] US 588271 -> FR 58C63D",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
  },
  {
   "msgid": "RUSSELL",
@@ -2958,6 +4023,17 @@
  },
  {
   "msgid": "BEAU",
+  "msgctxt": "src/data/contest_opponents.h",
+  "msgstr": "JANIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 690,
+  "preuve": "US 5884B1 -> FR 58C87D (zone parallèle, décalage +17356) ; gContestOpponents.trainerName[16] US 5884B1 -> FR 58C87D",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "BEAU",
   "msgstr": "YANIS",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/contest_opponents.h",
@@ -2965,6 +4041,17 @@
   "preuve": "US 312154 -> FR 319C84 (zone parallèle, décalage +31536) ; gTrainers[212] US 312154 -> FR 319C84",
   "note": "plusieurs textes Émeraude FR pour le même anglais : « JANIE » (delta+tidx) ; même nom aussi utilisé dans les données FRLG (src/data/trainers_frlg.party) : nom Émeraude FR proposé faute de FRLG FR",
   "methode": "delta"
+ },
+ {
+  "msgid": "LIAM",
+  "msgctxt": "src/data/contest_opponents.h",
+  "msgstr": "LIAM",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 864,
+  "preuve": "US 588631 -> FR 58C9FD (zone parallèle, décalage +17356) ; gContestOpponents.trainerName[22] US 588631 -> FR 58C9FD",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
  },
  {
   "msgid": "SUMMER",
@@ -2978,6 +4065,17 @@
   "methode": "delta"
  },
  {
+  "msgid": "AVERY",
+  "msgctxt": "src/data/contest_opponents.h",
+  "msgstr": "GREG",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 1183,
+  "preuve": "US 5888F1 -> FR 58CCBD (zone parallèle, décalage +17356) ; gContestOpponents.trainerName[33] US 5888F1 -> FR 58CCBD",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "ARIANA",
   "msgstr": "ARIANE",
   "source": "Émeraude FR officiel",
@@ -2988,6 +4086,17 @@
   "methode": "delta"
  },
  {
+  "msgid": "RAUL",
+  "msgctxt": "src/data/contest_opponents.h",
+  "msgstr": "RAUL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 1386,
+  "preuve": "US 588AB1 -> FR 58CE7D (zone parallèle, décalage +17356) ; gContestOpponents.trainerName[40] US 588AB1 -> FR 58CE7D",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "DEVIN",
   "msgstr": "MARCO",
   "source": "Émeraude FR officiel",
@@ -2996,6 +4105,17 @@
   "preuve": "US 588C31 -> FR 58CFFD (zone parallèle, décalage +17356) ; gContestOpponents.trainerName[46] US 588C31 -> FR 58CFFD",
   "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
   "methode": "delta"
+ },
+ {
+  "msgid": "TYLOR",
+  "msgctxt": "src/data/contest_opponents.h",
+  "msgstr": "LILOU",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/contest_opponents.h",
+  "ligne": 1589,
+  "preuve": "US 588C71 -> FR 58D03D (zone parallèle, décalage +17356) ; gContestOpponents.trainerName[47] US 588C71 -> FR 58D03D",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
  },
  {
   "msgid": "JADE",
@@ -3028,6 +4148,18 @@
   "methode": "ptr"
  },
  {
+  "msgid": "A small fence that\\nblocks passage.",
+  "msgctxt": "src/data/decoration/description.h",
+  "msgstr": "Une barrière\\npour bloquer le\\npassage.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/decoration/description.h",
+  "ligne": 157,
+  "ancien": "Une barrière\\npour bloquer le\\npassage.",
+  "preuve": "US 5A4CEC -> FR 5A934A (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "TEACH",
   "msgstr": "ENSEIGNER",
   "source": "Émeraude FR officiel",
@@ -3039,17 +4171,6 @@
   "methode": "ptr"
  },
  {
-  "msgid": "CHANGE",
-  "msgstr": "CHANGE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_actions.h",
-  "ligne": 118,
-  "ancien": "CHANGER",
-  "preuve": "EasyChat actions[19] US 59B0D6 -> FR 59F64F ; US 59B0D6 -> FR 59F64F (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
   "msgid": "MAKE",
   "msgstr": "FAIRE",
   "source": "Émeraude FR officiel",
@@ -3057,17 +4178,6 @@
   "ligne": 184,
   "ancien": "MAKE",
   "preuve": "EasyChat actions[30] US 59B11F -> FR 59F6A8 ; US 59B11F -> FR 59F6A8 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "REFUSE",
-  "msgstr": "REFUSE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_actions.h",
-  "ligne": 208,
-  "ancien": "REFUSER",
-  "preuve": "EasyChat actions[34] US 59B135 -> FR 59F6C7 ; US 59B135 -> FR 59F6C7 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
   "methode": "ptr"
  },
@@ -3138,17 +4248,6 @@
   "methode": "ptr"
  },
  {
-  "msgid": "GO",
-  "msgstr": "ALLEZ",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_battle.h",
-  "ligne": 10,
-  "ancien": "Allez",
-  "preuve": "EasyChat battle[1] US 598B45 -> FR 59CF3E ; US 598B45 -> FR 59CF3E (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
   "msgid": "TRUMP CARD",
   "msgstr": "AVANTAGE",
   "source": "Émeraude FR officiel",
@@ -3167,28 +4266,6 @@
   "ligne": 106,
   "ancien": "ALLEZ VIENS",
   "preuve": "EasyChat battle[17] US 598BC0 -> FR 59CFC2 ; US 598BC0 -> FR 59CFC2 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "SENSE",
-  "msgstr": "SENS",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_battle.h",
-  "ligne": 166,
-  "ancien": "SENSATION",
-  "preuve": "EasyChat battle[27] US 598C0D -> FR 59D013 ; US 598C0D -> FR 59D013 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "VERSUS",
-  "msgstr": "Contre",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_battle.h",
-  "ligne": 172,
-  "ancien": "CONTRE",
-  "preuve": "EasyChat battle[28] US 598C13 -> FR 59D018 ; US 598C13 -> FR 59D018 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
   "methode": "ptr"
  },
@@ -3259,28 +4336,6 @@
   "methode": "ptr"
  },
  {
-  "msgid": "DIFFERENT",
-  "msgstr": "DIFFERENT",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_conditions.h",
-  "ligne": 250,
-  "ancien": "DIFFÉRENT",
-  "preuve": "EasyChat conditions[41] US 59AC5D -> FR 59F19E ; US 59AC5D -> FR 59F19E (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "SKILL",
-  "msgstr": "HABILETE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_conditions.h",
-  "ligne": 262,
-  "ancien": "Habileté",
-  "preuve": "EasyChat conditions[43] US 59AC6D -> FR 59F1B0 ; US 59AC6D -> FR 59F1B0 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
   "msgid": "NOTHING",
   "msgstr": "RIEN",
   "source": "Émeraude FR officiel",
@@ -3336,28 +4391,6 @@
   "methode": "ptr"
  },
  {
-  "msgid": "IS IT?",
-  "msgstr": "D’ACCORD?",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_endings.h",
-  "ligne": 34,
-  "ancien": "D’Accord?",
-  "preuve": "EasyChat endings[5] US 59A17A -> FR 59E61E ; US 59A17A -> FR 59E61E (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "BE",
-  "msgstr": "ETRE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_endings.h",
-  "ligne": 40,
-  "ancien": "Etre",
-  "preuve": "EasyChat endings[6] US 59A181 -> FR 59E628 ; US 59A181 -> FR 59E628 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
   "msgid": "IS",
   "msgstr": "EST",
   "source": "Émeraude FR officiel",
@@ -3369,28 +4402,6 @@
   "methode": "ptr"
  },
  {
-  "msgid": "DO",
-  "msgstr": "JE PERDS",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_endings.h",
-  "ligne": 148,
-  "ancien": "Je Perds",
-  "preuve": "EasyChat endings[24] US 59A1E8 -> FR 59E692 ; US 59A1E8 -> FR 59E692 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "AN",
-  "msgstr": "UNE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_endings.h",
-  "ligne": 202,
-  "ancien": "Une",
-  "preuve": "EasyChat endings[33] US 59A219 -> FR 59E6D4 ; US 59A219 -> FR 59E6D4 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
   "msgid": "IT",
   "msgstr": "TU VEUX",
   "source": "Émeraude FR officiel",
@@ -3398,28 +4409,6 @@
   "ligne": 250,
   "ancien": "TOUR",
   "preuve": "EasyChat endings[41] US 59A23E -> FR 59E702 ; US 59A23E -> FR 59E702 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "AS",
-  "msgstr": "AS",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_endings.h",
-  "ligne": 280,
-  "ancien": "Donc",
-  "preuve": "US 57785D -> FR 57BBD5 (zone parallèle, décalage +17272) ; US 577BA9 -> FR 57BF21 (zone parallèle, décalage +17272) ; US 577F91 -> FR 57C309 (zone parallèle, décalage +17272)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot) ; autre(s) texte(s) FR minoritaire(s) : « DONC » (ptr+tidx+tm)",
-  "methode": "delta"
- },
- {
-  "msgid": "TO",
-  "msgstr": "TU FAIS",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_endings.h",
-  "ligne": 286,
-  "ancien": "Tu Fais",
-  "preuve": "EasyChat endings[47] US 59A253 -> FR 59E723 ; US 59A253 -> FR 59E723 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
   "methode": "ptr"
  },
@@ -3453,41 +4442,19 @@
   "ligne": 340,
   "ancien": "KET",
   "preuve": "EasyChat endings[56] US 59A281 -> FR 59E752 ; US 59A281 -> FR 59E752 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot) ; autre(s) texte(s) FR minoritaire(s) : « OUT » (delta)",
-  "methode": "ptr"
- },
- {
-  "msgid": "LIKE",
-  "msgstr": "J’Aimé",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_endings.h",
-  "ligne": 352,
-  "ancien": "J’AIME",
-  "preuve": "EasyChat endings[58] US 59A289 -> FR 59E760 ; US 59A289 -> FR 59E760 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "MC",
-  "msgstr": "ANIMATRICE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_events.h",
-  "ligne": 6,
-  "ancien": "Animatrice",
-  "preuve": "EasyChat events[5] US 59C6B1 -> FR 5A0D52 ; US 59C6B1 -> FR 5A0D52 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
   "methode": "ptr"
  },
  {
   "msgid": "EVOLUTION",
-  "msgstr": "EVOLUTION",
+  "msgstr": "EVOLUTIF",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/easy_chat/easy_chat_group_events.h",
   "ligne": 11,
   "ancien": "Evolution",
-  "preuve": "EasyChat events[10] US 59C6D3 -> FR 5A0D77 ; US 59C6D3 -> FR 5A0D77 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot) ; autre(s) texte(s) FR minoritaire(s) : « EVOLUTIF » (delta)",
-  "methode": "ptr"
+  "preuve": "US 56C650 -> FR 5719B4 (zone parallèle, décalage +21348)",
+  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
+  "methode": "delta"
  },
  {
   "msgid": "TOWER",
@@ -3530,17 +4497,6 @@
   "ligne": 10,
   "ancien": "Personne drôle",
   "preuve": "EasyChat feelings[9] US 59A64A -> FR 59EB3C ; US 59A64A -> FR 59EB3C (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "DISAPPOINTED",
-  "msgstr": "DECU",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_feelings.h",
-  "ligne": 13,
-  "ancien": "DEÇU",
-  "preuve": "EasyChat feelings[12] US 59A65C -> FR 59EB54 ; US 59A65C -> FR 59EB54 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
   "methode": "ptr"
  },
@@ -3611,17 +4567,6 @@
   "methode": "ptr"
  },
  {
-  "msgid": "SEE YA",
-  "msgstr": "A PLUS",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_greetings.h",
-  "ligne": 130,
-  "ancien": "A Plus",
-  "preuve": "EasyChat greetings[21] US 5990AF -> FR 59D4E3 ; US 5990AF -> FR 59D4E3 (séquence : 1 chaîne(s) après US 5990A8, 2 avant US 5990C0)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "tidx"
- },
- {
   "msgid": "EXCUSE ME",
   "msgstr": "MONTRE-MOI",
   "source": "Émeraude FR officiel",
@@ -3662,17 +4607,6 @@
   "ligne": 184,
   "ancien": "DINE",
   "preuve": "EasyChat greetings[30] US 5990F7 -> FR 59D52D ; US 5990F7 -> FR 59D52D (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "LISTENING",
-  "msgstr": "A PLUS!",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_greetings.h",
-  "ligne": 220,
-  "ancien": "A Plus!",
-  "preuve": "EasyChat greetings[36] US 599120 -> FR 59D55A ; US 599120 -> FR 59D55A (pointeur x1) ; table octets EN->FR (x1)",
   "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
   "methode": "ptr"
  },
@@ -3786,28 +4720,6 @@
   "methode": "ptr"
  },
  {
-  "msgid": "DESIGN",
-  "msgstr": "DESSIN",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_hobbies.h",
-  "ligne": 208,
-  "ancien": "DESSINER",
-  "preuve": "EasyChat hobbies[34] US 59BA4D -> FR 5A006D ; US 59BA4D -> FR 5A006D (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "PC",
-  "msgstr": "INFORMATIQUE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_hobbies.h",
-  "ligne": 226,
-  "ancien": "Informatique",
-  "preuve": "EasyChat hobbies[37] US 59BA6A -> FR 5A0089 ; US 59BA6A -> FR 5A0089 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
   "msgid": "FLOWERS",
   "msgstr": "JARDINAGE",
   "source": "Émeraude FR officiel",
@@ -3815,17 +4727,6 @@
   "ligne": 232,
   "ancien": "FLEURS",
   "preuve": "EasyChat hobbies[38] US 59BA6D -> FR 5A0096 ; US 59BA6D -> FR 5A0096 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "HEROINE",
-  "msgstr": "HEROINE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_hobbies.h",
-  "ligne": 250,
-  "ancien": "CHAMPIONNE",
-  "preuve": "EasyChat hobbies[41] US 59BA7E -> FR 5A00AD ; US 59BA7E -> FR 5A00AD (pointeur x1) ; table octets EN->FR (x1)",
   "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
   "methode": "ptr"
  },
@@ -3848,7 +4749,7 @@
   "ligne": 274,
   "ancien": "LL",
   "preuve": "EasyChat hobbies[45] US 59BA9E -> FR 5A00CA ; US 59BA9E -> FR 5A00CA (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot) ; autre(s) texte(s) FR minoritaire(s) : « BALLE » (delta) | « BALL » (delta)",
+  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot) ; table par index retenue ; autre(s) correspondance(s) : « BALLE » (delta) | « BALL » (delta)",
   "methode": "ptr"
  },
  {
@@ -3951,28 +4852,6 @@
   "methode": "ptr"
  },
  {
-  "msgid": "RADIO",
-  "msgstr": "Radio",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_lifestyle.h",
-  "ligne": 256,
-  "ancien": "RADIO",
-  "preuve": "EasyChat lifestyle[42] US 59B731 -> FR 59FD1E ; US 59B731 -> FR 59FD1E (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "UM",
-  "msgstr": "FACON",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_misc.h",
-  "ligne": 16,
-  "ancien": "Facon",
-  "preuve": "EasyChat misc[2] US 59C0BF -> FR 5A0723 ; US 59C0BF -> FR 5A0723 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
   "msgid": "BACK",
   "msgstr": "DERRIERE",
   "source": "Émeraude FR officiel",
@@ -3980,7 +4859,7 @@
   "ligne": 52,
   "ancien": "Retour",
   "preuve": "EasyChat misc[8] US 59C0E0 -> FR 5A0750 ; US 59C0E0 -> FR 5A0750 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot) ; autre(s) texte(s) FR minoritaire(s) : « BACK » (delta)",
+  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
   "methode": "ptr"
  },
  {
@@ -4014,17 +4893,6 @@
   "ancien": "AM",
   "preuve": "EasyChat misc[24] US 59C157 -> FR 5A07C4 ; US 59C157 -> FR 5A07C4 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "UP",
-  "msgstr": "SUR",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_misc.h",
-  "ligne": 166,
-  "ancien": "Sur",
-  "preuve": "EasyChat misc[27] US 59C169 -> FR 5A07DA ; US 59C169 -> FR 5A07DA (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot) ; autre(s) texte(s) FR minoritaire(s) : « UP » (delta)",
   "methode": "ptr"
  },
  {
@@ -4068,7 +4936,7 @@
   "ligne": 124,
   "ancien": "M",
   "preuve": "EasyChat people[20] US 5993C9 -> FR 59D7FE ; US 5993C9 -> FR 59D7FE (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot) ; autre(s) texte(s) FR minoritaire(s) : « ME » (delta)",
+  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot) ; table par index retenue ; autre(s) correspondance(s) : « ME » (delta)",
   "methode": "ptr"
  },
  {
@@ -4083,72 +4951,6 @@
   "methode": "ptr"
  },
  {
-  "msgid": "HE'S",
-  "msgstr": "IL EST",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
-  "ligne": 184,
-  "ancien": "Il est",
-  "preuve": "EasyChat people[30] US 5993FB -> FR 59D82B ; US 5993FB -> FR 59D82B (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "MR.",
-  "msgstr": "MONSIEUR",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
-  "ligne": 214,
-  "ancien": "Monsieur",
-  "preuve": "EasyChat people[35] US 59941D -> FR 59D846 ; US 59941D -> FR 59D846 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "MY",
-  "msgstr": "MON",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
-  "ligne": 244,
-  "ancien": "Mon",
-  "preuve": "EasyChat people[40] US 599439 -> FR 59D869 ; US 599439 -> FR 59D869 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot) ; autre(s) texte(s) FR minoritaire(s) : « MY » (delta)",
-  "methode": "ptr"
- },
- {
-  "msgid": "I AM",
-  "msgstr": "JE SUIS",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
-  "ligne": 250,
-  "ancien": "Je Suis",
-  "preuve": "EasyChat people[41] US 59943C -> FR 59D86D ; US 59943C -> FR 59D86D (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "IT'S",
-  "msgstr": "C’EST",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
-  "ligne": 298,
-  "ancien": "C’est",
-  "preuve": "EasyChat people[49] US 59946F -> FR 59D895 ; US 59946F -> FR 59D895 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "WE",
-  "msgstr": "NOUS",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
-  "ligne": 370,
-  "ancien": "Nous",
-  "preuve": "EasyChat people[61] US 5994BE -> FR 59D8E9 ; US 5994BE -> FR 59D8E9 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot) ; autre(s) texte(s) FR minoritaire(s) : « WE » (delta)",
-  "methode": "ptr"
- },
- {
   "msgid": "OUR",
   "msgstr": "NOTRE",
   "source": "Émeraude FR officiel",
@@ -4156,28 +4958,6 @@
   "ligne": 388,
   "ancien": " 4",
   "preuve": "EasyChat people[64] US 5994CC -> FR 59D8F5 ; US 5994CC -> FR 59D8F5 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "WE'RE",
-  "msgstr": "NOUS VOULONS",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
-  "ligne": 394,
-  "ancien": "Nous Voulons",
-  "preuve": "EasyChat people[65] US 5994D0 -> FR 59D8FB ; US 5994D0 -> FR 59D8FB (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "WE'VE",
-  "msgstr": "NOUS AVONS",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_people.h",
-  "ligne": 406,
-  "ancien": "Nous Avons",
-  "preuve": "EasyChat people[67] US 5994DC -> FR 59D90E ; US 5994DC -> FR 59D90E (pointeur x1) ; table octets EN->FR (x1)",
   "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
   "methode": "ptr"
  },
@@ -4204,28 +4984,6 @@
   "methode": "ptr"
  },
  {
-  "msgid": "JUST",
-  "msgstr": "JUSTE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_speech.h",
-  "ligne": 184,
-  "ancien": "Juste",
-  "preuve": "EasyChat speech[30] US 599DA4 -> FR 59E228 ; US 599DA4 -> FR 59E228 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot) ; nom(s) de personnage Hoenn gardé(s) en capitales d’Émeraude FR malgré le glossaire : JUSTE (glossaire : Juste)",
-  "methode": "ptr"
- },
- {
-  "msgid": "UNDERSTOOD",
-  "msgstr": "COMPRIS",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_speech.h",
-  "ligne": 214,
-  "ancien": "COMPRIS!",
-  "preuve": "EasyChat speech[35] US 599DCD -> FR 59E24B ; US 599DCD -> FR 59E24B (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
   "msgid": "READY",
   "msgstr": "PRET",
   "source": "Émeraude FR officiel",
@@ -4237,37 +4995,148 @@
   "methode": "ptr"
  },
  {
-  "msgid": "AS IF",
-  "msgstr": "COMME SI",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_speech.h",
-  "ligne": 298,
-  "ancien": "Comme Si",
-  "preuve": "EasyChat speech[49] US 599E3D -> FR 59E2CC ; US 599E3D -> FR 59E2CC (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "FIGHTING",
-  "msgstr": "Combat",
+  "msgid": "PSYCHIC",
+  "msgctxt": "src/data/easy_chat/easy_chat_group_status.h",
+  "msgstr": "Kinésiste",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/easy_chat/easy_chat_group_status.h",
-  "ligne": 100,
-  "ancien": "COMBAT",
-  "preuve": "EasyChat status[16] US 5982C1 -> FR 59C6BB ; US 5982C1 -> FR 59C6BB (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
+  "ligne": 88,
+  "ancien": "KINÉSISTE",
+  "preuve": "US 30FE4D -> FR 31797D (zone parallèle, décalage +31536)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta)",
+  "methode": "ctx"
  },
  {
-  "msgid": "{PK}RS",
-  "msgstr": "POKéRUS",
+  "msgid": "STURDY",
+  "msgctxt": "src/data/easy_chat/easy_chat_group_status.h",
+  "msgstr": "Fermeté",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/easy_chat/easy_chat_group_status.h",
-  "ligne": 538,
-  "ancien": "Pokérus",
-  "preuve": "EasyChat status[89] US 59856F -> FR 59C95B ; US 59856F -> FR 59C95B (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
+  "ligne": 160,
+  "ancien": "FERMETÉ",
+  "preuve": "EasyChat status[26] US 59831A -> FR 59C719 ; US 31B71C -> FR 32328F (zone parallèle, décalage +31603)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "GRASS",
+  "msgctxt": "src/data/easy_chat/easy_chat_group_status.h",
+  "msgstr": "Plante",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 172,
+  "ancien": "PLANTE",
+  "preuve": "EasyChat status[28] US 59832E -> FR 59C72A ; US 31AE8C -> FR 3229BC (pointeur x2)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "GHOST",
+  "msgctxt": "src/data/easy_chat/easy_chat_group_status.h",
+  "msgstr": "SPECTR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 190,
+  "ancien": "SPECTRE",
+  "preuve": "US 31AE69 -> FR 322999 (pointeur x2) ; table octets EN->FR (x2)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "GUTS",
+  "msgctxt": "src/data/easy_chat/easy_chat_group_status.h",
+  "msgstr": "Cran",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 202,
+  "ancien": "Cran",
+  "preuve": "EasyChat status[33] US 598351 -> FR 59C752 ; US 31BA01 -> FR 323574 (table de base US 31B6DB / FR 32324E, index +806, 14 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "SYNCHRONIZE",
+  "msgctxt": "src/data/easy_chat/easy_chat_group_status.h",
+  "msgstr": "Synchro",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 256,
+  "ancien": "SYNCHRO",
+  "preuve": "EasyChat status[42] US 5983A5 -> FR 59C7AB ; US 31B847 -> FR 3233BA (table de base US 31B6DB / FR 32324E, index +364, 15 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "TYPE",
+  "msgctxt": "src/data/easy_chat/easy_chat_group_status.h",
+  "msgstr": "TYPE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 304,
+  "ancien": "TYPE",
+  "preuve": "EasyChat status[50] US 5983F7 -> FR 59C7F8 ; US 5983F7 -> FR 59C7F8 (pointeur x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "DRAGON",
+  "msgctxt": "src/data/easy_chat/easy_chat_group_status.h",
+  "msgstr": "Dragon",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 376,
+  "ancien": "DRAGON",
+  "preuve": "EasyChat status[62] US 59846D -> FR 59C861 ; US 31AEA8 -> FR 3229D8 (pointeur x2)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "NORMAL",
+  "msgctxt": "src/data/easy_chat/easy_chat_group_status.h",
+  "msgstr": "Normal",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 418,
+  "ancien": "NORMAL",
+  "preuve": "EasyChat status[69] US 5984AB -> FR 59C896 ; US 31AE38 -> FR 322968 (pointeur x7)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "FLYING",
+  "msgctxt": "src/data/easy_chat/easy_chat_group_status.h",
+  "msgstr": "Vol",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 454,
+  "ancien": "VOL",
+  "preuve": "EasyChat status[75] US 5984DB -> FR 59C8C9 ; US 31AE46 -> FR 322976 (pointeur x2)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "DROUGHT",
+  "msgctxt": "src/data/easy_chat/easy_chat_group_status.h",
+  "msgstr": "Sécheresse",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 460,
+  "ancien": "Sécheresse",
+  "preuve": "EasyChat status[76] US 5984E2 -> FR 59C8CD ; US 31BA69 -> FR 3235DC (table de base US 31B6DB / FR 32324E, index +910, 14 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "FIRE",
+  "msgctxt": "src/data/easy_chat/easy_chat_group_status.h",
+  "msgstr": "Feu",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
+  "ligne": 544,
+  "ancien": "FEU",
+  "preuve": "EasyChat status[90] US 598573 -> FR 59C963 ; US 31AE7E -> FR 3229AE (pointeur x2)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
  },
  {
   "msgid": "MORNING",
@@ -4281,28 +5150,6 @@
   "methode": "ptr"
  },
  {
-  "msgid": "LATER",
-  "msgstr": "PLUS TARD",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_time.h",
-  "ligne": 100,
-  "ancien": "Plus TARD",
-  "preuve": "EasyChat time[16] US 59BDD2 -> FR 5A0412 ; US 59BDD2 -> FR 5A0412 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "EARLIER",
-  "msgstr": "PLUS TOT",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_time.h",
-  "ligne": 106,
-  "ancien": "Plus TOT",
-  "preuve": "EasyChat time[17] US 59BDD8 -> FR 5A041C ; US 59BDD8 -> FR 5A041C (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
   "msgid": "STOP",
   "msgstr": "STOP",
   "source": "Émeraude FR officiel",
@@ -4310,17 +5157,6 @@
   "ligne": 154,
   "ancien": "E",
   "preuve": "EasyChat time[25] US 59BE0F -> FR 5A0461 ; US 59BE0F -> FR 5A0461 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "AGE",
-  "msgstr": "AGE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_time.h",
-  "ligne": 178,
-  "ancien": "E",
-  "preuve": "EasyChat time[29] US 59BE23 -> FR 5A0480 ; US 59BE23 -> FR 5A0480 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
   "methode": "ptr"
  },
@@ -4347,15 +5183,16 @@
   "methode": "ptr"
  },
  {
-  "msgid": "NATURE",
-  "msgstr": "NATURE",
+  "msgid": "LEAF",
+  "msgctxt": "src/data/easy_chat/easy_chat_group_trainer.h",
+  "msgstr": "FEUILLE",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/easy_chat/easy_chat_group_trainer.h",
-  "ligne": 40,
-  "ancien": "Nature",
-  "preuve": "EasyChat trainer[6] US 598067 -> FR 59C44C ; US 598067 -> FR 59C44C (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
+  "ligne": 148,
+  "ancien": "FEUILLE",
+  "preuve": "EasyChat trainer[24] US 5980DA -> FR 59C4CA ; US 56C8B0 -> FR 571C14 (zone parallèle, décalage +21348)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
  },
  {
   "msgid": "YES, SIR!",
@@ -4413,17 +5250,6 @@
   "methode": "ptr"
  },
  {
-  "msgid": "UH-OH",
-  "msgstr": "HUM HUM",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_voices.h",
-  "ligne": 58,
-  "ancien": "Hum Hum",
-  "preuve": "EasyChat voices[9] US 5998AB -> FR 59DCE9 ; US 5998AB -> FR 59DCE9 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
   "msgid": "WROOOAAR!",
   "msgstr": "AHHHHH!",
   "source": "Émeraude FR officiel",
@@ -4453,28 +5279,6 @@
   "ligne": 136,
   "ancien": "OUIN",
   "preuve": "EasyChat voices[22] US 5998FC -> FR 59DD48 ; US 5998FC -> FR 59DD48 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "ptr"
- },
- {
-  "msgid": "EH?",
-  "msgstr": "QUOI?",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_voices.h",
-  "ligne": 148,
-  "ancien": "Quoi?",
-  "preuve": "EasyChat voices[24] US 599908 -> FR 59DD58 ; US 599908 -> FR 59DD58 (séquence : 1 chaîne(s) après US 599902, 2 avant US 599910)",
-  "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
-  "methode": "tidx"
- },
- {
-  "msgid": "OI, OI, OI",
-  "msgstr": "AIE AIE AIE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_voices.h",
-  "ligne": 166,
-  "ancien": "Aie Aie Aie",
-  "preuve": "EasyChat voices[27] US 599916 -> FR 59DD6E ; US 599916 -> FR 59DD6E (pointeur x1) ; table octets EN->FR (x1)",
   "note": "mot Easy Chat : mot FR officiel au même index EC_WORD (les listes FR/EN sont localisées, pas traduites mot à mot)",
   "methode": "ptr"
  },
@@ -4578,6 +5382,18 @@
   "methode": "approche"
  },
  {
+  "msgid": "IRON",
+  "msgctxt": "src/data/items.h",
+  "msgstr": "Fer",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 1439,
+  "ancien": "Fer",
+  "preuve": "US 56E510 -> FR 573874 (zone parallèle, décalage +21348) ; US 5844CC -> FR 588898 (zone parallèle, décalage +17356)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "Very large pearls\\nthat would sell at a\\nhigh price.",
   "msgstr": "Une perle magni-\\nfique. Peut être\\nvendue à bon prix.",
   "source": "Émeraude FR officiel (adapté)",
@@ -4587,6 +5403,65 @@
   "ligne": 2885,
   "ancien": "De grosses perles\\nqui peuvent être\\nvendues à bon prix.",
   "methode": "approche"
+ },
+ {
+  "msgid": "HELIX FOSSIL",
+  "msgctxt": "src/data/items.h",
+  "msgstr": "Nautile",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 3279,
+  "ancien": "Nautile",
+  "preuve": "US 5876FC -> FR 58BAC8 (zone parallèle, décalage +17356)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "DOME FOSSIL",
+  "msgctxt": "src/data/items.h",
+  "msgstr": "Fossile Dôme",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 3302,
+  "ancien": "Fossile Dôme",
+  "preuve": "US 587728 -> FR 58BAF4 (zone parallèle, décalage +17356)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "OLD AMBER",
+  "msgctxt": "src/data/items.h",
+  "msgstr": "Vieil Ambre",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 3325,
+  "ancien": "Vieil Ambre",
+  "preuve": "US 587678 -> FR 58BA44 (zone parallèle, décalage +17356)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "HARBOR MAIL",
+  "msgctxt": "src/data/items.h",
+  "msgstr": "LETTRE PORT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 3950,
+  "ancien": "LETTRE PORT",
+  "preuve": "US 584E98 -> FR 589264 (zone parallèle, décalage +17356)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "HARBOR MAIL",
+  "msgstr": "LETTRES PORT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 3950,
+  "ancien": "LETTRE PORT",
+  "preuve": "US 27ED59 -> FR 284849 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "plusieurs textes Émeraude FR pour le même anglais : « LETTRE PORT » (delta) ; même anglais, sens différents : texte Émeraude trouvé pour src/data/script_menu.h, pas pour src/data/items.h (msgctxt proposé)",
+  "methode": "ptr"
  },
  {
   "msgid": "A hold item that\\nraises the Atk and\\nSp. Atk of Pikachu.",
@@ -4655,6 +5530,54 @@
   "methode": "approche"
  },
  {
+  "msgid": "BLACK BELT",
+  "msgctxt": "src/data/items.h",
+  "msgstr": "Ceint.Noire",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 9040,
+  "ancien": "Ceint.Noire",
+  "preuve": "US 585D34 -> FR 58A100 (zone parallèle, décalage +17356)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "BLACK BELT",
+  "msgctxt": "src/data/items.h",
+  "msgstr": "Ceint.Noire",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 9040,
+  "ancien": "Ceint.Noire",
+  "preuve": "US 585D34 -> FR 58A100 (zone parallèle, décalage +17356)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "SITRUS BERRY",
+  "msgctxt": "src/data/items.h",
+  "msgstr": "Baie Sitrus",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 11147,
+  "ancien": "BAIE SITRUS",
+  "preuve": "US 585208 -> FR 5895D4 (zone parallèle, décalage +17356)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "ENIGMA BERRY",
+  "msgctxt": "src/data/items.h",
+  "msgstr": "Baie Enigma",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 12078,
+  "ancien": "Baie Enigma",
+  "preuve": "US 5857B4 -> FR 589B80 (zone parallèle, décalage +17356)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "A powdery attack\\nthat may raise\\nall abilities.",
   "msgstr": "Attaque poudreuse qui peut\\naugmenter les capacités.",
   "source": "Émeraude FR officiel (adapté)",
@@ -4675,6 +5598,18 @@
   "ligne": 13464,
   "ancien": "Rend l’ennemi confus\\nmais augmente\\nbeaucoup son Attaque.",
   "methode": "approche"
+ },
+ {
+  "msgid": "POKé FLUTE",
+  "msgctxt": "src/data/items.h",
+  "msgstr": "POKéFLUTE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/items.h",
+  "ligne": 14328,
+  "ancien": "Pokéflûte",
+  "preuve": "US 5875C8 -> FR 58B994 (zone parallèle, décalage +17356)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
  },
  {
   "msgid": "A hold item that\\nraises the power of\\nFairy-type moves.",
@@ -4733,6 +5668,18 @@
  },
  {
   "msgid": "A rampage of 2 to 3 turns\\nthat confuses the user.",
+  "msgctxt": "src/data/moves_info.h",
+  "msgstr": "Une attaque furieuse de 2 à\\n3 tours. Lanceur confus.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 1087,
+  "ancien": "Une attaque furieuse sur 2\\nà 3 tours. Lanceur confus.",
+  "preuve": "US 618847 -> FR 61CBE1 (pointeur x1) ; US 619059 -> FR 61D416 (pointeur x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "A rampage of 2 to 3 turns\\nthat confuses the user.",
   "msgstr": "Une attaque furieuse de 2 à\\n3 tours. Lanceur confus.",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/moves_info.h",
@@ -4776,15 +5723,16 @@
   "methode": "approche"
  },
  {
-  "msgid": "THUNDER",
-  "msgstr": "FOUDRE",
+  "msgid": "PSYCHIC",
+  "msgctxt": "src/data/moves_info.h",
+  "msgstr": "Psyko",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/moves_info.h",
-  "ligne": 2400,
-  "ancien": "Fatal-Foudre",
-  "preuve": "US 56D410 -> FR 572774 (zone parallèle, décalage +21348)",
-  "note": "plusieurs textes Émeraude FR pour le même anglais : « FATAL-FOUDRE » (table)",
-  "methode": "delta"
+  "ligne": 2584,
+  "ancien": "KINÉSISTE",
+  "preuve": "US 319C42 -> FR 321772 (zone parallèle, décalage +31536)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta)",
+  "methode": "ctx"
  },
  {
   "msgid": "Copies last move used by the\\nfoe during one battle.",
@@ -4798,6 +5746,30 @@
   "methode": "approche"
  },
  {
+  "msgid": "METRONOME",
+  "msgctxt": "src/data/moves_info.h",
+  "msgstr": "Métronome",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 3223,
+  "ancien": "Métronome",
+  "preuve": "US 319D7A -> FR 3218AA (zone parallèle, décalage +31536)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "Sludge is hurled to inflict\\ndamage. May also poison.",
+  "msgctxt": "src/data/moves_info.h",
+  "msgstr": "Blesse en envoyant des\\ndétritus. Peut empoisonner.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 3387,
+  "ancien": "Envoie des détritus pour\\nblesser. Peut empoisonner.",
+  "preuve": "US 6198AA -> FR 61DCA8 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "Sludge is hurled to inflict\\ndamage. May also poison.",
   "msgstr": "Blesse en envoyant des\\ndétritus. Peut empoisonner.",
   "source": "Émeraude FR officiel",
@@ -4807,6 +5779,30 @@
   "preuve": "US 6198AA -> FR 61DCA8 (pointeur x1) ; table octets EN->FR (x1)",
   "note": "plusieurs textes Émeraude FR pour le même anglais : « Envoie des détritus pour\\nblesser. Peut empoisonner. » (ptr+tm)",
   "methode": "ptr"
+ },
+ {
+  "msgid": "LEECH LIFE",
+  "msgctxt": "src/data/moves_info.h",
+  "msgstr": "Vampirisme",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 3841,
+  "ancien": "Vampirisme",
+  "preuve": "US 319EA5 -> FR 3219D5 (table de base US 319E57 / FR 321987, index +78, 15 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "Negates the foe's efforts\\nto heighten evasiveness.",
+  "msgctxt": "src/data/moves_info.h",
+  "msgstr": "Empêche l’ennemi\\nd’améliorer son esquive.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 5254,
+  "ancien": "Empêche l’ennemi\\nd’augmenter son esquive.",
+  "preuve": "US 61A611 -> FR 61E9F5 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "Negates the foe's efforts\\nto heighten evasiveness.",
@@ -4820,6 +5816,18 @@
   "methode": "ptr"
  },
  {
+  "msgid": "SANDSTORM",
+  "msgctxt": "src/data/moves_info.h",
+  "msgstr": "Tempêtesable",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 5467,
+  "ancien": "Tempêtesable",
+  "preuve": "US 31A1B1 -> FR 321CE1 (table de base US 319F00 / FR 321A30, index +689, 15 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "Confuses the foe, but also\\nsharply raises its Attack.",
   "msgstr": "Rend l’ennemi confus et\\nbooste l’ATTAQUE.",
   "source": "Émeraude FR officiel (adapté)",
@@ -4831,6 +5839,18 @@
   "methode": "approche"
  },
  {
+  "msgid": "RETURN",
+  "msgctxt": "src/data/moves_info.h",
+  "msgstr": "Retour",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/moves_info.h",
+  "ligne": 5871,
+  "ancien": "Retour",
+  "preuve": "US 31A274 -> FR 321DA4 (zone parallèle, décalage +31536)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "Makes the foe repeat its\\nlast move over 3 turns.",
   "msgstr": "Oblige l’ennemi à répéter sa\\ndernière action 2 à 6 tours.",
   "source": "Émeraude FR officiel (adapté)",
@@ -4840,17 +5860,6 @@
   "ligne": 6143,
   "ancien": "Oblige l’ennemi à répéter sa\\ndernière capacité 3 tours.",
   "methode": "approche"
- },
- {
-  "msgid": "MOONLIGHT",
-  "msgstr": "LUNE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/moves_info.h",
-  "ligne": 6387,
-  "ancien": "Rayon Lune",
-  "preuve": "US 56CE50 -> FR 5721B4 (zone parallèle, décalage +21348)",
-  "note": "plusieurs textes Émeraude FR pour le même anglais : « RAYON LUNE » (table)",
-  "methode": "delta"
  },
  {
   "msgid": "Exhales a hot breath on the\\nfoes. May inflict a burn.",
@@ -4895,17 +5904,6 @@
   "ligne": 7371,
   "ancien": "Imite la cible et copie\\nson talent.",
   "methode": "approche"
- },
- {
-  "msgid": "WISH",
-  "msgstr": "SOUHAIT",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/moves_info.h",
-  "ligne": 7396,
-  "ancien": "Voeu",
-  "preuve": "US 56E5D0 -> FR 573934 (zone parallèle, décalage +21348)",
-  "note": "plusieurs textes Émeraude FR pour le même anglais : « VOEU » (table)",
-  "methode": "delta"
  },
  {
   "msgid": "Blocks the foe's way and\\nprevents escape.",
@@ -4996,6 +5994,354 @@
   "methode": "ptr"
  },
  {
+  "msgid": "MEOWTH",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "MIAOUSS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 7455,
+  "ancien": "MIAOUSS",
+  "preuve": "US 318804 -> FR 320334 (zone parallèle, décalage +31536) ; US 628B7C -> FR 62CA90 (table de base US 6285E4 / FR 62C4F8, index +1432, 3 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "PONYTA",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "PONYTA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 10539,
+  "ancien": "PONYTA",
+  "preuve": "US 318917 -> FR 320447 (zone parallèle, décalage +31536)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "RAPIDASH",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "GALOPA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 10609,
+  "ancien": "GALOPA",
+  "preuve": "US 318922 -> FR 320452 (zone parallèle, décalage +31536) ; US 628848 -> FR 62C75C (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "SLOWPOKE",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "RAMOLOSS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 10840,
+  "ancien": "RAMOLOSS",
+  "preuve": "US 31892D -> FR 32045D (zone parallèle, décalage +31536)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "SLOWBRO",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "FLAGADOSS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 10916,
+  "ancien": "FLAGADOSS",
+  "preuve": "US 318938 -> FR 320468 (zone parallèle, décalage +31536) ; US 6270A0 -> FR 62AFB4 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "SLOWKING",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "ROIGADA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 10986,
+  "ancien": "ROIGADA",
+  "preuve": "US 318E55 -> FR 320985 (zone parallèle, décalage +31536) ; US 6291A4 -> FR 62D0B8 (table de base US 6285E4 / FR 62C4F8, index +3008, 9 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "FARFETCH'D",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "CANARTICHO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 11616,
+  "ancien": "CANARTICHO",
+  "preuve": "US 318959 -> FR 320489 (zone parallèle, décalage +31536)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "WEEZING",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "SMOGOGO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 15027,
+  "ancien": "SMOGOGO",
+  "preuve": "US 318A82 -> FR 3205B2 (zone parallèle, décalage +31536) ; US 626904 -> FR 62A818 (table de base US 626814 / FR 62A728, index +240, 8 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "MR. MIME",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "M. MIME",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 16691,
+  "ancien": "M. MIME",
+  "preuve": "US 318B06 -> FR 320636 (zone parallèle, décalage +31536) ; US 626E04 -> FR 62AD18 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "DITTO",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "METAMORPH",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 18707,
+  "ancien": "METAMORPH",
+  "preuve": "US 318B74 -> FR 3206A4 (zone parallèle, décalage +31536)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "EEVEE",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "EVOLI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 18786,
+  "ancien": "EVOLI",
+  "preuve": "US 318B7F -> FR 3206AF (zone parallèle, décalage +31536)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "VAPOREON",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "AQUALI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 19031,
+  "ancien": "AQUALI",
+  "preuve": "US 318B8A -> FR 3206BA (zone parallèle, décalage +31536) ; US 626FF0 -> FR 62AF04 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "JOLTEON",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "VOLTALI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 19099,
+  "ancien": "VOLTALI",
+  "preuve": "US 318B95 -> FR 3206C5 (zone parallèle, décalage +31536) ; US 629A38 -> FR 62D94C (table de base US 6294CC / FR 62D3E0, index +1388, 4 voisins)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "FLAREON",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "PYROLI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 19167,
+  "ancien": "PYROLI",
+  "preuve": "US 318BA0 -> FR 3206D0 (zone parallèle, décalage +31536) ; US 626A4C -> FR 62A960 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "ARTICUNO",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "ARTIKODIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 20485,
+  "ancien": "ARTIKODIN",
+  "preuve": "US 318BF8 -> FR 320728 (zone parallèle, décalage +31536) ; US 62939C -> FR 62D2B0 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "ZAPDOS",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "ELECTHOR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 20651,
+  "ancien": "ELECTHOR",
+  "preuve": "US 318C03 -> FR 320733 (zone parallèle, décalage +31536) ; US 629254 -> FR 62D168 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "MOLTRES",
+  "msgctxt": "src/data/pokemon/species_info/gen_1_families.h",
+  "msgstr": "SULFURA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_1_families.h",
+  "ligne": 20815,
+  "ancien": "SULFURA",
+  "preuve": "US 318C0E -> FR 32073E (zone parallèle, décalage +31536) ; US 628874 -> FR 62C788 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "CORSOLA",
+  "msgctxt": "src/data/pokemon/species_info/gen_2_families.h",
+  "msgstr": "CORAYON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_2_families.h",
+  "ligne": 6695,
+  "ancien": "CORAYON",
+  "preuve": "US 318F52 -> FR 320A82 (zone parallèle, décalage +31536) ; US 627934 -> FR 62B848 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "LINOONE",
+  "msgctxt": "src/data/pokemon/species_info/gen_3_families.h",
+  "msgstr": "LINEON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/pokemon/species_info/gen_3_families.h",
+  "ligne": 1197,
+  "ancien": "LINEON",
+  "preuve": "US 319233 -> FR 320D63 (zone parallèle, décalage +31536) ; US 6270CC -> FR 62AFE0 (zone parallèle, décalage +16148)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "POWER PLANT",
+  "msgctxt": "src/data/region_map/region_map_sections.json",
+  "msgstr": "Centrale",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/region_map/region_map_sections.json",
+  "ligne": 1176,
+  "ancien": "Centrale",
+  "preuve": "US 5A111F -> FR 5A57C6 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "ONE ISLAND",
+  "msgctxt": "src/data/region_map/region_map_sections.json",
+  "msgstr": "ILE 1",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/region_map/region_map_sections.json",
+  "ligne": 1185,
+  "ancien": "ILE 1",
+  "preuve": "US 5A112B -> FR 5A57CF (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "TWO ISLAND",
+  "msgctxt": "src/data/region_map/region_map_sections.json",
+  "msgstr": "ILE 2",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/region_map/region_map_sections.json",
+  "ligne": 1193,
+  "ancien": "ILE 2",
+  "preuve": "US 5A1136 -> FR 5A57D5 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "THREE ISLAND",
+  "msgctxt": "src/data/region_map/region_map_sections.json",
+  "msgstr": "ILE 3",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/region_map/region_map_sections.json",
+  "ligne": 1201,
+  "ancien": "ILE 3",
+  "preuve": "US 5A1141 -> FR 5A57DB (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "FOUR ISLAND",
+  "msgctxt": "src/data/region_map/region_map_sections.json",
+  "msgstr": "ILE 4",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/region_map/region_map_sections.json",
+  "ligne": 1209,
+  "ancien": "ILE 4",
+  "preuve": "US 5A114E -> FR 5A57E1 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "FIVE ISLAND",
+  "msgctxt": "src/data/region_map/region_map_sections.json",
+  "msgstr": "ILE 5",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/region_map/region_map_sections.json",
+  "ligne": 1217,
+  "ancien": "ILE 5",
+  "preuve": "US 5A115A -> FR 5A57E7 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "SEVEN ISLAND",
+  "msgctxt": "src/data/region_map/region_map_sections.json",
+  "msgstr": "ILE 7",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/region_map/region_map_sections.json",
+  "ligne": 1225,
+  "ancien": "ILE 7",
+  "preuve": "US 5A1166 -> FR 5A57ED (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "SIX ISLAND",
+  "msgctxt": "src/data/region_map/region_map_sections.json",
+  "msgstr": "ILE 6",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/region_map/region_map_sections.json",
+  "ligne": 1233,
+  "ancien": "ILE 6",
+  "preuve": "US 5A1173 -> FR 5A57F3 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "HARBOR MAIL",
+  "msgctxt": "src/data/script_menu.h",
+  "msgstr": "LETTRES PORT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 151,
+  "ancien": "LETTRE PORT",
+  "preuve": "US 27ED59 -> FR 284849 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "HARBOR MAIL",
+  "msgctxt": "src/data/script_menu.h",
+  "msgstr": "LETTRES PORT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 151,
+  "ancien": "LETTRE PORT",
+  "preuve": "US 27ED59 -> FR 284849 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "They will cost more.",
   "msgstr": "Oui",
   "source": "Émeraude FR officiel",
@@ -5052,6 +6398,18 @@
  },
  {
   "msgid": "MULTI BATTLE",
+  "msgctxt": "src/data/script_menu.h",
+  "msgstr": "Combat MULTI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/script_menu.h",
+  "ligne": 499,
+  "ancien": "COMBAT MULTI",
+  "preuve": "US 5EAE8A -> FR 5EF028 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "MULTI BATTLE",
   "msgstr": "Combat MULTI.",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/script_menu.h",
@@ -5071,6 +6429,18 @@
   "preuve": "US 623AC0 -> FR 6279B8 (pointeur x12) ; table octets EN->FR (x12)",
   "note": "nombres différents ([] / ['2'])",
   "methode": "ptr"
+ },
+ {
+  "msgid": "RIBBON awarded for",
+  "msgctxt": "src/data/text/gift_ribbon_descriptions.h",
+  "msgstr": "RUBAN pour récompenser",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/text/gift_ribbon_descriptions.h",
+  "ligne": 23,
+  "ancien": "RUBAN pour le triomphe",
+  "preuve": "US 623981 -> FR 62787C (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "RIBBON awarded for",
@@ -5195,6 +6565,53 @@
   "methode": "ptr"
  },
  {
+  "msgid": "TOUGH CONTEST",
+  "msgctxt": "src/data/text/ribbon_descriptions.h",
+  "msgstr": "CONCOURS DE ROBUS.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/text/ribbon_descriptions.h",
+  "ligne": 7,
+  "ancien": "CONCOURS DE ROBUSTESSE",
+  "preuve": "US 6238A0 -> FR 62778F (pointeur x4) ; table octets EN->FR (x4)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "TOUGH CONTEST",
+  "msgctxt": "src/data/text/ribbon_descriptions.h",
+  "msgstr": "CONCOURS DE ROBUS.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/text/ribbon_descriptions.h",
+  "ligne": 7,
+  "ancien": "CONCOURS DE ROBUSTESSE",
+  "preuve": "US 6238A0 -> FR 62778F (pointeur x4) ; table octets EN->FR (x4)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "TOUGH CONTEST",
+  "msgstr": "CONCOURS DE ROBUS.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/text/ribbon_descriptions.h",
+  "ligne": 7,
+  "ancien": "CONCOURS DE ROBUSTESSE",
+  "preuve": "US 6238A0 -> FR 62778F (pointeur x4) ; table octets EN->FR (x4)",
+  "note": "plusieurs textes Émeraude FR pour le même anglais : « CONCOURS DE ROBUSTESSE » (ptr+tm) ; même anglais, sens différents : texte Émeraude trouvé pour src/data/text/ribbon_descriptions.h, pas pour src/data/union_room.h (msgctxt proposé)",
+  "methode": "ptr"
+ },
+ {
+  "msgid": "RIBBON awarded for",
+  "msgctxt": "src/data/text/ribbon_descriptions.h",
+  "msgstr": "RUBAN pour récompenser",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/text/ribbon_descriptions.h",
+  "ligne": 18,
+  "ancien": "RUBAN pour le triomphe",
+  "preuve": "US 623981 -> FR 62787C (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
   "msgid": " MOVE",
   "msgstr": " CAPACITE",
   "source": "Émeraude FR officiel",
@@ -5237,6 +6654,18 @@
   "ligne": 55,
   "ancien": "{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}Votre ami(e) n’a pas\\nencore fini.",
   "methode": "approche"
+ },
+ {
+  "msgid": "DOTS",
+  "msgctxt": "src/data/trade.h",
+  "msgstr": "PIPIO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trade.h",
+  "ligne": 973,
+  "ancien": "DOTS",
+  "preuve": "US 338ED0 -> FR 340A54 (pointeur x4) ; sIngameTrades.nickname[0] US 338ED0 -> FR 340A54",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tidx+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "SKYLAR",
@@ -5797,17 +7226,6 @@
   "methode": "delta"
  },
  {
-  "msgid": "KEVIN",
-  "msgstr": "KEVIN",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/trainers.party",
-  "ligne": 3042,
-  "ancien": "Kevin",
-  "preuve": "US 311AEC -> FR 31961C (zone parallèle, décalage +31536) ; gTrainers[171] US 311AEC -> FR 31961C",
-  "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
-  "methode": "delta"
- },
- {
   "msgid": "JACK",
   "msgstr": "JACQUES",
   "source": "Émeraude FR officiel",
@@ -5876,6 +7294,17 @@
   "preuve": "US 311FC4 -> FR 319AF4 (zone parallèle, décalage +31536) ; gTrainers[202] US 311FC4 -> FR 319AF4",
   "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
   "methode": "delta"
+ },
+ {
+  "msgid": "BEAU",
+  "msgctxt": "src/data/trainers.party",
+  "msgstr": "YANIS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers.party",
+  "ligne": 3718,
+  "preuve": "US 312154 -> FR 319C84 (zone parallèle, décalage +31536) ; gTrainers[212] US 312154 -> FR 319C84",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
  },
  {
   "msgid": "LARRY",
@@ -6114,17 +7543,6 @@
   "fichier": "src/data/trainers.party",
   "ligne": 5260,
   "preuve": "US 312C1C -> FR 31A74C (zone parallèle, décalage +31536) ; gTrainers[281] US 312C1C -> FR 31A74C",
-  "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
-  "methode": "delta"
- },
- {
-  "msgid": "VICTORIA",
-  "msgstr": "VICTORIA",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/trainers.party",
-  "ligne": 5629,
-  "ancien": "Victoria",
-  "preuve": "US 312EEC -> FR 31AA1C (zone parallèle, décalage +31536) ; gTrainers[299] US 312EEC -> FR 31AA1C",
   "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
   "methode": "delta"
  },
@@ -6778,17 +8196,6 @@
   "methode": "delta"
  },
  {
-  "msgid": "JAMES",
-  "msgstr": "JAMES",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/trainers.party",
-  "ligne": 11358,
-  "ancien": "James",
-  "preuve": "US 31613C -> FR 31DC6C (zone parallèle, décalage +31536) ; US 316164 -> FR 31DC94 (zone parallèle, décalage +31536) ; US 31618C -> FR 31DCBC (zone parallèle, décalage +31536)",
-  "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
-  "methode": "delta"
- },
- {
   "msgid": "ALAN",
   "msgstr": "AL",
   "source": "Émeraude FR officiel",
@@ -6869,6 +8276,17 @@
   "methode": "delta"
  },
  {
+  "msgid": "BRYANT",
+  "msgctxt": "src/data/trainers.party",
+  "msgstr": "RAOUL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers.party",
+  "ligne": 13735,
+  "preuve": "US 3174C4 -> FR 31EFF4 (zone parallèle, décalage +31536) ; gTrainers[746] US 3174C4 -> FR 31EFF4",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "PAT",
   "msgstr": "PATHY",
   "source": "Émeraude FR officiel",
@@ -6930,14 +8348,124 @@
   "methode": "delta"
  },
  {
+  "msgid": "PAIGE",
+  "msgctxt": "src/data/trainers_frlg.party",
+  "msgstr": "MARINE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 663,
+  "preuve": "US 5D96BC -> FR 5DDBB8 (table de base US 5D5ACC / FR 5D9FC8, index +15344, 3 voisins) ; gBattleFrontierTrainers[295] US 5D96BC -> FR 5DDBB8",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "LIAM",
+  "msgctxt": "src/data/trainers_frlg.party",
+  "msgstr": "ELVIN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 917,
+  "preuve": "US 5D9314 -> FR 5DD810 (table de base US 5D5ACC / FR 5D9FC8, index +14408, 2 voisins) ; gBattleFrontierTrainers[277] US 5D9314 -> FR 5DD810",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "KELSEY",
+  "msgctxt": "src/data/trainers_frlg.party",
+  "msgstr": "ZORA",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 1092,
+  "preuve": "US 5D74D0 -> FR 5DB9CC (table de base US 5D5ACC / FR 5D9FC8, index +6660, 2 voisins) ; gBattleFrontierTrainers[128] US 5D74D0 -> FR 5DB9CC",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "AVERY",
+  "msgctxt": "src/data/trainers_frlg.party",
+  "msgstr": "EVAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 1526,
+  "preuve": "US 5D92E0 -> FR 5DD7DC (table de base US 5D5ACC / FR 5D9FC8, index +14356, 2 voisins) ; gBattleFrontierTrainers[276] US 5D92E0 -> FR 5DD7DC",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "RAUL",
+  "msgctxt": "src/data/trainers_frlg.party",
+  "msgstr": "JASON",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 3023,
+  "preuve": "US 5D8B5C -> FR 5DD058 (table de base US 5D5ACC / FR 5D9FC8, index +12432, 2 voisins) ; gBattleFrontierTrainers[239] US 5D8B5C -> FR 5DD058",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "BEAU",
+  "msgctxt": "src/data/trainers_frlg.party",
+  "msgstr": "YANIS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 4768,
+  "preuve": "US 312154 -> FR 319C84 (zone parallèle, décalage +31536) ; gTrainers[212] US 312154 -> FR 319C84",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (delta+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "TYLOR",
+  "msgctxt": "src/data/trainers_frlg.party",
+  "msgstr": "TITOUAN",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 10133,
+  "preuve": "US 5D7A80 -> FR 5DBF7C (table de base US 5D5ACC / FR 5D9FC8, index +8116, 2 voisins) ; gBattleFrontierTrainers[156] US 5D7A80 -> FR 5DBF7C",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "EVAN",
+  "msgctxt": "src/data/trainers_frlg.party",
+  "msgstr": "AKIM",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers_frlg.party",
+  "ligne": 10501,
+  "preuve": "US 5D71F8 -> FR 5DB6F4 (table de base US 5D5ACC / FR 5D9FC8, index +5932, 2 voisins) ; gBattleFrontierTrainers[114] US 5D71F8 -> FR 5DB6F4",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "RAYMOND",
+  "msgctxt": "src/data/trainers_hns.party",
+  "msgstr": "MOUNIR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 3275,
+  "preuve": "US 5D94B4 -> FR 5DD9B0 (table de base US 5D5ACC / FR 5D9FC8, index +14824, 2 voisins) ; gBattleFrontierTrainers[285] US 5D94B4 -> FR 5DD9B0",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (table+tidx)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "JAY",
   "msgstr": "JAY",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/trainers_hns.party",
   "ligne": 4364,
   "preuve": "US 316AA3 -> FR 31E5D3 (zone parallèle, décalage +31536) ; US 316ACB -> FR 31E5FB (zone parallèle, décalage +31536) ; US 316AF3 -> FR 31E623 (zone parallèle, décalage +31536)",
-  "note": "nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
+  "note": "nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/text/fame_checker_frlg.inc, src/battle_message.c, src/data/battle_frontier/battle_frontier_trainers.h) ; nom de table Émeraude aussi porté dans HnS par : src/data/trainers_hns.party (personnage Johto/Kanto : nom SoulSilver prioritaire)",
   "methode": "delta"
+ },
+ {
+  "msgid": "BRUNO",
+  "msgctxt": "src/data/trainers_hns.party",
+  "msgstr": "BRUNO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/trainers_hns.party",
+  "ligne": 8918,
+  "preuve": "US 610CF0 -> FR 615078 (zone parallèle, décalage +17288)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
  },
  {
   "msgid": "MIA",
@@ -6950,6 +8478,66 @@
   "methode": "delta"
  },
  {
+  "msgid": "FLYING",
+  "msgctxt": "src/data/types_info.h",
+  "msgstr": "Vol",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/types_info.h",
+  "ligne": 107,
+  "ancien": "VOL",
+  "preuve": "EasyChat status[75] US 5984DB -> FR 59C8C9 ; US 31AE46 -> FR 322976 (pointeur x2)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "GHOST",
+  "msgctxt": "src/data/types_info.h",
+  "msgstr": "SPECTR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/types_info.h",
+  "ligne": 217,
+  "ancien": "SPECTRE",
+  "preuve": "US 31AE69 -> FR 322999 (pointeur x2) ; table octets EN->FR (x2)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "FIRE",
+  "msgctxt": "src/data/types_info.h",
+  "msgstr": "Feu",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/types_info.h",
+  "ligne": 272,
+  "ancien": "FEU",
+  "preuve": "EasyChat status[90] US 598573 -> FR 59C963 ; US 31AE7E -> FR 3229AE (pointeur x2)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "GRASS",
+  "msgctxt": "src/data/types_info.h",
+  "msgstr": "Plante",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/types_info.h",
+  "ligne": 316,
+  "ancien": "PLANTE",
+  "preuve": "EasyChat status[28] US 59832E -> FR 59C72A ; US 31AE8C -> FR 3229BC (pointeur x2)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "DRAGON",
+  "msgctxt": "src/data/types_info.h",
+  "msgstr": "Dragon",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/types_info.h",
+  "ligne": 404,
+  "ancien": "DRAGON",
+  "preuve": "EasyChat status[62] US 59846D -> FR 59C861 ; US 31AEA8 -> FR 3229D8 (pointeur x2)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "For a DOUBLE BATTLE, you must have\\nat least two POKéMON.\\p",
   "msgstr": "Pour jouer en Combat Duo, il faut\\navoir au moins deux Pokémon.",
   "source": "Émeraude FR officiel",
@@ -6959,6 +8547,30 @@
   "ligne": 525,
   "ancien": "Pour un Combat Duo, vous devez avoir\\nau minimum deux Pokémon.",
   "methode": "approche"
+ },
+ {
+  "msgid": "MULTI BATTLE",
+  "msgctxt": "src/data/union_room.h",
+  "msgstr": "Combat MULTI.",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/union_room.h",
+  "ligne": 547,
+  "ancien": "COMBAT MULTI",
+  "preuve": "US 2EFDD0 -> FR 2F8CFC (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "TOUGH CONTEST",
+  "msgctxt": "src/data/union_room.h",
+  "msgstr": "CONCOURS DE ROBUSTESSE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/data/union_room.h",
+  "ligne": 563,
+  "ancien": "CONCOURS DE ROBUSTESSE",
+  "preuve": "US 2EFEB0 -> FR 2F8E04 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "KISS POSTER{CLEAR_TO 0x5E}16BP",
@@ -7511,6 +9123,37 @@
   "methode": "ptr"
  },
  {
+  "msgid": "SUNNY",
+  "msgstr": "SOLEIL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/field_weather.c",
+  "ligne": 1200,
+  "preuve": "US 5EFC49 -> FR 5F3FB4 (séquence : 2 chaîne(s) après US 5EFC27, 14 avant US 5EFCB5)",
+  "note": "même anglais, sens différents : texte Émeraude trouvé pour src/strings.c, pas pour src/field_weather.c (msgctxt proposé)",
+  "methode": "seq"
+ },
+ {
+  "msgid": "RAIN",
+  "msgstr": "PLUIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/field_weather.c",
+  "ligne": 1201,
+  "ancien": "Rain",
+  "preuve": "US 5EFC56 -> FR 5F3FC3 (séquence : 4 chaîne(s) après US 5EFC27, 12 avant US 5EFCB5)",
+  "note": "même anglais, sens différents : texte Émeraude trouvé pour src/strings.c, pas pour src/field_weather.c (msgctxt proposé)",
+  "methode": "seq"
+ },
+ {
+  "msgid": "FOG",
+  "msgstr": "Brouillard",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/field_weather.c",
+  "ligne": 1216,
+  "preuve": "US 5EFC6A -> FR 5F3FD6 (séquence : 7 chaîne(s) après US 5EFC27, 9 avant US 5EFCB5)",
+  "note": "même anglais, sens différents : texte Émeraude trouvé pour src/strings.c, pas pour src/field_weather.c (msgctxt proposé)",
+  "methode": "seq"
+ },
+ {
   "msgid": "There's nothing to sort!",
   "msgstr": "Il n’y a rien à COUPER.",
   "source": "Émeraude FR officiel (adapté)",
@@ -7520,6 +9163,76 @@
   "ligne": 297,
   "ancien": "Il n’y a rien à trier!",
   "methode": "approche"
+ },
+ {
+  "msgid": "LANETTE'S HOUSE",
+  "msgctxt": "src/landmark.c",
+  "msgstr": "MAISON D’ANNETTE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/landmark.c",
+  "ligne": 45,
+  "ancien": "MAISON D’ANNETTE",
+  "preuve": "US 1F2910 -> FR 1F396B (pointeur x1) ; US 5B8E17 -> FR 5BCEB0 (pointeur x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "BERRY MASTER'S HOUSE",
+  "msgctxt": "src/landmark.c",
+  "msgstr": "Maître DES Baies",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/landmark.c",
+  "ligne": 48,
+  "ancien": "MAISON Maître Baies",
+  "preuve": "US 5B8E49 -> FR 5BCEEE (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "HUNTER'S HOUSE",
+  "msgctxt": "src/landmark.c",
+  "msgstr": "CHERCHEUR DE TRESORS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/landmark.c",
+  "ligne": 55,
+  "ancien": "MAISON DU CHERCHEUR DE TRESORS",
+  "preuve": "US 5B8EB7 -> FR 5BCF5A (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "LR",
+  "msgstr": "LR",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/option_menu.c",
+  "ligne": 219,
+  "preuve": "US 5EE65A -> FR 5F28FB (zone parallèle, décalage +17057) ; US C89C28 -> FR C89C84 (zone parallèle, décalage +92)",
+  "note": "nom/libellé court : contexte Émeraude différent (fichiers HnS des textes voisins dans Émeraude US : data/maps/AkalaIsle_hns/scripts.inc, data/maps/GoldenrodCity_GameCorner_hns/scripts.inc, data/maps/MelemeleIsle_hns/scripts.inc)",
+  "methode": "delta"
+ },
+ {
+  "msgid": "RELAXED",
+  "msgctxt": "src/pokemon.c",
+  "msgstr": "RELAX",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokemon.c",
+  "ligne": 2647,
+  "ancien": "Relax",
+  "preuve": "US 61CADB -> FR 620ED6 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "{PKMN} PROF.",
+  "msgctxt": "src/pokenav_match_call_data.c",
+  "msgstr": "Prof.{PKMN}",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/pokenav_match_call_data.c",
+  "ligne": 226,
+  "ancien": "Prof.{PKMN}",
+  "preuve": "US 5EFBC9 -> FR 5F3F41 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
  },
  {
   "msgid": "Check the map of the JOHTO region",
@@ -7542,6 +9255,30 @@
   "ligne": 350,
   "ancien": "Retour au menu du Pokématos.",
   "methode": "approche"
+ },
+ {
+  "msgid": "POWER PLANT",
+  "msgctxt": "src/region_map.c",
+  "msgstr": "Centrale",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/region_map.c",
+  "ligne": 240,
+  "ancien": "Centrale",
+  "preuve": "US 5A111F -> FR 5A57C6 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "SELECT",
+  "msgctxt": "src/strings.c",
+  "msgstr": "SELECT",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 35,
+  "ancien": "SELECT",
+  "preuve": "US 5E8504 -> FR 5EC620 (zone parallèle, décalage +16668)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
  },
  {
   "msgid": "                       POKéMON",
@@ -7584,6 +9321,30 @@
   "ligne": 182,
   "ancien": "Mais le Parfum précédent\\nest toujours actif.{PAUSE_UNTIL_PRESS}",
   "methode": "approche"
+ },
+ {
+  "msgid": "ITEMS",
+  "msgctxt": "src/strings.c",
+  "msgstr": "OBJETS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 219,
+  "ancien": "OBJETS",
+  "preuve": "US 5E91CE -> FR 5ED32A (pointeur x1) ; US 5EB13C -> FR 5EF307 (pointeur x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "{STR_VAR_1}? Certainly.\\nHow many would you like?",
+  "msgctxt": "src/strings.c",
+  "msgstr": "{STR_VAR_2} de {STR_VAR_1}?\\nBien sûr. Combien en voulez-vous?",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 241,
+  "ancien": "{STR_VAR_1}? Bien sûr.\\nCombien en voulez-vous?",
+  "preuve": "US 5E9417 -> FR 5ED574 (pointeur x1) ; table octets EN->FR (x2)",
+  "note": "même anglais, sens différents : proposition avec msgctxt = fichier (ptr+tm)",
+  "methode": "ctx"
  },
  {
   "msgid": "{STR_VAR_1}? And you wanted {STR_VAR_2}?\\nThat will be {STR_VAR_3}BP.",
@@ -7674,6 +9435,30 @@
   "methode": "ptr"
  },
  {
+  "msgid": "DECORATE",
+  "msgctxt": "src/strings.c",
+  "msgstr": "DECORER",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 448,
+  "ancien": "DÉCORER",
+  "preuve": "US 5EA7B1 -> FR 5EE977 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "NORMAL",
+  "msgctxt": "src/strings.c",
+  "msgstr": "Normal",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 523,
+  "ancien": "NORMAL",
+  "preuve": "EasyChat status[69] US 5984AB -> FR 59C896 ; US 31AE38 -> FR 322968 (pointeur x7)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
   "msgid": "Your party's full!{PAUSE_UNTIL_PRESS}",
   "msgstr": "L’équipe est pleine!",
   "source": "Émeraude FR officiel (adapté)",
@@ -7694,5 +9479,75 @@
   "preuve": "table octets EN->FR (x1)",
   "note": "codes de contrôle différents de l’anglais",
   "methode": "tm"
+ },
+ {
+  "msgid": "SUNNY",
+  "msgctxt": "src/strings.c",
+  "msgstr": "SOLEIL",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1241,
+  "preuve": "US 5EFC49 -> FR 5F3FB4 (séquence : 2 chaîne(s) après US 5EFC27, 14 avant US 5EFCB5)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "RAIN",
+  "msgctxt": "src/strings.c",
+  "msgstr": "PLUIE",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1243,
+  "ancien": "Rain",
+  "preuve": "US 5EFC56 -> FR 5F3FC3 (séquence : 4 chaîne(s) après US 5EFC27, 12 avant US 5EFCB5)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "FOG",
+  "msgctxt": "src/strings.c",
+  "msgstr": "Brouillard",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/strings.c",
+  "ligne": 1246,
+  "preuve": "US 5EFC6A -> FR 5F3FD6 (séquence : 7 chaîne(s) après US 5EFC27, 9 avant US 5EFCB5)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "FARFETCH'D",
+  "msgctxt": "src/trainer_tower_sets.c",
+  "msgstr": "CANARTICHO",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/trainer_tower_sets.c",
+  "ligne": 383,
+  "ancien": "CANARTICHO",
+  "preuve": "US 318959 -> FR 320489 (zone parallèle, décalage +31536)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "EEVEE",
+  "msgctxt": "src/trainer_tower_sets.c",
+  "msgstr": "EVOLI",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/trainer_tower_sets.c",
+  "ligne": 3255,
+  "ancien": "EVOLI",
+  "preuve": "US 318B7F -> FR 3206AF (zone parallèle, décalage +31536)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
+ },
+ {
+  "msgid": "SLOWPOKE",
+  "msgctxt": "src/trainer_tower_sets.c",
+  "msgstr": "RAMOLOSS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/trainer_tower_sets.c",
+  "ligne": 6655,
+  "ancien": "RAMOLOSS",
+  "preuve": "US 31892D -> FR 32045D (zone parallèle, décalage +31536)",
+  "note": "même anglais, sens différents : proposition pour ce fichier seulement (msgctxt)",
+  "methode": "ctx"
  }
 ]

@@ -1,0 +1,1144 @@
+[
+ {
+  "msgid": "Congratulations! You beat our\\nfive contest TRAINERS!\\pYou just earned a fabulous prize!",
+  "msgstr": "Félicitations! Tu as battu nos cinq\\nDresseurs!\\pTu viens de gagner un prix fabuleux!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route24_Frlg/scripts.inc",
+  "ligne": 100,
+  "note": "Sbire Rocket déguisé, au bout du Pont Pépite. [Route24_EventScript_Rocket ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received a NUGGET\\nfrom the mystery TRAINER!",
+  "msgstr": "{PLAYER} reçoit une Pépite\\ndu Dresseur mystère!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route24_Frlg/scripts.inc",
+  "ligne": 105,
+  "note": "[Route24_EventScript_BattleRocket ; non compilé]"
+ },
+ {
+  "msgid": "You don't have any room!",
+  "msgstr": "Tu n’as pas de place!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route24_Frlg/scripts.inc",
+  "ligne": 109,
+  "note": "[Route24_EventScript_NoRoomForNugget ; non compilé]"
+ },
+ {
+  "msgid": "By the way, how would you like to\\njoin TEAM ROCKET?\\pWe're a group of professional\\ncriminals specializing in POKéMON!\\pWant to join?\\pAre you sure?\\pCome on, join us!\\pI'm telling you to join!\\p…Okay, you need convincing!\\pI'll make you an offer you can't\\nrefuse!",
+  "msgstr": "Au fait, ça te dirait d’entrer dans la\\nTeam Rocket?\\pNous sommes des criminels\\nprofessionnels spécialisés dans les\\lPokémon!\\pTu veux nous rejoindre?\\pTu es sûr?\\pAllez, rejoins-nous!\\pJe te dis de nous rejoindre!\\p… Bon, il faut te convaincre!\\pJe vais te faire une offre que tu ne\\npourras pas refuser!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route24_Frlg/scripts.inc",
+  "ligne": 112,
+  "note": "Sbire Rocket du Pont Pépite. [Route24_EventScript_BattleRocket ; non compilé]"
+ },
+ {
+  "msgid": "Arrgh!\\nYou are good!",
+  "msgstr": "Arrgh! T’es doué!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route24_Frlg/scripts.inc",
+  "ligne": 125,
+  "note": "[Route24_EventScript_BattleRocket (TRAINER_TEAM_ROCKET_GRUNT_6) ; non compilé]"
+ },
+ {
+  "msgid": "With your ability, you'd become\\na top leader in TEAM ROCKET.\\pCome on, think of the opportunity!\\nDon't let this chance go to waste.",
+  "msgstr": "Avec ton talent, tu deviendrais un\\ndes grands chefs de la Team Rocket.\\pAllez, pense à cette opportunité! Ne\\nlaisse pas passer ta chance.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route24_Frlg/scripts.inc",
+  "ligne": 129,
+  "note": "[Route24_EventScript_RocketPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "I saw your feat from the grass!",
+  "msgstr": "J’ai vu ton exploit depuis les herbes!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route24_Frlg/scripts.inc",
+  "ligne": 135,
+  "note": "Campeur Shane (caché dans l’herbe). [texte Route24_Text_ShaneIntro ; non compilé]"
+ },
+ {
+  "msgid": "I thought not!",
+  "msgstr": "J’en étais sûr!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route24_Frlg/scripts.inc",
+  "ligne": 138,
+  "note": "[texte Route24_Text_ShaneDefeat ; non compilé]"
+ },
+ {
+  "msgid": "I hid because the people on the\\nbridge frightened me.",
+  "msgstr": "Je me suis caché parce que les gens\\nsur le pont me faisaient peur.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route24_Frlg/scripts.inc",
+  "ligne": 141,
+  "note": "[texte Route24_Text_ShanePostBattle ; non compilé]"
+ },
+ {
+  "msgid": "Okay! I'm No. 5!\\nI'll stomp you!",
+  "msgstr": "OK! Je suis le numéro 5! Je vais\\nt’écraser!",
+  "source": "patch FR actuel (vérifié)",
+  "fichier": "data/maps/Route24_Frlg/scripts.inc",
+  "ligne": 145,
+  "preuve": "OK! Je suis le numéro 5.\\nJe vais t’écraser!",
+  "note": "Dresseur du Pont Pépite. Repris de Route25_hns (patch FR, sens vérifié). [texte Route24_Text_EthanIntro ; non compilé]"
+ },
+ {
+  "msgid": "People call this the NUGGET\\nBRIDGE!\\pBeat us five TRAINERS and win\\na fabulous prize!\\pThink you got what it takes?",
+  "msgstr": "On appelle ce pont le Pont Pépite!\\pBats-nous, nous les cinq Dresseurs,\\net gagne un prix fabuleux!\\pTu crois avoir ce qu’il faut?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route24_Frlg/scripts.inc",
+  "ligne": 187,
+  "note": "Premier Dresseur du Pont Pépite. NUGGET BRIDGE = Pont Pépite (Poképédia). [texte Route24_Text_CaleIntro ; non compilé]"
+ },
+ {
+  "msgid": "Local TRAINERS come here to\\npractice.",
+  "msgstr": "Les Dresseurs du coin viennent\\ns’entraîner ici.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 13,
+  "note": "Gamin Joey. [texte Route25_Text_JoeyIntro ; non compilé]"
+ },
+ {
+  "msgid": "You're decent.",
+  "msgstr": "T’es pas mal.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 17,
+  "note": "[texte Route25_Text_JoeyDefeat ; non compilé]"
+ },
+ {
+  "msgid": "All POKéMON have weaknesses.\\nEven the strongest ones.\\pThat's why it's best to raise\\nPOKéMON of different types.",
+  "msgstr": "Tous les Pokémon ont des faiblesses.\\nMême les plus forts.\\pC’est pour ça qu’il vaut mieux élever\\ndes Pokémon de types différents.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 20,
+  "note": "[texte Route25_Text_JoeyPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "Dad took me to a great party on\\nthe S.S. ANNE at VERMILION CITY.",
+  "msgstr": "Papa m’a emmené à une super fête sur\\nl’Océane, à Carmin sur Mer.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 26,
+  "note": "Gamin Dan. S.S. ANNE = l’Océane (Poképédia). [texte Route25_Text_DanIntro ; non compilé]"
+ },
+ {
+  "msgid": "I'm not mad!",
+  "msgstr": "Je ne suis pas fâché!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 30,
+  "note": "[texte Route25_Text_DanDefeat ; non compilé]"
+ },
+ {
+  "msgid": "On the S.S. ANNE, I saw TRAINERS\\nfrom around the world.",
+  "msgstr": "Sur l’Océane, j’ai vu des Dresseurs du\\nmonde entier.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 33,
+  "note": "[texte Route25_Text_DanPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "I'm a cool guy.\\nI've got a girlfriend!",
+  "msgstr": "Je suis un mec cool. J’ai une copine!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 37,
+  "note": "Campeur Flint. [texte Route25_Text_FlintIntro ; non compilé]"
+ },
+ {
+  "msgid": "Aww, darn…",
+  "msgstr": "Pfff, zut…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 41,
+  "note": "[texte Route25_Text_FlintDefeat ; non compilé]"
+ },
+ {
+  "msgid": "Oh, well.\\nMy girlfriend will cheer me up.",
+  "msgstr": "Bah, tant pis. Ma copine me remontera\\nle moral.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 44,
+  "note": "[texte Route25_Text_FlintPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "Hi!\\nMy boyfriend is cool!",
+  "msgstr": "Salut! Mon copain est trop cool!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 48,
+  "note": "Pique-Niqueuse Kelsey. [texte Route25_Text_KelseyIntro ; non compilé]"
+ },
+ {
+  "msgid": "My conditioning isn't the best…",
+  "msgstr": "Je ne suis pas au mieux de ma forme…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 52,
+  "note": "[texte Route25_Text_KelseyDefeat ; non compilé]"
+ },
+ {
+  "msgid": "I wish my boyfriend was as good\\nas you.",
+  "msgstr": "J’aimerais que mon copain soit aussi\\nfort que toi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 55,
+  "note": "[texte Route25_Text_KelseyPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "I had this feeling…\\nI knew I had to battle you!",
+  "msgstr": "J’avais un pressentiment… Je savais\\nque je devais t’affronter!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 59,
+  "note": "Gamin Chad. Aligné sur la revanche (trainers_frlg.inc). [texte Route25_Text_ChadIntro ; non compilé]"
+ },
+ {
+  "msgid": "I knew I'd lose, too!",
+  "msgstr": "Je savais aussi que j’allais perdre!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 63,
+  "note": "[texte Route25_Text_ChadDefeat ; non compilé]"
+ },
+ {
+  "msgid": "If your POKéMON gets confused,\\nswitch it out.\\pThat's a good tactic.",
+  "msgstr": "Si ton Pokémon est confus, change-le.\\pC’est une bonne tactique.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 66,
+  "note": "[texte Route25_Text_ChadPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "My friend has many cute POKéMON.\\nI'm so jealous!",
+  "msgstr": "Mon amie a plein de Pokémon mignons.\\nJe suis trop jalouse!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 71,
+  "note": "Fillette Haley. [texte Route25_Text_HaleyIntro ; non compilé]"
+ },
+ {
+  "msgid": "I'm not so jealous!",
+  "msgstr": "Je suis plus si jalouse!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 75,
+  "note": "[texte Route25_Text_HaleyDefeat ; non compilé]"
+ },
+ {
+  "msgid": "You came from MT. MOON?\\nMay I have a CLEFAIRY?",
+  "msgstr": "Tu viens du Mont Sélénite? Tu peux me\\ndonner un MELOFEE?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 78,
+  "note": "[texte Route25_Text_HaleyPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "I just got down from MT. MOON,\\nbut I've still got gas in the tank!",
+  "msgstr": "Je descends du Mont Sélénite, mais\\nj’ai encore de l’énergie à revendre!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 82,
+  "note": "Montagnard Franklin. [texte Route25_Text_FranklinIntro ; non compilé]"
+ },
+ {
+  "msgid": "You worked hard!",
+  "msgstr": "T’as bien bossé!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 86,
+  "note": "[texte Route25_Text_FranklinDefeat ; non compilé]"
+ },
+ {
+  "msgid": "Drat!\\nA ZUBAT bit me back in that cave.",
+  "msgstr": "Mince! Un NOSFERAPTI m’a mordu dans\\ncette grotte.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 89,
+  "note": "[texte Route25_Text_FranklinPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "I'm off to see a POKéMANIAC's\\ncollection at the cape.",
+  "msgstr": "Je vais voir la collection d’un\\nPokémaniac, au cap.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 93,
+  "note": "Montagnard Nob. [texte Route25_Text_NobIntro ; non compilé]"
+ },
+ {
+  "msgid": "You done got me, and real good,\\ntoo!",
+  "msgstr": "Tu m’as eu, et pas qu’un peu!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 97,
+  "note": "[texte Route25_Text_NobDefeat ; non compilé]"
+ },
+ {
+  "msgid": "The POKéMANIAC sure lives up to\\nhis name.\\pHis collection includes many rare\\nspecies of POKéMON.",
+  "msgstr": "Ce Pokémaniac porte bien son nom.\\pSa collection compte plein d’espèces\\nrares de Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 101,
+  "note": "[texte Route25_Text_NobPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "You're going to see BILL?\\nFirst, we battle!",
+  "msgstr": "Tu vas voir Léo? D’abord, on se bat!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 107,
+  "note": "Montagnard Wayne. Aligné sur la revanche. [texte Route25_Text_WayneIntro ; non compilé]"
+ },
+ {
+  "msgid": "You're something.",
+  "msgstr": "T’es quelqu’un, toi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 111,
+  "note": "[texte Route25_Text_WayneDefeat ; non compilé]"
+ },
+ {
+  "msgid": "The trail below is a shortcut to\\nCERULEAN CITY.",
+  "msgstr": "Le chemin en contrebas est un\\nraccourci vers Azuria.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 114,
+  "note": "[texte Route25_Text_WaynePostBattle ; non compilé]"
+ },
+ {
+  "msgid": "SEA COTTAGE\\nBILL lives here!",
+  "msgstr": "Villa du Cap\\nChez Léo!",
+  "source": "SoulSilver FR officiel (adapté)",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 118,
+  "preuve": "Villa du Cap\\nChez Léo",
+  "note": "Panneau. SEA COTTAGE = Villa du Cap (SoulSilver FR 363:15). [Route25_EventScript_SeaCottageSign ; non compilé]"
+ },
+ {
+  "msgid": "This cape is a famous date spot.\\pMISTY, the GYM LEADER, has high\\nhopes about this place.",
+  "msgstr": "Ce cap est connu pour ses\\nrendez-vous amoureux.\\pOndine, la Championne d’Arène, place\\nde grands espoirs en cet endroit.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 122,
+  "note": "Repris de la citation du Mémorydex déjà traduite (fame_checker_frlg.inc). [texte Route25_Text_MistyHighHopesAboutThisPlace ; non compilé]"
+ },
+ {
+  "msgid": "Hello, are you here alone?\\pIf you're out at CERULEAN's cape…\\nWell, it should be as a couple.",
+  "msgstr": "Bonjour, tu es venu seul?\\pSi on vient au cap d’Azuria… Eh bien,\\nc’est en couple.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_Frlg/scripts.inc",
+  "ligne": 127,
+  "note": "Femme. [Route25_EventScript_Man ; non compilé]"
+ },
+ {
+  "msgid": "Hiya! I'm a POKéMON…\\n…No I'm not!\\pCall me BILL!\\nI'm a true-blue POKéMANIAC!\\pHey!\\nWhat's with that skeptical look?\\pI'm not joshing you, pal.\\pI screwed up an experiment and got\\ncombined with a POKéMON!\\pSo, how about it?\\nHelp me out here!",
+  "msgstr": "Salut! Je suis un Pokémon… … Mais non!\\pAppelle-moi Léo! Je suis un vrai\\nPokémaniac!\\pHé! C’est quoi ce regard sceptique?\\pJe te fais pas marcher, mon vieux.\\pJ’ai raté une expérience et j’ai\\nfusionné avec un Pokémon!\\pAlors, qu’est-ce que t’en dis?\\nAide-moi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 299,
+  "note": "Léo transformé (joueur garçon). [Route25_SeaCottage_EventScript_BillAskForHelpMale ; non compilé]"
+ },
+ {
+  "msgid": "Hiya! I'm a POKéMON…\\n…No I'm not!\\pCall me BILL!\\nI'm a true-blue POKéMANIAC!\\pHey!\\nWhat's with that skeptical look?\\pI'm not joshing you, lady.\\pI screwed up an experiment and got\\ncombined with a POKéMON!\\pSo, how about it?\\nHelp me out here!",
+  "msgstr": "Salut! Je suis un Pokémon… … Mais non!\\pAppelle-moi Léo! Je suis un vrai\\nPokémaniac!\\pHé! C’est quoi ce regard sceptique?\\pJe te fais pas marcher, ma belle.\\pJ’ai raté une expérience et j’ai\\nfusionné avec un Pokémon!\\pAlors, qu’est-ce que t’en dis?\\nAide-moi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 312,
+  "note": "Léo transformé (joueuse fille). [Route25_SeaCottage_EventScript_BillAskForHelpFemale ; non compilé]"
+ },
+ {
+  "msgid": "Wait till I get inside the\\nTELEPORTER.\\pWhen I do, go to my PC and run\\nthe Cell Separation System.",
+  "msgstr": "Attends que je sois dans le\\nTéléporteur.\\pEnsuite, va sur mon PC et lance le\\nSystème de Séparation Cellulaire.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 325,
+  "note": "Léo. [Route25_SeaCottage_EventScript_BillAskForHelp ; non compilé]"
+ },
+ {
+  "msgid": "No!?\\nNow don't be so cold!\\pCome on, you gotta help a guy in\\ndeep, deep trouble!\\pWhat do you say, chief?\\nPlease?\\lOkay?\\lAll right!",
+  "msgstr": "Non?! Sois pas si froid!\\pAllez, il faut aider un pauvre gars\\ndans le pétrin!\\pQu’est-ce que t’en dis, mon vieux? S’il\\nte plaît? D’accord? Super!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 331,
+  "note": "Léo (joueur garçon). [Route25_SeaCottage_EventScript_DeclineHelpBillMale ; non compilé]"
+ },
+ {
+  "msgid": "No!?\\nNow don't be so cold!\\pCome on, you gotta help a guy in\\ndeep, deep trouble!\\pWhat do you say, beautiful?\\nPlease?\\lOkay?\\lAll right!",
+  "msgstr": "Non?! Sois pas si froide!\\pAllez, il faut aider un pauvre gars\\ndans le pétrin!\\pQu’est-ce que t’en dis, ma jolie? S’il\\nte plaît? D’accord? Super!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 341,
+  "note": "Léo (joueuse fille). [Route25_SeaCottage_EventScript_DeclineHelpBillFemale ; non compilé]"
+ },
+ {
+  "msgid": "BILL: Yeehah!\\nThanks, bud! I owe you one!\\pSo, did you come to see my\\nPOKéMON collection?\\pYou didn't?\\nThat's a bummer.\\pI've got to thank you…\\nOh, here, maybe this'll do.",
+  "msgstr": "Léo: Youpi! Merci, mon pote! Je te dois\\nune fière chandelle!\\pAlors, tu es venu voir ma collection de\\nPokémon?\\pNon? Dommage.\\pIl faut que je te remercie… Ah, tiens,\\nça devrait faire l’affaire.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 351,
+  "note": "Léo (joueur garçon). [Route25_SeaCottage_EventScript_BillThanksMale ; non compilé]"
+ },
+ {
+  "msgid": "BILL: Yeehah!\\nThanks, lady! I owe you one!\\pSo, did you come to see my\\nPOKéMON collection?\\pYou didn't?\\nThat's a bummer.\\pI've got to thank you…\\nOh, here, maybe this'll do.",
+  "msgstr": "Léo: Youpi! Merci, ma belle! Je te dois\\nune fière chandelle!\\pAlors, tu es venue voir ma collection\\nde Pokémon?\\pNon? Dommage.\\pIl faut que je te remercie… Ah, tiens,\\nça devrait faire l’affaire.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 361,
+  "note": "Léo (joueuse fille). [Route25_SeaCottage_EventScript_BillThanksFemale ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received an S.S. TICKET\\nfrom BILL.",
+  "msgstr": "{PLAYER} reçoit un Passe Bateau\\nde Léo!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 371,
+  "note": "S.S. TICKET = Passe Bateau. [Route25_SeaCottage_EventScript_BillGiveSSTicket ; non compilé]"
+ },
+ {
+  "msgid": "You've got too much stuff!",
+  "msgstr": "T’as trop de trucs sur toi!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 375,
+  "note": "[Route25_SeaCottage_EventScript_NoRoomForSSTicket ; non compilé]"
+ },
+ {
+  "msgid": "That cruise ship S.S. ANNE is in\\nVERMILION CITY.\\pI hear there are lots of TRAINERS\\non board, too.\\pThey invited me to their party, but\\nI can't stand fancy do's.\\pWhy don't you go instead of me?\\nGo on and have a good time.",
+  "msgstr": "Le bateau de croisière Océane est à\\nCarmin sur Mer.\\pIl paraît qu’il y a plein de Dresseurs\\nà bord.\\pIls m’ont invité à leur fête, mais je\\nsupporte pas les mondanités.\\pPourquoi tu n’irais pas à ma place?\\nVas-y, amuse-toi bien.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 378,
+  "note": "[Route25_SeaCottage_EventScript_BillGoToSSAnne ; non compilé]"
+ },
+ {
+  "msgid": "BILL: Feel like checking out some\\nof my rare POKéMON on my PC?\\pGo on, check out my PC.",
+  "msgstr": "Léo: Ça te dirait de voir quelques-uns\\nde mes Pokémon rares sur mon PC?\\pVas-y, regarde mon PC.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 388,
+  "note": "[Route25_SeaCottage_EventScript_BillGoLookAtPC ; non compilé]"
+ },
+ {
+  "msgid": "TELEPORTER is displayed on the PC\\nmonitor.",
+  "msgstr": "TÉLÉPORTEUR est affiché sur l’écran\\ndu PC.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 393,
+  "note": "[Route25_SeaCottage_EventScript_Computer ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} initiated the TELEPORTER's\\nCell Separator.",
+  "msgstr": "{PLAYER} lance le Séparateur\\nCellulaire du Téléporteur.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 397,
+  "note": "[Route25_SeaCottage_EventScript_RunCellSeparator ; non compilé]"
+ },
+ {
+  "msgid": "BILL's favorite POKéMON list!",
+  "msgstr": "Liste des Pokémon préférés de Léo!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 401,
+  "note": "[Route25_SeaCottage_EventScript_OpenBillsMonList ; non compilé]"
+ },
+ {
+  "msgid": "Which POKéMON do you want to see?",
+  "msgstr": "Quel Pokémon veux-tu voir?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route25_SeaCottage_Frlg/scripts.inc",
+  "ligne": 404,
+  "note": "[Route25_SeaCottage_EventScript_BillsMonList ; non compilé]"
+ },
+ {
+  "msgid": "Hi! Remember me?\\nI'm one of PROF. OAK's AIDES.\\pIf your POKéDEX has complete data\\non ten species, I'm supposed to\\lgive you a reward.\\pPROF. OAK entrusted me with\\nHM05 for you.\\pSo, {PLAYER}, let me ask you.\\pHave you gathered data on at least\\nten kinds of POKéMON?",
+  "msgstr": "Salut! Tu te souviens de moi? Je suis\\nl’un des assistants du Prof. Chen.\\pSi ton Pokédex a dix espèces, je dois\\nte récompenser.\\pLe Prof. Chen m’a confié la CS05 pour\\ntoi.\\pAlors, {PLAYER}, dis-moi.\\pAs-tu des données sur au moins dix\\nespèces de Pokémon?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route2_EastBuilding_Frlg/scripts.inc",
+  "ligne": 42,
+  "note": "Assistant du Prof. Chen. [Route2_EastBuilding_EventScript_Aide ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} received HM05\\nfrom the AIDE.",
+  "msgstr": "{PLAYER} reçoit la CS05\\nde l’assistant!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route2_EastBuilding_Frlg/scripts.inc",
+  "ligne": 60,
+  "note": "[Route2_EastBuilding_EventScript_Aide ; non compilé]"
+ },
+ {
+  "msgid": "HM05 contains the hidden move\\nFLASH.\\pFLASH lights up even the darkest\\nof caves and dungeons.",
+  "msgstr": "La CS05 contient la capacité spéciale\\nFlash.\\pFlash éclaire même les grottes et les\\nsouterrains les plus sombres.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route2_EastBuilding_Frlg/scripts.inc",
+  "ligne": 64,
+  "note": "[Route2_EastBuilding_EventScript_Aide ; non compilé]"
+ },
+ {
+  "msgid": "Once a POKéMON learns FLASH, you\\ncan get through ROCK TUNNEL.",
+  "msgstr": "Quand un Pokémon connaît Flash, on\\npeut traverser la Grotte.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route2_EastBuilding_Frlg/scripts.inc",
+  "ligne": 70,
+  "note": "[Route2_EastBuilding_EventScript_Rocker ; non compilé]"
+ },
+ {
+  "msgid": "ROUTE 2\\nVIRIDIAN CITY - PEWTER CITY",
+  "msgstr": "Route 2\\nJadielle - Argenta",
+  "source": "patch FR actuel (vérifié)",
+  "fichier": "data/maps/Route2_Frlg/scripts.inc",
+  "ligne": 13,
+  "preuve": "Route 2\\pJADIELLE - Argenta",
+  "note": "Panneau. Format de Route2_hns (patch FR), casse corrigée. [Route2_EventScript_RouteSign ; non compilé]"
+ },
+ {
+  "msgid": "A fainted POKéMON just has no\\nenergy left to battle.\\pIt can still use moves like CUT\\noutside of battle.",
+  "msgstr": "Un Pokémon K.O. n’a plus l’énergie de\\nse battre.\\pMais il peut quand même utiliser des\\ncapacités comme Coupe hors combat.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route2_House_Frlg/scripts.inc",
+  "ligne": 43,
+  "note": "[Route2_House_EventScript_Scientist ; non compilé]"
+ },
+ {
+  "msgid": "Many POKéMON live only in forests \\nand caves.\\pYou need to be persistent and look\\neverywhere to get different kinds.",
+  "msgstr": "Beaucoup de Pokémon ne vivent que\\ndans les forêts et les grottes.\\pPour trouver des espèces variées, il\\nfaut chercher partout.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route2_ViridianForest_NorthEntrance_Frlg/scripts.inc",
+  "ligne": 17,
+  "note": "[Route2_ViridianForest_NorthEntrance_EventScript_Youngster ; non compilé]"
+ },
+ {
+  "msgid": "Have you noticed the skinny trees\\non the roadside?\\pThey can be cut down by a special\\nPOKéMON move, I hear.",
+  "msgstr": "Tu as remarqué les petits arbres\\nfrêles au bord de la route?\\pIl paraît qu’on peut les couper avec\\nune capacité spéciale de Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route2_ViridianForest_NorthEntrance_Frlg/scripts.inc",
+  "ligne": 23,
+  "note": "[Route2_ViridianForest_NorthEntrance_EventScript_OldMan ; non compilé]"
+ },
+ {
+  "msgid": "Do you know the evolution-cancel\\ntechnique?\\pWhen a POKéMON is evolving, you\\ncan stop the process.\\pIt's a technique for raising\\nPOKéMON the way they are.",
+  "msgstr": "Tu connais la technique pour annuler\\nl’évolution?\\pQuand un Pokémon évolue, tu peux\\ninterrompre le processus.\\pC’est une technique pour garder les\\nPokémon tels qu’ils sont.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route2_ViridianForest_NorthEntrance_Frlg/scripts.inc",
+  "ligne": 29,
+  "note": "Appuyer sur B pendant l’évolution. [Route2_ViridianForest_NorthEntrance_EventScript_CooltrainerF ; non compilé]"
+ },
+ {
+  "msgid": "Are you going to VIRIDIAN FOREST?\\nIt's a natural maze in there.\\lBe careful you don't get lost.",
+  "msgstr": "Tu vas dans la Forêt de Jade? C’est un\\nvrai labyrinthe naturel.\\pFais attention à ne pas te perdre.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route2_ViridianForest_SouthEntrance_Frlg/scripts.inc",
+  "ligne": 13,
+  "note": "[Route2_ViridianForest_SouthEntrance_EventScript_Woman1 ; non compilé]"
+ },
+ {
+  "msgid": "RATTATA may be small, but don't\\nunderestimate its wicked bite.\\pHave you caught one already?",
+  "msgstr": "Le RATTATA est petit, mais ne\\nsous-estime pas sa morsure.\\pTu en as déjà attrapé un?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route2_ViridianForest_SouthEntrance_Frlg/scripts.inc",
+  "ligne": 18,
+  "note": "[Route2_ViridianForest_SouthEntrance_EventScript_Woman2 ; non compilé]"
+ },
+ {
+  "msgid": "Whew… I better take a rest…\\nGroan…\\pThat tunnel from CERULEAN takes a\\nlot out of you!",
+  "msgstr": "Ouf… Je ferais mieux de me reposer…\\nPff…\\pCe tunnel depuis Azuria, ça épuise!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 13,
+  "note": "Homme épuisé. [Route3_EventScript_Youngster ; non compilé]"
+ },
+ {
+  "msgid": "Hey!\\nI saw you in VIRIDIAN FOREST!",
+  "msgstr": "Hé! Je t’ai vu dans la Forêt de Jade!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 19,
+  "note": "Scout Colton. [texte Route3_Text_ColtonIntro ; non compilé]"
+ },
+ {
+  "msgid": "You beat me again!",
+  "msgstr": "Tu m’as encore battu!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 23,
+  "note": "[texte Route3_Text_ColtonDefeat ; non compilé]"
+ },
+ {
+  "msgid": "There are other kinds of POKéMON\\nthan the ones you find in forests.",
+  "msgstr": "Il existe d’autres Pokémon que ceux\\nqu’on trouve en forêt.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 26,
+  "note": "[texte Route3_Text_ColtonPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "Hi!\\nI like shorts!\\pThey're delightfully comfy and\\neasy to wear!",
+  "msgstr": "Salut! J’adore les shorts!\\pIls sont super confortables et\\nfaciles à porter!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 30,
+  "note": "Gamin Ben (le gamin au short). [texte Route3_Text_BenIntro ; non compilé]"
+ },
+ {
+  "msgid": "I don't believe it!",
+  "msgstr": "J’y crois pas!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 36,
+  "note": "[texte Route3_Text_BenDefeat ; non compilé]"
+ },
+ {
+  "msgid": "Are you using a POKéMON CENTER's\\nPC for storing your POKéMON?\\pEach BOX can hold up to\\n30 POKéMON.",
+  "msgstr": "Tu utilises le PC des Centres Pokémon\\npour stocker tes Pokémon?\\pChaque Boîte peut contenir jusqu’à\\n30 Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 39,
+  "note": "BOX = Boîte. [texte Route3_Text_BenPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "Excuse me!\\nYou looked at me, didn't you?",
+  "msgstr": "Excuse-moi! Tu m’as regardée, hein?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 45,
+  "note": "Fillette Janice. Aligné sur la revanche. [texte Route3_Text_JaniceIntro ; non compilé]"
+ },
+ {
+  "msgid": "You're mean!",
+  "msgstr": "T’es méchant!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 49,
+  "note": "[texte Route3_Text_JaniceDefeat ; non compilé]"
+ },
+ {
+  "msgid": "You shouldn't be staring if you\\ndon't want to battle!",
+  "msgstr": "Il ne fallait pas me fixer si tu ne\\nvoulais pas te battre!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 52,
+  "note": "[texte Route3_Text_JanicePostBattle ; non compilé]"
+ },
+ {
+  "msgid": "Are you a TRAINER?\\nLet's get with it right away!",
+  "msgstr": "Tu es Dresseur? Allons-y tout de\\nsuite!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 56,
+  "note": "Scout Greg. [texte Route3_Text_GregIntro ; non compilé]"
+ },
+ {
+  "msgid": "If I had new POKéMON, I would've\\nwon!",
+  "msgstr": "Si j’avais eu de nouveaux Pokémon,\\nj’aurais gagné!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 60,
+  "note": "[texte Route3_Text_GregDefeat ; non compilé]"
+ },
+ {
+  "msgid": "If a POKéMON BOX on the PC gets\\nfull, just switch to another BOX.",
+  "msgstr": "Si une Boîte Pokémon du PC est pleine,\\npasse simplement à une autre Boîte.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 64,
+  "note": "[texte Route3_Text_GregPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "That look you gave me…\\nIt's so intriguing!",
+  "msgstr": "Ce regard que tu m’as lancé… Il\\nm’intrigue tellement!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 68,
+  "note": "Fillette Sally. [texte Route3_Text_SallyIntro ; non compilé]"
+ },
+ {
+  "msgid": "Be nice!",
+  "msgstr": "Sois gentil!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 72,
+  "note": "[texte Route3_Text_SallyDefeat ; non compilé]"
+ },
+ {
+  "msgid": "You can avoid battles by not\\nletting TRAINERS see you.",
+  "msgstr": "Tu peux éviter les combats en ne te\\nfaisant pas voir des Dresseurs.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 75,
+  "note": "[texte Route3_Text_SallyPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "Hey! You're not wearing shorts!\\nWhat's wrong with you?",
+  "msgstr": "Hé! Tu ne portes pas de short!\\nQu’est-ce qui ne va pas chez toi?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 79,
+  "note": "Gamin Calvin. [texte Route3_Text_CalvinIntro ; non compilé]"
+ },
+ {
+  "msgid": "Lost!\\nLost! Lost!",
+  "msgstr": "Perdu! Perdu! Perdu!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 83,
+  "note": "[texte Route3_Text_CalvinDefeat ; non compilé]"
+ },
+ {
+  "msgid": "I always wear shorts, even in\\nwinter. That's my policy.",
+  "msgstr": "Je porte toujours un short, même en\\nhiver. C’est ma règle.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 87,
+  "note": "[texte Route3_Text_CalvinPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "I'll battle you with the POKéMON\\nI just caught.",
+  "msgstr": "Je vais t’affronter avec les Pokémon\\nque je viens d’attraper.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 91,
+  "note": "Scout James. [texte Route3_Text_JamesIntro ; non compilé]"
+ },
+ {
+  "msgid": "Done like dinner!",
+  "msgstr": "Je suis cuit!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 95,
+  "note": "[texte Route3_Text_JamesDefeat ; non compilé]"
+ },
+ {
+  "msgid": "Trained POKéMON are stronger than\\nthe wild ones.",
+  "msgstr": "Les Pokémon dressés sont plus forts\\nque les sauvages.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 98,
+  "note": "[texte Route3_Text_JamesPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "Eek!\\nDid you touch me?",
+  "msgstr": "Hiii! Tu m’as touchée?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 102,
+  "note": "Fillette Robin. [texte Route3_Text_RobinIntro ; non compilé]"
+ },
+ {
+  "msgid": "That's it?",
+  "msgstr": "C’est tout?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 106,
+  "note": "[texte Route3_Text_RobinDefeat ; non compilé]"
+ },
+ {
+  "msgid": "ROUTE 4 is at the foot of\\nMT. MOON.",
+  "msgstr": "La Route 4 se trouve au pied du Mont\\nSélénite.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 109,
+  "note": "[texte Route3_Text_RobinPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "ROUTE 3\\nMT. MOON AHEAD",
+  "msgstr": "Route 3\\nMont Sélénite droit devant",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route3_Frlg/scripts.inc",
+  "ligne": 113,
+  "note": "Panneau. [Route3_EventScript_RouteSign ; non compilé]"
+ },
+ {
+  "msgid": "Ouch! I tripped over a rocky\\nPOKéMON, GEODUDE!",
+  "msgstr": "Aïe! J’ai trébuché sur un Pokémon\\nrocheux, RACAILLOU!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 20,
+  "note": "Homme. [Route4_EventScript_Woman ; non compilé]"
+ },
+ {
+  "msgid": "I came to MT. MOON in search of\\nmushroom POKéMON.",
+  "msgstr": "Je suis venue au Mont Sélénite\\nchercher des Pokémon champignons.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 24,
+  "note": "Fillette Crissy. [texte Route4_Text_CrissyIntro ; non compilé]"
+ },
+ {
+  "msgid": "After all I did to catch them!",
+  "msgstr": "J’ai eu tant de mal à les attraper!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 28,
+  "note": "[texte Route4_Text_CrissyDefeat ; non compilé]"
+ },
+ {
+  "msgid": "There might not be any more\\nmushrooms here.\\pI think I got them all.",
+  "msgstr": "Il n’y a peut-être plus de\\nchampignons ici.\\pJe crois que je les ai tous pris.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 31,
+  "note": "[texte Route4_Text_CrissyPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "MT. MOON\\nTunnel Entrance",
+  "msgstr": "Mont Sélénite\\nEntrée du tunnel",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 36,
+  "note": "Panneau. [Route4_EventScript_MtMoonSign ; non compilé]"
+ },
+ {
+  "msgid": "ROUTE 4\\nMT. MOON - CERULEAN CITY",
+  "msgstr": "Route 4\\nMont Sélénite - Azuria",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 40,
+  "note": "Panneau. [Route4_EventScript_RouteSign ; non compilé]"
+ },
+ {
+  "msgid": "A punch of roaring ferocity!\\pPacked with destructive power!\\pWhen the chips are down,\\nMEGA PUNCH is the ultimate attack!\\lYou agree, yes?\\pNow!\\nLet me teach it to your POKéMON!",
+  "msgstr": "Un coup de poing d’une férocité\\nrugissante!\\pPlein de puissance destructrice!\\pQuand ça va mal, Ultimapoing est\\nl’attaque ultime!\\pTu es d’accord, hein?\\pAllez! Laisse-moi l’apprendre à ton\\nPokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 44,
+  "note": "Maître des capacités (Ultimapoing), Mont Sélénite. [texte Text_MegaPunchTeach ; non compilé]"
+ },
+ {
+  "msgid": "You'll be back when you understand\\nthe worth of MEGA PUNCH.",
+  "msgstr": "Tu reviendras quand tu auras compris\\nla valeur d’Ultimapoing.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 53,
+  "note": "[texte Text_MegaPunchDeclined ; non compilé]"
+ },
+ {
+  "msgid": "Fine!\\nWhich POKéMON will learn it?",
+  "msgstr": "Très bien! Quel Pokémon va\\nl’apprendre?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 57,
+  "note": "[texte Text_MegaPunchWhichMon ; non compilé]"
+ },
+ {
+  "msgid": "Now, we are comrades in the way of\\npunching!\\pYou should go before you're seen\\nby the misguided fool who trains\\lonly his silly kicking over there.",
+  "msgstr": "Maintenant, nous sommes camarades\\nsur la voie du poing!\\pTu devrais partir avant que ne te voie\\ncet idiot égaré qui ne s’entraîne qu’à\\lses coups de pied ridicules, là-bas.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 61,
+  "note": "[texte Text_MegaPunchTaught ; non compilé]"
+ },
+ {
+  "msgid": "A kick of brutal ferocity!\\pPacked with destructive power!\\pWhen you get right down to it,\\nMEGA KICK is the ultimate attack!\\lDon't you agree?\\pOkay!\\nI'll teach it to your POKéMON!",
+  "msgstr": "Un coup de pied d’une férocité\\nbrutale!\\pPlein de puissance destructrice!\\pAu fond, Ultimawashi est l’attaque\\nultime! Tu n’es pas d’accord?\\pOK! Je vais l’apprendre à ton Pokémon!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 68,
+  "note": "Maître des capacités (Ultimawashi), Mont Sélénite. [texte Text_MegaKickTeach ; non compilé]"
+ },
+ {
+  "msgid": "You'll come crawling back when you\\nrealize the value of MEGA KICK.",
+  "msgstr": "Tu reviendras en rampant quand tu\\nauras compris la valeur d’Ultimawashi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 77,
+  "note": "[texte Text_MegaKickDeclined ; non compilé]"
+ },
+ {
+  "msgid": "All right!\\nWhich POKéMON wants to learn it?",
+  "msgstr": "Parfait! Quel Pokémon veut\\nl’apprendre?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 81,
+  "note": "[texte Text_MegaKickWhichMon ; non compilé]"
+ },
+ {
+  "msgid": "Now, we are soul mates in the way\\nof kicking!\\pYou should run before you're seen\\nby the deluded nitwit who trains\\lonly simple punching over there.",
+  "msgstr": "Maintenant, nous sommes frères d’âme\\nsur la voie du pied!\\pTu devrais filer avant que ne te voie\\nce nigaud qui ne s’entraîne qu’à ses\\lsimples coups de poing, là-bas.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 85,
+  "note": "[texte Text_MegaKickTaught ; non compilé]"
+ },
+ {
+  "msgid": "Oh, wow, that's the BOULDERBADGE!\\nYou got it from BROCK, didn't you?\\pBROCK is cool. He's not just tough.\\nPeople like and respect him.\\pI want to become a GYM LEADER\\nlike him.",
+  "msgstr": "Oh, waouh, c’est le Badge Roche! Tu\\nl’as eu de Pierre, hein?\\pPierre est trop cool. Il n’est pas\\njuste fort.\\pTout le monde l’aime et le respecte.\\pJe veux devenir Champion d’Arène\\ncomme lui.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_Frlg/scripts.inc",
+  "ligne": 92,
+  "note": "Aligné sur la citation du Mémorydex déjà traduite (fame_checker_frlg.inc). [texte Route4_Text_PeopleLikeAndRespectBrock ; non compilé]"
+ },
+ {
+  "msgid": "Okay, set six POKé BALLS in my\\nbelt…\\pYeah, that'll do it. At most, you\\ncan have six POKéMON with you.",
+  "msgstr": "Bon, je mets six Poké Balls à ma\\nceinture…\\pOuais, ça ira. On ne peut avoir que six\\nPokémon sur soi au maximum.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 152,
+  "note": "Homme du Centre Pokémon. [Route4_PokemonCenter_1F_EventScript_Boy ; non compilé]"
+ },
+ {
+  "msgid": "TEAM ROCKET attacks CERULEAN\\ncitizens…\\pNot a day goes by without TEAM\\nROCKET being in the news.",
+  "msgstr": "La Team Rocket attaque les habitants\\nd’Azuria…\\pPas un jour ne passe sans qu’on parle\\nde la Team Rocket aux infos.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 158,
+  "note": "[Route4_PokemonCenter_1F_EventScript_Gentleman ; non compilé]"
+ },
+ {
+  "msgid": "MAN: Hello there, laddie!\\nHave I got a deal just for you!\\pI'll let you have a secret POKéMON\\n- a MAGIKARP - for just ¥500!\\pSo, you'll buy it, am I right?",
+  "msgstr": "Homme: Bonjour, mon garçon! J’ai une\\naffaire rien que pour toi!\\pJe te cède un Pokémon secret… un\\nMAGICARPE… pour seulement 500¥!\\pAlors, tu l’achètes, hein?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 164,
+  "note": "Vendeur de MAGICARPE (joueur garçon). [Route4_PokemonCenter_1F_EventScript_AskBuyMagikarpMale ; non compilé]"
+ },
+ {
+  "msgid": "MAN: Hello there, sweetie pie!\\nHave I got a deal just for you!\\pI'll let you have a secret POKéMON\\n- a MAGIKARP - for just ¥500!\\pSo, you'll buy it, am I right?",
+  "msgstr": "Homme: Bonjour, ma jolie! J’ai une\\naffaire rien que pour toi!\\pJe te cède un Pokémon secret… un\\nMAGICARPE… pour seulement 500¥!\\pAlors, tu l’achètes, hein?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 171,
+  "note": "Vendeur de MAGICARPE (joueuse fille). [Route4_PokemonCenter_1F_EventScript_AskBuyMagikarpFemale ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} paid an outrageous ¥500\\nand bought the MAGIKARP…",
+  "msgstr": "{PLAYER} paie la somme scandaleuse de\\n500¥ et achète le MAGICARPE…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 178,
+  "note": "[Route4_PokemonCenter_1F_EventScript_PayForMagikarp ; non compilé]"
+ },
+ {
+  "msgid": "No? You say no? I'm only doing this\\nas a favor to you!",
+  "msgstr": "Non? Tu dis non? Je fais ça pour te\\nrendre service!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 182,
+  "note": "[Route4_PokemonCenter_1F_EventScript_DeclineMagikarp ; non compilé]"
+ },
+ {
+  "msgid": "There's no more room for any more\\nPOKéMON, it looks like.",
+  "msgstr": "On dirait que tu n’as plus de place\\npour d’autres Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 186,
+  "note": "[Route4_PokemonCenter_1F_EventScript_NoRoomForMagikarp ; non compilé]"
+ },
+ {
+  "msgid": "MAN: Well, I don't give refunds.\\nYou knew what you were getting!",
+  "msgstr": "Homme: Je ne rembourse pas. Tu savais\\nce que tu achetais!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 193,
+  "note": "[Route4_PokemonCenter_1F_EventScript_AlreadyBoughtMagikarp ; non compilé]"
+ },
+ {
+  "msgid": "Sometimes, you'll have too many\\nPOKéMON with you to add any more.\\pIn that case, you should just\\nstore some using any PC.",
+  "msgstr": "Parfois, on a trop de Pokémon sur soi\\npour en ajouter d’autres.\\pDans ce cas, il suffit d’en stocker\\ndans n’importe quel PC.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 197,
+  "note": "[Route4_PokemonCenter_1F_EventScript_Youngster ; non compilé]"
+ },
+ {
+  "msgid": "It's a newspaper.",
+  "msgstr": "C’est un journal.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route4_PokemonCenter_1F_Frlg/scripts.inc",
+  "ligne": 203,
+  "note": "[Route4_PokemonCenter_1F_EventScript_Newspaper ; non compilé]"
+ },
+ {
+  "msgid": "UNDERGROUND PATH\\nCERULEAN CITY - VERMILION CITY",
+  "msgstr": "Souterrain\\nAzuria - Carmin sur Mer",
+  "source": "patch FR actuel (vérifié)",
+  "fichier": "data/maps/Route5_Frlg/scripts.inc",
+  "ligne": 9,
+  "preuve": "SOUTERRAIN\\pAZURIA - Carmin sur Mer",
+  "note": "Panneau. UNDERGROUND PATH = Souterrain (Poképédia ; Route5_hns patch FR « SOUTERRAIN\\pAZURIA - Carmin sur Mer »). [Route5_EventScript_UndergroundPathSign ; non compilé]"
+ },
+ {
+  "msgid": "I run the DAY-CARE service.\\pWould you like me to raise one of\\nyour POKéMON?",
+  "msgstr": "Je m’occupe de la Pension.\\pVeux-tu que j’élève l’un de tes\\nPokémon?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route5_PokemonDayCare_Frlg/scripts.inc",
+  "ligne": 7,
+  "note": "Hôte de la Pension de la Route 5 (tutoiement comme SoulSilver FR). [texte Route5_PokemonDayCare_Text_WantMeToRaiseMon ; non compilé]"
+ },
+ {
+  "msgid": "Which POKéMON should I raise?",
+  "msgstr": "Quel Pokémon veux-tu me confier?",
+  "source": "SoulSilver FR officiel",
+  "fichier": "data/maps/Route5_PokemonDayCare_Frlg/scripts.inc",
+  "ligne": 15,
+  "preuve": "Quel Pokémon veux-tu me confier?",
+  "note": "SoulSilver FR (même formule). [texte Route5_PokemonDayCare_Text_WhichMonShouldIRaise ; non compilé]"
+ },
+ {
+  "msgid": "Fine.\\nCome anytime you like.",
+  "msgstr": "Très bien. Reviens quand tu veux.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route5_PokemonDayCare_Frlg/scripts.inc",
+  "ligne": 18,
+  "note": "[texte Route5_PokemonDayCare_Text_ComeAnytimeYouLike ; non compilé]"
+ },
+ {
+  "msgid": "Fine, I'll look after your\\n{STR_VAR_1} for a while.",
+  "msgstr": "Très bien, je vais m’occuper de ton\\n{STR_VAR_1} pendant un moment.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route5_PokemonDayCare_Frlg/scripts.inc",
+  "ligne": 22,
+  "note": "[texte Route5_PokemonDayCare_Text_LookAfterMonForAWhile ; non compilé]"
+ },
+ {
+  "msgid": "Come see me in a while.",
+  "msgstr": "Reviens me voir dans quelque temps.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route5_PokemonDayCare_Frlg/scripts.inc",
+  "ligne": 26,
+  "note": "[texte Route5_PokemonDayCare_Text_ComeSeeMeInAWhile ; non compilé]"
+ },
+ {
+  "msgid": "You're back already?\\pYour {STR_VAR_1} needs to spend\\nsome more time with me.",
+  "msgstr": "Déjà de retour?\\pTon {STR_VAR_1} doit encore passer un\\npeu de temps avec moi.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route5_PokemonDayCare_Frlg/scripts.inc",
+  "ligne": 29,
+  "note": "[texte Route5_PokemonDayCare_Text_MonNeedsToSpendMoreTime ; non compilé]"
+ },
+ {
+  "msgid": "You owe me ¥{STR_VAR_2} for the return\\nof this POKéMON.",
+  "msgstr": "Tu me dois {STR_VAR_2}¥ pour\\nrécupérer ce Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route5_PokemonDayCare_Frlg/scripts.inc",
+  "ligne": 34,
+  "note": "Ordre « montant¥ » comme les officiels FR (code {STR_VAR_2} déplacé avant ¥). [texte Route5_PokemonDayCare_Text_OweMeXForMonsReturn ; non compilé]"
+ },
+ {
+  "msgid": "Thank you!\\nHere's your POKéMON.",
+  "msgstr": "Merci! Voici ton Pokémon.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route5_PokemonDayCare_Frlg/scripts.inc",
+  "ligne": 38,
+  "note": "[texte Route5_PokemonDayCare_Text_ThankYouHeresMon ; non compilé]"
+ },
+ {
+  "msgid": "{PLAYER} got {STR_VAR_1} back\\nfrom the DAY-CARE MAN.",
+  "msgstr": "{PLAYER} récupère {STR_VAR_1}\\nauprès de l’Hôte de la Pension.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route5_PokemonDayCare_Frlg/scripts.inc",
+  "ligne": 42,
+  "note": "[texte Route5_PokemonDayCare_Text_PlayerGotMonBack ; non compilé]"
+ },
+ {
+  "msgid": "If you leave me that POKéMON,\\nwhat will you battle with?",
+  "msgstr": "Si tu me laisses ce Pokémon, avec quoi\\nvas-tu te battre?",
+  "source": "Émeraude FR officiel (adapté)",
+  "fichier": "data/maps/Route5_PokemonDayCare_Frlg/scripts.inc",
+  "ligne": 50,
+  "preuve": "Si tu me laisses ce Pokémon, comment\\nvas-tu faire pour te battre?",
+  "note": "Émeraude FR (Pension), première page. [texte Route5_PokemonDayCare_Text_WhatWillYouBattleWith ; non compilé]"
+ },
+ {
+  "msgid": "Your {STR_VAR_1} has grown a lot.\\nYes, quite a lot, I'd say.\\pLet me see…\\nBy level, it's grown by {STR_VAR_2}.\\pAren't I great?",
+  "msgstr": "Ton {STR_VAR_1} a beaucoup grandi.\\nOui, vraiment beaucoup.\\pVoyons… Il a gagné {STR_VAR_2}\\nniveau(x).\\pJe suis doué, non?",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route5_PokemonDayCare_Frlg/scripts.inc",
+  "ligne": 54,
+  "note": "[texte Route5_PokemonDayCare_Text_MonHasGrownByXLevels ; non compilé]"
+ },
+ {
+  "msgid": "You can't take this POKéMON back\\nif you've got no room for it.",
+  "msgstr": "Tu ne peux pas reprendre ce Pokémon\\nsi tu n’as pas de place pour lui.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route5_PokemonDayCare_Frlg/scripts.inc",
+  "ligne": 61,
+  "note": "[texte Route5_PokemonDayCare_Text_YouveGotNoRoomForIt ; non compilé]"
+ },
+ {
+  "msgid": "I'm on guard duty.\\nGee, I'm thirsty, though!\\pOh, wait there, the road's closed.",
+  "msgstr": "Je suis de garde. Mais qu’est-ce que\\nj’ai soif!\\pOh, attends, la route est fermée.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route5_SouthEntrance_Frlg/scripts.inc",
+  "ligne": 87,
+  "note": "Garde du poste sud de la Route 5. [Route5_SouthEntrance_EventScript_GuardTrigger ; non compilé]"
+ },
+ {
+  "msgid": "Oh, that TEA…\\nIt looks awfully tasty…",
+  "msgstr": "Oh, ce Thé… Il a l’air drôlement bon…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route5_SouthEntrance_Frlg/scripts.inc",
+  "ligne": 92,
+  "note": "TEA = Thé (Rouge Feu / Vert Feuille FR). [Route5_SouthEntrance_EventScript_GuardDrinkTea ; non compilé]"
+ },
+ {
+  "msgid": "Huh? I can have this drink?\\nGee, thanks!\\l… …\\lGlug, glug…\\l… …\\lGulp…\\lIf you want to go to SAFFRON\\lCITY…\\l… …\\lYou can go on through.\\pI'll share this TEA with the other\\nguards!",
+  "msgstr": "Hein? Je peux boire ça?\\nBen, merci!\\l… …\\lGlou, glou…\\l… …\\lGloups…\\lSi tu veux aller à Safrania…\\l… …\\lTu peux passer.\\pJe vais partager ce Thé avec les\\nautres gardes!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route5_SouthEntrance_Frlg/scripts.inc",
+  "ligne": 96,
+  "note": "Garde. Mise en page à défilement de l’anglais conservée. [Route5_SouthEntrance_EventScript_GuardDrinkTea ; non compilé]"
+ },
+ {
+  "msgid": "Who's there?\\nQuit listening in on us!",
+  "msgstr": "Qui est là? Arrête d’écouter notre\\nconversation!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 9,
+  "note": "Campeur Ricky. [texte Route6_Text_RickyIntro ; non compilé]"
+ },
+ {
+  "msgid": "I just can't win!",
+  "msgstr": "Je n’arrive pas à gagner!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 13,
+  "note": "[texte Route6_Text_RickyDefeat ; non compilé]"
+ },
+ {
+  "msgid": "Whisper…\\nWhisper…",
+  "msgstr": "Chuchote… Chuchote…",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 16,
+  "note": "[texte Route6_Text_RickyPostBattle ; non compilé]"
+ },
+ {
+  "msgid": "Excuse me!\\nThis is a private conversation!",
+  "msgstr": "Excuse-moi! C’est une conversation\\nprivée!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 20,
+  "note": "Pique-Niqueuse Nancy. [texte Route6_Text_NancyIntro ; non compilé]"
+ },
+ {
+  "msgid": "Ugh!\\nI hate losing.",
+  "msgstr": "Pff! J’ai horreur de perdre.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 24,
+  "note": "[texte Route6_Text_NancyDefeat ; non compilé]"
+ },
+ {
+  "msgid": "There aren't many bugs out here.",
+  "msgstr": "Il y a peu d’insectes par ici.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 32,
+  "note": "Scout Keigo. [texte Route6_Text_KeigoIntro ; non compilé]"
+ },
+ {
+  "msgid": "No!\\nYou're kidding!",
+  "msgstr": "Non! Tu plaisantes!",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 35,
+  "note": "[texte Route6_Text_KeigoDefeat ; non compilé]"
+ },
+ {
+  "msgid": "I like bugs, so I'm going back to\\nVIRIDIAN FOREST.",
+  "msgstr": "J’aime les insectes, alors je retourne\\ndans la Forêt de Jade.",
+  "source": "traduction nouvelle",
+  "fichier": "data/maps/Route6_Frlg/scripts.inc",
+  "ligne": 39,
+  "note": "[texte Route6_Text_KeigoPostBattle ; non compilé]"
+ }
+]

@@ -1204,15 +1204,6 @@
   "preuve": "US 1EB534 -> FR 1EC052 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "POKéMON CONTESTS\\nSUPER RANK STAGE!",
-  "msgstr": "Pokémon CONTESTS\\nSUPER RANK STAGE!",
-  "source": "Émeraude FR officiel",
-  "fichier": "data/maps/FallarborTown_BattleTentCorridor/scripts.inc",
-  "ligne": 66,
-  "ancien": "Concours Pokémon Rang Super!",
-  "preuve": "US 200876 -> FR 2024E2 (zone parallèle, décalage +7276)"
- },
- {
   "msgid": "PROF. COZMO: Please, may I have that\\nMETEORITE?\\pI'm not asking for it for free.\\nHow about in exchange for this TM?",
   "msgstr": "Prof. KOSMO: S’il te plaît, tu peux\\nme donner ce METEORITE?\\pJe suis prêt à te l’échanger contre un\\nobjet de valeur. Que dirais-tu d’une CT?",
   "source": "Émeraude FR officiel",
@@ -2869,16 +2860,6 @@
   "preuve": "US 1EDFC6 -> FR 1EED3E (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "Hmm…\\nYou're pretty good.",
-  "msgstr": "Hum…\\nT’as bien progressé.",
-  "source": "Émeraude FR officiel",
-  "fichier": "data/maps/Route104/scripts.inc",
-  "ligne": 1159,
-  "ancien": "Hum, tu te défends bien.",
-  "preuve": "US 1E1FE9 -> FR 1E2210 (pointeur x3) ; table octets EN->FR (x3)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « Hum…\\nT’as sacrément bien progressé. » (ptr+tm) | « Humm…\\nPas mal du tout. » (ptr+tm)"
- },
- {
   "msgid": "You're scorching hot!\\nThose battles blazed!\\lI'm more than just satisfied!\\pAs thanks for showing me your hot\\nstreak, I want you to take these.\\pIt's half a dozen bottles of SODA POP!",
   "msgstr": "Bravo, ça c’était du combat qui tue!\\nCes combats étaient incroyables! J’en\\lai eu pour mon argent!\\pPour te remercier de m’avoir offert un\\ntel spectacle, je vais t’offrir ça.\\pUne demi-douzaine de bouteilles de\\nSoda Cool!",
   "source": "Émeraude FR officiel",
@@ -3021,6 +3002,16 @@
   "ligne": 968,
   "ancien": "Oh, je vois!\\nVous ne faites pas la route ensemble.\\lC’est comme vous préférez.\\pIl paraît que tu as la fonction MATCH\\nPHONE installée sur ton PokéNav.\\pAlors je devrais t’enregistrer sur\\nle mien.\\pComme ça, je pourrai évaluer ton\\nPOKéDEX même si nous sommes loin.\\p… … … … … …",
   "preuve": "US 1F0AFF -> FR 1F19F7 (pointeur x1) ; table octets EN->FR (x1)"
+ },
+ {
+  "msgid": "Sorry, you can't walk on CYCLING\\nROAD. It's too dangerous.\\pPlease come back with a BIKE.",
+  "msgstr": "Désolé, mais vous ne pouvez pas marcher\\nsur la PISTE CYCLABLE. C’est dangereux.\\pRevenez avec un VELO.",
+  "source": "Émeraude FR officiel",
+  "fichier": "data/maps/Route110_SeasideCyclingRoadNorthEntrance/scripts.inc",
+  "ligne": 62,
+  "ancien": "Désolé, mais vous ne pouvez pas vous\\ndéplacer à pied sur la PISTE CYCLABLE.\\lC’est trop dangereux.\\pRevenez avec un VELO.",
+  "preuve": "US 26ECAA -> FR 273E93 (pointeur x1) ; table octets EN->FR (x1)",
+  "note": "plusieurs textes Émeraude FR pour le même anglais ; retenu celui du même contexte (fichier HnS voisin) ; autres : « Désolé, mais vous ne pouvez pas vous\\ndéplacer à pied sur la PISTE CYCLABLE.\\lC’ »"
  },
  {
   "msgid": "MECHADOLL 5 I AM!\\nIF REWARD IS NOT TAKEN BY YOU,\\lTHEN TRICK MASTER YOU CANNOT FOLLOW.\\pRED TENT OR BLUE TENT,\\nWHICH DO YOU PREFER?",
@@ -3689,15 +3680,6 @@
   "note": "nom(s) de personnage Hoenn gardé(s) en capitales d’Émeraude FR malgré le glossaire : ARTHUR (glossaire : Arthur)"
  },
  {
-  "msgid": "POKéMON CONTESTS\\nHYPER RANK STAGE!",
-  "msgstr": "Pokémon CONTESTS\\nHYPER RANK STAGE!",
-  "source": "Émeraude FR officiel",
-  "fichier": "data/maps/SlateportCity_BattleTentCorridor/scripts.inc",
-  "ligne": 273,
-  "ancien": "Concours Pokémon Rang Hyper!",
-  "preuve": "US 20993D -> FR 20BAAB (zone parallèle, décalage +8558)"
- },
- {
   "msgid": "I don't really like BUG POKéMON,\\nbut maybe I'll try using some for\\la change of pace.\\pWho knows, I might even get to like\\nthem!",
   "msgstr": "J’aime pas vraiment les Pokémon\\nInsecte, mais je devrais peut-être\\len essayer, juste pour voir.\\pQui sait, j’pourrais peut-être même\\naimer ça!",
   "source": "Émeraude FR officiel",
@@ -3817,15 +3799,6 @@
   "preuve": "US 226388 -> FR 229EEB (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "Giggle…\\nYour grim look is so charming.",
-  "msgstr": "Hi hi…\\nTon regard est vraiment charmant.",
-  "source": "Émeraude FR officiel",
-  "fichier": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
-  "ligne": 173,
-  "ancien": "Hi hi…\\nTon air sombre est charmant.",
-  "preuve": "US 22646E -> FR 229FF5 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
   "msgid": "Here at the TRAINER HILL, we conduct\\nan event called the Time Attack.\\pIt is a race that measures how long\\nyou take to reach our owner on\\lthe rooftop from this counter.\\pThe fastest times are posted on\\nthe Time Board--try competing with\\lyour friends.\\pIn TRAINER battles along the way,\\nneither Exp. Points nor money will\\lbe awarded.",
   "msgstr": "Au MONT Dresseurs, il y a\\nune épreuve de Contre-la-Montre.\\pVous devez aller de ce guichet au\\npropriétaire qui se trouve sur le toit\\lle plus vite possible.\\pLes meilleurs temps sont affichés sur\\nle Panneau des Temps. Essayez de\\ldéfier vos amis!\\pVous ne gagnerez pas de points\\nEXP. ni d’argent en battant les\\lDresseurs sur votre chemin.",
   "source": "Émeraude FR officiel",
@@ -3878,15 +3851,6 @@
   "ligne": 117,
   "ancien": "TENTE DE Combat DE VERGAZON\\n“Des combats plein les yeux!”",
   "preuve": "US 1EBA1F -> FR 1EC5E5 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "POKéMON CONTESTS\\nNORMAL RANK STAGE!",
-  "msgstr": "Pokémon CONTESTS\\nNormal RANK STAGE!",
-  "source": "Émeraude FR officiel",
-  "fichier": "data/maps/VerdanturfTown_BattleTentCorridor/scripts.inc",
-  "ligne": 72,
-  "ancien": "Concours Pokémon Rang Normal!",
-  "preuve": "US 2022D6 -> FR 2040DC (zone parallèle, décalage +7686)"
  },
  {
   "msgid": "SCOTT: I visit here regularly in hopes\\nof seeing tough TRAINERS in action\\lin whatever the situation.",
@@ -5171,15 +5135,6 @@
   "ligne": 233,
   "ancien": "Ça fait longtemps que j’enseigne\\nEXPLOSION aux Pokémon sans jamais\\lpenser à ma propre Explosion…\\pPeut-être est-ce parce qu’au fond,\\nje préfèrerais rester ici…",
   "preuve": "US 2C7E7A -> FR 2D0E7B (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "FIRE",
-  "msgstr": "Feu",
-  "source": "Émeraude FR officiel",
-  "fichier": "data/text/new_game_intro_frlg.inc",
-  "ligne": 14,
-  "ancien": "FEU",
-  "preuve": "EasyChat status[90] US 598573 -> FR 59C963 ; US 31AE7E -> FR 3229AE (pointeur x2) ; US 598573 -> FR 59C963 (pointeur x1)"
  },
  {
   "msgid": "TAYLOR",
@@ -6991,42 +6946,6 @@
   "preuve": "US 28C662 -> FR 29294B (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "PAINTER",
-  "msgstr": "Peintre",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/battle_main.c",
-  "ligne": 425,
-  "ancien": "PEINTRE",
-  "preuve": "US 56D310 -> FR 572674 (zone parallèle, décalage +21348)"
- },
- {
-  "msgid": "fell!",
-  "msgstr": "baisse!",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/battle_message.c",
-  "ligne": 78,
-  "ancien": "baissé!",
-  "preuve": "US 5CB399 -> FR 5CF6E3 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "accuracy",
-  "msgstr": "précision",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/battle_message.c",
-  "ligne": 156,
-  "ancien": "PRECISION",
-  "preuve": "US 5CBDE9 -> FR 5D01DF (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "evasiveness",
-  "msgstr": "esquive",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/battle_message.c",
-  "ligne": 157,
-  "ancien": "ESQUIVE",
-  "preuve": "US 5CBDF2 -> FR 5D01E9 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
   "msgid": "It's not very effective…",
   "msgstr": "Ce n’est pas très efficace…",
   "source": "Émeraude FR officiel",
@@ -7034,15 +6953,6 @@
   "ligne": 392,
   "ancien": "Ce n’est pas très efficace...",
   "preuve": "US 5CB49B -> FR 5CF80C (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "A bell chimed!",
-  "msgstr": "Un GRELOT sonne!",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/battle_message.c",
-  "ligne": 420,
-  "ancien": "Un Grelot sonne!",
-  "preuve": "US 5CB8CF -> FR 5CFC75 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
   "msgid": "Items can't be used now.{PAUSE 64}",
@@ -7062,7 +6972,7 @@
   "ligne": 264,
   "ancien": "Master",
   "preuve": "EasyChat events[19] US 59C723 -> FR 5A0DC5 ; US 3397BD -> FR 341314 (pointeur x1) ; US 59C723 -> FR 5A0DC5 (pointeur x1)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « MASTER » (ptr+tm)"
+  "note": "table par index retenue ; autre(s) correspondance(s) : « MASTER » (ptr+tm)"
  },
  {
   "msgid": "DUDE",
@@ -7072,6 +6982,15 @@
   "ligne": 265,
   "ancien": "MEC",
   "preuve": "US 3397C4 -> FR 34131B (pointeur x1) ; table octets EN->FR (x1)"
+ },
+ {
+  "msgid": "MISS",
+  "msgstr": "MISS",
+  "source": "Émeraude FR officiel",
+  "fichier": "src/berry_blender.c",
+  "ligne": 266,
+  "ancien": "MLLE",
+  "preuve": "US 3397C9 -> FR 341320 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
   "msgid": "Your {POKEBLOCK} CASE is full.\\p",
@@ -7099,51 +7018,6 @@
   "ligne": 38,
   "ancien": "Mise à jour Prog. Baie",
   "preuve": "US 617E78 -> FR 61C200 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "SYNCHRONIZE",
-  "msgstr": "Synchro",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/challenge_menu.c",
-  "ligne": 439,
-  "ancien": "SYNCHRO",
-  "preuve": "EasyChat status[42] US 5983A5 -> FR 59C7AB ; US 31B847 -> FR 3233BA (table de base US 31B6DB / FR 32324E, index +364, 15 voisins) ; US 5983A5 -> FR 59C7AB (pointeur x1)"
- },
- {
-  "msgid": "STURDY",
-  "msgstr": "Fermeté",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/challenge_menu.c",
-  "ligne": 445,
-  "ancien": "FERMETÉ",
-  "preuve": "EasyChat status[26] US 59831A -> FR 59C719 ; US 31B71C -> FR 32328F (zone parallèle, décalage +31603) ; US 59831A -> FR 59C719 (pointeur x1)"
- },
- {
-  "msgid": "SITRUS BERRY",
-  "msgstr": "Baie Sitrus",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/challenge_menu.c",
-  "ligne": 451,
-  "ancien": "BAIE SITRUS",
-  "preuve": "US 585208 -> FR 5895D4 (zone parallèle, décalage +17356)"
- },
- {
-  "msgid": "NEXT",
-  "msgstr": "NEXT",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/challenge_menu.c",
-  "ligne": 499,
-  "ancien": "SUIVANT",
-  "preuve": "US 5E8546 -> FR 5EC662 (zone parallèle, décalage +16668)"
- },
- {
-  "msgid": "NORMAL",
-  "msgstr": "Normal",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/challenge_menu.c",
-  "ligne": 554,
-  "ancien": "NORMAL",
-  "preuve": "EasyChat status[69] US 5984AB -> FR 59C896 ; US 31AE38 -> FR 322968 (pointeur x7) ; US 5984AB -> FR 59C896 (pointeur x1)"
  },
  {
   "msgid": "But it couldn't improve\\nits condition…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}",
@@ -7180,24 +7054,6 @@
   "ligne": 384,
   "ancien": "Il a captivé la foule.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}",
   "preuve": "US 27E7BA -> FR 284267 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "PLUS",
-  "msgstr": "PLUS",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/abilities.h",
-  "ligne": 437,
-  "ancien": "Plus",
-  "preuve": "EasyChat status[83] US 598530 -> FR 59C920 ; US 31B9C0 -> FR 323533 (table de base US 31B6DB / FR 32324E, index +741, 14 voisins) ; US 598530 -> FR 59C920 (pointeur x1)"
- },
- {
-  "msgid": "MARVEL SCALE",
-  "msgstr": "ECAILLE SPE.",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/abilities.h",
-  "ligne": 483,
-  "ancien": "Ecaille Spé.",
-  "preuve": "EasyChat status[79] US 598504 -> FR 59C8F2 ; US 31BA0E -> FR 323581 (table de base US 31B6DB / FR 32324E, index +819, 15 voisins) ; US 598504 -> FR 59C8F2 (pointeur x1)"
  },
  {
   "msgid": "ADELFO",
@@ -7467,7 +7323,7 @@
   "fichier": "src/data/battle_frontier/apprentice.h",
   "ligne": 364,
   "preuve": "US 589331 -> FR 58D6FD (zone parallèle, décalage +17356) ; gContestOpponents.trainerName[74] US 589331 -> FR 58D6FD",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « ROSA » (delta)"
+  "note": "table par index retenue ; autre(s) correspondance(s) : « ROSA » (delta)"
  },
  {
   "msgid": "DETLEF",
@@ -7540,7 +7396,7 @@
   "fichier": "src/data/battle_frontier/apprentice.h",
   "ligne": 396,
   "preuve": "US 589231 -> FR 58D5FD (zone parallèle, décalage +17356) ; gContestOpponents.trainerName[70] US 589231 -> FR 58D5FD",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « JORGE » (delta)"
+  "note": "table par index retenue ; autre(s) correspondance(s) : « JORGE » (delta)"
  },
  {
   "msgid": "JÜRGEN",
@@ -7797,15 +7653,6 @@
   "preuve": "US 628230 -> FR 62C144 (zone parallèle, décalage +16148)"
  },
  {
-  "msgid": "FRANCISCO",
-  "msgstr": "FRANCISCO",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/battle_frontier/trainer_hill.h",
-  "ligne": 6975,
-  "ancien": "Francisco",
-  "preuve": "US 628378 -> FR 62C28C (zone parallèle, décalage +16148)"
- },
- {
   "msgid": "MEREDITH",
   "msgstr": "MEREDITH",
   "source": "Émeraude FR officiel",
@@ -8041,16 +7888,6 @@
   "fichier": "src/data/contest_opponents.h",
   "ligne": 283,
   "preuve": "US 588126 -> FR 58C4F2 (zone parallèle, décalage +17356) ; gContestOpponents.nickname[2] US 588126 -> FR 58C4F2"
- },
- {
-  "msgid": "DOTS",
-  "msgstr": "PIPIO",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/contest_opponents.h",
-  "ligne": 312,
-  "ancien": "DOTS",
-  "preuve": "US 338ED0 -> FR 340A54 (pointeur x4) ; sIngameTrades.nickname[0] US 338ED0 -> FR 340A54 ; table octets EN->FR (x4)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « NIPIOT » (delta+tidx)"
  },
  {
   "msgid": "TATAY",
@@ -9354,188 +9191,12 @@
   "preuve": "US 5E5BF8 -> FR 5E9C71 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "Credits",
-  "msgstr": "Credits",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 74,
-  "preuve": "US 5E5C10 -> FR 5E9C8A (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Executive Director",
-  "msgstr": "Executive Director",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 75,
-  "preuve": "US 5E5C18 -> FR 5E9C92 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Director",
-  "msgstr": "Director",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 76,
-  "preuve": "US 5E5C2B -> FR 5E9CA5 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Art Director",
-  "msgstr": "Art Director",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 77,
-  "preuve": "US 5E5C34 -> FR 5E9CAE (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Main Programmer",
-  "msgstr": "Main Programmer",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 79,
-  "preuve": "US 5E5C51 -> FR 5E9CCB (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Field System Programmer",
-  "msgstr": "Field System Programmer",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 81,
-  "preuve": "US 5E5C7B -> FR 5E9CF5 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Programmers",
-  "msgstr": "Programmers",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 82,
-  "preuve": "US 5E5C93 -> FR 5E9D0D (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Main Graphic Designer",
-  "msgstr": "Main Graphic Designer",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 83,
-  "preuve": "US 5E5C9F -> FR 5E9D19 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Graphic Designers",
-  "msgstr": "Graphic Designers",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 84,
-  "preuve": "US 5E5CB5 -> FR 5E9D2F (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "POKéMON Designers",
-  "msgstr": "Pokémon Designers",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 85,
-  "preuve": "US 5E5CC7 -> FR 5E9D41 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
   "msgid": "Music Composition",
   "msgstr": "Music Composition",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/credits.h",
   "ligne": 86,
   "preuve": "US 5E5CD9 -> FR 5E9D53 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Sound Effects & POKéMON Voices",
-  "msgstr": "Sound Effects & Pokémon Voices",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 87,
-  "preuve": "US 5E5CEB -> FR 5E9D65 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Game Designers",
-  "msgstr": "Game Designers",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 88,
-  "preuve": "US 5E5D0A -> FR 5E9D84 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Scenario Plot",
-  "msgstr": "Scenario Plot",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 89,
-  "preuve": "US 5E5D19 -> FR 5E9D93 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Scenario",
-  "msgstr": "Scenario",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 90,
-  "preuve": "US 5E5D27 -> FR 5E9DA1 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Script Designers",
-  "msgstr": "Script Designers",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 91,
-  "preuve": "US 5E5D30 -> FR 5E9DAA (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Map Designers",
-  "msgstr": "Map Designers",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 92,
-  "preuve": "US 5E5D41 -> FR 5E9DBB (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Map Data Designers",
-  "msgstr": "Map Data Designers",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 93,
-  "preuve": "US 5E5D4F -> FR 5E9DC9 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Parametric Designers",
-  "msgstr": "Parametric Designers",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 94,
-  "preuve": "US 5E5D62 -> FR 5E9DDC (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "POKéDEX Text",
-  "msgstr": "Pokédex Text",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 95,
-  "preuve": "US 5E5D77 -> FR 5E9DF1 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Environment & Tool Programmers",
-  "msgstr": "Environment & Tool Programmers",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 96,
-  "preuve": "US 5E5D84 -> FR 5E9DFE (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "NCL Product Testing",
-  "msgstr": "NCL Product Testing",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 97,
-  "preuve": "US 5E5DA3 -> FR 5E9E1D (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Special Thanks",
-  "msgstr": "Special Thanks",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 98,
-  "preuve": "US 5E5DB7 -> FR 5E9E31 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
   "msgid": "Coordinators",
@@ -9546,84 +9207,12 @@
   "preuve": "US 5E5DC6 -> FR 5E9E40 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "Producers",
-  "msgstr": "Producers",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 100,
-  "preuve": "US 5E5DD3 -> FR 5E9E4D (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Executive Producers",
-  "msgstr": "Executive Producers",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 101,
-  "preuve": "US 5E5DDD -> FR 5E9E57 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Information Supervisors",
-  "msgstr": "Information Supervisors",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 102,
-  "preuve": "US 5E5DF1 -> FR 5E9E6B (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Task Managers",
-  "msgstr": "Task Managers",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 103,
-  "preuve": "US 5E5E09 -> FR 5E9E83 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Braille Code Check",
-  "msgstr": "Braille Code Check",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 104,
-  "preuve": "US 5E5E17 -> FR 5E9E91 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "World Director",
-  "msgstr": "World Director",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 105,
-  "preuve": "US 5E5E2A -> FR 5E9EA4 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Support Programmers",
-  "msgstr": "Support Programmers",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 107,
-  "preuve": "US 5E5E4E -> FR 5E9EC8 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
   "msgid": "Artwork",
   "msgstr": "Artwork",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/credits.h",
   "ligne": 108,
   "preuve": "US 5E5E62 -> FR 5E9EDC (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Lead Programmer",
-  "msgstr": "Lead Programmer",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 109,
-  "preuve": "US 5E5E6A -> FR 5E9EE4 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Lead Graphic Artist",
-  "msgstr": "Lead Graphic Artist",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 110,
-  "preuve": "US 5E5E7A -> FR 5E9EF4 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
   "msgid": "Satoshi Tajiri",
@@ -9640,14 +9229,6 @@
   "fichier": "src/data/credits.h",
   "ligne": 112,
   "preuve": "US 5E5E9D -> FR 5E9F17 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Ken Sugimori",
-  "msgstr": "Ken Sugimori",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 113,
-  "preuve": "US 5E5EAC -> FR 5E9F26 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
   "msgid": "Shigeki Morimoto",
@@ -9688,14 +9269,6 @@
   "fichier": "src/data/credits.h",
   "ligne": 118,
   "preuve": "US 5E5EF8 -> FR 5E9F72 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Keita Kagaya",
-  "msgstr": "Keita Kagaya",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 119,
-  "preuve": "US 5E5F03 -> FR 5E9F7D (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
   "msgid": "Yoshinori Matsuda",
@@ -10090,14 +9663,6 @@
   "preuve": "US 5E61EA -> FR 5EA264 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "Hiro Nakamura",
-  "msgstr": "Hiro Nakamura",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 170,
-  "preuve": "US 5E61FB -> FR 5EA275 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
   "msgid": "Hiroyuki Uesugi",
   "msgstr": "Hiroyuki Uesugi",
   "source": "Émeraude FR officiel",
@@ -10242,14 +9807,6 @@
   "preuve": "US 5E6305 -> FR 5EA37F (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "Japan Braille Library",
-  "msgstr": "Japan Braille Library",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 189,
-  "preuve": "US 5E6317 -> FR 5EA391 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
   "msgid": "Tomotaka Komura",
   "msgstr": "Tomotaka Komura",
   "source": "Émeraude FR officiel",
@@ -10346,14 +9903,6 @@
   "preuve": "US 5E63D3 -> FR 5EA44D (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "Package & Manual Illustration",
-  "msgstr": "Package & Manual Illustration",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 202,
-  "preuve": "US 5E63E1 -> FR 5EA45B (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
   "msgid": "English Version Coordinators",
   "msgstr": "French Version Coordinators",
   "source": "Émeraude FR officiel",
@@ -10370,28 +9919,12 @@
   "preuve": "US 5E641C -> FR 5EA495 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "Text Editor",
-  "msgstr": "Text Editor",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 205,
-  "preuve": "US 5E6427 -> FR 5EA4A1 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
   "msgid": "NCL Coordinator",
   "msgstr": "NCL Coordinators",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/credits.h",
   "ligne": 206,
   "preuve": "US 5E6433 -> FR 5EA4AD (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Graphic Designer",
-  "msgstr": "Graphic Designer",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 207,
-  "preuve": "US 5E6443 -> FR 5EA4BE (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
   "msgid": "NOA Product Testing",
@@ -10440,22 +9973,6 @@
   "fichier": "src/data/credits.h",
   "ligne": 213,
   "preuve": "US 5E64A4 -> FR 5EA51F (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Seth McMahill",
-  "msgstr": "Seth McMahill",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 214,
-  "preuve": "US 5E64B3 -> FR 5EA52E (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Nob Ogasawara",
-  "msgstr": "Nob Ogasawara",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 215,
-  "preuve": "US 5E64C1 -> FR 5EA53C (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
   "msgid": "Teresa Lillygren",
@@ -10514,22 +10031,6 @@
   "preuve": "US 5E654D -> FR 5EA5C8 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "European Blind Union",
-  "msgstr": "European Blind Union",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 224,
-  "preuve": "US 5E6560 -> FR 5EA5DB (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Australian Braille Authority",
-  "msgstr": "Australian Braille Authority",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 225,
-  "preuve": "US 5E6575 -> FR 5EA5F0 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
   "msgid": "Motoyasu Tojima",
   "msgstr": "Motoyasu Tojima",
   "source": "Émeraude FR officiel",
@@ -10544,14 +10045,6 @@
   "fichier": "src/data/credits.h",
   "ligne": 228,
   "preuve": "US 5E65CD -> FR 5EA632 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Shellie Dow",
-  "msgstr": "Shellie Dow",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/credits.h",
-  "ligne": 229,
-  "preuve": "US 5E65E1 -> FR 5EA640 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
   "msgid": "Erik Johnson",
@@ -10607,15 +10100,6 @@
   "preuve": "US 5A5C09 -> FR 5AA1F5 (pointeur x12) ; US 5A5C29 -> FR 5AA215 (zone parallèle, décalage +17900) ; table octets EN->FR (x12)"
  },
  {
-  "msgid": "YELLOW BALLOON",
-  "msgstr": "BALLON JAUNE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/decoration/header.h",
-  "ligne": 366,
-  "ancien": "Ballon Jaune",
-  "preuve": "US 5A5FC9 -> FR 5AA5B5 (zone parallèle, décalage +17900)"
- },
- {
   "msgid": "SLIDE",
   "msgstr": "TOBOGGAN",
   "source": "Émeraude FR officiel",
@@ -10652,132 +10136,13 @@
   "preuve": "EasyChat actions[29] US 59B118 -> FR 59F69E ; US 2EFE48 -> FR 2F8D84 (pointeur x1) ; US 59B118 -> FR 59F69E (pointeur x1)"
  },
  {
-  "msgid": "DOCILE",
-  "msgstr": "DOCILE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_conditions.h",
-  "ligne": 136,
-  "ancien": "Docile",
-  "preuve": "EasyChat conditions[22] US 59ABB2 -> FR 59F0F7 ; US 59ABB2 -> FR 59F0F7 (pointeur x1) ; US 61CAD4 -> FR 620ECF (pointeur x1)"
- },
- {
-  "msgid": "SUPER",
-  "msgstr": "SUPER",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_events.h",
-  "ligne": 8,
-  "ancien": "Super",
-  "preuve": "EasyChat events[7] US 59C6BA -> FR 5A0D62 ; US 59C6BA -> FR 5A0D62 (pointeur x1) ; US 5EB10C -> FR 5EF2D3 (pointeur x1)"
- },
- {
-  "msgid": "GRASS",
-  "msgstr": "Plante",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
-  "ligne": 172,
-  "ancien": "PLANTE",
-  "preuve": "EasyChat status[28] US 59832E -> FR 59C72A ; US 31AE8C -> FR 3229BC (pointeur x2) ; US 59832E -> FR 59C72A (pointeur x1)"
- },
- {
-  "msgid": "GHOST",
-  "msgstr": "SPECTR",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
-  "ligne": 190,
-  "ancien": "SPECTRE",
-  "preuve": "US 31AE69 -> FR 322999 (pointeur x2) ; table octets EN->FR (x2)"
- },
- {
-  "msgid": "DRAGON",
-  "msgstr": "Dragon",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
-  "ligne": 376,
-  "ancien": "DRAGON",
-  "preuve": "EasyChat status[62] US 59846D -> FR 59C861 ; US 31AEA8 -> FR 3229D8 (pointeur x2) ; US 56C430 -> FR 571794 (zone parallèle, décalage +21348)"
- },
- {
-  "msgid": "STEEL",
-  "msgstr": "Acier",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
-  "ligne": 424,
-  "ancien": "ACIER",
-  "preuve": "EasyChat status[70] US 5984B2 -> FR 59C89D ; US 31AE70 -> FR 3229A0 (pointeur x2) ; table octets EN->FR (x2)"
- },
- {
-  "msgid": "FLYING",
-  "msgstr": "Vol",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
-  "ligne": 454,
-  "ancien": "VOL",
-  "preuve": "EasyChat status[75] US 5984DB -> FR 59C8C9 ; US 31AE46 -> FR 322976 (pointeur x2) ; US 5984DB -> FR 59C8C9 (pointeur x1)"
- },
- {
-  "msgid": "WATER",
-  "msgstr": "Eau",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/easy_chat/easy_chat_group_status.h",
-  "ligne": 574,
-  "ancien": "EAU",
-  "preuve": "EasyChat status[95] US 59859F -> FR 59C990 ; US 31AE85 -> FR 3229B5 (pointeur x2) ; US 59859F -> FR 59C990 (pointeur x1)"
- },
- {
   "msgid": "SAPPHIRE",
   "msgstr": "SAPHIR",
   "source": "Émeraude FR officiel",
   "fichier": "src/data/easy_chat/easy_chat_group_trainer.h",
   "ligne": 22,
   "ancien": "Sapphire",
-  "preuve": "EasyChat trainer[3] US 59804A -> FR 59C430 ; US 5879E8 -> FR 58BDB4 (zone parallèle, décalage +17356) ; US 59804A -> FR 59C430 (pointeur x1)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « SAPPHIRE » (delta)"
- },
- {
-  "msgid": "X ATTACK",
-  "msgstr": "ATTAQUE +",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/items.h",
-  "ligne": 2448,
-  "ancien": "Attaque +",
-  "preuve": "US 584684 -> FR 588A50 (zone parallèle, décalage +17356)"
- },
- {
-  "msgid": "X SPEED",
-  "msgstr": "VITESSE +",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/items.h",
-  "ligne": 2552,
-  "ancien": "Vitesse +",
-  "preuve": "US 5846DC -> FR 588AA8 (zone parallèle, décalage +17356)"
- },
- {
-  "msgid": "X ACCURACY",
-  "msgstr": "PRECISION +",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/items.h",
-  "ligne": 2578,
-  "ancien": "Précision +",
-  "preuve": "US 584708 -> FR 588AD4 (zone parallèle, décalage +17356)"
- },
- {
-  "msgid": "DIRE HIT",
-  "msgstr": "MUSCLE +",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/items.h",
-  "ligne": 2605,
-  "ancien": "Muscle +",
-  "preuve": "US 584658 -> FR 588A24 (zone parallèle, décalage +17356)"
- },
- {
-  "msgid": "HARBOR MAIL",
-  "msgstr": "LETTRES PORT",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/items.h",
-  "ligne": 3950,
-  "ancien": "LETTRE PORT",
-  "preuve": "US 27ED59 -> FR 284849 (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « LETTRE PORT » (delta)"
+  "preuve": "EasyChat trainer[3] US 59804A -> FR 59C430 ; US 5879E8 -> FR 58BDB4 (zone parallèle, décalage +17356) ; US 59804A -> FR 59C430 (pointeur x1)"
  },
  {
   "msgid": "A hold item that\\nslightly lowers the\\nfoe's accuracy.",
@@ -10786,34 +10151,6 @@
   "fichier": "src/data/items.h",
   "ligne": 8544,
   "preuve": "US 5820C6 -> FR 586531 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "MAGNET",
-  "msgstr": "MAGNETIQUE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/items.h",
-  "ligne": 8983,
-  "ancien": "Aimant",
-  "preuve": "US 56BFD0 -> FR 571334 (zone parallèle, décalage +21348) ; US 56BFF0 -> FR 571354 (zone parallèle, décalage +21348)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « AIMANT » (delta)"
- },
- {
-  "msgid": "CLEANSE TAG",
-  "msgstr": "RUNE PURIF.",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/items.h",
-  "ligne": 9884,
-  "ancien": "Rune Purif.",
-  "preuve": "US 585A48 -> FR 589E14 (zone parallèle, décalage +17356)"
- },
- {
-  "msgid": "IRON BALL",
-  "msgstr": "BOULEFER",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/items.h",
-  "ligne": 10292,
-  "ancien": "Balle Fer",
-  "preuve": "US 56E470 -> FR 5737D4 (zone parallèle, décalage +21348)"
  },
  {
   "msgid": "A hold item that\\nrestores 30 HP in\\nbattle.",
@@ -10860,15 +10197,6 @@
   "preuve": "US 58688C -> FR 58AC58 (zone parallèle, décalage +17356)"
  },
  {
-  "msgid": "POKé FLUTE",
-  "msgstr": "POKéFLUTE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/items.h",
-  "ligne": 14328,
-  "ancien": "Pokéflûte",
-  "preuve": "US 5875C8 -> FR 58B994 (zone parallèle, décalage +17356)"
- },
- {
   "msgid": "GO-GOGGLES",
   "msgstr": "LUNET. SABLE",
   "source": "Émeraude FR officiel",
@@ -10887,15 +10215,6 @@
   "preuve": "US 586B20 -> FR 58AEEC (zone parallèle, décalage +17356)"
  },
  {
-  "msgid": "METEORITE",
-  "msgstr": "METEORITE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/items.h",
-  "ligne": 14637,
-  "ancien": "MÉTÉORITE",
-  "preuve": "US 56DFD0 -> FR 573334 (zone parallèle, décalage +21348) ; US 56DFF0 -> FR 573354 (zone parallèle, décalage +21348) ; US 5869C0 -> FR 58AD8C (zone parallèle, décalage +17356)"
- },
- {
   "msgid": "GOLD TEETH",
   "msgstr": "DENT D’OR",
   "source": "Émeraude FR officiel",
@@ -10905,15 +10224,6 @@
   "preuve": "US 58764C -> FR 58BA18 (zone parallèle, décalage +17356)"
  },
  {
-  "msgid": "CARD KEY",
-  "msgstr": "Carte MAGN.",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/items.h",
-  "ligne": 14756,
-  "ancien": "Carte Magn.",
-  "preuve": "US 5876A4 -> FR 58BA70 (zone parallèle, décalage +17356)"
- },
- {
   "msgid": "LIFT KEY",
   "msgstr": "CLE ASC.",
   "source": "Émeraude FR officiel",
@@ -10921,15 +10231,6 @@
   "ligne": 14779,
   "ancien": "CLE ASCENSEUR",
   "preuve": "US 5876D0 -> FR 58BA9C (zone parallèle, décalage +17356)"
- },
- {
-  "msgid": "TEA",
-  "msgstr": "Thé",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/items.h",
-  "ligne": 14845,
-  "ancien": "THE",
-  "preuve": "US 58790C -> FR 58BCD8 (zone parallèle, décalage +17356)"
  },
  {
   "msgid": "A 2-turn move that strikes\\nthe foe on the 2nd turn.",
@@ -10949,16 +10250,6 @@
   "preuve": "US 6187B0 -> FR 61CB51 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "MEDITATE",
-  "msgstr": "MEDITATION",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/moves_info.h",
-  "ligne": 2635,
-  "ancien": "Yoga",
-  "preuve": "US 56DC10 -> FR 572F74 (zone parallèle, décalage +21348) ; US 56DC30 -> FR 572F94 (zone parallèle, décalage +21348)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « YOGA » (delta)"
- },
- {
   "msgid": "A psychic move for fleeing\\nfrom battle instantly.",
   "msgstr": "Capacité Psy permettant de\\nprendre aussitôt la fuite.",
   "source": "Émeraude FR officiel",
@@ -10974,26 +10265,6 @@
   "ligne": 2844,
   "ancien": "Duo",
   "preuve": "US 319CC4 -> FR 3217F4 (zone parallèle, décalage +31536)"
- },
- {
-  "msgid": "SLUDGE",
-  "msgstr": "DEGUEU",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/moves_info.h",
-  "ligne": 3386,
-  "ancien": "Détritus",
-  "preuve": "US 56C0B0 -> FR 571414 (zone parallèle, décalage +21348) ; US 56C0D0 -> FR 571434 (zone parallèle, décalage +21348)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « DETRITUS » (delta)"
- },
- {
-  "msgid": "POISON GAS",
-  "msgstr": "GAZ MORTEL",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/moves_info.h",
-  "ligne": 3784,
-  "ancien": "Gaz Toxik",
-  "preuve": "US 56C350 -> FR 5716B4 (zone parallèle, décalage +21348) ; US 56C370 -> FR 5716D4 (zone parallèle, décalage +21348)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « GAZ TOXIK » (table)"
  },
  {
   "msgid": "It's just a splash...\\nHas no effect whatsoever.",
@@ -11032,16 +10303,6 @@
   "preuve": "US 61AB7C -> FR 61EF57 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "SUPERPOWER",
-  "msgstr": "COLOSSE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/moves_info.h",
-  "ligne": 7481,
-  "ancien": "Surpuissance",
-  "preuve": "US 56BDF0 -> FR 571154 (zone parallèle, décalage +21348) ; US 56BE10 -> FR 571174 (zone parallèle, décalage +21348) ; US 56BE30 -> FR 571194 (zone parallèle, décalage +21348)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « SURPUISSANCE » (table)"
- },
- {
   "msgid": "Destroys barriers such as\\nREFLECT and causes damage.",
   "msgstr": "Détruit les barrières comme\\nProtection et blesse.",
   "source": "Émeraude FR officiel",
@@ -11057,24 +10318,6 @@
   "fichier": "src/data/moves_info.h",
   "ligne": 9245,
   "preuve": "US 61C300 -> FR 6206E9 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "DISCHARGE",
-  "msgstr": "DECHARGE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/moves_info.h",
-  "ligne": 11479,
-  "ancien": "Coup d’Jus",
-  "preuve": "US 56DC70 -> FR 572FD4 (zone parallèle, décalage +21348)"
- },
- {
-  "msgid": "DECORATE",
-  "msgstr": "DECORER",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/moves_info.h",
-  "ligne": 18097,
-  "ancien": "DÉCORER",
-  "preuve": "US 5EA7B1 -> FR 5EE977 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
   "msgid": "Its voracious appetite compels it to\\ndevour leaves bigger than itself without\\nhesitation. It releases a terribly strong\\nodor from its antennae.",
@@ -11932,15 +11175,6 @@
   "preuve": "US 27EDBA -> FR 28488D (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "BUNNY-HOPS",
-  "msgstr": "BUNNY HOPS",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/script_menu.h",
-  "ligne": 230,
-  "ancien": "SAUTILLEMENTS",
-  "preuve": "US 5EAF24 -> FR 5EF0DE (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
   "msgid": "Satisfied",
   "msgstr": "Satisfait",
   "source": "Émeraude FR officiel",
@@ -11948,24 +11182,6 @@
   "ligne": 237,
   "ancien": "REJOUI",
   "preuve": "US 5EAF34 -> FR 5EF0EF (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "SINGLE BATTLE",
-  "msgstr": "Combat SOLO",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/script_menu.h",
-  "ligne": 497,
-  "ancien": "COMBAT SOLO",
-  "preuve": "US 2EFDB0 -> FR 2F8CE4 (pointeur x1) ; US 5EAE6E -> FR 5EF011 (pointeur x1) ; table octets EN->FR (x2)"
- },
- {
-  "msgid": "DOUBLE BATTLE",
-  "msgstr": "Combat Duo",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/script_menu.h",
-  "ligne": 498,
-  "ancien": "COMBAT DUO",
-  "preuve": "US 2EFDC0 -> FR 2F8CF0 (pointeur x1) ; US 5EAE7C -> FR 5EF01D (pointeur x1) ; table octets EN->FR (x2)"
  },
  {
   "msgid": "HELD ITEM",
@@ -11984,15 +11200,6 @@
   "ligne": 560,
   "ancien": "Link Contest",
   "preuve": "US 5EB227 -> FR 5EF3F4 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "LV. 50",
-  "msgstr": "NIVEAU 50",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/script_menu.h",
-  "ligne": 648,
-  "ancien": "Niveau 50",
-  "preuve": "US 5EAEB1 -> FR 5EF05D (pointeur x4) ; US 5EB3EA -> FR 5EF5B7 (pointeur x1) ; US 5EE3B0 -> FR 5F2654 (pointeur x1)"
  },
  {
   "msgid": "{PKMN} TYPE & NO.",
@@ -12040,15 +11247,6 @@
   "preuve": "US 5EB317 -> FR 5EF4F9 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "CHAMPION RIBBON",
-  "msgstr": "RUBAN Maître",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/text/gift_ribbon_descriptions.h",
-  "ligne": 2,
-  "ancien": "Ruban Maître",
-  "preuve": "US 623A8A -> FR 627982 (pointeur x12) ; table octets EN->FR (x12)"
- },
- {
   "msgid": "POKéMON Event",
   "msgstr": "Evènement Pokémon",
   "source": "Émeraude FR officiel",
@@ -12056,69 +11254,6 @@
   "ligne": 19,
   "ancien": "Evénem. Pokémon",
   "preuve": "US 623BC8 -> FR 627AC9 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Difficulty-clearing",
-  "msgstr": "RUBAN commémoratif pour",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/text/gift_ribbon_descriptions.h",
-  "ligne": 21,
-  "ancien": "Ruban commémoratif pour",
-  "preuve": "US 623BE7 -> FR 627AEC (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Summer Holidays RIBBON",
-  "msgstr": "RUBAN vacances d’été",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/text/gift_ribbon_descriptions.h",
-  "ligne": 35,
-  "ancien": "Ruban vacances d’été",
-  "preuve": "US 623CFA -> FR 627C16 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Winter Holidays RIBBON",
-  "msgstr": "RUBAN vacances d’hiver",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/text/gift_ribbon_descriptions.h",
-  "ligne": 37,
-  "ancien": "Ruban vacances d’hiver",
-  "preuve": "US 623D12 -> FR 627C2C (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Spring Holidays RIBBON",
-  "msgstr": "RUBAN vac. de printemps",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/text/gift_ribbon_descriptions.h",
-  "ligne": 38,
-  "ancien": "Ruban vac. de printemps",
-  "preuve": "US 623D29 -> FR 627C43 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Evergreen RIBBON",
-  "msgstr": "RUBAN feuilles persist.",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/text/gift_ribbon_descriptions.h",
-  "ligne": 39,
-  "ancien": "Ruban feuilles persist.",
-  "preuve": "US 623D40 -> FR 627C5B (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Special Holiday RIBBON",
-  "msgstr": "RUBAN vac. spéciales",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/text/gift_ribbon_descriptions.h",
-  "ligne": 40,
-  "ancien": "Ruban vac. spéciales",
-  "preuve": "US 623D51 -> FR 627C73 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "Hard Worker RIBBON",
-  "msgstr": "RUBAN travailleur",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/text/gift_ribbon_descriptions.h",
-  "ligne": 41,
-  "ancien": "Ruban travailleur",
-  "preuve": "US 623D68 -> FR 627C88 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
   "msgid": "Lots of Friends RIBBON",
@@ -14488,25 +13623,6 @@
   "ancien": "CONCOURS SANG-FROID",
   "preuve": "US 2EFE70 -> FR 2F8DAC (pointeur x1) ; US 623869 -> FR 627741 (pointeur x4) ; table octets EN->FR (x5)",
   "note": "autre(s) texte(s) FR minoritaire(s) : « au PANTHEON » (tm)"
- },
- {
-  "msgid": "TOUGH CONTEST",
-  "msgstr": "CONCOURS DE ROBUS.",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/text/ribbon_descriptions.h",
-  "ligne": 7,
-  "ancien": "CONCOURS DE ROBUSTESSE",
-  "preuve": "US 6238A0 -> FR 62778F (pointeur x4) ; table octets EN->FR (x4)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « CONCOURS DE ROBUSTESSE » (ptr+tm)"
- },
- {
-  "msgid": "For clearing LV50",
-  "msgstr": "RUBAN de victoire N.50",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/data/text/ribbon_descriptions.h",
-  "ligne": 12,
-  "ancien": "Ruban de victoire N.50",
-  "preuve": "US 6238FC -> FR 6277FC (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
   "msgid": "For clearing Open Level",
@@ -17228,231 +16344,6 @@
   "preuve": "US 58BDC8 -> FR 590198 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
-  "msgid": "STEREO",
-  "msgstr": "STEREO",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/option_menu.c",
-  "ligne": 214,
-  "ancien": "STÉRÉO",
-  "preuve": "US 5EE62E -> FR 5F28CE (zone parallèle, décalage +17056)"
- },
- {
-  "msgid": "LR",
-  "msgstr": "LR",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/option_menu.c",
-  "ligne": 219,
-  "preuve": "US 5EE65A -> FR 5F28FB (zone parallèle, décalage +17057) ; US C89C28 -> FR C89C84 (zone parallèle, décalage +92)"
- },
- {
-  "msgid": "LEGENDARY",
-  "msgstr": "LEGENDAIRE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokedex_plus_hgss.c",
-  "ligne": 158,
-  "ancien": "LEGENDE",
-  "preuve": "US 56BD10 -> FR 571074 (zone parallèle, décalage +21348)"
- },
- {
-  "msgid": "RELAXED",
-  "msgstr": "RELAX",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokedex_plus_hgss.c",
-  "ligne": 162,
-  "ancien": "Relax",
-  "preuve": "US 61CADB -> FR 620ED6 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "HARDY",
-  "msgstr": "HARDI",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2563,
-  "ancien": "Hardi",
-  "preuve": "US 61CAAC -> FR 620EA8 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "LONELY",
-  "msgstr": "SOLO",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2575,
-  "ancien": "Solo",
-  "preuve": "US 61CAB2 -> FR 620EAE (pointeur x1) ; table octets EN->FR (x1)",
-  "note": "autre(s) texte(s) FR minoritaire(s) : « SOLITAIRE » (delta)"
- },
- {
-  "msgid": "BRAVE",
-  "msgstr": "BRAVE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2587,
-  "ancien": "Brave",
-  "preuve": "US 61CAB9 -> FR 620EB3 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "ADAMANT",
-  "msgstr": "RIGIDE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2599,
-  "ancien": "Rigide",
-  "preuve": "US 61CABF -> FR 620EB9 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "NAUGHTY",
-  "msgstr": "MAUVAIS",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2611,
-  "ancien": "Mauvais",
-  "preuve": "US 61CAC7 -> FR 620EC0 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "BOLD",
-  "msgstr": "ASSURE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2623,
-  "ancien": "Assuré",
-  "preuve": "US 61CACF -> FR 620EC8 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "IMPISH",
-  "msgstr": "MALIN",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2659,
-  "ancien": "Malin",
-  "preuve": "US 61CAE3 -> FR 620EDC (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "TIMID",
-  "msgstr": "TIMIDE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2683,
-  "ancien": "Timide",
-  "preuve": "US 61CAEE -> FR 620EE8 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "HASTY",
-  "msgstr": "Presse",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2695,
-  "ancien": "Pressé",
-  "preuve": "US 61CAF4 -> FR 620EEF (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "JOLLY",
-  "msgstr": "JOVIAL",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2719,
-  "ancien": "Jovial",
-  "preuve": "US 56D790 -> FR 572AF4 (zone parallèle, décalage +21348) ; US 61CB02 -> FR 620EFE (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "NAIVE",
-  "msgstr": "NAIF",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2731,
-  "ancien": "Naïf",
-  "preuve": "US 61CB08 -> FR 620F05 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "MODEST",
-  "msgstr": "MODESTE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2743,
-  "ancien": "Modeste",
-  "preuve": "US 61CB0E -> FR 620F0A (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "MILD",
-  "msgstr": "DOUX",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2755,
-  "ancien": "Doux",
-  "preuve": "US 61CB15 -> FR 620F12 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "QUIET",
-  "msgstr": "DISCRET",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2767,
-  "ancien": "Discret",
-  "preuve": "US 61CB1A -> FR 620F17 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "BASHFUL",
-  "msgstr": "PUDIQUE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2779,
-  "ancien": "Pudique",
-  "preuve": "US 61CB20 -> FR 620F1F (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "RASH",
-  "msgstr": "FOUFOU",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2791,
-  "ancien": "Foufou",
-  "preuve": "US 61CB28 -> FR 620F27 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "CALM",
-  "msgstr": "CALME",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2803,
-  "ancien": "Calme",
-  "preuve": "US 61CB2D -> FR 620F2E (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "GENTLE",
-  "msgstr": "GENTIL",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2815,
-  "ancien": "Gentil",
-  "preuve": "US 61CB32 -> FR 620F34 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "SASSY",
-  "msgstr": "MALPOLI",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2827,
-  "ancien": "Malpoli",
-  "preuve": "US 61CB39 -> FR 620F3B (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "CAREFUL",
-  "msgstr": "PRUDENT",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2839,
-  "ancien": "Prudent",
-  "preuve": "US 61CB3F -> FR 620F43 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "QUIRKY",
-  "msgstr": "BIZARRE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/pokemon.c",
-  "ligne": 2851,
-  "ancien": "Bizarre",
-  "preuve": "US 61CB47 -> FR 620F4B (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
   "msgid": "The minimum wager at this table\\nis {STR_VAR_1}. Do you want to play?",
   "msgstr": "A cette table, la mise minimum est\\nde {STR_VAR_1}. Voulez-vous jouer?",
   "source": "Émeraude FR officiel",
@@ -17460,87 +16351,6 @@
   "ligne": 419,
   "ancien": "Mise minimale à cette table:\\n{STR_VAR_1}. Voulez-vous jouer?",
   "preuve": "US 2A5B12 -> FR 2AE289 (pointeur x2)"
- },
- {
-  "msgid": "RAINBOW",
-  "msgstr": "ARCENCIEL",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/scrcmd.c",
-  "ligne": 1761,
-  "ancien": "Rainbow",
-  "preuve": "US 56D4F0 -> FR 572854 (zone parallèle, décalage +21348)"
- },
- {
-  "msgid": "A Button",
-  "msgstr": "A Button",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/strings.c",
-  "ligne": 30,
-  "ancien": "Bouton A",
-  "preuve": "US 5E84DA -> FR 5EC5F6 (zone parallèle, décalage +16668)"
- },
- {
-  "msgid": "B Button",
-  "msgstr": "B Button",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/strings.c",
-  "ligne": 31,
-  "ancien": "Bouton B",
-  "preuve": "US 5E84E3 -> FR 5EC5FF (zone parallèle, décalage +16668)"
- },
- {
-  "msgid": "R Button",
-  "msgstr": "R Button",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/strings.c",
-  "ligne": 32,
-  "ancien": "Bouton R",
-  "preuve": "US 5E84EC -> FR 5EC608 (zone parallèle, décalage +16668) ; US 5E8523 -> FR 5EC63F (zone parallèle, décalage +16668)"
- },
- {
-  "msgid": "L Button",
-  "msgstr": "L Button",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/strings.c",
-  "ligne": 33,
-  "ancien": "Bouton L",
-  "preuve": "US 5E84F5 -> FR 5EC611 (zone parallèle, décalage +16668)"
- },
- {
-  "msgid": "L Button  R Button",
-  "msgstr": "L Button  R Button",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/strings.c",
-  "ligne": 37,
-  "ancien": "Bouton L  Bouton R",
-  "preuve": "US 5E8519 -> FR 5EC635 (zone parallèle, décalage +16668)"
- },
- {
-  "msgid": "CONTROLS",
-  "msgstr": "CONTROLS",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/strings.c",
-  "ligne": 38,
-  "ancien": "COMMANDES",
-  "preuve": "US 5E852C -> FR 5EC648 (zone parallèle, décalage +16668)"
- },
- {
-  "msgid": "{DPAD_UPDOWN}PICK {A_BUTTON}OK",
-  "msgstr": "{DPAD_UPDOWN}PICK {A_BUTTON}OK",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/strings.c",
-  "ligne": 39,
-  "ancien": "{DPAD_UPDOWN}CHOIX{A_BUTTON}OK",
-  "preuve": "US 5E8538 -> FR 5EC654 (zone parallèle, décalage +16668)"
- },
- {
-  "msgid": "{A_BUTTON}NEXT",
-  "msgstr": "{A_BUTTON}NEXT",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/strings.c",
-  "ligne": 40,
-  "ancien": "{A_BUTTON}SUITE",
-  "preuve": "US 5E8544 -> FR 5EC660 (zone parallèle, décalage +16668)"
  },
  {
   "msgid": "Do what with this {PKMN}?",
@@ -17569,15 +16379,6 @@
   "ligne": 394,
   "ancien": "Ce n’est pas un OEUF.",
   "preuve": "US 5EA320 -> FR 5EE490 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "PLANT",
-  "msgstr": "Plante",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/strings.c",
-  "ligne": 458,
-  "ancien": "PLANTE",
-  "preuve": "US 5EA864 -> FR 5EEA16 (pointeur x1) ; table octets EN->FR (x1)"
  },
  {
   "msgid": "GO ON",
@@ -17760,14 +16561,5 @@
   "ligne": 1194,
   "ancien": "{DPAD_UPDOWN}CHOIX {A_BUTTON}OK {B_BUTTON}FIN",
   "preuve": "US 5EF664 -> FR 5F39B0 (pointeur x1) ; table octets EN->FR (x1)"
- },
- {
-  "msgid": "LIGHTNING",
-  "msgstr": "ORAGE",
-  "source": "Émeraude FR officiel",
-  "fichier": "src/strings.c",
-  "ligne": 1245,
-  "ancien": "ÉCLAIR",
-  "preuve": "US 56C690 -> FR 5719F4 (zone parallèle, décalage +21348) ; US 56DC50 -> FR 572FB4 (zone parallèle, décalage +21348)"
  }
 ]
