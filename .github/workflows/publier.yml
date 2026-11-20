@@ -3,7 +3,9 @@
 # Secrets du dépôt (Settings → Secrets and variables → Actions) :
 #   HNS_ROMS_DEPLOY_KEY  clé SSH privée, en lecture seule, du dépôt privé tfournier/hns-roms
 #   ROM_PASSPHRASE       phrase de passe de emeraude_us.gba.gpg (dans tfournier/hns-roms)
-# Aucune ROM n'est publiée : seul le fichier UPS est joint à la release « derniere-version ».
+# Chaque publication crée une release v<version HnS>-fr.<n° de publication> (ex. v2.0.6-fr.3), marquée Latest ;
+# https://github.com/tfournier/PokemonHnS-FR/releases/latest pointe toujours vers la dernière.
+# Aucune ROM n'est publiée : seul le fichier UPS est joint à la release.
 name: Publier le patch UPS
 
 on:
@@ -71,13 +73,14 @@ jobs:
           ls dist/*_sur_HnS_anglais.ups
           [ "$ok" = 1 ]
 
-      - name: Release « derniere-version »
+      - name: Release v<version>-fr.<n>
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           ups=$(ls dist/*_sur_HnS_anglais.ups)
           crc=$(python -c 'import zlib,sys; print("%08X" % zlib.crc32(open(sys.argv[1],"rb").read()))' build/pokehns_fr.gba)
           tag=$(tr -d '[:space:]' < upstream.txt)
+          version="${tag#Release-}-fr.${GITHUB_RUN_NUMBER}"
           cat > "$RUNNER_TEMP/notes.md" <<EOF
           Traduction française de Pokémon Heart & Soul ($tag), construite automatiquement à partir du commit ${GITHUB_SHA::8}.
 
@@ -86,6 +89,5 @@ jobs:
           - CRC32 de la ROM obtenue : \`$crc\`
           - Aucune ROM n'est distribuée ici.
           EOF
-          gh release delete derniere-version --cleanup-tag --yes || true
-          gh release create derniere-version "$ups" --target "$GITHUB_SHA" \
-            --title "Heart & Soul FR — dernière version (${GITHUB_SHA::8})" --notes-file "$RUNNER_TEMP/notes.md" --latest
+          gh release create "$version" "$ups" --target "$GITHUB_SHA" \
+            --title "Heart & Soul FR $version" --notes-file "$RUNNER_TEMP/notes.md" --latest

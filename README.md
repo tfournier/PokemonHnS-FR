@@ -78,9 +78,10 @@ officiels, patch FR actuel, traduction nouvelle).
 
 ## Publication automatique (GitHub Actions)
 
-À chaque push sur `main`, `.github/workflows/publier.yml` construit la traduction et remplace la release
-**derniere-version** du dépôt, avec le seul fichier UPS (sur Heart & Soul anglais) en pièce jointe. Aucune
-ROM n'est publiée.
+À chaque push sur `main`, `.github/workflows/publier.yml` construit la traduction et crée une release
+**v\<version HnS\>-fr.\<n\>** (ex. `v2.0.6-fr.3`, n = numéro de publication de la CI), marquée *Latest*, avec le
+seul fichier UPS (sur Heart & Soul anglais) en pièce jointe. La dernière est toujours à
+<https://github.com/tfournier/PokemonHnS-FR/releases/latest>. Aucune ROM n'est publiée.
 
 - La CI reconstruit la ROM anglaise de HnS : Émeraude US, chiffrée avec gpg (AES-256), est dans le dépôt
   **privé** `tfournier/hns-roms` ; le patch officiel HnS vient de la release publique de pokehns-expansion.
