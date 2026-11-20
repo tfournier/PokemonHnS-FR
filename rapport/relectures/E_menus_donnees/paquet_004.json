@@ -1,0 +1,362 @@
+[
+ {
+  "id": 4,
+  "categorie": "oubli",
+  "probleme": "Le libellé décrit l’état des plants sans indiquer l’action.",
+  "correction": "Préparer les plants",
+  "justification": "La commande rend les plants prêts à être récoltés.",
+  "msgid": "Ready map trees",
+  "msgstr": "Plants prêts",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « plants ».",
+  "correction": "Faire pousser les plants",
+  "justification": "L’article défini désigne les plants présents sur la carte.",
+  "msgid": "Grow map trees",
+  "msgstr": "Faire pousser plants",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "oubli",
+  "probleme": "Le libellé décrit la présence d’insectes sans indiquer qu’il en ajoute.",
+  "correction": "Infester les plants",
+  "justification": "Le verbe indique que la commande provoque une infestation.",
+  "msgid": "Give map trees pests",
+  "msgstr": "Insectes sur plants",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "oubli",
+  "probleme": "L’action d’ajouter des mauvaises herbes a disparu.",
+  "correction": "Ajouter des adventices",
+  "justification": "« Adventices » désigne les mauvaises herbes et permet de conserver le verbe dans le libellé.",
+  "msgid": "Give map trees weeds",
+  "msgstr": "Mauvaises herbes",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « suiveur ».",
+  "correction": "Créer un suiveur",
+  "justification": "La commande crée un nouveau PNJ suiveur.",
+  "msgid": "Create Follower",
+  "msgstr": "Créer suiveur",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « suiveur ».",
+  "correction": "Supprimer le suiveur",
+  "justification": "L’article défini désigne le PNJ suiveur déjà présent.",
+  "msgid": "Destroy Follower",
+  "msgstr": "Supprimer suiveur",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « carte ».",
+  "correction": "Voler vers la carte…",
+  "justification": "« Vers » introduit ici un groupe nominal avec un article.",
+  "msgid": "Fly to map…",
+  "msgstr": "Voler vers carte…",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "oubli",
+  "probleme": "« Aller » ne rend pas le mode de déplacement indiqué par « warp ».",
+  "correction": "Téléportation…",
+  "justification": "Le libellé identifie la téléportation, dont le point d’arrivée se choisit dans le sous-menu.",
+  "msgid": "Warp to map warp…",
+  "msgstr": "Aller au point…",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "terminologie",
+  "probleme": "Le nom du personnage de Hoenn doit être en capitales.",
+  "correction": "Multi PIERRE",
+  "justification": "Graphie de Pokémon Émeraude FR, conformément à la convention du projet pour les personnages de Hoenn.",
+  "msgid": "Steven Multi",
+  "msgstr": "Multi Pierre",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « boîtes ».",
+  "correction": "Remplir les boîtes vite",
+  "justification": "L’article défini désigne les boîtes de stockage du PC.",
+  "msgid": "Fill PC Boxes Fast",
+  "msgstr": "Remplir boîtes vite",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "oubli",
+  "probleme": "« LENT! » indique le mode lent, mais omet l’avertissement de ralentissement.",
+  "correction": "Boîtes: rempl. lent (LAG!)",
+  "justification": "Le libellé conserve le remplissage, sa vitesse et l’avertissement.",
+  "msgid": "Fill PC Boxes Slow (LAG!)",
+  "msgstr": "Remplir boîtes (LENT!)",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "orthographe",
+  "probleme": "« Remplir PC objets » ne précise pas grammaticalement le rôle d’« objets ».",
+  "correction": "Remplir le PC d’objets",
+  "justification": "La construction « remplir de » indique ce qui est ajouté au PC.",
+  "msgid": "Fill PC Items",
+  "msgstr": "Remplir PC objets",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "oubli",
+  "probleme": "Le libellé nomme la poche sans indiquer qu’elle sera remplie.",
+  "correction": "Objets: remplir",
+  "justification": "Le verbe explicite l’action appliquée à la poche Objets.",
+  "msgid": "Fill Pocket Items",
+  "msgstr": "Poche Objets",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "oubli",
+  "probleme": "Le libellé nomme la poche sans indiquer qu’elle sera remplie.",
+  "correction": "Poké Balls: remplir",
+  "justification": "Le verbe explicite l’action appliquée à la poche Poké Balls.",
+  "msgid": "Fill Pocket Poké Balls",
+  "msgstr": "Poche Poké Balls",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "oubli",
+  "probleme": "Le libellé nomme la poche sans indiquer qu’elle sera remplie.",
+  "correction": "CT/CS: remplir",
+  "justification": "Le verbe explicite l’action appliquée à la poche CT/CS.",
+  "msgid": "Fill Pocket TMHM",
+  "msgstr": "Poche CT/CS",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "oubli",
+  "probleme": "Le libellé nomme la poche sans indiquer qu’elle sera remplie.",
+  "correction": "Baies: remplir",
+  "justification": "Le verbe explicite l’action appliquée à la poche Baies.",
+  "msgid": "Fill Pocket Berries",
+  "msgstr": "Poche Baies",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "oubli",
+  "probleme": "Le libellé nomme la poche sans indiquer qu’elle sera remplie.",
+  "correction": "Objets rares: remplir",
+  "justification": "Le verbe explicite l’action appliquée à la poche Objets rares.",
+  "msgid": "Fill Pocket Key Items",
+  "msgstr": "Poche Objets rares",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "oubli",
+  "probleme": "Le « 1 » qui identifie le statut principal a disparu.",
+  "correction": "Infliger le statut 1",
+  "justification": "Le numéro distingue le statut principal des autres états.",
+  "msgid": "Inflict Status1",
+  "msgstr": "Infliger statut",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "oubli",
+  "probleme": "Le libellé nomme la Nature cachée sans indiquer qu’elle sera modifiée.",
+  "correction": "Régler nature cachée",
+  "justification": "Le verbe restitue l’action de « Set ».",
+  "msgid": "Set Hidden Nature",
+  "msgstr": "Nature cachée",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "terminologie",
+  "probleme": "« Rappel capacités » remplace le nom du personnage par celui du service.",
+  "correction": "Maître des capacités",
+  "justification": "Appellation française du personnage indiquée dans le contexte de l’entrée.",
+  "msgid": "Move Relearner",
+  "msgstr": "Rappel capacités",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « Œuf ».",
+  "correction": "Faire éclore un Œuf",
+  "justification": "L’article indéfini restitue « an Egg ».",
+  "msgid": "Hatch an Egg",
+  "msgstr": "Faire éclore Œuf",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « Pokémon ».",
+  "correction": "Modifier un Pokémon",
+  "justification": "La commande modifie un Pokémon choisi.",
+  "msgid": "Edit Pokemon",
+  "msgstr": "Modifier Pokémon",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « Pokérus ».",
+  "correction": "Donner le Pokérus",
+  "justification": "« Donner » a ici pour complément « le Pokérus ».",
+  "msgid": "Give Pokerus",
+  "msgstr": "Donner Pokérus",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « Pokérus ».",
+  "correction": "Retirer le Pokérus",
+  "justification": "« Retirer » a ici pour complément « le Pokérus ».",
+  "msgid": "Clear Pokerus",
+  "msgstr": "Retirer Pokérus",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "oubli",
+  "probleme": "L’action de donner l’objet a disparu.",
+  "correction": "Donner objet XYZ…",
+  "justification": "Le verbe indique ce que fera la commande après le choix de l’objet.",
+  "msgid": "Give item XYZ…",
+  "msgstr": "Objet XYZ…",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "terminologie",
+  "probleme": "La graphie « simple » ne suit pas le lexique fourni.",
+  "correction": "Pokémon (Simple)",
+  "justification": "Le lexique du projet prescrit « Simple ».",
+  "msgid": "Pokémon (Basic)",
+  "msgstr": "Pokémon (simple)",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "oubli",
+  "probleme": "L’action de donner la décoration a disparu.",
+  "correction": "Donner une déco…",
+  "justification": "Le verbe restitue l’attribution et la forme abrégée conserve le sens dans la largeur disponible.",
+  "msgid": "Give Decoration…",
+  "msgstr": "Décoration…",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "contresens",
+  "probleme": "« Matchs » désigne des rencontres en général, alors que ce compteur concerne les revanches.",
+  "correction": "Revanches {STR_VAR_1}/{STR_VAR_2}",
+  "justification": "Le libellé identifie les combats comptés par ce menu.",
+  "msgid": "Matches {STR_VAR_1}/{STR_VAR_2}",
+  "msgstr": "Matchs {STR_VAR_1}/{STR_VAR_2}",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "oubli",
+  "probleme": "Le libellé omet la notion de bloc.",
+  "correction": "Espace bloc sauv.",
+  "justification": "La commande concerne l’espace du bloc de sauvegarde.",
+  "msgid": "Save Block space",
+  "msgstr": "Espace sauvegarde",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "oubli",
+  "probleme": "L’action exprimée par « Set » a disparu.",
+  "correction": "Régler le flag XYZ…",
+  "justification": "Le verbe indique que le sous-menu sert à modifier l’état du flag choisi.",
+  "msgid": "Set Flag XYZ…",
+  "msgstr": "Flag XYZ…",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "oubli",
+  "probleme": "L’action exprimée par « Set » a disparu.",
+  "correction": "Régler la var. XYZ…",
+  "justification": "Le verbe indique que le sous-menu sert à modifier la valeur de la variable choisie.",
+  "msgid": "Set Var XYZ…",
+  "msgstr": "Var XYZ…",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "typographie",
+  "probleme": "Une espace précède les deux-points.",
+  "correction": "Pokédex: tout",
+  "justification": "La convention du jeu supprime l’espace avant les deux-points.",
+  "msgid": "Pokédex Flags All",
+  "msgstr": "Pokédex : tout",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "typographie",
+  "probleme": "Une espace précède les deux-points.",
+  "correction": "Pokédex: remise à 0",
+  "justification": "La convention du jeu supprime l’espace avant les deux-points.",
+  "msgid": "Pokédex Flags Reset",
+  "msgstr": "Pokédex : remise à 0",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "terminologie",
+  "probleme": "« Dex National » abrège le nom français officiel.",
+  "correction": "Bascule {STR_VAR_1}Pokédex national",
+  "justification": "« Pokédex national » est l’appellation française de Pokémon SoulSilver.",
+  "msgid": "Toggle {STR_VAR_1}National Dex",
+  "msgstr": "Bascule {STR_VAR_1}Dex National",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "contresens",
+  "probleme": "« Version finale » peut désigner la dernière version, alors que « Release Build » désigne une version destinée à la diffusion.",
+  "correction": "\\nVersion de diffusion",
+  "justification": "Le libellé identifie le type de version affiché.",
+  "msgid": "\\nRelease Build",
+  "msgstr": "\\nVersion finale",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "terminologie",
+  "probleme": "« Niv. » ne suit pas l’abréviation prescrite pour « niveau ».",
+  "correction": "N. Dmax:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "justification": "La convention du projet prescrit « N. » pour le niveau.",
+  "msgid": "Dmax Lvl:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "msgstr": "Niv. Dmax:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "msgctxt": ""
+ }
+]

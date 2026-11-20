@@ -25,7 +25,7 @@ from gen3 import Gen3
 import style
 
 P = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BLOQ = {'CODES', 'KANA', 'CARACTERE', 'LONGUEUR', 'ESPACE'}
+BLOQ = {'CODES', 'KANA', 'CARACTERE', 'LONGUEUR', 'ESPACE', 'TYPO'}
 
 
 def plat(s):

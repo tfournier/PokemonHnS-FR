@@ -19,7 +19,7 @@ import polib, hnsfr
 from verifier import Verif
 
 P = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BLOQUANTS = {'CODES', 'KANA', 'CARACTERE', 'LONGUEUR', 'ESPACE', 'FRAGMENT'}
+BLOQUANTS = {'CODES', 'KANA', 'CARACTERE', 'LONGUEUR', 'ESPACE', 'FRAGMENT', 'TYPO'}
 
 
 def rang(source):
@@ -74,6 +74,8 @@ def main():
                     st['msgid inconnu'] += 1; journal.append(('msgid inconnu', mid, mstr, '')); continue
             d, e = index[cle]
             occ = e.occurrences or ([(it['fichier'], it.get('ligne', 0))] if it.get('fichier') else [])
+            if not ctx:   # les fichiers couverts par une entrée à contexte ne comptent pas pour l'entrée générale
+                occ = [o for o in occ if (o[0], mid) not in index]
             pbs = V.check(mid, mstr, occ, 'source : ' + src, d)
             bloq = [p for p in pbs if p[0] in BLOQUANTS and not (p[0] == 'FRAGMENT' and not src.lower().startswith('patch'))]
             if bloq:

@@ -150,7 +150,7 @@ class Charmap:
                 j = s.find('}', i)
                 if j < 0: bad.append(s[i:]); break
                 tok = s[i+1:j].split()
-                if not tok or tok[0] not in self.names: bad.append(s[i:j+1])
+                if not tok or (tok[0] not in self.names and not re.fullmatch(r'0x[0-9A-Fa-f]{1,2}', tok[0])): bad.append(s[i:j+1])
                 i = j + 1; continue
             if c == '\\':
                 if s[i:i+2] in ('\\n', '\\l', '\\p', '\\"', "\\'", '\\\\'): i += 2; continue

@@ -16,6 +16,7 @@ Contrôles (une ligne du rapport par problème) :
   GLOSSAIRE  terme en capitales dont le glossaire donne une autre graphie
   FRAGMENT   texte venant du patch FR qui ne commence pas à un début de chaîne dans sa ROM
   ANGLAIS    traduction identique à l'anglais (hors noms propres/sigles)
+  TYPO       espace avant ! ? : ; (convention des officiels Gen 3/4)
 """
 import os, re, sys, json, collections, subprocess
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -132,6 +133,9 @@ class Verif:
         for fin in ('\\n', '\\p', '\\l', ' '):
             if msgid.endswith(fin) and not msgstr.endswith(fin):
                 pb.append(('ESPACE', 'fin %r non conservée' % fin))
+        # typographie : pas d'espace avant ! ? : ; (sauf si l'anglais en a, ex. « 1 : 2 » dans un menu)
+        if re.search(r'[^\s\\] [!?:;]', CODE.sub('X', msgstr)) and not re.search(r' [!?:;]', CODE.sub('X', msgid)):
+            pb.append(('TYPO', 'espace avant ! ? : ;'))
         # kana / caractères
         if KANA.search(msgstr):
             pb.append(('KANA', ''.join(sorted(set(KANA.findall(msgstr))))))

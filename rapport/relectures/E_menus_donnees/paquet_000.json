@@ -1,0 +1,192 @@
+[
+ {
+  "id": 9,
+  "categorie": "contresens",
+  "probleme": "« Chef de projet » désigne la direction du projet dans son ensemble.",
+  "correction": "Chef programmeur\\n\\nResponsable de la conception\\n\\nChef graphiste\\n\\n",
+  "justification": "Dans ce générique, « Planning Leader » désigne la personne à la tête de l’équipe de conception.",
+  "msgid": "Program Leader\\n\\nPlanning Leader\\n\\nGraphic Design Leader\\n\\n",
+  "msgstr": "Chef programmeur\\n\\nChef de projet\\n\\nChef graphiste\\n\\n",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "oubli",
+  "probleme": "La programmation de l’environnement est omise.",
+  "correction": "\\nProgrammeurs environnement et outils\\n\\n\\n\\n\\n",
+  "justification": "La rubrique crédite la programmation de l’environnement et celle des outils.",
+  "msgid": "\\nEnvironment & Tool Programmers\\n\\n\\n\\n\\n",
+  "msgstr": "\\nProgrammeurs outils\\n\\n\\n\\n\\n",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "typographie",
+  "probleme": "Une espace précède les deux-points.",
+  "correction": "R: ENREGISTRER!",
+  "justification": "La convention du projet supprime l’espace avant les deux-points.",
+  "msgid": "R TO REGISTER!",
+  "msgstr": "R : ENREGISTRER!",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "contresens",
+  "probleme": "« Inactif » indique que l’effet est désactivé.",
+  "correction": "ANORMAL (HORS SERVICE)",
+  "justification": "« Not working » signale que l’effet météo ne fonctionne pas.",
+  "msgid": "ABNORMAL(NOT WORKING)",
+  "msgstr": "ANORMAL(INACTIF)",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’accent aigu sur le É majuscule.",
+  "correction": "{DPAD_UPDOWN}ÉVOL.  {A_BUTTON}VOIR",
+  "justification": "L’abréviation d’« évolutions » conserve l’accent en capitales.",
+  "msgid": "{DPAD_UPDOWN}EVOs  {A_BUTTON}CHECK",
+  "msgstr": "{DPAD_UPDOWN}EVOL.  {A_BUTTON}VOIR",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "contresens",
+  "probleme": "« Type ARMULYS » transforme un critère de personnalité en type.",
+  "correction": "{LV}{UP_ARROW} au {STR_VAR_2}, personnalité ARMULYS",
+  "justification": "L’évolution dépend de la personnalité de CHENIPOTTE.",
+  "msgid": "{LV}{UP_ARROW} to {STR_VAR_2}, Silcoon persona",
+  "msgstr": "{LV}{UP_ARROW} au {STR_VAR_2}, type ARMULYS",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "contresens",
+  "probleme": "« Type BLINDALYS » transforme un critère de personnalité en type.",
+  "correction": "{LV}{UP_ARROW} au {STR_VAR_2}, personnalité BLINDALYS",
+  "justification": "L’évolution dépend de la personnalité de CHENIPOTTE.",
+  "msgid": "{LV}{UP_ARROW} to {STR_VAR_2}, Cascoon persona",
+  "msgstr": "{LV}{UP_ARROW} au {STR_VAR_2}, type BLINDALYS",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "oubli",
+  "probleme": "Le texte omet que CANARTICHO doit porter les coups critiques.",
+  "correction": "Porter {STR_VAR_2} coups critiques\\nen un seul combat",
+  "justification": "« Land » précise que les coups critiques doivent être réussis par le Pokémon.",
+  "msgid": "Land {STR_VAR_2} critical hits in\\nsingle battle",
+  "msgstr": "{STR_VAR_2} coups critiques en\\nun seul combat",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "oubli",
+  "probleme": "La simple perte de PV ne précise pas qu’il faut subir des dégâts.",
+  "correction": "Subit au moins {STR_VAR_2} PV de dégâts",
+  "justification": "La condition anglaise porte sur les dégâts reçus.",
+  "msgid": "Takes at least {STR_VAR_2} HP in damage",
+  "msgstr": "Perd au moins {STR_VAR_2} PV",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "orthographe",
+  "probleme": "« Étire » est employé sans complément ni pronom réfléchi.",
+  "correction": "V S’ÉTIRE",
+  "justification": "La forme pronominale indique que le sprite s’étire verticalement.",
+  "msgid": "V STRETCH",
+  "msgstr": "V ÉTIRE",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "orthographe",
+  "probleme": "« Étire » est employé sans complément ni pronom réfléchi.",
+  "correction": "H S’ÉTIRE",
+  "justification": "La forme pronominale indique que le sprite s’étire horizontalement.",
+  "msgid": "H STRETCH",
+  "msgstr": "H ÉTIRE",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "orthographe",
+  "probleme": "« Saccadé » est employé comme adverbe après « grandit ».",
+  "correction": "GRANDIT PAR À-COUPS",
+  "justification": "« Par à-coups » exprime la manière dont le sprite grandit.",
+  "msgid": "GROW STUTTER",
+  "msgstr": "GRANDIT SACCADÉ",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "contresens",
+  "probleme": "« Écrase » présente le sprite comme l’auteur de l’écrasement.",
+  "correction": "V S’ÉCRASE ET REBONDIT",
+  "justification": "Le sprite s’écrase verticalement, puis rebondit.",
+  "msgid": "V SQUISH AND BOUNCE",
+  "msgstr": "V ÉCRASE ET REBONDIT",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "orthographe",
+  "probleme": "« Balance » est employé sans pronom réfléchi et « concave » qualifie la trajectoire.",
+  "correction": "OSCILLATION CONCAVE",
+  "justification": "Le groupe nominal désigne le mouvement et la forme de sa trajectoire.",
+  "msgid": "SWING CONCAVE",
+  "msgstr": "BALANCE CONCAVE",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "orthographe",
+  "probleme": "« Balance » est employé sans pronom réfléchi et les adjectifs qualifient le mouvement.",
+  "correction": "OSCIL. CONCAVE RAPIDE",
+  "justification": "Le nom abrégé permet de conserver la trajectoire et la vitesse dans la limite de 23 caractères.",
+  "msgid": "SWING CONCAVE FAST",
+  "msgstr": "BALANCE CONCAVE RAPIDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "orthographe",
+  "probleme": "« Balance » est employé sans pronom réfléchi et « convexe » qualifie la trajectoire.",
+  "correction": "OSCILLATION CONVEXE",
+  "justification": "Le groupe nominal désigne le mouvement et la forme de sa trajectoire.",
+  "msgid": "SWING CONVEX",
+  "msgstr": "BALANCE CONVEXE",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "orthographe",
+  "probleme": "« Balance » est employé sans pronom réfléchi et les adjectifs qualifient le mouvement.",
+  "correction": "OSCIL. CONVEXE RAPIDE",
+  "justification": "Le nom abrégé permet de conserver la trajectoire et la vitesse dans la limite de 23 caractères.",
+  "msgid": "SWING CONVEX FAST",
+  "msgstr": "BALANCE CONVEXE RAPIDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "orthographe",
+  "probleme": "L’adjectif « circulaire » est employé comme adverbe après « vibre ».",
+  "correction": "VIBRATION CIRCULAIRE",
+  "justification": "« Circulaire » qualifie la vibration.",
+  "msgid": "CIRCULAR VIBRATE",
+  "msgstr": "VIBRE CIRCULAIRE",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "oubli",
+  "probleme": "Le déplacement vers l’avant est omis.",
+  "correction": "PENCHE ET AVANCE",
+  "justification": "« Tip » exprime l’inclinaison et « move forward » le déplacement.",
+  "msgid": "TIP MOVE FORWARD",
+  "msgstr": "PENCHE EN AVANT",
+  "msgctxt": ""
+ }
+]

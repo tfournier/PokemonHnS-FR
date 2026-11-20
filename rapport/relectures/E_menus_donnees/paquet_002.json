@@ -1,0 +1,122 @@
+[
+ {
+  "id": 39,
+  "categorie": "oubli",
+  "probleme": "« Fonds » omet la précision « Move ».",
+  "correction": "{START_BUTTON} Brillant\\n{B_BUTTON} Retour  {A_BUTTON} Fonds de cap.$",
+  "justification": "Le bouton ouvre les fonds d’animation des capacités.",
+  "msgid": "{START_BUTTON} Shiny\\n{B_BUTTON} Back  {A_BUTTON} Move BGs$",
+  "msgstr": "{START_BUTTON} Brillant\\n{B_BUTTON} Retour  {A_BUTTON} Fonds$",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "oubli",
+  "probleme": "« Fonds » omet la précision « Move ».",
+  "correction": "{START_BUTTON} Brillant {SELECT_BUTTON} Sexe\\n{B_BUTTON} Retour  {A_BUTTON} Fonds de cap.$",
+  "justification": "Le bouton ouvre les fonds d’animation des capacités.",
+  "msgid": "{START_BUTTON} Shiny {SELECT_BUTTON} Gender\\n{B_BUTTON} Back  {A_BUTTON} Move BGs$",
+  "msgstr": "{START_BUTTON} Brillant {SELECT_BUTTON} Sexe\\n{B_BUTTON} Retour  {A_BUTTON} Fonds$",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "typographie",
+  "probleme": "Il manque le point abréviatif après « const ».",
+  "correction": "val. const.:",
+  "justification": "« Const. » abrège « constante » et conserve son point devant le deux-points.",
+  "msgid": "const val:",
+  "msgstr": "val. const:",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "typographie",
+  "probleme": "Il manque le point abréviatif après « val ».",
+  "correction": "nouv. val.:",
+  "justification": "« Val. » abrège « valeur » et conserve son point devant le deux-points.",
+  "msgid": "new val:",
+  "msgstr": "nouv. val:",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "typographie",
+  "probleme": "Il manque les espaces autour de l’esperluette.",
+  "correction": "Geb & Megan",
+  "justification": "Les espaces séparent les deux prénoms de leur conjonction, comme pour les autres duos.",
+  "msgid": "GEB&MEGAN",
+  "msgstr": "Geb&Megan",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "typographie",
+  "probleme": "Il manque les espaces autour de l’esperluette.",
+  "correction": "Lisa & Leah",
+  "justification": "Les espaces séparent les deux prénoms de leur conjonction, comme pour les autres duos.",
+  "msgid": "LISA&LEAH",
+  "msgstr": "Lisa&Leah",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "contresens",
+  "probleme": "« Tenu » qualifie l’effet au lieu de l’objet.",
+  "correction": "Effet de l’objet tenu",
+  "justification": "Le libellé désigne l’effet que produit l’objet tenu par le Pokémon.",
+  "msgid": "Hold Effect",
+  "msgstr": "Effet tenu",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "oubli",
+  "probleme": "Le caractère immédiat de la victoire disparaît.",
+  "correction": "Victoire imm.",
+  "justification": "L’abréviation restitue « Instant » dans un libellé court.",
+  "msgid": "Instant Win",
+  "msgstr": "Victoire",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "contresens",
+  "probleme": "« Toxik » évoque la capacité alors que le compteur se rapporte au statut.",
+  "correction": "Cpt. poison grave",
+  "justification": "Le compteur suit l’empoisonnement grave, quelle qu’en soit la cause.",
+  "msgid": "Toxic Counter",
+  "msgstr": "Compteur toxik",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "terminologie",
+  "probleme": "« Prélèvement Destin » développe la graphie retenue dans le jeu de référence.",
+  "correction": "Prlvt Destin",
+  "justification": "« Prlvt Destin » est le nom affiché dans Pokémon Argent SoulSilver en français.",
+  "msgid": "DestinyBond",
+  "msgstr": "Prélèvement Destin",
+  "msgctxt": ""
+ },
+ {
+  "id": 111,
+  "categorie": "contresens",
+  "probleme": "« Non-types » suggère une absence de type.",
+  "correction": "Dégâts hors type",
+  "justification": "L’effet inflige des dégâts aux Pokémon qui ne possèdent pas le type exempté.",
+  "msgid": "Damage Non-Types",
+  "msgstr": "Dégâts non-types",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "oubli",
+  "probleme": "Le libellé omet le caractère forcé de l’action.",
+  "correction": "Boost forcé tour 1",
+  "justification": "Le drapeau force l’action de préparation au premier tour. La correction tient en 18 caractères.",
+  "msgid": "Force Setup First Turn",
+  "msgstr": "Boost au 1er tour",
+  "msgctxt": ""
+ }
+]

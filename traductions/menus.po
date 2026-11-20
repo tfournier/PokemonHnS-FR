@@ -41,15 +41,21 @@ msgstr ""
 msgid "OAK: Inflicting damage on the foe\\nis the key to any battle.\\p"
 msgstr "CHEN: Infliger des dégâts à son\\nennemi est la clé de la victoire.\\p"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_controller_oak_old_man.c:54
 msgid ""
 "OAK: Keep your eyes on your\\nPOKéMON's HP.\\pIt will faint if the HP drops "
 "to\\n“0.”\\p"
 msgstr ""
+"CHEN: Surveille bien les PV\\nde ton Pokémon.\\pIl sera K.O. si ses "
+"PV\\ntombent à “0”.\\p"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_controller_oak_old_man.c:55
 msgid "OAK: Lowering the foe's stats\\nwill put you at an advantage.\\p"
-msgstr ""
+msgstr "CHEN: Baisser les stats de\\nl’ennemi te donne l’avantage.\\p"
 
 #. source : patch FR actuel
 #: src/battle_controller_oak_old_man.c:56
@@ -104,17 +110,23 @@ msgstr "PUIS: "
 msgid "ACC: "
 msgstr "PREC: "
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_controller_player.c:2002
 msgid " frames thinking\\n"
-msgstr ""
+msgstr " images de réflexion\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/battle_controller_player.c:2003
 msgid " cycles"
-msgstr ""
+msgstr " cycles"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_controller_player.c:2038
 msgid "Partner will use:\\n"
-msgstr ""
+msgstr "Le partenaire utilisera:\\n"
 
 #. source : Émeraude FR officiel
 #: src/battle_dome.c:860
@@ -1708,9 +1720,11 @@ msgstr "énormément "
 msgid "severely "
 msgstr "énormément "
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_message.c:191
 msgid "The terrain returned to normal!"
-msgstr ""
+msgstr "Le terrain redevient normal!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:196
@@ -6389,9 +6403,11 @@ msgstr "Soigne remplaçant"
 msgid "Power: "
 msgstr "Puiss.: "
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_z_move.c:105
 msgid "No Additional Effect"
-msgstr ""
+msgstr "Aucun effet supplémentaire"
 
 #. source : SoulSilver FR officiel
 #: src/berry.c:67
@@ -9304,13 +9320,17 @@ msgstr "C’est incontestablement le\\nplus fort, {STR_VAR_1} "
 msgid "The mighty tough\\nhyper POKéMON {STR_VAR_1}"
 msgstr "Le puissant et robuste Pokémon\\n{STR_VAR_1} "
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:349
 msgid "Pokémon FireRed Version\\nStaff"
-msgstr ""
+msgstr "Pokémon Version Rouge Feu\\nÉquipe"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:350
 msgid "Pokémon LeafGreen Version\\nStaff"
-msgstr ""
+msgstr "Pokémon Version Vert Feuille\\nÉquipe"
 
 #: src/credits_frlg.c:351
 msgid "\\n\\nDirector\\n\\n\\n\\n"
@@ -9320,63 +9340,91 @@ msgstr ""
 msgid "\\n\\n\\nJunichi Masuda\\n\\n\\n"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:353
 msgid "\\nArt Director\\n\\nBattle Director\\n\\n\\n"
-msgstr ""
+msgstr "\\nDirection artistique\\n\\nDirection des combats\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:354
 msgid "\\n\\nKen Sugimori\\n\\nShigeki Morimoto\\n\\n"
-msgstr ""
+msgstr "\\n\\nKen Sugimori\\n\\nShigeki Morimoto\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:355
 msgid "Program Leader\\n\\nPlanning Leader\\n\\nGraphic Design Leader\\n\\n"
-msgstr ""
+msgstr "Chef programmeur\\n\\nResponsable de la conception\\n\\nChef graphiste\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:356
 msgid "\\nTetsuya Watanabe\\n\\nKoji Nishino\\n\\nTakao Unno\\n"
-msgstr ""
+msgstr "\\nTetsuya Watanabe\\n\\nKoji Nishino\\n\\nTakao Unno\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:357
 msgid "Programmers\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "Programmeurs\\n\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:358
 msgid ""
 "\\nHiroyuki Nakamura\\nMasao Taya\\nSatoshi Nohara\\nMiyuki "
 "Iwasawa\\nDaisuke Goto\\n"
 msgstr ""
+"\\nHiroyuki Nakamura\\nMasao Taya\\nSatoshi Nohara\\nMiyuki "
+"Iwasawa\\nDaisuke Goto\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:359
 msgid "System Programmers\\n\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "Programmeurs système\\n\\n\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:360
 msgid "\\nTetsuya Watanabe\\nAkito Mori\\nHisashi Sogabe\\nSousuke Tamada\\n\\n"
-msgstr ""
+msgstr "\\nTetsuya Watanabe\\nAkito Mori\\nHisashi Sogabe\\nSousuke Tamada\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:361
 msgid "Graphic Designers\\n\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "Graphistes\\n\\n\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:362
 msgid "\\nTakao Unno\\nAsuka Iwashita\\nKanako Eo\\nHiroki Fuchino\\n\\n"
-msgstr ""
+msgstr "\\nTakao Unno\\nAsuka Iwashita\\nKanako Eo\\nHiroki Fuchino\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:363
 msgid "\\nGraphic Designers\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\nGraphistes\\n\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:364
 msgid "\\n\\nKen Sugimori\\nHironobu Yoshida\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\nKen Sugimori\\nHironobu Yoshida\\n\\n\\n"
 
 #: src/credits_frlg.c:365
 msgid "\\nMusic Composition\\n\\n\\n\\n\\n"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:366
 msgid "\\n\\nGo Ichinose\\nJunichi Masuda\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\nGo Ichinose\\nJunichi Masuda\\n\\n\\n"
 
 #: src/credits_frlg.c:367
 msgid "\\n\\nSound Effects\\n\\n\\n\\n"
@@ -9387,41 +9435,57 @@ msgstr ""
 msgid "\\n\\n\\nGo Ichinose\\n\\n\\n"
 msgstr "Go Ichinose"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:369 src/credits_frlg.c:371
 msgid "\\nGame Designers\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\nConception du jeu\\n\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:370
 msgid "\\n\\nJunichi Masuda\\nKoji Nishino\\nTetsuji Ohta\\n\\n"
-msgstr ""
+msgstr "\\n\\nJunichi Masuda\\nKoji Nishino\\nTetsuji Ohta\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:372
 msgid "\\n\\nHitomi Sato\\nShigeru Ohmori\\nTadashi Takahashi\\n\\n"
-msgstr ""
+msgstr "\\n\\nHitomi Sato\\nShigeru Ohmori\\nTadashi Takahashi\\n\\n"
 
 #: src/credits_frlg.c:373
 msgid "\\nGame Scenario\\n\\n\\n\\n\\n"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:374
 msgid "\\n\\nHitomi Sato\\nSatoshi Tajiri\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\nHitomi Sato\\nSatoshi Tajiri\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:375
 msgid "\\nScript Designer\\n\\nMap Designer\\n\\n\\n"
-msgstr ""
+msgstr "\\nScénario\\n\\nConception des cartes\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:376
 msgid "\\n\\nSatoshi Nohara\\n\\nShigeru Ohmori\\n\\n"
-msgstr ""
+msgstr "\\n\\nSatoshi Nohara\\n\\nShigeru Ohmori\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:377
 msgid "\\nParametric Designers\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\nParamétrage\\n\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:378
 msgid "\\n\\nKoji Nishino\\nTetsuji Ohta\\nShigeki Morimoto\\n\\n"
-msgstr ""
+msgstr "\\n\\nKoji Nishino\\nTetsuji Ohta\\nShigeki Morimoto\\n\\n"
 
 #: src/credits_frlg.c:379
 msgid "\\n\\nPOKéDEX Text\\n\\n\\n\\n"
@@ -9432,102 +9496,142 @@ msgstr ""
 msgid "\\n\\n\\nKenji Matsushima\\n\\n\\n"
 msgstr "Kenji Matsushima"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:381 src/credits_frlg.c:383 src/credits_frlg.c:385
 msgid "POKéMON Designers\\n\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "Design des Pokémon\\n\\n\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:382
 msgid "\\nKen Sugimori\\nMotofumi Fujiwara\\nShigeki Morimoto\\nHironobu Yoshida\\n\\n"
-msgstr ""
+msgstr "\\nKen Sugimori\\nMotofumi Fujiwara\\nShigeki Morimoto\\nHironobu Yoshida\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:384
 msgid "\\nSatoshi Ohta\\nAsuka Iwashita\\nTakao Unno\\nKanako Eo\\nAimi Tomita\\n"
-msgstr ""
+msgstr "\\nSatoshi Ohta\\nAsuka Iwashita\\nTakao Unno\\nKanako Eo\\nAimi Tomita\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:386
 msgid "\\nAtsuko Nishida\\nMuneo Saito\\nRena Yoshikawa\\nJun Okutani\\n\\n"
-msgstr ""
+msgstr "\\nAtsuko Nishida\\nMuneo Saito\\nRena Yoshikawa\\nJun Okutani\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:387
 msgid "Supporting Programmers\\n\\n\\n\\n"
-msgstr ""
+msgstr "Programmeurs assistants\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:388
 msgid "\\nTeruyuki Yoshioka\\nTakao Nakano\\n\\nSatoshi Mitsuhara\\nDaisuke Hoshino\\n"
-msgstr ""
+msgstr "\\nTeruyuki Yoshioka\\nTakao Nakano\\n\\nSatoshi Mitsuhara\\nDaisuke Hoshino\\n"
 
 #: src/credits_frlg.c:389
 msgid "\\n\\nNCL Product Testing\\n\\n\\n\\n"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:390
 msgid "\\n\\n\\nNCL Super Mario Club\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\n\\nNCL Super Mario Club\\n\\n\\n"
 
 #: src/credits_frlg.c:391 src/credits_frlg.c:393 src/credits_frlg.c:395
 #: src/credits_frlg.c:427 src/credits_frlg.c:429
 msgid "Special Thanks\\n\\n\\n\\n\\n\\n"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:392
 msgid "\\nHiro Nakamura\\nHiroyuki Uesugi\\nTeruki Murakawa\\n\\nKazuya Suyama\\n"
-msgstr ""
+msgstr "\\nHiro Nakamura\\nHiroyuki Uesugi\\nTeruki Murakawa\\n\\nKazuya Suyama\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:394
 msgid "\\nKenji Tominaga\\n\\nKenjiro Ito\\nTomotaka Komura\\nMichiko Takizawa\\n"
-msgstr ""
+msgstr "\\nKenji Tominaga\\n\\nKenjiro Ito\\nTomotaka Komura\\nMichiko Takizawa\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:396
 msgid ""
 "\\nMakiko Takada\\nMikiko Ohashi\\nShusaku Egami\\nTakanao Kondo\\nRui "
 "Kawaguchi\\n"
 msgstr ""
+"\\nMakiko Takada\\nMikiko Ohashi\\nShusaku Egami\\nTakanao Kondo\\nRui "
+"Kawaguchi\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:397
 msgid "\\n\\nBraille Code Check\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\nVérification du braille\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:398
 msgid "\\n\\n\\nJapan Braille Library\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\n\\nJapan Braille Library\\n\\n\\n"
 
 #: src/credits_frlg.c:399
 msgid "Information Supervisors\\n\\n\\n\\n\\n\\n"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:400
 msgid ""
 "\\nHiroki Enomoto\\nKazuyuki Terada\\nYuri Sakurai\\nYumi Funasaka\\nNaoko "
 "Yanase\\n"
 msgstr ""
+"\\nHiroki Enomoto\\nKazuyuki Terada\\nYuri Sakurai\\nYumi Funasaka\\nNaoko "
+"Yanase\\n"
 
 #: src/credits_frlg.c:401
 msgid "Coordinators\\n\\n\\n\\n\\n\\n"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:402
 msgid "\\nAzusa Tajima\\nAkira Kinashi\\nKazuki Yoshihara\\n\\nRetsuji Nomoto\\n"
-msgstr ""
+msgstr "\\nAzusa Tajima\\nAkira Kinashi\\nKazuki Yoshihara\\n\\nRetsuji Nomoto\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:403
 msgid "\\nTask Managers\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\nGestion des tâches\\n\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:404
 msgid "\\n\\nHitoshi Yamagami\\nGakuji Nomoto\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\nHitoshi Yamagami\\nGakuji Nomoto\\n\\n\\n"
 
 #: src/credits_frlg.c:405
 msgid "\\nProducers\\n\\n\\n\\n\\n"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:406
 msgid "\\n\\nHiroyuki Jinnai\\nTakehiro Izushi\\nHiroaki Tsuru\\n\\n"
-msgstr ""
+msgstr "\\n\\nHiroyuki Jinnai\\nTakehiro Izushi\\nHiroaki Tsuru\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:407
 msgid "\\n\\nExecutive Director\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\nDirecteur exécutif\\n\\n\\n\\n"
 
 #. source : SoulSilver FR officiel
 #: src/credits_frlg.c:408
@@ -9543,110 +9647,156 @@ msgstr ""
 msgid "\\n\\n\\nSatoru Iwata\\n\\n\\n"
 msgstr "Hiroaki Tsuru"
 
-#. source : SoulSilver FR, correspondance approchée (97 %) avec « Tsunekazu
-#. Ishihara »
+#. source : traduction nouvelle
+#. lot : E_exceptions
+#. ancien (?) : Satoshi Tajiri
 #: src/credits_frlg.c:412
-#, fuzzy
 msgid "\\n\\n\\nTsunekaz Ishihara\\n\\n\\n"
-msgstr "Satoshi Tajiri"
+msgstr "\\n\\n\\nTsunekaz Ishihara\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:413
 msgid "\\nEnglish Version Coordinators\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\nCoordination version anglaise\\n\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:414
 msgid "\\n\\nHiro Nakamura\\nSeth McMahill\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\nHiro Nakamura\\nSeth McMahill\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:415
 msgid "\\nTranslator\\n\\nText Editor\\n\\n\\n"
-msgstr ""
+msgstr "\\nTraduction\\n\\nRévision des textes\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:416
 msgid "\\n\\nNob Ogasawara\\n\\nTeresa Lillygren\\n\\n"
-msgstr ""
+msgstr "\\n\\nNob Ogasawara\\n\\nTeresa Lillygren\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:417
 msgid "Programmers\\n\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "Programmeurs\\n\\n\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:418
 msgid "\\nTeruki Murakawa\\nSouichi Yamamoto\\nYuichiro Ito\\nAkira Kinashi\\n\\n"
-msgstr ""
+msgstr "\\nTeruki Murakawa\\nSouichi Yamamoto\\nYuichiro Ito\\nAkira Kinashi\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:419
 msgid "\\nEnvironment & Tool Programmers\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\nProgrammeurs environnement et outils\\n\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:420
 msgid "\\n\\nTeruki Murakawa\\nSouichi Yamamoto\\nKimiko Nakamichi\\n\\n"
-msgstr ""
+msgstr "\\n\\nTeruki Murakawa\\nSouichi Yamamoto\\nKimiko Nakamichi\\n\\n"
 
 #: src/credits_frlg.c:421
 msgid "NOA Product Testing\\n\\n\\n\\n\\n\\n"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:422
 msgid "\\nThomas Hertzog\\nKathy Huguenard\\nMika Kurosawa\\n\\n\\n"
-msgstr ""
+msgstr "\\nThomas Hertzog\\nKathy Huguenard\\nMika Kurosawa\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:423
 msgid "Braille Code Check\\n\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "Vérification du braille\\n\\n\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:424
 msgid ""
 "\\nNational Federation\\n{CLEAR_TO 0x13}of the Blind\\nPatricia A. "
 "Maurer\\nJapan Braille Library\\nEuropean Blind Union\\n"
 msgstr ""
+"\\nNational Federation\\n{CLEAR_TO 0x13}of the Blind\\nPatricia A. "
+"Maurer\\nJapan Braille Library\\nEuropean Blind Union\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:425 src/credits_frlg.c:431
 msgid "\\nBraille Code Check\\n\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\nVérification du braille\\n\\n\\n\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:426
 msgid ""
 "\\n\\nNational Information Library\\n{CLEAR_TO 0x2D}Service\\nMargaret "
 "Campion\\n\\n"
 msgstr ""
+"\\n\\nNational Information Library\\n{CLEAR_TO 0x2D}Service\\nMargaret "
+"Campion\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:428
 msgid "\\nTakehiro Izushi\\nMotoyasu Tojima\\nHitoshi Yamagami\\nHiroyuki Uesugi\\n\\n"
-msgstr ""
+msgstr "\\nTakehiro Izushi\\nMotoyasu Tojima\\nHitoshi Yamagami\\nHiroyuki Uesugi\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:430
 msgid ""
 "\\nNicola Pratt-Barlow\\nShellie Dow\\nAnthony Howitt\\nNaoko Saeki\\nKyoko "
 "Onishi\\n"
 msgstr ""
+"\\nNicola Pratt-Barlow\\nShellie Dow\\nAnthony Howitt\\nNaoko Saeki\\nKyoko "
+"Onishi\\n"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/credits_frlg.c:432
 msgid "\\n\\nThe Royal New Zealand\\nFoundation of the Blind\\nGreg Moran\\n\\n"
-msgstr ""
+msgstr "\\n\\nThe Royal New Zealand\\nFoundation of the Blind\\nGreg Moran\\n\\n"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/credits_frlg.c:433
 msgid "\\n\\nGraphic Designer\\n\\n\\n\\n"
-msgstr ""
+msgstr "\\n\\nGraphiste\\n\\n\\n\\n"
 
 #: src/credits_frlg.c:434
 msgid "\\n\\n\\nAkira Kinashi\\n\\n\\n"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/dexnav.c:185
 msgid "Capture first!"
-msgstr ""
+msgstr "À capturer!"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/dexnav.c:186
 msgid "R TO REGISTER!"
-msgstr ""
+msgstr "R: ENREGISTRER!"
 
 #: src/dexnav.c:187
 msgid "Search {STR_VAR_1}"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/dexnav.c:188
 msgid "This Pokémon cannot be found here!"
-msgstr ""
+msgstr "Ce Pokémon est introuvable ici!"
 
 #. source : relu et corrigé à la main
 #: src/dexnav.c:190
@@ -10214,9 +10364,11 @@ msgstr "Rafale Feu{CLEAR_TO 78}64PCo"
 msgid "HYDRO CANNON{CLEAR_TO 0x4E}64BP"
 msgstr "Hydroblast{CLEAR_TO 78}64PCo"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/field_specials.c:4666
 msgid "SampleCode"
-msgstr ""
+msgstr "SampleCode"
 
 #. source : Émeraude FR officiel
 #: src/field_specials.c:5414 src/strings.c:615
@@ -10230,9 +10382,11 @@ msgstr "Etage:"
 msgid "NONE"
 msgstr "Aucun"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/field_weather.c:1199
 msgid "SUNNY CLOUDS"
-msgstr ""
+msgstr "SOLEIL NUAGEUX"
 
 #: src/field_weather.c:1200 src/strings.c:1241
 msgid "SUNNY"
@@ -10249,13 +10403,17 @@ msgstr "Rain"
 msgid "SNOW"
 msgstr "NEIGE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/field_weather.c:1203
 msgid "RAIN THUNDERSTORM"
-msgstr ""
+msgstr "PLUIE ORAGEUSE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/field_weather.c:1204
 msgid "FOG HORIZONTAL"
-msgstr ""
+msgstr "BROUILLARD HORIZ."
 
 #. source : SoulSilver FR officiel
 #: src/field_weather.c:1205
@@ -10268,9 +10426,11 @@ msgstr "Volcanic Ash"
 msgid "SANDSTORM"
 msgstr "Tempêtesable"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/field_weather.c:1207
 msgid "FOG DIAGONAL"
-msgstr ""
+msgstr "BROUILLARD DIAG."
 
 #. source : Émeraude FR officiel
 #: src/data/region_map/region_map_sections.json:406
@@ -10292,25 +10452,35 @@ msgstr ""
 msgid "DROUGHT"
 msgstr "Sécheresse"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/field_weather.c:1211
 msgid "DOWNPOUR"
-msgstr ""
+msgstr "DÉLUGE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/field_weather.c:1212
 msgid "UNDERWATER BUBBLES"
-msgstr ""
+msgstr "BULLES SOUS-MARINES"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/field_weather.c:1213
 msgid "ABNORMAL(NOT WORKING)"
-msgstr ""
+msgstr "ANORMAL (HORS SERVICE)"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/field_weather.c:1214
 msgid "ROUTE119 CYCLE"
-msgstr ""
+msgstr "CYCLE ROUTE119"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/field_weather.c:1215
 msgid "ROUTE123 CYCLE"
-msgstr ""
+msgstr "CYCLE ROUTE123"
 
 #: src/field_weather.c:1216 src/strings.c:1246
 msgid "FOG"
@@ -12544,9 +12714,11 @@ msgstr "ZONE INCONNUE"
 msgid "{A_BUTTON}TOGGLE   {DPAD_UPDOWN}MOVES"
 msgstr "{A_BUTTON}CHANGER {DPAD_UPDOWN}CAPA."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:137
 msgid "{A_BUTTON}Toggle   {DPAD_UPDOWN}Moves"
-msgstr ""
+msgstr "{A_BUTTON}Changer {DPAD_UPDOWN}Capa."
 
 #. source : patch FR actuel
 #: data/maps/SaffronCity_FightingDojo_hns/scripts.inc:195
@@ -12580,9 +12752,11 @@ msgstr "D.SP"
 msgid "LVL"
 msgstr "NIV"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:157
 msgid "CATCH{0x5B}: "
-msgstr ""
+msgstr "CAPT.{0x5B}: "
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:158
@@ -12650,9 +12824,11 @@ msgstr "FLUCTUANT"
 msgid "MED. SLOW"
 msgstr "PARABOL."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:184
 msgid "EGG G1:"
-msgstr ""
+msgstr "GR.ŒUF:"
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:186
@@ -12739,9 +12915,11 @@ msgstr "METAMORPH"
 msgid "DRAGON"
 msgstr "DRAGON"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:202
 msgid "SEEN"
-msgstr ""
+msgstr "VU"
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
@@ -12750,22 +12928,28 @@ msgstr ""
 msgid "OWN"
 msgstr "PRIS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:205
 msgid "{DPAD_UPDOWN}EVOs  {A_BUTTON}CHECK"
-msgstr ""
+msgstr "{DPAD_UPDOWN}ÉVOL.  {A_BUTTON}VOIR"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:206
 msgid "{DPAD_UPDOWN}Evos  {A_BUTTON}Check"
-msgstr ""
+msgstr "{DPAD_UPDOWN}Évol.  {A_BUTTON}Voir"
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:207
 msgid "{DPAD_UPDOWN}EVOs  {A_BUTTON}CHECK  {START_BUTTON}FORMs"
 msgstr "{DPAD_UPDOWN}EVOL.  {A_BUTTON}VOIR  {START_BUTTON}FORMES"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:208
 msgid "{DPAD_UPDOWN}Evos  {A_BUTTON}Check  {START_BUTTON}Forms"
-msgstr ""
+msgstr "{DPAD_UPDOWN}Évol.  {A_BUTTON}Voir  {START_BUTTON}Formes"
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:210
@@ -12777,57 +12961,83 @@ msgstr "{STR_VAR_1} est l’évolution de {STR_VAR_2}"
 msgid "{STR_VAR_1} Mega Evolves with {STR_VAR_2}"
 msgstr "{STR_VAR_1} méga-évolue avec {STR_VAR_2}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:212
 msgid "{LV}{UP_ARROW} to {STR_VAR_2}, Silcoon persona"
-msgstr ""
+msgstr "{LV}{UP_ARROW} au {STR_VAR_2}, personnalité ARMULYS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:213
 msgid "{LV}{UP_ARROW} to {STR_VAR_2}, Cascoon persona"
-msgstr ""
+msgstr "{LV}{UP_ARROW} au {STR_VAR_2}, personnalité BLINDALYS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:214
 msgid "{LV}{UP_ARROW}, knows {STR_VAR_2}"
-msgstr ""
+msgstr "{LV}{UP_ARROW}, connaît {STR_VAR_2}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:215
 msgid "{LV}{UP_ARROW} to {STR_VAR_2} while raining"
-msgstr ""
+msgstr "{LV}{UP_ARROW} au {STR_VAR_2} sous la pluie"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:216
 msgid "Traded for {STR_VAR_2}"
-msgstr ""
+msgstr "Échangé contre {STR_VAR_2}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:217
 msgid "Land {STR_VAR_2} critical hits in\\nsingle battle"
-msgstr ""
+msgstr "Porter {STR_VAR_2} coups critiques en\\nun seul combat"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:218
 msgid "Takes at least {STR_VAR_2} HP in damage"
-msgstr ""
+msgstr "Subit au moins {STR_VAR_2} PV de dégâts"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:219
 msgid "ScrllOfDrknss is used"
-msgstr ""
+msgstr "Rouleau Ténèbres utilisé"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:220
 msgid "ScrollOfWatrs is used"
-msgstr ""
+msgstr "Rouleau des Eaux utilisé"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:221
 msgid "{LV}{UP_ARROW} after 20x {STR_VAR_2}"
-msgstr ""
+msgstr "{LV}{UP_ARROW} après 20x {STR_VAR_2}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:222
 msgid "{LV}{UP_ARROW} with {STR_VAR_2} recoil, male"
-msgstr ""
+msgstr "{LV}{UP_ARROW}, {STR_VAR_2} PV de recul, mâle"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:223
 msgid "{LV}{UP_ARROW} with {STR_VAR_2} recoil, female"
-msgstr ""
+msgstr "{LV}{UP_ARROW}, {STR_VAR_2} PV de recul, femelle"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:224
 msgid "{LV}{UP_ARROW} defeating 3 {STR_VAR_3} holding {STR_VAR_2}"
-msgstr ""
+msgstr "{LV}{UP_ARROW}, vaincre 3 {STR_VAR_3} tenant {STR_VAR_2}"
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:225
@@ -12839,9 +13049,11 @@ msgstr "{STR_VAR_1} n’évolue pas."
 msgid "{A_BUTTON}FORM MODE  {START_BUTTON}EVOs"
 msgstr "{A_BUTTON}FORMES {START_BUTTON}EVOL."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokedex_plus_hgss.c:228 src/pokedex_plus_hgss.c:230
 msgid "{START_BUTTON}Evos"
-msgstr ""
+msgstr "{START_BUTTON}Évol."
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:229
@@ -13312,25 +13524,35 @@ msgstr "Prudent"
 msgid "QUIRKY"
 msgstr "Bizarre"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:163 src/pokemon_sprite_visualizer.c:193
 msgid "H VIBRATE"
-msgstr ""
+msgstr "H VIBRE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:164 src/pokemon_sprite_visualizer.c:194
 msgid "H SLIDE"
-msgstr ""
+msgstr "H GLISSE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:165 src/pokemon_sprite_visualizer.c:253
 msgid "H SPRING"
-msgstr ""
+msgstr "H RESSORT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:166
 msgid "H SPRING REPEATED"
-msgstr ""
+msgstr "H RESSORT RÉPÉTÉ"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:167 src/pokemon_sprite_visualizer.c:210
 msgid "SHRINK GROW"
-msgstr ""
+msgstr "RÉTRÉCIT GRANDIT"
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
@@ -13338,381 +13560,569 @@ msgstr ""
 msgid "GROW"
 msgstr "CROISSANCE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:169
 msgid "CIRCLE COUNTERCLOCKWISE"
-msgstr ""
+msgstr "CERCLE ANTIHORAIRE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:170 src/pokemon_sprite_visualizer.c:206
 msgid "H SHAKE"
-msgstr ""
+msgstr "H TREMBLE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:171 src/pokemon_sprite_visualizer.c:207
 msgid "V SHAKE"
-msgstr ""
+msgstr "V TREMBLE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:172 src/pokemon_sprite_visualizer.c:293
 msgid "V SHAKE H SLIDE"
-msgstr ""
+msgstr "V TREMBLE H GLISSE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:173 src/pokemon_sprite_visualizer.c:214
 msgid "V STRETCH"
-msgstr ""
+msgstr "V S’ÉTIRE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:174 src/pokemon_sprite_visualizer.c:213
 msgid "H STRETCH"
-msgstr ""
+msgstr "H S’ÉTIRE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:175 src/pokemon_sprite_visualizer.c:311
 msgid "GROW STUTTER"
-msgstr ""
+msgstr "GRANDIT PAR À-COUPS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:176
 msgid "V SHAKE LOW"
-msgstr ""
+msgstr "V TREMBLE BAS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:177 src/pokemon_sprite_visualizer.c:296
 msgid "TRIANGLE DOWN"
-msgstr ""
+msgstr "TRIANGLE BAS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:178 src/pokemon_sprite_visualizer.c:313
 msgid "CONCAVE ARC LARGE"
-msgstr ""
+msgstr "ARC CONCAVE GRAND"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:179 src/pokemon_sprite_visualizer.c:316
 msgid "CONVEX DOUBLE ARC"
-msgstr ""
+msgstr "DOUBLE ARC CONVEXE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:180 src/pokemon_sprite_visualizer.c:319
 msgid "CONCAVE ARC SMALL"
-msgstr ""
+msgstr "ARC CONCAVE PETIT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:181
 msgid "DIP RIGHT SIDE"
-msgstr ""
+msgstr "PLONGE CÔTÉ DROIT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:182 src/pokemon_sprite_visualizer.c:325
 msgid "SHRINK GROW VIBRATE"
-msgstr ""
+msgstr "RÉTRÉCIT GRANDIT VIBRE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:183 src/pokemon_sprite_visualizer.c:328
 msgid "JOLT RIGHT"
-msgstr ""
+msgstr "SECOUSSE DROITE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:184 src/pokemon_sprite_visualizer.c:331
 msgid "SHAKE FLASH YELLOW"
-msgstr ""
+msgstr "TREMBLE FLASH JAUNE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:185 src/pokemon_sprite_visualizer.c:334
 msgid "SHAKE GLOW RED"
-msgstr ""
+msgstr "TREMBLE HALO ROUGE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:186 src/pokemon_sprite_visualizer.c:337
 msgid "SHAKE GLOW GREEN"
-msgstr ""
+msgstr "TREMBLE HALO VERT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:187 src/pokemon_sprite_visualizer.c:340
 msgid "SHAKE GLOW BLUE"
-msgstr ""
+msgstr "TREMBLE HALO BLEU"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:191
 msgid "V SQUISH AND BOUNCE"
-msgstr ""
+msgstr "V S’ÉCRASE ET REBONDIT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:192
 msgid "CIRCULAR STRETCH TWICE"
-msgstr ""
+msgstr "ÉTIREMENT CIRCULAIRE x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:195
 msgid "V SLIDE"
-msgstr ""
+msgstr "V GLISSE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:196
 msgid "BOUNCE ROTATE TO SIDES"
-msgstr ""
+msgstr "REBOND ROTATION CÔTÉS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:197
 msgid "V JUMPS H JUMPS"
-msgstr ""
+msgstr "V SAUTS H SAUTS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:198
 msgid "ROTATE TO SIDES"
-msgstr ""
+msgstr "ROTATION CÔTÉS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:199
 msgid "ROTATE TO SIDES TWICE"
-msgstr ""
+msgstr "ROTATION CÔTÉS x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:200
 msgid "GROW VIBRATE"
-msgstr ""
+msgstr "GRANDIT VIBRE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:201
 msgid "ZIGZAG FAST"
-msgstr ""
+msgstr "ZIGZAG RAPIDE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:202
 msgid "SWING CONCAVE"
-msgstr ""
+msgstr "OSCILLATION CONCAVE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:203
 msgid "SWING CONCAVE FAST"
-msgstr ""
+msgstr "OSCIL. CONCAVE RAPIDE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:204
 msgid "SWING CONVEX"
-msgstr ""
+msgstr "OSCILLATION CONVEXE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:205
 msgid "SWING CONVEX FAST"
-msgstr ""
+msgstr "OSCIL. CONVEXE RAPIDE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:208
 msgid "CIRCULAR VIBRATE"
-msgstr ""
+msgstr "VIBRATION CIRCULAIRE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:209
 msgid "TWIST"
-msgstr ""
+msgstr "VRILLE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:211
 msgid "CIRCLE C CLOCKWISE"
-msgstr ""
+msgstr "CERCLE ANTIHORAIRE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:212
 msgid "GLOW BLACK"
-msgstr ""
+msgstr "HALO NOIR"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:215
 msgid "RISING WOBBLE"
-msgstr ""
+msgstr "OSCILLE EN MONTANT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:216
 msgid "V SHAKE TWICE"
-msgstr ""
+msgstr "V TREMBLE x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:217
 msgid "TIP MOVE FORWARD"
-msgstr ""
+msgstr "PENCHE ET AVANCE"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/pokemon_sprite_visualizer.c:218
 msgid "H PIVOT"
-msgstr ""
+msgstr "H PIVOT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:219
 msgid "V SLIDE WOBBLE"
-msgstr ""
+msgstr "V GLISSE OSCILLE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:220
 msgid "H SLIDE WOBBLE"
-msgstr ""
+msgstr "H GLISSE OSCILLE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:221
 msgid "V JUMPS BIG"
-msgstr ""
+msgstr "V GRANDS SAUTS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:222
 msgid "SPIN LONG"
-msgstr ""
+msgstr "TOURNE LONGTEMPS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:223
 msgid "GLOW ORANGE"
-msgstr ""
+msgstr "HALO ORANGE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:224
 msgid "GLOW RED"
-msgstr ""
+msgstr "HALO ROUGE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:225
 msgid "GLOW BLUE"
-msgstr ""
+msgstr "HALO BLEU"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:226
 msgid "GLOW YELLOW"
-msgstr ""
+msgstr "HALO JAUNE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:227
 msgid "GLOW PURPLE"
-msgstr ""
+msgstr "HALO VIOLET"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:228
 msgid "BACK AND LUNGE"
-msgstr ""
+msgstr "RECUL ET BOND"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:229
 msgid "BACK FLIP"
-msgstr ""
+msgstr "SALTO ARRIÈRE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:230
 msgid "FLICKER"
-msgstr ""
+msgstr "CLIGNOTE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:231
 msgid "BACK FLIP BIG"
-msgstr ""
+msgstr "GRAND SALTO ARRIÈRE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:232
 msgid "FRONT FLIP"
-msgstr ""
+msgstr "SALTO AVANT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:233
 msgid "TUMBLING FRONT FLIP"
-msgstr ""
+msgstr "SALTO AVANT ROULÉ"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:234
 msgid "FIGURE 8"
-msgstr ""
+msgstr "HUIT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:235
 msgid "FLASH YELLOW"
-msgstr ""
+msgstr "FLASH JAUNE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:236
 msgid "SWING CONCAVE FAST SHORT"
-msgstr ""
+msgstr "BALANCE CONCAV RAP BREF"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:237
 msgid "SWING CONVEX FAST SHORT"
-msgstr ""
+msgstr "BALANCE CONVEX RAP BREF"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:238
 msgid "ROTATE UP SLAM DOWN"
-msgstr ""
+msgstr "ROTATION HAUT CHOC BAS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:239
 msgid "DEEP V SQUISH AND BOUNCE"
-msgstr ""
+msgstr "V S’ÉCRASE FORT REBONDIT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:240
 msgid "H JUMPS"
-msgstr ""
+msgstr "H SAUTS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:241
 msgid "H JUMPS V STRETCH"
-msgstr ""
+msgstr "H SAUTS V S’ÉTIRE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:242
 msgid "ROTATE TO SIDES FAST"
-msgstr ""
+msgstr "ROTATION CÔTÉS RAPIDE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:243
 msgid "ROTATE UP TO SIDES"
-msgstr ""
+msgstr "ROTATION HAUT CÔTÉS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:244
 msgid "FLICKER INCREASING"
-msgstr ""
+msgstr "CLIGNOTEMENT CROISSANT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:245
 msgid "TIP HOP FORWARD"
-msgstr ""
+msgstr "PENCHE SAUT AVANT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:246
 msgid "PIVOT SHAKE"
-msgstr ""
+msgstr "PIVOTE TREMBLE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:247
 msgid "TIP AND SHAKE"
-msgstr ""
+msgstr "PENCHE ET TREMBLE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:248
 msgid "VIBRATE TO CORNERS"
-msgstr ""
+msgstr "VIBRE VERS LES COINS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:249
 msgid "GROW IN STAGES"
-msgstr ""
+msgstr "GRANDIT PAR ÉTAPES"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:250
 msgid "V SPRING"
-msgstr ""
+msgstr "V RESSORT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:251
 msgid "V REPEATED SPRING"
-msgstr ""
+msgstr "V RESSORT RÉPÉTÉ"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:252
 msgid "SPRING RISING"
-msgstr ""
+msgstr "RESSORT MONTANT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:254
 msgid "H REPEATED SPRING SLOW"
-msgstr ""
+msgstr "H RESSORT RÉPÉTÉ LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:255
 msgid "H SLIDE SHRINK"
-msgstr ""
+msgstr "H GLISSE RÉTRÉCIT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:256
 msgid "LUNGE GROW"
-msgstr ""
+msgstr "BOND GRANDIT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:257
 msgid "CIRCLE INTO BG"
-msgstr ""
+msgstr "CERCLE VERS LE FOND"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:258
 msgid "RAPID H HOPS"
-msgstr ""
+msgstr "PETITS SAUTS H RAPIDES"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:259
 msgid "FOUR PETAL"
-msgstr ""
+msgstr "QUATRE PÉTALES"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:260
 msgid "V SQUISH AND BOUNCE SLOW"
-msgstr ""
+msgstr "V ÉCRASEMENT REBOND LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:261
 msgid "H SLIDE SLOW"
-msgstr ""
+msgstr "H GLISSEMENT LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:262
 msgid "V SLIDE SLOW"
-msgstr ""
+msgstr "V GLISSEMENT LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:263
 msgid "BOUNCE ROTATE TO SIDES SMALL"
-msgstr ""
+msgstr "REBOND ROT. CÔTÉS PETIT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:264
 msgid "BOUNCE ROTATE TO SIDES SLOW"
-msgstr ""
+msgstr "REBOND ROT. CÔTÉS LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:265
 msgid "BOUNCE ROTATE TO SIDES SMALL SLOW"
-msgstr ""
+msgstr "REB. ROT. CÔTÉS PT LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:266
 msgid "ZIGZAG SLOW"
-msgstr ""
+msgstr "ZIGZAG LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:267
 msgid "H SHAKE SLOW"
-msgstr ""
+msgstr "H TREMBLEMENT LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:268
 msgid "V SHAKE SLOW"
-msgstr ""
+msgstr "V TREMBLEMENT LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:269
 msgid "TWIST TWICE"
-msgstr ""
+msgstr "VRILLE x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:270
 msgid "CIRCLE C CLOCKWISE SLOW"
-msgstr ""
+msgstr "CERCLE ANTIHORAIRE LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:271
 msgid "V SHAKE TWICE SLOW"
-msgstr ""
+msgstr "V TREMBLEMENT LENT x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:272
 msgid "V SLIDE WOBBLE SMALL"
-msgstr ""
+msgstr "V GLISSE OSCILLE PEU"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:273
 msgid "V JUMPS SMALL"
-msgstr ""
+msgstr "V PETITS SAUTS"
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
@@ -13720,233 +14130,347 @@ msgstr ""
 msgid "SPIN"
 msgstr "TOURNER"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:275
 msgid "TUMBLING FRONT FLIP TWICE"
-msgstr ""
+msgstr "SALTO AVANT ROULÉ x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:276
 msgid "DEEP V SQUISH AND BOUNCE TWICE"
-msgstr ""
+msgstr "V FORT ÉCRAS. REBOND x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:277
 msgid "H JUMPS V STRETCH TWICE"
-msgstr ""
+msgstr "H SAUTS V S’ÉTIRE x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:278
 msgid "V SHAKE BACK"
-msgstr ""
+msgstr "V TREMBLE ET RECULE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:279
 msgid "V SHAKE BACK SLOW"
-msgstr ""
+msgstr "V TREMB. RECUL AU RAL."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:280
 msgid "V SHAKE H SLIDE SLOW"
-msgstr ""
+msgstr "V TREMB. H GLISS. LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:281
 msgid "V STRETCH BOTH ENDS SLOW"
-msgstr ""
+msgstr "V ÉTIR. 2 BOUTS LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:282
 msgid "H STRETCH FAR SLOW"
-msgstr ""
+msgstr "H FORT ÉTIREMENT LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:283
 msgid "V SHAKE LOW TWICE"
-msgstr ""
+msgstr "V TREMBLE BAS x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:284
 msgid "H SHAKE FAST"
-msgstr ""
+msgstr "H TREMBLEMENT RAPIDE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:285
 msgid "H SLIDE FAST"
-msgstr ""
+msgstr "H GLISSEMENT RAPIDE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:286
 msgid "H VIBRATE FAST"
-msgstr ""
+msgstr "H VIBRATION RAPIDE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:287
 msgid "H VIBRATE FASTEST"
-msgstr ""
+msgstr "H VIBRATION VITESSE MAX."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:288
 msgid "V SHAKE BACK FAST"
-msgstr ""
+msgstr "V TREMB. RECUL EN TROMBE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:289
 msgid "V SHAKE LOW TWICE SLOW"
-msgstr ""
+msgstr "V TREMB. BAS x2 LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:290
 msgid "V SHAKE LOW TWICE FAST"
-msgstr ""
+msgstr "V TREMB. BAS x2 RAPIDE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:291
 msgid "CIRCLE C CLOCKWISE LONG"
-msgstr ""
+msgstr "CERCLE ANTIHORAIRE LONG"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:292
 msgid "GROW STUTTER SLOW"
-msgstr ""
+msgstr "GRANDIT PAR À-COUPS LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:294
 msgid "V SHAKE H SLIDE FAST"
-msgstr ""
+msgstr "V TREMB. H GLISS. RAP."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:295
 msgid "TRIANGLE DOWN SLOW"
-msgstr ""
+msgstr "TRIANGLE BAS LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:297
 msgid "TRIANGLE DOWN TWICE"
-msgstr ""
+msgstr "TRIANGLE BAS x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:299
 msgid "GROW TWICE"
-msgstr ""
+msgstr "GRANDIT x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:300
 msgid "H SPRING FAST"
-msgstr ""
+msgstr "H RESSORT RAPIDE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:301
 msgid "H SPRING SLOW"
-msgstr ""
+msgstr "H RESSORT LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:302
 msgid "H REPEATED SPRING FAST"
-msgstr ""
+msgstr "H RESSORT RÉPÉTÉ RAP."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:303
 msgid "H REPEATED SPRING"
-msgstr ""
+msgstr "H RESSORT RÉPÉTÉ"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:304
 msgid "SHRINK GROW FAST"
-msgstr ""
+msgstr "RÉTRÉCIT GRANDIT RAP."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:305
 msgid "SHRINK GROW SLOW"
-msgstr ""
+msgstr "RÉTR. GRANDIT AU RALENTI"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:306
 msgid "V STRETCH BOTH ENDS"
-msgstr ""
+msgstr "V S’ÉTIRE DES 2 BOUTS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:307
 msgid "V STRETCH BOTH ENDS TWICE"
-msgstr ""
+msgstr "V ÉTIR. DES 2 BOUTS x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:308
 msgid "H STRETCH FAR TWICE"
-msgstr ""
+msgstr "H FORT ÉTIREMENT x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:309
 msgid "H STRETCH FAR"
-msgstr ""
+msgstr "H FORT ÉTIREMENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:310
 msgid "GROW STUTTER TWICE"
-msgstr ""
+msgstr "GRANDIT PAR À-COUPS x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:312
 msgid "CONCAVE ARC LARGE SLOW"
-msgstr ""
+msgstr "ARC CONCAVE GRAND LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:314
 msgid "CONCAVE ARC LARGE TWICE"
-msgstr ""
+msgstr "ARC CONCAVE GRAND x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:315
 msgid "CONVEX DOUBLE ARC SLOW"
-msgstr ""
+msgstr "DOUBLE ARC CONVEXE LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:317
 msgid "CONVEX DOUBLE ARC TWICE"
-msgstr ""
+msgstr "DOUBLE ARC CONVEXE x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:318
 msgid "CONCAVE ARC SMALL SLOW"
-msgstr ""
+msgstr "ARC CONCAVE PETIT LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:320
 msgid "CONCAVE ARC SMALL TWICE"
-msgstr ""
+msgstr "ARC CONCAVE PETIT x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:321
 msgid "H DIP"
-msgstr ""
+msgstr "H PLONGE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:322
 msgid "H DIP FAST"
-msgstr ""
+msgstr "H PLONGEON RAPIDE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:323
 msgid "H DIP TWICE"
-msgstr ""
+msgstr "H PLONGE x2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:324
 msgid "SHRINK GROW VIBRATE FAST"
-msgstr ""
+msgstr "RÉTR. GRANDIT VIBRE RAP"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:326
 msgid "SHRINK GROW VIBRATE SLOW"
-msgstr ""
+msgstr "RÉTR. GRANDIT VIBRE LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:327
 msgid "JOLT RIGHT FAST"
-msgstr ""
+msgstr "SECOUSSE DROITE RAPIDE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:329
 msgid "JOLT RIGHT SLOW"
-msgstr ""
+msgstr "SECOUSSE DROITE LENTE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:330
 msgid "SHAKE FLASH YELLOW FAST"
-msgstr ""
+msgstr "TREMB. FLASH JAUNE RAP."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:332
 msgid "SHAKE FLASH YELLOW SLOW"
-msgstr ""
+msgstr "TREMB. FLASH JAUNE LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:333
 msgid "SHAKE GLOW RED FAST"
-msgstr ""
+msgstr "TREMBLE HALO ROUGE RAP."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:335
 msgid "SHAKE GLOW RED SLOW"
-msgstr ""
+msgstr "TREMBLE HALO ROUGE LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:336
 msgid "SHAKE GLOW GREEN FAST"
-msgstr ""
+msgstr "TREMBLE HALO VERT RAP."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:338
 msgid "SHAKE GLOW GREEN SLOW"
-msgstr ""
+msgstr "TREMBLE HALO VERT LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:339
 msgid "SHAKE GLOW BLUE FAST"
-msgstr ""
+msgstr "TREMBLE HALO BLEU RAP."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:341
 msgid "SHAKE GLOW BLUE SLOW"
-msgstr ""
+msgstr "TREMBLE HALO BLEU LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:342
 msgid "SHAKE GLOW BLACK SLOW"
-msgstr ""
+msgstr "TREMBLE HALO NOIR LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:343
 msgid "SHAKE GLOW WHITE SLOW"
-msgstr ""
+msgstr "TREMBLE HALO BLANC LENT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:344
 msgid "SHAKE GLOW PURPLE SLOW"
-msgstr ""
+msgstr "TREMB. HALO VIOLET LENT"
 
 #. source : Émeraude FR officiel
 #: data/text/tv.inc:232 data/text/tv.inc:235 data/text/tv.inc:238
@@ -13973,17 +14497,23 @@ msgstr "SPECTRE"
 msgid "Psychic"
 msgstr "Kinésiste"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:354
 msgid "Impact - Opponent"
-msgstr ""
+msgstr "Impact - Adversaire"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:355
 msgid "Impact - Player"
-msgstr ""
+msgstr "Impact - Joueur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:356
 msgid "Impact - Contests"
-msgstr ""
+msgstr "Impact - Concours"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_1_families.h:4999
@@ -13994,17 +14524,23 @@ msgstr ""
 msgid "Drill"
 msgstr "Perceur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:358
 msgid "Drill - Contests"
-msgstr ""
+msgstr "Perçage - Concours"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:359
 msgid "High-Speed - Opponent"
-msgstr ""
+msgstr "Grande vitesse - Adversaire"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:360
 msgid "High-Speed - Player"
-msgstr ""
+msgstr "Grande vitesse - Joueur"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : Foudre
@@ -14013,37 +14549,49 @@ msgstr ""
 msgid "Thunder"
 msgstr "Fatal-Foudre"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:362
 msgid "Guillotine - Opponent"
-msgstr ""
+msgstr "Guillotine - Adversaire"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:363
 msgid "Guillotine - Player"
-msgstr ""
+msgstr "Guillotine - Joueur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:364
 msgid "Guillotine - Contests"
-msgstr ""
+msgstr "Guillotine - Concours"
 
 #: src/data/battle_environment.h:672 src/pokemon_sprite_visualizer.c:365
 msgid "Ice"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:366
 msgid "Cosmic"
-msgstr ""
+msgstr "Cosmique"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:367
 msgid "In Air"
-msgstr ""
+msgstr "Dans les airs"
 
 #: src/pokemon_sprite_visualizer.c:368
 msgid "Sky"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:369
 msgid "Sky - Contests"
-msgstr ""
+msgstr "Ciel - Concours"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_2_families.h:8286
@@ -14056,42 +14604,58 @@ msgstr "Aurore"
 msgid "Fissure"
 msgstr "Abîme"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:372
 msgid "Bug - Opponent"
-msgstr ""
+msgstr "Insecte - Adversaire"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:373
 msgid "Bug - Player"
-msgstr ""
+msgstr "Insecte - Joueur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:374
 msgid "Solar Beam - Opponent"
-msgstr ""
+msgstr "Lance-Soleil - Adversaire"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:375
 msgid "Solar Beam - Player"
-msgstr ""
+msgstr "Lance-Soleil - Joueur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:376
 msgid "Solar Beam - Contests"
-msgstr ""
+msgstr "Lance-Soleil - Concours"
 
 #. source : SoulSilver FR officiel
 #: src/pokemon_sprite_visualizer.c:377
 msgid "Magma Storm"
 msgstr "Vortex Magma"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:378
 msgid "Giga Impact - Opponent"
-msgstr ""
+msgstr "Giga Impact - Adversaire"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:379
 msgid "Giga Impact - Player"
-msgstr ""
+msgstr "Giga Impact - Joueur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:380
 msgid "Giga Impact - Contests"
-msgstr ""
+msgstr "Giga Impact - Concours"
 
 #. source : SoulSilver FR officiel
 #: src/pokemon_sprite_visualizer.c:381
@@ -14103,13 +14667,17 @@ msgstr "Distorsion"
 msgid "Rock Wrecker"
 msgstr "Roc-Boulet"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:383
 msgid "Spacial Rend - Opponent"
-msgstr ""
+msgstr "Spatio-Rift - Adversaire"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:384
 msgid "Spacial Rend - Player"
-msgstr ""
+msgstr "Spatio-Rift - Joueur"
 
 #. source : SoulSilver FR officiel
 #: src/pokemon_sprite_visualizer.c:385
@@ -14136,13 +14704,17 @@ msgstr "Tempêteverte"
 msgid "Fire"
 msgstr "FEU"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:390
 msgid "Fire 2"
-msgstr ""
+msgstr "Feu 2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:391
 msgid "Water 2"
-msgstr ""
+msgstr "Eau 2"
 
 #. source : SoulSilver FR officiel
 #: data/scripts/debug.inc:701 src/battle_debug.c:348
@@ -14155,25 +14727,35 @@ msgstr "POISON"
 msgid "Aeroblast"
 msgstr "Aéroblast"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:394
 msgid "Hurricane"
-msgstr ""
+msgstr "Vent Violent"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:395
 msgid "Electric Terrain"
-msgstr ""
+msgstr "Champ Électrifié"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:396
 msgid "Grassy Terrain"
-msgstr ""
+msgstr "Champ Herbu"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:397
 msgid "Misty Terrain"
-msgstr ""
+msgstr "Champ Brumeux"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:398
 msgid "Psychic Terrain"
-msgstr ""
+msgstr "Champ Psychique"
 
 #. source : SoulSilver FR officiel
 #: src/pokemon_sprite_visualizer.c:399
@@ -14190,17 +14772,23 @@ msgstr "Détricanon"
 msgid "Hydro Cannon"
 msgstr "Hydroblast"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:402
 msgid "Wonder Room"
-msgstr ""
+msgstr "Zone Étrange"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:403
 msgid "Magic Room"
-msgstr ""
+msgstr "Zone Magique"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:404
 msgid "Hyperspace Fury"
-msgstr ""
+msgstr "Furie Dimension"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:13131
@@ -14209,116 +14797,164 @@ msgstr ""
 msgid "Bolt Strike"
 msgstr "Foudroyeur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:406
 msgid "Z-Move Activate"
-msgstr ""
+msgstr "Activation capacité Z"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:407
 msgid "Tectonic Rage"
-msgstr ""
+msgstr "Éruption Géo-Sismique"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:408
 msgid "Rock Field - Day"
-msgstr ""
+msgstr "Champ rocheux - Jour"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:409
 msgid "Rock Field - Afternoon"
-msgstr ""
+msgstr "Champ rocheux - Après-midi"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:410
 msgid "Rock Field - Night"
-msgstr ""
+msgstr "Champ rocheux - Nuit"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:411
 msgid "Z-Move Mountain"
-msgstr ""
+msgstr "Montagne capacité Z"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:412
 msgid "Never-Ending Nightmare"
-msgstr ""
+msgstr "Appel des Ombres Éternelles"
 
 #. source : SoulSilver FR officiel
 #: src/pokemon_sprite_visualizer.c:413
 msgid "Water Pulse"
 msgstr "Vibraqua"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:414
 msgid "Inferno Overdrive"
-msgstr ""
+msgstr "Pyro-Explosion Cataclysm."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:415
 msgid "Bloom Doom"
-msgstr ""
+msgstr "Pétalexplosion Éblouissante"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:416
 msgid "Shattered Psyche"
-msgstr ""
+msgstr "Psycho-Pulvérisation EX"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:417
 msgid "Twinkle Tackle"
-msgstr ""
+msgstr "Impact Choupinova"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:418
 msgid "Black Hole Eclipse"
-msgstr ""
+msgstr "Trou Noir des Ombres"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:419
 msgid "Soul-Stealing 7-Star Strike"
-msgstr ""
+msgstr "Fauche-Âme des Sept Étoiles"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:420
 msgid "Malicious Moonsault"
-msgstr ""
+msgstr "Dark Body Press"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:421
 msgid "Clangorous Soulblaze"
-msgstr ""
+msgstr "Dracacophonie Flamboyante"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:422
 msgid "Snuggle Forever"
-msgstr ""
+msgstr "Patati-Patattrape"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:423
 msgid "Max Lightning"
-msgstr ""
+msgstr "Fulguromax"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:424
 msgid "Garbage Falls"
-msgstr ""
+msgstr "Chute d’ordures"
 
 #. source : SoulSilver FR officiel
 #: src/pokemon_sprite_visualizer.c:425
 msgid "Hyper Beam"
 msgstr "Ultralaser"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:426
 msgid "Dynamax Cannon"
-msgstr ""
+msgstr "Canon Dynamax"
 
 #. source : SoulSilver FR officiel
 #: src/pokemon_sprite_visualizer.c:427
 msgid "Aura Sphere"
 msgstr "Aurasphère"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:428
 msgid "Steel Beam - Opponent"
-msgstr ""
+msgstr "Métalaser - Adversaire"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:429
 msgid "Steel Beam - Player"
-msgstr ""
+msgstr "Métalaser - Joueur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:430
 msgid "Chloroblast"
-msgstr ""
+msgstr "Herblast"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:431
 msgid "Rainbow - Player"
-msgstr ""
+msgstr "Arc-en-ciel - Joueur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:432
 msgid "Rainbow - Opponent"
-msgstr ""
+msgstr "Arc-en-ciel - Adversaire"
 
 #. source : patch FR actuel
 #: src/battle_debug.c:420 src/data/battle_environment.h:646
@@ -14326,86 +14962,130 @@ msgstr ""
 msgid "Swamp"
 msgstr "Marécage"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/pokemon_sprite_visualizer.c:441
 msgid " XL"
-msgstr ""
+msgstr " XL"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:474
 msgid "{START_BUTTON} Shiny\\n{B_BUTTON} Exit  {A_BUTTON} Anims and BG$"
-msgstr ""
+msgstr "{START_BUTTON} Brillant\\n{B_BUTTON} Sortir  {A_BUTTON} Anims/fond$"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:475
 msgid ""
 "{START_BUTTON} Shiny {SELECT_BUTTON} Gender\\n{B_BUTTON} Exit  {A_BUTTON} "
 "Anims and BG$"
 msgstr ""
+"{START_BUTTON} Brillant {SELECT_BUTTON} Sexe\\n{B_BUTTON} Sortir  {A_BUTTON}"
+" Anims/fond$"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:480
 msgid "{START_BUTTON} Shiny\\n{B_BUTTON} Back  {A_BUTTON} Sprite Coords$"
-msgstr ""
+msgstr "{START_BUTTON} Brillant\\n{B_BUTTON} Retour  {A_BUTTON} Pos. sprite$"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:481
 msgid ""
 "{START_BUTTON} Shiny {SELECT_BUTTON} Gender\\n{B_BUTTON} Back  {A_BUTTON} "
 "Sprite Coords$"
 msgstr ""
+"{START_BUTTON} Brillant {SELECT_BUTTON} Sexe\\n{B_BUTTON} Retour  {A_BUTTON}"
+" Pos. sprite$"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:487
 msgid "{START_BUTTON} Shiny\\n{B_BUTTON} Back  {A_BUTTON} Shadow Coords$"
-msgstr ""
+msgstr "{START_BUTTON} Brillant\\n{B_BUTTON} Retour  {A_BUTTON} Pos. ombre$"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:488
 msgid ""
 "{START_BUTTON} Shiny {SELECT_BUTTON} Gender\\n{B_BUTTON} Back  {A_BUTTON} "
 "Shadow Coords$"
 msgstr ""
+"{START_BUTTON} Brillant {SELECT_BUTTON} Sexe\\n{B_BUTTON} Retour  {A_BUTTON}"
+" Pos. ombre$"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:490 src/pokemon_sprite_visualizer.c:499
 #: src/pokemon_sprite_visualizer.c:500
 msgid "{START_BUTTON} Shiny\\n{B_BUTTON} Back  {A_BUTTON} Move BGs$"
-msgstr ""
+msgstr "{START_BUTTON} Brillant {B_BUTTON} Retour {A_BUTTON} Fonds de\\ncap.$"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:491
 msgid ""
 "{START_BUTTON} Shiny {SELECT_BUTTON} Gender\\n{B_BUTTON} Back  {A_BUTTON} "
 "Move BGs$"
 msgstr ""
+"{START_BUTTON} Brillant {SELECT_BUTTON} Sexe {B_BUTTON} Retour "
+"{A_BUTTON}\\nFonds de cap.$"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:493
 msgid "B coords:\\nF coords:\\nF elev:"
-msgstr ""
+msgstr "Coord. D:\\nCoord. F:\\nÉlév. F:"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:505
 msgid "X coords:\\nY coords:\\nSize:"
-msgstr ""
+msgstr "Coord. X:\\nCoord. Y:\\nTaille:"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:510
 msgid "{START_BUTTON} Shiny\\n{B_BUTTON} Back$"
-msgstr ""
+msgstr "{START_BUTTON} Brillant\\n{B_BUTTON} Retour$"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:511
 msgid "{START_BUTTON} Shiny {SELECT_BUTTON} Gender\\n{B_BUTTON} Back$"
-msgstr ""
+msgstr "{START_BUTTON} Brillant {SELECT_BUTTON} Sexe\\n{B_BUTTON} Retour$"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:512
 msgid "Move BG:"
-msgstr ""
+msgstr "Fond cap.:"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:522
 msgid "BACK:\\nFRONT:\\nBG:$"
-msgstr ""
+msgstr "DOS:\\nFACE:\\nFOND:$"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:523
 msgid "BACK:\\nFRONT:\\nBG:\\nFORMS:$"
-msgstr ""
+msgstr "DOS:\\nFACE:\\nFOND:\\nFORMES:$"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:1108 src/pokemon_sprite_visualizer.c:1169
 msgid "const val:"
-msgstr ""
+msgstr "val. const.:"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_sprite_visualizer.c:1109 src/pokemon_sprite_visualizer.c:1170
 msgid "new val:"
-msgstr ""
+msgstr "nouv. val.:"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : Vous n’avez qu’un seul Pokémon.
@@ -14809,25 +15489,35 @@ msgstr "UNI"
 msgid "SELECT"
 msgstr "SELECT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_summary_screen.c:778
 msgid "{START_BUTTON} RELEARN"
-msgstr ""
+msgstr "{START_BUTTON} RAPPEL"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_summary_screen.c:779
 msgid "{START_BUTTON} RELEARN LEVEL"
-msgstr ""
+msgstr "{START_BUTTON} RAPPEL NIVEAU"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_summary_screen.c:780
 msgid "{START_BUTTON} RELEARN EGG"
-msgstr ""
+msgstr "{START_BUTTON} RAPPEL ŒUF"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_summary_screen.c:781
 msgid "{START_BUTTON} RELEARN TM"
-msgstr ""
+msgstr "{START_BUTTON} RAPPEL CT"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokemon_summary_screen.c:782
 msgid "{START_BUTTON} RELEARN TUTOR"
-msgstr ""
+msgstr "{START_BUTTON} RAPPEL MONIT."
 
 #. source : patch FR actuel (récupéré par pointeur)
 #: src/pokenav_conditions_gfx.c:33 src/strings.c:129
@@ -14869,13 +15559,17 @@ msgstr "{A_BUTTON}ZOOM + {B_BUTTON}Retour"
 msgid "{A_BUTTON}FULL {B_BUTTON}CANCEL"
 msgstr "{A_BUTTON}ZOOM - {B_BUTTON}Retour"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokenav_main_menu.c:104
 msgid "{A_BUTTON}ZOOM {B_BUTTON}CANCEL {R_BUTTON}FLY"
-msgstr ""
+msgstr "{A_BUTTON}ZOOM + {B_BUTTON}Retour {R_BUTTON}Vol"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/pokenav_main_menu.c:105
 msgid "{A_BUTTON}FULL {B_BUTTON}CANCEL {R_BUTTON}FLY"
-msgstr ""
+msgstr "{A_BUTTON}ZOOM - {B_BUTTON}Retour {R_BUTTON}Vol"
 
 #. source : Émeraude FR officiel
 #: src/pokenav_main_menu.c:107
@@ -16071,13 +16765,17 @@ msgstr "Léo"
 msgid "DYLAN"
 msgstr "REGIS"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1758
 msgid "Zee"
-msgstr ""
+msgstr "Zee"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1759
 msgid "Meara"
-msgstr ""
+msgstr "Meara"
 
 #. source : SoulSilver FR officiel
 #: src/scrcmd.c:1760
@@ -16089,119 +16787,169 @@ msgstr "Olwen"
 msgid "RAINBOW"
 msgstr "Rainbow"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1762
 msgid "FERRO"
-msgstr ""
+msgstr "FERRO"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1763
 msgid "Kris"
-msgstr ""
+msgstr "Kris"
 
 #: src/scrcmd.c:1764
 msgid "Chad"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1765
 msgid "Bacon"
-msgstr ""
+msgstr "Bacon"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1766
 msgid "Excl"
-msgstr ""
+msgstr "Excl"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1767
 msgid "Liquid"
-msgstr ""
+msgstr "Liquid"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1768
 msgid "Dyn"
-msgstr ""
+msgstr "Dyn"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1769
 msgid "Fabian"
-msgstr ""
+msgstr "Fabian"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1770
 msgid "peepy"
-msgstr ""
+msgstr "peepy"
 
 #. source : SoulSilver FR officiel
 #: src/scrcmd.c:1771
 msgid "Cameron"
 msgstr "Gwen"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1772
 msgid "Joe"
-msgstr ""
+msgstr "Joe"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1773
 msgid "Andrew"
-msgstr ""
+msgstr "Andrew"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1774
 msgid "Nova"
-msgstr ""
+msgstr "Nova"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1775
 msgid "Cromlnt"
-msgstr ""
+msgstr "Cromlnt"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1776
 msgid "Phant"
-msgstr ""
+msgstr "Phant"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1777
 msgid "Papito"
-msgstr ""
+msgstr "Papito"
 
 #. source : SoulSilver FR officiel
 #: src/data/credits_hns.h:111 src/scrcmd.c:1778 src/scrcmd.c:1784
 msgid "Casper"
 msgstr "Casey"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1779
 msgid "ELLI"
-msgstr ""
+msgstr "ELLI"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1780
 msgid "Grey"
-msgstr ""
+msgstr "Grey"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1781
 msgid "Necro"
-msgstr ""
+msgstr "Necro"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1782
 msgid "Penka"
-msgstr ""
+msgstr "Penka"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1783
 msgid "Emmam"
-msgstr ""
+msgstr "Emmam"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1785
 msgid "MARZ"
-msgstr ""
+msgstr "MARZ"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1786
 msgid "leob050"
-msgstr ""
+msgstr "leob050"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:114 src/scrcmd.c:1787
 msgid "Sayu"
-msgstr ""
+msgstr "Sayu"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:116 src/scrcmd.c:1788
 msgid "Brick"
-msgstr ""
+msgstr "Brick"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1789
 msgid "Kino"
-msgstr ""
+msgstr "Kino"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/scrcmd.c:1790
 msgid "JIRAIYA"
-msgstr ""
+msgstr "JIRAIYA"
 
 #. source : patch FR actuel
 #: src/data/easy_chat/easy_chat_group_endings.h:88 src/script_menu.c:1323
@@ -16276,9 +17024,11 @@ msgstr ""
 "en!\\nVous avez jusqu’à 5 chances\\nde gagner! Mais gardez\\nle Big Bonus "
 "pour la fin!"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/start_menu.c:206
 msgid "DEBUG"
-msgstr ""
+msgstr "DÉBOG."
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : SAPHIR
@@ -21288,9 +22038,11 @@ msgstr "NOSFERALTO"
 msgid "SLOWBRO"
 msgstr "FLAGADOSS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:267
 msgid "JAC"
-msgstr ""
+msgstr "Jac"
 
 #. source : SoulSilver FR officiel
 #: data/maps/Route25_BillsHouse_hns/scripts.inc:319
@@ -21366,9 +22118,11 @@ msgstr "MELODELFE"
 msgid "TOGETIC"
 msgstr "TOGETIC"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:582 src/trainer_tower_sets.c:726
 msgid "JOS & ANNE"
-msgstr ""
+msgstr "Jos & Anne"
 
 #. source : SoulSilver FR officiel
 #: data/maps/Route25_BillsHouse_hns/scripts.inc:325
@@ -21482,9 +22236,11 @@ msgstr "DRACAUFEU"
 msgid "GENGAR"
 msgstr "ECTOPLASMA"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:882 src/trainer_tower_sets.c:1026
 msgid "EMY & ALEK"
-msgstr ""
+msgstr "Emy & Alek"
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:18005
@@ -21564,9 +22320,11 @@ msgstr "GRODOUDOU"
 msgid "PORYGON2"
 msgstr "PORYGON2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:1182 src/trainer_tower_sets.c:1326
 msgid "JO & HALEY"
-msgstr ""
+msgstr "Jo & Haley"
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_2_families.h:5655
@@ -21634,9 +22392,11 @@ msgstr "MACKOGNEUR"
 msgid "HERACROSS"
 msgstr "SCARHINO"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:1482
 msgid "JORDY"
-msgstr ""
+msgstr "Jordy"
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:7934
@@ -21912,9 +22672,11 @@ msgstr "CARATROC"
 msgid "FORRETRESS"
 msgstr "FORETRESS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:2839 src/trainer_tower_sets.c:2983
 msgid "RIC & RENE"
-msgstr ""
+msgstr "Ric & Rene"
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:4577
@@ -21934,9 +22696,11 @@ msgstr "OSSATUEUR"
 msgid "ELECTABUZZ"
 msgstr "ELEKTEK"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:3139 src/trainer_tower_sets.c:3283
 msgid "JEN & KIRA"
-msgstr ""
+msgstr "Jen & Kira"
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:8671
@@ -21978,9 +22742,11 @@ msgstr "EVOLI"
 msgid "UMBREON"
 msgstr "NOCTALI"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:3439 src/trainer_tower_sets.c:3583
 msgid "ISAC & MAG"
-msgstr ""
+msgstr "Isac & Mag"
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_2_families.h:4872
@@ -22235,9 +23001,11 @@ msgstr "TENTACRUEL"
 msgid "DUNSPARCE"
 msgstr "INSOLOURDO"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:4782
 msgid "ALLYSON"
-msgstr ""
+msgstr "Allyson"
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:7321
@@ -22267,9 +23035,11 @@ msgstr "ALIGATUEUR"
 msgid "GRANBULL"
 msgstr "GRANBULL"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:5096 src/trainer_tower_sets.c:5240
 msgid "KAT & KIPP"
-msgstr ""
+msgstr "Kat & Kipp"
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:2553
@@ -22326,9 +23096,11 @@ msgstr "CRUSTABRI"
 msgid "KABUTOPS"
 msgstr "KABUTOPS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:5396 src/trainer_tower_sets.c:5540
 msgid "GEB&MEGAN"
-msgstr ""
+msgstr "Geb & Megan"
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:6324
@@ -22347,9 +23119,11 @@ msgstr "LIPPOUTOU"
 msgid "SLOWKING"
 msgstr "ROIGADA"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:5696 src/trainer_tower_sets.c:5840
 msgid "LISA&LEAH"
-msgstr ""
+msgstr "Lisa & Leah"
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:6615
@@ -22409,9 +23183,11 @@ msgstr "NIDORAN♀"
 msgid "TOTODILE"
 msgstr "KAIMINUS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:5996
 msgid "PRISCILLA"
-msgstr ""
+msgstr "Priscilla"
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:16218
@@ -22562,9 +23338,11 @@ msgstr "PIKACHU"
 msgid "LORENZO"
 msgstr "Quantin"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:7353 src/trainer_tower_sets.c:7497
 msgid "NIA & CARL"
-msgstr ""
+msgstr "Nia & Carl"
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:5914
@@ -22574,13 +23352,17 @@ msgstr ""
 msgid "MUK"
 msgstr "GROTADMORV"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:7653 src/trainer_tower_sets.c:7797
 msgid "AXE & REN"
-msgstr ""
+msgstr "Axe & Ren"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:7953 src/trainer_tower_sets.c:8097
 msgid "KATI & GEB"
-msgstr ""
+msgstr "Kati & Geb"
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:6766
@@ -22612,9 +23394,11 @@ msgstr ""
 msgid "CAMDEN"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:8541
 msgid "ZACKERY"
-msgstr ""
+msgstr "Zackery"
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:12716
@@ -22627,9 +23411,11 @@ msgstr "SPECTRUM"
 msgid "MAURA"
 msgstr "MAGARA"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/trainer_tower_sets.c:8840
 msgid "MIKAELA"
-msgstr ""
+msgstr "Mikaela"
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:5139
@@ -22732,9 +23518,11 @@ msgstr ""
 msgid "Held Item"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:238
 msgid "Hold Effect"
-msgstr ""
+msgstr "Effet de l’objet tenu"
 
 #: src/battle_debug.c:315
 msgid "Moves"
@@ -22744,65 +23532,93 @@ msgstr ""
 msgid "PP"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/battle_debug.c:319
 msgid "Types"
-msgstr ""
+msgstr "Types"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/battle_debug.c:320
 msgid "Stats"
-msgstr ""
+msgstr "Stats"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:321
 msgid "Stat Stages"
-msgstr ""
+msgstr "Niv. stats"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:322
 msgid "Status1"
-msgstr ""
+msgstr "Statut1"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:323
 msgid "Volatiles"
-msgstr ""
+msgstr "Volatils"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:324
 msgid "Hazards"
-msgstr ""
+msgstr "Pièges"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:325
 msgid "Side Status"
-msgstr ""
+msgstr "Statut camp"
 
 #: src/battle_debug.c:326
 msgid "AI"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:327
 msgid "AI Pts/Dmg"
-msgstr ""
+msgstr "IA pts/dég"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:328
 msgid "AI Info"
-msgstr ""
+msgstr "IA infos"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:329
 msgid "AI Party"
-msgstr ""
+msgstr "IA équipe"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:330
 msgid "Various"
-msgstr ""
+msgstr "Divers"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:331
 msgid "Instant Win"
-msgstr ""
+msgstr "Victoire imm."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:336
 msgid "HP Current"
-msgstr ""
+msgstr "PV actuels"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:337
 msgid "HP Max"
-msgstr ""
+msgstr "PV max"
 
 #: src/battle_debug.c:338
 msgid "Attack"
@@ -22824,13 +23640,17 @@ msgstr ""
 msgid "Sp. Def"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:352
 msgid "Toxic Poison"
-msgstr ""
+msgstr "Poison grave"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:353
 msgid "Toxic Counter"
-msgstr ""
+msgstr "Cpt. poison grave"
 
 #: src/battle_debug.c:359
 msgid "Confusion"
@@ -22844,65 +23664,91 @@ msgstr ""
 msgid "Torment"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:362
 msgid "Powder"
-msgstr ""
+msgstr "Nuée de Poudre"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:363
 msgid "DefenseCurl"
-msgstr ""
+msgstr "Boul’Armure"
 
 #: src/battle_debug.c:364
 msgid "Rage"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:365
 msgid "DestinyBond"
-msgstr ""
+msgstr "Prlvt Destin"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:366
 msgid "EscapePrevention"
-msgstr ""
+msgstr "Fuite impossible"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:367
 msgid "Cursed"
-msgstr ""
+msgstr "Maudit"
 
 #: src/battle_debug.c:368
 msgid "Foresight"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:369
 msgid "DragonCheer"
-msgstr ""
+msgstr "Cri Draconique"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:370
 msgid "FocusEnergy"
-msgstr ""
+msgstr "Puissance"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:372
 msgid "MudSport"
-msgstr ""
+msgstr "Lance-Boue"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:373
 msgid "WaterSport"
-msgstr ""
+msgstr "Tourniquet"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:374
 msgid "Infinite Confusion"
-msgstr ""
+msgstr "Confusion infinie"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:375
 msgid "Salt Cure"
-msgstr ""
+msgstr "Salaison"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:376
 msgid "Syrup Bomb"
-msgstr ""
+msgstr "Bombe au Sirop"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:377
 msgid "Glaive Rush"
-msgstr ""
+msgstr "Charge Glaive"
 
 #: src/battle_debug.c:378
 msgid "Leech Seed"
@@ -22924,9 +23770,11 @@ msgstr ""
 msgid "Charge"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:383
 msgid "Root"
-msgstr ""
+msgstr "Racines"
 
 #: src/battle_debug.c:384
 msgid "Yawn"
@@ -22944,13 +23792,17 @@ msgstr ""
 msgid "Embargo"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:389
 msgid "Smack Down"
-msgstr ""
+msgstr "Anti-Air"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:390
 msgid "Telekinesis"
-msgstr ""
+msgstr "Lévikinésie"
 
 #: src/battle_debug.c:391
 msgid "Miracle Eye"
@@ -22968,17 +23820,21 @@ msgstr ""
 msgid "Aqua Ring"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:395
 msgid "Laser Focus"
-msgstr ""
+msgstr "Affilage"
 
 #: src/battle_debug.c:396
 msgid "Power Trick"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:402
 msgid "Sticky Web"
-msgstr ""
+msgstr "Toile Gluante"
 
 #: src/battle_debug.c:403
 msgid "Toxic Spikes"
@@ -22988,9 +23844,11 @@ msgstr ""
 msgid "Stealth Rock"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:405
 msgid "Steelsurge"
-msgstr ""
+msgstr "Percée G-Max"
 
 #: src/battle_debug.c:410
 msgid "Reflect"
@@ -23012,253 +23870,365 @@ msgstr ""
 msgid "Tailwind"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:415
 msgid "Aurora Veil"
-msgstr ""
+msgstr "Voile Aurore"
 
 #: src/battle_debug.c:416
 msgid "Lucky Chant"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:417
 msgid "Damage Non-Types"
-msgstr ""
+msgstr "Dégâts hors type"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:419
 msgid "Sea of Fire"
-msgstr ""
+msgstr "Mer de Feu"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:425
 msgid "Check Bad Move"
-msgstr ""
+msgstr "Évite mauv. cap."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:426
 msgid "Try to Faint"
-msgstr ""
+msgstr "Cherche le K.O."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:427
 msgid "Check Viability"
-msgstr ""
+msgstr "Vérif. viabilité"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:428
 msgid "Force Setup First Turn"
-msgstr ""
+msgstr "Boost forcé tour 1"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:429
 msgid "Risky"
-msgstr ""
+msgstr "Risqué"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:430
 msgid "Try to 2HKO"
-msgstr ""
+msgstr "Cherche K.O. en 2"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:431
 msgid "Prefer Baton Pass"
-msgstr ""
+msgstr "Préfère Relais"
 
 #: src/battle_debug.c:432
 msgid "Double Battle"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:433
 msgid "HP Aware"
-msgstr ""
+msgstr "Attentif aux PV"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:434
 msgid "Powerful Status"
-msgstr ""
+msgstr "Cap. statut fortes"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:435
 msgid "Negate Unaware"
-msgstr ""
+msgstr "Contre Inconscient"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:436
 msgid "Will Suicide"
-msgstr ""
+msgstr "Se sacrifie"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:437
 msgid "Prefer Status Moves"
-msgstr ""
+msgstr "Préfère cap. statut"
 
 #: src/battle_debug.c:438
 msgid "Stall"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:439
 msgid "Smart Switching"
-msgstr ""
+msgstr "Changement malin"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:440
 msgid "Ace Pokémon"
-msgstr ""
+msgstr "Pokémon atout"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/battle_debug.c:441
 msgid "Omniscient"
-msgstr ""
+msgstr "Omniscient"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:442
 msgid "Smart Mon Choices"
-msgstr ""
+msgstr "Bons choix Pokémon"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:443
 msgid "Conservative"
-msgstr ""
+msgstr "Prudent"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:444
 msgid "Sequence Switching"
-msgstr ""
+msgstr "Change dans l’ordre"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:445
 msgid "Double Ace Pokémon"
-msgstr ""
+msgstr "Double atout"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:446
 msgid "Weigh Ability Prediction"
-msgstr ""
+msgstr "Pond. préd. talent"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:447
 msgid "Prefer Highest Damage Move"
-msgstr ""
+msgstr "Préfère max dégâts"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:448
 msgid "Predict Switch"
-msgstr ""
+msgstr "Prédit changement"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:449
 msgid "Predict Incoming Mon"
-msgstr ""
+msgstr "Prédit remplaçant"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:450
 msgid "Dynamic Func"
-msgstr ""
+msgstr "Fonction dynamique"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:451
 msgid "Roaming"
-msgstr ""
+msgstr "Errant"
 
 #: src/battle_debug.c:452
 msgid "Safari"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:453
 msgid "First Battle"
-msgstr ""
+msgstr "Premier combat"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:458
 msgid "Show HP"
-msgstr ""
+msgstr "Voir PV"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:459
 msgid "Substitute HP"
-msgstr ""
+msgstr "PV du clone"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:460
 msgid "In Love"
-msgstr ""
+msgstr "Amoureux"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:737
 msgid "Score/Dmg"
-msgstr ""
+msgstr "Score/Dég."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:778
 msgid "Switching to "
-msgstr ""
+msgstr "Change pour "
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:1440
 msgid "All"
-msgstr ""
+msgstr "Toutes"
 
 #: src/battle_debug.c:2165
 msgid "Restore Hp"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2166
 msgid "Cure Par"
-msgstr ""
+msgstr "SoinPAR"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2167
 msgid "Cure Slp"
-msgstr ""
+msgstr "SoinSOM"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2168
 msgid "Cure Psn"
-msgstr ""
+msgstr "SoinPSN"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2169
 msgid "Cure Brn"
-msgstr ""
+msgstr "SoinBRU"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2170
 msgid "Cure Frz"
-msgstr ""
+msgstr "SoinGEL"
 
 #: src/battle_debug.c:2171
 msgid "Restore Pp"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2172
 msgid "Cure Confusion"
-msgstr ""
+msgstr "-Conf."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2173
 msgid "Cure Status"
-msgstr ""
+msgstr "-Statut"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2174
 msgid "Confuse Spicy"
-msgstr ""
+msgstr "Cf. épi"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2175
 msgid "Confuse Dry"
-msgstr ""
+msgstr "Cf. âpr"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2176
 msgid "Confuse Sweet"
-msgstr ""
+msgstr "Cf. suc"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2177
 msgid "Confuse Bitter"
-msgstr ""
+msgstr "Cf. ame"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2178
 msgid "Confuse Sour"
-msgstr ""
+msgstr "Cf. aci"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2179
 msgid "Attack Up"
-msgstr ""
+msgstr "AT +"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2180
 msgid "Defense Up"
-msgstr ""
+msgstr "DF +"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2181
 msgid "Speed Up"
-msgstr ""
+msgstr "VI +"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2182
 msgid "Sp Attack Up"
-msgstr ""
+msgstr "AS +"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2183
 msgid "Sp Defense Up"
-msgstr ""
+msgstr "DS +"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2184
 msgid "Critical Up"
-msgstr ""
+msgstr "Crit. +"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2185
 msgid "Random Stat Up"
-msgstr ""
+msgstr "+Stat?"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2186
 msgid "Evasion Up"
-msgstr ""
+msgstr "Esq. +"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2187
 msgid "Restore Stats"
-msgstr ""
+msgstr "Restaure stats"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -23281,9 +24251,11 @@ msgstr "Multi Exp"
 msgid "Quick Claw"
 msgstr "Vive Griffe"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2191
 msgid "Friendship Up"
-msgstr ""
+msgstr "Amitié+"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -23299,13 +24271,17 @@ msgstr "Herbe Mental"
 msgid "Choice Band"
 msgstr "Band. Choix"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2194
 msgid "Flinch"
-msgstr ""
+msgstr "Peur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2195
 msgid "Double Prize"
-msgstr ""
+msgstr "Double gain"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -23321,21 +24297,29 @@ msgstr "Repousse"
 msgid "Soul Dew"
 msgstr "Rosée Ame"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2198
 msgid "Deep Sea Tooth"
-msgstr ""
+msgstr "Dent Océan"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2199
 msgid "Deep Sea Scale"
-msgstr ""
+msgstr "Écaille Océan"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2200
 msgid "Can Always Run"
-msgstr ""
+msgstr "Fuite assurée"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2201
 msgid "Prevent Evolve"
-msgstr ""
+msgstr "Bloque évolution"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -23365,9 +24349,11 @@ msgstr "Lentilscope"
 msgid "Light Ball"
 msgstr "Ballelumière"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2207
 msgid "Type Power"
-msgstr ""
+msgstr "Puiss. type"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -23397,9 +24383,11 @@ msgstr "Poudre Métal"
 msgid "Thick Club"
 msgstr "Masse Os"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2212
 msgid "Leek"
-msgstr ""
+msgstr "Bâton"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -23591,17 +24579,23 @@ msgstr "Orbe Platiné"
 msgid "Enigma Berry"
 msgstr "Baie Enigma"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2244
 msgid "Resist Berry"
-msgstr ""
+msgstr "Baie résist."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2245
 msgid "Power Item"
-msgstr ""
+msgstr "Objet Pouvoir"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2246
 msgid "Restore Pct Hp"
-msgstr ""
+msgstr "% PV +"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -23631,173 +24625,257 @@ msgstr "Baie Jaboca"
 msgid "Rowap Berry"
 msgstr "Baie Pommo"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2251
 msgid "Kee Berry"
-msgstr ""
+msgstr "Baie Éka"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2252
 msgid "Maranga Berry"
-msgstr ""
+msgstr "Baie Rangma"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2254
 msgid "Float Stone"
-msgstr ""
+msgstr "Pierrallégée"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2255
 msgid "Eviolite"
-msgstr ""
+msgstr "Évoluroc"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2256
 msgid "Assault Vest"
-msgstr ""
+msgstr "Veste de Combat"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2257
 msgid "Drive"
-msgstr ""
+msgstr "Module"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2258
 msgid "Gems"
-msgstr ""
+msgstr "Joyaux"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2259
 msgid "Rocky Helmet"
-msgstr ""
+msgstr "Casque Brut"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2260
 msgid "Air Balloon"
-msgstr ""
+msgstr "Ballon"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2261
 msgid "Red Card"
-msgstr ""
+msgstr "Carton Rouge"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2262
 msgid "Ring Target"
-msgstr ""
+msgstr "Point de Mire"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2263
 msgid "Binding Band"
-msgstr ""
+msgstr "Bande Étreinte"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2264
 msgid "Eject Button"
-msgstr ""
+msgstr "Bouton Fuite"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2265
 msgid "Absorb Bulb"
-msgstr ""
+msgstr "Bulbe"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2266
 msgid "Cell Battery"
-msgstr ""
+msgstr "Pile"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2267
 msgid "Mega Stone"
-msgstr ""
+msgstr "Méga-Gemme"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2270
 msgid "Snowball"
-msgstr ""
+msgstr "Boule de Neige"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2271
 msgid "Weakness Policy"
-msgstr ""
+msgstr "Vulné-Assurance"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2272
 msgid "Primal Orb"
-msgstr ""
+msgstr "Orbe Primo"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2274
 msgid "Terrain Extender"
-msgstr ""
+msgstr "Champ’Duit"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2275
 msgid "Seeds"
-msgstr ""
+msgstr "Graines"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2276
 msgid "Adrenaline Orb"
-msgstr ""
+msgstr "Orbe Frousse"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2277
 msgid "Memory"
-msgstr ""
+msgstr "ROM"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2278
 msgid "Z-Crystal"
-msgstr ""
+msgstr "Cristal Z"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2279
 msgid "Utility Umbrella"
-msgstr ""
+msgstr "Parapluie Solide"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2280
 msgid "Eject Pack"
-msgstr ""
+msgstr "Sac Fuite"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2281
 msgid "Room Service"
-msgstr ""
+msgstr "Chariot Distordu"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2282
 msgid "Blunder Policy"
-msgstr ""
+msgstr "Assurance Échec"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2283
 msgid "Heavy Duty Boots"
-msgstr ""
+msgstr "Grosses Bottes"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2284
 msgid "Throat Spray"
-msgstr ""
+msgstr "Spray Gorge"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2285
 msgid "Ability Shield"
-msgstr ""
+msgstr "Garde-Talent"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2286
 msgid "Clear Amulet"
-msgstr ""
+msgstr "Talisman Sain"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2287
 msgid "Mirror Herb"
-msgstr ""
+msgstr "Feuille Copieuse"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2288
 msgid "Punching Glove"
-msgstr ""
+msgstr "Gant de Boxe"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2289
 msgid "Covert Cloak"
-msgstr ""
+msgstr "Cape Obscure"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2291
 msgid "Booster Energy"
-msgstr ""
+msgstr "Énergie Booster"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2292
 msgid "Ogerpon Mask"
-msgstr ""
+msgstr "Masque Ogerpon"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/battle_debug.c:2293
 msgid "Berserk Gene"
-msgstr ""
+msgstr "ADN Berzerk"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:421
 msgid "TRUE"
-msgstr ""
+msgstr "VRAI"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:422
 msgid "FALSE"
-msgstr ""
+msgstr "FAUX"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:423
 msgid "{COLOR GREEN}TRUE"
-msgstr ""
+msgstr "{COLOR GREEN}VRAI"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:424
 msgid "{COLOR RED}FALSE"
-msgstr ""
+msgstr "{COLOR RED}FAUX"
 
 #: src/debug.c:427
 msgid "Continue…"
@@ -23809,53 +24887,79 @@ msgid ""
 "90}"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:430
 msgid ""
 "Map: {STR_VAR_1}{CLEAR_TO 90}\\nMapSec:{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO "
 "90}\\n{STR_VAR_3}{CLEAR_TO 90}"
 msgstr ""
+"Carte: {STR_VAR_1}{CLEAR_TO 90}\\nSect.:{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO"
+" 90}\\n{STR_VAR_3}{CLEAR_TO 90}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:431
 msgid ""
 "Warp:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
 "90}\\n{STR_VAR_3}{CLEAR_TO 90}"
 msgstr ""
+"Téléport.:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{STR_VAR_3}{CLEAR_TO 90}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:433
 msgid "Weather ID: {STR_VAR_3}\\n{STR_VAR_1}\\n{STR_VAR_2}"
-msgstr ""
+msgstr "ID météo: {STR_VAR_3}\\n{STR_VAR_1}\\n{STR_VAR_2}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:438
 msgid "Sunday"
-msgstr ""
+msgstr "Dimanche"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:439
 msgid "Monday"
-msgstr ""
+msgstr "Lundi"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:440
 msgid "Tuesday"
-msgstr ""
+msgstr "Mardi"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:441
 msgid "Wednesday"
-msgstr ""
+msgstr "Mercredi"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:442
 msgid "Thursday"
-msgstr ""
+msgstr "Jeudi"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:443
 msgid "Friday"
-msgstr ""
+msgstr "Vendredi"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:444
 msgid "Saturday"
-msgstr ""
+msgstr "Samedi"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:457
 msgid "Brendan"
-msgstr ""
+msgstr "BRICE"
 
 #: src/debug.c:458
 msgid "May"
@@ -23865,372 +24969,561 @@ msgstr ""
 msgid "Steven"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:460
 msgid "Wally"
-msgstr ""
+msgstr "TIMMY"
 
 #: src/debug.c:461
 msgid "Red"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:467 src/debug.c:468
 msgid ""
 "Var: {STR_VAR_1}{CLEAR_TO 90}\\nVal: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_2}"
 msgstr ""
+"Var: {STR_VAR_1}{CLEAR_TO 90}\\nVal.: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_2}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:470
 msgid ""
 "Shiny:{CLEAR_TO 90}\\n   {STR_VAR_2}{CLEAR_TO 90}\\n{CLEAR_TO "
 "90}\\n{CLEAR_TO 90}"
 msgstr ""
+"Brillant:{CLEAR_TO 90}\\n   {STR_VAR_2}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{CLEAR_TO 90}"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/debug.c:471
 msgid ""
 "IV {STR_VAR_1}:{CLEAR_TO 90}\\n    {STR_VAR_3}{CLEAR_TO 90}\\n{CLEAR_TO "
 "90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 msgstr ""
+"IV {STR_VAR_1}:{CLEAR_TO 90}\\n    {STR_VAR_3}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/debug.c:472
 msgid ""
 "EV {STR_VAR_1}:{CLEAR_TO 90}\\n    {STR_VAR_3}{CLEAR_TO 90}\\n{CLEAR_TO "
 "90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 msgstr ""
+"EV {STR_VAR_1}:{CLEAR_TO 90}\\n    {STR_VAR_3}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:474
 msgid ""
 "SFX ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  "
 "{SELECT_BUTTON} GBS Off"
 msgstr ""
+"ID son: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  "
+"{SELECT_BUTTON} GBS non"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:475
 msgid ""
 "SFX ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  "
 "{SELECT_BUTTON} GBS On"
 msgstr ""
+"ID son: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  "
+"{SELECT_BUTTON} GBS oui"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:476
 msgid ""
 "Music ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}"
 "  {SELECT_BUTTON} GBS Off"
 msgstr ""
+"ID musique: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    "
+"\\n{STR_VAR_2}  {SELECT_BUTTON} GBS non"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:477
 msgid ""
 "Music ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}"
 "  {SELECT_BUTTON} GBS On"
 msgstr ""
+"ID musique: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    "
+"\\n{STR_VAR_2}  {SELECT_BUTTON} GBS oui"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:541
 msgid "Get time…"
-msgstr ""
+msgstr "Voir l’heure…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:542
 msgid "Get time of day…"
-msgstr ""
+msgstr "Voir la période…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:543
 msgid "Set time of day…"
-msgstr ""
+msgstr "Régler la période…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:544
 msgid "Set weekday…"
-msgstr ""
+msgstr "Régler le jour…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:545
 msgid "Check wall clock…"
-msgstr ""
+msgstr "Voir l’horloge…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:546
 msgid "Set wall clock…"
-msgstr ""
+msgstr "Régler l’horloge…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:552
 msgid "Clear map trees"
-msgstr ""
+msgstr "Vider les plants"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:553
 msgid "Ready map trees"
-msgstr ""
+msgstr "Préparer les plants"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:554
 msgid "Grow map trees"
-msgstr ""
+msgstr "Faire pousser les plants"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:555
 msgid "Give map trees pests"
-msgstr ""
+msgstr "Infester les plants"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:556
 msgid "Give map trees weeds"
-msgstr ""
+msgstr "Ajouter des adventices"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:562
 msgid "Create Follower"
-msgstr ""
+msgstr "Créer un suiveur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:563
 msgid "Destroy Follower"
-msgstr ""
+msgstr "Supprimer le suiveur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:569
 msgid "Fly to map…"
-msgstr ""
+msgstr "Voler vers la carte…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:570
 msgid "Warp to map warp…"
-msgstr ""
+msgstr "Téléportation…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:571
 msgid "Set weather…"
-msgstr ""
+msgstr "Régler la météo…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:572
 msgid "Font Test…"
-msgstr ""
+msgstr "Test de police…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:573
 msgid "Time Functions…"
-msgstr ""
+msgstr "Heure…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:574
 msgid "Watch credits…"
-msgstr ""
+msgstr "Voir le générique…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:575
 msgid "Cheat start"
-msgstr ""
+msgstr "Départ triché"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:576
 msgid "Berry Functions…"
-msgstr ""
+msgstr "Baies…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:577
 msgid "EWRAM Counters…"
-msgstr ""
+msgstr "Compteurs EWRAM…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:578
 msgid "Follower NPC…"
-msgstr ""
+msgstr "PNJ suiveur…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:579
 msgid "Wally Tutorial"
-msgstr ""
+msgstr "Tutoriel TIMMY"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:580
 msgid "Steven Multi"
-msgstr ""
+msgstr "Multi PIERRE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:581
 msgid "Lance Multi"
-msgstr ""
+msgstr "Multi Peter"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:582
 msgid "Silver Multi"
-msgstr ""
+msgstr "Multi Silver"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:588
 msgid "Fill PC Boxes Fast"
-msgstr ""
+msgstr "Remplir les boîtes vite"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:589
 msgid "Fill PC Boxes Slow (LAG!)"
-msgstr ""
+msgstr "Boîtes: rempl. lent (LAG!)"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:590
 msgid "Fill PC Items"
-msgstr ""
+msgstr "Remplir le PC d’objets"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:591
 msgid "Fill Pocket Items"
-msgstr ""
+msgstr "Objets: remplir"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:592
 msgid "Fill Pocket Poké Balls"
-msgstr ""
+msgstr "Poké Balls: remplir"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:593
 msgid "Fill Pocket TMHM"
-msgstr ""
+msgstr "CT/CS: remplir"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:594
 msgid "Fill Pocket Berries"
-msgstr ""
+msgstr "Baies: remplir"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:595
 msgid "Fill Pocket Key Items"
-msgstr ""
+msgstr "Objets rares: remplir"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:601
 msgid "Access PC"
-msgstr ""
+msgstr "Accéder au PC"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:602
 msgid "Fill…"
-msgstr ""
+msgstr "Remplir…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:603
 msgid "Clear Bag"
-msgstr ""
+msgstr "Vider le Sac"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:604
 msgid "Clear Storage Boxes"
-msgstr ""
+msgstr "Vider les boîtes"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:610
 msgid "Inflict Status1"
-msgstr ""
+msgstr "Infliger le statut 1"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:611
 msgid "Faint Pokemon"
-msgstr ""
+msgstr "Mettre K.O."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:612
 msgid "Set Hidden Nature"
-msgstr ""
+msgstr "Régler nature cachée"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:613
 msgid "Set Friendship"
-msgstr ""
+msgstr "Régler l’amitié"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:614
 msgid "Set Ability"
-msgstr ""
+msgstr "Régler le talent"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:620
 msgid "Move Relearner"
-msgstr ""
+msgstr "Maître des capacités"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:621
 msgid "Hatch an Egg"
-msgstr ""
+msgstr "Faire éclore un Œuf"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:622
 msgid "Heal party"
-msgstr ""
+msgstr "Soigner l’équipe"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:623
 msgid "Edit Pokemon"
-msgstr ""
+msgstr "Modifier un Pokémon"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:624
 msgid "Check EVs"
-msgstr ""
+msgstr "Voir les EV"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:625
 msgid "Check IVs"
-msgstr ""
+msgstr "Voir les IV"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:626
 msgid "Give Pokerus"
-msgstr ""
+msgstr "Donner le Pokérus"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:627
 msgid "Clear Pokerus"
-msgstr ""
+msgstr "Retirer le Pokérus"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:628
 msgid "Clear Party"
-msgstr ""
+msgstr "Vider l’équipe"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:629
 msgid "Set Party"
-msgstr ""
+msgstr "Définir l’équipe"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:630
 msgid "Start Debug Battle"
-msgstr ""
+msgstr "Combat de test"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:636
 msgid "Give item XYZ…"
-msgstr ""
+msgstr "Donner objet XYZ…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:637
 msgid "Pokémon (Basic)"
-msgstr ""
+msgstr "Pokémon (Simple)"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:638
 msgid "Pokémon (Complex)"
-msgstr ""
+msgstr "Pokémon (complet)"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:639
 msgid "Give Egg"
-msgstr ""
+msgstr "Donner un Œuf"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:640
 msgid "Give Decoration…"
-msgstr ""
+msgstr "Donner une déco…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:641
 msgid "Max Money"
-msgstr ""
+msgstr "Argent max"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:642
 msgid "Max Coins"
-msgstr ""
+msgstr "Jetons max"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:643
 msgid "Max Battle Points"
-msgstr ""
+msgstr "Points de combat max"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:644
 msgid "Daycare Egg"
-msgstr ""
+msgstr "Œuf de la Pension"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:650
 msgid "Player name"
-msgstr ""
+msgstr "Nom du joueur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:651
 msgid "Toggle gender"
-msgstr ""
+msgstr "Changer de sexe"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:652
 msgid "New Trainer ID"
-msgstr ""
+msgstr "Nouvel ID Dresseur"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/debug.c:658
 msgid "Script 1"
-msgstr ""
+msgstr "Script 1"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/debug.c:659
 msgid "Script 2"
-msgstr ""
+msgstr "Script 2"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/debug.c:660
 msgid "Script 3"
-msgstr ""
+msgstr "Script 3"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/debug.c:661
 msgid "Script 4"
-msgstr ""
+msgstr "Script 4"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/debug.c:662
 msgid "Script 5"
-msgstr ""
+msgstr "Script 5"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/debug.c:663
 msgid "Script 6"
-msgstr ""
+msgstr "Script 6"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/debug.c:664
 msgid "Script 7"
-msgstr ""
+msgstr "Script 7"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/debug.c:665
 msgid "Script 8"
-msgstr ""
+msgstr "Script 8"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:671
 msgid "Choose trainer from map"
-msgstr ""
+msgstr "Dresseur de la carte"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:672
 msgid "Trainer 1: {STR_VAR_1}"
-msgstr ""
+msgstr "Dresseur 1: {STR_VAR_1}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:673
 msgid "Trainer 2: {STR_VAR_1}"
-msgstr ""
+msgstr "Dresseur 2: {STR_VAR_1}"
 
 #: src/debug.c:674
 msgid "Partner: {STR_VAR_1}"
@@ -24240,195 +25533,283 @@ msgstr ""
 msgid "Double Battle: {STR_VAR_1}"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:676
 msgid "Matches {STR_VAR_1}/{STR_VAR_2}"
-msgstr ""
+msgstr "Revanches {STR_VAR_1}/{STR_VAR_2}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:677
 msgid "Rematch Ready {STR_VAR_1}"
-msgstr ""
+msgstr "Revanche prête {STR_VAR_1}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:678
 msgid "Try Battle"
-msgstr ""
+msgstr "Lancer le combat"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:679
 msgid "Recharge VS Seeker"
-msgstr ""
+msgstr "Recharger Cherche VS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:685
 msgid "SFX…"
-msgstr ""
+msgstr "Sons…"
 
 #: src/debug.c:686
 msgid "Music…"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:692
 msgid "Save Block space"
-msgstr ""
+msgstr "Espace bloc sauv."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:693
 msgid "ROM space"
-msgstr ""
+msgstr "Espace ROM"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:694
 msgid "Expansion Version"
-msgstr ""
+msgstr "Version expansion"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:700
 msgid "Set Flag XYZ…"
-msgstr ""
+msgstr "Régler le flag XYZ…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:701
 msgid "Set Var XYZ…"
-msgstr ""
+msgstr "Régler la var. XYZ…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:702
 msgid "Pokédex Flags All"
-msgstr ""
+msgstr "Pokédex: tout"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:703
 msgid "Pokédex Flags Reset"
-msgstr ""
+msgstr "Pokédex: remise à 0"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:704
 msgid "Toggle {STR_VAR_1}Pokédex"
-msgstr ""
+msgstr "Bascule {STR_VAR_1}Pokédex"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:705
 msgid "Toggle {STR_VAR_1}National Dex"
-msgstr ""
+msgstr "Bascule {STR_VAR_1}Pokédex national"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:706
 msgid "Toggle {STR_VAR_1}PokéNav"
-msgstr ""
+msgstr "Bascule {STR_VAR_1}PokéNav"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:707
 msgid "Toggle {STR_VAR_1}Match Call"
-msgstr ""
+msgstr "Bascule {STR_VAR_1}Appels"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:708
 msgid "Toggle {STR_VAR_1}Running Shoes"
-msgstr ""
+msgstr "Bascule {STR_VAR_1}Chaussures"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:709
 msgid "Toggle {STR_VAR_1}Fly Flags"
-msgstr ""
+msgstr "Bascule {STR_VAR_1}Lieux de Vol"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:710
 msgid "Toggle {STR_VAR_1}All badges"
-msgstr ""
+msgstr "Bascule {STR_VAR_1}Tous les Badges"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:711
 msgid "Toggle {STR_VAR_1}Game clear"
-msgstr ""
+msgstr "Bascule {STR_VAR_1}Jeu fini"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:712
 msgid "Toggle {STR_VAR_1}Frontier Pass"
-msgstr ""
+msgstr "Bascule {STR_VAR_1}Passe Zone"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:713
 msgid "Toggle {STR_VAR_1}Collision OFF"
-msgstr ""
+msgstr "Bascule {STR_VAR_1}Sans collision"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:714
 msgid "Toggle {STR_VAR_1}Encounter OFF"
-msgstr ""
+msgstr "Bascule {STR_VAR_1}Sans rencontre"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:715
 msgid "Toggle {STR_VAR_1}Trainer See OFF"
-msgstr ""
+msgstr "Bascule {STR_VAR_1}Dress. aveugles"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:716
 msgid "Toggle {STR_VAR_1}Catching OFF"
-msgstr ""
+msgstr "Bascule {STR_VAR_1}Sans capture"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:717
 msgid "Toggle {STR_VAR_1}Bag Use OFF"
-msgstr ""
+msgstr "Bascule {STR_VAR_1}Sac interdit"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:723
 msgid "No Bag: {STR_VAR_1}Inactive"
-msgstr ""
+msgstr "Sac bloqué: {STR_VAR_1}Inactif"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:724
 msgid "No Bag: {STR_VAR_1}VS Trainers"
-msgstr ""
+msgstr "Sac bloqué: {STR_VAR_1}VS Dresseurs"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:725
 msgid "No Bag: {STR_VAR_1}Active"
-msgstr ""
+msgstr "Sac bloqué: {STR_VAR_1}Actif"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:726
 msgid "No Bag: {STR_VAR_1}Invalid value"
-msgstr ""
+msgstr "Sac bloqué: {STR_VAR_1}Invalide"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:731
 msgid "Utilities…"
-msgstr ""
+msgstr "Utilitaires…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:732
 msgid "PC/Bag…"
-msgstr ""
+msgstr "PC/Sac…"
 
 #: src/debug.c:733
 msgid "Party…"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:734
 msgid "Give X…"
-msgstr ""
+msgstr "Donner…"
 
 #: src/debug.c:735
 msgid "Player…"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/debug.c:736
 msgid "Scripts…"
-msgstr ""
+msgstr "Scripts…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:737
 msgid "Trainers…"
-msgstr ""
+msgstr "Dresseurs…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:738
 msgid "Flags & Vars…"
-msgstr ""
+msgstr "Flags et vars…"
 
 #: src/debug.c:739
 msgid "Sound…"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:740
 msgid "ROM Info…"
-msgstr ""
+msgstr "Infos ROM…"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:1068 src/debug.c:1099
 msgid "{COLOR GREEN} TRUE"
-msgstr ""
+msgstr "{COLOR GREEN} VRAI"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:1070 src/debug.c:1101
 msgid "{COLOR RED} FALSE"
-msgstr ""
+msgstr "{COLOR RED} FAUX"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:1818
 msgid "\\nRelease Build"
-msgstr ""
+msgstr "Version de diffusion"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:1819
 msgid "\\nDevelopment Build"
-msgstr ""
+msgstr "\\nVersion de dév."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:1918
 msgid "Not a Trainer"
-msgstr ""
+msgstr "Pas un Dresseur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:1924
 msgid ""
 "Local ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO "
 "90}"
 msgstr ""
+"ID local: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO "
+"90}"
 
 #: src/debug.c:2048
 msgid "ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO 90}"
@@ -24442,23 +25823,32 @@ msgstr ""
 msgid " None"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:2713
 msgid "Item ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}"
-msgstr ""
+msgstr "ID objet: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:2757
 msgid "Quantity:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}"
-msgstr ""
+msgstr "Quantité:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:2853
 msgid "Species Disabled"
-msgstr ""
+msgstr "Espèce désactivée"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:2862
 msgid ""
 "Species: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO "
 "90}"
 msgstr ""
+"Espèce: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}{CLEAR_TO 90}"
 
 #: src/debug.c:2997
 msgid ""
@@ -24466,39 +25856,61 @@ msgid ""
 "90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:3112
 msgid "Random"
-msgstr ""
+msgstr "Aléatoire"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:3115
 msgid ""
 "Nature ID: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
 "90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 msgstr ""
+"ID nature: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:3152
 msgid ""
 "Ability Num: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO"
 " 90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 msgstr ""
+"Num. talent: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO"
+" 90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:3205
 msgid ""
 "Tera Type: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
 "90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 msgstr ""
+"Téra-type: {STR_VAR_3}{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:3264
 msgid ""
 "Dmax Lvl:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
 "90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 msgstr ""
+"N. Dmax:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{STR_VAR_2}{CLEAR_TO 90}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:3310
 msgid ""
 "Gmax Factor:{CLEAR_TO 90}\\n   {STR_VAR_2}{CLEAR_TO 90}\\n{CLEAR_TO "
 "90}\\n{CLEAR_TO 90}"
 msgstr ""
+"Facteur Gmax:{CLEAR_TO 90}\\n   {STR_VAR_2}{CLEAR_TO 90}\\n{CLEAR_TO "
+"90}\\n{CLEAR_TO 90}"
 
 #: src/debug.c:3431
 msgid "Default"
@@ -24508,26 +25920,38 @@ msgstr ""
 msgid "Move "
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:3664
 msgid "Decor ID: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}"
-msgstr ""
+msgstr "ID déco: {STR_VAR_3}\\n{STR_VAR_1}{CLEAR_TO 90}\\n\\n{STR_VAR_2}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:4988
 msgid "Friendship:\\n{STR_VAR_1} {RIGHT_ARROW} {STR_VAR_2}\\n\\n{STR_VAR_3}"
-msgstr ""
+msgstr "Amitié:\\n{STR_VAR_1} {RIGHT_ARROW} {STR_VAR_2}\\n\\n{STR_VAR_3}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:5047
 msgid "Inactive"
-msgstr ""
+msgstr "Inactif"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:5049
 msgid "No Pokerus"
-msgstr ""
+msgstr "Sans Pokérus"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:5053
 msgid "Days Left:\\n{STR_VAR_1}\\n{STR_VAR_2}{CLEAR_TO 90}\\n{STR_VAR_3}"
-msgstr ""
+msgstr "Jours rest.:\\n{STR_VAR_1}\\n{STR_VAR_2}{CLEAR_TO 90}\\n{STR_VAR_3}"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/debug.c:5083
 msgid "Strain:\\n{STR_VAR_1}\\n\\n{STR_VAR_3}"
-msgstr ""
+msgstr "Souche:\\n{STR_VAR_1}\\n\\n{STR_VAR_3}"

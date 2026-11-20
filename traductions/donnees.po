@@ -1139,9 +1139,11 @@ msgstr "Alerte Neige"
 msgid "Summons snow in battle."
 msgstr "Invoque la neige en combat."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/abilities.h:880
 msgid "Summons hail in battle."
-msgstr ""
+msgstr "Invoque la grêle en combat."
 
 #. source : SoulSilver FR officiel
 #: src/data/abilities.h:887
@@ -2967,9 +2969,11 @@ msgstr "Rend confus les ennemis empoisonnés."
 msgid "Grass"
 msgstr "PLANTE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:92
 msgid "Long Grass"
-msgstr ""
+msgstr "Hautes herbes"
 
 #. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
 #. d’un autre texte)
@@ -2977,13 +2981,17 @@ msgstr ""
 msgid "Sand"
 msgstr "Sable"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:126
 msgid "Underwater"
-msgstr ""
+msgstr "Fond marin"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:154
 msgid "Pond"
-msgstr ""
+msgstr "Étang"
 
 #: src/data/battle_environment.h:168
 msgid "Mountain"
@@ -2997,13 +3005,17 @@ msgstr ""
 msgid "Cave"
 msgstr "GROTTE"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:208
 msgid "Building"
-msgstr ""
+msgstr "Bâtiment"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:222
 msgid "Plain"
-msgstr ""
+msgstr "Plaine"
 
 #: src/data/battle_environment.h:236
 msgid "Frontier"
@@ -3018,25 +3030,35 @@ msgstr ""
 msgid "Leader"
 msgstr "Champion"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/battle_environment.h:275
 msgid "Magma"
-msgstr ""
+msgstr "Magma"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/battle_environment.h:288
 msgid "Aqua"
-msgstr ""
+msgstr "Aqua"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:301
 msgid "Sidney"
-msgstr ""
+msgstr "DAMIEN"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:314
 msgid "Phoebe"
-msgstr ""
+msgstr "SPECTRA"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:327
 msgid "Glacia"
-msgstr ""
+msgstr "GLACIA"
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_environment.h:340
@@ -3063,21 +3085,29 @@ msgstr "KYOGRE"
 msgid "Rayquaza"
 msgstr "RAYQUAZA"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:408
 msgid "Blue Building"
-msgstr ""
+msgstr "Bâtiment bleu"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:422
 msgid "Gray Cave"
-msgstr ""
+msgstr "Grotte grise"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:436
 msgid "Cave Water"
-msgstr ""
+msgstr "Eau de grotte"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:450
 msgid "Gray Cave Water"
-msgstr ""
+msgstr "Eau de grotte grise"
 
 #. nom propre/fragment conservé (le patch FR actuel donnait un morceau d’un
 #. autre texte)
@@ -3085,53 +3115,75 @@ msgstr ""
 msgid "Will"
 msgstr "Will"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/battle_environment.h:477
 msgid "Koga"
-msgstr ""
+msgstr "Koga"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:490
 msgid "Bruno"
-msgstr ""
+msgstr "Aldo"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:503
 msgid "Karen"
-msgstr ""
+msgstr "Marion"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:516
 msgid "Rock Snow"
-msgstr ""
+msgstr "Roche enneigée"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:542
 msgid "Mountain Snow"
-msgstr ""
+msgstr "Montagne enneigée"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:568
 msgid "Volcano Cave"
-msgstr ""
+msgstr "Grotte volcanique"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:582
 msgid "Snow Cave"
-msgstr ""
+msgstr "Grotte enneigée"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:596
 msgid "Soaring"
-msgstr ""
+msgstr "Envol"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:606
 msgid "Sky Pillar"
-msgstr ""
+msgstr "Pilier Céleste"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:616
 msgid "Burial Ground"
-msgstr ""
+msgstr "Cimetière"
 
 #: src/data/battle_environment.h:626
 msgid "Puddle"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:636
 msgid "Marsh"
-msgstr ""
+msgstr "Marais"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : use
@@ -3152,13 +3204,17 @@ msgstr "VOLCAN"
 msgid "Distortion World"
 msgstr "Monde Distorsion"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:702
 msgid "Space"
-msgstr ""
+msgstr "Espace"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_environment.h:712
 msgid "Ultra Space"
-msgstr ""
+msgstr "Ultra-Dimension"
 
 #. source : patch FR actuel
 #: src/data/contest_moves.h:6
@@ -4745,9 +4801,11 @@ msgstr "Mais il a été ignoré…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgid "Player"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/debug_trainers.party:32
 msgid "Debugger"
-msgstr ""
+msgstr "Débogueur"
 
 #. source : patch FR actuel
 #: src/data/help_window.h:8
@@ -6793,9 +6851,11 @@ msgstr "Fertihumide"
 msgid "Damp Mulch"
 msgstr "Fertihumide"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/items.h:3582
 msgid "A fertilizer that\\ndecelerates the\\ngrowth of Berries."
-msgstr ""
+msgstr "Fertilisant qui\\nralentit la pousse\\ndes Baies."
 
 #. source : SoulSilver FR officiel
 #: src/data/items.h:3601
@@ -6807,9 +6867,11 @@ msgstr "Fertistable"
 msgid "Stable Mulch"
 msgstr "Fertistable"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/items.h:3605
 msgid "A fertilizer that\\nups the life time\\nof Berry trees."
-msgstr ""
+msgstr "Fertilisant qui\\nprolonge la vie\\ndes plants de Baies."
 
 #. source : SoulSilver FR officiel
 #: src/data/items.h:3624
@@ -6821,9 +6883,11 @@ msgstr "Fertiglu"
 msgid "Gooey Mulch"
 msgstr "Fertiglu"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/items.h:3628
 msgid "A fertilizer that\\nmakes more Berries\\nregrow after fall."
-msgstr ""
+msgstr "Fertilisant qui fait\\nrepousser plus de\\nBaies après la chute."
 
 #. source : patch FR actuel
 #: src/data/items.h:3647
@@ -6835,9 +6899,11 @@ msgstr "FERTIBONDANCE"
 msgid "Rich Mulch"
 msgstr "Fertibondance"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/items.h:3651
 msgid "A fertilizer that\\nups the number of\\nBerries harvested."
-msgstr ""
+msgstr "Fertilisant qui\\naugmente le nombre\\nde Baies récoltées."
 
 #. source : patch FR actuel
 #: src/data/items.h:3670
@@ -6849,9 +6915,11 @@ msgstr "FERTISTANTANE"
 msgid "Surprise Mulch"
 msgstr "Fertistantané"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/items.h:3674
 msgid "A fertilizer that\\nups the chance of\\nBerry mutations."
-msgstr ""
+msgstr "Fertilisant qui\\nfavorise les\\nmutations des Baies."
 
 #. source : patch FR actuel
 #: src/data/items.h:3693
@@ -6863,9 +6931,11 @@ msgstr "FERTIBERANCE"
 msgid "Boost Mulch"
 msgstr "Fertibérance"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/items.h:3697
 msgid "A fertilizer that\\nups the dry speed\\nof soft soil."
-msgstr ""
+msgstr "Fertilisant qui fait\\nsécher plus vite\\nla terre meuble."
 
 #. source : patch FR actuel
 #: src/data/items.h:3716
@@ -6877,9 +6947,11 @@ msgstr "FERTIPRODIGE"
 msgid "Amaze Mulch"
 msgstr "Fertiprodige"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/items.h:3720
 msgid "A fertilizer Rich\\nSurprising and\\nBoosting as well."
-msgstr ""
+msgstr "Cumule les effets de Fertibondance,\\nFertistantané et Fertibérance."
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : NOIGRUME ROUGE
@@ -10052,13 +10124,17 @@ msgstr "Prolonge la Tempête\\nde Sable lancée par\\nle porteur."
 msgid "ICY ROCK"
 msgstr "Roche Glace"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/items.h:9474
 msgid "Extends the length\\nof the move Hail\\nused by the holder."
-msgstr ""
+msgstr "Prolonge la Grêle\\nlancée par\\nle porteur."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/items.h:9479
 msgid "Extends the length\\nof Snowscape if\\nused by the holder."
-msgstr ""
+msgstr "Prolonge Chute de\\nNeige lancée par\\nle porteur."
 
 #. source : patch FR actuel
 #: src/data/items.h:9484
@@ -11859,9 +11935,11 @@ msgstr "Empoisonne l’ennemi\\navec une toxine de\\nplus en plus forte."
 msgid "TM07"
 msgstr "CT07"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/items.h:12313
 msgid "Raises the Defense\\nof Ice type {PKMN}\\nfor 5 turns."
-msgstr ""
+msgstr "Augmente la Défense\\ndes {PKMN} Glace\\npendant 5 tours."
 
 #. source : patch FR actuel
 #: src/data/items.h:12318
@@ -14482,9 +14560,11 @@ msgstr "Absorbe la moitié des\\ndégâts infligés."
 msgid "Powerful, but leaves the\\nuser immobile the next turn."
 msgstr "Puissant, mais immobilise\\nle lanceur au tour suivant."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/moves_info.h:36
 msgid "Leaves the user immobile\\nif target is not KO'd."
-msgstr ""
+msgstr "Immobilise le lanceur si\\nla cible n’est pas K.O."
 
 #. source : patch FR actuel
 #: src/data/moves_info.h:41
@@ -15222,9 +15302,11 @@ msgstr "Balayage"
 msgid "A kick that inflicts more\\ndamage on heavier foes."
 msgstr "Un coup de pied faisant\\nplus mal aux ennemis lourds."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/moves_info.h:1878
 msgid "A low, tripping kick that\\nmay cause flinching."
-msgstr ""
+msgstr "Un coup de pied bas fait trébucher et\\npeut apeurer."
 
 #. source : SoulSilver FR officiel
 #: src/data/moves_info.h:1905
@@ -15967,9 +16049,11 @@ msgstr "Uppercut"
 msgid "A rhythmic punch that may\\nconfuse the target."
 msgstr "Un coup de poing cadencé.\\nPeut rendre confus."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/moves_info.h:3986
 msgid "The target is hit with\\nrhythmic punches."
-msgstr ""
+msgstr "Frappe la cible de coups\\nde poing rythmés."
 
 #. source : SoulSilver FR officiel
 #: src/data/moves_info.h:4016
@@ -16071,9 +16155,11 @@ msgstr "Eboulement"
 msgid "Large boulders are hurled.\\nMay cause flinching."
 msgstr "Envoie de gros rochers.\\nPeut apeurer l’ennemi."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/moves_info.h:4267
 msgid "Hits the foe with an\\navalanche of rocks."
-msgstr ""
+msgstr "Frappe l’ennemi avec une\\navalanche de rochers."
 
 #. source : SoulSilver FR officiel
 #: src/data/moves_info.h:4295
@@ -16105,9 +16191,11 @@ msgstr "Adaptation"
 msgid "TRI ATTACK"
 msgstr "Triplattaque"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/moves_info.h:4389
 msgid "A triangular field of energy\\nis created and launched."
-msgstr ""
+msgstr "Crée un champ d’énergie triangulaire\\net le projette."
 
 #. source : SoulSilver FR officiel
 #: src/data/moves_info.h:4417
@@ -20765,18 +20853,22 @@ msgstr "Pivote violemment et frappe\\ntous les Pokémon autour."
 msgid "AURORA VEIL"
 msgstr "VOILE Aurore"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/moves_info.h:16933
 msgid "Weakens all attacks, but\\nonly usable with snow."
-msgstr ""
+msgstr "Réduit les dégâts. Sous\\nneige uniquement."
 
 #. source : patch FR actuel
 #: src/data/moves_info.h:16937
 msgid "Weakens all attacks if\\nused in hail or snow."
 msgstr "Réduit les dégâts. Sous\\ngrêle ou neige uniquement."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/moves_info.h:16941
 msgid "Weakens all attacks, but\\nonly usable with hail."
-msgstr ""
+msgstr "Réduit les dégâts. Sous\\ngrêle uniquement."
 
 #. source : patch FR actuel
 #: src/data/moves_info.h:16966
@@ -22255,9 +22347,11 @@ msgstr "Crée un clone, puis cède\\nsa place à un allié."
 msgid "CHILLY RECEPTION"
 msgstr "NEIGEUX DE MOTS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/moves_info.h:20487
 msgid "Bad joke summons hailstorm.\\nThe user also switches out."
-msgstr ""
+msgstr "Sa blague jette un froid et fait\\ngrêler. Puis il cède sa place."
 
 #. source : patch FR actuel
 #: src/data/moves_info.h:20491
@@ -24264,21 +24358,29 @@ msgstr "ILE 6"
 msgid "SEVEN ISLAND"
 msgstr "ILE 7"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/script_menu.h:908
 msgid "ABRA{CLEAR_TO 0x55}{FONT_SMALL} 180 COINS"
-msgstr ""
+msgstr "ABRA{CLEAR_TO 0x55}{FONT_SMALL} 180 JETONS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/script_menu.h:909
 msgid "CLEFAIRY{CLEAR_TO 0x55}{FONT_SMALL} 500 COINS"
-msgstr ""
+msgstr "MELOFEE{CLEAR_TO 0x55}{FONT_SMALL} 500 JETONS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/script_menu.h:910
 msgid "DRATINI{CLEAR_TO 0x4B}{FONT_SMALL} 2,800 COINS"
-msgstr ""
+msgstr "MINIDRACO{CLEAR_TO 0x4B}{FONT_SMALL} 2 800 JETONS"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/script_menu.h:911
 msgid "SCYTHER{CLEAR_TO 0x4B}{FONT_SMALL} 5,500 COINS"
-msgstr ""
+msgstr "INSECATEUR{CLEAR_TO 0x4B}{FONT_SMALL} 5 500 JETONS"
 
 #: src/data/script_menu.h:912
 msgid "PORYGON{CLEAR_TO 0x4B}{FONT_SMALL} 9,999 COINS"
@@ -24527,9 +24629,11 @@ msgstr ""
 msgid "BILLY"
 msgstr "S"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1079 src/data/trainers_hns.party:4795
 msgid "TIM"
-msgstr ""
+msgstr "Tim"
 
 #: src/data/battle_frontier/battle_tent.h:618 src/data/trade.h:1086
 msgid "MAGGIE"
@@ -24556,9 +24660,11 @@ msgstr "Electron"
 msgid "SURGE"
 msgstr "Mjr Bob"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1153
 msgid "WOODY"
-msgstr ""
+msgstr "Woody"
 
 #. source : SoulSilver FR officiel
 #: data/text/fame_checker_frlg.inc:1128
@@ -24581,21 +24687,29 @@ msgstr "Métallo"
 msgid "JASMINE"
 msgstr "Jasmine"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1185
 msgid "MIMIEN"
-msgstr ""
+msgstr "Mimien"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1194
 msgid "REYLEY"
-msgstr ""
+msgstr "Reyley"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1201
 msgid "ZYNX"
-msgstr ""
+msgstr "Zynx"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1210
 msgid "DONTAE"
-msgstr ""
+msgstr "Dontae"
 
 #. source : SoulSilver FR officiel
 #: src/data/trade.h:1217 src/data/trade.h:1233 src/data/trade.h:1249
@@ -24608,68 +24722,92 @@ msgstr "Thom"
 msgid "JESSICA"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1266
 msgid "MS. NIDO"
-msgstr ""
+msgstr "Mlle Nido"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1275 src/data/trade.h:1289
 msgid "SAIGE"
-msgstr ""
+msgstr "Saige"
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/data/trade.h:1280
 msgid "MR. NIDO"
 msgstr "M. NIDO"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1297
 msgid "CH'DING"
-msgstr ""
+msgstr "Ch’Ding"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1306
 msgid "ELYSSA"
-msgstr ""
+msgstr "Elyssa"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1314
 msgid "NINA"
-msgstr ""
+msgstr "Nina"
 
 #. source : SoulSilver FR officiel
 #: src/data/trade.h:1323 src/data/trade.h:1337
 msgid "TURNER"
 msgstr "Téva"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1328
 msgid "NINO"
-msgstr ""
+msgstr "Nino"
 
 #: src/data/trade.h:1345 src/data/trainers.party:10555
 #: src/data/trainers_hns.party:64
 msgid "MARC"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1354
 msgid "HADEN"
-msgstr ""
+msgstr "Haden"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1365
 msgid "ESPHERE"
-msgstr ""
+msgstr "Esphere"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1374
 msgid "CLIFTON"
-msgstr ""
+msgstr "Clifton"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1381
 msgid "TANGENY"
-msgstr ""
+msgstr "Tangeny"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1390
 msgid "NORMA"
-msgstr ""
+msgstr "Norma"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trade.h:1397
 msgid "SEELOR"
-msgstr ""
+msgstr "Seelor"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1552
 #: src/data/trade.h:1406
@@ -25126,9 +25264,11 @@ msgstr ""
 msgid "LARRY"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:168
 msgid "Dante"
-msgstr ""
+msgstr "Dante"
 
 #: src/data/trainers.party:3781 src/data/trainers_frlg.party:8446
 #: src/data/trainers_hns.party:3151
@@ -26112,9 +26252,11 @@ msgstr ""
 msgid "LISA & RAY"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:223
 msgid "Tom"
-msgstr ""
+msgstr "Tom"
 
 #: src/data/trainers.party:12936 src/data/trainers_frlg.party:1350
 msgid "DAWSON"
@@ -26395,10 +26537,12 @@ msgstr ""
 msgid "IRIS"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:570 src/data/trainers_frlg.party:8760
 #: src/data/trainers_frlg.party:8777
 msgid "RELI"
-msgstr ""
+msgstr "Reli"
 
 #: src/data/trainers_frlg.party:587
 msgid "ALI"
@@ -26429,10 +26573,12 @@ msgstr ""
 msgid "LISA"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:798 src/data/trainers_hns.party:6748
 #: src/data/trainers_hns.party:13018 src/data/trainers_hns.party:13033
 msgid "TREVOR"
-msgstr ""
+msgstr "Trevor"
 
 #: src/data/battle_frontier/trainer_hill.h:8646
 #: src/data/trainers_frlg.party:1109 src/data/trainers_frlg.party:11472
@@ -26471,9 +26617,11 @@ msgstr ""
 msgid "ERIK"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:1564
 msgid "ZAC"
-msgstr ""
+msgstr "Zac"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:350
 #: src/data/trainers_frlg.party:1837 src/data/trainers_hns.party:13862
@@ -26624,33 +26772,44 @@ msgstr ""
 msgid "MARLON"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:4309
 msgid "HIDEKI"
-msgstr ""
+msgstr "Hideki"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:4668
 msgid "CONNOR"
-msgstr ""
+msgstr "Connor"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:4942
 msgid "BRAYDON"
-msgstr ""
+msgstr "Braydon"
 
+#. source : SoulSilver FR officiel
+#. lot : E_menus_donnees
+#. preuve : banque 729:700 (Giovanni, ROCKET_BOSS), cf. lot B douteux.json
 #: data/text/fame_checker_frlg.inc:1359 data/text/fame_checker_frlg.inc:1368
 #: src/data/trainers_frlg.party:4980 src/data/trainers_frlg.party:5001
 #: src/data/trainers_frlg.party:5026 src/data/trainers_hns.party:10483
 msgid "GIOVANNI"
-msgstr ""
+msgstr "Giovanni"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2000
 #: src/data/trainers_frlg.party:6134
 msgid "ROLANDO"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: data/text/fame_checker_frlg.inc:1251 data/text/fame_checker_frlg.inc:1254
 #: src/data/trainers_frlg.party:6834 src/data/trainers_frlg.party:13394
 msgid "LORELEI"
-msgstr ""
+msgstr "Olga"
 
 #: data/text/fame_checker_frlg.inc:1269 data/text/fame_checker_frlg.inc:1272
 #: src/data/battle_frontier/apprentice.h:380 src/data/trainers_frlg.party:6885
@@ -26718,36 +26877,50 @@ msgstr ""
 msgid "BROOKS"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:8565 src/data/trainers_frlg.party:9282
 msgid "ELI & ANNE"
-msgstr ""
+msgstr "Eli & Anne"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:8582
 msgid "RAY & TYRA"
-msgstr ""
+msgstr "Ray & Tyra"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:8607 src/data/trainers_frlg.party:12738
 #: src/data/trainers_frlg.party:12755
 msgid "GIA & JES"
-msgstr ""
+msgstr "Gia & Jes"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:8624
 msgid "KIRI & JAN"
-msgstr ""
+msgstr "Kiri & Jan"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:8641 src/data/trainers_frlg.party:12116
 #: src/data/trainers_frlg.party:12133 src/data/trainers_frlg.party:12150
 msgid "RON & MYA"
-msgstr ""
+msgstr "Ron & Mya"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:8675
 msgid "LIA & LUC"
-msgstr ""
+msgstr "Lia & Luc"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:8692 src/data/trainers_frlg.party:12428
 #: src/data/trainers_frlg.party:12445
 msgid "LIL & IAN"
-msgstr ""
+msgstr "Lil & Ian"
 
 #: src/data/battle_frontier/apprentice.h:348 src/data/trainers_frlg.party:9022
 #: src/data/trainers_frlg.party:12645
@@ -26791,14 +26964,18 @@ msgstr ""
 msgid "GARRETT"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:9828 src/data/trainers_frlg.party:12611
 #: src/data/trainers_frlg.party:12628
 msgid "MIK & KIA"
-msgstr ""
+msgstr "Mik & Kia"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:9891 src/data/trainers_frlg.party:12666
 msgid "JOY & MEG"
-msgstr ""
+msgstr "Joy & Meg"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:912
 #: src/data/trainers_frlg.party:9938 src/data/trainers_frlg.party:12683
@@ -26821,9 +26998,11 @@ msgstr ""
 msgid "TOBY"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:10150
 msgid "MYMO"
-msgstr ""
+msgstr "Mymo"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -26834,18 +27013,22 @@ msgstr ""
 msgid "NICOLE"
 msgstr "Stéfie"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:10180
 msgid "AVA & GEB"
-msgstr ""
+msgstr "Ava & Geb"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2160
 #: src/data/trainers_frlg.party:10214 src/data/trainers_frlg.party:12869
 msgid "SAMIR"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:10244
 msgid "MIU & MIA"
-msgstr ""
+msgstr "Miu & Mia"
 
 #. source : patch FR actuel (récupéré par pointeur)
 #: src/data/battle_frontier/battle_frontier_trainers.h:1456
@@ -26868,22 +27051,28 @@ msgstr ""
 msgid "RODETTE"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:10388
 msgid "MIAH"
-msgstr ""
+msgstr "Miah"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:10405
 msgid "EVE & JON"
-msgstr ""
+msgstr "Eve & Jon"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1616
 #: src/data/trainers_frlg.party:10539
 msgid "LOGAN"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_frlg.party:10739 src/data/trainers_frlg.party:13254
 msgid "LEX & NYA"
-msgstr ""
+msgstr "Lex & Nya"
 
 #: src/data/trainers_frlg.party:10811 src/data/trainers_hns.party:5859
 msgid "EDNA"
@@ -26995,9 +27184,11 @@ msgstr ""
 msgid "ELLEN"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:989
 msgid "CODY"
-msgstr ""
+msgstr "Cody"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -27027,13 +27218,17 @@ msgstr ""
 msgid "ANDY"
 msgstr "NAMAX"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:1227
 msgid "SEAN"
-msgstr ""
+msgstr "Sean"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:1311
 msgid "DARIN"
-msgstr ""
+msgstr "Darin"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -27083,21 +27278,27 @@ msgstr ""
 msgid "JENN"
 msgstr "Maria"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:1684
 msgid "CARA"
-msgstr ""
+msgstr "Cara"
 
 #: data/text/new_game_intro_frlg.inc:101 src/data/trainers_hns.party:1774
 msgid "CASSIE"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:1812
 msgid "CARLENE"
-msgstr ""
+msgstr "Carlene"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:1838
 msgid "RACHAEL"
-msgstr ""
+msgstr "Rachael"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1008
 #: src/data/trainers_hns.party:1864
@@ -27109,9 +27310,11 @@ msgstr ""
 msgid "VERONICA"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:1911
 msgid "THERESA"
-msgstr ""
+msgstr "Theresa"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -27136,10 +27339,12 @@ msgstr ""
 msgid "MILLER"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:2747 src/data/trainers_hns.party:2768
 #: src/data/trainers_hns.party:2793
 msgid "ETO"
-msgstr ""
+msgstr "Eto"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -27170,11 +27375,13 @@ msgstr "M"
 msgid "KEN"
 msgstr "Amaury"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/pokemon/species_info/gen_9_families.h:1590
 #: src/data/pokemon/species_info/gen_9_families.h:1655
 #: src/data/pokemon/species_info/gen_9_families.h:1719
 msgid "Olive"
-msgstr ""
+msgstr "Olive"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1064
 #: src/data/trainers_hns.party:3232
@@ -27195,18 +27402,22 @@ msgstr "Simonin"
 msgid "BARNEY"
 msgstr "Yvon"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:3562
 msgid "MATHEW"
-msgstr ""
+msgstr "Mathew"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1520
 #: src/data/trainers_hns.party:3579
 msgid "HAL"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:3600
 msgid "PATON"
-msgstr ""
+msgstr "Paton"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -27253,9 +27464,11 @@ msgstr "Kenneth"
 msgid "HARRY"
 msgstr "Isaac"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:4343
 msgid "GREGG"
-msgstr ""
+msgstr "Gregg"
 
 #: src/data/trainers_hns.party:4364
 msgid "JAY"
@@ -27297,9 +27510,11 @@ msgstr ""
 msgid "JIM"
 msgstr "Albin"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:4922
 msgid "KAZU"
-msgstr ""
+msgstr "Kazu"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -27320,9 +27535,11 @@ msgstr ""
 msgid "JOEL"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:5104
 msgid "RICHARDO"
-msgstr ""
+msgstr "Richardo"
 
 #: src/data/trainers_hns.party:5121
 msgid "NARD"
@@ -27335,9 +27552,11 @@ msgstr ""
 msgid "OTIS"
 msgstr "Otis"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:5180
 msgid "DICK"
-msgstr ""
+msgstr "Dick"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -27420,9 +27639,11 @@ msgstr "Stéphane"
 msgid "SID"
 msgstr "Claude"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:6244
 msgid "QUENTIN"
-msgstr ""
+msgstr "Quentin"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -27467,21 +27688,29 @@ msgstr "Achille"
 msgid "LI"
 msgstr "LI"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:6430
 msgid "GAKU"
-msgstr ""
+msgstr "Gaku"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:6451
 msgid "MASA"
-msgstr ""
+msgstr "Masa"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:6540
 msgid "MARGRET"
-msgstr ""
+msgstr "Margret"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:6553
 msgid "ETHEL"
-msgstr ""
+msgstr "Ethel"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -27511,33 +27740,47 @@ msgstr "Tamao"
 msgid "MIKI"
 msgstr "Satsuki"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:6945
 msgid "AMY&MAY"
-msgstr ""
+msgstr "Amy&May"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:6962
 msgid "ANN&ANNE"
-msgstr ""
+msgstr "Ann&Anne"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:6979
 msgid "JO&ZOE"
-msgstr ""
+msgstr "Jo&Zoe"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:6996
 msgid "MEG&PEG"
-msgstr ""
+msgstr "Meg&Peg"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:7013
 msgid "LEA&PIA"
-msgstr ""
+msgstr "Léa&Pia"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:7093
 msgid "JAIME"
-msgstr ""
+msgstr "Jaime"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:7136
 msgid "THOM & KAE"
-msgstr ""
+msgstr "Thom & Kae"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -27554,10 +27797,13 @@ msgstr "Ludo&Dalia"
 msgid "CHUCK"
 msgstr "Chuck"
 
+#. source : SoulSilver FR officiel (adapté)
+#. lot : E_menus_donnees
+#. preuve : LT. SURGE → Major Bob (menus.po, SoulSilver FR)
 #: src/data/battle_frontier/battle_frontier_trainers.h:2424
 #: src/data/trainers_hns.party:8395 src/data/trainers_hns.party:15263
 msgid "LTSURGE"
-msgstr ""
+msgstr "Major Bob"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -27589,13 +27835,17 @@ msgstr "Amos"
 msgid "PETREL"
 msgstr "Lambda"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:13417
 msgid "SAMSON OAK"
-msgstr ""
+msgstr "Samson"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:13491
 msgid "PHANTONOMY"
-msgstr ""
+msgstr "Phantonomy"
 
 #: src/data/trainers_hns.party:13521
 msgid "MIA"
@@ -27606,53 +27856,77 @@ msgstr ""
 msgid "KELSIE"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:13636
 msgid "PORTIA"
-msgstr ""
+msgstr "Portia"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:13749
 msgid "RODDY"
-msgstr ""
+msgstr "Roddy"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:13826
 msgid "TATIANA"
-msgstr ""
+msgstr "Tatiana"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:13925
 msgid "SCOTTY"
-msgstr ""
+msgstr "Scotty"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:13988
 msgid "RONNY"
-msgstr ""
+msgstr "Ronny"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:14201
 msgid "MILKMAN"
-msgstr ""
+msgstr "Laitier"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:14271
 msgid "MIHARU"
-msgstr ""
+msgstr "Miharu"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:14291
 msgid "YOUKO"
-msgstr ""
+msgstr "Youko"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:14312
 msgid "SHIZUKO"
-msgstr ""
+msgstr "Shizuko"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:14406
 msgid "FINLEY"
-msgstr ""
+msgstr "Finley"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:14455
 msgid "MUALANI"
-msgstr ""
+msgstr "Mualani"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/trainers_hns.party:14528
 msgid "WESSEL"
-msgstr ""
+msgstr "Wessel"
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/data/types_info.h:54
@@ -36724,9 +36998,11 @@ msgstr "MOTS COOL"
 msgid "POKéMON2"
 msgstr "POKéMON2"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/region_map/region_map_sections.json:2555
 msgid "SINJOH"
-msgstr ""
+msgstr "SINJOH"
 
 #: src/data/region_map/region_map_sections.json:5
 msgid "LITTLEROOT TOWN"
@@ -36979,9 +37255,11 @@ msgstr ""
 msgid "SPECIAL AREA"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/region_map/region_map_sections.json:1696
 msgid "MELMELE SEA"
-msgstr ""
+msgstr "MER DE MELE-MELE"
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info.h:210
@@ -37046,18 +37324,26 @@ msgstr ""
 "lorsqu’elle est bien\\nnourrie et bien ensoleillée. Le parfum de\\ncette "
 "fleur peut apaiser les gens."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:269
 msgid ""
 "In order to support its flower, which\\nhas grown larger due to Mega "
 "Evolution,\\nits back and legs have become stronger."
 msgstr ""
+"Pour supporter sa fleur, qui a grossi\\nsous l’effet de la Méga-Évolution, "
+"son\\ndos et ses pattes sont devenus plus\\nrobustes."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:340
 msgid ""
 "Spits big amounts of pollen like a volcano.\\nBreathing too much of it "
 "causes fainting.\\nIn battle, it swings around two thick vines\\nthat can "
 "easily topple 10-story buildings."
 msgstr ""
+"Il crache du pollen à flots, tel un\\nvolcan. Trop en respirer assomme. "
+"Il\\lbrandit deux lianes épaisses qui\\labattent sans mal dix étages."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:395
@@ -37120,23 +37406,35 @@ msgstr ""
 " puissantes\\nflammes capables de tout faire fondre. Il\\nn’attaque pas les "
 "plus faibles que lui."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:622
 msgid ""
 "The overwhelming power that fills its\\nentire body causes it to turn "
 "black\\nand creates intense blue flames."
 msgstr ""
+"La puissance écrasante qui emplit son\\ncorps le rend noir et fait "
+"jaillir\\nd’intenses flammes bleues."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:694
 msgid ""
 "Its bond with its Trainer is the source\\nof its power. It boasts speed "
 "and\\nmaneuverability greater than that of a\\njet fighter."
 msgstr ""
+"Son lien avec son Dresseur est la\\nsource de sa force. Il surpasse "
+"un\\navion de chasse en vitesse et en\\nmaniabilité."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:765
 msgid ""
 "The flame inside its body burns\\nhotter than 3,600 degrees "
 "Fahrenheit.\\nWhen Charizard roars, that\\ntemperature climbs even higher."
 msgstr ""
+"La flamme dans son corps brûle à plus\\nde 2 000 degrés. Quand "
+"DRACAUFEU\\nrugit, cette température grimpe\\nencore."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_1_families.h:823
@@ -37197,17 +37495,25 @@ msgstr ""
 "Leurs\\nballes d’eau peuvent faire mouche sur une\\ncible située à plus de "
 "50 mètres."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:1051
 msgid ""
 "The cannon on its back is as powerful\\nas a tank gun. Its tough legs and "
 "back\\nenable it to withstand the recoil from\\nfiring the cannon."
 msgstr ""
+"Le canon sur son dos est aussi\\npuissant que celui d’un char. Ses\\npattes "
+"et son dos robustes\\nencaissent le recul des tirs."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:1122
 msgid ""
 "It's not very good at precision\\nshooting. When attacking, it just "
 "fires\\nits 31 cannons over and over and\\nover."
 msgstr ""
+"Il n’est pas très précis. Quand il\\nattaque, il se contente de tirer "
+"avec\\nses 31 canons encore et encore et\\nencore."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:1177
@@ -37274,11 +37580,15 @@ msgstr ""
 "extraire et\\ntransporter le délicieux nectar de fleurs\\nsituées à plus de "
 "dix kilomètres de son nid."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:1433
 msgid ""
 "Once it has opponents trapped in a\\ntornado that could blow away a "
 "10-\\nton truck, it finishes them off with\\nits poisonous scales."
 msgstr ""
+"Une fois ses ennemis piégés dans une\\ntornade capable d’emporter un "
+"camion\\nde 10 tonnes, il les achève avec ses\\nécailles empoisonnées."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:1489
@@ -37333,12 +37643,16 @@ msgstr ""
 " si\\non veut éviter d’avoir des ennuis. En\\ncolère, ils attaquent en "
 "groupe."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:1738
 msgid ""
 "Its legs have become poison stingers.\\nIt stabs its prey repeatedly with "
 "the\\nstingers on its limbs, dealing the final\\nblow with the stinger on "
 "its rear."
 msgstr ""
+"Ses pattes sont des dards venimeux.\\nIl en pique sa proie à répétition, "
+"puis\\ll’achève avec le dard de son abdomen."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:1809
@@ -37398,11 +37712,15 @@ msgstr ""
 "Ce Pokémon est doté d’un plumage\\nmagnifique et luisant. La beauté "
 "fatale\\nde sa crête fait de lui le Pokémon\\npréféré de bien des Dresseurs."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:2046
 msgid ""
 "With its muscular strength now greatly\\nincreased, it can fly "
 "continuously\\nfor two weeks without resting."
 msgstr ""
+"Sa force musculaire a tant augmenté\\nqu’il peut voler deux "
+"semaines\\nd’affilée sans se reposer."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:2112
@@ -37625,11 +37943,15 @@ msgstr ""
 "d’un coup\\ntoute l’énergie accumulée, la puissance\\nélectrique équivaut à "
 "celle d’un éclair."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:4093
 msgid ""
 "When it smashes its opponents with\\nits bolt-shaped tail, it delivers "
 "a\\nsurge of electricity equivalent to a\\nlightning strike."
 msgstr ""
+"Quand il frappe ses ennemis avec sa\\nqueue en forme d’éclair, il libère "
+"une\\ndécharge électrique aussi forte que\\nla foudre."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_1_families.h:4243
@@ -37657,18 +37979,26 @@ msgstr ""
 "relâche de\\ntemps en temps son surplus d’énergie\\net parvient ainsi à se "
 "calmer."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:4413
 msgid ""
 "It resembles an X as it flies through\\nthe air with 50 million volts "
 "of\\nelectricity sparking from its ears and\\nforked tail."
 msgstr ""
+"Il ressemble à un X lorsqu’il fend les\\nairs, ses oreilles et sa "
+"queue\\nfourchue crépitant de 50 millions de\\nvolts."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:4474
 msgid ""
 "It fires bolts of electricity from the\\ntip of its tail and from the spiky "
 "tufts\\nof fur growing out of its temples. This\\nelectricity forms the "
 "letter Y."
 msgstr ""
+"Il tire des éclairs du bout de sa queue\\net des touffes de poils pointues "
+"de\\nses tempes. Cette électricité forme la\\nlettre Y."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:4526
@@ -37850,11 +38180,15 @@ msgstr ""
 "permet même\\nde marcher sur l’eau. Les soirs où la lune\\nest claire, ils "
 "se promènent sur les lacs."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:5543
 msgid ""
 "It flies by using the power of\\nmoonlight to control gravity within\\na "
 "radius of over 32 feet around it."
 msgstr ""
+"Il vole en utilisant le pouvoir du\\nclair de lune pour contrôler "
+"la\\ngravité dans un rayon de plus de\\n10 mètres autour de lui."
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:5324
@@ -38318,11 +38652,15 @@ msgstr ""
 "La fourrure sur sa tête s’est endurcie et a\\npris la forme d’un casque en "
 "fer. Il est\\ntrès bagarreur."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:7918
 msgid ""
 "The pattern that has appeared on\\nits giant coin is thought to be the\\nkey"
 " to unlocking the secrets of the\\nDynamax phenomenon."
 msgstr ""
+"On pense que le motif apparu sur sa\\npièce géante est la clé des "
+"secrets\\ndu phénomène Dynamax."
 
 #. source : relu et corrigé à la main
 #: src/data/pokemon/species_info/gen_1_families.h:7977
@@ -38595,11 +38933,15 @@ msgstr ""
 "intelligence\\nqui compensent sa faiblesse physique.\\nIl utilise ses "
 "pouvoirs pour se déplacer."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:9243
 msgid ""
 "Having traded away its muscles, Alakazam's\\ntrue power has been unleashed. "
 "With its\\npsychic powers, it can foresee all things."
 msgstr ""
+"Ayant troqué ses muscles, ALAKAZAM libère\\nson vrai pouvoir. Ses dons "
+"psychiques lui\\npermettent de tout prévoir."
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:741
@@ -38653,11 +38995,15 @@ msgstr ""
 "quatre bras.\\nSon esprit de combattant s’enflamme quand\\nil rencontre un "
 "adversaire à la hauteur."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:9564
 msgid ""
 "One of these Pokémon once used\\nits immeasurable strength to lift a\\nlarge"
 " ship that was in trouble. It\\nthen carried the ship to port."
 msgstr ""
+"L’un de ces Pokémon a un jour soulevé,\\nde sa force prodigieuse, un "
+"grand\\lnavire en détresse, puis l’a porté\\ljusqu’au port."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:9619
@@ -38709,12 +39055,16 @@ msgstr ""
 "et\\nremue comme un animal pour attirer\\nses proies. Les imprudents sont "
 "avalés."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:9864
 msgid ""
 "The volume of this Pokémon's acid\\nhas increased due to Mega "
 "Evolution,\\nfilling its mouth. If not careful,\\nthe acid will overflow and"
 " spill out."
 msgstr ""
+"Le volume d’acide de ce Pokémon a\\naugmenté avec la Méga-Évolution "
+"et\\nemplit sa bouche. S’il ne fait pas\\nattention, l’acide déborde."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:9916
@@ -38977,11 +39327,15 @@ msgstr ""
 "mystères du\\nmonde. Cependant, il oublie tout si le\\nKokiyas qui se trouve"
 " sur sa tête s’en va."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:11063
 msgid ""
 "When bathed in the energy of Mega\\nEvolution, Shellder converts "
 "into\\nimpregnable armor. There is virtually no\\nchange in Slowpoke."
 msgstr ""
+"Baigné dans l’énergie de la\\nMéga-Évolution, KOKIYAS se change en\\narmure "
+"imprenable. RAMOLOSS, lui, ne\\nchange presque pas."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/data/pokemon/species_info/gen_1_families.h:11129
@@ -39361,17 +39715,25 @@ msgstr ""
 "peut vous\\ndépasser. C’est un Ectoplasma qui court\\nen se faisant passer "
 "pour votre ombre."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:12887
 msgid ""
 "Gengar's relationships are warped. It\\ntries to take the lives of anyone "
 "and\\neveryone. It will even try to curse the\\nTrainer who is its master!"
 msgstr ""
+"Les relations d’ECTOPLASMA sont\\nperverties. Il veut ôter la vie à "
+"tout\\lle monde. Il tente même de maudire son\\lpropre Dresseur!"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:12958
 msgid ""
 "Rumor has it that its gigantic\\nmouth leads not into its body, "
 "filled\\nwith cursed energy, but instead\\ndirectly to the afterlife."
 msgstr ""
+"La rumeur dit que sa bouche géante ne\\nmène pas à son corps empli "
+"d’énergie\\nmaudite, mais directement dans\\nl’au-delà."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:13013
@@ -39411,12 +39773,17 @@ msgstr ""
 " vers le\\ncentre de la terre. On l’a déjà vu aller à\\nplus d’un kilomètre "
 "de profondeur."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:13183
 msgid ""
 "The cells within its body, crystallized by\\nthe energy produced from Mega "
 "Evolution,\\nare stronger than any mineral and able\\nto withstand any "
 "temperature."
 msgstr ""
+"Les cellules de son corps, cristallisées\\npar l’énergie de la Méga-"
+"Évolution, sont\\nplus solides que tout minéral et\\nrésistent à toutes les "
+"températures."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:13254
@@ -39489,11 +39856,15 @@ msgstr ""
 "pour\\ncommuniquer avec ses semblables. Sa\\npince est si lourde qu’il se "
 "fatigue vite."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:13568
 msgid ""
 "The flow of Gigantamax energy has\\nspurred this Pokémon's left pincer\\nto "
 "grow to an enormous size. That\\nclaw can pulverize anything."
 msgstr ""
+"Le flux d’énergie Gigamax a fait\\ngrandir démesurément la pince gauche\\nde"
+" ce Pokémon. Elle peut tout\\npulvériser."
 
 #. source : relu et corrigé à la main
 #: src/data/pokemon/species_info/gen_1_families.h:13626
@@ -39966,11 +40337,15 @@ msgstr ""
 "l’attraper.\\nSes parents sont sûrement dans le coin et\\nrisquent d’entrer "
 "dans une colère noire."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:15909
 msgid ""
 "When the mother sees the back of her\\nMega-Evolved child, it makes her "
 "think\\nof the day when her child will inevitably\\nleave her."
 msgstr ""
+"Quand la mère voit le dos de son petit\\nméga-évolué, elle pense au jour où "
+"il la\\nquittera inévitablement."
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : on Glace
@@ -40077,11 +40452,15 @@ msgstr ""
 "Autrefois, les gens pensaient que les\\nStaross provenaient du reflet des "
 "étoiles\\nsur les vagues lors d’une nuit paisible."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:16550
 msgid ""
 "Its movements have become more\\nhumanlike. Whether it's simply\\ntrying to "
 "communicate or wants to\\nsupplant humanity is unclear."
 msgstr ""
+"Ses gestes sont devenus plus\\nhumains. Nul ne sait s’il cherche juste\\nà "
+"communiquer ou à supplanter\\nl’humanité."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:16610
@@ -40197,11 +40576,15 @@ msgstr ""
 "le\\ndéstabilisent pas. Ce Pokémon bat des\\nailes pour réguler sa "
 "température interne."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:17112
 msgid ""
 "The excess energy that bathes this\\nPokémon keeps it in constant danger "
 "of\\noverflow. It can't sustain a battle over\\nlong periods of time."
 msgstr ""
+"Le surplus d’énergie qui le baigne\\nmenace sans cesse de déborder. Il "
+"ne\\lpeut soutenir un long combat."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_1_families.h:17178
@@ -40376,12 +40759,17 @@ msgstr ""
 "Ses pinces sont assez fortes pour\\ndétruire de grosses bûches. Comme "
 "il\\nn’aime pas le froid, il s’enfouit sous\\nterre lors des nuits fraîches."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:17932
 msgid ""
 "The influence of Mega Evolution leaves it\\nin a state of constant "
 "excitement.\\nIt pierces enemies with its two large\\nhorns before shredding"
 " them."
 msgstr ""
+"La Méga-Évolution le laisse dans un état\\nd’excitation permanent. Il "
+"transperce\\nses ennemis de ses deux grandes cornes\\navant de les "
+"déchiqueter."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_1_families.h:18008
@@ -40471,11 +40859,16 @@ msgstr ""
 "C’est un Pokémon extrêmement violent.\\nQuand les humains commencent à se "
 "battre,\\nil apparaît et brûle tout de ses flammes\\nintenses."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:18500
 msgid ""
 "Although it obeys its instinctive drive to\\ndestroy everything within its "
 "reach, it\\nwill respond to orders from a Trainer it\\ntruly trusts."
 msgstr ""
+"Bien qu’il obéisse à son instinct qui le\\npousse à détruire tout ce qui est"
+" à sa\\nportée, il répond aux ordres d’un Dresseur\\nen qui il a toute "
+"confiance."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:18572
@@ -40494,11 +40887,16 @@ msgstr ""
 "chantonner\\nune complainte mélancolique, espérant\\nretrouver ses rares "
 "congénères."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:18649
 msgid ""
 "Over 5,000 people can ride on its\\nshell at once. And it's a "
 "very\\ncomfortable ride, without the slightest\\nshaking or swaying."
 msgstr ""
+"Plus de 5 000 personnes peuvent monter\\nsur sa carapace à la fois. Et la "
+"balade\\nest très confortable, sans la moindre\\nsecousse ni le moindre "
+"roulis."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:18710
@@ -40523,12 +40921,16 @@ msgstr ""
 msgid "Evolution"
 msgstr "Evolution"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:18900
 msgid ""
 "Having gotten even friendlier and\\nmore innocent, Eevee tries to "
 "play\\nwith anyone around, only to end up\\ncrushing them with its immense "
 "body."
 msgstr ""
+"Encore plus affectueux et innocent,\\nEVOLI veut jouer avec tout le "
+"monde,\\nmais finit par écraser les gens sous\\nson corps immense."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_1_families.h:19034
@@ -40796,11 +41198,15 @@ msgstr ""
 "cellules dans\\nun morceau d’ambre. On pense qu’il était\\nle roi des cieux "
 "à l’époque préhistorique."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:20202
 msgid ""
 "The power of Mega Evolution has\\ncompletely restored its genes. The "
 "rocks\\non its body are harder than diamond."
 msgstr ""
+"Le pouvoir de la Méga-Évolution a\\nentièrement restauré ses gènes. "
+"Les\\nrochers de son corps sont plus durs que\\nle diamant."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:20272
@@ -40839,11 +41245,15 @@ msgstr ""
 "tellement\\ngentil que les enfants n’hésitent pas à\\njouer sur son énorme "
 "ventre."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:20423
 msgid ""
 "Gigantamax energy has affected\\nstray seeds and even pebbles that\\ngot "
 "stuck to Snorlax, making them grow\\nto a huge size."
 msgstr ""
+"L’énergie Gigamax a affecté des\\ngraines égarées et même des "
+"cailloux\\ncollés à RONFLEX, qui sont devenus\\nénormes."
 
 #. source : SoulSilver FR officiel
 #: data/maps/Route25_BillsHouse_hns/scripts.inc:346
@@ -40999,11 +41409,15 @@ msgstr ""
 "peine. Ce\\nPokémon au grand cœur ramène à bon\\nport les navires perdus "
 "dans les tempêtes."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:21230
 msgid ""
 "Mega Evolution has excessively\\npowered up this Pokémon's feelings\\nof "
 "kindness. It finishes off its\\nopponents with mercy in its heart."
 msgstr ""
+"La Méga-Évolution a démesurément\\nrenforcé la bienveillance de "
+"ce\\nPokémon. Il achève ses adversaires\\navec compassion."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:21288
@@ -41029,17 +41443,26 @@ msgstr ""
 "Mewtwo a été créé par manipulation\\ngénétique. Bien que les humains "
 "aient\\nréussi à créer son corps, il n’a pas été\\ndoté d’un cœur sensible."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:21370
 msgid ""
 "Psychic power has augmented its muscles.\\nIt has a grip strength of one ton"
 " and can\\nsprint a hundred meters in two seconds\\nflat!"
 msgstr ""
+"Le pouvoir psychique a renforcé ses\\nmuscles. Il a une poigne d’une tonne "
+"et\\ncourt cent mètres en deux secondes\\nchrono!"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_1_families.h:21446
 msgid ""
 "Despite its diminished size, its mental\\npower has grown phenomenally. With"
 " a mere\\nthought, it can smash a skyscraper to\\nsmithereens."
 msgstr ""
+"Malgré sa taille réduite, son pouvoir\\nmental a augmenté de façon "
+"phénoménale.\\nD’une simple pensée, il peut réduire un\\ngratte-ciel en "
+"miettes."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_1_families.h:21524
@@ -41117,11 +41540,15 @@ msgstr ""
 " combats,\\nce Pokémon émet son parfum relaxant\\npour atténuer "
 "l’agressivité de l’ennemi."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_2_families.h:263
 msgid ""
 "This Pokémon can fire a tremendously\\npowerful Solar Beam from its "
 "four\\nflowers. Another name for this is\\nMega Sol Cannon."
 msgstr ""
+"Ce Pokémon tire un Lance-Soleil\\nsurpuissant de ses quatre fleurs. "
+"On\\lsurnomme ce tir “canon Méga-Soleil”."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_2_families.h:314
@@ -41244,15 +41671,21 @@ msgstr ""
 "piétine le sol\\nde ses puissantes pattes arrière avant de\\ncharger ses "
 "adversaires à pleine vitesse."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_2_families.h:840
 msgid "Double Jaw"
-msgstr ""
+msgstr "Mâchoire"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_2_families.h:843
 msgid ""
 "With its arms and hoodlike fin, this\\nPokémon forms a gigantic set of "
 "jaws\\nwith a bite 10 times as powerful\\nas Mega Feraligatr's actual jaws."
 msgstr ""
+"Avec ses bras et son aileron en\\ncapuche, ce Pokémon forme une\\nmâchoire "
+"géante qui mord 10 fois plus\\nfort que sa vraie mâchoire."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_2_families.h:894
@@ -41540,11 +41973,15 @@ msgstr ""
 "utilisaient sa\\nlumière pour communiquer et s’envoyer des\\nsignaux à "
 "grande distance."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_2_families.h:2270
 msgid ""
 "Massive amounts of energy intensely\\nstimulated Ampharos's cells, "
 "apparently\\nawakening its long-sleeping dragon's\\nblood."
 msgstr ""
+"Un fort afflux d’énergie a stimulé les\\ncellules de PHARAMP, "
+"éveillant,\\lsemble-t-il, son sang de dragon\\llongtemps endormi."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_2_families.h:2344
@@ -42240,11 +42677,15 @@ msgstr ""
 "est\\nextrêmement fier de sa corne qu’il utilise\\npour faire voler ses "
 "adversaires."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_2_families.h:5586
 msgid ""
 "A tremendous influx of energy builds it up,\\nbut when Mega Evolution ends, "
 "Heracross\\nis bothered by terrible soreness in its\\nmuscles."
 msgstr ""
+"Un afflux d’énergie formidable le\\nrenforce, mais une fois la Méga-"
+"Évolution\\nterminée, SCARHINO souffre de terribles\\ncourbatures."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_2_families.h:5658
@@ -42615,11 +43056,15 @@ msgstr ""
 "Son corps et ses ailes sont faits d’acier.\\nAutrefois, les hommes "
 "utilisaient ses\\nplumes pour fabriquer des épées et\\ndes couteaux."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_2_families.h:7381
 msgid ""
 "Due to the effects of Mega Evolution,\\nits pincers have taken a "
 "more\\ndiabolical form, ripping anything\\nthey pierce to shreds."
 msgstr ""
+"Sous l’effet de la Méga-Évolution,\\nses pinces ont pris une forme "
+"plus\\ndiabolique et déchiquettent tout ce\\nqu’elles transpercent."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_2_families.h:7433
@@ -42646,11 +43091,15 @@ msgstr ""
 "vers\\nl’arrière. Ces Pokémon choisissent leur\\nchef en organisant des "
 "combats entre eux."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_2_families.h:7593
 msgid ""
 "Its red claws and the tips of its tail are\\nmelting from high internal "
 "temperatures\\nthat are painful to Houndoom itself.\\n"
 msgstr ""
+"Ses griffes rouges et le bout de sa\\nqueue fondent à cause de "
+"sa\\ntempérature interne élevée, qui fait\\nsouffrir DEMOLOSSE lui-même.\\n"
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_2_families.h:7658
@@ -42876,11 +43325,15 @@ msgstr ""
 " nid.\\nIl se promène dans les montagnes pour y\\ntrouver de nouveaux "
 "adversaires."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_2_families.h:8577
 msgid ""
 "Due to the colossal power poured into it,\\nthis Pokémon's back split right "
 "open. Its\\ndestructive instincts are the only thing\\nkeeping it moving."
 msgstr ""
+"La puissance colossale qui l’a envahi a\\nfendu son dos. Seul son "
+"instinct\\ndestructeur le fait encore avancer."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_2_families.h:8649
@@ -43007,12 +43460,16 @@ msgstr ""
 "arbres\\net des plantes. Il régule sa température\\ncorporelle en se "
 "prélassant au soleil."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:253
 msgid ""
 "Thanks to the power in its quick legs,\\nMega Sceptile can be on its "
 "opponent in a\\nflash. It can cut off a portion of its tail\\nto fire it "
 "like a missile at an opponent."
 msgstr ""
+"Grâce à ses pattes rapides, MEGA-JUNGKO\\nfond sur l’ennemi en un éclair. Il"
+" peut\\ndétacher un bout de sa queue pour le\\nlancer comme un missile."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:319
@@ -43081,12 +43538,17 @@ msgstr ""
 "poing. Tous\\nles sept ans, ses vieilles plumes brûlent\\net sont remplacées"
 " par des neuves."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:588
 msgid ""
 "As it unleashes a flurry of savage kicks,\\nits legs can begin to burn from "
 "the\\nfriction of the surrounding atmosphere.\\nThey're always a source of "
 "pride to it."
 msgstr ""
+"Quand il déchaîne une rafale de coups de\\npied sauvages, ses jambes "
+"peuvent\\ns’enflammer sous la friction de l’air.\\nElles font toute sa "
+"fierté."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:654
@@ -43143,11 +43605,15 @@ msgstr ""
 "empilant de\\ngros rochers. Quand il nage, il est aussi\\nrapide qu’un jet-"
 "ski."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:887
 msgid ""
 "When it Mega Evolves, the strength that it\\nneeds to act in the water is "
 "increased.\\nIt can use its tenacious power\\nboth on land and in the water."
 msgstr ""
+"Quand il méga-évolue, la force qui lui sert\\nà agir dans l’eau augmente. Il"
+" peut user de\\nsa puissance tenace sur terre comme dans\\nl’eau."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:966
@@ -43609,12 +44075,17 @@ msgstr ""
 "à ses\\npouvoirs psychiques. Ce Pokémon donnerait\\nsa vie pour sauver son "
 "Dresseur."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:2962
 msgid ""
 "By opening its heart, Mega Gardevoir\\nbecomes able to use tremendous "
 "psychic\\npower. The red plate in its chest is said to\\nbe a physical "
 "manifestation of its heart."
 msgstr ""
+"En ouvrant son cœur, MEGA-GARDEVOIR peut\\nutiliser un pouvoir psychique "
+"formidable.\\nLa plaque rouge de sa poitrine serait la\\nmanifestation "
+"physique de son cœur."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:3037
@@ -43638,12 +44109,16 @@ msgstr ""
 "Ce Pokémon, que l’on surnomme\\n“l’escrimeur”, ne se sert de ses coudes\\nen"
 " forme de lames que s’il doit défendre\\nquelque chose."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:3116
 msgid ""
 "Mega Gallade has a knightly appearance.\\nIt can use its psychic power to "
 "reshape\\nboth arms into blades simultaneously and\\nfight using a dual-"
 "wielding style."
 msgstr ""
+"MEGA-GALLAME a l’allure d’un chevalier.\\nSon pouvoir psychique change ses "
+"deux\\nbras en lames à la fois pour combattre à\\ndeux armes."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:3184
@@ -44039,11 +44514,15 @@ msgstr ""
 "Il creuse dans les grottes à la recherche\\nde pierres précieuses, dont il "
 "se nourrit.\\nLes Tenefix restent dans l’obscurité\\nà l’abri des regards."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:4722
 msgid ""
 "Bathed in the energy of Mega Evolution,\\nthe gemstone on its chest expands,"
 " rips\\nthrough its skin, and falls out."
 msgstr ""
+"Baignée dans l’énergie de la\\nMéga-Évolution, la gemme de sa "
+"poitrine\\ngrossit, déchire sa peau et tombe."
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:3099
@@ -44069,11 +44548,16 @@ msgstr ""
 "qui se sont\\ntransformées. Il attire ses proies avec\\nson air amical avant"
 " de les avaler."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:4881
 msgid ""
 "Its two sets of jaws thrash about\\nviolently as if they each had a will "
 "of\\ntheir own. One gnash from them can turn a\\nboulder to dust."
 msgstr ""
+"Ses deux paires de mâchoires s’agitent\\nviolemment comme si elles "
+"avaient\\nchacune leur volonté. Une seule morsure\\nréduit un rocher en "
+"poussière."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:4949
@@ -44133,12 +44617,16 @@ msgstr ""
 " son âge.\\nIl conserve fièrement les marques sur son\\narmure comme "
 "souvenir de ses combats."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:5179
 msgid ""
 "When Aggron Mega Evolves into\\nMega Aggron, the destructive ability "
 "of\\nits fearsome horns can turn a steel-clad\\ntank into so much scrap "
 "metal."
 msgstr ""
+"Quand GALEKING méga-évolue en\\nMEGA-GALEKING, ses cornes "
+"redoutables\\npeuvent réduire un char blindé à l’état\\nde ferraille."
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:5192
@@ -44183,12 +44671,16 @@ msgstr ""
 "de ses\\nennemis. Quand il se bat, il donne\\nl’impression d’être en train "
 "de danser."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:5424
 msgid ""
 "It uses its amped-up willpower to create\\nadditional arms for itself. The "
 "more it\\nhas trained its spirit, the more realistic\\nand dexterous these "
 "arms become."
 msgstr ""
+"Sa volonté décuplée lui permet de se\\ncréer des bras supplémentaires. Plus "
+"il\\nentraîne son esprit, plus ces bras sont\\nréalistes et habiles."
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:2125
@@ -44232,11 +44724,15 @@ msgstr ""
 "Comme l’orage gronde souvent autour\\nd’eux, les gens ont longtemps pensé "
 "que\\nles Elecsprint naissaient de la foudre."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:5643
 msgid ""
 "Too much electricity has built up in its\\nbody, irritating Manectric. Its "
 "explosive\\nspeed is equal to that of a lightning bolt."
 msgstr ""
+"Trop d’électricité s’est accumulée dans\\nson corps, ce qui irrite "
+"ELECSPRINT. Sa\\nvitesse explosive égale celle de la\\nfoudre."
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:5404
@@ -44460,11 +44956,15 @@ msgstr ""
 "Le gangster rusé des océans. Sa peau est\\nconçue pour offrir peu de "
 "résistance à\\nl’eau. Il est capable de nager à plus de\\n120 km/h."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:6611
 msgid ""
 "The yellow patterns it bears are old scars.\\nThe energy from Mega Evolution"
 " runs\\nthrough them, causing it sharp pain and\\nsuffering."
 msgstr ""
+"Les motifs jaunes qu’il porte sont de\\nvieilles cicatrices. L’énergie de "
+"la\\nMéga-Évolution les parcourt et lui cause\\nune vive douleur."
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:3398
@@ -44552,12 +45052,16 @@ msgstr ""
 " sur\\nson dos entrent violemment en éruption,\\nmais personne ne sait "
 "pourquoi."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:7012
 msgid ""
 "The humps on its back have transformed\\ninto one large and very active "
 "volcano. It\\nhas a deep hatred of water or any moisture\\nand has an "
 "explosive personality."
 msgstr ""
+"Les bosses de son dos sont devenues un\\nseul grand volcan très actif. Il "
+"déteste\\nl’eau et l’humidité, et il a un caractère\\nexplosif."
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:2880
@@ -44800,12 +45304,16 @@ msgstr ""
 " dans\\nle ciel bleu et est capable de cracher des\\nboules de feu avec son "
 "bec."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:7936
 msgid ""
 "It sings with a voice that is even more\\nbeautiful than before it Mega "
 "Evolved.\\nIts feathers became larger for protection\\nand glimmer with an "
 "iridescent sheen."
 msgstr ""
+"Il chante d’une voix encore plus belle\\nqu’avant sa Méga-Évolution. Ses "
+"plumes\\nont grandi pour le protéger et chatoient\\nde reflets irisés."
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:1060
@@ -45248,11 +45756,15 @@ msgstr ""
 "C’est une peluche abandonnée devenue\\nPokémon. Les Branette errent "
 "dans\\nles décharges à la recherche des enfants\\nqui les ont abandonnés."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:9834
 msgid ""
 "Extraordinary energy amplifies its\\ncursing power to such an extent that "
 "it\\ncan't help but curse its own Trainer."
 msgstr ""
+"Une énergie extraordinaire décuple son\\npouvoir de malédiction, au point "
+"qu’il ne\\npeut s’empêcher de maudire son propre\\nDresseur."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:9906
@@ -45388,11 +45900,16 @@ msgstr ""
 "Les EOKO volent plus vivement quand la\\nsaison chaude arrive. Ils "
 "communiquent\\nentre eux à l’aide de sept cris différents."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:10406
 msgid ""
 "It vibrates its entire body to attack in\\nall directions using sound waves."
 " Any who\\nhear the vibrations get so confused, they\\nforget who they are."
 msgstr ""
+"Il fait vibrer tout son corps pour\\nattaquer avec des ondes sonores "
+"dans\\ntoutes les directions. Ceux qui les\\nentendent en oublient qui ils "
+"sont."
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:4497
@@ -45422,18 +45939,26 @@ msgstr ""
 "terre et peut\\nainsi prédire les catastrophes naturelles.\\nIl a une "
 "espérance de vie de 100 ans."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:10548
 msgid ""
 "As the energy of Mega Evolution fills it,\\nits fur bristles. What you see "
 "on its back\\nare not true wings, and this Pokémon isn't\\nable to fly."
 msgstr ""
+"L’énergie de la Méga-Évolution\\nhérisse sa fourrure. Sur son dos, ce\\lne "
+"sont pas de vraies ailes: il ne peut\\lpas voler."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:10625
 msgid ""
 "Using fur that it has made into sharp,\\nclawlike shapes, it cuts down foes "
 "with\\na single blow. This is an act of kindness\\nto keep them from "
 "suffering."
 msgstr ""
+"Avec sa fourrure façonnée en griffes\\nacérées, il terrasse ses ennemis "
+"d’un\\nseul coup. C’est un acte de bonté qui\\nleur évite de souffrir."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:10681
@@ -45477,11 +46002,15 @@ msgstr ""
 "Oniglali a le pouvoir de geler\\ninstantanément l’humidité de l’air.\\nUn "
 "nuage de cristaux de glace se\\nforme tout autour de son corps."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:10844
 msgid ""
 "The power of Mega Evolution was so strong\\nthat it smashed Glalie's jaw. "
 "Its inability\\nto eat very well leaves Glalie irritated."
 msgstr ""
+"La puissance de la Méga-Évolution était\\nsi forte qu’elle a brisé la "
+"mâchoire\\nd’ONIGLALI. Ne pouvant plus bien manger,\\nil est irritable."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:10909
@@ -45504,11 +46033,15 @@ msgstr ""
 "Ce Pokémon est né des regrets d’une\\nfemme disparue dans les pics "
 "enneigés.\\nIl raffole des âmes gelées."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:10990
 msgid ""
 "This Pokémon can use eerie cold\\nair imbued with ghost energy to\\nfreeze "
 "even insubstantial things,\\nsuch as flames or the wind."
 msgstr ""
+"Ce Pokémon utilise un air froid\\nsinistre chargé d’énergie spectrale\\npour"
+" geler même ce qui n’a pas de\\ncorps, comme les flammes ou le vent."
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:6528
@@ -45728,11 +46261,15 @@ msgstr ""
 " pour\\npermettre à ses ailes de pousser. Une fois\\nénervé, il perd tout "
 "contrôle de lui-même."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:11891
 msgid ""
 "Mega Evolution fuels its brutality, and it\\nmay even turn on the Trainer "
 "who raised it.\\nIt's been dubbed the blood-soaked.\\ncrescent."
 msgstr ""
+"La Méga-Évolution attise sa brutalité: il\\npeut même s’en prendre au "
+"Dresseur qui l’a\\nélevé. On le surnomme le croissant\\nsanglant."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:11959
@@ -45800,11 +46337,16 @@ msgstr ""
 "Les quatre cerveaux de Metalosse sont\\nreliés par un réseau neuronal "
 "complexe.\\nCe Pokémon est plus intelligent qu’un\\nsuperordinateur."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:12192
 msgid ""
 "When it knows it can't win, it digs the\\nclaws on its legs into its "
 "opponent and\\nstarts the countdown to a big explosion."
 msgstr ""
+"Quand il sait qu’il ne peut pas gagner, il\\nplante les griffes de ses "
+"pattes dans\\nson adversaire et lance le compte à\\nrebours d’une grande "
+"explosion."
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:3710
@@ -45896,12 +46438,16 @@ msgstr ""
 " contact\\navec les humains ou d’autres Pokémon et\\nfuient dès qu’ils "
 "détectent un ennemi."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:12593
 msgid ""
 "Its body is smaller than Mega Latios's\\nbody. It is more agile and can make"
 " very\\nsharp turns. When it Mega Evolves, its\\ndefensive strength grows "
 "substantially."
 msgstr ""
+"Son corps est plus petit que celui de\\nMEGA-LATIOS. Plus agile, il peut "
+"virer\\ntrès sec. Quand il méga-évolue, sa\\ndéfense augmente nettement."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:12668
@@ -45920,12 +46466,16 @@ msgstr ""
 "leurs\\némotions grâce à son don de télépathie.\\nIl comprend le langage des"
 " humains."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:12753
 msgid ""
 "It's larger than Mega Latias, and can\\nachieve higher speeds in "
 "flight.\\nThis Pokémon can use its speed in battle\\nto unleash a flurry of "
 "attacks."
 msgstr ""
+"Plus grand que MEGA-LATIAS, il atteint\\nde plus grandes vitesses en vol. Il"
+" se\\nsert de sa vitesse au combat pour\\nlancer une avalanche d’attaques."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_3_families.h:12831
@@ -45944,11 +46494,15 @@ msgstr ""
 "battu de\\nlongues années contre Groudon, il partit\\nse reposer tout au "
 "fond de l’océan."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:12909
 msgid ""
 "When Kyogre roared, water poured forth\\nand the seas spread outward.\\nDark"
 " clouds enshrouded the world,\\nand the deluge fell upon all…"
 msgstr ""
+"Quand KYOGRE rugit, l’eau jaillit et les\\nmers s’étendent. De sombres "
+"nuages\\nenveloppent le monde et le déluge\\ns’abat sur tout…"
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/data/pokemon/species_info/gen_3_families.h:12987
@@ -45967,12 +46521,16 @@ msgstr ""
 " dans\\nle magma souterrain et créerait des\\néruptions volcaniques en se "
 "réveillant."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:13065
 msgid ""
 "When Groudon howled, the earth swelled and\\nthe land grew wide. The sun "
 "blazed atop\\nand all the world around the creature\\nwas enveloped in "
 "incandescent heat."
 msgstr ""
+"Quand GROUDON hurle, la terre se soulève\\net s’étend. Le soleil brûle au-"
+"dessus de\\nlui et le monde entier baigne dans une\\nchaleur incandescente."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:13141
@@ -45995,12 +46553,17 @@ msgstr ""
 "Ce Pokémon vole sans cesse au milieu\\nde la couche d’ozone. On raconte "
 "qu’il\\nviendrait sur terre en cas de combat\\nentre Groudon et Kyogre."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_3_families.h:13225
 msgid ""
 "Particles stream from the filaments that\\nextend from its jaw. They can "
 "control the\\ndensity and humidity of the air, allowing\\nRayquaza to "
 "manipulate the weather."
 msgstr ""
+"Des particules jaillissent des filaments\\nde sa mâchoire. Elles contrôlent "
+"la\\ndensité et l’humidité de l’air, ce qui\\npermet à RAYQUAZA de manipuler"
+" la météo."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_3_families.h:13303
@@ -46300,11 +46863,15 @@ msgstr ""
 "En évoluant, les Étourvol quittent leur\\nvolée pour vivre seuls. D’un "
 "naturel féroce,\\nil défie sans peur des ennemis bien plus\\ngrands."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_4_families.h:980
 msgid ""
 "Mega Staraptor is a top-class flier.\\nIt can easily soar through the sky "
 "while\\ngripping a Steelix that weighs more than\\n880 lbs."
 msgstr ""
+"MEGA-ETOURAPTOR est un aviateur hors\\npair. Il fend aisément le ciel en "
+"tenant\\ndans ses serres un STEELIX de plus de\\n400 kg."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_4_families.h:1032
@@ -46872,11 +47439,15 @@ msgstr ""
 "Un Pokémon extrêmement prudent. Soucieux\\nde son apparence, il ne manque "
 "jamais de\\nlisser ses oreilles. Il court par bonds\\nlégers."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_4_families.h:3627
 msgid ""
 "Mega Evolution awakens its combative\\ninstincts. It has shed any fur that "
 "got in\\nthe way of its attacks.\\ncrescent."
 msgstr ""
+"La Méga-Évolution éveille son instinct\\ncombatif. Il s’est débarrassé de "
+"toute\\nfourrure qui gênait ses attaques."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_4_families.h:3694
@@ -47095,18 +47666,27 @@ msgstr ""
 "Quand il replie son corps et déploie ses\\nailes, il ressemble à un avion à "
 "réaction.\\nSes fines écailles lui permettent de voler\\ntrès vite."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_4_families.h:4556
 msgid ""
 "Excess energy melted its arms and wings\\ninto giant scythes, sending it mad"
 " with\\nrage. It swings its scythes wildly and\\nslices the ground to "
 "pieces."
 msgstr ""
+"Un excès d’énergie a fait fondre ses\\nbras et ses ailes, devenus "
+"d’immenses\\lfaux. Fou de rage, il les agite et\\ldécoupe le sol."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_4_families.h:4638
 msgid ""
 "Garchomp has gained a new Mega-Evolved\\nform. It flies around foes at Mach "
 "speed\\nand cuts them to shreds with its sinister\\nwing claws."
 msgstr ""
+"CARCHACROK a une nouvelle forme\\nméga-évoluée. Il décrit des "
+"cercles\\lautour de ses ennemis à Mach 1. Ses\\lgriffes sinistres les "
+"lacèrent."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_4_families.h:4690
@@ -47151,17 +47731,25 @@ msgstr ""
 "Il comprend le langage humain. Lucario\\nperçoit les auras, si bien qu’aucun"
 " ennemi\\nne peut se cacher de lui, même invisible."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_4_families.h:4843
 msgid ""
 "It readies itself to face its enemies by\\nfocusing its mental energies. Its"
 " fighting\\nstyle can be summed up in a single word:\\nheartless."
 msgstr ""
+"Il se prépare à affronter ses ennemis\\nen concentrant son énergie "
+"mentale.\\lSon style de combat se résume en un\\lmot: impitoyable."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_4_families.h:4920
 msgid ""
 "By completely cloaking itself in its aura,\\nMega Lucario Z can parry all "
 "manner of\\nattacks, battling as if it were gracefully\\ndancing."
 msgstr ""
+"En s’enveloppant entièrement de son\\naura, MEGA-LUCARIO Z pare toutes "
+"sortes\\nd’attaques et combat comme s’il dansait\\navec grâce."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_4_families.h:4972
@@ -47373,12 +47961,17 @@ msgstr ""
 "Il vit paisiblement dans les montagnes aux\\nneiges éternelles et se cache "
 "en soulevant\\ndes blizzards. On le surnomme “le Monstre\\ndes Glaces”."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_4_families.h:5906
 msgid ""
 "The sprouts on Abomasnow's back grow into\\ngreat shafts of ice when it Mega"
 " Evolves.\\nDislikes associating with others and\\nchooses to live quietly "
 "deep in mountains."
 msgstr ""
+"Les pousses du dos de BLIZZAROI\\ndeviennent de grands piliers de "
+"glace\\nquand il méga-évolue. Solitaire, il vit\\ntranquillement au fond des"
+" montagnes."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_4_families.h:5976
@@ -47596,12 +48189,16 @@ msgstr ""
 "Un sang bouillant comme le magma coule\\ndans ses veines. Il vit dans les "
 "grottes\\nvolcaniques et rampe aux murs et aux\\nplafonds."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_4_families.h:7111
 msgid ""
 "It's said that if it goes all out, it\\ncan heat its body up to "
 "temperatures\\nover 1.8 million degrees Fahrenheit.\\nThis heat keeps "
 "enemies at bay."
 msgstr ""
+"On dit qu’à pleine puissance, il peut\\nchauffer son corps à plus d’un "
+"million\\nde degrés. Cette chaleur tient ses\\nennemis à distance."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_4_families.h:7170
@@ -47738,11 +48335,15 @@ msgstr ""
 "Il chasse de son territoire humains et\\nPokémon en les plongeant dans de "
 "terribles\\ncauchemars. Pourtant, il ne leur veut aucun\\nmal."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_4_families.h:7744
 msgid ""
 "Its dark power blocks out the sun,\\nplunging the surrounding area "
 "into\\ndarkness. There is no escaping its\\nevil eye."
 msgstr ""
+"Son pouvoir ténébreux masque le\\nsoleil et plonge les environs "
+"dans\\nl’obscurité. Nul n’échappe à son œil\\nmaléfique."
 
 #. source : SoulSilver FR officiel
 #: src/data/pokemon/species_info/gen_4_families.h:7809
@@ -47914,11 +48515,15 @@ msgstr ""
 "Il maîtrise de nombreuses capacités. Il\\nenflamme ses poings avec sa barbe "
 "de feu\\npour frapper. Il tient beaucoup à ses amis."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_5_families.h:550
 msgid ""
 "Brandishing a blazing flame\\nshaped like a serpentine spear,\\nit rushes in"
 " to save its\\nimperiled allies."
 msgstr ""
+"Brandissant une flamme ardente en\\nforme de lance sinueuse, il fonce "
+"au\\nsecours de ses alliés en péril."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:601
@@ -48499,11 +49104,15 @@ msgstr ""
 "Il creuse des nids labyrinthiques à cent\\nmètres sous terre. Il peut abîmer"
 " les\\ntunnels de métro, mais aussi aider à les\\nconstruire."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_5_families.h:2885
 msgid ""
 "If this Pokémon brings its arms and\\nhead together to form a "
 "streamlined\\nshape and spins at high speeds,\\nit can destroy anything."
 msgstr ""
+"Quand ce Pokémon joint ses bras et sa\\ntête pour former une "
+"silhouette\\nprofilée et tourne à grande vitesse,\\nil peut tout détruire."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:2938
@@ -48526,12 +49135,17 @@ msgstr ""
 "Son ouïe est extraordinaire. Ses antennes\\nlui permettent de deviner "
 "l’humeur des gens\\nou le moment où un Œuf va éclore."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_5_families.h:3021
 msgid ""
 "Mega Audino emits a soothing pulse from\\nits body that reduces hostility in"
 " others.\\nAnything that comes into contact with its\\nsecond feelers will "
 "fall into a deep sleep."
 msgstr ""
+"MEGA-NANMEOUIE émet de son corps une\\nonde apaisante qui calme "
+"l’hostilité.\\nQuiconque touche ses seconds palpeurs\\nsombre dans un "
+"profond sommeil."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:3088
@@ -48787,11 +49401,15 @@ msgstr ""
 "Il traque ses ennemis à toute vitesse et\\nles frappe sans relâche de ses "
 "cornes, puis\\nles achève avec un poison mortel."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_5_families.h:4120
 msgid ""
 "Its deadly venom gives off a faint\\nglow. The venom affects "
 "Scolipede's\\nmind, honing its viciousness."
 msgstr ""
+"Son venin mortel émet une faible\\nlueur. Il agit sur l’esprit "
+"de\\nBRUTAPODE et aiguise sa férocité."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:4173
@@ -49217,12 +49835,16 @@ msgstr ""
 "Ils rossent en groupe tout ce qui entre sur\\nleur territoire. Celui qui a "
 "la plus grande\\ncrête est le chef, et le plus respecté."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_5_families.h:5917
 msgid ""
 "Mega Evolution has caused Scrafty's\\nshed skin to turn white, "
 "growing\\ntough and supple. Of course, this\\nPokémon is still as feisty as "
 "ever."
 msgstr ""
+"La Méga-Évolution a rendu la mue de\\nBAGGAID blanche, résistante "
+"et\\lsouple. Bien sûr, ce Pokémon est\\ltoujours aussi bagarreur."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:5968
@@ -49428,11 +50050,15 @@ msgstr ""
 "Gare au liquide toxique qu’il projette par\\nson bras droit! Une seule "
 "goutte suffit à\\nsubir tous les effets de ce poison inconnu."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_5_families.h:6780
 msgid ""
 "It sprays toxic gas from its mouth\\nand fingers. If the gas engulfs "
 "you,\\nthe toxins will seep in all the way\\ndown to your bones."
 msgstr ""
+"Il crache un gaz toxique par la\\nbouche et les doigts. Si ce gaz "
+"vous\\nenveloppe, les toxines s’infiltrent\\njusqu’aux os."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/data/pokemon/species_info/gen_5_families.h:6835
@@ -50189,11 +50815,15 @@ msgstr ""
 "Il sort de l’océan à la force des bras. Il\\nattaque les proies sur le "
 "rivage et les\\nentraîne aussitôt sous l’eau avec sa\\nbouche-ventouse."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_5_families.h:9966
 msgid ""
 "It now generates 10 times the\\nelectricity it did before Mega\\nEvolving. "
 "It discharges this energy\\nfrom its false Eelektrik made of mucus."
 msgstr ""
+"Il produit maintenant 10 fois plus\\nd’électricité qu’avant sa\\nMéga-"
+"Évolution. Il la décharge par son\\nfaux LAMPEROIE fait de mucus."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:10018
@@ -50290,11 +50920,15 @@ msgstr ""
 "Sa flamme brûle l’âme et ne laisse que le\\ncorps. En agitant les flammes de"
 " ses bras,\\nil plonge ses ennemis dans une transe\\nhypnotique."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_5_families.h:10395
 msgid ""
 "One of its eyes is a window linking\\nour world with the afterlife.\\nThis "
 "Pokémon draws in hatred and\\nconverts it into power."
 msgstr ""
+"L’un de ses yeux est une fenêtre qui\\nrelie notre monde à l’au-delà. "
+"Ce\\nPokémon absorbe la haine et la change\\nen puissance."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:10447
@@ -50576,11 +51210,15 @@ msgstr ""
 "Une civilisation antique l’a créé pour\\nprotéger les gens et les Pokémon. "
 "Si on\\nretire le sceau de son torse, son énergie\\nse déchaîne."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_5_families.h:11534
 msgid ""
 "The energy within Golurk has been\\nstimulated by Mega Evolution.\\nThe "
 "Pokémon could explode at any moment."
 msgstr ""
+"L’énergie de GOLEMASTOC a été stimulée\\npar la Méga-Évolution. Ce "
+"Pokémon\\npourrait exploser à tout moment."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_5_families.h:11584
@@ -51090,17 +51728,25 @@ msgstr ""
 "Ce Pokémon légendaire attend un héros qui\\ncomblera son corps de vérité ou "
 "d’idéal. Il\\na gelé quand son énergie s’est échappée."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_5_families.h:13699
 msgid ""
 "The sameness of Reshiram's and\\nKyurem's genes allowed Kyurem to\\nabsorb "
 "Reshiram. Kyurem can now use the\\npower of both fire and ice."
 msgstr ""
+"RESHIRAM et KYUREM ont les mêmes\\ngènes. KYUREM a donc pu "
+"absorber\\lRESHIRAM. Il peut désormais user du\\lfeu et de la glace."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_5_families.h:13772
 msgid ""
 "The sameness of Zekrom's and\\nKyurem's genes allowed Kyurem to "
 "absorb\\nZekrom. Kyurem can now use the\\npower of both electricity and ice."
 msgstr ""
+"ZEKROM et KYUREM ont les mêmes\\ngènes. KYUREM a donc pu absorber\\lZEKROM. "
+"Il peut désormais user de\\ll’électricité et de la glace."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/data/pokemon/species_info/gen_5_families.h:13841
@@ -51231,11 +51877,15 @@ msgstr ""
 "Il protège ses alliés de son propre corps.\\nLorsqu’il se met en garde, "
 "poings devant le\\nvisage, il résiste même à une bombe."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_6_families.h:247
 msgid ""
 "It has fortified armor and a\\nwill to defend at all costs.\\nBoth are "
 "absurdly strong."
 msgstr ""
+"Il a une armure renforcée et la\\nvolonté de défendre coûte que coûte.\\nLes"
+" deux sont d’une force absurde."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_6_families.h:297
@@ -51283,11 +51933,15 @@ msgstr ""
 "En fixant la flamme au bout de sa branche,\\nil entre en transe et lit "
 "l’avenir. Il brûle\\nses ennemis par la force psychique."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_6_families.h:522
 msgid ""
 "It wields flaming branches to\\ndazzle its opponents before\\nincinerating "
 "them with a\\nhuge fireball."
 msgstr ""
+"Il manie des branches enflammées\\npour éblouir ses adversaires avant "
+"de\\nles incinérer d’une énorme boule de\\nfeu."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_6_families.h:574
@@ -51332,11 +51986,15 @@ msgstr ""
 msgid "GRENINJA"
 msgstr "AMPHINOBI"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_6_families.h:922
 msgid ""
 "This Pokémon spins a giant\\nshuriken at high speed to make it\\nfloat, then"
 " clings to it upside\\ndown to catch opponents unawares."
 msgstr ""
+"Il fait tourner un shuriken géant\\ntrès vite pour le faire flotter, "
+"puis\\ls’y accroche tête en bas pour\\lsurprendre ses adversaires."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_6_families.h:974
@@ -51689,11 +52347,15 @@ msgstr ""
 "Le mâle à la plus grande crinière de feu\\ndirige la troupe. Les femelles "
 "protègent\\nles petits et menacent férocement les\\nintrus."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_6_families.h:1940
 msgid ""
 "This Pokémon spews flames hotter\\nthan 18,000 degrees Fahrenheit.\\nIt "
 "swings around its grand, blazing\\nmane as it protects its allies."
 msgstr ""
+"Ce Pokémon crache des flammes de\\nplus de 10 000 degrés. Il agite "
+"sa\\ngrande crinière ardente pour\\nprotéger ses alliés."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/data/pokemon/species_info/gen_6_families.h:1990
@@ -51868,11 +52530,15 @@ msgstr ""
 "Un jardin créé par un Florges à\\nfleur blanche est magnifiquement\\norné de"
 " plantes aux fleurs de\\ntoutes les couleurs."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_6_families.h:2375
 msgid ""
 "The Eternal Flower has absorbed\\nall the energy from Mega\\nEvolution. The "
 "flower now attacks\\nenemies on its own."
 msgstr ""
+"La Fleur Éternelle a absorbé toute\\nl’énergie de la Méga-Évolution. "
+"Elle\\nattaque désormais les ennemis\\nd’elle-même."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_6_families.h:2426
@@ -52010,12 +52676,17 @@ msgstr ""
 "Les femelles sont un peu plus\\négoïstes et agressives que les mâles.\\nSi "
 "on les contrarie, elles vous\\ntourmentent par leurs pouvoirs psy."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_6_families.h:3000
 #: src/data/pokemon/species_info/gen_6_families.h:3058
 msgid ""
 "Mega Meowstic can use its psychic power\\nto compress or expand anything. "
 "It\\noverwhelms foes by contorting space\\nitself."
 msgstr ""
+"MEGA-MISTIGRIX use de son pouvoir\\npsychique pour comprimer ou "
+"dilater\\nn’importe quoi. Il écrase ses ennemis en\\ntordant l’espace lui-"
+"même."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_6_families.h:3109
@@ -52204,11 +52875,15 @@ msgstr ""
 "Il attire ses proies par des mouvements\\nhypnotiques, les enserre de ses "
 "tentacules\\net les achève avec ses sucs digestifs."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_6_families.h:3838
 msgid ""
 "It uses its colorful lights to\\noverwrite the personality and\\nmemories of"
 " others-and to\\ncontrol them."
 msgstr ""
+"Il utilise ses lumières colorées pour\\nréécrire la personnalité et "
+"les\\nsouvenirs des autres, et pour les\\ncontrôler."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_6_families.h:3888
@@ -52250,11 +52925,15 @@ msgstr ""
 "Ses jambes et ses bras sont dotés d’une\\nvolonté propre. Cependant, ils "
 "suivent\\ngénéralement les ordres de la tête."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_6_families.h:4041
 msgid ""
 "It uses its many arms to toy\\nwith its opponents. This\\nkeeps the head "
 "extremely busy."
 msgstr ""
+"Il se sert de ses nombreux bras pour\\nse jouer de ses adversaires. "
+"Cela\\noccupe énormément sa tête."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_6_families.h:4090
@@ -52293,11 +52972,15 @@ msgstr ""
 "Son poison ronge la coque d’un pétrolier. On\\nraconte que les navires qui "
 "s’égarent dans\\nles mers où il vit ne reviennent jamais."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_6_families.h:4245
 msgid ""
 "It spits a liquid that causes the\\nregenerative power of cells to "
 "run\\nwild. The liquid is deadly poison\\nto everything other than itself."
 msgstr ""
+"Il crache un liquide qui emballe la\\nrégénération des cellules. Ce "
+"poison\\lest mortel pour tous les autres êtres\\lvivants."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_6_families.h:4296
@@ -52471,11 +53154,15 @@ msgstr ""
 "Il se dirige dans les airs avec ses ailes.\\nSes talents de lutteur lui "
 "permettent de\\ntenir tête à Mackogneur ou Hariyama."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_6_families.h:4951
 msgid ""
 "Mega Evolution has pumped up all\\nits muscles. Hawlucha flexes to\\nshow "
 "off its strength."
 msgstr ""
+"La Méga-Évolution a gonflé tous ses\\nmuscles. BRUTALIBRE prend la "
+"pose\\npour exhiber sa force."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/data/pokemon/species_info/gen_6_families.h:5000
@@ -52902,11 +53589,15 @@ msgstr ""
 "Voici la forme parfaite de Zygarde.\\nL’orifice de son torse libère "
 "une\\nénergie colossale qui anéantit\\ntout sur son passage."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_6_families.h:7215
 msgid ""
 "In response to people's emotions\\nduring an unprecedented crisis,\\nZygarde"
 " Mega Evolves and calms the\\nsituation with its unmatched power."
 msgstr ""
+"Face à une crise sans précédent, ZY\\nGARDE répond aux émotions des "
+"gens\\let méga-évolue. Sa puissance\\linégalée apaise la situation."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/data/pokemon/species_info/gen_6_families.h:7269
@@ -52924,12 +53615,17 @@ msgstr ""
 "Mutation soudaine de Strassie, son corps\\nrose et scintillant serait le "
 "plus beau du\\nmonde. Il crée des diamants entre ses\\nmains."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_6_families.h:7353
 msgid ""
 "The impurities upon its body's surface\\nhave fallen away, sparkling so "
 "brilliantly\\nthat cannot be observed directly.\\nIt is known as “the Royal "
 "Pink Princess”."
 msgstr ""
+"Les impuretés à la surface de son corps\\nsont tombées. Il brille si fort "
+"qu’on ne\\npeut le regarder en face. On l’appelle “la\\nPrincesse Rose "
+"Royale”."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/data/pokemon/species_info/gen_6_families.h:7422
@@ -53350,11 +54046,15 @@ msgstr ""
 "Il visait le sommet, mais s’est perdu sur\\nune montagne enneigée. Forcé "
 "d’endurer le\\nfroid, il a évolué et s’est couvert d’une\\népaisse fourrure."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_7_families.h:1524
 msgid ""
 "It can pulverize reinforced concrete with\\na light swing of one of its "
 "fists, each of\\nwhich is covered in a thick layer of ice."
 msgstr ""
+"Il peut pulvériser du béton armé d’un\\nléger coup de poing. Chacun de ses "
+"poings\\nest couvert d’une épaisse couche de\\nglace."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_7_families.h:1575
@@ -53886,12 +54586,16 @@ msgstr ""
 "Il se bat avec habileté grâce à ses six\\nbras. D’un éclair de ses griffes "
 "géantes, il\\nfend l’eau de mer, et même l’air, en deux."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_7_families.h:4222
 msgid ""
 "It uses four of its arms to fiercely\\nassail its foes. Once they've been "
 "pushed\\nto the brink of defeat, it finishes them\\noff with the arms it "
 "kept hidden."
 msgstr ""
+"Il assaille ses ennemis avec quatre de\\nses bras. Une fois qu’ils sont au "
+"bord de\\nla défaite, il les achève avec les bras\\nqu’il tenait cachés."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_7_families.h:4274
@@ -54090,15 +54794,21 @@ msgstr ""
 "Il adore les enfants rieurs. Il n’hésite pas\\nà descendre de sa montagne "
 "pour venir en\\nville jouer avec ses petits amis."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_7_families.h:5402
 msgid "Imposing"
-msgstr ""
+msgstr "Imposant"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_7_families.h:5405
 msgid ""
 "Drampa's cells have been\\ninvigorated, allowing it to regain\\nits youth. "
 "It manipulates the\\natmosphere to summon storms."
 msgstr ""
+"Les cellules de DRAIEUL ont été\\nrevigorées, ce qui lui a rendu "
+"sa\\njeunesse. Il manipule l’atmosphère\\npour invoquer des tempêtes."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_7_families.h:5458
@@ -54475,23 +55185,36 @@ msgstr ""
 "Une créature endormie sous terre. On\\nsuppose qu’il s’agit d’une Ultra-"
 "Chimère\\nvenue d’un autre monde il y a bien\\nlongtemps."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_7_families.h:6920
 msgid ""
 "This is its form while it is devouring\\nthe light of Solgaleo. It pounces "
 "on\\nfoes and then slashes them with the\\nclaws on its four limbs and back."
 msgstr ""
+"C’est sa forme quand il dévore la\\nlumière de SOLGALEO. Il bondit sur "
+"ses\\nennemis et les lacère avec les griffes\\nde ses quatre pattes et de "
+"son dos."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_7_families.h:6991
 msgid ""
 "This is its form while it's\\ndevouring the light of Lunala. It "
 "grasps\\nfoes in its giant claws and rips them\\napart with brute force."
 msgstr ""
+"C’est sa forme quand il dévore la lumière\\nde LUNALA. Il saisit ses ennemis"
+" dans\\nses griffes géantes et les déchire par\\nla force brute."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_7_families.h:7066
 msgid ""
 "The light pouring out from all over\\nits body affects living things "
 "and\\nnature, impacting them in various\\nways."
 msgstr ""
+"La lumière qui jaillit de tout son\\ncorps affecte les êtres vivants et "
+"la\\nnature, et les influence de diverses\\nfaçons."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/data/pokemon/species_info/gen_7_families.h:7138
@@ -54529,12 +55252,16 @@ msgstr ""
 "Voici sa forme d’il y a près de 500\\nans. Son corps n’est qu’un "
 "récipient:\\nson cœur artificiel est le véritable\\nêtre vivant."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_7_families.h:7347
 msgid ""
 "A mechanism to remove Magearna's\\nlimitations has lain secretly "
 "within\\nMagearna for 500 years. This mechanism\\nis triggered by a Mega "
 "Stone."
 msgstr ""
+"Un mécanisme qui lève les limites de\\nMAGEARNA y est caché depuis 500 "
+"ans.\\nCe mécanisme est déclenché par une\\nMéga-Gemme."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/data/pokemon/species_info/gen_7_families.h:7402
@@ -54643,11 +55370,15 @@ msgstr ""
 "Il prend l’ennemi par surprise en attaquant\\nplus vite que l’éclair, et le "
 "débite en\\nmorceaux avec ses griffes acérées."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_7_families.h:7820
 msgid ""
 "It stores up 10 lightning strikes' worth\\nof electricity. When it stops "
 "limiting\\nitself, it's in the strongest class of\\nelectric Pokémon."
 msgstr ""
+"Il emmagasine l’électricité de 10 coups\\nde foudre. Quand il cesse de se "
+"brider,\\nil fait partie des Pokémon Électrik les\\nplus puissants."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/data/pokemon/species_info/gen_7_families.h:7873
@@ -54685,11 +55416,15 @@ msgstr ""
 "Jadis vénéré pour son aptitude à produire\\ndu fer, il a mystérieusement "
 "ressuscité\\naprès 3000 ans."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_7_families.h:8012
 msgid ""
 "In a distant land, there are\\nlegends about a cyclopean giant. In "
 "fact,\\nthe giant was a Melmetal that was\\nflooded with Gigantamax energy."
 msgstr ""
+"Dans une contrée lointaine, des légendes\\nparlent d’un géant cyclopéen. En "
+"fait, ce\\ngéant était un MELMETAL gorgé d’énergie\\nGigamax."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:26
@@ -54746,11 +55481,15 @@ msgstr ""
 "Il contrôle le pouvoir de sa souche\\nsingulière en tapant en rythme dessus."
 " Il\\nse bat en manipulant des racines."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:225
 msgid ""
 "Rillaboom has become one with its\\nforest of drums and continues to "
 "lay\\ndown beats that shake all of Galar."
 msgstr ""
+"GORYTHMIC ne fait plus qu’un avec sa\\nforêt de tambours et continue "
+"de\\njouer des rythmes qui font trembler\\ntout Galar."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:279
@@ -54801,11 +55540,15 @@ msgstr ""
 "Il drible avec des pierres pour en faire des\\nballons enflammés, avant de "
 "tirer sur ses\\nadversaires pour les brûler."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:479
 msgid ""
 "Infused with Cinderace's fighting\\nspirit, the gigantic Pyro Ball "
 "never\\nmisses its targets and completely\\nroasts opponents."
 msgstr ""
+"Empli de l’esprit combatif de PYROBUT,\\nle gigantesque Ballon Brûlant ne "
+"rate\\njamais sa cible et calcine\\ncomplètement l’adversaire."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:535
@@ -54862,12 +55605,16 @@ msgstr ""
 "Il a plus d’un tour dans son sac: il tire des\\ngerbes d’eau du bout de ses "
 "doigts et plane\\ndans les airs grâce à ses membranes\\ndorsales."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:735
 msgid ""
 "Gigantamax Inteleon's Water Gun\\nmove fires at Mach 7. As the "
 "Pokémon\\ntakes aim, it uses the crest on its\\nhead to gauge wind and "
 "temperature."
 msgstr ""
+"Le Pistolet à O de LEZARGUS Gigamax\\natteint Mach 7. Pour viser, il "
+"évalue\\nle vent et la température avec la\\ncrête de sa tête."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:791
@@ -54959,11 +55706,15 @@ msgstr ""
 "Il n’a aucun rival dans le ciel de Galar.\\nL’aspect intimidant de son corps"
 " d’acier\\nnoir et lustré inspire la crainte chez ses\\nennemis."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:1143
 msgid ""
 "Imbued with Gigantamax energy, its\\nwings can whip up winds more\\nforceful"
 " than any a hurricane could\\nmuster. The gusts blow everything away."
 msgstr ""
+"Imprégnées d’énergie Gigamax, ses ailes\\nsoulèvent des vents plus "
+"violents\\nqu’un ouragan. Ses rafales emportent\\ntout."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:1198
@@ -55019,11 +55770,15 @@ msgstr ""
 "Il est renommé pour son intelligence. Son\\ngros cerveau est un indicateur "
 "de la\\npuissance de ses pouvoirs psychiques."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:1403
 msgid ""
 "Its brain has grown to a gargantuan\\nsize, as has the rest of its "
 "body.\\nThis Pokémon's intellect and\\npsychic abilities are overpowering."
 msgstr ""
+"Son cerveau est devenu gigantesque,\\ncomme le reste de son corps. "
+"Son\\nintellect et ses pouvoirs psychiques\\nsont écrasants."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:1458
@@ -55155,11 +55910,15 @@ msgstr ""
 "De nature très violente, il mord ses proies\\navec sa mâchoire, assez "
 "puissante pour\\nbroyer une barre de fer."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:1991
 msgid ""
 "In the Galar region, there's a tale\\nabout this Pokémon chewing up "
 "a\\nmountain and using the rubble to stop a\\nflood."
 msgstr ""
+"À Galar, on raconte que ce Pokémon a\\ndéchiqueté une montagne et "
+"s’est\\lservi des gravats pour arrêter une\\linondation."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:2046
@@ -55238,11 +55997,15 @@ msgstr ""
 "Il est d’une nature paisible, mais si les\\nhumains tentent de piller ses "
 "mines, il\\nenrage et brûle tout avec des flammes à\\n1500 degrés."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:2376
 msgid ""
 "Its body is a colossal stove. With\\nGigantamax energy stoking the "
 "fire,\\nthis Pokémon's flame burns hotter\\nthan 3,600 degrees Fahrenheit."
 msgstr ""
+"Son corps est un poêle colossal.\\nAttisée par l’énergie Gigamax, "
+"la\\nflamme de ce Pokémon brûle à plus de\\n2 000 degrés."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:2431
@@ -55286,11 +56049,15 @@ msgstr ""
 "Il a évolué après avoir mangé une\\npomme acide. Il concentre dans "
 "ses\\njoues un liquide si corrosif qu’il\\npeut provoquer des brûlures."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:2577
 msgid ""
 "Under the influence of Gigantamax\\nenergy, it produces much more "
 "sweet\\nnectar, and its shape has changed\\nto resemble a giant apple."
 msgstr ""
+"Sous l’effet de l’énergie Gigamax, il\\nproduit bien plus de nectar sucré "
+"et\\lsa forme rappelle celle d’une pomme\\lgéante."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:2630
@@ -55313,11 +56080,15 @@ msgstr ""
 "Il a évolué après avoir mangé une pomme\\nsucrée. Il attire ses proies, les "
 "Pokémon\\nInsecte, en dégageant un parfum mielleux."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:2702
 msgid ""
 "Due to Gigantamax energy, this\\nPokémon's nectar has thickened. "
 "The\\nincreased viscosity lets the nectar\\nabsorb more damage than before."
 msgstr ""
+"Sous l’effet de l’énergie Gigamax, le\\nnectar de ce Pokémon s’est "
+"épaissi.\\nPlus visqueux, il absorbe davantage\\nde dégâts qu’avant."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:2756
@@ -55394,12 +56165,17 @@ msgstr ""
 "Il peut expulser 100 kg de sable de ses\\nnarines en compressant tout son "
 "corps.\\nQuand il est à court de sable, il a tendance\\nà se dérober."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:3022
 msgid ""
 "Its sand pouch has grown to tremendous\\nproportions. More than 1,000,000 "
 "tons of\\nsand now swirl around its body with enough\\nspeed and power to "
 "pulverize a skyscraper."
 msgstr ""
+"Son sac de sable est devenu énorme.\\nPlus d’un million de tonnes de "
+"sable\\ltournoient autour de lui assez vite\\let fort pour broyer un gratte-"
+"ciel."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:3077
@@ -55573,11 +56349,15 @@ msgstr ""
 "Quand il chauffe, sa température atteint\\nenviron 800 degrés. Il se sert de"
 " son corps\\ncomme d’un fouet pour sauter sur ses\\nennemis."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:3845
 msgid ""
 "The heat that comes off a\\nGigantamax Centiskorch may\\ndestabilize air "
 "currents. Sometimes\\nit can even cause storms."
 msgstr ""
+"La chaleur dégagée par un\\nSCOLOCENDRE Gigamax peut perturber\\nles "
+"courants d’air. Elle provoque\\nparfois même des tempêtes."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:3900
@@ -55735,11 +56515,15 @@ msgstr ""
 "Il éloigne les autres êtres vivants en\\némettant des ondes psychiques "
 "qui\\ndonnent des maux de tête épouvantables."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:4496
 msgid ""
 "This Pokémon can read the\\nemotions of creatures over 30 miles away.\\nThe "
 "minute it senses hostility, it\\ngoes on the attack."
 msgstr ""
+"Ce Pokémon perçoit les émotions des\\ncréatures à plus de 50 km. Dès qu’il "
+"sent\\nde l’hostilité, il passe à l’attaque."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:4551
@@ -55790,11 +56574,15 @@ msgstr ""
 "Il enroule ses cheveux autour de son corps\\npour gonfler ses muscles, ce "
 "qui lui permet\\nd’enserrer un Mackogneur."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:4751
 msgid ""
 "Gigantamax energy has caused more\\nhair to sprout all over its body.\\nWith"
 " the added strength, it can jump\\nover the world's tallest building."
 msgstr ""
+"L’énergie Gigamax a fait pousser plus\\nde poils sur tout son corps. Sa "
+"force\\laccrue lui permet de sauter le plus\\lhaut immeuble du monde."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:4806
@@ -55823,12 +56611,16 @@ msgstr ""
 msgid "ALCREMIE"
 msgstr "CHARMILLY"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:5189
 msgid ""
 "It launches swarms of missiles,\\neach made of cream and loaded "
 "with\\n100,000 kilocalories. Get hit by one of\\nthese, and your head will "
 "swim."
 msgstr ""
+"Il lance des nuées de missiles faits\\nde crème et chargés de\\n100 000 "
+"kilocalories. Recevez-en un\\net vous aurez la tête qui tourne."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:5245
@@ -55851,11 +56643,16 @@ msgstr ""
 "Un chef et cinq cadets forment une entité.\\nLes ordres du chef sont "
 "absolus."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:5320
 msgid ""
 "Mega Falinks has taken on the\\nultimate battle formation, which\\ncan be "
 "achieved only if the troopers\\nand brass have the strongest of bonds."
 msgstr ""
+"Méga-HAGOWAK a adopté la formation\\nde combat ultime, possible "
+"seulement\\lsi la troupe et le chef sont unis par\\lles liens les plus "
+"forts."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:5371
@@ -56046,11 +56843,15 @@ msgstr ""
 "Sa peau verte résiste bien à l’eau. Venu\\nd’une autre région il y a "
 "longtemps, il a\\ntravaillé main dans la main avec les Hommes."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:6158
 msgid ""
 "After this Pokémon has Gigantamaxed,\\nits massive nose can utterly "
 "demolish\\nlarge structures with a single\\nsmashing blow."
 msgstr ""
+"Une fois Gigamaxé, il peut démolir de\\ngrandes structures d’un seul coup "
+"de\\lsa trompe massive."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:6213
@@ -56132,11 +56933,15 @@ msgstr ""
 "Son corps, semblable à du métal poli, allie\\nlégèreté et solidité. "
 "Malheureusement, il\\nrouille facilement."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:6552
 msgid ""
 "The hardness of its cells is\\nexceptional, even among Steel types. "
 "It\\nalso has a body structure that's\\nresistant to earthquakes."
 msgstr ""
+"Ses cellules sont d’une dureté\\nexceptionnelle, même parmi les "
+"Pokémon\\nAcier. Son corps a aussi une structure\\nqui résiste aux séismes."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:6607
@@ -56336,12 +57141,16 @@ msgstr ""
 "Adepte des techniques pouvant mettre K.O.\\nen un seul coup, il se jette sur"
 " son\\nadversaire et le frappe de son poing\\nrobuste."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:7421
 msgid ""
 "People call it the embodiment of\\nrage. It's said that this "
 "Pokémon's\\nterrifying expression and shout will\\nrid the world of "
 "malevolence."
 msgstr ""
+"On l’appelle l’incarnation de la rage.\\nSelon la rumeur, son air terrifiant"
+" et\\lson cri débarrasseront le monde de la\\lmalveillance."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:7482
@@ -56353,12 +57162,16 @@ msgstr ""
 "Cette forme de Shifours croit en la\\nvictoire par une pluie de coups.\\nSes"
 " attaques s’enchaînent sans\\nrépit, fluides comme une rivière."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:7551
 msgid ""
 "As it waits for the right moment to\\nunleash its Gigantamax power, "
 "this\\nPokémon maintains a perfect one-\\nlegged stance. It won't even "
 "twitch."
 msgstr ""
+"En attendant le bon moment pour\\nlibérer sa puissance Gigamax, ce\\nPokémon"
+" tient une posture parfaite\\nsur une patte, sans bouger d’un poil."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/data/pokemon/species_info/gen_8_families.h:7609
@@ -56490,22 +57303,33 @@ msgstr ""
 "Doté de pouvoirs de guérison et\\nd’abondance, ce Pokémon "
 "miséricordieux\\nrégnait sur Galar il y a fort longtemps."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:8089
 #: src/data/pokemon/species_info/gen_8_families.h:8158
 msgid "High King"
-msgstr ""
+msgstr "Empereur"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:8092
 msgid ""
 "According to lore, this Pokémon\\nshowed no mercy to those who got in\\nits "
 "way, yet it would heal its\\nopponents' wounds after battle."
 msgstr ""
+"Selon la légende, ce Pokémon était\\nsans pitié pour qui lui barrait "
+"la\\nroute, mais il soignait les blessures\\nde ses adversaires après le "
+"combat."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_8_families.h:8161
 msgid ""
 "It's said that Calyrex and a\\nPokémon that had bonded with it ran "
 "all\\nacross the Galar region to bring green\\nto the wastelands."
 msgstr ""
+"On raconte que SYLVEROY et un\\nPokémon qui s’était lié à lui ont couru\\là "
+"travers tout Galar pour faire\\lreverdir les terres désolées."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_8_families.h:8227
@@ -57432,11 +58256,15 @@ msgstr ""
 "La tête verte est devenue féroce,\\nses substances épicées lui "
 "stimulant\\nle cerveau. Une fois déchaînée,\\nrien ne peut l’arrêter."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_9_families.h:3429
 msgid ""
 "Mega Evolution has dialed up this\\nPokémon's spiciness. It swings "
 "its\\n“necktie” around to wallop its foes."
 msgstr ""
+"La Méga-Évolution a encore relevé le\\npiquant de ce Pokémon. Il "
+"fait\\ntournoyer sa “cravate” pour rosser\\nses ennemis."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_9_families.h:3479
@@ -57770,11 +58598,15 @@ msgstr ""
 "Les pétales de Floréclat sont faits\\nd’énergie toxique cristallisée. On\\na"
 " récemment découvert qu’ils\\nressemblent aux Joyaux Téracristal."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_9_families.h:4729
 msgid ""
 "Glimmora's petals-now larger and\\nseparated from its main body-"
 "rotate\\naround it to provide defense while\\ncattering poisonous fragments."
 msgstr ""
+"Ses pétales, plus grands et détachés\\nde son corps, tournent autour de "
+"lui\\npour le défendre en dispersant des\\néclats venimeux."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_9_families.h:4781
@@ -57949,23 +58781,36 @@ msgstr ""
 "C’est l’un des Pokémon Dragon les\\nplus intelligents. Il se camoufle\\nen "
 "gonflant sa poche gulaire."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_9_families.h:5451
 msgid ""
 "Tatsugiri's brain has been invigorated\\nby Mega Evolution, making it "
 "even\\nwilier. It can create and command\\ncopies of itself."
 msgstr ""
+"La Méga-Évolution a stimulé le\\ncerveau de NIGIRIGON, qui est "
+"devenu\\nencore plus rusé. Il peut créer des\\ncopies de lui-même et les "
+"commander."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_9_families.h:5509
 msgid ""
 "It solidifies the energy of Mega Evolution,\\nbuilding up an overflowing "
 "pile to launch\\nas projectiles. These projectiles explode\\non contact."
 msgstr ""
+"Il solidifie l’énergie de la\\nMéga-Évolution et en accumule tant\\lqu’elle "
+"déborde. Il la lance en\\lprojectiles explosant au contact."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_9_families.h:5567
 msgid ""
 "Using the energy of Mega Evolution, it\\ncreates a dish to ride upon, "
 "allowing it\\nto move with total freedom-even through\\nthe air."
 msgstr ""
+"Grâce à l’énergie de la Méga-Évolution, il\\ncrée une assiette sur laquelle "
+"il se\\ndéplace en toute liberté, même dans les\\nairs."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_9_families.h:5619
@@ -58204,11 +59049,15 @@ msgstr ""
 "Il se lance au combat la tête en bas\\nen crachant un air glacial, "
 "puis\\nachève l’adversaire avec sa lame\\ndorsale."
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/pokemon/species_info/gen_9_families.h:6631
 msgid ""
 "Baxcalibur's dorsal blade has grown even\\nmore massive thanks to Mega "
 "Evolution.\\nThis Pokémon fires beams from the hilt\\nat its solar plexus."
 msgstr ""
+"La Méga-Évolution a rendu la lame\\ndorsale de GLAIVODO plus massive. "
+"Il\\ltire des rayons depuis la garde\\lsituée à son plexus solaire."
 
 #. source : patch FR actuel
 #: src/data/pokemon/species_info/gen_9_families.h:6682
@@ -60524,58 +61373,82 @@ msgstr ""
 msgid "KIANNA"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:376
 msgid "SABINE"
-msgstr ""
+msgstr "Sabine"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:509
 msgid "RYDER"
-msgstr ""
+msgstr "Ryder"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:656
 msgid "DAICHI"
-msgstr ""
+msgstr "Daichi"
 
 #. source : SoulSilver FR officiel
 #: src/data/battle_frontier/trainer_hill.h:935
 msgid "TANNER"
 msgstr "Xavier"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:1067
 msgid "LENORA"
-msgstr ""
+msgstr "Lenora"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:1213
 msgid "MARLIN"
-msgstr ""
+msgstr "Marlin"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:1344
 msgid "LILIAN"
-msgstr ""
+msgstr "Lilian"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:1502
 msgid "REGINALD"
-msgstr ""
+msgstr "Renaud"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:1634
 msgid "MARTINA"
-msgstr ""
+msgstr "Martina"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:1932
 msgid "GILES"
-msgstr ""
+msgstr "Giles"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:2488
 msgid "ENRIC"
-msgstr ""
+msgstr "Enric"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:2643
 msgid "CORNELIA"
-msgstr ""
+msgstr "Coralie"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:2775
 msgid "IGNIS"
-msgstr ""
+msgstr "Ignis"
 
 #: src/data/battle_frontier/trainer_hill.h:2922
 #: src/data/battle_frontier/trainer_hill.h:7400
@@ -60592,21 +61465,29 @@ msgstr ""
 msgid "ANITA"
 msgstr "Anita"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:3480
 msgid "JOHN DOE"
-msgstr ""
+msgstr "Dupont"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:3609
 msgid "LUCIANA"
-msgstr ""
+msgstr "Luciana"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:3894
 msgid "SABER"
-msgstr ""
+msgstr "Saber"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:4086
 msgid "DUDUNSPARC"
-msgstr ""
+msgstr "DEUSOLOURD"
 
 #. source : SoulSilver FR officiel
 #. patch FR actuel : RANCŒUR
@@ -60616,17 +61497,21 @@ msgstr ""
 msgid "ALICE"
 msgstr "Alicia"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:4452
 msgid "CARLA"
-msgstr ""
+msgstr "Carla"
 
 #: src/data/battle_frontier/trainer_hill.h:4599
 msgid "NORI"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/battle_frontier/trainer_hill.h:4732
 msgid "GAVITE"
-msgstr ""
+msgstr "Gavite"
 
 #: src/data/battle_frontier/trainer_hill.h:4891
 msgid "ALAINA"
@@ -62502,537 +63387,801 @@ msgstr ""
 msgid "Erik Johnson"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:72
 msgid "POKéMON HEART & SOUL"
-msgstr ""
+msgstr "POKéMON HEART & SOUL"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/credits_hns.h:73
 msgid "Lead Developer"
-msgstr ""
+msgstr "Développeur principal"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:74
 msgid "LIL DILL"
-msgstr ""
+msgstr "LIL DILL"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/credits_hns.h:75
 msgid "Assets Sourced"
-msgstr ""
+msgstr "Sources des ressources"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/credits_hns.h:76
 msgid "Developers"
-msgstr ""
+msgstr "Développeurs"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:77
 msgid "InfiniteBacon42"
-msgstr ""
+msgstr "InfiniteBacon42"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:78
 msgid "Exclsior"
-msgstr ""
+msgstr "Exclsior"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:79
 msgid "TixoRebel"
-msgstr ""
+msgstr "TixoRebel"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:80
 msgid "Phantonomy"
-msgstr ""
+msgstr "Phantonomy"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:81
 msgid "DaniRainbow"
-msgstr ""
+msgstr "DaniRainbow"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:82
 msgid "Resetes"
-msgstr ""
+msgstr "Resetes"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:83
 msgid "Jozuno"
-msgstr ""
+msgstr "Jozuno"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:84
 msgid "Skeletonkey36"
-msgstr ""
+msgstr "Skeletonkey36"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:85
 msgid "Pinny"
-msgstr ""
+msgstr "Pinny"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:86
 msgid "Grintoul"
-msgstr ""
+msgstr "Grintoul"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/credits_hns.h:89
 msgid "Playtesters"
-msgstr ""
+msgstr "Testeurs"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:90
 msgid "MearaTheDigger"
-msgstr ""
+msgstr "MearaTheDigger"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:91
 msgid "Kingofrocks"
-msgstr ""
+msgstr "Kingofrocks"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:92
 msgid "Ferropexola"
-msgstr ""
+msgstr "Ferropexola"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:93
 msgid "Scarred-Healer13"
-msgstr ""
+msgstr "Scarred-Healer13"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:94
 msgid "ShigyNinja"
-msgstr ""
+msgstr "ShigyNinja"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:95
 msgid "Liquid Justice"
-msgstr ""
+msgstr "Liquid Justice"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:96
 msgid "aktatertot"
-msgstr ""
+msgstr "aktatertot"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:97
 msgid "Faintful"
-msgstr ""
+msgstr "Faintful"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:98
 msgid "piobrando"
-msgstr ""
+msgstr "piobrando"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:99
 msgid "Shortino"
-msgstr ""
+msgstr "Shortino"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:100
 msgid "Chronotakular"
-msgstr ""
+msgstr "Chronotakular"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:101
 msgid "NoVa x CerberuS"
-msgstr ""
+msgstr "NoVa x CerberuS"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:102
 msgid "Czarwardy"
-msgstr ""
+msgstr "Czarwardy"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:103
 msgid "TeggyDave"
-msgstr ""
+msgstr "TeggyDave"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:104
 msgid "HenryChess"
-msgstr ""
+msgstr "HenryChess"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:105
 msgid "Inner Rhymes"
-msgstr ""
+msgstr "Inner Rhymes"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:106
 msgid "Astralaria"
-msgstr ""
+msgstr "Astralaria"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:107
 msgid "GPie"
-msgstr ""
+msgstr "GPie"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:108
 msgid "BillyNaing"
-msgstr ""
+msgstr "BillyNaing"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:109
 msgid "Penkachu"
-msgstr ""
+msgstr "Penkachu"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:110
 msgid "Emma M"
-msgstr ""
+msgstr "Emma M"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:112
 msgid "Marzi"
-msgstr ""
+msgstr "Marzi"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:113
 msgid "leob0505"
-msgstr ""
+msgstr "leob0505"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:115
 msgid "RavePossum"
-msgstr ""
+msgstr "RavePossum"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:117
 msgid "KinoKuma"
-msgstr ""
+msgstr "KinoKuma"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:118
 msgid "BlackBelt Jiraiya"
-msgstr ""
+msgstr "BlackBelt Jiraiya"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:120
 msgid "Sprites"
-msgstr ""
+msgstr "Sprites"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:121
 msgid "AveonTrainer"
-msgstr ""
+msgstr "AveonTrainer"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:122
 msgid "PurpleZaffre"
-msgstr ""
+msgstr "PurpleZaffre"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:123
 msgid "Cesare CBass"
-msgstr ""
+msgstr "Cesare CBass"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:124
 msgid "BatimaTheBat"
-msgstr ""
+msgstr "BatimaTheBat"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:125
 msgid "ShinyDragonHunter"
-msgstr ""
+msgstr "ShinyDragonHunter"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:126
 msgid "Tamamushi Erika"
-msgstr ""
+msgstr "Tamamushi Erika"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:127
 msgid "Beliot419"
-msgstr ""
+msgstr "Beliot419"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:128
 msgid "shiningstar5022"
-msgstr ""
+msgstr "shiningstar5022"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:129
 msgid "Nettorizo"
-msgstr ""
+msgstr "Nettorizo"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/credits_hns.h:131
 msgid "Engine"
-msgstr ""
+msgstr "Moteur"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:132
 msgid "pokeemerald - Pret"
-msgstr ""
+msgstr "pokeemerald - Pret"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:133
 msgid "Modern Emerald - Resetes12"
-msgstr ""
+msgstr "Modern Emerald - Resetes12"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:134
 msgid "Pokeemerald Expansion"
-msgstr ""
+msgstr "Pokeemerald Expansion"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/credits_hns.h:136
 msgid "Maps"
-msgstr ""
+msgstr "Cartes"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:137
 msgid "Crystal Advance - Kertra"
-msgstr ""
+msgstr "Crystal Advance - Kertra"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:138
 msgid "Fire Gold - blackfragrant"
-msgstr ""
+msgstr "Fire Gold - blackfragrant"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:139
 msgid "SkidMarc25"
-msgstr ""
+msgstr "SkidMarc25"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/credits_hns.h:141
 msgid "Tilesets"
-msgstr ""
+msgstr "Jeux de tuiles"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:142
 msgid "Crystal advance - Kertra"
-msgstr ""
+msgstr "Crystal advance - Kertra"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:143
 msgid "Ekat99"
-msgstr ""
+msgstr "Ekat99"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:144
 msgid "TheDeadHeroAlistair"
-msgstr ""
+msgstr "TheDeadHeroAlistair"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/credits_hns.h:145
 msgid "Johto Redrawn Team"
-msgstr ""
+msgstr "Équipe Johto Redrawn"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:146
 msgid "zatavares852"
-msgstr ""
+msgstr "zatavares852"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:147
 msgid "lbsbezerra"
-msgstr ""
+msgstr "lbsbezerra"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:148
 msgid "WesleyFG"
-msgstr ""
+msgstr "WesleyFG"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:149
 msgid "Kalarie"
-msgstr ""
+msgstr "Kalarie"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:151
 msgid "Gameplay"
-msgstr ""
+msgstr "Gameplay"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:152 src/data/credits_hns.h:155
 msgid "Crystal Legacy - TSP"
-msgstr ""
+msgstr "Crystal Legacy - TSP"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/credits_hns.h:154
 msgid "Dialogue"
-msgstr ""
+msgstr "Dialogues"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/credits_hns.h:157
 msgid "Surfing Pokémon"
-msgstr ""
+msgstr "Pokémon surfeurs"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:158
 msgid "slawter666"
-msgstr ""
+msgstr "slawter666"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:159
 msgid "wally-217"
-msgstr ""
+msgstr "wally-217"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:162
 msgid "andyshrew"
-msgstr ""
+msgstr "andyshrew"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:163
 msgid "nettletOn"
-msgstr ""
+msgstr "nettletOn"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:164
 msgid "tasty"
-msgstr ""
+msgstr "tasty"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:165
 msgid "BasedTuxedoMask"
-msgstr ""
+msgstr "BasedTuxedoMask"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:166
 msgid "Johnna"
-msgstr ""
+msgstr "Johnna"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:167
 msgid "GoodVibez420"
-msgstr ""
+msgstr "GoodVibez420"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:169
 msgid "Bee"
-msgstr ""
+msgstr "Bee"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:170
 msgid "stingrayanne"
-msgstr ""
+msgstr "stingrayanne"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:171
 msgid "Dragon121"
-msgstr ""
+msgstr "Dragon121"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:172
 msgid "Goldy"
-msgstr ""
+msgstr "Goldy"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:173
 msgid "JonTheMoron"
-msgstr ""
+msgstr "JonTheMoron"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:174
 msgid "l1ghtt"
-msgstr ""
+msgstr "l1ghtt"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:191
 msgid "Bando Calrissian"
-msgstr ""
+msgstr "Bando Calrissian"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:192
 msgid "blandsoup"
-msgstr ""
+msgstr "blandsoup"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:193
 msgid "Boxer"
-msgstr ""
+msgstr "Boxer"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:194
 msgid "CodyCrankZ"
-msgstr ""
+msgstr "CodyCrankZ"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:195
 msgid "d3n_ar"
-msgstr ""
+msgstr "d3n_ar"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:196
 msgid "Dan"
-msgstr ""
+msgstr "Dan"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:197
 msgid "darkblue29"
-msgstr ""
+msgstr "darkblue29"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:198
 msgid "devoobin"
-msgstr ""
+msgstr "devoobin"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:199
 msgid "Doodles"
-msgstr ""
+msgstr "Doodles"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:200
 msgid "dude"
-msgstr ""
+msgstr "dude"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:201
 msgid "Elli"
-msgstr ""
+msgstr "Elli"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:202
 msgid "Galaxy"
-msgstr ""
+msgstr "Galaxy"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:203
 msgid "headlocker03"
-msgstr ""
+msgstr "headlocker03"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:204
 msgid "irongold125"
-msgstr ""
+msgstr "irongold125"
 
 #: src/data/credits_hns.h:205
 msgid "Joey"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:206
 msgid "JoseTheAlolachu"
-msgstr ""
+msgstr "JoseTheAlolachu"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:207
 msgid "jpx95"
-msgstr ""
+msgstr "jpx95"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:208
 msgid "Juskut"
-msgstr ""
+msgstr "Juskut"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:209
 msgid "KevinK_23"
-msgstr ""
+msgstr "KevinK_23"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:210
 msgid "Kigga"
-msgstr ""
+msgstr "Kigga"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:211
 msgid "lema"
-msgstr ""
+msgstr "lema"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:212
 msgid "Levi"
-msgstr ""
+msgstr "Levi"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:213
 msgid "Mayu"
-msgstr ""
+msgstr "Mayu"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:214
 msgid "MG2123"
-msgstr ""
+msgstr "MG2123"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:215
 msgid "Mister Fox"
-msgstr ""
+msgstr "Mister Fox"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:216
 msgid "Moonglowsnow"
-msgstr ""
+msgstr "Moonglowsnow"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:217
 msgid "ninjaawsome21"
-msgstr ""
+msgstr "ninjaawsome21"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:218
 msgid "Pwapy"
-msgstr ""
+msgstr "Pwapy"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:219
 msgid "SatoXian"
-msgstr ""
+msgstr "SatoXian"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:220
 msgid "senko"
-msgstr ""
+msgstr "senko"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:221
 msgid "skizofenic"
-msgstr ""
+msgstr "skizofenic"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:222
 msgid "Snorlaxe"
-msgstr ""
+msgstr "Snorlaxe"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:224
 msgid "tailoredfiend"
-msgstr ""
+msgstr "tailoredfiend"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:225
 msgid "tavares1607"
-msgstr ""
+msgstr "tavares1607"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:226
 msgid "tfergii88"
-msgstr ""
+msgstr "tfergii88"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:227
 msgid "The Supreme King"
-msgstr ""
+msgstr "The Supreme King"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:228
 msgid "TheRatKing335"
-msgstr ""
+msgstr "TheRatKing335"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:229
 msgid "Tim"
-msgstr ""
+msgstr "Tim"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:230
 msgid "TJ"
-msgstr ""
+msgstr "TJ"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:231
 msgid "ToxicNights"
-msgstr ""
+msgstr "ToxicNights"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:232
 msgid "Ubly"
-msgstr ""
+msgstr "Ubly"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:233
 msgid "Westrah"
-msgstr ""
+msgstr "Westrah"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:234
 msgid "wise_hummingbird"
-msgstr ""
+msgstr "wise_hummingbird"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:235
 msgid "YuEatMaRice"
-msgstr ""
+msgstr "YuEatMaRice"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:236
 msgid "ZenGarden550"
-msgstr ""
+msgstr "ZenGarden550"
 
+#. source : traduction nouvelle
+#. lot : E_exceptions
 #: src/data/credits_hns.h:237
 msgid "Zero"
-msgstr ""
+msgstr "Zero"
 
 #: src/data/region_map/region_map_sections.json:13
 msgid "OLDALE TOWN"
@@ -63209,14 +64358,18 @@ msgstr ""
 msgid "TERRA CAVE"
 msgstr ""
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/region_map/region_map_sections.json:1716
 #: src/data/region_map/region_map_sections.json:1834
 msgid "MT. LANIKALA"
-msgstr ""
+msgstr "MONT LANAKILA"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/region_map/region_map_sections.json:1818
 msgid "MELEMELE SEA"
-msgstr ""
+msgstr "MER DE MELE-MELE"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -63225,9 +64378,11 @@ msgstr ""
 msgid "MT. MORTAR"
 msgstr "Mont Creuset"
 
+#. source : traduction nouvelle
+#. lot : E_menus_donnees
 #: src/data/region_map/region_map_sections.json:2611
 msgid "OLIVINE LIGHTHOUSE"
-msgstr ""
+msgstr "PHARE D’OLIVILLE"
 
 #: src/data/trainers.party:85 src/data/trainers.party:16498
 #: src/data/trainers.party:16515 src/data/trainers.party:16536

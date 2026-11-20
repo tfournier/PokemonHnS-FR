@@ -1,0 +1,1712 @@
+[
+ {
+  "id": 9,
+  "categorie": "contresens",
+  "probleme": "« Chef de projet » désigne la direction du projet dans son ensemble.",
+  "correction": "Chef programmeur\\n\\nResponsable de la conception\\n\\nChef graphiste\\n\\n",
+  "justification": "Dans ce générique, « Planning Leader » désigne la personne à la tête de l’équipe de conception.",
+  "msgid": "Program Leader\\n\\nPlanning Leader\\n\\nGraphic Design Leader\\n\\n",
+  "msgstr": "Chef programmeur\\n\\nChef de projet\\n\\nChef graphiste\\n\\n",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "oubli",
+  "probleme": "La programmation de l’environnement est omise.",
+  "correction": "\\nProgrammeurs environnement et outils\\n\\n\\n\\n\\n",
+  "justification": "La rubrique crédite la programmation de l’environnement et celle des outils.",
+  "msgid": "\\nEnvironment & Tool Programmers\\n\\n\\n\\n\\n",
+  "msgstr": "\\nProgrammeurs outils\\n\\n\\n\\n\\n",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "typographie",
+  "probleme": "Une espace précède les deux-points.",
+  "correction": "R: ENREGISTRER!",
+  "justification": "La convention du projet supprime l’espace avant les deux-points.",
+  "msgid": "R TO REGISTER!",
+  "msgstr": "R : ENREGISTRER!",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "contresens",
+  "probleme": "« Inactif » indique que l’effet est désactivé.",
+  "correction": "ANORMAL (HORS SERVICE)",
+  "justification": "« Not working » signale que l’effet météo ne fonctionne pas.",
+  "msgid": "ABNORMAL(NOT WORKING)",
+  "msgstr": "ANORMAL(INACTIF)",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’accent aigu sur le É majuscule.",
+  "correction": "{DPAD_UPDOWN}ÉVOL.  {A_BUTTON}VOIR",
+  "justification": "L’abréviation d’« évolutions » conserve l’accent en capitales.",
+  "msgid": "{DPAD_UPDOWN}EVOs  {A_BUTTON}CHECK",
+  "msgstr": "{DPAD_UPDOWN}EVOL.  {A_BUTTON}VOIR",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "contresens",
+  "probleme": "« Type ARMULYS » transforme un critère de personnalité en type.",
+  "correction": "{LV}{UP_ARROW} au {STR_VAR_2}, personnalité ARMULYS",
+  "justification": "L’évolution dépend de la personnalité de CHENIPOTTE.",
+  "msgid": "{LV}{UP_ARROW} to {STR_VAR_2}, Silcoon persona",
+  "msgstr": "{LV}{UP_ARROW} au {STR_VAR_2}, type ARMULYS",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "contresens",
+  "probleme": "« Type BLINDALYS » transforme un critère de personnalité en type.",
+  "correction": "{LV}{UP_ARROW} au {STR_VAR_2}, personnalité BLINDALYS",
+  "justification": "L’évolution dépend de la personnalité de CHENIPOTTE.",
+  "msgid": "{LV}{UP_ARROW} to {STR_VAR_2}, Cascoon persona",
+  "msgstr": "{LV}{UP_ARROW} au {STR_VAR_2}, type BLINDALYS",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "oubli",
+  "probleme": "Le texte omet que CANARTICHO doit porter les coups critiques.",
+  "correction": "Porter {STR_VAR_2} coups critiques\\nen un seul combat",
+  "justification": "« Land » précise que les coups critiques doivent être réussis par le Pokémon.",
+  "msgid": "Land {STR_VAR_2} critical hits in\\nsingle battle",
+  "msgstr": "{STR_VAR_2} coups critiques en\\nun seul combat",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "oubli",
+  "probleme": "La simple perte de PV ne précise pas qu’il faut subir des dégâts.",
+  "correction": "Subit au moins {STR_VAR_2} PV de dégâts",
+  "justification": "La condition anglaise porte sur les dégâts reçus.",
+  "msgid": "Takes at least {STR_VAR_2} HP in damage",
+  "msgstr": "Perd au moins {STR_VAR_2} PV",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "orthographe",
+  "probleme": "« Étire » est employé sans complément ni pronom réfléchi.",
+  "correction": "V S’ÉTIRE",
+  "justification": "La forme pronominale indique que le sprite s’étire verticalement.",
+  "msgid": "V STRETCH",
+  "msgstr": "V ÉTIRE",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "orthographe",
+  "probleme": "« Étire » est employé sans complément ni pronom réfléchi.",
+  "correction": "H S’ÉTIRE",
+  "justification": "La forme pronominale indique que le sprite s’étire horizontalement.",
+  "msgid": "H STRETCH",
+  "msgstr": "H ÉTIRE",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "orthographe",
+  "probleme": "« Saccadé » est employé comme adverbe après « grandit ».",
+  "correction": "GRANDIT PAR À-COUPS",
+  "justification": "« Par à-coups » exprime la manière dont le sprite grandit.",
+  "msgid": "GROW STUTTER",
+  "msgstr": "GRANDIT SACCADÉ",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "contresens",
+  "probleme": "« Écrase » présente le sprite comme l’auteur de l’écrasement.",
+  "correction": "V S’ÉCRASE ET REBONDIT",
+  "justification": "Le sprite s’écrase verticalement, puis rebondit.",
+  "msgid": "V SQUISH AND BOUNCE",
+  "msgstr": "V ÉCRASE ET REBONDIT",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "orthographe",
+  "probleme": "« Balance » est employé sans pronom réfléchi et « concave » qualifie la trajectoire.",
+  "correction": "OSCILLATION CONCAVE",
+  "justification": "Le groupe nominal désigne le mouvement et la forme de sa trajectoire.",
+  "msgid": "SWING CONCAVE",
+  "msgstr": "BALANCE CONCAVE",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "orthographe",
+  "probleme": "« Balance » est employé sans pronom réfléchi et les adjectifs qualifient le mouvement.",
+  "correction": "OSCIL. CONCAVE RAPIDE",
+  "justification": "Le nom abrégé permet de conserver la trajectoire et la vitesse dans la limite de 23 caractères.",
+  "msgid": "SWING CONCAVE FAST",
+  "msgstr": "BALANCE CONCAVE RAPIDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "orthographe",
+  "probleme": "« Balance » est employé sans pronom réfléchi et « convexe » qualifie la trajectoire.",
+  "correction": "OSCILLATION CONVEXE",
+  "justification": "Le groupe nominal désigne le mouvement et la forme de sa trajectoire.",
+  "msgid": "SWING CONVEX",
+  "msgstr": "BALANCE CONVEXE",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "orthographe",
+  "probleme": "« Balance » est employé sans pronom réfléchi et les adjectifs qualifient le mouvement.",
+  "correction": "OSCIL. CONVEXE RAPIDE",
+  "justification": "Le nom abrégé permet de conserver la trajectoire et la vitesse dans la limite de 23 caractères.",
+  "msgid": "SWING CONVEX FAST",
+  "msgstr": "BALANCE CONVEXE RAPIDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "orthographe",
+  "probleme": "L’adjectif « circulaire » est employé comme adverbe après « vibre ».",
+  "correction": "VIBRATION CIRCULAIRE",
+  "justification": "« Circulaire » qualifie la vibration.",
+  "msgid": "CIRCULAR VIBRATE",
+  "msgstr": "VIBRE CIRCULAIRE",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "oubli",
+  "probleme": "Le déplacement vers l’avant est omis.",
+  "correction": "PENCHE ET AVANCE",
+  "justification": "« Tip » exprime l’inclinaison et « move forward » le déplacement.",
+  "msgid": "TIP MOVE FORWARD",
+  "msgstr": "PENCHE EN AVANT",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "orthographe",
+  "probleme": "« Écrase » appelle un complément, alors que le sprite se déforme lui-même.",
+  "correction": "V S’ÉCRASE FORT REBONDIT",
+  "justification": "La forme pronominale conserve l’écrasement vertical marqué qui précède le rebond.",
+  "msgid": "DEEP V SQUISH AND BOUNCE",
+  "msgstr": "V ÉCRASE FORT REBONDIT",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "orthographe",
+  "probleme": "« Étire » appelle un complément, alors que le sprite s’allonge lui-même.",
+  "correction": "H SAUTS V S’ÉTIRE",
+  "justification": "La forme pronominale exprime l’étirement vertical du sprite.",
+  "msgid": "H JUMPS V STRETCH",
+  "msgstr": "H SAUTS V ÉTIRE",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "orthographe",
+  "probleme": "« Croissant » est employé comme adjectif après le verbe « clignote ».",
+  "correction": "CLIGNOTEMENT CROISSANT",
+  "justification": "L’adjectif qualifie le clignotement et en conserve la progression.",
+  "msgid": "FLICKER INCREASING",
+  "msgstr": "CLIGNOTE CROISSANT",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "orthographe",
+  "probleme": "« Pivot » est un nom à la place du premier verbe de la séquence.",
+  "correction": "PIVOTE TREMBLE",
+  "justification": "Les deux verbes décrivent les actions successives du sprite.",
+  "msgid": "PIVOT SHAKE",
+  "msgstr": "PIVOT TREMBLE",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "orthographe",
+  "probleme": "« Écrase » appelle un complément et « lent » est mal rattaché aux verbes.",
+  "correction": "V ÉCRASEMENT REBOND LENT",
+  "justification": "Le libellé nominal conserve la déformation verticale, le rebond et la lenteur.",
+  "msgid": "V SQUISH AND BOUNCE SLOW",
+  "msgstr": "V ÉCRASE REBONDIT LENT",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "orthographe",
+  "probleme": "« Lent » est employé comme adverbe après « glisse ».",
+  "correction": "H GLISSEMENT LENT",
+  "justification": "L’adjectif qualifie le nom « glissement ».",
+  "msgid": "H SLIDE SLOW",
+  "msgstr": "H GLISSE LENT",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "orthographe",
+  "probleme": "« Lent » est employé comme adverbe après « glisse ».",
+  "correction": "V GLISSEMENT LENT",
+  "justification": "L’adjectif qualifie le nom « glissement ».",
+  "msgid": "V SLIDE SLOW",
+  "msgstr": "V GLISSE LENT",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "orthographe",
+  "probleme": "« Lent » est employé comme adverbe après « tremble ».",
+  "correction": "H TREMBLEMENT LENT",
+  "justification": "L’adjectif qualifie le nom « tremblement ».",
+  "msgid": "H SHAKE SLOW",
+  "msgstr": "H TREMBLE LENT",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "orthographe",
+  "probleme": "« Lent » est employé comme adverbe après « tremble ».",
+  "correction": "V TREMBLEMENT LENT",
+  "justification": "L’adjectif qualifie le nom « tremblement ».",
+  "msgid": "V SHAKE SLOW",
+  "msgstr": "V TREMBLE LENT",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "orthographe",
+  "probleme": "« Lent » est employé comme adverbe avec « tremble ».",
+  "correction": "V TREMBLEMENT LENT x2",
+  "justification": "Le libellé nominal conserve la lenteur et les deux répétitions.",
+  "msgid": "V SHAKE TWICE SLOW",
+  "msgstr": "V TREMBLE x2 LENT",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "orthographe",
+  "probleme": "« Petit » est employé comme adverbe après « oscille ».",
+  "correction": "V GLISSE OSCILLE PEU",
+  "justification": "« Peu » exprime la faible amplitude de l’oscillation.",
+  "msgid": "V SLIDE WOBBLE SMALL",
+  "msgstr": "V GLISSE OSCILLE PETIT",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "orthographe",
+  "probleme": "« Écrase » appelle un complément et se retrouve juxtaposé au nom « rebond ».",
+  "correction": "V FORT ÉCRAS. REBOND x2",
+  "justification": "Les deux noms désignent l’écrasement vertical marqué et le rebond, répétés deux fois.",
+  "msgid": "DEEP V SQUISH AND BOUNCE TWICE",
+  "msgstr": "V ÉCRASE FORT REBOND x2",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "orthographe",
+  "probleme": "« Étire » appelle un complément, alors que le sprite s’allonge lui-même.",
+  "correction": "H SAUTS V S’ÉTIRE x2",
+  "justification": "La forme pronominale conserve l’étirement vertical et le marqueur de répétition.",
+  "msgid": "H JUMPS V STRETCH TWICE",
+  "msgstr": "H SAUTS V ÉTIRE x2",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "orthographe",
+  "probleme": "Le nom « recul » est juxtaposé au verbe « tremble » sans lien grammatical.",
+  "correction": "V TREMBLE ET RECULE",
+  "justification": "Les deux verbes expriment le tremblement vertical et le déplacement vers l’arrière.",
+  "msgid": "V SHAKE BACK",
+  "msgstr": "V TREMBLE RECUL",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "orthographe",
+  "probleme": "La juxtaposition de « tremble » et « recul lent » rattache la lenteur au seul recul.",
+  "correction": "V TREMB. RECUL AU RAL.",
+  "justification": "« Au ral. » indique la vitesse de la séquence de tremblement et de recul.",
+  "msgid": "V SHAKE BACK SLOW",
+  "msgstr": "V TREMBLE RECUL LENT",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "orthographe",
+  "probleme": "« Lent » est employé comme adverbe avec des verbes d’action.",
+  "correction": "V TREMB. H GLISS. LENT",
+  "justification": "Les formes nominales abrégées conservent les deux mouvements et leurs axes.",
+  "msgid": "V SHAKE H SLIDE SLOW",
+  "msgstr": "V TREMBLE H GLISSE LENT",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "orthographe",
+  "probleme": "« Étire 2 bouts » présente les extrémités comme l’objet du verbe et « lent » reste mal rattaché.",
+  "correction": "V ÉTIR. 2 BOUTS LENT",
+  "justification": "« Étirement » désigne la déformation verticale aux deux extrémités.",
+  "msgid": "V STRETCH BOTH ENDS SLOW",
+  "msgstr": "V ÉTIRE 2 BOUTS LENT",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "orthographe",
+  "probleme": "« Étire » appelle un complément et « lent » est employé comme adverbe.",
+  "correction": "H FORT ÉTIREMENT LENT",
+  "justification": "Le libellé nominal conserve l’axe horizontal, la grande amplitude et la lenteur.",
+  "msgid": "H STRETCH FAR SLOW",
+  "msgstr": "H ÉTIRE LOIN LENT",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "orthographe",
+  "probleme": "« Rapide » est employé comme adverbe après « tremble ».",
+  "correction": "H TREMBLEMENT RAPIDE",
+  "justification": "L’adjectif qualifie le nom « tremblement ».",
+  "msgid": "H SHAKE FAST",
+  "msgstr": "H TREMBLE RAPIDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "orthographe",
+  "probleme": "« Rapide » est employé comme adverbe après « glisse ».",
+  "correction": "H GLISSEMENT RAPIDE",
+  "justification": "L’adjectif qualifie le nom « glissement ».",
+  "msgid": "H SLIDE FAST",
+  "msgstr": "H GLISSE RAPIDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "orthographe",
+  "probleme": "« Rapide » est employé comme adverbe après « vibre ».",
+  "correction": "H VIBRATION RAPIDE",
+  "justification": "L’adjectif qualifie le nom « vibration ».",
+  "msgid": "H VIBRATE FAST",
+  "msgstr": "H VIBRE RAPIDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "contresens",
+  "probleme": "« Très rapide » exprime un degré élevé et perd le superlatif de « fastest ».",
+  "correction": "H VIBRATION VITESSE MAX.",
+  "justification": "« Vitesse max. » identifie la variante la plus rapide.",
+  "msgid": "H VIBRATE FASTEST",
+  "msgstr": "H VIBRE TRÈS RAPIDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "orthographe",
+  "probleme": "La juxtaposition de « tremble » et « recul rapide » rattache la rapidité au seul recul.",
+  "correction": "V TREMB. RECUL EN TROMBE",
+  "justification": "Le libellé conserve le tremblement vertical et le recul de la variante rapide.",
+  "msgid": "V SHAKE BACK FAST",
+  "msgstr": "V TREMBLE RECUL RAPIDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "orthographe",
+  "probleme": "« Lent » est employé comme adverbe avec « tremble ».",
+  "correction": "V TREMB. BAS x2 LENT",
+  "justification": "« TREMB. » abrège « tremblement », que qualifie « lent ».",
+  "msgid": "V SHAKE LOW TWICE SLOW",
+  "msgstr": "V TREMBLE BAS x2 LENT",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "orthographe",
+  "probleme": "« Rapide » est employé comme adverbe avec « tremble ».",
+  "correction": "V TREMB. BAS x2 RAPIDE",
+  "justification": "« TREMB. » abrège « tremblement », que qualifie « rapide ».",
+  "msgid": "V SHAKE LOW TWICE FAST",
+  "msgstr": "V TREMBLE BAS x2 RAPIDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "orthographe",
+  "probleme": "Les adjectifs « saccadé » et « lent » sont employés comme adverbes après « grandit ».",
+  "correction": "GRANDIT PAR À-COUPS LENT",
+  "justification": "« Par à-coups » rend la progression saccadée de l’agrandissement.",
+  "msgid": "GROW STUTTER SLOW",
+  "msgstr": "GRANDIT SACCADÉ LENT",
+  "msgctxt": ""
+ },
+ {
+  "id": 58,
+  "categorie": "orthographe",
+  "probleme": "« RAP. » est employé avec des verbes alors qu’il abrège ici l’adjectif « rapide ».",
+  "correction": "V TREMB. H GLISS. RAP.",
+  "justification": "Les formes nominales abrégées conservent les deux mouvements et leurs axes.",
+  "msgid": "V SHAKE H SLIDE FAST",
+  "msgstr": "V TREMBLE H GLISSE RAP.",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "orthographe",
+  "probleme": "« Lent » est employé comme adverbe avec « rétrécit » et « grandit ».",
+  "correction": "RÉTR. GRANDIT AU RALENTI",
+  "justification": "« Au ralenti » exprime la vitesse des deux changements de taille.",
+  "msgid": "SHRINK GROW SLOW",
+  "msgstr": "RÉTRÉCIT GRANDIT LENT",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "orthographe",
+  "probleme": "« Étire 2 bouts » présente les extrémités comme l’objet du verbe.",
+  "correction": "V S’ÉTIRE DES 2 BOUTS",
+  "justification": "Le sprite s’allonge verticalement par ses deux extrémités.",
+  "msgid": "V STRETCH BOTH ENDS",
+  "msgstr": "V ÉTIRE 2 BOUTS",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "orthographe",
+  "probleme": "« Étire 2 bouts » présente les extrémités comme l’objet du verbe.",
+  "correction": "V ÉTIR. DES 2 BOUTS x2",
+  "justification": "Le nom abrégé conserve l’étirement vertical aux deux extrémités et la répétition.",
+  "msgid": "V STRETCH BOTH ENDS TWICE",
+  "msgstr": "V ÉTIRE 2 BOUTS x2",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "orthographe",
+  "probleme": "« Étire » appelle un complément, alors que le sprite s’allonge lui-même.",
+  "correction": "H FORT ÉTIREMENT x2",
+  "justification": "Le libellé nominal conserve l’axe, la grande amplitude et la répétition.",
+  "msgid": "H STRETCH FAR TWICE",
+  "msgstr": "H ÉTIRE LOIN x2",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "orthographe",
+  "probleme": "« Étire » appelle un complément, alors que le sprite s’allonge lui-même.",
+  "correction": "H FORT ÉTIREMENT",
+  "justification": "Le libellé nominal conserve l’axe horizontal et la grande amplitude.",
+  "msgid": "H STRETCH FAR",
+  "msgstr": "H ÉTIRE LOIN",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "orthographe",
+  "probleme": "« Saccadé » est employé comme adverbe après « grandit ».",
+  "correction": "GRANDIT PAR À-COUPS x2",
+  "justification": "« Par à-coups » exprime la progression saccadée et « x2 » conserve la répétition.",
+  "msgid": "GROW STUTTER TWICE",
+  "msgstr": "GRANDIT SACCADÉ x2",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "orthographe",
+  "probleme": "« Rapide » est employé comme adverbe après « plonge ».",
+  "correction": "H PLONGEON RAPIDE",
+  "justification": "L’adjectif qualifie le nom « plongeon ».",
+  "msgid": "H DIP FAST",
+  "msgstr": "H PLONGE RAPIDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "contresens",
+  "probleme": "« Perceur » désigne celui ou ce qui perce, alors que le libellé décrit l’effet de perçage.",
+  "correction": "Perçage - Concours",
+  "justification": "« Perçage » nomme l’action représentée par le fond d’animation.",
+  "msgid": "Drill - Contests",
+  "msgstr": "Perceur - Concours",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "oubli",
+  "probleme": "« Fonds » omet la précision « Move ».",
+  "correction": "{START_BUTTON} Brillant\\n{B_BUTTON} Retour  {A_BUTTON} Fonds de cap.$",
+  "justification": "Le bouton ouvre les fonds d’animation des capacités.",
+  "msgid": "{START_BUTTON} Shiny\\n{B_BUTTON} Back  {A_BUTTON} Move BGs$",
+  "msgstr": "{START_BUTTON} Brillant\\n{B_BUTTON} Retour  {A_BUTTON} Fonds$",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "oubli",
+  "probleme": "« Fonds » omet la précision « Move ».",
+  "correction": "{START_BUTTON} Brillant {SELECT_BUTTON} Sexe\\n{B_BUTTON} Retour  {A_BUTTON} Fonds de cap.$",
+  "justification": "Le bouton ouvre les fonds d’animation des capacités.",
+  "msgid": "{START_BUTTON} Shiny {SELECT_BUTTON} Gender\\n{B_BUTTON} Back  {A_BUTTON} Move BGs$",
+  "msgstr": "{START_BUTTON} Brillant {SELECT_BUTTON} Sexe\\n{B_BUTTON} Retour  {A_BUTTON} Fonds$",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "typographie",
+  "probleme": "Il manque le point abréviatif après « const ».",
+  "correction": "val. const.:",
+  "justification": "« Const. » abrège « constante » et conserve son point devant le deux-points.",
+  "msgid": "const val:",
+  "msgstr": "val. const:",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "typographie",
+  "probleme": "Il manque le point abréviatif après « val ».",
+  "correction": "nouv. val.:",
+  "justification": "« Val. » abrège « valeur » et conserve son point devant le deux-points.",
+  "msgid": "new val:",
+  "msgstr": "nouv. val:",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "typographie",
+  "probleme": "Il manque les espaces autour de l’esperluette.",
+  "correction": "Geb & Megan",
+  "justification": "Les espaces séparent les deux prénoms de leur conjonction, comme pour les autres duos.",
+  "msgid": "GEB&MEGAN",
+  "msgstr": "Geb&Megan",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "typographie",
+  "probleme": "Il manque les espaces autour de l’esperluette.",
+  "correction": "Lisa & Leah",
+  "justification": "Les espaces séparent les deux prénoms de leur conjonction, comme pour les autres duos.",
+  "msgid": "LISA&LEAH",
+  "msgstr": "Lisa&Leah",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "contresens",
+  "probleme": "« Tenu » qualifie l’effet au lieu de l’objet.",
+  "correction": "Effet de l’objet tenu",
+  "justification": "Le libellé désigne l’effet que produit l’objet tenu par le Pokémon.",
+  "msgid": "Hold Effect",
+  "msgstr": "Effet tenu",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "oubli",
+  "probleme": "Le caractère immédiat de la victoire disparaît.",
+  "correction": "Victoire imm.",
+  "justification": "L’abréviation restitue « Instant » dans un libellé court.",
+  "msgid": "Instant Win",
+  "msgstr": "Victoire",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "contresens",
+  "probleme": "« Toxik » évoque la capacité alors que le compteur se rapporte au statut.",
+  "correction": "Cpt. poison grave",
+  "justification": "Le compteur suit l’empoisonnement grave, quelle qu’en soit la cause.",
+  "msgid": "Toxic Counter",
+  "msgstr": "Compteur toxik",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "terminologie",
+  "probleme": "« Prélèvement Destin » développe la graphie retenue dans le jeu de référence.",
+  "correction": "Prlvt Destin",
+  "justification": "« Prlvt Destin » est le nom affiché dans Pokémon Argent SoulSilver en français.",
+  "msgid": "DestinyBond",
+  "msgstr": "Prélèvement Destin",
+  "msgctxt": ""
+ },
+ {
+  "id": 111,
+  "categorie": "contresens",
+  "probleme": "« Non-types » suggère une absence de type.",
+  "correction": "Dégâts hors type",
+  "justification": "L’effet inflige des dégâts aux Pokémon qui ne possèdent pas le type exempté.",
+  "msgid": "Damage Non-Types",
+  "msgstr": "Dégâts non-types",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "oubli",
+  "probleme": "Le libellé omet le caractère forcé de l’action.",
+  "correction": "Boost forcé tour 1",
+  "justification": "Le drapeau force l’action de préparation au premier tour. La correction tient en 18 caractères.",
+  "msgid": "Force Setup First Turn",
+  "msgstr": "Boost au 1er tour",
+  "msgctxt": ""
+ },
+ {
+  "id": 1,
+  "categorie": "contresens",
+  "probleme": "« Statut puissant » qualifie un état au lieu de qualifier des capacités.",
+  "correction": "Cap. statut fortes",
+  "justification": "Le libellé désigne les capacités de statut jugées puissantes par l’IA.",
+  "msgid": "Powerful Status",
+  "msgstr": "Statut puissant",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "orthographe",
+  "probleme": "Le libellé dépasse 19 caractères et met « choix » et « malin » au singulier.",
+  "correction": "Bons choix Pokémon",
+  "justification": "Le pluriel restitue « Choices » et le libellé tient en 18 caractères.",
+  "msgid": "Smart Mon Choices",
+  "msgstr": "Choix Pokémon malin",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "oubli",
+  "probleme": "L’ordre de remplacement est mal exprimé et le libellé dépasse 19 caractères.",
+  "correction": "Change dans l’ordre",
+  "justification": "« Dans l’ordre » indique que les remplacements suivent une séquence. Le libellé tient en 19 caractères.",
+  "msgid": "Sequence Switching",
+  "msgstr": "Changement en ordre",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "oubli",
+  "probleme": "La traduction omet la pondération exprimée par « Weigh ».",
+  "correction": "Pond. préd. talent",
+  "justification": "« Pond. » rétablit l’idée de pondérer la prédiction du talent dans la limite de 19 caractères.",
+  "msgid": "Weigh Ability Prediction",
+  "msgstr": "Prédiction talent",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "contresens",
+  "probleme": "« PV Clonage » rattache les PV au nom de la capacité.",
+  "correction": "PV du clone",
+  "justification": "Le compteur affiche les PV du clone créé par Clonage.",
+  "msgid": "Substitute HP",
+  "msgstr": "PV Clonage",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "orthographe",
+  "probleme": "« Tous » est au masculin alors que l’entrée désigne les statistiques.",
+  "correction": "Toutes",
+  "justification": "Le pronom s’accorde avec « statistiques », féminin pluriel.",
+  "msgid": "All",
+  "msgstr": "Tous",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "oubli",
+  "probleme": "Le texte affiché s’arrête à « Soin PA ».",
+  "correction": "SoinPAR",
+  "justification": "Le libellé compact conserve l’abréviation officielle PAR dans les sept caractères visibles.",
+  "msgid": "Cure Par",
+  "msgstr": "Soin PAR",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "oubli",
+  "probleme": "Le texte affiché s’arrête à « Soin SO ».",
+  "correction": "SoinSOM",
+  "justification": "Le libellé compact conserve l’abréviation officielle SOM dans les sept caractères visibles.",
+  "msgid": "Cure Slp",
+  "msgstr": "Soin SOM",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "oubli",
+  "probleme": "Le texte affiché s’arrête à « Soin PS ».",
+  "correction": "SoinPSN",
+  "justification": "Le libellé compact conserve l’abréviation officielle PSN dans les sept caractères visibles.",
+  "msgid": "Cure Psn",
+  "msgstr": "Soin PSN",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "oubli",
+  "probleme": "Le texte affiché s’arrête à « Soin BR ».",
+  "correction": "SoinBRU",
+  "justification": "Le libellé compact conserve l’abréviation officielle BRU dans les sept caractères visibles.",
+  "msgid": "Cure Brn",
+  "msgstr": "Soin BRU",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "oubli",
+  "probleme": "Le texte affiché s’arrête à « Soin GE ».",
+  "correction": "SoinGEL",
+  "justification": "Le libellé compact conserve l’abréviation officielle GEL dans les sept caractères visibles.",
+  "msgid": "Cure Frz",
+  "msgstr": "Soin GEL",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "oubli",
+  "probleme": "Le texte affiché s’arrête à « Soin co » et masque le nom de l’état soigné.",
+  "correction": "-Conf.",
+  "justification": "Le signe moins indique la suppression de la confusion. Le libellé tient en six caractères.",
+  "msgid": "Cure Confusion",
+  "msgstr": "Soin confusion",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "oubli",
+  "probleme": "Le texte affiché s’arrête à « Soin st » et masque le nom de l’état soigné.",
+  "correction": "-Statut",
+  "justification": "Le signe moins indique la suppression du statut. Le libellé tient en sept caractères.",
+  "msgid": "Cure Status",
+  "msgstr": "Soin statut",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "oubli",
+  "probleme": "Le goût épicé disparaît après la coupure à « Confus ».",
+  "correction": "Cf. épi",
+  "justification": "Les deux abréviations préservent l’effet de confusion et le goût dans les sept caractères visibles.",
+  "msgid": "Confuse Spicy",
+  "msgstr": "Confus épicé",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "oubli",
+  "probleme": "Le goût disparaît après la coupure à « Confus ».",
+  "correction": "Cf. âpr",
+  "justification": "Le libellé tient en sept caractères et reprend « âpre », le nom du goût « Dry » pour les Pokéblocs d’Émeraude FR.",
+  "msgid": "Confuse Dry",
+  "msgstr": "Confus sec",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "oubli",
+  "probleme": "Le goût sucré disparaît après la coupure à « Confus ».",
+  "correction": "Cf. suc",
+  "justification": "Les deux abréviations préservent l’effet de confusion et le goût dans les sept caractères visibles.",
+  "msgid": "Confuse Sweet",
+  "msgstr": "Confus sucré",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "oubli",
+  "probleme": "Le goût amer disparaît après la coupure à « Confus ».",
+  "correction": "Cf. ame",
+  "justification": "Les deux abréviations préservent l’effet de confusion et le goût dans les sept caractères visibles.",
+  "msgid": "Confuse Bitter",
+  "msgstr": "Confus amer",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "oubli",
+  "probleme": "Le goût acide disparaît après la coupure à « Confus ».",
+  "correction": "Cf. aci",
+  "justification": "Les deux abréviations préservent l’effet de confusion et le goût dans les sept caractères visibles.",
+  "msgid": "Confuse Sour",
+  "msgstr": "Confus acide",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "oubli",
+  "probleme": "Le signe d’augmentation disparaît après « Attaque ».",
+  "correction": "AT +",
+  "justification": "L’abréviation AT prévue par le lexique du projet rend la hausse visible.",
+  "msgid": "Attack Up",
+  "msgstr": "Attaque +",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "oubli",
+  "probleme": "Le signe d’augmentation disparaît après « Défense ».",
+  "correction": "DF +",
+  "justification": "L’abréviation DF prévue par le lexique du projet rend la hausse visible.",
+  "msgid": "Defense Up",
+  "msgstr": "Défense +",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "oubli",
+  "probleme": "Le signe d’augmentation disparaît après « Vitesse ».",
+  "correction": "VI +",
+  "justification": "L’abréviation VI prévue par le lexique du projet rend la hausse visible.",
+  "msgid": "Speed Up",
+  "msgstr": "Vitesse +",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "oubli",
+  "probleme": "La coupure masque le signe d’augmentation et une partie de l’abréviation « Spé. ».",
+  "correction": "AS +",
+  "justification": "L’abréviation AS prévue par le lexique du projet identifie l’Attaque Spéciale et laisse place au signe plus.",
+  "msgid": "Sp Attack Up",
+  "msgstr": "Atq. Spé. +",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "oubli",
+  "probleme": "La coupure masque le signe d’augmentation et une partie de l’abréviation « Spé. ».",
+  "correction": "DS +",
+  "justification": "L’abréviation DS prévue par le lexique du projet identifie la Défense Spéciale et laisse place au signe plus.",
+  "msgid": "Sp Defense Up",
+  "msgstr": "Déf. Spé. +",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "oubli",
+  "probleme": "Le signe d’augmentation disparaît à l’affichage.",
+  "correction": "Crit. +",
+  "justification": "L’abréviation conserve l’augmentation de la probabilité de coup critique dans les sept caractères visibles.",
+  "msgid": "Critical Up",
+  "msgstr": "Critique +",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "oubli",
+  "probleme": "La vue coupe le libellé à « Stat ha » et masque le signe d’augmentation.",
+  "correction": "+Stat?",
+  "justification": "Le signe plus indique la hausse et le point d’interrogation indique que la statistique est indéterminée.",
+  "msgid": "Random Stat Up",
+  "msgstr": "Stat hasard +",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "oubli",
+  "probleme": "Le signe d’augmentation disparaît après « Esquive ».",
+  "correction": "Esq. +",
+  "justification": "L’abréviation permet d’afficher la statistique et le signe plus.",
+  "msgid": "Evasion Up",
+  "msgstr": "Esquive +",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "oubli",
+  "probleme": "Le signe d’augmentation disparaît à l’affichage.",
+  "correction": "Amitié+",
+  "justification": "Le retrait de l’espace conserve le signe plus dans les sept caractères visibles.",
+  "msgid": "Friendship Up",
+  "msgstr": "Amitié +",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "terminologie",
+  "probleme": "« Poireau » reprend le nom introduit dans Épée et Bouclier.",
+  "correction": "Bâton",
+  "justification": "« Bâton » est le nom officiel de cet objet dans Émeraude FR et SoulSilver FR, les jeux de référence du projet.",
+  "msgid": "Leek",
+  "msgstr": "Poireau",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "oubli",
+  "probleme": "La vue affiche « Soin % » et masque les PV.",
+  "correction": "% PV +",
+  "justification": "Le libellé conserve le pourcentage, les PV et le sens de la récupération dans les sept caractères visibles.",
+  "msgid": "Restore Pct Hp",
+  "msgstr": "Soin % PV",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "oubli",
+  "probleme": "Le libellé décrit l’état des plants sans indiquer l’action.",
+  "correction": "Préparer les plants",
+  "justification": "La commande rend les plants prêts à être récoltés.",
+  "msgid": "Ready map trees",
+  "msgstr": "Plants prêts",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « plants ».",
+  "correction": "Faire pousser les plants",
+  "justification": "L’article défini désigne les plants présents sur la carte.",
+  "msgid": "Grow map trees",
+  "msgstr": "Faire pousser plants",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "oubli",
+  "probleme": "Le libellé décrit la présence d’insectes sans indiquer qu’il en ajoute.",
+  "correction": "Infester les plants",
+  "justification": "Le verbe indique que la commande provoque une infestation.",
+  "msgid": "Give map trees pests",
+  "msgstr": "Insectes sur plants",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "oubli",
+  "probleme": "L’action d’ajouter des mauvaises herbes a disparu.",
+  "correction": "Ajouter des adventices",
+  "justification": "« Adventices » désigne les mauvaises herbes et permet de conserver le verbe dans le libellé.",
+  "msgid": "Give map trees weeds",
+  "msgstr": "Mauvaises herbes",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « suiveur ».",
+  "correction": "Créer un suiveur",
+  "justification": "La commande crée un nouveau PNJ suiveur.",
+  "msgid": "Create Follower",
+  "msgstr": "Créer suiveur",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « suiveur ».",
+  "correction": "Supprimer le suiveur",
+  "justification": "L’article défini désigne le PNJ suiveur déjà présent.",
+  "msgid": "Destroy Follower",
+  "msgstr": "Supprimer suiveur",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « carte ».",
+  "correction": "Voler vers la carte…",
+  "justification": "« Vers » introduit ici un groupe nominal avec un article.",
+  "msgid": "Fly to map…",
+  "msgstr": "Voler vers carte…",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "oubli",
+  "probleme": "« Aller » ne rend pas le mode de déplacement indiqué par « warp ».",
+  "correction": "Téléportation…",
+  "justification": "Le libellé identifie la téléportation, dont le point d’arrivée se choisit dans le sous-menu.",
+  "msgid": "Warp to map warp…",
+  "msgstr": "Aller au point…",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "terminologie",
+  "probleme": "Le nom du personnage de Hoenn doit être en capitales.",
+  "correction": "Multi PIERRE",
+  "justification": "Graphie de Pokémon Émeraude FR, conformément à la convention du projet pour les personnages de Hoenn.",
+  "msgid": "Steven Multi",
+  "msgstr": "Multi Pierre",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « boîtes ».",
+  "correction": "Remplir les boîtes vite",
+  "justification": "L’article défini désigne les boîtes de stockage du PC.",
+  "msgid": "Fill PC Boxes Fast",
+  "msgstr": "Remplir boîtes vite",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "oubli",
+  "probleme": "« LENT! » indique le mode lent, mais omet l’avertissement de ralentissement.",
+  "correction": "Boîtes: rempl. lent (LAG!)",
+  "justification": "Le libellé conserve le remplissage, sa vitesse et l’avertissement.",
+  "msgid": "Fill PC Boxes Slow (LAG!)",
+  "msgstr": "Remplir boîtes (LENT!)",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "orthographe",
+  "probleme": "« Remplir PC objets » ne précise pas grammaticalement le rôle d’« objets ».",
+  "correction": "Remplir le PC d’objets",
+  "justification": "La construction « remplir de » indique ce qui est ajouté au PC.",
+  "msgid": "Fill PC Items",
+  "msgstr": "Remplir PC objets",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "oubli",
+  "probleme": "Le libellé nomme la poche sans indiquer qu’elle sera remplie.",
+  "correction": "Objets: remplir",
+  "justification": "Le verbe explicite l’action appliquée à la poche Objets.",
+  "msgid": "Fill Pocket Items",
+  "msgstr": "Poche Objets",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "oubli",
+  "probleme": "Le libellé nomme la poche sans indiquer qu’elle sera remplie.",
+  "correction": "Poké Balls: remplir",
+  "justification": "Le verbe explicite l’action appliquée à la poche Poké Balls.",
+  "msgid": "Fill Pocket Poké Balls",
+  "msgstr": "Poche Poké Balls",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "oubli",
+  "probleme": "Le libellé nomme la poche sans indiquer qu’elle sera remplie.",
+  "correction": "CT/CS: remplir",
+  "justification": "Le verbe explicite l’action appliquée à la poche CT/CS.",
+  "msgid": "Fill Pocket TMHM",
+  "msgstr": "Poche CT/CS",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "oubli",
+  "probleme": "Le libellé nomme la poche sans indiquer qu’elle sera remplie.",
+  "correction": "Baies: remplir",
+  "justification": "Le verbe explicite l’action appliquée à la poche Baies.",
+  "msgid": "Fill Pocket Berries",
+  "msgstr": "Poche Baies",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "oubli",
+  "probleme": "Le libellé nomme la poche sans indiquer qu’elle sera remplie.",
+  "correction": "Objets rares: remplir",
+  "justification": "Le verbe explicite l’action appliquée à la poche Objets rares.",
+  "msgid": "Fill Pocket Key Items",
+  "msgstr": "Poche Objets rares",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "oubli",
+  "probleme": "Le « 1 » qui identifie le statut principal a disparu.",
+  "correction": "Infliger le statut 1",
+  "justification": "Le numéro distingue le statut principal des autres états.",
+  "msgid": "Inflict Status1",
+  "msgstr": "Infliger statut",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "oubli",
+  "probleme": "Le libellé nomme la Nature cachée sans indiquer qu’elle sera modifiée.",
+  "correction": "Régler nature cachée",
+  "justification": "Le verbe restitue l’action de « Set ».",
+  "msgid": "Set Hidden Nature",
+  "msgstr": "Nature cachée",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "terminologie",
+  "probleme": "« Rappel capacités » remplace le nom du personnage par celui du service.",
+  "correction": "Maître des capacités",
+  "justification": "Appellation française du personnage indiquée dans le contexte de l’entrée.",
+  "msgid": "Move Relearner",
+  "msgstr": "Rappel capacités",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « Œuf ».",
+  "correction": "Faire éclore un Œuf",
+  "justification": "L’article indéfini restitue « an Egg ».",
+  "msgid": "Hatch an Egg",
+  "msgstr": "Faire éclore Œuf",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « Pokémon ».",
+  "correction": "Modifier un Pokémon",
+  "justification": "La commande modifie un Pokémon choisi.",
+  "msgid": "Edit Pokemon",
+  "msgstr": "Modifier Pokémon",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « Pokérus ».",
+  "correction": "Donner le Pokérus",
+  "justification": "« Donner » a ici pour complément « le Pokérus ».",
+  "msgid": "Give Pokerus",
+  "msgstr": "Donner Pokérus",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « Pokérus ».",
+  "correction": "Retirer le Pokérus",
+  "justification": "« Retirer » a ici pour complément « le Pokérus ».",
+  "msgid": "Clear Pokerus",
+  "msgstr": "Retirer Pokérus",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "oubli",
+  "probleme": "L’action de donner l’objet a disparu.",
+  "correction": "Donner objet XYZ…",
+  "justification": "Le verbe indique ce que fera la commande après le choix de l’objet.",
+  "msgid": "Give item XYZ…",
+  "msgstr": "Objet XYZ…",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "terminologie",
+  "probleme": "La graphie « simple » ne suit pas le lexique fourni.",
+  "correction": "Pokémon (Simple)",
+  "justification": "Le lexique du projet prescrit « Simple ».",
+  "msgid": "Pokémon (Basic)",
+  "msgstr": "Pokémon (simple)",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "oubli",
+  "probleme": "L’action de donner la décoration a disparu.",
+  "correction": "Donner une déco…",
+  "justification": "Le verbe restitue l’attribution et la forme abrégée conserve le sens dans la largeur disponible.",
+  "msgid": "Give Decoration…",
+  "msgstr": "Décoration…",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "contresens",
+  "probleme": "« Matchs » désigne des rencontres en général, alors que ce compteur concerne les revanches.",
+  "correction": "Revanches {STR_VAR_1}/{STR_VAR_2}",
+  "justification": "Le libellé identifie les combats comptés par ce menu.",
+  "msgid": "Matches {STR_VAR_1}/{STR_VAR_2}",
+  "msgstr": "Matchs {STR_VAR_1}/{STR_VAR_2}",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "oubli",
+  "probleme": "Le libellé omet la notion de bloc.",
+  "correction": "Espace bloc sauv.",
+  "justification": "La commande concerne l’espace du bloc de sauvegarde.",
+  "msgid": "Save Block space",
+  "msgstr": "Espace sauvegarde",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "oubli",
+  "probleme": "L’action exprimée par « Set » a disparu.",
+  "correction": "Régler le flag XYZ…",
+  "justification": "Le verbe indique que le sous-menu sert à modifier l’état du flag choisi.",
+  "msgid": "Set Flag XYZ…",
+  "msgstr": "Flag XYZ…",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "oubli",
+  "probleme": "L’action exprimée par « Set » a disparu.",
+  "correction": "Régler la var. XYZ…",
+  "justification": "Le verbe indique que le sous-menu sert à modifier la valeur de la variable choisie.",
+  "msgid": "Set Var XYZ…",
+  "msgstr": "Var XYZ…",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "typographie",
+  "probleme": "Une espace précède les deux-points.",
+  "correction": "Pokédex: tout",
+  "justification": "La convention du jeu supprime l’espace avant les deux-points.",
+  "msgid": "Pokédex Flags All",
+  "msgstr": "Pokédex : tout",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "typographie",
+  "probleme": "Une espace précède les deux-points.",
+  "correction": "Pokédex: remise à 0",
+  "justification": "La convention du jeu supprime l’espace avant les deux-points.",
+  "msgid": "Pokédex Flags Reset",
+  "msgstr": "Pokédex : remise à 0",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "terminologie",
+  "probleme": "« Dex National » abrège le nom français officiel.",
+  "correction": "Bascule {STR_VAR_1}Pokédex national",
+  "justification": "« Pokédex national » est l’appellation française de Pokémon SoulSilver.",
+  "msgid": "Toggle {STR_VAR_1}National Dex",
+  "msgstr": "Bascule {STR_VAR_1}Dex National",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "contresens",
+  "probleme": "« Version finale » peut désigner la dernière version, alors que « Release Build » désigne une version destinée à la diffusion.",
+  "correction": "\\nVersion de diffusion",
+  "justification": "Le libellé identifie le type de version affiché.",
+  "msgid": "\\nRelease Build",
+  "msgstr": "\\nVersion finale",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "terminologie",
+  "probleme": "« Niv. » ne suit pas l’abréviation prescrite pour « niveau ».",
+  "correction": "N. Dmax:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "justification": "La convention du projet prescrit « N. » pour le niveau.",
+  "msgid": "Dmax Lvl:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "msgstr": "Niv. Dmax:{CLEAR_TO 90}\\n{STR_VAR_1}{CLEAR_TO 90}\\n{CLEAR_TO 90}\\n{STR_VAR_2}{CLEAR_TO 90}",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "orthographe",
+  "probleme": "Il manque la préposition entre « Eau » et « grotte grise ».",
+  "correction": "Eau de grotte grise",
+  "justification": "La construction « eau de » précise le milieu et suit le libellé « Eau de grotte ».",
+  "msgid": "Gray Cave Water",
+  "msgstr": "Eau grotte grise",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "contresens",
+  "probleme": "Les adjectifs masquent la référence aux trois fertilisants dont le Fertiprodige cumule les effets.",
+  "correction": "Cumule les effets de\\nFertibondance, Fertistantané\\net Fertibérance.",
+  "justification": "Les majuscules de « Rich », « Surprising » et « Boosting » renvoient aux trois objets identifiés dans le contexte.",
+  "msgid": "A fertilizer Rich\\nSurprising and\\nBoosting as well.",
+  "msgstr": "Fertilisant à la fois\\nabondant, instantané\\net sublimant.",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "oubli",
+  "probleme": "Le texte omet que le coup vise à faire trébucher la cible.",
+  "correction": "Un coup de pied bas fait\\ntrébucher et peut apeurer.",
+  "justification": "« Tripping » décrit le coup, tandis que « may » indique que la peur reste éventuelle.",
+  "msgid": "A low, tripping kick that\\nmay cause flinching.",
+  "msgstr": "Un coup de pied bas qui\\npeut apeurer l’ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "oubli",
+  "probleme": "Le texte mentionne seulement la projection du champ d’énergie.",
+  "correction": "Crée un champ d’énergie\\ntriangulaire et le projette.",
+  "justification": "Le texte anglais indique que le champ est d’abord créé, puis projeté.",
+  "msgid": "A triangular field of energy\\nis created and launched.",
+  "msgstr": "Un champ d’énergie\\ntriangulaire est projeté.",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "oubli",
+  "probleme": "« Puis il sort » omet le remplacement du lanceur.",
+  "correction": "Sa blague jette un froid et\\nfait grêler. Puis il cède sa place.",
+  "justification": "En combat, « switches out » indique que le lanceur cède sa place à un autre Pokémon.",
+  "msgid": "Bad joke summons hailstorm.\\nThe user also switches out.",
+  "msgstr": "Sa blague jette un froid et\\nfait grêler. Puis il sort.",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "terminologie",
+  "probleme": "Le prénom « Lea » a perdu son accent.",
+  "correction": "Léa&Pia",
+  "justification": "Le lexique officiel fourni donne « Lea → Léa ».",
+  "msgid": "LEA&PIA",
+  "msgstr": "Lea&Pia",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "oubli",
+  "probleme": "La traduction omet la hauteur de l’immeuble et la facilité avec laquelle les lianes le renversent.",
+  "correction": "Il crache du pollen à flots, tel un\\nvolcan. Trop en respirer assomme.\\nIl brandit deux lianes épaisses qui\\nabattent sans mal dix étages.",
+  "justification": "L’anglais précise que les deux lianes peuvent aisément renverser un immeuble de dix étages.",
+  "msgid": "Spits big amounts of pollen like a volcano.\\nBreathing too much of it causes fainting.\\nIn battle, it swings around two thick vines\\nthat can easily topple 10-story buildings.",
+  "msgstr": "Il crache des tonnes de pollen comme un\\nvolcan. En respirer trop fait s’évanouir.\\nEn combat, il fait tournoyer deux lianes\\népaisses qui renversent un immeuble.",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "oubli",
+  "probleme": "L’unité de température disparaît lors de la conversion.",
+  "correction": "Sa flamme interne brûle à plus de\\n2 000 °C. Quand DRACAUFEU rugit,\\ncette température grimpe\\nencore.",
+  "justification": "Le symbole °C indique l’échelle dans laquelle le seuil a été arrondi.",
+  "msgid": "The flame inside its body burns\\nhotter than 3,600 degrees Fahrenheit.\\nWhen Charizard roars, that\\ntemperature climbs even higher.",
+  "msgstr": "La flamme dans son corps brûle à plus\\nde 2 000 degrés. Quand DRACAUFEU\\nrugit, cette température grimpe\\nencore.",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "oubli",
+  "probleme": "La traduction ne précise pas que les coups répétés sont portés avec les dards des pattes.",
+  "correction": "Ses pattes sont des dards venimeux.\\nIl en pique sa proie à répétition,\\npuis l’achève avec le dard\\nde son abdomen.",
+  "justification": "Le texte distingue les dards des pattes, utilisés plusieurs fois, du dard de l’abdomen, réservé au coup final.",
+  "msgid": "Its legs have become poison stingers.\\nIt stabs its prey repeatedly with the\\nstingers on its limbs, dealing the final\\nblow with the stinger on its rear.",
+  "msgstr": "Ses pattes sont devenues des dards\\nvenimeux. Il transperce sa proie à\\ncoups répétés, puis porte le coup\\nfinal avec le dard de son abdomen.",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "contresens",
+  "probleme": "Le conditionnel présente le sauvetage comme incertain.",
+  "correction": "L’un de ces Pokémon a un jour\\nsoulevé, de sa force prodigieuse,\\nun grand navire en détresse, puis\\nl’a porté jusqu’au port.",
+  "justification": "Le récit anglais présente le sauvetage comme un événement passé avéré.",
+  "msgid": "One of these Pokémon once used\\nits immeasurable strength to lift a\\nlarge ship that was in trouble. It\\nthen carried the ship to port.",
+  "msgstr": "L’un de ces Pokémon aurait un jour\\nsoulevé de sa force incommensurable\\nun grand navire en détresse, puis\\nl’aurait porté jusqu’au port.",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "orthographe",
+  "probleme": "La locution « ôter la vie » se construit avec « à » devant la personne visée.",
+  "correction": "Les relations d’ECTOPLASMA sont\\nperverties. Il veut ôter la vie à\\ntout le monde. Il tente même de\\nmaudire son propre Dresseur!",
+  "justification": "La construction attendue est « ôter la vie à quelqu’un ».",
+  "msgid": "Gengar's relationships are warped. It\\ntries to take the lives of anyone and\\neveryone. It will even try to curse the\\nTrainer who is its master!",
+  "msgstr": "Les relations d’ECTOPLASMA sont\\nperverties. Il cherche à ôter la vie de\\ntout le monde. Il tente même de\\nmaudire son propre Dresseur!",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "oubli",
+  "probleme": "La traduction perd l’idée que l’énergie est présente en excès.",
+  "correction": "Le surplus d’énergie qui le baigne\\nmenace sans cesse de déborder.\\nIl ne peut soutenir un long combat.",
+  "justification": "Le surplus d’énergie explique le danger permanent de débordement.",
+  "msgid": "The excess energy that bathes this\\nPokémon keeps it in constant danger of\\noverflow. It can't sustain a battle over\\nlong periods of time.",
+  "msgstr": "L’énergie qui baigne ce Pokémon menace\\nsans cesse de déborder. Il ne peut pas\\nsoutenir un long combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "terminologie",
+  "probleme": "« Méga Canon Solaire » diffère du surnom officiel français.",
+  "correction": "Ce Pokémon tire un Lance-Soleil\\nsurpuissant de ses quatre fleurs.\\nOn surnomme ce tir\\n“canon Méga-Soleil”.",
+  "justification": "Le surnom officiel du tir de Méga-Méganium est « canon Méga-Soleil ». [Pokémon France](https://www.pokemon.com/fr/actus-pokemon/ajout-de-nouvelles-mega-evolutions-au-pokedex-de-pokemon-fr)",
+  "msgid": "This Pokémon can fire a tremendously\\npowerful Solar Beam from its four\\nflowers. Another name for this is\\nMega Sol Cannon.",
+  "msgstr": "Ce Pokémon peut tirer un Lance-Soleil\\nd’une puissance phénoménale depuis\\nses quatre fleurs. On l’appelle aussi\\nMéga Canon Solaire.",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "typographie",
+  "probleme": "L’incise « semble-t-il » doit être encadrée de virgules.",
+  "correction": "Un fort afflux d’énergie a stimulé\\nles cellules de PHARAMP,\\néveillant, semble-t-il, son sang\\nde dragon longtemps endormi.",
+  "justification": "Les deux virgules délimitent l’incise qui marque l’incertitude du réveil.",
+  "msgid": "Massive amounts of energy intensely\\nstimulated Ampharos's cells, apparently\\nawakening its long-sleeping dragon's\\nblood.",
+  "msgstr": "Une énorme quantité d’énergie a stimulé\\nintensément les cellules de PHARAMP,\\néveillant semble-t-il son sang de\\ndragon longtemps endormi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "typographie",
+  "probleme": "Une espace précède le deux-points.",
+  "correction": "L’énergie de la Méga-Évolution\\nhérisse sa fourrure. Sur son dos,\\nce ne sont pas de vraies ailes:\\nil ne peut pas voler.",
+  "justification": "Le projet impose un deux-points sans espace avant lui. « Ne peut pas voler » conserve aussi l’idée d’incapacité.",
+  "msgid": "As the energy of Mega Evolution fills it,\\nits fur bristles. What you see on its back\\nare not true wings, and this Pokémon isn't\\nable to fly.",
+  "msgstr": "Quand l’énergie de la Méga-Évolution\\nl’envahit, sa fourrure se hérisse. Ce\\nqu’on voit sur son dos n’est pas de vraies\\nailes : ce Pokémon ne vole pas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 87,
+  "categorie": "orthographe",
+  "probleme": "« A fondu ses bras et ses ailes en faux » emploie « fondre » comme un verbe de transformation directe.",
+  "correction": "Un excès d’énergie a fait fondre\\nses bras et ses ailes, devenus\\nd’immenses faux. Fou de rage, il\\nles agite et découpe le sol.",
+  "justification": "« Faire fondre » exprime la fonte des membres, puis « devenus » indique la forme qu’ils prennent.",
+  "msgid": "Excess energy melted its arms and wings\\ninto giant scythes, sending it mad with\\nrage. It swings its scythes wildly and\\nslices the ground to pieces.",
+  "msgstr": "Un excès d’énergie a fondu ses bras et\\nses ailes en faux géantes et l’a rendu\\nfou de rage. Il les agite en tous sens\\net découpe le sol en morceaux.",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "oubli",
+  "probleme": "L’adjectif qui qualifie les griffes de ses ailes disparaît.",
+  "correction": "CARCHACROK a une nouvelle forme\\nméga-évoluée. Il décrit des cercles\\nautour de ses ennemis à Mach 1.\\nSes griffes sinistres les lacèrent.",
+  "justification": "« Sinister » fait partie de la description des griffes avec lesquelles il attaque.",
+  "msgid": "Garchomp has gained a new Mega-Evolved\\nform. It flies around foes at Mach speed\\nand cuts them to shreds with its sinister\\nwing claws.",
+  "msgstr": "CARCHACROK a acquis une nouvelle forme\\nméga-évoluée. Il tourne autour de ses\\nennemis à la vitesse du son et les taille\\nen pièces de ses griffes d’ailes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "typographie",
+  "probleme": "Une espace précède le deux-points après « mot ».",
+  "correction": "Il se prépare à affronter ses ennemis en\\nconcentrant son énergie mentale. Son\\nstyle de combat se résume en un mot:\\nimpitoyable.",
+  "justification": "La convention du projet supprime l’espace avant le deux-points.",
+  "msgid": "It readies itself to face its enemies by\\nfocusing its mental energies. Its fighting\\nstyle can be summed up in a single word:\\nheartless.",
+  "msgstr": "Il se prépare à affronter ses ennemis en\\nconcentrant son énergie mentale. Son\\nstyle de combat se résume en un mot :\\nimpitoyable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "oubli",
+  "probleme": "L’échelle de température n’est pas indiquée après conversion.",
+  "correction": "À pleine puissance, il pourrait\\nchauffer son corps à plus de\\n1 000 000 °C. Cette chaleur tient\\nses ennemis à distance.",
+  "justification": "Le symbole °C indique l’échelle de conversion et le conditionnel conserve le caractère rapporté de l’affirmation.",
+  "msgid": "It's said that if it goes all out, it\\ncan heat its body up to temperatures\\nover 1.8 million degrees Fahrenheit.\\nThis heat keeps enemies at bay.",
+  "msgstr": "On dit qu’à pleine puissance, il peut\\nchauffer son corps à plus d’un million\\nde degrés. Cette chaleur tient ses\\nennemis à distance.",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "oubli",
+  "probleme": "« La peau de BAGGAID » omet qu’il s’agit de sa mue.",
+  "correction": "La Méga-Évolution a rendu la mue\\nde BAGGAID blanche, résistante et\\nsouple. Bien sûr, ce Pokémon est\\ntoujours aussi bagarreur.",
+  "justification": "« Shed skin » désigne la peau dont BAGGAID s’est défait.",
+  "msgid": "Mega Evolution has caused Scrafty's\\nshed skin to turn white, growing\\ntough and supple. Of course, this\\nPokémon is still as feisty as ever.",
+  "msgstr": "La Méga-Évolution a blanchi la peau\\nde BAGGAID, devenue solide et souple.\\nBien sûr, ce Pokémon est toujours\\naussi bagarreur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "contresens",
+  "probleme": "« Similitude » affaiblit l’identité des gènes en simple ressemblance.",
+  "correction": "RESHIRAM et KYUREM ont les mêmes\\ngènes. KYUREM a donc pu absorber\\nRESHIRAM. Il peut désormais user\\ndu feu et de la glace.",
+  "justification": "« Sameness » indique que les gènes sont les mêmes, ce qui permet l’absorption.",
+  "msgid": "The sameness of Reshiram's and\\nKyurem's genes allowed Kyurem to\\nabsorb Reshiram. Kyurem can now use the\\npower of both fire and ice.",
+  "msgstr": "La similitude des gènes de RESHIRAM et\\nde KYUREM a permis à KYUREM d’absorber\\nRESHIRAM. KYUREM peut désormais user\\ndu feu et de la glace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "contresens",
+  "probleme": "« Similitude » affaiblit l’identité des gènes en simple ressemblance.",
+  "correction": "ZEKROM et KYUREM ont les mêmes\\ngènes. KYUREM a donc pu absorber\\nZEKROM. Il peut désormais user\\nde l’électricité et de la glace.",
+  "justification": "« Sameness » indique que les gènes sont les mêmes, ce qui permet l’absorption.",
+  "msgid": "The sameness of Zekrom's and\\nKyurem's genes allowed Kyurem to absorb\\nZekrom. Kyurem can now use the\\npower of both electricity and ice.",
+  "msgstr": "La similitude des gènes de ZEKROM et de\\nKYUREM a permis à KYUREM d’absorber\\nZEKROM. KYUREM peut désormais user de\\nl’électricité et de la glace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "oubli",
+  "probleme": "La vitesse de rotation du shuriken est omise.",
+  "correction": "Il fait tourner un shuriken géant\\ntrès vite pour le faire flotter,\\npuis s’y accroche tête en bas pour\\nsurprendre ses adversaires.",
+  "justification": "L’anglais précise que le Pokémon fait tourner le shuriken à grande vitesse pour le faire flotter.",
+  "msgid": "This Pokémon spins a giant\\nshuriken at high speed to make it\\nfloat, then clings to it upside\\ndown to catch opponents unawares.",
+  "msgstr": "Ce Pokémon fait tournoyer un\\nshuriken géant pour le faire flotter,\\npuis s’y accroche tête en bas pour\\nsurprendre ses adversaires.",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "oubli",
+  "probleme": "L’unité de température disparaît lors de la conversion.",
+  "correction": "Il crache des flammes à plus de\\n10 000 °C. Il agite sa grande\\ncrinière ardente pour protéger\\nses alliés.",
+  "justification": "Le symbole °C indique l’échelle dans laquelle le seuil a été arrondi.",
+  "msgid": "This Pokémon spews flames hotter\\nthan 18,000 degrees Fahrenheit.\\nIt swings around its grand, blazing\\nmane as it protects its allies.",
+  "msgstr": "Ce Pokémon crache des flammes de\\nplus de 10 000 degrés. Il agite sa\\ngrande crinière ardente pour\\nprotéger ses alliés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "orthographe",
+  "probleme": "« Pour tout autre que lui » est incomplet dans cet emploi.",
+  "correction": "Il crache un liquide qui emballe\\nla régénération des cellules.\\nCe poison est mortel pour\\ntous les autres êtres vivants.",
+  "justification": "« Tous les autres êtres vivants » explicite la portée du poison et l’exception dont bénéficie le Pokémon.",
+  "msgid": "It spits a liquid that causes the\\nregenerative power of cells to run\\nwild. The liquid is deadly poison\\nto everything other than itself.",
+  "msgstr": "Il crache un liquide qui affole le\\npouvoir de régénération des cellules.\\nCe liquide est un poison mortel pour\\ntout autre que lui.",
+  "msgctxt": ""
+ },
+ {
+  "id": 115,
+  "categorie": "orthographe",
+  "probleme": "« Calme la situation de sa puissance » emploie une préposition inadaptée pour exprimer le moyen.",
+  "correction": "Face à une crise sans précédent,\\nZY GARDE répond aux émotions des\\ngens et méga-évolue. Sa puissance\\ninégalée apaise la situation.",
+  "justification": "La dernière phrase attribue directement l’apaisement à la puissance de ZYGARDE.",
+  "msgid": "In response to people's emotions\\nduring an unprecedented crisis,\\nZygarde Mega Evolves and calms the\\nsituation with its unmatched power.",
+  "msgstr": "En réponse aux émotions des gens lors\\nd’une crise sans précédent, ZYGARDE\\nméga-évolue et calme la situation de\\nsa puissance inégalée.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "terminologie",
+  "probleme": "Il manque l’accent aigu dans le nom de l’espèce.",
+  "correction": "Le Pistolet à O de LÉZARGUS Gigamax\\natteint Mach 7. Pour viser, il évalue\\nle vent et la température avec la\\ncrête de sa tête.",
+  "justification": "Le nom officiel français dans Pokémon Épée et Bouclier est « Lézargus ». L’accent se conserve en capitales.",
+  "msgid": "Gigantamax Inteleon's Water Gun\\nmove fires at Mach 7. As the Pokémon\\ntakes aim, it uses the crest on its\\nhead to gauge wind and temperature.",
+  "msgstr": "Le Pistolet à O de LEZARGUS Gigamax\\natteint Mach 7. Pour viser, il évalue\\nle vent et la température avec la\\ncrête de sa tête.",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "oubli",
+  "probleme": "« A mâché » omet la mise en pièces de la montagne.",
+  "correction": "À Galar, on raconte que ce Pokémon\\na déchiqueté une montagne et s’est\\nservi des gravats pour arrêter\\nune inondation.",
+  "justification": "« Chewing up » décrit ici la destruction de la montagne, qui fournit les gravats.",
+  "msgid": "In the Galar region, there's a tale\\nabout this Pokémon chewing up a\\nmountain and using the rubble to stop a\\nflood.",
+  "msgstr": "Dans la région de Galar, on raconte que\\nce Pokémon a mâché une montagne et\\ns’est servi des gravats pour arrêter\\nune inondation.",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "oubli",
+  "probleme": "La température convertie est donnée sans échelle explicite.",
+  "correction": "Son corps est un poêle colossal.\\nAttisée par l’énergie Gigamax, la\\nflamme de ce Pokémon brûle à plus de\\n2 000 °C.",
+  "justification": "Le texte anglais précise l’échelle Fahrenheit. « °C » indique l’échelle retenue pour la conversion arrondie.",
+  "msgid": "Its body is a colossal stove. With\\nGigantamax energy stoking the fire,\\nthis Pokémon's flame burns hotter\\nthan 3,600 degrees Fahrenheit.",
+  "msgstr": "Son corps est un poêle colossal.\\nAttisée par l’énergie Gigamax, la\\nflamme de ce Pokémon brûle à plus de\\n2 000 degrés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "contresens",
+  "probleme": "La formulation présente sa forme comme identique à celle d’une pomme géante.",
+  "correction": "Sous l’effet de l’énergie Gigamax,\\nil produit bien plus de nectar\\nsucré et sa forme rappelle celle\\nd’une pomme géante.",
+  "justification": "« Resemble » exprime une ressemblance.",
+  "msgid": "Under the influence of Gigantamax\\nenergy, it produces much more sweet\\nnectar, and its shape has changed\\nto resemble a giant apple.",
+  "msgstr": "Sous l’effet de l’énergie Gigamax, il\\nproduit bien plus de nectar sucré, et\\nsa forme s’est changée en celle d’une\\npomme géante.",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "oubli",
+  "probleme": "La vitesse du sable a disparu.",
+  "correction": "Son sac de sable est devenu énorme.\\nPlus d’un million de tonnes de sable\\ntournoient autour de lui assez vite\\net fort pour broyer un gratte-ciel.",
+  "justification": "L’anglais attribue la destruction du gratte-ciel à la vitesse et à la force du sable.",
+  "msgid": "Its sand pouch has grown to tremendous\\nproportions. More than 1,000,000 tons of\\nsand now swirl around its body with enough\\nspeed and power to pulverize a skyscraper.",
+  "msgstr": "Son sac de sable est devenu énorme. Plus\\nd’un million de tonnes de sable\\ntourbillonnent autour de lui, assez fort\\npour pulvériser un gratte-ciel.",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "oubli",
+  "probleme": "La progression exprimée par « more hair » a disparu.",
+  "correction": "L’énergie Gigamax a fait pousser\\nplus de poils sur tout son corps.\\nSa force accrue lui permet de sauter\\nle plus haut immeuble du monde.",
+  "justification": "L’énergie Gigamax augmente la quantité de poils sur tout son corps.",
+  "msgid": "Gigantamax energy has caused more\\nhair to sprout all over its body.\\nWith the added strength, it can jump\\nover the world's tallest building.",
+  "msgstr": "L’énergie Gigamax a fait pousser des\\npoils sur tout son corps. Avec cette\\nforce accrue, il saute par-dessus le\\nplus haut immeuble du monde.",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "oubli",
+  "probleme": "L’anglais nomme explicitement Méga-HAGOWAK.",
+  "correction": "Méga-HAGOWAK a adopté la formation\\nde combat ultime, possible seulement\\nsi la troupe et le chef sont unis\\npar les liens les plus forts.",
+  "justification": "La phrase attribue cette formation à la forme méga de HAGOWAK.",
+  "msgid": "Mega Falinks has taken on the\\nultimate battle formation, which\\ncan be achieved only if the troopers\\nand brass have the strongest of bonds.",
+  "msgstr": "Ce Pokémon a adopté la formation de\\ncombat ultime, possible seulement si la\\ntroupe et le chef sont unis par les\\nliens les plus forts.",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "contresens",
+  "probleme": "« Nez » désigne trop vaguement l’organe dont PACHYRADJAH se sert.",
+  "correction": "Une fois Gigamaxé, il peut démolir\\nde grandes structures d’un seul\\ncoup de sa trompe massive.",
+  "justification": "« Massive nose » désigne ici la trompe avec laquelle ce Pokémon frappe.",
+  "msgid": "After this Pokémon has Gigantamaxed,\\nits massive nose can utterly demolish\\nlarge structures with a single\\nsmashing blow.",
+  "msgstr": "Une fois Gigamaxé, ce Pokémon peut\\ndémolir de grandes structures d’un\\nseul coup de son nez massif.",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "contresens",
+  "probleme": "Le présent efface la prédiction formulée dans la croyance.",
+  "correction": "On l’appelle l’incarnation de la rage.\\nSelon la rumeur, son air terrifiant\\net son cri débarrasseront le monde\\nde la malveillance.",
+  "justification": "« Will rid » annonce un effet futur.",
+  "msgid": "People call it the embodiment of\\nrage. It's said that this Pokémon's\\nterrifying expression and shout will\\nrid the world of malevolence.",
+  "msgstr": "On l’appelle l’incarnation de la rage.\\nOn dit que l’expression terrifiante et\\nle cri de ce Pokémon débarrassent le\\nmonde de la malveillance.",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "oubli",
+  "probleme": "« Ont parcouru » omet que les deux Pokémon ont couru.",
+  "correction": "On raconte que SYLVEROY et un Pokémon\\nqui s’était lié à lui ont couru\\nà travers tout Galar pour faire\\nreverdir les terres désolées.",
+  "justification": "« Ran all across » précise à la fois l’allure et l’étendue du parcours.",
+  "msgid": "It's said that Calyrex and a\\nPokémon that had bonded with it ran all\\nacross the Galar region to bring green\\nto the wastelands.",
+  "msgstr": "On raconte que SYLVEROY et un Pokémon\\nqui s’était lié à lui ont parcouru toute\\nla région de Galar pour faire reverdir\\nles terres désolées.",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "orthographe",
+  "probleme": "« Jusqu’à déborder » se rattache grammaticalement à « il », ce qui rend la phrase ambiguë.",
+  "correction": "Il solidifie l’énergie de la\\nMéga-Évolution et en accumule tant\\nqu’elle déborde. Il la lance en\\nprojectiles explosant au contact.",
+  "justification": "Le pronom « elle » indique que c’est l’énergie accumulée qui déborde.",
+  "msgid": "It solidifies the energy of Mega Evolution,\\nbuilding up an overflowing pile to launch\\nas projectiles. These projectiles explode\\non contact.",
+  "msgstr": "Il solidifie l’énergie de la Méga-Évolution\\net l’accumule jusqu’à déborder pour la\\nlancer comme des projectiles. Ces\\nprojectiles explosent au contact.",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "contresens",
+  "probleme": "« La garde de son plexus solaire » fait du plexus le possesseur de la garde.",
+  "correction": "La Méga-Évolution a rendu la lame\\ndorsale de GLAIVODO plus massive.\\nIl tire des rayons depuis la garde\\nsituée à son plexus solaire.",
+  "justification": "La garde appartient à la lame et le plexus solaire indique son emplacement.",
+  "msgid": "Baxcalibur's dorsal blade has grown even\\nmore massive thanks to Mega Evolution.\\nThis Pokémon fires beams from the hilt\\nat its solar plexus.",
+  "msgstr": "La lame dorsale de GLAIVODO est devenue\\nencore plus massive grâce à la\\nMéga-Évolution. Il tire des rayons\\ndepuis la garde de son plexus solaire.",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "typographie",
+  "probleme": "Le surnom formé sur le nom d’espèce tronqué a perdu ses capitales.",
+  "correction": "DEUSOLOURD",
+  "justification": "La correction applique la casse des noms d’espèces du projet et conserve la troncature à dix caractères.",
+  "msgid": "DUDUNSPARC",
+  "msgstr": "Deusolourd",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "oubli",
+  "probleme": "« Ressources » omet que la rubrique crédite leur provenance.",
+  "correction": "Sources des ressources",
+  "justification": "« Sourced » indique que les ressources ont été trouvées auprès de sources que le générique crédite.",
+  "msgid": "Assets Sourced",
+  "msgstr": "Ressources",
+  "msgctxt": ""
+ }
+]

@@ -63,6 +63,8 @@ class Gen3:
                 j = s.find('}', i)
                 if j < 0: return None
                 tok = s[i+1:j].split()
+                if tok and re.fullmatch(r'0x[0-9A-Fa-f]{1,2}', tok[0]) and len(tok) == 1:
+                    out.append(int(tok[0], 16)); i = j + 1; continue      # octet brut {0x5B}
                 if not tok or tok[0] not in self.n2b: return None
                 out += self.n2b[tok[0]]
                 for a in tok[1:]:

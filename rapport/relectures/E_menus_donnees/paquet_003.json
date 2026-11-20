@@ -1,0 +1,292 @@
+[
+ {
+  "id": 1,
+  "categorie": "contresens",
+  "probleme": "« Statut puissant » qualifie un état au lieu de qualifier des capacités.",
+  "correction": "Cap. statut fortes",
+  "justification": "Le libellé désigne les capacités de statut jugées puissantes par l’IA.",
+  "msgid": "Powerful Status",
+  "msgstr": "Statut puissant",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "orthographe",
+  "probleme": "Le libellé dépasse 19 caractères et met « choix » et « malin » au singulier.",
+  "correction": "Bons choix Pokémon",
+  "justification": "Le pluriel restitue « Choices » et le libellé tient en 18 caractères.",
+  "msgid": "Smart Mon Choices",
+  "msgstr": "Choix Pokémon malin",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "oubli",
+  "probleme": "L’ordre de remplacement est mal exprimé et le libellé dépasse 19 caractères.",
+  "correction": "Change dans l’ordre",
+  "justification": "« Dans l’ordre » indique que les remplacements suivent une séquence. Le libellé tient en 19 caractères.",
+  "msgid": "Sequence Switching",
+  "msgstr": "Changement en ordre",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "oubli",
+  "probleme": "La traduction omet la pondération exprimée par « Weigh ».",
+  "correction": "Pond. préd. talent",
+  "justification": "« Pond. » rétablit l’idée de pondérer la prédiction du talent dans la limite de 19 caractères.",
+  "msgid": "Weigh Ability Prediction",
+  "msgstr": "Prédiction talent",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "contresens",
+  "probleme": "« PV Clonage » rattache les PV au nom de la capacité.",
+  "correction": "PV du clone",
+  "justification": "Le compteur affiche les PV du clone créé par Clonage.",
+  "msgid": "Substitute HP",
+  "msgstr": "PV Clonage",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "orthographe",
+  "probleme": "« Tous » est au masculin alors que l’entrée désigne les statistiques.",
+  "correction": "Toutes",
+  "justification": "Le pronom s’accorde avec « statistiques », féminin pluriel.",
+  "msgid": "All",
+  "msgstr": "Tous",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "oubli",
+  "probleme": "Le texte affiché s’arrête à « Soin PA ».",
+  "correction": "SoinPAR",
+  "justification": "Le libellé compact conserve l’abréviation officielle PAR dans les sept caractères visibles.",
+  "msgid": "Cure Par",
+  "msgstr": "Soin PAR",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "oubli",
+  "probleme": "Le texte affiché s’arrête à « Soin SO ».",
+  "correction": "SoinSOM",
+  "justification": "Le libellé compact conserve l’abréviation officielle SOM dans les sept caractères visibles.",
+  "msgid": "Cure Slp",
+  "msgstr": "Soin SOM",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "oubli",
+  "probleme": "Le texte affiché s’arrête à « Soin PS ».",
+  "correction": "SoinPSN",
+  "justification": "Le libellé compact conserve l’abréviation officielle PSN dans les sept caractères visibles.",
+  "msgid": "Cure Psn",
+  "msgstr": "Soin PSN",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "oubli",
+  "probleme": "Le texte affiché s’arrête à « Soin BR ».",
+  "correction": "SoinBRU",
+  "justification": "Le libellé compact conserve l’abréviation officielle BRU dans les sept caractères visibles.",
+  "msgid": "Cure Brn",
+  "msgstr": "Soin BRU",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "oubli",
+  "probleme": "Le texte affiché s’arrête à « Soin GE ».",
+  "correction": "SoinGEL",
+  "justification": "Le libellé compact conserve l’abréviation officielle GEL dans les sept caractères visibles.",
+  "msgid": "Cure Frz",
+  "msgstr": "Soin GEL",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "oubli",
+  "probleme": "Le texte affiché s’arrête à « Soin co » et masque le nom de l’état soigné.",
+  "correction": "-Conf.",
+  "justification": "Le signe moins indique la suppression de la confusion. Le libellé tient en six caractères.",
+  "msgid": "Cure Confusion",
+  "msgstr": "Soin confusion",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "oubli",
+  "probleme": "Le texte affiché s’arrête à « Soin st » et masque le nom de l’état soigné.",
+  "correction": "-Statut",
+  "justification": "Le signe moins indique la suppression du statut. Le libellé tient en sept caractères.",
+  "msgid": "Cure Status",
+  "msgstr": "Soin statut",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "oubli",
+  "probleme": "Le goût épicé disparaît après la coupure à « Confus ».",
+  "correction": "Cf. épi",
+  "justification": "Les deux abréviations préservent l’effet de confusion et le goût dans les sept caractères visibles.",
+  "msgid": "Confuse Spicy",
+  "msgstr": "Confus épicé",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "oubli",
+  "probleme": "Le goût disparaît après la coupure à « Confus ».",
+  "correction": "Cf. âpr",
+  "justification": "Le libellé tient en sept caractères et reprend « âpre », le nom du goût « Dry » pour les Pokéblocs d’Émeraude FR.",
+  "msgid": "Confuse Dry",
+  "msgstr": "Confus sec",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "oubli",
+  "probleme": "Le goût sucré disparaît après la coupure à « Confus ».",
+  "correction": "Cf. suc",
+  "justification": "Les deux abréviations préservent l’effet de confusion et le goût dans les sept caractères visibles.",
+  "msgid": "Confuse Sweet",
+  "msgstr": "Confus sucré",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "oubli",
+  "probleme": "Le goût amer disparaît après la coupure à « Confus ».",
+  "correction": "Cf. ame",
+  "justification": "Les deux abréviations préservent l’effet de confusion et le goût dans les sept caractères visibles.",
+  "msgid": "Confuse Bitter",
+  "msgstr": "Confus amer",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "oubli",
+  "probleme": "Le goût acide disparaît après la coupure à « Confus ».",
+  "correction": "Cf. aci",
+  "justification": "Les deux abréviations préservent l’effet de confusion et le goût dans les sept caractères visibles.",
+  "msgid": "Confuse Sour",
+  "msgstr": "Confus acide",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "oubli",
+  "probleme": "Le signe d’augmentation disparaît après « Attaque ».",
+  "correction": "AT +",
+  "justification": "L’abréviation AT prévue par le lexique du projet rend la hausse visible.",
+  "msgid": "Attack Up",
+  "msgstr": "Attaque +",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "oubli",
+  "probleme": "Le signe d’augmentation disparaît après « Défense ».",
+  "correction": "DF +",
+  "justification": "L’abréviation DF prévue par le lexique du projet rend la hausse visible.",
+  "msgid": "Defense Up",
+  "msgstr": "Défense +",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "oubli",
+  "probleme": "Le signe d’augmentation disparaît après « Vitesse ».",
+  "correction": "VI +",
+  "justification": "L’abréviation VI prévue par le lexique du projet rend la hausse visible.",
+  "msgid": "Speed Up",
+  "msgstr": "Vitesse +",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "oubli",
+  "probleme": "La coupure masque le signe d’augmentation et une partie de l’abréviation « Spé. ».",
+  "correction": "AS +",
+  "justification": "L’abréviation AS prévue par le lexique du projet identifie l’Attaque Spéciale et laisse place au signe plus.",
+  "msgid": "Sp Attack Up",
+  "msgstr": "Atq. Spé. +",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "oubli",
+  "probleme": "La coupure masque le signe d’augmentation et une partie de l’abréviation « Spé. ».",
+  "correction": "DS +",
+  "justification": "L’abréviation DS prévue par le lexique du projet identifie la Défense Spéciale et laisse place au signe plus.",
+  "msgid": "Sp Defense Up",
+  "msgstr": "Déf. Spé. +",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "oubli",
+  "probleme": "Le signe d’augmentation disparaît à l’affichage.",
+  "correction": "Crit. +",
+  "justification": "L’abréviation conserve l’augmentation de la probabilité de coup critique dans les sept caractères visibles.",
+  "msgid": "Critical Up",
+  "msgstr": "Critique +",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "oubli",
+  "probleme": "La vue coupe le libellé à « Stat ha » et masque le signe d’augmentation.",
+  "correction": "+Stat?",
+  "justification": "Le signe plus indique la hausse et le point d’interrogation indique que la statistique est indéterminée.",
+  "msgid": "Random Stat Up",
+  "msgstr": "Stat hasard +",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "oubli",
+  "probleme": "Le signe d’augmentation disparaît après « Esquive ».",
+  "correction": "Esq. +",
+  "justification": "L’abréviation permet d’afficher la statistique et le signe plus.",
+  "msgid": "Evasion Up",
+  "msgstr": "Esquive +",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "oubli",
+  "probleme": "Le signe d’augmentation disparaît à l’affichage.",
+  "correction": "Amitié+",
+  "justification": "Le retrait de l’espace conserve le signe plus dans les sept caractères visibles.",
+  "msgid": "Friendship Up",
+  "msgstr": "Amitié +",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "terminologie",
+  "probleme": "« Poireau » reprend le nom introduit dans Épée et Bouclier.",
+  "correction": "Bâton",
+  "justification": "« Bâton » est le nom officiel de cet objet dans Émeraude FR et SoulSilver FR, les jeux de référence du projet.",
+  "msgid": "Leek",
+  "msgstr": "Poireau",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "oubli",
+  "probleme": "La vue affiche « Soin % » et masque les PV.",
+  "correction": "% PV +",
+  "justification": "Le libellé conserve le pourcentage, les PV et le sens de la récupération dans les sept caractères visibles.",
+  "msgid": "Restore Pct Hp",
+  "msgstr": "Soin % PV",
+  "msgctxt": ""
+ }
+]
