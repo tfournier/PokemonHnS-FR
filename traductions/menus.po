@@ -7,14 +7,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : CHEN: Oh, misère…\nToujours aussi
+#. impatient!\p{B_PLAYER_NAME}.\pTu n’avais encore jamais combattu\navec des
+#. Pokémon, n’est-ce pas?\pDans un combat, les Dresseurs\nlancent leurs
+#. Pokémon pour qu’ils\lse battent entre eux.\p
 #: src/battle_controller_oak_old_man.c:51
 msgid ""
 "OAK: Oh, for Pete's sake…\\nSo pushy, as always.\\p{B_PLAYER_NAME}.\\pYou've"
 " never had a POKéMON battle\\nbefore, have you?\\pA POKéMON battle is when "
 "TRAINERS\\npit their POKéMON against each\\lother.\\p"
 msgstr ""
-"CHEN: Oh, misère…\\nToujours aussi impatient!\\p{B_PLAYER_NAME}.\\pTu "
+"CHEN: Oh, misère…\\nToujours aussi insistant!\\p{B_PLAYER_NAME}.\\pTu "
 "n’avais encore jamais combattu\\navec des Pokémon, n’est-ce pas?\\pDans un "
 "combat, les Dresseurs\\nlancent leurs Pokémon pour qu’ils\\lse battent entre"
 " eux.\\p"
@@ -57,10 +62,13 @@ msgstr ""
 msgid "OAK: Lowering the foe's stats\\nwill put you at an advantage.\\p"
 msgstr "CHEN: Baisser les stats de\\nl’ennemi te donne l’avantage.\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : CHEN: Non, on ne peut pas fuir\nd’un combat
+#. contre un Dresseur!\p
 #: src/battle_controller_oak_old_man.c:56
 msgid "OAK: No! There's no running away\\nfrom a TRAINER POKéMON battle!\\p"
-msgstr "CHEN: Non, on ne peut pas fuir\\nd’un combat contre un Dresseur!\\p"
+msgstr "CHEN: Non, on ne peut pas fuir\\nun combat contre un Dresseur!\\p"
 
 #. source : patch FR actuel
 #: src/battle_controller_oak_old_man.c:57
@@ -1000,10 +1008,13 @@ msgstr "FRERE & SŒUR"
 msgid "SALON MAIDEN"
 msgstr "AS DU SALON"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : STAR DU DOME
+#. ancien (Émeraude FR officiel) : Star DU DOME
 #: src/battle_main.c:368 src/battle_main.c:440
 msgid "DOME ACE"
-msgstr "Star DU DOME"
+msgstr "Star du Dôme"
 
 #. source : Émeraude FR officiel
 #: src/battle_main.c:369 src/battle_main.c:458
@@ -1045,25 +1056,39 @@ msgstr "Motard"
 msgid "BURGLAR"
 msgstr "Pillard"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : Poképédia (classe de Dresseurs, Rouge Feu/Vert Feuille) : Engineer
+#. = Mécano
+#. ancien (traduction manuelle (style SoulSilver)) : INGENIEUR
 #: src/battle_main.c:387
 msgid "ENGINEER"
-msgstr "INGENIEUR"
+msgstr "Mécano"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : SoulSilver FR officiel
+#. lot : C2b_donnees
+#. preuve : glossaire : Loubard (classe, banque 730)
+#. ancien (traduction manuelle (style SoulSilver)) : CRANE CHAUVE
 #: src/battle_main.c:390
 msgid "CUE BALL"
-msgstr "CRANE CHAUVE"
+msgstr "Loubard"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : SoulSilver FR officiel
+#. lot : C2b_donnees
+#. preuve : glossaire : Croupier (classe, banque 730)
+#. ancien (traduction manuelle (style SoulSilver)) : JOUEUR
 #: src/battle_main.c:391
 msgid "GAMER"
-msgstr "JOUEUR"
+msgstr "Croupier"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : Poképédia (classe de Dresseurs, Rouge Feu/Vert Feuille) : Rocker
+#. (RFVF)
+#. ancien (traduction manuelle (style SoulSilver)) : ROCKEUR
 #: src/battle_main.c:395
 msgid "ROCKER"
-msgstr "ROCKEUR"
+msgstr "Rocker"
 
 #. source : SoulSilver FR officiel
 #: src/battle_main.c:396 src/battle_main.c:451
@@ -1103,20 +1128,28 @@ msgstr "Boss Rocket"
 msgid "TEAM ROCKET"
 msgstr "Rocket"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : Poképédia (classe de Dresseurs, Rouge Feu/Vert Feuille) :
+#. Channeler = Exorciste
+#. ancien (traduction manuelle (style SoulSilver)) : MEDIUM
 #: src/battle_main.c:410
 msgid "CHANNELER"
-msgstr "MEDIUM"
+msgstr "Exorciste"
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/battle_main.c:412
 msgid "COOL COUPLE"
 msgstr "COUPLE COOL"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : Poképédia (classe de Dresseurs, Rouge Feu/Vert Feuille) : Duo
+#. Baston (RFVF)
+#. ancien (traduction manuelle (style SoulSilver)) : TANDEM
 #: src/battle_main.c:414
 msgid "CRUSH KIN"
-msgstr "TANDEM"
+msgstr "Duo Baston"
 
 #. source : traduction nouvelle
 #. lot : H_interface
@@ -1126,10 +1159,14 @@ msgstr "TANDEM"
 msgid "{PKMN} PROF."
 msgstr "Prof."
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : Poképédia (classe de Dresseurs, Rouge Feu/Vert Feuille) : Crush
+#. Girl = Fille Baston
+#. ancien (traduction manuelle (style SoulSilver)) : FILLE TANDEM
 #: src/battle_main.c:418
 msgid "CRUSH GIRL"
-msgstr "FILLE TANDEM"
+msgstr "Fille Baston"
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/battle_main.c:425
@@ -1219,10 +1256,12 @@ msgid ""
 msgstr ""
 "Le talent {B_LAST_ABILITY} de {B_BUFF1} empêche de changer de Pokémon!\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : très 
 #: src/battle_message.c:76
 msgid "sharply "
-msgstr "très "
+msgstr "forte "
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : en hausse!
@@ -1236,13 +1275,14 @@ msgid "fell!"
 msgstr "baissé!"
 
 #. source : SoulSilver FR officiel (adapté)
-#. lot : C1_restes
-#. preuve : 197:750 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\naugmente!
-#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX}: {B_BUFF1}
-#. {B_BUFF2}monte!
+#. lot : C2b_donnees
+#. preuve :  197:750 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0,
+#. 0}\naugmente! ; forme nominale « en … hausse/baisse » pour les fragments
+#. ancien (SoulSilver FR officiel (adapté)) : {B_BUFF1} du
+#. {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}augmente!
 #: src/battle_message.c:79
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}rose!"
-msgstr "{B_BUFF1} du {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}augmente!"
+msgstr "{B_BUFF1} du {B_DEF_NAME_WITH_PREFIX} en {B_BUFF2}hausse!"
 
 #. source : Émeraude FR officiel (adapté)
 #. lot : C1_restes
@@ -1326,10 +1366,12 @@ msgstr "Vous avez battu {B_TRAINER1_NAME_WITH_CLASS}!\\p"
 msgid "{B_OPPONENT_MON1_NAME} appeared!\\p"
 msgstr "{B_OPPONENT_MON1_NAME} apparaît!\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Un {B_OPPONENT_MON1_NAME} sauvage apparaît!\p
 #: src/battle_message.c:91 src/battle_message.c:94
 msgid "You encountered a wild {B_OPPONENT_MON1_NAME}!\\p"
-msgstr "Un {B_OPPONENT_MON1_NAME} sauvage apparaît!\\p"
+msgstr "{B_OPPONENT_MON1_NAME} sauvage apparaît!\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:92
@@ -1345,22 +1387,23 @@ msgstr ""
 msgid "Wild {B_OPPONENT_MON1_NAME} appeared!\\nRun? Press {B_BUTTON}.\\p"
 msgstr "{B_OPPONENT_MON1_NAME} sauvage apparaît!\\nFuir? Touche {B_BUTTON}.\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Un {B_OPPONENT_MON1_NAME} sauvage
+#. apparaît!{PAUSE 127}
 #: src/battle_message.c:95
 msgid "You encountered a wild {B_OPPONENT_MON1_NAME}!{PAUSE 127}"
-msgstr "Un {B_OPPONENT_MON1_NAME} sauvage apparaît!{PAUSE 127}"
+msgstr "{B_OPPONENT_MON1_NAME} sauvage apparaît!{PAUSE 127}"
 
-#. source : Émeraude FR officiel (adapté)
-#. lot : C1_restes
-#. preuve : Émeraude FR : « Un {B_OPPONENT_MON2_NAME} et un
-#. {B_OPPONENT_MON1_NAME}\nsauvages apparaissent!\p »
-#. ancien (patch FR actuel) : Oh! Un {B_OPPONENT_MON1_NAME} et un
-#. {B_OPPONENT_MON2_NAME} sauvages!\p
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (Émeraude FR officiel (adapté)) : Oh! Un {B_OPPONENT_MON1_NAME} et
+#. un {B_OPPONENT_MON2_NAME} sauvages apparaissent!\p
 #: src/battle_message.c:96
 msgid ""
 "Oh! A wild {B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME} appeared!\\p"
 msgstr ""
-"Oh! Un {B_OPPONENT_MON1_NAME} et un {B_OPPONENT_MON2_NAME} sauvages "
+"Oh! {B_OPPONENT_MON1_NAME} et {B_OPPONENT_MON2_NAME} sauvages "
 "apparaissent!\\p"
 
 #. source : patch FR actuel
@@ -1758,15 +1801,19 @@ msgstr ""
 "Victoire sur {B_TRAINER1_NAME_WITH_CLASS} et "
 "{B_TRAINER2_NAME_WITH_CLASS}!\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : énormément 
 #: src/battle_message.c:189
 msgid "drastically "
-msgstr "énormément "
+msgstr "très forte "
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : énormément 
 #: src/battle_message.c:190
 msgid "severely "
-msgstr "énormément "
+msgstr "très forte "
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -1831,10 +1878,13 @@ msgstr "Oublier une capacité et la remplacer par {B_BUFF2}?"
 msgid "{B_BUFF1} forgot {B_BUFF2}…\\p"
 msgstr "{B_BUFF1} oublie {B_BUFF2}…\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {PAUSE 32}{B_BUFF1} doit-il renoncer à apprendre
+#. {B_BUFF2}?
 #: src/battle_message.c:203
 msgid "{PAUSE 32}Do you want to give up on having {B_BUFF1} learn {B_BUFF2}?"
-msgstr "{PAUSE 32}{B_BUFF1} doit-il renoncer à apprendre {B_BUFF2}?"
+msgstr "{PAUSE 32}Renoncer à apprendre {B_BUFF2} à {B_BUFF1}?"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -1908,10 +1958,12 @@ msgstr "Panique! Vous perdez {B_BUFF1}¥…"
 msgid "You gave ¥{B_BUFF1} to the winner…"
 msgstr "Vous donnez {B_BUFF1}¥ au gagnant…"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : La défaite vous laisse sans voix!
 #: src/battle_message.c:216
 msgid "You were overwhelmed by your defeat!"
-msgstr "La défaite vous laisse sans voix!"
+msgstr "La défaite vous accable!"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -2231,10 +2283,13 @@ msgstr "L’équipe {B_ATK_TEAM1} n’est plus protégée par Rune Protect!"
 msgid "{B_ATK_NAME_WITH_PREFIX} went to sleep!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} s’endort!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} dort et récupère ses
+#. PV!
 #: src/battle_message.c:261
 msgid "{B_ATK_NAME_WITH_PREFIX} slept and restored its HP!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} dort et récupère ses PV!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} s’endort et récupère ses PV!"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -2303,10 +2358,13 @@ msgstr "{B_DEF_NAME_WITH_PREFIX} est piégé dans le tourbillon!"
 msgid "{B_DEF_NAME_WITH_PREFIX} was wrapped by {B_ATK_NAME_WITH_PREFIX2}!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} est LIGOTE par {B_ATK_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} est pincé par
+#. {B_DEF_NAME_WITH_PREFIX2}!
 #: src/battle_message.c:271
 msgid "{B_ATK_NAME_WITH_PREFIX} clamped down on {B_DEF_NAME_WITH_PREFIX2}!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} est pincé par {B_DEF_NAME_WITH_PREFIX2}!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} pince {B_DEF_NAME_WITH_PREFIX2}!"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -2680,10 +2738,14 @@ msgstr ""
 msgid "{B_ATK_NAME_WITH_PREFIX} is afflicted by the curse!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est touché par\\nla Malédiction!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Des Picots sont éparpillés tout autour de
+#. l’équipe {B_DEF_TEAM2}!
 #: src/battle_message.c:324
 msgid "Spikes were scattered on the ground all around {B_DEF_TEAM2} team!"
-msgstr "Des Picots sont éparpillés tout autour de l’équipe {B_DEF_TEAM2}!"
+msgstr ""
+"Des Picots sont éparpillés au sol tout autour de l’équipe {B_DEF_TEAM2}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:325
@@ -3001,10 +3063,14 @@ msgstr ""
 msgid "{B_ATK_NAME_WITH_PREFIX} swapped Abilities with its target!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} échange son talent avec la cible!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} scelle les capacités
+#. communes à la cible!
 #: src/battle_message.c:360
 msgid "{B_ATK_NAME_WITH_PREFIX} sealed any moves its target shares with it!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} scelle les capacités communes à la cible!"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} scelle les capacités qu’il partage avec sa cible!"
 
 #. source : SoulSilver FR officiel (adapté)
 #. lot : C1_restes
@@ -3210,51 +3276,59 @@ msgstr ""
 "{B_ATK_NAME_WITH_PREFIX} est blessé par {B_BUFF1} du "
 "{B_DEF_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Il copie {B_BUFF2} de {B_BUFF1}!
 #: src/battle_message.c:380
 msgid "It traced {B_BUFF1}'s {B_BUFF2}!"
-msgstr "Il copie {B_BUFF2} de {B_BUFF1}!"
+msgstr "Il copie le talent {B_BUFF2} de {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : très 
 #: src/battle_message.c:382
 msgid "harshly "
-msgstr "très "
+msgstr "forte "
 
 #. source : SoulSilver FR officiel (adapté)
-#. lot : C1_restes
-#. preuve : 197:750 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\naugmente!
-#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX}: {B_BUFF1}
-#. {B_BUFF2}monte!
+#. lot : C2b_donnees
+#. preuve :  197:750 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0,
+#. 0}\naugmente! ; forme nominale « en … hausse/baisse » pour les fragments
+#. ancien (SoulSilver FR officiel (adapté)) : {B_BUFF1} du
+#. {B_ATK_NAME_WITH_PREFIX} {B_BUFF2}augmente!
 #: src/battle_message.c:383
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}rose!"
-msgstr "{B_BUFF1} du {B_ATK_NAME_WITH_PREFIX} {B_BUFF2}augmente!"
+msgstr "{B_BUFF1} du {B_ATK_NAME_WITH_PREFIX} en {B_BUFF2}hausse!"
 
 #. source : SoulSilver FR officiel (adapté)
-#. lot : C1_restes
-#. preuve : 197:750 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\naugmente!
-#. ancien (patch FR actuel) : {B_BUFF1} de {B_SCR_NAME_WITH_PREFIX}
-#. {B_BUFF2}augmente!
+#. lot : C2b_donnees
+#. preuve :  197:750 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0,
+#. 0}\naugmente! ; forme nominale « en … hausse/baisse » pour les fragments
+#. ancien (SoulSilver FR officiel (adapté)) : {B_BUFF1} du
+#. {B_SCR_NAME_WITH_PREFIX} {B_BUFF2}augmente!
 #: src/battle_message.c:385
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}rose!"
-msgstr "{B_BUFF1} du {B_SCR_NAME_WITH_PREFIX} {B_BUFF2}augmente!"
+msgstr "{B_BUFF1} du {B_SCR_NAME_WITH_PREFIX} en {B_BUFF2}hausse!"
 
 #. source : SoulSilver FR officiel (adapté)
-#. lot : C1_restes
-#. preuve : 197:762 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\nbaisse!
-#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX}: {B_BUFF1}
-#. {B_BUFF2}chute!
+#. lot : C2b_donnees
+#. preuve :  197:762 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\nbaisse!
+#. ; forme nominale « en … hausse/baisse » pour les fragments
+#. ancien (SoulSilver FR officiel (adapté)) : {B_BUFF1} du
+#. {B_ATK_NAME_WITH_PREFIX} {B_BUFF2}baisse!
 #: src/battle_message.c:386
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}fell!"
-msgstr "{B_BUFF1} du {B_ATK_NAME_WITH_PREFIX} {B_BUFF2}baisse!"
+msgstr "{B_BUFF1} du {B_ATK_NAME_WITH_PREFIX} en {B_BUFF2}baisse!"
 
 #. source : SoulSilver FR officiel (adapté)
-#. lot : C1_restes
-#. preuve : 197:762 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\nbaisse!
-#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX}: {B_BUFF1}
-#. {B_BUFF2}chute!
+#. lot : C2b_donnees
+#. preuve :  197:762 — Ah, {STRVAR_1 13, 1, 0} du {STRVAR_1 1, 0, 0}\nbaisse!
+#. ; forme nominale « en … hausse/baisse » pour les fragments
+#. ancien (SoulSilver FR officiel (adapté)) : {B_BUFF1} du
+#. {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}baisse!
 #: src/battle_message.c:387
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}fell!"
-msgstr "{B_BUFF1} du {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}baisse!"
+msgstr "{B_BUFF1} du {B_DEF_NAME_WITH_PREFIX} en {B_BUFF2}baisse!"
 
 #. source : Émeraude FR officiel
 #: src/battle_message.c:388
@@ -3266,13 +3340,17 @@ msgstr "Coup critique!"
 msgid "It's a one-hit KO!"
 msgstr "K.O. en un coup!"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Un…{PAUSE 10}deux…{PAUSE 10}et…{PAUSE 10}{PAUSE
+#. 20}{PLAY_SE 56 0}hop!\p
 #: src/battle_message.c:390
 msgid ""
 "One…{PAUSE 10}two…{PAUSE 10}and…{PAUSE 10}{PAUSE 20}{PLAY_SE "
 "SE_BALL_BOUNCE_1}ta-da!\\p"
 msgstr ""
-"Un…{PAUSE 10}deux…{PAUSE 10}et…{PAUSE 10}{PAUSE 20}{PLAY_SE 56 0}hop!\\p"
+"Un…{PAUSE 10}deux…{PAUSE 10}et…{PAUSE 10}{PAUSE 20}{PLAY_SE "
+"SE_BALL_BOUNCE_1}hop!\\p"
 
 #. source : Émeraude FR officiel
 #: src/battle_message.c:391
@@ -3311,10 +3389,12 @@ msgstr "{PLAY_SE SE_FLEE}{B_BUFF1} sauvage fuit!"
 msgid "No! There's no running from a Trainer battle!\\p"
 msgstr "On ne s’enfuit pas d’un\\ncombat de Dresseurs!\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Tu ne peux pas fuir!\p
 #: src/battle_message.c:397
 msgid "You can't escape!\\p"
-msgstr "Tu ne peux pas fuir!\\p"
+msgstr "Vous ne pouvez pas fuir!\\p"
 
 #. source : Émeraude FR officiel
 #: src/battle_message.c:398
@@ -3993,22 +4073,28 @@ msgstr "Une odeur apaisante flotte dans les airs!"
 msgid "Items can't be used now.{PAUSE 64}"
 msgstr "Objets inutilisables ici.{PAUSE 64}"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Grâce à {B_LAST_ITEM}, {B_BUFF1} de
+#. {B_SCR_NAME_WITH_PREFIX2} {B_BUFF2}monte!
 #: src/battle_message.c:492
 msgid ""
 "Using {B_LAST_ITEM}, the {B_BUFF1} of {B_SCR_NAME_WITH_PREFIX2} "
 "{B_BUFF2}rose!"
 msgstr ""
-"Grâce à {B_LAST_ITEM}, {B_BUFF1} de {B_SCR_NAME_WITH_PREFIX2} "
-"{B_BUFF2}monte!"
+"Grâce à {B_LAST_ITEM}, {B_BUFF1} de {B_SCR_NAME_WITH_PREFIX2} est en "
+"{B_BUFF2}hausse!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Grâce à {B_LAST_ITEM}, {B_BUFF1} de
+#. {B_SCR_NAME_WITH_PREFIX2} {B_BUFF2}baisse!
 #: src/battle_message.c:493
 msgid ""
 "Using {B_LAST_ITEM}, the {B_BUFF1} of {B_SCR_NAME_WITH_PREFIX2} "
 "{B_BUFF2}fell!"
 msgstr ""
-"Grâce à {B_LAST_ITEM}, {B_BUFF1} de {B_SCR_NAME_WITH_PREFIX2} "
+"Grâce à {B_LAST_ITEM}, {B_BUFF1} de {B_SCR_NAME_WITH_PREFIX2} est en "
 "{B_BUFF2}baisse!"
 
 #. source : Émeraude FR officiel
@@ -4081,10 +4167,14 @@ msgstr "Il faut lancer une BALL, non?\\nJe… je ferai de mon mieux!"
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} took the attack!"
 msgstr "{B_DEF_ABILITY} du {B_DEF_NAME_WITH_PREFIX}\\nreçoit l’attaque!"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : DOOM DESIRE = Carnareket (Émeraude FR, glossaire)
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} s’en remet à Vœu
+#. Destructeur!
 #: src/battle_message.c:502
 msgid "{B_ATK_NAME_WITH_PREFIX} chose Doom Desire as its destiny!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} s’en remet à Vœu Destructeur!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} s’en remet à Carnareket!"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -4470,11 +4560,15 @@ msgstr ""
 msgid "{B_DEF_NAME_WITH_PREFIX} acquired {B_DEF_ABILITY}!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} acquiert {B_DEF_ABILITY}!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : glossaire : Pics Toxik (SoulSilver FR)
+#. ancien (patch FR actuel) : Des pics toxiques se répandent autour de
+#. l’équipe {B_DEF_TEAM2}!
 #: src/battle_message.c:557
 msgid ""
 "Poison spikes were scattered on the ground all around {B_DEF_TEAM2} team!"
-msgstr "Des pics toxiques se répandent autour de l’équipe {B_DEF_TEAM2}!"
+msgstr "Des Pics Toxik se répandent autour de l’équipe {B_DEF_TEAM2}!"
 
 #. source : SoulSilver FR officiel (adapté)
 #. lot : B_soulsilver
@@ -4492,10 +4586,13 @@ msgstr ""
 msgid "{B_ATK_NAME_WITH_PREFIX} surrounded itself with a veil of water!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} s’entoure d’un voile d’eau!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} lévite grâce au
+#. magnétisme!
 #: src/battle_message.c:560
 msgid "{B_ATK_NAME_WITH_PREFIX} levitated with electromagnetism!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} lévite grâce au magnétisme!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} lévite grâce à l’électromagnétisme!"
 
 #. source : SoulSilver FR officiel
 #: src/battle_message.c:561
@@ -4706,36 +4803,30 @@ msgstr "Le terrain redevient normal!"
 msgid "The grass disappeared from the battlefield."
 msgstr "L’herbe disparaît du terrain."
 
-#. source : SoulSilver FR officiel (adapté)
-#. lot : C1_restes
-#. preuve : 197:622 — {STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0}\naugmente sa
-#. stat {STRVAR_1 13, 2, 0}!
-#. ancien (patch FR actuel) : {B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}
-#. {B_BUFF2}monte sa {B_BUFF1}!
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (SoulSilver FR officiel (adapté)) : {B_DEF_ABILITY} de
+#. {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}augmente sa stat {B_BUFF1}!
 #: src/battle_message.c:595
 msgid ""
 "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} {B_BUFF2}raised its {B_BUFF1}!"
 msgstr ""
-"{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}augmente sa stat "
-"{B_BUFF1}!"
+"{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}: {B_BUFF1} en {B_BUFF2}hausse!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:596
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} maxed its {B_BUFF1}!"
 msgstr "{B_DEF_ABILITY}: {B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} au max!"
 
-#. source : SoulSilver FR officiel (adapté)
-#. lot : C1_restes
-#. preuve : 197:622 — {STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0}\naugmente sa
-#. stat {STRVAR_1 13, 2, 0}!
-#. ancien (patch FR actuel) : {B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX}
-#. {B_BUFF2}augmente sa {B_BUFF1}!
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (SoulSilver FR officiel (adapté)) : {B_ATK_ABILITY} de
+#. {B_ATK_NAME_WITH_PREFIX} {B_BUFF2}augmente sa stat {B_BUFF1}!
 #: src/battle_message.c:597
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY} {B_BUFF2}raised its {B_BUFF1}!"
 msgstr ""
-"{B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX} {B_BUFF2}augmente sa stat "
-"{B_BUFF1}!"
+"{B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX}: {B_BUFF1} en {B_BUFF2}hausse!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:598
@@ -4777,10 +4868,13 @@ msgstr "{B_SCR_NAME_WITH_PREFIX} a du mal à démarrer!"
 msgid "{B_ATK_NAME_WITH_PREFIX} finally got its act together!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} arrive enfin à s’y mettre sérieusement!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX} le
+#. fatigue!
 #: src/battle_message.c:605
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY} takes its toll!"
-msgstr "{B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX} le fatigue!"
+msgstr "{B_ATK_ABILITY} fait perdre des PV à {B_ATK_NAME_WITH_PREFIX}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:606
@@ -4815,10 +4909,13 @@ msgstr ""
 "{B_ATK_NAME_WITH_PREFIX} fouille {B_DEF_NAME_WITH_PREFIX2} et trouve "
 "{B_LAST_ITEM}!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : L’équipe {B_EFF_TEAM1} est trop nerveuse pour
+#. les Baies!
 #: src/battle_message.c:612
 msgid "{B_EFF_TEAM1} team is too nervous to eat Berries!"
-msgstr "L’équipe {B_EFF_TEAM1} est trop nerveuse pour les Baies!"
+msgstr "L’équipe {B_EFF_TEAM1} est trop nerveuse pour manger des Baies!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:613
@@ -4842,10 +4939,13 @@ msgstr ""
 "{B_SCR_NAME_WITH_PREFIX} passe {B_LAST_ITEM} à {B_EFF_NAME_WITH_PREFIX2} "
 "grâce à {B_LAST_ABILITY}!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Des pierres s’enfoncent dans
+#. {B_SCR_NAME_WITH_PREFIX2}!
 #: src/battle_message.c:616
 msgid "Pointed stones dug into {B_SCR_NAME_WITH_PREFIX2}!"
-msgstr "Des pierres s’enfoncent dans {B_SCR_NAME_WITH_PREFIX2}!"
+msgstr "Des pierres pointues s’enfoncent dans {B_SCR_NAME_WITH_PREFIX2}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:617
@@ -4890,14 +4990,17 @@ msgstr "{B_SCR_NAME_WITH_PREFIX} récupère des PV!"
 msgid "{B_SCR_NAME_WITH_PREFIX} became cloaked in mystical moonlight!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} est baigné par des rayons de lune!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_BUFF1} de {B_ATK_NAME_WITH_PREFIX} est bloqué
+#. par {B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX2}!
 #: src/battle_message.c:624
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} was disabled by "
 "{B_DEF_NAME_WITH_PREFIX2}'s {B_DEF_ABILITY}!"
 msgstr ""
-"{B_BUFF1} de {B_ATK_NAME_WITH_PREFIX} est bloqué par {B_DEF_ABILITY} de "
-"{B_DEF_NAME_WITH_PREFIX2}!"
+"{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX2} bloque {B_BUFF1} de "
+"{B_ATK_NAME_WITH_PREFIX}!"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -4908,12 +5011,15 @@ msgstr ""
 msgid "{B_ATK_NAME_WITH_PREFIX} acquired {B_ATK_ABILITY}!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} acquiert {B_ATK_ABILITY}!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}
+#. {B_BUFF2}baisse sa {B_BUFF1}!
 #: src/battle_message.c:626
 msgid ""
 "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} {B_BUFF2}lowered its {B_BUFF1}!"
 msgstr ""
-"{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} {B_BUFF2}baisse sa {B_BUFF1}!"
+"{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}: {B_BUFF1} en {B_BUFF2}baisse!"
 
 #. source : Émeraude FR officiel (adapté)
 #. lot : C1_restes
@@ -4926,14 +5032,17 @@ msgstr ""
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} won't go any higher!"
 msgstr "Ah, {B_BUFF1} de {B_DEF_NAME_WITH_PREFIX} n’ira pas plus haut!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_CURRENT_MOVE} de {B_ATK_NAME_WITH_PREFIX} est
+#. renvoyé par {B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX2}!
 #: src/battle_message.c:628
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE} was bounced back by "
 "{B_DEF_NAME_WITH_PREFIX2}'s {B_DEF_ABILITY}!"
 msgstr ""
-"{B_CURRENT_MOVE} de {B_ATK_NAME_WITH_PREFIX} est renvoyé par {B_DEF_ABILITY}"
-" de {B_DEF_NAME_WITH_PREFIX2}!"
+"{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX2} renvoie {B_CURRENT_MOVE} de "
+"{B_ATK_NAME_WITH_PREFIX}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:629
@@ -4977,11 +5086,14 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} ne peut pas guérir!\\p"
 msgid "This move effect is not done yet!\\p"
 msgstr "Cet effet n’est pas encore\\nimplémenté!\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Une toile gluante s’étend sous l’équipe
+#. {B_DEF_TEAM2}!
 #: src/battle_message.c:634
 msgid ""
 "A sticky web has been laid out on the ground around {B_DEF_TEAM2} team!"
-msgstr "Une toile gluante s’étend sous l’équipe {B_DEF_TEAM2}!"
+msgstr "Une toile gluante est tendue au sol autour de l’équipe {B_DEF_TEAM2}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:635
@@ -4993,10 +5105,12 @@ msgstr "{B_DEF_NAME_WITH_PREFIX} passe en dernier!"
 msgid "{B_ATK_NAME_WITH_PREFIX} blew away Toxic Spikes!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} balaie les Pics Toxik!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} balaie Toile Gluante!
 #: src/battle_message.c:637
 msgid "{B_ATK_NAME_WITH_PREFIX} blew away Sticky Web!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} balaie Toile Gluante!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} balaie la Toile Gluante!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:638
@@ -5090,10 +5204,13 @@ msgstr "Le type {B_BUFF1} s’ajoute à {B_DEF_NAME_WITH_PREFIX2}!"
 msgid "{B_DEF_NAME_WITH_PREFIX} fell for the feint!"
 msgstr "{B_DEF_NAME_WITH_PREFIX} succombe à la Ruse!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} renonce à
+#. {B_CURRENT_MOVE}!
 #: src/battle_message.c:656
 msgid "{B_ATK_NAME_WITH_PREFIX} cannot use {B_CURRENT_MOVE}!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} renonce à {B_CURRENT_MOVE}!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser {B_CURRENT_MOVE}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:657
@@ -5105,23 +5222,32 @@ msgstr "{B_DEF_NAME_WITH_PREFIX} est couvert\\nde poudre!"
 msgid "When the flame touched the powder on the Pokémon, it exploded!"
 msgstr "La flamme touche la poudre sur le Pokémon et la fait exploser!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} n’a mangé aucune Baie,
+#. il ne peut pas roter!\p
 #: src/battle_message.c:659
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX} hasn't eaten any held Berries, so it can't possibly"
 " belch!\\p"
 msgstr ""
-"{B_ATK_NAME_WITH_PREFIX} n’a mangé aucune Baie, il ne peut pas roter!\\p"
+"{B_ATK_NAME_WITH_PREFIX} n’a mangé aucune Baie tenue, il ne peut pas "
+"roter!\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} vole les bonus de sa
+#. cible!
 #: src/battle_message.c:660
 msgid "{B_ATK_NAME_WITH_PREFIX} stole the target's boosted stats!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} vole les bonus de sa cible!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} vole les hausses de stats de sa cible!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : La gravité fait chuter {B_DEF_NAME_WITH_PREFIX}!
 #: src/battle_message.c:661
 msgid "{B_DEF_NAME_WITH_PREFIX} fell from the sky due to the gravity!"
-msgstr "La gravité fait chuter {B_DEF_NAME_WITH_PREFIX}!"
+msgstr "La Gravité fait tomber {B_DEF_NAME_WITH_PREFIX} du ciel!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:662
@@ -5170,10 +5296,14 @@ msgid ""
 msgstr ""
 "{B_DEF_NAME_WITH_PREFIX} suit les instructions de {B_ATK_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} peut réutiliser les
+#. sons!
 #: src/battle_message.c:671
 msgid "{B_ATK_NAME_WITH_PREFIX} can use sound-based moves again!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} peut réutiliser les sons!"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} peut de nouveau utiliser des capacités sonores!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:672
@@ -5184,10 +5314,12 @@ msgstr ""
 "Exécu-Son empêche {B_ATK_NAME_WITH_PREFIX2} d’utiliser certaines "
 "capacités!\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} se concentre!
 #: src/battle_message.c:673
 msgid "{B_ATK_NAME_WITH_PREFIX} concentrated intensely!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} se concentre!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} se concentre intensément!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:674
@@ -5243,18 +5375,15 @@ msgstr ""
 "{B_LAST_ABILITY} de {B_ATK_NAME_WITH_PREFIX} soigne "
 "{B_SCR_NAME_WITH_PREFIX2}!"
 
-#. source : SoulSilver FR officiel (adapté)
-#. lot : C1_restes
-#. preuve : 197:622 — {STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0}\naugmente sa
-#. stat {STRVAR_1 13, 2, 0}!
-#. ancien (patch FR actuel) : {B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX}
-#. {B_BUFF2}augmente sa {B_BUFF1}!
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (SoulSilver FR officiel (adapté)) : {B_SCR_ABILITY} de
+#. {B_SCR_NAME_WITH_PREFIX} {B_BUFF2}augmente sa stat {B_BUFF1}!
 #: src/battle_message.c:684
 msgid ""
 "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} {B_BUFF2}raised its {B_BUFF1}!"
 msgstr ""
-"{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX} {B_BUFF2}augmente sa stat "
-"{B_BUFF1}!"
+"{B_SCR_ABILITY} de {B_SCR_NAME_WITH_PREFIX}: {B_BUFF1} en {B_BUFF2}hausse!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:685
@@ -5341,10 +5470,13 @@ msgstr "{B_SCR_NAME_WITH_PREFIX} trouve {B_LAST_ITEM}!"
 msgid "Both Pokémon will perish in three turns!"
 msgstr "Les deux Pokémon tomberont en 3 tours!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : L’aura de
+#. {B_DEF_NAME_WITH_PREFIX}\ns’intensifie!
 #: src/battle_message.c:702
 msgid "{B_DEF_NAME_WITH_PREFIX}'s aura flared to life!"
-msgstr "L’aura de {B_DEF_NAME_WITH_PREFIX}\\ns’intensifie!"
+msgstr "L’aura de {B_DEF_NAME_WITH_PREFIX} s’embrase!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:703
@@ -5440,20 +5572,25 @@ msgid ""
 "trainer!\\p"
 msgstr "Le lien avec son Dresseur galvanise {B_ATK_NAME_WITH_PREFIX}!\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : Poképédia : Amphinobi de Sacha (Ash-Greninja)
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} change de forme!\p
 #: src/battle_message.c:718
 msgid "{B_ATK_NAME_WITH_PREFIX} became Ash-Greninja!\\p"
-msgstr "{B_ATK_NAME_WITH_PREFIX} change de forme!\\p"
+msgstr "{B_ATK_NAME_WITH_PREFIX} devient AMPHINOBI de Sacha!\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:719
 msgid "The sunlight turned extremely harsh!"
 msgstr "Le soleil devient très ardent!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Le soleil redevient normal!
 #: src/battle_message.c:720
 msgid "The extremely harsh sunlight faded!"
-msgstr "Le soleil redevient normal!"
+msgstr "Le soleil extrêmement ardent se dissipe!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:721
@@ -5575,10 +5712,12 @@ msgid ""
 "{B_ATK_NAME_WITH_PREFIX} can no longer escape because it used No Retreat!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} ne peut plus fuir à cause d’Ultime Bastion!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} craint plus le feu!
 #: src/battle_message.c:742
 msgid "{B_DEF_NAME_WITH_PREFIX} became weaker to fire!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} craint plus le feu!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} devient plus sensible au feu!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:743
@@ -5600,10 +5739,12 @@ msgstr "Un Gaz Inhibiteur envahit les lieux!"
 msgid "The effects of the neutralizing gas wore off!"
 msgstr "Les effets du Gaz Inhibiteur se dissipent!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} est trop lourd!
 #: src/battle_message.c:747
 msgid "{B_DEF_NAME_WITH_PREFIX} is too heavy to be lifted!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} est trop lourd!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} est trop lourd pour être soulevé!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:748
@@ -5640,10 +5781,13 @@ msgstr ""
 msgid "{B_ATK_NAME_WITH_PREFIX} surrounded itself with its Z-Power!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} s’entoure de sa Force Z!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} déchaîne sa capacité Z!
 #: src/battle_message.c:754
 msgid "{B_ATK_NAME_WITH_PREFIX} unleashes its full-force Z-Move!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} déchaîne sa capacité Z!"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} déchaîne toute la puissance de sa capacité Z!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:755
@@ -5658,12 +5802,16 @@ msgstr ""
 msgid "{B_SCR_NAME_WITH_PREFIX} boosted its stats using its Z-Power!"
 msgstr "{B_SCR_NAME_WITH_PREFIX} augmente ses stats grâce à la Force Z!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX} augmente son taux de
+#. critique grâce à la Force Z!
 #: src/battle_message.c:757
 msgid ""
 "{B_SCR_NAME_WITH_PREFIX} boosted its critical-hit ratio using its Z-Power!"
 msgstr ""
-"{B_SCR_NAME_WITH_PREFIX} augmente son taux de critique grâce à la Force Z!"
+"{B_SCR_NAME_WITH_PREFIX} augmente ses chances de coup critique grâce à la "
+"Force Z!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:758
@@ -5682,10 +5830,13 @@ msgid ""
 msgstr ""
 "{B_ATK_NAME_WITH_PREFIX} parvient à expulser le poison pour vous rassurer!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} se réveille pour vous
+#. rassurer!
 #: src/battle_message.c:762
 msgid "{B_ATK_NAME_WITH_PREFIX} shook itself awake so you wouldn't worry!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} se réveille pour vous rassurer!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} se secoue et se réveille pour vous rassurer!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:763
@@ -5714,15 +5865,20 @@ msgstr ""
 "{B_ATK_NAME_WITH_PREFIX} fait fondre la glace de sa flamme intérieure pour "
 "vous rassurer!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} tient bon pour ne pas
+#. te faire de peine!
 #: src/battle_message.c:766
 msgid "{B_DEF_NAME_WITH_PREFIX} toughed it out so you wouldn't feel sad!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} tient bon pour ne pas te faire de peine!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} tient bon pour ne pas vous faire de peine!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} a vidé son électricité!
 #: src/battle_message.c:767
 msgid "{B_ATK_NAME_WITH_PREFIX} used up all its electricity!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} a vidé son électricité!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} a épuisé toute son électricité!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:768
@@ -5786,42 +5942,63 @@ msgstr ""
 "{B_SCR_ABILITY} du {B_SCR_NAME_WITH_PREFIX}\\nempêche {B_DEF_ABILITY} "
 "du\\l{B_DEF_NAME_WITH_PREFIX2} de fonctionner!"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} prépare\nun Carapiège!
 #: src/battle_message.c:776
 msgid "{B_ATK_NAME_WITH_PREFIX} set a shell trap!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} prépare\\nun Carapiège!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} prépare un Carapiège!"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Le Carapiège de {B_ATK_NAME_WITH_PREFIX}\nn’a
+#. pas fonctionné!
 #: src/battle_message.c:777
 msgid "{B_ATK_NAME_WITH_PREFIX}'s shell trap didn't work!"
-msgstr "Le Carapiège de {B_ATK_NAME_WITH_PREFIX}\\nn’a pas fonctionné!"
+msgstr "Le Carapiège de {B_ATK_NAME_WITH_PREFIX} n’a pas fonctionné!"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Les picots autour de l’équipe {B_ATK_TEAM2}
+#. disparaissent!
 #: src/battle_message.c:778
 msgid "The spikes disappeared from the ground around {B_ATK_TEAM2} team!"
-msgstr "Les picots autour de l’équipe {B_ATK_TEAM2} disparaissent!"
+msgstr "Les Picots autour de l’équipe {B_ATK_TEAM2} disparaissent!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : glossaire : Pics Toxik
+#. ancien (patch FR actuel) : Les pics toxiques autour de l’équipe
+#. {B_ATK_TEAM2} disparaissent!
 #: src/battle_message.c:779
 msgid ""
 "The poison spikes disappeared from the ground around {B_ATK_TEAM2} team!"
-msgstr "Les pics toxiques autour de l’équipe {B_ATK_TEAM2} disparaissent!"
+msgstr "Les Pics Toxik autour de l’équipe {B_ATK_TEAM2} disparaissent!"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : La toile gluante autour de l’équipe
+#. {B_ATK_TEAM2} disparaît!
 #: src/battle_message.c:780
 msgid ""
 "The sticky web has disappeared from the ground around {B_ATK_TEAM2} team!"
-msgstr "La toile gluante autour de l’équipe {B_ATK_TEAM2} disparaît!"
+msgstr "La Toile Gluante autour de l’équipe {B_ATK_TEAM2} disparaît!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Les pierres pointues de l’équipe {B_ATK_TEAM2}
+#. disparaissent!
 #: src/battle_message.c:781
 msgid "The pointed stones disappeared from around {B_ATK_TEAM2} team!"
-msgstr "Les pierres pointues de l’équipe {B_ATK_TEAM2} disparaissent!"
+msgstr "Les pierres pointues autour de l’équipe {B_ATK_TEAM2} disparaissent!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} n’a pas pu se protéger
+#. totalement!
 #: src/battle_message.c:782
 msgid "{B_DEF_NAME_WITH_PREFIX} couldn't fully protect itself and got hurt!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} n’a pas pu se protéger totalement!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} se protège mal et subit des dégâts!"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -5842,10 +6019,12 @@ msgstr "{B_BUFF1} est ranimé et prêt à se battre!"
 msgid "{B_BUFF1} had its HP restored."
 msgstr "Les PV de {B_BUFF1} sont restaurés."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_BUFF1} est soigné!
 #: src/battle_message.c:786
 msgid "{B_BUFF1} had its status healed!"
-msgstr "{B_BUFF1} est soigné!"
+msgstr "Le statut de {B_BUFF1} est soigné!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:787
@@ -5891,14 +6070,17 @@ msgstr "La gelure de {B_SCR_NAME_WITH_PREFIX} est guérie!"
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE} cured its frostbite!"
 msgstr "{B_CURRENT_MOVE} de {B_SCR_NAME_WITH_PREFIX} guérit sa gelure!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX} utilise sa Feuille
+#. Copieuse et copie les stats de l’ennemi!
 #: src/battle_message.c:795
 msgid ""
 "{B_SCR_NAME_WITH_PREFIX} used its Mirror Herb to mirror its opponent's stat "
 "changes!"
 msgstr ""
-"{B_SCR_NAME_WITH_PREFIX} utilise sa Feuille Copieuse et copie les stats de "
-"l’ennemi!"
+"{B_SCR_NAME_WITH_PREFIX} copie les hausses de stats adverses avec sa Feuille"
+" Copieuse!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:796 src/battle_message.c:799
@@ -5927,10 +6109,14 @@ msgstr ""
 msgid "Bright light is about to burst out of {B_ATK_NAME_WITH_PREFIX2}!"
 msgstr "Une lumière vive va jaillir de {B_ATK_NAME_WITH_PREFIX2}!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} retrouve sa force grâce
+#. à l’Ultra-Explosion!
 #: src/battle_message.c:802
 msgid "{B_ATK_NAME_WITH_PREFIX} regained its true power through Ultra Burst!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} retrouve sa force grâce à l’Ultra-Explosion!"
+msgstr ""
+"{B_ATK_NAME_WITH_PREFIX} retrouve sa vraie force grâce à l’Ultra-Explosion!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:803
@@ -5942,15 +6128,21 @@ msgstr "Le reste de l’équipe gagne des Points Exp. grâce au Multi Exp!\\p"
 msgid "{B_BUFF1} cannot be used!\\p"
 msgstr "Impossible d’utiliser {B_BUFF1}!\\p"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} est\nen pleine
+#. salaison!
 #: src/battle_message.c:805
 msgid "{B_DEF_NAME_WITH_PREFIX} is being salt cured!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} est\\nen pleine salaison!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} est en pleine salaison!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} est englué de sirop
+#. collant!
 #: src/battle_message.c:807
 msgid "{B_DEF_NAME_WITH_PREFIX} got covered in sticky candy syrup!"
-msgstr "{B_DEF_NAME_WITH_PREFIX} est englué de sirop collant!"
+msgstr "{B_DEF_NAME_WITH_PREFIX} est englué de sirop sucré!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:808
@@ -5978,11 +6170,15 @@ msgstr "Les pointes d’acier autour de l’équipe {B_ATK_TEAM2} disparaissent!
 msgid "{B_DEF_TEAM1} Pokémon got trapped with vines!"
 msgstr "Des lianes piègent l’équipe {B_DEF_TEAM1}!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : Pokémon Épée/Bouclier FR : Fouet G-Max (G-Max Vine Lash)
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} est fouetté par G-Max
+#. Fouet Liane!
 #: src/battle_message.c:813
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX} is hurt by G-Max Vine Lash's ferocious beating!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} est fouetté par G-Max Fouet Liane!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} est fouetté par Fouet G-Max!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:814
@@ -6009,12 +6205,15 @@ msgstr "{B_ATK_NAME_WITH_PREFIX} brûle dans les flammes de Fournaise G-Max!"
 msgid "{B_DEF_TEAM1} Pokémon became surrounded by rocks!"
 msgstr "Des rochers entourent l’équipe {B_DEF_TEAM1}!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : Pokémon Épée/Bouclier FR : Téphra G-Max (G-Max Volcalith)
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} est blessé par les
+#. rochers de G-Max Monolithe!
 #: src/battle_message.c:819
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX} is hurt by rocks thrown out by G-Max Volcalith!"
-msgstr ""
-"{B_ATK_NAME_WITH_PREFIX} est blessé par les rochers de G-Max Monolithe!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} est blessé par les rochers de Téphra G-Max!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:820
@@ -6059,20 +6258,27 @@ msgstr "Une mer de feu cerne l’équipe {B_DEF_TEAM2}!"
 msgid "{B_ATK_NAME_WITH_PREFIX} was hurt by the sea of fire!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} est blessé par la mer de feu!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : La mer de feu de l’équipe {B_ATK_TEAM2}
+#. disparaît!
 #: src/battle_message.c:828
 msgid "The sea of fire around {B_ATK_TEAM2} team disappeared!"
-msgstr "La mer de feu de l’équipe {B_ATK_TEAM2} disparaît!"
+msgstr "La mer de feu autour de l’équipe {B_ATK_TEAM2} disparaît!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : L’équipe {B_DEF_TEAM2} s’embourbe!
 #: src/battle_message.c:829
 msgid "A swamp enveloped {B_DEF_TEAM2} team!"
-msgstr "L’équipe {B_DEF_TEAM2} s’embourbe!"
+msgstr "Un marécage cerne l’équipe {B_DEF_TEAM2}!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Le marécage de l’équipe {B_ATK_TEAM2} disparaît!
 #: src/battle_message.c:830
 msgid "The swamp around {B_ATK_TEAM2} team disappeared!"
-msgstr "Le marécage de l’équipe {B_ATK_TEAM2} disparaît!"
+msgstr "Le marécage autour de l’équipe {B_ATK_TEAM2} disparaît!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:831
@@ -6106,10 +6312,13 @@ msgstr "L’objet {B_LAST_ITEM} est épuisé…"
 msgid "{B_ATK_NAME_WITH_PREFIX} lost its {B_BUFF1} type!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} perd son type {B_BUFF1}!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} fait de sa queue un
+#. leurre!
 #: src/battle_message.c:836
 msgid "{B_ATK_NAME_WITH_PREFIX} shed its tail to create a decoy!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} fait de sa queue un leurre!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} détache sa queue pour faire un leurre!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:838
@@ -6168,26 +6377,33 @@ msgstr "Le brouillard est épais..."
 msgid "The fog lifted."
 msgstr "Le brouillard se dissipe."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_DEF_NAME_WITH_PREFIX} fait briller sa
+#. carapace! Les types sont faussés!
 #: src/battle_message.c:848
 msgid ""
 "{B_DEF_NAME_WITH_PREFIX} made its shell gleam! It's distorting type "
 "matchups!"
 msgstr ""
-"{B_DEF_NAME_WITH_PREFIX} fait briller sa carapace! Les types sont faussés!"
+"{B_DEF_NAME_WITH_PREFIX} fait briller sa carapace! Les affinités de types "
+"changent!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:849
 msgid "{B_ATK_NAME_WITH_PREFIX} is going all out for this attack!"
 msgstr "{B_ATK_NAME_WITH_PREFIX} met le paquet sur cette attaque!"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_SCR_NAME_WITH_PREFIX} est avalé par Oyacata
+#. et devient son commandant!
 #: src/battle_message.c:850
 msgid ""
 "{B_SCR_NAME_WITH_PREFIX} was swallowed by Dondozo and became Dondozo's "
 "commander!"
 msgstr ""
-"{B_SCR_NAME_WITH_PREFIX} est avalé par Oyacata et devient son commandant!"
+"{B_SCR_NAME_WITH_PREFIX} est avalé par OYACATA et devient son commandant!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:851
@@ -6199,10 +6415,12 @@ msgstr "{B_PLAYER_NAME} joue de la {B_LAST_ITEM}.\\pQuel air entraînant!"
 msgid "{B_PLAYER_NAME} played the {B_LAST_ITEM}."
 msgstr "{B_PLAYER_NAME} joue de la {B_LAST_ITEM}."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Les Pokémon endormis se réveillent!
 #: src/battle_message.c:853
 msgid "The Pokémon hearing the flute awoke!"
-msgstr "Les Pokémon endormis se réveillent!"
+msgstr "Les Pokémon se réveillent au son de la flûte!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:854
@@ -6239,10 +6457,12 @@ msgstr "Un courant électrique parcourt le terrain!"
 msgid "The battlefield seems weird!"
 msgstr "Le terrain devient bizarre!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Un doigt agité lance {B_CURRENT_MOVE}!
 #: src/battle_message.c:861
 msgid "Waggling a finger let it use {B_CURRENT_MOVE}!"
-msgstr "Un doigt agité lance {B_CURRENT_MOVE}!"
+msgstr "En agitant un doigt, le Pokémon lance {B_CURRENT_MOVE}!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:862
@@ -6320,10 +6540,12 @@ msgid ""
 "{B_LAST_ITEM}!"
 msgstr "Le {B_LAST_ITEM} protège le talent de {B_ATK_NAME_WITH_PREFIX}!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_ATK_NAME_WITH_PREFIX} a peur de bouger!
 #: src/battle_message.c:876
 msgid "{B_ATK_NAME_WITH_PREFIX} is too scared to move!"
-msgstr "{B_ATK_NAME_WITH_PREFIX} a peur de bouger!"
+msgstr "{B_ATK_NAME_WITH_PREFIX} est trop effrayé pour bouger!"
 
 #. source : patch FR actuel
 #: src/battle_message.c:877
@@ -6345,10 +6567,13 @@ msgstr "Le Spectre était OSSATUEUR!\\p\\n"
 msgid "{B_TRAINER1_NAME}: {B_OPPONENT_MON1_NAME}, come back!"
 msgstr "{B_TRAINER1_NAME}: Reviens, {B_OPPONENT_MON1_NAME}!"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_PLAYER_NAME} lance un CAILLOU\nsur
+#. {B_OPPONENT_MON1_NAME}!
 #: src/battle_message.c:881
 msgid "{B_PLAYER_NAME} threw a ROCK\\nat the {B_OPPONENT_MON1_NAME}!"
-msgstr "{B_PLAYER_NAME} lance un CAILLOU\\nsur {B_OPPONENT_MON1_NAME}!"
+msgstr "{B_PLAYER_NAME} lance un caillou\\nsur {B_OPPONENT_MON1_NAME}!"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -6441,10 +6666,14 @@ msgstr "{PAUSE 16}Connexion en cours…"
 msgid "BATTLE{CLEAR_TO 56}BAG\\nPOKéMON{CLEAR_TO 56}RUN"
 msgstr "ATTAQUE{CLEAR_TO 56}SAC\\nPOKéMON{CLEAR_TO 56}FUITE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : BALL / {POKEBLOCK} / SE RAP. / FUITE
+#. ancien (Émeraude FR officiel) : BALL{CLEAR_TO 56}{POKEBLOCK}\nSE
+#. RAP.{CLEAR_TO 56}Fuite
 #: src/battle_message.c:1426
 msgid "BALL{CLEAR_TO 56}{POKEBLOCK}\\nGO NEAR{CLEAR_TO 56}RUN"
-msgstr "BALL{CLEAR_TO 56}{POKEBLOCK}\\nSE RAP.{CLEAR_TO 56}Fuite"
+msgstr "BALL{CLEAR_TO 56}{POKEBLOCK}\\nSE RAP.{CLEAR_TO 56}FUITE"
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/battle_message.c:1427
@@ -6511,10 +6740,12 @@ msgstr ""
 msgid "SAFARI BALLS"
 msgstr "SAFARI BALLS"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Reste: 
 #: src/battle_message.c:1440
 msgid "Left: $"
-msgstr "Reste: "
+msgstr "Reste: $"
 
 #. source : Émeraude FR officiel
 #: src/battle_message.c:1441
@@ -6595,10 +6826,13 @@ msgstr "{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}Nul"
 msgid " is"
 msgstr " est"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR (en capitales) : TOURNOI DE COMBAT
+#. ancien (Émeraude FR officiel) : TOURNOI DE Combat
 #: src/battle_message.c:1462
 msgid "BATTLE TOURNEY"
-msgstr "TOURNOI DE Combat"
+msgstr "TOURNOI DE COMBAT"
 
 #. source : Émeraude FR officiel
 #: src/battle_message.c:1466
@@ -6620,30 +6854,38 @@ msgstr "Demi-finale"
 msgid "Final"
 msgstr "Finale"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Le grand espoir!\p
 #: src/battle_message.c:1472
 msgid "The great new hope!\\p"
-msgstr "Le grand espoir!\\p"
+msgstr "Le grand nouvel espoir!\\p"
 
 #. source : patch FR actuel
 #: src/battle_message.c:1473
 msgid "Will the championship dream come true?!\\p"
 msgstr "Le rêve du titre va-t-il se réaliser?!\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Un ex-champion!\p
 #: src/battle_message.c:1474
 msgid "A former champion!\\p"
-msgstr "Un ex-champion!\\p"
+msgstr "Un ancien Maître!\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Le dernier champion!\p
 #: src/battle_message.c:1475
 msgid "The previous champion!\\p"
-msgstr "Le dernier champion!\\p"
+msgstr "Le Maître précédent!\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Le champion invaincu!\p
 #: src/battle_message.c:1476
 msgid "The unbeaten champion!\\p"
-msgstr "Le champion invaincu!\\p"
+msgstr "Le Maître invaincu!\\p"
 
 #. source : Émeraude FR officiel
 #: src/battle_message.c:1478
@@ -6956,10 +7198,12 @@ msgstr "alliée"
 msgid "the opposing"
 msgstr "adverse"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Restaure les stats
 #: src/battle_z_move.c:97
 msgid "Reset Lowered Stats"
-msgstr "Restaure les stats"
+msgstr "Rétablit les stats baissées"
 
 #. source : patch FR actuel
 #: src/battle_z_move.c:98
@@ -7057,10 +7301,12 @@ msgstr "Fraive"
 msgid "If the leaves grow long and curly,"
 msgstr "Si ses feuilles s’allongent quand elle"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : pousse, la Baie devient très amère.
 #: src/berry.c:143
 msgid "the Berry seems to grow very bitter."
-msgstr "pousse, la Baie devient très amère."
+msgstr "pousse, la Baie semble très amère."
 
 #. source : SoulSilver FR officiel
 #: src/berry.c:159
@@ -7159,10 +7405,12 @@ msgstr "Sitrus"
 msgid "Closely related to Oran. The large"
 msgstr "Variété proche de l’ORAN. Cette"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : grosse Baie a une saveur pleine.
 #: src/berry.c:281
 msgid "Berry has a well-rounded flavor."
-msgstr "grosse Baie a une saveur pleine."
+msgstr "grosse Baie a un goût équilibré."
 
 #. source : SoulSilver FR officiel
 #: src/berry.c:297
@@ -7237,10 +7485,12 @@ msgstr "pousser sans lumière."
 msgid "Iapapa"
 msgstr "Papaya"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Cette Baie est grosse et acide. Il lui
 #: src/berry.c:395
 msgid "The Berry is very big and sour."
-msgstr "Cette Baie est grosse et acide. Il lui"
+msgstr "Baie très grosse et acide. Il lui"
 
 #. source : Émeraude FR officiel
 #: src/berry.c:396
@@ -7511,10 +7761,12 @@ msgstr "d’où elle provient."
 msgid "Watmel"
 msgstr "Stekpa"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Une Baie énorme, pouvant atteindre
 #: src/berry.c:809
 msgid "A huge Berry, with some over 20"
-msgstr "Une Baie énorme, pouvant atteindre"
+msgstr "Une Baie énorme, dépassant parfois"
 
 #. source : Émeraude FR officiel
 #: src/berry.c:810
@@ -7696,20 +7948,24 @@ msgstr "Cobaba"
 msgid "This Berry is said to be a cross of"
 msgstr "Cette Baie serait un croisement de"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : deux Baies venues de très loin.
 #: src/berry.c:1086
 msgid "two Berries blown in from far away."
-msgstr "deux Baies venues de très loin."
+msgstr "deux Baies apportées par le vent."
 
 #. source : SoulSilver FR officiel
 #: src/berry.c:1102
 msgid "Payapa"
 msgstr "Yapap"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Sensible aux émotions humaines, elle
 #: src/berry.c:1108
 msgid "Said to sense human emotions, it swells"
-msgstr "Sensible aux émotions humaines, elle"
+msgstr "Elle sentirait nos émotions et"
 
 #. source : patch FR actuel
 #: src/berry.c:1109
@@ -7721,15 +7977,19 @@ msgstr "s’arrondit quand quelqu’un approche."
 msgid "Tanga"
 msgstr "Panga"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Au bout pousse une fleur dont les fins
 #: src/berry.c:1131
 msgid "It grows a flower at the tip that lures"
-msgstr "Au bout pousse une fleur dont les fins"
+msgstr "Au bout pousse une fleur aux pétales"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : pétales attirent les Pokémon Insecte.
 #: src/berry.c:1132
 msgid "Bug Pokémon with its stringy petals."
-msgstr "pétales attirent les Pokémon Insecte."
+msgstr "filiformes qui attirent les Insectes."
 
 #. source : SoulSilver FR officiel
 #: src/berry.c:1148
@@ -7766,15 +8026,19 @@ msgstr "pouvoir étrange. Un porte-bonheur prisé."
 msgid "Haban"
 msgstr "Fraigo"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Cette Baie perd son amertume si on
 #: src/berry.c:1200
 msgid "Less bitter if enough of this Berry"
-msgstr "Cette Baie perd son amertume si on"
+msgstr "Moins amère si on en fait réduire"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : la fait réduire. Idéale en confiture.
 #: src/berry.c:1201
 msgid "is boiled down. Makes a good jam."
-msgstr "la fait réduire. Idéale en confiture."
+msgstr "assez. Idéale en confiture."
 
 #. source : SoulSilver FR officiel
 #: src/berry.c:1217
@@ -7871,10 +8135,12 @@ msgstr "contenir le pouvoir de la vie."
 msgid "Apicot"
 msgstr "Abriko"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Une Baie mystique. Impossible de dire
 #: src/berry.c:1384
 msgid "A very mystifying Berry. No telling"
-msgstr "Une Baie mystique. Impossible de dire"
+msgstr "Baie déroutante. Impossible de dire"
 
 #. source : Émeraude FR officiel
 #: src/berry.c:1385
@@ -8001,10 +8267,14 @@ msgstr "Une Baie d’abord incroyablement"
 msgid "first, then extremely bitter."
 msgstr "épicée, puis extrêmement amère."
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : items.h MARANGA BERRY → Baie RANGMA (patch FR) ; Maranga Berries →
+#. Baies Rangma
+#. ancien (traduction manuelle (style SoulSilver)) : Marnga
 #: src/berry.c:1585
 msgid "Marnga"
-msgstr "Marnga"
+msgstr "Rangma"
 
 #. source : patch FR actuel
 #: src/berry.c:1591
@@ -8308,15 +8578,20 @@ msgstr "FERM.:"
 msgid "BERRY TAG"
 msgstr "ETIQUETTE"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Une Baie énorme, pouvant atteindre
 #: src/berry_tag_screen.c:184
 msgid "A huge Berry, with some over half a"
-msgstr "Une Baie énorme, pouvant atteindre"
+msgstr "Une Baie énorme, dépassant parfois"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (traduction manuelle (style SoulSilver)) : m découverte. Très
+#. sucrée.
 #: src/berry_tag_screen.c:185
 msgid "meter discovered. Exceedingly sweet."
-msgstr "m découverte. Très sucrée."
+msgstr "le demi-mètre. Terriblement sucrée."
 
 #. source : SoulSilver FR officiel
 #: src/challenge_menu.c:337 src/challenge_menu.c:343 src/challenge_menu.c:514
@@ -8445,13 +8720,12 @@ msgid "FAIRY TYPE isn't added to {PKMN}\\nthat got it in GEN VI."
 msgstr "Le TYPE Fée n’est pas ajouté aux\\nPokémon qui l’ont eu en GEN VI."
 
 #. source : traduction nouvelle
-#. lot : H_interface
-#. ancien (patch FR actuel) : Le TYPE Fée est ajouté / modifié chez\ncertains
-#. {PKMN}, comme en GEN VI.
+#. lot : C2b_donnees
+#. ancien (traduction nouvelle) : Le TYPE Fée est ajouté / modifié
+#. chez\ncertains Pokémon, comme en GEN VI.
 #: src/challenge_menu.c:387
 msgid "FAIRY TYPE is added / changed to\\ncertain {PKMN}, as in GEN VI."
-msgstr ""
-"Le TYPE Fée est ajouté / modifié chez\\ncertains Pokémon, comme en GEN VI."
+msgstr "Certains {PKMN} gagnent le type\\nFée, comme en GEN VI."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:390
@@ -8484,11 +8758,12 @@ msgid "Mints can be bought at the\\nFLOWER SHOP after the 3rd badge."
 msgstr "Les Menthes s’achètent chez le\\nFleuriste après le 3e Badge."
 
 #. source : traduction nouvelle
-#. lot : H_interface
-#. ancien (patch FR actuel) : Vos {PKMN} peuvent être mis K.O.\npar le Poison.
+#. lot : C2b_donnees
+#. ancien (traduction nouvelle) : Vos Pokémon peuvent être mis K.O.\npar le
+#. Poison.
 #: src/challenge_menu.c:402
 msgid "Your {PKMN} will faint if they are\\nPOISONED."
-msgstr "Vos Pokémon peuvent être mis K.O.\\npar le Poison."
+msgstr "Vos Pokémon seront mis K.O.\\ns’ils sont empoisonnés."
 
 #. source : traduction nouvelle
 #. lot : H_interface
@@ -8533,11 +8808,14 @@ msgid "RECHARGE MOVES like HYPER BEAM will\\nalways need to recharge after use."
 msgstr ""
 "Les CAPA. A RECHARGE comme Ultralaser\\nexigent toujours un tour de repos."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Si une CAPA. A RECHARGE met K.O.,\naucun tour de
+#. recharge n’est requis.
 #: src/challenge_menu.c:419
 msgid "If a RECHARGE MOVE KO's the opponent,\\nno recharge turn is needed."
 msgstr ""
-"Si une CAPA. A RECHARGE met K.O.,\\naucun tour de recharge n’est requis."
+"Si une capacité à recharge met K.O.\\nl’ennemi, pas de tour de recharge."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/challenge_menu.c:422
@@ -8615,10 +8893,12 @@ msgstr "CAPA. RECHARGE"
 msgid "NEXT"
 msgstr "SUIVANT"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (traduction manuelle (style SoulSilver)) : Sauver et continuer…
 #: src/challenge_menu.c:506
 msgid "Save choices and continue..."
-msgstr "Sauver et continuer…"
+msgstr "Sauver les choix et continuer…"
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:507
@@ -8753,19 +9033,22 @@ msgstr "Utilise l’horloge d’origine."
 msgid "Use a fake Real Time Clock.\\n1h in real life = 1 day in-game."
 msgstr "Utilise une fausse horloge.\\n1 h réelle = 1 jour dans le jeu."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Très faible chance de rencontre CHROMA.\nTaux
+#. par défaut de la Génération III.
 #: src/challenge_menu.c:638
 msgid ""
 "Very low chance of SHINY encounter.\\nDefault chance from Generation III."
-msgstr ""
-"Très faible chance de rencontre CHROMA.\\nTaux par défaut de la Génération "
-"III."
+msgstr "Rencontres CHROMA très rares.\\nTaux par défaut de la génération III."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Faible chance de rencontre CHROMA.\nTaux par
+#. défaut dès la Génération VI.
 #: src/challenge_menu.c:639
 msgid "Low chance of SHINY encounter.\\nDefault chance from Generation VI+."
-msgstr ""
-"Faible chance de rencontre CHROMA.\\nTaux par défaut dès la Génération VI."
+msgstr "Rencontres CHROMA rares.\\nTaux par défaut dès la génération VI."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:640
@@ -8777,10 +9060,12 @@ msgstr "Bonne chance de rencontre CHROMA."
 msgid "High chance of SHINY encounter."
 msgstr "Forte chance de rencontre CHROMA."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Très forte chance de rencontre CHROMA.
 #: src/challenge_menu.c:642
 msgid "Very high chance of SHINY encounter."
-msgstr "Très forte chance de rencontre CHROMA."
+msgstr "Rencontres CHROMA très fréquentes."
 
 #. source : traduction nouvelle
 #. lot : H_interface
@@ -8806,10 +9091,13 @@ msgstr "Les Pokémon sauvages vaincus\\nlâchent leur objet tenu."
 msgid "Powerful legendary {PKMN} are banned\\nin the BATTLE FRONTIER. Default."
 msgstr "Légendaires puissants bannis de la\\nZone de Combat. Par défaut."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Tous les légendaires peuvent participer\nà la
+#. Zone de Combat.
 #: src/challenge_menu.c:650
 msgid "All legendaries are allowed to\\nparticipate in the BATTLE FRONTIER."
-msgstr "Tous les légendaires peuvent participer\\nà la Zone de Combat."
+msgstr "Tous les légendaires sont admis\\nà la Zone de Combat."
 
 #. source : traduction nouvelle
 #. lot : H_interface
@@ -8827,10 +9115,13 @@ msgstr "Couleurs chromatiques d’origine\\npour tous les Pokémon. Par défaut.
 msgid "Some shiny {PKMN} have brand new\\ncolor palettes."
 msgstr "Certains Pokémon chromatiques ont\\nde nouvelles couleurs."
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (traduction manuelle (style SoulSilver)) : Aller aux options
+#. aléatoires.
 #: src/challenge_menu.c:657
 msgid "Continue to Randomizer options."
-msgstr "Aller aux options aléatoires."
+msgstr "Aller aux options du mode aléatoire."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:662
@@ -8923,14 +9214,14 @@ msgid "Static encounters will be the same\\nas in the base game."
 msgstr "Les rencontres fixes restent celles\\ndu jeu de base."
 
 #. source : traduction nouvelle
-#. lot : H_interface
-#. ancien (patch FR actuel) : {PKMN} nommés, {PKMN} du Casino, errants\net
-#. autres {PKMN} spéciaux inchangés.
+#. lot : C2b_donnees
+#. ancien (traduction nouvelle) : Pokémon nommés, du Casino, errants\net
+#. autres spéciaux inchangés.
 #: src/challenge_menu.c:725
 msgid ""
 "Named {PKMN}, casino {PKMN}, roamers, and\\nsome other special {PKMN} won't "
 "change."
-msgstr "Pokémon nommés, du Casino, errants\\net autres spéciaux inchangés."
+msgstr "Pokémon nommés, du Casino, errants\\net certains spéciaux inchangés."
 
 #. source : traduction nouvelle
 #. lot : H_interface
@@ -9017,11 +9308,11 @@ msgid "{PKMN} abilities stay the same as\\nin the base game."
 msgstr "Les talents des Pokémon restent\\nceux du jeu de base."
 
 #. source : traduction nouvelle
-#. lot : H_interface
-#. ancien (patch FR actuel) : Rend aléatoire les talents {PKMN}.
+#. lot : C2b_donnees
+#. ancien (traduction nouvelle) : Rend aléatoire les talents Pokémon.
 #: src/challenge_menu.c:749
 msgid "Randomize all {PKMN} abilities."
-msgstr "Rend aléatoire les talents Pokémon."
+msgstr "Talents des Pokémon aléatoires."
 
 #. source : traduction nouvelle
 #. lot : H_interface
@@ -9045,42 +9336,52 @@ msgstr "Rend les évolutions aléatoires."
 msgid "The {PKMN} that can potentially\\nevolve are unchanged."
 msgstr "Les Pokémon pouvant évoluer\\nrestent les mêmes."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Rend aléatoire les lignées d’évolution.\nDe
+#. nouvelles lignées apparaissent!
 #: src/challenge_menu.c:757
 msgid "Randomize evolution lines. Allows\\nnew evolution lines to occur!"
-msgstr ""
-"Rend aléatoire les lignées d’évolution.\\nDe nouvelles lignées apparaissent!"
+msgstr "Lignées d’évolution aléatoires.\\nDe nouvelles lignées possibles!"
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:760
 msgid "Type effectiveness chart will remain\\nthe same as in the base game."
 msgstr "La table des types reste la même\\nque dans le jeu de base."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Rend aléatoire les affinités de
+#. types.\nAttention: RISQUE DE BUGS!
 #: src/challenge_menu.c:761
 msgid "Randomize type effectiveness.\\nWARNING: CAN BE BUGGY!"
-msgstr "Rend aléatoire les affinités de types.\\nAttention: RISQUE DE BUGS!"
+msgstr "Affinités de types aléatoires.\\nATTENTION: RISQUE DE BUGS!"
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:764
 msgid "All found or received items are the\\nsame as in the base game."
 msgstr "Les objets trouvés ou reçus sont les\\nmêmes que dans le jeu de base."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Rend aléatoire les objets trouvés,\ncachés et
+#. reçus. Sauf OBJETS RARES!
 #: src/challenge_menu.c:765
 msgid "Randomize found, hidden and received\\nitems. KEY items are excluded!"
-msgstr ""
-"Rend aléatoire les objets trouvés,\\ncachés et reçus. Sauf OBJETS RARES!"
+msgstr "Objets trouvés, cachés et reçus\\naléatoires. Sauf OBJETS RARES!"
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:768
 msgid "Chaos mode disabled."
 msgstr "Mode chaos désactivé."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Toutes les options ci-dessus seront\ntrès
+#. chaotiques. DECONSEILLE!
 #: src/challenge_menu.c:769
 msgid "Every above chosen option will be\\nvery chaotic. NOT recommended!"
-msgstr "Toutes les options ci-dessus seront\\ntrès chaotiques. DECONSEILLE!"
+msgstr "Les options choisies plus haut seront\\ntrès chaotiques. DECONSEILLE!"
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/challenge_menu.c:772
@@ -9204,18 +9505,21 @@ msgstr "Les Pokémon K.O. sont inutilisables!\\nAucune autre règle imposée."
 msgid "One catch per route! Fainted {PKMN}\\ncan't be used anymore."
 msgstr "Une capture par route! Les Pokémon\\nK.O. ne sont plus utilisables."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Comme Normal, mais une défaite\nefface la
+#. SAUVEGARDE!
 #: src/challenge_menu.c:894
 msgid "Same rules as NORMAL but also\\ndeletes SAVE on battle loss!"
-msgstr "Comme Normal, mais une défaite\\nefface la SAUVEGARDE!"
+msgstr "Comme NORMAL, mais perdre un\\ncombat efface la SAUVEGARDE!"
 
 #. source : traduction nouvelle
-#. lot : H_interface
-#. ancien (patch FR actuel) : Seuls les {PKMN} jamais capturés\ncomptent en
-#. 1re rencontre. RECOMMANDE!
+#. lot : C2b_donnees
+#. ancien (traduction nouvelle) : Seuls les Pokémon jamais capturés\nsont 1re
+#. rencontre. CONSEILLE!
 #: src/challenge_menu.c:897
 msgid "Only not prior caught {PKMN} count\\nas first encounter. RECOMMENDED!"
-msgstr "Seuls les Pokémon jamais capturés\\nsont 1re rencontre. CONSEILLE!"
+msgstr "Seuls les Pokémon jamais capturés\\ncomptent. CONSEILLE!"
 
 #. source : traduction nouvelle
 #. lot : H_interface
@@ -9290,10 +9594,12 @@ msgstr "Aller aux options de difficulté."
 msgid "NUZLOCKE"
 msgstr "NUZLOCKE"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : CLAUSE CLONE
 #: src/challenge_menu.c:928
 msgid "DUPES CLAUSE"
-msgstr "CLAUSE CLONE"
+msgstr "CLAUSE DOUBLON"
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:934
@@ -9330,20 +9636,20 @@ msgid "No level cap. Overleveling possible."
 msgstr "Aucun niveau max. Surniveau possible."
 
 #. source : traduction nouvelle
-#. lot : H_interface
-#. ancien (patch FR actuel) : Niveau max = niveau du {PKMN} le\nplus fort de
-#. la prochaine Arène.
+#. lot : C2b_donnees
+#. ancien (traduction nouvelle) : Niveau max = niveau du Pokémon le\nplus fort
+#. de la prochaine Arène.
 #: src/challenge_menu.c:976
 msgid "Maximum level is based on the next\\ngym's highest {PKMN} level."
-msgstr "Niveau max = niveau du Pokémon le\\nplus fort de la prochaine Arène."
+msgstr "Niveau max = plus haut niveau des\\nPokémon de la prochaine Arène."
 
 #. source : traduction nouvelle
-#. lot : H_interface
-#. ancien (patch FR actuel) : Niveau max = niveau du {PKMN} le\nplus faible de
-#. la prochaine Arène.
+#. lot : C2b_donnees
+#. ancien (traduction nouvelle) : Niveau max = niveau du Pokémon le\nplus
+#. faible de la prochaine Arène.
 #: src/challenge_menu.c:977
 msgid "Maximum level is based on the next\\ngym's lowest {PKMN} level."
-msgstr "Niveau max = niveau du Pokémon le\\nplus faible de la prochaine Arène."
+msgstr "Niveau max = plus bas niveau des\\nPokémon de la prochaine Arène."
 
 #. source : traduction nouvelle
 #. lot : H_interface
@@ -9363,12 +9669,12 @@ msgstr ""
 "Les Pokémon gagnent 50% d’EXP. en\\nplus! Cumul avec EXP. MODE DIFFICILE."
 
 #. source : traduction nouvelle
-#. lot : H_interface
-#. ancien (patch FR actuel) : Les {PKMN} gagnent 2x plus d’EXP.!\nCumul avec
-#. EXP. MODE DIFFICILE.
+#. lot : C2b_donnees
+#. ancien (traduction nouvelle) : Les Pokémon gagnent 2x plus d’EXP.!\nCumul
+#. avec EXP. MODE DIFFICILE.
 #: src/challenge_menu.c:982
 msgid "{PKMN} gain double EXP. Points!\\nStacks with HARD MODE EXP."
-msgstr "Les Pokémon gagnent 2x plus d’EXP.!\\nCumul avec EXP. MODE DIFFICILE."
+msgstr "Les Pokémon gagnent le double d’EXP.!\\nCumul avec EXP. MODE DIFFICILE."
 
 #. source : traduction nouvelle
 #. lot : H_interface
@@ -9383,16 +9689,20 @@ msgstr "Pokémon: ZERO point d’EXP.!!!\\nVaut aussi en MODE DIFFICILE."
 msgid "The player can use battle items."
 msgstr "Objets utilisables en combat."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Le joueur ne peut PAS utiliser d’objets\nen
+#. combat. Objets tenus autorisés!
 #: src/challenge_menu.c:987
 msgid "The player can NOT use battle items.\\nHold items are allowed!"
-msgstr ""
-"Le joueur ne peut PAS utiliser d’objets\\nen combat. Objets tenus autorisés!"
+msgstr "Le joueur n’a PAS droit aux objets\\nde combat. Objets tenus autorisés!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Les Dresseurs ennemis utilisent des objets.
 #: src/challenge_menu.c:990
 msgid "Enemy trainers can use battle items."
-msgstr "Les Dresseurs ennemis utilisent des objets."
+msgstr "Dresseurs ennemis: objets autorisés."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:991
@@ -9524,10 +9834,12 @@ msgstr "TAILLE EQUIPE"
 msgid "LEVEL CAP"
 msgstr "NIVEAU MAX"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : BONUS D’EXP.
 #: src/challenge_menu.c:1039
 msgid "EXP. MULTIPLIER"
-msgstr "BONUS D’EXP."
+msgstr "MULT. D’EXP."
 
 #. source : patch FR actuel
 #: src/challenge_menu.c:1045
@@ -10089,10 +10401,13 @@ msgstr "INTELLIGENCE"
 msgid "TOUGHNESS"
 msgstr "ROBUSTESSE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : CATEGORIE NORMAL
+#. ancien (Émeraude FR officiel) : CATEGORIE Normal
 #: src/contest_painting.c:72 src/data/script_menu.h:544
 msgid "NORMAL RANK"
-msgstr "CATEGORIE Normal"
+msgstr "CATEGORIE NORMAL"
 
 #. source : Émeraude FR officiel
 #: src/contest_painting.c:73 src/data/script_menu.h:545
@@ -10778,12 +11093,17 @@ msgstr ""
 "{PLAYER} file au Centre Pokémon\\npour se remettre et revoir "
 "sa\\nstratégie…\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {PLAYER} rentre vite à la maison pour\nrevoir sa
+#. stratégie de combat…\p
 #: src/field_screen_effect.c:66
 msgid ""
 "{PLAYER} scurried back home, to regroup\\nand reconsider the battle "
 "strategy…\\p"
-msgstr "{PLAYER} rentre vite à la maison pour\\nrevoir sa stratégie de combat…\\p"
+msgstr ""
+"{PLAYER} rentre vite à la maison pour se\\nremettre et revoir sa "
+"stratégie…\\p"
 
 #. source : SoulSilver FR officiel
 #: data/text/fame_checker_frlg.inc:1092 src/data/trainers_frlg.party:8942
@@ -11209,60 +11529,93 @@ msgstr "Bandeau{CLEAR_TO 0x5E}64PCo"
 msgid "SCOPE LENS{CLEAR_TO 0x5E}64BP"
 msgstr "Lentilscope{CLEAR_TO 0x5E}64PCo"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : « Poudrénergie{CLEAR_TO 114}{FONT 1}50 »
+#. ancien (Émeraude FR officiel) : Poudrénergie{CLEAR_TO 114}{FONT 1}50
 #: src/field_specials.c:2630
 msgid "ENERGYPOWDER{CLEAR_TO 114}{FONT_SMALL}50"
-msgstr "Poudrénergie{CLEAR_TO 114}{FONT 1}50"
+msgstr "Poudrénergie{CLEAR_TO 114}{FONT_SMALL}50"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : « Racinénergie{CLEAR_TO 114}{FONT 1}80 »
+#. ancien (Émeraude FR officiel) : Racinénergie{CLEAR_TO 114}{FONT 1}80
 #: src/field_specials.c:2631
 msgid "ENERGY ROOT{CLEAR_TO 114}{FONT_SMALL}80"
-msgstr "Racinénergie{CLEAR_TO 114}{FONT 1}80"
+msgstr "Racinénergie{CLEAR_TO 114}{FONT_SMALL}80"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : « Poudre Soin{CLEAR_TO 114}{FONT 1}50 »
+#. ancien (Émeraude FR officiel) : Poudre Soin{CLEAR_TO 114}{FONT 1}50
 #: src/field_specials.c:2632
 msgid "HEAL POWDER{CLEAR_TO 114}{FONT_SMALL}50"
-msgstr "Poudre Soin{CLEAR_TO 114}{FONT 1}50"
+msgstr "Poudre Soin{CLEAR_TO 114}{FONT_SMALL}50"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : « Herbe Rappel{CLEAR_TO 108}{FONT 1}300 »
+#. ancien (Émeraude FR officiel) : Herbe Rappel{CLEAR_TO 108}{FONT 1}300
 #: src/field_specials.c:2633
 msgid "REVIVAL HERB{CLEAR_TO 108}{FONT_SMALL}300"
-msgstr "Herbe Rappel{CLEAR_TO 108}{FONT 1}300"
+msgstr "Herbe Rappel{CLEAR_TO 108}{FONT_SMALL}300"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : « Protéine{CLEAR_TO 102}{FONT 1}1000 »
+#. ancien (Émeraude FR officiel) : Protéine{CLEAR_TO 102}{FONT 1}1000
 #: src/field_specials.c:2634
 msgid "PROTEIN{CLEAR_TO 99}{FONT_SMALL}1,000"
-msgstr "Protéine{CLEAR_TO 102}{FONT 1}1000"
+msgstr "Protéine{CLEAR_TO 99}{FONT_SMALL}1000"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : « Fer{CLEAR_TO 102}{FONT 1}1000 »
+#. ancien (Émeraude FR officiel) : Fer{CLEAR_TO 102}{FONT 1}1000
 #: src/field_specials.c:2635
 msgid "IRON{CLEAR_TO 99}{FONT_SMALL}1,000"
-msgstr "Fer{CLEAR_TO 102}{FONT 1}1000"
+msgstr "Fer{CLEAR_TO 99}{FONT_SMALL}1000"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : « Carbone{CLEAR_TO 102}{FONT 1}1000 »
+#. ancien (Émeraude FR officiel) : Carbone{CLEAR_TO 102}{FONT 1}1000
 #: src/field_specials.c:2636
 msgid "CARBOS{CLEAR_TO 99}{FONT_SMALL}1,000"
-msgstr "Carbone{CLEAR_TO 102}{FONT 1}1000"
+msgstr "Carbone{CLEAR_TO 99}{FONT_SMALL}1000"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : « Calcium{CLEAR_TO 102}{FONT 1}1000 »
+#. ancien (Émeraude FR officiel) : Calcium{CLEAR_TO 102}{FONT 1}1000
 #: src/field_specials.c:2637
 msgid "CALCIUM{CLEAR_TO 99}{FONT_SMALL}1,000"
-msgstr "Calcium{CLEAR_TO 102}{FONT 1}1000"
+msgstr "Calcium{CLEAR_TO 99}{FONT_SMALL}1000"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : « Zinc{CLEAR_TO 102}{FONT 1}1000 »
+#. ancien (Émeraude FR officiel) : Zinc{CLEAR_TO 102}{FONT 1}1000
 #: src/field_specials.c:2638
 msgid "ZINC{CLEAR_TO 99}{FONT_SMALL}1,000"
-msgstr "Zinc{CLEAR_TO 102}{FONT 1}1000"
+msgstr "Zinc{CLEAR_TO 99}{FONT_SMALL}1000"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : « PV Plus{CLEAR_TO 102}{FONT 1}1000 »
+#. ancien (Émeraude FR officiel) : PV Plus{CLEAR_TO 102}{FONT 1}1000
 #: src/field_specials.c:2639
 msgid "HP UP{CLEAR_TO 99}{FONT_SMALL}1,000"
-msgstr "PV Plus{CLEAR_TO 102}{FONT 1}1000"
+msgstr "PV Plus{CLEAR_TO 99}{FONT_SMALL}1000"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : « PP Plus{CLEAR_TO 102}{FONT 1}3000 »
+#. ancien (Émeraude FR officiel) : PP Plus{CLEAR_TO 102}{FONT 1}3000
 #: src/field_specials.c:2640
 msgid "PP UP{CLEAR_TO 99}{FONT_SMALL}3,000"
-msgstr "PP Plus{CLEAR_TO 102}{FONT 1}3000"
+msgstr "PP Plus{CLEAR_TO 99}{FONT_SMALL}3000"
 
 #. source : Émeraude FR officiel (adapté)
 #. lot : C1_restes
@@ -11424,20 +11777,26 @@ msgstr "Poing-Eclair{CLEAR_TO 0x4E}48PCo"
 msgid "FIRE PUNCH{CLEAR_TO 0x4E}48BP"
 msgstr "Poing de Feu{CLEAR_TO 0x4E}48PCo"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Végé-Attak{CLEAR_TO 78}64PCo
 #: src/field_specials.c:2687
 msgid "FRENZY PLANT{CLEAR_TO 0x4E}64BP"
-msgstr "Végé-Attak{CLEAR_TO 78}64PCo"
+msgstr "Végé-Attak{CLEAR_TO 0x4E}64PCo"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Rafale Feu{CLEAR_TO 78}64PCo
 #: src/field_specials.c:2688
 msgid "BLAST BURN{CLEAR_TO 0x4E}64BP"
-msgstr "Rafale Feu{CLEAR_TO 78}64PCo"
+msgstr "Rafale Feu{CLEAR_TO 0x4E}64PCo"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Hydroblast{CLEAR_TO 78}64PCo
 #: src/field_specials.c:2689
 msgid "HYDRO CANNON{CLEAR_TO 0x4E}64BP"
-msgstr "Hydroblast{CLEAR_TO 78}64PCo"
+msgstr "Hydroblast{CLEAR_TO 0x4E}64PCo"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -11515,7 +11874,10 @@ msgstr "Tempêtesable"
 msgid "FOG DIAGONAL"
 msgstr "BROUILLARD DIAG."
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : FOND MARIN
+#. ancien (Émeraude FR officiel) : FOND Marin
 #: src/data/region_map/region_map_sections.json:406
 #: src/data/region_map/region_map_sections.json:414
 #: src/data/region_map/region_map_sections.json:422
@@ -11523,7 +11885,7 @@ msgstr "BROUILLARD DIAG."
 #: src/data/region_map/region_map_sections.json:438
 #: src/data/region_map/region_map_sections.json:561
 msgid "UNDERWATER"
-msgstr "FOND Marin"
+msgstr "Fond Marin"
 
 #. source : traduction nouvelle
 #. lot : C1_restes
@@ -12185,10 +12547,13 @@ msgstr "BREF"
 msgid "HOLD"
 msgstr "LONG"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (traduction manuelle (style SoulSilver)) : Enregistrer cet\nobjet en
+#. touchant ou\nen maintenant SELECT?
 #: src/item_menu.c:338
 msgid "Register this\\nitem by tapping or\\nholding SELECT?"
-msgstr "Enregistrer cet\\nobjet en touchant ou\\nen maintenant SELECT?"
+msgstr "Enregistrer cet\\nobjet: appui bref\\nou long sur SELECT?"
 
 #. source : patch FR actuel
 #: src/item_menu.c:2191
@@ -12309,10 +12674,13 @@ msgstr "Impossible d’utiliser des\\nPoké Balls pour le moment!\\p"
 msgid "You already used your\\nencounter for this area!\\p"
 msgstr "Vous avez déjà eu votre\\nrencontre dans cette zone!\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Clause Espèce: un Pokémon de\ncette lignée est
+#. déjà capturé!\p
 #: src/item_use.c:1188
 msgid "Species Clause: a POKéMON in\\nthis evolution line was caught!\\p"
-msgstr "Clause Espèce: un Pokémon de\\ncette lignée est déjà capturé!\\p"
+msgstr "Clause Espèce: un Pokémon de\\ncette lignée a déjà été capturé!\\p"
 
 #. source : patch FR actuel
 #: src/item_use.c:1189
@@ -12410,10 +12778,13 @@ msgstr "TELEPHERIQUE"
 msgid "GLASS WORKSHOP"
 msgstr "ATELIER DU VERRE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : CENTRE METEO
+#. ancien (Émeraude FR officiel) : CENTRE Météo
 #: data/maps/Route119/scripts.inc:601 src/landmark.c:34
 msgid "WEATHER INSTITUTE"
-msgstr "CENTRE Météo"
+msgstr "Centre Météo"
 
 #. source : Émeraude FR officiel
 #: src/data/region_map/region_map_sections.json:513
@@ -12426,20 +12797,26 @@ msgstr "SITE METEORE"
 msgid "TUNNELER'S RESTHOUSE"
 msgstr "REFUGE DES FOREURS"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : TUNNEL MERAZON
+#. ancien (Émeraude FR officiel) : Tunnel MERAZON
 #: src/data/region_map/region_map_sections.json:488 src/landmark.c:37
 msgid "RUSTURF TUNNEL"
-msgstr "Tunnel MERAZON"
+msgstr "Tunnel Mérazon"
 
 #. source : Émeraude FR officiel
 #: src/landmark.c:38
 msgid "POKéMON DAY CARE"
 msgstr "Pension Pokémon"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : ENTREE PARC SAFARI
+#. ancien (Émeraude FR officiel) : ENTREE Parc Safari
 #: src/landmark.c:39
 msgid "SAFARI ZONE ENTRANCE"
-msgstr "ENTREE Parc Safari"
+msgstr "Entrée Parc Safari"
 
 #. source : Émeraude FR officiel
 #: src/data/region_map/region_map_sections.json:529 src/data/script_menu.h:771
@@ -12447,21 +12824,26 @@ msgstr "ENTREE Parc Safari"
 msgid "MT. PYRE"
 msgstr "MONT MEMORIA"
 
-#. source : Émeraude FR officiel
-#. patch FR actuel : TREFONDS
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : GROTTE TREFONDS
+#. ancien (Émeraude FR officiel) : Grotte TREFONDS
 #: src/data/region_map/region_map_sections.json:545 src/landmark.c:41
 msgid "SHOAL CAVE"
-msgstr "Grotte TREFONDS"
+msgstr "Grotte Tréfonds"
 
 #. source : Émeraude FR officiel
 #: src/data/region_map/region_map_sections.json:553 src/landmark.c:42
 msgid "SEAFLOOR CAVERN"
 msgstr "CAVERNE FONDMER"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : GROTTE GRANITE
+#. ancien (Émeraude FR officiel) : Grotte GRANITE
 #: src/data/region_map/region_map_sections.json:446 src/landmark.c:43
 msgid "GRANITE CAVE"
-msgstr "Grotte GRANITE"
+msgstr "Grotte Granite"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -12500,10 +12882,13 @@ msgstr "SENTIER SINUROC"
 msgid "BERRY MASTER'S HOUSE"
 msgstr "MAISON DU MAITRE DES BAIES"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : GROTTE ISLAND
+#. ancien (Émeraude FR officiel) : Grotte ISLAND
 #: src/data/region_map/region_map_sections.json:659 src/landmark.c:49
 msgid "ISLAND CAVE"
-msgstr "Grotte ISLAND"
+msgstr "Grotte Island"
 
 #. source : Émeraude FR officiel
 #: src/data/region_map/region_map_sections.json:667 src/landmark.c:50
@@ -12550,23 +12935,29 @@ msgstr "PILIER CELESTE"
 msgid "MIRAGE TOWER"
 msgstr "TOUR MIRAGE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : GROTTE METAMO
+#. ancien (Émeraude FR officiel) : Grotte METAMO
 #: src/data/region_map/region_map_sections.json:1473
 #: src/data/region_map/region_map_sections.json:1663 src/landmark.c:58
 msgid "ALTERING CAVE"
-msgstr "Grotte METAMO"
+msgstr "Grotte Métamo"
 
 #. source : Émeraude FR officiel
 #: src/data/region_map/region_map_sections.json:1655 src/landmark.c:59
 msgid "DESERT UNDERPASS"
 msgstr "VOIE DU DESERT"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : MONT DRESSEURS
+#. ancien (Émeraude FR officiel) : MONT Dresseurs
 #: src/data/region_map/region_map_sections.json:1726
 #: src/data/region_map/region_map_sections.json:1794 src/landmark.c:60
 #: src/region_map.c:266
 msgid "TRAINER HILL"
-msgstr "MONT Dresseurs"
+msgstr "Mont Dresseurs"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : moi
@@ -12874,44 +13265,61 @@ msgstr "CYNTHIA"
 msgid "HALIE"
 msgstr "MAUD"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : PYRAMIDE NIV.1
+#. ancien (Émeraude FR officiel) : PYRAMIDE Niv.1
 #: src/map_name_popup.c:508
 msgid "PYRAMID FLOOR 1"
-msgstr "PYRAMIDE Niv.1"
+msgstr "Pyramide Niv.1"
 
-#. source : Émeraude FR officiel
-#. patch FR actuel : PYRAMIDE Niv.2
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : PYRAMIDE NIV.3 (associé à FLOOR 2)
+#. ancien (Émeraude FR officiel) : PYRAMIDE Niv.3
 #: src/map_name_popup.c:509
 msgid "PYRAMID FLOOR 2"
-msgstr "PYRAMIDE Niv.3"
+msgstr "Pyramide Niv.2"
 
-#. source : Émeraude FR officiel
-#. patch FR actuel : PYRAMIDE Niv.3
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : PYRAMIDE NIV.4 (associé à FLOOR 3)
+#. ancien (Émeraude FR officiel) : PYRAMIDE Niv.4
 #: src/map_name_popup.c:510
 msgid "PYRAMID FLOOR 3"
-msgstr "PYRAMIDE Niv.4"
+msgstr "Pyramide Niv.3"
 
-#. source : Émeraude FR officiel
-#. patch FR actuel : PYRAMIDE Niv.4
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : PYRAMIDE NIV.5 (associé à FLOOR 4)
+#. ancien (Émeraude FR officiel) : PYRAMIDE Niv.5
 #: src/map_name_popup.c:511
 msgid "PYRAMID FLOOR 4"
-msgstr "PYRAMIDE Niv.5"
+msgstr "Pyramide Niv.4"
 
-#. source : Émeraude FR officiel
-#. patch FR actuel : PYRAMIDE Niv.5
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : PYRAMIDE NIV.6 (associé à FLOOR 5)
+#. ancien (Émeraude FR officiel) : PYRAMIDE Niv.6
 #: src/map_name_popup.c:512
 msgid "PYRAMID FLOOR 5"
-msgstr "PYRAMIDE Niv.6"
+msgstr "Pyramide Niv.5"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : PYRAMIDE NIV.6
+#. ancien (Émeraude FR officiel) : PYRAMIDE Niv.6
 #: src/map_name_popup.c:513
 msgid "PYRAMID FLOOR 6"
-msgstr "PYRAMIDE Niv.6"
+msgstr "Pyramide Niv.6"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : PYRAMIDE NIV.7
+#. ancien (Émeraude FR officiel) : PYRAMIDE Niv.7
 #: src/map_name_popup.c:514
 msgid "PYRAMID FLOOR 7"
-msgstr "PYRAMIDE Niv.7"
+msgstr "Pyramide Niv.7"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : PYRAM.
@@ -13002,10 +13410,13 @@ msgstr "Ton équipe est complète.\\n{STR_VAR_1} ne peut pas être envoyé."
 msgid "A new TRAINER has arrived in\\nHOENN."
 msgstr "Un nouveau Dresseur est arrivé\\ndans la région de HOENN."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Un nouvel adversaire attend\nà la Tour de
+#. Combat.
 #: src/mystery_event_msg.c:12
 msgid "A new adversary has arrived in the\\nBATTLE TOWER."
-msgstr "Un nouvel adversaire attend\\nà la Tour de Combat."
+msgstr "Un nouvel adversaire est\\narrivé à la Tour de Combat."
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : Ces données sont inutilisables\ndans cette version.
@@ -13214,10 +13625,13 @@ msgstr "Pas de changement offert après\\nun Pokémon ennemi mis K.O."
 msgid "All buttons work as normal."
 msgstr "Touches normales."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Sur certains écrans, les boutons L et R\nservent
+#. de gauche et droite.
 #: src/option_menu.c:283
 msgid "On some screens the L and R buttons\\nact as left and right."
-msgstr "Sur certains écrans, les boutons L et R\\nservent de gauche et droite."
+msgstr "Sur certains écrans, L et R servent\\nde touches Gauche et Droite."
 
 #. source : patch FR actuel
 #: src/option_menu.c:284
@@ -13262,15 +13676,19 @@ msgstr "Courez sans appuyer sur B."
 msgid "Press and hold B to run."
 msgstr "Maintenez B pour courir."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Surfez vite sans appuyer sur B.
 #: src/option_menu.c:299
 msgid "Surf faster without pressing B."
-msgstr "Surfez vite sans appuyer sur B."
+msgstr "Surfez plus vite sans appuyer sur B."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Maintenez B pour surfer vite.
 #: src/option_menu.c:300
 msgid "Press and hold B to surf faster."
-msgstr "Maintenez B pour surfer vite."
+msgstr "Maintenez B pour surfer plus vite."
 
 #. source : patch FR actuel
 #: src/option_menu.c:303
@@ -13328,10 +13746,13 @@ msgstr "Vous ne recevrez pas d’appels.\\nLes événements spéciaux restent."
 msgid "Choose the frame surrounding the\\nwindows."
 msgstr "Choisissez le cadre qui entoure les\\nfenêtres."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Saute l’animation d’entrée\npour combattre plus
+#. vite.
 #: src/option_menu.c:322
 msgid "Skip the sliding animation\\nand enter battles faster."
-msgstr "Saute l’animation d’entrée\\npour combattre plus vite."
+msgstr "Saute l’animation d’entrée\\npour lancer le combat plus tôt."
 
 #. source : patch FR actuel
 #: src/option_menu.c:323
@@ -13358,15 +13779,19 @@ msgstr "Décors de combat d’origine."
 msgid "Modernized battle terrain\\nbackgrounds, from HnS."
 msgstr "Décors de combat modernes,\\ntirés de HnS."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Interface de combat GEN III.
 #: src/option_menu.c:334
 msgid "Original GEN III Battle UI."
-msgstr "Interface de combat GEN III."
+msgstr "Interface de combat GEN III d’origine."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Interface de combat GEN IV.
 #: src/option_menu.c:335
 msgid "Modernized GEN IV Battle UI."
-msgstr "Interface de combat GEN IV."
+msgstr "Interface de combat GEN IV modernisée."
 
 #. source : traduction nouvelle
 #. lot : H_interface
@@ -13381,45 +13806,55 @@ msgstr ""
 "{L_BUTTON}/{R_BUTTON}: changer de Ball."
 
 #. source : traduction nouvelle
-#. lot : H_interface
-#. ancien (patch FR actuel) : Masque le raccourci pour\nlancer vite des
-#. {PKMN}BALLS.
+#. lot : C2b_donnees
+#. ancien (traduction nouvelle) : Masque le raccourci pour\nlancer vite des
+#. Poké Balls.
 #: src/option_menu.c:339
 msgid "Disables the prompt to use\\n{PKMN}BALLS quickly."
-msgstr "Masque le raccourci pour\\nlancer vite des Poké Balls."
+msgstr "Masque l’indication du lancer\\nrapide de Poké Balls."
 
 #. source : patch FR actuel
 #: src/option_menu.c:342
 msgid "No quick running from battles."
 msgstr "Pas de fuite rapide en combat."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {L_BUTTON}+{R_BUTTON} puis {A_BUTTON} pour
+#. fuir\nun combat avant qu’il débute.
 #: src/option_menu.c:343
 msgid ""
 "Hold {L_BUTTON}+{R_BUTTON}, then {A_BUTTON} to run from\\nbattles before "
 "they start."
 msgstr ""
-"{L_BUTTON}+{R_BUTTON} puis {A_BUTTON} pour fuir\\nun combat avant qu’il "
-"débute."
+"Maintenez {L_BUTTON}+{R_BUTTON}, puis {A_BUTTON}\\npour fuir avant le "
+"combat."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Appuyez sur {B_BUTTON} pour placer le
+#. curseur\nsur Fuite une fois le combat lancé.
 #: src/option_menu.c:344
 msgid ""
 "Press {B_BUTTON} to move the cursor to the RUN\\noption after the battle "
 "started."
-msgstr ""
-"Appuyez sur {B_BUTTON} pour placer le curseur\\nsur Fuite une fois le combat"
-" lancé."
+msgstr "Avec {B_BUTTON}, le curseur va sur FUITE\\nune fois le combat lancé."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Appuyez sur {B_BUTTON} pour fuir un
+#. combat\navant qu’il commence.
 #: src/option_menu.c:345
 msgid "Press {B_BUTTON} to run from battles before\\nthey start."
-msgstr "Appuyez sur {B_BUTTON} pour fuir un combat\\navant qu’il commence."
+msgstr "Appuyez sur {B_BUTTON} pour fuir\\navant le début du combat."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Rappelle que vous pouvez fuir\nun combat avant
+#. qu’il débute.
 #: src/option_menu.c:348
 msgid "Enables a prompt to show that you\\ncan run away from battles."
-msgstr "Rappelle que vous pouvez fuir\\nun combat avant qu’il débute."
+msgstr "Affiche un rappel indiquant que\\nvous pouvez fuir le combat."
 
 #. source : patch FR actuel
 #: src/option_menu.c:349
@@ -13536,10 +13971,13 @@ msgstr "SOIN RAPIDE"
 msgid "UNIT SYSTEM"
 msgstr "UNITES"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : « numéros de MATCH PHONE » (trainers.inc)
+#. ancien (patch FR actuel) : APPELS
 #: src/option_menu.c:440
 msgid "MATCH CALLS"
-msgstr "APPELS"
+msgstr "MATCH PHONE"
 
 #. source : Émeraude FR officiel
 #: src/option_menu.c:446
@@ -13581,11 +14019,11 @@ msgid "QUICK RUN"
 msgstr "FUIR VITE"
 
 #. source : traduction nouvelle
-#. lot : H_interface
-#. ancien (patch FR actuel) : AIDE Fuite
+#. lot : C2b_donnees
+#. ancien (traduction nouvelle) : AIDE FUITE
 #: src/option_menu.c:491
 msgid "RUN PROMPT"
-msgstr "AIDE FUITE"
+msgstr "RAPPEL FUITE"
 
 #. source : Émeraude FR officiel
 #: src/option_menu.c:500 src/option_menu.c:539
@@ -13661,13 +14099,16 @@ msgstr ""
 msgid "It might affect {STR_VAR_1}'s stats.\\nAre you sure you want to use it?"
 msgstr "Cela peut modifier les stats de\\n{STR_VAR_1}. Voulez-vous l’utiliser?"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Les stats de {STR_VAR_1} ont peut-être\nchangé
+#. grâce à l’objet {STR_VAR_2}!{PAUSE_UNTIL_PRESS}
 #: src/party_menu.c:5201
 msgid ""
 "{STR_VAR_1}'s stats may have changed due\\nto the effects of the "
 "{STR_VAR_2}!{PAUSE_UNTIL_PRESS}"
 msgstr ""
-"Les stats de {STR_VAR_1} ont peut-être\\nchangé grâce à l’objet "
+"Les stats de {STR_VAR_1} ont peut-être\\nchangé sous l’effet de "
 "{STR_VAR_2}!{PAUSE_UNTIL_PRESS}"
 
 #. source : patch FR actuel
@@ -13939,11 +14380,13 @@ msgstr "{A_BUTTON}CHANGER {DPAD_UPDOWN}CAPA."
 msgid "{A_BUTTON}Toggle   {DPAD_UPDOWN}Moves"
 msgstr "{A_BUTTON}Changer {DPAD_UPDOWN}Capa."
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : ATT
 #: data/maps/SaffronCity_FightingDojo_hns/scripts.inc:195
 #: src/pokedex_plus_hgss.c:139
 msgid "ATK"
-msgstr "ATT"
+msgstr "AT"
 
 #. source : Émeraude FR officiel
 #: data/maps/SaffronCity_FightingDojo_hns/scripts.inc:197
@@ -13972,10 +14415,12 @@ msgstr "AS"
 msgid "SP.D"
 msgstr "DS"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : NIV
 #: src/pokedex_plus_hgss.c:149
 msgid "LVL"
-msgstr "NIV"
+msgstr "N."
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -13983,10 +14428,12 @@ msgstr "NIV"
 msgid "CATCH{0x5B}: "
 msgstr "CAPT.{0x5B}: "
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : LEGENDE
 #: src/pokedex_plus_hgss.c:158
 msgid "LEGENDARY"
-msgstr "LEGENDE"
+msgstr "LEGENDAIRE"
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:159
@@ -14021,10 +14468,12 @@ msgstr "GAIN EXP: "
 msgid "HATCH STEPS:"
 msgstr "PAS ECLOS.:"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : COURBE:
 #: src/pokedex_plus_hgss.c:170
 msgid "GROW: "
-msgstr "COURBE:"
+msgstr "COURBE: "
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:171
@@ -14109,10 +14558,13 @@ msgstr "FEE"
 msgid "GRASS"
 msgstr "PLANTE"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : nom officiel du groupe d’Œufs : Humanoïde
+#. ancien (patch FR actuel) : HUMAIN
 #: src/pokedex_plus_hgss.c:193
 msgid "HUMANE"
-msgstr "HUMAIN"
+msgstr "HUMANOIDE"
 
 #. source : traduction nouvelle
 #. lot : H_interface
@@ -14156,12 +14608,14 @@ msgstr "DRAGON"
 msgid "SEEN"
 msgstr "VU"
 
-#. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
-#. d’un autre texte)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (relu et corrigé à la main (le patch FR actuel donnait un morceau) :
+#. PRIS
 #: src/data/easy_chat/easy_chat_group_actions.h:424
 #: src/pokedex_plus_hgss.c:203
 msgid "OWN"
-msgstr "PRIS"
+msgstr "POSSEDER"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -14462,10 +14916,12 @@ msgstr "tient "
 msgid "Sweet"
 msgstr "Sucré"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (traduction manuelle (style SoulSilver)) : aléatoire %
 #: src/pokedex_plus_hgss.c:6850
 msgid "random %"
-msgstr "aléatoire %"
+msgstr "% aléatoire"
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:6854
@@ -14504,20 +14960,24 @@ msgstr " dans l’équipe"
 msgid "in "
 msgstr "en "
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : sait 
 #: src/pokedex_plus_hgss.c:6884
 msgid "knows "
-msgstr "sait "
+msgstr "connaît "
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/pokedex_plus_hgss.c:6889
 msgid "traded with "
 msgstr "échangé avec "
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (traduction manuelle (style SoulSilver)) :  dans l’équipe
 #: src/pokedex_plus_hgss.c:6895
 msgid "-type in party"
-msgstr " dans l’équipe"
+msgstr ": dans l’équipe"
 
 #. source : traduction nouvelle
 #. lot : H_interface
@@ -14598,25 +15058,33 @@ msgstr "Paldea"
 msgid " nature"
 msgstr " (nature)"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : Pokémon Épée/Bouclier FR : Salarsen Forme Aigüe
+#. ancien (traduction manuelle (style SoulSilver)) : natures Amplifiées
 #: src/pokedex_plus_hgss.c:6939
 msgid "amped natures"
-msgstr "natures Amplifiées"
+msgstr "natures de la Forme Aigüe"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : Pokémon Épée/Bouclier FR : Salarsen Forme Grave
+#. ancien (patch FR actuel) : natures Graves
 #: src/pokedex_plus_hgss.c:6942
 msgid "low-Key natures"
-msgstr "natures Graves"
+msgstr "natures de la Forme Grave"
 
 #. source : patch FR actuel
 #: src/pokedex_plus_hgss.c:6945
 msgid "takes >= "
 msgstr "subit >= "
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) :  dég. recul
 #: src/pokedex_plus_hgss.c:6948
 msgid " recoil dmg"
-msgstr " dég. recul"
+msgstr " dég. de recul"
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/pokedex_plus_hgss.c:6953
@@ -14817,11 +15285,13 @@ msgstr "H RESSORT REPETE"
 msgid "SHRINK GROW"
 msgstr "RETRECIT GRANDIT"
 
-#. source : relu et corrigé à la main (le patch FR actuel donnait un morceau
-#. d’un autre texte)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (relu et corrigé à la main (le patch FR actuel donnait un morceau) :
+#. CROISSANCE
 #: src/pokemon_sprite_visualizer.c:168 src/pokemon_sprite_visualizer.c:298
 msgid "GROW"
-msgstr "CROISSANCE"
+msgstr "AGRANDIR"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -16554,10 +17024,12 @@ msgstr "Le Sac est plein."
 msgid "Put this item in the BAG?"
 msgstr "Placer objet dans le Sac?"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (traduction manuelle (style SoulSilver)) : {DYNAMIC 0} est tenu.
 #: src/pokemon_storage_system.c:1083
 msgid "{DYNAMIC 0} is now held."
-msgstr "{DYNAMIC 0} est tenu."
+msgstr "{DYNAMIC 0} est désormais tenu."
 
 #. source : traduction manuelle (style SoulSilver)
 #: src/pokemon_storage_system.c:1084
@@ -16814,20 +17286,25 @@ msgstr "Nº {DYNAMIC 0}"
 msgid "STRATEGY"
 msgstr "STRATEGIE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : POKéMON DU DRESSEUR
+#. ancien (Émeraude FR officiel) : Pokémon DU Dresseur
 #: src/pokenav_list.c:105
 msgid "TRAINER'S POKéMON"
-msgstr "Pokémon DU Dresseur"
+msgstr "POKéMON DU DRESSEUR"
 
 #. source : Émeraude FR officiel
 #: src/pokenav_list.c:106
 msgid "SELF-INTRODUCTION"
 msgstr "PRESENTATION"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {B_BUTTON}Retour {R_BUTTON}Vol
 #: src/pokenav_main_menu.c:99 src/pokenav_main_menu.c:100
 msgid "{B_BUTTON}CANCEL {R_BUTTON}FLY"
-msgstr "{B_BUTTON}Retour {R_BUTTON}Vol"
+msgstr "{B_BUTTON}RETOUR {R_BUTTON}VOL"
 
 #. source : Émeraude FR officiel (adapté)
 #. lot : H_interface
@@ -17022,10 +17499,13 @@ msgstr "L’ARDENTE"
 msgid "SKY TAMER"
 msgstr "LA VOLANTE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : DUO MYSTIQUE
+#. ancien (Émeraude FR officiel) : Duo MYSTIQUE
 #: src/pokenav_match_call_data.c:504 src/pokenav_match_call_data.c:952
 msgid "MYSTIC DUO"
-msgstr "Duo MYSTIQUE"
+msgstr "DUO MYSTIQUE"
 
 #. source : Émeraude FR officiel
 #: src/pokenav_match_call_data.c:523 src/pokenav_match_call_data.c:971
@@ -17537,13 +18017,16 @@ msgstr "ILE DU SUD"
 msgid "FARAWAY ISLAND"
 msgstr "ILE LOINTAINE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : ILE AURORE
+#. ancien (Émeraude FR officiel) : ILE Aurore
 #: src/data/region_map/region_map_sections.json:1505
 #: src/data/region_map/region_map_sections.json:1601
 #: src/data/region_map/region_map_sections.json:1754 src/region_map.c:206
 #: src/strings.c:569
 msgid "BIRTH ISLAND"
-msgstr "ILE Aurore"
+msgstr "Ile Aurore"
 
 #. source : Émeraude FR officiel
 #: data/text/fame_checker_frlg.inc:945 data/text/fame_checker_frlg.inc:954
@@ -17825,10 +18308,12 @@ msgstr "Mont Argenté"
 msgid "SNOWSWEPT CAVERN"
 msgstr "CAVERNE GIVREE"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (traduction manuelle (style SoulSilver)) : ROUTE 49
 #: src/data/region_map/region_map_sections.json:2571 src/region_map.c:252
 msgid "ROUTE 49"
-msgstr "ROUTE 49"
+msgstr "Route 49"
 
 #. source : patch FR actuel
 #: data/maps/NewSinjoh_hns/scripts.inc:312
@@ -17836,10 +18321,12 @@ msgstr "ROUTE 49"
 msgid "NEW SINJOH"
 msgstr "NOUVEAU SINJOH"
 
-#. source : traduction manuelle (style SoulSilver)
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (traduction manuelle (style SoulSilver)) : ROUTE 50
 #: src/data/region_map/region_map_sections.json:2579 src/region_map.c:254
 msgid "ROUTE 50"
-msgstr "ROUTE 50"
+msgstr "Route 50"
 
 #. source : SoulSilver FR officiel
 #: data/maps/SinjohRuins_hns/scripts.inc:363
@@ -17943,33 +18430,41 @@ msgstr "ILE DE PONI"
 msgid "ALOLA SEA"
 msgstr "MER D’ALOLA"
 
-#. source : patch FR actuel (correspondance douteuse, à vérifier)
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel (correspondance douteuse, à vérifier)) : Grotte
+#. D’AKALA
 #: src/data/region_map/region_map_sections.json:1701
 #: src/data/region_map/region_map_sections.json:1822 src/region_map.c:272
 msgid "AKALA CAVE"
-msgstr "Grotte D’AKALA"
+msgstr "Grotte d’Akala"
 
-#. source : patch FR actuel (correspondance douteuse, à vérifier)
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel (correspondance douteuse, à vérifier)) : FORET
+#. D’AKALA
 #: src/data/region_map/region_map_sections.json:1706
 #: src/data/region_map/region_map_sections.json:1826 src/region_map.c:273
 msgid "AKALA FOREST"
-msgstr "FORET D’AKALA"
+msgstr "Forêt d’Akala"
 
-#. source : patch FR actuel (correspondance douteuse, à vérifier)
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel (correspondance douteuse, à vérifier)) : Grotte
+#. PONI
 #: src/data/region_map/region_map_sections.json:1711
 #: src/data/region_map/region_map_sections.json:1830 src/region_map.c:274
 msgid "PONI CAVE"
-msgstr "Grotte PONI"
+msgstr "Grotte de Poni"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Grotte ULA-ULA
 #: src/data/region_map/region_map_sections.json:1721
 #: src/data/region_map/region_map_sections.json:1838 src/region_map.c:275
 #: src/region_map.c:276
 msgid "ULA'ULA CAVE"
-msgstr "Grotte ULA-ULA"
+msgstr "Grotte d’Ula-Ula"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -18050,7 +18545,12 @@ msgstr "AM"
 msgid "PM"
 msgstr "PM"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {COLOR 4}ERREUR! {COLOR 2}Flash non
+#. détectée!\n\nSur émulateur, réglez le type de\nsauvegarde sur\nFlash
+#. 1Mb/128K et relancez la ROM.\n\nSur console, votre cartouche n’a\npas de
+#. puce flash fonctionnelle.
 #: src/save_failed_screen.c:451
 msgid ""
 "{COLOR RED}ERROR! {COLOR DARK_GRAY}Flash memory not detected!\\n\\nIf "
@@ -18058,9 +18558,10 @@ msgid ""
 " reload the ROM.\\n\\nIf playing on hardware, your cart\\ndoes not have a "
 "working flash chip."
 msgstr ""
-"{COLOR 4}ERREUR! {COLOR 2}Flash non détectée!\\n\\nSur émulateur, réglez le "
-"type de\\nsauvegarde sur\\nFlash 1Mb/128K et relancez la ROM.\\n\\nSur "
-"console, votre cartouche n’a\\npas de puce flash fonctionnelle."
+"{COLOR RED}ERREUR! {COLOR DARK_GRAY}Flash non détectée!\\n\\nSur émulateur, "
+"réglez le type de\\nsauvegarde sur\\nFlash 1Mb/128K et relancez la "
+"ROM.\\n\\nSur console, votre cartouche n’a\\npas de puce flash "
+"fonctionnelle."
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -18515,10 +19016,12 @@ msgstr "Bouton L  Bouton R"
 msgid "CONTROLS"
 msgstr "COMMANDES"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {DPAD_UPDOWN}CHOIX{A_BUTTON}OK
 #: src/strings.c:39
 msgid "{DPAD_UPDOWN}PICK {A_BUTTON}OK"
-msgstr "{DPAD_UPDOWN}CHOIX{A_BUTTON}OK"
+msgstr "{DPAD_UPDOWN}CHOIX {A_BUTTON}OK"
 
 #. source : SoulSilver FR officiel
 #: src/strings.c:40
@@ -18857,14 +19360,17 @@ msgstr "INDIFFERENT"
 msgid "Welcome to the HALL OF FAME!"
 msgstr "Bienvenue au PANTHEON!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Pokémon vus: {STR_VAR_1}!\nPokémon attrapés:
+#. {STR_VAR_2}!\pEvaluation du Prof. SEKO!\pProf. SEKO: Voyons…\p
 #: src/strings.c:124
 msgid ""
 "Spotted POKéMON: {STR_VAR_1}!\\nOwned POKéMON: {STR_VAR_2}!\\pPROF. BIRCH's "
 "POKéDEX rating!\\pPROF. BIRCH: Let's see…\\p"
 msgstr ""
-"Pokémon vus: {STR_VAR_1}!\\nPokémon attrapés: {STR_VAR_2}!\\pEvaluation du "
-"Prof. SEKO!\\pProf. SEKO: Voyons…\\p"
+"Pokémon vus: {STR_VAR_1}!\\nPokémon attrapés: {STR_VAR_2}!\\pLe Prof. SEKO "
+"évalue le Pokédex!\\pProf. SEKO: Voyons…\\p"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:126
@@ -18876,10 +19382,13 @@ msgstr "Données du PANTHEON corrompues."
 msgid "HALL OF FAME No. {STR_VAR_1}"
 msgstr "PANTHEON Nº {STR_VAR_1}"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR (en capitales) : MAITRE DE LA LIGUE!\nFELICITATIONS!
+#. ancien (Émeraude FR officiel) : Maître DE LA Ligue!\nFELICITATIONS!
 #: src/strings.c:128
 msgid "LEAGUE CHAMPION!\\nCONGRATULATIONS!"
-msgstr "Maître DE LA Ligue!\\nFELICITATIONS!"
+msgstr "MAITRE DE LA LIGUE!\\nFELICITATIONS!"
 
 #. source : Émeraude FR officiel
 #: src/data/trade.h:39 src/strings.c:130
@@ -19119,9 +19628,12 @@ msgstr "SOINS"
 msgid "BATTLE"
 msgstr "Combat"
 
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (?) : Trésors
 #: src/strings.c:227 src/strings.c:540
 msgid "TREASURES"
-msgstr "Trésors"
+msgstr "TRESORS"
 
 #. source : Émeraude FR officiel
 #. patch FR actuel : ACHAT
@@ -19222,10 +19734,13 @@ msgstr "Merci!\\nJe l’envoie sur votre PC à la maison."
 msgid "You don't have enough money.{PAUSE_UNTIL_PRESS}"
 msgstr "Vous n’avez pas assez d’argent.{PAUSE_UNTIL_PRESS}"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Vous n’avez pas assez de\nPTS.
+#. Combat.{PAUSE_UNTIL_PRESS}
 #: src/strings.c:252
 msgid "You don't have enough\\nBP.{PAUSE_UNTIL_PRESS}"
-msgstr "Vous n’avez pas assez de\\nPTS. Combat.{PAUSE_UNTIL_PRESS}"
+msgstr "Vous n’avez pas assez de\\nPoints de Combat.{PAUSE_UNTIL_PRESS}"
 
 #. source : Émeraude FR officiel (adapté)
 #: src/strings.c:253
@@ -19595,13 +20110,15 @@ msgstr "{STR_VAR_1} monte au N. {STR_VAR_2}."
 msgid "{STR_VAR_1} gained {STR_VAR_2} Exp. Points!{PAUSE_UNTIL_PRESS}"
 msgstr "{STR_VAR_1} a gagné {STR_VAR_2} points Exp.!{PAUSE_UNTIL_PRESS}"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : {STR_VAR_1} gagne {STR_VAR_2} points d’Exp.\net
+#. monte au N. {STR_VAR_3}!
 #: src/strings.c:322
 msgid ""
 "{STR_VAR_1} gained {STR_VAR_2} Exp. Points\\nand was elevated to Lv. "
 "{STR_VAR_3}!"
-msgstr ""
-"{STR_VAR_1} gagne {STR_VAR_2} points d’Exp.\\net monte au N. {STR_VAR_3}!"
+msgstr "{STR_VAR_1} gagne {STR_VAR_2} pts d’Exp.\\net passe au N. {STR_VAR_3}!"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:323
@@ -20167,20 +20684,24 @@ msgstr "Drôle d’Œuf de PKMN\\nobtenu lors d’un échange."
 msgid "A POKéMON EGG obtained\\nat the hot springs."
 msgstr "Drôle d’Œuf de PKMN obtenu\\naux sources chaudes."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Un Œuf de Pokémon étrange\nreçu à la Pension.
 #: src/strings.c:440
 msgid "An odd POKéMON EGG\\nobtained at the daycare."
-msgstr "Un Œuf de Pokémon étrange\\nreçu à la Pension."
+msgstr "Un étrange Œuf de Pokémon\\nreçu à la Pension."
 
 #. source : Émeraude FR officiel
 #: src/strings.c:441
 msgid "An odd POKéMON EGG\\nobtained from a traveler."
 msgstr "Drôle d’Œuf de PKMN\\nreçu d’un voyageur."
 
-#. source : relu et corrigé à la main
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (relu et corrigé à la main) :  - BASE
 #: src/strings.c:442
 msgid "'s BASE"
-msgstr " - BASE"
+msgstr ": BASE"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:443
@@ -20304,10 +20825,13 @@ msgid ""
 msgstr ""
 "Impossible de placer plus de\\ndécorations. Le maximum est de {STR_VAR_1}."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Impossible de placer ça ici.\nIl faut un BUREAU,
+#. etc.
 #: src/strings.c:472
 msgid "This can't be placed here.\\nIt must be on a DESK, etc."
-msgstr "Impossible de placer ça ici.\\nIl faut un BUREAU, etc."
+msgstr "Impossible de placer ça ici.\\nA poser sur un BUREAU, etc."
 
 #. source : Émeraude FR officiel
 #: src/strings.c:473
@@ -20607,10 +21131,13 @@ msgstr "PokéNav"
 msgid "NAVEL ROCK"
 msgstr "ROC NOMBRI"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR (en capitales) : MATCH NORMAL
+#. ancien (Émeraude FR officiel) : MATCH Normal
 #: src/strings.c:572
 msgid "NORMAL TAG MATCH"
-msgstr "MATCH Normal"
+msgstr "MATCH NORMAL"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:573
@@ -20642,11 +21169,14 @@ msgstr "COLISEE"
 msgid "RECORD CORNER"
 msgstr "CENTRE DE DONNEES"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : BROYEUR DE BAIES
+#. ancien (Émeraude FR officiel) : BROYEUR DE Baies
 #: src/data/union_room.h:554 src/strings.c:579 src/strings.c:772
 #: src/strings.c:871
 msgid "BERRY CRUSH"
-msgstr "BROYEUR DE Baies"
+msgstr "BROYEUR DE BAIES"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:580
@@ -20678,15 +21208,21 @@ msgstr "REGLES DE BASE"
 msgid "SWAP: PARTNER"
 msgstr "Echange: Pokémon"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR (en capitales) : ECHANGE: NOMBRE
+#. ancien (Émeraude FR officiel) : Echange: NOMBRE
 #: src/strings.c:586
 msgid "SWAP: NUMBER"
-msgstr "Echange: NOMBRE"
+msgstr "ECHANGE: NOMBRE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR (en capitales) : ECHANGE: NOTES
+#. ancien (Émeraude FR officiel) : Echange: NOTES
 #: src/strings.c:587
 msgid "SWAP: NOTES"
-msgstr "Echange: NOTES"
+msgstr "ECHANGE: NOTES"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:588
@@ -21011,10 +21547,12 @@ msgstr "D’accord?"
 msgid "The edited text will not be saved."
 msgstr "Le texte modifié sera perdu."
 
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel (récupéré par pointeur)) : ?
 #: src/strings.c:674
 msgid "Is that okay?"
-msgstr "?"
+msgstr "D’accord?"
 
 #. source : SoulSilver FR officiel
 #. lot : B_soulsilver
@@ -21061,10 +21599,12 @@ msgstr "Ne plus donner d’infos?"
 msgid "Create a quiz!"
 msgstr "Créez un quiz!"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Votre réponse?
 #: src/strings.c:684
 msgid "Set the answer!"
-msgstr "Votre réponse?"
+msgstr "Choisissez la réponse!"
 
 #. source : patch FR actuel
 #: src/strings.c:685
@@ -21425,10 +21965,13 @@ msgstr " points"
 msgid "{STR_VAR_1}'s TRAINER CARD"
 msgstr "Carte Dresseur de {STR_VAR_1}"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : « PANTHEON Nº 1 »
+#. ancien (Émeraude FR officiel) : PANTHEON Nº 1
 #: src/strings.c:766
 msgid "HALL OF FAME DEBUT  "
-msgstr "PANTHEON Nº 1"
+msgstr "PANTHEON Nº 1  "
 
 #. source : Émeraude FR officiel
 #: src/strings.c:767
@@ -21440,16 +21983,21 @@ msgstr "COMBATS EN LINK"
 msgid "LINK CABLE BATTLES"
 msgstr "COMBATS CABLE LINK"
 
-#. source : Émeraude FR officiel
-#. patch FR actuel : ECHANGES DE PKMN
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : ECHANGES DE POKéMON
+#. ancien (Émeraude FR officiel) : ECHANGES DE Pokémon
 #: src/data/union_room.h:548 src/strings.c:770
 msgid "POKéMON TRADES"
-msgstr "ECHANGES DE Pokémon"
+msgstr "ECHANGES DE POKéMON"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR (en capitales) : ECHANGE UNION & COMBATS
+#. ancien (Émeraude FR officiel) : Echange UNION & COMBATS
 #: src/strings.c:771
 msgid "UNION TRADES & BATTLES"
-msgstr "Echange UNION & COMBATS"
+msgstr "ECHANGE UNION & COMBATS"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:773
@@ -21466,10 +22014,13 @@ msgstr "{POKEBLOCK}S EN LINK"
 msgid "WON CONTESTS W/FRIENDS"
 msgstr "CONCOURS EN LINK GAGNES"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR (en capitales) : POINT(S) DE COMBAT GAGNE(S)
+#. ancien (Émeraude FR officiel) : POINT(S) DE Combat GAGNE(S)
 #: src/strings.c:777
 msgid "BATTLE POINTS WON"
-msgstr "POINT(S) DE Combat GAGNE(S)"
+msgstr "POINT(S) DE COMBAT GAGNE(S)"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:778
@@ -21522,10 +22073,13 @@ msgstr "DOJO"
 msgid "BATTLE PIKE"
 msgstr "REPTILE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR (en capitales) : PYRAMIDE DE COMBAT
+#. ancien (Émeraude FR officiel) : PYRAMIDE DE Combat
 #: src/strings.c:787 src/strings.c:899
 msgid "BATTLE PYRAMID"
-msgstr "PYRAMIDE DE Combat"
+msgstr "PYRAMIDE DE COMBAT"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:789
@@ -22010,11 +22564,13 @@ msgstr "Rejouer?"
 msgid "Somebody dropped out.\\nThe link will be canceled."
 msgstr "Quelqu’un est parti.\\nLa connexion va se terminer."
 
-#. source : Émeraude FR officiel
-#. patch FR actuel : RECORDS SAUT PKMN
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR (en capitales) : RECORDS DE SAUTS POKéMON
+#. ancien (Émeraude FR officiel) : RECORDS DE SAUTS Pokémon
 #: src/strings.c:930
 msgid "POKéMON JUMP RECORDS"
-msgstr "RECORDS DE SAUTS Pokémon"
+msgstr "RECORDS DE SAUTS POKéMON"
 
 #. source : Émeraude FR officiel
 #: src/strings.c:931
@@ -23228,35 +23784,47 @@ msgstr "Badge Roche"
 msgid "CASCADEBADGE"
 msgstr "Badge Cascade"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : BADGEFOUDRE
 #: src/strings.c:1269
 msgid "THUNDERBADGE"
-msgstr "BADGEFOUDRE"
+msgstr "Badge Foudre"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Badge PRISME
 #: src/strings.c:1270
 msgid "RAINBOWBADGE"
-msgstr "Badge PRISME"
+msgstr "Badge Prisme"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Badge AME
 #: src/strings.c:1271
 msgid "SOULBADGE"
-msgstr "Badge AME"
+msgstr "Badge Ame"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Badge MARAIS
 #: src/strings.c:1272
 msgid "MARSHBADGE"
-msgstr "Badge MARAIS"
+msgstr "Badge Marais"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Badge VOLCAN
 #: src/strings.c:1273
 msgid "VOLCANOBADGE"
-msgstr "Badge VOLCAN"
+msgstr "Badge Volcan"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Badge TERRE
 #: src/strings.c:1274
 msgid "EARTHBADGE"
-msgstr "Badge TERRE"
+msgstr "Badge Terre"
 
 #. source : patch FR actuel
 #: src/strings.c:1275
@@ -23274,22 +23842,30 @@ msgstr ""
 " et\\ncapacités de vos Pokémon.\\pC’est aussi ici que vous choisissez "
 "un\\nPokémon pour utiliser un objet.{PAUSE_UNTIL_PRESS}"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : glossaire / items.h : Lecteur GB
+#. ancien (patch FR actuel) : Le GB Player est activé.\nLes sons d’antan sont
+#. de retour!{PAUSE_UNTIL_PRESS}
 #: src/strings.c:1278
 msgid ""
 "The GB Player was turned on.\\nSounds from the past fill the "
 "air.{PAUSE_UNTIL_PRESS}"
 msgstr ""
-"Le GB Player est activé.\\nLes sons d’antan sont de "
+"Le Lecteur GB est activé.\\nLes sons d’antan sont de "
 "retour!{PAUSE_UNTIL_PRESS}"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : glossaire / items.h : Lecteur GB
+#. ancien (patch FR actuel) : Le GB Player est désactivé.\nLes sons d’antan
+#. s’effacent.{PAUSE_UNTIL_PRESS}
 #: src/strings.c:1279
 msgid ""
 "The GB Player was turned off.\\nSounds of nostalgia fade "
 "away.{PAUSE_UNTIL_PRESS}"
 msgstr ""
-"Le GB Player est désactivé.\\nLes sons d’antan "
+"Le Lecteur GB est désactivé.\\nLes sons d’antan "
 "s’effacent.{PAUSE_UNTIL_PRESS}"
 
 #. source : Émeraude FR officiel
@@ -23327,45 +23903,58 @@ msgstr "VENDREDI"
 msgid "SATURDAY"
 msgstr "SAMEDI"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : LOVE   / PECHA  / (Fée/Psy)
 #: src/strings.c:1288
 msgid "LOVE    / PECHA  / (FRY/PSY)"
-msgstr "LOVE   / PECHA  / (Fée/Psy)"
+msgstr "LOVE   / PECHA  / (FEE/PSY)"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : APPAT  / FRAIVE / (Eau/DRA)
 #: src/strings.c:1289
 msgid "LURE    / RAWST  / (WTR/DRG)"
-msgstr "APPAT  / FRAIVE / (Eau/DRA)"
+msgstr "APPAT  / FRAIVE / (EAU/DRA)"
 
 #. source : patch FR actuel
 #: src/strings.c:1290
 msgid "FRIEND / CHERI  / (BUG/GRS)"
 msgstr "COPAIN / CERIZ  / (INS/PLA)"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : MASSE  / ORAN   / (ROC/Sol/ACI)
 #: src/strings.c:1291
 msgid "HEAVY   / ORAN   / (RCK/GND/STL)"
-msgstr "MASSE  / ORAN   / (ROC/Sol/ACI)"
+msgstr "MASSE  / ORAN   / (ROC/SOL/ACI)"
 
 #. source : patch FR actuel
 #: src/strings.c:1292
 msgid "MOON    / CHESTO / (DRK/GST/PSN)"
 msgstr "LUNE   / MARON  / (TEN/SPE/POI)"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : SPEED  / WILLIA / (ELE/COM/Feu)
 #: src/strings.c:1293
 msgid "FAST    / ASPEAR / (ELC/FIG/FIR)"
-msgstr "SPEED  / WILLIA / (ELE/COM/Feu)"
+msgstr "SPEED  / WILLIA / (ELE/COM/FEU)"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : NIVEAU / KIKA   / (NOR/Vol/GLA)
 #: src/strings.c:1294
 msgid "LEVEL  / PERSIM / (NRM/FLY/ICE)"
-msgstr "NIVEAU / KIKA   / (NOR/Vol/GLA)"
+msgstr "NIVEAU / KIKA   / (NOR/VOL/GLA)"
 
-#. source : patch FR actuel
+#. source : Émeraude FR officiel
+#. lot : C2b_donnees
+#. preuve : region_map : VERMILION CITY = Carmin sur Mer
+#. ancien (patch FR actuel) : CARMIN
 #: src/strings.c:1295
 msgid "VERMILION"
-msgstr "CARMIN"
+msgstr "Carmin sur Mer"
 
 #. source : patch FR actuel
 #: src/strings.c:1296

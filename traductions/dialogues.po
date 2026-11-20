@@ -7630,11 +7630,14 @@ msgstr "Arène de Cramois’Ile"
 msgid "CELADON DEPT."
 msgstr "Centre Commercial"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : TOUR POKéMON
+#. ancien (Émeraude FR officiel) : TOUR Pokémon
 #: data/text/fame_checker_frlg.inc:1056
 #: src/data/region_map/region_map_sections.json:1159
 msgid "POKéMON TOWER"
-msgstr "TOUR Pokémon"
+msgstr "Tour Pokémon"
 
 #. source : Émeraude FR officiel
 #: data/text/fame_checker_frlg.inc:1074 data/text/fame_checker_frlg.inc:1077
@@ -38631,10 +38634,12 @@ msgstr ""
 msgid "SUNNY: Isn't today Sunday?\\nUm… I forgot!"
 msgstr "SUNNY: On n’est pas dimanche,\\naujourd’hui? Euh… J’ai oublié!"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Route 37\nRosalia DROIT DEVANT
 #: data/maps/Route37_hns/scripts.inc:155
 msgid "ROUTE 37\\nECRUTEAK CITY AHEAD"
-msgstr "Route 37\\nRosalia DROIT DEVANT"
+msgstr "Route 37\\nRosalia droit devant"
 
 #. source : traduction nouvelle
 #. lot : D2_dialogues
@@ -42610,11 +42615,15 @@ msgstr ""
 msgid "DEWFORD TOWN POKéMON GYM"
 msgstr "Arène Pokémon du VILLAGE MYOKARA"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : NOUVEAU DRESSEUR RECONNU PAR BASTIEN
+#. ancien (Émeraude FR officiel) : Arène Pokémon du VILLAGE MYOKARA\pNOUVEAU
+#. Dresseur RECONNU PAR BASTIEN:\n{PLAYER}
 #: data/maps/DewfordTown_Gym/scripts.inc:430
 msgid "DEWFORD TOWN POKéMON GYM\\pBRAWLY'S CERTIFIED TRAINERS:\\n{PLAYER}"
 msgstr ""
-"Arène Pokémon du VILLAGE MYOKARA\\pNOUVEAU Dresseur RECONNU PAR "
+"Arène Pokémon du VILLAGE MYOKARA\\pNouveau Dresseur reconnu par "
 "BASTIEN:\\n{PLAYER}"
 
 #. source : Émeraude FR officiel
@@ -46162,11 +46171,15 @@ msgstr ""
 msgid "MOSSDEEP CITY POKéMON GYM"
 msgstr "Arène Pokémon d’ALGATIA"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : NOUVEAU DRESSEUR RECONNU PAR TATIA ET LEVY
+#. ancien (Émeraude FR officiel) : Arène Pokémon d’ALGATIA\pNOUVEAU Dresseur
+#. RECONNU\nPAR TATIA ET LEVY: {PLAYER}
 #: data/maps/MossdeepCity_Gym/scripts.inc:617
 msgid "MOSSDEEP CITY POKéMON GYM\\pLIZA AND TATE'S CERTIFIED TRAINERS:\\n{PLAYER}"
 msgstr ""
-"Arène Pokémon d’ALGATIA\\pNOUVEAU Dresseur RECONNU\\nPAR TATIA ET LEVY: "
+"Arène Pokémon d’ALGATIA\\pNouveau Dresseur reconnu\\npar TATIA et LEVY: "
 "{PLAYER}"
 
 #. source : Émeraude FR officiel
@@ -46950,10 +46963,13 @@ msgstr ""
 msgid "ENTERING VICTORY ROAD"
 msgstr "DEBUT DE LA ROUTE VICTOIRE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : ENTREE DE LA LIGUE POKéMON\nDROIT DEVANT
+#. ancien (Émeraude FR officiel) : ENTREE DE LA Ligue Pokémon\nDROIT DEVANT
 #: data/maps/EverGrandeCity/scripts.inc:30
 msgid "ENTERING POKéMON LEAGUE\\nCENTER GATE"
-msgstr "ENTREE DE LA Ligue Pokémon\\nDROIT DEVANT"
+msgstr "Entrée de la Ligue Pokémon\\nDroit devant"
 
 #. source : Émeraude FR officiel
 #: data/maps/EverGrandeCity/scripts.inc:34
@@ -52213,18 +52229,18 @@ msgstr ""
 msgid "Hah?\\nDid you not come to claim your reward?"
 msgstr "Hein? Tu ne viens pas chercher\\nta récompense?"
 
-#. source : Émeraude FR officiel
-#. lot : A_emeraude
-#. preuve : US 26AB2C -> FR 26FAA8 (pointeur x1) ; table octets EN->FR (x1)
-#. ancien (patch FR actuel) : MECAPOUPEE 5 JE SUIS!\nSI RECOMPENSE PAS PRISE
-#. PAR TOI, ALORS\lMAITRE DES PIEGES PAS POUVOIR SUIVRE.\pTENTE ROUGE OU TENTE
-#. BLEUE,\nLAQUELLE TOI PREFERER?
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : MAITRE DES PIEGES (tout en capitales)
+#. ancien (Émeraude FR officiel) : MECAPOUPEE 5 JE SUIS!\nSI RECOMPENSE PAS
+#. PRISE PAR TOI, ALORS\lMaître DES PIEGES PAS POUVOIR SUIVRE.\pTENTE ROUGE OU
+#. TENTE BLEUE,\nLAQUELLE TOI PREFERER?
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:798
 msgid ""
 "MECHADOLL 5 I AM!\\nIF REWARD IS NOT TAKEN BY YOU,\\lTHEN TRICK MASTER YOU "
 "CANNOT FOLLOW.\\pRED TENT OR BLUE TENT,\\nWHICH DO YOU PREFER?"
 msgstr ""
-"MECAPOUPEE 5 JE SUIS!\\nSI RECOMPENSE PAS PRISE PAR TOI, ALORS\\lMaître DES "
+"MECAPOUPEE 5 JE SUIS!\\nSI RECOMPENSE PAS PRISE PAR TOI, ALORS\\lMAITRE DES "
 "PIEGES PAS POUVOIR SUIVRE.\\pTENTE ROUGE OU TENTE BLEUE,\\nLAQUELLE TOI "
 "PREFERER?"
 
@@ -52233,10 +52249,13 @@ msgstr ""
 msgid "THEN FAREWELL."
 msgstr "AU REVOIR DONC."
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : ETAT DU PC: ENCORE PLEIN.
+#. ancien (Émeraude FR officiel) : ETAT DU PC: Encore PLEIN.\nC’EST PAS SYMPA.
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:808
 msgid "YOUR PC STATUS: FULL AGAIN.\\nMEAN, YOU ARE."
-msgstr "ETAT DU PC: Encore PLEIN.\\nC’EST PAS SYMPA."
+msgstr "ETAT DU PC: ENCORE PLEIN.\\nC’EST PAS SYMPA."
 
 #. source : Émeraude FR officiel
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:812
@@ -55826,10 +55845,12 @@ msgstr ""
 "Ils disent que le souterrain restera\\nfermé tant que le problème à\\pla "
 "Centrale ne sera pas résolu!"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : SOUTERRAIN\pAzuria - Carmin sur Mer
 #: data/maps/Route5_hns/scripts.inc:15 data/maps/Route6_hns/scripts.inc:38
 msgid "UNDERGROUND PATH\\pCERULEAN CITY - VERMILION CITY"
-msgstr "SOUTERRAIN\\pAzuria - Carmin sur Mer"
+msgstr "Souterrain\\pAzuria - Carmin sur Mer"
 
 #. source : SoulSilver FR officiel (adapté)
 #. lot : B_soulsilver
@@ -57474,15 +57495,20 @@ msgstr ""
 "générations, mais les enfants\\lne s’en servaient jamais avant\\ll’arrivée "
 "des nouveaux venus."
 
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel (récupéré par pointeur)) : Café FAMILIAL
 #: data/maps/NewSinjoh_hns/scripts.inc:319
 msgid "FAMILY CAFE"
-msgstr "Café FAMILIAL"
+msgstr "Café familial"
 
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel (récupéré par pointeur)) : Grotte DES SOURCES
+#. CHAUDES
 #: data/maps/NewSinjoh_hns/scripts.inc:326
 msgid "HOT SPRINGS CAVE"
-msgstr "Grotte DES SOURCES CHAUDES"
+msgstr "Grotte des sources chaudes"
 
 #. source : patch FR actuel (récupéré par pointeur)
 #: data/maps/NewSinjoh_hns/scripts.inc:337
@@ -61391,15 +61417,19 @@ msgstr "Dojo\\nBienvenue à tous!"
 msgid "SILPH CO.\\nOFFICE BUILDING"
 msgstr "Bureaux de la Sylphe SARL"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : MAISON DE\nM. Psy
 #: data/maps/SaffronCity_hns/scripts.inc:181
 msgid "MR.PSYCHIC'S\\nHOUSE"
-msgstr "MAISON DE\\nM. Psy"
+msgstr "Maison de\\nM. Psy"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Safrania\nGARE DU TRAIN MAGNETIQUE
 #: data/maps/SaffronCity_hns/scripts.inc:185
 msgid "SAFFRON CITY\\nMAGNET TRAIN STATION"
-msgstr "Safrania\\nGARE DU TRAIN MAGNETIQUE"
+msgstr "Safrania\\nGare du Train Magnétique"
 
 #. source : traduction nouvelle
 #. lot : D3a_dialogues
@@ -61844,11 +61874,15 @@ msgstr ""
 msgid "SOOTOPOLIS CITY POKéMON GYM"
 msgstr "Arène Pokémon d’ATALANOPOLIS"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : NOUVEAU DRESSEUR RECONNU PAR JUAN
+#. ancien (Émeraude FR officiel) : Arène Pokémon d’ATALANOPOLIS\pNOUVEAU
+#. Dresseur RECONNU PAR JUAN:\n{PLAYER}
 #: data/maps/SootopolisCity_Gym_1F/scripts.inc:281
 msgid "SOOTOPOLIS CITY POKéMON GYM\\pJUAN'S CERTIFIED TRAINERS:\\n{PLAYER}"
 msgstr ""
-"Arène Pokémon d’ATALANOPOLIS\\pNOUVEAU Dresseur RECONNU PAR JUAN:\\n{PLAYER}"
+"Arène Pokémon d’ATALANOPOLIS\\pNouveau Dresseur reconnu par JUAN:\\n{PLAYER}"
 
 #. source : Émeraude FR officiel
 #: data/maps/SootopolisCity_Gym_1F/scripts.inc:286
@@ -63255,20 +63289,26 @@ msgstr "Tu vas attraper des Pokémon?\\nBonne chance!"
 msgid "LITTLEROOT TOWN\\n“A town that can't be shaded any hue.”"
 msgstr "BOURG-EN-VOL\\n“Une ville qui garde son éclat.”"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : LABO POKéMON DU PROF. SEKO
+#. ancien (Émeraude FR officiel) : LABO Pokémon DU Prof. SEKO
 #: data/maps/LittlerootTown/scripts.inc:998
 msgid "PROF. BIRCH'S POKéMON LAB"
-msgstr "LABO Pokémon DU Prof. SEKO"
+msgstr "Labo Pokémon du Prof. SEKO"
 
 #. source : Émeraude FR officiel
 #: data/maps/LittlerootTown/scripts.inc:1001
 msgid "{PLAYER}'s HOUSE"
 msgstr "MAISON DE {PLAYER}"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : MAISON DU PROF. SEKO
+#. ancien (Émeraude FR officiel) : MAISON DU Prof. SEKO
 #: data/maps/LittlerootTown/scripts.inc:1004
 msgid "PROF. BIRCH'S HOUSE"
-msgstr "MAISON DU Prof. SEKO"
+msgstr "Maison du Prof. SEKO"
 
 #. source : Émeraude FR officiel
 #: data/maps/LittlerootTown/scripts.inc:1007
@@ -64914,10 +64954,13 @@ msgstr ""
 "Pokémon des\\nILES D’ALOLA, mais vous pouvez vous\\lreposer sur les bancs "
 "des ILES."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : C2b_donnees
+#. preuve : Poképédia : Île de Mélé-Mélé
+#. ancien (patch FR actuel) : Boutique DE L’ILE DE MELE-MELE
 #: data/maps/MelemeleIsle_hns/scripts.inc:700
 msgid "MELEMELE ISLE MART"
-msgstr "Boutique DE L’ILE DE MELE-MELE"
+msgstr "Boutique de l’Ile de Mélé-Mélé"
 
 #. source : traduction manuelle (style SoulSilver)
 #: data/maps/AkalaIsle_hns/scripts.inc:489
@@ -66713,34 +66756,37 @@ msgstr ""
 "Oh, regarder tous ces gracieux Pokémon\\nme donne envie d’en avoir un!\\pJe "
 "vais aller en attraper quelques-uns!"
 
-#. source : Émeraude FR officiel
-#. lot : A_emeraude
-#. preuve : US 21C512 -> FR 21F82C (pointeur x1) ; table octets EN->FR (x1)
-#. ancien (patch FR actuel) : EPREUVE DE BEAUTE\nPOKéMON D’UNE BEAUTE
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : EPREUVE DE BEAUTE\nPOKéMON D’UNE BEAUTE
+#. EPOUSTOUFLANTE!
+#. ancien (Émeraude FR officiel) : EPREUVE DE BEAUTE\nPokémon D’UNE BEAUTE
 #. EPOUSTOUFLANTE!
 #: data/maps/LilycoveCity_ContestHall/scripts.inc:503
 #: data/maps/LilycoveCity_ContestHall_hns/scripts.inc:503
 msgid "BEAUTY CONTEST STAGE\\nBE ALLURED BY BEAUTIFUL POKéMON!"
-msgstr "EPREUVE DE BEAUTE\\nPokémon D’UNE BEAUTE EPOUSTOUFLANTE!"
+msgstr "Epreuve de Beauté\\nPokémon d’une beauté époustouflante!"
 
-#. source : Émeraude FR officiel
-#. lot : A_emeraude
-#. preuve : US 21C548 -> FR 21F863 (pointeur x1) ; table octets EN->FR (x1)
-#. ancien (patch FR actuel) : EPREUVE DE GRACE\nPOKéMON D’UNE GRACE EXTREME!
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : EPREUVE DE GRACE\nPOKéMON D’UNE GRACE EXTREME!
+#. ancien (Émeraude FR officiel) : EPREUVE DE GRACE\nPokémon D’UNE GRACE
+#. EXTREME!
 #: data/maps/LilycoveCity_ContestHall/scripts.inc:507
 #: data/maps/LilycoveCity_ContestHall_hns/scripts.inc:507
 msgid "CUTENESS CONTEST STAGE\\nBE CHARMED BY CUTE POKéMON!"
-msgstr "EPREUVE DE GRACE\\nPokémon D’UNE GRACE EXTREME!"
+msgstr "Epreuve de Grâce\\nPokémon d’une grâce extrême!"
 
-#. source : Émeraude FR officiel
-#. lot : A_emeraude
-#. preuve : US 21C57B -> FR 21F891 (pointeur x1) ; table octets EN->FR (x1)
-#. ancien (patch FR actuel) : EPREUVE D’INTELLIGENCE\nPOKéMON D’UNE
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : EPREUVE D’INTELLIGENCE\nPOKéMON D’UNE INTELLIGENCE
+#. INOUIE!
+#. ancien (Émeraude FR officiel) : EPREUVE D’INTELLIGENCE\nPokémon D’UNE
 #. INTELLIGENCE INOUIE!
 #: data/maps/LilycoveCity_ContestHall/scripts.inc:511
 #: data/maps/LilycoveCity_ContestHall_hns/scripts.inc:511
 msgid "SMARTNESS CONTEST STAGE\\nBE IMPRESSED BY SMART POKéMON!"
-msgstr "EPREUVE D’INTELLIGENCE\\nPokémon D’UNE INTELLIGENCE INOUIE!"
+msgstr "Epreuve d’Intelligence\\nPokémon d’une intelligence inouïe!"
 
 #. source : Émeraude FR officiel
 #: data/maps/Route110_TrickHousePuzzle8/scripts.inc:31
@@ -79977,10 +80023,12 @@ msgstr "Allez hop, retour à la pêche!"
 msgid "CHERRYGROVE CITY\\pThe City of Cute, Fragrant\\nFlowers"
 msgstr "Ville Griotte\\nLa ville au parfum de fleurs"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : MAISON du GUIDE
 #: data/maps/CherrygroveCity_hns/scripts.inc:384
 msgid "GUIDE GENT'S HOUSE"
-msgstr "MAISON du GUIDE"
+msgstr "Maison du Guide"
 
 #. source : patch FR actuel
 #: data/maps/CherrygroveCity_hns/scripts.inc:387
@@ -80781,10 +80829,13 @@ msgstr ""
 "pas t’entraîner\\nau Phare?\\pQui sait? Tu deviendrais peut-être\\nun "
 "Dresseur un peu moins nul!"
 
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel (récupéré par pointeur)) : Café D’OLIVILLE\nLE
+#. REPAS COPIEUX DES\lMARINS COSTAUDS
 #: data/maps/OlivineCity_hns/scripts.inc:264
 msgid "OLIVINE CAFE\\nWHERE STRONG SAILORS ENJOY\\lHEARTY MEALS OF STRENGTH"
-msgstr "Café D’OLIVILLE\\nLE REPAS COPIEUX DES\\lMARINS COSTAUDS"
+msgstr "Café d’Oliville\\nLe repas copieux des\\lmarins costauds"
 
 #. source : patch FR actuel
 #: data/maps/OlivineCity_hns/scripts.inc:269
@@ -94250,15 +94301,20 @@ msgstr ""
 msgid "AZUMARILL: Maririroo!"
 msgstr "AZUMARILL: Mamarill!"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : tableau tout en capitales
+#. ancien (Émeraude FR officiel) : RC: ACCUEIL   \n      LOTERIE\p1{SUPER_ER}
+#. E: ESPACE Dresseurs\p2{SUPER_E} E: FOURNITURES DE Combat\p3{SUPER_E} E:
+#. CENTRE CT\p4{SUPER_E} E: ETAGE Poképoupée\pTOIT: TERRASSE
 #: data/maps/LilycoveCity_DepartmentStore_1F/scripts.inc:161
 msgid ""
 "1F: SERVICE COUNTER\\n    LOTTERY CORNER\\p2F: TRAINER'S ZONE\\p3F: BATTLE "
 "COLLECTION\\p4F: TM CORNER\\p5F: POKé DOLL FLOOR\\pROOFTOP: ROOFTOP PLAZA"
 msgstr ""
 "RC: ACCUEIL   \\n      LOTERIE\\p1{SUPER_ER} E: ESPACE "
-"Dresseurs\\p2{SUPER_E} E: FOURNITURES DE Combat\\p3{SUPER_E} E: CENTRE "
-"CT\\p4{SUPER_E} E: ETAGE Poképoupée\\pTOIT: TERRASSE"
+"DRESSEURS\\p2{SUPER_E} E: FOURNITURES DE COMBAT\\p3{SUPER_E} E: CENTRE "
+"CT\\p4{SUPER_E} E: ETAGE POKéPOUPEE\\pTOIT: TERRASSE"
 
 #. source : traduction nouvelle
 #. lot : C2a_dialogues
@@ -103026,10 +103082,12 @@ msgstr "J’ai trop joué!"
 msgid "I'm having a picnic with POKéMON.\\pWon't you join us?"
 msgstr "Je pique-nique avec mon Pokémon. Tu\\nveux venir?"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Route 43\pLAC Colère - Acajou
 #: data/maps/Route43_hns/scripts.inc:190 data/maps/Route43_hns/scripts.inc:194
 msgid "ROUTE 43\\pLAKE OF RAGE - MAHOGANY TOWN"
-msgstr "Route 43\\pLAC Colère - Acajou"
+msgstr "Route 43\\pLac Colère - Acajou"
 
 #. source : SoulSilver FR officiel (adapté)
 #. lot : B_soulsilver
@@ -104780,11 +104838,15 @@ msgstr "Wahahahah!\\nContinue et donne tout, mon p’tit!"
 msgid "MAUVILLE CITY POKéMON GYM"
 msgstr "Arène Pokémon de LAVANDIA"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : NOUVEAU DRESSEUR RECONNU PAR VOLTERE
+#. ancien (Émeraude FR officiel) : Arène Pokémon de LAVANDIA\pNOUVEAU Dresseur
+#. RECONNU PAR VOLTERE:\n{PLAYER}
 #: data/maps/MauvilleCity_Gym/scripts.inc:388
 msgid "MAUVILLE CITY POKéMON GYM\\pWATTSON'S CERTIFIED TRAINERS:\\n{PLAYER}"
 msgstr ""
-"Arène Pokémon de LAVANDIA\\pNOUVEAU Dresseur RECONNU PAR VOLTERE:\\n{PLAYER}"
+"Arène Pokémon de LAVANDIA\\pNouveau Dresseur reconnu par VOLTERE:\\n{PLAYER}"
 
 #. source : Émeraude FR officiel
 #: data/maps/MauvilleCity_Gym/scripts.inc:393
@@ -105058,10 +105120,12 @@ msgstr "J’aime réfléchir ici."
 msgid "MYSTERY STONE PANEL CHAMBER"
 msgstr "SALLE DES PANNEAUX MYSTERIEUX"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Ruines d’Alpha\nBIENVENUE AUX VISITEURS
 #: data/maps/RuinsOfAlph_Outside_hns/scripts.inc:132
 msgid "RUINS OF ALPH\\nVISITORS WELCOME"
-msgstr "Ruines d’Alpha\\nBIENVENUE AUX VISITEURS"
+msgstr "Ruines d’Alpha\\nBienvenue aux visiteurs"
 
 #. source : patch FR actuel (vérifié)
 #. lot : C2a_dialogues
@@ -105520,11 +105584,15 @@ msgstr ""
 msgid "RUSTBORO CITY POKéMON GYM"
 msgstr "Arène Pokémon de MEROUVILLE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : NOUVEAU DRESSEUR RECONNU PAR ROXANNE
+#. ancien (Émeraude FR officiel) : Arène Pokémon de MEROUVILLE\pNOUVEAU
+#. Dresseur RECONNU PAR ROXANNE:\n{PLAYER}
 #: data/maps/RustboroCity_Gym/scripts.inc:230
 msgid "RUSTBORO CITY POKéMON GYM\\pROXANNE'S CERTIFIED TRAINERS:\\n{PLAYER}"
 msgstr ""
-"Arène Pokémon de MEROUVILLE\\pNOUVEAU Dresseur RECONNU PAR "
+"Arène Pokémon de MEROUVILLE\\pNouveau Dresseur reconnu par "
 "ROXANNE:\\n{PLAYER}"
 
 #. source : Émeraude FR officiel
@@ -108185,11 +108253,15 @@ msgstr "Même après ma défaite, je reste dévouée\\naux Pokémon OISEAU."
 msgid "FORTREE CITY POKéMON GYM"
 msgstr "Arène Pokémon de CIMETRONELLE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : NOUVEAU DRESSEUR RECONNU PAR ALIZEE
+#. ancien (Émeraude FR officiel) : Arène Pokémon de CIMETRONELLE\pNOUVEAU
+#. Dresseur RECONNU PAR ALIZEE:\n{PLAYER}
 #: data/maps/FortreeCity_Gym/scripts.inc:283
 msgid "FORTREE CITY POKéMON GYM\\pWINONA'S CERTIFIED TRAINERS:\\n{PLAYER}"
 msgstr ""
-"Arène Pokémon de CIMETRONELLE\\pNOUVEAU Dresseur RECONNU PAR "
+"Arène Pokémon de CIMETRONELLE\\pNouveau Dresseur reconnu par "
 "ALIZEE:\\n{PLAYER}"
 
 #. source : Émeraude FR officiel
@@ -108608,10 +108680,12 @@ msgstr ""
 "Mes chers Pokémon me tiennent\\ncompagnie, je ne me sens jamais "
 "seul.\\pMIAOUSS rapporte même des sous!"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : MANOIR Céladopole: SUITE DU GERANT
 #: data/maps/CeladonCity_Apartments_1F_hns/scripts.inc:18
 msgid "CELADON MANSION MANAGER'S SUITE"
-msgstr "MANOIR Céladopole: SUITE DU GERANT"
+msgstr "Manoir Céladopole: suite du gérant"
 
 #. source : traduction nouvelle
 #. lot : D2_dialogues
@@ -110809,10 +110883,13 @@ msgstr "ROUTE 104\\n{RIGHT_ARROW} CLEMENTI-VILLE"
 msgid "ROUTE 1O4\\n{UP_ARROW} RUSTBORO CITY"
 msgstr "ROUTE 104\\n{UP_ARROW} MEROUVILLE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : FLEURISTE JOLIE FLEUR
+#. ancien (Émeraude FR officiel) : Fleuriste JOLIE Fleur
 #: data/maps/Route104/scripts.inc:1067
 msgid "PRETTY PETAL FLOWER SHOP"
-msgstr "Fleuriste JOLIE Fleur"
+msgstr "Fleuriste Jolie Fleur"
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -113185,11 +113262,15 @@ msgstr ""
 msgid "LAVARIDGE TOWN POKéMON GYM"
 msgstr "Arène Pokémon de VERMILAVA"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : NOUVEAU DRESSEUR RECONNU PAR ADRIANE
+#. ancien (Émeraude FR officiel) : Arène Pokémon de VERMILAVA\pNOUVEAU
+#. Dresseur RECONNU PAR ADRIANE:\n{PLAYER}
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:363
 msgid "LAVARIDGE TOWN POKéMON GYM\\pFLANNERY'S CERTIFIED TRAINERS:\\n{PLAYER}"
 msgstr ""
-"Arène Pokémon de VERMILAVA\\pNOUVEAU Dresseur RECONNU PAR "
+"Arène Pokémon de VERMILAVA\\pNouveau Dresseur reconnu par "
 "ADRIANE:\\n{PLAYER}"
 
 #. source : Émeraude FR officiel
@@ -114139,18 +114220,18 @@ msgstr ""
 "QUIZ MECAPOUPEE 4.\\pDans l’ECOLE DE Dresseurs,\\ncombien y avait-il "
 "d’élèves filles?"
 
-#. source : Émeraude FR officiel
-#. lot : A_emeraude
-#. preuve : US 26DC78 -> FR 272DD4 (pointeur x1) ; table octets EN->FR (x1)
-#. ancien (patch FR actuel) : CLINK-CLAC…\nMECAPOUPEE 5 JE SUIS!\pLA PLUS
-#. GRANDE REUSSITE DE MON\nMAITRE, JE SUIS.
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : MAITRE (tout en capitales)
+#. ancien (Émeraude FR officiel) : CLINK-CLAC…\nMECAPOUPEE 5 JE SUIS!\pLA PLUS
+#. GRANDE REUSSITE DE MON\nMaître, JE SUIS.
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:1004
 msgid ""
 "CLICKETY-CLACK…\\nMECHADOLL 5 AM I!\\pTHE MASTER'S BEST AND "
 "PROUDEST\\nACHIEVEMENT AM I."
 msgstr ""
 "CLINK-CLAC…\\nMECAPOUPEE 5 JE SUIS!\\pLA PLUS GRANDE REUSSITE DE "
-"MON\\nMaître, JE SUIS."
+"MON\\nMAITRE, JE SUIS."
 
 #. source : Émeraude FR officiel
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:1010
@@ -121121,13 +121202,16 @@ msgstr ""
 "C’est la première fois que je viens ici.\\nC’est grand...\\pJe vais me "
 "perdre. C’est sûr."
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : RDC: ACCUEIL\p1ER: MARCHE DES Dresseurs\p2E:
+#. Boutique CT\p3E: CADEAUX SAGESSE\p4E: PHARMACIE\p5E: TERRASSE DU TOIT
 #: data/maps/CeladonCity_DepartmentStore_1F_hns/scripts.inc:38
 msgid ""
 "1F: SERVICE COUNTER\\p2F: TRAINER'S MARKET\\p3F: TM SHOP\\p4F: WISEMAN "
 "GIFTS\\p5F: DRUG STORE\\p6F: ROOFTOP SQUARE"
 msgstr ""
-"RDC: ACCUEIL\\p1ER: MARCHE DES Dresseurs\\p2E: Boutique CT\\p3E: CADEAUX "
+"RDC: ACCUEIL\\p1ER: MARCHE DES DRESSEURS\\p2E: BOUTIQUE CT\\p3E: CADEAUX "
 "SAGESSE\\p4E: PHARMACIE\\p5E: TERRASSE DU TOIT"
 
 #. source : patch FR actuel (vérifié)
@@ -122104,11 +122188,15 @@ msgstr ""
 msgid "PETALBURG CITY POKéMON GYM"
 msgstr "Arène Pokémon de CLEMENTI-VILLE"
 
-#. source : Émeraude FR officiel
+#. source : Émeraude FR officiel (adapté)
+#. lot : C2b_donnees
+#. preuve : Émeraude FR : NOUVEAU DRESSEUR RECONNU PAR NORMAN
+#. ancien (Émeraude FR officiel) : Arène Pokémon de CLEMENTI-VILLE\pNOUVEAU
+#. Dresseur RECONNU PAR NORMAN:\n{PLAYER}
 #: data/maps/PetalburgCity_Gym/scripts.inc:1552
 msgid "PETALBURG CITY POKéMON GYM\\pNORMAN'S CERTIFIED TRAINERS:\\n{PLAYER}"
 msgstr ""
-"Arène Pokémon de CLEMENTI-VILLE\\pNOUVEAU Dresseur RECONNU PAR "
+"Arène Pokémon de CLEMENTI-VILLE\\pNouveau Dresseur reconnu par "
 "NORMAN:\\n{PLAYER}"
 
 #. source : Émeraude FR officiel
@@ -123070,12 +123158,15 @@ msgstr "Heu…\\nJe…"
 msgid "……I'll go train some more…"
 msgstr "...\\p... Je vais aller m’entraîner..."
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : C2b_donnees
+#. ancien (patch FR actuel) : Mont Sélénite: NOUVELLE ENTREE\nSUITE A UN
+#. Eboulement\pAttention A LA MARCHE
 #: data/maps/Route4_hns/scripts.inc:72
 msgid "MT.MOON NEW ENTRANCE\\nDUE TO CAVE-IN\\pWATCH YOUR STEP"
 msgstr ""
-"Mont Sélénite: NOUVELLE ENTREE\\nSUITE A UN Eboulement\\pAttention A LA "
-"MARCHE"
+"Mont Sélénite: nouvelle entrée\\nsuite à un éboulement\\pAttention à la "
+"marche"
 
 #. source : Émeraude FR officiel
 #: data/maps/NewMauville_Entrance/scripts.inc:53
