@@ -21,6 +21,7 @@ petits correctifs. À chaque nouvelle version upstream, on change `upstream.txt`
 ## Construire
 
 ```
+.venv/bin/python outils/preparer_roms.py roms memoires   # une fois : identifie vos ROM et patchs par leur contenu
 ./build.sh
 ```
 
@@ -35,7 +36,9 @@ petits correctifs. À chaque nouvelle version upstream, on change `upstream.txt`
    - `emeraude_us.gba` → patch à appliquer sur **Pokémon Émeraude US** ;
    - `hns_en.gba` → patch à appliquer sur **Heart & Soul anglais officiel**.
 
-Prérequis : `git make gcc g++ libpng-dev gcc-arm-none-eabi python3`, et `pip install polib`.
+Prérequis : `git make gcc g++ libpng`, une chaîne `arm-none-eabi-gcc` **avec newlib** (sous macOS : la
+chaîne xPack, décompressée dans `~/.local/xpack-arm-none-eabi-gcc-*`, est trouvée automatiquement), `python3`
+et un environnement `.venv` : `python3 -m venv .venv && .venv/bin/pip install polib pyahocorasick rapidfuzz ndspy pillow numpy`.
 
 ## Traduire
 
@@ -47,12 +50,27 @@ officiels, patch FR actuel, traduction nouvelle).
 
 ## Nouvelle version upstream
 
-1. modifier `upstream.txt` ;
-2. `python3 outils/hnsfr.py extraire build/upstream nouveaux.pot` puis
-   `msgmerge --update traductions/dialogues.po nouveaux.pot` (idem menus/donnees) : les phrases
-   inchangées gardent leur traduction, les phrases modifiées passent *à revoir*, les nouvelles
-   apparaissent non traduites ;
-3. `build.sh` et lire `rapport/`.
+1. Modifier `upstream.txt` (nouveau tag, ex. `Release-v2.0.7`).
+2. Préparer une copie vierge du nouveau code (lecture seule, sert à l'extraction et aux contrôles) :
+   ```
+   rm -rf build/upstream_orig && mkdir -p build/upstream_orig
+   git -C build/upstream fetch --depth 1 origin tag <tag> && git -C build/upstream archive <tag> | tar -x -C build/upstream_orig
+   ```
+3. Mettre les .po à jour : `.venv/bin/python outils/actualiser_po.py build/upstream_orig traductions`
+   (bilan sans rien écrire), puis avec `--appliquer` ; `--purger` retire les entrées dont l'anglais a
+   disparu du code (à faire après avoir regardé la liste). Les phrases inchangées gardent leur
+   traduction (la clé est la phrase anglaise), les phrases nouvelles ou modifiées apparaissent non
+   traduites.
+4. `./build.sh` puis lire `rapport/` :
+   - `images_a_revoir.txt` : images modifiées par l'équipe HnS depuis notre traduction (l'empreinte de
+     l'original ne correspond plus) — on garde la leur, à retraduire en fusionnant au pixel près ;
+   - correctifs de code qui « ne s'appliquent plus » : les refaire sur le nouveau code (`git apply`) ;
+   - `trop_longs.txt` : textes remis en anglais car trop longs pour leur champ.
+5. Contrôles : `.venv/bin/python outils/verifier.py build/upstream_orig traductions/*.po` et
+   `.venv/bin/python outils/controle_anglais.py build/upstream_orig memoires/hns_en.gba build/pokehns_fr.gba rapport/anglais_restant.tsv`
+   (la ROM anglaise de la nouvelle version doit être reconstruite à partir de son patch officiel).
+6. Traduire les nouveautés par lots (`docs/CONSIGNES.md`, `outils/integrer_lot.py`), faire relire
+   (`outils/relecture_chatgpt.py`, `outils/arbitrer_relecture.py`), reconstruire, tester en émulateur.
 
 ## Choix de traduction
 
