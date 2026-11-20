@@ -52,6 +52,9 @@ officiels, patch FR actuel, traduction nouvelle).
 
 ## Nouvelle version upstream
 
+Le workflow `.github/workflows/veille-hns.yml` regarde chaque lundi la dernière release de HnS et ouvre une
+issue (une par version) avec cette marche à suivre quand elle diffère de `upstream.txt`.
+
 1. Modifier `upstream.txt` (nouveau tag, ex. `Release-v2.0.7`).
 2. Préparer une copie vierge du nouveau code (lecture seule, sert à l'extraction et aux contrôles) :
    ```

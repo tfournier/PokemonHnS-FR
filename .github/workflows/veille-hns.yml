@@ -1,0 +1,52 @@
+# Chaque lundi, regarde si Heart & Soul a publié une nouvelle version et, si oui, ouvre une issue
+# (une seule par version) avec la marche à suivre. Ne modifie rien d'autre.
+name: Veille des versions HnS
+
+on:
+  schedule:
+    - cron: '17 6 * * 1'   # lundi 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  veille:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Comparer upstream.txt à la dernière release de HnS
+        env:
+          GH_TOKEN: ${{ github.token }}
+          UPSTREAM: PokemonHnS-Development/pokehns-expansion
+        run: |
+          actuelle=$(tr -d '[:space:]' < upstream.txt)
+          derniere=$(gh api "repos/$UPSTREAM/releases/latest" --jq .tag_name)
+          echo "traduite : $actuelle ; dernière release HnS : $derniere"
+          if [ -z "$derniere" ] || [ "$derniere" = "$actuelle" ]; then
+            echo "rien à faire"; exit 0
+          fi
+          titre="Nouvelle version de Heart & Soul : $derniere"
+          if [ -n "$(gh issue list --state all --search "\"$titre\" in:title" --json number --jq '.[].number')" ]; then
+            echo "issue déjà ouverte pour $derniere"; exit 0
+          fi
+          url=$(gh api "repos/$UPSTREAM/releases/latest" --jq .html_url)
+          cat > "$RUNNER_TEMP/corps.md" <<EOF
+          Heart & Soul a publié **$derniere** ($url) ; la traduction suit **$actuelle**.
+
+          Marche à suivre (README, section « Nouvelle version upstream ») :
+
+          - [ ] \`upstream.txt\` → \`$derniere\`
+          - [ ] patch officiel dans \`roms/\`, puis \`outils/preparer_roms.py roms memoires\` (nouvelle \`memoires/hns_en.gba\`)
+          - [ ] \`outils/actualiser_po.py\` (bilan, puis \`--appliquer\`) et traduction des phrases nouvelles ou modifiées
+          - [ ] \`./build.sh\` : \`rapport/images_a_revoir.txt\`, correctifs de \`code/\` qui ne s'appliquent plus, \`rapport/trop_longs.txt\`
+          - [ ] contrôles (\`verifier.py\`, \`controle_anglais.py\`) et tests en émulateur
+          - [ ] \`outils/ci/empreintes.txt\` : SHA-256 du nouveau patch officiel et de la nouvelle \`hns_en.gba\`
+          - [ ] commit signé, push : la CI publie \`${derniere#Release-}-fr.N\`
+
+          _Issue ouverte automatiquement par le workflow « Veille des versions HnS »._
+          EOF
+          gh issue create --title "$titre" --body-file "$RUNNER_TEMP/corps.md"
