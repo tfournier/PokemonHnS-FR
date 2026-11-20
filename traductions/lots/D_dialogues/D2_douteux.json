@@ -1,0 +1,98 @@
+[
+ {
+  "msgid": "There's something new on the second\\nfloor of POKéMON CENTERS, at the\\lDIRECT CORNER.\\pThey installed a Wireless Adapter\\nmachine for crushing BERRIES.\\pThis is where you come in.\\pI have a favor to ask, one that\\nI can entrust only to you.\\pCould you make BERRY POWDER for\\nme using that machine?\\pDon't forget, the machine is at the\\nDIRECT CORNER of POKéMON CENTERS.\\pI'll concoct medicine for you if\\nyou bring me some BERRY POWDER.\\pDon't forget, crush BERRIES into\\nBERRY POWDER and bring it to me.",
+  "msgstr": "Il y a du nouveau au premier étage des\\nCentres Pokémon, au Coin Direct.\\pIls ont installé une machine à broyer\\nles Baies avec l’Adaptateur Sans Fil.\\pC’est là que tu interviens.\\pJ’ai un service à te demander, que je\\nne peux confier qu’à toi.\\pPourrais-tu me faire de la Poudre Baie\\navec cette machine?\\pN’oublie pas, la machine se trouve au\\nCoin Direct des Centres Pokémon.\\pJe te préparerai des remèdes si tu\\nm’apportes de la Poudre Baie.\\pBroie des Baies pour en faire de la\\nPoudre Baie, et apporte-la-moi.",
+  "fichier": "data/maps/CeruleanCity_House5_Frlg/scripts.inc",
+  "ligne": 189,
+  "raison": "DIRECT CORNER = « Coin Direct » (forme du patch FR, non vérifiée dans Rouge Feu / Vert Feuille FR).",
+  "note": "Entrée aussi présente (traduite) dans un D2_00N.json ; à arbitrer."
+ },
+ {
+  "msgid": "Hm? Your BERRY POUCH is full.\\nMy gift remains ungiven, then.",
+  "msgstr": "Hm? Ton Sac à Baies est plein. Mon\\ncadeau attendra, alors.",
+  "fichier": "data/maps/CeruleanCity_House4_Frlg/scripts.inc",
+  "ligne": 152,
+  "raison": "BERRY POUCH = « Sac à Baies » (glossaire absent ; le .po a « Sac A Baies »).",
+  "note": "Entrée aussi présente (traduite) dans un D2_00N.json ; à arbitrer."
+ },
+ {
+  "msgid": "Did you see the FISHING GURU in\\nVERMILION CITY?",
+  "msgstr": "Tu as vu le Maître Pêcheur de Carmin\\nsur Mer?",
+  "fichier": "data/maps/SSAnne_B1F_Room4_Frlg/scripts.inc",
+  "ligne": 34,
+  "raison": "FISHING GURU = « Maître Pêcheur » : nom FRLG FR non trouvé sur Poképédia.",
+  "note": "Entrée aussi présente (traduite) dans un D2_00N.json ; à arbitrer."
+ },
+ {
+  "msgid": "I'm the FISHING GURU!\\pI simply looove fishing!\\nI can't bear to go without.\\pTell me, do you like to fish?",
+  "msgstr": "Je suis le Maître Pêcheur!\\pJ’adooore la pêche! Je ne peux pas\\nm’en passer.\\pDis-moi, tu aimes pêcher?",
+  "fichier": "data/maps/VermilionCity_House1_Frlg/scripts.inc",
+  "ligne": 36,
+  "raison": "FISHING GURU = « Maître Pêcheur » : nom FRLG FR non trouvé sur Poképédia.",
+  "note": "Entrée aussi présente (traduite) dans un D2_00N.json ; à arbitrer."
+ },
+ {
+  "msgid": "{PLAYER} received an OLD ROD from\\nthe FISHING GURU.",
+  "msgstr": "{PLAYER} reçoit une Canne\\ndu Maître Pêcheur!",
+  "fichier": "data/maps/VermilionCity_House1_Frlg/scripts.inc",
+  "ligne": 47,
+  "raison": "FISHING GURU = « Maître Pêcheur » : nom FRLG FR non trouvé sur Poképédia.",
+  "note": "Entrée aussi présente (traduite) dans un D2_00N.json ; à arbitrer."
+ },
+ {
+  "msgid": "Oh! That's an AURORATICKET!\\nNow that is rare.\\pWe'll be happy to take you to\\nBIRTH ISLAND anytime.",
+  "msgstr": "Oh! C’est un Ticketaurore! Voilà qui\\nest rare.\\pNous serons ravis de vous emmener à\\nl’Ile Aurore quand vous voulez.",
+  "fichier": "data/maps/VermilionCity_Frlg/scripts.inc",
+  "ligne": 364,
+  "raison": "AURORATICKET = « Ticketaurore » par analogie avec « Ticketmystik » (Poképédia) ; non vérifié.",
+  "note": "Entrée aussi présente (traduite) dans un D2_00N.json ; à arbitrer."
+ },
+ {
+  "msgid": "SPEARY: Tetweet!",
+  "msgstr": "PIAFI: Tuituit!",
+  "fichier": "data/maps/ViridianCity_House_Frlg/scripts.inc",
+  "ligne": 36,
+  "raison": "Surnom SPEARY adapté en « PIAFI » (pas de forme officielle trouvée).",
+  "note": "Entrée aussi présente (traduite) dans un D2_00N.json ; à arbitrer."
+ },
+ {
+  "msgid": "SPEAROW\\nName: SPEARY",
+  "msgstr": "PIAFABEC\\nNom: PIAFI",
+  "fichier": "data/maps/ViridianCity_House_Frlg/scripts.inc",
+  "ligne": 39,
+  "raison": "Surnom SPEARY adapté en « PIAFI » (pas de forme officielle trouvée).",
+  "note": "Entrée aussi présente (traduite) dans un D2_00N.json ; à arbitrer."
+ },
+ {
+  "msgid": "{RIVAL}: Hey, guess what?\\pI went to BILL's and got him to\\nshow me his rare POKéMON.\\pThat added a lot of pages to my\\nPOKéDEX!\\pAfter all, BILL's world famous as a\\nPOKéMANIAC.\\pHe invented the POKéMON Storage\\nSystem on PC, too.\\pSince you're using his system,\\nyou should go thank him.\\pWell, I better get rolling!\\nSmell ya later!",
+  "msgstr": "{RIVAL}: Hé, devine quoi!\\pJe suis allé chez Léo et il m’a montré\\nses Pokémon rares.\\pÇa m’a rempli plein de pages de mon\\nPokédex!\\pFaut dire que Léo est un Pokémaniac\\nmondialement connu.\\pC’est aussi lui qui a inventé le\\nSystème de Stockage Pokémon sur PC.\\pComme tu utilises son système, tu\\ndevrais aller le remercier.\\pBon, faut que j’y aille! A plus,\\nminable!",
+  "fichier": "data/maps/CeruleanCity_Frlg/scripts.inc",
+  "ligne": 375,
+  "raison": "« Smell ya later! » = « A plus, minable! » (réplique officielle FRLG FR non vérifiée) ; même choix en #17, #177, #423, #605.",
+  "note": "Entrée aussi présente (traduite) dans un D2_00N.json ; à arbitrer."
+ },
+ {
+  "msgid": "Bonjour!\\nI am le waiter on this ship!\\pI will be happy to serve you\\nanything you please!\\p… … …\\nAh! Le strong silent type!",
+  "msgstr": "Hello! Je suis the serveur de ce\\nnavire!\\pJe serai ravi de vous servir tout ce\\nque vous voulez!\\p… … … Ah! Le genre fort et silencieux!",
+  "fichier": "data/maps/SSAnne_1F_Corridor_Frlg/scripts.inc",
+  "ligne": 13,
+  "raison": "Le français dans l’anglais (serveur/chef de l’Océane) rendu par de l’anglais dans le français ; même procédé en #662, #668-#671.",
+  "note": "Entrée aussi présente (traduite) dans un D2_00N.json ; à arbitrer."
+ },
+ {
+  "msgid": "Hey, kid! What do you think you're\\ndoing here?\\pYou won't live long in combat!\\nNot with your puny power!\\pI tell you, kid, electric POKéMON\\nsaved me during the war!\\pThey zapped my enemies into\\nparalysis!\\pThe same as I'll do to you!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "msgstr": "Hey, kid! Qu’est-ce que tu fais ici?\\pTu ne tiendrais pas longtemps au\\ncombat!\\pPas avec ta puissance minable!\\pJe te le dis, kid, les Pokémon\\nélectriques m’ont sauvé à la guerre!\\pIls paralysaient mes ennemis!\\pEt c’est ce que je vais te faire!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}",
+  "fichier": "data/maps/VermilionCity_Gym_Frlg/scripts.inc",
+  "ligne": 289,
+  "raison": "Major Bob : franglais léger (« kid », « Hey ») comme dans SoulSilver FR ; même choix en #698-#703.",
+  "note": "Entrée aussi présente (traduite) dans un D2_00N.json ; à arbitrer."
+ },
+ {
+  "msgid": "PROF. OAK is going to have his own\\nradio show soon.\\pThe program will be called PROF.\\nOAK's POKéMON SEMINAR.",
+  "msgstr": "Le Prof. Chen va bientôt avoir sa\\npropre émission de radio.\\pElle s’appellera Le Séminaire Pokémon\\ndu Prof. Chen.",
+  "fichier": "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc",
+  "ligne": 1584,
+  "raison": "Nom de l’émission « Le Séminaire Pokémon du Prof. Chen » : traduction nouvelle.",
+  "note": "Entrée aussi présente (traduite) dans un D2_00N.json ; à arbitrer."
+ }
+]
