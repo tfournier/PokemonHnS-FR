@@ -24,7 +24,14 @@ msgstr ""
 "combat, les Dresseurs\\nlancent leurs Pokémon pour qu’ils\\lse battent entre"
 " eux.\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : CHEN: Hum…\nC’est vraiment décevant…\pSi tu
+#. gagnes, tu remportes de\nl’argent et tes Pokémon progressent.\pMais si tu
+#. perds, tu dois donner\nde l’argent au vainqueur…\p{B_PLAYER_NAME}, comme tu
+#. ne le savais\npas, je vais payer pour toi.\pMais tu devras te débrouiller
+#. sans\nmoi une fois dehors.\pC’es
 #: src/battle_controller_oak_old_man.c:52
 msgid ""
 "OAK: Hm…\\nHow disappointing…\\pIf you win, you earn prize money,\\nand your"
@@ -34,8 +41,8 @@ msgid ""
 "doors.\\pThat's why you must strengthen your\\nPOKéMON by battling wild "
 "POKéMON.\\p"
 msgstr ""
-"CHEN: Hum…\\nC’est vraiment décevant…\\pSi tu gagnes, tu remportes "
-"de\\nl’argent et tes Pokémon progressent.\\pMais si tu perds, tu dois "
+"CHEN: Hum…\\nC’est vraiment décevant…\\pUne victoire te rapporte de "
+"l’argent\\net fait progresser tes Pokémon.\\pMais si tu perds, tu dois "
 "donner\\nde l’argent au vainqueur…\\p{B_PLAYER_NAME}, comme tu ne le "
 "savais\\npas, je vais payer pour toi.\\pMais tu devras te débrouiller "
 "sans\\nmoi une fois dehors.\\pC’est pour ça que tu dois entraîner\\ntes "
@@ -70,13 +77,17 @@ msgstr "CHEN: Baisser les stats de\\nl’ennemi te donne l’avantage.\\p"
 msgid "OAK: No! There's no running away\\nfrom a TRAINER POKéMON battle!\\p"
 msgstr "CHEN: Non, on ne peut pas fuir\\nun combat contre un Dresseur!\\p"
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Le Dresseur qui met K.O. tous les\nPokémon
+#. adverses en réduisant leurs\lPV à “0” gagne le combat.\p
 #: src/battle_controller_oak_old_man.c:57
 msgid ""
 "The TRAINER that makes the other\\nTRAINER's POKéMON faint by "
 "lowering\\ltheir HP to “0,” wins.\\p"
 msgstr ""
-"Le Dresseur qui met K.O. tous les\\nPokémon adverses en réduisant leurs\\lPV"
+"Le Dresseur qui met K.O. tous les\\nPokémon adverses en réduisant\\lleurs PV"
 " à “0” gagne le combat.\\p"
 
 #. source : patch FR actuel
@@ -88,14 +99,19 @@ msgstr ""
 "Mais assez parlé, rien ne vaut\\nla pratique!\\pEssaie donc un vrai "
 "combat!\\p"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : CHEN: Hum! Excellent!\pSi tu gagnes, tu
+#. remportes de\nl’argent et tes Pokémon progressent!\pAffronte les autres
+#. Dresseurs\npour endurcir tes Pokémon!\p
 #: src/battle_controller_oak_old_man.c:59
 msgid ""
 "OAK: Hm! Excellent!\\pIf you win, you earn prize money,\\nand your POKéMON "
 "will grow!\\pBattle other TRAINERS and make\\nyour POKéMON strong!\\p"
 msgstr ""
-"CHEN: Hum! Excellent!\\pSi tu gagnes, tu remportes de\\nl’argent et tes "
-"Pokémon progressent!\\pAffronte les autres Dresseurs\\npour endurcir tes "
+"CHEN: Hum! Excellent!\\pUne victoire te rapporte de l’argent\\net fait "
+"progresser tes Pokémon!\\pAffronte les autres Dresseurs\\npour endurcir tes "
 "Pokémon!\\p"
 
 #. source : patch FR actuel
@@ -121,10 +137,12 @@ msgid "ACC: "
 msgstr "PRE: "
 
 #. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) :  images de réflexion\n
 #: src/battle_controller_player.c:2002
 msgid " frames thinking\\n"
-msgstr " images de réflexion\\n"
+msgstr " images d’IA\\n"
 
 #. source : traduction nouvelle
 #. lot : E_exceptions
@@ -133,10 +151,12 @@ msgid " cycles"
 msgstr " cycles"
 
 #. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Le partenaire utilisera:\n
 #: src/battle_controller_player.c:2038
 msgid "Partner will use:\\n"
-msgstr "Le partenaire utilisera:\\n"
+msgstr "Partenaire:\\n"
 
 #. source : Émeraude FR officiel
 #: src/battle_dome.c:860
@@ -14321,9 +14341,13 @@ msgid "BITTER"
 msgstr "AMER"
 
 #. source : Émeraude FR officiel
+#. lot : Z_alertes
+#. preuve : em_fr.gba 0x5ED480 : EPICE / SEC / SUCRE / AMER / ACIDE
+#. (0x5ED495), table des saveurs de pokeblock.c
+#. ancien (Émeraude FR officiel) : Acide
 #: src/pokeblock.c:711
 msgid "SOUR"
-msgstr "Acide"
+msgstr "ACIDE"
 
 #. source : Émeraude FR officiel
 #: src/pokeblock_feed.c:99
@@ -16754,21 +16778,27 @@ msgstr ""
 " Pos. ombre$"
 
 #. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : {START_BUTTON} Brillant {B_BUTTON} Retour
+#. {A_BUTTON} Fonds de\ncap.$
 #: src/pokemon_sprite_visualizer.c:490 src/pokemon_sprite_visualizer.c:499
 #: src/pokemon_sprite_visualizer.c:500
 msgid "{START_BUTTON} Shiny\\n{B_BUTTON} Back  {A_BUTTON} Move BGs$"
-msgstr "{START_BUTTON} Brillant {B_BUTTON} Retour {A_BUTTON} Fonds de\\ncap.$"
+msgstr "{START_BUTTON} Brillant\\n{B_BUTTON} Retour  {A_BUTTON} Dépl. fonds$"
 
 #. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : {START_BUTTON} Brillant {SELECT_BUTTON} Sexe
+#. {B_BUTTON} Retour {A_BUTTON}\nFonds de cap.$
 #: src/pokemon_sprite_visualizer.c:491
 msgid ""
 "{START_BUTTON} Shiny {SELECT_BUTTON} Gender\\n{B_BUTTON} Back  {A_BUTTON} "
 "Move BGs$"
 msgstr ""
-"{START_BUTTON} Brillant {SELECT_BUTTON} Sexe {B_BUTTON} Retour "
-"{A_BUTTON}\\nFonds de cap.$"
+"{START_BUTTON} Brillant {SELECT_BUTTON} Sexe\\n{B_BUTTON} Retour  {A_BUTTON}"
+" Dépl. fonds$"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees
@@ -27364,24 +27394,30 @@ msgstr ""
 "{SELECT_BUTTON} GBS oui"
 
 #. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : ID musique: {STR_VAR_3}   {START_BUTTON}
+#. Stop\n{STR_VAR_1}    \n{STR_VAR_2}  {SELECT_BUTTON} GBS non
 #: src/debug.c:476
 msgid ""
 "Music ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}"
 "  {SELECT_BUTTON} GBS Off"
 msgstr ""
-"ID musique: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    "
-"\\n{STR_VAR_2}  {SELECT_BUTTON} GBS non"
+"Musique: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  "
+"{SELECT_BUTTON} GBS non"
 
 #. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : ID musique: {STR_VAR_3}   {START_BUTTON}
+#. Stop\n{STR_VAR_1}    \n{STR_VAR_2}  {SELECT_BUTTON} GBS oui
 #: src/debug.c:477
 msgid ""
 "Music ID: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}"
 "  {SELECT_BUTTON} GBS On"
 msgstr ""
-"ID musique: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    "
-"\\n{STR_VAR_2}  {SELECT_BUTTON} GBS oui"
+"Musique: {STR_VAR_3}   {START_BUTTON} Stop\\n{STR_VAR_1}    \\n{STR_VAR_2}  "
+"{SELECT_BUTTON} GBS oui"
 
 #. source : traduction nouvelle
 #. lot : E_menus_donnees

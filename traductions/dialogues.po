@@ -25182,10 +25182,13 @@ msgstr ""
 msgid "RON: My sister's gotten more\\npowerful…"
 msgstr "Ron: Ma sœur est devenue encore plus\\nforte…"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Quoi?
 #: data/maps/Route16_Frlg/scripts.inc:77 data/text/trainers_frlg.inc:410
 msgid "What do you want?"
-msgstr "Quoi?"
+msgstr "Qu’est-ce que tu me veux?"
 
 #. source : traduction nouvelle
 #. lot : D1_dialogues
@@ -61637,10 +61640,14 @@ msgid ""
 "The ILEX FOREST is watched\\nover by its protector.\\pStay out of mischief!"
 msgstr "On dit qu’une divinité veille sur cette\\nforêt, alors tiens-toi bien!"
 
-#. source : patch FR actuel (récupéré par pointeur)
+#. source : patch FR actuel (vérifié)
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel (récupéré par pointeur)
+#. ancien (patch FR actuel (récupéré par pointeur)) : PIERRE ROCHARD: Ça ne
+#. peut vouloir dire\nqu’une chose.
 #: data/maps/SinjohRuins_hns/scripts.inc:157
 msgid "STEVEN: This could only mean one thing."
-msgstr "PIERRE ROCHARD: Ça ne peut vouloir dire\\nqu’une chose."
+msgstr "PIERRE: Ça ne peut vouloir dire\\nqu’une chose."
 
 #. source : patch FR actuel
 #: data/maps/SinjohRuins_hns/scripts.inc:160
@@ -61685,16 +61692,22 @@ msgstr ""
 "PIERRE: Dire qu’un autre Dresseur\\nm’a battu de la "
 "sorte…\\pIncroyable.\\pTiens, voici la dernière plaque."
 
-#. source : patch FR actuel
+#. source : patch FR actuel (vérifié)
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : PIERRE ROCHARD: {PLAYER}.\pDès que j’ai vu la
+#. détermination\ndans ton regard, j’ai senti\lque tout mènerait à ce
+#. moment.\pJe vais mettre à l’épreuve le lien\nqui t’unit à tes Pokémon.\pOn
+#. y va?
 #: data/maps/SinjohRuins_hns/scripts.inc:338
 msgid ""
 "STEVEN: {PLAYER}.\\pEver since I first saw the\\ndetermination in your "
 "eyes,\\lI felt it would lead to this.\\pI will test the bond between "
 "you\\nand your POKéMON.\\pAre you ready?"
 msgstr ""
-"PIERRE ROCHARD: {PLAYER}.\\pDès que j’ai vu la détermination\\ndans ton "
-"regard, j’ai senti\\lque tout mènerait à ce moment.\\pJe vais mettre à "
-"l’épreuve le lien\\nqui t’unit à tes Pokémon.\\pOn y va?"
+"PIERRE: {PLAYER}.\\pDès que j’ai vu la détermination\\ndans ton regard, j’ai"
+" senti\\lque tout mènerait à ce moment.\\pJe vais mettre à l’épreuve le "
+"lien\\nqui t’unit à tes Pokémon.\\pOn y va?"
 
 #. source : traduction nouvelle
 #. lot : C2a_dialogues
@@ -91178,14 +91191,18 @@ msgid "Anywhere, Anytime POKéMON Radio"
 msgstr "Radio Pokémon, partout, tout le temps"
 
 #. source : traduction nouvelle
-#. lot : D3b_dialogues
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : AVIS DE RECHERCHE\pMerci de retrouver la
+#. Dent d’Or perdue\npar le Gardien du Parc Safari.\lElle est quelque part par
+#. ici.\pRécompense offerte!\nContact: le Gardien
 #: data/maps/SafariZone_West_Frlg/scripts.inc:24
 msgid ""
 "REQUEST NOTICE\\pPlease find the SAFARI WARDEN's\\nlost GOLD "
 "TEETH.\\lThey're around here somewhere.\\pReward offered!\\nContact: WARDEN"
 msgstr ""
-"AVIS DE RECHERCHE\\pMerci de retrouver la Dent d’Or perdue\\npar le Gardien "
-"du Parc Safari.\\lElle est quelque part par ici.\\pRécompense "
+"AVIS DE RECHERCHE\\pMerci de retrouver le Dentier en Or\\nperdu par le "
+"Gardien du Parc Safari.\\lIl est quelque part par ici.\\pRécompense "
 "offerte!\\nContact: le Gardien"
 
 #. source : traduction nouvelle
@@ -125008,12 +125025,13 @@ msgid "VERMILION PORT\\nENTRANCE"
 msgstr "Entrée du port de Carmin sur Mer"
 
 #. source : traduction nouvelle
-#. lot : C2a_dialogues
-#. ancien (patch FR actuel) : Bonjour!\nJe m’appelle Pierre Rochard,\lle
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Bonjour!\nJe m’appelle PIERRE ROCHARD,\lle
 #. Maître de la région de HOENN.\pNe nous serions-nous pas\ndéjà
-#. rencontrés…?\pC’est impossible.\nDe toute façon, tous les\ldresseurs que
-#. j’affronte ont\lle même regard.\pSurtout ceux qui m’ont donné\ndu fil à
-#. retordre.\pJe suis à KANTO pour affaires.\nDe nomb
+#. rencontrés…?\pC’est impossible.\nDe toute façon, tous les\lDresseurs que
+#. j’ai affrontés\lse ressemblent.\pSurtout ceux qui m’ont donné\ndu fil à
+#. retordre.\pJe suis à Kanto pour affaires.\nDe nomb
 #: data/maps/VermilionCity_hns/scripts.inc:504
 msgid ""
 "Hi!\\nMy name is Steven.\\lThe Champion from the HOENN region.\\pHave we "
@@ -125027,17 +125045,17 @@ msgid ""
 "see.\\pSome trainers have even reported\\none that soars through the sky "
 "like\\la jet... What color was it again?"
 msgstr ""
-"Bonjour!\\nJe m’appelle PIERRE ROCHARD,\\lle Maître de la région de "
-"HOENN.\\pNe nous serions-nous pas\\ndéjà rencontrés…?\\pC’est "
-"impossible.\\nDe toute façon, tous les\\lDresseurs que j’ai affrontés\\lse "
-"ressemblent.\\pSurtout ceux qui m’ont donné\\ndu fil à retordre.\\pJe suis à"
-" Kanto pour affaires.\\nDe nombreux Pokémon de HOENN\\lont récemment migré "
-"par ici.\\lCet afflux pourrait perturber\\ll’écosystème local.\\pAvec l’aide"
-" de mon entreprise,\\nje crée donc un habitat spécial\\lpour attirer et "
-"contenir les\\lespèces les plus envahissantes.\\pOuvre l’œil, et attrape "
-"tous\\nles Pokémon de HOENN que tu vois.\\pDes Dresseurs disent même en "
-"avoir\\nvu un fendre le ciel comme\\lun avion à réaction… Il était\\lde "
-"quelle couleur, déjà?"
+"Bonjour!\\nJe m’appelle PIERRE,\\lle Maître de la région de HOENN.\\pNe nous"
+" serions-nous pas\\ndéjà rencontrés…?\\pC’est impossible.\\nDe toute façon, "
+"tous les\\lDresseurs que j’ai affrontés\\lse ressemblent.\\pSurtout ceux qui"
+" m’ont donné\\ndu fil à retordre.\\pJe suis à Kanto pour affaires.\\nDe "
+"nombreux Pokémon de HOENN\\lont récemment migré par ici.\\lCet afflux "
+"pourrait perturber\\ll’écosystème local.\\pAvec l’aide de mon "
+"entreprise,\\nje crée donc un habitat spécial\\lpour attirer et contenir "
+"les\\lespèces les plus envahissantes.\\pOuvre l’œil, et attrape tous\\nles "
+"Pokémon de HOENN que tu vois.\\pDes Dresseurs disent même en avoir\\nvu un "
+"fendre le ciel comme\\lun avion à réaction… Il était\\lde quelle couleur, "
+"déjà?"
 
 #. source : patch FR actuel
 #: data/maps/VermilionCity_hns/scripts.inc:529

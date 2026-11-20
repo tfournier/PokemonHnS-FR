@@ -3984,10 +3984,14 @@ msgstr "Démo réussie si du même\\ntype que la précédente."
 msgid "Works well if different in\\ntype than the one before."
 msgstr "Démo réussie si de type\\ndifférent de la précédente."
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Dépend du succès de la capacité\ndu Pokémon
+#. précédent.
 #: src/data/contest_moves.h:326
 msgid "Affected by how well the\\nprevious Pokémon's move went."
-msgstr "Dépend du succès de la capacité\\ndu Pokémon précédent."
+msgstr "Dépend du succès de l’action\\ndu Pokémon précédent."
 
 #. source : Émeraude FR officiel
 #: src/data/contest_moves.h:328
@@ -18994,10 +18998,13 @@ msgid "A kick that inflicts more\\ndamage on heavier foes."
 msgstr "Un coup de pied faisant\\nplus mal aux ennemis lourds."
 
 #. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Un coup de pied bas fait trébucher et\npeut
+#. apeurer.
 #: src/data/moves_info.h:1878
 msgid "A low, tripping kick that\\nmay cause flinching."
-msgstr "Un coup de pied bas fait trébucher et\\npeut apeurer."
+msgstr "Coup de pied bas qui fait\\ntrébucher. Peut apeurer."
 
 #. source : Émeraude FR officiel
 #: src/data/moves_info.h:1905
@@ -19636,10 +19643,14 @@ msgstr "Carbonise ce qui est touché.\\nPeut brûler l’ennemi."
 msgid "WATERFALL"
 msgstr "Cascade"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Charge assez vite pour gravir\nles cascades.
+#. Peut apeurer.
 #: src/data/moves_info.h:3463
 msgid "Charges with speed to climb\\nwaterfalls. May flinch."
-msgstr "Charge assez vite pour gravir\\nles cascades. Peut apeurer."
+msgstr "Charge si vite qu’elle gravit\\nles cascades. Peut apeurer."
 
 #. source : Émeraude FR officiel
 #: src/data/moves_info.h:3491
@@ -19986,10 +19997,13 @@ msgid "TRI ATTACK"
 msgstr "Triplattaque"
 
 #. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Crée un champ d’énergie triangulaire\net le
+#. projette.
 #: src/data/moves_info.h:4389
 msgid "A triangular field of energy\\nis created and launched."
-msgstr "Crée un champ d’énergie triangulaire\\net le projette."
+msgstr "Crée un champ d’énergie en\\ntriangle et le projette."
 
 #. source : Émeraude FR officiel
 #: src/data/moves_info.h:4417
@@ -20576,10 +20590,14 @@ msgstr "Attaque plus puissante si\\nle Dresseur est mal aimé."
 msgid "SAFEGUARD"
 msgstr "Rune Protect"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Protège l’équipe des problèmes\nde statut
+#. pendant 5 tours.
 #: src/data/moves_info.h:5941
 msgid "Protects allies from status\\nproblems for 5 turns."
-msgstr "Protège l’équipe des problèmes\\nde statut pendant 5 tours."
+msgstr "Protège les alliés des\\nproblèmes de statut 5 tours."
 
 #. source : Émeraude FR officiel
 #: src/data/moves_info.h:5966
@@ -20779,10 +20797,14 @@ msgstr "2 attaques tranchantes.\\nTaux de critiques élevé."
 msgid "TWISTER"
 msgstr "Ouragan"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Déclenche une violente tornade\ncontre les
+#. ennemis. Peut apeurer.
 #: src/data/moves_info.h:6466
 msgid "Whips up a vicious twister\\nto tear at foes. May flinch."
-msgstr "Déclenche une violente tornade\\ncontre les ennemis. Peut apeurer."
+msgstr "Une violente tornade frappe\\nles ennemis. Peut apeurer."
 
 #. source : Émeraude FR officiel
 #: src/data/moves_info.h:6493
@@ -20828,10 +20850,14 @@ msgstr "Renvoie l’attaque spéciale\\nennemie 2 fois plus fort."
 msgid "PSYCH UP"
 msgstr "Boost"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Copie les changements de stats\nde l’ennemi pour
+#. le lanceur.
 #: src/data/moves_info.h:6614
 msgid "Copies foe's stat changes\\nand gives to the user."
-msgstr "Copie les changements de stats\\nde l’ennemi pour le lanceur."
+msgstr "Le lanceur copie les stats\\nmodifiées de l’ennemi."
 
 #. source : SoulSilver FR officiel
 #. lot : N_noms_casse
@@ -20927,10 +20953,14 @@ msgstr "Appelle l’équipe à se joindre\\nà l’attaque."
 msgid "FAKE OUT"
 msgstr "Bluff"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Agit en 1er et apeure. Seulement\nau 1er tour du
+#. lanceur.
 #: src/data/moves_info.h:6831
 msgid "Moves 1st and flinches. Only\\nworks on user's 1st turn."
-msgstr "Agit en 1er et apeure. Seulement\\nau 1er tour du lanceur."
+msgstr "Agit en 1er et apeure, mais\\nseulement au 1er tour."
 
 #. source : Émeraude FR officiel
 #: src/data/moves_info.h:6857
@@ -21062,10 +21092,14 @@ msgstr "Plus puissant si brûlé,\\nparalysé ou empoisonné."
 msgid "FOCUS PUNCH"
 msgstr "Mitra-Poing"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Attaque puissante, en dernier.\nEchoue si le
+#. lanceur est touché.
 #: src/data/moves_info.h:7147
 msgid "Powerful attack, moves last.\\nThe user flinches if hit."
-msgstr "Attaque puissante, en dernier.\\nEchoue si le lanceur est touché."
+msgstr "Frappe fort en dernier. Rate\\nsi le lanceur est touché."
 
 #. source : patch FR actuel
 #. SoulSilver (approché) : Stimulant
@@ -21453,10 +21487,14 @@ msgstr "Coup de pied à taux de cri-\\ntiques élevé. Peut brûler."
 msgid "MUD SPORT"
 msgstr "Lance-Boue"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Se couvre de boue pour affaiblir\nles capacités
+#. Electrik.
 #: src/data/moves_info.h:8100
 msgid "Covers the user in mud to\\nweaken all Electric moves."
-msgstr "Se couvre de boue pour affaiblir\\nles capacités Electrik."
+msgstr "Se couvre de boue. Affaiblit\\nles capacités Electrik."
 
 #. source : Émeraude FR officiel
 #: src/data/moves_info.h:8126
@@ -21957,10 +21995,14 @@ msgstr "Demande gentiment un objet\\ndétenu par l’ennemi."
 msgid "VOLT TACKLE"
 msgstr "Electacle"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Une charge risquée qui blesse\nle lanceur. Peut
+#. paralyser.
 #: src/data/moves_info.h:9241
 msgid "A life-risking tackle that\\nhurts the user. May paralyze."
-msgstr "Une charge risquée qui blesse\\nle lanceur. Peut paralyser."
+msgstr "Charge risquée qui blesse\\nle lanceur. Peut paralyser."
 
 #. source : Émeraude FR officiel
 #. lot : A_emeraude
@@ -22164,10 +22206,14 @@ msgstr "Voeu Soin"
 msgid "BRINE"
 msgstr "Saumure"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Dégâts doublés si l’ennemi\na la moitié de ses
+#. PV ou moins.
 #: src/data/moves_info.h:9699
 msgid "Does double damage to foes\\nwith half HP or less."
-msgstr "Dégâts doublés si l’ennemi\\na la moitié de ses PV ou moins."
+msgstr "Dégâts doublés si l’ennemi a\\nla moitié de ses PV ou moins."
 
 #. source : SoulSilver FR officiel
 #: src/data/moves_info.h:9719
@@ -22679,12 +22725,13 @@ msgid "SWITCHEROO"
 msgstr "Passe-Passe"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Echange les objets tenus\nà une vitesse
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Echange d’objet avec l’ennemi\nà une vitesse
 #. fulgurante.
 #: src/data/moves_info.h:10977
 msgid "Swaps items with the foe\\nfaster than the eye can see."
-msgstr "Echange d’objet avec l’ennemi\\nà une vitesse fulgurante."
+msgstr "Echange d’objet avec la cible\\nà une vitesse fulgurante."
 
 #. source : SoulSilver FR officiel
 #: src/data/moves_info.h:11001
@@ -23383,10 +23430,14 @@ msgstr "Tacle Lourd"
 msgid "SYNCHRONOISE"
 msgstr "Synchropeine"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Une onde étrange qui ne blesse\nque les {PKMN}
+#. du même type.
 #: src/data/moves_info.h:12695
 msgid "An odd shock wave that only\\ndamages same-type {PKMN}."
-msgstr "Une onde étrange qui ne blesse\\nque les {PKMN} du même type."
+msgstr "Onde étrange qui ne blesse\\nque les {PKMN} du même type."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -23396,12 +23447,13 @@ msgid "ELECTRO BALL"
 msgstr "Boule Elek"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Une boule électrique faisant\nplus mal aux
-#. ennemis lents.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Lance une boule électrique,\nplus forte sur
+#. un ennemi lent.
 #: src/data/moves_info.h:12716
 msgid "Hurls an orb that does more\\ndamage to slower foes."
-msgstr "Lance une boule électrique,\\nplus forte sur un ennemi lent."
+msgstr "Une boule électrique, plus\\nforte contre un ennemi lent."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -23423,11 +23475,13 @@ msgid "FLAME CHARGE"
 msgstr "NITROCHARGE"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Une charge enflammée.\nAugmente la Vitesse.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Attaque dans un manteau de\nflammes.
+#. Augmente la Vitesse.
 #: src/data/moves_info.h:12762
 msgid "Attacks in a cloak of\\nflames. Raises Speed."
-msgstr "Attaque dans un manteau de\\nflammes. Augmente la Vitesse."
+msgstr "Attaque dans un manteau de\\nflammes. Monte la Vitesse."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -23621,10 +23675,14 @@ msgstr "Projette de l’eau bouillante.\\nPeut brûler l’ennemi."
 msgid "SHELL SMASH"
 msgstr "Exuviation"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Monte beaucoup Atq./Atq. Spé./\nVitesse, mais
+#. baisse Déf./Déf. Spé.
 #: src/data/moves_info.h:13153
 msgid "Sharply raises Atk/Sp.Atk/\\nSpeed, but drops Def/Sp.Def."
-msgstr "Monte beaucoup Atq./Atq. Spé./\\nVitesse, mais baisse Déf./Déf. Spé."
+msgstr "Monte fort Atq./Atq.Spé./\\nVitesse. Baisse Déf./Déf.Spé."
 
 #. source : patch FR actuel (vérifié)
 #. lot : C2b_donnees
@@ -23841,10 +23899,14 @@ msgstr "Se débat, frappe les ennemis\\net baisse leur Atq. Spé."
 msgid "BULLDOZE"
 msgstr "PIETISOL"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Piétine le sol. Touche tout\nle monde et baisse
+#. la Vitesse.
 #: src/data/moves_info.h:13602
 msgid "Stomps down on the ground.\\nHits all and lowers Speed."
-msgstr "Piétine le sol. Touche tout\\nle monde et baisse la Vitesse."
+msgstr "Piétine le sol. Touche tout\\nle monde. Baisse la Vitesse."
 
 #. source : traduction nouvelle
 #. lot : C2b_donnees
@@ -23881,10 +23943,14 @@ msgstr "Se motive pour monter\\nl’Attaque et l’Atq. Spé."
 msgid "ELECTROWEB"
 msgstr "Toile Elek"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Capture les ennemis dans un filet\nélectrique.
+#. Baisse la Vitesse.
 #: src/data/moves_info.h:13695
 msgid "Snares the foes with an\\nelectric net. Lowers Speed."
-msgstr "Capture les ennemis dans un filet\\nélectrique. Baisse la Vitesse."
+msgstr "Un filet électrique piège les\\nennemis. Baisse leur Vitesse."
 
 #. source : patch FR actuel (vérifié)
 #. lot : C2b_donnees
@@ -24016,12 +24082,13 @@ msgid "NIGHT DAZE"
 msgstr "Explonuit"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Une onde de choc noire. Peut\nbaisser la
-#. Précision.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Lance une onde de choc noire.\nPeut baisser
+#. la Précision.
 #: src/data/moves_info.h:13984
 msgid "Looses a pitch-black shock\\nwave. May lower accuracy."
-msgstr "Lance une onde de choc noire.\\nPeut baisser la Précision."
+msgstr "Emet une onde de choc noire.\\nPeut baisser la Précision."
 
 #. source : patch FR actuel (vérifié)
 #. lot : C2b_donnees
@@ -24137,10 +24204,14 @@ msgstr "Taillade avec une longue\\ncorne. Dégâts physiques."
 msgid "GLACIATE"
 msgstr "Ere Glaciaire"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Souffle un air glacial sur les\nennemis et
+#. baisse leur Vitesse.
 #: src/data/moves_info.h:14226
 msgid "Blows very cold air at the\\nfoes. It lowers their Speed."
-msgstr "Souffle un air glacial sur les\\nennemis et baisse leur Vitesse."
+msgstr "Souffle un air glacial sur les\\nennemis. Baisse leur Vitesse."
 
 #. source : patch FR actuel (vérifié)
 #. lot : C2b_donnees
@@ -24256,12 +24327,13 @@ msgid "FUSION FLARE"
 msgstr "Flamme Croix"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Une boule de feu. Plus forte\naprès Eclair
-#. Croix.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Invoque une boule de feu.\nPlus forte après
+#. Eclair Croix.
 #: src/data/moves_info.h:14468
 msgid "Summons a fireball. Works\\nwell with a thunderbolt."
-msgstr "Invoque une boule de feu.\\nPlus forte après Eclair Croix."
+msgstr "Lance une boule de feu, plus\\nforte après Eclair Croix."
 
 #. source : patch FR actuel (vérifié)
 #. lot : C2b_donnees
@@ -24414,12 +24486,13 @@ msgid "PARABOLIC CHARGE"
 msgstr "Parabocharge"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Blesse les Pokémon voisins\net récupère la
-#. moitié en PV.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Blesse les voisins. Rend en PV\nla moitié
+#. des dégâts infligés.
 #: src/data/moves_info.h:14772
 msgid "Damages adjacent Pokémon\\nand heals up by half of it."
-msgstr "Blesse les voisins. Rend en PV\\nla moitié des dégâts infligés."
+msgstr "Blesse les voisins et rend en\\nPV la moitié des dégâts."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -24713,11 +24786,13 @@ msgid "MYSTICAL FIRE"
 msgstr "Feu Ensorcelé"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Souffle un feu spécial.\nBaisse l’Atq. Spé.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Crache un feu spécial ardent.\nBaisse l’Atq.
+#. Spé.
 #: src/data/moves_info.h:15392
 msgid "Breathes a special, hot\\nfire. Lowers Sp. Atk."
-msgstr "Crache un feu spécial ardent.\\nBaisse l’Atq. Spé."
+msgstr "Crache un feu spécial et\\nbrûlant. Baisse l’Atq. Spé."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -24769,12 +24844,13 @@ msgid "VENOM DRENCH"
 msgstr "Piège de Venin"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Baisse Attaque, Atq. Spé. et\nVitesse d’un
-#. ennemi empoisonné.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Ennemis empoisonnés: baisse\nAttaque, Atq.
+#. Spé. et Vitesse.
 #: src/data/moves_info.h:15493
 msgid "Lowers the Attack, Sp. Atk\\nand Speed of poisoned foes."
-msgstr "Ennemis empoisonnés: baisse\\nAttaque, Atq. Spé. et Vitesse."
+msgstr "Ennemis empoisonnés: baisse\\nAtq., Atq. Spé. et Vitesse."
 
 #. source : patch FR actuel
 #: src/data/moves_info.h:15516
@@ -25080,10 +25156,14 @@ msgstr "Coud l’ombre de l’ennemi.\\nIl ne peut plus s’enfuir."
 msgid "DARKEST LARIAT"
 msgstr "Dark Lariat"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Frappe en balançant les bras.\nIgnore les stats
+#. modifiées.
 #: src/data/moves_info.h:16165
 msgid "Swings the arms to strike\\nIt ignores stat changes."
-msgstr "Frappe en balançant les bras.\\nIgnore les stats modifiées."
+msgstr "Frappe en agitant les bras.\\nIgnore les stats modifiées."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -25236,10 +25316,14 @@ msgstr "Monte Attaque et Atq. Spé.\\ndes alliés Plus ou Minus."
 msgid "THROAT CHOP"
 msgstr "Exécu-Son"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Frappe la gorge et bloque\nles capacités sonores
+#. 2 tours.
 #: src/data/moves_info.h:16463
 msgid "Chops the throat to disable\\nsound moves for 2 turns."
-msgstr "Frappe la gorge et bloque\\nles capacités sonores 2 tours."
+msgstr "Frappe la gorge. Empêche les\\ncapacités sonores 2 tours."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -25362,12 +25446,13 @@ msgid "PURIFY"
 msgstr "Purification"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Soigne le statut de l’ennemi\npour regagner des
-#. PV.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Guérit l’altération de statut\nde l’ennemi
+#. et regagne des PV.
 #: src/data/moves_info.h:16708
 msgid "Cures the foe's status\\nto restore HP."
-msgstr "Guérit l’altération de statut\\nde l’ennemi et regagne des PV."
+msgstr "Guérit le statut de l’ennemi\\net regagne des PV."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -26019,10 +26104,14 @@ msgstr "A l’heure du thé, tous les\\nPokémon mangent leur Baie."
 msgid "OCTOLOCK"
 msgstr "Octoprise"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Piège l’ennemi et baisse sa Déf.\net Déf. Spé. à
+#. chaque tour.
 #: src/data/moves_info.h:17959
 msgid "Traps the foe to lower Def\\nand Sp. Def each turn."
-msgstr "Piège l’ennemi et baisse sa Déf.\\net Déf. Spé. à chaque tour."
+msgstr "Piège l’ennemi. Baisse sa Déf.\\net sa Déf. Spé. à chaque tour."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -26478,10 +26567,14 @@ msgstr "Brûle les ennemis dont les\\nstats ont monté ce tour-ci."
 msgid "LASH OUT"
 msgstr "Cent Rancunes"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Puissance doublée si les stats\ndu lanceur ont
+#. baissé ce tour.
 #: src/data/moves_info.h:18894
 msgid "If user's stats were lowered\\nthis turn, power is doubled."
-msgstr "Puissance doublée si les stats\\ndu lanceur ont baissé ce tour."
+msgstr "Puissance x2 si les stats du\\nlanceur ont baissé ce tour."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -26522,12 +26615,13 @@ msgid "COACHING"
 msgstr "Coaching"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Coache les alliés. Augmente\nleur Attaque et
-#. Défense.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Coache les alliés. Augmente\nleur Attaque et
+#. leur Défense.
 #: src/data/moves_info.h:18959
 msgid "Properly coaches allies to\\nup their Attack and Defense."
-msgstr "Coache les alliés. Augmente\\nleur Attaque et leur Défense."
+msgstr "Coache les alliés. Augmente\\nleur Attaque et Défense."
 
 #. source : patch FR actuel (vérifié)
 #. lot : C2b_donnees
@@ -26661,10 +26755,14 @@ msgstr "Regard Glaçant"
 msgid "FIERY WRATH"
 msgstr "Fureur Ardente"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Attaque nourrie par la colère.\nPeut apeurer
+#. l’ennemi.
 #: src/data/moves_info.h:19232
 msgid "Attack fueled by your\\nwrath. May cause flinching."
-msgstr "Attaque nourrie par la colère.\\nPeut apeurer l’ennemi."
+msgstr "Attaque nourrie de colère.\\nPeut apeurer l’ennemi."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -26754,10 +26852,14 @@ msgstr "Echange Force"
 msgid "STONE AXE"
 msgstr "Hache de Pierre"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Disperse des pierres\npointues qui blessent
+#. l’ennemi.
 #: src/data/moves_info.h:19422
 msgid "Sets sharp rocks that hurt\\nthe foe."
-msgstr "Disperse des pierres\\npointues qui blessent l’ennemi."
+msgstr "Pose des pierres pointues\\nqui blessent l’ennemi."
 
 #. source : patch FR actuel
 #: data/maps/NewSinjoh_HotSprings_hns/scripts.inc:274
@@ -26783,12 +26885,13 @@ msgid "MYSTICAL POWER"
 msgstr "Force Mystique"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Pouvoir mystique qui monte\nl’Atq. Spé. du
-#. lanceur.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Frappe d’un pouvoir mystique.\nMonte l’Atq.
+#. Spé. du lanceur.
 #: src/data/moves_info.h:19467
 msgid "A mysterious power strikes,\\nraising the user's Sp. Atk."
-msgstr "Frappe d’un pouvoir mystique.\\nMonte l’Atq. Spé. du lanceur."
+msgstr "Pouvoir mystique qui frappe.\\nMonte l’Atq. Spé. du lanceur."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -27142,12 +27245,13 @@ msgid "ICE SPINNER"
 msgstr "Cryo-Pirouette"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Tourne sur des pieds glacés\net détruit le champ
-#. actif.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Frappe de ses pieds glacés et\ndétruit le
+#. champ actif.
 #: src/data/moves_info.h:20104
 msgid "Ice-covered feet hit a foe\\nand destroy the terrain."
-msgstr "Frappe de ses pieds glacés et\\ndétruit le champ actif."
+msgstr "Coup de pied glacé qui\\ndétruit le champ actif."
 
 #. source : patch FR actuel (vérifié)
 #. lot : C2b_donnees
@@ -27158,12 +27262,13 @@ msgid "GLAIVE RUSH"
 msgstr "Charge Glaive"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Ensuite, il subit le double\nde dégâts, sans
-#. esquive.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Au tour suivant, les coups\nennemis sont
+#. sûrs et doublés.
 #: src/data/moves_info.h:20123
 msgid "Foe attacks next turn can't\\nmiss and do double damage."
-msgstr "Au tour suivant, les coups\\nennemis sont sûrs et doublés."
+msgstr "Au tour suivant, les coups\\nreçus sont sûrs et doublés."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -27241,12 +27346,13 @@ msgid "FILLET AWAY"
 msgstr "Décharnement"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Sacrifie des PV et booste\nAttaque, Atq. Spé.,
-#. Vitesse.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Sacrifie des PV et monte fort\nAttaque, Atq.
+#. Spé. et Vitesse.
 #: src/data/moves_info.h:20250
 msgid "Sharply boosts offenses and\\nSpeed by using its own HP."
-msgstr "Sacrifie des PV et monte fort\\nAttaque, Atq. Spé. et Vitesse."
+msgstr "Sacrifie des PV. Monte fort\\nAtq., Atq. Spé. et Vitesse."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -27349,12 +27455,13 @@ msgid "COLLISION COURSE"
 msgstr "Nitro Crash"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Une explosion antique, plus\nforte si super
-#. efficace.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Explosion préhistorique, plus\nforte si
+#. super efficace.
 #: src/data/moves_info.h:20427
 msgid "Prehistoric explosion that's\\nstronger if super effective."
-msgstr "Explosion préhistorique, plus\\nforte si super efficace."
+msgstr "Explosion préhistorique plus\\nforte si super efficace."
 
 #. source : patch FR actuel (vérifié)
 #. lot : C2b_donnees
@@ -27389,10 +27496,13 @@ msgid "CHILLY RECEPTION"
 msgstr "Neigeux de Mots"
 
 #. source : traduction nouvelle
-#. lot : E_menus_donnees
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Sa blague jette un froid et fait\ngrêler.
+#. Puis il cède sa place.
 #: src/data/moves_info.h:20487
 msgid "Bad joke summons hailstorm.\\nThe user also switches out."
-msgstr "Sa blague jette un froid et fait\\ngrêler. Puis il cède sa place."
+msgstr "Une blague nulle fait grêler.\\nPuis le lanceur est remplacé."
 
 #. source : patch FR actuel
 #: src/data/moves_info.h:20491
@@ -27677,10 +27787,14 @@ msgstr "Le type dépend du masque.\\nTaux de critiques élevé."
 msgid "ELECTRO SHOT"
 msgstr "Fulgurayon"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Accumule de l’électricité puis\ntire un rayon à
+#. haute tension.
 #: src/data/moves_info.h:21108
 msgid "Gathers electricity, then\\nfires a high-voltage shot."
-msgstr "Accumule de l’électricité puis\\ntire un rayon à haute tension."
+msgstr "Accumule de l’électricité et\\ntire un rayon haute tension."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -27690,11 +27804,13 @@ msgid "TERA STARSTORM"
 msgstr "Pluie Térastrale"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : En Forme Stellaire, frappe\ntous les ennemis.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : En Forme Stellaire, TERAPAGOS\nfrappe tous
+#. les ennemis.
 #: src/data/moves_info.h:21134
 msgid "In Terapagos's Stellar\\nForm, it hits all foes."
-msgstr "En Forme Stellaire, TERAPAGOS\\nfrappe tous les ennemis."
+msgstr "TERAPAGOS (Forme Stellaire)\\nfrappe tous les ennemis."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -27820,10 +27936,14 @@ msgstr "Plaquage électrique. S’il\\nrate, le lanceur se blesse."
 msgid "PSYCHIC NOISE"
 msgstr "Dissonance Psy"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Ondes sonores qui blessent et\nbloquent les
+#. soins 2 tours.
 #: src/data/moves_info.h:21348
 msgid "Sound waves that damage and\\nprevent healing for 2 turns."
-msgstr "Ondes sonores qui blessent et\\nbloquent les soins 2 tours."
+msgstr "Blesse par ondes sonores et\\nbloque les soins 2 tours."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -28015,10 +28135,14 @@ msgstr "Attaque avec l’énergie des\\nplantes. Puissance variable."
 msgid "GIGAVOLT HAVOC"
 msgstr "Fulgur. Gigavolt"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Frappe avec un puissant courant\nélectrique.
+#. Puissance variable.
 #: src/data/moves_info.h:21608
 msgid "Hits the foe with powerful\\nelectricity. Power varies."
-msgstr "Frappe avec un puissant courant\\nélectrique. Puissance variable."
+msgstr "Frappe d’une forte décharge.\\nPuissance variable."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -28041,12 +28165,13 @@ msgid "SUBZERO SLAMMER"
 msgstr "Laser Cryogéniq."
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Fait chuter le froid et gèle\nla cible.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Baisse la température et gèle\nla cible.
 #. Puissance variable.
 #: src/data/moves_info.h:21640
 msgid "Drops the temp and freezes\\nthe target. Power varies."
-msgstr "Baisse la température et gèle\\nla cible. Puissance variable."
+msgstr "Refroidit l’air et gèle\\nla cible. Puissance variable."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -28084,10 +28209,14 @@ msgstr "Aspire la cible dans l’énergie\\nobscure. Puissance variable."
 msgid "TWINKLE TACKLE"
 msgstr "Imp. Choupinova"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Malmène la cible dans un monde\nféerique.
+#. Puissance variable.
 #: src/data/moves_info.h:21688
 msgid "Toys with the target in a\\ncharming space. Power varies."
-msgstr "Malmène la cible dans un monde\\nféerique. Puissance variable."
+msgstr "Malmène la cible dans un lieu\\nféerique. Puissance variable."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -28327,11 +28456,13 @@ msgid "LIGHT THAT BURNS THE SKY"
 msgstr "Apocalypsis Luminis"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : Le coup ultime de Necrozma.\nIgnore les talents.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : Prend la meilleure attaque de\nNECROZMA.
+#. Ignore les talents.
 #: src/data/moves_info.h:21964
 msgid "Uses Necrozma's highest\\nattack. Ignores abilities."
-msgstr "Prend la meilleure attaque de\\nNECROZMA. Ignore les talents."
+msgstr "Le coup ultime de NECROZMA.\\nIgnore les talents."
 
 #. source : patch FR actuel (vérifié)
 #. lot : C2b_donnees
@@ -28362,10 +28493,14 @@ msgstr "Gardomax"
 msgid "MAX FLARE"
 msgstr "Pyromax"
 
-#. source : patch FR actuel
+#. source : traduction nouvelle
+#. lot : Z_alertes
+#. preuve : ancien : patch FR actuel
+#. ancien (patch FR actuel) : Attaque Dynamax Feu.\nSoleil intense pendant 5
+#. tours.
 #: src/data/moves_info.h:22014
 msgid "Fire Dynamax attack.\\nIntensifies sun for 5 turns."
-msgstr "Attaque Dynamax Feu.\\nSoleil intense pendant 5 tours."
+msgstr "Attaque Dynamax Feu.\\nIntensifie le soleil 5 tours."
 
 #. source : patch FR actuel (vérifié)
 #. lot : N_noms_casse
@@ -28977,12 +29112,13 @@ msgid "G-MAX CENTIFERNO"
 msgstr "Combustion G-Max"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (patch FR actuel) : G-Max de Scolocendre.\nPiège l’ennemi dans le
-#. feu.
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : G-Max de SCOLOCENDRE.\nPiège les ennemis
+#. dans le feu.
 #: src/data/moves_info.h:22878
 msgid "G-max Centiskorch attack.\\nTraps foes in flames."
-msgstr "G-Max de SCOLOCENDRE.\\nPiège les ennemis dans le feu."
+msgstr "G-Max de SCOLOCENDRE.\\nPiège les ennemis par le feu."
 
 #. source : traduction nouvelle
 #. lot : C2b_donnees
@@ -40821,12 +40957,12 @@ msgid "PLACES AND PEOPLE! Brought"
 msgstr "LIEUX ET GENS! Présenté"
 
 #. source : traduction nouvelle
-#. lot : C2b_donnees
-#. ancien (traduction manuelle (style SoulSilver)) : présenté par moi, DJ
-#. LILY!
+#. lot : Z_alertes
+#. preuve : ancien : traduction nouvelle
+#. ancien (traduction nouvelle) : par moi, DJ LILY!
 #: src/data/text/radio_strings.h:165
 msgid "to you by me, DJ LILY!"
-msgstr "par moi, DJ LILY!"
+msgstr "par moi, DJ Lily!"
 
 #. source : patch FR actuel
 #: src/data/text/radio_strings.h:169

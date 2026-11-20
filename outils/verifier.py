@@ -211,7 +211,8 @@ class Verif:
                 pb.append(('LONGUEUR', '%s : %d > %d' % (nom, len(enc), n)))
         # glossaire
         if self.gl and re.search(r'[a-zà-ÿ]{2}', CODE.sub('', msgstr).replace('é', '')):
-            t = self.style.appliquer(msgstr, self.gl_em if source.lower().startswith('émeraude') else self.gl)
+            hoenn = source.lower().startswith('émeraude') or re.search(r'steven|wallace', msgid, re.I) is not None
+            t = self.style.appliquer(msgstr, self.gl_em if hoenn else self.gl)
             if t != msgstr:
                 diff = [w for w in re.findall(r"[A-ZÀ-Þé][A-ZÀ-Þé'’.\- ]+", msgstr) if w not in t][:3]
                 pb.append(('GLOSSAIRE', 'graphie glossaire différente : %s' % diff))
@@ -252,6 +253,13 @@ def main():
     gl = opt('--glossaire', os.path.join(P, 'traductions', 'glossaire.tsv'))
     root, files = args[0], args[1:]
     V = Verif(root, patch, gl)
+    justifiees = {}
+    jf = os.path.join(P, 'traductions', 'alertes_justifiees.tsv')
+    if os.path.exists(jf):
+        for l in open(jf, encoding='utf-8'):
+            if l.startswith('#') or not l.strip(): continue
+            k, ctx, mid, why = (l.rstrip('\n').split('\t') + ['', '', '', ''])[:4]
+            justifiees[(k, ctx, mid.replace('\\t', '\t'))] = why
     rows = []; tot = collections.Counter(); n = 0
     ctx_couverts = set()
     for f in files:
@@ -273,6 +281,7 @@ def main():
             if not ctx: occ = [o for o in occ if (o[0], mid) not in ctx_couverts]
             d = dom or (hnsfr.domain(occ[0][0]) if occ else '')
             for k, msg in V.check(mid, mstr, occ, com, d):
+                if (k, ctx, mid) in justifiees or (k, '', mid) in justifiees: tot['(justifiées)'] += 1; continue
                 tot[k] += 1
                 src = (re.search(r'source : ([^\n]*)', com) or [None, ''])[1]
                 rows.append((k, os.path.basename(f), src, mid.replace('\t', ' '), mstr.replace('\t', ' '), msg))
@@ -280,7 +289,7 @@ def main():
     with open(out, 'w', encoding='utf-8') as fo:
         fo.write('controle\tfichier\tsource\tmsgid\tmsgstr\tdetail\n')
         for r in sorted(rows): fo.write('\t'.join(r) + '\n')
-    print('entrées vérifiées : %d ; problèmes : %d' % (n, len(rows)))
+    print('entrées vérifiées : %d ; problèmes : %d ; alertes justifiées (traductions/alertes_justifiees.tsv) : %d' % (n, len(rows), tot.pop('(justifiées)', 0)))
     for k, v in tot.most_common(): print('  %-10s %d' % (k, v))
     return 1 if rows else 0
 
