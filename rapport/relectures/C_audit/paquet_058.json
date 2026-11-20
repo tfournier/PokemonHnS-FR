@@ -1,0 +1,552 @@
+[
+ {
+  "id": 0,
+  "categorie": "oubli",
+  "probleme": "La nuance de « just » disparaît.",
+  "correction": "après l’amour… ou juste l’aventure!",
+  "justification": "L’aventure seule est présentée comme une motivation possible.",
+  "msgid": "love… or just adventure!",
+  "msgstr": "après l’amour… ou l’aventure!",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "oubli",
+  "probleme": "Le retour après une crise est remplacé par une interjection de soulagement.",
+  "correction": "rentrés au puits après une crise!",
+  "justification": "La VO précise quand les RAMOLOSS sont rentrés.",
+  "msgid": "to their well after a crisis!",
+  "msgstr": "rentrés au puits! Ouf!",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "oubli",
+  "probleme": "L’âge du Dresseur est omis.",
+  "correction": "MARIE: Mais un jeune et vaillant",
+  "justification": "« Jeune et vaillant » restitue les deux adjectifs avant « Dresseur » à la ligne suivante.",
+  "msgid": "MARY: But a brave young",
+  "msgstr": "MARIE: Mais un courageux",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "terminologie",
+  "probleme": "« dresseur » est écrit sans majuscule.",
+  "correction": "Dresseur les a arrêtés!",
+  "justification": "Le lexique du projet suit la graphie « Dresseur » de Pokémon SoulSilver.",
+  "msgid": "trainer shut them down!",
+  "msgstr": "dresseur les a arrêtés!",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "oubli",
+  "probleme": "Le bien-être des RAMOLOSS est remplacé par un bruit de sommeil.",
+  "correction": "refont la sieste, ravis.",
+  "justification": "« Ravis » restitue « happily » et « refont » conserve « again ».",
+  "msgid": "and happily dozing again.",
+  "msgstr": "refont la sieste. Zzz…",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "typographie",
+  "probleme": "La capitalisation de « STATION Radio » est irrégulière.",
+  "correction": "est devenue une station de radio!",
+  "justification": "« Station de radio » est ici un nom commun, et « devenue » rend le changement exprimé par « now ».",
+  "msgid": "now a RADIO STATION!",
+  "msgstr": "est une STATION Radio!",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "oubli",
+  "probleme": "La provenance des témoignages est omise.",
+  "correction": "Des gens du coin la trouvent",
+  "justification": "« Gens du coin » rend « locals » et « trouvent » introduit l’impression exprimée à la ligne suivante.",
+  "msgid": "Some locals say it still",
+  "msgstr": "Certains disent qu’elle est",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "contresens",
+  "probleme": "« Hantée » affirme que la tour abrite encore des fantômes.",
+  "correction": "toujours… inquiétante.",
+  "justification": "Avec « la trouvent » à la ligne précédente, la phrase restitue l’impression exprimée par « still feels… spooky ».",
+  "msgid": "feels… spooky.",
+  "msgstr": "encore… hantée.",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "oubli",
+  "probleme": "La cabine disparaît, et seul le micro est mentionné.",
+  "correction": "près du studio, juré!",
+  "justification": "« Studio » conserve le lieu où MARIE dit avoir vu le FANTOMINUS.",
+  "msgid": "near the mic booth!",
+  "msgstr": "près du micro, juré!",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "oubli",
+  "probleme": "Les TENTACRUEL encerclent les grottes entières dans la traduction.",
+  "correction": "encerclent leurs entrées!",
+  "justification": "Avec « Des TENTACRUEL » à la ligne précédente, « leurs entrées » serait ambigu. La cible explicite est « les entrées des grottes ».",
+  "msgid": "surrounding cave entrances!",
+  "msgstr": "encerclent les grottes!",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "typographie",
+  "probleme": "La virgule avant « et » sépare inutilement les deux éléments coordonnés.",
+  "correction": "Ils sont énormes et",
+  "justification": "La conjonction relie directement les deux descriptions.",
+  "msgid": "They're massive, and acting",
+  "msgstr": "Ils sont énormes, et",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "contresens",
+  "probleme": "« Très » inverse la nuance de « almost ».",
+  "correction": "presque territoriaux.",
+  "justification": "CHEN nuance son observation sur le comportement des TENTACRUEL.",
+  "msgid": "almost territorial.",
+  "msgstr": "très territoriaux.",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "contresens",
+  "probleme": "« Un secret » précise indûment ce qui est gardé, et la profondeur disparaît.",
+  "correction": "quelque chose dans les abysses.",
+  "justification": "« Quelque chose » préserve le caractère indéterminé de l’objet et « dans les abysses » rend la profondeur.",
+  "msgid": "deep beneath the waves.",
+  "msgstr": "un secret sous les flots.",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "typographie",
+  "probleme": "« º » est un indicateur ordinal.",
+  "correction": "N° 1",
+  "justification": "« N° » est l’abréviation française de « numéro ».",
+  "msgid": "NO. 1",
+  "msgstr": "Nº 1",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "autre_phrase",
+  "probleme": "« N » est un fragment sans rapport avec « HOT ».",
+  "correction": "CHAUD",
+  "justification": "Le mot désigne une température élevée.",
+  "msgid": "HOT",
+  "msgstr": "N",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "contresens",
+  "probleme": "« NO » exprime une négation au lieu d’une alternative.",
+  "correction": "OU",
+  "justification": "« OU » traduit la conjonction anglaise.",
+  "msgid": "OR",
+  "msgstr": "NO",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "autre_phrase",
+  "probleme": "« TOUR » est sans rapport avec le pronom « IT ».",
+  "correction": "ÇA",
+  "justification": "« ÇA » fournit un équivalent pronominal autonome dans le système de messages.",
+  "msgid": "IT",
+  "msgstr": "TOUR",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "autre_phrase",
+  "probleme": "« SSE » est un fragment sans rapport avec « AT ».",
+  "correction": "A",
+  "justification": "La préposition « à » correspond à « at » et suit la convention du projet sur les capitales sans accent.",
+  "msgid": "AT",
+  "msgstr": "SSE",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "oubli",
+  "probleme": "La préposition est restée en anglais.",
+  "correction": "DANS",
+  "justification": "« DANS » rend le sens locatif courant de « IN ».",
+  "msgid": "IN",
+  "msgstr": "IN",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "autre_phrase",
+  "probleme": "« KET » est un fragment sans rapport avec « OUT ».",
+  "correction": "DEHORS",
+  "justification": "« DEHORS » rend le sens spatial de « OUT ».",
+  "msgid": "OUT",
+  "msgstr": "KET",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "autre_phrase",
+  "probleme": "« DINE » ne correspond pas à une salutation.",
+  "correction": "SALUT",
+  "justification": "« SALUT » conserve le ton familier de « HI ».",
+  "msgid": "HI",
+  "msgstr": "DINE",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "autre_phrase",
+  "probleme": "« LL » est un libellé tronqué.",
+  "correction": "BALLON",
+  "justification": "Dans le groupe des loisirs, « BALLON » rend le sens sportif de « BALL ».",
+  "msgid": "BALL",
+  "msgstr": "LL",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "autre_phrase",
+  "probleme": "« ISME » est un fragment sans rapport avec « LIFE ».",
+  "correction": "VIE",
+  "justification": "« VIE » traduit le nom anglais.",
+  "msgid": "LIFE",
+  "msgstr": "ISME",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "autre_phrase",
+  "probleme": "« E » est un fragment sans rapport avec « HER ».",
+  "correction": "ELLE",
+  "justification": "Dans le groupe des personnes, « ELLE » rend le pronom féminin autonome employé notamment après une préposition.",
+  "msgid": "HER",
+  "msgstr": "E",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "autre_phrase",
+  "probleme": "« 4 » est sans rapport avec le possessif « OUR ».",
+  "correction": "NOTRE",
+  "justification": "« NOTRE » restitue la possession à la première personne du pluriel.",
+  "msgid": "OUR",
+  "msgstr": " 4",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "contresens",
+  "probleme": "« NE » introduit une négation au lieu d’une coordination.",
+  "correction": "ET",
+  "justification": "« ET » traduit la conjonction « AND ».",
+  "msgid": "AND",
+  "msgstr": "NE",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "autre_phrase",
+  "probleme": "« E » est un fragment sans rapport avec « STOP ».",
+  "correction": "ARRET",
+  "justification": "« ARRET » restitue l’idée d’interruption et respecte la convention sur les capitales sans accent.",
+  "msgid": "STOP",
+  "msgstr": "E",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "autre_phrase",
+  "probleme": "« E » est un fragment sans rapport avec « AGE ».",
+  "correction": "AGE",
+  "justification": "Le nom français « âge » s’écrit « AGE » selon la convention du projet.",
+  "msgid": "AGE",
+  "msgstr": "E",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "autre_phrase",
+  "probleme": "« HAS BEEN » est un autre mot anglais, sans rapport avec « FLATTEN ».",
+  "correction": "ECRASER",
+  "justification": "« ECRASER » rend le sens figuré de « flatten » dans un contexte de défi.",
+  "msgid": "FLATTEN",
+  "msgstr": "HAS BEEN",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "autre_phrase",
+  "probleme": "« RE » est un fragment sans rapport avec l’onomatopée « TCH ».",
+  "correction": "TSS",
+  "justification": "« TSS » rend le claquement de langue exprimant l’agacement ou la désapprobation.",
+  "msgid": "TCH",
+  "msgstr": "RE",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "contresens",
+  "probleme": "La dernière ligne exclut toute attaque contre un adversaire plus faible, et la première coupe un mot.",
+  "correction": "Il sillonne les cieux en quête\\nd’adversaires à sa mesure. Son feu\\npeut tout faire fondre. Jamais il\\nne brûle d’ennemi plus faible.",
+  "justification": "La VO précise qu’il épargne les adversaires plus faibles de ses flammes. La reformulation tient sur quatre lignes sans césure.",
+  "msgid": "A Charizard flies about in search of\\nstrong opponents. It breathes intense\\nflames that can melt any material. However,\\nit will never torch a weaker foe.",
+  "msgstr": "Il parcourt les cieux cherchant des adver-\\nsaires à sa mesure et crache de puissantes\\nflammes capables de tout faire fondre. Il\\nn’attaque pas les plus faibles que lui.",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "oubli",
+  "probleme": "La boîte de conserve devient une cible quelconque, et « Tortank » ne suit pas la casse des noms d’espèces.",
+  "correction": "Les canons à eau très précis de\\nTORTANK sortent de sa carapace.\\nLeurs jets touchent une boîte\\nde conserve à plus de 50 mètres.",
+  "justification": "La boîte de conserve illustre la précision des jets. Les capitales suivent la convention du projet.",
+  "msgid": "The waterspouts that protrude from its\\nshell are highly accurate. Their bullets of\\nwater can precisely nail tin cans from\\na distance of over 160 feet.",
+  "msgstr": "Tortank dispose de canons à eau très\\nprécis émergeant de sa carapace. Leurs\\nballes d’eau peuvent faire mouche sur une\\ncible située à plus de 50 mètres.",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "oubli",
+  "probleme": "La couleur rouge du nez et le contraste entre les feuilles sont omis. Le nom d’espèce est aussi en minuscules.",
+  "correction": "ASPICOT a l’odorat très fin.\\nDe son gros nez rouge, il flaire\\nles feuilles et distingue celles\\nqu’il aime de celles qu’il déteste.",
+  "justification": "La VO décrit un tri entre deux groupes de feuilles. « ASPICOT » suit le lexique fourni.",
+  "msgid": "A Weedle has an extremely acute sense\\nof smell. It distinguishes its favorite\\nkinds of leaves from those it dislikes by\\nsniffing with its big red nose.",
+  "msgstr": "L’odorat d’Aspicot est très développé.\\nIl lui suffit de renifler ses feuilles\\npréférées avec son gros appendice\\nnasal pour les reconnaître entre mille.",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "contresens",
+  "probleme": "La traduction parle d’un Pokémon préféré, sans dire que les Dresseurs le choisissent.",
+  "correction": "Ce Pokémon a un plumage\\nmagnifique et luisant. Séduits\\npar sa crête, bien des Dresseurs\\nchoisissent ROUCARNAGE.",
+  "justification": "La beauté de la crête motive le choix des Dresseurs. « ROUCARNAGE » suit le lexique fourni.",
+  "msgid": "This Pokémon has gorgeous, glossy\\nfeathers. Many Trainers are so captivated\\nby the beautiful feathers on its head that\\nthey choose Pidgeot as their Pokémon.",
+  "msgstr": "Ce Pokémon est doté d’un plumage\\nmagnifique et luisant. La beauté fatale\\nde sa crête fait de lui le Pokémon\\npréféré de bien des Dresseurs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "autre_phrase",
+  "probleme": "La description concerne la vigilance et le nid, au lieu de l’intrusion dans les maisons.",
+  "correction": "Il ronge les portes de ses\\nincisives et entre chez les gens.\\nD’un frémissement des moustaches,\\nil vole tout ce qu’il trouve à manger.",
+  "justification": "Le texte restitue les incisives, l’intrusion, le mouvement des moustaches et le vol de nourriture.",
+  "msgid": "With its incisors, it gnaws through doors\\nand infiltrates people's homes.\\nThen, with a twitch of its whiskers,\\nit steals whatever food it finds.",
+  "msgstr": "Rattata est extrêmement prudent. Même\\nlorsqu’il est endormi, il fait pivoter ses\\noreilles pour écouter autour de lui.\\nIl peut faire son nid n’importe où.",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce apparaît sous la forme « Piafabec ».",
+  "correction": "Le cri de PIAFABEC porte à 1 km.\\nQuand son cri aigu résonne\\nde tous côtés, ces Pokémon\\nse signalent un danger.",
+  "justification": "« PIAFABEC » suit la convention du projet. La formulation conserve la distance arrondie et le rôle du cri d’alerte.",
+  "msgid": "Its loud cry can be heard over half a mile\\naway. If its high, keening cry is heard\\nechoing all around, it is a sign that they\\nare warning each other of danger.",
+  "msgstr": "Le cri de Piafabec peut être entendu à 1\\nkilomètre. Ces Pokémon se préviennent d’un\\ndanger en entonnant une mélopée très\\naiguë, qu’ils se renvoient comme un écho.",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "contresens",
+  "probleme": "Les adversaires deviennent des proies, et les fûts d’acier deviennent de simples tonneaux métalliques.",
+  "correction": "Il serre avec une telle force\\nqu’il peut aplatir des fûts\\nde pétrole en acier. Aucun ennemi\\nn’échappe à son étreinte.",
+  "justification": "La VO illustre sa puissance avec des fûts de pétrole en acier et parle de tout adversaire pris dans son étreinte.",
+  "msgid": "This Pokémon has a terrifically strong\\nconstricting power. It can even flatten\\nsteel oil drums. Once it wraps its body\\naround its foe, escaping is impossible.",
+  "msgstr": "Doté d’une force extraordinaire, il peut\\nétrangler ses proies avec son corps et\\nmême écraser des tonneaux métalliques.\\nNul ne peut se libérer de son étreinte.",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "autre_phrase",
+  "probleme": "La description de l’électricité remplace celle de la casquette.",
+  "correction": "Ce PIKACHU porte la casquette\\nde son partenaire. Elle témoigne\\ndu lien fort tissé au fil de leurs\\naventures dans bien des régions.",
+  "justification": "La casquette témoigne du lien noué au cours de leurs aventures dans plusieurs régions.",
+  "msgid": "This Pikachu wears its partner's cap, which\\nis proof of the strong bond Pikachu and\\nits partner formed during adventures\\nacross many different regions.",
+  "msgstr": "Il stocke de l’électricité dans les poches\\nde ses joues. Quand il relâche d’un coup\\ntoute l’énergie accumulée, la puissance\\nélectrique équivaut à celle d’un éclair.",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "autre_phrase",
+  "probleme": "La description de l’électricité remplace celle de la casquette.",
+  "correction": "Ce PIKACHU porte la casquette\\nde son partenaire. Elle témoigne\\ndu lien fort tissé au fil de leurs\\naventures à travers Hoenn.",
+  "justification": "La VO situe à Hoenn les aventures qui ont forgé leur lien.",
+  "msgid": "This Pikachu wears its partner's cap, which\\nis proof of the strong bond Pikachu and\\nits partner formed during adventures\\nacross the Hoenn region together.",
+  "msgstr": "Il stocke de l’électricité dans les poches\\nde ses joues. Quand il relâche d’un coup\\ntoute l’énergie accumulée, la puissance\\nélectrique équivaut à celle d’un éclair.",
+  "msgctxt": ""
+ },
+ {
+  "id": 87,
+  "categorie": "autre_phrase",
+  "probleme": "La description de l’électricité remplace celle de la casquette.",
+  "correction": "Ce PIKACHU porte la casquette\\nde son partenaire. Elle témoigne\\ndu lien fort tissé au fil de leurs\\naventures à travers Sinnoh.",
+  "justification": "La VO situe à Sinnoh les aventures qui ont forgé leur lien.",
+  "msgid": "This Pikachu wears its partner's cap, which\\nis proof of the strong bond Pikachu and\\nits partner formed during adventures\\nacross the Sinnoh region together.",
+  "msgstr": "Il stocke de l’électricité dans les poches\\nde ses joues. Quand il relâche d’un coup\\ntoute l’énergie accumulée, la puissance\\nélectrique équivaut à celle d’un éclair.",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "autre_phrase",
+  "probleme": "La description de l’électricité remplace celle de la casquette.",
+  "correction": "Ce PIKACHU porte la casquette\\nde son partenaire. Elle témoigne\\ndu lien fort tissé au fil de leurs\\naventures à travers Unys.",
+  "justification": "La VO situe les aventures à Unova, appelée Unys dans Pokémon Noir et Blanc en français.",
+  "msgid": "This Pikachu wears its partner's cap, which\\nis proof of the strong bond Pikachu and\\nits partner formed during adventures\\nacross the Unova region together.",
+  "msgstr": "Il stocke de l’électricité dans les poches\\nde ses joues. Quand il relâche d’un coup\\ntoute l’énergie accumulée, la puissance\\nélectrique équivaut à celle d’un éclair.",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "autre_phrase",
+  "probleme": "La description de l’électricité remplace celle de la casquette.",
+  "correction": "Ce PIKACHU porte la casquette\\nde son partenaire. Elle témoigne\\ndu lien fort tissé au fil de leurs\\naventures à travers Kalos.",
+  "justification": "La VO situe à Kalos les aventures qui ont forgé leur lien.",
+  "msgid": "This Pikachu wears its partner's cap, which\\nis proof of the strong bond Pikachu and\\nits partner formed during adventures\\nacross the Kalos region together.",
+  "msgstr": "Il stocke de l’électricité dans les poches\\nde ses joues. Quand il relâche d’un coup\\ntoute l’énergie accumulée, la puissance\\nélectrique équivaut à celle d’un éclair.",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "autre_phrase",
+  "probleme": "La description de l’électricité remplace celle de la casquette.",
+  "correction": "Ce PIKACHU porte la casquette\\nde son partenaire. Elle témoigne\\ndu lien fort tissé au fil de leurs\\naventures à travers Alola.",
+  "justification": "La VO situe à Alola les aventures qui ont forgé leur lien.",
+  "msgid": "This Pikachu wears its partner's cap, which\\nis proof of the strong bond Pikachu and\\nits partner formed during adventures\\nacross the Alola region together.",
+  "msgstr": "Il stocke de l’électricité dans les poches\\nde ses joues. Quand il relâche d’un coup\\ntoute l’énergie accumulée, la puissance\\nélectrique équivaut à celle d’un éclair.",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "autre_phrase",
+  "probleme": "La description de l’électricité remplace celle de la casquette.",
+  "correction": "Ce PIKACHU porte la casquette\\nde son partenaire. Elle témoigne\\ndu lien fort qu’ils ont tissé en\\nsurmontant bien des épreuves.",
+  "justification": "Cette variante rattache leur lien aux épreuves surmontées ensemble.",
+  "msgid": "This Pikachu wears its partner's cap, which\\nis proof of the strong bond Pikachu and\\nits partner formed as the two overcame\\nmany hardships together.",
+  "msgstr": "Il stocke de l’électricité dans les poches\\nde ses joues. Quand il relâche d’un coup\\ntoute l’énergie accumulée, la puissance\\nélectrique équivaut à celle d’un éclair.",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "autre_phrase",
+  "probleme": "La description de l’électricité remplace celle de la casquette.",
+  "correction": "Ce PIKACHU porte la casquette\\nde son partenaire. Elle témoigne\\ndu lien fort tissé au fil de leurs\\naventures à travers le monde.",
+  "justification": "Cette variante évoque leurs aventures à travers le monde.",
+  "msgid": "This Pikachu wears its partner's cap, which\\nis proof of the strong bond Pikachu and\\nits partner formed during adventures\\nacross the world together.",
+  "msgstr": "Il stocke de l’électricité dans les poches\\nde ses joues. Quand il relâche d’un coup\\ntoute l’énergie accumulée, la puissance\\nélectrique équivaut à celle d’un éclair.",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "autre_phrase",
+  "probleme": "La traduction décrit un surplus d’électricité et omet les pouvoirs psychiques, le surf et le surnom.",
+  "correction": "Il maîtrise l’électricité par\\npsychokinésie. Il charge sa queue\\nd’énergie psy et surfe dessus.\\nOn le surnomme aussi “hodad”.",
+  "justification": "La VO décrit l’usage de la psychokinésie pour contrôler l’électricité et surfer sur sa queue.",
+  "msgid": "It uses psychokinesis to control\\nelectricity. It focuses psychic energy\\ninto its tail and rides it like it's surfing.\\nAnother name for this Pokémon is 'hodad'.",
+  "msgstr": "Il devient agressif s’il stocke trop\\nd’électricité. Pour éviter ça, il relâche de\\ntemps en temps son surplus d’énergie\\net parvient ainsi à se calmer.",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "autre_phrase",
+  "probleme": "Le texte décrit un Pokémon du désert, au lieu de la forme des montagnes enneigées.",
+  "correction": "La vie en haute montagne, sous\\nla neige, lui a donné un corps\\nde glace aussi dur que l’acier.\\nSes prédateurs visent son ventre mou.",
+  "justification": "La VO explique l’origine du corps glacé et indique le point faible visé par les prédateurs.",
+  "msgid": "Life on mountains covered with deep snow\\nhas granted this Pokémon a body of ice\\nthat's as hard as steel.\\nPredators go after its soft belly.",
+  "msgstr": "Quand il se met en boule, il est capable\\nd’attaquer en rebondissant sans se\\nblesser. Le désert a rendu sa peau\\ndure et résistante.",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "autre_phrase",
+  "probleme": "Le texte décrit une technique de protection, au lieu de la course dans la neige.",
+  "correction": "Il fend la neige épaisse en\\ncourant, de ses grandes griffes\\ncrochues. En montagne enneigée,\\naucun Pokémon ne le dépasse.",
+  "justification": "La VO décrit l’usage des griffes et la vitesse de cette forme en montagne enneigée.",
+  "msgid": "It uses large, hooked claws to cut a path\\nthrough deep snow as it runs.\\nOn snowy mountains, this Sandslash\\nis faster than any other Pokémon.",
+  "msgstr": "Il se roule sur lui-même pour se protéger\\ndes attaques de ses ennemis. Cette\\ntechnique lui permet aussi de se protéger\\ndu soleil pendant la journée.",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "oubli",
+  "probleme": "La petite taille du Pokémon et l’hypothèse sur l’apparition de ses pointes disparaissent.",
+  "correction": "Ses pointes très toxiques auraient\\névolué pour protéger son petit\\ncorps. Furieux, il libère par sa\\ncorne une redoutable toxine.",
+  "justification": "Le conditionnel rétablit l’hypothèse de la VO, et le texte conserve la puissance de la toxine.",
+  "msgid": "Its highly toxic barbs are thought to have\\ndeveloped as protection for this small-\\nbodied Pokémon. When enraged, it releases\\na horrible toxin from its horn.",
+  "msgstr": "Ce Pokémon est couvert de pointes qui\\nsécrètent un poison puissant. Il les\\nutilise pour se défendre. Quand il est en\\ncolère, une toxine sort de sa corne.",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "oubli",
+  "probleme": "La fonction de la tour métallique est omise.",
+  "correction": "Son épaisse queue a une force\\ncapable d’abattre un pylône\\nmétallique de transmission.\\nDéchaîné, rien ne peut l’arrêter.",
+  "justification": "« Pylône métallique de transmission » restitue le type de structure donné en exemple.",
+  "msgid": "A Nidoking's thick tail packs enormously\\ndestructive power capable of toppling\\na metal transmission tower. Once it goes\\non a rampage, there is no stopping it.",
+  "msgstr": "Son épaisse queue est d’une puissance\\nincroyable. En un seul coup, il peut\\nrenverser une tour métallique. Lorsqu’il\\nse déchaîne, plus rien ne peut l’arrêter.",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "oubli",
+  "probleme": "La fatigue des Pokémon et le calme de leur retraite sont omis.",
+  "correction": "Les nuits de pleine lune, ils\\nsortent jouer. A l’aube, épuisés,\\nils dorment blottis les uns\\ncontre les autres, loin au calme\\ndans les montagnes.",
+  "justification": "La VO précise leur état à l’aube et le caractère retiré et paisible du lieu où ils dorment.",
+  "msgid": "On every night of a full moon, they come\\nout to play. When dawn arrives, the tired\\nClefairy go to sleep nestled up against\\neach other in deep and quiet mountains.",
+  "msgstr": "Les nuits de pleine lune, ces Pokémon\\nsortent jouer. A l’aube, ils rentrent dans\\nleur retraite montagneuse et dorment\\nblottis les uns contre les autres.",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "autre_phrase",
+  "probleme": "Le texte parle de feu et d’évolution au lieu de l’entraide et des éclats de glace.",
+  "correction": "Ils vivent en groupe et\\ns’entraident. Par forte chaleur,\\nil crée des éclats de glace avec\\nses six queues et les disperse\\npour se rafraîchir.",
+  "justification": "La VO décrit leur vie en groupe et la façon dont ce Pokémon se rafraîchit.",
+  "msgid": "They live together in a skulk, helping\\none another. In hot weather, this Pokémon\\nmakes ice shards with its six tails and\\nsprays them around to cool itself off.",
+  "msgstr": "Il peut contrôler le feu à sa guise. Juste\\navant d’évoluer, ses six queues deviennent\\nsi chaudes qu’on les croirait enflammées.",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "autre_phrase",
+  "probleme": "Le texte parle des pouvoirs des queues et du pelage au lieu des voyageurs égarés.",
+  "correction": "Il guide les voyageurs égarés\\njusqu’au pied des montagnes\\nenneigées et ne pardonne pas à\\nqui fait du mal à la nature.",
+  "justification": "La VO décrit son aide aux voyageurs et son attitude envers ceux qui nuisent à la nature.",
+  "msgid": "While it will guide travelers who get lost\\non a snowy mountain down to the\\nmountain's base, it won't forgive anyone\\nwho harms nature.",
+  "msgstr": "On raconte depuis longtemps que chacune\\nde ses neuf queues possède un pouvoir\\nmagique. Un Feunard très âgé se\\nreconnaît à sa fourrure dorée.",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "oubli",
+  "probleme": "L’épaisseur des peaux, le vol dans l’obscurité et l’identité des victimes sont omis.",
+  "correction": "Ses crocs percent même les peaux\\népaisses. Il raffole du sang des\\nhumains et des Pokémon. Il vole\\ndans le noir et frappe par derrière.",
+  "justification": "La VO mentionne ces trois éléments pour décrire sa façon de chasser.",
+  "msgid": "Its fangs easily puncture even thick\\nanimal hide. It loves to feast on the blood\\nof people and Pokémon. It flits about in\\ndarkness and strikes from behind.",
+  "msgstr": "Ses dents acérées peuvent transpercer\\nfacilement la peau d’un animal. Il attaque\\npar derrière et dans le noir pour se\\nrassasier du sang de ses victimes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "contresens",
+  "probleme": "La traduction présente les champignons comme un élixir avéré.",
+  "correction": "Des champignons parasites, les\\ntochukaso, poussent sur son dos.\\nIls puisent dans ses nutriments\\net sont prisés pour prolonger la vie.",
+  "justification": "« Sont prisés » restitue l’usage médicinal attribué aux champignons sans affirmer leur efficacité.",
+  "msgid": "A Paras has parasitic tochukaso\\nmushrooms growing on its back. They grow\\nby drawing nutrients from the host. They\\nare valued as a medicine for long life.",
+  "msgstr": "Des champignons parasites appelés\\ntochukaso poussent sur son dos et\\ngrandissent grâce à ses nutriments. Ces\\nchampignons sont un élixir de longue vie.",
+  "msgctxt": ""
+ }
+]

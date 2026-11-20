@@ -1,0 +1,262 @@
+[
+ {
+  "id": 0,
+  "categorie": "oubli",
+  "probleme": "« De la place » atténue l’idée d’abondance exprimée par « plenty of room ».",
+  "correction": "Pierre ROCHARD: Madame, puis-je\\nvous aider à rejoindre la source\\llà-bas?\\pIl semble y avoir assez de place.",
+  "justification": "« Assez de place » rétablit l’idée qu’il y a suffisamment de place. La virgule avant « là-bas » est superflue.",
+  "msgid": "STEVEN: Ma'am, may I help you to\\nthe spring over there?\\pIt seems there is plenty of room.",
+  "msgstr": "Pierre ROCHARD: Madame, puis-je vous\\naider à rejoindre la source,\\llà-bas?\\pIl semble y avoir de la place.",
+  "msgctxt": ""
+ },
+ {
+  "id": 1,
+  "categorie": "typographie",
+  "probleme": "« LAITIER » est en capitales alors qu’il désigne un métier.",
+  "correction": "Je suis le laitier.\\pMon lait est délicieux.\\pSi vous en voulez aujourd’hui,\\nce sera 500¥.",
+  "justification": "Le nom commun « laitier » prend la minuscule.",
+  "msgid": "I am the Milkman.\\pMy milk is delicious.\\pIf you would like some today, it'll be\\n¥500.",
+  "msgstr": "Je suis le LAITIER.\\pMon lait est délicieux.\\pSi vous en voulez aujourd’hui,\\nce sera 500¥.",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "oubli",
+  "probleme": "La réplique française ne dit plus au joueur de revenir avec de l’argent pour pouvoir acheter.",
+  "correction": "Désolé.\\nRevenez avec de quoi payer!",
+  "justification": "L’impératif rétablit la démarche proposée par le laitier.",
+  "msgid": "Sorry.\\nGet some cash, then you will get a sale!",
+  "msgstr": "Désolé.\\nPas d’argent, pas de lait!",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "contresens",
+  "probleme": "« It gots » décrit ce que contient le lait. La traduction parle de son goût. Le laitier passe aussi au tutoiement.",
+  "correction": "Vous n’en voulez pas?\\nIl contient ce que le monde\\lmérite.",
+  "justification": "La correction rétablit le sens de « gots » et le vouvoiement des autres répliques du laitier.",
+  "msgid": "Don't you want it?\\nIt gots what the world deserves.",
+  "msgstr": "T’en veux pas?\\nIl a le goût de ce que le monde mérite.",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "typographie",
+  "probleme": "Une virgule termine une phrase autonome et « Laitier » prend une majuscule injustifiée.",
+  "correction": "Je suis le laitier.\\pMon lait est délicieux.\\pLivraison spéciale aujourd’hui!",
+  "justification": "La phrase suivante est indépendante et « laitier » est un nom commun.",
+  "msgid": "I am the MilkMan,\\pMy milk is delicious.\\pSpecial delivery today!",
+  "msgstr": "Je suis le Laitier,\\pMon lait est délicieux.\\pLivraison spéciale aujourd’hui!",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "contresens",
+  "probleme": "« Nous snobent » évoque le mépris ou l’indifférence. « Giving us dirty looks » décrit des regards hostiles.",
+  "correction": "Ces sources sont magiques,\\nmais j’ai l’impression que\\lles gens du coin nous regardent\\lde travers.",
+  "justification": "« Regarder de travers » restitue le comportement observé.",
+  "msgid": "These springs are magical,\\nbut I feel like the locals\\lare giving us dirty looks.",
+  "msgstr": "Ces sources sont magiques,\\nmais j’ai l’impression que\\lles gens du coin nous snobent.",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "contresens",
+  "probleme": "« Une vieille âme » rend générique la référence du personnage à sa propre personne.",
+  "correction": "Rien de tel qu’une belle vue\\npour me requinquer.",
+  "justification": "« This old soul » désigne la personne qui parle.",
+  "msgid": "There's nothing like a nice view to\\ninvigorate this old soul.",
+  "msgstr": "Rien de tel qu’une belle vue\\npour requinquer une vieille âme.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "contresens",
+  "probleme": "« Pour se détendre » ajoute un motif absent de la réplique anglaise.",
+  "correction": "Comment cette femme peut-elle\\nêtre si grossière avec nos hôtes?\\pElle devrait se baigner\\ndans les sources.\\pIl y a de la place\\npour tout le monde.",
+  "justification": "« Take a dip » signifie simplement aller se baigner.",
+  "msgid": "How can that woman\\nbe so rude to our guests?\\pShe needs to take a dip\\nin the springs. \\pThere is plenty of space\\nfor everyone.",
+  "msgstr": "Comment cette femme peut-elle\\nêtre si grossière avec nos invités?\\pElle devrait aller tremper\\ndans les sources pour se détendre.\\pIl y a de la place\\npour tout le monde.",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "orthographe",
+  "probleme": "« Tout le monde s’habitue les uns aux autres » mêle un sujet singulier et une tournure réciproque au pluriel.",
+  "correction": "On dirait qu’ici, les gens\\ns’habituent les uns aux autres.\\pTant mieux!",
+  "justification": "Le sujet pluriel s’accorde avec la tournure réciproque.",
+  "msgid": "It seems everybody is getting\\nused to each other around here.\\pGood!",
+  "msgstr": "On dirait que tout le monde\\ns’habitue les uns aux autres, ici.\\pTant mieux!",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "typographie",
+  "probleme": "« POKéMON LEGENDAIRES » ne respecte pas la graphie attendue dans le dialogue.",
+  "correction": "Tout va mieux depuis qu’on a\\napaisé les Pokémon légendaires.\\pL’équilibre est revenu à SINJOH.",
+  "justification": "Le projet emploie « Pokémon » et l’adjectif descriptif « légendaires » prend la minuscule.",
+  "msgid": "Things have been better since\\nthe legendary POKéMON were quelled.\\pBalance has returned to SINJOH.",
+  "msgstr": "Tout va mieux depuis que les\\nPOKéMON LEGENDAIRES sont apaisés.\\pL’équilibre est revenu à SINJOH.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "oubli",
+  "probleme": "« En acheter d’autres » ne nomme plus les jetons et son référent immédiat est la Boîte Jetons.",
+  "correction": "Oh! Votre Boîte Jetons est trop\\npleine pour acheter des JETONS!\\pProfitez du Casino de Doublonville\\nou échangez vos JETONS contre\\ldes lots avant de revenir!",
+  "justification": "Nommer les JETONS lève l’ambiguïté sur l’objet de l’achat.",
+  "msgid": "Oh! Your COIN CASE is too full to buy\\nany more COINS!\\pEnjoy the GOLDENROD GAME CORNER or\\nexchange your COINS for prizes before\\lcoming back!",
+  "msgstr": "Oh! Votre Boîte Jetons est trop\\npleine pour en acheter d’autres!\\pProfitez du Casino de Doublonville\\nou échangez vos JETONS contre\\ldes lots avant de revenir!",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "typographie",
+  "probleme": "Les deux points de suspension sont suivis d’un point supplémentaire.",
+  "correction": "…POUSSE!…",
+  "justification": "Le caractère « … » suffit de chaque côté de l’exclamation.",
+  "msgid": "....SHOVE!....",
+  "msgstr": "….POUSSE!….",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "contresens",
+  "probleme": "« Ouf » exprime ici un soulagement absent de « Oof ».",
+  "correction": "Aïe,\\nj’aurais dû m’entraîner plus…",
+  "justification": "« Aïe » restitue la réaction du personnage après sa défaite.",
+  "msgid": "Oof,\\nI should've trained harder…",
+  "msgstr": "Ouf,\\nj’aurais dû m’entraîner plus…",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "terminologie",
+  "probleme": "Le nom de l’objet est écrit « ECAILLECOEURS ».",
+  "correction": "GRRR!\\nARGH!\\pTOI!\\pLes autres t’ont envoyé ici?\\nIls t’ont dit que j’étais le\\lmaître des capacités Pokémon?\\p…\\pJe peux enseigner à tes Pokémon\\nles secrets des ILES, mais\\ld’abord, une petite contribution.\\pLe prix: 5 Ecaillécœurs.\\pTu les as?",
+  "justification": "Le nom français de HEART SCALE est « Écaillécœur ». Le projet retire l’accent de la majuscule initiale.",
+  "msgid": "URGH!\\nAGH!\\pYOU!\\pDid the others send you here?\\nDid they tell you that I am the\\lmaster of POKéMON moves?\\p........................\\pI can train your POKéMON in the\\nways of the ISLES, but first, a\\lsmall fee.\\pThe price is 5 HEART SCALES.\\pDo you have them?",
+  "msgstr": "GRRR!\\nARGH!\\pTOI!\\pLes autres t’ont envoyé ici?\\nIls t’ont dit que j’étais le\\lmaître des capacités Pokémon?\\p…\\pJe peux enseigner à tes Pokémon\\nles secrets des ILES, mais d’abord,\\lune petite contribution.\\pLe prix: 5 ECAILLECOEURS.\\pTu les as?",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "terminologie",
+  "probleme": "Le nom de l’objet est écrit « ECAILLECOEURS ».",
+  "correction": "Cinq Ecaillécœurs.\\nPas quatre.\\pEssaie de briser des rochers.\\nAvec tes Pokémon ou tes poings!",
+  "justification": "Le nom français de HEART SCALE est « Écaillécœur ». Le projet retire l’accent de la majuscule initiale.",
+  "msgid": "Five HEART SCALES.\\nNot four.\\pTry smashing rocks.\\nWith your POKéMON, or your fists!",
+  "msgstr": "Cinq ECAILLECOEURS.\\nPas quatre.\\pEssaie de briser des rochers.\\nAvec tes Pokémon, ou tes poings!",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "oubli",
+  "probleme": "L’indication « soon » a disparu.",
+  "correction": "Baoba: Je te tiens vite au\\ncourant par le Pokématos!",
+  "justification": "« Vite » rétablit la promesse de rappeler rapidement.",
+  "msgid": "BAOBA: I'll let you know\\non the POKéGEAR soon!",
+  "msgstr": "Baoba: Je te tiens au courant\\nsur le Pokématos!",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "terminologie",
+  "probleme": "« FANS de Pokémon » remplace le nom de la classe de Dresseurs.",
+  "correction": "Je n’écoute pas tes vantardises!\\pNous, les Pokéfans, on a pour\\nrègle d’ignorer les vantardises!",
+  "justification": "La classe POKé FAN s’appelle « Pokéfan » dans Pokémon Émeraude et Pokémon SoulSilver en français.",
+  "msgid": "I'm not listening to your\\nbragging!\\pWe POKé FANS have a policy\\nof not listening to bragging!",
+  "msgstr": "Je n’écoute pas tes vantardises!\\pNous, les FANS de Pokémon, on a pour\\nrègle de ne pas écouter les frimeurs!",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "contresens",
+  "probleme": "« Vidéothèque » désigne la collection par un seul de ses supports et omet sa fonction de documentation.",
+  "correction": "Ouah! Une étagère pleine de CD\\net de vidéos Pokémon.\\pÇa doit être le fonds d’archives.",
+  "justification": "« Fonds d’archives » rend la fonction de « reference library » et peut couvrir les CD comme les vidéos.",
+  "msgid": "Wow! A full rack of POKéMON CDs\\nand videos.\\pThis must be the reference\\nlibrary.",
+  "msgstr": "Ouah! Une étagère pleine de CD\\net de vidéos Pokémon.\\pÇa doit être la vidéothèque.",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "terminologie",
+  "probleme": "« SUPER BALLS » et « BALLS » ne suivent pas la graphie française du projet.",
+  "correction": "Tu arrives à acheter des\\nSuper Balls? Moi, que des Poké Balls.\\pIl paraît qu’on peut acheter plus\\nd’objets quand on gagne des\\lBADGES D’ARENE!\\pSi seulement Fargas me fabriquait\\nquelques-unes de ses Balls…",
+  "justification": "Le lexique officiel fourni donne « Super Ball » pour GREAT BALL. « Balls » reprend la graphie utilisée dans « Poké Balls ».",
+  "msgid": "Are you able to buy a GREAT BALL?\\nAll I can buy are POKé BALLS.\\pI heard that more items become\\navailable to buy when you earn\\lGYM BADGES!\\pI wish KURT would make me some\\nof his custom BALLS.",
+  "msgstr": "Tu arrives à acheter des SUPER\\nBALLS? Moi, que des Poké Balls.\\pIl paraît qu’on peut acheter plus\\nd’objets quand on gagne des\\lBADGES D’ARENE!\\pSi seulement Fargas me fabriquait\\nquelques-unes de ses BALLS…",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "terminologie",
+  "probleme": "Baoba est appelé « Balthazar » dans cette réplique.",
+  "correction": "Baoba: {PLAYER}!\\pIci Baoba, le gardien.\\pJe t’appelle pour te dire que\\nle Parc Safari s’est agrandi\\lencore une fois!\\pEnfin, mon Parc Safari est\\nentièrement terminé!\\pTu te souviens où il est, hein?\\pJuste à l’ouest d’Irisia!\\nA bientôt!",
+  "justification": "Le lexique fourni prescrit « Baoba » et « gardien » désigne ici sa fonction.",
+  "msgid": "WARDEN BAOBA: {PLAYER}!\\pThis is WARDEN BAOBA.\\pI'm calling to tell you that the\\nSAFARI ZONE has expanded again!\\pFinally, my SAFARI ZONE has been\\nfully realized!\\pYou remember where it is, right?\\pJust west of CIANWOOD CITY!\\nsee you soon!",
+  "msgstr": "BALTHAZAR: {PLAYER}!\\pIci Balthazar, le Gardien.\\pJe t’appelle pour te dire que le Parc\\nSafari s’est encore agrandi!\\pEnfin, mon Parc Safari est\\nentièrement terminé!\\pTu te souviens où il est, hein?\\pJuste à l’ouest d’Irisia! A bientôt!",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "typographie",
+  "probleme": "« Jadielle » est entièrement en capitales et « dresseurs » est en minuscule.",
+  "correction": "Il y a une Salle des Concours à\\nJadielle où des Dresseurs\\lviennent de partout.",
+  "justification": "La graphie applique les majuscules initiales aux lieux et la majuscule attendue à « Dresseurs ».",
+  "msgid": "There's a place called the CONTEST\\nHALL in VIRIDIAN where trainers\\lgather from all over the place.",
+  "msgstr": "Il y a une SALLE DES CONCOURS à\\nJADIELLE où des dresseurs\\lviennent de partout.",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "oubli",
+  "probleme": "Le slogan conserve « golden » mais omet « shining ».",
+  "correction": "Safrania\\pLa terre dorée et brillante\\ldu commerce",
+  "justification": "« Brillante » restitue le second qualificatif du slogan.",
+  "msgid": "SAFFRON CITY\\pShining, Golden Land of Commerce",
+  "msgstr": "Safrania\\pLa terre dorée du commerce",
+  "msgctxt": ""
+ },
+ {
+  "id": 109,
+  "categorie": "typographie",
+  "probleme": "« POKéMON » ne respecte pas la graphie demandée en dialogue.",
+  "correction": "Pierre ROCHARD: Laisse-moi\\nsoigner tes Pokémon avant\\lque tu partes.",
+  "justification": "La convention du projet prescrit « Pokémon ».",
+  "msgid": "STEVEN: Let me heal your POKéMON\\nbefore you go.",
+  "msgstr": "Pierre ROCHARD: Laisse-moi soigner tes\\nPOKéMON avant que tu partes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 111,
+  "categorie": "contresens",
+  "probleme": "« Encore » introduit une répétition absente de l’anglais. « Another » qualifie déjà le Dresseur.",
+  "correction": "Pierre: Dire qu’un autre Dresseur\\nm’a battu de la sorte…\\pIncroyable.\\pTiens, voici la dernière plaque.",
+  "justification": "« Un autre Dresseur » suffit à traduire « another trainer ».",
+  "msgid": "STEVEN: To think, another trainer \\nwould defeat me like this.\\pIncredible.\\pTake this, it's the final plate.",
+  "msgstr": "Pierre: Dire qu’un autre dresseur\\nm’a encore battu de la sorte…\\pIncroyable.\\pTiens, voici la dernière plaque.",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "contresens",
+  "probleme": "« Si tu veux un vrai défi » présente le joueur comme cherchant un défi, alors que c’est lui qui le lance.",
+  "correction": "Bien, {PLAYER}{KUN}, si tu me défies\\npour de bon, attends-toi au pire!",
+  "justification": "« Si tu me défies » rétablit le rôle actif du joueur et « pour de bon » traduit « serious ».",
+  "msgid": "Okay, {PLAYER}{KUN}, if you're going to mount\\na serious challenge, expect the worst!",
+  "msgstr": "Bien, {PLAYER}{KUN}, si tu veux un vrai\\ndéfi, attends-toi au pire!",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que la plaine est herbeuse.",
+  "correction": "Une photo d’une vaste plaine\\nherbeuse où jouent des Pokémon\\lrares.",
+  "justification": "« Herbeuse » restitue « grassy ».",
+  "msgid": "It's a photo of a huge grassy plain\\nwith rare POKéMON frolicking in it.",
+  "msgstr": "Une photo d’une vaste plaine\\noù jouent des Pokémon rares.",
+  "msgctxt": ""
+ }
+]

@@ -1,0 +1,412 @@
+[
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "La condition « en combat » a disparu.",
+  "correction": "Comme NORMAL, mais perdre un\\ncombat efface la SAUVEGARDE!",
+  "justification": "L’effacement de la sauvegarde est déclenché par une défaite en combat.",
+  "msgid": "Same rules as NORMAL but also\\ndeletes SAVE on battle loss!",
+  "msgstr": "Comme Normal, mais une défaite\\nefface la SAUVEGARDE!",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "orthographe",
+  "probleme": "La tournure « comptent en 1re rencontre » est incorrecte.",
+  "correction": "Seuls les {PKMN} jamais capturés\\ncomptent. RECOMMANDE!",
+  "justification": "Dans le réglage de la première rencontre, « comptent » suffit à indiquer quels Pokémon sont pris en compte.",
+  "msgid": "Only not prior caught {PKMN} count\\nas first encounter. RECOMMENDED!",
+  "msgstr": "Seuls les {PKMN} jamais capturés\\ncomptent en 1re rencontre. RECOMMANDE!",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "contresens",
+  "probleme": "« Clone » évoque une copie d’un individu.",
+  "correction": "CLAUSE DOUBLON",
+  "justification": "La clause concerne les espèces déjà capturées.",
+  "msgid": "DUPES CLAUSE",
+  "msgstr": "CLAUSE CLONE",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "contresens",
+  "probleme": "« En Duo » ne précise pas que le problème survient en Combat Duo.",
+  "correction": "Limite les {PKMN} dans l’équipe.\\nA 1: bugs visuels en Combat Duo.",
+  "justification": "Les bugs visuels concernent les combats à deux Pokémon lorsque la limite d’équipe est fixée à un.",
+  "msgid": "Limits the amount of {PKMN} in the\\nparty. 1 has visual bugs in DOUBLES.",
+  "msgstr": "Limite le nombre de {PKMN} de l’équipe.\\n1 cause des bugs visuels en Duo.",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "contresens",
+  "probleme": "« Le plus fort » peut désigner le Pokémon le plus puissant.",
+  "correction": "Plafond = plus haut niveau d’un\\n{PKMN} de la prochaine Arène.",
+  "justification": "Le plafond dépend du niveau le plus élevé.",
+  "msgid": "Maximum level is based on the next\\ngym's highest {PKMN} level.",
+  "msgstr": "Niveau max = niveau du {PKMN} le\\nplus fort de la prochaine Arène.",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "contresens",
+  "probleme": "« Le plus faible » peut désigner le Pokémon le moins puissant.",
+  "correction": "Plafond = plus bas niveau d’un\\n{PKMN} de la prochaine Arène.",
+  "justification": "Le plafond dépend du niveau le plus bas.",
+  "msgid": "Maximum level is based on the next\\ngym's lowest {PKMN} level.",
+  "msgstr": "Niveau max = niveau du {PKMN} le\\nplus faible de la prochaine Arène.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "typographie",
+  "probleme": "Il manque une espace avant le signe %.",
+  "correction": "{PKMN}: 50 % d’EXP. en plus!\\nCumul avec EXP. MODE DIFFICILE.",
+  "justification": "En français, une espace sépare le nombre du signe %. La première ligne est raccourcie pour tenir dans la largeur prévue.",
+  "msgid": "{PKMN} gain 50 percent more EXP.\\nPoints! Stacks with HARD MODE EXP.",
+  "msgstr": "Les {PKMN} gagnent 50% d’EXP. en plus!\\nCumul avec EXP. MODE DIFFICILE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "contresens",
+  "probleme": "« 2x plus » rend le facteur ambigu.",
+  "correction": "Les {PKMN} gagnent le double d’EXP.!\\nCumul avec EXP. MODE DIFFICILE.",
+  "justification": "« Le double » indique que le gain est multiplié par deux.",
+  "msgid": "{PKMN} gain double EXP. Points!\\nStacks with HARD MODE EXP.",
+  "msgstr": "Les {PKMN} gagnent 2x plus d’EXP.!\\nCumul avec EXP. MODE DIFFICILE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "typographie",
+  "probleme": "La première ligne est trop longue pour la largeur indiquée.",
+  "correction": "Objets interdits en combat.\\nObjets tenus autorisés!",
+  "justification": "La formulation courte conserve les deux règles et tient sur deux lignes.",
+  "msgid": "The player can NOT use battle items.\\nHold items are allowed!",
+  "msgstr": "Le joueur ne peut PAS utiliser d’objets\\nen combat. Objets tenus autorisés!",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "contresens",
+  "probleme": "« Utilisent » présente l’usage des objets comme systématique.",
+  "correction": "Dresseurs: objets permis en combat.",
+  "justification": "Le réglage autorise les Dresseurs adverses à utiliser des objets en combat.",
+  "msgid": "Enemy trainers can use battle items.",
+  "msgstr": "Les Dresseurs ennemis utilisent des objets.",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "contresens",
+  "probleme": "« Grottes » restreint la portée de « dungeons ».",
+  "correction": "Corde Sortie et Tunnel permettent\\nde sortir des donjons.",
+  "justification": "Le terme source couvre aussi les donjons qui ne sont pas des grottes.",
+  "msgid": "ESCAPE ROPE and DIG can be used to\\nexit dungeons.",
+  "msgstr": "Corde Sortie et Tunnel permettent\\nde sortir des grottes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "contresens",
+  "probleme": "« Grottes » restreint la portée de « dungeons ».",
+  "correction": "Corde Sortie et Tunnel ne font\\nplus sortir des donjons.",
+  "justification": "L’interdiction concerne les sorties de donjon.",
+  "msgid": "ESCAPE ROPE and DIG can't be used\\nto exit dungeons.",
+  "msgstr": "Corde Sortie et Tunnel ne font\\nplus sortir des grottes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "contresens",
+  "probleme": "« Bonus » désigne une augmentation.",
+  "correction": "MULT. D’EXP.",
+  "justification": "Le réglage applique un multiplicateur qui peut aussi laisser le gain inchangé ou l’annuler.",
+  "msgid": "EXP. MULTIPLIER",
+  "msgstr": "BONUS D’EXP.",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "contresens",
+  "probleme": "« Se soigner » désigne le joueur comme bénéficiaire des soins.",
+  "correction": "Soins aux Centres {PKMN}\\net ailleurs autorisés.",
+  "justification": "Le réglage autorise les soins de l’équipe dans les Centres et aux autres lieux de soins.",
+  "msgid": "The player can visit {PKMN}centers\\nand other locations to heal.",
+  "msgstr": "Le joueur peut se soigner aux\\nCENTRES {PKMN} et ailleurs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "contresens",
+  "probleme": "« Se soigner » désigne le joueur comme bénéficiaire des soins.",
+  "correction": "Soins aux Centres {PKMN}\\net ailleurs interdits.",
+  "justification": "Le réglage interdit les soins de l’équipe dans les Centres et aux autres lieux de soins.",
+  "msgid": "The player CAN'T visit {PKMN}centers\\nor other locations to heal.",
+  "msgstr": "Le joueur NE PEUT PAS se soigner\\naux CENTRES {PKMN} ni ailleurs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "contresens",
+  "probleme": "« Une seule fois » donne une limite par Pokémon.",
+  "correction": "Les {PKMN} ne peuvent atteindre\\nque le premier stade évolué.",
+  "justification": "La règle fixe le stade maximal de la lignée, y compris pour un Pokémon déjà à sa première évolution.",
+  "msgid": "{PKMN} can only evolve into their\\nfirst evolution.",
+  "msgstr": "Les {PKMN} ne peuvent évoluer\\nqu’une seule fois.",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "oubli",
+  "probleme": "L’idée de se remettre du combat a disparu.",
+  "correction": "{PLAYER} rentre vite se remettre\\net revoir sa stratégie de combat…\\p",
+  "justification": "Le retour à la maison sert à reprendre ses esprits et à revoir sa stratégie.",
+  "msgid": "{PLAYER} scurried back home, to regroup\\nand reconsider the battle strategy…\\p",
+  "msgstr": "{PLAYER} rentre vite à la maison pour\\nrevoir sa stratégie de combat…\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "codes",
+  "probleme": "L’argument hexadécimal du code a été remplacé par sa valeur décimale.",
+  "correction": "POSTER BAISER{CLEAR_TO 0x5E}16PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "KISS POSTER{CLEAR_TO 0x5E}16BP",
+  "msgstr": "POSTER BAISER{CLEAR_TO 94}16PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "codes",
+  "probleme": "Le code utilise 94 au lieu de 0x5E.",
+  "correction": "COUSSIN BAISER{CLEAR_TO 0x5E}32PCo",
+  "justification": "La valeur est équivalente, mais la graphie du code source doit être conservée.",
+  "msgid": "KISS CUSHION{CLEAR_TO 0x5E}32BP",
+  "msgstr": "COUSSIN BAISER{CLEAR_TO 94}32PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "codes",
+  "probleme": "Le code utilise 94 au lieu de 0x5E.",
+  "correction": "POUPEE LIPPOUTI{CLEAR_TO 0x5E}32PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "SMOOCHUM DOLL{CLEAR_TO 0x5E}32BP",
+  "msgstr": "POUPEE LIPPOUTI{CLEAR_TO 94}32PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "codes",
+  "probleme": "Le code utilise 94 au lieu de 0x5E.",
+  "correction": "POUPEE TOGEPI{CLEAR_TO 0x5E}48PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "TOGEPI DOLL{CLEAR_TO 0x5E}48BP",
+  "msgstr": "POUPEE TOGEPI{CLEAR_TO 94}48PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "codes",
+  "probleme": "Le code utilise 94 au lieu de 0x5E.",
+  "correction": "POUP. MIAOUSS{CLEAR_TO 0x5E}48PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "MEOWTH DOLL{CLEAR_TO 0x5E}48BP",
+  "msgstr": "POUP. MIAOUSS{CLEAR_TO 94}48PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "codes",
+  "probleme": "Le code utilise 94 au lieu de 0x5E.",
+  "correction": "POUPEE MELOFEE{CLEAR_TO 0x5E}48PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "CLEFAIRY DOLL{CLEAR_TO 0x5E}48BP",
+  "msgstr": "POUPEE MELOFEE{CLEAR_TO 94}48PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "codes",
+  "probleme": "Le code utilise 94 au lieu de 0x5E.",
+  "correction": "POUP. METAM.{CLEAR_TO 0x5E}48PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "DITTO DOLL{CLEAR_TO 0x5E}48BP",
+  "msgstr": "POUP. METAM.{CLEAR_TO 94}48PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "codes",
+  "probleme": "Le code utilise 94 au lieu de 0x5E.",
+  "correction": "POUP.HERICENDRE{CLEAR_TO 0x5E}80PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "CYNDAQUIL DOLL{CLEAR_TO 0x5E}80BP",
+  "msgstr": "POUP.HERICENDRE{CLEAR_TO 94}80PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "codes",
+  "probleme": "Le code utilise 94 au lieu de 0x5E.",
+  "correction": "POUP. GERMIGNON{CLEAR_TO 0x5E}80PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "CHIKORITA DOLL{CLEAR_TO 0x5E}80BP",
+  "msgstr": "POUP. GERMIGNON{CLEAR_TO 94}80PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "codes",
+  "probleme": "Le code utilise 94 au lieu de 0x5E.",
+  "correction": "POUPEE KAIMINUS{CLEAR_TO 0x5E}80PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "TOTODILE DOLL{CLEAR_TO 0x5E}80BP",
+  "msgstr": "POUPEE KAIMINUS{CLEAR_TO 94}80PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "codes",
+  "probleme": "Le code utilise 88 au lieu de 0x58.",
+  "correction": "POUP. LOKHLASS{CLEAR_TO 0x58}128PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "LAPRAS DOLL{CLEAR_TO 0x58}128BP",
+  "msgstr": "POUP. LOKHLASS{CLEAR_TO 88}128PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "codes",
+  "probleme": "Le code utilise 88 au lieu de 0x58.",
+  "correction": "POUP. RONFLEX{CLEAR_TO 0x58}128PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "SNORLAX DOLL{CLEAR_TO 0x58}128BP",
+  "msgstr": "POUP. RONFLEX{CLEAR_TO 88}128PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "codes",
+  "probleme": "Le code utilise 88 au lieu de 0x58.",
+  "correction": "POUP.FLORIZARRE{CLEAR_TO 0x58}256PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "VENUSAUR DOLL{CLEAR_TO 0x58}256BP",
+  "msgstr": "POUP.FLORIZARRE{CLEAR_TO 88}256PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 109,
+  "categorie": "codes",
+  "probleme": "Le code utilise 88 au lieu de 0x58.",
+  "correction": "POUP. DRACAUFEU{CLEAR_TO 0x58}256PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "CHARIZARD DOLL{CLEAR_TO 0x58}256BP",
+  "msgstr": "POUP. DRACAUFEU{CLEAR_TO 88}256PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "codes",
+  "probleme": "Le code utilise 88 au lieu de 0x58.",
+  "correction": "POUP. TORTANK{CLEAR_TO 0x58}256PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "BLASTOISE DOLL{CLEAR_TO 0x58}256BP",
+  "msgstr": "POUP. TORTANK{CLEAR_TO 88}256PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 111,
+  "categorie": "codes",
+  "probleme": "Le code utilise 100 au lieu de 0x64.",
+  "correction": "Protéine{CLEAR_TO 0x64}1PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "PROTEIN{CLEAR_TO 0x64}1BP",
+  "msgstr": "Protéine{CLEAR_TO 100}1PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 112,
+  "categorie": "codes",
+  "probleme": "Le code utilise 100 au lieu de 0x64.",
+  "correction": "Calcium{CLEAR_TO 0x64}1PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "CALCIUM{CLEAR_TO 0x64}1BP",
+  "msgstr": "Calcium{CLEAR_TO 100}1PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "codes",
+  "probleme": "Le code utilise 100 au lieu de 0x64.",
+  "correction": "Fer{CLEAR_TO 0x64}1PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "IRON{CLEAR_TO 0x64}1BP",
+  "msgstr": "Fer{CLEAR_TO 100}1PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "codes",
+  "probleme": "Le code utilise 100 au lieu de 0x64.",
+  "correction": "Zinc{CLEAR_TO 0x64}1PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "ZINC{CLEAR_TO 0x64}1BP",
+  "msgstr": "Zinc{CLEAR_TO 100}1PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 115,
+  "categorie": "codes",
+  "probleme": "Le code utilise 100 au lieu de 0x64.",
+  "correction": "Carbone{CLEAR_TO 0x64}1PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "CARBOS{CLEAR_TO 0x64}1BP",
+  "msgstr": "Carbone{CLEAR_TO 100}1PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "terminologie",
+  "probleme": "« PV plus » ne respecte pas la graphie officielle, et le code a été modifié.",
+  "correction": "PV Plus{CLEAR_TO 0x64}1PCo",
+  "justification": "Le lexique fourni donne « PV Plus ». Le code source emploie 0x64.",
+  "msgid": "HP UP{CLEAR_TO 0x64}1BP",
+  "msgstr": "PV plus{CLEAR_TO 100}1PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "codes",
+  "probleme": "Le code utilise 94 au lieu de 0x5E.",
+  "correction": "Restes{CLEAR_TO 0x5E}48PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "LEFTOVERS{CLEAR_TO 0x5E}48BP",
+  "msgstr": "Restes{CLEAR_TO 94}48PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "terminologie",
+  "probleme": "« HERB.BLANCHE » abrège le nom officiel sans gain de place, et le code a été modifié.",
+  "correction": "Herbeblanche{CLEAR_TO 0x5E}48PCo",
+  "justification": "Le lexique fourni donne « Herbeblanche ». Le code source emploie 0x5E.",
+  "msgid": "WHITE HERB{CLEAR_TO 0x5E}48BP",
+  "msgstr": "HERB.BLANCHE{CLEAR_TO 94}48PCo",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "codes",
+  "probleme": "Le code utilise 94 au lieu de 0x5E.",
+  "correction": "Vive Griffe{CLEAR_TO 0x5E}48PCo",
+  "justification": "La graphie du code source doit être conservée à l’identique.",
+  "msgid": "QUICK CLAW{CLEAR_TO 0x5E}48BP",
+  "msgstr": "Vive Griffe{CLEAR_TO 94}48PCo",
+  "msgctxt": ""
+ }
+]

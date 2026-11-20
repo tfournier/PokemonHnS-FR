@@ -1,0 +1,352 @@
+[
+ {
+  "id": 1,
+  "categorie": "oubli",
+  "probleme": "La description omet que l’objet doit être tenu.",
+  "correction": "Objet tenu favorisant\\nle gain de PV, mais\\nréduisant la Vitesse.",
+  "justification": "Rétablit la condition de port de l’objet et conserve ses deux effets.",
+  "msgid": "A hold item that\\npromotes HP gain,\\nbut reduces Speed.",
+  "msgstr": "Accélère la crois-\\nsance en PV.\\nBaisse la Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "La description omet que l’objet doit être tenu.",
+  "correction": "Objet tenu favorisant\\nle gain d’Attaque, mais\\nréduisant la Vitesse.",
+  "justification": "Rétablit la condition de port de l’objet et conserve ses deux effets.",
+  "msgid": "A hold item that\\npromotes Atk gain,\\nbut reduces Speed.",
+  "msgstr": "Accélère la crois-\\nsance en Attaque.\\nBaisse la Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "oubli",
+  "probleme": "La description omet que l’objet doit être tenu.",
+  "correction": "Objet tenu favorisant\\nle gain de Défense, mais\\nréduisant la Vitesse.",
+  "justification": "Rétablit la condition de port de l’objet et conserve ses deux effets.",
+  "msgid": "A hold item that\\npromotes Def gain,\\nbut reduces Speed.",
+  "msgstr": "Accélère la crois-\\nsance en Défense.\\nBaisse la Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "oubli",
+  "probleme": "La description omet que l’objet doit être tenu.",
+  "correction": "Objet tenu favorisant\\nle gain d’AS, mais\\nréduisant la Vitesse.",
+  "justification": "Rétablit la condition de port de l’objet et emploie l’abréviation AS prévue par le projet.",
+  "msgid": "Hold item that pro-\\nmotes Sp. Atk gain,\\nbut reduces Speed.",
+  "msgstr": "Accélère la crois-\\nsance en Atq. Spé.\\nBaisse la Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "oubli",
+  "probleme": "La description omet que l’objet doit être tenu.",
+  "correction": "Objet tenu favorisant\\nle gain de DS, mais\\nréduisant la Vitesse.",
+  "justification": "Rétablit la condition de port de l’objet et emploie l’abréviation DS prévue par le projet.",
+  "msgid": "Hold item that pro-\\nmotes Sp. Def gain,\\nbut reduces Speed.",
+  "msgstr": "Accélère la crois-\\nsance en Déf. Spé.\\nBaisse la Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "oubli",
+  "probleme": "La description omet que l’objet doit être tenu.",
+  "correction": "Objet tenu favorisant\\nle gain de Vitesse,\\nmais baissant la Vitesse.",
+  "justification": "Rétablit la condition de port de l’objet et distingue le gain de Vitesse de la baisse de cette statistique.",
+  "msgid": "A hold item that\\npromotes Spd gain,\\nbut reduces Speed.",
+  "msgstr": "Accélère la pousse\\nde la Vitesse, mais\\nla baisse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "typographie",
+  "probleme": "La casse est mixte dans le libellé.",
+  "correction": "GLACE ETERNELLE",
+  "justification": "Met tout le libellé de menu en capitales selon la convention du projet.",
+  "msgid": "NEVER-MELT ICE",
+  "msgstr": "Glace ETERNELLE",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "contresens",
+  "probleme": "Le bonus porte sur la statistique d’Attaque.",
+  "correction": "Monte l’Attaque.\\nUne seule attaque\\nest utilisable.",
+  "justification": "Rétablit le bonus de statistique et la restriction à une seule capacité.",
+  "msgid": "Boosts Attack, but\\nallows the use of\\nonly one move.",
+  "msgstr": "Monte la puissance\\nd’une attaque. Dés-\\nactive les autres.",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "oubli",
+  "probleme": "La condition « pendant un combat » manque.",
+  "correction": "Orbe bizarre qui\\nempoisonne gravement\\nson porteur en combat.",
+  "justification": "Précise quand l’empoisonnement grave se déclenche.",
+  "msgid": "A bizarre orb that\\nbadly poisons the\\nholder in battle.",
+  "msgstr": "Orbe bizarre qui\\nempoisonne grave-\\nment son porteur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "terminologie",
+  "probleme": "Le nom de la capacité est Tempêtesable.",
+  "correction": "Prolonge la Tempêtesable\\nlancée par\\nle porteur.",
+  "justification": "Tempêtesable est le nom français de la capacité dans Pokémon Émeraude et Pokémon SoulSilver, repris dans le lexique fourni.",
+  "msgid": "Extends the length\\nof Sandstorm if\\nused by the holder.",
+  "msgstr": "Prolonge la Tempête\\nde Sable lancée par\\nle porteur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "oubli",
+  "probleme": "« Du porteur » n’indique pas clairement qu’il déclenche le climat.",
+  "correction": "Prolonge la durée\\ndes climats froids\\ninstaurés par le porteur.",
+  "justification": "Rétablit la condition exprimée par « used by the holder ».",
+  "msgid": "Extends the length\\nof cold weathers\\nused by the holder.",
+  "msgstr": "Prolonge la durée\\ndes climats froids\\ndu porteur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "typographie",
+  "probleme": "« Electrik » est en casse mixte dans le libellé.",
+  "correction": "GRAINE ELECTRIK",
+  "justification": "Applique les capitales de menu et la graphie ELECTRIK du projet.",
+  "msgid": "ELECTRIC SEED",
+  "msgstr": "GRAINE Electrik",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "typographie",
+  "probleme": "« Brume » est en casse mixte dans le libellé.",
+  "correction": "GRAINE BRUME",
+  "justification": "Applique la convention des libellés de menus en capitales.",
+  "msgid": "MISTY SEED",
+  "msgstr": "GRAINE Brume",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "oubli",
+  "probleme": "Les autres Pokémon de l’équipe ne sont pas mentionnés.",
+  "correction": "Objet qui donne de\\nl’Exp. aux autres\\nPokémon de l’équipe.",
+  "justification": "Rétablit les bénéficiaires et retire les précisions absentes de la source.",
+  "msgid": "This device gives\\nexp. to other\\nparty members.",
+  "msgstr": "Objet tenu pour\\npartager l’Exp.\\naprès un combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "oubli",
+  "probleme": "La fuite est garantie dans la source.",
+  "correction": "Objet tenu qui garantit\\nla fuite face à un\\nPokémon sauvage.",
+  "justification": "« Guarante » traduit la certitude exprimée par « assures ».",
+  "msgid": "A hold item that\\nassures fleeing\\nfrom wild Pokémon.",
+  "msgstr": "Objet tenu, utilisé\\npour fuir un\\nPokémon sauvage.",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "oubli",
+  "probleme": "« Du porteur » n’indique pas clairement qu’il lance les capacités.",
+  "correction": "Prolonge les barrières\\ncréées par les capacités\\ndu porteur.",
+  "justification": "Rétablit le lien entre les barrières et les capacités utilisées par le porteur.",
+  "msgid": "Extends the length\\nof barrier moves\\nused by the holder.",
+  "msgstr": "Prolonge la durée\\ndes barrières\\ndu porteur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "oubli",
+  "probleme": "La description omet que l’objet doit être tenu.",
+  "correction": "Objet tenu qui renforce\\nune attaque utilisée\\nplusieurs fois de suite.",
+  "justification": "Rétablit la condition de port de l’objet.",
+  "msgid": "A held item that\\nboosts a move used\\nconsecutively.",
+  "msgstr": "Booste une attaque\\nutilisée plusieurs\\nfois de suite.",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "oubli",
+  "probleme": "« Soigne » ne précise pas que l’objet rend des PV.",
+  "correction": "Rend des PV aux Pokémon\\nde type Poison. Blesse\\ntous les autres.",
+  "justification": "Rétablit l’effet précis et désigne les Pokémon qui en bénéficient.",
+  "msgid": "Restores HP for\\nPoison-types.\\nDamages all others.",
+  "msgstr": "Soigne les types\\nPoison. Blesse\\ntous les autres.",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "oubli",
+  "probleme": "La description omet que l’objet doit être tenu.",
+  "correction": "Objet tenu qui prolonge\\nles capacités qui ligotent,\\ncomme Ligotage.",
+  "justification": "Rétablit la condition de port de l’objet et conserve l’exemple de la source.",
+  "msgid": "A held item that\\nextends binding\\nmoves like Wrap.",
+  "msgstr": "Prolonge les\\ncapacités liantes\\ncomme Ligotage.",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "orthographe",
+  "probleme": "Il manque les déterminants devant les noms des statistiques.",
+  "correction": "Monte la Défense et\\nla Défense Spéciale\\nsi le porteur peut évoluer.",
+  "justification": "Les deux statistiques sont introduites par leur article.",
+  "msgid": "Raises the Def and\\nSp. Def of Pokémon\\nthat can evolve.",
+  "msgstr": "Monte Défense et\\nDéf. Spé. du porteur\\ns’il peut évoluer.",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "oubli",
+  "probleme": "Le qualificatif « usually » manque.",
+  "correction": "Les capacités d’ordinaire\\nsans effet touchent\\nquand même le porteur.",
+  "justification": "Précise que l’absence d’effet correspond au fonctionnement habituel.",
+  "msgid": "Moves that usually\\nhave no effect will\\nhit the holder.",
+  "msgstr": "Les capacités sans\\neffet touchent quand\\nmême le porteur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "typographie",
+  "probleme": "« Etreinte » est en casse mixte dans le libellé.",
+  "correction": "BANDE ETREINTE",
+  "justification": "Applique les capitales sans accent prévues pour les libellés de menus.",
+  "msgid": "BINDING BAND",
+  "msgstr": "BANDE Etreinte",
+  "msgctxt": ""
+ },
+ {
+  "id": 87,
+  "categorie": "oubli",
+  "probleme": "La condition « when held » manque.",
+  "correction": "Objet tenu qui renforce\\nles capacités qui\\nligotent l’ennemi.",
+  "justification": "Précise que l’objet doit être tenu pour produire son effet.",
+  "msgid": "Increases the\\npower of binding\\nmoves when held.",
+  "msgstr": "Renforce les atta-\\nques qui ligotent\\nl’ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "typographie",
+  "probleme": "« Fuite » est en casse mixte dans le libellé.",
+  "correction": "BOUTON FUITE",
+  "justification": "Applique la convention des libellés de menus en capitales.",
+  "msgid": "EJECT BUTTON",
+  "msgstr": "BOUTON Fuite",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "orthographe",
+  "probleme": "La condition n’a pas de sujet explicite et les noms des statistiques sont sans déterminant.",
+  "correction": "Monte l’AT et l’AS si le\\nporteur subit une capacité\\nsuper efficace.",
+  "justification": "Rétablit une phrase complète avec les abréviations du projet.",
+  "msgid": "If hit by a super-\\neffective move,\\nups Atk and Sp. Atk.",
+  "msgstr": "Si touché par une\\nattaque super efficace,\\nmonte Atq. et Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "typographie",
+  "probleme": "« Combat » est en casse mixte dans le libellé.",
+  "correction": "VESTE DE COMBAT",
+  "justification": "Applique la convention des libellés de menus en capitales.",
+  "msgid": "ASSAULT VEST",
+  "msgstr": "VESTE DE Combat",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "terminologie",
+  "probleme": "La catégorie de capacités est appelée « capacités de statut ».",
+  "correction": "Monte la Défense Spéciale\\nmais empêche d’utiliser\\nles capacités de statut.",
+  "justification": "Le [Pokédex officiel de Terracool](https://www.pokemon.com/fr/pokedex/terracool) emploie « capacité de statut ».",
+  "msgid": "Raises Sp. Def but\\nprevents the use\\nof status moves.",
+  "msgstr": "Monte la Déf. Spé.\\nmais bloque les at-\\ntaques de statut.",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "typographie",
+  "probleme": "« Filtre » est en casse mixte dans le libellé.",
+  "correction": "LUNETTES FILTRE",
+  "justification": "Applique la convention des libellés de menus en capitales.",
+  "msgid": "SAFETY GOGGLES",
+  "msgstr": "LUNETTES Filtre",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "contresens",
+  "probleme": "« Protège de la météo » étend la protection à tous ses effets.",
+  "correction": "Protège des dégâts\\nde la météo et des\\ncapacités à base de poudre.",
+  "justification": "La source limite la protection contre la météo aux dégâts qu’elle inflige.",
+  "msgid": "Protect from\\nweather damage and\\npowder moves.",
+  "msgstr": "Protège de la météo\\net des attaques à\\nbase de poudre.",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "terminologie",
+  "probleme": "« Intimidé » masque la référence au talent Intimidation.",
+  "correction": "Monte la Vitesse\\ndu porteur s’il subit\\nIntimidation.",
+  "justification": "Le [site officiel Pokémon](https://www.pokemon.com/fr/articles/trouvez-des-pokemon-speciaux-en-declenchant-des-intrusions-en-combat) donne Intimidation comme nom français du talent.",
+  "msgid": "This orb boosts\\nSpeed if the holder\\nis intimidated.",
+  "msgstr": "Monte la Vitesse\\ndu porteur s’il est\\nintimidé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "contresens",
+  "probleme": "La traduction ajoute une condition sur l’auteur du champ.",
+  "correction": "Prolonge la durée\\ndu champ actif\\nen combat.",
+  "justification": "La source désigne le champ actif et ne précise pas qui l’a créé.",
+  "msgid": "Extends the length\\nof the active\\nbattle terrain.",
+  "msgstr": "Prolonge la durée\\ndes champs créés\\npar le porteur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "contresens",
+  "probleme": "« Attaque sonore » peut exclure les capacités sonores sans dégâts.",
+  "correction": "Monte l’Atq. Spé.\\nsi le porteur lance\\nune capacité sonore.",
+  "justification": "« Sound-based move » couvre aussi les capacités sonores de statut.",
+  "msgid": "Raises Sp. Atk. if\\nthe holder uses a\\nsound-based move.",
+  "msgstr": "Monte l’Atq. Spé.\\nsi le porteur lance\\nune attaque sonore.",
+  "msgctxt": ""
+ },
+ {
+  "id": 112,
+  "categorie": "typographie",
+  "probleme": "« Assurance » est en casse mixte dans le libellé.",
+  "correction": "ASSURANCE ECHEC",
+  "justification": "Applique les capitales sans accent prévues pour les libellés de menus.",
+  "msgid": "BLUNDER POLICY",
+  "msgstr": "Assurance ECHEC",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "oubli",
+  "probleme": "La cause de l’échec de la capacité manque.",
+  "correction": "Monte la Vitesse\\nsi le porteur rate sa cible\\npar manque de précision.",
+  "justification": "Rétablit la condition liée au test de précision.",
+  "msgid": "Raises Speed if\\nthe user misses\\ndue to Accuracy.",
+  "msgstr": "Monte la Vitesse\\nsi le porteur rate\\nsa cible.",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été ajouté alors que la source écrit Pokémon en toutes lettres.",
+  "correction": "Objet tenu qui\\nréveille les Pokémon\\nendormis en combat.",
+  "justification": "Rétablit le texte littéral et conserve les deux sauts de ligne.",
+  "msgid": "A hold item that\\nawakens Pokémon\\nin battle.",
+  "msgstr": "Objet tenu qui\\nréveille les {PKMN}\\ndormant au combat.",
+  "msgctxt": ""
+ }
+]

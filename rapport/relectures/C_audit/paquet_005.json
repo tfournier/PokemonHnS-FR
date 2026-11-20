@@ -1,0 +1,292 @@
+[
+ {
+  "id": 0,
+  "categorie": "typographie",
+  "probleme": "Le saut de ligne contrevient à la contrainte d’une seule ligne.",
+  "correction": "J’espère que la lentille te plaira!",
+  "justification": "La formulation raccourcie conserve le souhait et tient sur une seule ligne.",
+  "msgid": "I hope you enjoy that lens!",
+  "msgstr": "J’espère que cette lentille\\nte plaira!",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "« Examine » ne rend pas explicitement « a closer look ».",
+  "correction": "{PLAYER} regarde de plus près\\nla carte de SINJOH.",
+  "justification": "Le texte indique que le personnage observe la carte de plus près.",
+  "msgid": "{PLAYER} took a closer look at the\\nSINJOH map.",
+  "msgstr": "{PLAYER} examine la carte\\nde SINJOH.",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "terminologie",
+  "probleme": "« MAITRE » et « Ligue DE KANTO » ne suivent pas les graphies du projet.",
+  "correction": "PETER: Te revoilà!\\pTu as fait tes preuves à JOHTO,\\pen gagnant les 8 Badges et même\\nen me battant une fois.\\pMais maintenant, tu joues dans la\\ncour des grands.\\pLa Ligue du Kanto!\\pUne région avec ses propres\\népreuves et ses champions.\\pIci, je suis l’ultime défi, avec\\nune équipe plus forte que jamais.\\pC’est la véritable épreuve,\\pun combat pour désigner le\\nMaître du Kanto.\\pEs-tu prêt à relever ce nouveau\\ndéfi?\\pA faire tes preuves une fois de\\nplus?\\pMontre-moi la force qui a conquis\\nJOHTO, Maître.",
+  "justification": "Le lexique prescrit « Maître » pour le titre et « Ligue Pokémon » pour l’institution. Une ligue régionale se nomme « Ligue du Kanto ».",
+  "msgid": "LANCE: Welcome back!\\pYou've proven yourself in JOHTO,\\pacquiring all 8 badges and even\\nbesting me once.\\pBut now, you're in the big\\nleagues.\\pThe KANTO LEAGUE!\\pA region with its own trials and\\nchampions.\\pHere, I am the final challenge,\\nwith a team stronger than ever\\lbefore.\\pThis is the true test,\\pa battle to determine the\\nCHAMPION of KANTO.\\pAre you ready to rise to this new\\nchallenge?\\pTo prove yourself once more?\\pShow me the strength that\\nconquered JOHTO, CHAMPION.",
+  "msgstr": "PETER: Te revoilà!\\pTu as fait tes preuves à JOHTO,\\pen gagnant les 8 Badges et même\\nen me battant une fois.\\pMais maintenant, tu joues dans la\\ncour des grands.\\pLa Ligue DE KANTO!\\pUne région avec ses propres\\népreuves et ses champions.\\pIci, je suis l’ultime défi, avec\\nune équipe plus forte que jamais.\\pC’est la véritable épreuve,\\pun combat pour désigner le\\nMAITRE de KANTO.\\pEs-tu prêt à relever ce nouveau\\ndéfi?\\pA faire tes preuves une fois de\\nplus?\\pMontre-moi la force qui a conquis\\nJOHTO, Maître.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "oubli",
+  "probleme": "« As a trainer » disparaît de la phrase sur la confiance des Pokémon.",
+  "correction": "Prof. Chen: Ah, {PLAYER}!\\pÇa faisait longtemps.\\pTu as bien plus d’allure qu’avant.\\pTa conquête de la Ligue de Johto\\nest tout simplement fantastique!\\pTon dévouement, ta confiance et\\nton amour pour tes Pokémon ont\\lpayé.\\pTes Pokémon ont été formidables,\\neux aussi.\\pIls ont tenu bon parce qu’ils\\ncroyaient en toi comme Dresseur.\\pFélicitations, {PLAYER}!",
+  "justification": "La précision rétablit le rôle du joueur comme Dresseur et la graphie suit « Prof. Chen ».",
+  "msgid": "PROF.OAK: Ah, {PLAYER}!\\pIt's been a long while.\\pYou certainly look more impressive.\\pYour conquest of the JOHTO LEAGUE\\nis just fantastic!\\pYour dedication, trust and love for\\nyour POKéMON made this happen.\\pYour POKéMON were outstanding too.\\pBecause they believed in you as a\\ntrainer, they persevered.\\pCongratulations, {PLAYER}!",
+  "msgstr": "Prof. CHEN: Ah, {PLAYER}!\\pÇa faisait longtemps.\\pTu as bien plus d’allure qu’avant.\\pTa conquête de la Ligue DE JOHTO\\nest tout simplement fantastique!\\pTon dévouement, ta confiance et ton\\namour pour tes Pokémon ont payé.\\pTes Pokémon ont été formidables,\\neux aussi.\\pIls ont tenu bon parce qu’ils\\ncroyaient en toi.\\pFélicitations, {PLAYER}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "oubli",
+  "probleme": "« Quel exploit! » ne dit pas que le joueur s’est surpassé.",
+  "correction": "Prof. Chen: Ah, {PLAYER}!\\pJe suis tes progrès depuis que le\\nProf. Orme t’a confié ta\\lmission.\\pTu as vraiment pris de l’envergure.\\pConquérir la Ligue de Johto puis\\ncelle du Kanto, ce n’est pas rien!\\pTu t’es vraiment surpassé!\\pTes Pokémon ont une confiance\\nimmense en toi,\\pet cette confiance est la clé\\nde ton succès.\\pMais n’oublie pas: le voyage d’un\\nDresseur n’est jamais terminé.\\pFélicitations pour ta victoire,\\n{PLAYER}!",
+  "justification": "La correction restitue le dépassement de soi et applique les graphies « Prof. Chen » et « Dresseur ».",
+  "msgid": "PROF.OAK: Ah, {PLAYER}!\\pI've been following your progress\\nsince PROF.ELM sent you on your\\lway.\\pYou've certainly become more\\nimpressive.\\pConquering both the JOHTO and now\\nthe KANTO LEAGUE is no small feat.\\pYou've truly outdone yourself!\\pIt's clear that your POKéMON trust\\nyou immensely,\\pand that trust has been the\\nfoundation of your success.\\pBut remember, a trainer's journey\\nis never truly over.\\pCongratulations on your victory,\\n{PLAYER}!",
+  "msgstr": "Prof. CHEN: Ah, {PLAYER}!\\pJe suis tes progrès depuis que le\\nProf. Orme t’a confié ta\\lmission.\\pTu as vraiment pris de l’envergure.\\pConquérir la Ligue DE JOHTO puis\\ncelle de KANTO, ce n’est pas rien!\\pQuel exploit!\\pTes Pokémon ont une confiance\\nimmense en toi,\\pet cette confiance est la clé\\nde ton succès.\\pMais n’oublie pas: le voyage d’un\\nDRESSEUR n’est jamais terminé.\\pFélicitations pour ta victoire,\\n{PLAYER}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "oubli",
+  "probleme": "L’interview que le joueur cherche à éviter n’est plus mentionnée.",
+  "correction": "MARIE: Oh non! Vous n’allez pas\\nENCORE esquiver l’interview!",
+  "justification": "La réplique nomme de nouveau l’interview et conserve l’insistance sur la répétition.",
+  "msgid": "MARY: Come on! You can't blow off\\nthe interview AGAIN!",
+  "msgstr": "MARIE: Oh non! Vous n’allez pas\\nENCORE me poser un lapin!",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "oubli",
+  "probleme": "L’accroc se trouve précisément à la couture de la patte droite.",
+  "correction": "COPIEUSE: Youpi! C’est ma\\nPoképoupée MELOFEE!\\pTu vois l’accroc à la couture\\nde la patte droite? C’est la preuve!",
+  "justification": "La couture est le détail qui permet d’identifier la poupée. Le lexique donne la graphie « Poképoupée ».",
+  "msgid": "COPYCAT: Yay! That's my CLEFAIRY\\nPOKé DOLL!\\pSee the tear where the right leg\\nis sewn on? That's proof!",
+  "msgstr": "COPIEUSE: Youpi! C’est ma\\nPOKéPOUPEE MELOFEE!\\pTu vois l’accroc à la jambe\\ndroite? C’est la preuve!",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "terminologie",
+  "probleme": "L’objet est appelé « PASSE » au lieu de « Passe Train ».",
+  "correction": "COPIEUSE: C’est le Passe Train\\npour le Train Magnétique.\\pLe monsieur de la compagnie me\\nl’a donné quand ils ont rasé\\lnotre maison pour bâtir la gare.",
+  "justification": "Le lexique fourni fixe « Passe Train » comme nom officiel de l’objet. « Notre maison » désigne l’ancienne habitation dans ce contexte.",
+  "msgid": "COPYCAT: That's the PASS for the\\nMAGNET TRAIN.\\pThe rail company man gave me\\nthat when they tore down our old\\lhouse for the STATION.",
+  "msgstr": "COPIEUSE: C’est le PASSE du TRAIN\\nMAGNETIQUE.\\pLe monsieur de la compagnie me l’a\\ndonné quand ils ont rasé notre\\lvieille maison pour bâtir la GARE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "contresens",
+  "probleme": "« Reste en dehors de mon chemin » calque une injonction qui signifie que le joueur doit cesser de le gêner.",
+  "correction": "Je déteste les faibles.\\pPokémon, Dresseurs, peu importe\\nqui ou quoi.\\pJe vais devenir fort et écraser\\nles faibles.\\pLa Team Rocket aussi.\\pIls jouent les durs en groupe.\\pMais tout seuls, ils sont faibles.\\nJe les déteste tous.\\pNe te mets pas en travers de ma\\nroute. Tu ne fais que me distraire,\\lmauviette.",
+  "justification": "« Ne te mets pas en travers de ma route » rend l’avertissement et « ne fais que » conserve la restriction de « only ».",
+  "msgid": "I hate the weak.\\pPOKéMON, trainers. It doesn't\\nmatter who or what.\\pI'm going to be strong and wipe\\nout the weak.\\pThat goes for TEAM ROCKET too.\\pThey act big and tough in a group.\\pBut get them alone, and they're weak.\\nI hate them all.\\pYou stay out of my way. A weakling\\nlike you is only a distraction.",
+  "msgstr": "Je déteste les faibles.\\pPOKéMON, Dresseurs, peu importe\\nqui ou quoi.\\pJe vais devenir fort et écraser\\nles faibles.\\pLa Team Rocket aussi.\\pIls jouent les durs en groupe.\\pMais tout seuls, ils sont faibles.\\nJe les déteste tous.\\pReste en dehors de mon chemin. Une\\nmauviette comme toi, ça me distrait.",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "contresens",
+  "probleme": "« Ces flemmards » ajoute un jugement absent de « Knowing them ».",
+  "correction": "Les RAMOLOSS sont revenus.\\pA les connaître, ils ont\\npeut-être juste traîné ailleurs.",
+  "justification": "L’interlocuteur s’appuie sur ce qu’il connaît des RAMOLOSS pour expliquer leur absence.",
+  "msgid": "The SLOWPOKE have returned.\\pKnowing them, they could've just\\nbeen goofing off somewhere.",
+  "msgstr": "Les RAMOLOSS sont revenus.\\pConnaissant ces flemmards, ils ont\\npeut-être juste traîné quelque part.",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "typographie",
+  "probleme": "Le point isolé après les points de suspension produit une ponctuation irrégulière.",
+  "correction": "RAMOLOSS: ………\\p……………BAILLE?",
+  "justification": "Les caractères de suspension suffisent à marquer le silence.",
+  "msgid": "SLOWPOKE:..........\\p...............YAWN?",
+  "msgstr": "RAMOLOSS: ……….\\p……………BAILLE?",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "terminologie",
+  "probleme": "« BOIS AUX CHENES » ne respecte pas la graphie du lieu.",
+  "correction": "Tu peux aller voir pourquoi le\\nBois aux Chênes est si agité?",
+  "justification": "Le lexique fixe « Bois aux Chênes ».",
+  "msgid": "Could you go see why ILEX FOREST\\nis so restless?",
+  "msgstr": "Tu pourrais aller voir pourquoi le\\nBOIS AUX CHENES est si agité?",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "typographie",
+  "probleme": "« PLACE DU Mont Sélénite » mélange deux capitalisations dans un même nom de lieu.",
+  "correction": "Place du Mont Sélénite ->",
+  "justification": "La casse suit la convention des noms de lieux du projet.",
+  "msgid": "MT MOON SQUARE ->",
+  "msgstr": "PLACE DU Mont Sélénite ->",
+  "msgctxt": ""
+ },
+ {
+  "id": 58,
+  "categorie": "registre",
+  "probleme": "Le personnage vouvoie le joueur dans cette réplique alors qu’il le tutoie avant et après.",
+  "correction": "Alors paie ce que tu as, s’il te plaît.",
+  "justification": "Le tutoiement reste cohérent dans l’échange et « s’il te plaît » restitue « please ».",
+  "msgid": "Then pay what you have, please.",
+  "msgstr": "Alors payez ce que vous avez.",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "terminologie",
+  "probleme": "La Zone de Combat apparaît sous plusieurs graphies dans la même réplique.",
+  "correction": "{PLAYER}, que vas-tu faire?\\pTu vas relever le défi de la\\nZone de Combat?\\pOu est-ce que tu vas compléter\\nton Pokédex?\\pComme tu es très fort, tu devrais\\naller à la Zone de Combat.\\pHé, si j’entraînais un peu plus\\nmes Pokémon, je serais plus fort\\lque toi, {PLAYER}.\\pJ’irai peut-être à la\\nZone de Combat, moi aussi.\\pEnfin, de toute façon, tiens bon!",
+  "justification": "Le lexique Émeraude fixe « Zone de Combat ».",
+  "msgid": "{PLAYER}, what are you going to do?\\pAre you taking the BATTLE FRONTIER\\nchallenge?\\pOr, are you going to complete your\\nPOKéDEX?\\pSince you're that strong, you should\\nconsider the BATTLE FRONTIER.\\pHeh, if I train my POKéMON a bit more,\\nI'll get stronger than you, {PLAYER}.\\pMaybe I should go to the BATTLE\\nFRONTIER.\\pWell, anyway, hang in there!",
+  "msgstr": "{PLAYER}, que vas-tu faire?\\pTu vas relever le défi de la\\nZONE DE Combat?\\pOu est-ce que tu vas compléter\\nton Pokédex?\\pComme tu es très fort, tu devrais\\naller à la Zone de Combat.\\pHé, si j’entraînais un peu plus mes\\nPOKéMON, je serais plus fort que toi,\\l{PLAYER}.\\pJ’irai peut-être à la ZONE DE\\nCOMBAT, moi aussi.\\pEnfin, de toute façon, tiens bon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "terminologie",
+  "probleme": "« Prof. CHEN » ne suit pas la graphie du projet.",
+  "correction": "Je me demande combien d’espèces\\nde Pokémon il y a dans le monde.\\pIl y a trois ans, le Prof. Chen\\ndisait qu’il y en avait 150.\\pMais il paraît qu’il y en aurait\\nmaintenant plus de 400!",
+  "justification": "La convention SoulSilver fournie prescrit « Prof. Chen ».",
+  "msgid": "I wonder how many kinds of POKéMON\\nthere are in the world.\\pThree years ago, PROF.OAK said that\\nthere were 150 different kinds.\\pBut recently I heard there's\\nover 400!",
+  "msgstr": "Je me demande combien d’espèces\\nde Pokémon il y a dans le monde.\\pIl y a trois ans, le Prof. CHEN\\ndisait qu’il y en avait 150.\\pMais il paraît qu’il y en aurait\\nmaintenant plus de 400!",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "contresens",
+  "probleme": "« Vos Pokémon » laisse entendre que plusieurs Pokémon peuvent gagner de l’expérience pendant le concours.",
+  "correction": "L’EXP. gagnée par votre Pokémon\\npendant le Concours sera annulée\\là votre sortie.\\pVoici les Compét’Balls pour le\\nConcours.",
+  "justification": "Le singulier correspond au texte anglais et à la règle qui limite la participation à un seul Pokémon.",
+  "msgid": "Any EXP your POKéMON gains during\\nthe contest will be reverted when\\lyou leave.\\pHere are the SPORT BALLS for the\\nContest.",
+  "msgstr": "L’EXP. gagnée par vos Pokémon\\npendant le Concours sera annulée\\là votre sortie.\\pVoici les COMPET’BALLS pour le\\nConcours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "registre",
+  "probleme": "Le personnel du concours tutoie le joueur.",
+  "correction": "Choisissez votre Pokémon pour\\nle Concours, puis revenez me voir.",
+  "justification": "Le vouvoiement correspond aux autres consignes de l’accueil du concours.",
+  "msgid": "Please choose the POKéMON to be used\\nin the Contest, then come see me.",
+  "msgstr": "Choisis le Pokémon que tu vas utiliser\\npour le Concours, puis reviens me voir.",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "registre",
+  "probleme": "Le personnel du concours tutoie le joueur.",
+  "correction": "Oh oh… Votre équipe et votre\\nBoîte sont pleines.\\pVous n’avez pas de place pour les\\nPokémon Insecte capturés.\\pFaites de la place dans l’équipe\\nou la Boîte, puis revenez me voir.",
+  "justification": "Le vouvoiement correspond au registre de l’accueil du concours.",
+  "msgid": "Uh-oh… Both your party and your\\nPC BOX are full.\\pYou have no room to put the bug\\nPOKéMON you catch.\\pPlease make room in your party or\\nyour PC BOX, then come see me.",
+  "msgstr": "Oh oh… Ton équipe et ta Boîte sont\\npleines.\\pTu n’as pas de place pour les Pokémon\\nInsecte que tu captureras.\\pFais de la place dans ton équipe ou ta\\nBoîte, puis reviens me voir.",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "registre",
+  "probleme": "Le personnel du concours tutoie le joueur.",
+  "correction": "Oh oh… Votre premier Pokémon\\nest un OEUF.\\pPlacez en tête le Pokémon voulu,\\npuis revenez me voir.",
+  "justification": "Le vouvoiement correspond au registre de l’accueil du concours.",
+  "msgid": "Uh-oh… You have an EGG as the first\\nPOKéMON in your party.\\pPlease switch it with the POKéMON\\nyou want to use, then come see me.",
+  "msgstr": "Oh oh… Ton premier Pokémon est\\nun OEUF.\\pMets en tête le Pokémon que tu\\nveux utiliser, puis reviens me voir.",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "oubli",
+  "probleme": "« Vous revoir bientôt » omet la participation à un prochain concours.",
+  "correction": "Le Concours du jour est terminé.\\nNous espérons que vous\\lparticiperez une prochaine fois.",
+  "justification": "Le texte source exprime l’espoir que le joueur participe à nouveau.",
+  "msgid": "Today's Contest is over. We hope you\\nwill participate in the future.",
+  "msgstr": "Le Concours du jour est terminé.\\nNous espérons vous revoir bientôt.",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "typographie",
+  "probleme": "La réplique comporte un saut de ligne malgré la contrainte d’une seule ligne.",
+  "correction": "Il gagne toujours ces concours!",
+  "justification": "La phrase conserve le résultat habituel et tient sur une seule ligne.",
+  "msgid": "He always wins these contests!",
+  "msgstr": "C’est toujours lui qui gagne ces\\nconcours!",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "oubli",
+  "probleme": "Le nom du concours est tronqué après « Capture ».",
+  "correction": "C’est quand, le prochain\\nConcours de Capture d’Insectes?",
+  "justification": "La correction précise de quel concours il s’agit, comme le fait « Bug-Catching Contest ».",
+  "msgid": "When is the next Bug-Catching Contest\\ngoing to be?",
+  "msgstr": "C’est quand, le prochain Concours\\nde Capture?",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "orthographe",
+  "probleme": "« Un lot pour chaque participant, et tu gardes… » coordonne un fragment nominal et une proposition.",
+  "correction": "Le Concours de Capture d’Insectes\\na lieu mardi, jeudi et samedi.\\pTu gagnes un lot rien qu’en\\nparticipant,\\pet tu gardes le Pokémon Insecte\\nque tu as à la fin du concours.",
+  "justification": "Les deux verbes rendent explicites les deux avantages de la participation.",
+  "msgid": "The Bug-Catching Contest is held on\\nTuesday, Thursday and Saturday.\\pNot only do you earn a prize just\\nfor participating,\\pyou also get to keep the bug POKéMON\\nyou may have at the end of the contest.",
+  "msgstr": "Le Concours de Capture d’Insectes\\na lieu mardi, jeudi et samedi.\\pUn lot pour chaque\\nparticipant,\\pet tu gardes le Pokémon Insecte\\nque tu as à la fin du concours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "terminologie",
+  "probleme": "« dresseur » est écrit sans la majuscule prévue par le projet.",
+  "correction": "Quand j’étais tout gamin, j’étais\\nun Dresseur du tonnerre!\\pUn petit conseil:\\nAttrape plein de Pokémon!\\pEt traite-les tous avec bonté!",
+  "justification": "Le lexique officiel fourni fixe « Dresseur ». La dernière ligne est raccourcie pour respecter le gabarit.",
+  "msgid": "When I was a wee lad, I was a\\nhotshot trainer!\\pHere's a word of advice:\\nCatch lots of POKéMON!\\pTreat them all with kindness!",
+  "msgstr": "Quand j’étais tout gamin, j’étais\\nun dresseur du tonnerre!\\pUn petit conseil:\\nAttrape plein de Pokémon!\\pEt traite-les tous avec gentillesse!",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "terminologie",
+  "probleme": "« LIGUE Pokémon de KANTO » ne respecte pas la graphie de « Ligue Pokémon ».",
+  "correction": "Voici la Caverne Azurée.\\pDes Pokémon terriblement forts\\nvivent là-dedans.\\pSeul un Dresseur exceptionnel\\npeut avoir le droit d’y entrer.\\pIl faudrait déjà être assez fort\\npour devenir Maître de la\\lLigue Pokémon du Kanto.\\pEt aussi avoir accompli un\\nexploit hors du commun.",
+  "justification": "Le lexique fixe « Ligue Pokémon » et « Maître ».",
+  "msgid": "This is CERULEAN CAVE.\\pHorribly strong POKéMON live inside\\nthere.\\pIt takes a very special TRAINER to\\nbe allowed inside there.\\pYou'd have to be strong enough to\\nbecome the KANTO POKéMON LEAGUE\\lCHAMPION for starters.\\pAnd, you would have to have\\nmade a great achievement.",
+  "msgstr": "Voici la Caverne Azurée.\\pDes Pokémon terriblement forts\\nvivent là-dedans.\\pSeul un Dresseur exceptionnel\\npeut avoir le droit d’y entrer.\\pIl faudrait déjà être assez fort\\npour devenir Maître de la\\lLIGUE Pokémon de KANTO.\\pEt aussi avoir accompli un\\nexploit hors du commun.",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "typographie",
+  "probleme": "La réplique comporte un saut de ligne et la capacité est entièrement en capitales.",
+  "correction": "FLAGADOSS, fais Choc Mental!",
+  "justification": "La formulation tient sur une seule ligne et reprend la graphie « Choc Mental » du lexique.",
+  "msgid": "SLOWBRO, show me your CONFUSION!",
+  "msgstr": "FLAGADOSS, montre-moi ton\\nCHOC MENTAL!",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "typographie",
+  "probleme": "« VERS LE CAP » et « D’Azuria » mélangent deux capitalisations sur le même panneau.",
+  "correction": "Vers le Cap\\nd’Azuria",
+  "justification": "La casse suit la convention des noms de lieux du projet.",
+  "msgid": "CERULEAN CAPE\\nAHEAD",
+  "msgstr": "VERS LE CAP\\nD’Azuria",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "typographie",
+  "probleme": "« PLACE DU Mont Sélénite » mélange deux capitalisations dans un même nom de lieu.",
+  "correction": "Place du Mont Sélénite\\pMontez simplement l’escalier.",
+  "justification": "La casse suit la convention des noms de lieux du projet.",
+  "msgid": "MT.MOON SQUARE\\pJust go up the stairs.",
+  "msgstr": "PLACE DU Mont Sélénite\\pMontez simplement l’escalier.",
+  "msgctxt": ""
+ }
+]

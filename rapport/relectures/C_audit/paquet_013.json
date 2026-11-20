@@ -1,0 +1,482 @@
+[
+ {
+  "id": 1,
+  "categorie": "oubli",
+  "probleme": "La consigne ne précise plus qu’il faut retirer tous les objets.",
+  "correction": "Petit problème, aventurier!\\pIl semble que vous n’ayez pas trois\\nPokémon aptes à relever le défi.\\pPensez aussi à retirer tous les\\nobjets tenus par vos Pokémon.\\pLes Œufs{STR_VAR_1}.",
+  "justification": "« All items » impose de retirer la totalité des objets tenus.",
+  "msgid": "A slight problem, adventurer!\\pYou seem to not have the three\\nPOKéMON qualified for the challenge.\\pPlease also remember to take all\\nitems from your POKéMON.\\pEGGS{STR_VAR_1}.",
+  "msgstr": "Petit problème, aventurier!\\pIl semble que vous n’ayez pas trois\\nPOKéMON aptes à relever le défi.\\pN’oubliez pas non plus de reprendre\\nles objets de vos Pokémon.\\pLes Œufs{STR_VAR_1}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "La consigne ne précise plus qu’il faut retirer tous les objets.",
+  "correction": "Petit problème, aventurier!\\pIl semble que vous n’ayez pas trois\\nPokémon aptes à relever le défi.\\pLes trois Pokémon doivent être\\ndifférents et de niveau 50 maximum.\\pPensez aussi à retirer tous les\\nobjets tenus par vos Pokémon.\\pLes Œufs{STR_VAR_1}.",
+  "justification": "« All items » impose de retirer la totalité des objets tenus.",
+  "msgid": "A slight problem, adventurer!\\pYou seem to not have the three\\nPOKéMON qualified for the challenge.\\pThe three POKéMON must be different\\nand each no higher than Level 50.\\pPlease also remember to take all\\nitems from your POKéMON.\\pEGGS{STR_VAR_1}.",
+  "msgstr": "Petit problème, aventurier!\\pIl semble que vous n’ayez pas trois\\nPOKéMON aptes à relever le défi.\\pLes trois Pokémon doivent être\\ndifférents et de niveau 50 maximum.\\pN’oubliez pas non plus de reprendre\\nles objets de vos Pokémon.\\pLes Œufs{STR_VAR_1}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "contresens",
+  "probleme": "La condition porte sur le fait que tout soit prêt.",
+  "correction": "Quand vous serez prêt,\\nvenez me parler.",
+  "justification": "« When you are ready » désigne le joueur.",
+  "msgid": "When you are ready, please have\\na word with me.",
+  "msgstr": "Quand tout sera prêt,\\nvenez me parler.",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "codes",
+  "probleme": "La formule d’adieu ajoute {PLAYER}{KUN}.",
+  "correction": "FLORA: Avec ces LUNET. SABLE,\\ntu pourras traverser sans mal\\lle désert près de la Route 111.\\pMais, waouh, {PLAYER}{KUN}…\\nTe battre dans les Arènes…\\pTu t’entraînes dur. Je parie que\\ntu ne veux pas perdre contre moi!\\p{PLAYER}{KUN}, je devrais défier\\nton père à l’Arène de Clémenti-Ville.\\pA une prochaine fois!",
+  "justification": "La source contient deux occurrences de {PLAYER}{KUN}, avant la formule d’adieu.",
+  "msgid": "MAY: With those GO-GOGGLES, you'll\\nhave no trouble getting through the\\ldesert near ROUTE 111.\\pBut, wow, {PLAYER}{KUN}…\\nChallenging GYMS…\\pYou're trying hard because you don't\\nwant to lose to me, I bet!\\p{PLAYER}{KUN}, I think I should challenge\\nyour dad in PETALBURG GYM.\\pSee you again!",
+  "msgstr": "FLORA: Avec ces LUNET. SABLE,\\ntu pourras sans problème traverser le\\ldésert près de la ROUTE 111.\\pMais, waouh, {PLAYER}{KUN}…\\nTe battre dans les Arènes…\\pTu t’entraînes dur car je parie que tu\\nne veux pas perdre contre moi!\\p{PLAYER}{KUN}, je crois que je devrais défier\\nton père à l’Arène de CLEMENTI-VILLE.\\pA une prochaine fois, {PLAYER}{KUN}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "contresens",
+  "probleme": "Le personnel souhaite bonne chance au lieu d’encourager le joueur à faire de son mieux.",
+  "correction": "Voici le 2e duo d’adversaires.\\nFaites de votre mieux!",
+  "justification": "« Do your best » invite le joueur à donner le meilleur de lui-même.",
+  "msgid": "The 2nd set of opponents is next.\\nDo your best!",
+  "msgstr": "Voici le 2e duo d’adversaires. Bonne\\nchance!",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "contresens",
+  "probleme": "Le personnel souhaite bonne chance au lieu d’encourager le joueur à faire de son mieux.",
+  "correction": "Voici le 3e duo d’adversaires.\\nFaites de votre mieux!",
+  "justification": "« Do your best » invite le joueur à donner le meilleur de lui-même.",
+  "msgid": "The 3rd set of opponents is next.\\nDo your best!",
+  "msgstr": "Voici le 3e duo d’adversaires. Bonne\\nchance!",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "contresens",
+  "probleme": "Le personnel souhaite bonne chance au lieu d’encourager le joueur à faire de son mieux.",
+  "correction": "Voici le 4e duo d’adversaires.\\nFaites de votre mieux!",
+  "justification": "« Do your best » invite le joueur à donner le meilleur de lui-même.",
+  "msgid": "The 4th set of opponents is next.\\nDo your best!",
+  "msgstr": "Voici le 4e duo d’adversaires. Bonne\\nchance!",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "contresens",
+  "probleme": "Le personnel souhaite bonne chance au lieu d’encourager le joueur à faire de son mieux.",
+  "correction": "Voici le 5e duo d’adversaires.\\nFaites de votre mieux!",
+  "justification": "« Do your best » invite le joueur à donner le meilleur de lui-même.",
+  "msgid": "The 5th set of opponents is next.\\nDo your best!",
+  "msgstr": "Voici le 5e duo d’adversaires. Bonne\\nchance!",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "contresens",
+  "probleme": "Le personnel souhaite bonne chance au lieu d’encourager le joueur à faire de son mieux.",
+  "correction": "Voici le 6e duo d’adversaires.\\nFaites de votre mieux!",
+  "justification": "« Do your best » invite le joueur à donner le meilleur de lui-même.",
+  "msgid": "The 6th set of opponents is next.\\nDo your best!",
+  "msgstr": "Voici le 6e duo d’adversaires. Bonne\\nchance!",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "contresens",
+  "probleme": "L’encouragement est remplacé par un souhait de bonne chance.",
+  "correction": "Voici le 7e duo d’adversaires.\\nFaites de votre mieux!",
+  "justification": "« Do your best » appelle à faire de son mieux. « Duo » reprend le libellé des manches précédentes.",
+  "msgid": "The 7th set of opponents is next.\\nDo your best!",
+  "msgstr": "Voici le 7e groupe d’adversaires.\\nBonne chance!",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "orthographe",
+  "probleme": "Deux titres sont au masculin alors qu’ils désignent ADRIANE.",
+  "correction": "As-tu déjà affronté ADRIANE, la\\nChampionne de l’Arène de Vermilava?\\pSon grand-père était célèbre.\\nIl a fait partie du Conseil 4\\lde la Ligue Pokémon.\\pÇa ne me surprendrait pas de voir\\nADRIANE devenir une grande\\lDresseuse à son tour.",
+  "justification": "« La Championne » et « une grande Dresseuse » s’accordent avec ADRIANE.",
+  "msgid": "Have you already challenged FLANNERY,\\nthe LEADER of LAVARIDGE GYM?\\pThe girl's grandfather was famous.\\nHe was one of the ELITE FOUR in the\\lPOKéMON LEAGUE at one point.\\pIt wouldn't surprise me to see FLANNERY\\nbecome a great TRAINER in her own\\lright.",
+  "msgstr": "As-tu déjà affronté ADRIANE, le\\nCHAMPION de l’Arène de VERMILAVA?\\pSon grand-père était célèbre.\\nIl a fait partie du Conseil 4\\lde la Ligue Pokémon.\\pÇa ne me surprendrait pas de voir\\nADRIANE devenir un grand Dresseur\\là son tour.",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "terminologie",
+  "probleme": "Le premier cri emploie « Féé ».",
+  "correction": "MELOFEE: Fée! Fééééféééé!",
+  "justification": "Le lexique fourni prescrit « Fée » pour « Féé ». Le second cri conserve son allongement expressif.",
+  "msgid": "CLEFAIRY: Pi pippippi!",
+  "msgstr": "MELOFEE: Féé! Fééééféééé!",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "oubli",
+  "probleme": "« Les malades » ne précise plus que le rival parle des Pokémon.",
+  "correction": "Encore toi?\\nPas la peine d’être sur tes gardes.\\pJe ne perds pas mon temps avec\\nles mauviettes comme toi.\\pEn parlant de mauviettes, la\\nChampionne de la ville est partie.\\lIl paraît qu’elle soigne un\\lPokémon malade au\\lPhare.\\pPfff! Ouin, ouin!\\nAu diable les Pokémon malades!\\pUn Pokémon incapable de se battre\\nne vaut rien!\\pPourquoi ne pas t’entraîner\\nau Phare?\\pQui sait? Tu deviendrais peut-être\\nun Dresseur un peu moins nul!",
+  "justification": "« Sick Pokémon » désigne explicitement les Pokémon que le rival préconise d’abandonner.",
+  "msgid": "You again?\\nThere's no need to be alert.\\pI don't bother with wimps\\nlike you.\\pSpeaking of weaklings, the\\ncity's GYM LEADER isn't here,\\land is supposedly taking care\\lof a sick POKéMON at the\\lLIGHTHOUSE.\\pHumph! Boo-hoo!\\nJust let sick POKéMON go!\\pA POKéMON that can't battle\\nis worthless!\\pWhy don't you go train at the\\nLIGHTHOUSE?\\pWho knows? It may make you a\\nbit of a better Trainer!",
+  "msgstr": "Encore toi?\\nPas la peine d’être sur tes gardes.\\pJe ne perds pas mon temps avec\\nles mauviettes comme toi.\\pEn parlant de mauviettes, la\\nCHAMPIONNE de la ville n’est pas là.\\lIl paraît qu’elle soigne un\\lPOKéMON malade au\\lPHARE.\\pPfff! Ouin, ouin!\\nQu’on laisse tomber les malades!\\pUn Pokémon qui ne peut pas se battre\\nne vaut rien!\\pPourquoi tu n’irais pas t’entraîner\\nau Phare?\\pQui sait? Tu deviendrais peut-être\\nun Dresseur un peu moins nul!",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "orthographe",
+  "probleme": "« La sixième Championne la plus forte » suggère un classement réservé aux femmes.",
+  "correction": "La Ligue place Jasmine au\\n6e rang des Champions\\ld’Arène!\\pHa! Tu parles d’une bêtise.\\pFrédo ne pourrait jamais blesser\\nles Pokémon Acier de\\lJasmine!\\pDe la bureaucratie, à mon avis.\\pElle, il faut la craindre!",
+  "justification": "Le classement porte sur l’ensemble des Champions d’Arène, dont Frédo.",
+  "msgid": "The league has JASMINE\\npegged as the sixth\\lstrongest GYM LEADER!\\pHah! That's a load of crud.\\pThere's no way PRYCE could\\nhurt JASMINE's STEEL-type\\lPOKéMON!\\pBureaucracy if you ask me.\\pShe's something to be feared,\\nthat's for sure!",
+  "msgstr": "La Ligue classe Jasmine comme\\nla sixième Championne\\lla plus forte!\\pHa! Tu parles d’une bêtise.\\pFREDO ne pourrait jamais blesser\\nles Pokémon Acier de\\lJASMINE!\\pDe la bureaucratie, si tu veux mon avis.\\pElle, il faut la craindre, crois-moi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "contresens",
+  "probleme": "Le slogan remplace la proximité géographique par une idée d’ouverture sur le monde.",
+  "correction": "Oliville\\pLe port le plus proche\\ndes terres étrangères",
+  "justification": "« Closest to Foreign Lands » caractérise le port par sa proximité avec les terres étrangères.",
+  "msgid": "OLIVINE CITY\\pThe Port Closest to Foreign Lands",
+  "msgstr": "Oliville\\pLe port ouvert sur le monde",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "contresens",
+  "probleme": "« Ouverture prochaine » reporte l’ouverture.",
+  "correction": "Mont Dresseurs et Tentes de Combat\\nplus loin.\\pOuverts dès maintenant!",
+  "justification": "« Opening Now » annonce une ouverture immédiate.",
+  "msgid": "TRAINER HILL and\\nBATTLE TENTS AHEAD.\\pOpening Now!",
+  "msgstr": "Mont Dresseurs et Tentes de Combat\\nplus loin.\\pOuverture prochaine!",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "oubli",
+  "probleme": "La question « Ready? » disparaît avant la menace d’ALDO.",
+  "correction": "Je suis ALDO, du Conseil 4.\\pJe m’entraîne toujours à l’extrême,\\ncar je crois en notre potentiel.\\pC’est ainsi que nous sommes\\ndevenus forts.\\pSauras-tu résister à notre force?\\pHm? Tu n’as pas peur.\\nTu as l’air déterminé. Parfait!\\pPrêt, {PLAYER}? Tu vas plier\\ndevant notre puissance!\\pHou hah!",
+  "justification": "ALDO demande au joueur s’il est prêt avant de lui annoncer sa défaite.",
+  "msgid": "I am BRUNO of the ELITE FOUR.\\pI always train to the extreme be-\\ncause I believe in our potential.\\pThat is how we became strong.\\pCan you withstand our power?\\pHm? I see no fear in you. You look\\ndetermined. Perfect for battle!\\pReady, {PLAYER}? You will bow down\\nto our overwhelming power!\\pHoo hah!",
+  "msgstr": "Je suis ALDO, du Conseil 4.\\pJe m’entraîne toujours à l’extrême,\\ncar je crois en notre potentiel.\\pC’est ainsi que nous sommes\\ndevenus forts.\\pSauras-tu résister à notre force?\\pHm? Je ne vois aucune peur en toi.\\nTu as l’air déterminé. Parfait!\\p{PLAYER}! Tu vas plier devant\\nnotre écrasante puissance!\\pHou hah!",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "oubli",
+  "probleme": "Le directeur décrit la fonction de l’objet sans demander au joueur de s’en servir.",
+  "correction": "DIRECTEUR: Sers-t’en pour ouvrir\\nles volets roulants du 3e étage.",
+  "justification": "« Use that » donne une instruction au joueur.",
+  "msgid": "DIRECTOR: Use that to open the\\nshutters on 3F.",
+  "msgstr": "DIRECTEUR: Elle ouvre les volets\\nroulants du 3e étage.",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "autre_phrase",
+  "probleme": "La traduction ressemble à une proposition de liste et se termine par un « et » absent de la source.",
+  "correction": "Un {STR_VAR_2} qui utilise {STR_VAR_1}",
+  "justification": "« {STR_VAR_1}-using » indique ce qu’utilise le Pokémon désigné par {STR_VAR_2}.",
+  "msgid": "One {STR_VAR_1}-using {STR_VAR_2}",
+  "msgstr": "J’ai un {STR_VAR_2} avec {STR_VAR_1} et",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "terminologie",
+  "probleme": "« BALLS » ne suit pas la graphie française des noms de Balls.",
+  "correction": "Bon, je te fabrique des Balls?",
+  "justification": "La graphie suit celle de « Poké Ball » et « Super Ball » dans le lexique fourni.",
+  "msgid": "Anyway, can I make you some BALLS?",
+  "msgstr": "Bon, je te fabrique des BALLS?",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "terminologie",
+  "probleme": "« BALLS » et « FARGAS » ne suivent pas les graphies du projet.",
+  "correction": "Hm? Qui es-tu?\\p{PLAYER}, hein? Tu veux que je te\\nfabrique des Balls?\\pDésolé, mais ça devra attendre.\\pTu connais la Team Rocket?\\nAh, ne t’en fais pas.\\pJe vais te raconter quand même.\\pLa Team Rocket est un gang de\\nbrigands qui exploite les Pokémon.\\pIls étaient censés s’être dissous\\nil y a trois ans.\\pBref, ils sont au puits, et ils\\ncoupent des queues de RAMOLOSS\\lpour les vendre!\\pAlors je vais leur donner une\\nbonne leçon!\\pTenez bon, RAMOLOSS! Le vieux\\nFargas arrive!",
+  "justification": "Le lexique fournit « Fargas » et la graphie « Ball » dans « Poké Ball ».",
+  "msgid": "Hm? Who are you?\\p{PLAYER}, eh? You want me to make\\nsome BALLS?\\pSorry, but that'll have to wait.\\pDo you know TEAM ROCKET?\\nAh, don't worry.\\pI'll tell you anyhow.\\pTEAM ROCKET's an evil gang that\\nuses POKéMON for their dirty work.\\pThey're supposed to have disbanded\\nthree years ago.\\pAnyway, they're at the WELL,\\ncutting off SLOWPOKETAILS to sell!\\pSo I'm going to go give them a\\nlesson in pain!\\pHang on, SLOWPOKE! Old KURT\\nis on his way!",
+  "msgstr": "Hm? Qui es-tu?\\p{PLAYER}, hein? Tu veux que je te\\nfabrique des BALLS?\\pDésolé, mais ça devra attendre.\\pTu connais la Team Rocket?\\nAh, ne t’en fais pas.\\pJe vais te raconter quand même.\\pLa Team Rocket est un gang de\\nbrigands qui exploite les Pokémon.\\pIls étaient censés s’être dissous\\nil y a trois ans.\\pBref, ils sont au PUITS, et ils\\ncoupent des QUEUES DE RAMOLOSS\\lpour les vendre!\\pAlors je vais leur donner une\\nbonne leçon!\\pTenez bon, RAMOLOSS! Le vieux\\nFARGAS arrive!",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "terminologie",
+  "probleme": "« BALLS » et « dresseur » ne suivent pas les graphies du projet.",
+  "correction": "Fargas: Salut, {PLAYER}!\\pTu as été héroïque\\nau puits.\\pJ’aime ton style!\\pCe serait un honneur de faire\\ndes Balls pour un tel Dresseur.\\pC’est tout ce que j’ai pour\\nl’instant, mais prends-le.",
+  "justification": "Le projet prescrit « Dresseur » d’après SoulSilver et suit la graphie de « Poké Ball ».",
+  "msgid": "KURT: Hi, {PLAYER}!\\pYou handled yourself like a\\nreal hero at the WELL.\\pI like your style!\\pI would be honored to make\\nBALLS for a trainer like you.\\pThis is all I have now, \\nbut take it.",
+  "msgstr": "Fargas: Salut, {PLAYER}!\\pTu as été héroïque\\nau PUITS.\\pJ’aime ton style!\\pCe serait un honneur de fabriquer\\ndes BALLS pour un dresseur comme toi.\\pC’est tout ce que j’ai pour\\nl’instant, mais prends-le.",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "terminologie",
+  "probleme": "« BALLS » ne suit pas la graphie française.",
+  "correction": "Fargas: Je fabrique des Balls\\navec des Baies.\\pCueille-les sur les arbres et\\napporte-les-moi.\\pJ’en ferai des Poké Balls.",
+  "justification": "La graphie « Ball » suit le lexique fourni et la dernière phrase de la réplique.",
+  "msgid": "KURT: I make BALLS from BERRIES.\\pCollect them from trees and bring\\n'em to me.\\pI'll make POKé BALLS out of them.",
+  "msgstr": "Fargas: Je fabrique des BALLS\\navec des Baies.\\pCueille-les sur les arbres et\\napporte-les-moi.\\pJ’en ferai des Poké Balls.",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "terminologie",
+  "probleme": "« POKé BALLS » ne suit pas la graphie officielle.",
+  "correction": "Fargas: Tu as des Baies pour moi?\\pParfait! Je vais en faire des\\nPoké Balls.",
+  "justification": "Le lexique donne « Poké Ball ».",
+  "msgid": "KURT: You have BERRIES for me?\\pFine! I'll turn them into POKé BALLS.",
+  "msgstr": "Fargas: Tu as des Baies pour moi?\\pParfait! Je vais en faire des\\nPOKé BALLS.",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "terminologie",
+  "probleme": "« FARGAS » ne suit pas la graphie du lexique.",
+  "correction": "Fargas: Je ne vois aucune {STR_VAR_1}!",
+  "justification": "Le lexique donne « Fargas ».",
+  "msgid": "KURT: I don't see any {STR_VAR_1}s!",
+  "msgstr": "FARGAS: Je ne vois aucune {STR_VAR_1}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "orthographe",
+  "probleme": "Le S ajouté au nom de l’objet est en majuscule.",
+  "correction": "Fargas: {PLAYER}!\\nTes {STR_VAR_1}s sont prêtes. Tiens!",
+  "justification": "Le nom de Ball prend un s minuscule au pluriel. Le code reste identique.",
+  "msgid": "KURT: {PLAYER}!\\nYour {STR_VAR_1}s are done. Here!",
+  "msgstr": "Fargas: {PLAYER}!\\nTes {STR_VAR_1}S sont prêtes. Tiens!",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "orthographe",
+  "probleme": "Le S ajouté au nom de l’objet est en majuscule.",
+  "correction": "{PLAYER} obtient\\n{STR_VAR_2} {STR_VAR_1}s!",
+  "justification": "Le nom de Ball prend un s minuscule au pluriel. Les deux codes restent identiques.",
+  "msgid": "{PLAYER} obtained\\n{STR_VAR_2} {STR_VAR_1}s!",
+  "msgstr": "{PLAYER} obtient\\n{STR_VAR_2} {STR_VAR_1}S!",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "terminologie",
+  "probleme": "« BALL » ne suit pas la graphie française.",
+  "correction": "{PLAYER}!\\pCette Ball s’est mise à trembler\\npendant que je l’examinais.\\pIl y a forcément quelque chose\\nlà-dessous!",
+  "justification": "La graphie « Ball » suit celle de « Poké Ball » dans le lexique.",
+  "msgid": "{PLAYER}!\\pThis BALL started to shake\\nwhile I was checking it.\\pThere must be something to this!",
+  "msgstr": "{PLAYER}!\\pCette BALL s’est mise à trembler\\npendant que je l’examinais.\\pIl y a forcément quelque chose\\nlà-dessous!",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "typographie",
+  "probleme": "La virgule isole inutilement « maintenant » et « Grand-père » prend une majuscule au milieu de la phrase.",
+  "correction": "Je peux aider grand-père à présent!\\pOn va te faire de bonnes Balls,\\nalors attends un peu!",
+  "justification": "La graphie suit la convention du projet pour les noms communs. Le complément de temps s’intègre à la phrase sans virgule.",
+  "msgid": "I get to help Grandpa now!\\pWe'll make good BALLS\\nfor you, so please wait!",
+  "msgstr": "Je peux aider Grand-père, maintenant!\\pOn va te fabriquer de bonnes Balls,\\nalors attends un peu!",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "oubli",
+  "probleme": "La réplique ne dit plus que c’est la fabrication des Balls qui est amusante.",
+  "correction": "C’est drôle de faire des Balls!",
+  "justification": "« To make BALLS » désigne l’activité dont parle l’enfant.",
+  "msgid": "It's fun to make BALLS!",
+  "msgstr": "Les BALLS, c’est fun!",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "terminologie",
+  "probleme": "Le nom du lieu figure entièrement en capitales.",
+  "correction": "Ce bruit venait du\\nBois aux Chênes?!",
+  "justification": "Le lexique donne « Bois aux Chênes ».",
+  "msgid": "Did that sound come from\\nILEX FOREST????",
+  "msgstr": "Ce bruit venait du\\nBOIS AUX CHENES?!",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "terminologie",
+  "probleme": "« Prof. CHEN » ne suit pas la graphie du projet.",
+  "correction": "…Un jeune Prof. Chen?",
+  "justification": "La convention SoulSilver du projet prescrit « Prof. Chen ».",
+  "msgid": "…A young PROF. OAK?",
+  "msgstr": "…Un jeune Prof. CHEN?",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "contresens",
+  "probleme": "« Pour garder mon secret » laisse entendre que la personne qui offre le cadeau garde elle-même le secret.",
+  "correction": "Oh, mince. Tu m’as trouvé.\\pS’il te plaît, ne parle de moi\\nà personne.\\pJe te donne ça si tu gardes\\nmon secret. D’accord?",
+  "justification": "Le cadeau est offert au joueur en échange de son silence.",
+  "msgid": "Oh, dear. You've found me.\\pPlease don't tell anyone about me.\\pI'll give you this for keeping my\\nsecret. Please?",
+  "msgstr": "Oh, mince. Tu m’as trouvé.\\pS’il te plaît, ne parle de moi\\nà personne.\\pJe te donne ça pour garder\\nmon secret. D’accord?",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "oubli",
+  "probleme": "La boutique est dite ouverte sans la précision temporelle de l’annonce.",
+  "correction": "Il y a une affiche…\\pLa boutique du Mont Sélénite\\nest ouverte dès maintenant!",
+  "justification": "« Now open » annonce que l’ouverture vient de prendre effet.",
+  "msgid": "There's a notice here…\\pMT.MOON GIFT SHOP NOW OPEN!",
+  "msgstr": "Il y a une affiche…\\pLA Boutique DU Mont Sélénite\\nEST OUVERTE!",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "terminologie",
+  "probleme": "« BALLS » ne suit pas la graphie française.",
+  "correction": "Tu utilises quelles Balls?",
+  "justification": "La graphie « Ball » suit celle de « Poké Ball » dans le lexique.",
+  "msgid": "What kinds of BALLS do you use?",
+  "msgstr": "Tu utilises quelles sortes de BALLS?",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "terminologie",
+  "probleme": "« SPEED BALL » et « BALL » ne suivent pas la casse des noms d’objets.",
+  "correction": "Certains Pokémon s’enfuient tout\\nde suite.\\pEssaie de les attraper avec une\\nSpeed Ball de Fargas.\\pQuand je trouve une Baie Willia,\\nje l’apporte à Fargas.\\pIl en fait une Ball sur mesure.",
+  "justification": "Le nom de l’objet dans SoulSilver FR est « Speed Ball ». La graphie générique suit « Poké Ball ».",
+  "msgid": "Some POKéMON flee right away.\\pTry catching them with KURT's\\nFAST BALL.\\pWhenever I find a ASPEAR BERRY, I\\ntake it to KURT.\\pHe turns it into a custom BALL.",
+  "msgstr": "Certains Pokémon s’enfuient tout\\nde suite.\\pEssaie de les attraper avec une\\nSPEED BALL de Fargas.\\pQuand je trouve une Baie Willia,\\nje l’apporte à Fargas.\\pIl en fait une BALL sur mesure.",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "contresens",
+  "probleme": "« Adresse à la BALL » rend mal la manipulation de l’objet et omet la grâce du geste.",
+  "correction": "Admire ma grâce avec une Ball!",
+  "justification": "« Graceful BALL dexterity » vante la grâce avec laquelle le Dresseur manie une Ball.",
+  "msgid": "Behold my graceful BALL dexterity!",
+  "msgstr": "Admire mon adresse à la BALL!",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "contresens",
+  "probleme": "« Perdre ça » peut évoquer un objet égaré.",
+  "correction": "Hein? J’aurais pas dû perdre…",
+  "justification": "Dans cette réplique de défaite, « that » renvoie au combat qui vient de se terminer.",
+  "msgid": "Huh? I shouldn't have lost that…",
+  "msgstr": "Hein? J’aurais pas dû perdre ça…",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "typographie",
+  "probleme": "Le panneau mélange capitales intégrales et casse ordinaire.",
+  "correction": "Portail du Parc Naturel",
+  "justification": "La casse est harmonisée autour du nom « Parc Naturel » donné dans le lexique.",
+  "msgid": "NATIONAL PARK GATE",
+  "msgstr": "PORTAIL DU Parc Naturel",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "typographie",
+  "probleme": "Les noms de lieux et le titre final présentent des capitales incohérentes.",
+  "correction": "Blue: Yo! Enfin arrivé, hein?\\pJe n’étais pas d’humeur à\\nCramois’Ile,\\pmais maintenant, je suis prêt.\\p…\\pTu as conquis toutes les Arènes\\nde Johto?\\pHé! Elles doivent être bien\\nminables, alors.\\pT’en fais pas.\\pJe vais savoir ce que tu vaux en\\nt’affrontant tout de suite.\\pPrêt, Maître de Johto?",
+  "justification": "Les noms de lieux suivent la casse du projet et la préposition « de » reste en minuscule dans le titre.",
+  "msgid": "BLUE: Yo! Finally got here, huh?\\pI wasn't in the mood at CINNABAR,\\pbut now I'm ready to battle you.\\p…\\pYou're telling me you conquered all\\nthe GYMS in JOHTO?\\pHeh! JOHTO's GYMS must be pretty\\npathetic then.\\pHey, don't worry about it.\\pI'll know if you are good or not by\\nbattling you right now.\\pReady, JOHTO CHAMP?",
+  "msgstr": "Blue: Yo! Enfin arrivé, hein?\\pJe n’étais pas d’humeur à\\nCRAMOIS’ILE,\\pmais maintenant, je suis prêt.\\p…\\pTu me dis que tu as conquis toutes\\nles Arènes de JOHTO?\\pHé! Elles doivent être bien\\nminables, alors.\\pT’en fais pas.\\pJe vais savoir ce que tu vaux en\\nt’affrontant tout de suite.\\pPrêt, Maître DE JOHTO?",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "typographie",
+  "probleme": "Le nom du Badge mélange casse ordinaire et capitales intégrales.",
+  "correction": "Blue: Quoi?\\pComment j’ai pu perdre contre toi?\\p…\\pTss, bon… Tiens, prends ça.\\nC’est le Badge Terre.",
+  "justification": "Le nom de l’objet suit la convention de la majuscule initiale.",
+  "msgid": "BLUE: What?\\pHow the heck did I lose to you?\\p…\\pTch, all right… Here, take this--it's\\nEARTHBADGE.",
+  "msgstr": "Blue: Quoi?\\pComment j’ai pu perdre contre toi?\\p…\\pTss, bon… Tiens, prends ça.\\nC’est le Badge TERRE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "typographie",
+  "probleme": "Le nom du Badge mélange casse ordinaire et capitales intégrales.",
+  "correction": "{PLAYER} reçoit le Badge Terre.",
+  "justification": "Le nom de l’objet suit la convention de la majuscule initiale.",
+  "msgid": "{PLAYER} received EARTHBADGE.",
+  "msgstr": "{PLAYER} reçoit le Badge TERRE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "contresens",
+  "probleme": "La réplique indique que la statistique de Vitesse elle-même est inversée.",
+  "correction": "C’est Distorsion.\\pL’ordre des attaques s’inverse.\\nLes lents jouent avant les rapides!\\pDe quoi renverser un combat.",
+  "justification": "L’exemple anglais décrit l’inversion de l’ordre de passage selon la Vitesse.",
+  "msgid": "That's TRICK ROOM.\\pAll POKEMON in battle will change speed.\\nSlow goes first. Fast goes last.\\pUse it to turn a battle on its head.",
+  "msgstr": "C’est Distorsion.\\pLa VITESSE de tous les Pokémon\\nest inversée: les lents d’abord!\\pDe quoi renverser un combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "terminologie",
+  "probleme": "Le nom de Blue est correctement écrit après « CHAMPION », puis apparaît sous la forme « BLUE ».",
+  "correction": "Arène Pokémon de Jadielle\\nCHAMPION: Blue\\pVAINQUEURS:\\nBlue, Red",
+  "justification": "Le lexique donne « Blue ». Les deux noms de la liste suivent la même casse.",
+  "msgid": "VIRIDIAN POKéMON GYM\\nLEADER: BLUE\\pWINNING TRAINERS:\\nBLUE, RED",
+  "msgstr": "Arène Pokémon DE Jadielle\\nCHAMPION: Blue\\pVAINQUEURS:\\nBLUE, RED",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "terminologie",
+  "probleme": "Le nom de Blue est correctement écrit après « CHAMPION », puis apparaît sous la forme « BLUE ».",
+  "correction": "Arène Pokémon de Jadielle\\nCHAMPION: Blue\\pVAINQUEURS:\\nBlue, Red, {PLAYER}",
+  "justification": "Le lexique donne « Blue ». Les deux noms de la liste suivent la même casse.",
+  "msgid": "VIRIDIAN POKéMON GYM\\nLEADER: BLUE\\pWINNING TRAINERS:\\nBLUE, RED, {PLAYER}",
+  "msgstr": "Arène Pokémon DE Jadielle\\nCHAMPION: Blue\\pVAINQUEURS:\\nBLUE, RED, {PLAYER}",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "contresens",
+  "probleme": "« Méconnaissable » évoque une langue transformée au point de ne plus la reconnaître.",
+  "correction": "C’est rempli de vieux livres\\nreliés de cuir.\\pImpossible d’identifier la langue.",
+  "justification": "Le texte indique que le joueur ne reconnaît pas la langue des livres.",
+  "msgid": "It's crammed full of ancient\\nleather-bound books.\\pThe language is unrecognizeable.",
+  "msgstr": "C’est rempli de vieux livres\\nreliés de cuir.\\pLa langue est méconnaissable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 112,
+  "categorie": "oubli",
+  "probleme": "La traduction omet le caractère nouveau de la possibilité d’échanger à travers le temps.",
+  "correction": "La technologie, c’est fou!\\pOn peut désormais échanger des\\nPokémon à travers le temps,\\lcomme par e-mail!",
+  "justification": "« Now » présente cette possibilité comme une avancée récente.",
+  "msgid": "Technology is incredible!\\pYou can now trade POKéMON\\nacross time like e-mail.",
+  "msgstr": "La technologie, c’est fou!\\pOn peut échanger des Pokémon à\\ntravers le temps, comme un e-mail!",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "contresens",
+  "probleme": "L’image des couleurs est ajoutée au slogan et modifie le lien entre paix et pureté.",
+  "correction": "Bourg Palette\\pUn havre de paix\\net de pureté",
+  "justification": "« Peace & Purity » présente la paix et la pureté comme deux qualités du lieu.",
+  "msgid": "PALLET TOWN\\pA Tranquil Setting of Peace\\n& Purity",
+  "msgstr": "Bourg Palette\\pUn havre de paix aux couleurs\\nde la pureté",
+  "msgctxt": ""
+ }
+]

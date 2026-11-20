@@ -1,0 +1,352 @@
+[
+ {
+  "id": 0,
+  "categorie": "oubli",
+  "probleme": "Le libellé omet la notion de taille.",
+  "correction": "Taille SaveBlock2: {STR_VAR_1}o/{STR_VAR_2}o.\\nEspace libre: {STR_VAR_3}o.",
+  "justification": "« Taille » précise ce que mesure le premier rapport.",
+  "msgid": "SaveBlock2 size: {STR_VAR_1}b/{STR_VAR_2}b.\\nFree space: {STR_VAR_3}b.",
+  "msgstr": "SaveBlock2: {STR_VAR_1}o/{STR_VAR_2}o.\\nEspace libre: {STR_VAR_3}o.",
+  "msgctxt": ""
+ },
+ {
+  "id": 1,
+  "categorie": "oubli",
+  "probleme": "Le libellé omet la notion de taille.",
+  "correction": "Taille du stockage {PKMN}:\\l{STR_VAR_1}o/{STR_VAR_2}o.\\nEspace libre: {STR_VAR_3}o.",
+  "justification": "Le libellé indique la mesure et laisse une ligne aux valeurs affichées.",
+  "msgid": "{PKMN}Storage size: {STR_VAR_1}b/{STR_VAR_2}b.\\nFree space: {STR_VAR_3}b.",
+  "msgstr": "Stockage {PKMN}: {STR_VAR_1}o/{STR_VAR_2}o.\\nEspace libre: {STR_VAR_3}o.",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "contresens",
+  "probleme": "Les tirets modifient le nom de la constante et le chemin du fichier.",
+  "correction": "Fonction indisponible.\\nMettez FNPC_ENABLE_NPC_FOLLOWERS\\là TRUE dans\\linclude/config/follower_npc.h.",
+  "justification": "Les identifiants techniques doivent reprendre la graphie exacte du code source.",
+  "msgid": "Feature unavailable.\\nSet FNPC_ENABLE_NPC_FOLLOWERS to\\lTRUE in 'include/config/follower_npc.h'.",
+  "msgstr": "Fonction indisponible.\\nMettez FNPC-ENABLE-NPC-FOLLOWERS\\là TRUE dans\\l’include/config/follower-npc.h’.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "contresens",
+  "probleme": "Le nom de la constante est altéré et le message vise les Baies au lieu des arbres.",
+  "correction": "OW_BERRY_PESTS est désactivé.\\nImpossible d’infester les arbres\\là Baies.",
+  "justification": "Le message désigne la constante exacte et les arbres sur lesquels le débogage déclenche l’infestation.",
+  "msgid": "OW_BERRY_PESTS is disabled.\\nUnable to force pests onto berry trees.",
+  "msgstr": "OW-BERRY-PESTS est désactivé.\\nImpossible d’infester les Baies.",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "contresens",
+  "probleme": "Le nom de la constante est altéré et « semer des herbes » change l’action.",
+  "correction": "OW_BERRY_WEEDS est désactivé.\\nImpossible de faire pousser\\lde mauvaises herbes au pied\\ldes arbres à Baies.",
+  "justification": "Le débogage force l’apparition de mauvaises herbes autour des arbres à Baies.",
+  "msgid": "OW_BERRY_WEEDS is disabled.\\nUnable to force weeds onto berry trees.",
+  "msgstr": "OW-BERRY-WEEDS est désactivé.\\nImpossible de semer des herbes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "codes",
+  "probleme": "Le code de police diffère de celui de la source.",
+  "correction": "{FONT_SMALL_NARROWER}Angel Adept Blind Bodice Clique\\nCoast Dunce Docile Enact Eosin\\lFurlong Focal Gnome Gondola Human\\lHoist Inlet Iodine Justin Jocose\\lKnoll Koala Linden Loads Milliner\\lModal Number Nodule Onset Oddball\\lPneumo Poncho Quanta Qophs Rhone\\lRoman Snout Sodium Tundra Tocsin\\lUncle Udder Vulcan Vocal Whale\\lWoman Xmas Xenon Yunnan Young\\lZloty Zodiac.",
+  "justification": "La correction rétablit le code source de cet échantillon de police.",
+  "msgid": "{FONT_SMALL_NARROWER}Angel Adept Blind Bodice Clique\\nCoast Dunce Docile Enact Eosin\\lFurlong Focal Gnome Gondola Human\\lHoist Inlet Iodine Justin Jocose\\lKnoll Koala Linden Loads Milliner\\lModal Number Nodule Onset Oddball\\lPneumo Poncho Quanta Qophs Rhone\\lRoman Snout Sodium Tundra Tocsin\\lUncle Udder Vulcan Vocal Whale\\lWoman Xmas Xenon Yunnan Young\\lZloty Zodiac.",
+  "msgstr": "{FONT 11}Angel Adept Blind Bodice Clique\\nCoast Dunce Docile Enact Eosin\\lFurlong Focal Gnome Gondola Human\\lHoist Inlet Iodine Justin Jocose\\lKnoll Koala Linden Loads Milliner\\lModal Number Nodule Onset Oddball\\lPneumo Poncho Quanta Qophs Rhone\\lRoman Snout Sodium Tundra Tocsin\\lUncle Udder Vulcan Vocal Whale\\lWoman Xmas Xenon Yunnan Young\\lZloty Zodiac.",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "codes",
+  "probleme": "Le code de police diffère de celui de la source.",
+  "correction": "{FONT_SMALL_NARROWER}Angel angel adept for the nuance loads\\nof the arena cocoa and quaalude. Blind\\lblind bodice for the submit oboe of the\\lclub snob and abbot. Clique clique\\lcoast for the pouch loco of the franc\\lassoc and accede. Dunce dunce docile\\lfor the loudness mastodon of the\\lloud statehood and huddle.",
+  "justification": "La correction rétablit le code source de cet échantillon de police.",
+  "msgid": "{FONT_SMALL_NARROWER}Angel angel adept for the nuance loads\\nof the arena cocoa and quaalude. Blind\\lblind bodice for the submit oboe of the\\lclub snob and abbot. Clique clique\\lcoast for the pouch loco of the franc\\lassoc and accede. Dunce dunce docile\\lfor the loudness mastodon of the\\lloud statehood and huddle.",
+  "msgstr": "{FONT 11}Angel angel adept for the nuance loads\\nof the arena cocoa and quaalude. Blind\\lblind bodice for the submit oboe of the\\lclub snob and abbot. Clique clique\\lcoast for the pouch loco of the franc\\lassoc and accede. Dunce dunce docile\\lfor the loudness mastodon of the\\lloud statehood and huddle.",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "codes",
+  "probleme": "Le code de police diffère de celui de la source.",
+  "correction": "{FONT_SMALL_NARROWER}Enact enact eosin for the quench coed\\nof the pique canoe and bleep. Furlong\\lfurlong focal for the genuflect\\lprofound of the motif aloof and offers.\\lGnome gnome gondola for the impugn\\llogos of the unplug analog and smuggle.\\lHuman human hoist for the buddhist\\lalcohol of the riyadh caliph and\\lbathhouse.",
+  "justification": "La correction rétablit le code source de cet échantillon de police.",
+  "msgid": "{FONT_SMALL_NARROWER}Enact enact eosin for the quench coed\\nof the pique canoe and bleep. Furlong\\lfurlong focal for the genuflect\\lprofound of the motif aloof and offers.\\lGnome gnome gondola for the impugn\\llogos of the unplug analog and smuggle.\\lHuman human hoist for the buddhist\\lalcohol of the riyadh caliph and\\lbathhouse.",
+  "msgstr": "{FONT 11}Enact enact eosin for the quench coed\\nof the pique canoe and bleep. Furlong\\lfurlong focal for the genuflect\\lprofound of the motif aloof and offers.\\lGnome gnome gondola for the impugn\\llogos of the unplug analog and smuggle.\\lHuman human hoist for the buddhist\\lalcohol of the riyadh caliph and\\lbathhouse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "codes",
+  "probleme": "Le code de police diffère de celui de la source.",
+  "correction": "{FONT_SMALL_NARROWER}Inlet inlet iodine for the quince\\nchampion of the ennui scampi and shiite.\\lJustin justin jocose for the djibouti\\lsojourn of the oranj raj and hajjis.\\lKnoll knoll koala for the banknote\\llookout of the dybbuk outlook and\\ltrekked. Linden linden loads for the\\lulna monolog of the consul menthol and\\lshallot.",
+  "justification": "La correction rétablit le code source de cet échantillon de police.",
+  "msgid": "{FONT_SMALL_NARROWER}Inlet inlet iodine for the quince\\nchampion of the ennui scampi and shiite.\\lJustin justin jocose for the djibouti\\lsojourn of the oranj raj and hajjis.\\lKnoll knoll koala for the banknote\\llookout of the dybbuk outlook and\\ltrekked. Linden linden loads for the\\lulna monolog of the consul menthol and\\lshallot.",
+  "msgstr": "{FONT 11}Inlet inlet iodine for the quince\\nchampion of the ennui scampi and shiite.\\lJustin justin jocose for the djibouti\\lsojourn of the oranj raj and hajjis.\\lKnoll knoll koala for the banknote\\llookout of the dybbuk outlook and\\ltrekked. Linden linden loads for the\\lulna monolog of the consul menthol and\\lshallot.",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "codes",
+  "probleme": "Le code de police diffère de celui de la source.",
+  "correction": "{FONT_SMALL_NARROWER}Milliner milliner modal for the alumna\\nsolomon of the album custom and summon.\\lNumber number nodule for the unmade\\leconomic of the shotgun bison and\\ltunnel. Onset onset oddball for the\\labandon podium of the antiquo tempo\\land moonlit. Pneumo pneumo poncho for\\lthe dauphin opossum of the holdup\\lbishop and supplies.",
+  "justification": "La correction rétablit le code source de cet échantillon de police.",
+  "msgid": "{FONT_SMALL_NARROWER}Milliner milliner modal for the alumna\\nsolomon of the album custom and summon.\\lNumber number nodule for the unmade\\leconomic of the shotgun bison and\\ltunnel. Onset onset oddball for the\\labandon podium of the antiquo tempo\\land moonlit. Pneumo pneumo poncho for\\lthe dauphin opossum of the holdup\\lbishop and supplies.",
+  "msgstr": "{FONT 11}Milliner milliner modal for the alumna\\nsolomon of the album custom and summon.\\lNumber number nodule for the unmade\\leconomic of the shotgun bison and\\ltunnel. Onset onset oddball for the\\labandon podium of the antiquo tempo\\land moonlit. Pneumo pneumo poncho for\\lthe dauphin opossum of the holdup\\lbishop and supplies.",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "codes",
+  "probleme": "Le code de police diffère de celui de la source.",
+  "correction": "{FONT_SMALL_NARROWER}Quanta quanta qophs for the inquest\\nsheqel of the cinq coq and suqqu. Rhone\\lrhone roman for the burnt porous of the\\llemur clamor and carrot. Snout snout\\lsodium for the ensnare bosom of the\\lgenus pathos and missing. Tundra\\ltundra tocsin for the nutmeg isotope\\lof the peasant ingot and ottoman.",
+  "justification": "La correction rétablit le code source de cet échantillon de police.",
+  "msgid": "{FONT_SMALL_NARROWER}Quanta quanta qophs for the inquest\\nsheqel of the cinq coq and suqqu. Rhone\\lrhone roman for the burnt porous of the\\llemur clamor and carrot. Snout snout\\lsodium for the ensnare bosom of the\\lgenus pathos and missing. Tundra\\ltundra tocsin for the nutmeg isotope\\lof the peasant ingot and ottoman.",
+  "msgstr": "{FONT 11}Quanta quanta qophs for the inquest\\nsheqel of the cinq coq and suqqu. Rhone\\lrhone roman for the burnt porous of the\\llemur clamor and carrot. Snout snout\\lsodium for the ensnare bosom of the\\lgenus pathos and missing. Tundra\\ltundra tocsin for the nutmeg isotope\\lof the peasant ingot and ottoman.",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "codes",
+  "probleme": "Le code de police diffère de celui de la source.",
+  "correction": "{FONT_SMALL_NARROWER}Uncle uncle udder for the dunes cloud\\nof the hindu thou and continuum. Vulcan\\lvulcan vocal for the alluvial ovoid of\\lthe yugoslav chekhov and revved. Whale\\lwhale woman for the meanwhile blowout\\lof the forepaw meadow and glowworm.\\lXmas xmas xenon for the bauxite\\ldoxology of the tableaux equinox and\\lexxon.",
+  "justification": "La correction rétablit le code source de cet échantillon de police.",
+  "msgid": "{FONT_SMALL_NARROWER}Uncle uncle udder for the dunes cloud\\nof the hindu thou and continuum. Vulcan\\lvulcan vocal for the alluvial ovoid of\\lthe yugoslav chekhov and revved. Whale\\lwhale woman for the meanwhile blowout\\lof the forepaw meadow and glowworm.\\lXmas xmas xenon for the bauxite\\ldoxology of the tableaux equinox and\\lexxon.",
+  "msgstr": "{FONT 11}Uncle uncle udder for the dunes cloud\\nof the hindu thou and continuum. Vulcan\\lvulcan vocal for the alluvial ovoid of\\lthe yugoslav chekhov and revved. Whale\\lwhale woman for the meanwhile blowout\\lof the forepaw meadow and glowworm.\\lXmas xmas xenon for the bauxite\\ldoxology of the tableaux equinox and\\lexxon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "codes",
+  "probleme": "Le code de police diffère de celui de la source.",
+  "correction": "{FONT_SMALL_NARROWER}Yunnan yunnan young for the dynamo\\ncoyote of the obloquy employ and\\lsayyid. Zloty zloty zodiac for the gizmo\\lozone of the franz laissez and buzzing.",
+  "justification": "La correction rétablit le code source de cet échantillon de police.",
+  "msgid": "{FONT_SMALL_NARROWER}Yunnan yunnan young for the dynamo\\ncoyote of the obloquy employ and\\lsayyid. Zloty zloty zodiac for the gizmo\\lozone of the franz laissez and buzzing.",
+  "msgstr": "{FONT 11}Yunnan yunnan young for the dynamo\\ncoyote of the obloquy employ and\\lsayyid. Zloty zloty zodiac for the gizmo\\lozone of the franz laissez and buzzing.",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "codes",
+  "probleme": "Le code de police diffère de celui de la source.",
+  "correction": "{FONT_SMALL_NARROWER}42 × 138 = 5796.\\nMr Jock, TV quiz PhD: bags 20% fewer\\llynx at a café; voilà, they’re “worth”\\l♂1/♀1 = ¥1. That’s 10 + 9 - 8 = 11\\lNintendo GBA can connect to a Nintendo\\lGameCube console! He claimed-though I don’t\\lbelieve him-to have done so in an eyes-shut\\lstate…?",
+  "justification": "La correction rétablit le code source de cet échantillon de police.",
+  "msgid": "{FONT_SMALL_NARROWER}42 × 138 = 5796.\\nMr Jock, TV quiz PhD: bags 20% fewer\\llynx at a café; voilà, they're “worth”\\l♂1/♀1 = ¥1. That's 10 + 9 - 8 = 11\\lNintendo GBA can connect to a Nintendo\\lGameCube console! He claimed-though I don't\\lbelieve him-to have done so in an eyes-shut\\lstate…?",
+  "msgstr": "{FONT 11}42 × 138 = 5796.\\nMr Jock, TV quiz PhD: bags 20% fewer\\llynx at a café; voilà, they’re “worth”\\l♂1/♀1 = ¥1. That’s 10 + 9 - 8 = 11\\lNintendo GBA can connect to a Nintendo\\lGameCube console! He claimed-though I don’t\\lbelieve him-to have done so in an eyes-shut\\lstate…?",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "typographie",
+  "probleme": "Le nom générique « Pokémon » est entièrement en capitales.",
+  "correction": "C’est un petit arbre, mais un\\nPokémon sauvage y vit peut-être.",
+  "justification": "La convention SoulSilver emploie « Pokémon » pour le nom générique.",
+  "msgid": "It's a small tree, but a wild\\nPOKéMON may be living within.",
+  "msgstr": "C’est un petit arbre, mais un\\nPOKéMON sauvage y vit peut-être.",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "typographie",
+  "probleme": "Deux emplois du nom générique « Pokémon » sont entièrement en capitales.",
+  "correction": "Bienvenue au Parc Safari!\\pIci, vous pourrez observer bien des\\nPokémon rares dans cette région.\\pEt vous les verrez à l’état sauvage,\\ndans leur habitat naturel.\\pMieux encore, nous ouvrons nos\\nportes aux Dresseurs de Pokémon!\\pN’hésitez pas à capturer des\\nPokémon pour les garder!\\pEntrez et profitez du Parc Safari!",
+  "justification": "La convention SoulSilver emploie « Pokémon » pour le nom générique.",
+  "msgid": "Welcome to the SAFARI ZONE!\\pHere, you may witness many kinds of\\nPOKéMON rarely seen in this region.\\pAnd, you'll see them in their wild,\\nuntamed state in natural habitats.\\pWhat's more, we've thrown open the\\ngates to POKéMON TRAINERS.\\pYou're encouraged to catch POKéMON\\nfor keeps!\\pCome in and enjoy the SAFARI ZONE!",
+  "msgstr": "Bienvenue au Parc Safari!\\pIci, vous pourrez observer bien des\\nPOKéMON rares dans cette région.\\pEt vous les verrez à l’état sauvage,\\ndans leur habitat naturel.\\pMieux encore, nous ouvrons nos\\nportes aux Dresseurs de Pokémon!\\pN’hésitez pas à capturer des\\nPOKéMON pour les garder!\\pEntrez et profitez du Parc Safari!",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "contresens",
+  "probleme": "Le pronom « elle » attribue le soin à la CT.",
+  "correction": "Avec une CT, un Pokémon apprend\\ninstantanément une capacité.\\pCette CT contient Atterrissage.\\pAtterrissage rend jusqu’à la\\nmoitié des PV max de ton Pokémon.\\pAutrement dit, ça soigne ton\\nPokémon!",
+  "justification": "Atterrissage est la capacité qui rend les PV.",
+  "msgid": "By using a TM, a POKéMON will\\ninstantly learn a new move.\\pThat TM contains ROOST.\\pIt restores HP up to half of your\\nPOKéMON's maximum.\\pIn other words, it heals your\\nPOKéMON.",
+  "msgstr": "Avec une CT, un Pokémon apprend\\ninstantanément une capacité.\\pCette CT contient Atterrissage.\\pElle rend jusqu’à la moitié des\\nPV max de ton Pokémon.\\pAutrement dit, elle soigne ton\\nPOKéMON!",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "oubli",
+  "probleme": "« Encore » omet l’idée d’intensifier l’entraînement.",
+  "correction": "Il y a d’autres Arènes Pokémon\\ndans les villes plus loin.\\pTu devrais mettre tes talents à\\nl’épreuve dans ces Arènes.\\pJe vais m’entraîner plus dur\\npour devenir le plus grand\\lmaître des oiseaux!",
+  "justification": "« Plus dur » restitue le comparatif de « harder ».",
+  "msgid": "There are POKéMON GYMS in cities\\nand towns ahead.\\pYou should test your skills at\\nthese GYMS.\\pI'm going to train harder to\\nbecome the greatest bird master!",
+  "msgstr": "Il y a d’autres Arènes Pokémon\\ndans les villes plus loin.\\pTu devrais mettre tes talents à\\nl’épreuve dans ces Arènes.\\pMoi, je vais m’entraîner encore\\npour devenir le plus grand\\lmaître des oiseaux!",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "contresens",
+  "probleme": "« Maître oiseau » peut désigner un maître qui est lui-même un oiseau.",
+  "correction": "Waouh… Tu m’as encore battu.\\pJe vais m’entraîner plus dur\\npour devenir le meilleur\\lmaître des oiseaux!",
+  "justification": "« Maître des oiseaux » restitue la spécialité d’Albert et reprend la formulation de l’entrée 63.",
+  "msgid": "Wow… You beat me again.\\pI'm going to train harder to\\nbecome the greatest bird master!",
+  "msgstr": "Waouh… Tu m’as encore battu.\\pJe vais m’entraîner plus dur pour\\ndevenir le meilleur maître oiseau!",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "contresens",
+  "probleme": "La traduction transforme une possibilité en certitude.",
+  "correction": "Hé! Ça roule? Je ne suis pas\\nDresseur, mais j’ai des conseils!\\pCrois-moi! Si tu y crois, tu\\npeux devenir Maître.\\pTu y crois? Alors écoute.\\pL’atout d’Albert est un hibou\\nbalèze qui adore les Baies.\\pIl n’est pas le plus fort, mais il\\nencaisse vraiment bien.\\pLes capacités Electrik et Roche\\nlui font mal, mais méfie-toi\\lde Coud’Boue!\\pSi tu veux plus d’aide, va voir\\nl’Ecole Pokémon.\\pLes élèves là-bas en connaissent\\nun rayon!",
+  "justification": "« Tu peux » conserve la possibilité exprimée par « can come true ».",
+  "msgid": "Hey! What's up? I'm no trainer,\\nbut I can give some advice!\\pBelieve me! If you believe, a\\nchampionship dream can come true.\\pYou believe? Then listen.\\pFALKNER's ace is a bulky owl\\nthat loves to eat BERRIES.\\pWhile it's not the strongest,\\nit can take a lot of hits.\\pYou can hurt it with ELECTRIC \\nand ROCK-type moves, but watch out\\lfor MUD-SLAP!\\pIf you want more help, go visit the\\nPOKéMON ACADEMY.\\pThe students there really know\\ntheir stuff!",
+  "msgstr": "Hé! Ça roule? Je ne suis pas\\ndresseur, mais j’ai des conseils!\\pCrois-moi! Si tu y crois, le rêve\\nde devenir Maître se réalisera.\\pTu y crois? Alors écoute.\\pL’atout d’Albert est un hibou\\nbalèze qui adore les Baies.\\pIl n’est pas le plus fort, mais il\\nencaisse vraiment bien.\\pLes capacités Electrik et Roche\\nlui font mal, mais méfie-toi\\lde Coud’Boue!\\pSi tu veux plus d’aide, va voir\\nl’ECOLE Pokémon.\\pLes élèves là-bas en connaissent\\nun rayon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "typographie",
+  "probleme": "La casse du panneau alterne sans cohérence, notamment pour « DE » et « Albert ».",
+  "correction": "Arène Pokémon de Mauville\\pDresseurs reconnus par Albert:\\n{PLAYER}",
+  "justification": "La casse de phrase conserve les majuscules des noms et termes du projet.",
+  "msgid": "VIOLET CITY POKéMON GYM\\pFALKNER'S CERTIFIED TRAINERS:\\n{PLAYER}",
+  "msgstr": "Arène Pokémon DE Mauville\\pDRESSEURS RECONNUS PAR Albert:\\n{PLAYER}",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "typographie",
+  "probleme": "Le libellé est réparti sur deux lignes malgré la contrainte d’une seule ligne.",
+  "correction": "Le bateau rapide part chaque jour!",
+  "justification": "La phrase tient sur une ligne et garde la fréquence quotidienne.",
+  "msgid": "The FAST SHIP sails every day!",
+  "msgstr": "Le BATEAU RAPIDE part tous les\\njours!",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "contresens",
+  "probleme": "« Accès fermé » affirme une fermeture que la source ne mentionne pas.",
+  "correction": "Désolé. Embarquement impossible.",
+  "justification": "Le message exprime le refus d’embarquer au moment où le joueur se présente.",
+  "msgid": "Sorry. You can't board now.",
+  "msgstr": "Désolé. Accès fermé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 87,
+  "categorie": "oubli",
+  "probleme": "La durée du titre de Maître de Hoenn est omise.",
+  "correction": "Oh, salut, {PLAYER}.\\nOu devrais-je dire Maître de Kanto?\\pJ’ai été Maître de Hoenn\\npendant un temps.\\pAlors bienvenue au club, {PLAYER}.\\pD’ailleurs, tiens.\\nC’est un cadeau de bienvenue.",
+  "justification": "« Pendant un temps » restitue « for some time ».",
+  "msgid": "Oh, hey {PLAYER}.\\nOr should I say KANTO champion?\\pYou know, for some time, I was the\\nchampion of the HOENN region.\\pSo welcome to the club, {PLAYER}.\\pIn fact, here.\\nConsider this a welcome gift.",
+  "msgstr": "Oh, salut, {PLAYER}.\\nOu devrais-je dire Maître de KANTO?\\pTu sais, j’ai moi-même été\\nMAITRE de la région de HOENN.\\pAlors bienvenue au club, {PLAYER}.\\pD’ailleurs, tiens.\\nC’est un cadeau de bienvenue.",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "typographie",
+  "probleme": "Le montant est écrit sans séparation des milliers ni espace avant le symbole monétaire.",
+  "correction": "Bonjour, {PLAYER}. Voulez-vous\\npasser au NIVEAU SAFARI 2?\\lCela vous coûtera 200 000 ¥.",
+  "justification": "La typographie française sépare les groupes de trois chiffres et le symbole monétaire.",
+  "msgid": "Hello {PLAYER}, would you\\nlike to increase your SAFARI LEVEL\\lto 2? It will cost you ¥200,000.",
+  "msgstr": "Bonjour, {PLAYER}. Voulez-vous\\npasser au NIVEAU SAFARI 2?\\lCela vous coûtera 200000¥.",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "typographie",
+  "probleme": "Le montant est écrit sans séparation des milliers ni espace avant le symbole monétaire.",
+  "correction": "Bonjour, {PLAYER}. Voulez-vous\\npasser au NIVEAU SAFARI 3?\\lCela vous coûtera 300 000 ¥.",
+  "justification": "La typographie française sépare les groupes de trois chiffres et le symbole monétaire.",
+  "msgid": "Hello {PLAYER}, would you\\nlike to increase your SAFARI LEVEL\\lto 3? It will cost you ¥300,000.",
+  "msgstr": "Bonjour, {PLAYER}. Voulez-vous\\npasser au NIVEAU SAFARI 3?\\lCela vous coûtera 300000¥.",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "typographie",
+  "probleme": "Le montant est écrit sans séparation des milliers ni espace avant le symbole monétaire.",
+  "correction": "Bonjour, {PLAYER}. Voulez-vous\\npasser au NIVEAU SAFARI 4?\\lCela vous coûtera 400 000 ¥.",
+  "justification": "La typographie française sépare les groupes de trois chiffres et le symbole monétaire.",
+  "msgid": "Hello {PLAYER}, would you\\nlike to increase your SAFARI LEVEL\\lto 4? It will cost you ¥400,000.",
+  "msgstr": "Bonjour, {PLAYER}. Voulez-vous\\npasser au NIVEAU SAFARI 4?\\lCela vous coûtera 400000¥.",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "orthographe",
+  "probleme": "L’adjectif « premium » prend une majuscule injustifiée.",
+  "correction": "Profitez de l’expérience premium\\ndu Parc Safari!",
+  "justification": "L’adjectif qualifie « expérience » et s’écrit avec une minuscule.",
+  "msgid": "Enjoy the premium SAFARI ZONE\\nexperience!",
+  "msgstr": "Profitez de l’expérience Premium\\ndu Parc Safari!",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "typographie",
+  "probleme": "« Premium » et « DE » prennent des majuscules injustifiées.",
+  "correction": "Bonjour, {PLAYER}. Merci de rester\\nmembre premium du Parc Safari\\lde Parmanie.",
+  "justification": "En casse de phrase, l’adjectif et la préposition restent en minuscules.",
+  "msgid": "Hello {PLAYER}, thank you for\\ncontinuing to be a premium member\\lat the FUCHSIA SAFARI ZONE.",
+  "msgstr": "Bonjour, {PLAYER}. Merci de rester\\nmembre Premium du Parc Safari\\lDE Parmanie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "terminologie",
+  "probleme": "La graphie « Œuf Mystère » diffère de celle du lexique fourni.",
+  "correction": "{PLAYER} reçoit l’Oeuf Mystère.",
+  "justification": "Le lexique officiel fourni prescrit « Oeuf Mystère ».",
+  "msgid": "{PLAYER} received MYSTERY EGG.",
+  "msgstr": "{PLAYER} reçoit l’Œuf Mystère.",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "terminologie",
+  "probleme": "« Prof. CHEN » ne suit pas la graphie prescrite.",
+  "correction": "Même le Prof. Chen ici présent\\nle reconnaît.",
+  "justification": "La convention SoulSilver fournie prescrit « Prof. Chen ».",
+  "msgid": "Even PROF.OAK here recognizes\\nthat.",
+  "msgstr": "Même le Prof. CHEN ici présent\\nle reconnaît.",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "contresens",
+  "probleme": "« Saura quoi en faire » ajoute une idée de prise en charge de l’œuf.",
+  "correction": "Si mon intuition est juste,\\nle Prof. Orme le saura.",
+  "justification": "Le pronom « le » renvoie à la justesse de l’hypothèse.",
+  "msgid": "If my assumption is correct,\\nPROF.ELM will know it.",
+  "msgstr": "Si mon intuition est juste,\\nle Prof. Orme saura quoi en faire.",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "oubli",
+  "probleme": "La raison pour laquelle le Prof. Orme a confié un Pokémon au joueur disparaît.",
+  "correction": "CHEN: Ah! Alors c’est toi,\\n{PLAYER}!\\pJe suis CHEN! Chercheur Pokémon.\\pJe rendais visite à mon vieil ami\\nM. Pokémon.\\pOn m’a dit que tu faisais une\\ncourse pour le Prof. Orme, alors\\lje t’ai attendu.\\pOh! Qu’est-ce que c’est?\\nUn Pokémon rare!\\pVoyons voir…\\nHum, je vois!\\pJe comprends pourquoi Orme t’a\\nconfié un Pokémon pour ce trajet.\\pPour des chercheurs comme lui et\\nmoi, les Pokémon sont des amis.\\pIl a vu que tu traiterais tes\\nPokémon avec amour et attention.\\p…Ah!\\pTu m’as l’air fiable. Que dirais-tu\\nde me donner un coup de main?\\pTu vois? C’est la toute dernière\\nversion du Pokédex.\\pIl enregistre automatiquement\\nles données des Pokémon vus\\lou capturés.\\pUne encyclopédie high-tech!\\pHabitat, évolutions, capacités…\\nTout y est!",
+  "justification": "La correction rattache le don à la course et précise que le Pokédex enregistre des données.",
+  "msgid": "OAK: Aha! So you're {PLAYER}!\\pI'm OAK! A POKéMON researcher.\\pI was just visiting my old friend\\nMR. POKéMON.\\pI heard you were running an errand\\nfor PROF.ELM, so I waited here.\\pOh! What's this? A rare POKéMON!\\pLet's see…\\nHm, I see!\\pI understand why PROF.ELM gave\\nyou a POKéMON for this errand.\\pTo researchers like PROF.ELM and\\nI, POKéMON are our friends.\\pHe saw that you would treat your\\nPOKéMON with love and care.\\p…Ah!\\pYou seem to be dependable. How\\nwould you like to help me out?\\pSee? This is the latest version of\\nthe POKéDEX.\\pIt automatically records data on\\nPOKéMON you've seen or caught.\\pIt's a hi-tech encyclopedia!\\pIt shows their habitats, how\\nthey evolve, and their moves.",
+  "msgstr": "CHEN: Ah! Alors c’est toi,\\n{PLAYER}!\\pJe suis CHEN! Chercheur Pokémon.\\pJe rendais visite à mon vieil ami\\nM. Pokémon.\\pOn m’a dit que tu faisais une\\ncourse pour le Prof. Orme, alors\\lje t’ai attendu.\\pOh! Qu’est-ce que c’est?\\nUn Pokémon rare!\\pVoyons voir…\\nHum, je vois!\\pJe comprends pourquoi le Prof.\\nORME t’a confié un Pokémon.\\pPour des chercheurs comme lui et\\nmoi, les Pokémon sont des amis.\\pIl a vu que tu traiterais tes\\nPOKéMON avec amour et attention.\\p…Ah!\\pTu m’as l’air fiable. Que dirais-tu\\nde me donner un coup de main?\\pTu vois? C’est la toute dernière\\nversion du Pokédex.\\pIl enregistre automatiquement les\\nPOKéMON vus ou capturés.\\pUne encyclopédie high-tech!\\pHabitat, évolutions, capacités…\\nTout y est!",
+  "msgctxt": ""
+ },
+ {
+  "id": 109,
+  "categorie": "contresens",
+  "probleme": "« Tous les Pokémon » remplace « de nombreuses espèces », et le caractère habituel de l’émission est omis.",
+  "correction": "Découvre plein d’espèces de\\nPokémon et complète ce Pokédex!\\pMais je me suis trop attardé.\\pJe dois filer à Doublonville\\npour mon émission habituelle.",
+  "justification": "La source invite le joueur à rencontrer de nombreuses espèces et précise que l’émission est habituelle.",
+  "msgid": "Go meet many kinds of POKéMON and\\ncomplete that POKéDEX!\\pBut I've stayed too long.\\pI have to get to GOLDENROD\\nfor my usual radio show.\\p{PLAYER}, I'm counting on you!",
+  "msgstr": "Pars à la rencontre de tous les\\nPOKéMON et complète ce Pokédex!\\pMais je me suis trop attardé.\\pJe dois filer à Doublonville pour\\nmon émission de radio.\\p{PLAYER}, je compte sur toi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "typographie",
+  "probleme": "Le panneau présente une casse incohérente dans le nom du lieu et dans l’indication.",
+  "correction": "Route 44\\nRoute de Glace plus loin",
+  "justification": "La graphie « Route de Glace » conserve les majuscules du nom de lieu et « plus loin » reste en minuscules.",
+  "msgid": "ROUTE 44\\nICE PATH AHEAD",
+  "msgstr": "Route 44\\nROUTE DE Glace Plus LOIN",
+  "msgctxt": ""
+ }
+]

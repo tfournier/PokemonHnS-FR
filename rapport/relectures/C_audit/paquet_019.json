@@ -1,0 +1,252 @@
+[
+ {
+  "id": 6,
+  "categorie": "contresens",
+  "probleme": "« Je ne m’ennuie jamais » exprime l’absence d’ennui.",
+  "correction": "Mes chers Pokémon me tiennent\\ncompagnie. Je ne me sens pas seul.\\pMIAOUSS rapporte même des sous!",
+  "justification": "Le personnage dit que ses Pokémon lui épargnent le sentiment de solitude.",
+  "msgid": "My dear POKéMON keep me company,\\nso I don't ever feel lonely.\\pMEOWTH even brings money home.",
+  "msgstr": "Mes chers Pokémon me tiennent\\ncompagnie, je ne m’ennuie jamais.\\pMIAOUSS rapporte même des sous!",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "typographie",
+  "probleme": "Deux libellés du panneau mêlent capitales et casse courante.",
+  "correction": "RDC ACCUEIL\\nVOUS ETES ICI.\\p1ER MARCHE DES DRESSEURS\\p2E COLLECTION COMBAT\\p3E PHARMACIE\\p4E COIN CT\\p5E PLACE TRANQUILLE\\pTOIT BELVEDERE",
+  "justification": "Les libellés suivent la même casse sur tout le panneau.",
+  "msgid": "1F SERVICE COUNTER\\nYOU ARE HERE.\\p2F TRAINER'S MARKET\\p3F BATTLE COLLECTION\\p4F MEDICINE BOX\\p5F TM CORNER\\p6F TRANQUIL SQUARE\\pROOFTOP LOOKOUT",
+  "msgstr": "RDC ACCUEIL\\nVOUS ETES ICI.\\p1ER MARCHE DES Dresseurs\\p2E COLLECTION Combat\\p3E PHARMACIE\\p4E COIN CT\\p5E PLACE TRANQUILLE\\pTOIT BELVEDERE",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "terminologie",
+  "probleme": "« ATQ. SPE. » ne suit pas l’abréviation prescrite.",
+  "correction": "Ce Badge augmente l’AS\\ndes Pokémon.\\pIl permet aussi d’utiliser\\nSIPHON pour franchir les vrais\\ltourbillons.\\pEt ceci… C’est un cadeau de ma part!",
+  "justification": "Les conventions fournies pour Pokémon Émeraude FR donnent « AS » pour l’Attaque Spéciale.",
+  "msgid": "That BADGE will raise the SPECIAL\\nATTACK of POKéMON.\\pIt also lets your POKéMON use\\nWHIRLPOOL to get across\\lreal whirlpools.\\pAnd this… This is a gift from me!",
+  "msgstr": "Ce Badge augmente l’ATQ. SPE.\\ndes Pokémon.\\pIl permet aussi d’utiliser\\nSIPHON pour franchir les vrais\\ltourbillons.\\pEt ceci… C’est un cadeau de ma part!",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "typographie",
+  "probleme": "Plusieurs lignes dépassent le gabarit du dialogue.",
+  "correction": "Ah, le Maître de Johto!\\pTon talent est vraiment\\nremarquable.\\pJe suis impressionné.\\pNous avons encore beaucoup à\\napprendre l’un de l’autre.\\pMoi, Frédo, Dresseur de l’hiver,\\nj’ai encore quelques tours.\\pVeux-tu une revanche?",
+  "justification": "Les retours et les coupes ramènent les lignes à environ 34 caractères ou moins.",
+  "msgid": "Ah, JOHTO CHAMPION!\\pYour skills are indeed\\nremarkable.\\pI am impressed.\\pBut even now, there is much to\\nlearn from each other.\\pI, PRYCE--the winter trainer--\\nstill have a few tricks left.\\pWant to have a rematch with me?",
+  "msgstr": "Ah, le Maître de Johto!\\pTon talent est vraiment remarquable.\\pJe suis impressionné.\\pMais même maintenant, nous avons\\nbeaucoup à apprendre l’un de l’autre.\\pMoi, Frédo, le Dresseur de l’hiver, j’ai\\nencore quelques tours en réserve.\\pVeux-tu une revanche?",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "oubli",
+  "probleme": "La dernière phrase perd la référence aux obstacles de la vie.",
+  "correction": "Ah, ta maîtrise m’impressionne\\nencore.\\pTa volonté t’aidera à surmonter\\ntous les obstacles de la vie.",
+  "justification": "Frédo étend son encouragement à la vie du joueur.",
+  "msgid": "Ah, yet again I'm impressed by\\nyour prowess.\\pWith your strong will, I know you\\nwill overcome all life's obstacles.",
+  "msgstr": "Ah, ta maîtrise m’impressionne\\nencore.\\pAvec ta volonté, je sais que tu\\nsurmonteras tous les obstacles.",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "oubli",
+  "probleme": "La durée approximative devient une durée exacte.",
+  "correction": "Frédo est un vétéran qui dresse\\ndes Pokémon depuis près de 50 ans.\\pSon équipe solide a réponse\\nà tout ce que tu pourras\\llui opposer.\\pLe Feu est un bon début, mais\\ngare à la pluie!",
+  "justification": "« Some 50 years » donne un ordre de grandeur.",
+  "msgid": "PRYCE is a veteran who has\\ntrained POKéMON for some 50 years.\\pHe's got a solid lineup of\\nPOKéMON to cover whatever\\lyou bring his way.\\pFire is a good place to start,\\nbut watch out for the rain!",
+  "msgstr": "Frédo est un vétéran qui dresse\\ndes Pokémon depuis 50 ans.\\pSon équipe solide a réponse\\nà tout ce que tu pourras\\llui opposer.\\pLe Feu est un bon début, mais\\ngare à la pluie!",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « Pokémon » est écrit « POKéMON ».",
+  "correction": "Le Parc Naturel abrite d’autres\\nPokémon pendant le CONCOURS DE\\lCAPTURE D’INSECTES.",
+  "justification": "La graphie du nom commun est « Pokémon » selon les conventions du projet.",
+  "msgid": "The NATIONAL PARK has different\\nPOKéMON during the BUG-CATCHING\\lCONTEST.",
+  "msgstr": "Le Parc Naturel abrite d’autres\\nPOKéMON pendant le CONCOURS DE\\lCAPTURE D’INSECTES.",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "contresens",
+  "probleme": "« Je reste pas là » indique un départ immédiat.",
+  "correction": "{RIVAL}: Tu m’espionnais,\\n{PLAYER}…\\pOuais, c’est ça!\\pJ’aurais jamais cru que battre\\ncinq KIMONOS serait si dur…\\pJ’ai pris une raclée…\\p…\\pT’es là pour la même raison,\\nhein?\\pPrends pas la grosse tête parce\\nque t’as battu la Team Rocket!\\pCes KIMONOS sont super fortes.\\pVoyons si tu peux les battre.\\pMais j’y retourne pas. J’ai pas\\nenvie de te voir gagner.",
+  "justification": "« I’m not going back » signifie que le Rival refuse de retourner auprès des Kimonos.",
+  "msgid": "{RIVAL}: You were watching me,\\n{PLAYER}...\\pYeah, that's right!\\pI never thought defeating five\\nKIMONO GIRLS would be so hard...\\pI got beaten to a pulp...\\p...\\pYou must have come here for the\\nsame reason, right?\\pDon't get cocky just because you\\ndefeated TEAM ROCKET!\\pThese KIMONO GIRLS are insanely\\nstrong.\\pSee if you can defeat them.\\pBut I'm not going back, I don't\\nwant to see you win.",
+  "msgstr": "{RIVAL}: Tu m’espionnais,\\n{PLAYER}…\\pOuais, c’est ça!\\pJ’aurais jamais cru que battre\\ncinq KIMONOS serait si dur…\\pJ’ai pris une raclée…\\p…\\pT’es là pour la même raison,\\nhein?\\pPrends pas la grosse tête parce\\nque t’as battu la Team Rocket!\\pCes KIMONOS sont super fortes.\\pVoyons si tu peux les battre.\\pMais je reste pas là. J’ai pas envie\\nde te voir gagner.",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "contresens",
+  "probleme": "L’interdiction d’approcher devient une interdiction d’entrer, et la rumeur devient une certitude.",
+  "correction": "Oh non. Oh non…\\pMa fille a disparu.\\pNon… Elle n’a pas pu aller à\\nla Tour Cendrée.\\pJe lui avais dit de rester loin…\\pDes gens y disparaîtraient…\\pOh, que dois-je faire…?",
+  "justification": "« Go near » vise les abords de la tour, tandis que « seem to » marque l’incertitude.",
+  "msgid": "Oh, no. Oh, no…\\pMy daughter is missing.\\pNo… She couldn't have gone to the\\nBURNED TOWER.\\pI told her not to go near it…\\pPeople seem to disappear there…\\pOh, what should I do…?",
+  "msgstr": "Oh non. Oh non…\\pMa fille a disparu.\\pNon… Elle n’a pas pu aller à\\nla Tour Cendrée.\\pJe lui avais dit de ne pas y aller…\\pLes gens disparaissent là-bas…\\pOh, que dois-je faire…?",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "typographie",
+  "probleme": "La première ligne dépasse le gabarit et le nom du lieu mêle deux casses.",
+  "correction": "Je vais répéter au\\nThéâtre de Danse. Tu viens?",
+  "justification": "Le retour répartit le texte sur deux lignes courtes et conserve le nom complet du lieu.",
+  "msgid": "I'm going to practice at the DANCE\\nTHEATER. Care to join me?",
+  "msgstr": "Je vais répéter au THEATRE de DANSE.\\nTu viens avec moi?",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que la navigation est de nouveau sûre.",
+  "correction": "Le Pokémon du Phare d’Oliville\\na été guéri.\\pLes bateaux peuvent reprendre\\lla mer de nuit sans danger.",
+  "justification": "« Safely » précise le bénéfice du rétablissement du phare.",
+  "msgid": "The POKéMON at OLIVINE LIGHTHOUSE\\nhas been cured.\\pBoats can safely sail out to sea at\\nnight again.",
+  "msgstr": "Le Pokémon du Phare d’Oliville\\na été guéri.\\pLes bateaux peuvent de nouveau\\nprendre la mer la nuit.",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "terminologie",
+  "probleme": "Le nom du lieu apparaît sous la graphie mixte « LAC Colère ».",
+  "correction": "Des Pokémon seraient déchaînés au\\nLac Colère. J’aimerais bien voir ça.",
+  "justification": "Le lexique officiel fourni donne « Lac Colère ».",
+  "msgid": "I hear POKéMON are rampaging at the\\nLAKE OF RAGE. I'd like to see that.",
+  "msgstr": "Des Pokémon seraient déchaînés au\\nLAC Colère. J’aimerais bien voir ça.",
+  "msgctxt": ""
+ },
+ {
+  "id": 58,
+  "categorie": "oubli",
+  "probleme": "Le Pokémon descend sans que sa provenance soit indiquée.",
+  "correction": "Il y a bien longtemps…\\pCette tour a brûlé dans un incendie.\\nTrois Pokémon sans nom y ont péri.\\pUn Pokémon couleur arc-en-ciel\\ndescendit du ciel les ranimer…\\pC’est une légende transmise par les\\nCHAMPIONS de l’Arène de Rosalia.\\pMoi?\\pJ’étais Dresseur, autrefois.\\nHohoho!",
+  "justification": "« From the sky » situe explicitement l’apparition. Le nouveau retour évite aussi de couper « arc-en-ciel ».",
+  "msgid": "In the distant past…\\pThis tower burned in a fire. Three\\nnameless POKéMON perished in it.\\pA rainbow-colored POKéMON descended\\nfrom the sky and resurrected them…\\pIt's a legend that has been passed\\ndown by ECRUTEAK GYM LEADERS.\\pMe?\\pI was a trainer way back when.\\nHohoho!",
+  "msgstr": "Il y a bien longtemps…\\pCette tour a brûlé dans un incendie.\\nTrois Pokémon sans nom y ont péri.\\pUn Pokémon aux couleurs de l’arc-\\nen-ciel descendit les ranimer…\\pC’est une légende transmise par les\\nCHAMPIONS de l’Arène de Rosalia.\\pMoi?\\pJ’étais Dresseur, autrefois.\\nHohoho!",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "codes",
+  "probleme": "Les codes {PLAYER} et {KUN} ont disparu, et la traduction évoque l’âge du joueur.",
+  "correction": "FLORA: Tu viens de devenir\\nDresseur, {PLAYER}{KUN}.\\lJe ne vais pas perdre!",
+  "justification": "La réplique s’adresse au joueur par son nom et parle de ses débuts comme Dresseur.",
+  "msgid": "MAY: You just became a TRAINER,\\n{PLAYER}{KUN}. I'm not going to lose!",
+  "msgstr": "FLORA: Tu es un trop jeune Dresseur.\\nJe ne peux pas perdre!",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "contresens",
+  "probleme": "La traduction remplace l’explication du nom « Repos » par un slogan.",
+  "correction": "…Zzz…\\p…Hmm… Repos!\\p“Récupérer vite”, en plus court,\\nça donne “Repos”, tu vois?\\pCette capacité fait dormir et\\nrestaure des PV.",
+  "justification": "Le personnage présente « Rest » comme un raccourci de « recover fast ».",
+  "msgid": "...Zzz...\\p...Umm... Rest!\\pThe phrase 'recover fast' became\\nshortened to 'Rest,' you see?\\pThis is a move to sleep and recover\\nsome HP.",
+  "msgstr": "…Zzz…\\p…Hmm… Repos!\\p“Je me REPOSe et ça repart!”\\nC’est tout le principe, tu vois?\\pCette capacité fait dormir et\\nrestaure des PV.",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "terminologie",
+  "probleme": "« Mauville » désigne une ville de Hoenn.",
+  "correction": "Route 31\\pMauville - Ville Griotte",
+  "justification": "Dans Pokémon SoulSilver FR, Violet City est Mauville, à Johto.",
+  "msgid": "ROUTE 31\\pVIOLET CITY - CHERRYGROVE CITY",
+  "msgstr": "Route 31\\pMAUVILLE - Ville Griotte",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "orthographe",
+  "probleme": "« Transforme un Pokémon en sa forme » est une construction maladroite.",
+  "correction": "CETTE MACHINE DONNE A UN\\nPOKEMON SA FORME DE GALAR.\\lCE PROCEDE EST IRREVERSIBLE.\\lVOULEZ-VOUS CONTINUER?",
+  "justification": "« Donner à un Pokémon sa forme de Galar » exprime le changement de forme et respecte la convention des capitales sans accent.",
+  "msgid": "THIS MACHINE WILL TRANSFORM\\nA POKéMON INTO ITS GALARIAN FORM\\lTHIS PROCESS IS PERMANENT.\\lWOULD YOU LIKE TO PROCEED?",
+  "msgstr": "CETTE MACHINE TRANSFORME UN\\nPOKéMON EN SA FORME DE GALAR.\\lCE PROCEDE EST IRREVERSIBLE.\\lVOULEZ-VOUS CONTINUER?",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "typographie",
+  "probleme": "« DETECTE » est en capitales au milieu d’un message en casse courante.",
+  "correction": "Aucun Pokémon détecté.",
+  "justification": "La casse courante rétablit la graphie accentuée de « détecté ».",
+  "msgid": "POKéMON NOT DETECTED.",
+  "msgstr": "Aucun Pokémon DETECTE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 87,
+  "categorie": "contresens",
+  "probleme": "« Un charme sur la tête » suggère un sortilège.",
+  "correction": "Mon petit-fils Léo m’a parlé d’un\\nPokémon aux griffes acérées, avec\\lune breloque sur la tête,\\pqui porterait bonheur.",
+  "justification": "« A charm on its head » désigne ici un objet porté sur la tête, comme la breloque de MIAOUSS.",
+  "msgid": "My grandson BILL told me about\\na POKéMON that has sharp claws,\\la charm on its head, and is\\psaid to bring good fortune.",
+  "msgstr": "Mon petit-fils Léo m’a parlé d’un\\nPOKéMON aux griffes acérées, avec\\lun charme sur la tête,\\pqui porterait bonheur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "contresens",
+  "probleme": "« Fouineur » décrit la curiosité du Pokémon.",
+  "correction": "Léo m’a parlé d’un Pokémon qui\\ncourt partout en zigzag.\\pIl paraît qu’il fouille partout\\npour trouver à manger.",
+  "justification": "« Scavenger » décrit sa façon de se nourrir.",
+  "msgid": "BILL mentioned a POKéMON that\\nruns around in a zigzag\\lpattern.\\pIt's quite the little\\nscavenger, I hear.",
+  "msgstr": "Léo m’a parlé d’un Pokémon qui\\ncourt partout en zigzag.\\pIl paraît que c’est un sacré\\npetit fouineur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "registre",
+  "probleme": "Le grand-père de Léo passe au vouvoiement dans sa dernière réplique.",
+  "correction": "Merci de m’avoir montré tous ces\\nmignons Pokémon.\\pJe me suis bien amusé. Je suis\\ncontent d’avoir vécu si longtemps.\\pSers-toi du TELEPORTEUR\\nquand tu veux.",
+  "justification": "Le même personnage tutoie le joueur dans les répliques précédentes.",
+  "msgid": "Thanks for showing me so many\\ncute POKéMON.\\pI really enjoyed myself. I'm\\nglad I've lived such a long life.\\pFeel free to use the TELEPORTER\\nwhenever you like.",
+  "msgstr": "Merci de m’avoir montré tous ces\\nmignons Pokémon.\\pJe me suis bien amusé. Je suis\\ncontent d’avoir vécu si longtemps.\\pServez-vous du TELEPORTEUR\\nquand vous voulez.",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "typographie",
+  "probleme": "Les deux montants suivent des conventions différentes pour les milliers.",
+  "correction": "Le Lac Colère est redevenu normal.\\pLes MAGICARPE sont revenus.\\pJe vais peut-être réaliser mon rêve:\\nposséder le plus gros MAGICARPE\\ldu monde.\\pD’ailleurs… Je paie 2 000¥ par\\nMAGICARPE que tu me donnes, et\\l100 000¥ pour un MAGICARPE géant!",
+  "justification": "L’espace des milliers harmonise les deux montants.",
+  "msgid": "LAKE OF RAGE is back to normal.\\pThe MAGIKARP have returned.\\pI may yet realize my dream of own-\\ning the world's largest MAGIKARP.\\pIn fact... I'll pay you ¥2000 for\\nevery MAGIKARP you give me, and\\l¥100,000 for a HUGE MAGIKARP!",
+  "msgstr": "Le Lac Colère est redevenu normal.\\pLes MAGICARPE sont revenus.\\pJe vais peut-être réaliser mon rêve:\\nposséder le plus gros MAGICARPE\\ldu monde.\\pD’ailleurs… Je t’offre 2000¥ par\\nMAGICARPE que tu me donnes, et\\l100 000¥ pour un MAGICARPE géant!",
+  "msgctxt": ""
+ },
+ {
+  "id": 112,
+  "categorie": "terminologie",
+  "probleme": "« DEF. SPE. » ne suit pas l’abréviation prescrite.",
+  "correction": "C’est Ball’Ombre.\\nElle inflige des dégâts et peut\\lbaisser la DS.\\pUtilise-la si elle te plaît.",
+  "justification": "Les conventions fournies pour Pokémon Émeraude FR donnent « DS » pour la Défense Spéciale.",
+  "msgid": "That's SHADOW BALL.\\nIt causes damage and may\\llower SP. DEF.\\pUse it if it suits you.",
+  "msgstr": "C’est Ball’Ombre.\\nElle inflige des dégâts et peut\\lbaisser la DEF. SPE.\\pUtilise-la si elle te plaît.",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "typographie",
+  "probleme": "Plusieurs lignes dépassent le gabarit du dialogue.",
+  "correction": "Ah, le Maître de Johto!\\nC’est gentil d’être venu.\\pTu as montré force et talent.\\nAs-tu progressé depuis notre\\ldernier combat?\\pDepuis, je m’entraîne avec mes\\nPokémon Spectre.\\pPeux-tu encore vaincre\\nles ténèbres?\\pVeux-tu une revanche?",
+  "justification": "Les retours et les coupes maintiennent les lignes dans le gabarit sans supprimer d’information.",
+  "msgid": "Ah, the JOHTO CHAMPION!\\nGood of you to come.\\pYou've shown strength and skill,\\nbut have you grown since we\\llast battled?\\pI've trained with my GHOST-type\\nPOKéMON ever since.\\pLet's see if you can overcome\\nthe shadows again.\\pWant to have a rematch?",
+  "msgstr": "Ah, le Maître de Johto! C’est gentil\\nd’être venu.\\pTu as montré force et talent, mais\\nas-tu progressé depuis notre dernier\\lcombat?\\pJe me suis entraîné avec mes Pokémon\\nSpectre depuis.\\pVoyons si tu peux encore vaincre les\\nténèbres.\\pVeux-tu une revanche?",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « Pokémon » est écrit « POKéMON » et la dernière ligne dépasse le gabarit.",
+  "correction": "J’ai passé le printemps avec mes\\nPokémon.\\pPuis l’été, l’automne et l’hiver…\\pPuis le printemps est revenu.\\nOn est ensemble depuis longtemps.",
+  "justification": "La correction rétablit la graphie « Pokémon » et raccourcit la dernière ligne.",
+  "msgid": "I spent the spring with my\\nPOKéMON.\\pThen summer, fall, and winter...\\pThen spring came again.\\nWe've been together a long time.",
+  "msgstr": "J’ai passé le printemps avec mes\\nPOKéMON.\\pPuis l’été, l’automne et l’hiver…\\pPuis le printemps est revenu.\\nÇa fait longtemps qu’on est ensemble.",
+  "msgctxt": ""
+ }
+]

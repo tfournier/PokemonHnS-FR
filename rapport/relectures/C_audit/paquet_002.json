@@ -1,0 +1,562 @@
+[
+ {
+  "id": 1,
+  "categorie": "terminologie",
+  "probleme": "Le nom de la capacité est écrit « DAMOCLES ».",
+  "correction": "Soupir…\\pLe Champion de l’Arène est\\nvraiment trop craquant.\\pMais du coup, j’ai plein de\\nrivales qui le veulent aussi.\\pSon charme, c’est une épée de\\nDamoclès sur mon pauvre cœur!\\lIl ne m’a même pas remarquée.\\pLaisse-moi apprendre Damoclès\\nà ton Pokémon, s’il te plaît!",
+  "justification": "Le lexique officiel donne « Damoclès » pour DOUBLE-EDGE.",
+  "msgid": "Sigh…\\pThe GYM LEADER is really\\nlovably admirable.\\pBut that also means I have many\\nrivals for his attention.\\pHe's got appeal with a DOUBLE-EDGE.\\nI couldn't even catch his eye.\\pPlease, let me teach your POKéMON\\nthe move DOUBLE-EDGE!",
+  "msgstr": "Soupir…\\pLe Champion de l’Arène est\\nvraiment trop craquant.\\pMais du coup, j’ai plein de\\nrivales qui le veulent aussi.\\pSon charme, c’est une épée de\\nDAMOCLES sur mon pauvre cœur!\\lIl ne m’a même pas remarquée.\\pS’il te plaît, laisse-moi apprendre\\nDAMOCLES à ton Pokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "terminologie",
+  "probleme": "Le premier nom de capacité est en capitales et la tournure « à coups de Coup d’Boule » est redondante.",
+  "correction": "Ce que je fais?\\pJe secoue les arbres avec\\nCoup d’Boule.\\pTes Pokémon voudraient essayer\\naussi, tu crois?\\pJe peux apprendre Coup d’Boule à\\nl’un d’eux. C’est marrant!",
+  "justification": "Le lexique officiel donne « Coup d’Boule » pour HEADBUTT.",
+  "msgid": "What am I doing?\\pI'm shaking trees using HEADBUTT.\\pDo you think your POKéMON will\\nwant to HEADBUTT, too?\\pI can teach one the move HEADBUTT\\nif you'd like. It's fun!",
+  "msgstr": "Ce que je fais?\\pJe secoue les arbres à coups de\\nCOUP D’BOULE.\\pTes Pokémon voudraient essayer\\naussi, tu crois?\\pJe peux apprendre Coup d’Boule à\\nl’un d’eux si tu veux. C’est marrant!",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "oubli",
+  "probleme": "La chute de Pokémon est présentée comme systématique.",
+  "correction": "Secoue les arbres avec Coup d’Boule.\\nDes Pokémon endormis en tombent parfois!",
+  "justification": "« Sometimes » précise que cela n’arrive que parfois.",
+  "msgid": "Rattle trees with HEADBUTT.\\nSometimes, sleeping POKéMON fall out.",
+  "msgstr": "Secoue les arbres avec Coup d’Boule.\\nDes Pokémon endormis en tombent!",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "terminologie",
+  "probleme": "Le prénom est entièrement en capitales.",
+  "correction": "Mina",
+  "justification": "Le lexique officiel fixe la graphie « Mina ».",
+  "msgid": "MINA",
+  "msgstr": "MINA",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "typographie",
+  "probleme": "Les capitales de « PROFESSEUR » et de « CHEN » reprennent l’emphase anglaise.",
+  "correction": "Salut! Désolé pour l’attente!\\pBienvenue dans le monde\\ndes Pokémon!\\pJe m’appelle Chen.\\pOn me surnomme le\\nProfesseur Pokémon.\\p",
+  "justification": "La graphie du projet suit l’usage de SoulSilver pour Chen. La bienvenue est répartie sur deux lignes pour respecter la largeur.",
+  "msgid": "Hi! Sorry to keep you waiting!\\pWelcome to the world of POKéMON!\\pMy name is OAK.\\pPeople call me the POKéMON\\nPROFESSOR.\\p",
+  "msgstr": "Salut! Désolé pour l’attente!\\pBienvenue dans le monde des Pokémon!\\pJe m’appelle CHEN.\\pMais on me surnomme le\\nPROFESSEUR Pokémon.\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "oubli",
+  "probleme": "La question sur la préparation du joueur a disparu.",
+  "correction": "{PLAYER}{KUN}, tu es prêt?\\pTa propre aventure va\\ncommencer!\\p",
+  "justification": "Chen demande au joueur s’il est prêt avant d’annoncer le début de l’aventure.",
+  "msgid": "{PLAYER}{KUN}, are you ready?\\pYour very own adventure is about\\nto unfold.\\p",
+  "msgstr": "{PLAYER}{KUN}, l’heure est venue!\\pTa propre aventure va\\ncommencer!\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "oubli",
+  "probleme": "La deuxième page annonce un monde de rêves sans dire qu’il attend le joueur.",
+  "correction": "Joies et rudes épreuves\\nt’attendent.\\pUn monde de rêves et d’aventures\\navec les Pokémon t’attend!\\lEn route!\\pA très bientôt!\\p",
+  "justification": "« Awaits » relie directement ce monde au joueur.",
+  "msgid": "You'll face fun times and tough\\nchallenges.\\pA world of dreams and adventures\\nwith POKéMON awaits! Let's go!\\pI'll be seeing you later!\\p",
+  "msgstr": "Joies et rudes épreuves\\nt’attendent.\\pUn monde de rêves et d’aventures\\navec les Pokémon! En route!\\pA très bientôt!\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "typographie",
+  "probleme": "Le texte contient un saut de ligne malgré la contrainte « une seule ligne ».",
+  "correction": "{PLAYER} trouve {STR_VAR_1} {STR_VAR_2}!",
+  "justification": "Le retrait du saut de ligne rétablit le format demandé en conservant les trois codes.",
+  "msgid": "{PLAYER} found {STR_VAR_1} {STR_VAR_2}!",
+  "msgstr": "{PLAYER} trouve\\n{STR_VAR_1} {STR_VAR_2}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « jetons » est en capitales dans une phrase.",
+  "correction": "{PLAYER} range les jetons dans\\nla Boîte Jetons.",
+  "justification": "La majuscule est réservée au nom de l’objet « Boîte Jetons ».",
+  "msgid": "{PLAYER} put the COINS away in\\nthe COIN CASE.",
+  "msgstr": "{PLAYER} range les JETONS dans\\nla Boîte Jetons.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "typographie",
+  "probleme": "Le point final est placé dans les guillemets du nom de la Boîte.",
+  "correction": "Il a été placé dans la Boîte\\n“{STR_VAR_1}”.",
+  "justification": "Le point termine la phrase et se place après le guillemet fermant.",
+  "msgid": "It was placed in \\nBOX “{STR_VAR_1}.”",
+  "msgstr": "Il a été placé dans la Boîte\\n“{STR_VAR_1}.”",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "typographie",
+  "probleme": "Le point final est placé dans les guillemets du nom de la Boîte.",
+  "correction": "{STR_VAR_2} a été transféré dans la\\nBoîte “{STR_VAR_1}”.",
+  "justification": "Le point termine la phrase et se place après le guillemet fermant.",
+  "msgid": "{STR_VAR_2} was transferred to\\nBOX “{STR_VAR_1}.”",
+  "msgstr": "{STR_VAR_2} a été transféré dans la\\nBoîte “{STR_VAR_1}.”",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "typographie",
+  "probleme": "« BOITE » est en capitales, alors que les autres messages emploient « Boîte ».",
+  "correction": "{STR_VAR_2} a été envoyé\\nau PC de {B_PC_CREATOR_NAME}.\\pIl a été placé dans la\\nBoîte “{STR_VAR_1}”.",
+  "justification": "Le texte est un message de transfert et suit la graphie des autres messages de la même série.",
+  "msgid": "{STR_VAR_2} was sent to\\n{B_PC_CREATOR_NAME} PC.\\pIt was placed in \\nBOX “{STR_VAR_1}”.",
+  "msgstr": "{STR_VAR_2} a été envoyé\\nau PC de {B_PC_CREATOR_NAME}.\\pIl a été placé dans la\\nBOITE “{STR_VAR_1}”.",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "codes",
+  "probleme": "Les deux occurrences de {PLAYER} ont disparu.",
+  "correction": "Ce… Cette carte…\\nSerait-ce la Carte Or?!\\pOh, comme cet or brille!\\nLes quatre étoiles scintillent!\\pJ’ai déjà vu des Dresseurs avec\\nune Carte Argent, mais, {PLAYER},\\lvous êtes le premier que je vois\\lavec une Carte Or!\\p{PLAYER}, accordez-moi l’honneur\\nde soigner vos Pokémon!",
+  "justification": "La source interpelle le joueur par son nom à deux reprises.",
+  "msgid": "Th-that card…\\nCould it be… The GOLD CARD?!\\pOh, the gold color is brilliant!\\nThe four stars seem to sparkle!\\pI've seen several TRAINERS with\\na SILVER CARD before, but, {PLAYER},\\lyou're the first TRAINER I've ever\\lseen with a GOLD CARD!\\pOkay, {PLAYER}, please allow me\\nthe honor of resting your POKéMON!",
+  "msgstr": "Ce… Cette carte…\\nSerait-ce la Carte OR?!\\pOh, ce jaune or est si brillant!\\nLes quatre étoiles étincellent presque!\\pJ’ai déjà vu des Dresseurs avec\\ndes CARTES ARGENT, mais…\\pVous êtes le premier Dresseur que je\\nvois avec une Carte OR!\\pAccordez-moi l’honneur de soigner\\nvos Pokémon un instant!",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "orthographe",
+  "probleme": "« Désolé » est au masculin dans une réplique de l’infirmière.",
+  "correction": "Désolée, mais vous jouez en mode\\ndéfi Centre Pokémon!\\pBonne chance!{PAUSE_UNTIL_PRESS}",
+  "justification": "L’adjectif s’accorde avec la locutrice.",
+  "msgid": "Sorry, but you are playing with\\nthe POKéCENTER challenge!\\pGood luck!{PAUSE_UNTIL_PRESS}",
+  "msgstr": "Désolé, mais vous jouez en mode\\ndéfi Centre Pokémon!\\pBonne chance!{PAUSE_UNTIL_PRESS}",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "typographie",
+  "probleme": "« POKéDEX » mélange capitales et minuscule dans le dialogue.",
+  "correction": "CHEN: Je suis content de te\\nrevoir. Où en es-tu avec ton\\lPokédex?\\pVoyons, voyons…",
+  "justification": "La graphie en dialogue est « Pokédex ».",
+  "msgid": "OAK: Good to see you!\\nHow is your POKéDEX coming along?\\pHere, let me take a look.",
+  "msgstr": "CHEN: Je suis content de te\\nrevoir. Où en es-tu avec ton\\lPOKéDEX?\\pVoyons, voyons…",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "codes",
+  "probleme": "Le code {FONT_NORMAL} a été remplacé par {FONT 1}.",
+  "correction": "Progression de ton Pokédex:\\p{STR_VAR_1} Pokémon vus et\\n{STR_VAR_2} Pokémon capturés.\\p{FONT_NORMAL}Avis du Prof. Chen:",
+  "justification": "Le code source doit être conservé. Le tutoiement et « Prof. Chen » suivent les répliques et la graphie du projet.",
+  "msgid": "The amount of progress you've made\\non your POKéDEX is:\\p{STR_VAR_1} POKéMON seen and\\n{STR_VAR_2} POKéMON owned.\\p{FONT_NORMAL}PROF. OAK's rating:",
+  "msgstr": "Progression de votre Pokédex:\\p{STR_VAR_1} Pokémon vus et\\n{STR_VAR_2} Pokémon capturés.\\p{FONT 1}Avis du Prof. CHEN:",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "contresens",
+  "probleme": "Le conseil d’explorer les herbes devient un reproche sur la façon de jouer.",
+  "correction": "Il te reste beaucoup à faire.\\pFouille toutes les hautes herbes\\nà la recherche de Pokémon!",
+  "justification": "Chen indique ce qu’il reste à faire et recommande de chercher dans chaque zone d’herbes.",
+  "msgid": "You still have lots to do.\\pGo into every patch of grass you\\nsee and look for POKéMON!",
+  "msgstr": "Tu ne vas pas assez dans les\\nhautes herbes.\\pIl t’en reste beaucoup à trouver!",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "terminologie",
+  "probleme": "Le nom de la capacité est écrit « FLASH ».",
+  "correction": "On dirait que tu es sur la\\nbonne voie!\\pJ’ai confié la CS Flash à un\\nde mes assistants. Va la chercher!",
+  "justification": "Le lexique officiel donne « Flash ». La source précise aussi que Chen a confié la CS à son assistant.",
+  "msgid": "It looks as if you're getting on\\nthe right track!\\pI've given one of my AIDES a FLASH\\nHM. Make sure you go get it!",
+  "msgstr": "On dirait que tu es sur la\\nbonne voie!\\pUn de mes ASSISTANTS a la CS\\nFLASH. Va vite la chercher!",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "oubli",
+  "probleme": "« D’autres » ne précise pas qu’il faut capturer des espèces différentes.",
+  "correction": "Il t’en reste plein à attraper\\npour remplir ton Pokédex!\\pEssaie de capturer d’autres\\nespèces de Pokémon!",
+  "justification": "La progression du Pokédex dépend des espèces enregistrées.",
+  "msgid": "Your POKéDEX could use a bit more\\nvolume still!\\pTry to catch other species of\\nPOKéMON!",
+  "msgstr": "Il t’en reste plein à attraper\\npour remplir ton Pokédex!\\pEssaie d’en capturer d’autres!",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « assistants » est en capitales.",
+  "correction": "Très bien! On voit que tu te\\ndonnes du mal!\\pJ’ai confié un Cherch’Objet à un\\nde mes assistants. Va le chercher!",
+  "justification": "Le mot désigne les collaborateurs du professeur dans une phrase.",
+  "msgid": "Good, it's apparent that you're\\ntrying hard!\\pI've given one of my AIDES an\\nITEMFINDER. Be sure to collect it!",
+  "msgstr": "Très bien! On voit que tu te\\ndonnes du mal!\\pJ’ai confié un Cherch’Objet à un\\nde mes ASSISTANTS. Va le chercher!",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "oubli",
+  "probleme": "La consigne d’aller chercher la Pièce Rune a disparu.",
+  "correction": "Ton Pokédex prend vraiment forme.\\pJ’ai confié une Pièce Rune à un\\nde mes assistants. Va la chercher!",
+  "justification": "Chen indique qu’il a déjà remis l’objet à son assistant et invite le joueur à le récupérer.",
+  "msgid": "Your POKéDEX is coming along quite\\nwell!\\pI've given one of my AIDES an\\nAMULET COIN. Be sure to get it!",
+  "msgstr": "Ton Pokédex prend vraiment forme.\\pUn de mes ASSISTANTS te donnera\\nune Pièce Rune.",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "typographie",
+  "probleme": "« ASSISTANTS » et « MULTI EXP » sont en capitales dans le dialogue.",
+  "correction": "Ah, tu as enfin dépassé les\\n50 espèces!\\pUn de mes assistants a un\\nMulti Exp pour toi. Va le voir!",
+  "justification": "Le nom commun prend une minuscule et le nom de l’objet suit la graphie « Multi Exp » de Pokémon Émeraude.",
+  "msgid": "Ah, you've finally topped 50\\nspecies!\\pI've given one of my AIDES an EXP.\\nSHARE. Be sure to go get it!",
+  "msgstr": "Ah, tu as enfin dépassé les\\n50 espèces!\\pUn de mes ASSISTANTS a un\\nMULTI EXP pour toi. Va le voir!",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "contresens",
+  "probleme": "« Pokémon marins » limite la pêche à la mer.",
+  "correction": "Excellent!\\pEn allant pêcher, tu trouveras\\nencore plus de Pokémon!",
+  "justification": "La source recommande de pêcher pour enrichir le Pokédex sans préciser le milieu.",
+  "msgid": "Very good!\\pI think you'll collect even more\\nPOKéMON by going fishing!",
+  "msgstr": "Excellent!\\pMais tu devrais aller pêcher plus\\nde Pokémon marins!",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "oubli",
+  "probleme": "« Finally » a disparu.",
+  "correction": "Tu as enfin atteint les 100\\nespèces! Quel talent!",
+  "justification": "Chen souligne que le joueur vient de franchir un cap attendu.",
+  "msgid": "You've finally hit 100 species!\\nI can't believe how good you are!",
+  "msgstr": "Tu as atteint 100 espèces\\ndifférentes! Quel talent!",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "contresens",
+  "probleme": "La traduction affirme que le joueur a lui-même fait évoluer ses Pokémon.",
+  "correction": "Tu as même des formes évoluées\\nde Pokémon! Génial!",
+  "justification": "Chen constate la présence de formes évoluées dans la collection, quelle que soit leur provenance.",
+  "msgid": "You even have the evolved forms\\nof POKéMON! Super!",
+  "msgstr": "Tu as même fait évoluer tes\\nPOKéMON! Génial!",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "oubli",
+  "probleme": "Les amis avec qui faire des échanges ont disparu.",
+  "correction": "Parfait! Fais des échanges avec\\ntes amis pour en avoir plus!",
+  "justification": "La source recommande explicitement les échanges avec des amis.",
+  "msgid": "Excellent! Trade with friends to\\nget some more!",
+  "msgstr": "Parfait! Fais des échanges pour\\nen avoir encore plus!",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "contresens",
+  "probleme": "La traduction évoque une expérience de toute une vie à la place d’une compétence acquise.",
+  "correction": "Impressionnant!\\nTu es devenu un vrai pro!",
+  "justification": "Chen félicite le joueur pour son niveau actuel.",
+  "msgid": "Outstanding!\\nYou've become a real pro at this!",
+  "msgstr": "Impressionnant! On dirait que tu\\nas fait ça toute ta vie!",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "contresens",
+  "probleme": "« Je n’ai plus rien à t’apprendre » remplace l’idée que Chen n’a plus rien à dire.",
+  "correction": "Je n’ai plus rien à dire!\\nTe voilà Prof. Pokémon!",
+  "justification": "La source porte sur l’évaluation que Chen vient de donner.",
+  "msgid": "I have nothing left to say!\\nYou're the POKéMON PROFESSOR now!",
+  "msgstr": "Je n’ai plus rien à t’apprendre!\\nTe voilà Prof. Pokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "typographie",
+  "probleme": "« NATIONAL » est en capitales dans le dialogue.",
+  "correction": "Et ton Pokédex national:\\p{STR_VAR_1} Pokémon vus et\\n{STR_VAR_2} Pokémon capturés.",
+  "justification": "L’adjectif prend une minuscule dans la phrase. « Capturés » reprend le libellé du bilan précédent.",
+  "msgid": "And your NATIONAL POKéDEX is:\\p{STR_VAR_1} POKéMON seen and\\n{STR_VAR_2} POKéMON owned.",
+  "msgstr": "Et ton Pokédex NATIONAL est:\\p{STR_VAR_1} Pokémon vus et\\n{STR_VAR_2} Pokémon pris.",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "typographie",
+  "probleme": "« POKéDEX NATIONAL » reprend la casse anglaise dans le dialogue.",
+  "correction": "J’ai hâte de te voir remplir le\\nPokédex national!",
+  "justification": "La graphie attendue en dialogue est « Pokédex national ».",
+  "msgid": "I'll be looking forward to seeing\\nyou fill the NATIONAL POKéDEX!",
+  "msgstr": "J’ai hâte de te voir remplir le\\nPOKéDEX NATIONAL!",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "typographie",
+  "probleme": "« POKéDEX » mélange capitales et minuscule dans le dialogue.",
+  "correction": "Enfin…\\pTu as enfin rempli le\\nPokédex!\\pC’est magnifique!\\nUn véritable exploit!",
+  "justification": "La graphie en dialogue est « Pokédex ».",
+  "msgid": "Finally…\\pYou've finally completed the\\nPOKéDEX!\\pIt's magnificent!\\nTruly, this is a fantastic feat!",
+  "msgstr": "Enfin…\\pTu as enfin rempli le\\nPOKéDEX!\\pC’est magnifique!\\nUn véritable exploit!",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "contresens",
+  "probleme": "Chen demande à quoi ressemble le Pokédex au lieu de demander où en est le joueur.",
+  "correction": "CHEN: Ah, bienvenue!\\pDis-moi, où en es-tu avec ton\\nPokédex?\\pAhahaha!\\pJe le sais déjà, mais j’aime\\ntoujours y jeter un œil!\\pVoyons voir…",
+  "justification": "La question porte sur la progression du Pokédex.",
+  "msgid": "OAK: Ah, welcome!\\pTell me, how is your POKéDEX\\ncoming along?\\pWahaha!\\pActually, I know how it is, but I\\nlove seeing it anyway!\\pLet's see…",
+  "msgstr": "CHEN: Ah, bienvenue!\\pDis-moi, à quoi ressemble ton\\nPOKéDEX?\\pAhahaha!\\pJe sais bien à quoi ça ressemble,\\nmais je veux y jeter un œil!\\pVoyons voir…",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "typographie",
+  "probleme": "« NATIONAL » est en capitales dans le dialogue.",
+  "correction": "Prof. Orme: Ah, {PLAYER}{KUN}!\\pTu veux savoir où en est\\nton Pokédex national?",
+  "justification": "La graphie attendue en dialogue est « Pokédex national ».",
+  "msgid": "PROF. ELM: Ah, {PLAYER}{KUN}!\\pAre you curious about how your\\nNational POKéDEX is coming along?",
+  "msgstr": "Prof. Orme: Ah, {PLAYER}{KUN}!\\pTu veux savoir où en est\\nton Pokédex NATIONAL?",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "contresens",
+  "probleme": "« Trouve-les tous » semble désigner les Pokémon.",
+  "correction": "Des lieux cachés aux quatre coins\\ndu monde abritent des Pokémon\\prares et insolites. Essaie de\\ntrouver tous ces lieux!",
+  "justification": "La source invite à découvrir les lieux cachés qui abritent ces Pokémon.",
+  "msgid": "There are hidden locations all\\nover the world containing rare\\pand unusual POKéMON, try to find\\nthem all!",
+  "msgstr": "Des lieux cachés aux quatre coins\\ndu monde abritent des Pokémon\\prares et insolites. Trouve-les\\ntous!",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "typographie",
+  "probleme": "« NATIONAL » est en capitales dans le dialogue.",
+  "correction": "Excellent! Quel Pokédex national\\nformidable!\\pOuah…{PAUSE 10}\\pTu as merveilleusement\\nrépondu à mes attentes!\\pTu les as dépassées, {PLAYER}!\\nQuel Dresseur génial tu fais!\\pMerci, {PLAYER}!",
+  "justification": "L’adjectif prend une minuscule en dialogue. La ligne contenant le nom du joueur est raccourcie.",
+  "msgid": "Excellent! That is an amazing\\nNational POKéDEX!\\pWow...{PAUSE 10}\\pYou've lived up to my\\nexpectations wonderfully!\\pNo, you've exceeded them, {PLAYER}.\\nYou've become an amazing Trainer!\\pThank you, {PLAYER}!",
+  "msgstr": "Excellent! Quel Pokédex NATIONAL\\nformidable!\\pOuah…{PAUSE 10}\\pTu as merveilleusement\\nrépondu à mes attentes!\\pNon, tu les as dépassées, {PLAYER}.\\nQuel Dresseur génial tu fais!\\pMerci, {PLAYER}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "terminologie",
+  "probleme": "L’avertissement est écrit « ATTENTION ».",
+  "correction": "Attention!\\pUne autre partie est déjà\\nsauvegardée.\\pSi vous sauvegardez maintenant,\\nl’aventure de l’autre partie,\\lobjets et Pokémon compris,\\lsera perdue.\\pVoulez-vous sauvegarder et\\nécraser l’autre partie?",
+  "justification": "Le lexique officiel impose « Attention ». Les lignes sont raccourcies pour respecter la largeur.",
+  "msgid": "WARNING!\\pThere is a different game file that\\nis already saved.\\pIf you save now, the other file's\\nadventure, including items and\\lPOKéMON, will be entirely lost.\\pAre you sure you want to save now\\nand overwrite the other save file?",
+  "msgstr": "ATTENTION!\\pUne autre partie est déjà\\nsauvegardée.\\pSi vous sauvegardez maintenant,\\nl’aventure de l’autre partie, objets\\let Pokémon compris, sera perdue.\\pVoulez-vous vraiment sauvegarder et\\nécraser l’autre partie?",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "contresens",
+  "probleme": "« Ne veut se battre » attribue un refus aux Dresseurs.",
+  "correction": "Aucun Dresseur à portée\\nne peut se battre…\\pLe Cherche VS s’est éteint.{PAUSE_UNTIL_PRESS}",
+  "justification": "La source indique qu’aucun Dresseur à portée ne peut combattre.",
+  "msgid": "There are no Trainers within range\\nwho can battle…\\pThe VS Seeker was turned off.{PAUSE_UNTIL_PRESS}",
+  "msgstr": "Aucun Dresseur des environs\\nne veut se battre…\\pLe Cherche VS s’est éteint.{PAUSE_UNTIL_PRESS}",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "typographie",
+  "probleme": "Le point d’exclamation du slogan est placé hors des guillemets.",
+  "correction": "A la prochaine! Notre slogan:\\n“VIVE LES {POKEBLOCK}S!”",
+  "justification": "Le point d’exclamation appartient au slogan cité.",
+  "msgid": "Tune in next time!\\nOur slogan is “3 CHEERS FOR {POKEBLOCK}S!”",
+  "msgstr": "A la prochaine! Notre slogan:\\n“VIVE LES {POKEBLOCK}S”!",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "contresens",
+  "probleme": "Le conseil de surveiller ses jetons devient un conseil d’observer le joueur. Le caractère exceptionnel du gain disparaît.",
+  "correction": "{STR_VAR_1} a joué à la {STR_VAR_2}\\net gagné {STR_VAR_3} jetons. Quel gain!\\p“Quand {STR_VAR_1} vient, il faut\\nprévoir assez de jetons.”\\pC’est ce que murmurent les\\nemployés du Casino quand on joue!\\pAu Casino, faites comme {STR_VAR_1}:\\nsurveillez vos jetons si vous\\ljouez à la {STR_VAR_2}.\\pEn direct du Casino, où l’on\\nsent toute l’effervescence!\\pCe sera tout pour aujourd’hui!",
+  "justification": "Le reportage souligne un gain inhabituel, rapporte les propos des employés et conseille aux téléspectateurs de surveiller leurs propres jetons.",
+  "msgid": "{STR_VAR_1} played the {STR_VAR_2} game\\nand won a rare {STR_VAR_3} COINS.\\p“When {STR_VAR_1} comes, we need to\\nmake sure we have enough COINS.”\\pThat's what the GAME CORNER clerks\\nmutter when our gamer is in play!\\pViewers, it's best to watch your COINS\\nlike {STR_VAR_1} if you visit the GAME\\lCORNER and play the {STR_VAR_2} game.\\pThis is live from the GAME CORNER--\\nwhere you can feel the excitement!\\pThat's all for today!",
+  "msgstr": "{STR_VAR_1} a gagné {STR_VAR_3} JETONS\\nà la {STR_VAR_2}.\\p“{STR_VAR_1} est là, rassemblez tous\\nles JETONS, on en aura besoin!”\\pC’est ce que les employés du Casino\\ndisent quand notre joueur arrive!\\pSi vous rencontrez {STR_VAR_1} au\\nCASINO, regardez comme ce Dresseur\\ls’y prend à la {STR_VAR_2}.\\pNous étions en direct du Casino.\\nLa tension est à son comble, ici!\\pCe sera tout pour aujourd’hui!",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "oubli",
+  "probleme": "La hausse supposée des ventes devient certaine.",
+  "correction": "{STR_VAR_1} a perdu {STR_VAR_3} jetons\\nà la {STR_VAR_2}.\\p“Quand {STR_VAR_1} vient, on dirait\\nqu’on vend plus de jetons.”\\pC’est ce que disent les employés\\ndu Casino quand notre joueur joue!",
+  "justification": "« Seem to increase » exprime une impression des employés.",
+  "msgid": "{STR_VAR_1} played the {STR_VAR_2} game\\nand lost {STR_VAR_3} COINS.\\p“When {STR_VAR_1} comes, our COIN\\nsales seem to increase.”\\pThat's what the GAME CORNER clerks\\nsay when our gamer is in play!",
+  "msgstr": "{STR_VAR_1} a perdu {STR_VAR_3} JETONS\\nà la {STR_VAR_2}.\\p“Quand {STR_VAR_1} est là, notre vente\\nde JETONS augmente.”\\pC’est ce que les employés du Casino\\ndisent quand notre joueur est là!",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "oubli",
+  "probleme": "Le fragment ne précise plus que {STR_VAR_2} désigne une capacité.",
+  "correction": "la capacité {STR_VAR_2}.",
+  "justification": "« The move » introduit le nom de la capacité dans la phrase assemblée.",
+  "msgid": "the move {STR_VAR_2}.",
+  "msgstr": "{STR_VAR_2}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "contresens",
+  "probleme": "Le dentifrice est ajouté et la sortie de l’objet n’est plus décrite.",
+  "correction": "…Oh?\\pNotre visiteur fouille\\ndans son propre Sac!\\pIl en a sorti\\nun exemplaire de {STR_VAR_2}!\\pRegardez comme il sourit\\nen brandissant {STR_VAR_2}!\\pOn dirait une pub\\nà la télé!",
+  "justification": "Le commentaire montre le visiteur sortir puis brandir l’objet et compare la scène à une publicité télévisée.",
+  "msgid": "…Oh?\\pThe visitor is reaching for their own\\nBAG and rummaging about in it!\\pThe visitor pulled out\\none {STR_VAR_2}!\\pLook at the visitor smile while\\nholding up the {STR_VAR_2}!\\pIt's like a TV commercial!",
+  "msgstr": "Oh?\\pNotre visiteur a ouvert son Sac\\net y cherche quelque chose!\\p{STR_VAR_2}? C’est donc ça que notre\\nvisiteur cherchait!\\pRegardez le sourire de notre visiteur\\nalors qu’il brandit l’objet!\\pOn pourrait en faire une pub pour un\\ndentifrice!",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "contresens",
+  "probleme": "L’aide reçue avant le Concours est située pendant celui-ci.",
+  "correction": "ANIMATRICE: Excusez-moi!\\nMerci d’être avec nous\\len direct!\\pPuis-je vous féliciter pour votre\\nvictoire?\\pQu’est-ce qui vous a permis de\\nremporter cette victoire si\\lbrillamment?\\pCANON: Nous nous sommes donnés\\nà fond aujourd’hui, mon\\l{STR_VAR_2} et moi!\\pMais je suis sûre que nous\\nn’aurions pas réussi sans l’aide\\lreçue avant le Concours!\\pANIMATRICE: Y a-t-il quelqu’un\\navec qui vous aimeriez\\lpartager votre joie?\\pAllez-y, nous sommes\\nen direct!\\pCANON: Hé, tu es là?\\p{STR_VAR_3}! Tu regardes?\\nOn a réussi!\\lMerci!",
+  "justification": "« Leading up to the CONTEST » situe le soutien durant la préparation.",
+  "msgid": "MC: Excuse me!\\nThanks for joining us on live TV!\\pMay I congratulate you on your win?\\pWhat was the key factor in today's\\nstunning victory?\\pBEAUTY: We gave it our best effort\\ntoday, my {STR_VAR_2} and I!\\pBut I'm sure we wouldn't have made it\\nif it weren't for all the help we\\lreceived leading up to the CONTEST!\\pMC: Do you have a special someone\\nwith whom you'd like to share your joy?\\lLet's hear it live!\\pBEAUTY: Hey, out there!\\p{STR_VAR_3}! Are you watching?\\nWe did it!\\lThank you!",
+  "msgstr": "ANIMATRICE: Excusez-moi!\\nMerci de répondre à nos questions\\len direct!\\pPuis-je vous féliciter pour votre\\nvictoire?\\pQu’est-ce qui vous a permis de\\nremporter cette victoire si\\lbrillamment?\\pCANON: Nous nous sommes donnés\\nà fond aujourd’hui, mon {STR_VAR_2}\\let moi!\\pMais je suis sûre que nous n’aurions\\npas réussi sans le soutien que nous\\lavons reçu pendant le CONCOURS!\\pANIMATRICE: Y a-t-il quelqu’un en\\nparticulier avec qui vous souhaiteriez\\lpartager votre joie?\\pAllez-y, tous nos téléspectateurs vous\\nregardent!\\pCANON: Hé, tu es là?\\p{STR_VAR_3}! Est-ce que tu regardes?\\nOn a réussi!\\lMerci!",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « poche » est en capitales dans un message.",
+  "correction": "{PLAYER} range\\n{STR_VAR_1} dans\\lla poche {STR_VAR_3} du Sac.",
+  "justification": "La phrase emploie le nom commun, comme dans le message suivant sur la poche pleine.",
+  "msgid": "{PLAYER} put away the\\n{STR_VAR_1} in\\lthe BAG's {STR_VAR_3} POCKET.",
+  "msgstr": "{PLAYER} range\\n{STR_VAR_1} dans\\lla POCHE {STR_VAR_3} du Sac.",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "oubli",
+  "probleme": "La restriction ne mentionne plus les espèces.",
+  "correction": "Voulez-vous voir la liste des\\nespèces de Pokémon interdites?",
+  "justification": "La liste indique quelles espèces sont exclues.",
+  "msgid": "Do you want to see the list of\\nPOKéMON species you can't bring?",
+  "msgstr": "Voulez-vous voir la liste des Pokémon\\nque vous ne pouvez pas amener?",
+  "msgctxt": ""
+ },
+ {
+  "id": 87,
+  "categorie": "typographie",
+  "probleme": "La première ligne dépasse la largeur indiquée.",
+  "correction": "Oh, bonjour! Tu veux faire\\ndes {POKEBLOCK}S avec nous?",
+  "justification": "La réplique tient sur deux lignes et conserve le code.",
+  "msgid": "Oh, hello! Did you want to make some\\n{POKEBLOCK}S with our little group?",
+  "msgstr": "Oh, bonjour! Tu veux faire des {POKEBLOCK}S avec\\nnotre petit groupe?",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "typographie",
+  "probleme": "« POKéMON » mélange capitales et minuscule dans le dialogue.",
+  "correction": "Nous allons maintenant juger les\\nPokémon capturés.\\p…………………\\n…………………\\pVoici les gagnants! Etes-vous\\nprêts?",
+  "justification": "Le nom générique suit la graphie « Pokémon ».",
+  "msgid": "We will now judge the POKéMON\\nyou've caught.\\p...................\\n...................\\pWe have chosen the winners! Are\\nready for this?",
+  "msgstr": "Nous allons maintenant juger les\\nPOKéMON capturés.\\p…………………\\n…………………\\pNous avons nos gagnants! Etes-vous\\nprêts?",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "contresens",
+  "probleme": "Un forfait est présenté comme une disqualification.",
+  "correction": "Oh non! Vous n’avez capturé aucun\\nPokémon. Vous déclarez forfait.\\pVotre équipe va vous être rendue.",
+  "justification": "« Forfeited » indique que le joueur est forfait faute de capture.",
+  "msgid": "Oh no! You didn't catch a POKéMON.\\nYou've forfeited the competition.\\pYour party will now be returned.",
+  "msgstr": "Oh non! Vous n’avez capturé aucun\\nPOKéMON. Vous êtes disqualifié.\\pVotre équipe va vous être rendue.",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "contresens",
+  "probleme": "« Superbe » remplace l’indication de taille du Pokémon.",
+  "correction": "Le gagnant du Concours de Capture\\nd’Insectes est…\\p{PLAYER}, qui a attrapé un énorme\\n{STR_VAR_1}!",
+  "justification": "« Whopping » décrit un Pokémon particulièrement gros, comme dans l’annonce de la victoire de Shaun.",
+  "msgid": "This Bug-Catching Contest Winner\\nis...\\p{PLAYER}, who caught a whopping\\n{STR_VAR_1}!",
+  "msgstr": "Le gagnant du Concours de Capture\\nd’Insectes est…\\p{PLAYER}, qui a attrapé un superbe\\n{STR_VAR_1}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "typographie",
+  "probleme": "Le chemin est encadré par des apostrophes fermantes.",
+  "correction": "Fonction indisponible! Définissez\\nun flag et une var valides dans:\\l“include/config/battle.h”!",
+  "justification": "Les guillemets “ ” délimitent le chemin de fichier conformément à la convention du projet.",
+  "msgid": "Feature unavailable! Please define a\\nusable flag and a usable var in:\\l'include/config/battle.h'!",
+  "msgstr": "Fonction indisponible! Veuillez définir\\nun flag et une var utilisables dans:\\l’include/config/battle.h’!",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "typographie",
+  "probleme": "La ligne du comptoir dépasse la largeur indiquée.",
+  "correction": "Bonjour!\\pCe comptoir est réservé\\naux Concours Pokémon à 4 joueurs.",
+  "justification": "Le déplacement du saut de ligne conserve l’intégralité de la restriction.",
+  "msgid": "Hello!\\pThis reception counter is only\\nfor 4-player POKéMON CONTESTS.",
+  "msgstr": "Bonjour!\\pCe comptoir est réservé aux Concours\\nPokémon à 4 joueurs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 109,
+  "categorie": "oubli",
+  "probleme": "Le type de câble à utiliser a disparu.",
+  "correction": "Quand quatre joueurs sont prêts,\\nreliez-vous par câble Game Link\\let inscrivez-vous auprès de moi.\\pChoisissez le même Concours\\nque les autres participants.\\pLe Concours commence dès que\\ntous les joueurs sont inscrits.\\pLes règles habituelles du\\nConcours s’appliquent ensuite.",
+  "justification": "La source précise qu’il faut un câble Game Link et indique que les règles habituelles s’appliquent ensuite.",
+  "msgid": "When four players are ready, connect\\nover a Game Link cable, and register\\lwith me, please.\\pPlease choose the same CONTEST\\nas your fellow contestants.\\pThe CONTEST begins as soon as all\\nplayers register their entry.\\pAfter that, the usual CONTEST rules\\napply.",
+  "msgstr": "Quand quatre joueurs sont prêts,\\nreliez-vous par câble et\\linscrivez-vous auprès de moi.\\pChoisissez le même CONCOURS\\nque les autres participants.\\pLe CONCOURS commence dès que\\ntous les joueurs sont inscrits.\\pEnsuite, règles habituelles\\ndu CONCOURS.",
+  "msgctxt": ""
+ },
+ {
+  "id": 111,
+  "categorie": "typographie",
+  "probleme": "Plusieurs lignes dépassent la largeur indiquée. « CONCOURS » et « DRESSEURS » sont en capitales dans le dialogue.",
+  "correction": "En MODE-E (MODE EMERAUDE),\\nun Concours Link réunit deux à\\lquatre joueurs. Chacun doit avoir\\lune cartouche de Pokémon Emeraude.\\pLes joueurs doivent se relier\\npar adaptateur sans fil ou\\lpar câble GBA Game Link.\\pS’il y a moins de quatre joueurs,\\ndes Dresseurs de la salle\\lcompléteront le groupe.\\pLe MODE-E est indisponible dans\\nPokémon Rubis ou\\lPokémon Saphir.",
+  "justification": "La correction respecte la casse des noms en dialogue et conserve les conditions de participation.",
+  "msgid": "In E-MODE (EMERALD MODE),\\na LINK CONTEST can be held with\\ltwo to four players. Each player must\\lhave a POKéMON Emerald Game Pak.\\pThe players must be linked with each\\nother using Wireless Adapters or\\lGBA Game Link cables.\\pIf there are fewer than four players,\\nTRAINERS in the hall will join to fill\\lthe 4-player CONTEST lineup.\\pPlease be aware that E-MODE is not\\navailable in POKéMON Ruby or Sapphire.",
+  "msgstr": "Dans le MODE-E (MODE EMERAUDE),\\nun CONCOURS LINK prend place avec\\ldeux à quatre joueurs ayant chacun\\lune cartouche de jeu Pokémon Emeraude.\\pLes joueurs doivent être connectés en\\nutilisant des câbles GBA Game Link ou\\ldes adaptateurs sans fil.\\pS’il y a moins de quatre joueurs, des\\nDRESSEURS se trouvant dans le hall\\lviendront pour compléter la partie.\\pVeuillez noter que le MODE-E n’est\\npas disponible dans Pokémon Rubis\\lou Saphir.",
+  "msgctxt": ""
+ },
+ {
+  "id": 112,
+  "categorie": "typographie",
+  "probleme": "La première ligne dépasse la largeur indiquée.",
+  "correction": "Si tu veux récupérer ton Pokémon,\\nva voir ma femme.",
+  "justification": "Déplacer « va » sur la deuxième ligne conserve la réplique et raccourcit la première.",
+  "msgid": "If you want to pick up your POKéMON,\\nhave a word with my wife.",
+  "msgstr": "Si tu veux récupérer ton Pokémon, va\\nvoir ma femme.",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "typographie",
+  "probleme": "Le chemin est encadré par des apostrophes fermantes.",
+  "correction": "Fonction indisponible!\\nDéfinissez un flag valide dans:\\l“include/config/overworld.h”!",
+  "justification": "Les guillemets “ ” délimitent le chemin de fichier.",
+  "msgid": "Feature unavailable!\\nPlease define a usable flag in:\\l'include/config/overworld.h'!",
+  "msgstr": "Fonction indisponible!\\nDéfinissez un flag valide dans:\\l’include/config/overworld.h’!",
+  "msgctxt": ""
+ },
+ {
+  "id": 115,
+  "categorie": "typographie",
+  "probleme": "Le chemin est encadré par des apostrophes fermantes.",
+  "correction": "Fonction indisponible!\\nDéfinissez un flag valide dans:\\l“include/config/battle.h”!",
+  "justification": "Les guillemets “ ” délimitent le chemin de fichier.",
+  "msgid": "Feature unavailable!\\nPlease define a usable flag in:\\l'include/config/battle.h'!",
+  "msgstr": "Fonction indisponible!\\nDéfinissez un flag valide dans:\\l’include/config/battle.h’!",
+  "msgctxt": ""
+ }
+]

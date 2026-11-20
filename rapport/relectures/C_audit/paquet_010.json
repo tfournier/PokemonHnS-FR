@@ -1,0 +1,362 @@
+[
+ {
+  "id": 3,
+  "categorie": "typographie",
+  "probleme": "La préposition « de » est en capitales au milieu du nom de l’Arène.",
+  "correction": "Arène Pokémon de Parmanie\\nCHAMPIONNE: Jeannine\\pVAINQUEURS:\\nBLUE, RED",
+  "justification": "La préposition reste en minuscules dans un nom composé écrit en casse mixte.",
+  "msgid": "FUCHSIA POKéMON GYM\\nLEADER: JANINE\\pWINNING TRAINERS:\\nBLUE, RED",
+  "msgstr": "Arène Pokémon DE Parmanie\\nCHAMPIONNE: Jeannine\\pVAINQUEURS:\\nBLUE, RED",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "typographie",
+  "probleme": "La préposition « de » est en capitales au milieu du nom de l’Arène.",
+  "correction": "Arène Pokémon de Parmanie\\nCHAMPIONNE: Jeannine\\pVAINQUEURS:\\nBLUE, RED, {PLAYER}",
+  "justification": "La préposition reste en minuscules dans un nom composé écrit en casse mixte.",
+  "msgid": "FUCHSIA POKéMON GYM\\nLEADER: JANINE\\pWINNING TRAINERS:\\nBLUE, RED, {PLAYER}",
+  "msgstr": "Arène Pokémon DE Parmanie\\nCHAMPIONNE: Jeannine\\pVAINQUEURS:\\nBLUE, RED, {PLAYER}",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "typographie",
+  "probleme": "Le nom de la région est entièrement en capitales dans le dialogue.",
+  "correction": "Il y a des programmes qui ne\\npassent pas à Johto…",
+  "justification": "Le nom de région prend une majuscule initiale.",
+  "msgid": "They have programs that aren't\\nshown in JOHTO…",
+  "msgstr": "Il y a des programmes qui ne\\npassent pas à JOHTO…",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "typographie",
+  "probleme": "Une virgule détache à tort « ici » de l’impératif.",
+  "correction": "Hé, petit!\\pReste sur tes gardes ici,\\nça crépite d’énergie!\\pSi tu veux une revanche,\\nrendez-vous au Dojo!",
+  "justification": "« Ici » précise où le joueur doit rester sur ses gardes. Le nom du lieu prend une majuscule initiale.",
+  "msgid": "Hey, kid!\\pKeep your guard up out here,\\nthis place is cracklin' with power!\\pIf you want a rematch, report to\\nthe FIGHTING DOJO!",
+  "msgstr": "Hé, petit!\\pReste sur tes gardes, ici,\\nça crépite d’énergie!\\pSi tu veux une revanche,\\nrendez-vous au DOJO!",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "typographie",
+  "probleme": "La graphie « POKéMON » mélange capitales et minuscule.",
+  "correction": "Regarde ce que tu as fait à mes\\nPokémon…\\pJe ne l’oublierai pas…",
+  "justification": "Le nom générique s’écrit « Pokémon » selon les conventions du projet.",
+  "msgid": "Look what you did to my POKéMON…\\pI won't forget this…",
+  "msgstr": "Regarde ce que tu as fait à mes\\nPOKéMON…\\pJe ne l’oublierai pas…",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "typographie",
+  "probleme": "Les deux noms de ville suivent des casses différentes sur le même panneau.",
+  "correction": "Route 10\\pAzuria - Lavanville",
+  "justification": "Les noms de lieux prennent une majuscule initiale.",
+  "msgid": "ROUTE 10\\pCERULEAN CITY - LAVENDER TOWN",
+  "msgstr": "Route 10\\pAZURIA - Lavanville",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "terminologie",
+  "probleme": "Le nom de l’objet est développé sous la forme « GLAS TRANSPARENT ».",
+  "correction": "C’est bien HO-OH…\\nLe gardien du ciel depuis la\\pnuit des temps…\\pTant d’autres ont essayé encore et\\nencore, sans jamais réussir…\\p{PLAYER}, ton cœur en parfaite\\nharmonie avec le Glas Transp.\\pa enfin permis sa venue…\\n{PLAYER}, tu comprends?\\pHO-OH… Il attendait sûrement\\nquelqu’un comme toi depuis tout\\lce temps.\\pN’es-tu pas d’accord?",
+  "justification": "Le nom officiel de CLEAR BELL dans Pokémon SoulSilver FR est « Glas Transp. », conformément au lexique fourni.",
+  "msgid": "That is indeed HO-OH...\\nThe guardian of the sky from\\pancient times... \\pSo many have tried again and again,\\nonly to fail...\\p{PLAYER}, your heart in complete\\nharmony with the CLEAR BELL has finally\\pallowed it to appear...\\n{PLAYER}, don't you see?\\pHO-OH... It must have been waiting for\\nsomeone like you all this time.\\pWouldn't you agree? ",
+  "msgstr": "C’est bien HO-OH…\\nLe gardien du ciel depuis la\\pnuit des temps…\\pTant d’autres ont essayé encore et\\nencore, sans jamais réussir…\\p{PLAYER}, ton cœur en parfaite\\nharmonie avec le GLAS TRANSPARENT\\pa enfin permis sa venue…\\n{PLAYER}, tu comprends?\\pHO-OH… Il attendait sûrement\\nquelqu’un comme toi depuis tout\\lce temps.\\pN’es-tu pas d’accord?",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "typographie",
+  "probleme": "Le nom de la capacité est entièrement en capitales dans le dialogue.",
+  "correction": "GERANT: Cette CT, c’est\\nFatal-Foudre.\\pUne technique surpuissante!\\pElle n’est pas très précise, mais\\nquand elle touche, ça décoiffe!",
+  "justification": "La graphie « Fatal-Foudre » suit le lexique fourni et la convention de casse des capacités.",
+  "msgid": "MANAGER: That TM is THUNDER.\\pIt's a powerful technique!\\pIt's not what anyone would\\nconsider accurate, but it packs a\\lwallop!",
+  "msgstr": "GERANT: Cette CT, c’est\\nFATAL-FOUDRE.\\pUne technique surpuissante!\\pElle n’est pas très précise, mais\\nquand elle touche, ça décoiffe!",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "typographie",
+  "probleme": "Le texte contient un saut de ligne malgré la contrainte d’une seule ligne.",
+  "correction": "Porte dangereuse sans courant.",
+  "justification": "La formulation tient sur une seule ligne et conserve l’avertissement lié à l’absence de courant.",
+  "msgid": "This door is unsafe without power.",
+  "msgstr": "Cette porte est dangereuse sans\\nélectricité.",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’organisation est entièrement en capitales dans le dialogue.",
+  "correction": "Eh oui, on coupe la queue des\\nRAMOLOSS pour la vendre.\\pTout ce qu’on fait, c’est pour\\nle profit.\\pParfaitement! On est la Team\\nRocket, et on ferait tout pour\\ll’argent!",
+  "justification": "Le projet impose la graphie « Team Rocket » pour l’organisation.",
+  "msgid": "Sure, we've been hacking the\\ntails off SLOWPOKE and selling\\lthem.\\pEverything we do is for profit.\\pThat's right! We're TEAM ROCKET,\\nand we'll do anything for money!",
+  "msgstr": "Eh oui, on coupe la queue des\\nRAMOLOSS pour la vendre.\\pTout ce qu’on fait, c’est pour\\nle profit.\\pParfaitement! On est la TEAM\\nROCKET, et on ferait tout pour\\ll’argent!",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "oubli",
+  "probleme": "La traduction omet « today » et tronque « la prochaine fois ».",
+  "correction": "Pas mal aujourd’hui, mais tu\\nverras la prochaine fois!",
+  "justification": "Le Sbire oppose la performance du jour à ce qui arrivera lors du prochain combat.",
+  "msgid": "You did OK today,\\nbut wait till next time!",
+  "msgstr": "Pas mal, mais tu\\nverras la prochaine!",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "oubli",
+  "probleme": "« Arrêter les QUEUES » ne précise pas quelle action devrait cesser.",
+  "correction": "Héhéhé!\\nNe plus couper les queues?\\pT’es pas bien!\\nSi on t’écoutait, la Team Rocket\\ly perdrait sa réputation!",
+  "justification": "Le Sbire parle de cesser de prélever les queues des RAMOLOSS.",
+  "msgid": "Hyuck-hyuck-hyuck!\\nQuit taking SLOWPOKETAILS?\\pYou're nuts!\\nIf we obeyed you, TEAM ROCKET's\\lrep would be ruined!",
+  "msgstr": "Héhéhé!\\nArrêter les QUEUES DE RAMOLOSS?\\pT’es pas bien!\\nSi on t’écoutait, la Team Rocket\\ly perdrait sa réputation!",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "oubli",
+  "probleme": "Le prélèvement des queues disparaît et la provocation devient un ordre.",
+  "correction": "Ne plus couper les queues?\\pEssaie donc de tous nous\\nbattre!",
+  "justification": "Le Sbire met le joueur au défi de vaincre tout le groupe.",
+  "msgid": "Stop taking TAILS?\\pYeah, just try to defeat all\\nof us!",
+  "msgstr": "Arrêter les QUEUES?\\pBats-nous d’abord tous!",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "typographie",
+  "probleme": "Les deux noms de ville suivent des casses différentes sur le même panneau.",
+  "correction": "Route 30\\pMauville - Ville Griotte",
+  "justification": "Les noms de lieux prennent une majuscule initiale.",
+  "msgid": "ROUTE 30\\pVIOLET CITY - CHERRYGROVE CITY",
+  "msgstr": "Route 30\\pMAUVILLE - Ville Griotte",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "contresens",
+  "probleme": "« En pleine forme » décrit l’état de RATTATA et perd son empressement à combattre.",
+  "correction": "T’es plutôt fort!\\pMon RATTATA a hâte de se battre,\\ncomme toujours.\\pC’est le seul que j’ai.\\nJe vais devenir un grand\\lDresseur avec lui!\\pOn se refait un combat un de\\nces jours!",
+  "justification": "« Raring to go » exprime l’envie de se lancer. La graphie « Dresseur » suit la convention du projet.",
+  "msgid": "You're pretty good!\\pMy RATTATA's raring to go,\\njust like always.\\pIt's the only one I have.\\nI'm going to become a great\\lTRAINER with it!\\pLet's battle again sometime!",
+  "msgstr": "T’es plutôt fort!\\pMon RATTATA est en pleine forme,\\ncomme toujours.\\pC’est le seul que j’ai.\\nJe vais devenir un grand\\lDRESSEUR avec lui!\\pOn se refait un combat un de\\nces jours!",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "orthographe",
+  "probleme": "« Serv-t’en » est une forme fautive de l’impératif.",
+  "correction": "J’ai encore perdu…\\nEh ben, t’es fort!\\pAh oui, j’allais oublier de\\nte donner ça.\\pSers-t’en pour devenir plus\\nfort encore, OK?\\pJe vais me renforcer aussi.",
+  "justification": "L’impératif de « se servir » s’écrit « sers-t’en ». Le découpage conserve des lignes courtes.",
+  "msgid": "I lost again…\\nGee, you're tough!\\pOh yeah, I almost forgot that\\nI had to give you this.\\pUse it to get even tougher,\\nOK?\\pI'm going to get tougher too.",
+  "msgstr": "J’ai encore perdu… Bah, t’es fort!\\pAh oui, j’allais oublier que je devais\\nte donner ça.\\pServ-t’en pour devenir encore plus\\nfort, OK?\\pMoi aussi, je vais devenir plus fort.",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "codes",
+  "probleme": "Le paramètre de {CLEAR_TO} a été réécrit en décimal et le libellé reste en anglais.",
+  "correction": "Repos{CLEAR_TO 0x58}2000 J.",
+  "justification": "Le code reprend exactement la graphie source. « Repos » est le nom officiel de REST dans Pokémon Émeraude FR et Pokémon SoulSilver FR. « J. » désigne les jetons comme dans les autres lignes du menu.",
+  "msgid": "REST{CLEAR_TO 0x58}2,000 C.",
+  "msgstr": "REST{CLEAR_TO 88}2,000 C.",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "codes",
+  "probleme": "Le paramètre de {CLEAR_TO} a été réécrit en décimal.",
+  "correction": "Clonage{CLEAR_TO 0x58}2000 J.",
+  "justification": "88 et 0x58 ont la même valeur, mais le code source doit être conservé à l’identique.",
+  "msgid": "SUBSTITUTE{CLEAR_TO 0x58}2,000 C.",
+  "msgstr": "Clonage{CLEAR_TO 88}2000 J.",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "codes",
+  "probleme": "Le paramètre de {CLEAR_TO} a été réécrit en décimal.",
+  "correction": "Danse-Lames{CLEAR_TO 0x58}3000 J.",
+  "justification": "88 et 0x58 ont la même valeur, mais le code source doit être conservé à l’identique.",
+  "msgid": "SWORDS DANCE{CLEAR_TO 0x58}3,000 C.",
+  "msgstr": "Danse-Lames{CLEAR_TO 88}3000 J.",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "registre",
+  "probleme": "La confirmation du comptoir tutoie le joueur.",
+  "correction": "Vous voulez {STR_VAR_1}?",
+  "justification": "Le personnel du comptoir vouvoie le joueur, comme dans la réplique signalant qu’il possède déjà l’objet.",
+  "msgid": "{STR_VAR_1} is what you want?",
+  "msgstr": "Tu veux {STR_VAR_1}?",
+  "msgctxt": ""
+ },
+ {
+  "id": 59,
+  "categorie": "registre",
+  "probleme": "La réplique de service tutoie le joueur.",
+  "correction": "Oh? Vous n’avez pas de Boîte Jetons.",
+  "justification": "Le personnel qui vérifie la possession de la Boîte Jetons vouvoie le joueur.",
+  "msgid": "Oh? You don't have a COIN CASE.",
+  "msgstr": "Oh? Tu n’as pas de Boîte Jetons.",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "typographie",
+  "probleme": "La graphie « POKéMON » mélange capitales et minuscule.",
+  "correction": "J’ai appris Laser Glace à mon\\nPokémon.\\pJ’ai sué pour réunir les jetons,\\nmais ça valait le coup.",
+  "justification": "Le nom générique s’écrit « Pokémon » selon les conventions du projet.",
+  "msgid": "I taught ICE BEAM to my POKéMON.\\pIt was hard to get enough coins for\\nit, but it was worth it.",
+  "msgstr": "J’ai appris Laser Glace à mon\\nPOKéMON.\\pJ’ai sué pour réunir les jetons,\\nmais ça valait le coup.",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "contresens",
+  "probleme": "La traduction affirme que le joueur a tout perdu aux machines à sous, puis de nouveau à la roulette.",
+  "correction": "Je ne gagnais rien aux machines\\nà sous, puis j’ai tout claqué\\là la roulette.\\pDe rage, j’ai jeté ma Boîte Jetons\\ndans le Souterrain.",
+  "justification": "L’anglais distingue l’absence de gains aux machines à sous de l’argent perdu à la roulette.",
+  "msgid": "I couldn't win at the slots, and I\\nblew it on roulette.\\pI got so furious, I tossed out my\\nCOIN CASE in the UNDERGROUND.",
+  "msgstr": "J’ai tout perdu aux machines à\\nsous, puis tout claqué à la roulette.\\pDe rage, j’ai jeté ma Boîte Jetons\\ndans le SOUTERRAIN.",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "oubli",
+  "probleme": "L’explication du total élevé ne mentionne plus les colonnes.",
+  "correction": "Les nombres au bord du plateau\\nsont des indices sur les nombres…\\pcachés dans la ligne ou la colonne.\\pUn total élevé indique davantage\\nde cartes de forte valeur dans\\lcette ligne ou cette colonne.\\pLe compteur de VOLTORBE indique\\ncombien s’y cachent.\\pCroisez les deux totaux pour savoir\\nquelles cartes retourner sans risque!",
+  "justification": "L’indice s’interprète de la même manière pour les lignes et les colonnes.",
+  "msgid": "The numbers on the sides of the board\\nare hints about the numbers…\\phidden in that row or column.\\pThe larger the number, the more high-\\nvalue cards are in that row or column.\\pThe VOLTORB count tells you how\\nmany VOLTORBs lurk there.\\pUse both totals to figure out\\nwhich cards are safe to flip!",
+  "msgstr": "Les nombres au bord du plateau\\nsont des indices sur les nombres…\\pcachés dans la ligne ou la colonne.\\pPlus le total est grand, plus il y a\\nde grosses cartes dans cette ligne.\\pLe chiffre VOLTORBE indique combien\\nde VOLTORBE s’y cachent.\\pCroisez les deux totaux pour savoir\\nquelles cartes retourner sans risque!",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "contresens",
+  "probleme": "« Retournez-la à coup sûr » transforme une condition de retournement en garantie.",
+  "correction": "Mode mémo ({L_BUTTON} & {R_BUTTON}): notez\\n1, 2, 3 ou un VOLTORBE sur la carte.\\pMarquez une carte si vous pensez\\lsavoir ce qu’elle cache.\\nRetournez-la quand vous en êtes sûr.\\pRemettez le même mémo pour l’effacer.",
+  "justification": "Le mémo sert à noter une hypothèse. Le joueur retourne la carte lorsqu’il estime avoir confirmé son hypothèse.",
+  "msgid": "Use the notes mode ({L_BUTTON} & {R_BUTTON}) to mark\\ncards with numbers 1-3 or a VOLTORB.\\pMark a card you think you know,\\nthen flip it when you're sure.\\pApply a note again to remove it.",
+  "msgstr": "Mode mémo ({L_BUTTON} & {R_BUTTON}): notez sur\\nune carte un nombre 1-3 ou un VOLTORBE.\\pMarquez une carte que vous pensez\\ndeviner, et retournez-la à coup sûr.\\pRemettez le même mémo pour l’effacer.",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "typographie",
+  "probleme": "« 2E COLLECTION Combat » présente une casse irrégulière et une ponctuation qui rend le libellé difficile à lire.",
+  "correction": "Pour les assoiffés de victoire\\p2e étage: Collection Combat",
+  "justification": "L’étage et le nom du rayon sont identifiables au premier coup d’œil.",
+  "msgid": "For Victory Seekers\\p3F BATTLE COLLECTION",
+  "msgstr": "Pour les assoiffés de victoire\\p2E COLLECTION Combat",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "oubli",
+  "probleme": "L’appréciation « It’s so pleasant » et l’idée que le joueur vient de loin disparaissent.",
+  "correction": "Erika: Bonjour… Quel temps\\nmerveilleux, n’est-ce pas?\\lC’est si agréable…\\p…Je crains de m’assoupir…\\pJe me nomme Erika. Je suis la\\nChampionne de Céladopole.\\p…Oh? Vous venez de si loin,\\nde Johto? Comme c’est charmant…\\pOh. Pardonnez-moi, je n’avais pas\\ncompris que vous vouliez\\lm’affronter.\\pSoit, mais je ne perdrai pas.",
+  "justification": "Les deux précisions rétablissent la progression de la réplique et le ton d’Erika.",
+  "msgid": "ERIKA: Hello… Lovely weather,\\nisn't it? It's so pleasant…\\p…I'm afraid I may doze off…\\pMy name is ERIKA. I am the LEADER\\nof CELADON GYM.\\p…Oh? All the way from JOHTO, you\\nsay? How nice…\\pOh. I'm sorry, I didn't realize\\nthat you wished to challenge me.\\pVery well, but I shall not lose.",
+  "msgstr": "Erika: Bonjour… Quel temps\\nmerveilleux, n’est-ce pas?\\p…Je crains de m’assoupir…\\pJe me nomme Erika. Je suis la\\nCHAMPIONNE de Céladopole.\\p…Oh? Vous venez de JOHTO?\\nComme c’est charmant…\\pOh. Pardonnez-moi, je n’avais pas\\ncompris que vous vouliez m’affronter.\\pSoit, mais je ne perdrai pas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "typographie",
+  "probleme": "« Badge PRISME » mélange deux conventions de casse dans le même nom.",
+  "correction": "{PLAYER} reçoit le Badge Prisme.",
+  "justification": "Le nom du badge suit la casse des noms d’objets du projet.",
+  "msgid": "{PLAYER} received RAINBOWBADGE.",
+  "msgstr": "{PLAYER} reçoit le Badge PRISME.",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "registre",
+  "probleme": "Erika tutoie soudain le joueur lors de la revanche.",
+  "correction": "Erika: Oh, bonjour.\\pQuelle surprise!\\nLe Maître de Kanto!\\pQuel plaisir de vous revoir.\\pVotre voyage a dû être fabuleux.\\pLes Maîtres aussi aiment les défis.\\pVoulez-vous une revanche?",
+  "justification": "Erika vouvoie le joueur lors de la première rencontre et lorsqu’elle lui remet la CT.",
+  "msgid": "ERIKA: Oh, hello.\\pWhat a surprise, KANTO CHAMPION!\\pIt's so lovely to see you again.\\pYour journey must have been so\\nexciting.\\pEven champions enjoy a challenge.\\pWant to have a rematch with me?",
+  "msgstr": "ERIKA: Oh, bonjour.\\pQuelle surprise, le Maître de Kanto!\\pC’est si agréable de te revoir.\\pTon voyage a dû être passionnant.\\pMême les Maîtres aiment les défis.\\pVeux-tu une revanche?",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "typographie",
+  "probleme": "La préposition « de » est en capitales au milieu du nom de l’Arène.",
+  "correction": "Arène Pokémon de Céladopole\\nCHAMPIONNE: Erika\\pVAINQUEURS:\\nBLUE, RED",
+  "justification": "La préposition reste en minuscules dans un nom composé écrit en casse mixte.",
+  "msgid": "CELADON POKéMON GYM\\nLEADER: ERIKA\\pWINNING TRAINERS:\\nBLUE, RED",
+  "msgstr": "Arène Pokémon DE Céladopole\\nCHAMPIONNE: Erika\\pVAINQUEURS:\\nBLUE, RED",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "typographie",
+  "probleme": "La préposition « de » est en capitales au milieu du nom de l’Arène.",
+  "correction": "Arène Pokémon de Céladopole\\nCHAMPIONNE: Erika\\pVAINQUEURS:\\nBLUE, RED, {PLAYER}",
+  "justification": "La préposition reste en minuscules dans un nom composé écrit en casse mixte.",
+  "msgid": "CELADON POKéMON GYM\\nLEADER: ERIKA\\pWINNING TRAINERS:\\nBLUE, RED, {PLAYER}",
+  "msgstr": "Arène Pokémon DE Céladopole\\nCHAMPIONNE: Erika\\pVAINQUEURS:\\nBLUE, RED, {PLAYER}",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "typographie",
+  "probleme": "« STATION Radio » présente une casse irrégulière dans le dialogue.",
+  "correction": "En parlant de la station de radio,\\nc’est quoi le numéro gagnant\\lde la semaine?",
+  "justification": "La formulation française « station de radio » se lit ici comme un nom commun.",
+  "msgid": "Speaking of the RADIO STATION,\\nwhat's this week's lucky number?",
+  "msgstr": "En parlant de STATION Radio, c’est\\nquoi le numéro gagnant de la semaine?",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "typographie",
+  "probleme": "La casse de l’accueil est incohérente avec celle du guichet voisin.",
+  "correction": "Bienvenue à l’espace Combat Multi\\nde la Tour de Combat!\\pHélas, les Salles de Combat\\nsont encore en travaux.\\pRevenez quand les travaux\\nseront terminés.",
+  "justification": "« Espace Combat Multi » et « Salles de Combat » suivent la présentation de la réplique parallèle consacrée au Combat Duo.",
+  "msgid": "Welcome to the BATTLE TOWER\\nMULTI BATTLE CORNER!\\pUnfortunately, the BATTLE ROOMS\\nare still under construction.\\pPlease come back when the work\\nis completed.",
+  "msgstr": "Bienvenue au COIN Combat MULTI\\nde la Tour de Combat!\\pHélas, les SALLES DE Combat\\nsont encore en travaux.\\pRevenez quand les travaux\\nseront terminés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 109,
+  "categorie": "contresens",
+  "probleme": "« Il vous manque {STR_VAR_2} » présente le nombre requis comme le nombre de Pokémon manquants.",
+  "correction": "Excusez-moi!\\pVous n’avez pas {STR_VAR_2} Pokémon\\nadmissibles.\\pIl faut {STR_VAR_2} Pokémon différents\\nde niveau 50 ou moins.\\pIls doivent aussi tenir des\\nobjets différents.\\pOEUFS{STR_VAR_1}.",
+  "justification": "{STR_VAR_2} indique le nombre total de Pokémon admissibles exigé pour participer.",
+  "msgid": "Excuse me!\\pYou don't have {STR_VAR_2} eligible POKéMON.\\pYou must have {STR_VAR_2} different POKéMON\\nof Level 50 or less to enter.\\pThey also must be holding different\\nkinds of items.\\pEGGS{STR_VAR_1}.",
+  "msgstr": "Excusez-moi!\\pIl vous manque {STR_VAR_2} Pokémon valides.\\pIl faut {STR_VAR_2} Pokémon différents\\nde niveau 50 ou moins.\\pIls doivent aussi tenir des\\nobjets différents.\\pOEUFS{STR_VAR_1}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "contresens",
+  "probleme": "« Le même Pokémon » peut désigner le même individu, et « au niveau choisi » peut se lire comme un niveau exact imposé à chaque Pokémon.",
+  "correction": "Vous avez choisi un Pokémon de\\nla même espèce que votre ami.\\pChoisissez deux Pokémon d’espèces\\ndifférentes de celles de votre ami\\let admis au niveau de combat\\lchoisi, puis réinscrivez-vous.",
+  "justification": "La restriction porte sur l’espèce des Pokémon et sur leur admissibilité dans la catégorie de combat choisie.",
+  "msgid": "You have chosen the same kind of\\nPOKéMON as your friend.\\pPlease choose two POKéMON different\\nfrom your friend's, match the level\\lyou wish to enter, and register again.",
+  "msgstr": "Vous avez choisi le même Pokémon que\\nvotre ami.\\pChoisissez deux Pokémon différents\\nde ceux de votre ami, au niveau choisi,\\lpuis réinscrivez-vous.",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "typographie",
+  "probleme": "Le nom générique « POKéMON » mélange capitales et minuscule.",
+  "correction": "Votre ami a choisi un autre\\nniveau de combat.\\pVotre ami a aussi choisi les\\nPokémon {STR_VAR_1} et {STR_VAR_2}.",
+  "justification": "Le nom générique s’écrit « Pokémon », comme dans la réplique parallèle qui annonce un seul Pokémon.",
+  "msgid": "Your friend has chosen a different\\nbattle level.\\pYour friend has also selected the\\nPOKéMON {STR_VAR_1} and {STR_VAR_2}.",
+  "msgstr": "Votre ami a choisi un autre\\nniveau de combat.\\pVotre ami a aussi choisi les\\nPOKéMON {STR_VAR_1} et {STR_VAR_2}.",
+  "msgctxt": ""
+ }
+]

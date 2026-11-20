@@ -1,0 +1,1874 @@
+[
+ {
+  "controle": "ANGLAIS",
+  "fichier_po": "dialogues.po",
+  "source": "traduction manuelle (style SoulSilver)",
+  "msgid": "Cha-Cha!",
+  "msgstr": "Cha-Cha!",
+  "detail": "traduction identique à l’anglais"
+ },
+ {
+  "controle": "ANGLAIS",
+  "fichier_po": "dialogues.po",
+  "source": "traduction manuelle (style SoulSilver)",
+  "msgid": "Shuck!",
+  "msgstr": "Shuck!",
+  "detail": "traduction identique à l’anglais"
+ },
+ {
+  "controle": "ANGLAIS",
+  "fichier_po": "dialogues.po",
+  "source": "traduction manuelle (style SoulSilver)",
+  "msgid": "Vee Vee?",
+  "msgstr": "Vee Vee?",
+  "detail": "traduction identique à l’anglais"
+ },
+ {
+  "controle": "ANGLAIS",
+  "fichier_po": "dialogues.po",
+  "source": "traduction nouvelle",
+  "msgid": "JUNE",
+  "msgstr": "JUNE",
+  "detail": "traduction identique à l’anglais"
+ },
+ {
+  "controle": "ANGLAIS",
+  "fichier_po": "dialogues.po",
+  "source": "traduction nouvelle",
+  "msgid": "MOMO",
+  "msgstr": "MOMO",
+  "detail": "traduction identique à l’anglais"
+ },
+ {
+  "controle": "ANGLAIS",
+  "fichier_po": "dialogues.po",
+  "source": "traduction nouvelle",
+  "msgid": "NORIE",
+  "msgstr": "NORIE",
+  "detail": "traduction identique à l’anglais"
+ },
+ {
+  "controle": "ANGLAIS",
+  "fichier_po": "dialogues.po",
+  "source": "traduction nouvelle",
+  "msgid": "SAI",
+  "msgstr": "SAI",
+  "detail": "traduction identique à l’anglais"
+ },
+ {
+  "controle": "ANGLAIS",
+  "fichier_po": "dialogues.po",
+  "source": "traduction nouvelle",
+  "msgid": "TOSH",
+  "msgstr": "TOSH",
+  "detail": "traduction identique à l’anglais"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "BRENDAN: By the way, {PLAYER}, I walked\\nby MR. BRINEY in PETALBURG WOODS.\\pI bet he was on his way home to his\\ncottage by the sea.\\p{PLAYER}, how's your POKéDEX?\\nHave you filled in any pages yet?\\pMine rules.\\pWant to have a battle to test how\\nfar you've progressed?",
+  "msgstr": "BRICE: Au fait, j’ai vu M. MARCO\\nau BOIS CLEMENTI.\\pJe suis sûr qu’il rentrait chez lui, dans \\nsa petite maison près de la mer.\\p{PLAYER}, ça avance ton Pokédex?\\nT’as rempli toutes les pages?\\pLe mien est super!\\pT’as dressé tes Pokémon?\\nOn se bat pour vérifier?",
+  "detail": "manque ['{PLAYER}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "MAY: With those GO-GOGGLES, you'll\\nhave no trouble getting through the\\ldesert near ROUTE 111.\\pBut, wow, {PLAYER}{KUN}…\\nChallenging GYMS…\\pYou're trying hard because you don't\\nwant to lose to me, I bet!\\p{PLAYER}{KUN}, I think I should challenge\\nyour dad in PETALBURG GYM.\\pSee you again!",
+  "msgstr": "FLORA: Avec ces LUNET. SABLE,\\ntu pourras sans problème traverser le\\ldésert près de la ROUTE 111.\\pMais, waouh, {PLAYER}{KUN}…\\nTe battre dans les Arènes…\\pTu t’entraînes dur car je parie que tu\\nne veux pas perdre contre moi!\\p{PLAYER}{KUN}, je crois que je devrais défier\\nton père à l’Arène de CLEMENTI-VILLE.\\pA une prochaine fois, {PLAYER}{KUN}!",
+  "detail": "manque [] ; en trop ['{PLAYER}', '{KUN}']"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "MAY: You just became a TRAINER,\\n{PLAYER}{KUN}. I'm not going to lose!",
+  "msgstr": "FLORA: Tu es un trop jeune Dresseur.\\nJe ne peux pas perdre!",
+  "detail": "manque ['{PLAYER}', '{KUN}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Oh, hello. And you are?\\p… … … … … … … … …\\n… … … … … … … … …\\pOh, you're {PLAYER}{KUN}, our new next-door\\nneighbor! Hi!\\pWe have a {STR_VAR_1} about the same\\nage as you.\\pOur {STR_VAR_1} was excited about making\\na new friend.\\pOur {STR_VAR_1} is upstairs, I think.",
+  "msgstr": "Oh, bonjour. Qui es-tu?\\p… … … … … … … … …\\n… … … … … … … … …\\pOh, tu es {PLAYER}{KUN}.\\nNos maisons sont voisines.\\pNotre {STR_VAR_1} a le même âge\\nque toi.\\pNotre {STR_VAR_1} avait hâte de te\\nconnaître.\\pTu devrais aller voir à l’étage.",
+  "detail": "manque ['{STR_VAR_1}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "SCOTT: {PLAYER}{KUN}, you've clawed your\\nway up to face the POKéMON LEAGUE!\\pI'm happy for you!\\nYou made my cheering worthwhile!\\p{PLAYER}{KUN}, if you were to become\\nthe POKéMON LEAGUE CHAMPION…\\pI'll get in touch with you then.\\pOkay, {PLAYER}{KUN}.\\nGo for greatness!",
+  "msgstr": "SCOTT: {PLAYER}{KUN}, tu as franchi les\\nétapes qui mènent à la Ligue Pokémon!\\pJe suis heureux pour toi! Ça a valu le\\ncoup que je te soutienne!\\p{PLAYER}{KUN}, si tu arrives à devenir le\\nMaître de la Ligue Pokémon…\\pJe prendrai contact avec toi.\\pOK, le chemin de la gloire est\\ndevant toi!",
+  "detail": "manque ['{PLAYER}', '{KUN}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Th-that card…\\nCould it be… The GOLD CARD?!\\pOh, the gold color is brilliant!\\nThe four stars seem to sparkle!\\pI've seen several TRAINERS with\\na SILVER CARD before, but, {PLAYER},\\lyou're the first TRAINER I've ever\\lseen with a GOLD CARD!\\pOkay, {PLAYER}, please allow me\\nthe honor of resting your POKéMON!",
+  "msgstr": "Ce… Cette carte…\\nSerait-ce la Carte OR?!\\pOh, ce jaune or est si brillant!\\nLes quatre étoiles étincellent presque!\\pJ’ai déjà vu des Dresseurs avec\\ndes CARTES ARGENT, mais…\\pVous êtes le premier Dresseur que je\\nvois avec une Carte OR!\\pAccordez-moi l’honneur de soigner\\nvos Pokémon un instant!",
+  "detail": "manque ['{PLAYER}', '{PLAYER}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "There you go, {PLAYER}!\\pI added a new feature named\\nMATCH CALL to your POKéNAV.\\pUsing the MATCH CALL feature,\\nyou can chat with people who have\\lbeen registered in your POKéNAV.\\p{PLAYER}, our PRESIDENT STONE should\\nbe registered in your POKéNAV.\\pTest it out.\\nPlease give our PRESIDENT a call.",
+  "msgstr": "Et voilà, {PLAYER}!\\pJ’ai ajouté la fonction MATCH PHONE\\nà ton PokéNav.\\pEn utilisant cette fonction, tu peux\\ntchater avec les personnes qui sont\\lenregistrées dans ton PokéNav.\\pNotre PRESIDENT doit déjà y être\\nenregistré.\\pEssaie-le pour voir. Appelle notre\\nPRESIDENT.",
+  "detail": "manque ['{PLAYER}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "…Oh?\\pThe visitor is reaching for their own\\nBAG and rummaging about in it!\\pThe visitor pulled out\\none {STR_VAR_2}!\\pLook at the visitor smile while\\nholding up the {STR_VAR_2}!\\pIt's like a TV commercial!",
+  "msgstr": "Oh?\\pNotre visiteur a ouvert son Sac\\net y cherche quelque chose!\\p{STR_VAR_2}? C’est donc ça que notre\\nvisiteur cherchait!\\pRegardez le sourire de notre visiteur\\nalors qu’il brandit l’objet!\\pOn pourrait en faire une pub pour un\\ndentifrice!",
+  "detail": "manque ['{STR_VAR_2}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "Check out this {STR_VAR_2}!\\pIt's the {STR_VAR_2} that I caught\\nyesterday to celebrate my birthday!\\pOh, I can see that you want it!\\nAfter all, it's priceless!\\pI'll tell you what. I might be willing\\nto trade it for a {STR_VAR_1}.",
+  "msgstr": "Regarde-moi ce {STR_VAR_2}!\\pJe l’ai attrapé hier pour fêter mon\\nanniversaire!\\pIl te plaît, on dirait!\\nComme je te comprends…\\pBon… J’accepterais peut-être\\nde l’échanger contre un {STR_VAR_1}.",
+  "detail": "manque ['{STR_VAR_2}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Are you… {PLAYER}?\\nOh! Sniff…sob…\\pOh! S-sorry…\\nI'm so nervous, I can't help crying…\\pI'm {STR_VAR_1}, and I really look up\\nto you, {PLAYER}.\\pI… I had this dream of one day meeting\\nyou and asking you about POKéMON.\\pPlease, please, {PLAYER}!\\nPlease teach me about POKéMON!",
+  "msgstr": "{PLAYER}, c’est bien toi?\\nOh! Sniff…\\pOh! Je suis désolé…\\nC’est l’émotion…\\pJe m’appelle {STR_VAR_1}. Je suis un de\\ntes plus grands fans, tu sais?\\pTe rencontrer… c’était un de mes rêves.\\nEt il se réalise à l’instant!\\pS’il te plaît, {PLAYER}, apprends-moi ce\\nque tu sais sur les Pokémon!",
+  "detail": "manque ['{PLAYER}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "CLERK: {STR_VAR_1} also bought the item\\n{STR_VAR_2} in bulk, taking {STR_VAR_3}.\\pINTERVIEWER: Oh, that's smart.\\n{STR_VAR_2}'s a very good item, too.",
+  "msgstr": "VENDEUSE: {STR_VAR_1} a aussi acheté\\nl’objet {STR_VAR_2}. Il en a pris {STR_VAR_3}.\\pJOURNALISTE: Oh, bonne idée.\\nC’est un objet très utile aussi.",
+  "detail": "manque ['{STR_VAR_2}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "DAD: Now…\\p{PLAYER}, if you want to become a\\nstrong TRAINER, here's my advice.\\pHead for RUSTBORO CITY beyond this\\ntown.\\pThere, you should challenge\\nthe GYM LEADER, ROXANNE.\\pAfter her, go on to other POKéMON\\nGYMS and defeat their LEADERS.\\pCollect BADGES from them,\\nunderstood?\\pOf course, I'm a GYM LEADER, too.\\nWe'll battle one day, {PLAYER}.\\pBut that's only after you become\\nstronger.",
+  "msgstr": "PAPA: Bon, maintenant…\\p{PLAYER}, si tu veux devenir un\\nbon Dresseur, voici mon conseil.\\pVa à MEROUVILLE, c’est la ville\\nqui se trouve un peu plus loin.\\pLà, il te faudra battre le Champion\\nD’Arène, ROXANNE.\\pEnsuite, rends-toi dans les autres\\nArènes et bats les CHAMPIONS.\\pTu dois obtenir leurs Badges,\\ncompris?\\pBien sûr, je suis aussi un Champion.\\nUn jour, on s’affrontera, {PLAYER}.\\pMais avant, il va falloir que tu\\naméliores ton niveau, {PLAYER}.",
+  "detail": "manque [] ; en trop ['{PLAYER}']"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "I track weather patterns over\\nthe HOENN region.\\pPresently, a drought has been recorded\\nin {STR_VAR_1}.\\pCould that mean, somewhere near\\n{STR_VAR_1}…",
+  "msgstr": "J’étudie les conditions météo dans\\nla région de HOENN.\\pNous observons actuellement une\\nsécheresse sur la {STR_VAR_1}.\\pEnfin, quelque part dans cette\\nzone…",
+  "detail": "manque ['{STR_VAR_1}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "I track weather patterns over\\nthe HOENN region.\\pPresently, heavy rainfall has been\\nrecorded over {STR_VAR_1}.\\pCould that mean, somewhere near\\n{STR_VAR_1}…",
+  "msgstr": "J’étudie les conditions météo dans\\nla région de HOENN.\\pNous enregistrons actuellement de\\nfortes pluies sur le {STR_VAR_1}.\\pEnfin, quelque part dans cette\\nzone…",
+  "detail": "manque ['{STR_VAR_1}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "INTERVIEWER: Speaking of the item\\n{STR_VAR_2}, I just bought {STR_VAR_3} of\\lthem recently.\\pAfter all, {STR_VAR_2}'s a great item!",
+  "msgstr": "JOURNALISTE: Puisqu’on parle de l’objet\\n{STR_VAR_2}, j’en ai justement acheté\\l{STR_VAR_3} récemment.\\pAprès tout, c’est un super objet!",
+  "detail": "manque ['{STR_VAR_2}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "INTERVIEWER: The TRAINER bought\\n{STR_VAR_3} {STR_VAR_2}S? That's a haul!\\pIf I may say so, {STR_VAR_1} must have\\nbeen stocking up for a long journey\\lto far-off places.\\pFor traveling, {STR_VAR_2}S are so\\nimportant!",
+  "msgstr": "JOURNALISTE: Le Dresseur en a acheté\\n{STR_VAR_3}? Impressionnant!\\pA mon avis, {STR_VAR_1} se préparait à\\neffectuer un long voyage dans des\\lcontrées lointaines.\\pIl faut toujours avoir ce type\\nd’objet quand on voyage!",
+  "detail": "manque ['{STR_VAR_2}', '{STR_VAR_2}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Let's interview the clerk to get the\\nlowdown.\\pHi, how's your business?\\pCLERK: Oh, we're doing unbelievable\\nbusiness. It's almost overwhelming.\\pRecently, a TRAINER named {STR_VAR_1}\\nbought the item {STR_VAR_2} in bulk.\\pThe TRAINER almost cleared out our\\nentire stock of {STR_VAR_2}S.\\pI never dreamt that any customer\\nwould ever need so many {STR_VAR_2}S.\\lIt's just unheard of!\\pINTERVIEWER: So that would be like 100\\nor 200 sold?\\pCLERK: Oh, no, much more than that!\\pINTERVIEWER: Oh, my goodness!\\n{STR_VAR_1} must be a special shopper!\\pCLERK: {STR_VAR_1} is a VIP customer,\\nno doubt about it.",
+  "msgstr": "Interrogeons cette vendeuse pour\\nsavoir quelle est la tendance.\\pBonjour, comment vont les affaires?\\pVENDEUSE: Oh, les affaires marchent\\ntrès fort. Nous avons du mal à suivre.\\pRécemment, un Dresseur du nom\\nde {STR_VAR_1} a acheté un lot de l’objet\\l{STR_VAR_2}.\\pLe Dresseur a pratiquement épuisé\\nnotre stock pour cet objet.\\pJe n’aurais jamais espéré qu’une seule\\npersonne m’en achète autant.\\lJe n’avais jamais vu ça!\\pJOURNALISTE: Combien en avez-vous\\nvendu, finalement? 100, 200?\\pVENDEUSE: Oh, non, bien plus que ça!\\pJOURNALISTE: Bon sang, {STR_VAR_1} aime\\nvraiment faire du shopping!\\pVENDEUSE: {STR_VAR_1} fait partie de ma\\nclientèle privilégiée, c’est sûr.",
+  "detail": "manque ['{STR_VAR_2}', '{STR_VAR_2}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "MC: Well, there you have it. This place\\nis full of the {STR_VAR_1}'s fans!\\pI should also mention that another\\nPOKéMON, {STR_VAR_2}'s {STR_VAR_3}, \\lcaught my eye.\\p{STR_VAR_2}'s {STR_VAR_3}…",
+  "msgstr": "ANIMATRICE: Cet endroit est rempli\\nde fans de {STR_VAR_1}!\\pMais je dois vous avouer qu’un autre\\nPokémon a attiré mon attention,\\lle {STR_VAR_3} de {STR_VAR_2}!\\p{STR_VAR_3}…",
+  "detail": "manque ['{STR_VAR_2}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "PROF. BIRCH: Great!\\n{RIVAL} should be happy, too.\\pGet {RIVAL} to teach you what it\\nmeans to be a TRAINER.",
+  "msgstr": "Prof. SEKO: Super!\\nÇa fera plaisir à {RIVAL}.\\pDemande-lui de t’apprendre en\\nquoi consiste la vie de Dresseur.",
+  "detail": "manque ['{RIVAL}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Spectator: Oh…\\nThat {STR_VAR_2}'s {STR_VAR_3}!\\l{STR_VAR_2}'s {STR_VAR_3}!\\l{STR_VAR_2}'s {STR_VAR_3}!\\lHow could it be so wonderful?",
+  "msgstr": "Spectateur: Oh!\\pCette capacité {STR_VAR_3} de\\n{STR_VAR_2}!\\pComment arrive-t-il à faire des\\nchoses pareilles?",
+  "detail": "manque ['{STR_VAR_2}', '{STR_VAR_2}', '{STR_VAR_3}', '{STR_VAR_3}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Spectator: The {STR_VAR_2} didn't do\\nwell in the primary judging, but it\\lcleaned up in the secondary judging!\\pIt was a miraculous comeback\\nfor that {STR_VAR_2}. Yippee!",
+  "msgstr": "Spectateur: {STR_VAR_2} n’a pas eu un\\nbon résultat au jugement préliminaire,\\pmais s’est rattrapé au jugement\\nsecondaire!",
+  "detail": "manque ['{STR_VAR_2}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "TRAINER FAN CLUB\\n{STR_VAR_1} SPECIAL!\\pThis is a special presentation for\\nthe fans of {STR_VAR_1} all over HOENN!\\pToday, we ask the question, “What do\\npeople think of {STR_VAR_1}?”\\pWe posed the question to {STR_VAR_2}\\nas the TRAINER representative.\\pWe asked, “In one word, how would\\nyou describe {STR_VAR_1}?”\\pThe reply: “{STR_VAR_3}.”\\pKudos to {STR_VAR_2}!\\nWhat a perceptive opinion!\\p“{STR_VAR_3} {STR_VAR_1}.”\\nIt has such a nice ring to it!\\p{STR_VAR_2} also scored {STR_VAR_1}'s\\nstrength from 0 to 100.",
+  "msgstr": "FAN CLUB DES Dresseurs\\nREPORTAGE SPECIAL SUR {STR_VAR_1}!\\pCeci est une émission spéciale pour\\ntous les fans de {STR_VAR_1}\\là travers HOENN!\\pAujourd’hui, nous vous avons demandé\\nce que vous pensiez de {STR_VAR_1}.\\pNous avons posé la question à\\n{STR_VAR_2} comme représentant des\\lDresseurs.\\pNous avons demandé: “En un mot,\\ncomment décririez-vous {STR_VAR_1}?”\\pSa réponse: “{STR_VAR_3}”.\\pBravo à {STR_VAR_2}!\\nQuelle perspicacité!\\p{STR_VAR_2} a également noté la force\\nde {STR_VAR_1} de 0 à 100.",
+  "detail": "manque ['{STR_VAR_1}', '{STR_VAR_3}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "WALLY: Oh… If you won't battle me,\\n{PLAYER}, my UNCLE won't know that I've\\lbecome really strong.",
+  "msgstr": "TIMMY: Oh… Si tu n’acceptes pas de\\nm’affronter, mon oncle ne pourra pas\\lvoir que je suis devenu vraiment fort.",
+  "detail": "manque ['{PLAYER}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "WALLY: {PLAYER}? It's awesome!\\nThat RALTS we caught together?\\lIt evolved, {PLAYER}!\\pMaybe I'm talented…\\pOh, but I shouldn't get a big head\\nlike that!\\pAfter all, it's the POKéMON that\\nshould be praised!",
+  "msgstr": "TIMMY: {PLAYER}? Tu sais quoi?\\nLe TARSAL qu’on a capturé\\lensemble a évolué!\\pPeut-être que je suis doué,\\naprès tout…\\pEn tout cas, il ne faut pas que\\nje prenne la grosse tête!\\pC’est le Pokémon qui fait le\\nplus gros du travail!",
+  "detail": "manque ['{PLAYER}'] ; en trop []"
+ },
+ {
+  "controle": "CODES",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "… … … … … …\\n… … … … … Beep!\\pWALLY: Oh, hello, {PLAYER}!\\pI just wanted to tell you that\\nmy uncle bought me a POKéNAV!\\pNow I can get in touch with you\\nanytime, {PLAYER}!\\p… … … … … …\\n… … … … … Click!",
+  "msgstr": "… … … … … …\\n… … … … … Bip!\\pTIMMY: Oh, bonjour, {PLAYER}!\\pJe voulais juste te dire que mon\\noncle m’a acheté un PokéNav!\\pJe peux t’appeler quand je veux!\\p… … … … … …\\n… … … … … Clic!",
+  "detail": "manque ['{PLAYER}'] ; en trop []"
+ },
+ {
+  "controle": "ESPACE",
+  "fichier_po": "dialogues.po",
+  "source": "SoulSilver FR officiel",
+  "msgid": "BILL'S PC.\\p",
+  "msgstr": "PC DE LEO",
+  "detail": "fin '\\\\p' non conservée"
+ },
+ {
+  "controle": "ESPACE",
+  "fichier_po": "dialogues.po",
+  "source": "SoulSilver FR officiel",
+  "msgid": "Call your mom on your POKéGEAR\\nto let her know how you're doing.$\\p",
+  "msgstr": "Avec un Pokématos, tu peux appeler ta\\nmère à tout moment pour lui\\pdonner de tes nouvelles.",
+  "detail": "fin '\\\\p' non conservée"
+ },
+ {
+  "controle": "ESPACE",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "KUNI: Go, face HO-OH. ",
+  "msgstr": "KUNI: Va, affronte HO-OH.",
+  "detail": "fin ' ' non conservée"
+ },
+ {
+  "controle": "ESPACE",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "KUNI: Go, face LUGIA. ",
+  "msgstr": "KUNI: Va, affronte LUGIA.",
+  "detail": "fin ' ' non conservée"
+ },
+ {
+  "controle": "ESPACE",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "MIKI: Go, face HO-OH. ",
+  "msgstr": "MIKI: Va, affronte HO-OH.",
+  "detail": "fin ' ' non conservée"
+ },
+ {
+  "controle": "ESPACE",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "MIKI: Go, face LUGIA. ",
+  "msgstr": "MIKI: Va, affronte LUGIA.",
+  "detail": "fin ' ' non conservée"
+ },
+ {
+  "controle": "ESPACE",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "NAOKO: Go, face HO-OH. ",
+  "msgstr": "NAOKO: Va, affronte HO-OH.",
+  "detail": "fin ' ' non conservée"
+ },
+ {
+  "controle": "ESPACE",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "NAOKO: Go, face LUGIA. ",
+  "msgstr": "NAOKO: Va, affronte LUGIA.",
+  "detail": "fin ' ' non conservée"
+ },
+ {
+  "controle": "ESPACE",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "SAYO: Go, face HO-OH. ",
+  "msgstr": "SAYO: Va, affronte HO-OH.",
+  "detail": "fin ' ' non conservée"
+ },
+ {
+  "controle": "ESPACE",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "SAYO: Go, face LUGIA. ",
+  "msgstr": "SAYO: Va, affronte LUGIA.",
+  "detail": "fin ' ' non conservée"
+ },
+ {
+  "controle": "ESPACE",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "That is indeed HO-OH...\\nThe guardian of the sky from\\pancient times... \\pSo many have tried again and again,\\nonly to fail...\\p{PLAYER}, your heart in complete\\nharmony with the CLEAR BELL has finally\\pallowed it to appear...\\n{PLAYER}, don't you see?\\pHO-OH... It must have been waiting for\\nsomeone like you all this time.\\pWouldn't you agree? ",
+  "msgstr": "C’est bien HO-OH…\\nLe gardien du ciel depuis la\\pnuit des temps…\\pTant d’autres ont essayé encore et\\nencore, sans jamais réussir…\\p{PLAYER}, ton cœur en parfaite\\nharmonie avec le GLAS TRANSPARENT\\pa enfin permis sa venue…\\n{PLAYER}, tu comprends?\\pHO-OH… Il attendait sûrement\\nquelqu’un comme toi depuis tout\\lce temps.\\pN’es-tu pas d’accord?",
+  "detail": "fin ' ' non conservée"
+ },
+ {
+  "controle": "ESPACE",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "ZUKI: Go, face HO-OH. ",
+  "msgstr": "ZUKI: Va, affronte HO-OH.",
+  "detail": "fin ' ' non conservée"
+ },
+ {
+  "controle": "ESPACE",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "ZUKI: Go, face LUGIA. ",
+  "msgstr": "ZUKI: Va, affronte LUGIA.",
+  "detail": "fin ' ' non conservée"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "A strange panel... Nothing here.",
+  "msgstr": "Un panneau étrange… Rien ici.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "DUFF: Watching over my girlfriend\\nmakes my heart soar!\\pEDA: My heart's feelings for my\\nboyfriend are as wide and deep\\lthe ocean!",
+  "msgstr": "DUFF: Veiller sur ma chérie me fait\\npousser des ailes!\\pEDA: Mon amour pour mon chéri est\\naussi vaste et profond\\lque l’océan!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Hi!\\pRED's been away for a long time.\\pHe hasn't called either, so I have\\nno idea where he is or what he's\\lbeen doing.\\pThey say that no word is proof that\\nhe's doing fine, but I do worry\\labout him.",
+  "msgstr": "Bonjour!\\pRED est parti depuis longtemps.\\pIl n’appelle même pas, alors je\\nne sais pas où il est ni ce\\lqu’il fait.\\pOn dit que pas de nouvelles,\\nbonnes nouvelles, mais je\\lm’inquiète pour lui.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "I like snoozing with the radio on…\\n…Zzzz…",
+  "msgstr": "J’adore roupiller avec la radio…\\n…Zzzz…",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "I'm here to buy SURF MAIL to send\\nto my girlfriend.\\pWait, they're out of stock?",
+  "msgstr": "Je viens acheter une LETTRE VAGUE\\npour ma copine.\\pQuoi, il n’y en a plus?",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "I've been traveling all over, looking\\nfor a good {STR_VAR_1}.\\pWould you trade one for my\\n{STR_VAR_2}?",
+  "msgstr": "Je voyage partout à la recherche\\nd’un bon {STR_VAR_1}.\\pTu m’en échangerais un contre\\nmon {STR_VAR_2}?",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Is there anything else I can\\nhelp you with, sweetie?",
+  "msgstr": "Je peux faire autre chose pour\\ntoi, mon trésor?",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "It's a shelf packed full of\\ncomputer games and graphic novels!",
+  "msgstr": "Une étagère bourrée de jeux vidéo\\net de bandes dessinées!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Please come back another time.\\nThe store is... closed\\lright now.",
+  "msgstr": "Revenez une autre fois.\\nLa boutique est… fermée\\lpour le moment.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "SLOWKING: HMMM...",
+  "msgstr": "ROIGADA: HMMM…",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "THIS MACHINE WILL TRANSFORM\\nA POKéMON INTO ITS GALARIAN FORM\\lTHIS PROCESS IS PERMANENT.\\lWOULD YOU LIKE TO PROCEED?",
+  "msgstr": "CETTE MACHINE TRANSFORME UN\\nPOKéMON EN SA FORME DE GALAR.\\lCE PROCEDE EST IRREVERSIBLE.\\lVOULEZ-VOUS CONTINUER?",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "TM move",
+  "msgstr": "capacité CT",
+  "detail": "minuscule initiale (anglais en majuscule)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "That's too bad.",
+  "msgstr": "\\nTant pis.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "The MALASADAS here are delicious.\\nJust like the real ones in ALOLA!",
+  "msgstr": "Les MALASADAS d’ici sont délicieuses.\\nComme les vraies, en ALOLA!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "The snow makes it hard to navigate\\nthis place.\\pIt all looks the same.\\pSo this map is a big help!\\pWhat a beautiful region!",
+  "msgstr": "Avec la neige, on a du mal\\nà s’orienter ici.\\pTout se ressemble.\\pAlors cette carte m’aide bien!\\pQuelle région magnifique!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "This drink is so goo--ood!\\n.......\\p.......\\pHahaha\\p.......",
+  "msgstr": "Cette boisson est trop bo-onne!\\n…\\p…\\pHahaha\\p…",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Urrggh… The guy in the cape is\\nincredibly tough…",
+  "msgstr": "Argh… Le type à la cape est\\nvachement costaud…",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "We're vacationing on the ALOLA ISLES!\\pIt's just like the ALOLA region,\\nbut closer to KANTO!\\pI saved so much on travel expenses!",
+  "msgstr": "On est en vacances aux ILES D’ALOLA!\\pC’est comme la région d’ALOLA,\\nmais plus près de KANTO!\\pQuelle économie sur le voyage!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Were you looking at these flowers\\nor at me?",
+  "msgstr": "Tu regardais ces fleurs\\nou bien moi?",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "What do you want?",
+  "msgstr": "Quoi?",
+  "detail": "ratio de longueur 0.29"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "You have not only made LUGIA\\nappear, but you have also defeated\\lit...\\pThere is nothing more for us to\\nsay. Take care of yourself in your\\ljourney...",
+  "msgstr": "Non seulement tu as fait apparaître\\nLUGIA, mais tu l’as aussi vaincu…\\pNous n’avons plus rien à te dire.\\nPrends soin de toi durant ton\\lvoyage…",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "{PLAYER} played with the NES.\\p…Okay!\\nIt's time to go!",
+  "msgstr": "{PLAYER} joue à la NES!\\p… Bon!\\nFaut y aller!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "A radio...\\nThe battery is dead...",
+  "msgstr": "Une radio…\\nLa pile est à plat…",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "ANN: ANNE and I are in this\\ntogether!",
+  "msgstr": "ANN: Anne et moi, on est solidaires!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "Anyway, can I make you some BALLS?",
+  "msgstr": "Bon, je te fabrique des BALLS?",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "CHINCHOU: Chou!",
+  "msgstr": "LOUPIO: Piooo!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "Check out this {STR_VAR_2}!\\pIt's the {STR_VAR_2} that I caught\\nyesterday to celebrate my birthday!\\pOh, I can see that you want it!\\nAfter all, it's priceless!\\pI'll tell you what. I might be willing\\nto trade it for a {STR_VAR_1}.",
+  "msgstr": "Regarde-moi ce {STR_VAR_2}!\\pJe l’ai attrapé hier pour fêter mon\\nanniversaire!\\pIl te plaît, on dirait!\\nComme je te comprends…\\pBon… J’accepterais peut-être\\nde l’échanger contre un {STR_VAR_1}.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "DENNIS: SHAAAAAAAA!",
+  "msgstr": "DENNIS: CHAAAAAAAA!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "FIGHTING DOJO",
+  "msgstr": "DOJO",
+  "detail": "ratio de longueur 0.31"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "FIGHTING DOJO VIP LOUNGE",
+  "msgstr": "SALON VIP DU DOJO",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "H-hello! Welcome to our Cafe!\\nHow can I help you today?",
+  "msgstr": "B-bonjour! Bienvenue dans notre café!\\nQue désirez-vous?",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "Hey!",
+  "msgstr": "Hé!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "Hey, kid!\\pKeep your guard up out here,\\nthis place is cracklin' with power!\\pIf you want a rematch, report to\\nthe FIGHTING DOJO!",
+  "msgstr": "Hé, petit!\\pReste sur tes gardes, ici,\\nça crépite d’énergie!\\pSi tu veux une revanche,\\nrendez-vous au DOJO!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "Hi! Check out my GYARADOS!\\pI raised it from a MAGIKARP. I can't\\nbelieve how strong it has become.",
+  "msgstr": "Salut! Regarde mon LEVIATOR!\\pJe l’ai élevé depuis qu’il était\\nMAGICARPE. Il est devenu si fort!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "Hold it there, kiddo!\\pThe toll is ¥500 to go\\nthrough.",
+  "msgstr": "Halte-là, gamin!\\pLe péage coûte 500¥ pour\\npasser.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "I just love living in the big city!\\nI moved here when I was a young\\ltrainer, like you!",
+  "msgstr": "J’adore vivre en ville!\\nJe suis venu ici quand j’étais\\ljeune Dresseur, comme toi!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "I tell my husband everyday not to feed\\nthe NATU, but he never listens!\\pOne day he'll bring one of those darn\\nthings home, I just know it!",
+  "msgstr": "Je répète à mon mari de ne pas\\nnourrir les NATU, mais il n’écoute rien!\\pUn jour, il va en ramener un à\\nla maison, j’en suis sûre!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "I will see you at the DOJO!\\nWAHAHAHAHAHA",
+  "msgstr": "On se voit au DOJO!\\nWAHAHAHAHAHA",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "Island life here is so peaceful!\\pAnd it's nice that my grandkids are just\\na quick boat ride away in KANTO!",
+  "msgstr": "La vie est si paisible sur l’île!\\pEt mes petits-enfants ne sont qu’à\\nun saut de bateau, à KANTO!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "It couldn't be found nearby.\\nTry looking in a different area!",
+  "msgstr": "Introuvable dans les parages.\\nCherchez dans une autre zone!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "It's a display case neatly\\npacked and lined with samples\\land artifacts!",
+  "msgstr": "Une vitrine bien rangée,\\nremplie d’échantillons\\let d’artefacts!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "It's crammed full of ancient\\nleather-bound books.\\pThe language is unrecognizeable.",
+  "msgstr": "C’est rempli de vieux livres\\nreliés de cuir.\\pLa langue est méconnaissable.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "KINGDRA: Draaa...",
+  "msgstr": "HYPOROI: Hypooo…",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "LICKILICKY: LIIIIICK!",
+  "msgstr": "COUDLANGUE: LIIIIICK!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "OKAY, you can have the PLATE.",
+  "msgstr": "OK, tu peux avoir la PLAQUE.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "OW_BERRY_WEEDS is disabled.\\nUnable to force weeds onto berry trees.",
+  "msgstr": "OW-BERRY-WEEDS est désactivé.\\nImpossible de semer des herbes.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "Oh, {PLAYER}.\\nIsn't the fountain lovely today?\\pIf you wish for another battle,\\nI'll be at the FIGHTING DOJO.",
+  "msgstr": "Oh, {PLAYER}.\\nLa fontaine est superbe, non?\\pSi tu veux un autre combat,\\nje serai au DOJO.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "POLIWHIRL: Whirl-whirl!",
+  "msgstr": "TETARTE: Têta-têta!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "Press the R Button to set the\\nclock when looking at the time.",
+  "msgstr": "Pour régler l’horloge, appuyez\\nsur R en regardant l’heure.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "REST{CLEAR_TO 0x58}2,000 C.",
+  "msgstr": "REST{CLEAR_TO 88}2,000 C.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "SCIZOR: Scii-zor!",
+  "msgstr": "CIZAYOX: Ciizay!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "SHIZUKO: We are trained in\\nbattle as well as dance.\\pObtaining the PLATEs will\\nrequire strength and determination.",
+  "msgstr": "SHIZUKO: Nous maîtrisons le combat\\naussi bien que la danse.\\pObtenir les PLAQUES exigera\\nforce et détermination.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "STARMIE: Hyaaa!",
+  "msgstr": "STAROSS: Hyaaa!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "SaveBlock1 size: {STR_VAR_1}b/{STR_VAR_2}b.\\nFree space: {STR_VAR_3}b.",
+  "msgstr": "SaveBlock1: {STR_VAR_1}o/{STR_VAR_2}o.\\nEspace libre: {STR_VAR_3}o.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "Single",
+  "msgstr": "Solo",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "So much open water here!",
+  "msgstr": "Que d’eau, que d’eau!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "That's it! You're welcome!",
+  "msgstr": "Et voilà! De rien!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "The body must be hardened\\nand the mind strengthened\\lin the harshest of conditions!",
+  "msgstr": "Le corps s’endurcit et l’esprit\\nse fortifie dans les conditions\\lles plus rudes!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "The cliff is steep.\\nWould you like to use Rock Climb?",
+  "msgstr": "La paroi est abrupte.\\nVoulez-vous utiliser Escalade?",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "There's nothing like a nice view to\\ninvigorate this old soul.",
+  "msgstr": "Rien de tel qu’une belle vue\\npour requinquer une vieille âme.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "This appears to be Growlithe's ball..\\nBetter leave it alone.",
+  "msgstr": "On dirait la BALL de CANINOS…\\nMieux vaut ne pas y toucher.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "This is a good time to brag\\nabout my PIKACHU!",
+  "msgstr": "C’est le moment de frimer avec\\nmon PIKACHU!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "This is the entrance to the\\nunexplored branch... {PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}\\pDoes it feel cold here to you?\\pOkay, I'm going to leave now.\\pGood luck!",
+  "msgstr": "Voici l’entrée de la galerie\\ninexplorée… {PAUSE 15}{PAUSE 15}{PAUSE 15}\\pTu ne trouves pas qu’il fait\\nfroid, ici?\\pBon, moi, je m’en vais.\\pBonne chance!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "VICTREEBEL: Vreeee!",
+  "msgstr": "EMPIFLOR: Empiiii!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "WESLEY: Well, how do you do?\\pI'm a member of the WEEKDAY family!\\nCan you guess my favorite day?",
+  "msgstr": "WESLEY: Eh bien, enchanté!\\pJe suis de la famille de la\\nSEMAINE! Devine mon jour préféré!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "Why are you here? Are you just\\ngoing to gawk? I suggest you leave!",
+  "msgstr": "Pourquoi tu es là? Juste pour\\nregarder bêtement? Va-t’en!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "Would you like to skip this\\npuzzle?",
+  "msgstr": "Voulez-vous passer cette\\nénigme?",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "You came at just the right\\ntime.\\pLet's battle.",
+  "msgstr": "Tu tombes à pic.\\pBattons-nous.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "You have not only made HO-OH\\nappear, but you have also defeated\\lit...\\pThere is nothing more for us to\\nsay. Take care of yourself in your\\ljourney...",
+  "msgstr": "Non seulement tu as fait apparaître\\nHO-OH, mais tu l’as aussi vaincu…\\pNous n’avons plus rien à te dire.\\nPrends soin de toi durant ton\\lvoyage…",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "You just came from JOHTO?\\nHow's the fishin' over there\\l...\\pJOHTO has RED GYARADOS?!",
+  "msgstr": "Tu viens de JOHTO?\\nAlors, ça mord, là-bas?\\l…\\pIl y a un LEVIATOR rouge à JOHTO?!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "You're from JOHTO, aren't you?\\pHow do you like KANTO?\\nIt's nice, don't you agree?",
+  "msgstr": "Tu viens de JOHTO, pas vrai?\\pComment tu trouves KANTO?\\nC’est sympa, hein?",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "{PLAYER}! Fancy seeing you here!\\pI'm picking up something for\\nmy MILTANK.\\pIf you want another battle, come to\\nthe FIGHTING DOJO!",
+  "msgstr": "{PLAYER}! Quelle surprise de te\\nvoir ici!\\pJe fais des courses pour\\nmon ECREMEUH.\\pSi tu veux une revanche, viens\\nau DOJO!",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "{PLAYER}.\\pEven here, the cold keeps me sharp.\\pIf you wish to battle again, come\\nto the FIGHTING DOJO.",
+  "msgstr": "{PLAYER}.\\pMême ici, le froid me garde\\nl’esprit vif.\\pSi tu veux m’affronter à nouveau,\\nviens au DOJO.",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "{STR_VAR_1} is what you want?",
+  "msgstr": "Tu veux {STR_VAR_1}?",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "…Zzzz…",
+  "msgstr": "zzz…",
+  "detail": "toujours précédé d’une lettre dans la ROM du patch FR (morceau d’une autre chaîne)"
+ },
+ {
+  "controle": "FRAGMENT",
+  "fichier_po": "dialogues.po",
+  "source": "relu et corrigé à la main",
+  "msgid": "BATTLE TENT challenge?",
+  "msgstr": "défi de la TENTE DE Combat?",
+  "detail": "minuscule initiale (anglais en majuscule)"
+ },
+ {
+  "controle": "GLOSSAIRE",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Hey, {PLAYER}!\\nIt's BRENT!\\pDid you know…?\\pBILL's originally from\\nGOLDENROD.\\pEvidently, BILL isn't very\\ngood at battling.",
+  "msgstr": "Hé, {PLAYER}!\\nC’est BRENT!\\pTu savais…?\\pLEO est originaire de\\nDoublonville.\\pApparemment, Léo n’est\\npas très doué en combat.",
+  "detail": "graphie glossaire différente : ['LEO ']"
+ },
+ {
+  "controle": "GLOSSAIRE",
+  "fichier_po": "dialogues.po",
+  "source": "traduction manuelle (style SoulSilver)",
+  "msgid": "Here at the FACTORY BATTLE TENT,\\n",
+  "msgstr": "Ici, à la TENTE DE COMBAT USINE,\\n",
+  "detail": "graphie glossaire différente : ['TENTE DE COMBAT USINE']"
+ },
+ {
+  "controle": "GLOSSAIRE",
+  "fichier_po": "dialogues.po",
+  "source": "traduction manuelle (style SoulSilver)",
+  "msgid": "In the ARENA BATTLE TENT,\\n",
+  "msgstr": "A la TENTE DE COMBAT ARENE,\\n",
+  "detail": "graphie glossaire différente : ['TENTE DE COMBAT ARENE']"
+ },
+ {
+  "controle": "GLOSSAIRE",
+  "fichier_po": "dialogues.po",
+  "source": "traduction manuelle (style SoulSilver)",
+  "msgid": "In the PALACE BATTLE TENT,\\n",
+  "msgstr": "A la TENTE DE COMBAT PALACE,\\n",
+  "detail": "graphie glossaire différente : ['TENTE DE COMBAT PALACE']"
+ },
+ {
+  "controle": "GLOSSAIRE",
+  "fichier_po": "dialogues.po",
+  "source": "traduction nouvelle",
+  "msgid": "Here at the SLATEPORT BATTLE TENT,\\n",
+  "msgstr": "A la TENTE DE COMBAT DE POIVRESSEL,\\n",
+  "detail": "graphie glossaire différente : ['TENTE DE COMBAT DE POIVRESSEL']"
+ },
+ {
+  "controle": "GLOSSAIRE",
+  "fichier_po": "dialogues.po",
+  "source": "traduction nouvelle",
+  "msgid": "In the FALLARBOR BATTLE TENT,\\n",
+  "msgstr": "A la TENTE DE COMBAT D’AUTEQUIA,\\n",
+  "detail": "graphie glossaire différente : ['TENTE DE COMBAT D’AUTEQUIA']"
+ },
+ {
+  "controle": "GLOSSAIRE",
+  "fichier_po": "dialogues.po",
+  "source": "traduction nouvelle",
+  "msgid": "In the VERDANTURF BATTLE TENT,\\n",
+  "msgstr": "A la TENTE DE COMBAT DE VERGAZON,\\n",
+  "detail": "graphie glossaire différente : ['TENTE DE COMBAT DE VERGAZON']"
+ },
+ {
+  "controle": "GLOSSAIRE",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Go, go, go!\\nPOKéMON 1, 2, and 3!",
+  "msgstr": "Go, go, go!\\nPOKéMON 1, 2, et 3!",
+  "detail": "graphie glossaire différente : ['POKéMON ']"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "AMY: You're really strong!\\pBut BUGSY's even stronger!\\nHis SCYTHER's CUT almost\\lalways makes critical hits!",
+  "msgstr": "AMY: Tu es super fort!\\pMais Hector l’est encore plus!\\nLa Coupe de son INSECATEUR fait\\lpresque toujours des coups critiques!",
+  "detail": "200 px : presque toujours des coups critiques!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "BRENDAN: By the way, {PLAYER}, I walked\\nby MR. BRINEY in PETALBURG WOODS.\\pI bet he was on his way home to his\\ncottage by the sea.\\p{PLAYER}, how's your POKéDEX?\\nHave you filled in any pages yet?\\pMine rules.\\pWant to have a battle to test how\\nfar you've progressed?",
+  "msgstr": "BRICE: Au fait, j’ai vu M. MARCO\\nau BOIS CLEMENTI.\\pJe suis sûr qu’il rentrait chez lui, dans \\nsa petite maison près de la mer.\\p{PLAYER}, ça avance ton Pokédex?\\nT’as rempli toutes les pages?\\pLe mien est super!\\pT’as dressé tes Pokémon?\\nOn se bat pour vérifier?",
+  "detail": "207 px : Je suis sûr qu’il rentrait chez lui, dans "
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "BROCK: How's WOODY doing?\\nBONSLY are tougher than they look!",
+  "msgstr": "Pierre: Comment va WOODY?\\nLes MANZAI sont plus durs qu’on croit!",
+  "detail": "199 px : Les MANZAI sont plus durs qu’on croit!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Battle {STR_VAR_1} for 3 {STR_VAR_2} EVs?",
+  "msgstr": "Battre {STR_VAR_1} pour 3 EV {STR_VAR_2}?",
+  "detail": "217 px : Battre {STR_VAR_1} pour 3 EV {STR_VAR_2}?"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Be careful at night on this route!\\pI saw a POKéMON that looked like\\nGROWLITHE, but it had a scary aura\\lto it.",
+  "msgstr": "Fais attention la nuit sur cette route!\\pJ’ai vu un Pokémon qui ressemblait\\nà CANINOS, mais il dégageait\\lune aura effrayante.",
+  "detail": "204 px : Fais attention la nuit sur cette route!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Business is booming!\\pAnd with how much that silver haried\\nguy tips, prices have come down!",
+  "msgstr": "Les affaires marchent du tonnerre!\\pEt vu les pourboires du type aux\\ncheveux argentés, les prix ont baissé!",
+  "detail": "200 px : cheveux argentés, les prix ont baissé!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "E-he-he-he…\\pI got in trouble for playing in\\nthe DEPT.STORE basement.",
+  "msgstr": "Hé-hé-hé…\\pJe me suis fait gronder pour avoir\\njoué au sous-sol du CENTRE COMMERCIAL.",
+  "detail": "207 px : joué au sous-sol du CENTRE COMMERCIAL."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Eek! {PLAYER}! I met you again!\\nI… I'm overjoyed!\\pWhenever I'm in need, you're always\\nthere for me, {PLAYER}!\\pToday, I want you to recommend\\na move for me!\\pPlease choose a move for\\nmy {STR_VAR_1}!\\pWhich move would be better,\\n{STR_VAR_2} or {STR_VAR_3}?",
+  "msgstr": "Oh! {PLAYER}! Te revoilà!\\nQuelle joie de te revoir!\\pDès que j’ai besoin d’aide, tu es là\\npour moi, {PLAYER}!\\pAujourd’hui, j’aimerais que tu me\\nconseilles une capacité!\\pChoisis une capacité pour\\nmon {STR_VAR_1}, s’il te plaît!\\pJ’hésite entre {STR_VAR_2} et\\n{STR_VAR_3}. Laquelle est la meilleure?",
+  "detail": "200 px : {STR_VAR_3}. Laquelle est la meilleure?"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "HEART & SOUL DEVELOPMENT OFFICE",
+  "msgstr": "BUREAU DE DEVELOPPEMENT HEART & SOUL",
+  "detail": "202 px : BUREAU DE DEVELOPPEMENT HEART & SOUL"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Hello, {PLAYER}…\\nI'm sorry to disturb you again with\\lanother question.\\pI have so little confidence, I don't\\nknow what I'd do without you, {PLAYER}.\\pIt may be a waste of time for me to\\neven worry about it, but I just can't\\ldecide something…\\pWhich of my POKéMON should I send\\nout first in a battle?",
+  "msgstr": "Bonjour, {PLAYER}…\\nJe suis désolée de te déranger, mais\\lj’aimerais te poser une autre question.\\pSans toi, {PLAYER}, je ne sais pas ce\\nque je ferais. J’ai si peu confiance!\\pC’est peut-être une perte de temps,\\nmais je n’arrive pas à me décider…\\pQuel Pokémon devrais-je envoyer\\nen premier au combat?",
+  "detail": "203 px : j’aimerais te poser une autre question."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Hey, kid! You're holding us up!\\pOur policy is to work behind the\\nscenes where no one can see us!",
+  "msgstr": "Hé, gamin! Tu nous ralentis!\\pNotre politique, c’est d’agir en\\ncoulisses, là où personne ne nous voit!",
+  "detail": "202 px : coulisses, là où personne ne nous voit!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Hm? You appear to be {PLAYER}{KUN}…\\nBut are you really?\\lPerhaps a clever {PLAYER} DOLL?\\pOh, no, no, no, don't worry!\\nIf you really are real, please\\lforget about my rudeness.\\pNo need to be so angry. All I wish for\\nis more of your fine advice.\\pIt concerns a saying.\\pMore precisely, what should I say\\nif I win a battle?",
+  "msgstr": "Tiens… {PLAYER}{KUN},\\nn’est-ce pas?\\lSerais-tu une POUPEE {PLAYER}?\\pMais, si c’est vraiment toi, je te\\nprésente mes excuses. Je ne voulais\\lpas te vexer.\\pJ’ai de nouveau besoin de tes conseils\\navisés.\\pC’est une question assez personnelle.\\pPourrais-tu me suggérer quelque chose\\nd’élégant à dire en cas de victoire?",
+  "detail": "199 px : J’ai de nouveau besoin de tes conseils"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "I could stay here all day.",
+  "msgstr": "Je pourrais rester ici toute la journée.",
+  "detail": "205 px : Je pourrais rester ici toute la journée."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "I have a game on my Game Boy Advance\\nthat lets me explore the ALOLA Region!\\pIt's just like the real thing.\\pIt's called ULTRA ECLIPSE,\\nby PHANTONOMY!\\pHaha, look!\\nI'm riding an icy NOIVERN!",
+  "msgstr": "J’ai un jeu sur ma Game Boy Advance\\nqui permet d’explorer la région d’ALOLA!\\pOn s’y croirait vraiment.\\pÇa s’appelle ULTRA ECLIPSE,\\npar PHANTONOMY!\\pHaha, regarde!\\nJe chevauche un BRUYVERNE de glace!",
+  "detail": "205 px : qui permet d’explorer la région d’ALOLA!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "I just love this new slot machine.\\pIt's more of a challenge than the\\nones in CELADON.",
+  "msgstr": "J’adore cette nouvelle machine à sous.\\pElle est bien plus corsée que\\ncelles de Céladopole.",
+  "detail": "200 px : J’adore cette nouvelle machine à sous."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "I want to be the first to prove myself\\nto the Totem POKéMON!",
+  "msgstr": "Je veux être le premier à faire\\nmes preuves face au Pokémon dominant!",
+  "detail": "202 px : mes preuves face au Pokémon dominant!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "I'm glad you're here!\\nWelcome to my villa!\\pI'm staying here while I research the\\nALOLA ISLES for their similarity to\\lthe ALOLA region.\\pI'm particularly interested in the\\nphenomenon of “Regional Variants”.",
+  "msgstr": "Ravi de te voir!\\nBienvenue dans ma villa!\\pJ’y loge pendant que j’étudie les\\nressemblances entre les ILES D’ALOLA\\let la région d’ALOLA.\\pJe m’intéresse tout particulièrement\\nau phénomène des “formes régionales”.",
+  "detail": "201 px : au phénomène des “formes régionales”."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "I'm looking for some sunscreen!\\pIt's sunnier here on the ISLES!",
+  "msgstr": "Je cherche de la crème solaire!\\pIl fait plus ensoleillé, ici, sur les ILES!",
+  "detail": "208 px : Il fait plus ensoleillé, ici, sur les ILES!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "In E-MODE (EMERALD MODE),\\na LINK CONTEST can be held with\\ltwo to four players. Each player must\\lhave a POKéMON Emerald Game Pak.\\pThe players must be linked with each\\nother using Wireless Adapters or\\lGBA Game Link cables.\\pIf there are fewer than four players,\\nTRAINERS in the hall will join to fill\\lthe 4-player CONTEST lineup.\\pPlease be aware that E-MODE is not\\navailable in POKéMON Ruby or Sapphire.",
+  "msgstr": "Dans le MODE-E (MODE EMERAUDE),\\nun CONCOURS LINK prend place avec\\ldeux à quatre joueurs ayant chacun\\lune cartouche de jeu Pokémon Emeraude.\\pLes joueurs doivent être connectés en\\nutilisant des câbles GBA Game Link ou\\ldes adaptateurs sans fil.\\pS’il y a moins de quatre joueurs, des\\nDresseurs se trouvant dans le hall\\lviendront pour compléter la partie.\\pVeuillez noter que le MODE-E n’est\\npas disponible dans Pokémon Rubis\\lou Saphir.",
+  "detail": "207 px : une cartouche de jeu Pokémon Emeraude."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "It seems you've already found all the\\nAlolan variants on AKALA ISLE!\\pGreat job!\\pKeep exploring the other ISLES and\\nreport your progress to me!",
+  "msgstr": "On dirait que tu as déjà trouvé toutes\\nles formes d’Alola de l’ILE D’AKALA!\\pBravo!\\pContinue d’explorer les autres ILES\\net viens me faire ton rapport!",
+  "detail": "200 px : On dirait que tu as déjà trouvé toutes"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "It seems you've already found all the\\nAlolan variants on MELEMELE ISLE!\\pGreat job!\\pKeep exploring the other ISLES and\\nreport your progress to me!",
+  "msgstr": "On dirait que tu as déjà trouvé toutes\\nles formes d’Alola de MELE-MELE!\\pBravo!\\pContinue d’explorer les autres ILES\\net viens me faire ton rapport!",
+  "detail": "200 px : On dirait que tu as déjà trouvé toutes"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "It seems you've already found all the\\nAlolan variants on PONI ISLE!\\pGreat job!\\pKeep exploring the other ISLES and\\nreport your progress to me!",
+  "msgstr": "On dirait que tu as déjà trouvé toutes\\nles formes d’Alola de l’ILE DE PONI!\\pBravo!\\pContinue d’explorer les autres ILES\\net viens me faire ton rapport!",
+  "detail": "200 px : On dirait que tu as déjà trouvé toutes"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "It seems you've already found all the\\nAlolan variants on ULA'ULA ISLE!\\pGreat job!\\pKeep exploring the other ISLES and\\nreport your progress to me!",
+  "msgstr": "On dirait que tu as déjà trouvé toutes\\nles formes d’Alola de l’ILE D’ULA-ULA!\\pBravo!\\pContinue d’explorer les autres ILES\\net viens me faire ton rapport!",
+  "detail": "200 px : On dirait que tu as déjà trouvé toutes"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "MAY: With those GO-GOGGLES, you'll\\nhave no trouble getting through the\\ldesert near ROUTE 111.\\pBut, wow, {PLAYER}{KUN}…\\nChallenging GYMS…\\pYou're trying hard because you don't\\nwant to lose to me, I bet!\\p{PLAYER}{KUN}, I think I should challenge\\nyour dad in PETALBURG GYM.\\pSee you again!",
+  "msgstr": "FLORA: Avec ces LUNET. SABLE,\\ntu pourras sans problème traverser le\\ldésert près de la ROUTE 111.\\pMais, waouh, {PLAYER}{KUN}…\\nTe battre dans les Arènes…\\pTu t’entraînes dur car je parie que tu\\nne veux pas perdre contre moi!\\p{PLAYER}{KUN}, je crois que je devrais défier\\nton père à l’Arène de CLEMENTI-VILLE.\\pA une prochaine fois, {PLAYER}{KUN}!",
+  "detail": "202 px : {PLAYER}{KUN}, je crois que je devrais défier"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "MC: Excuse me!\\nThanks for joining us on live TV!\\pMay I congratulate you on your win?\\pWhat was the key factor in today's\\nstunning victory?\\pBEAUTY: We gave it our best effort\\ntoday, my {STR_VAR_2} and I!\\pBut I'm sure we wouldn't have made it\\nif it weren't for all the help we\\lreceived leading up to the CONTEST!\\pMC: Do you have a special someone\\nwith whom you'd like to share your joy?\\lLet's hear it live!\\pBEAUTY: Hey, out there!\\p{STR_VAR_3}! Are you watching?\\nWe did it!\\lThank you!",
+  "msgstr": "ANIMATRICE: Excusez-moi!\\nMerci de répondre à nos questions\\len direct!\\pPuis-je vous féliciter pour votre\\nvictoire?\\pQu’est-ce qui vous a permis de\\nremporter cette victoire si\\lbrillamment?\\pCanon: Nous nous sommes donnés\\nà fond aujourd’hui, mon {STR_VAR_2}\\let moi!\\pMais je suis sûre que nous n’aurions\\npas réussi sans le soutien que nous\\lavons reçu pendant le CONCOURS!\\pANIMATRICE: Y a-t-il quelqu’un en\\nparticulier avec qui vous souhaiteriez\\lpartager votre joie?\\pAllez-y, tous nos téléspectateurs vous\\nregardent!\\pCanon: Hé, tu es là?\\p{STR_VAR_3}! Est-ce que tu regardes?\\nOn a réussi!\\lMerci!",
+  "detail": "206 px : Allez-y, tous nos téléspectateurs vous"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Maybe I should take one to DAY-CARE,\\nor maybe use some items…",
+  "msgstr": "Je devrais peut-être en laisser un à la\\nPension, ou utiliser des objets…",
+  "detail": "202 px : Je devrais peut-être en laisser un à la"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "No? That's too bad…\\nI think you'd like my HAUNTER.",
+  "msgstr": "Non? Dommage…\\nJe pense que mon SPECTRUM t’aurait plu.",
+  "detail": "205 px : Je pense que mon SPECTRUM t’aurait plu."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Obtained {STR_VAR_1} {STR_VAR_2}!",
+  "msgstr": "Vous obtenez {STR_VAR_1} {STR_VAR_2}!",
+  "detail": "199 px : Vous obtenez {STR_VAR_1} {STR_VAR_2}!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Only trainers with all KANTO badges\\nmay enter the VIP lounge.",
+  "msgstr": "Seuls les Dresseurs ayant tous les\\nBadges de KANTO accèdent au salon VIP.",
+  "detail": "205 px : Badges de KANTO accèdent au salon VIP."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Ouch,\\nwhere's a lifeguard when you need one…",
+  "msgstr": "Aïe,\\njamais de maître-nageur quand il faut…",
+  "detail": "204 px : jamais de maître-nageur quand il faut…"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Research Log 10: November 1, 1975\\pI am not alone here.\\nMaybe I never was.\\pThe POKéMON are with me...\\pThey are angry with me, I think.\\pObjects are thrown, doors slam.\\pHeavy boxes block the front door.\\pBut truthfully, I could leave\\nif I wanted to.\\pThere is nothing else for me now.\\pI've written of a family before,\\nbut the POKéMON are the only family\\lI can remember...\\pI am running out of food, but my\\nguilt outpaces my hunger.\\pI think I will stay here a while...",
+  "msgstr": "Journal de recherche 10: 1er nov. 1975\\pJe ne suis pas seul ici.\\nJe ne l’ai peut-être jamais été.\\pLes Pokémon sont avec moi…\\pIls m’en veulent, je crois.\\pDes objets volent, des portes claquent.\\pDe lourdes caisses bloquent l’entrée.\\pMais à vrai dire, je pourrais\\npartir si je le voulais.\\pIl n’y a plus rien d’autre pour moi.\\pJ’ai déjà parlé d’une famille, mais\\nles Pokémon sont la seule famille\\ldont je me souvienne…\\pJe n’ai presque plus de vivres, mais\\nma culpabilité dépasse ma faim.\\pJe crois que je vais rester un peu…",
+  "detail": "207 px : Des objets volent, des portes claquent."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "STEVEN: Good luck, {PLAYER}\\pGo on, I'm right behind you.",
+  "msgstr": "Pierre ROCHARD: Bonne chance, {PLAYER}.\\pVas-y, je suis juste derrière toi.",
+  "detail": "203 px : Pierre ROCHARD: Bonne chance, {PLAYER}."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "STEVEN: You are... I remember your\\neyes.\\pWhen I see a trainer whose eyes\\ntwinkle, I always remember.\\pYou have a POKéDEX! So you are\\nalso in search of POKéMON!\\lLet me see...\\pI think I can help you with that.\\pLet's say that you have stones in\\nfront of you. Which color would\\l you pick?",
+  "msgstr": "Pierre ROCHARD: Toi… Je me souviens de\\nton regard.\\pQuand un Dresseur a des yeux\\nqui pétillent, je ne l’oublie pas.\\pTu as un Pokédex! Toi aussi, tu\\nes en quête de Pokémon!\\lVoyons voir…\\pJe crois que je peux t’aider.\\pImagine que tu as des pierres\\ndevant toi. Quelle couleur\\lchoisirais-tu?",
+  "detail": "199 px : Pierre ROCHARD: Toi… Je me souviens de"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "STEVEN: {PLAYER}!\\pI'd recognize those eyes anywhere.\\pWhat brings you this far north?\\p.............\\pI see, the KIMONO GIRLS of NEW SINJOH\\nhave sent you to aid our\\linvestigation.\\pIn that case, allow me to bring you\\nup to speed.",
+  "msgstr": "Pierre ROCHARD: {PLAYER}!\\pJe reconnaîtrais ce regard entre mille.\\pQu’est-ce qui t’amène si loin au nord?\\p…\\pJe vois. Les KIMONOS de NOUVEAU SINJOH\\nt’envoient prêter main-forte\\là notre enquête.\\pDans ce cas, laisse-moi te mettre\\nau courant.",
+  "detail": "203 px : Je reconnaîtrais ce regard entre mille."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "STEVEN: {PLAYER}.\\pDid you just find another PLATE?\\p.................\\pOf course.\\pThe legendary POKéMON lying\\nin these ruins... they're responding\\lto you, aren't they?\\pAs if they want to be found.\\pMy predictions usually come true.\\nI should have known better than\\lto doubt you.",
+  "msgstr": "Pierre ROCHARD: {PLAYER}.\\pTu viens de trouver une autre PLAQUE?\\p…\\pBien sûr.\\pLes Pokémon LEGENDAIRES qui dorment\\ndans ces ruines… Ils réagissent\\là ta présence, n’est-ce pas?\\pComme s’ils voulaient être trouvés.\\pMes prédictions se réalisent souvent.\\nJ’aurais dû savoir qu’il ne fallait\\lpas douter de toi.",
+  "detail": "199 px : Tu viens de trouver une autre PLAQUE?"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "TRAINER TIPS\\nPOKéMON stats vary--even within\\lthe same species.\\pTheir stats may be similar at first.\\pHowever, differences will become\\npronounced as the POKéMON grow.",
+  "msgstr": "CONSEILS AUX Dresseurs\\nLES stats des Pokémon varient,\\lmême au sein d’une même espèce.\\pAu début, elles peuvent se ressembler.\\pMais les différences s’accentuent\\nà mesure que les Pokémon grandissent.",
+  "detail": "199 px : Au début, elles peuvent se ressembler."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Th-that card…\\nCould it be… The GOLD CARD?!\\pOh, the gold color is brilliant!\\nThe four stars seem to sparkle!\\pI've seen several TRAINERS with\\na SILVER CARD before, but, {PLAYER},\\lyou're the first TRAINER I've ever\\lseen with a GOLD CARD!\\pOkay, {PLAYER}, please allow me\\nthe honor of resting your POKéMON!",
+  "msgstr": "Ce… Cette carte…\\nSerait-ce la Carte OR?!\\pOh, ce jaune or est si brillant!\\nLes quatre étoiles étincellent presque!\\pJ’ai déjà vu des Dresseurs avec\\ndes CARTES ARGENT, mais…\\pVous êtes le premier Dresseur que je\\nvois avec une Carte OR!\\pAccordez-moi l’honneur de soigner\\nvos Pokémon un instant!",
+  "detail": "208 px : Les quatre étoiles étincellent presque!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "That is FOCUS PUNCH.\\pIt moves slow but deals huge\\ndamage. Just don't get hit first!",
+  "msgstr": "C’est Mitra-Poing.\\pC’est lent, mais ça fait très mal.\\nEvite juste de te faire toucher avant!",
+  "detail": "201 px : Evite juste de te faire toucher avant!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "The BAG's {STR_VAR_3} POCKET is full.\\p{PLAYER} gave up on the\\n{STR_VAR_1}…",
+  "msgstr": "La poche {STR_VAR_3} du Sac est pleine.\\p{PLAYER} renonce à\\n{STR_VAR_1}…",
+  "detail": "203 px : La poche {STR_VAR_3} du Sac est pleine."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "The biggest LOTAD in history!\\n{STR_VAR_2}'s {STR_VAR_3} colossus!\\pA LOTAD bigger than a SEEDOT\\nalways wanted!",
+  "msgstr": "Le plus grand NENUPIOT jamais vu!\\nUn colosse de {STR_VAR_3} appartenant\\là {STR_VAR_2}!\\pUn NENUPIOT encore plus\\ngrand qu’un GRAINIPIOT!",
+  "detail": "201 px : Un colosse de {STR_VAR_3} appartenant"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "The bug POKéMON on the ALOLA ISLES\\nare much bigger than those in KANTO!",
+  "msgstr": "Les Pokémon insectes des ILES D’ALOLA\\nsont bien plus gros qu’à KANTO!",
+  "detail": "202 px : Les Pokémon insectes des ILES D’ALOLA"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "The current is great for tubing.\\nI don't think I'll tube anywhere else!",
+  "msgstr": "Ce courant est idéal pour la bouée.\\nJe ne flotterai plus nulle part ailleurs!",
+  "detail": "207 px : Je ne flotterai plus nulle part ailleurs!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "The league has JASMINE\\npegged as the sixth\\lstrongest GYM LEADER!\\pHah! That's a load of crud.\\pThere's no way PRYCE could\\nhurt JASMINE's STEEL-type\\lPOKéMON!\\pBureaucracy if you ask me.\\pShe's something to be feared,\\nthat's for sure!",
+  "msgstr": "La Ligue classe Jasmine comme\\nla sixième Championne\\lla plus forte!\\pHa! Tu parles d’une bêtise.\\pFrédo ne pourrait jamais blesser\\nles Pokémon Acier de\\lJasmine!\\pDe la bureaucratie, si tu veux mon avis.\\pElle, il faut la craindre, crois-moi!",
+  "detail": "203 px : De la bureaucratie, si tu veux mon avis."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "The {STR_VAR_2} out here aren't like\\nthe ones on the mainland.\\pWant to trade for my {STR_VAR_2}?",
+  "msgstr": "Les {STR_VAR_2} d’ici ne sont pas\\ncomme ceux du continent.\\pOn échange? Je te file mon {STR_VAR_2}.",
+  "detail": "203 px : On échange? Je te file mon {STR_VAR_2}."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Use the notes mode ({L_BUTTON} & {R_BUTTON}) to mark\\ncards with numbers 1-3 or a VOLTORB.\\pMark a card you think you know,\\nthen flip it when you're sure.\\pApply a note again to remove it.",
+  "msgstr": "Mode mémo ({L_BUTTON} & {R_BUTTON}): notez sur\\nune carte un nombre 1-3 ou un VOLTORBE.\\pMarquez une carte que vous pensez\\ndeviner, et retournez-la à coup sûr.\\pRemettez le même mémo pour l’effacer.",
+  "detail": "208 px : une carte un nombre 1-3 ou un VOLTORBE."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Wahah! Thanks!\\pHere! Take this TM as a reward!",
+  "msgstr": "Wahah! Merci!\\pTiens! Prends cette CT en récompense!",
+  "detail": "199 px : Tiens! Prends cette CT en récompense!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Wait, {PLAYER}!\\pIt's dangerous to go out\\nwithout a POKéMON!\\pWild POKéMON jump out of the grass\\non the way to the next town.",
+  "msgstr": "Attends, {PLAYER}!\\pC’est dangereux de sortir\\nsans Pokémon!\\pDes Pokémon sauvages surgissent des\\nherbes sur la route de la ville voisine.",
+  "detail": "199 px : herbes sur la route de la ville voisine."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Welcome back to the ISLES!\\pCome back if you'd like to take a trip\\nto mainland KANTO!",
+  "msgstr": "Bon retour sur les ILES!\\pRevenez si vous souhaitez faire\\nun voyage jusqu’au continent, à KANTO!",
+  "detail": "202 px : un voyage jusqu’au continent, à KANTO!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Well, anyways!\\pI research variations of POKéMON that \\ncan be found in different regions!\\pOn my way back from the ALOLA region,\\nI stumbled across these isles…\\pSurprisingly, many of the POKéMON I saw\\nin ALOLA were here as well, so I've\\lcalled this place… {PAUSE 30}the ALOLA ISLES!",
+  "msgstr": "Bref, passons!\\pJ’étudie les variantes de Pokémon\\nqu’on trouve selon les régions!\\pEn rentrant de la région d’ALOLA,\\nje suis tombé sur ces îles…\\pO surprise, bien des Pokémon vus\\nen ALOLA vivaient ici aussi, alors\\lj’ai baptisé l’endroit… {PAUSE 30}les ILES D’ALOLA!",
+  "detail": "208 px : j’ai baptisé l’endroit… {PAUSE 30}les ILES D’ALOLA"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Why don't girls like bug POKéMON?",
+  "msgstr": "Pourquoi les filles fuient mes Pokémon?",
+  "detail": "206 px : Pourquoi les filles fuient mes Pokémon?"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "Wow, you beat WHITNEY? Cool!",
+  "msgstr": "Waouh, tu as battu Blanche? Trop fort!",
+  "detail": "201 px : Waouh, tu as battu Blanche? Trop fort!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "You can use this machine to trade\\nor battle with other local players.\\pIsn't technology wonderful?",
+  "msgstr": "Cette machine permet d’échanger ou\\nde combattre avec des joueurs proches.\\pLa technologie, c’est merveilleux!",
+  "detail": "206 px : de combattre avec des joueurs proches."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "You have no Pokémon at Daycare.",
+  "msgstr": "Vous n’avez aucun Pokémon à la Pension.",
+  "detail": "206 px : Vous n’avez aucun Pokémon à la Pension."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "You have only one Pokémon at Daycare.",
+  "msgstr": "Vous n’avez qu’un Pokémon à la Pension.",
+  "detail": "203 px : Vous n’avez qu’un Pokémon à la Pension."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "{PLAYER} found {STR_VAR_3} {STR_VAR_1}\\n{STR_VAR_2}!",
+  "msgstr": "{PLAYER} trouve {STR_VAR_3} {STR_VAR_1}\\n{STR_VAR_2}!",
+  "detail": "206 px : {PLAYER} trouve {STR_VAR_3} {STR_VAR_1}"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "{STR_VAR_2}!\\nWow, that is big!\\pIt might be even bigger than the huge\\nSEEDOT my big brother saw.\\pThanks for showing me!\\nThis is my thanks!",
+  "msgstr": "{STR_VAR_2}!\\nWaouh, c’est beaucoup!\\pC’est peut-être encore plus grand que\\nl’énorme GRAINIPIOT que mon frère a vu.\\pMerci de me l’avoir montré!\\nTiens, c’est pour te remercier!",
+  "detail": "199 px : C’est peut-être encore plus grand que"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel",
+  "msgid": "… … … … … … … …\\pYou got a POKéMON at the LAB.\\pWhat a waste.\\nA wimp like you.\\p… … … … … … … …\\pDon't you get what I'm saying?\\nWell, I too, have a good POKéMON.\\pI'll show you what I mean!",
+  "msgstr": "… … … … … … … …\\pTu as eu un Pokémon au LABO.\\pQuel gâchis.\\nPour une mauviette comme toi.\\p… … … … … … … …\\pTu piges pas ce que je dis?\\nEh bien, moi aussi, j’ai un bon Pokémon.\\pJe vais te montrer ce que je veux dire!",
+  "detail": "200 px : Je vais te montrer ce que je veux dire!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (correspondance douteuse, à vérifier)",
+  "msgid": "One {STR_VAR_1}-using {STR_VAR_2}",
+  "msgstr": "J’ai un {STR_VAR_2} avec {STR_VAR_1} et",
+  "detail": "202 px : J’ai un {STR_VAR_2} avec {STR_VAR_1} et"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (correspondance douteuse, à vérifier)",
+  "msgid": "Research Log 6:  June 10, 1975\\pThe expedition is done.\\nThe rest of the men are packing up.\\pBut I can't.\\pI can't abandon this mission.\\nNot after what we've lost.\\pI'm going to stay behind.",
+  "msgstr": "Journal de recherche 6: 10 juin 1975\\pL’expédition est terminée.\\nLes autres plient bagage.\\pMais moi, je ne peux pas.\\pJe ne peux pas abandonner.\\nPas après tout ce que nous avons perdu.\\pJe vais rester ici.",
+  "detail": "208 px : Pas après tout ce que nous avons perdu."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "Feature unavailable! Please define a\\nusable flag and a usable var in:\\l'include/config/battle.h'!",
+  "msgstr": "Fonction indisponible! Veuillez définir\\nun flag et une var utilisables dans:\\l’include/config/battle.h’!",
+  "detail": "202 px : Fonction indisponible! Veuillez définir"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "H-hello! Welcome to our Cafe!\\nHow can I help you today?",
+  "msgstr": "B-bonjour! Bienvenue dans notre café!\\nQue désirez-vous?",
+  "detail": "201 px : B-bonjour! Bienvenue dans notre café!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "I bought this place so that my son\\nand I could explore the outdoors…\\pAll he wants to do is play on that\\nGame Boy Advance.",
+  "msgstr": "J’ai acheté cette maison pour que\\nmon fils et moi profitions du grand air…\\pMais lui, il ne veut que jouer\\nà sa Game Boy Advance.",
+  "detail": "204 px : mon fils et moi profitions du grand air…"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "patch FR actuel (récupéré par pointeur)",
+  "msgid": "STEVEN: Let me heal your POKéMON\\nbefore you go.",
+  "msgstr": "Pierre ROCHARD: Laisse-moi soigner tes\\nPokémon avant que tu partes.",
+  "detail": "202 px : Pierre ROCHARD: Laisse-moi soigner tes"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "traduction manuelle (style SoulSilver)",
+  "msgid": "Aww… But these moves are great!",
+  "msgstr": "Oh… Pourtant ces capacités sont géniales!",
+  "detail": "222 px : Oh… Pourtant ces capacités sont géniales!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "traduction manuelle (style SoulSilver)",
+  "msgid": "I can't take your last POKéMON!",
+  "msgstr": "Je ne peux pas prendre ton dernier Pokémon!",
+  "detail": "229 px : Je ne peux pas prendre ton dernier Pokémon!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "traduction manuelle (style SoulSilver)",
+  "msgid": "I won't quit until I win!",
+  "msgstr": "Je n’arrêterai pas avant d’avoir gagné!",
+  "detail": "203 px : Je n’arrêterai pas avant d’avoir gagné!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "traduction manuelle (style SoulSilver)",
+  "msgid": "I'll direct you to your BATTLE ROOM now.",
+  "msgstr": "Je vais vous conduire à votre Salle de Combat.",
+  "detail": "239 px : Je vais vous conduire à votre Salle de Combat."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "traduction manuelle (style SoulSilver)",
+  "msgid": "KURT: I don't see any {STR_VAR_1}s!",
+  "msgstr": "Fargas: Je ne vois aucune {STR_VAR_1}!",
+  "detail": "199 px : Fargas: Je ne vois aucune {STR_VAR_1}!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "traduction manuelle (style SoulSilver)",
+  "msgid": "You can't record any more numbers.",
+  "msgstr": "Tu ne peux plus enregistrer de numéros.",
+  "detail": "205 px : Tu ne peux plus enregistrer de numéros."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "traduction manuelle (style SoulSilver)",
+  "msgid": "{PLAYER} received a POKéMON with MAIL.",
+  "msgstr": "{PLAYER} reçoit un Pokémon avec une Lettre.",
+  "detail": "227 px : {PLAYER} reçoit un Pokémon avec une Lettre."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "traduction manuelle (style SoulSilver)",
+  "msgid": "{STR_VAR_1} seems lost in thought.",
+  "msgstr": "{STR_VAR_1} semble perdu dans ses pensées.",
+  "detail": "225 px : {STR_VAR_1} semble perdu dans ses pensées."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "traduction nouvelle",
+  "msgid": "I like NIDORAN, so I collect them!",
+  "msgstr": "J’aime les NIDORAN, j’en fais collection!",
+  "detail": "207 px : J’aime les NIDORAN, j’en fais collection!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "traduction nouvelle",
+  "msgid": "KIRI: JAN, I hope we win today.",
+  "msgstr": "Kiri: Jan, j’espère qu’on gagnera aujourd’hui!",
+  "detail": "232 px : Kiri: Jan, j’espère qu’on gagnera aujourd’hui!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "traduction nouvelle",
+  "msgid": "My bird POKéMON remember you!",
+  "msgstr": "Mes Pokémon oiseaux se souviennent de toi!",
+  "detail": "226 px : Mes Pokémon oiseaux se souviennent de toi!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "traduction nouvelle",
+  "msgid": "My boyfriend gave me big pearls.",
+  "msgstr": "Mon copain m’a offert de grosses perles.",
+  "detail": "209 px : Mon copain m’a offert de grosses perles."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "A POKéMON holding the {STR_VAR_1}\\nBERRY can't be traded.",
+  "msgstr": "Votre Pokémon qui porte la Baie {STR_VAR_1}\\nne peut pas être échangé.",
+  "detail": "226 px : Votre Pokémon qui porte la Baie {STR_VAR_1}"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "CLERK: {STR_VAR_1} also bought the item\\n{STR_VAR_2} in bulk, taking {STR_VAR_3}.\\pINTERVIEWER: Oh, that's smart.\\n{STR_VAR_2}'s a very good item, too.",
+  "msgstr": "VENDEUSE: {STR_VAR_1} a aussi acheté\\nl’objet {STR_VAR_2}. Il en a pris {STR_VAR_3}.\\pJOURNALISTE: Oh, bonne idée.\\nC’est un objet très utile aussi.",
+  "detail": "229 px : l’objet {STR_VAR_2}. Il en a pris {STR_VAR_3}."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Eek! You spoke to me!\\nI… I'm overjoyed!\\pI'm {STR_VAR_3}! I'm {STR_VAR_1}'s\\nno. {STR_VAR_2} apprentice!",
+  "msgstr": "Hé, tu m’as parlée!\\nÇa me fait tellement plaisir!\\pJe m’appelle {STR_VAR_3}! Je suis\\nl’apprentie nº {STR_VAR_2} de {STR_VAR_1}!",
+  "detail": "218 px : l’apprentie nº {STR_VAR_2} de {STR_VAR_1}!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Greetings!\\nIt's time for POKéMON NEWS.\\pIt's approaching!\\nIt's finally coming!\\pThe GAME CORNER's service day will be\\nhere in just this many days: {STR_VAR_1}!\\pEven those who are usually unlucky\\nmay be lucky on this particular day!\\pThat's the news on POKéMON NEWS.",
+  "msgstr": "Bonjour à tous!\\nC’est l’heure du BULLETIN Pokémon.\\pÇa approche!\\nC’est bientôt là!\\pLa journée du Casino est prévue pour\\nles jours à venir: dans {STR_VAR_1} exactement!\\pMême les moins chanceux vont\\npouvoir gagner ce jour-là!\\pC’était le scoop du BULLETIN Pokémon.",
+  "detail": "246 px : les jours à venir: dans {STR_VAR_1} exactement!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Hey! There's big trouble! This is\\nthe BATTLE TOWER's last day!\\p… … … … … …\\nI'm only joking!\\pPeople call me {STR_VAR_3} and I do, too!\\nI'm {STR_VAR_1}'s 1,000th apprentice!\\lActually, I'm no. {STR_VAR_2}!",
+  "msgstr": "Tu sais quoi? C’est le dernier jour\\nde la Tour de Combat!\\p… … … … … …\\nMais non, je rigole!\\pOn m’appelle {STR_VAR_3}. Normal, c’est\\nmon nom! Je suis l’apprenti nº 1 000 de\\l{STR_VAR_1}. Non, je suis le nº {STR_VAR_2}!",
+  "detail": "221 px : {STR_VAR_1}. Non, je suis le nº {STR_VAR_2}!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Hey, there, I'm rockin' and a-rollin'!\\nPOKéMON, I be controllin'!\\pI'm {STR_VAR_3} the rappin' SAILOR.\\nDon't be mistakin' me for no wailer!\\pI'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\\nMe, you shouldn't be quick to dismiss!",
+  "msgstr": "Salut, Dresseur!\\nJ’attends ici depuis des heures!\\pNon, je ne suis pas un requin blanc…\\nJe suis {STR_VAR_3}, le Marin chantant!\\pJe suis l’apprenti nº {STR_VAR_2} de {STR_VAR_1}.\\nAvec moi, ça va swinguer!",
+  "detail": "251 px : Je suis l’apprenti nº {STR_VAR_2} de {STR_VAR_1}."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Hi!\\nHow's it going?\\pI'm {STR_VAR_3}, {STR_VAR_1}'s\\nno. {STR_VAR_2} apprentice. Glad to meet you!",
+  "msgstr": "Bonjour!\\nComment ça va?\\pJe suis {STR_VAR_3}, l’apprentie nº {STR_VAR_2}\\nde {STR_VAR_1}. Enchantée!",
+  "detail": "242 px : Je suis {STR_VAR_3}, l’apprentie nº {STR_VAR_2}"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Hi, I'm {STR_VAR_3}.\\nI'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!",
+  "msgstr": "Salut, je m’appelle {STR_VAR_3}.\\nJe suis l’apprentie nº {STR_VAR_2} de {STR_VAR_1}!",
+  "detail": "258 px : Je suis l’apprentie nº {STR_VAR_2} de {STR_VAR_1}!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Hi, there! I'm {STR_VAR_3}!\\nI'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!",
+  "msgstr": "Bonjour! Je suis {STR_VAR_3}!\\nJe suis l’apprenti nº {STR_VAR_2} de {STR_VAR_1}!",
+  "detail": "252 px : Je suis l’apprenti nº {STR_VAR_2} de {STR_VAR_1}!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "If I had to score this letter,\\nI'd give it {STR_VAR_3} points.\\pNext time, I'll be expecting an even\\nbetter letter, {STR_VAR_1}!\\pA-whoops, will you look at the time?\\nTime to say good-bye until next time!",
+  "msgstr": "Si je devais noter cette lettre, je lui\\ndonnerais {STR_VAR_3} points.\\pLa prochaine fois, j’espère que {STR_VAR_1}\\nnous fera une lettre encore meilleure!\\pOh, le temps passe à une vitesse folle!\\nIl est l’heure de se dire au revoir! Bye!",
+  "detail": "224 px : La prochaine fois, j’espère que {STR_VAR_1}"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Let's interview the clerk to get the\\nlowdown.\\pHi, how's your business?\\pCLERK: Oh, we're doing excellent.\\pRecently, {STR_VAR_2} has been\\nselling especially strongly.\\pWhy, just the other day a TRAINER\\nnamed {STR_VAR_1} bought {STR_VAR_3}.",
+  "msgstr": "Interrogeons cette vendeuse pour\\nsavoir quelle est la tendance.\\pBonjour, comment vont les affaires?\\pVENDEUSE: Oh, très très bien.\\pEn ce moment, l’objet {STR_VAR_2} se\\nvend beaucoup.\\pPar exemple, l’autre jour, un Dresseur\\nappelé {STR_VAR_1} en a acheté {STR_VAR_3}.",
+  "detail": "226 px : appelé {STR_VAR_1} en a acheté {STR_VAR_3}."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "MC: Hello! We're just getting started\\nwith a {STR_VAR_3} Rank POKéMON\\l{STR_VAR_2}!\\pThe participating TRAINERS and their\\nPOKéMON are as follows:",
+  "msgstr": "ANIMATRICE: Votre attention! Je n’ai\\nqu’un mot à dire: {STR_VAR_2}! Que le\\lCONCOURS catégorie {STR_VAR_3} commence!\\pVoici les Dresseurs en compétition\\net leurs Pokémon.",
+  "detail": "220 px : CONCOURS catégorie {STR_VAR_3} commence!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Start link with {STR_VAR_1} players.\\nA Button: Confirm\\lB Button: Cancel",
+  "msgstr": "Démarrer connexion entre les {STR_VAR_1} joueurs.\\nBouton A: Confirmer   Bouton B: Annuler",
+  "detail": "260 px : Démarrer connexion entre les {STR_VAR_1} joueurs."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "The DOUBLE BATTLE Mode can't be\\nplayed by {STR_VAR_1} players.",
+  "msgstr": "Il est impossible de jouer avec {STR_VAR_1}\\njoueur(s) en mode Combat Duo.",
+  "detail": "224 px : Il est impossible de jouer avec {STR_VAR_1}"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "The SINGLE BATTLE Mode can't be\\nplayed by {STR_VAR_1} players.",
+  "msgstr": "Il est impossible de jouer avec {STR_VAR_1}\\njoueurs en mode Combat SOLO.",
+  "detail": "224 px : Il est impossible de jouer avec {STR_VAR_1}"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "The pair set a new record of {STR_VAR_2} wins\\nin a row in {STR_VAR_1} competition!\\lBravo, TRAINER!",
+  "msgstr": "Ils ont tous les deux établi le nouveau\\nrecord de {STR_VAR_2} victoires consécutives\\pau {STR_VAR_1} de la compétition.\\nBravo!",
+  "detail": "237 px : record de {STR_VAR_2} victoires consécutives"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "The twosome finally succumbed to\\n{STR_VAR_1} in match number {STR_VAR_2}.\\lNice try, TRAINER!\\pBut, hey, it's just bad luck to run into\\n{STR_VAR_1} so early in the challenge.\\pWe asked the TRAINER for impressions\\non the match with {STR_VAR_1}.",
+  "msgstr": "Ils se sont finalement inclinés devant\\n{STR_VAR_1} lors du match numéro {STR_VAR_2}.\\lTrès bel essai, Dresseur!\\pAffronter {STR_VAR_1} aussi tôt dans la\\ncompétition, quelle malchance!\\pNous avons demandé au Dresseur ses\\nimpressions sur {STR_VAR_1}.",
+  "detail": "236 px : {STR_VAR_1} lors du match numéro {STR_VAR_2}."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "These {STR_VAR_1} flowers are blooming\\n{STR_VAR_2}.",
+  "msgstr": "Ces fleurs de {STR_VAR_1} ont éclos et sont\\n{STR_VAR_2}.",
+  "detail": "226 px : Ces fleurs de {STR_VAR_1} ont éclos et sont"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Um… I'm sincerely happy that you\\nwould take the time to talk to me.\\pI'm {STR_VAR_3}.\\nI'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice…",
+  "msgstr": "Oh… Ça me fait plaisir\\nque tu viennes me parler.\\pJe m’appelle {STR_VAR_3}.\\nJe suis l’apprentie nº {STR_VAR_2} de {STR_VAR_1}…",
+  "detail": "260 px : Je suis l’apprentie nº {STR_VAR_2} de {STR_VAR_1}…"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "WE ARE THE POKéMON FAN CLUB!\\pWe're on the air!\\pOn this program, we get your opinions,\\nand I shout them out on your behalf!\\lIsn't it a fantastic program concept?\\pToday, we bring you this report from\\nour reporter, who we sent out to the\\lPOKéMON FAN CLUB.\\pSo, just who is today's featured\\nPOKéMON fan?\\p… … … … … … … …\\p{STR_VAR_1}!\\pSo, let's hear what {STR_VAR_1} has to\\nsay about {STR_VAR_3} the {STR_VAR_2}.\\pAnd, I will shout those words of love\\nout loud on TV!\\pHoo-hah!\\pLet's shout!",
+  "msgstr": "C’EST NOUS, LE FAN CLUB Pokémon!\\pEt nous sommes en direct!\\pDans cette émission, nous compilons\\nvos opinions et nous les diffusons!\\lSuper concept d’émission, n’est-ce pas?\\pAujourd’hui, nous vous présentons un\\nreportage de notre journaliste,\\lenvoyé spécial au FAN CLUB Pokémon.\\pBien, qui est notre fan de Pokémon,\\naujourd’hui?\\p… … … … … … … …\\p{STR_VAR_1}!\\pEcoutons ce que {STR_VAR_1} souhaite nous\\nraconter sur {STR_VAR_3} le {STR_VAR_2}.\\pPuis, je répandrai ces belles paroles\\nsur les ondes!\\pYou-hou!\\pC’est parti!",
+  "detail": "223 px : Ecoutons ce que {STR_VAR_1} souhaite nous"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "We asked {STR_VAR_1}, “If you were to\\nliken your {STR_VAR_2} to something,\\lit would be…”\\p… … … … … … … …\\p“{STR_VAR_3}!”\\pWhoah-oh, now that's an original idea!\\pYou sure can sense the intensity of\\nfeeling the TRAINER has for\\l{STR_VAR_2}.",
+  "msgstr": "Nous avons demandé à {STR_VAR_1}: “Si vous\\ndeviez comparer votre {STR_VAR_2} à\\lquelque chose, ce serait…”\\p… … … … … … … …\\p“{STR_VAR_3}”!\\pHé, voilà une idée originale!\\pOn peut sentir l’intensité des\\nsentiments de ce Dresseur pour\\lson {STR_VAR_2}.",
+  "detail": "223 px : Nous avons demandé à {STR_VAR_1}: “Si vous"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Wouldn't you also like to know what\\n{STR_VAR_1} imagines {STR_VAR_2} to be?\\pYou bet we did!\\nSo we asked, of course!\\pThe answer is all perfectly condensed:\\n“{STR_VAR_3}!”\\pThat's what the concept of {STR_VAR_2}\\nrepresents to {STR_VAR_1}!",
+  "msgstr": "Vous aimeriez peut-être savoir comment\\n{STR_VAR_1} conçoit la qualité {STR_VAR_2}?\\pEvidemment!\\nDonc, nous lui avons demandé!\\pLa réponse est claire et concise:\\n“{STR_VAR_3}”.\\pVoilà comment {STR_VAR_1} définit la\\nqualité {STR_VAR_2}!",
+  "detail": "226 px : {STR_VAR_1} conçoit la qualité {STR_VAR_2}?"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Yeah!\\nIt's BRAVO TRAINER time!\\pToday, we're going to profile {STR_VAR_1},\\nwho took the BATTLE TOWER challenge!\\pFor the challenge, {STR_VAR_1} entered\\none wicked {STR_VAR_2}.",
+  "msgstr": "Ouais!\\nC’est l’heure du Dresseur SPECIAL!\\pNous allons vous présenter {STR_VAR_1}, qui\\na relevé le défi de la Tour de Combat!\\pPour ce défi, {STR_VAR_1} avait inscrit\\nson malicieux {STR_VAR_2}.",
+  "detail": "226 px : Nous allons vous présenter {STR_VAR_1}, qui"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Yeehaw! I'm {STR_VAR_1}'s\\nno. {STR_VAR_2} apprentice!\\p{STR_VAR_3}'s my name, hello, hello!",
+  "msgstr": "Bonjour! Je suis l’apprenti nº {STR_VAR_2}\\nde {STR_VAR_1}!\\pJe m’appelle {STR_VAR_3}!",
+  "detail": "217 px : Bonjour! Je suis l’apprenti nº {STR_VAR_2}"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "Yippee-yahoo!\\nOh, don't run! I was just having fun!\\pHowdy! I'm {STR_VAR_3}!\\nI'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!",
+  "msgstr": "Yahou, yippie!\\nOh, je t’en prie, reste!\\pJe m’appelle {STR_VAR_3}!\\nJe suis l’apprenti nº {STR_VAR_2} de {STR_VAR_1}!",
+  "detail": "252 px : Je suis l’apprenti nº {STR_VAR_2} de {STR_VAR_1}!"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "{PLAYER} obtained {STR_VAR_1} Battle Point(s).",
+  "msgstr": "{PLAYER} reçoit {STR_VAR_1} POINT(S) DE Combat.",
+  "detail": "245 px : {PLAYER} reçoit {STR_VAR_1} POINT(S) DE Combat."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel",
+  "msgid": "“POKéMON CONTEST LIVE UPDATES!”\\pMC: Thanks for joining us!\\pWe're live from the just-ended\\n{STR_VAR_1} site.\\pThe hall is still filled with\\nan audience unwilling to leave.\\pSpectator: {STR_VAR_2}!\\pSpectator: {STR_VAR_3}!\\pMC: As you've just heard, the CONTEST\\nwas won by the POKéMON {STR_VAR_2}\\lof {STR_VAR_3}.\\pSpectator: {STR_VAR_2}!\\nYou're the best!\\pSpectator: {STR_VAR_3}!\\nWay to go!\\pMC: Let's hear what the fans have\\nto say about this CONTEST.",
+  "msgstr": "“INFOS CONCOURS Pokémon”\\pANIMATRICE: Merci de nous retrouver!\\pNous sommes en direct depuis\\nle nouveau site {STR_VAR_1}.\\pLe hall est rempli du public\\nqui ne souhaite pas partir.\\pSpectateur: {STR_VAR_2}!\\pSpectateur: {STR_VAR_3}!\\pANIMATRICE: Comme vous venez de\\nl’apprendre, le CONCOURS a été\\lremporté par le {STR_VAR_2} de {STR_VAR_3}.\\pSpectateur: {STR_VAR_2}!\\nTu es le meilleur!\\pSpectateur: {STR_VAR_3}!\\nBien joué!\\pANIMATRICE: Ecoutons voir ce que\\nles fans ont à dire à propos\\lde ce CONCOURS.",
+  "detail": "223 px : remporté par le {STR_VAR_2} de {STR_VAR_3}."
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel (contexte de script)",
+  "msgid": "IVY: Who taught you about POKéMON?",
+  "msgstr": "IVY: Qui t’a appris ce que tu sais sur les Pokémon?",
+  "detail": "260 px : IVY: Qui t’a appris ce que tu sais sur les Pokémon"
+ },
+ {
+  "controle": "LARGEUR",
+  "fichier_po": "dialogues.po",
+  "source": "Émeraude FR officiel (contexte de script)",
+  "msgid": "POKéMON battles are hard, too!",
+  "msgstr": "C’est difficile aussi, les combats de Pokémon!",
+  "detail": "238 px : C’est difficile aussi, les combats de Pokémon!"
+ }
+]

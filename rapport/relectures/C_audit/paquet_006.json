@@ -1,0 +1,392 @@
+[
+ {
+  "id": 0,
+  "categorie": "contresens",
+  "probleme": "« Me rappelle » suppose que le personnage le savait déjà.",
+  "correction": "Ce CENTRE COMMERCIAL me fait\\nvoir que Doublonville est grande.\\pOn ne trouve un tel choix nulle\\npart ailleurs.",
+  "justification": "« Makes me realize » exprime une prise de conscience.",
+  "msgid": "This DEPT.STORE makes me realize\\nthat GOLDENROD is a big city.\\pThe selection here is unmatched\\nanywhere else.",
+  "msgstr": "Ce CENTRE COMMERCIAL me rappelle\\nque Doublonville est une grande ville.\\pOn ne trouve un tel choix nulle\\npart ailleurs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’objet doit suivre la casse prévue pour les objets.",
+  "correction": "Ici, personne ne te donnera de\\nBoîte Jetons. Cherche à Johto.",
+  "justification": "La graphie de l’objet dans Pokémon Argent SoulSilver est « Boîte Jetons ». [Liste des objets](https://www.pokepedia.fr/Liste_des_objets_dans_la_quatri%C3%A8me_g%C3%A9n%C3%A9ration)",
+  "msgid": "Nobody here will give you a COIN\\nCASE. You should look in JOHTO.",
+  "msgstr": "Ici, personne ne te donnera de BOITE\\nJETONS. Cherche plutôt à JOHTO.",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "codes",
+  "probleme": "La deuxième occurrence de {STR_VAR_2} a disparu.",
+  "correction": "Regarde-moi ce {STR_VAR_2}!\\pCe {STR_VAR_2}, je l’ai attrapé\\lhier pour fêter mon anniversaire!\\pIl te plaît, on dirait!\\nIl n’a pas de prix!\\pBon… J’accepterais peut-être\\nde l’échanger contre un {STR_VAR_1}.",
+  "justification": "La correction rétablit le code à la deuxième page et restitue aussi « it’s priceless » à la troisième.",
+  "msgid": "Check out this {STR_VAR_2}!\\pIt's the {STR_VAR_2} that I caught\\nyesterday to celebrate my birthday!\\pOh, I can see that you want it!\\nAfter all, it's priceless!\\pI'll tell you what. I might be willing\\nto trade it for a {STR_VAR_1}.",
+  "msgstr": "Regarde-moi ce {STR_VAR_2}!\\pJe l’ai attrapé hier pour fêter mon\\nanniversaire!\\pIl te plaît, on dirait!\\nComme je te comprends…\\pBon… J’accepterais peut-être\\nde l’échanger contre un {STR_VAR_1}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "oubli",
+  "probleme": "« Sans arrêt » efface la nuance de « almost ». Le bateau porte aussi un autre intitulé en français.",
+  "correction": "Avant, le Bateau Express Aquaria\\npartait pour Kanto le lundi et\\lle vendredi seulement. Maintenant,\\lil navigue presque sans arrêt!",
+  "justification": "« Presque » rétablit la fréquence indiquée. La description du Passe Bateau dans Pokémon Argent SoulSilver donne « Bateau Express Aquaria ». [Liste des objets](https://www.pokepedia.fr/Liste_des_objets_dans_la_quatri%C3%A8me_g%C3%A9n%C3%A9ration)",
+  "msgid": "FAST SHIP S.S.AQUA used to sail to\\nKANTO on Mondays and Fridays. But\\lnow, it sails almost constantly!",
+  "msgstr": "Avant, le BATEAU RAPIDE L’AQUARIA ne\\npartait pour KANTO que le lundi et\\lle vendredi. Maintenant, il navigue\\lsans arrêt!",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « Pokémon » est écrit en capitales.",
+  "correction": "Je vais essayer d’être le meilleur\\navec mes préférés.\\pPas question d’utiliser les mêmes\\nPokémon costauds que tout le monde.",
+  "justification": "La graphie « Pokémon » s’applique au nom commun.",
+  "msgid": "I'm going to try to be the\\nbest with my favorites.\\pI'm not using the same tough\\nPOKéMON as everyone else.",
+  "msgstr": "Je vais essayer d’être le meilleur\\navec mes préférés.\\pPas question d’utiliser les mêmes\\nPOKéMON costauds que tout le monde.",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "contresens",
+  "probleme": "« Moi aussi » suggère que le joueur bavardait également. La réplique doit aussi tenir sur une ligne.",
+  "correction": "On papotait si bien, en plus.",
+  "justification": "« Too » ajoute ici un motif de contrariété, le plaisir que le personnage prenait à sa conversation.",
+  "msgid": "I was having a nice chat too.",
+  "msgstr": "Moi aussi, je bavardais\\ntranquillement.",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "terminologie",
+  "probleme": "Le prénom anglais et une traduction littérale du nom de la fratrie subsistent.",
+  "correction": "Vanessa: Youhou!\\pJe suis Vanessa, de la Fratrie\\ndes sept! Enchantée!\\pSi tu devines mon jour préféré,\\nje t’offrirai une récompense.",
+  "justification": "Dans Pokémon Argent SoulSilver, Frieda est Vanessa, membre de la Fratrie des sept. [Fratrie des sept](https://www.pokepedia.fr/Fratrie_des_sept)",
+  "msgid": "FRIEDA: Yahoo!\\pI'm FRIEDA of the WEEKDAY FAMILY!\\nNice to meet you!\\pIf you can guess my favorite day,\\nI'll give you a reward.",
+  "msgstr": "FRIEDA: Youhou!\\pJe suis FRIEDA, de la fratrie des\\nJOURS de la SEMAINE! Enchantée!\\pSi tu devines mon jour préféré,\\nje t’offrirai une récompense.",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette du personnage conserve son prénom anglais.",
+  "correction": "Vanessa: Pas celui-là!",
+  "justification": "Frieda est nommée Vanessa dans Pokémon Argent SoulSilver. [Fratrie des sept](https://www.pokepedia.fr/Fratrie_des_sept)",
+  "msgid": "FRIEDA: Not that one!",
+  "msgstr": "FRIEDA: Pas celui-là!",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "terminologie",
+  "probleme": "La graphie « MAUVILLE » diffère de celle du lexique.",
+  "correction": "Route 32\\pMauville - Ecorcia",
+  "justification": "Le lexique fourni prescrit « Mauville ».",
+  "msgid": "ROUTE 32\\pVIOLET CITY - AZALEA TOWN",
+  "msgstr": "Route 32\\pMAUVILLE - Ecorcia",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "oubli",
+  "probleme": "La réplique ne précise plus que les soins seront complets.",
+  "correction": "Magnifique…\\pComme promis, je vais soigner\\nvos Pokémon complètement.",
+  "justification": "« To full health » indique un rétablissement complet.",
+  "msgid": "Magnificent…\\pAs promised, I shall restore your\\nPOKéMON to full health.",
+  "msgstr": "Magnifique…\\pComme promis, je vais soigner\\nvos Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "orthographe",
+  "probleme": "« Il est sang-froid » emploie un nom comme adjectif.",
+  "correction": "Mon Pokémon est le meilleur!\\pIl a du sang-froid, il est robuste\\nmais beau, gracieux et intelligent.\\lIl est complet!\\pAutant gagner tous les Concours\\nPokémon.",
+  "justification": "La locution correcte est « avoir du sang-froid ». « Mais » restitue aussi l’opposition exprimée par « yet ».",
+  "msgid": "My POKéMON rules!\\pIt's cool, tough yet beautiful, cute,\\nand smart. It's complete!\\pI may as well go for wins in every\\nsingle CONTEST.",
+  "msgstr": "Mon Pokémon est le meilleur!\\pIl est sang-froid, robuste, beau,\\ngracieux et intelligent. Il est\\lcomplet!\\pAutant viser la victoire dans tous les\\nConcours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "oubli",
+  "probleme": "La traduction perd la localisation de la blessure.",
+  "correction": "Aïe,\\nune élongation derrière la cuisse…",
+  "justification": "« Hamstring » désigne un muscle de l’arrière de la cuisse.",
+  "msgid": "Ouch,\\npulled a hamstring…",
+  "msgstr": "Aïe,\\nune élongation…",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "oubli",
+  "probleme": "L’hypothèse du personnage devient une affirmation.",
+  "correction": "Il y a de forts courants, ici.\\nÇa doit attirer des Pokémon forts!",
+  "justification": "« I think » marque une supposition.",
+  "msgid": "There are some strong currents here.\\nI think it attracts strong POKéMON!",
+  "msgstr": "Il y a de forts courants, ici.\\nÇa attire les Pokémon costauds!",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "terminologie",
+  "probleme": "« ATQ.SPE » ne suit pas l’abréviation prescrite.",
+  "correction": "AS",
+  "justification": "Les conventions du projet donnent « AS » pour l’Attaque Spéciale.",
+  "msgid": "SP.ATK",
+  "msgstr": "ATQ.SPE",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "terminologie",
+  "probleme": "« DEF.SPE » ne suit pas l’abréviation prescrite.",
+  "correction": "DS",
+  "justification": "Les conventions du projet donnent « DS » pour la Défense Spéciale.",
+  "msgid": "SP.DEF",
+  "msgstr": "DEF.SPE",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "terminologie",
+  "probleme": "« VIT » ne suit pas l’abréviation prescrite.",
+  "correction": "VI",
+  "justification": "Les conventions du projet donnent « VI » pour la Vitesse.",
+  "msgid": "SPD",
+  "msgstr": "VIT",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "contresens",
+  "probleme": "« Battre » implique une victoire, alors que la question propose d’engager le combat.",
+  "correction": "Affronter {STR_VAR_1} pour 3 EV {STR_VAR_2}?",
+  "justification": "« Battle » signifie ici « affronter ».",
+  "msgid": "Battle {STR_VAR_1} for 3 {STR_VAR_2} EVs?",
+  "msgstr": "Battre {STR_VAR_1} pour 3 EV {STR_VAR_2}?",
+  "msgctxt": ""
+ },
+ {
+  "id": 58,
+  "categorie": "terminologie",
+  "probleme": "Le panneau utilise une abréviation non prévue pour la Défense Spéciale.",
+  "correction": "Gauche: PV, DF, DS",
+  "justification": "Les conventions du projet donnent « DF » et « DS » pour la Défense et la Défense Spéciale.",
+  "msgid": "Left: HP, DEFENSE, SPECIAL DEFENSE",
+  "msgstr": "Gauche: PV, DEFENSE, DEF. SPE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 59,
+  "categorie": "terminologie",
+  "probleme": "Le panneau utilise une abréviation non prévue pour l’Attaque Spéciale.",
+  "correction": "Droite: AT, AS, VI",
+  "justification": "Les conventions du projet donnent « AT », « AS » et « VI » pour ces trois statistiques.",
+  "msgid": "RIGHT: ATTACK, SPECIAL ATTACK, SPEED",
+  "msgstr": "DROITE: ATTAQUE, ATQ. SPE., VITESSE",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "registre",
+  "probleme": "L’expert passe au tutoiement après avoir vouvoyé le joueur. La réplique déborde aussi sur deux lignes.",
+  "correction": "Je reste à votre disposition.",
+  "justification": "La formule tient sur une ligne et conserve le vouvoiement de l’accueil.",
+  "msgid": "Sure. I'll be here if you need me.",
+  "msgstr": "D’accord. Je suis là si tu as\\nbesoin de moi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "registre",
+  "probleme": "L’expert tutoie le joueur dans sa formule de départ et omet « today ».",
+  "correction": "Bienvenue! Je suis l’Expert en\\nTalents!\\pJe peux changer les Talents des\\nPokémon en un clin d’œil.\\pHélas, j’ai mal au dos et je ne\\npeux pas travailler aujourd’hui.\\pRevenez plus tard!",
+  "justification": "Le personnage vouvoie le joueur dans ses autres répliques. « Aujourd’hui » précise la durée de l’indisponibilité.",
+  "msgid": "Welcome! I'm the ABILITY EXPERT!\\pI can swap POKéMON's abilities\\nin a heartbeat.\\pUnfortunately, my back hurts and\\nI can't work today.\\pCome again later!",
+  "msgstr": "Bienvenue! Je suis l’Expert en\\nTalents!\\pJe peux échanger les talents des\\nPokémon en un clin d’œil.\\pMalheureusement, j’ai mal au dos et je\\nne peux pas travailler.\\pReviens plus tard!",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "terminologie",
+  "probleme": "« Points Combat » diffère de l’intitulé utilisé dans Émeraude.",
+  "correction": "Oh, oh, oh!\\pVos Points de Combat sont au max.\\pRevenez après avoir dépensé des\\nPoints de Combat.",
+  "justification": "La Zone de Combat de Pokémon Émeraude emploie « Points de Combat ». [Zone de Combat d’Émeraude](https://www.pokebip.com/page/jeux-video/pokemon-emeraude/service-echange-zc)",
+  "msgid": "Oh, oh, oh!\\pYour Battle Points are maxed.\\pPlease come back after using\\nsome Battle Points.",
+  "msgstr": "Oh, oh, oh!\\pVos Points Combat sont au maximum.\\pRevenez après avoir utilisé quelques\\nPoints Combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "typographie",
+  "probleme": "L’intitulé « Badge MARAIS » mélange les casses.",
+  "correction": "{PLAYER} reçoit le Badge Marais.",
+  "justification": "La graphie attendue pour le nom du Badge est « Badge Marais ».",
+  "msgid": "{PLAYER} received MARSHBADGE.",
+  "msgstr": "{PLAYER} reçoit le Badge MARAIS.",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "typographie",
+  "probleme": "L’intitulé « Badge MARAIS » mélange les casses.",
+  "correction": "Morgane: Le Badge Marais éveille\\ntes pouvoirs enfouis…\\pJe n’ai pas su prédire ta force,\\nmais une chose est certaine.\\pTu deviendras un Maître célèbre\\net aimé de tous!",
+  "justification": "La graphie attendue pour le nom du Badge est « Badge Marais ».",
+  "msgid": "SABRINA: MARSHBADGE draws out\\nyour subliminal powers…\\pAlthough I failed to accurately\\npredict your power, this much I\\lknow to be true.\\pYou will become a celebrated and\\nbeloved CHAMPION!",
+  "msgstr": "Morgane: Le Badge MARAIS éveille\\ntes pouvoirs enfouis…\\pJe n’ai pas su prédire ta force,\\nmais une chose est certaine.\\pTu deviendras un Maître célèbre\\net aimé de tous!",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "contresens",
+  "probleme": "« Le tien » attribue un talent au joueur. « C’est Echange » efface aussi l’idée que la CT contient la capacité.",
+  "correction": "Elle contient Echange.\\pCette capacité échange le Talent\\nde ton Pokémon avec celui d’en face.\\pUtilise-la avec sagesse…",
+  "justification": "Echange intervertit les Talents des deux Pokémon en combat.",
+  "msgid": "It holds SKILL SWAP.\\pIt can take your opponents' abilities\\naway from them and give them your own.\\pUse it wisely...",
+  "msgstr": "C’est Echange.\\pCette capacité vole le talent de\\nl’ennemi et lui donne le tien.\\pUtilise-la avec sagesse…",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « Pokémon » est écrit en capitales.",
+  "correction": "Morgane: Ton amour pour tes\\nPokémon a surpassé mes pouvoirs\\lpsychiques…\\pL’amour aussi est peut-être une\\nforme de pouvoir psychique…",
+  "justification": "La graphie « Pokémon » s’applique au nom commun.",
+  "msgid": "SABRINA: Your love for your\\nPOKéMON overwhelmed my psychic\\lpower…\\pThe power of love, I think, is\\nalso a kind of psychic power…",
+  "msgstr": "Morgane: Ton amour pour tes\\nPOKéMON a surpassé mes pouvoirs\\lpsychiques…\\pL’amour aussi est peut-être une\\nforme de pouvoir psychique…",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "terminologie",
+  "probleme": "Le nom de la Championne est entièrement en capitales.",
+  "correction": "Morgane: Ah, le Maître de Kanto.\\pJ’ai senti ton retour.\\pTon pouvoir a beaucoup grandi.\\pMême maintenant, je sens ton aura.\\pVeux-tu une revanche?",
+  "justification": "Le lexique fourni impose « Morgane », y compris à partir de la graphie « MORGANE ».",
+  "msgid": "SABRINA: Ah, the KANTO CHAMPION.\\pI sensed your return.\\pYour power has grown immensely.\\pEven now, I feel your aura.\\pWant to have a rematch with me?",
+  "msgstr": "MORGANE: Ah, le Maître de Kanto.\\pJ’ai senti ton retour.\\pTon pouvoir s’est énormément accru.\\pMême maintenant, je sens ton aura.\\pVeux-tu une revanche?",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « Pokémon » est écrit en capitales.",
+  "correction": "Morgane: Ton amour pour tes\\nPokémon a de nouveau vaincu\\lmes pouvoirs psychiques…",
+  "justification": "La graphie « Pokémon » s’applique au nom commun.",
+  "msgid": "SABRINA: Your love for your\\nPOKéMON again overwhelmed my\\lpsychic power…",
+  "msgstr": "Morgane: Ton amour pour tes\\nPOKéMON a de nouveau vaincu\\lmes pouvoirs psychiques…",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "typographie",
+  "probleme": "La préposition « de » est isolée en capitales dans le nom de l’Arène.",
+  "correction": "Arène Pokémon de Safrania\\nCHAMPIONNE: Morgane\\pVAINQUEURS:\\nBLUE, RED",
+  "justification": "Dans un nom composé en casse mixte, la préposition reste en minuscules.",
+  "msgid": "SAFFRON POKéMON GYM\\nLEADER: SABRINA\\pWINNING TRAINERS:\\nBLUE, RED",
+  "msgstr": "Arène Pokémon DE Safrania\\nCHAMPIONNE: Morgane\\pVAINQUEURS:\\nBLUE, RED",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "typographie",
+  "probleme": "La préposition « de » est isolée en capitales dans le nom de l’Arène.",
+  "correction": "Arène Pokémon de Safrania\\nCHAMPIONNE: Morgane\\pVAINQUEURS:\\nBLUE, RED, {PLAYER}",
+  "justification": "Dans un nom composé en casse mixte, la préposition reste en minuscules.",
+  "msgid": "SAFFRON POKéMON GYM\\nLEADER: SABRINA\\pWINNING TRAINERS:\\nBLUE, RED, {PLAYER}",
+  "msgstr": "Arène Pokémon DE Safrania\\nCHAMPIONNE: Morgane\\pVAINQUEURS:\\nBLUE, RED, {PLAYER}",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "terminologie",
+  "probleme": "Le nom de l’objet est entièrement en capitales.",
+  "correction": "Si je suis du coin ou en visite?\\nQuelle question impolie!\\pSi tu veux tout savoir, je suis\\nd’ici.\\pMa famille a été l’une des\\npremières à profiter de ces sources.\\pRegarde, j’ai même cette Plaque\\nHydro pour le prouver.",
+  "justification": "Le lexique fourni prescrit « Plaque Hydro ».",
+  "msgid": "Am I a local or a visitor?\\nWhat a rude question!\\pIf you must know, I'm a local.\\pMy family was among the first to\\nenjoy these springs.\\pSee, I even have this SPLASH PLATE\\nto prove it.",
+  "msgstr": "Si je suis du coin ou en visite?\\nQuelle question impolie!\\pSi tu veux tout savoir, je suis\\nd’ici.\\pMa famille a été l’une des\\npremières à profiter de ces sources.\\pRegarde, j’ai même cette PLAQUE\\nHYDRO pour le prouver.",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "contresens",
+  "probleme": "« Apaiser » désigne un retour au calme. « Tame » implique d’apprivoiser le Pokémon.",
+  "correction": "Attends…\\pTu as besoin de la Plaque Hydro\\npour apprivoiser le Pokémon\\llégendaire?\\pSi les KIMONOS te jugent digne,\\nalors moi aussi.\\pMais il faudra quand même la\\nmériter.",
+  "justification": "« Apprivoiser » rend le sens de « tame » dans cette question.",
+  "msgid": "Wait...\\pYou need the SPLASH PLATE\\nto tame the legendary POKéMON?\\pIf the KIMONO GIRLS think you\\nare worthy, then so do I.\\pBut you'll still need to earn\\nit.",
+  "msgstr": "Attends…\\pTu as besoin de la Plaque Hydro\\npour apaiser le Pokémon légendaire?\\pSi les KIMONOS te jugent digne,\\nalors moi aussi.\\pMais il faudra quand même la\\nmériter.",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "contresens",
+  "probleme": "« Sauvage » semble qualifier l’hibernation.",
+  "correction": "DANGER\\nGITE DE POKéMON SAUVAGES",
+  "justification": "L’avertissement désigne un lieu où des Pokémon sauvages hibernent.",
+  "msgid": "DANGER\\nWILD HIBERNATION DEN",
+  "msgstr": "DANGER\\nTANIERE D’HIBERNATION SAUVAGE",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "contresens",
+  "probleme": "« Des Anciens » introduit un groupe auquel le pouvoir appartiendrait.",
+  "correction": "Un pouvoir ancien coule dans\\nces sources.\\pJe peux apprendre à tes Pokémon\\ndes capacités d’un âge oublié.\\pÇa t’intéresse?",
+  "justification": "« Ancient » qualifie l’ancienneté du pouvoir.",
+  "msgid": "The ancient power flows\\nthrough these springs.\\pI can teach your POKeMON moves\\nfrom a forgotten age.\\pInterested?",
+  "msgstr": "Le pouvoir des Anciens coule dans\\nces sources.\\pJe peux apprendre à tes Pokémon\\ndes capacités d’un âge oublié.\\pÇa t’intéresse?",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "registre",
+  "probleme": "Le donneur de capacités passe au vouvoiement en prenant congé.",
+  "correction": "Reviens quand tu veux.",
+  "justification": "Ses répliques précédentes tutoient le joueur.",
+  "msgid": "Come back anytime.",
+  "msgstr": "Revenez quand vous voulez.",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "orthographe",
+  "probleme": "« Forcés d’évoluer » convient à une obligation subie sans intervention exprimée. Ici, la tournure anglaise indique qu’une force extérieure provoque l’évolution.",
+  "correction": "Ce lac est rempli de LEVIATOR, et\\nde rien d’autre…\\pOn force donc les MAGICARPE\\nà évoluer…",
+  "justification": "« Being forced to evolve » est rendu par « forcer les MAGICARPE à évoluer ».",
+  "msgid": "This lake is full of GYARADOS\\nbut nothing else…\\pSo the MAGIKARP are being forced\\nto evolve…",
+  "msgstr": "Ce lac est rempli de LEVIATOR, et\\nde rien d’autre…\\pLes MAGICARPE sont donc forcés\\nd’évoluer…",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "terminologie",
+  "probleme": "Le prénom anglais et une traduction littérale du nom de la fratrie subsistent.",
+  "correction": "Homer: Eh bien, enchanté!\\pJe fais partie de la Fratrie\\ndes sept! Devine mon jour préféré!",
+  "justification": "Dans Pokémon Argent SoulSilver, Wesley est Homer, membre de la Fratrie des sept. [Fratrie des sept](https://www.pokepedia.fr/Fratrie_des_sept)",
+  "msgid": "WESLEY: Well, how do you do?\\pI'm a member of the WEEKDAY family!\\nCan you guess my favorite day?",
+  "msgstr": "WESLEY: Eh bien, enchanté!\\pJe suis de la famille de la\\nSEMAINE! Devine mon jour préféré!",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "registre",
+  "probleme": "Homer vouvoie le joueur après l’avoir tutoyé.",
+  "correction": "Enchanté. Prends donc un\\nsouvenir.",
+  "justification": "Le tutoiement reste cohérent avec sa demande de deviner son jour préféré.",
+  "msgid": "Pleased to meet you. Please take a\\nsouvenir.",
+  "msgstr": "Enchanté. Prenez donc un\\nsouvenir.",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette du personnage conserve son prénom anglais.",
+  "correction": "Homer: Pas vraiment…",
+  "justification": "Wesley est nommé Homer dans Pokémon Argent SoulSilver. [Fratrie des sept](https://www.pokepedia.fr/Fratrie_des_sept)",
+  "msgid": "WESLEY: Not exactly...",
+  "msgstr": "WESLEY: Pas vraiment…",
+  "msgctxt": ""
+ }
+]

@@ -1,0 +1,302 @@
+[
+ {
+  "id": 0,
+  "categorie": "oubli",
+  "probleme": "La description ne précise pas que l’allié est un Pokémon.",
+  "correction": "Augmente la Déf. Spé.\\nd’un Pokémon allié.",
+  "justification": "Rétablit la cible indiquée par « partner Pokémon ».",
+  "msgid": "Raises the Sp. Def of a\\npartner Pokémon.",
+  "msgstr": "Augmente la Déf. Spé.\\nd’un allié.",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "La description ne précise pas que l’onde affecte l’ennemi.",
+  "correction": "Une onde qui baisse beaucoup\\nl’Atq. Spé. de l’ennemi.",
+  "justification": "Précise à qui s’applique la baisse d’Attaque Spéciale.",
+  "msgid": "Exposes the foe to a pulse\\nthat sharply cuts Sp. Atk.",
+  "msgstr": "Une onde qui baisse\\nbeaucoup l’Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "typographie",
+  "probleme": "Le nom mêle capitales et minuscules.",
+  "correction": "PIEGE DE VENIN",
+  "justification": "Uniformise le libellé en capitales non accentuées.",
+  "msgid": "VENOM DRENCH",
+  "msgstr": "Piège DE VENIN",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "contresens",
+  "probleme": "Le singulier limite l’effet à un seul ennemi empoisonné.",
+  "correction": "Baisse Attaque, Atq. Spé. et\\nVitesse des ennemis empoisonnés.",
+  "justification": "L’anglais indique que l’effet vise les ennemis empoisonnés au pluriel.",
+  "msgid": "Lowers the Attack, Sp. Atk\\nand Speed of poisoned foes.",
+  "msgstr": "Baisse Attaque, Atq. Spé. et\\nVitesse d’un ennemi empoisonné.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "terminologie",
+  "probleme": "Le talent Minus est appelé « Moins ».",
+  "correction": "Monte Défense et Déf. Spé.\\ndes alliés avec Plus ou Minus.",
+  "justification": "« Minus » est le nom officiel dans Pokémon Émeraude FR et dans le lexique fourni.",
+  "msgid": "Boosts the defenses of\\nthose with Plus or Minus.",
+  "msgstr": "Monte Défense et Déf. Spé.\\ndes alliés Plus ou Moins.",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "oubli",
+  "probleme": "La description ne précise pas à qui appartient l’Attaque réduite.",
+  "correction": "Baisse l’Attaque de l’ennemi\\navant qu’il puisse agir.",
+  "justification": "Rétablit la cible et l’ordre d’action indiqués en anglais.",
+  "msgid": "Lowers the foe's Attack\\nbefore it can move.",
+  "msgstr": "Regard mignon qui baisse\\nl’Attaque. Agit en priorité.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "typographie",
+  "probleme": "Le nom mêle capitales et minuscules.",
+  "correction": "POING BOOST",
+  "justification": "Uniformise le libellé en capitales.",
+  "msgid": "POWER-UP PUNCH",
+  "msgstr": "POING Boost",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "contresens",
+  "probleme": "« Un poing dur » décrit la dureté du poing.",
+  "correction": "Un coup de poing puissant\\nqui monte l’Attaque du lanceur.",
+  "justification": "« A hard punch » désigne un coup de poing puissant.",
+  "msgid": "A hard punch that raises\\nthe user's Attack.",
+  "msgstr": "Un poing dur qui augmente\\nl’Attaque du lanceur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "typographie",
+  "probleme": "Le nom mêle capitales et minuscules.",
+  "correction": "FORCE CHTONIENNE",
+  "justification": "Uniformise le libellé en capitales.",
+  "msgid": "LAND'S WRATH",
+  "msgstr": "Force CHTONIENNE",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "oubli",
+  "probleme": "La portée explicite de « every foe » disparaît.",
+  "correction": "Concentre l’énergie du sol\\npour frapper tous les ennemis.",
+  "justification": "Indique que chaque ennemi est touché.",
+  "msgid": "Gathers the energy of the\\nland to attack every foe.",
+  "msgstr": "Concentre l’énergie du sol\\npour frapper les ennemis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "oubli",
+  "probleme": "La description omet que les deux ennemis sont touchés.",
+  "correction": "Des rayons d’un bleu intense\\nfrappent les deux ennemis.",
+  "justification": "Rétablit le nombre de cibles donné par « both foes ».",
+  "msgid": "Beams of glowing blue light\\nblast both foes.",
+  "msgstr": "Des rayons d’un bleu intense\\nfrappent les ennemis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "oubli",
+  "probleme": "La description omet que les deux ennemis sont touchés.",
+  "correction": "De terribles lames de pierre\\nfrappent les deux ennemis.",
+  "justification": "Rétablit le nombre de cibles donné par « both foes ».",
+  "msgid": "Fearsome blades of stone\\nattack both foes.",
+  "msgstr": "De terribles lames de pierre\\nfrappent les ennemis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "typographie",
+  "probleme": "Le nom mêle capitales et minuscules.",
+  "correction": "FURIE DIMENSION",
+  "justification": "Uniformise le libellé en capitales.",
+  "msgid": "HYPERSPACE FURY",
+  "msgstr": "Furie DIMENSION",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "terminologie",
+  "probleme": "L’effet météo est appelé « tempête de sable ».",
+  "correction": "Restaure les PV du lanceur.\\nEncore plus sous Tempêtesable.",
+  "justification": "Le lexique fourni donne « Tempêtesable », graphie de Pokémon Émeraude FR. La correction précise aussi qui récupère les PV.",
+  "msgid": "Restores the user's HP.\\nMore HP in a sandstorm.",
+  "msgstr": "Restaure des PV. Encore plus\\nlors d’une tempête de sable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "contresens",
+  "probleme": "« Les ennemis » se lit comme le complément des deux verbes.",
+  "correction": "Protège le lanceur et empoisonne\\nles ennemis qui le touchent.",
+  "justification": "La protection s’applique au lanceur. Le poison affecte les ennemis qui le touchent.",
+  "msgid": "Protects user and poisons\\nfoes on contact.",
+  "msgstr": "Protège et empoisonne les\\nennemis qui le touchent.",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "oubli",
+  "probleme": "La description omet que l’impossibilité de fuir s’applique aux ennemis touchés.",
+  "correction": "Les ennemis touchés\\nne peuvent plus s’enfuir.",
+  "justification": "Rétablit la condition formulée par « after being hit ».",
+  "msgid": "After being hit, foes can\\nno longer escape.",
+  "msgstr": "Coud l’ombre de l’ennemi.\\nIl ne peut plus s’enfuir.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "contresens",
+  "probleme": "« Ignore les stats modifiées » laisse entendre que les stats elles-mêmes sont ignorées.",
+  "correction": "Frappe en balançant les bras.\\nIgnore les changements de stats.",
+  "justification": "L’anglais indique que la capacité ignore les modifications apportées aux stats.",
+  "msgid": "Swings the arms to strike\\nIt ignores stat changes.",
+  "msgstr": "Frappe en balançant les bras.\\nIgnore les stats modifiées.",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "oubli",
+  "probleme": "La guérison au contact des bulles n’est pas précisée.",
+  "correction": "Chante et lance des bulles.\\nAu contact, la brûlure guérit.",
+  "justification": "Rétablit la condition de guérison exprimée par « on contact ».",
+  "msgid": "Sings with bubbles. Cures\\nburns on contact.",
+  "msgstr": "Chante avec des bulles qui\\nsoignent les brûlures.",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "typographie",
+  "probleme": "Le nom mêle capitales et minuscules.",
+  "correction": "MARTEAU DE GLACE",
+  "justification": "Uniformise le libellé en capitales.",
+  "msgid": "ICE HAMMER",
+  "msgstr": "MARTEAU DE Glace",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "typographie",
+  "probleme": "Le nom mêle capitales et minuscules.",
+  "correction": "SOIN FLORAL",
+  "justification": "Uniformise le libellé en capitales.",
+  "msgid": "FLORAL HEALING",
+  "msgstr": "Soin FLORAL",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "oubli",
+  "probleme": "La description ne précise pas que la charge occupe le premier tour.",
+  "correction": "Charge au premier tour, puis\\nfrappe d’une lame lumineuse.",
+  "justification": "Rétablit la durée de préparation annoncée en anglais.",
+  "msgid": "Charges first turn, then\\nchops with a blade of light.",
+  "msgstr": "Absorbe la lumière, puis\\nfrappe d’une lame lumineuse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "contresens",
+  "probleme": "« Au tour suivant » désigne un moment du combat.",
+  "correction": "Garantit un coup critique\\nà la prochaine attaque.",
+  "justification": "L’anglais applique la garantie à la prochaine attaque utilisée.",
+  "msgid": "Guarantees the next move\\nwill be a critical hit.",
+  "msgstr": "Garantit un coup critique\\nau tour suivant.",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "terminologie",
+  "probleme": "Le talent Minus est appelé « Moins ».",
+  "correction": "Monte Attaque et Atq. Spé.\\ndes alliés avec Plus ou Minus.",
+  "justification": "« Minus » est le nom officiel dans Pokémon Émeraude FR et dans le lexique fourni.",
+  "msgid": "Boosts the attacks of\\nthose with Plus or Minus.",
+  "msgstr": "Monte Attaque et Atq. Spé.\\ndes alliés Plus ou Moins.",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "contresens",
+  "probleme": "L’ancre remplace la chaîne, et l’étranglement disparaît.",
+  "correction": "Etrangle l’ennemi avec une\\nchaîne. Il ne peut plus fuir.",
+  "justification": "Rétablit l’action et l’instrument décrits en anglais.",
+  "msgid": "Strangles the foe with a\\nchain. The foe can't escape.",
+  "msgstr": "Enchaîne l’ennemi avec une\\nancre. Il ne peut plus fuir.",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "typographie",
+  "probleme": "Le nom mêle capitales et minuscules.",
+  "correction": "FOUET DE FEU",
+  "justification": "Uniformise le libellé en capitales.",
+  "msgid": "FIRE LASH",
+  "msgstr": "FOUET DE Feu",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "contresens",
+  "probleme": "« Plus il frappe » peut indiquer une augmentation du nombre de coups.",
+  "correction": "Plus les stats du lanceur\\nont monté, plus il frappe fort.",
+  "justification": "« Hits harder » indique une augmentation de la puissance du coup.",
+  "msgid": "It hits harder the more\\nstat boosts the user has.",
+  "msgstr": "Plus les stats du lanceur\\nont monté, plus il frappe.",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "contresens",
+  "probleme": "« Soigne le statut » ne désigne pas clairement la guérison d’une altération.",
+  "correction": "Guérit l’altération de statut\\nde l’ennemi et regagne des PV.",
+  "justification": "L’effet retire l’altération de statut de l’ennemi pour rendre des PV au lanceur.",
+  "msgid": "Cures the foe's status\\nto restore HP.",
+  "msgstr": "Soigne le statut de l’ennemi\\npour regagner des PV.",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "oubli",
+  "probleme": "La puissance du coup de pied n’est pas rendue.",
+  "correction": "Puissant coup de pied tropical.\\nBaisse l’Attaque ennemie.",
+  "justification": "« Puissant » rend « intense » tout en conservant l’origine tropicale du coup.",
+  "msgid": "An intense kick from the\\ntropics. Lowers Attack.",
+  "msgstr": "Un coup de pied tropical.\\nBaisse l’Attaque ennemie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 111,
+  "categorie": "typographie",
+  "probleme": "Le nom mêle capitales et minuscules.",
+  "correction": "VOILE AURORE",
+  "justification": "Uniformise le libellé en capitales.",
+  "msgid": "AURORA VEIL",
+  "msgstr": "VOILE Aurore",
+  "msgctxt": ""
+ },
+ {
+  "id": 115,
+  "categorie": "typographie",
+  "probleme": "Le nom mêle capitales et minuscules.",
+  "correction": "CANON FLORAL",
+  "justification": "Uniformise le libellé en capitales.",
+  "msgid": "FLEUR CANNON",
+  "msgstr": "Canon FLORAL",
+  "msgctxt": ""
+ }
+]

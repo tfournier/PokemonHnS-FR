@@ -1,0 +1,392 @@
+[
+ {
+  "id": 0,
+  "categorie": "registre",
+  "probleme": "L’accueil du Centre Pokémon tutoie le joueur. « Pour une offre spéciale » rend aussi mal la circonstance.",
+  "correction": "{PLAYER}, c’est bien vous?\\pFélicitations!\\pPour cette occasion spéciale,\\non vous a envoyé une GS Ball\\lrien que pour vous!\\pAcceptez-la, je vous en prie!",
+  "justification": "Le personnel du Centre vouvoie le joueur. La remise de la GS Ball est exceptionnelle et lui est réservée.",
+  "msgid": "{PLAYER}, isn't it?\\pCongratulations!\\pAs a special deal, a GS BALL has\\nbeen sent just for you!\\pPlease accept it!",
+  "msgstr": "{PLAYER}, c’est bien ça?\\pFélicitations!\\pPour une offre spéciale, une GS Ball a\\nété envoyée rien que pour toi!\\pAccepte-la, je t’en prie!",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "terminologie",
+  "probleme": "« Lettre Eon » reprend le nom anglais de l’objet.",
+  "correction": "Oh là là, ton sac a l’air si lourd!\\pOh! Aurais-tu par hasard une Lettre\\nEvoli?\\pMa fille en cherche une.\\pTu peux bien t’en séparer, non?",
+  "justification": "Pokémon Cristal FR affiche « LETR EVOLI » pour Eon Mail. « Lettre Evoli » développe cette abréviation selon la casse du projet.",
+  "msgid": "Oh my, your pack looks so heavy!\\pOh! Do you happen to have\\nsomething named EON MAIL?\\pMy daughter is after one.\\pYou can part with one, can't you?",
+  "msgstr": "Oh là là, ton sac a l’air si lourd!\\pOh! Aurais-tu par hasard une Lettre\\nEon?\\pMa fille en cherche une.\\pTu peux bien t’en séparer, non?",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "terminologie",
+  "probleme": "Le nom de l’objet dans la confirmation reprend l’anglais.",
+  "correction": "Donner une Lettre Evoli?",
+  "justification": "Eon Mail correspond à « LETR EVOLI » dans Pokémon Cristal FR.",
+  "msgid": "Give away an EON MAIL?",
+  "msgstr": "Donner une Lettre Eon?",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "typographie",
+  "probleme": "L’absence de saut de ligne allonge la première ligne au-delà du gabarit.",
+  "correction": "Oh, c’est formidable! Merci,\\nmon chou!\\pTiens, voici pour toi en échange!",
+  "justification": "Le retour à la ligne de l’original permet de conserver la réplique entière dans la fenêtre.",
+  "msgid": "Oh, that's great! Thank you,\\nhoney!\\pHere, this is for you in return!",
+  "msgstr": "Oh, c’est formidable! Merci, mon chou!\\pTiens, voici pour toi en échange!",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "terminologie",
+  "probleme": "Le nom de l’objet dans le message de remise reprend l’anglais.",
+  "correction": "{PLAYER} donne la Lettre Evoli.",
+  "justification": "Eon Mail correspond à « LETR EVOLI » dans Pokémon Cristal FR.",
+  "msgid": "{PLAYER} gave away the EON MAIL.",
+  "msgstr": "{PLAYER} donne la Lettre Eon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « apprenti » est entièrement en capitales.",
+  "correction": "Les RAMOLOSS sont revenus…\\pMais mon apprenti n’est pas\\nrentré du Bois aux Chênes.\\pOù est passé ce fainéant?",
+  "justification": "Le personnage parle de son apprenti. Le mot désigne ici une fonction ordinaire.",
+  "msgid": "The SLOWPOKE have returned…\\pBut my APPRENTICE hasn't come back\\nfrom ILEX FOREST.\\pWhere in the world is that lazy guy?",
+  "msgstr": "Les RAMOLOSS sont revenus…\\pMais mon APPRENTI n’est pas\\nrentré du Bois aux Chênes.\\pOù est passé ce fainéant?",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "terminologie",
+  "probleme": "« Les ROCKETS » désigne l’organisation par une forme proscrite.",
+  "correction": "La Team Rocket a pris ma cave!",
+  "justification": "Le lexique du projet impose « Team Rocket » pour l’organisation.",
+  "msgid": "ROCKETS have hijacked my basement!",
+  "msgstr": "Les ROCKETS ont envahi ma cave!",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "oubli",
+  "probleme": "La question omet la forêt. « JADIELLE » suit aussi la casse anglaise.",
+  "correction": "J’ai pris tous les insectes de\\nJadielle. Y a-t-il mieux ailleurs\\lcomme forêt?",
+  "justification": "Le Dresseur cherche une autre forêt où trouver de meilleurs insectes.",
+  "msgid": "I caught every bug in VIRIDIAN.\\nIs there a better FOREST somewhere?",
+  "msgstr": "J’ai attrapé tous les insectes de\\nJADIELLE. Il y a mieux ailleurs?",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "contresens",
+  "probleme": "Le Dresseur demande pourquoi les filles fuient ses propres Pokémon.",
+  "correction": "Pourquoi les filles boudent le type Insecte?",
+  "justification": "L’anglais parle de leur manque d’intérêt pour les Pokémon de type Insecte en général.",
+  "msgid": "Why don't girls like bug POKéMON?",
+  "msgstr": "Pourquoi les filles fuient mes Pokémon?",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "oubli",
+  "probleme": "La comparaison avec des peluches disparaît. « Les tripoter » déplace aussi l’accent de la sensation vers le geste.",
+  "correction": "Les Pokémon de type Insecte\\lsont mous comme des peluches\\lquand on leur presse le ventre.\\pJ’adore cette sensation!",
+  "justification": "La réplique compare leur ventre à une peluche et exprime le plaisir de les toucher.",
+  "msgid": "Bug POKéMON squish like plush toys\\nwhen you squeeze their bellies.\\pI love how they feel!",
+  "msgstr": "Les Pokémon insectes, c’est tout\\nmou quand on presse leur ventre!\\pJ’adore les tripoter!",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "typographie",
+  "probleme": "Le panneau mélange deux casses pour les noms de villes.",
+  "correction": "Route 2\\pJadielle - Argenta",
+  "justification": "Les deux lieux suivent la casse prévue pour les toponymes.",
+  "msgid": "ROUTE 2\\pVIRIDIAN CITY - PEWTER CITY",
+  "msgstr": "Route 2\\pJADIELLE - Argenta",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "contresens",
+  "probleme": "« Aime l’eau » atténue l’idée de préférence qui motive la déduction d’Eusine.",
+  "correction": "EUSINE: Il s’en est fallu de peu!\\nJe pensais le coincer en lui\\ltendant une embuscade ici.\\pMais courir sur l’eau, ça me\\ndépasse.\\pEnfin, je commence à voir\\nune logique.\\pSUICUNE préfère l’eau!\\pCe qui veut dire…",
+  "justification": "Eusine repère une préférence qui peut l’aider à prévoir les déplacements de SUICUNE.",
+  "msgid": "EUSINE: That was so close!\\nI though I could corner it by\\lambushing it here.\\pBut running on the water is beyond\\nme.\\pStill, I am starting to see\\na pattern.\\pSUICUNE prefers water!\\pThat means...",
+  "msgstr": "EUSINE: Il s’en est fallu de peu!\\nJe pensais le coincer en lui\\ltendant une embuscade ici.\\pMais courir sur l’eau, ça me\\ndépasse.\\pEnfin, je commence à voir\\nune logique.\\pSUICUNE aime l’eau!\\pCe qui veut dire…",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "typographie",
+  "probleme": "La casse de « D’ARENE DE KANTO » tranche avec celle du reste du dialogue.",
+  "correction": "Avoir des Pokémon de types variés\\ndonne un avantage en combat.\\pLes Badges d’Arène de Kanto\\nt’aideront, j’en suis sûr.",
+  "justification": "« Arène » et « Kanto » suivent la casse du projet.",
+  "msgid": "Having a variety of POKéMON types\\nshould give you an edge in battle.\\pI'm sure the KANTO GYM BADGES will\\nhelp you.",
+  "msgstr": "Avoir des Pokémon de types variés\\ndonne un avantage en combat.\\pLes Badges D’ARENE DE KANTO\\nt’aideront, j’en suis sûr.",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "contresens",
+  "probleme": "« Le même regard » réduit la ressemblance à l’expression des yeux. La réplique ajoute le nom de famille et emploie une casse incohérente.",
+  "correction": "Bonjour!\\nJe m’appelle PIERRE,\\lle Maître de la région de Hoenn.\\pNe nous serions-nous pas\\ndéjà rencontrés…?\\pC’est impossible.\\nDe toute façon, tous les\\lDresseurs que j’ai affrontés\\lse ressemblent.\\pSurtout ceux qui m’ont donné\\ndu fil à retordre.\\pJe suis à Kanto pour affaires.\\nDe nombreux Pokémon de Hoenn\\lont récemment migré par ici.\\lCet afflux pourrait perturber\\ll’écosystème local.\\pAvec l’aide de mon entreprise,\\nje crée donc un habitat spécial\\lpour attirer et contenir les\\lespèces les plus envahissantes.\\pOuvre l’œil et attrape tous\\nles Pokémon de Hoenn que tu vois.\\pDes Dresseurs disent même en avoir\\nvu un fendre le ciel comme\\lun avion à réaction… Il était\\lde quelle couleur, déjà?",
+  "justification": "Steven évoque une ressemblance générale entre les Dresseurs déjà affrontés et se présente par son prénom. La casse suit les conventions du projet.",
+  "msgid": "Hi!\\nMy name is Steven.\\lThe Champion from the HOENN region.\\pHave we met...before?\\pThat's not possible. \\nAll the trainers I have battled\\lseem to have the same look, anyway.\\pEspecially the ones who gave me\\ntough battles.\\pI'm in KANTO for business.\\nRecently many HOENN POKéMON have\\lmigrated to this region.\\lThis influx risks disrupting the\\lnatural ecosystem here.\\pSo with the help of my company,\\nI'm creating a special habitat\\lto attract and contain the most\\linvasive species.\\pMake sure you keep an eye out\\nand catch any HOENN POKéMON you see.\\pSome trainers have even reported\\none that soars through the sky like\\la jet... What color was it again?",
+  "msgstr": "Bonjour!\\nJe m’appelle Pierre Rochard,\\lle Maître de la région de HOENN.\\pNe nous serions-nous pas\\ndéjà rencontrés…?\\pC’est impossible.\\nDe toute façon, tous les\\ldresseurs que j’affronte ont\\lle même regard.\\pSurtout ceux qui m’ont donné\\ndu fil à retordre.\\pJe suis à KANTO pour affaires.\\nDe nombreux Pokémon de HOENN\\lont récemment migré par ici.\\lCet afflux pourrait perturber\\ll’écosystème local.\\pAvec l’aide de mon entreprise,\\nje crée donc un habitat spécial\\lpour attirer et contenir les\\lespèces les plus envahissantes.\\pOuvre l’œil, et attrape tous\\nles Pokémon de HOENN que tu vois.\\pDes dresseurs disent même en avoir\\nvu un fendre le ciel comme\\lun avion à réaction… Il était\\lde quelle couleur, déjà?",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "typographie",
+  "probleme": "Les noms de lieux et d’objet suivent par endroits les capitales de l’anglais.",
+  "correction": "Ouh là!\\pDésolé, petit, je suis pressé!\\pLe ferry de la Route 13 va bientôt\\npartir pour les Iles, et il\\lfaut absolument que je le prenne!\\pOuf… Ouf…\\pJ’ai couru depuis le\\nMont Sélénite.\\pTu vois ce bidule?\\pC’est un Bibelot Bizarre acheté\\nà la Boutique de Souvenirs.\\pC’est mon billet pour les Iles!\\pAllez, salut!",
+  "justification": "Les noms suivent la casse du projet. L’accent de « Sélénite » porte sur une minuscule.",
+  "msgid": "Whoah!\\pSorry kiddo, I'm in a hurry!\\pThe ferry on ROUTE 13 will be\\nleaving for the ISLES soon, and\\lI've got to be on it!\\pPhew... Phew...\\pI ran all the way here from\\nMT. MOON.\\pSee this tchotchke here?\\pI picked up this STRANGE SOUVENIR\\nat the GIFT SHOP.\\pIt's my ticket onto the ISLES.\\pWell, see-ya!",
+  "msgstr": "Ouh là!\\pDésolé, petit, je suis pressé!\\pLe ferry de la Route 13 va bientôt\\npartir pour les ILES, et il\\lfaut absolument que je le prenne!\\pOuf… Ouf…\\pJ’ai couru depuis le\\nMONT SELENITE.\\pTu vois ce bidule?\\pC’est un BIBELOT BIZARRE acheté\\nà la Boutique DE SOUVENIRS.\\pC’est mon billet pour les ILES!\\pAllez, salut!",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "terminologie",
+  "probleme": "« ROCKETS » et « ce Rocket-là » désignent des membres sans préciser leur rôle.",
+  "correction": "PETER: Il faut deux mots de passe\\npour entrer chez le boss.\\pSeuls quelques Sbires Rocket\\nles connaissent.\\pCe Sbire Rocket a eu l’amabilité\\nde me le dire.\\p{PLAYER}, allons chercher les\\nmots de passe.",
+  "justification": "« Sbire Rocket » est la forme courte prévue par le lexique du projet pour un membre de la Team Rocket.",
+  "msgid": "LANCE: It takes two passwords\\nto get into the boss' quarters.\\pThose passwords are known only\\nto a few ROCKETS.\\pThat ROCKET there very graciously\\ntold me so.\\p{PLAYER}, let's go get the\\npasswords.",
+  "msgstr": "PETER: Il faut deux mots de passe\\npour entrer chez le boss.\\pSeuls quelques ROCKETS les\\nconnaissent.\\pCe Rocket-là a eu l’amabilité de\\nme le dire.\\p{PLAYER}, allons chercher les\\nmots de passe.",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "contresens",
+  "probleme": "Le rival dit qu’il n’aime pas du tout ses Pokémon. « Pokémon dragons » et « POKéMON » s’écartent aussi de la terminologie et de la casse du projet.",
+  "correction": "…\\pJe ne t’avais pas dit que j’allais\\ndétruire la Team Rocket?\\p…Dis-moi, qui était ce type en cape\\naux Pokémon de type Dragon?\\pMes Pokémon n’ont rien pu faire.\\pC’est ce qu’il a dit qui me\\ntracasse…\\pIl dit que je n’aime pas assez\\nmes Pokémon et que je ne leur\\lfais pas assez confiance.\\pC’est pas ma faute si mon équipe\\nest si nulle.\\pÇa me rend fou d’avoir perdu\\ncontre un bon samaritain comme lui.\\pMais ça me fait douter.\\pEst-ce que je m’y prends mal?\\pEst-ce l’amour qui rend son\\néquipe si puissante?",
+  "justification": "Le reproche porte sur un manque d’affection et de confiance. « Type Dragon » est la désignation française du type dans Pokémon SoulSilver.",
+  "msgid": "…\\pDidn't I tell you that I was\\ngoing to destroy TEAM ROCKET?\\p…Tell me, who was the guy in the\\ncape who used dragon POKéMON?\\pMy POKéMON were no match at all.\\pIt's what he said that bothers\\nme…\\pHe told me that I don't love and\\ntrust my POKéMON enough.\\pIt's not my fault my team is so\\nuseless.\\pI'm furious that I lost to a\\nbleeding heart like him.\\pBut it makes me question myself.\\pIs there something I'm doing\\nwrong?\\pCould it be that love made his\\nteam so powerful?",
+  "msgstr": "…\\pJe ne t’avais pas dit que j’allais\\ndétruire la Team Rocket?\\p…Dis-moi, qui était ce type en cape\\navec des Pokémon dragons?\\pMes Pokémon n’ont rien pu faire.\\pC’est ce qu’il a dit qui me\\ntracasse…\\pIl m’a dit que je n’aimais pas mes\\nPOKéMON, que je ne leur faisais\\lpas assez confiance.\\pC’est pas ma faute si mon équipe\\nest si nulle.\\pÇa me rend fou d’avoir perdu contre\\nun bon samaritain comme lui.\\pMais ça me fait douter.\\pEst-ce que je m’y prends mal?\\pEst-ce l’amour qui rend son\\néquipe si puissante?",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "contresens",
+  "probleme": "« T’es faible » traduit « You're nuts » comme un jugement sur le niveau du joueur.",
+  "correction": "Héhéhé!\\pJe me souviens de toi, au puits!\\pTu viens encore me défier?\\pHa! T’es dingue, mais t’as du\\ncran!\\pJe te préviens, j’ai progressé!\\pSi tu me bats, je te donnerai\\nun mot de passe pour la salle\\ldu boss!",
+  "justification": "Le Sbire trouve insensé que le joueur le défie de nouveau et lui reconnaît du courage.",
+  "msgid": "Hyuck-hyuck-hyuck!\\pI remember you from the well!\\pYou're challenging me again?\\pHah! You're nuts, but you have\\nguts!\\pI'll warn you, I got better!\\pIf you can beat me, I'll tell\\lyou a password to the boss'\\nroom!",
+  "msgstr": "Héhéhé!\\pJe me souviens de toi, au puits!\\pTu viens encore me défier?\\pHa! T’es faible, mais t’as du\\ncran!\\pJe te préviens, j’ai progressé!\\pSi tu me bats, je te donnerai\\nun mot de passe pour la salle\\ldu boss!",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "contresens",
+  "probleme": "« Peint » précise une technique absente de l’anglais.",
+  "correction": "Bienvenue dans cette salle.\\pCes panneaux coulissants montrent\\nun Pokémon dessiné par les Anciens.\\pFaites-les glisser pour reformer\\nl’image.\\pA gauche figure la description\\nde ce Pokémon.\\pLes chercheurs du labo étudient\\ndes motifs tout juste découverts.",
+  "justification": "L’anglais parle d’un dessin et indique que les motifs viennent d’être découverts.",
+  "msgid": "Welcome to this chamber.\\pThere are sliding panels that depict\\na POKéMON drawn by the ancients.\\pSlide the panels around to form\\nthe picture.\\pTo the left is a description of\\nthe POKéMON.\\pScientists in the lab are examin-\\n-ing some newly found patterns.",
+  "msgstr": "Bienvenue dans cette salle.\\pCes panneaux coulissants montrent\\nun Pokémon peint par les Anciens.\\pFaites-les glisser pour reformer\\nl’image.\\pA gauche figure la description\\nde ce Pokémon.\\pLes chercheurs du labo étudient\\nde nouveaux motifs découverts.",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "orthographe",
+  "probleme": "« Tout est ma faute » est une construction calquée sur l’anglais.",
+  "correction": "Pardon! C’est ma faute!",
+  "justification": "« C’est ma faute » est la construction idiomatique pour reconnaître sa responsabilité.",
+  "msgid": "Sorry! It's all my fault!",
+  "msgstr": "Pardon! Tout est ma faute!",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « gérant » est entièrement en capitales.",
+  "correction": "Le gérant de la Centrale est dans\\nla salle du générateur, au fond.\\pMais depuis qu’on a saboté le\\ngénérateur, il est à la fois\\ltriste et furieux…",
+  "justification": "Le mot désigne ici une fonction et prend la minuscule.",
+  "msgid": "The POWER PLANT's MANAGER is in\\nthe back room with the generator.\\pBut since someone wrecked the\\ngenerator, he's been both sad and\\lfurious…",
+  "msgstr": "Le GERANT de la Centrale est dans\\nla salle du générateur, au fond.\\pMais depuis qu’on a saboté le\\ngénérateur, il est à la fois\\ltriste et furieux…",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "orthographe",
+  "probleme": "« Mon ECREMEUH » emploie le possessif masculin pour une espèce exclusivement femelle. « DOJO » suit aussi la casse anglaise.",
+  "correction": "{PLAYER}! Quelle surprise de te\\nvoir ici!\\pJe fais des courses pour\\nmon Pokémon ECREMEUH.\\pSi tu veux une revanche, viens\\nau Dojo!",
+  "justification": "Le possessif s’accorde ici avec « Pokémon ». « Dojo » suit la casse prévue pour les lieux.",
+  "msgid": "{PLAYER}! Fancy seeing you here!\\pI'm picking up something for\\nmy MILTANK.\\pIf you want another battle, come to\\nthe FIGHTING DOJO!",
+  "msgstr": "{PLAYER}! Quelle surprise de te\\nvoir ici!\\pJe fais des courses pour\\nmon ECREMEUH.\\pSi tu veux une revanche, viens\\nau DOJO!",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "typographie",
+  "probleme": "La proposition d’échange et le nom injecté par le code se retrouvent sur une ligne trop longue.",
+  "correction": "Les {STR_VAR_2} d’ici ne sont pas\\ncomme ceux du continent.\\pOn échange mon {STR_VAR_2}?",
+  "justification": "La formulation courte conserve les deux codes et laisse de la place au nom de l’espèce.",
+  "msgid": "The {STR_VAR_2} out here aren't like\\nthe ones on the mainland.\\pWant to trade for my {STR_VAR_2}?",
+  "msgstr": "Les {STR_VAR_2} d’ici ne sont pas\\ncomme ceux du continent.\\pOn échange? Je te file mon {STR_VAR_2}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "contresens",
+  "probleme": "« Mon vieux TORY » peut donner à entendre que TORY est âgé.",
+  "correction": "Salut, comment va TORY?",
+  "justification": "Après l’échange, « my old TORY » évoque le Pokémon que le personnage possédait auparavant.",
+  "msgid": "Hi, how's my old TORY doing?",
+  "msgstr": "Salut, comment va mon vieux TORY?",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu reste entièrement en capitales dans la narration.",
+  "correction": "{PLAYER} examine la carte\\ndes Iles d’Alola.",
+  "justification": "Le toponyme suit la casse du projet, avec un I initial sans accent.",
+  "msgid": "{PLAYER} took a closer look at the\\nALOLA ISLES map.",
+  "msgstr": "{PLAYER} examine la carte\\ndes ILES D’ALOLA.",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "oubli",
+  "probleme": "La traduction omet le rôle des PP et exprime vaguement l’effet du Rappel Max avec « ranime à fond ».",
+  "correction": "On ne trouve pas de Rappel Max en\\nboutique. Il ranime un Pokémon K.O.\\let lui rend tous ses PV.\\pAttention: il ne rend pas les PP,\\nles points nécessaires aux\\lcapacités!",
+  "justification": "Le texte explique que l’objet ranime le Pokémon avec tous ses PV et que les PP servent à utiliser ses capacités.",
+  "msgid": "You can't buy MAX REVIVE, but it\\nfully restores a fainted POKéMON.\\pBeware--it won't restore PP, the\\nPOWER POINTS needed for moves.",
+  "msgstr": "On ne trouve pas de Rappel Max en\\nboutique, mais il ranime un Pokémon\\là fond.\\pAttention: il ne restaure pas les\\nPP, les POINTS DE POUVOIR!",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "typographie",
+  "probleme": "Les deux premières lignes dépassent le gabarit. « Ces livres » omet aussi l’idée de livres semblables.",
+  "correction": "Rosalia est une très vieille ville.\\nDes générations ont transmis leur\\lhistoire dans des livres pareils.",
+  "justification": "La répartition tient sur trois lignes et restitue « books like these ».",
+  "msgid": "ECRUTEAK is a very old city.\\nMany generations passed down\\ltheir history in books like these.",
+  "msgstr": "Rosalia est une très vieille ville. De\\nnombreuses générations ont transmis\\lleur histoire dans ces livres.",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "contresens",
+  "probleme": "« Ça coule mes affaires » annonce une ruine que le texte ne présente pas comme acquise. La casse varie pour « Pokémon », « Parmanie » et « Parc Safari ».",
+  "correction": "Le gardien Baoba: {PLAYER}!\\pIci le gardien Baoba.\\pC’est une catastrophe!\\nMon ancien Parc Safari de\\lParmanie a été racheté et rouvert!\\pIl paraît qu’il y a de nouveaux\\nPokémon exotiques!\\pÇa nuit à mes affaires!\\p{PLAYER}, va dans ce nouveau\\nParc Safari et capture un\\lPokémon pour me le montrer.\\lJe dois tout savoir sur ces\\lPokémon “exotiques”!\\pJe t’en prie, {PLAYER}, l’avenir\\nde mon affaire dépend de toi!",
+  "justification": "La réouverture nuit à l’activité de Baoba. Les noms suivent le lexique et la casse du projet.",
+  "msgid": "WARDEN BAOBA: {PLAYER}!\\pThis is WARDEN BAOBA.\\pSomething awful has happened!\\nMy old SAFARI ZONE in FUCHSIA CITY\\lwas bought out and reopened!\\pAnd apparently it has exotic new\\nPOKéMON!\\pIt's hurting my business!\\p{PLAYER}, you must venture into the\\nnew SAFARI ZONE and catch a POKéMON\\lto show me. I must know about these\\l'exotic' POKéMON.\\pPlease {PLAYER}, my business depends\\non you!",
+  "msgstr": "GARDIEN Baoba: {PLAYER}!\\pIci le GARDIEN Baoba.\\pC’est une catastrophe!\\nMon ancien Parc Safari de\\lPARMANIE a été racheté et rouvert!\\pEt il paraît qu’il y a de nouveaux\\nPOKéMON exotiques!\\pÇa coule mes affaires!\\p{PLAYER}, va dans ce nouveau\\nPARC SAFARI et capture un\\lPOKéMON pour me le montrer.\\lJe dois tout savoir sur ces\\lPOKéMON “exotiques”!\\pJe t’en prie, {PLAYER}, l’avenir\\nde mon affaire dépend de toi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "typographie",
+  "probleme": "« POKéMON » mêle capitales et minuscule accentuée.",
+  "correction": "Le Parc Safari a changé de\\npropriétaire.\\pEt il y a des tas de nouveaux\\nPokémon!",
+  "justification": "Le projet retient « Pokémon » pour le nom générique.",
+  "msgid": "The SAFARI ZONE is under new\\nmanagement.\\pAnd it has tons of new POKéMON!",
+  "msgstr": "Le Parc Safari a changé de\\npropriétaire.\\pEt il y a des tas de nouveaux\\nPOKéMON!",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "terminologie",
+  "probleme": "« DEVON SA » change la dénomination officielle. La mention du changement de propriétaire disparaît aussi.",
+  "correction": "Parc Safari\\nDésormais propriété de\\lDevon SARL",
+  "justification": "Pokémon Émeraude FR emploie « Devon SARL » pour Devon Corp. « Désormais » restitue le changement annoncé.",
+  "msgid": "SAFARI ZONE\\nNOW OWNED BY\\lDEVON CORP.",
+  "msgstr": "Parc Safari\\nPROPRIETE DE\\lDEVON SA",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "typographie",
+  "probleme": "La préposition et le nom de ville sont en capitales au milieu du titre.",
+  "correction": "Arène Pokémon d’Argenta\\nCHAMPION: Pierre\\pVAINQUEURS:\\nBLUE, RED",
+  "justification": "Le titre suit la casse prévue pour les lieux.",
+  "msgid": "PEWTER POKéMON GYM\\nLEADER: BROCK\\pWINNING TRAINERS:\\nBLUE, RED",
+  "msgstr": "Arène Pokémon D’ARGENTA\\nCHAMPION: Pierre\\pVAINQUEURS:\\nBLUE, RED",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "typographie",
+  "probleme": "La variante du panneau avec le nom du joueur reprend la même casse incohérente.",
+  "correction": "Arène Pokémon d’Argenta\\nCHAMPION: Pierre\\pVAINQUEURS:\\nBLUE, RED, {PLAYER}",
+  "justification": "Le titre prend la même casse dans les deux états du panneau.",
+  "msgid": "PEWTER POKéMON GYM\\nLEADER: BROCK\\pWINNING TRAINERS:\\nBLUE, RED, {PLAYER}",
+  "msgstr": "Arène Pokémon D’ARGENTA\\nCHAMPION: Pierre\\pVAINQUEURS:\\nBLUE, RED, {PLAYER}",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "contresens",
+  "probleme": "« On s’entraîne encore » décrit un entraînement en cours.",
+  "correction": "Pierre: Non? Pas de souci.\\nWOODY et moi, on va continuer\\là s’entraîner.",
+  "justification": "Pierre annonce ce que WOODY et lui feront après le refus de l’échange.",
+  "msgid": "BROCK: No? That's okay.\\nWOODY and I will keep training.",
+  "msgstr": "Pierre: Non? Pas de souci.\\nWOODY et moi, on s’entraîne encore.",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "terminologie",
+  "probleme": "« LAC Colère » emploie une casse différente de celle du nom officiel.",
+  "correction": "Quoi? La Team Rocket est de\\nretour?\\pJ’ai vu des hommes en noir au\\nLac Colère…",
+  "justification": "« Lac Colère » est la graphie de Pokémon SoulSilver FR et du lexique fourni.",
+  "msgid": "What's this? TEAM ROCKET has come\\nback?\\pI saw some men in black at LAKE OF\\nRAGE…",
+  "msgstr": "Quoi? La Team Rocket est de\\nretour?\\pJ’ai vu des hommes en noir au\\nLAC Colère…",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "oubli",
+  "probleme": "La fréquence quotidienne et l’agacement envers les NATU disparaissent.",
+  "correction": "Chaque jour, je dis à mon mari\\nde ne pas nourrir les NATU, mais\\lil ne m’écoute jamais!\\pUn jour, il va ramener un de\\nces fichus NATU, j’en suis sûre!",
+  "justification": "« Chaque jour » restitue la répétition quotidienne et « fichus » rend le ton de « darn ».",
+  "msgid": "I tell my husband everyday not to feed\\nthe NATU, but he never listens!\\pOne day he'll bring one of those darn\\nthings home, I just know it!",
+  "msgstr": "Je répète à mon mari de ne pas\\nnourrir les NATU, mais il n’écoute rien!\\pUn jour, il va en ramener un à\\nla maison, j’en suis sûre!",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "terminologie",
+  "probleme": "« TOTAL Soin » altère la graphie officielle de l’objet.",
+  "correction": "Mes Pokémon sont toujours\\nparalysés ou empoisonnés au\\lpire moment…\\pAlors je viens acheter des\\nTotal Soin.\\pJ’espère qu’il en reste…",
+  "justification": "« Total Soin » est la forme retenue par le lexique fourni.",
+  "msgid": "My POKéMON always get paralyzed or\\npoisoned when the chips are down…\\pSo I came to buy some FULL HEAL.\\pI wonder if there's any left?",
+  "msgstr": "Mes Pokémon sont toujours paralysés\\nou empoisonnés au pire moment…\\pAlors je viens acheter des\\nTOTAL Soin.\\pJ’espère qu’il en reste…",
+  "msgctxt": ""
+ },
+ {
+  "id": 115,
+  "categorie": "typographie",
+  "probleme": "« DE » est en capitales au milieu du nom de l’Arène.",
+  "correction": "Arène Pokémon de Doublonville",
+  "justification": "La préposition prend la minuscule dans ce titre.",
+  "msgid": "GOLDENROD POKéMON GYM",
+  "msgstr": "Arène Pokémon DE Doublonville",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "typographie",
+  "probleme": "La variante du panneau avec le nom du joueur reprend « DE » en capitales.",
+  "correction": "Arène Pokémon de Doublonville\\pDRESSEURS RECONNUS PAR Blanche:\\n{PLAYER}",
+  "justification": "Le titre prend la même casse dans les deux états du panneau.",
+  "msgid": "GOLDENROD TOWN POKéMON GYM\\pWHITNEY'S CERTIFIED TRAINERS:\\n{PLAYER}",
+  "msgstr": "Arène Pokémon DE Doublonville\\pDRESSEURS RECONNUS PAR Blanche:\\n{PLAYER}",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "terminologie",
+  "probleme": "« Badge PLAINE » altère la graphie du nom du Badge.",
+  "correction": "…Snif…\\pQuoi? Qu’est-ce que tu veux?\\nUn Badge?\\pAh, oui. J’avais oublié. Voici\\nle Badge Plaine.",
+  "justification": "« Badge Plaine » est le nom du Badge de Blanche dans Pokémon SoulSilver FR, avec la casse prévue par le projet.",
+  "msgid": "…Sniff…\\pWhat? What do you want? A BADGE?\\pOh, right. I forgot. Here's\\nPLAINBADGE.",
+  "msgstr": "…Snif…\\pQuoi? Qu’est-ce que tu veux?\\nUn Badge?\\pAh, oui. J’avais oublié. Voici\\nle Badge PLAINE.",
+  "msgctxt": ""
+ }
+]

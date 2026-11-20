@@ -1,0 +1,412 @@
+[
+ {
+  "id": 0,
+  "categorie": "contresens",
+  "probleme": "« C’est beaucoup » évoque une quantité. « Big brother » précise aussi que le frère est l’aîné.",
+  "correction": "{STR_VAR_2}!\\nWaouh, qu’il est grand!\\pIl dépasse peut-être même l’énorme\\nGRAINIPIOT qu’a vu mon grand frère.\\pMerci de me l’avoir montré!\\nTiens, c’est pour te remercier!",
+  "justification": "La réplique réagit à la taille du Pokémon et compare celle-ci au spécimen vu par le grand frère.",
+  "msgid": "{STR_VAR_2}!\\nWow, that is big!\\pIt might be even bigger than the huge\\nSEEDOT my big brother saw.\\pThanks for showing me!\\nThis is my thanks!",
+  "msgstr": "{STR_VAR_2}!\\nWaouh, c’est beaucoup!\\pC’est peut-être encore plus grand que\\nl’énorme GRAINIPIOT que mon frère a vu.\\pMerci de me l’avoir montré!\\nTiens, c’est pour te remercier!",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "Le souhait exprimé par « always wanted » disparaît de la dernière phrase.",
+  "correction": "Le plus grand NENUPIOT jamais vu!\\nUn colosse de {STR_VAR_3},\\là {STR_VAR_2}!\\pUn NENUPIOT plus grand qu’un\\nGRAINIPIOT! J’en ai toujours rêvé!",
+  "justification": "La dernière phrase restitue le souhait de longue date.",
+  "msgid": "The biggest LOTAD in history!\\n{STR_VAR_2}'s {STR_VAR_3} colossus!\\pA LOTAD bigger than a SEEDOT\\nalways wanted!",
+  "msgstr": "Le plus grand NENUPIOT jamais vu!\\nUn colosse de {STR_VAR_3} appartenant\\là {STR_VAR_2}!\\pUn NENUPIOT encore plus\\ngrand qu’un GRAINIPIOT!",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "codes",
+  "probleme": "Les trois arguments des codes PAUSE ont été convertis en décimal.",
+  "correction": "Voici l’entrée de la galerie\\ninexplorée… {PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}\\pTu ne trouves pas qu’il fait\\nfroid, ici?\\pBon, moi, je m’en vais.\\pBonne chance!",
+  "justification": "La correction rétablit les trois codes à l’identique, y compris la notation hexadécimale.",
+  "msgid": "This is the entrance to the\\nunexplored branch... {PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}\\pDoes it feel cold here to you?\\pOkay, I'm going to leave now.\\pGood luck!",
+  "msgstr": "Voici l’entrée de la galerie\\ninexplorée… {PAUSE 15}{PAUSE 15}{PAUSE 15}\\pTu ne trouves pas qu’il fait\\nfroid, ici?\\pBon, moi, je m’en vais.\\pBonne chance!",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "orthographe",
+  "probleme": "« POKéMON » mêle capitales et minuscule au milieu du mot.",
+  "correction": "Tu as vu l’autel du protecteur?\\pIl veille sur la FORET à travers\\nles âges.\\pA mon avis, ça doit être un\\nPokémon de type Plante.",
+  "justification": "Le nom commun s’écrit « Pokémon » dans le texte courant selon les conventions du projet.",
+  "msgid": "Did you see the shrine honoring\\nthe protector?\\pIt watches over the FOREST from\\nacross time.\\pI think that it must be a\\nGRASS-type POKéMON.",
+  "msgstr": "Tu as vu l’autel du protecteur?\\pIl veille sur la FORET à travers\\nles âges.\\pA mon avis, ça doit être un\\nPOKéMON de type Plante.",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "contresens",
+  "probleme": "« Quand tu sauras » suppose que le joueur connaît la réponse, alors que Bonnie l’invite à revenir quand il sera prêt.",
+  "correction": "BONNIE: Pas d’idée?\\nReviens quand tu seras prêt!",
+  "justification": "La correction restitue « when you’re ready ».",
+  "msgid": "BUENA: No guess?\\nCome back when you're ready!",
+  "msgstr": "BONNIE: Pas d’idée?\\nReviens quand tu sauras!",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "contresens",
+  "probleme": "« Même heure » ajoute un horaire fixe et fait disparaître l’invitation à écouter la radio.",
+  "correction": "BONNIE: Tu as déjà donné le mot\\nde passe du jour!\\pEcoute encore la radio demain!",
+  "justification": "« Tune in again tomorrow » invite à se remettre à l’écoute le lendemain.",
+  "msgid": "BUENA: You already guessed\\ntoday's password!\\pTune in again tomorrow!",
+  "msgstr": "BONNIE: Tu as déjà donné le mot\\nde passe du jour!\\pA demain, même heure!",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "contresens",
+  "probleme": "« TALK » reste en anglais et « la plus chaude » traduit littéralement un superlatif promotionnel.",
+  "correction": "Les Pokémon avec le Prof. Chen\\pL’émission vedette des ondes!",
+  "justification": "Le titre présente une émission du Prof. Chen sur les Pokémon. Le slogan vante son succès.",
+  "msgid": "PROF.OAK'S POKéMON TALK\\pThe Hottest Show on the Air!",
+  "msgstr": "Pokémon TALK DU Prof. CHEN\\pL’émission la plus chaude des ondes!",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "orthographe",
+  "probleme": "« Marin » prend une majuscule alors qu’il désigne ici un métier.",
+  "correction": "Le marin du Café d’Oliville, à\\ncôté, est très généreux.\\pIl a appris Force à mon Pokémon.\\pMaintenant, il déplace les gros\\nrochers sans transpirer.",
+  "justification": "La majuscule de la classe de Dresseur s’emploie lorsqu’elle sert de titre.",
+  "msgid": "The SAILOR in the OLIVINE CAFE\\nnext door is really generous.\\pHe taught my POKéMON STRENGTH.\\pNow it can move big boulders\\nwithout breaking a sweat.",
+  "msgstr": "Le Marin du Café d’Oliville, à\\ncôté, est très généreux.\\pIl a appris Force à mon Pokémon.\\pMaintenant, il déplace les gros\\nrochers sans transpirer.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "oubli",
+  "probleme": "Le témoin ne dit plus qu’il a lui-même entendu cet homme se vanter à répétition.",
+  "correction": "Il y a quelqu’un à Irisia, de\\nl’autre côté de la mer.\\pJe l’entendais sans arrêt vanter\\nses Pokémon rares.",
+  "justification": "La correction rétablit le témoignage personnel et la répétition passée.",
+  "msgid": "There's a person in CIANWOOD\\nCITY across the sea.\\pI heard him bragging about his\\nrare POKéMON all the time.",
+  "msgstr": "Il y a quelqu’un à Irisia, de\\nl’autre côté de la mer.\\pIl n’arrête pas de se vanter de\\nses Pokémon rares.",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "terminologie",
+  "probleme": "« BALLS » est resté en anglais.",
+  "correction": "En suivant ce chemin vers le nord,\\ntu trouveras la maison de\\lM. Pokémon.\\pMais avant, laisse-moi te parler\\ndes Baies!\\pLes Pokémon reprennent des forces\\nen mangeant des Baies.\\pIls peuvent même manger en combat\\nles Baies qu’ils tiennent.\\pA Ecorcia, Fargas sait aussi\\nchanger des Baies en Poké Balls.\\pTiens, je t’en donne une!",
+  "justification": "Les jeux Pokémon Émeraude et SoulSilver en français emploient « Poké Ball » pour la balle de capture.",
+  "msgid": "When you follow that path up north,\\nyou will see MR. POKéMON’s house.\\pBut before you go, allow me to\\ntell you about BERRIES!\\pPOKéMON get healthier by eating\\nBERRIES.\\pThey can even eat BERRIES\\nthey're holding in battle.\\pBERRIES can also be turned into\\nBALLS by KURT in AZALEA TOWN.\\pHere. I'll share one with you!",
+  "msgstr": "En suivant ce chemin vers le nord,\\ntu trouveras la maison de\\lM. Pokémon.\\pMais avant, laisse-moi te parler\\ndes Baies!\\pLes Pokémon reprennent des forces\\nen mangeant des Baies.\\pIls peuvent même manger en combat\\nles Baies qu’ils tiennent.\\pA Ecorcia, Fargas sait aussi\\ntransformer des Baies en BALLS.\\pTiens, je t’en donne une!",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "terminologie",
+  "probleme": "« Pokémon PLANTE » omet la formulation « de type Plante ».",
+  "correction": "Erika maîtrise les Pokémon\\nde type Plante.\\pElle te le fera payer si tu ne\\nfais pas attention.",
+  "justification": "« De type Plante » reprend la désignation du type dans Pokémon Émeraude et SoulSilver en français.",
+  "msgid": "ERIKA is a master of grass\\nPOKéMON.\\pShe'll make you pay if you don't\\nwatch yourself.",
+  "msgstr": "Erika est une experte des Pokémon\\nPLANTE.\\pElle te le fera payer si tu ne\\nfais pas attention.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "terminologie",
+  "probleme": "La première occurrence de « Multi Exp » passe en capitales au milieu du dialogue.",
+  "correction": "Je suis pas un gamin de la GBA,\\nmais j’adore les jeux Pokémon!\\pDans les vieux jeux, il fallait\\ncombattre plein de Pokémon\\lsauvages pour avoir assez d’EXP.\\pMais dans les récents, le Multi\\nExp fait monter tes Pokémon\\ltrop vite.\\pIci, le Multi Exp est dosé pour\\nmettre tes Pokémon au niveau\\lidéal. Ou un peu au-dessus,\\lselon tes combats.\\pPour une expérience classique de\\nla GEN 1-4, désactive le Multi Exp.\\lPour une expérience moderne,\\lactive le Multi Exp.\\pC’est toi qui choisis comment jouer!",
+  "justification": "Le lexique du projet fixe la graphie « Multi Exp ».",
+  "msgid": "I'm not a GBA kid, but I love\\nplaying POKéMON games!\\pIn the old games, you had to battle\\na lot of wild POKéMON to get enough\\lEXP.\\pBut in newer games, the EXP. SHARE\\nmakes your POKéMON level up too fast.\\pIn this game, the EXP. SHARE is\\nbalanced to put your POKéMON at just\\lthe right level. Or slightly higher,\\ldepending on how many battles you do.\\pIf you want a traditional GEN 1-4\\nexperience, turn EXP. SHARE off.\\lIf you want a modern experience,\\lturn EXP. SHARE ON.\\pYou choose how you want to play!",
+  "msgstr": "Je suis pas un gamin de la GBA,\\nmais j’adore les jeux Pokémon!\\pDans les vieux jeux, il fallait\\ncombattre plein de Pokémon\\lsauvages pour avoir assez d’EXP.\\pMais dans les récents, le MULTI\\nEXP fait monter tes Pokémon\\ltrop vite.\\pIci, le Multi Exp est dosé pour\\nmettre tes Pokémon au niveau\\lidéal. Ou un peu au-dessus,\\lselon tes combats.\\pPour une expérience classique de\\nla GEN 1-4, désactive le Multi Exp.\\lPour une expérience moderne,\\lactive le Multi Exp.\\pC’est toi qui choisis comment jouer!",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "orthographe",
+  "probleme": "« dresseurs » perd la majuscule conventionnelle de « Dresseur de Pokémon ».",
+  "correction": "Certains Pokémon sont faibles au\\ndépart et demandent bien plus\\ld’EXP que d’autres pour devenir\\lforts.\\pPar exemple, EMBRYLEX est faible\\nmais finira par devenir un\\lpuissant TYRANOCIF, au prix\\ld’une montagne d’EXP.\\pSeuls les Dresseurs les plus\\nacharnés devraient tenter d’élever\\lun tel Pokémon.",
+  "justification": "Le projet emploie « Dresseur » avec une majuscule lorsqu’il désigne un Dresseur de Pokémon.",
+  "msgid": "Certain POKéMON start off weak and\\nrequire much more EXP to become\\lstrong than others do.\\pFor example, LARVITAR is quite weak\\nbut will eventually become a\\lmighty TYRANITAR, at the cost of\\lmuch EXP.\\pOnly the most dedicated trainers\\nshould attempt to train such a\\lPOKéMON.",
+  "msgstr": "Certains Pokémon sont faibles au\\ndépart et demandent bien plus\\ld’EXP que d’autres pour devenir\\lforts.\\pPar exemple, EMBRYLEX est faible\\nmais finira par devenir un\\lpuissant TYRANOCIF, au prix\\ld’une montagne d’EXP.\\pSeuls les dresseurs les plus\\nacharnés devraient tenter d’élever\\lun tel Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "typographie",
+  "probleme": "« Pokémon faible » est séparé par un changement de page, ce qui brouille la consigne de placement.",
+  "correction": "Bien! T’apprendre, je vais!\\pSi Pokémon sortir en combat,\\nmême un instant, des Points Exp.\\pil gagne.\\nPokémon faible mettre en tête!\\pVite en combat, le remplacer!\\nAinsi, Pokémon faible fort\\pdevenir!",
+  "justification": "La consigne de placer le Pokémon faible en tête se lit d’un seul tenant, et le changement de page introduit la consigne suivante.",
+  "msgid": "Fine! Teach you, I will!\\pIf POKéMON come out in battle\\neven briefly, some EXP. Points\\pit gets.\\nAt top of list put weak POKéMON\\pSwitch in battle quick!\\nThis way, weak POKéMON strong\\pbecome!",
+  "msgstr": "Bien! T’apprendre, je vais!\\pSi Pokémon sortir en combat, même un\\ninstant, des Points Exp.\\pil gagne. En haut de liste mettre\\nPokémon\\pfaible, vite en combat changer! Ainsi,\\nPokémon faible fort\\pdevenir!",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "contresens",
+  "probleme": "Le texte présente l’échange comme une ancienne condition avérée. L’anglais décrit une croyance antérieure.",
+  "correction": "On croyait que certains Pokémon\\nn’évoluaient que par échange.\\pIls évoluent aussi par niveau.\\nMACHOPEUR et GRAVALANCH évoluent\\pau N.38, KADABRA et SPECTRUM\\nau N.42.\\pCertains objets, comme la Peau\\nMétal, permettent aussi de faire\\pévoluer certains Pokémon qui\\nles tiennent en montant de niveau.",
+  "justification": "« On croyait » restitue « previously thought ». « Peau Métal » reprend aussi la graphie de l’objet dans Pokémon Émeraude et SoulSilver en français.",
+  "msgid": "POKéMON previously thought to\\nonly evolve through trade can\\pevolve through leveling.\\nMACHOKE and GRAVELER evolve\\pat LVL 38, while KADABRA and\\nHAUNTER evolve at LVL 42.\\pSome items, like the METAL\\nCOAT, have also been found to\\pevolve certain POKéMON\\nwhile holding and leveling up.",
+  "msgstr": "Des Pokémon qui n’évoluaient que\\npar échange peuvent désormais\\pévoluer en montant de niveau.\\nMACHOPEUR et GRAVALANCH évoluent\\pau N.38, KADABRA et SPECTRUM\\nau N.42.\\pCertains objets, comme la PEAU\\nMETAL, permettent aussi de faire\\pévoluer certains Pokémon qui\\nles tiennent en montant de niveau.",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "terminologie",
+  "probleme": "« BALLS » est resté en anglais.",
+  "correction": "A JOHTO, les Baies servent à\\nsoigner et à créer des Poké Balls.\\pA KANTO, les Baies servent à\\nbaisser les stats d’un Pokémon.\\pLe DOJO de KANTO aide les Pokémon\\nà perfectionner chaque stat.",
+  "justification": "Les jeux Pokémon Émeraude et SoulSilver en français emploient « Poké Ball » pour la balle de capture.",
+  "msgid": "BERRIES in the JOHTO region are\\ngood for healing and making BALLS.\\pBERRIES in KANTO are good for\\nreducing a POKéMON's stats.\\pThe DOJO in KANTO helps POKéMON\\nperfect individual stats.",
+  "msgstr": "A JOHTO, les Baies servent à\\nsoigner et à fabriquer des BALLS.\\pA KANTO, les Baies servent à\\nbaisser les stats d’un Pokémon.\\pLe DOJO de KANTO aide les Pokémon\\nà perfectionner chaque stat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "contresens",
+  "probleme": "« Types mieux couverts » n’exprime pas clairement la capacité des équipes à faire face à davantage de types.",
+  "correction": "Attention: tes adversaires ont\\ndésormais des équipes qui gèrent\\lmieux les différents types.\\lLe voyage sera bien plus corsé!",
+  "justification": "« Better type coverage » décrit une meilleure couverture des types rencontrés en combat.",
+  "msgid": "Be aware that your opponents\\nnow use teams with better type\\lcoverage, so expect a much\\lmore challenging journey ahead.",
+  "msgstr": "Attention: tes adversaires ont\\ndésormais des équipes aux types\\lmieux couverts. Attends-toi à\\lun voyage bien plus corsé!",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que les CS peuvent être utilisées sans les enseigner à un Pokémon.",
+  "correction": "Le tableau parle des CS des\\nPokémon.\\pUne fois débloquées, on peut\\nutiliser les CS sans les enseigner.",
+  "justification": "La correction explicite la possibilité d’utiliser les CS après leur déblocage.",
+  "msgid": "The blackboard describes\\nPOKéMON HM moves.\\pHMs, once unlocked, don't need to\\nbe taught to be used.",
+  "msgstr": "Le tableau parle des CS des\\nPOKéMON.\\pUne fois débloquées, les CS n’ont\\npas besoin d’être apprises.",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "terminologie",
+  "probleme": "« BALLS » laisse de côté le nom officiel de l’objet.",
+  "correction": "C’est le cahier d’un enfant…\\pAttrape des Pokémon avec\\ndes Poké Balls.\\pSix au maximum sur toi.\\pLire la suite?",
+  "justification": "« Poké Ball » est le nom de l’objet dans Pokémon Émeraude et SoulSilver en français.",
+  "msgid": "It's this kid's notebook…\\pCatch POKéMON using POKé BALLS.\\pUp to six can be in your party.\\pKeep reading?",
+  "msgstr": "C’est le cahier d’un enfant…\\pAttrape des Pokémon avec\\ndes BALLS.\\pSix au maximum sur toi.\\pLire la suite?",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "orthographe",
+  "probleme": "« Blanche » prend une majuscule au milieu de la phrase.",
+  "correction": "Ceux qui capturent des Pokémon et\\nles utilisent en combat sont des\\lDresseurs de Pokémon.\\pIls sont censés visiter les Arènes\\nPokémon et vaincre d’autres\\lDresseurs.\\pLa page suivante est… blanche!\\pGarçon: Hé hé…\\pJe n’ai pas encore écrit la suite…",
+  "justification": "Les points de suspension marquent une hésitation au sein de la phrase. « Blanche » est ici un adjectif.",
+  "msgid": "People who catch and use\\nPOKéMON in battle are POKéMON\\ntrainers.\\pThey are expected to visit\\nPOKéMON GYMS and defeat other\\ntrainers.\\pThe next page is… Blank!\\pBoy: E-he-he…\\pI haven't written anymore…",
+  "msgstr": "Ceux qui capturent des Pokémon et\\nles utilisent en combat sont des\\lDresseurs de Pokémon.\\pIls sont censés visiter les Arènes\\nPokémon et vaincre d’autres\\lDresseurs.\\pLa page suivante est… Blanche!\\pGarçon: Hé hé…\\pJe n’ai pas encore écrit la suite…",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "registre",
+  "probleme": "Le maître des capacités du Frontier tutoie le joueur.",
+  "correction": "Zzzzzz…\\pQuoi, comment, quoi?\\pOh, pardon, je piquais un petit\\nsomme.\\pJe suis le Maître élémentaire.\\pJ’ai le pouvoir d’enseigner les\\ncapacités les plus puissantes aux\\lPokémon Plante, Feu et Eau.\\pVenez-vous apprendre un tel\\npouvoir?",
+  "justification": "Le vouvoiement suit la convention du projet pour le personnel du Frontier.",
+  "msgid": "Zzzzzz…\\pWhat, how, what?\\pOh, sorry, I was snoozing a bit.\\pI'm the ELEMENTAL TUTOR.\\pI have the power to teach the most\\npowerful moves to GRASS, FIRE and\\lWATER TYPE POKéMON.\\pDid you come to learn such a strong\\npower?",
+  "msgstr": "Zzzzzz…\\pQuoi, comment, quoi?\\pOh, pardon, je piquais un petit\\nsomme.\\pJe suis le Maître ELEMENTAIRE.\\pJ’ai le pouvoir d’enseigner les\\ncapacités les plus puissantes aux\\lPOKéMON de type Plante, Feu et Eau.\\pEs-tu venu apprendre un tel\\npouvoir?",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "registre",
+  "probleme": "Le maître des capacités du Frontier tutoie le joueur.",
+  "correction": "Zzzzzz…\\pQuoi, comment, quoi, qui?\\pOh, vous venez découvrir la\\nforce de mes meilleures capacités?",
+  "justification": "Le vouvoiement suit la convention du projet pour le personnel du Frontier.",
+  "msgid": "Zzzzzz…\\pWhat, how, what, who?\\pOh, did you come to learn the\\npower of my strongest moves?",
+  "msgstr": "Zzzzzz…\\pQuoi, comment, quoi, qui?\\pOh, tu es venu découvrir la\\npuissance de mes capacités ultimes?",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "registre",
+  "probleme": "Le maître des capacités du Frontier tutoie le joueur.",
+  "correction": "Quelle capacité conviendrait à\\nvotre Pokémon, selon vous?",
+  "justification": "Le vouvoiement suit la convention du projet pour le personnel du Frontier.",
+  "msgid": "Which move do you think is suitable\\nfor your POKéMON?",
+  "msgstr": "Quelle capacité conviendrait à\\nton Pokémon, d’après toi?",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "contresens",
+  "probleme": "« Souffler » décrit une pause sans indiquer que le lanceur est immobilisé.",
+  "correction": "Puissant, mais\\nle lanceur reste\\nfigé un tour.",
+  "justification": "La description indique explicitement que le Pokémon ne peut pas bouger pendant un tour.",
+  "msgid": "Powerful, but\\nleaves the user\\nimmobile one turn.",
+  "msgstr": "Puissant, mais\\nle lanceur doit\\nsouffler un tour.",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "terminologie",
+  "probleme": "Le nom de l’objet est en capitales et la réplique déborde sur une deuxième ligne.",
+  "correction": "Désolé, il vous faut un Passe Train.",
+  "justification": "« Passe Train » suit le lexique SoulSilver fourni. La réplique tient sur une seule ligne.",
+  "msgid": "Sorry. You don't have a rail PASS.",
+  "msgstr": "Désolé. Vous n’avez pas de\\nPASSE TRAIN.",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "terminologie",
+  "probleme": "« COPIEUSE » remplace le nom officiel de COPYCAT.",
+  "correction": "Avant la gare du TRAIN MAGNETIQUE,\\nil y avait une maison ici.\\pUne petite fille nommée Photocopie\\ny habitait.",
+  "justification": "« Photocopie » est le nom indiqué dans le lexique SoulSilver fourni.",
+  "msgid": "Before the MAGNET TRAIN STATION\\nwas built, there was a house there.\\pA little girl named COPYCAT used\\nto live there.",
+  "msgstr": "Avant la gare du TRAIN MAGNETIQUE,\\nil y avait une maison ici.\\pUne petite fille nommée COPIEUSE\\ny habitait.",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "contresens",
+  "probleme": "« Beaucoup trop d’attention » exprime un excès. L’anglais qualifie cette attention d’indésirable.",
+  "correction": "Pierre ROCHARD: Bravo, {PLAYER}!\\pCe combat était époustouflant.\\pTa puissance m’a ouvert les yeux.\\pLes KIMONOS ne t’ont pas envoyé\\npour aider nos recherches.\\pJe crois qu’elles t’ont envoyé\\nparce que tu étais le seul digne\\ld’apprivoiser le Pokémon légendaire.\\pElles doutaient que mon équipe\\net moi puissions nous en charger.\\pEt après ce que je viens de voir…\\pJe crois qu’elles avaient raison.\\pJ’ai attiré sur ce village une\\nattention dont il se serait passé.\\pJe vais passer un peu de temps\\navec les gens d’ici.\\pAprès tout ça, toi et tes Pokémon\\nméritez un peu de repos.\\pJe serai au village si besoin.\\pHum hum… Que me demanderais-tu?",
+  "justification": "La correction restitue le caractère indésirable de l’attention et précise ce que les Kimonos doutaient de pouvoir confier à Pierre et à son équipe.",
+  "msgid": "STEVEN: You did it, {PLAYER}!\\pThat battle was breathtaking.\\pSeeing your power made me realize.\\pThe KIMONO GIRLS didn't send you\\nto help our research.\\pI think they sent you because\\nyou were the only one worthy of\\ltaming the legendary POKéMON.\\pThey didn't trust my team and I\\nto handle it.\\pAnd after what I've just seen...\\pI think they were right.\\pI've brought a lot of unwanted\\nattention to this town.\\pI think I'll spend some time\\nwith the locals.\\pAfter all of this, you and your\\nPOKéMON deserve some rest.\\pI'll be at the village if you need me.\\pFufufu, what could you need from me?",
+  "msgstr": "Pierre ROCHARD: Tu as réussi, {PLAYER}!\\pCe combat était époustouflant.\\pTa puissance m’a ouvert les yeux.\\pLes KIMONOS ne t’ont pas envoyé\\npour aider nos recherches.\\pJe crois qu’elles t’ont envoyé parce\\nque tu étais le seul digne de\\lapprivoiser le Pokémon LEGENDAIRE.\\pElles ne nous faisaient pas\\nconfiance, à mon équipe et moi.\\pEt après ce que je viens de voir…\\pJe crois qu’elles avaient raison.\\pJ’ai attiré beaucoup trop\\nd’attention sur ce village.\\pJe vais passer un peu de temps\\navec les gens d’ici.\\pAprès tout ça, toi et tes Pokémon\\nméritez un peu de repos.\\pJe serai au village si besoin.\\pHum hum… Qu’aurais-tu à me demander?",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "typographie",
+  "probleme": "Le saut de ligne contrevient à la contrainte « une seule ligne ».",
+  "correction": "Salut! Mon ex-VOLTORBE va bien?",
+  "justification": "La réplique tient sur une ligne et précise que le VOLTORBE appartenait auparavant au locuteur.",
+  "msgid": "Hi, how's my old VOLTORB doing?",
+  "msgstr": "Salut! Comment va mon ancien\\nVOLTORBE?",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "contresens",
+  "probleme": "« Joindre » introduit l’idée qu’il était impossible de contacter ces personnes.",
+  "correction": "La communication sans fil, c’est\\nvraiment amusant, non?\\pJe pense qu’elle permet de faire\\ndes choses impossibles avant.\\pPar exemple, on peut désormais\\néchanger avec des gens avec qui\\lon ne le pouvait pas avant.\\pÇa va être passionnant!",
+  "justification": "L’impossibilité antérieure porte sur les échanges de Pokémon.",
+  "msgid": "Wireless Communication is a\\nlot of fun, isn't it?\\pI think it lets you do things that\\nweren't possible before.\\pFor instance, you can now trade\\nwith people you couldn't before.\\pI think it's going to be exciting!",
+  "msgstr": "La communication sans fil, c’est\\nvraiment amusant, non?\\pJe pense qu’elle permet de faire des\\nchoses impossibles avant.\\pPar exemple, on peut maintenant\\néchanger avec des gens qu’on ne\\lpouvait pas joindre avant.\\pÇa va être passionnant!",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "contresens",
+  "probleme": "« Flotter » perd la référence à la bouée et le futur catégorique efface l’hésitation.",
+  "correction": "Ce courant est idéal pour la bouée.\\nJe crois que j’en ferai qu’ici!",
+  "justification": "La seconde phrase désigne la même activité et conserve l’incertitude de « I don’t think ».",
+  "msgid": "The current is great for tubing.\\nI don't think I'll tube anywhere else!",
+  "msgstr": "Ce courant est idéal pour la bouée.\\nJe ne flotterai plus nulle part ailleurs!",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "contresens",
+  "probleme": "« Gagner ou perdre aux Pokémon » fait penser au jeu, alors que Blue parle de ses victoires et défaites de Dresseur.",
+  "correction": "Qui es-tu?\\pBah, ça se voit que tu es\\nun Dresseur…\\pMoi, c’est Blue.\\pJ’ai été Maître, même si ça n’a\\npas duré bien longtemps…\\pCe fouineur de RED m’a battu…\\pBref, qu’est-ce que tu veux?\\nMe défier, c’est ça?\\p…Ça m’embête de l’avouer, mais\\nje n’ai pas la tête à me battre.\\pRegarde bien autour de toi…\\pUn volcan entre en éruption, et\\nune ville entière disparaît.\\pOn a beau gagner ou perdre des\\ncombats Pokémon, si la nature\\lfrémit, on peut tout perdre\\len une seconde.\\p…\\pC’est comme ça…\\pMais bon, je reste un Dresseur.\\pQuand je vois un adversaire fort,\\nj’ai envie de me battre.\\pSi tu veux m’affronter, il te\\nfaudra d’abord 15 badges.\\pLà, je relèverai le défi.",
+  "justification": "La correction rétablit le contexte des combats et la possibilité de tout perdre exprimée par « can lose ».",
+  "msgid": "Who are you?\\pWell, it's plain to see that you're\\na trainer…\\pMy name's BLUE.\\pI was once the CHAMPION, although\\nit was for only a short time…\\pThat meddling RED did me in…\\pAnyway, what do you want? You want\\nto challenge me or something?\\p…I hate to say it, but I'm not in\\nthe mood for a battle now.\\pTake a good look around you…\\pA volcano erupts, and just like\\nthat, a whole town disappears.\\pWe can go on winning and losing in\\nPOKéMON. But if nature so much as\\ltwitches, we can lose in a second.\\p…\\pThat's the way it is…\\pBut, anyway, I'm still a trainer.\\pIf I see a strong opponent, it\\nmakes me want to battle.\\pIf you want to battle me, you'll\\nneed 15 badges first.\\pI'll take you on then.",
+  "msgstr": "Qui es-tu?\\pBah, ça se voit que tu es\\nun dresseur…\\pMoi, c’est Blue.\\pJ’ai été Maître, même si ça n’a\\npas duré bien longtemps…\\pCe fouineur de RED m’a battu…\\pBref, qu’est-ce que tu veux?\\nMe défier, c’est ça?\\p…Ça m’embête de l’avouer, mais\\nje n’ai pas la tête à me battre.\\pRegarde bien autour de toi…\\pUn volcan entre en éruption, et\\nune ville entière disparaît.\\pOn peut gagner ou perdre autant\\nqu’on veut aux Pokémon. Mais si\\lla nature frémit, on perd tout\\len une seconde.\\p…\\pC’est comme ça…\\pMais bon, je reste un dresseur.\\pQuand je vois un adversaire fort,\\nj’ai envie de me battre.\\pSi tu veux m’affronter, il te\\nfaudra d’abord 15 badges.\\pLà, je relèverai le défi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "contresens",
+  "probleme": "« Gagner ou perdre aux Pokémon » fait penser au jeu, alors que Blue parle de ses victoires et défaites de Dresseur.",
+  "correction": "Qui es-tu?\\pBah, ça se voit que tu es\\nun Dresseur…\\pMoi, c’est Blue.\\pJ’ai été Maître, même si ça n’a\\npas duré bien longtemps…\\pCe fouineur de RED m’a battu…\\pBref, qu’est-ce que tu veux?\\nMe défier, c’est ça?\\p…Ça m’embête de l’avouer, mais\\nje n’ai pas la tête à me battre.\\pRegarde bien autour de toi…\\pUn volcan entre en éruption, et\\nune ville entière disparaît.\\pOn a beau gagner ou perdre des\\ncombats Pokémon, si la nature\\lfrémit, on peut tout perdre\\len une seconde.\\p…\\pC’est comme ça…\\pMais bon, je reste un Dresseur.\\pQuand je vois un adversaire fort,\\nj’ai envie de me battre.\\pSi tu veux m’affronter, viens\\nà l’Arène de Jadielle.\\pLà, je relèverai le défi.",
+  "justification": "La correction rétablit le contexte des combats et la possibilité de tout perdre exprimée par « can lose ».",
+  "msgid": "Who are you?\\pWell, it's plain to see that you're\\na trainer…\\pMy name's BLUE.\\pI was once the CHAMPION, although\\nit was for only a short time…\\pThat meddling RED did me in…\\pAnyway, what do you want? You want\\nto challenge me or something?\\p…I hate to say it, but I'm not in\\nthe mood for a battle now.\\pTake a good look around you…\\pA volcano erupts, and just like\\nthat, a whole town disappears.\\pWe can go on winning and losing in\\nPOKéMON. But if nature so much as\\ltwitches, we can lose in a second.\\p…\\pThat's the way it is…\\pBut, anyway, I'm still a trainer.\\pIf I see a strong opponent, it\\nmakes me want to battle.\\pIf you want to battle me, come to\\nthe VIRIDIAN GYM.\\pI'll take you on then.",
+  "msgstr": "Qui es-tu?\\pBah, ça se voit que tu es\\nun dresseur…\\pMoi, c’est Blue.\\pJ’ai été Maître, même si ça n’a\\npas duré bien longtemps…\\pCe fouineur de RED m’a battu…\\pBref, qu’est-ce que tu veux?\\nMe défier, c’est ça?\\p…Ça m’embête de l’avouer, mais\\nje n’ai pas la tête à me battre.\\pRegarde bien autour de toi…\\pUn volcan entre en éruption, et\\nune ville entière disparaît.\\pOn peut gagner ou perdre autant\\nqu’on veut aux Pokémon. Mais si\\lla nature frémit, on perd tout\\len une seconde.\\p…\\pC’est comme ça…\\pMais bon, je reste un dresseur.\\pQuand je vois un adversaire fort,\\nj’ai envie de me battre.\\pSi tu veux m’affronter, viens\\nà l’Arène de Jadielle.\\pLà, je relèverai le défi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "contresens",
+  "probleme": "« Celles de HOENN » généralise la comparaison à toutes les boissons de la région.",
+  "correction": "Pardonnez ma collègue…\\pLes boissons d’ici sont plus\\nfortes qu’à notre habitude à Hoenn.\\pJ’ai tenté de la prévenir, mais\\nelle voulait décompresser.\\pCette expédition scientifique\\nest dure pour nous tous.",
+  "justification": "La comparaison porte sur les habitudes du groupe à Hoenn. « J’ai tenté » restitue aussi « I tried ».",
+  "msgid": "Please forgive my colleague...\\pThe drinks here are stronger than\\nwhat we're used to in HOENN.\\pI tried to warn her, but she said\\nshe needed to unwind.\\pThis research expedition has been\\nhard on us all.",
+  "msgstr": "Pardonnez ma collègue…\\pLes boissons d’ici sont plus fortes\\nque celles de HOENN.\\pJe l’avais prévenue, mais elle disait\\navoir besoin de décompresser.\\pCette expédition scientifique\\nest dure pour nous tous.",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "contresens",
+  "probleme": "« Aucun Dresseur dans l’Arène » englobe le Champion, alors que « GYM TRAINERS » désigne ses subordonnés.",
+  "correction": "L’Arène de Jadielle n’a aucun\\nDresseur à part son Champion.\\pLe Champion dit qu’il préfère\\ngagner sans sous-fifres.",
+  "justification": "La correction précise que le Champion n’a aucun Dresseur sous ses ordres.",
+  "msgid": "There are no GYM TRAINERS at the\\nVIRIDIAN GYM.\\pThe LEADER claims his policy is to\\nwin without having any underlings.",
+  "msgstr": "Il n’y a aucun Dresseur dans\\nl’Arène de Jadielle.\\pLe Champion dit qu’il préfère\\ngagner sans sous-fifres.",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "terminologie",
+  "probleme": "« CARAPUCE A O » altère la graphie officielle.",
+  "correction": "L’arbre bizarre n’aime pas la\\nCARAPUCE à O!\\pL’arbre bizarre attaque!",
+  "justification": "Le lexique fourni indique « CARAPUCE à O », avec « à » en minuscule accentuée.",
+  "msgid": "The weird tree doesn't like the\\nSQUIRTBOTTLE!\\pThe weird tree attacked!",
+  "msgstr": "L’arbre bizarre n’aime pas la\\nCARAPUCE A O!\\pL’arbre bizarre attaque!",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "contresens",
+  "probleme": "« Bien droit » qualifie le coup, alors que « straight-arm » décrit la position du bras. « J’y arrive pas » déplace aussi l’échec au présent.",
+  "correction": "Ouah!\\pJe voulais briser cet arbre d’un\\ncoup de poing, bras tendu.\\pMais j’ai pas pu! Je suis nul!",
+  "justification": "La correction restitue la position du bras et l’échec passé, avec le même registre oral.",
+  "msgid": "Wa-hey!\\pI was going to snap that tree\\nwith my straight-arm punch.\\pBut I couldn't! I'm a failure!",
+  "msgstr": "Ouah!\\pJe voulais briser cet arbre d’un\\ncoup de poing bien droit.\\pMais j’y arrive pas! Je suis nul!",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "contresens",
+  "probleme": "« Coupé » introduit une méthode absente de la réplique.",
+  "correction": "Tu as écarté ce maudit arbre?\\pImpressionnant!\\nTiens, c’est pour toi.",
+  "justification": "« Clear » signifie ici enlever l’obstacle qui bloquait le passage.",
+  "msgid": "Did you clear that wretched tree?\\pI'm impressed!\\nI want you to have this.",
+  "msgstr": "Tu as coupé ce maudit arbre?\\pImpressionnant!\\nTiens, c’est pour toi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "contresens",
+  "probleme": "« Mal jugé » fait perdre le rappel de la lecture des pensées annoncée avant le combat.",
+  "correction": "J’ai mal lu dans tes pensées!",
+  "justification": "La défaite fait écho à « Je vais lire dans tes pensées! ».",
+  "msgid": "I misread you!",
+  "msgstr": "Je t’ai mal jugé!",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "oubli",
+  "probleme": "La traduction omet « too ».",
+  "correction": "Zut. Moi aussi, j’étudie cinq\\nheures par jour.\\pMais apprendre, ce n’est pas\\nseulement lire des livres.",
+  "justification": "« Moi aussi » rétablit la comparaison exprimée par le personnage.",
+  "msgid": "Darn. I study five hours a day too.\\pThere's more to learning than just\\nreading books.",
+  "msgstr": "Zut. Pourtant, j’étudie cinq heures\\npar jour.\\pMais apprendre, ce n’est pas\\nseulement lire des livres.",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "typographie",
+  "probleme": "L’article « LES » apparaît seul en capitales dans la phrase qui suit le titre.",
+  "correction": "CONSEILS AUX DRESSEURS\\nLes stats des Pokémon varient,\\lmême au sein d’une même espèce.\\pAu début, elles se ressemblent\\nparfois. Mais les différences\\ls’accentuent à mesure que les\\lPokémon grandissent.",
+  "justification": "Le corps du panneau reprend la casse normale et les deux phrases finales sont réparties sur des lignes courtes.",
+  "msgid": "TRAINER TIPS\\nPOKéMON stats vary--even within\\lthe same species.\\pTheir stats may be similar at first.\\pHowever, differences will become\\npronounced as the POKéMON grow.",
+  "msgstr": "CONSEILS AUX DRESSEURS\\nLES stats des Pokémon varient,\\lmême au sein d’une même espèce.\\pAu début, elles peuvent se ressembler.\\pMais les différences s’accentuent\\nà mesure que les Pokémon grandissent.",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "typographie",
+  "probleme": "« Utilise » est accolé au titre du panneau.",
+  "correction": "CONSEILS AUX DRESSEURS\\nUtilise Tunnel pour revenir\\là l’entrée de n’importe quel lieu.\\pC’est pratique pour explorer les\\ngrottes et autres lieux.",
+  "justification": "Le premier saut de ligne isole le titre et introduit la consigne sur la ligne suivante.",
+  "msgid": "TRAINER TIPS\\nUse DIG to return to the entrance of\\nany place.\\pIt is convenient for exploring\\ncaves and other landmarks.",
+  "msgstr": "CONSEILS AUX DRESSEURS Utilise\\nTunnel pour revenir à l’entrée de\\ln’importe quel lieu.\\pC’est pratique pour explorer les\\ngrottes et autres lieux.",
+  "msgctxt": ""
+ }
+]

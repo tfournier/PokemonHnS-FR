@@ -1,0 +1,422 @@
+[
+ {
+  "id": 0,
+  "categorie": "typographie",
+  "probleme": "Les deux villes du panneau ont des graphies différentes.",
+  "correction": "Route 15\\pParmanie - Lavanville",
+  "justification": "Les deux noms de lieux suivent la convention du projet avec une majuscule initiale.",
+  "msgid": "ROUTE 15\\pFUCHSIA CITY - LAVENDER TOWN",
+  "msgstr": "Route 15\\pPARMANIE - Lavanville",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "contresens",
+  "probleme": "« En sait si peu » juge sévèrement les connaissances du joueur, alors que l’anglais parle d’une documentation insuffisante.",
+  "correction": "Hmm, je crois que cet OEUF\\nn’est pas pour toi.\\pCe serait irresponsable de confier\\nun OEUF aussi précieux à quelqu’un\\lqui a trop peu lu sur les\\lbébés Pokémon!",
+  "justification": "La correction rétablit l’hésitation et la référence aux lectures sur les bébés Pokémon.",
+  "msgid": "Hmm, I think this EGG isn't for you.\\pIt would be irresponsible of me to\\ngive out a precious EGG like this\\lto someone who isn't as well-read\\lon the subject of baby POKéMON!",
+  "msgstr": "Hmm, cet OEUF n’est pas pour toi.\\pCe serait irresponsable de confier\\nun OEUF aussi précieux à quelqu’un\\lqui en sait si peu sur les\\lbébés Pokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "terminologie",
+  "probleme": "« Vélo » remplace le nom officiel de l’objet.",
+  "correction": "DANGER: GLACE FISSUREE\\nFONCEZ A BICYCLETTE\\lCHANGEZ DE VITESSE\\lEN APPUYANT SUR…\\lLe panneau est effacé…",
+  "justification": "Le lexique fourni donne « Bicyclette » pour BICYCLE.",
+  "msgid": "DANGER CRACKED ICE\\nGO FAST ON BICYCLE\\lSWITCH GEARS BY\\lPRESSING ...\\lThe sign is faded...",
+  "msgstr": "DANGER: Glace FISSUREE\\nFONCEZ A VELO\\lCHANGEZ DE VITESSE\\lEN APPUYANT SUR…\\lLe panneau est effacé…",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "oubli",
+  "probleme": "La traduction ne précise plus que l’insecte utilise une capacité pour augmenter son Attaque.",
+  "correction": "Jasmine utilise le type Acier,\\nrécemment découvert.\\pElle est connue pour avoir non pas\\nun, mais deux atouts.\\pLe premier est un insecte de métal\\nqui peut utiliser une capacité\\lpour augmenter son Attaque.\\pLe feu lui fait mal, mais il peut\\nparfois encaisser de gros coups.\\pLe second est un gigantesque\\nserpent de fer aux capacités\\lredoutables.\\pApproche-le avec prudence.\\pIl a l’air lent, mais je l’ai vu\\nfrapper le premier avec une\\lVITESSE ahurissante.",
+  "justification": "L’anglais présente la hausse d’Attaque comme l’effet d’une capacité.",
+  "msgid": "JASMINE uses the newly discovered\\nSTEEL-type.\\pShe's known for having not one,\\nbut two aces.\\pThe first is a metal bug that can\\nuse a technique to boost its ATTACK.\\pWhile fire will hurt it, it can\\nsometimes endure powerful blows.\\pThe second is a giant iron snake\\nwith lots of powerful moves.\\pApproach it with caution.\\pIt may look slow, but I've seen it\\nstrike first with shocking displays\\lof SPEED.",
+  "msgstr": "Jasmine utilise le type Acier,\\nrécemment découvert.\\pElle est connue pour avoir non pas\\nun, mais deux atouts.\\pLe premier est un insecte de métal\\ncapable d’augmenter son ATTAQUE.\\pLe feu lui fait mal, mais il peut\\nparfois encaisser de gros coups.\\pLe second est un gigantesque\\nserpent de fer aux capacités\\lredoutables.\\pApproche-le avec prudence.\\pIl a l’air lent, mais je l’ai vu\\nfrapper le premier avec une\\lVITESSE ahurissante.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "contresens",
+  "probleme": "La chute désigne le type Acier et perd l’idée du type inconnu.",
+  "correction": "C’était génial.\\pLe type Acier, hein?\\pUne rencontre rapprochée\\nd’un type inconnu!",
+  "justification": "« Type inconnu » conserve le détournement de la formule « rencontre rapprochée » et le jeu sur le type Pokémon.",
+  "msgid": "That was awesome.\\pThe STEEL-type, huh?\\pThat was a close encounter of an\\nunknown kind!",
+  "msgstr": "C’était génial.\\pLe type Acier, hein?\\pUne rencontre du troisième type…\\nle type Acier!",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "typographie",
+  "probleme": "« Badge MINERAL » combine deux graphies dans le même nom.",
+  "correction": "{PLAYER} reçoit le Badge Minéral.",
+  "justification": "Le nom du Badge suit la graphie « Badge Minéral » et la convention des majuscules initiales.",
+  "msgid": "{PLAYER} received MINERALBADGE.",
+  "msgstr": "{PLAYER} reçoit le Badge MINERAL.",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "terminologie",
+  "probleme": "« DEF. SPE. » ne correspond pas à l’abréviation prescrite.",
+  "correction": "Le Badge Minéral augmente la\\nDS des Pokémon.\\p…Euh… Prends ceci aussi…",
+  "justification": "Le projet prescrit « DS » pour la Défense Spéciale, selon les abréviations d’Émeraude FR.",
+  "msgid": "MINERALBADGE raises POKéMON's \\nSPECIAL DEFENSE.\\p…Um… Please take this too…",
+  "msgstr": "Le Badge MINERAL augmente la\\nDEF. SPE. des Pokémon.\\p…Euh… Prends ceci aussi…",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "typographie",
+  "probleme": "Le nom de la capacité est écrit avec une casse mixte.",
+  "correction": "…Avec cette CT, tu peux enseigner\\nQueue de Fer.",
+  "justification": "« Queue de Fer » suit la graphie de la capacité et la convention des majuscules initiales.",
+  "msgid": "…You could use that TM to teach\\nIRON TAIL.",
+  "msgstr": "…Avec cette CT, tu peux apprendre\\nQUEUE DE Fer.",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "typographie",
+  "probleme": "« DE JOHTO » est isolé en capitales dans le titre.",
+  "correction": "…Félicitations, Maître de Johto.\\pQuelle force tu as acquise…\\pJe me demande si j’ai progressé.\\pTu veux vérifier?\\pOn fait un nouveau match?",
+  "justification": "La graphie « Maître de Johto » conserve le titre officiel et la majuscule initiale du nom de région.",
+  "msgid": "…Congratulations, JOHTO CHAMPION.\\pYou have become so strong…\\pI wonder if I have improved.\\pWould you like to test that?\\pWant to have a rematch with me?",
+  "msgstr": "…Félicitations, Maître DE JOHTO.\\pQuelle force tu as acquise…\\pJe me demande si j’ai progressé.\\pTu veux vérifier?\\pOn fait un nouveau match?",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "typographie",
+  "probleme": "« D’OLIVILLE » et « AGREES PAR Jasmine » mêlent plusieurs casses.",
+  "correction": "Arène Pokémon d’Oliville\\pDresseurs agréés par Jasmine:\\n{PLAYER}",
+  "justification": "Oliville et Jasmine gardent leur majuscule initiale et « agréés » retrouve ses accents en minuscules.",
+  "msgid": "OLIVINE CITY POKéMON GYM\\pJASMINE'S CERTIFIED TRAINERS:\\n{PLAYER}",
+  "msgstr": "Arène Pokémon D’OLIVILLE\\pDRESSEURS AGREES PAR Jasmine:\\n{PLAYER}",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "oubli",
+  "probleme": "« Quelqu’un comme toi » omet que Jasmine parle d’un Dresseur.",
+  "correction": "…Euh, {PLAYER}…\\nJ’ai quelque chose à te demander.\\pJ’élève ce STEELIX depuis qu’il\\nn’était qu’un petit ONIX.\\pRUSTY serait plus heureux, je crois,\\navec un Dresseur comme toi.\\pAccepterais-tu d’échanger un de tes\\nPokémon contre mon RUSTY?",
+  "justification": "La question reste adressée à un Dresseur et « Pokémon » reprend la graphie du projet pour le terme générique.",
+  "msgid": "…Um, {PLAYER}…\\nI have something to ask you.\\pI've raised this STEELIX since it\\nwas a little ONIX.\\pBut I think RUSTY would be happier\\nwith a trainer like you.\\pWould you trade any of your\\nPOKéMON for my RUSTY?",
+  "msgstr": "…Euh, {PLAYER}…\\nJ’ai quelque chose à te demander.\\pJ’élève ce STEELIX depuis qu’il\\nn’était qu’un petit ONIX.\\pMais je crois que RUSTY serait plus\\nheureux avec quelqu’un comme toi.\\pAccepterais-tu d’échanger un de tes\\nPOKéMON contre mon RUSTY?",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "oubli",
+  "probleme": "La traduction omet « freely ».",
+  "correction": "Un clan de Dresseurs capables de\\ncommander aux dragons à leur\\lguise vit ici, à Ebènelle.\\pC’est pourquoi cette ville regorge\\nde légendes sur les dragons.",
+  "justification": "« A leur guise » indique que les membres du clan peuvent commander librement aux dragons.",
+  "msgid": "A clan of trainers who can freely\\ncommand dragons live right here in\\lBLACKTHORN.\\pAs a result, there are many legends\\nabout dragons in this town.",
+  "msgstr": "Un clan de Dresseurs capables de\\ncommander aux dragons vit ici,\\là Ebènelle.\\pC’est pourquoi cette ville regorge\\nde légendes sur les dragons.",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "terminologie",
+  "probleme": "« FLUTE AZUREE » est un autre nom que celui de l’objet officiel.",
+  "correction": "Salut, Patron.\\pOui, j’ai trouvé des artefacts,\\nmais aucune trace de la Flûte Azur.\\pElle est peut-être dans la\\nmontagne, mais les Pokémon\\lsauvages sont costauds, et mon\\léquipe doit se reposer…\\p………………\\pÇa coupe…\\lPatron…?\\pJe vais au Centre Pokémon.\\pJe rappelle si je trouve la Flûte.",
+  "justification": "Le lexique fourni donne « Flûte Azur » pour AZURE FLUTE.",
+  "msgid": "Hiya, Boss.\\pYes, I've found several artifacts,\\nbut no sign of the AZURE FLUTE.\\pIt may be inside the MOUNTAIN, but\\nthe wild POKéMON here are strong,\\land my team needs some rest...\\p..................\\pYou're breaking up...\\lBoss....?\\pI'm going to the POKéMON CENTER.\\pI'll call back if I find the FLUTE.",
+  "msgstr": "Salut, Patron.\\pOui, j’ai trouvé plusieurs artefacts,\\nmais aucune trace de la FLUTE AZUREE.\\pElle est peut-être dans la MONTAGNE,\\nmais les Pokémon sauvages sont\\lcostauds, et mon équipe doit se\\lreposer…\\p………………\\pÇa coupe…\\lPatron…?\\pJe vais au Centre Pokémon.\\pJe rappelle si je trouve la FLUTE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "typographie",
+  "probleme": "Un point isolé suit les points de suspension avant « CLIC ».",
+  "correction": "……CLIC\\pLe réseau à SINJOH, c’est nul…",
+  "justification": "La pause avant le bruit de coupure s’écrit avec les points de suspension prévus par le projet.",
+  "msgid": ".......CLICK\\pThe signal in SINJOH sucks...",
+  "msgstr": "…….CLIC\\pLe réseau à SINJOH, c’est nul…",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu est en capitales dans cette reprise de la réplique.",
+  "correction": "EUSINE: Il paraît que SUICUNE\\npourrait être dans la Tour Cendrée.\\lAlors je suis venu voir.\\pMais où peut-il bien être?",
+  "justification": "« Tour Cendrée » suit le lexique fourni et la même graphie que dans la première réplique d’Eusine.",
+  "msgid": "EUSINE: I heard SUICUNE might\\nbe in this BURNED TOWER, so I\\lcame to check it out.\\pBut where exactly could it be?",
+  "msgstr": "EUSINE: Il paraît que SUICUNE\\npourrait se trouver dans la TOUR\\lCENDREE, alors je suis venu voir.\\pMais où peut-il bien être?",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu est en capitales dans le dialogue.",
+  "correction": "Je m’entraîne à voler dans la\\nTour Cendrée! Ne faites pas\\lça chez vous!",
+  "justification": "Le nom de lieu « Tour Cendrée » prend les majuscules initiales du lexique fourni.",
+  "msgid": "I'm practicing my stealing in the\\nBURNED TOWER! Don't try\\lthis at home!",
+  "msgstr": "Je m’entraîne à voler dans la\\nTOUR CENDREE! Ne faites pas\\lça chez vous!",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "typographie",
+  "probleme": "Le lieu et l’objet sont écrits en capitales.",
+  "correction": "Une météorite tombée sur le\\nMont Sélénite. Ce serait une\\lPierre Lune.",
+  "justification": "Le lexique fourni donne « Mont Sélénite » et « Pierre Lune ».",
+  "msgid": "A meteorite that fell on MT. MOON.\\nIt is thought to be a MOON STONE.",
+  "msgstr": "Une météorite tombée sur le\\nMONT SELENITE. Ce serait une\\lPIERRE LUNE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "typographie",
+  "probleme": "« CHAMPION d’Arène » combine deux casses dans le titre.",
+  "correction": "Je vais m’entraîner encore plus\\ndur.\\pAprès tout, je veux devenir\\nChampion d’Arène.",
+  "justification": "« Champion d’Arène » suit la graphie française du titre.",
+  "msgid": "I'm going to train even harder.\\pAfter all, I'm trying to become\\na GYM LEADER.",
+  "msgstr": "Je vais m’entraîner encore plus dur.\\pAprès tout, je veux devenir\\nCHAMPION d’Arène.",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "oubli",
+  "probleme": "La traduction perd la référence au jeune âge du joueur.",
+  "correction": "T’es coriace pour ton âge!",
+  "justification": "« Pour ton âge » restitue « little kid » et conserve le tutoiement familier.",
+  "msgid": "You're a tough little kid.",
+  "msgstr": "T’es dans le genre coriace, toi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu est en capitales.",
+  "correction": "Bois aux Chênes\\nPar le poste de garde",
+  "justification": "Le lexique fourni donne « Bois aux Chênes » avec les majuscules initiales et l’accent de « Chênes ».",
+  "msgid": "ILEX FOREST\\nTHROUGH THE GATE",
+  "msgstr": "BOIS AUX CHENES PAR LE POSTE DE\\nGARDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "typographie",
+  "probleme": "La casse des noms de lieux est incohérente sur le panneau.",
+  "correction": "Route 34\\nDoublonville - Ecorcia\\pBois aux Chênes entre les deux",
+  "justification": "Les noms de lieux suivent la convention des majuscules initiales, dont « Ecorcia » et « Bois aux Chênes » selon le lexique fourni.",
+  "msgid": "ROUTE 34\\nGOLDENROD CITY - AZALEA TOWN\\pILEX FOREST SOMEWHERE BETWEEN",
+  "msgstr": "Route 34\\nDOUBLONVILLE - Ecorcia\\pBOIS AUX CHENES ENTRE LES DEUX",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "contresens",
+  "probleme": "« Grande sœur » affirme qu’Irène est l’aînée et perd le terme affectueux.",
+  "correction": "JENN: Pardon, IRENE! Chère sœur!",
+  "justification": "« Dear Sis » exprime l’affection sans préciser l’ordre de naissance.",
+  "msgid": "JENN: So sorry, IRENE! Dear Sis!",
+  "msgstr": "JENN: Pardon, IRENE! Grande sœur!",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "oubli",
+  "probleme": "« Au dernier étage » efface le numéro d’étage donné au joueur.",
+  "correction": "Le boss de la Team Rocket s’est\\nenfermé à double tour.\\pMais le DIRECTEUR peut ouvrir.\\pIl est au quatrième étage.\\pSauvez-le, je vous en prie!",
+  "justification": "Avec le niveau 1F nommé RDC comme dans les panneaux du jeu, le cinquième niveau est le quatrième étage.",
+  "msgid": "The TEAM ROCKET boss has locked\\nhimself in.\\pBut the DIRECTOR can open it.\\pHe's up on the fifth floor.\\pPlease save him!",
+  "msgstr": "Le boss de la Team Rocket s’est\\nenfermé à double tour.\\pMais le DIRECTEUR peut ouvrir.\\pIl est au dernier étage.\\pSauvez-le, je vous en prie!",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "registre",
+  "probleme": "La réplique de remerciement tutoie le joueur après l’appel à l’aide au vouvoiement.",
+  "correction": "Merci! Vous êtes formidable!\\pVoici un gage de ma gratitude.",
+  "justification": "Le vouvoiement reste cohérent avec « Sauvez-le, je vous en prie! ».",
+  "msgid": "Thank you! You're my hero!\\pThis is a token of my appreciation.",
+  "msgstr": "Merci! Tu es formidable!\\pVoici un petit gage de ma gratitude.",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "contresens",
+  "probleme": "« A l’écoute de tous vos maux » transforme une invitation à poser des questions sur les remèdes.",
+  "correction": "500 ans de tradition\\pPharmacie d’Irisia\\pPosez-nous vos questions\\nsur les remèdes",
+  "justification": "Le panneau invite le public à se renseigner auprès de la pharmacie.",
+  "msgid": "500 Years of Tradition\\pCIANWOOD CITY PHARMACY\\pWe Await Your Medicinal Queries",
+  "msgstr": "500 ans de tradition\\pPharmacie d’Irisia\\pA l’écoute de tous vos maux",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "terminologie",
+  "probleme": "« Grotte FALAISE » ne respecte pas la graphie du lexique.",
+  "correction": "Grotte Falaise\\nVers le Parc Safari.",
+  "justification": "Le lexique fourni prescrit « Grotte Falaise ».",
+  "msgid": "CLIFF EDGE CAVE\\nRoad to the SAFARI ZONE.",
+  "msgstr": "Grotte FALAISE\\nVERS le Parc Safari.",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "typographie",
+  "probleme": "« MONT Dresseurs » combine deux casses dans un nom de lieu.",
+  "correction": "Tu es allé au Mont Dresseurs?\\pJe crois que plein de Dresseurs\\ncostauds s’y sont déjà réunis.\\pMais avec tous tes Badges,\\ntu devrais bien t’en sortir.",
+  "justification": "« Mont Dresseurs » suit la graphie d’Émeraude FR et la convention des majuscules initiales.",
+  "msgid": "Have you gone to the TRAINER\\nHILL?\\pI think a lot of tough trainers\\nhave gathered there already.\\pBut since you have so many BADGES\\nyou shouldn't do badly at all.",
+  "msgstr": "Tu es allé au MONT Dresseurs?\\pJe crois que plein de Dresseurs\\ncostauds s’y sont déjà réunis.\\pMais avec tous tes Badges,\\ntu devrais bien t’en sortir.",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "typographie",
+  "probleme": "Le nom « MONT Dresseurs » est en casse mixte.",
+  "correction": "Waouh, le Mont Dresseurs est\\nimmense!\\pIl doit y avoir plein de Pokémon\\ndifférents là-dedans!",
+  "justification": "« Mont Dresseurs » suit la graphie d’Émeraude FR et la convention des majuscules initiales.",
+  "msgid": "Wow, the TRAINER HILL is huge!\\pThere must be many kinds of\\nPOKéMON in there!",
+  "msgstr": "Waouh, le MONT Dresseurs est\\nimmense!\\pIl doit y avoir plein de Pokémon\\ndifférents là-dedans!",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "typographie",
+  "probleme": "« TENTES DE Combat » combine deux casses dans le nom du lieu.",
+  "correction": "Dans les Tentes de Combat, on ne\\npeut utiliser que trois Pokémon.\\pC’est trop dur de choisir les trois\\nqui iront au combat…",
+  "justification": "Le nom des installations suit la graphie d’Émeraude FR avec des majuscules initiales.",
+  "msgid": "In the BATTLE TENTS, you can\\nuse only three POKéMON.\\pIt's so hard to decide which\\nthree should go into battle…",
+  "msgstr": "Dans les TENTES DE Combat, on ne\\npeut utiliser que trois Pokémon.\\pC’est trop dur de choisir les trois\\nqui iront au combat…",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "typographie",
+  "probleme": "Les deux destinations du panneau présentent des casses mixtes.",
+  "correction": "{UP_ARROW} Entrée du Mont Dresseurs\\p“Grimpez au sommet, Dresseurs\\nau sang chaud!”\\p{RIGHT_ARROW} Tentes de Combat.",
+  "justification": "« Mont Dresseurs » et « Tentes de Combat » suivent les graphies d’Émeraude FR.",
+  "msgid": "{UP_ARROW} TRAINER HILL ENTRANCE\\p“Scale the heights, you hot-blooded\\nTRAINERS!”\\p{RIGHT_ARROW} BATTLE TENTS.",
+  "msgstr": "{UP_ARROW} ENTREE DU MONT Dresseurs\\p“Grimpez au sommet, Dresseurs\\nau sang chaud!”\\p{RIGHT_ARROW} TENTES DE Combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "typographie",
+  "probleme": "« TENTE DE Combat » est en casse mixte.",
+  "correction": "Tente de Combat: Usine\\n“Trouvez-le! Le Pokémon ultime!”",
+  "justification": "Le nom « Tente de Combat » suit la graphie d’Émeraude FR.",
+  "msgid": "BATTLE TENT: FACTORY\\n“Find it! The ultimate POKéMON!”",
+  "msgstr": "TENTE DE Combat: USINE\\n“Trouvez-le! Le Pokémon ultime!”",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "typographie",
+  "probleme": "« TENTE DE Combat » est en casse mixte.",
+  "correction": "Tente de Combat: Palace\\n“Des combats à couper le souffle!”",
+  "justification": "Le nom « Tente de Combat » suit la graphie d’Émeraude FR.",
+  "msgid": "BATTLE TENT: PALACE\\n“Feast Your Eyes on Battles!”",
+  "msgstr": "TENTE DE Combat: PALACE\\n“Des combats à couper le souffle!”",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "typographie",
+  "probleme": "« TENTE DE Combat » est en casse mixte.",
+  "correction": "Tente de Combat: Dojo\\n“Place aux meilleures équipes!”",
+  "justification": "Le nom « Tente de Combat » suit la graphie d’Émeraude FR.",
+  "msgid": "BATTLE TENT: ARENA\\n“May the Greatest Teams Gather!”",
+  "msgstr": "TENTE DE Combat: DOJO\\n“Place aux meilleures équipes!”",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "typographie",
+  "probleme": "Le nom « MONT Dresseurs » est en casse mixte.",
+  "correction": "Le Mont Dresseurs est actuellement\\nfermé pour travaux.",
+  "justification": "« Mont Dresseurs » suit la graphie d’Émeraude FR et la convention des majuscules initiales.",
+  "msgid": "The TRAINER HILL is currently\\nclosed for repairs.",
+  "msgstr": "Le MONT Dresseurs est actuellement\\nfermé pour travaux.",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "typographie",
+  "probleme": "Une espace superflue suit « Jadielle » en fin de ligne.",
+  "correction": "Jadielle\\nLe paradis éternellement vert",
+  "justification": "Le saut de ligne suffit à séparer le nom de la ville de sa devise.",
+  "msgid": "VIRIDIAN CITY \\nThe Eternally Green Paradise",
+  "msgstr": "Jadielle \\nLe paradis éternellement vert",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "contresens",
+  "probleme": "« J’ai perdu mon partenaire » peut évoquer un décès, alors que les deux Dresseurs ont été séparés.",
+  "correction": "Je suis venu explorer le\\nMont Creuset, mais j’ai été\\lséparé de mon partenaire…\\pTu as croisé un Dresseur avec un\\nHYPOCEAN qui connaît Cascade?",
+  "justification": "« J’ai été séparé de mon partenaire » décrit la séparation qui motive la recherche.",
+  "msgid": "I came to explore MT.MORTAR,\\nbut I got separated from my\\lpartner…\\pDid you run into a trainer\\nwho uses a SEADRA that knows\\lWATERFALL?",
+  "msgstr": "Je suis venu explorer le MONT\\nCREUSET, mais j’ai perdu mon\\lpartenaire…\\pTu as croisé un Dresseur avec un\\nHYPOCEAN qui connaît Cascade?",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu est en capitales dans le dialogue.",
+  "correction": "Salut! Tu as visité la\\nTour Chétiflor?",
+  "justification": "« Tour Chétiflor », nom du lieu dans SoulSilver FR, suit la convention des majuscules initiales.",
+  "msgid": "Hi there! Did you visit\\nSPROUT TOWER?",
+  "msgstr": "Salut! Tu as visité la\\nTOUR CHETIFLOR?",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "typographie",
+  "probleme": "« ILE Aurore » combine deux casses dans le nom du lieu.",
+  "correction": "On dit que des météorites sont\\ntombées sur l’Ile Aurore.\\pNous aimerions les exposer dans\\nnotre musée, mais…\\pIl paraît qu’elles dégagent une\\nétrange énergie et qu’on ne peut\\lpas les emporter…",
+  "justification": "« Ile Aurore » respecte les majuscules initiales sans accent sur le I. « Emporter » correspond à « carried away ».",
+  "msgid": "They say that meteorites struck\\nBIRTH ISLAND.\\pWe would love to display them here\\nin our museum, but...\\pThese meteorites are said to emit\\nstrange energy and cannot be\\lcarried away...",
+  "msgstr": "On dit que des météorites sont\\ntombées sur l’ILE Aurore.\\pNous aimerions les exposer dans\\nnotre musée, mais…\\pIl paraît qu’elles dégagent une\\nétrange énergie et qu’on ne peut\\lpas les déplacer…",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "typographie",
+  "probleme": "« Combat » rompt la graphie en capitales du libellé.",
+  "correction": "CHOISISSEZ LE TYPE DE COMBAT.",
+  "justification": "Le projet demande des capitales pour les libellés de menus.",
+  "msgid": "SELECT BATTLE TYPE.",
+  "msgstr": "CHOISISSEZ LE TYPE DE Combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "contresens",
+  "probleme": "« Combattre avec » peut suggérer que les joueurs se battent côte à côte.",
+  "correction": "Cette machine permet de faire\\ndes échanges ou des combats\\lavec des joueurs à proximité.\\pLa technologie, c’est merveilleux!",
+  "justification": "« Faire des combats avec » décrit les matchs entre joueurs en connexion locale.",
+  "msgid": "You can use this machine to trade\\nor battle with other local players.\\pIsn't technology wonderful?",
+  "msgstr": "Cette machine permet d’échanger ou\\nde combattre avec des joueurs proches.\\pLa technologie, c’est merveilleux!",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "oubli",
+  "probleme": "« En ville » perd l’idée de grande ville et « je suis venu » omet l’emménagement.",
+  "correction": "J’adore vivre en grande ville!\\nJ’ai emménagé ici quand j’étais\\ljeune Dresseur, comme toi!",
+  "justification": "« Big city » et « moved here » précisent la taille de la ville et l’installation durable du personnage.",
+  "msgid": "I just love living in the big city!\\nI moved here when I was a young\\ltrainer, like you!",
+  "msgstr": "J’adore vivre en ville!\\nJe suis venu ici quand j’étais\\ljeune Dresseur, comme toi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "contresens",
+  "probleme": "« En or massif » ajoute une précision sur la composition du toit.",
+  "correction": "J’ai dit à mon frère que le toit\\nétait en vrai or. Il gobe\\lvraiment tout!",
+  "justification": "« Real gold » indique que l’or serait véritable, sans préciser qu’il serait massif.",
+  "msgid": "I told my brother that the roof is\\nmade of real gold. He'll believe\\lanything!",
+  "msgstr": "J’ai dit à mon frère que le toit est\\nen or massif. Il gobe vraiment\\ltout!",
+  "msgctxt": ""
+ }
+]

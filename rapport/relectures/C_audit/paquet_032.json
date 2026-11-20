@@ -1,0 +1,262 @@
+[
+ {
+  "id": 6,
+  "categorie": "contresens",
+  "probleme": "CROISSANCE évoque la capacité Pokémon dans une commande de visualisation.",
+  "correction": "AGRANDIR",
+  "justification": "Dans le visualiseur de sprites, GROW désigne l’action d’agrandir le sprite.",
+  "msgid": "GROW",
+  "msgstr": "CROISSANCE",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "terminologie",
+  "probleme": "Foudroyeur est une traduction non officielle de la capacité Bolt Strike.",
+  "correction": "Charge Foudre",
+  "justification": "Charge Foudre est le nom français de la capacité de ZEKROM. [Championnats de Jeu Vidéo Pokémon 2016](https://www.pokemon.com/fr/articles/apercu-des-championnats-de-jeu-video-pokemon-2016-2eme-partie)",
+  "msgid": "Bolt Strike",
+  "msgstr": "Foudroyeur",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "orthographe",
+  "probleme": "L’interjection bye-bye a perdu son trait d’union.",
+  "correction": "Bye-bye, {DYNAMIC 0}!",
+  "justification": "L’interjection empruntée s’écrit avec un trait d’union.",
+  "msgid": "Bye-bye, {DYNAMIC 0}!",
+  "msgstr": "Bye bye, {DYNAMIC 0}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "oubli",
+  "probleme": "La traduction omet now.",
+  "correction": "{DYNAMIC 0} est désormais tenu.",
+  "justification": "Désormais indique que l’objet vient d’être pris ou équipé.",
+  "msgid": "{DYNAMIC 0} is now held.",
+  "msgstr": "{DYNAMIC 0} est tenu.",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "typographie",
+  "probleme": "L’abréviation de numéro emploie le caractère º.",
+  "correction": "N° {DYNAMIC 0}",
+  "justification": "N° est la graphie française usuelle en texte simple.",
+  "msgid": "No. {DYNAMIC 0}",
+  "msgstr": "Nº {DYNAMIC 0}",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "typographie",
+  "probleme": "Les deux libellés de commande sont en casse mixte.",
+  "correction": "{B_BUTTON}RETOUR {R_BUTTON}VOL",
+  "justification": "Les libellés de menu s’écrivent en capitales selon la convention du projet.",
+  "msgid": "{B_BUTTON}CANCEL {R_BUTTON}FLY",
+  "msgstr": "{B_BUTTON}Retour {R_BUTTON}Vol",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu est entièrement en capitales.",
+  "correction": "Route 49",
+  "justification": "Le lexique fourni fixe la graphie des noms de routes sur le modèle de Route 4 et Route 5.",
+  "msgid": "ROUTE 49",
+  "msgstr": "ROUTE 49",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu est entièrement en capitales.",
+  "correction": "Route 50",
+  "justification": "Le lexique fourni fixe la graphie des noms de routes sur le modèle de Route 4 et Route 5.",
+  "msgid": "ROUTE 50",
+  "msgstr": "ROUTE 50",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "typographie",
+  "probleme": "Le nom de lieu mélange casse courante et capitales intégrales.",
+  "correction": "Grotte d’Akala",
+  "justification": "La convention du projet prévoit une majuscule initiale pour les noms de lieux.",
+  "msgid": "AKALA CAVE",
+  "msgstr": "Grotte D’AKALA",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "typographie",
+  "probleme": "Le nom de lieu est entièrement en capitales.",
+  "correction": "Forêt d’Akala",
+  "justification": "La convention du projet prévoit une majuscule initiale. Le ê de Forêt retrouve son accent en minuscule.",
+  "msgid": "AKALA FOREST",
+  "msgstr": "FORET D’AKALA",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "orthographe",
+  "probleme": "Il manque la préposition qui relie Grotte au nom de l’île.",
+  "correction": "Grotte de Poni",
+  "justification": "La construction de Poni suit celle du nom de l’île dans le même lot.",
+  "msgid": "PONI CAVE",
+  "msgstr": "Grotte PONI",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "orthographe",
+  "probleme": "Il manque la préposition qui relie Grotte au nom de l’île.",
+  "correction": "Grotte d’Ula-Ula",
+  "justification": "La construction d’Ula-Ula suit celle du nom de l’île dans le même lot.",
+  "msgid": "ULA'ULA CAVE",
+  "msgstr": "Grotte ULA-ULA",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "codes",
+  "probleme": "Les arguments RED et DARK_GRAY ont été remplacés par 4 et 2.",
+  "correction": "{COLOR RED}ERREUR! {COLOR DARK_GRAY}Flash non détectée!\\n\\nSur émulateur, réglez le type de\\nsauvegarde sur\\nFlash 1Mb/128K et relancez la ROM.\\n\\nSur console, votre cartouche n’a\\npas de puce flash fonctionnelle.",
+  "justification": "Les codes entre accolades doivent reprendre les arguments exacts du texte source.",
+  "msgid": "{COLOR RED}ERROR! {COLOR DARK_GRAY}Flash memory not detected!\\n\\nIf playing on an emulator, set your\\nsave type setting to\\nFlash 1Mb/128K and reload the ROM.\\n\\nIf playing on hardware, your cart\\ndoes not have a working flash chip.",
+  "msgstr": "{COLOR 4}ERREUR! {COLOR 2}Flash non détectée!\\n\\nSur émulateur, réglez le type de\\nsauvegarde sur\\nFlash 1Mb/128K et relancez la ROM.\\n\\nSur console, votre cartouche n’a\\npas de puce flash fonctionnelle.",
+  "msgctxt": ""
+ },
+ {
+  "id": 59,
+  "categorie": "typographie",
+  "probleme": "Il manque l’espace entre les deux commandes.",
+  "correction": "{DPAD_UPDOWN}CHOIX {A_BUTTON}OK",
+  "justification": "L’espace sépare visuellement CHOIX de la commande de validation.",
+  "msgid": "{DPAD_UPDOWN}PICK {A_BUTTON}OK",
+  "msgstr": "{DPAD_UPDOWN}CHOIX{A_BUTTON}OK",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "oubli",
+  "probleme": "La traduction omet l’objet de l’évaluation du Prof. SEKO.",
+  "correction": "Pokémon vus: {STR_VAR_1}!\\nPokémon attrapés: {STR_VAR_2}!\\pLe Prof. SEKO évalue le Pokédex!\\pPROF. SEKO: Voyons…\\p",
+  "justification": "L’anglais indique que le Prof. SEKO évalue le Pokédex.",
+  "msgid": "Spotted POKéMON: {STR_VAR_1}!\\nOwned POKéMON: {STR_VAR_2}!\\pPROF. BIRCH's POKéDEX rating!\\pPROF. BIRCH: Let's see…\\p",
+  "msgstr": "Pokémon vus: {STR_VAR_1}!\\nPOKéMON attrapés: {STR_VAR_2}!\\pEvaluation du Prof. SEKO!\\pPROF. SEKO: Voyons…\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "typographie",
+  "probleme": "Le libellé de catégorie est en casse mixte.",
+  "correction": "SOINS",
+  "justification": "Les libellés de menu s’écrivent en capitales selon la convention du projet.",
+  "msgid": "MEDICINE",
+  "msgstr": "Soins",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "typographie",
+  "probleme": "Le libellé de catégorie est en casse mixte.",
+  "correction": "TRESORS",
+  "justification": "Les libellés de menu s’écrivent en capitales sans accents selon la convention du projet.",
+  "msgid": "TREASURES",
+  "msgstr": "Trésors",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "registre",
+  "probleme": "Le personnel du comptoir de Points de Combat tutoie le joueur.",
+  "correction": "Vous vouliez {STR_VAR_1}?\\n{STR_VAR_2} PC. Ça vous va?",
+  "justification": "Le vouvoiement rétablit le registre du comptoir et la formulation courte conserve la demande de confirmation.",
+  "msgid": "You wanted {STR_VAR_1}?\\nThat'll be {STR_VAR_2}BP. Will that be okay?",
+  "msgstr": "Tu voulais {STR_VAR_1}?\\nÇa fera {STR_VAR_2}PC. C’est d’accord?",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "terminologie",
+  "probleme": "PTS. Combat. désigne la même monnaie que PC dans les répliques du comptoir.",
+  "correction": "Vous n’avez pas assez de\\nPoints de Combat.{PAUSE_UNTIL_PRESS}",
+  "justification": "La forme développée officielle est Points de Combat. [Pokémon HOME](https://home.pokemon.com/fr-fr/features/)",
+  "msgid": "You don't have enough\\nBP.{PAUSE_UNTIL_PRESS}",
+  "msgstr": "Vous n’avez pas assez de\\nPTS. Combat.{PAUSE_UNTIL_PRESS}",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "registre",
+  "probleme": "La demande de quantité passe au tutoiement.",
+  "correction": "Des {STR_VAR_1}? D’accord.\\nCombien vous en faut-il?",
+  "justification": "Le vouvoiement reprend le registre des autres messages du comptoir.",
+  "msgid": "{STR_VAR_1}s? Sure.\\nHow many would you like?",
+  "msgstr": "Des {STR_VAR_1}? D’accord.\\nCombien t’en faut-il?",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "registre",
+  "probleme": "La confirmation de quantité tutoie le joueur.",
+  "correction": "Et vous en voulez {STR_VAR_2}?\\nÇa fera {STR_VAR_3} baies.",
+  "justification": "Le vouvoiement reprend le registre des autres messages du comptoir.",
+  "msgid": "And you wanted {STR_VAR_2} of 'em?\\nThat will be {STR_VAR_3} berries.",
+  "msgstr": "Et tu en veux {STR_VAR_2}?\\nÇa fera {STR_VAR_3} baies.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "registre",
+  "probleme": "La confirmation de quantité au singulier tutoie le joueur.",
+  "correction": "Et vous en voulez {STR_VAR_2}?\\nÇa fera {STR_VAR_3} baie.",
+  "justification": "Cette variante suit le même registre que la confirmation au pluriel.",
+  "msgid": "And you wanted {STR_VAR_2} of 'em?\\nThat will be {STR_VAR_3} berry.",
+  "msgstr": "Et tu en veux {STR_VAR_2}?\\nÇa fera {STR_VAR_3} baie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "terminologie",
+  "probleme": "HONOR BALLS reprend le pluriel anglais du nom de l’objet.",
+  "correction": "Je mets {STR_VAR_1} Honor Ball en plus.{PAUSE_UNTIL_PRESS}",
+  "justification": "Le nom officiel français de l’objet est Honor Ball. [Boîte Poké Ball](https://www.pokemon.com/fr/jcc-pokemon/galerie-produits/boite-poke-ball)",
+  "msgid": "I'll throw in {STR_VAR_1} PREMIER BALLS, too.{PAUSE_UNTIL_PRESS}",
+  "msgstr": "Je mets {STR_VAR_1} HONOR BALLS en plus.{PAUSE_UNTIL_PRESS}",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que le blocage est lié à la règle des rencontres.",
+  "correction": "Prêt à éclore, mais bloqué\\npar les rencontres Nuzlocke!",
+  "justification": "Encounter précise le motif du blocage dans le mode Nuzlocke.",
+  "msgid": "Ready to hatch, but blocked\\nby Nuzlocke encounter!",
+  "msgstr": "Prêt à éclore, mais bloqué\\npar la règle Nuzlocke!",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "contresens",
+  "probleme": "Etrange peut qualifier le Pokémon dans la traduction.",
+  "correction": "Un étrange OEUF de Pokémon\\nreçu à la Pension.",
+  "justification": "Dans l’anglais, odd qualifie l’Œuf.",
+  "msgid": "An odd POKéMON EGG\\nobtained at the daycare.",
+  "msgstr": "Un OEUF de Pokémon étrange\\nreçu à la Pension.",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que l’objet doit être posé sur le meuble.",
+  "correction": "Impossible de placer ça ici.\\nA poser sur un BUREAU, etc.",
+  "justification": "La préposition sur rétablit l’instruction de placement.",
+  "msgid": "This can't be placed here.\\nIt must be on a DESK, etc.",
+  "msgstr": "Impossible de placer ça ici.\\nIl faut un BUREAU, etc.",
+  "msgctxt": ""
+ }
+]

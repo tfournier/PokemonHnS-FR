@@ -1,0 +1,192 @@
+[
+ {
+  "id": 3,
+  "categorie": "oubli",
+  "probleme": "La traduction décrit une toile qui s’étend sous l’équipe et omet qu’elle a été posée autour de son camp.",
+  "correction": "Une toile gluante est posée autour du camp de l’équipe {B_DEF_TEAM2}!",
+  "justification": "Le texte anglais décrit la pose du piège au sol autour du camp adverse.",
+  "msgid": "A sticky web has been laid out on the ground around {B_DEF_TEAM2} team!",
+  "msgstr": "Une toile gluante s’étend sous l’équipe {B_DEF_TEAM2}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "orthographe",
+  "probleme": "Il manque le déterminant devant Toile Gluante.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} balaie la Toile Gluante!",
+  "justification": "Le complément de « balaie » prend ici l’article défini, comme les autres pièges balayés.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} blew away Sticky Web!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} balaie Toile Gluante!",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "contresens",
+  "probleme": "« Renonce » présente l’action comme volontaire.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser {B_CURRENT_MOVE}!",
+  "justification": "« Cannot use » indique que le Pokémon est empêché d’utiliser la capacité.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} cannot use {B_CURRENT_MOVE}!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} renonce à {B_CURRENT_MOVE}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que la Baie doit avoir été mangée alors que le Pokémon la tenait.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} n’a mangé\\naucune Baie qu’il tenait.\\lIl ne peut donc pas roter!\\p",
+  "justification": "« Held Berries » désigne les Baies consommées en tant qu’objets tenus, une condition de la capacité.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} hasn't eaten any held Berries, so it can't possibly belch!\\p",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} n’a mangé aucune Baie, il ne peut pas roter!\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "oubli",
+  "probleme": "« Bonus » ne précise pas que le vol porte sur les hausses de stats.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} vole les hausses de stats de sa cible!",
+  "justification": "« Boosted stats » désigne les augmentations de stats de la cible.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} stole the target's boosted stats!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} vole les bonus de sa cible!",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "terminologie",
+  "probleme": "Le nom de la capacité Gravité est traité comme un nom commun.",
+  "correction": "La Gravité fait tomber {B_DEF_NAME_WITH_PREFIX} du ciel!",
+  "justification": "Le lexique fourni donne « Gravité » pour GRAVITY. « Du ciel » restitue aussi « from the sky ».",
+  "msgid": "{B_DEF_NAME_WITH_PREFIX} fell from the sky due to the gravity!",
+  "msgstr": "La gravité fait chuter {B_DEF_NAME_WITH_PREFIX}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "contresens",
+  "probleme": "« Réutiliser les sons » ne désigne pas l’utilisation de capacités sonores.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} peut de nouveau utiliser des capacités sonores!",
+  "justification": "L’effet prend fin et le Pokémon peut à nouveau employer les capacités fondées sur le son.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} can use sound-based moves again!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} peut réutiliser les sons!",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "oubli",
+  "probleme": "La traduction omet l’intensité de la concentration.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} se concentre intensément!",
+  "justification": "L’adverbe restitue « intensely ».",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} concentrated intensely!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} se concentre!",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "contresens",
+  "probleme": "« S’intensifie » suppose une aura déjà active.",
+  "correction": "L’aura de {B_DEF_NAME_WITH_PREFIX} s’embrase!",
+  "justification": "« Flared to life » décrit l’apparition soudaine de l’aura.",
+  "msgid": "{B_DEF_NAME_WITH_PREFIX}'s aura flared to life!",
+  "msgstr": "L’aura de {B_DEF_NAME_WITH_PREFIX}\\ns’intensifie!",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "oubli",
+  "probleme": "La traduction omet le nom de la forme obtenue.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX}\\ndevient SACHANOBI!\\p",
+  "justification": "Sachanobi est le nom français officiel d’Ash-Greninja dans Pokémon Soleil et Lune.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} became Ash-Greninja!\\p",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} change de forme!\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "contresens",
+  "probleme": "« Redevient normal » suggère que l’ensoleillement continue sous une forme ordinaire.",
+  "correction": "Le soleil extrêmement ardent se dissipe!",
+  "justification": "Le message annonce la fin de l’effet météo.",
+  "msgid": "The extremely harsh sunlight faded!",
+  "msgstr": "Le soleil redevient normal!",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "oubli",
+  "probleme": "« Courant aérien » omet la force des vents.",
+  "correction": "De mystérieux vents violents protègent les Pokémon Vol!",
+  "justification": "« Strong winds » désigne des vents violents.",
+  "msgid": "Mysterious strong winds are protecting Flying-type Pokémon!",
+  "msgstr": "Un mystérieux courant aérien protège les Pokémon Vol!",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "oubli",
+  "probleme": "« Courant aérien » omet la force des vents.",
+  "correction": "Les mystérieux vents violents se dissipent!",
+  "justification": "Le message reprend les « mysterious strong winds » dont il annonce la fin.",
+  "msgid": "The mysterious strong winds have dissipated!",
+  "msgstr": "Le mystérieux courant aérien se dissipe!",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "oubli",
+  "probleme": "« Courant aérien » omet la force des vents.",
+  "correction": "Les mystérieux vents violents soufflent toujours!",
+  "justification": "Le message indique que les vents violents persistent.",
+  "msgid": "The mysterious strong winds blow on regardless!",
+  "msgstr": "Le mystérieux courant aérien souffle toujours!",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "oubli",
+  "probleme": "« Courant aérien » omet la force des vents.",
+  "correction": "Les mystérieux vents violents affaiblissent l’attaque!",
+  "justification": "Le message attribue l’affaiblissement de l’attaque aux vents violents.",
+  "msgid": "The mysterious strong winds weakened the attack!",
+  "msgstr": "Le mystérieux courant aérien affaiblit l’attaque!",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "contresens",
+  "probleme": "« Craint plus » peut se lire comme une disparition de la faiblesse au feu.",
+  "correction": "{B_DEF_NAME_WITH_PREFIX} devient plus sensible au feu!",
+  "justification": "« Became weaker to fire » indique que la vulnérabilité au feu augmente.",
+  "msgid": "{B_DEF_NAME_WITH_PREFIX} became weaker to fire!",
+  "msgstr": "{B_DEF_NAME_WITH_PREFIX} craint plus le feu!",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "oubli",
+  "probleme": "La réplique omet que le poids empêche de soulever le Pokémon.",
+  "correction": "{B_DEF_NAME_WITH_PREFIX} est trop lourd pour être soulevé!",
+  "justification": "« To be lifted » précise l’action rendue impossible.",
+  "msgid": "{B_DEF_NAME_WITH_PREFIX} is too heavy to be lifted!",
+  "msgstr": "{B_DEF_NAME_WITH_PREFIX} est trop lourd!",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "oubli",
+  "probleme": "La traduction omet « full-force ».",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} déchaîne toute la puissance de sa capacité Z!",
+  "justification": "Le texte anglais indique que la capacité Z est lancée à pleine puissance.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} unleashes its full-force Z-Move!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} déchaîne sa capacité Z!",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "terminologie",
+  "probleme": "« Taux de critique » écarte le terme officiel « coup critique ».",
+  "correction": "{B_SCR_NAME_WITH_PREFIX} augmente ses chances de coup critique grâce à la Force Z!",
+  "justification": "Les messages de combat de Pokémon Émeraude FR emploient « coup critique ».",
+  "msgid": "{B_SCR_NAME_WITH_PREFIX} boosted its critical-hit ratio using its Z-Power!",
+  "msgstr": "{B_SCR_NAME_WITH_PREFIX} augmente son taux de critique grâce à la Force Z!",
+  "msgctxt": ""
+ }
+]

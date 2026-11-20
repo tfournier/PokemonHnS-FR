@@ -1,0 +1,502 @@
+[
+ {
+  "id": 1,
+  "categorie": "oubli",
+  "probleme": "L’utilisation par appui prolongé sur SELECT disparaît.",
+  "correction": "Assignez un Objet Rare pour\\nl’utiliser en maintenant SELECT.",
+  "justification": "Le texte anglais précise qu’il faut maintenir SELECT enfoncé.",
+  "msgid": "A KEY ITEM can be registered\\nto holding SELECT for easy use.",
+  "msgstr": "Un OBJET RARE peut être assigné\\nà SELECT pour s’en servir vite.",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "oubli",
+  "probleme": "La consigne ne précise plus que les Pokémon doivent être complètement soignés.",
+  "correction": "D’abord, tu devrais soigner\\ncomplètement tes Pokémon.",
+  "justification": "« To full health » indique un rétablissement complet.",
+  "msgid": "First, you should restore your\\nPOKéMON to full health.",
+  "msgstr": "D’abord, tu devrais soigner\\ntes Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "orthographe",
+  "probleme": "L’apposition « les PV » s’insère mal dans la phrase et rend l’accord avec « est basse » ambigu.",
+  "correction": "Vos Pokémon sont en pleine forme!\\pSi vos Pokémon manquent de PV,\\nrevenez nous voir.\\pSi vous partez loin, achetez des\\nPotions à la Boutique Pokémon.\\pBonne chance!",
+  "justification": "« Manquent de PV » exprime directement la condition sans apposition ambiguë.",
+  "msgid": "Your POKéMON have been healed\\nto perfect health.\\pIf your POKéMON's energy, HP,\\nis down, please come see us.\\pIf you're planning to go far in the\\nfield, you should buy some POTIONS\\lat the POKéMON MART.\\pWe hope you excel!",
+  "msgstr": "Vos Pokémon sont en pleine forme!\\pSi l’énergie de vos Pokémon, les PV,\\nest basse, revenez nous voir.\\pSi vous partez loin, achetez des\\nPOTIONS à la Boutique Pokémon.\\pBonne chance!",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que Maman vient tout juste d’avoir des nouvelles.",
+  "correction": "Maman: Oh, super! Toi et tes\\nPokémon, vous avez l’air en forme.\\pJ’ai eu des nouvelles de\\n{STR_VAR_1} à l’instant.\\pIl dit que l’énergie des Pokémon\\nse mesure en PV.\\pSi tes Pokémon perdent leurs PV,\\ntu peux les soigner dans n’importe\\lquel Centre Pokémon.\\pPour partir loin, un Dresseur\\nmalin fait le plein de Potions\\là la Boutique Pokémon.\\pRends-moi fière, mon cœur!\\pPrends soin de toi!",
+  "justification": "« A l’instant » restitue le sens temporel de « just ».",
+  "msgid": "MOM: Oh, good! You and your\\nPOKéMON are looking great.\\pI just heard from {STR_VAR_1}.\\pHe said that POKéMON's energy is\\nmeasured in HP.\\pIf your POKéMON lose their HP,\\nyou can restore them at any\\lPOKéMON CENTER.\\pIf you're going to travel far away,\\nthe smart TRAINER stocks up on\\lPOTIONS at the POKéMON MART.\\pMake me proud, honey!\\pTake care!",
+  "msgstr": "Maman: Oh, super! Toi et tes\\nPOKéMON, vous avez l’air en forme.\\pJ’ai eu des nouvelles de {STR_VAR_1}.\\pIl dit que l’énergie des Pokémon\\nse mesure en PV.\\pSi tes Pokémon perdent leurs PV,\\ntu peux les soigner dans n’importe\\lquel Centre Pokémon.\\pPour partir loin, un Dresseur\\nmalin fait le plein de POTIONS\\là la Boutique Pokémon.\\pRends-moi fière, mon cœur!\\pPrends soin de toi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "oubli",
+  "probleme": "La perte de temps n’est plus explicitement liée au fait de s’inquiéter.",
+  "correction": "Bonjour, {PLAYER}…\\nPardon de te déranger encore.\\lJ’ai une autre question.\\pJ’ai si peu confiance en moi!\\nSans toi, {PLAYER}, je ne sais\\lpas ce que je ferais.\\pJ’ai peut-être tort de m’en faire,\\nmais je n’arrive pas à me décider…\\pQuel Pokémon devrais-je envoyer\\nen premier au combat?",
+  "justification": "Le personnage doute qu’il vaille la peine de s’en faire et dit manquer de confiance en lui-même.",
+  "msgid": "Hello, {PLAYER}…\\nI'm sorry to disturb you again with\\lanother question.\\pI have so little confidence, I don't\\nknow what I'd do without you, {PLAYER}.\\pIt may be a waste of time for me to\\neven worry about it, but I just can't\\ldecide something…\\pWhich of my POKéMON should I send\\nout first in a battle?",
+  "msgstr": "Bonjour, {PLAYER}…\\nJe suis désolée de te déranger, mais\\lj’aimerais te poser une autre question.\\pSans toi, {PLAYER}, je ne sais pas ce\\nque je ferais. J’ai si peu confiance!\\pC’est peut-être une perte de temps,\\nmais je n’arrive pas à me décider…\\pQuel Pokémon devrais-je envoyer\\nen premier au combat?",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "contresens",
+  "probleme": "Le personnage ne parle ni d’importuner le joueur ni d’avoir fait son choix. Il vérifie aussi si on l’entend.",
+  "correction": "Youhou, {PLAYER}!\\nComment ça va?\\pQue faire? Je me lance?\\nOui, j’ai une question!\\lTu me reçois? Tu me reçois!\\pA toi de choisir lequel de mes\\nPokémon doit entrer en scène\\lle premier! Au combat, je veux dire!",
+  "justification": "La correction rétablit l’hésitation avant la question et le jeu sur la réception de l’appel.",
+  "msgid": "Yahoo, {PLAYER}!\\nHow do you do?\\pWhat should I do? Go ahead and ask?\\nUh-huh, I have something to ask!\\lAre you receiving me?\\lYou are receiving me!\\pYou have to decide, which of my\\nPOKéMON is the first to ride!\\lInto battle, I mean to say.",
+  "msgstr": "Youhou, {PLAYER}!\\nComment ça va?\\pQue faire? Te demander, au risque\\nde t’importuner? Mon choix est fait!\\lTu m’as compris? Oui, tu m’as compris!\\pTu dois décider lequel de mes Pokémon\\ndoit entrer en scène le premier!\\lAu combat, je veux dire!",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "contresens",
+  "probleme": "« Tu crois? » demande un avis alors que le personnage confirme un choix.",
+  "correction": "Tu choisis {STR_VAR_1}?\\nD’accord, compris!\\pJe vais enseigner {STR_VAR_1}\\nà mon Pokémon tout de suite!\\pA plus!",
+  "justification": "« Is your choice? » demande de confirmer la capacité choisie.",
+  "msgid": "{STR_VAR_1} is your choice?\\nOkay, I got it!\\pI'll go teach {STR_VAR_1} to\\nmy POKéMON right away!\\pSee you again!",
+  "msgstr": "{STR_VAR_1}, tu crois?\\nD’accord, compris!\\pJe vais enseigner {STR_VAR_1}\\nà mon Pokémon tout de suite!\\pA plus!",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "oubli",
+  "probleme": "Le sursaut de détermination et la promesse de faire de son mieux disparaissent.",
+  "correction": "D’accord!\\pVoudra-t-il bien apprendre\\n{STR_VAR_1} pour moi…\\lNon! Je vais faire de mon mieux!\\pMerci!",
+  "justification": "Le personnage interrompt ses propres doutes et s’engage à faire de son mieux.",
+  "msgid": "I understand!\\pBut will it even be willing to learn\\n{STR_VAR_1} for me…\\lNo! I'll do my best!\\pThank you!",
+  "msgstr": "D’accord!\\pJ’espère qu’il acceptera d’apprendre\\n{STR_VAR_1}…\\lJe vais essayer, en tout cas!\\pMerci!",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "contresens",
+  "probleme": "La question porte sur une phrase à prononcer en cas de victoire. Son caractère personnel et l’élégance demandée sont des ajouts.",
+  "correction": "Tiens… On dirait {PLAYER}{KUN}.\\nMais est-ce bien toi?\\lUne Poupée {PLAYER} très réussie?\\pOh, non, ne t’en fais pas!\\nSi c’est bien toi, pardonne\\lmon impolitesse.\\pNe te fâche pas. J’ai juste besoin\\nde tes conseils avisés.\\pC’est au sujet d’une phrase.\\pQue devrais-je dire\\nsi je gagne un combat?",
+  "justification": "La correction rétablit le doute sur l’identité du joueur, les excuses et la demande d’une réplique de victoire.",
+  "msgid": "Hm? You appear to be {PLAYER}{KUN}…\\nBut are you really?\\lPerhaps a clever {PLAYER} DOLL?\\pOh, no, no, no, don't worry!\\nIf you really are real, please\\lforget about my rudeness.\\pNo need to be so angry. All I wish for\\nis more of your fine advice.\\pIt concerns a saying.\\pMore precisely, what should I say\\nif I win a battle?",
+  "msgstr": "Tiens… {PLAYER}{KUN},\\nn’est-ce pas?\\lSerais-tu une POUPEE {PLAYER}?\\pMais, si c’est vraiment toi, je te\\nprésente mes excuses. Je ne voulais\\lpas te vexer.\\pJ’ai de nouveau besoin de tes conseils\\navisés.\\pC’est une question assez personnelle.\\pPourrais-tu me suggérer quelque chose\\nd’élégant à dire en cas de victoire?",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "typographie",
+  "probleme": "« TENTE DE Combat » mélange capitales et casse normale dans le même nom.",
+  "correction": "Bienvenue à la Tente de Combat!\\pJe suis votre guide pour le\\nTournoi K.O.!",
+  "justification": "Dans un dialogue, le nom du lieu suit la graphie « Tente de Combat » de Pokémon Émeraude FR.",
+  "msgid": "I welcome you to the BATTLE TENT!\\pI am your guide to the Set KO Tourney!",
+  "msgstr": "Bienvenue à la TENTE DE Combat!\\pJe suis votre guide pour le\\nTournoi K.O.!",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "orthographe",
+  "probleme": "Le début de « nous organisons » est tronqué.",
+  "correction": "nous organisons le Tournoi K.O.\\pChaque participant s’inscrit avec\\nune équipe de trois Pokémon.\\pLes trois Pokémon doivent être\\nrangés dans leur ordre d’entrée.\\pEn combat, ils entrent un par un\\ndans l’ordre choisi.\\pUne fois au combat, un Pokémon doit\\ny rester jusqu’à la fin du match.\\pSi le match n’est pas tranché en\\ntrois tours, les juges décident.\\pPour interrompre votre défi,\\nveuillez sauvegarder.\\pSans sauvegarde, vous ne pourrez\\npas reprendre votre défi.\\pSi vous battez trois Dresseurs\\nd’affilée, vous recevrez\\lun superbe prix.",
+  "justification": "Le fragment complète l’amorce de l’entrée 21 après la virgule.",
+  "msgid": "we undertake the Set KO Tourney.\\pAll participants enter with a team of\\nthree POKéMON.\\pThe three POKéMON must be lined up\\nin the order that they are to appear in.\\pDuring battle, the POKéMON will appear\\none at a time in the preset order.\\pOnce a POKéMON enters battle, it must\\nremain out until the match is decided.\\pIf a match remains undecided in\\nthree turns, it goes to judging.\\pIf you wish to interrupt your challenge,\\nplease save the game.\\pIf you don't save, you will not be able\\nto continue with your challenge.\\pIf you pull off the feat of beating\\nthree TRAINERS in succession,\\lwe will present you with a fine prize.",
+  "msgstr": "rganisons le Tournoi K.O.\\pChaque participant s’inscrit avec\\nune équipe de trois Pokémon.\\pLes trois Pokémon doivent être\\nrangés dans leur ordre d’entrée.\\pEn combat, ils entrent un par un\\ndans l’ordre choisi.\\pUne fois au combat, un Pokémon doit\\ny rester jusqu’à la fin du match.\\pSi le match n’est pas tranché en\\ntrois tours, les juges décident.\\pPour interrompre votre défi,\\nveuillez sauvegarder.\\pSans sauvegarde, vous ne pourrez\\npas reprendre votre défi.\\pSi vous battez trois Dresseurs\\nd’affilée, vous recevrez\\lun superbe prix.",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "typographie",
+  "probleme": "La première ligne dépasse la longueur indicative.",
+  "correction": "Deux niveaux sont proposés:\\nNiveau 50 et Niveau Libre. Lequel\\lchoisissez-vous?",
+  "justification": "L’amorce plus courte conserve les deux choix et les sauts existants.",
+  "msgid": "We offer two levels of challenge,\\nLevel 50 and Open Level.\\lWhich is your choice?",
+  "msgstr": "Nous proposons deux niveaux de défi:\\nNiveau 50 et Niveau Libre. Lequel\\lchoisissez-vous?",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "typographie",
+  "probleme": "« TENTE DE Combat » mélange capitales et casse normale dans le même nom.",
+  "correction": "Bienvenue à la Tente de Combat!\\pIci, on éprouve la confiance\\ndu Dresseur envers ses Pokémon.",
+  "justification": "« Tente de Combat » suit la graphie de Pokémon Émeraude FR et la reformulation tient sur les deux lignes.",
+  "msgid": "I welcome you to the BATTLE TENT!\\pHere, the TRAINER's trust toward\\nPOKéMON is tested.",
+  "msgstr": "Bienvenue à la TENTE DE Combat!\\pIci, on met à l’épreuve la confiance\\ndu Dresseur envers ses Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "autre_phrase",
+  "probleme": "Le fragment répète « défi de la » après l’entrée 25 et omet la mention du Palace.",
+  "correction": "Tente de Combat du Palace?",
+  "justification": "Le fragment complète la question de l’entrée 25 et conserve le nom du défi correspondant.",
+  "msgid": "BATTLE TENT challenge?",
+  "msgstr": "défi de la TENTE DE COMBAT?",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "orthographe",
+  "probleme": "L’amorce « une règle » est tronquée. La dernière phrase omet la disqualification.",
+  "correction": "une règle essentielle doit\\lêtre respectée.\\pLes Dresseurs peuvent seulement\\nchanger de Pokémon.\\pIl leur est interdit de donner\\ndes ordres à leurs Pokémon.\\pLes Pokémon agissent selon leur\\nnature et combattent seuls.\\pVous devez faire confiance à vos\\nPokémon et veiller sur eux.\\pSi vous avez l’honneur de battre\\ntrois Dresseurs d’affilée,\\lvous recevrez un prix.\\pPour interrompre votre défi,\\nveuillez sauvegarder.\\pSi vous partez sans sauvegarder,\\nvous serez disqualifié.",
+  "justification": "Le début complète l’entrée 27 et « disqualifié » restitue la sanction annoncée.",
+  "msgid": "there is one crucial rule that must\\lbe obeyed.\\pTRAINERS are permitted only to switch\\ntheir POKéMON in and out.\\pTRAINERS are otherwise forbidden to\\ncommand their POKéMON.\\pThe POKéMON are to behave according\\nto their nature and battle on their own.\\pYou must put your trust in your\\nPOKéMON and watch over them.\\pIf you achieve the honor of beating\\nthree TRAINERS in succession,\\lwe will present you with a prize.\\pIf you want to interrupt your\\nchallenge, please save the game.\\pIf you don't save before interrupting,\\nyou will be disqualified.",
+  "msgstr": "ègle\\nessentielle doit être respectée.\\pLes Dresseurs peuvent seulement\\nchanger de Pokémon.\\pIl leur est interdit de donner\\ndes ordres à leurs Pokémon.\\pLes Pokémon agissent selon leur\\nnature et combattent seuls.\\pVous devez faire confiance à vos\\nPOKéMON et veiller sur eux.\\pSi vous avez l’honneur de battre\\ntrois Dresseurs d’affilée,\\lvous recevrez un prix.\\pPour interrompre votre défi,\\nveuillez sauvegarder.\\pSi vous partez sans sauvegarder,\\nvotre défi sera perdu.",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "typographie",
+  "probleme": "« TENTE DE Combat » mélange capitales et casse normale dans le même nom.",
+  "correction": "Bienvenue à la Tente de Combat!\\pJe suis votre guide pour le\\nTournoi Echange.",
+  "justification": "Dans un dialogue, le nom du lieu suit la graphie « Tente de Combat » de Pokémon Émeraude FR.",
+  "msgid": "Welcome to the BATTLE TENT!\\pI am your guide to the Battle Swap\\nTournament.",
+  "msgstr": "Bienvenue à la TENTE DE Combat!\\pJe suis votre guide pour le\\nTournoi Echange.",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "orthographe",
+  "probleme": "Le début de la phrase est tronqué. La dernière phrase omet la disqualification.",
+  "correction": "on tient des tournois Echange\\lavec des Pokémon de location.\\pD’abord, on vous prête trois\\nPokémon rien que pour l’occasion.\\pAvec ces Pokémon de location,\\nvous livrez un Combat Simple.\\pSi vous gagnez, vous pouvez\\néchanger un Pokémon de location.\\pCombat, échange, et on recommence!\\nTrois victoires d’affilée et\\lvous recevrez un superbe prix.\\pPour interrompre votre défi,\\nveuillez sauvegarder.\\pSi vous partez sans sauvegarder,\\nvous serez disqualifié.",
+  "justification": "L’amorce reconstitue la phrase commencée à l’entrée 31 et la dernière ligne restitue la sanction prévue.",
+  "msgid": "we hold Battle Swap events\\lusing rental POKéMON.\\pFirst, you will be loaned three\\nPOKéMON specifically for this event.\\pUsing the supplied rental POKéMON,\\nyou must conduct a SINGLE BATTLE.\\pIf you win, you are permitted to trade\\none of your rental POKéMON.\\pRepeat this cycle of battling and\\ntrading--if you win three times in\\la row, you will earn a fine prize.\\pIf you want to interrupt your\\nchallenge, please save the game.\\pIf you don't save before interrupting,\\nyou will be disqualified.",
+  "msgstr": "ons des tournois Echange\\lavec des Pokémon de location.\\pD’abord, on vous prête trois\\nPOKéMON rien que pour l’occasion.\\pAvec ces Pokémon de location,\\nvous livrez un Combat Simple.\\pSi vous gagnez, vous pouvez échanger\\nl’un de vos Pokémon de location.\\pCombat, échange, et on recommence!\\nTrois victoires d’affilée et\\lvous recevrez un superbe prix.\\pPour interrompre votre défi,\\nveuillez sauvegarder.\\pSi vous partez sans sauvegarder,\\nvotre défi sera perdu.",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "typographie",
+  "probleme": "La première ligne dépasse la longueur indicative.",
+  "correction": "Bien, je garde vos Pokémon\\nen sécurité pendant l’épreuve.",
+  "justification": "La répartition conserve sur deux lignes l’idée de garde en lieu sûr pendant l’épreuve.",
+  "msgid": "Okay, I will hold your POKéMON for\\nsafekeeping while you compete.",
+  "msgstr": "Bien, je garde vos Pokémon en lieu sûr\\npendant la compétition.",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu et le début de la comparaison occupent des lignes trop longues.",
+  "correction": "A la Tente de Combat de Vergazon,\\nles Pokémon doivent réfléchir et\\lcombattre seuls.\\pLes Pokémon élevés par des gens\\nse comportent selon leur nature,\\là la différence des sauvages.",
+  "justification": "La version raccourcie conserve le nom du lieu, l’autonomie au combat et la comparaison.",
+  "msgid": "Here at the VERDANTURF BATTLE TENT,\\nPOKéMON are required to think and\\lbattle by themselves.\\pUnlike in the wild, POKéMON that live\\nwith people behave differently\\ldepending on their nature.",
+  "msgstr": "Ici, à la Tente de Combat de Vergazon,\\nles Pokémon doivent réfléchir et\\lcombattre seuls.\\pContrairement aux Pokémon sauvages,\\nles Pokémon qui vivent avec les gens\\lse comportent selon leur nature.",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "typographie",
+  "probleme": "Le point final est placé à l’intérieur des guillemets qui encadrent le seul mot « Pokémon ».",
+  "correction": "On appelle ça un “Pokémon”.\\p\\n",
+  "justification": "Le point clôt la phrase entière et se place après le guillemet fermant.",
+  "msgid": "This is what we call a “POKéMON.”\\p\\n",
+  "msgstr": "Voici ce qu’on appelle un “Pokémon.”\\p\\n",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "autre_phrase",
+  "probleme": "Un point d’interrogation isolé précède la réplique et crée une ligne parasite.",
+  "correction": "Tu veux retourner à Oliville?",
+  "justification": "La question correspond à la VO et tient sur l’unique ligne prévue.",
+  "msgid": "Do you want to return to OLIVINE?",
+  "msgstr": "?\\nTu veux retourner à Oliville?",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "orthographe",
+  "probleme": "« Mon équipe » présente une faute d’accord et la présentation empile les deux variables sur une ligne.",
+  "correction": "Hé, {PLAYER}{KUN}.\\nIci {STR_VAR_1}. Comment ça va?\\pAu fait, tu as réussi\\n{STR_VAR_3} victoires d’affilée\\là {STR_VAR_2}, paraît-il.\\pÇa me donne envie de mieux\\nentraîner mon équipe.",
+  "justification": "Devant « équipe », « mon » serait correct pour éviter le hiatus. Le problème est la coupure et la longueur après substitution, corrigées ici en redistribuant le texte.",
+  "msgid": "Hey, {PLAYER}{KUN}.\\n{STR_VAR_1} here. How are you?\\pBy the way, I heard you pulled off\\nthe feat of {STR_VAR_3} straight wins at\\lthe {STR_VAR_2}.\\pThat inspires me to focus on\\nraising my team.",
+  "msgstr": "Hé, {PLAYER}{KUN}. Ici {STR_VAR_1}. Comment\\nça va?\\pAu fait, il paraît que tu as réussi\\n{STR_VAR_3} victoires d’affilée à\\l{STR_VAR_2}.\\pÇa me motive à mieux élever mon\\néquipe.",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "typographie",
+  "probleme": "La première ligne cumule les deux noms et la dernière rassemble deux répliques sur une ligne trop longue.",
+  "correction": "…Euh, {PLAYER}{KUN}?\\nIci {STR_VAR_1}…\\pAh oui, tu étais à\\n{STR_VAR_2}, c’est ça?\\pEt tu as gagné {STR_VAR_3} combats\\nd’affilée.\\pOh, un Pokémon rare!\\nJe dois y aller!",
+  "justification": "La répartition rétablit deux lignes pour la présentation et le départ précipité.",
+  "msgid": "…Er, {PLAYER}{KUN}?\\n{STR_VAR_1} here…\\pOh, yeah, you were over at\\nthe {STR_VAR_2}, right?\\pAnd you won {STR_VAR_3} battles in a row.\\pOh, there goes a rare POKéMON!\\nI have to go!",
+  "msgstr": "…Euh, {PLAYER}{KUN}? Ici {STR_VAR_1}…\\pAh oui, tu étais à {STR_VAR_2}, c’est\\nça?\\pEt tu as gagné {STR_VAR_3} combats\\nd’affilée.\\pOh, un Pokémon rare! Je dois y aller!",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "typographie",
+  "probleme": "La salutation place les deux noms sur une ligne déjà longue avant substitution.",
+  "correction": "Oh, salut, {PLAYER}{KUN}!\\nC’est {STR_VAR_1}!\\pJ’ai appris ta série de\\n{STR_VAR_3} victoires à {STR_VAR_2}!\\pC’est trop cool! Je dois\\nfaire plus d’efforts, moi aussi!",
+  "justification": "Les noms du joueur et de son interlocuteur sont répartis sur deux lignes.",
+  "msgid": "Oh, {PLAYER}{KUN}, hi there!\\nThis is {STR_VAR_1}!\\pI heard! Your {STR_VAR_3}-win streak at\\nthe {STR_VAR_2}!\\pThat is so cool!\\nI'd better try harder, too!",
+  "msgstr": "Oh, {PLAYER}{KUN}, salut! C’est {STR_VAR_1}!\\pJ’ai appris ta série de {STR_VAR_3}\\nvictoires à {STR_VAR_2}!\\pC’est trop cool! Je dois faire plus\\nd’efforts, moi aussi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "typographie",
+  "probleme": "La salutation place les deux noms sur une ligne déjà longue avant substitution.",
+  "correction": "Oh, bonjour, {PLAYER}{KUN}…\\nIci {STR_VAR_1}.\\pTu as gagné {STR_VAR_3} combats\\nd’affilée à {STR_VAR_2}?\\pC’est tout un exploit. Je dois\\ntravailler plus dur.",
+  "justification": "La présentation retrouve sa propre ligne et laisse de la place à chaque nom.",
+  "msgid": "Oh, {PLAYER}{KUN}, hello…\\nThis is {STR_VAR_1}.\\pYou won {STR_VAR_3} straight battles at\\nthe {STR_VAR_2}?\\pThat's quite the accomplishment.\\nI need to work harder.",
+  "msgstr": "Oh, {PLAYER}{KUN}, bonjour… Ici {STR_VAR_1}.\\pTu as gagné {STR_VAR_3} combats\\nd’affilée à {STR_VAR_2}?\\pC’est tout un exploit. Je dois\\ntravailler plus dur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "typographie",
+  "probleme": "Le deux-points après « de » coupe le complément.",
+  "correction": "Ah, {PLAYER}{KUN}.\\nC’est {STR_VAR_1}.\\pIl paraît que tu es la terreur\\nde {STR_VAR_2}?\\pTu as gagné {STR_VAR_3} matchs\\nd’affilée?\\pT’assures, toi.\\nCombien j’en gagnerais, moi?",
+  "justification": "La préposition introduit directement le nom du lieu.",
+  "msgid": "Ah, {PLAYER}{KUN}.\\nThis is {STR_VAR_1}.\\pI hear you're the terror of\\nthe {STR_VAR_2}?\\pYou won, what, {STR_VAR_3} matches in\\na row?\\pYou're good, you.\\nI wonder how many I can win?",
+  "msgstr": "Ah, {PLAYER}{KUN}.\\nC’est {STR_VAR_1}.\\pIl paraît que tu es la terreur\\nde: {STR_VAR_2}?\\pTu as gagné {STR_VAR_3} matchs\\nd’affilée?\\pT’assures, toi.\\nCombien j’en gagnerais, moi?",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "typographie",
+  "probleme": "La salutation place les deux noms sur une ligne déjà longue avant substitution.",
+  "correction": "Ah, bonjour, {PLAYER}{KUN}!\\nIci {STR_VAR_1}!\\lJ’espère que tu vas bien.\\pOn dit que tu as gagné {STR_VAR_3}\\ncombats d’affilée à {STR_VAR_2}.\\pJ’admire ton énergie!\\nAu revoir.",
+  "justification": "La présentation et la formule de départ retrouvent chacune leur ligne.",
+  "msgid": "Ah, hello, {PLAYER}{KUN}!\\nThis is {STR_VAR_1}!\\lI hope you've been keeping well.\\pThey say you won {STR_VAR_3} straight\\nbattles at the {STR_VAR_2}.\\pI admire your energy!\\nBye now.",
+  "msgstr": "Ah, bonjour, {PLAYER}{KUN}! Ici {STR_VAR_1}!\\nJ’espère que tu vas bien.\\pOn dit que tu as gagné {STR_VAR_3}\\ncombats d’affilée à {STR_VAR_2}.\\pJ’admire ton énergie! Au revoir.",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "typographie",
+  "probleme": "« PROF. SEKO » met aussi le titre en capitales et la deuxième ligne est longue.",
+  "correction": "Prof. SEKO: Avec le Pokédex\\net le PokéNav, c’est plus amusant\\ld’étudier les Pokémon, hein?",
+  "justification": "La convention du projet, fondée sur Pokémon Émeraude FR, fixe la graphie « Prof. SEKO ».",
+  "msgid": "PROF. BIRCH: When one has both\\nthe POKéDEX and POKéNAV, studying\\lPOKéMON becomes more fun, eh?",
+  "msgstr": "PROF. SEKO: Avec le Pokédex et le\\nPokéNav, étudier les Pokémon devient\\lplus amusant, hein?",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "typographie",
+  "probleme": "« dresseur » perd la majuscule du terme Pokémon.",
+  "correction": "Yo, {PLAYER}!\\nComment ça va?\\pEt tes Pokémon?\\pMon {STR_VAR_3} est en pleine\\nforme, comme toujours.\\pC’est mon seul Pokémon.\\nAvec lui, je deviendrai\\lun grand Dresseur!",
+  "justification": "Le style de Pokémon SoulSilver FR et la convention du projet emploient « Dresseur ».",
+  "msgid": "Yo, {PLAYER}!\\nHow're you doing?\\pHow are your POKéMON doing?\\pMy {STR_VAR_3}'s raring to go,\\njust like always.\\pIt's the only one I have.\\nI'm going to become a great\\ltrainer with it!",
+  "msgstr": "Yo, {PLAYER}!\\nComment ça va?\\pEt tes Pokémon?\\pMon {STR_VAR_3} est en pleine\\nforme, comme toujours.\\pC’est mon seul Pokémon.\\nAvec lui, je deviendrai\\lun grand dresseur!",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "orthographe",
+  "probleme": "« Il a ricané qu’il » emploie « ricaner » comme verbe introducteur d’une complétive.",
+  "correction": "Hé, {PLAYER}!\\nEcoute ça!\\pJe viens de battre\\nun {STR_VAR_3} sauvage.\\pJe l’ai dit à mon fils,\\nmais il a répondu en ricanant\\lqu’il ferait pareil sans peine.\\pMa parole, il prend\\nla grosse tête…",
+  "justification": "« A répondu » introduit les paroles rapportées et « en ricanant » conserve le ton moqueur.",
+  "msgid": "Hey, {PLAYER}!\\nListen to this!\\pI just beat a wild\\n{STR_VAR_3}.\\pI told my kid, but he\\nscoffed that he could do\\lthe same thing easily.\\pBoy, has he gotten\\ncocky…",
+  "msgstr": "Hé, {PLAYER}!\\nEcoute ça!\\pJe viens de battre\\nun {STR_VAR_3} sauvage.\\pJe l’ai dit à mon fils,\\nmais il a ricané qu’il\\lferait pareil sans peine.\\pMa parole, il prend\\nla grosse tête…",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "orthographe",
+  "probleme": "« J’avais un moment, alors je t’appelle » crée une rupture de temps dans le récit de l’appel.",
+  "correction": "Salut, {PLAYER}!\\nJ’avais un moment, alors\\lje t’ai appelé.\\pAlors, comment vont tes\\nPokémon?\\pMoi, j’emmène mon\\n{STR_VAR_3} au Centre\\lPokémon de Mauville\\ptous les jours, alors\\nil est en super forme!\\pJe suis copine avec\\nl’infirmière!",
+  "justification": "Le passé composé présente l’appel comme la conséquence du temps libre, conformément à la VO.",
+  "msgid": "Hi, {PLAYER}!\\nI had some time, so I\\lcalled you.\\pSo anyway, how are your\\nPOKéMON?\\pMe, I take my {STR_VAR_3}\\nto the POKéMON CENTER in\\lVIOLET every day,\\pso it's doing just\\nfantastic!\\pI'm friends with the\\nreceptionist!",
+  "msgstr": "Salut, {PLAYER}!\\nJ’avais un moment, alors\\lje t’appelle.\\pAlors, comment vont tes\\nPOKéMON?\\pMoi, j’emmène mon\\n{STR_VAR_3} au CENTRE\\lPOKéMON de Mauville\\ptous les jours, alors\\nil est en super forme!\\pJe suis copine avec\\nl’infirmière!",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "terminologie",
+  "probleme": "« IRWIN » est le nom anglais du Jongleur de la Route 35.",
+  "correction": "Euh, allô, {PLAYER}?\\nC’est ton pote Zeppo!\\pJ’ai vu un combat\\ngénial l’autre jour!\\pJ’aimerais me battre\\ncomme ça.\\pAh mais si, je peux! Il me\\nfaut juste un adversaire!",
+  "justification": "Le Jongleur de la Route 35 est inscrit sous le nom de Zeppo dans le Pokématos de Pokémon SoulSilver FR.",
+  "msgid": "Uh, hello, {PLAYER}?\\nIt's your pal, IRWIN!\\pI saw the most amazing\\nbattle the other day!\\pI wish I could battle\\nlike that.\\pOh wait, I can! I just\\nneed someone to battle!",
+  "msgstr": "Euh, allô, {PLAYER}?\\nC’est ton pote IRWIN!\\pJ’ai vu un combat\\ngénial l’autre jour!\\pJ’aimerais me battre\\ncomme ça.\\pAh mais si, je peux! Il me\\nfaut juste un adversaire!",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "terminologie",
+  "probleme": "« IRWIN » est le nom anglais du Jongleur de la Route 35.",
+  "correction": "Euh, allô, {PLAYER}?\\nC’est ton pote Zeppo!\\pHéhé, j’ai appelé direct!\\pJe crois qu’on peut devenir\\nde bons amis!",
+  "justification": "Le Pokématos de Pokémon SoulSilver FR l’identifie comme le Jongleur Zeppo.",
+  "msgid": "Uh, hello, {PLAYER}?\\nIt's your pal, IRWIN!\\pHehe, I called right away!\\pI think we can be good\\nfriends!",
+  "msgstr": "Euh, allô, {PLAYER}?\\nC’est ton pote IRWIN!\\pHéhé, j’ai appelé direct!\\pJe crois qu’on peut devenir\\nde bons amis!",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "terminologie",
+  "probleme": "« IRWIN » est le nom anglais du Jongleur de la Route 35.",
+  "correction": "Euh, allô, {PLAYER}?\\nC’est ton pote Zeppo!\\pTes aventures, ça me\\nfait vibrer!\\pOh oui, alors!",
+  "justification": "Le Pokématos de Pokémon SoulSilver FR l’identifie comme le Jongleur Zeppo.",
+  "msgid": "Uh, hello, {PLAYER}?\\nIt's your pal, IRWIN!\\pHearing about your\\nescapades rocks my soul!\\pIt sure does!",
+  "msgstr": "Euh, allô, {PLAYER}?\\nC’est ton pote IRWIN!\\pTes aventures, ça me\\nfait vibrer!\\pOh oui, alors!",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "terminologie",
+  "probleme": "« IRWIN » est le nom anglais du Jongleur de la Route 35.",
+  "correction": "Euh, allô, {PLAYER}?\\nC’est ton pote Zeppo!\\pJe t’attendais.\\nOn se fait un combat!",
+  "justification": "Le Pokématos de Pokémon SoulSilver FR l’identifie comme le Jongleur Zeppo.",
+  "msgid": "Uh, hello, {PLAYER}?\\nIt's your pal, IRWIN!\\pI was waiting for you.\\nLet's battle!",
+  "msgstr": "Euh, allô, {PLAYER}?\\nC’est ton pote IRWIN!\\pJe t’attendais.\\nOn se fait un combat!",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "terminologie",
+  "probleme": "« ALAN » est le nom anglais de l’Ecolier de la Route 36.",
+  "correction": "Salut, {PLAYER}!\\nC’est Samson!\\p{PLAYER}, tu élèves bien\\ntes Pokémon?\\pJ’ai lu dans un livre qu’il\\nfaut élever les Pokémon\\lqu’on attrape avec amour\\let tendresse.",
+  "justification": "Le Pokématos de Pokémon SoulSilver FR l’identifie comme l’Ecolier Samson.",
+  "msgid": "Hi, {PLAYER}!\\nIt's ALAN!\\p{PLAYER}, are you raising\\nyour POKéMON properly?\\pI read in a book that you\\nshould raise any POKéMON\\lyou catch with love and\\lcare.",
+  "msgstr": "Salut, {PLAYER}!\\nC’est ALAN!\\p{PLAYER}, tu élèves bien\\ntes Pokémon?\\pJ’ai lu dans un livre qu’il\\nfaut élever les Pokémon\\lqu’on attrape avec amour\\let tendresse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "terminologie",
+  "probleme": "« ALAN » est le nom anglais de l’Ecolier de la Route 36.",
+  "correction": "Salut, {PLAYER}!\\nC’est Samson!\\pMon {STR_VAR_3} devient\\nplus fort, exactement\\lcomme je l’avais calculé!",
+  "justification": "Le Pokématos de Pokémon SoulSilver FR l’identifie comme l’Ecolier Samson.",
+  "msgid": "Hi, {PLAYER}!\\nIt's ALAN!\\pMy {STR_VAR_3}'s getting\\nstronger, exactly as I\\lcalculated!",
+  "msgstr": "Salut, {PLAYER}!\\nC’est ALAN!\\pMon {STR_VAR_3} devient\\nplus fort, exactement\\lcomme je l’avais calculé!",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "terminologie",
+  "probleme": "« ALAN » est le nom anglais de l’Ecolier de la Route 36.",
+  "correction": "Salut, {PLAYER}!\\nC’est Samson!\\pAu fait, on a mis K.O.\\nun {STR_VAR_3} sauvage\\ll’autre jour.\\pRéviser à l’avance,\\nça paie!",
+  "justification": "Le Pokématos de Pokémon SoulSilver FR l’identifie comme l’Ecolier Samson.",
+  "msgid": "Hi, {PLAYER}!\\nIt's ALAN!\\pBy the way, we knocked\\nout a wild {STR_VAR_3}\\ljust the other day.\\pStudying up in advance\\nworked!",
+  "msgstr": "Salut, {PLAYER}!\\nC’est ALAN!\\pAu fait, on a mis K.O.\\nun {STR_VAR_3} sauvage\\ll’autre jour.\\pRéviser à l’avance,\\nça paie!",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "terminologie",
+  "probleme": "« ALAN » est le nom anglais de l’Ecolier de la Route 36.",
+  "correction": "Salut, {PLAYER}!\\nC’est Samson!\\pHéhéhé, j’ai ramassé\\nun truc sympa!\\pJe te le donne!\\pViens donc le chercher\\nsur la Route 36!",
+  "justification": "Le Pokématos de Pokémon SoulSilver FR l’identifie comme l’Ecolier Samson.",
+  "msgid": "Hi, {PLAYER}!\\nIt's ALAN!\\pHehehe, I picked up\\nsomething nice!\\pYou can have it!\\pWhy don't you come to\\nROUTE 36 and pick it up?",
+  "msgstr": "Salut, {PLAYER}!\\nC’est ALAN!\\pHéhéhé, j’ai ramassé\\nun truc sympa!\\pJe te le donne!\\pViens donc le chercher\\nsur la Route 36!",
+  "msgctxt": ""
+ },
+ {
+  "id": 109,
+  "categorie": "terminologie",
+  "probleme": "« ALAN » est le nom anglais de l’Ecolier de la Route 36.",
+  "correction": "Salut, {PLAYER}!\\nC’est Samson!\\pJe t’attendais.\\nOn se fait un combat!",
+  "justification": "Le Pokématos de Pokémon SoulSilver FR l’identifie comme l’Ecolier Samson.",
+  "msgid": "Hi, {PLAYER}!\\nIt's ALAN!\\pI was waiting for you.\\nLet's battle!",
+  "msgstr": "Salut, {PLAYER}!\\nC’est ALAN!\\pJe t’attendais.\\nOn se fait un combat!",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "terminologie",
+  "probleme": "« Dana » est le nom anglais de la Fillette de la Route 38.",
+  "correction": "Salut, {PLAYER}!\\nC’est Armelle!\\pMon {STR_VAR_3} a tant\\nd’énergie que ça fait\\lun peu peur.\\pEt tes Pokémon,\\nils vont bien?",
+  "justification": "Le Pokématos de Pokémon SoulSilver FR l’identifie comme la Fillette Armelle.",
+  "msgid": "Hi, {PLAYER}!\\nIt's DANA!\\pMy {STR_VAR_3} is so full\\nof energy, it's a little\\lscary.\\pHow are your POKéMON\\ndoing?",
+  "msgstr": "Salut, {PLAYER}!\\nC’est Dana!\\pMon {STR_VAR_3} a tant\\nd’énergie que ça fait\\lun peu peur.\\pEt tes Pokémon,\\nils vont bien?",
+  "msgctxt": ""
+ },
+ {
+  "id": 111,
+  "categorie": "orthographe",
+  "probleme": "La locution s’écrit « à tout bout de champ » avec un s à « champ ». Le prénom anglais est aussi resté.",
+  "correction": "Salut, {PLAYER}!\\nC’est Armelle!\\pMon {STR_VAR_3} devient\\nde plus en plus joli!\\pJe le prends en photo\\nà tout bout de champs!",
+  "justification": "L’expression correcte est « à tout bout de champ ». Le Pokématos de Pokémon SoulSilver FR identifie la Fillette comme Armelle.",
+  "msgid": "Hi, {PLAYER}!\\nIt's DANA!\\pMy {STR_VAR_3} is getting\\nprettier!\\pI've been taking photos\\ngalore!",
+  "msgstr": "Salut, {PLAYER}!\\nC’est Dana!\\pMon {STR_VAR_3} devient\\nde plus en plus joli!\\pJe le prends en photo\\nà tout bout de champ!",
+  "msgctxt": ""
+ },
+ {
+  "id": 112,
+  "categorie": "oubli",
+  "probleme": "Le Pokémon n’est plus qualifié de sauvage et le prénom anglais est resté.",
+  "correction": "Salut, {PLAYER}!\\nC’est Armelle!\\pJ’ai mis K.O. en un instant\\nun {STR_VAR_3} sauvage.\\pC’est sûrement grâce aux\\nconseils de combat que tu\\lm’as donnés la dernière fois.",
+  "justification": "« Wild » signifie « sauvage ». Le Pokématos de Pokémon SoulSilver FR identifie la Fillette comme Armelle.",
+  "msgid": "Hi, {PLAYER}!\\nIt's DANA!\\pIt took only an instant to\\nKO a wild {STR_VAR_3}.\\pIt must be because you\\ngave me some battling tips\\llast time.",
+  "msgstr": "Salut, {PLAYER}!\\nC’est Dana!\\pIl m’a fallu un instant pour\\nmettre K.O. un {STR_VAR_3}.\\pC’est sûrement grâce aux\\nconseils de combat que tu\\lm’as donnés la dernière fois.",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "terminologie",
+  "probleme": "« Dana » est le nom anglais de la Fillette de la Route 38.",
+  "correction": "Salut, {PLAYER}!\\nC’est Armelle!\\pTu sais quoi?\\nJ’ai un super cadeau!\\pComme promis, il est à toi!\\nJe suis sûre qu’il te plaira.\\pViens le prendre! Je t’attends\\nsur la Route 38!",
+  "justification": "Le Pokématos de Pokémon SoulSilver FR l’identifie comme la Fillette Armelle.",
+  "msgid": "Hi, {PLAYER}!\\nIt's DANA!\\pYou know what?\\nI got a good gift!\\pAs I promised, it's yours!\\nI'm sure you'd like it.\\pCome get it! I'm waiting\\non ROUTE 38!",
+  "msgstr": "Salut, {PLAYER}!\\nC’est Dana!\\pTu sais quoi?\\nJ’ai un super cadeau!\\pComme promis, il est à toi!\\nJe suis sûre qu’il te plaira.\\pViens le prendre! Je t’attends\\nsur la Route 38!",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "terminologie",
+  "probleme": "« Dana » est le nom anglais de la Fillette de la Route 38.",
+  "correction": "Salut, {PLAYER}!\\nC’est Armelle!\\pJe t’attendais.\\nOn se fait un combat!",
+  "justification": "Le Pokématos de Pokémon SoulSilver FR l’identifie comme la Fillette Armelle.",
+  "msgid": "Hi, {PLAYER}!\\nIt's DANA!\\pI was waiting for you.\\nLet's battle!",
+  "msgstr": "Salut, {PLAYER}!\\nC’est Dana!\\pJe t’attendais.\\nOn se fait un combat!",
+  "msgctxt": ""
+ },
+ {
+  "id": 115,
+  "categorie": "terminologie",
+  "probleme": "« CHAD » reste en anglais et « Prof. CHEN » ne suit pas la graphie du projet.",
+  "correction": "Bonjour, {PLAYER}!\\nC’est Vincent!\\pComment vont tes\\nPokémon?\\pTu connais le Prof. Chen,\\nalors forcément, tes Pokémon\\lvont bien!\\pLes miens aussi se portent\\nbien.\\pFaut dire que j’essaie de\\ndevenir professeur\\lPokémon.",
+  "justification": "Pokémon SoulSilver FR nomme l’Ecolier Vincent. Le projet retient « Prof. Chen ».",
+  "msgid": "Hello, {PLAYER}!\\nIt's CHAD!\\pHow are your POKéMON\\ndoing?\\pYou know PROF. OAK, so of\\ncourse your POKéMON are\\lfine!\\pMy POKéMON are doing well\\ntoo.\\pBut then, I am trying to\\nbecome a POKéMON\\lprofessor.",
+  "msgstr": "Bonjour, {PLAYER}!\\nC’est CHAD!\\pComment vont tes\\nPOKéMON?\\pTu connais le Prof. CHEN,\\nalors forcément, tes Pokémon\\lvont bien!\\pLes miens aussi se portent\\nbien.\\pFaut dire que j’essaie de\\ndevenir professeur\\lPOKéMON.",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "terminologie",
+  "probleme": "« CHAD » reste en anglais et « Prof. CHEN » ne suit pas la graphie du projet. Le début récent des observations est omis.",
+  "correction": "Bonjour, {PLAYER}!\\nC’est Vincent!\\pDepuis peu, j’observe\\ndes {STR_VAR_3} sauvages.\\pJ’apprends plein de\\nchoses nouvelles\\lgrâce à mes observations.\\pJ’aimerais devenir vite un\\nchercheur Pokémon comme\\lle Prof. Chen.",
+  "justification": "Pokémon SoulSilver FR nomme l’Ecolier Vincent. Le projet retient « Prof. Chen » et « depuis peu » restitue « recently ».",
+  "msgid": "Hello, {PLAYER}!\\nIt's CHAD!\\pI recently began observing\\nwild {STR_VAR_3}.\\pI've been learning all\\nsorts of new things\\lthrough my observations.\\pI wish I could become a\\nPOKéMON researcher like\\lPROF. OAK soon.",
+  "msgstr": "Bonjour, {PLAYER}!\\nC’est CHAD!\\pJ’ai commencé à observer\\ndes {STR_VAR_3} sauvages.\\pJ’apprends plein de\\nchoses nouvelles\\lgrâce à mes observations.\\pJ’aimerais devenir vite un\\nchercheur Pokémon comme\\lle Prof. CHEN.",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "terminologie",
+  "probleme": "« CHAD » reste en anglais et « Prof. CHEN » ne suit pas la graphie du projet.",
+  "correction": "Bonjour, {PLAYER}!\\nC’est Vincent!\\pJe vais bûcher dur\\npour que le Prof. Chen\\lme prenne comme assistant!",
+  "justification": "Pokémon SoulSilver FR nomme l’Ecolier Vincent. Le projet retient « Prof. Chen ».",
+  "msgid": "Hello, {PLAYER}!\\nIt's CHAD!\\pI'm going to study hard\\nso PROF. OAK will make\\lme his assistant!",
+  "msgstr": "Bonjour, {PLAYER}!\\nC’est CHAD!\\pJe vais bûcher dur\\npour que le Prof. CHEN\\lme prenne comme assistant!",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "terminologie",
+  "probleme": "« CHAD » est le nom anglais de l’Ecolier de la Route 38.",
+  "correction": "Bonjour, {PLAYER}!\\nC’est Vincent!\\pJe t’attendais.\\nOn se fait un combat!",
+  "justification": "Le Pokématos de Pokémon SoulSilver FR l’identifie comme l’Ecolier Vincent.",
+  "msgid": "Hello, {PLAYER}!\\nIt's CHAD!\\pI was waiting for you.\\nLet's battle!",
+  "msgstr": "Bonjour, {PLAYER}!\\nC’est CHAD!\\pJe t’attendais.\\nOn se fait un combat!",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "terminologie",
+  "probleme": "« Derek » est le nom anglais du Pokéfan de la Route 39.",
+  "correction": "Hé, {PLAYER}!\\nC’est Etienne!\\pFaut que je te raconte!\\pMon adorable {STR_VAR_3}\\nm’a regardé et m’a souri!\\pC’est sûrement parce que\\nnos cœurs battent\\là l’unisson!",
+  "justification": "Le Pokématos de Pokémon SoulSilver FR l’identifie comme le Pokéfan Étienne. La convention du projet retire l’accent initial.",
+  "msgid": "Hey, {PLAYER}!\\nIt's DEREK!\\pYou have to hear this!\\pMy lovable {STR_VAR_3}\\nlooked at me and grinned!\\pIt must be because our\\nhearts beat together as\\lone!",
+  "msgstr": "Hé, {PLAYER}!\\nC’est Derek!\\pFaut que je te raconte!\\pMon adorable {STR_VAR_3}\\nm’a regardé et m’a souri!\\pC’est sûrement parce que\\nnos cœurs battent\\là l’unisson!",
+  "msgctxt": ""
+ }
+]

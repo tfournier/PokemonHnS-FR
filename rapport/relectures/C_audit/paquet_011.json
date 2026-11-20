@@ -1,0 +1,422 @@
+[
+ {
+  "id": 2,
+  "categorie": "terminologie",
+  "probleme": "« Epreuve du Choix » et « Points Combat » divergent des appellations d’Émeraude.",
+  "correction": "Pour avoir relevé le défi\\ndu Combat Hasard, nous vous\\lremettons ces Points de Combat…",
+  "justification": "Dans Pokémon Émeraude FR, l’épreuve du Reptile de Combat est le Combat Hasard et la récompense se compte en Points de Combat.",
+  "msgid": "To commemorate your completion of\\nthe Battle Choice challenge, we award\\lyou these Battle Point(s)…",
+  "msgstr": "Pour célébrer la réussite de l’épreuve\\ndu Choix, nous vous remettons ces\\lPoints Combat…",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "oubli",
+  "probleme": "La traduction transforme le constat prudent de l’employé en certitude.",
+  "correction": "Vous semblez avoir atteint\\nla limite de Points de Combat…\\pEchangez des Points de Combat\\ncontre des lots, puis revenez…",
+  "justification": "« You appear to » indique que l’employé présente le constat comme une apparent constatation.",
+  "msgid": "You appear to have reached the limit\\nfor Battle Points…\\pPlease exchange some Battle Points\\nfor prizes, then return…",
+  "msgstr": "Vous avez atteint la limite\\nde Points de Combat…\\pEchangez des Points de Combat\\ncontre des lots, puis revenez…",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "typographie",
+  "probleme": "« DRESSEURS » est entièrement en capitales dans le dialogue.",
+  "correction": "C’est quoi, cet endroit bizarre?\\nJe n’y comprends rien!\\pJ’ai tenté le défi plein de fois,\\nmais je tombe toujours sur des\\lDresseurs, quel que soit le chemin.",
+  "justification": "Le projet prescrit la graphie « Dresseur ».",
+  "msgid": "What is this weird place?\\nI can't figure it out at all!\\pI've taken the challenge a bunch\\nof times, but all I ever do is run into\\lTRAINERS whichever path I choose.",
+  "msgstr": "C’est quoi, cet endroit bizarre?\\nJe n’y comprends rien!\\pJ’ai tenté le défi plein de fois,\\nmais je tombe toujours sur des\\lDRESSEURS, quel que soit le chemin.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "typographie",
+  "probleme": "Il manque la majuscule à « Dresseur ».",
+  "correction": "Tu dois être un Dresseur puissant.\\pOn n’a pas trop l’usage des fossiles\\nsur le comptoir, là-bas.\\pUn drôle de type aux cheveux\\nargentés en a laissé une tonne.\\pPrends-les si tu veux.",
+  "justification": "Le projet prescrit la graphie « Dresseur ».",
+  "msgid": "You must be a strong trainer.\\pWe don't have much use for the\\nfossils on the counter over there.\\pA strange man with silver hair\\ndropped a ton of them off here.\\pGo ahead and take them if you like.",
+  "msgstr": "Tu dois être un dresseur puissant.\\pOn n’a pas trop l’usage des fossiles\\nsur le comptoir, là-bas.\\pUn drôle de type aux cheveux\\nargentés en a laissé une tonne.\\pPrends-les si tu veux.",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "terminologie",
+  "probleme": "Le nom du lieu a une casse incohérente.",
+  "correction": "Nous partageons souvent nos travaux\\navec les chercheurs des Ruines\\ld’Alpha.\\pOn s’échange même des fossiles\\npar le PC!",
+  "justification": "Le lieu s’appelle « Ruines d’Alpha » dans Pokémon SoulSilver FR.",
+  "msgid": "We often share research with the\\nRUINS OF ALPH researchers.\\pWe even share fossils with them\\nthrough the PC!",
+  "msgstr": "Nous partageons souvent nos travaux\\navec les chercheurs des RUINES\\lD’Alpha.\\pOn s’échange même des fossiles\\npar le PC!",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu est tout en capitales et des virgules isolent inutilement le second sujet.",
+  "correction": "MIHARU: Bienvenue à Nouveau Sinjoh,\\n{PLAYER}.\\pDepuis des générations, ce village\\ncohabite en paix avec des Pokémon\\limmensément puissants, à l’abri\\ldes regards indiscrets.\\pLes récents événements survenus\\nà notre temple sacré et l’afflux\\ld’hôtes indésirables qui a suivi\\lmenacent l’équilibre fragile que\\lnous protégeons depuis longtemps.",
+  "justification": "Les noms de lieux prennent des majuscules initiales. Les deux sujets coordonnés se lisent directement avec leur verbe.",
+  "msgid": "MIHARU: Welcome to NEW SINJOH, \\n{PLAYER}.\\pFor generations, this village has\\npeacefully coexisted with immensely\\lpowerful POKéMON, in isolation from\\lthe prying eyes of outsiders.\\pRecent events at our sacred temple\\nand a subsequent influx of uninvited\\lguests now threaten to disrupt the\\lcareful balance we have long\\lprotected.",
+  "msgstr": "MIHARU: Bienvenue à NOUVEAU SINJOH,\\n{PLAYER}.\\pDepuis des générations, ce village\\ncohabite en paix avec des Pokémon\\limmensément puissants, à l’abri\\ldes regards indiscrets.\\pLes récents événements survenus\\nà notre temple sacré, et l’afflux\\ld’hôtes indésirables qui a suivi,\\lmenacent l’équilibre fragile que\\lnous protégeons depuis longtemps.",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "typographie",
+  "probleme": "L’adjectif et le nom de la région sont tout en capitales. Une virgule sépare deux compléments coordonnés.",
+  "correction": "SHIZUKO: Nos cousines de Rosalia\\nnous ont parlé de votre lien\\lavec les Pokémon légendaires\\lde Johto et de votre talent\\lau combat.\\pNous pensons que vous pouvez nous\\naider en ces temps difficiles.",
+  "justification": "« Johto » suit la casse des noms de lieux. Les compléments « de votre lien » et « de votre talent » sont simplement coordonnés.",
+  "msgid": "SHIZUKO: Our cousins in ECRUTEAK\\nCITY made us aware of your\\lconnection to the LEGENDARY POKéMON\\lof the JOHTO REGION, and your\\lprowess as a trainer.\\pWe believe you can help us in these\\ntrying times.",
+  "msgstr": "SHIZUKO: Nos cousines de Rosalia\\nnous ont parlé de votre lien\\lavec les Pokémon LEGENDAIRES\\lde JOHTO, et de votre talent\\lau combat.\\pNous pensons que vous pouvez nous\\naider en ces temps difficiles.",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "terminologie",
+  "probleme": "Les noms des lieux sont tout en capitales.",
+  "correction": "YOUKO: Rendez-vous aux Ruines\\nSinjoh, au nord de la Route 50.\\pRencontrez les scientifiques qui\\ns’y trouvent et enquêtez sur ce\\lqui a provoqué leur venue.\\pIl est impératif que les Pokémon\\nlégendaires de ce lieu ne soient\\lpas dérangés par des indignes.",
+  "justification": "« Ruines Sinjoh » est la graphie officielle de SoulSilver FR. « Route 50 » suit la graphie « Route 2 » et « Route 5 » du lexique.",
+  "msgid": "YOUKO: Go to the SINJOH RUINS, to\\nthe north of ROUTE 50.\\pMeet with the scientists there, and\\ninvestigate the events that invoked\\ltheir presence.\\pIt is imperative that the LEGENDARY\\nPOKéMON there are not disturbed\\lby the unworthy.",
+  "msgstr": "YOUKO: Rendez-vous aux RUINES\\nSINJOH, au nord de la ROUTE 50.\\pRencontrez les scientifiques qui\\ns’y trouvent, et enquêtez sur ce\\lqui a provoqué leur venue.\\pIl est impératif que les Pokémon\\nLEGENDAIRES de ce lieu ne soient\\lpas dérangés par des indignes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "typographie",
+  "probleme": "Il manque la majuscule à « Dresseurs » et « Sinjoh » est tout en capitales.",
+  "correction": "SHIZUKO: Rares sont les Dresseurs,\\ndans la longue histoire de Sinjoh,\\là avoir accompli un tel exploit.\\pTrès impressionnant, {PLAYER}.",
+  "justification": "Ces graphies suivent les conventions du projet pour « Dresseur » et les noms de lieux.",
+  "msgid": "SHIZUKO: Few trainers in all\\nof SINJOH's storied history have\\lmanaged what you've just done.\\pQuite impressive, {PLAYER}.",
+  "msgstr": "SHIZUKO: Rares sont les dresseurs,\\ndans la longue histoire de SINJOH,\\là avoir accompli un tel exploit.\\pTrès impressionnant, {PLAYER}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "typographie",
+  "probleme": "Il manque la majuscule à « Dresseur ».",
+  "correction": "Les KIMONOS veillent sur notre\\nvillage depuis sa fondation.\\pElles ont beaucoup sacrifié.\\pBénies par les Dieux eux-mêmes,\\nelles ont des pouvoirs qui dépassent\\lceux de tout Dresseur ordinaire!\\pAutrement dit, sois prêt si tu\\ndois un jour les affronter, petit.",
+  "justification": "Le projet prescrit la graphie « Dresseur ».",
+  "msgid": "The KIMONO GIRLS have watched\\nover our village since its founding.\\pThey have sacrificed much.\\pBlessed by the Gods themselves,\\nthey have powers beyond that\\lof any normal trainer!\\pThat is to say, be prepared\\nif you ever fight them, young one.",
+  "msgstr": "Les KIMONOS veillent sur notre\\nvillage depuis sa fondation.\\pElles ont beaucoup sacrifié.\\pBénies par les Dieux eux-mêmes,\\nelles ont des pouvoirs qui dépassent\\lceux de tout dresseur ordinaire!\\pAutrement dit, sois prêt si tu\\ndois un jour les affronter, petit.",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "contresens",
+  "probleme": "« Qui es-tu? » interroge le joueur sur son identité.",
+  "correction": "Tu as battu les champions de\\nnotre village.\\pQu’est-ce que ça fait de toi,\\njeune pousse?",
+  "justification": "Le personnage demande ce que cette victoire fait du joueur, puisqu’il a battu les champions du village.",
+  "msgid": "You have bested the champions of\\nour village.\\pWhat does that make you, young one?",
+  "msgstr": "Tu as battu les champions de\\nnotre village.\\pMais qui es-tu, jeune pousse?",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’objet est entièrement en capitales.",
+  "correction": "Waouh! Tu m’as fait peur!\\pAvec mes Lunettes Noires, je ne\\nt’avais pas vu du tout.\\pCe que je fais ici?\\pHé, ne t’occupe pas de ça.\\pJe te file des Lunettes Noires,\\nalors oublie que tu m’as vu.\\lOK?",
+  "justification": "La graphie « Lunettes Noires », nom de l’objet dans SoulSilver FR, suit la règle des majuscules initiales.",
+  "msgid": "Whoa! You startled me there!\\pI had my BLACK-GLASSES on, so I\\ndidn't notice you at all.\\pWhat am I doing here?\\pHey, don't you worry about it.\\pI'll give you a pair of BLACK-\\nGLASSES, so forget you saw me,\\nOK?",
+  "msgstr": "Waouh! Tu m’as fait peur!\\pAvec mes LUNETTES NOIRES, je ne\\nt’avais pas vu du tout.\\pCe que je fais ici?\\pHé, ne t’occupe pas de ça.\\pJe te file des LUNETTES NOIRES,\\nalors oublie que tu m’as vu.\\lOK?",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "registre",
+  "probleme": "Le président du Fan Club vouvoie ici le joueur alors qu’il le tutoie dans les autres branches du dialogue.",
+  "correction": "Quel dommage…\\pReviens si tu veux écouter.",
+  "justification": "Le tutoiement correspond aux répliques où il raconte son histoire et remercie le joueur.",
+  "msgid": "How disappointing…\\pCome back if you want to listen.",
+  "msgstr": "Quel dommage…\\pRevenez si vous voulez écouter.",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "oubli",
+  "probleme": "Le personnage ne dit plus qu’il se liera d’amitié avec un MELOFEE par ses propres moyens.",
+  "correction": "Oh, je comprends. La fillette qui a\\nperdu cette Poképoupée est triste…\\pD’accord. Tu peux rendre cette\\nPoképoupée à la pauvre petite?\\pJe me ferai tout seul un vrai\\nMELOFEE comme ami. T’inquiète!",
+  "justification": "« Tout seul » restitue « on my own ». Le nom de l’objet suit la graphie du lexique aux deux occurrences.",
+  "msgid": "Oh, I see now. The girl who lost\\nthis POKé DOLL is sad…\\pOK. Could you take this POKé DOLL\\nback to that poor little girl?\\pI'll befriend a real CLEFAIRY on\\nmy own one day. No worries!",
+  "msgstr": "Oh, je comprends. La fillette qui a\\nperdu cette Poképoupée est triste…\\pD’accord. Tu peux rendre cette\\nPOKéPOUPEE à la pauvre petite?\\pUn jour, je me ferai un vrai\\nMELOFEE comme ami. T’inquiète!",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "typographie",
+  "probleme": "La seconde occurrence de « Pokémon » est écrite « POKéMON ».",
+  "correction": "Hélas…\\pVous n’avez pas les trois Pokémon\\nrequis pour ce défi.\\pPour participer, il vous faut trois\\nPokémon d’espèces différentes.\\pIls doivent tous être de niveau\\n50 ou moins.\\pIls ne doivent pas non plus tenir\\nle même type d’objet.\\pLes Œufs{STR_VAR_1}.",
+  "justification": "Le projet prescrit la graphie « Pokémon ».",
+  "msgid": "Sigh…\\pYou do not have the three POKéMON\\nrequired for the challenge.\\pTo enter, you must provide three\\ndifferent kinds of POKéMON.\\pThese POKéMON must all be of\\nLevel 50 or lower.\\pThey also must not be holding\\nthe same kinds of items.\\pEGGS{STR_VAR_1}.",
+  "msgstr": "Hélas…\\pVous n’avez pas les trois Pokémon\\nrequis pour ce défi.\\pPour participer, il vous faut trois\\nPOKéMON d’espèces différentes.\\pIls doivent tous être de niveau\\n50 ou moins.\\pIls ne doivent pas non plus tenir\\nle même type d’objet.\\pLes Œufs{STR_VAR_1}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "typographie",
+  "probleme": "La seconde occurrence de « Pokémon » est écrite « POKéMON ».",
+  "correction": "Hélas…\\pVous n’avez pas les trois Pokémon\\nrequis pour ce défi.\\pPour participer, il vous faut trois\\nPokémon d’espèces différentes.\\pIls ne doivent pas non plus tenir\\nle même type d’objet.\\pLes Œufs{STR_VAR_1}.",
+  "justification": "Le projet prescrit la graphie « Pokémon ».",
+  "msgid": "Sigh…\\pYou do not have the three POKéMON\\nrequired for the challenge.\\pTo enter, you must provide three\\ndifferent kinds of POKéMON.\\pThey also must not be holding\\nthe same kinds of items.\\pEGGS{STR_VAR_1}.",
+  "msgstr": "Hélas…\\pVous n’avez pas les trois Pokémon\\nrequis pour ce défi.\\pPour participer, il vous faut trois\\nPOKéMON d’espèces différentes.\\pIls ne doivent pas non plus tenir\\nle même type d’objet.\\pLes Œufs{STR_VAR_1}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "terminologie",
+  "probleme": "« Points Combat » omet la préposition de l’appellation officielle.",
+  "correction": "Pour vos 7 victoires d’affilée,\\nvoici vos Points de Combat.",
+  "justification": "La récompense de la Zone de Combat s’appelle « Points de Combat » dans Pokémon Émeraude FR.",
+  "msgid": "For the feat of your 7-win streak,\\nwe present you with Battle Point(s).",
+  "msgstr": "Pour saluer vos 7 victoires d’affilée,\\nvoici vos Points Combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "terminologie",
+  "probleme": "« En ALOLA » diverge de l’usage officiel « à Alola ».",
+  "correction": "Les Malasadas d’ici sont un délice.\\nComme les vraies à Alola!",
+  "justification": "La présentation officielle du jeu emploie « à Alola ». [Pokémon Soleil et Pokémon Lune](https://www.pokemon.com/fr/jeux-video-pokemon/pokemon-soleil-et-pokemon-lune)",
+  "msgid": "The MALASADAS here are delicious.\\nJust like the real ones in ALOLA!",
+  "msgstr": "Les MALASADAS d’ici sont délicieuses.\\nComme les vraies, en ALOLA!",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "orthographe",
+  "probleme": "« Il fait plus ensoleillé » est mal construit et la phrase est trop longue pour une seule ligne.",
+  "correction": "Je cherche de la crème solaire!\\pIl y a plus de soleil,\\nici sur les Iles!",
+  "justification": "« Il y a plus de soleil » rétablit une construction correcte. Le saut de ligne permet de conserver le lieu.",
+  "msgid": "I'm looking for some sunscreen!\\pIt's sunnier here on the ISLES!",
+  "msgstr": "Je cherche de la crème solaire!\\pIl fait plus ensoleillé, ici, sur les ILES!",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "typographie",
+  "probleme": "Le nom de Fuji et celui du lieu sont entièrement en capitales dans le dialogue.",
+  "correction": "M. Fuji habite bien ici, mais il\\nest absent. Il doit être à la\\lMaison des Ames.",
+  "justification": "Le nom du personnage et celui du lieu suivent la casse prescrite, avec une majuscule non accentuée à « Ames ».",
+  "msgid": "MR. FUJI does live here but he's\\naway now. He should be at the\\lSOUL HOUSE.",
+  "msgstr": "M. FUJI habite bien ici, mais il\\nest absent. Il doit être à la\\lMAISON DES AMES.",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "typographie",
+  "probleme": "« dresseur » et « POKéMON » dérogent aux graphies du projet.",
+  "correction": "J’ai perdu contre un Dresseur\\nnommé {RIVAL}.\\pIl était vraiment fort, mais…\\pC’était comme s’il devait gagner\\nà tout prix.\\pJ’ai eu de la peine pour ses\\nPokémon.",
+  "justification": "Le projet prescrit les graphies « Dresseur » et « Pokémon ».",
+  "msgid": "I lost to a trainer named {RIVAL}.\\pHe was really strong, but…\\pIt was as if he absolutely had to\\nwin at any cost.\\pI felt sorry for his POKéMON.",
+  "msgstr": "J’ai perdu contre un dresseur\\nnommé {RIVAL}.\\pIl était vraiment fort, mais…\\pC’était comme s’il devait gagner\\nà tout prix.\\pJ’ai eu de la peine pour ses\\nPOKéMON.",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "typographie",
+  "probleme": "Il manque la majuscule à « Dresseur ».",
+  "correction": "J’ai perdu contre un Dresseur\\nnommé {RIVAL}.\\pMais je ne perdrai pas contre toi!",
+  "justification": "Le projet prescrit la graphie « Dresseur ».",
+  "msgid": "I lost to a trainer named {RIVAL}.\\pBut I won't lose to you!",
+  "msgstr": "J’ai perdu contre un dresseur\\nnommé {RIVAL}.\\pMais je ne perdrai pas contre toi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "typographie",
+  "probleme": "« POKéMON » ne suit pas la casse demandée.",
+  "correction": "Tu t’inquiètes vraiment pour le\\nPokémon malade…",
+  "justification": "Le projet prescrit la graphie « Pokémon ».",
+  "msgid": "You really are concerned about\\nthe sick POKéMON…",
+  "msgstr": "Tu t’inquiètes vraiment pour le\\nPOKéMON malade…",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "typographie",
+  "probleme": "« IRISIA » est entièrement en capitales.",
+  "correction": "Mes Pokémon ont appris Vol à\\nIrisia.\\pBon, puisque j’ai perdu, je vais\\nm’envoler par-delà la mer…",
+  "justification": "« Irisia », le nom français de la ville dans SoulSilver, suit la casse prescrite pour les lieux.",
+  "msgid": "My POKéMON learned how to use FLY in\\nCIANWOOD.\\pWell, since I'm a loser, I'll FLY\\nacross the sea…",
+  "msgstr": "Mes Pokémon ont appris Vol à\\nIRISIA.\\pBon, puisque j’ai perdu, je vais\\nm’envoler par-delà la mer…",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "terminologie",
+  "probleme": "« AMPHY » conserve le surnom anglais du Pokémon de Jasmine.",
+  "correction": "Il y a une excellente pharmacie\\nà Irisia…\\pMais c’est par-delà la mer…\\nEt je ne peux pas laisser Phary\\lseul…\\p…Pourrais-tu aller me chercher\\nun médicament? S’il te plaît?",
+  "justification": "Le Pharamp du Phare s’appelle « Phary » dans SoulSilver FR. [Johto en vedette](https://www.pokemon.com/fr/articles/souvenirs-dune-region-johto-en-vedette)",
+  "msgid": "There is a wonderful PHARMACY\\nin CIANWOOD…\\pBut that's across the sea…\\nAnd I can't leave AMPHY unattended…\\p…May I ask you to get some medicine\\nfor me? Please?",
+  "msgstr": "Il y a une excellente PHARMACIE\\nà Irisia…\\pMais c’est par-delà la mer…\\nEt je ne peux pas laisser AMPHY\\lseul…\\p…Pourrais-tu aller me chercher\\nun médicament? S’il te plaît?",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "oubli",
+  "probleme": "La vantardise ne conserve que « strongest ».",
+  "correction": "Attends.\\p…Tu comptes te lancer dans le\\ndéfi de la Ligue Pokémon?\\p…Laisse-moi rire.\\pTu es bien plus faible que moi.\\pJe ne suis plus celui que j’étais.\\pJ’ai les meilleurs Pokémon,\\nles plus forts qui soient.\\pJe suis invincible!\\p{PLAYER}!\\nJe te défie!",
+  "justification": "Le rival se vante d’avoir à la fois les meilleurs Pokémon et les plus forts.",
+  "msgid": "Hold it.\\p…Are you going to take the POKéMON\\nLEAGUE challenge?\\p…Don't make me laugh.\\pYou're so much weaker than I am.\\pI'm not like I was before.\\pI now have the best and strongest\\nPOKéMON with me.\\pI'm invincible!\\p{PLAYER}!\\nI challenge you!",
+  "msgstr": "Attends.\\p…Tu comptes te lancer dans le\\ndéfi de la Ligue Pokémon?\\p…Laisse-moi rire.\\pTu es bien plus faible que moi.\\pJe ne suis plus celui que j’étais.\\pJ’ai maintenant les Pokémon les\\nplus forts qui soient.\\pJe suis invincible!\\p{PLAYER}!\\nJe te défie!",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "typographie",
+  "probleme": "Les deux noms de régions sont entièrement en capitales.",
+  "correction": "Tu viens de Johto, pas vrai?\\pComment tu trouves Kanto?\\nC’est sympa, hein?",
+  "justification": "Les noms de lieux prennent des majuscules initiales.",
+  "msgid": "You're from JOHTO, aren't you?\\pHow do you like KANTO?\\nIt's nice, don't you agree?",
+  "msgstr": "Tu viens de JOHTO, pas vrai?\\pComment tu trouves KANTO?\\nC’est sympa, hein?",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "typographie",
+  "probleme": "« DE JOHTO » est entièrement en capitales dans le titre.",
+  "correction": "Waouh, tu es le Maître de Johto,\\nmaintenant!\\pTon talent est vraiment\\nimpressionnant!\\pJ’ai été très pris par mes\\nrecherches.\\pJe suis prêt à te montrer mes\\nnouvelles découvertes.\\pOn refait un combat?",
+  "justification": "Le lexique donne « Maître » et la casse du nom de région est « Johto ».",
+  "msgid": "Wow, you're the JOHTO CHAMPION\\nnow!\\pYour skills are truly impressive!\\pI've been busy with my research.\\pI'm ready to show you my new\\nfindings.\\pWant to have a rematch with me?",
+  "msgstr": "Waouh, tu es le Maître DE JOHTO,\\nmaintenant!\\pTon talent est vraiment\\nimpressionnant!\\pJ’ai été très pris par mes\\nrecherches.\\pJe suis prêt à te montrer mes\\nnouvelles découvertes.\\pOn refait un combat?",
+  "msgctxt": ""
+ },
+ {
+  "id": 87,
+  "categorie": "oubli",
+  "probleme": "Le talent évoqué dans la traduction n’est plus rattaché au rôle de Dresseur.",
+  "correction": "Waouh, tu dois être un\\nDresseur chevronné.\\pMes recherches ne doivent pas\\nêtre complètes…",
+  "justification": "« Expert trainer » désigne explicitement un Dresseur expérimenté.",
+  "msgid": "Wow, you must be an expert\\ntrainer.\\pMy research must not be\\ncomplete…",
+  "msgstr": "Waouh, tu dois avoir un sacré\\ntalent.\\pMes recherches ne doivent pas\\nêtre complètes…",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "typographie",
+  "probleme": "« DE JOHTO » est entièrement en capitales dans le titre.",
+  "correction": "Salut! C’est toi!\\pWaouh, Maître de Johto,\\nmaintenant?\\pT’es vraiment incroyable!\\pJe veux voir à quel point tu es\\nfort.\\pOn refait un combat?",
+  "justification": "Le lexique donne « Maître » et la casse du nom de région est « Johto ».",
+  "msgid": "Hi! It's you!\\pWow, JOHTO CHAMPION now?\\pYou really are amazing!\\pI want to see how strong you are.\\pWant to have a rematch with me?",
+  "msgstr": "Salut! C’est toi!\\pWaouh, Maître DE JOHTO,\\nmaintenant?\\pT’es vraiment incroyable!\\pJe veux voir à quel point tu es\\nfort.\\pOn refait un combat?",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "typographie",
+  "probleme": "« DE JOHTO » et « POKéMON » dérogent à la casse du projet.",
+  "correction": "Ah, le Maître de Johto! Merci de\\nta visite.\\pTu as montré ta force et ton\\ntalent, mais as-tu progressé\\ldepuis notre dernier combat?\\pJe me suis entraîné avec mes\\nPokémon Spectre.\\pVoyons si tu sauras encore vaincre\\nles ténèbres.\\pOn refait un combat?",
+  "justification": "Les graphies prescrites sont « Johto » et « Pokémon ».",
+  "msgid": "Ah, the JOHTO CHAMPION! Good of\\nyou to come.\\pYou've shown your strength and\\nskill, but have you improved\\lsince our last battle?\\pI've been training with my\\nGHOST-type POKéMON.\\pLet's see if you can overcome\\nthe shadows once again.\\pWant to have a rematch with me?",
+  "msgstr": "Ah, le Maître DE JOHTO! Merci de\\nta visite.\\pTu as montré ta force et ton\\ntalent, mais as-tu progressé\\ldepuis notre dernier combat?\\pJe me suis entraîné avec mes\\nPOKéMON Spectre.\\pVoyons si tu sauras encore vaincre\\nles ténèbres.\\pOn refait un combat?",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "typographie",
+  "probleme": "« DE JOHTO » est entièrement en capitales dans le titre.",
+  "correction": "WAHAHAH! Le Maître de Johto!\\pTu reviens pour en reprendre!\\pJe vois que tu as progressé!\\pPrêt à voir qui est le plus fort?",
+  "justification": "Le lexique donne « Maître » et la casse du nom de région est « Johto ».",
+  "msgid": "WAHAHAH! JOHTO CHAMPION!\\pYou've come back for more!\\pI see your skills have improved!\\pReady to see who's stronger?",
+  "msgstr": "WAHAHAH! Le Maître DE JOHTO!\\pTu reviens pour en reprendre!\\pJe vois que tu as progressé!\\pPrêt à voir qui est le plus fort?",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "typographie",
+  "probleme": "« DE JOHTO » est entièrement en capitales dans le titre.",
+  "correction": "…Félicitations, Maître de Johto.\\pQuelle force tu as acquise…\\pJe me demande si j’ai progressé.\\pTu veux bien le vérifier?\\pOn refait un combat?",
+  "justification": "Le lexique donne « Maître » et la casse du nom de région est « Johto ».",
+  "msgid": "…Congratulations, JOHTO\\nCHAMPION.\\pYou have become so strong…\\pI wonder if I have improved.\\pWould you like to test that?\\pWant to have a rematch with me?",
+  "msgstr": "…Félicitations, Maître DE JOHTO.\\pQuelle force tu as acquise…\\pJe me demande si j’ai progressé.\\pTu veux bien le vérifier?\\pOn refait un combat?",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "typographie",
+  "probleme": "« DE JOHTO » est entièrement en capitales et la ligne « j’ai encore quelques tours en réserve » dépasse la longueur indicative.",
+  "correction": "Ah, le Maître de Johto!\\pTon talent est vraiment\\nremarquable.\\pJe suis impressionné.\\pMais même maintenant, nous avons\\nencore à apprendre l’un de l’autre.\\pMoi, Frédo, le Dresseur de l’hiver,\\pj’ai encore des tours en réserve.\\pOn refait un combat?",
+  "justification": "« Johto » prend une majuscule initiale. Le raccourci garde l’idée que Frédo a encore des tours à jouer.",
+  "msgid": "Ah, JOHTO CHAMPION!\\pYour skills are indeed\\nremarkable.\\pI am impressed.\\pBut even now, there is much to\\nlearn from each other.\\pI, PRYCE--the winter trainer--\\pstill have a few tricks left.\\pWant to have a rematch with me?",
+  "msgstr": "Ah, le Maître DE JOHTO!\\pTon talent est vraiment\\nremarquable.\\pJe suis impressionné.\\pMais même maintenant, nous avons\\nencore à apprendre l’un de l’autre.\\pMoi, Frédo, le Dresseur de l’hiver,\\pj’ai encore quelques tours en réserve.\\pOn refait un combat?",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "typographie",
+  "probleme": "« DE JOHTO » est entièrement en capitales dans le titre.",
+  "correction": "Alors, tu as réussi?\\pTe voilà Maître de Johto.\\pTu as prouvé ta force, mais\\npourras-tu encore me battre?\\pEn tant que Maître des Dragons,\\nje ne vais pas me retenir.\\pPas cette fois.\\pOn refait un combat?",
+  "justification": "Le lexique donne « Maître » et la casse du nom de région est « Johto ».",
+  "msgid": "You did it, huh?\\pYou are now the JOHTO CHAMP.\\pYou've proven your strength but\\ncan you handle me again?\\pAs a Dragon Master, I won't hold\\nback.\\pNot this time.\\pWant to have a rematch with me?",
+  "msgstr": "Alors, tu as réussi?\\pTe voilà Maître DE JOHTO.\\pTu as prouvé ta force, mais\\npourras-tu encore me battre?\\pEn tant que Maître des Dragons,\\nje ne vais pas me retenir.\\pPas cette fois.\\pOn refait un combat?",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "typographie",
+  "probleme": "« DE KANTO » est entièrement en capitales dans le titre.",
+  "correction": "Pierre: Salut, {PLAYER}!\\pIl paraît que tu es devenu Maître\\nde Kanto.\\pC’est incroyable!\\pTu dois être encore plus fort,\\nmaintenant.\\pOn refait un combat?",
+  "justification": "Le lexique donne « Maître » et la casse du nom de région est « Kanto ».",
+  "msgid": "BROCK: Hey there, {PLAYER}!\\pI heard you are now the KANTO\\nCHAMPION.\\pThat's incredible!\\pYou must be even stronger now.\\pWant to have a rematch with me?",
+  "msgstr": "Pierre: Salut, {PLAYER}!\\pIl paraît que tu es devenu Maître\\nDE KANTO.\\pC’est incroyable!\\pTu dois être encore plus fort,\\nmaintenant.\\pOn refait un combat?",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "typographie",
+  "probleme": "« DE KANTO » est entièrement en capitales dans le titre.",
+  "correction": "Ondine: Waouh, tu es Maître de\\nKanto, maintenant!\\pC’est génial! Tu en as fait du\\nchemin, {PLAYER}.\\pMais je ne vais pas me défiler.\\pOn refait un combat?",
+  "justification": "Le lexique donne « Maître » et la casse du nom de région est « Kanto ».",
+  "msgid": "MISTY: Wow, you're the KANTO\\nCHAMPION now!\\pThat's amazing! You've come a\\nlong way, {PLAYER}.\\pBut I'm not backing down.\\pWant to have a rematch with me?",
+  "msgstr": "Ondine: Waouh, tu es Maître DE\\nKANTO, maintenant!\\pC’est génial! Tu en as fait du\\nchemin, {PLAYER}.\\pMais je ne vais pas me défiler.\\pOn refait un combat?",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "typographie",
+  "probleme": "« DE KANTO » est entièrement en capitales dans le titre.",
+  "correction": "BOB: Alors, te voilà Maître de\\nKanto!\\pBravo, recrue! Mais crois pas\\nque j’ai dit mon dernier mot!\\pOn remet ça?",
+  "justification": "Le lexique donne « Maître » et la casse du nom de région est « Kanto ».",
+  "msgid": "SURGE: So, you're now KANTO\\nCHAMPION!\\pImpressive work, kid! But don't\\nthink I'm done!\\pHow about we have a go again?",
+  "msgstr": "BOB: Alors, te voilà Maître DE\\nKANTO!\\pBravo, recrue! Mais crois pas\\nque j’ai dit mon dernier mot!\\pOn remet ça?",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "typographie",
+  "probleme": "« MAITRES » diverge de la casse du titre employé dans la même réplique.",
+  "correction": "Erika: Oh, bonjour.\\pQuelle surprise, Maître!\\pC’est un tel plaisir de vous revoir.\\pVotre voyage a dû être si\\npassionnant.\\pMême les Maîtres aiment les défis.\\pVoulez-vous un nouveau combat?",
+  "justification": "Le titre « Maître » prend la même casse au singulier et au pluriel.",
+  "msgid": "ERIKA: Oh, hello.\\pWhat a surprise, CHAMPION!\\pIt's so lovely to see you again.\\pYour journey must have been so\\nexciting.\\pEven champions enjoy a challenge.\\pWant to have a rematch with me?",
+  "msgstr": "Erika: Oh, bonjour.\\pQuelle surprise, Maître!\\pC’est un tel plaisir de vous revoir.\\pVotre voyage a dû être si\\npassionnant.\\pMême les MAITRES aiment les défis.\\pVoulez-vous un nouveau combat?",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "typographie",
+  "probleme": "« KANTO » est entièrement en capitales.",
+  "correction": "Auguste: Ouaaah!\\pTe voilà Maître de Kanto, à ce\\nque je vois!\\pÇa, c’est du feu de dieu!\\pTon talent est de premier ordre.\\pMoi, je suis toujours chaud pour\\nun combat.\\pOn remet ça?",
+  "justification": "« Kanto » prend une majuscule initiale conformément à la convention sur les lieux.",
+  "msgid": "BLAINE: Whoa!\\pI see you've become the KANTO\\nCHAMPION!\\pThat's blazing!\\pYour skills are top-notch.\\pI'm always up for a battle.\\pWant to have a rematch with me?",
+  "msgstr": "Auguste: Ouaaah!\\pTe voilà Maître de KANTO, à ce\\nque je vois!\\pÇa, c’est du feu de dieu!\\pTon talent est de premier ordre.\\pMoi, je suis toujours chaud pour\\nun combat.\\pOn remet ça?",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce « Leveinard » n’est pas entièrement en capitales.",
+  "correction": "LEVEINARD: Vénar! Vénar!",
+  "justification": "Le lexique donne « LEVEINARD » et le projet réserve les capitales aux noms d’espèces dans ces répliques.",
+  "msgid": "CHANSEY: Chaan! Sii!",
+  "msgstr": "Leveinard: Vénar! Vénar!",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "oubli",
+  "probleme": "Orme demande au joueur de passer au labo sans lui dire d’y apporter le Pokémon éclos.",
+  "correction": "Prof. Orme: Allô, {PLAYER}?\\nL’OEUF a-t-il éclos?\\pUne fois l’œuf éclos, n’oublie pas\\nd’amener le Pokémon au labo!\\lIl faut que je le voie!",
+  "justification": "« Bring it by the lab » demande d’amener au laboratoire le Pokémon issu de l’œuf.",
+  "msgid": "PROF.ELM: Hello, {PLAYER}?\\nHas that EGG hatched yet?\\pOnce it hatches, don't forget to\\nbring it by the lab! I need to\\lsee it!",
+  "msgstr": "Prof. Orme: Allô, {PLAYER}?\\nL’OEUF a-t-il éclos?\\pQuand il aura éclos, n’oublie pas\\nde passer au labo! Je dois\\lvoir ça!",
+  "msgctxt": ""
+ }
+]

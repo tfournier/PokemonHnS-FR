@@ -1,0 +1,272 @@
+[
+ {
+  "id": 3,
+  "categorie": "contresens",
+  "probleme": "La formulation peut faire croire que la Défense et la Défense Spéciale sont moyennées entre elles.",
+  "correction": "Equilibre Défense et Déf. Spé.\\nentre le lanceur et l’ennemi.",
+  "justification": "Chaque statistique est équilibrée séparément entre les deux Pokémon.",
+  "msgid": "Averages changes to Defense\\nand Sp. Def with the foe.",
+  "msgstr": "Fait la moyenne de Défense\\net Déf. Spé. avec l’ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "typographie",
+  "probleme": "La casse est incohérente au sein du nom.",
+  "correction": "PARTAGE FORCE",
+  "justification": "La correction uniformise la casse du libellé.",
+  "msgid": "POWER SPLIT",
+  "msgstr": "PARTAGE Force",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "contresens",
+  "probleme": "La formulation peut faire croire que l’Attaque et l’Attaque Spéciale sont moyennées entre elles.",
+  "correction": "Equilibre Attaque et Atq. Spé.\\nentre le lanceur et l’ennemi.",
+  "justification": "Chaque statistique est équilibrée séparément entre les deux Pokémon.",
+  "msgid": "Averages changes to Attack\\nand Sp. Atk with the foe.",
+  "msgstr": "Fait la moyenne d’Attaque\\net Atq. Spé. avec l’ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "typographie",
+  "probleme": "La casse est incohérente au sein du nom.",
+  "correction": "CHOC PSY",
+  "justification": "La correction uniformise la casse du libellé.",
+  "msgid": "PSYSHOCK",
+  "msgstr": "CHOC Psy",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "oubli",
+  "probleme": "La dispersion de la poudre et le ciblage exclusif du lanceur sont omis.",
+  "correction": "Répand une poudre. Les ennemis\\nn’attaquent que le lanceur.",
+  "justification": "L’anglais précise à la fois l’action et l’obligation pour les ennemis de viser uniquement le lanceur.",
+  "msgid": "Scatters powder to make\\nfoes attack only the user.",
+  "msgstr": "Une poudre irritante: les\\nennemis visent le lanceur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "orthographe",
+  "probleme": "Il manque les déterminants devant les trois statistiques.",
+  "correction": "Danse qui augmente la Vitesse,\\nl’Atq. Spé. et la Déf. Spé.",
+  "justification": "Chaque statistique est le complément du verbe « augmente » et prend ici un article défini.",
+  "msgid": "Dances to raise Sp. Atk\\nSp. Def and Speed.",
+  "msgstr": "Danse augmentant Vitesse,\\nAtq. Spé. et Déf. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "oubli",
+  "probleme": "Le lancer de la boule est omis.",
+  "correction": "Lance une boule électrique.\\nPlus de dégâts aux ennemis lents.",
+  "justification": "« Hurls » indique que le lanceur projette la boule.",
+  "msgid": "Hurls an orb that does more\\ndamage to slower foes.",
+  "msgstr": "Une boule électrique faisant\\nplus mal aux ennemis lents.",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "orthographe",
+  "probleme": "« Le change en type Eau » présente le type comme ce en quoi le Pokémon est transformé.",
+  "correction": "Arrose l’ennemi et lui donne\\nle type Eau.",
+  "justification": "Le type Eau est attribué au Pokémon.",
+  "msgid": "Sprays water at the foe,\\nchanging it to Water type.",
+  "msgstr": "Arrose l’ennemi et le change\\nen type Eau.",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "contresens",
+  "probleme": "« Une charge enflammée » ajoute une charge et omet que le lanceur est enveloppé de flammes.",
+  "correction": "Attaque enveloppé de flammes.\\nAugmente la Vitesse.",
+  "justification": "« In a cloak of flames » décrit les flammes qui entourent le lanceur pendant l’attaque.",
+  "msgid": "Attacks in a cloak of\\nflames. Raises Speed.",
+  "msgstr": "Une charge enflammée.\\nAugmente la Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "orthographe",
+  "probleme": "Il manque les déterminants devant les trois statistiques.",
+  "correction": "S’enroule pour monter l’Attaque,\\nla Défense et la Précision.",
+  "justification": "Les trois noms de statistiques prennent ici l’article défini.",
+  "msgid": "Coils up to raise Attack,\\nDefense and Accuracy.",
+  "msgstr": "S’enroule pour monter Attaque,\\nDéfense et Précision.",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "typographie",
+  "probleme": "La casse est incohérente au sein du nom.",
+  "correction": "BOMBE ACIDE",
+  "justification": "La correction uniformise la casse du libellé.",
+  "msgid": "ACID SPRAY",
+  "msgstr": "BOMBE Acide",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "oubli",
+  "probleme": "La projection de l’acide et son effet sur la peau sont omis.",
+  "correction": "Projette un acide corrosif\\npour la peau. Réduit fort la DS.",
+  "justification": "L’anglais précise que l’acide est projeté et attaque la peau. DS est l’abréviation prévue pour la Défense Spéciale.",
+  "msgid": "Sprays a hide-melting acid.\\nSharply reduces Sp. Def.",
+  "msgstr": "Un acide qui fait fondre.\\nBaisse beaucoup la Déf. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "typographie",
+  "probleme": "La casse est incohérente au sein du nom.",
+  "correction": "RAYON SIMPLE",
+  "justification": "La correction uniformise la casse du libellé.",
+  "msgid": "SIMPLE BEAM",
+  "msgstr": "RAYON Simple",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "typographie",
+  "probleme": "La casse est incohérente au sein du nom.",
+  "correction": "CHANT CANON",
+  "justification": "La correction uniformise la casse du libellé.",
+  "msgid": "ROUND",
+  "msgstr": "CHANT Canon",
+  "msgctxt": ""
+ },
+ {
+  "id": 58,
+  "categorie": "typographie",
+  "probleme": "La casse est incohérente au sein du nom.",
+  "correction": "FORCE AJOUTEE",
+  "justification": "La correction uniformise la casse du libellé.",
+  "msgid": "STORED POWER",
+  "msgstr": "Force AJOUTEE",
+  "msgctxt": ""
+ },
+ {
+  "id": 59,
+  "categorie": "oubli",
+  "probleme": "La traduction indique une simple condition et perd la progression des dégâts.",
+  "correction": "Plus les stats sont boostées,\\nplus l’attaque fait de dégâts.",
+  "justification": "La construction comparative anglaise indique que les dégâts augmentent avec l’ampleur des hausses de statistiques.",
+  "msgid": "The higher the user's stats\\nthe more damage caused.",
+  "msgstr": "Plus puissant si les stats\\ndu lanceur ont augmenté.",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "typographie",
+  "probleme": "La casse est incohérente au sein du nom.",
+  "correction": "VIBRA SOIN",
+  "justification": "La correction uniformise la casse du libellé.",
+  "msgid": "HEAL PULSE",
+  "msgstr": "VIBRA Soin",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "orthographe",
+  "probleme": "Il manque les déterminants devant « Attaque » et « Vitesse ».",
+  "correction": "Tourne ses engrenages pour\\nmonter l’Attaque et la Vitesse.",
+  "justification": "Les deux noms de statistiques prennent ici l’article défini.",
+  "msgid": "Rotates its gears to raise\\nAttack and Speed.",
+  "msgstr": "Tourne ses engrenages pour\\nmonter Attaque et Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "typographie",
+  "probleme": "La casse est incohérente au sein du nom.",
+  "correction": "FEU D’ENFER",
+  "justification": "La correction uniformise la casse du libellé.",
+  "msgid": "INFERNO",
+  "msgstr": "Feu D’ENFER",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "orthographe",
+  "probleme": "« Puissant et brûle » coordonne un adjectif et un verbe sans construction commune.",
+  "correction": "Puissant mais peu précis.\\nBrûle à coup sûr s’il touche.",
+  "justification": "La correction rétablit une construction grammaticale et conserve la brûlure garantie lorsque l’attaque touche.",
+  "msgid": "Powerful and sure to inflict\\na burn, but inaccurate.",
+  "msgstr": "Puissant et brûle à coup sûr,\\nmais pas très précis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "typographie",
+  "probleme": "La casse est incohérente au sein du nom.",
+  "correction": "AIRE DE FEU",
+  "justification": "La correction uniformise la casse du libellé.",
+  "msgid": "FIRE PLEDGE",
+  "msgstr": "AIRE DE Feu",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "typographie",
+  "probleme": "La casse est incohérente au sein du nom.",
+  "correction": "CHANGE ECLAIR",
+  "justification": "La correction uniformise la casse du libellé.",
+  "msgid": "VOLT SWITCH",
+  "msgstr": "CHANGE Eclair",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que le lanceur attaque les ennemis.",
+  "correction": "Se débat et frappe les ennemis.\\nBaisse leur Atq. Spé.",
+  "justification": "L’anglais décrit une attaque contre les ennemis qui réduit aussi leur Attaque Spéciale.",
+  "msgid": "Resisting, the user attacks\\nthe foes. Lowers Sp. Atk.",
+  "msgstr": "Le lanceur se débat et baisse\\nl’Atq. Spé. des ennemis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "terminologie",
+  "probleme": "« Souffle Glace » perd la forme adjectivale du nom officiel.",
+  "correction": "SOUFFLE GLACE",
+  "justification": "La graphie officielle est « Souffle Glacé » dans Pokémon Soleil et Lune FR, CT79. L’accent disparaît dans ce libellé en capitales, conformément aux conventions du projet.",
+  "msgid": "FROST BREATH",
+  "msgstr": "SOUFFLE Glace",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "contresens",
+  "probleme": "« Se rengorge » évoque une posture fière ou suffisante.",
+  "correction": "Se motive pour monter\\nl’Attaque et l’Atq. Spé.",
+  "justification": "« The user is roused » indique que le lanceur se stimule.",
+  "msgid": "The user is roused.\\nUps Attack and Sp. Atk.",
+  "msgstr": "Se rengorge pour monter\\nl’Attaque et l’Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "typographie",
+  "probleme": "La casse est incohérente au sein du nom.",
+  "correction": "TOILE ELEK",
+  "justification": "La correction uniformise la casse du libellé.",
+  "msgid": "ELECTROWEB",
+  "msgstr": "Toile ELEK",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "typographie",
+  "probleme": "La casse est incohérente au sein du nom.",
+  "correction": "ECLAIR FOU",
+  "justification": "La correction uniformise la casse du libellé.",
+  "msgid": "WILD CHARGE",
+  "msgstr": "Eclair FOU",
+  "msgctxt": ""
+ }
+]

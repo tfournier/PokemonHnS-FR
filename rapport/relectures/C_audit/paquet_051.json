@@ -1,0 +1,242 @@
+[
+ {
+  "id": 4,
+  "categorie": "oubli",
+  "probleme": "La charge ne mentionne plus la roche utilisée pour frapper.",
+  "correction": "Frappe avec un roc ultrarapide.\\nAgit toujours en premier.",
+  "justification": "La source précise le moyen de l’attaque et sa priorité.",
+  "msgid": "Hits with a high-speed\\nrock that always goes first.",
+  "msgstr": "Une charge ultrarapide qui\\nfrappe toujours en premier.",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "oubli",
+  "probleme": "Le tour où le lanceur doit se reposer n’est pas précisé.",
+  "correction": "Laser très puissant. Repos\\nobligatoire au tour suivant.",
+  "justification": "« Next turn » fixe le moment de la recharge.",
+  "msgid": "A high power laser that\\nforces recharge next turn.",
+  "msgstr": "Un laser très puissant, mais\\nle lanceur doit se reposer.",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "oubli",
+  "probleme": "La description ne précise pas de qui les statistiques baissent.",
+  "correction": "Ses larmes baissent l’Attaque\\net l’Atq. Spé. de la cible.",
+  "justification": "La baisse s’applique à la cible de Larme à l’Œil.",
+  "msgid": "The user tears up, dropping\\nAttack and Sp. Attack.",
+  "msgstr": "Regard larmoyant qui baisse\\nl’Attaque et l’Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "oubli",
+  "probleme": "Le texte ne précise pas à qui appartiennent les PV divisés par deux.",
+  "correction": "La force de la nature divise\\nles PV ennemis par deux.",
+  "justification": "« The foe’s HP » désigne les PV de l’adversaire.",
+  "msgid": "Halves the foe's HP with\\nthe power of nature.",
+  "msgstr": "La colère de la nature fait\\nbaisser les PV de moitié.",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "contresens",
+  "probleme": "« Normal devient Electrik » peut faire croire à un changement du type du Pokémon.",
+  "correction": "Coup de poing électrique.\\nLes capacités Normal passent\\nau type Electrik.",
+  "justification": "L’effet s’applique aux capacités de type Normal.",
+  "msgid": "Hits with electrical fists.\\nNormal moves turn Electric.",
+  "msgstr": "Coup de poing électrique.\\nNormal devient Electrik.",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "oubli",
+  "probleme": "« La meilleure Atq. » laisse implicite la comparaison avec l’Attaque Spéciale.",
+  "correction": "Physique ou spéciale selon\\nla plus haute des stats AT et AS.",
+  "justification": "La capacité compare l’Attaque et l’Attaque Spéciale du lanceur. AT et AS sont les abréviations prévues par le projet.",
+  "msgid": "User's highest attack stat\\ndetermines its category.",
+  "msgstr": "Physique ou spéciale selon\\nla meilleure Atq. du lanceur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "contresens",
+  "probleme": "Les décharges électriques sont remplacées par une charge du lanceur.",
+  "correction": "Décharges électriques prioritaires.\\nCoup critique assuré.",
+  "justification": "« Electric bursts » décrit des décharges.",
+  "msgid": "Electric bursts always go\\nfirst and land a critical hit.",
+  "msgstr": "Fonce électrisé en priorité.\\nCoup critique assuré.",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "contresens",
+  "probleme": "« N’échoue jamais » étend la garantie à tout échec. Le nom d’espèce est aussi en minuscules.",
+  "correction": "Puissance liée à l’affection\\nde PIKACHU. Touche à coup sûr.",
+  "justification": "« It never misses » porte sur la précision. La convention du projet impose PIKACHU.",
+  "msgid": "Pikachu's love increases its\\npower. It never misses.",
+  "msgstr": "Puissance liée à l’affection\\nde Pikachu. N’échoue jamais.",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "oubli",
+  "probleme": "L’effet du Mur Lumière sur les dégâts spéciaux reste implicite.",
+  "correction": "Attaque télékinétique. Pose\\nun Mur Lumière qui réduit\\nles dégâts spéciaux.",
+  "justification": "La source indique expressément quels dégâts le mur réduit.",
+  "msgid": "Telekinetic force that sets\\nwall, lowering Sp. Atk damage.",
+  "msgstr": "Attaque télékinétique qui\\ncrée un Mur Lumière.",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "oubli",
+  "probleme": "L’effet de Protection sur les dégâts physiques reste implicite.",
+  "correction": "Fait le méchant et attaque.\\nCrée une Protection qui\\nréduit les dégâts physiques.",
+  "justification": "La source indique expressément quels dégâts le mur réduit.",
+  "msgid": "Acting badly, attacks. Sets\\nwall, lowering Attack damage.",
+  "msgstr": "Fait le méchant et attaque.\\nCrée une Protection.",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "oubli",
+  "probleme": "Le prélèvement de PV à chaque tour a disparu.",
+  "correction": "Une tige géante sème des\\ngraines qui volent des PV\\nà chaque tour.",
+  "justification": "« Every turn » précise la fréquence de l’effet.",
+  "msgid": "Giant stalk scatters seeds\\nthat drain HP every turn.",
+  "msgstr": "Une tige géante répand des\\ngraines qui volent des PV.",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "oubli",
+  "probleme": "La brume froide dont provient le cristal a disparu.",
+  "correction": "Frappe d’un cristal de brume\\nglacée. Annule tout changement\\nde stats.",
+  "justification": "« From cold haze » indique l’origine du cristal.",
+  "msgid": "Crystal from cold haze hits.\\nEliminates all stat changes.",
+  "msgstr": "Cristal glacé qui annule\\ntout changement de stats.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "oubli",
+  "probleme": "Le tourbillon n’enveloppe plus la cible et « soigne le statut » décrit mal la guérison.",
+  "correction": "Enveloppe l’ennemi d’un\\ntourbillon parfumé. Guérit\\nles altérations de l’équipe.",
+  "justification": "La capacité enveloppe l’adversaire et guérit les altérations de statut de l’équipe.",
+  "msgid": "Wrap foe with whirlwind of\\nscent. Heals party's status.",
+  "msgstr": "Un tourbillon parfumé qui\\nsoigne le statut de l’équipe.",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "contresens",
+  "probleme": "« N’échoue jamais » étend la garantie à tout échec. Le nom d’espèce est aussi en minuscules.",
+  "correction": "Puissance liée à l’affection\\nd’EVOLI. Touche à coup sûr.",
+  "justification": "« It never misses » porte sur la précision. Le lexique du projet impose EVOLI.",
+  "msgid": "Eevee's love increases its\\npower. It never misses.",
+  "msgstr": "Puissance liée à l’affection\\nd’Evoli. N’échoue jamais.",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "contresens",
+  "probleme": "La traduction ajoute que la capacité frappe deux fois.",
+  "correction": "Pivote et frappe avec ses\\nbras. Peut apeurer.",
+  "justification": "Le texte anglais fourni indique comment le lanceur frappe et ne précise aucun nombre de coups.",
+  "msgid": "The user spins and hits with\\nits arms. May cause flinch.",
+  "msgstr": "Pivote et frappe deux fois\\navec ses bras. Peut apeurer.",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "typographie",
+  "probleme": "La casse est mixte au sein du libellé.",
+  "correction": "Canon Dynamax",
+  "justification": "La correction applique la convention de la majuscule initiale aux deux mots.",
+  "msgid": "DYNAMAX CANNON",
+  "msgstr": "Canon DYNAMAX",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "terminologie",
+  "probleme": "« Un Dynamax » désigne à tort le Pokémon par le nom du phénomène.",
+  "correction": "Libère l’énergie du noyau.\\nDégâts ×2 sur un Pokémon\\ndynamaxé.",
+  "justification": "Pokémon Épée et Bouclier emploie « Dynamax » pour le phénomène et « se dynamaxer » pour le Pokémon. [Site officiel](https://swordshield.pokemon.com/fr-fr/gameplay/dynamaxing-max-moves/)",
+  "msgid": "Unleashes core energy.\\n2x against Dynamaxed foes.",
+  "msgstr": "Libère l’énergie du noyau.\\nDégâts ×2 sur un Dynamax.",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "oubli",
+  "probleme": "La traduction ne rend pas explicitement « All ».",
+  "correction": "A l’heure du thé, tous les\\nPokémon mangent leur Baie.",
+  "justification": "La source précise que l’effet s’applique à tous les Pokémon.",
+  "msgid": "All Pokémon have teatime\\nand eat their Berries.",
+  "msgstr": "L’heure du thé! Les Pokémon\\nmangent leur Baie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "terminologie",
+  "probleme": "« Les Dynamax » désigne à tort les Pokémon par le nom du phénomène.",
+  "correction": "Coup d’épée. Dégâts doublés\\nsur les Pokémon dynamaxés.",
+  "justification": "Pokémon Épée et Bouclier emploie « Dynamax » pour le phénomène et « se dynamaxer » pour le Pokémon. [Site officiel](https://swordshield.pokemon.com/fr-fr/gameplay/dynamaxing-max-moves/)",
+  "msgid": "Strikes as a sword. Deals 2x\\ndamage to Dynamaxed foes.",
+  "msgstr": "Un coup d’épée. Dégâts\\ndoublés contre les Dynamax.",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "terminologie",
+  "probleme": "« Les Dynamax » désigne à tort les Pokémon par le nom du phénomène.",
+  "correction": "Coup de bouclier. Dégâts ×2\\nsur les Pokémon dynamaxés.",
+  "justification": "Pokémon Épée et Bouclier emploie « Dynamax » pour le phénomène et « se dynamaxer » pour le Pokémon. [Site officiel](https://swordshield.pokemon.com/fr-fr/gameplay/dynamaxing-max-moves/)",
+  "msgid": "Attacks as a shield. Deals 2x\\ndamage to Dynamaxed foes.",
+  "msgstr": "Un coup de bouclier. Dégâts\\ndoublés contre les Dynamax.",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "oubli",
+  "probleme": "La baisse d’Attaque paraît toucher tous les ennemis.",
+  "correction": "Balaie avec sa queue. Baisse\\nl’Attaque des cibles touchées.",
+  "justification": "« Those hit » restreint l’effet aux cibles effectivement touchées.",
+  "msgid": "Swings its tail to attack.\\nLowers the Atk of those hit.",
+  "msgstr": "Balaie avec sa queue. Baisse\\nl’Attaque des ennemis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "terminologie",
+  "probleme": "« CLYSMIQUE » ne correspond pas au nom français de la capacité de Salarsen.",
+  "correction": "OVERDRIVE",
+  "justification": "Dans Pokémon Épée et Bouclier en français, la capacité de Salarsen s’appelle Overdrive.",
+  "msgid": "OVERDRIVE",
+  "msgstr": "CLYSMIQUE",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "typographie",
+  "probleme": "La casse est mixte au sein du libellé.",
+  "correction": "Acide Malique",
+  "justification": "La correction applique la convention de la majuscule initiale aux deux mots.",
+  "msgid": "APPLE ACID",
+  "msgstr": "Acide MALIQUE",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "contresens",
+  "probleme": "« N’échoue jamais » étend la garantie à tout échec.",
+  "correction": "S’incline et pique avec ses\\ncheveux. Touche à coup sûr.",
+  "justification": "« It never misses » indique que la capacité ne rate pas sa cible.",
+  "msgid": "Bows to stab the foe\\nwith hair. It never misses.",
+  "msgstr": "S’incline et pique avec ses\\ncheveux. N’échoue jamais.",
+  "msgctxt": ""
+ }
+]

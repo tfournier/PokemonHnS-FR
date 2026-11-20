@@ -1,0 +1,442 @@
+[
+ {
+  "id": 0,
+  "categorie": "terminologie",
+  "probleme": "« Un Rocket » ne suit pas la convention de nommage des membres de l’organisation.",
+  "correction": "C’était un Sbire Rocket?",
+  "justification": "Le projet autorise « Sbire Rocket » et « Sbire de la Team Rocket ».",
+  "msgid": "Was that a ROCKET?",
+  "msgstr": "C’était un Rocket?",
+  "msgctxt": ""
+ },
+ {
+  "id": 1,
+  "categorie": "typographie",
+  "probleme": "« Dresseuse », « Conseil 4 » et « d’Arène » ont une casse incohérente avec le reste du dialogue.",
+  "correction": "Je suis Sandra.\\pLa meilleure Dresseuse de dragons\\ndu monde.\\pJe peux tenir tête même au\\nConseil 4 de la Ligue Pokémon.\\pTu veux toujours m’affronter?\\p…Très bien. Allons-y!\\pEn tant que Championne d’Arène,\\nje donnerai tout contre n’importe\\lquel adversaire!",
+  "justification": "Le style SoulSilver du projet emploie « Dresseur » avec une majuscule initiale. Le lexique donne « Conseil 4 » et le titre s’écrit « Championne d’Arène ».",
+  "msgid": "I am CLAIR.\\pThe world's best dragon master.\\pI can hold my own against even the\\nPOKéMON LEAGUE's ELITE FOUR.\\pDo you still want to take me on?\\p…Fine. Let's do it!\\pAs a GYM LEADER, I will use my full\\npower against any opponent!",
+  "msgstr": "Je suis Sandra.\\pLa meilleure dresseuse de dragons\\ndu monde.\\pJe peux tenir tête même au\\nCONSEIL 4 de la Ligue Pokémon.\\pTu veux toujours m’affronter?\\p…Très bien. Allons-y!\\pEn tant que Championne D’ARENE,\\nje donnerai tout contre n’importe\\lquel adversaire!",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "contresens",
+  "probleme": "« Idéaux paresseux » attribue la paresse aux idéaux.",
+  "correction": "Je refuse de l’admettre.\\pJ’ai peut-être perdu, mais tu n’es\\npas prêt pour la Ligue Pokémon.\\pJe sais. Relève le défi des\\nmaîtres des dragons.\\pDerrière cette Arène se trouve un\\nlieu appelé l’Antre du Dragon.\\pEn son centre, il y a un petit\\nsanctuaire. Rends-toi là-bas.\\pSi tu prouves que tu as renoncé à\\nta façon de penser, je te\\lreconnaîtrai digne d’un Badge\\ld’Arène!",
+  "justification": "Sandra demande au joueur de changer sa façon de penser avant de lui reconnaître le droit au Badge.",
+  "msgid": "I won't admit this.\\pI may have lost, but you're still\\nnot ready for the POKéMON LEAGUE.\\pI know. You should take the dragon-\\nuser challenge.\\pBehind this GYM is a place called\\nDRAGON'S DEN.\\pThere is a small shrine at its\\ncenter. Go there.\\pIf you can prove that you've lost\\nyour lazy ideals, I will recognize\\lyou as a trainer worthy of a GYM\\lBADGE!",
+  "msgstr": "Je refuse de l’admettre.\\pJ’ai peut-être perdu, mais tu n’es\\npas prêt pour la Ligue Pokémon.\\pJe sais. Relève le défi des\\nmaîtres des dragons.\\pDerrière cette Arène se trouve un\\nlieu appelé l’Antre du Dragon.\\pEn son centre, il y a un petit\\nsanctuaire. Rends-toi là-bas.\\pSi tu prouves que tu as renoncé à\\ntes idéaux paresseux, je te\\lreconnaîtrai digne d’un Badge\\ld’Arène!",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "typographie",
+  "probleme": "« LIGUE Pokémon » a une casse incohérente dans la même réplique.",
+  "correction": "Qu’y a-t-il?\\pTu ne vas pas à la Ligue Pokémon?\\pTu ne sais pas où elle est?\\pD’ici, va à Bourg Geon.\\pPuis surfe vers l’est. La route\\npour y aller est très difficile.\\pTu n’as pas intérêt à perdre à la\\nLigue Pokémon!\\pSinon, je m’en voudrai encore plus\\nd’avoir perdu contre toi!\\pDonne tout ce que tu as.",
+  "justification": "Le lexique officiel fourni donne « Ligue Pokémon ».",
+  "msgid": "What's the matter?\\pAren't you headed to the POKéMON\\nLEAGUE?\\pDon't you know where it is?\\pFrom here, go to NEW BARK TOWN.\\pThen SURF east. The route there is\\nvery tough.\\pDon't you dare lose at the POKéMON\\nLEAGUE!\\pIf you do, I'll feel even worse\\nabout having lost to you!\\pGive it everything you've got.",
+  "msgstr": "Qu’y a-t-il?\\pTu ne vas pas à la Ligue Pokémon?\\pTu ne sais pas où elle est?\\pD’ici, va à Bourg Geon.\\pPuis surfe vers l’est. La route\\npour y aller est très difficile.\\pTu n’as pas intérêt à perdre à la\\nLIGUE Pokémon!\\pSinon, je m’en voudrai encore plus\\nd’avoir perdu contre toi!\\pDonne tout ce que tu as.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "typographie",
+  "probleme": "« DE JOHTO » rompt la casse du titre et la ligne est longue.",
+  "correction": "Tu as réussi, hein?\\pTe voilà Maître de Johto.",
+  "justification": "La formulation raccourcie conserve le changement de statut et la graphie de « Maître de Johto ».",
+  "msgid": "You did it, huh?\\pYou are now the JOHTO CHAMP.",
+  "msgstr": "Tu as réussi, hein?\\pTu es maintenant le Maître DE JOHTO.",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "orthographe",
+  "probleme": "« Maître Dragon » ne rend pas correctement le titre féminin de Sandra.",
+  "correction": "Tu as réussi, hein?\\pTe voilà Maître de Johto.\\pTu as prouvé ta force, mais peux-tu\\nencore me tenir tête?\\pEn maîtresse des dragons, je ne me\\nretiendrai pas.\\pPas cette fois.\\pVeux-tu une revanche?",
+  "justification": "« Maîtresse des dragons » accorde le titre avec Sandra et précise sa spécialité.",
+  "msgid": "You did it, huh?\\pYou are now the JOHTO CHAMP.\\pYou've proven your strength but can\\nyou handle me again?\\pAs a Dragon Master, I won't hold\\nback.\\pNot this time.\\pWant to have a rematch with me?",
+  "msgstr": "Tu as réussi, hein?\\pTu es maintenant le Maître de Johto.\\pTu as prouvé ta force, mais peux-tu\\nencore me tenir tête?\\pEn tant que Maître Dragon, je ne me\\nretiendrai pas.\\pPas cette fois.\\pVeux-tu une revanche?",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "typographie",
+  "probleme": "La traduction occupe deux lignes.",
+  "correction": "Ah, si j’avais un DRACOLOSSE!",
+  "justification": "La réplique tient sur une seule ligne et conserve le souhait du Dresseur.",
+  "msgid": "Rats! If only I had a DRAGONITE!",
+  "msgstr": "Zut! Si seulement j’avais un\\nDRACOLOSSE!",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "typographie",
+  "probleme": "« DRAGON » est en capitales intégrales au milieu d’une série de noms de types.",
+  "correction": "Yo! Futur Maître!\\pLe voyage a été long, mais on\\ntouche au but! Compte sur moi!\\pSANDRA admire PETER, le Maître\\ndes Dragons, mais elle s’est forgé\\lsa propre identité avec une\\léquipe de dragons venus\\lde la mer.\\pLes dragons craignent en principe\\nles capacités Glace, mais il te\\lfaudra aussi des capacités\\lDragon ou Fée pour gagner.",
+  "justification": "« Dragon » suit la même casse que « Glace » et « Fée ».",
+  "msgid": "Yo! CHAMP in making!\\pIt's been a long journey, but we\\nare almost done! Count on me!\\pWhile CLAIR looks up to the Dragon\\nMaster, LANCE, she's managed to\\lcreate her own identity with a\\lteam consisting of dragons from\\lthe sea.\\pDragons are supposed to be\\nweak against ICE-type moves,\\lbut you'll need some DRAGON-type\\lor FAIRY-type moves of your own if\\lyou want to win.",
+  "msgstr": "Yo! Futur Maître!\\pLe voyage a été long, mais on\\ntouche au but! Compte sur moi!\\pSANDRA admire PETER, le Maître\\ndes Dragons, mais elle s’est forgé\\lsa propre identité avec une\\léquipe de dragons venus\\lde la mer.\\pLes dragons craignent en principe\\nles capacités Glace, mais il te\\lfaudra aussi des capacités\\lDRAGON ou Fée pour gagner.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "typographie",
+  "probleme": "Le nom « Antre du Dragon » mélange les capitales intégrales et la casse ordinaire.",
+  "correction": "Bravo d’avoir battu Sandra!\\pElle est un peu mauvaise perdante,\\nceci dit.\\pPour avoir ce Badge, il faut\\non dirait aller à l’Antre du Dragon!",
+  "justification": "Le nom du lieu reprend la graphie « Antre du Dragon » employée par Sandra.",
+  "msgid": "You were great to beat CLAIR!\\pShe can be a bit of a sore loser,\\nthough\\pSounds like you need to head to the\\nDRAGON'S DEN if you want that GYM BADGE!",
+  "msgstr": "Bravo d’avoir battu Sandra!\\pElle est un peu mauvaise perdante,\\nceci dit.\\pOn dirait qu’il faut aller à l’ANTRE\\nDU Dragon pour avoir ce Badge!",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "terminologie",
+  "probleme": "Le titre « MAITRE Pokémon » ne suit pas la graphie du lexique.",
+  "correction": "Bravo d’avoir battu Sandra!\\pIl ne te reste plus que le défi\\nde la Ligue Pokémon.\\pTu es en route pour devenir\\nMaître Pokémon!",
+  "justification": "Le lexique officiel fourni donne « Maître ».",
+  "msgid": "You were great to beat CLAIR!\\pAll that's left is the POKéMON\\nLEAGUE challenge.\\pYou're on the way to becoming the\\nPOKéMON CHAMPION!",
+  "msgstr": "Bravo d’avoir battu Sandra!\\pIl ne te reste plus que le défi\\nde la Ligue Pokémon.\\pTu es en route pour devenir\\nMAITRE Pokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "terminologie",
+  "probleme": "Le panneau mélange plusieurs casses et la graphie de la ville ne suit pas le lexique.",
+  "correction": "Arène Pokémon d’Ebènelle\\pDresseurs agréés par Sandra:\\n{PLAYER}",
+  "justification": "Le lexique officiel fourni donne « Ebènelle ». La casse ordinaire du panneau permet de conserver ses accents.",
+  "msgid": "BLACKTHORN CITY POKéMON GYM\\pCLAIR'S CERTIFIED TRAINERS:\\n{PLAYER}",
+  "msgstr": "Arène Pokémon D’EBENELLE\\pDRESSEURS AGREES PAR Sandra:\\n{PLAYER}",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "typographie",
+  "probleme": "La traduction occupe deux lignes.",
+  "correction": "MACHOPEUR, pousse ce rocher!",
+  "justification": "L’ordre tient sur une ligne et conserve l’action demandée à MACHOPEUR.",
+  "msgid": "MACHOKE, help us move that boulder!",
+  "msgstr": "MACHOPEUR, aide-nous à pousser\\nce rocher!",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "typographie",
+  "probleme": "La dernière ligne dépasse le gabarit approximatif du dialogue.",
+  "correction": "Hé, gamin! Tu nous ralentis!\\pOn a pour règle de travailler\\nen coulisses, à l’abri des regards!",
+  "justification": "La formulation conserve la règle de discrétion du groupe et répartit le texte sur les lignes prévues.",
+  "msgid": "Hey, kid! You're holding us up!\\pOur policy is to work behind the\\nscenes where no one can see us!",
+  "msgstr": "Hé, gamin! Tu nous ralentis!\\pNotre politique, c’est d’agir en\\ncoulisses, là où personne ne nous voit!",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "typographie",
+  "probleme": "Les deux phrases de la dernière page sont sur une seule ligne trop longue.",
+  "correction": "Ouhah! Ouhah!\\pTu veux quoi, petit?\\lJe travaille, moi!",
+  "justification": "Le saut de ligne de la source répartit les deux phrases sans modifier la traduction.",
+  "msgid": "Oohah! Oohah!\\pWhat do you need kid?\\lI'm working here!",
+  "msgstr": "Ouhah! Ouhah!\\pTu veux quoi, petit? Je travaille, moi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "typographie",
+  "probleme": "La virgule coupe inutilement « Pas mal pour un gamin ».",
+  "correction": "Pas mal pour un gamin de JOHTO!",
+  "justification": "Le complément introduit par « pour » se rattache directement à l’appréciation.",
+  "msgid": "Not bad for a JOHTO kid!",
+  "msgstr": "Pas mal, pour un gamin de JOHTO!",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "typographie",
+  "probleme": "La traduction occupe deux lignes.",
+  "correction": "Morveux de Johto, tu ne gagneras qu’une fois!",
+  "justification": "L’adresse directe conserve la provocation et supprime le saut de ligne.",
+  "msgid": "JOHTO punks can only win once!",
+  "msgstr": "Les morveux de JOHTO, ça gagne\\nqu’une fois!",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "orthographe",
+  "probleme": "« A Johto » traite le nom de la région comme celui d’une ville.",
+  "correction": "Je devrais peut-être m’entraîner\\nà nouveau à Johto, finalement.",
+  "justification": "La réplique exprime une idée d’entraînement dans la région de Johto.",
+  "msgid": "Maybe I should train in JOHTO\\nafter all.",
+  "msgstr": "Je devrais peut-être m’entraîner\\nà JOHTO, finalement.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "oubli",
+  "probleme": "La traduction omet l’idée de poursuivre un entraînement déjà commencé.",
+  "correction": "Je vais continuer à m’entraîner\\npour être aussi cool que toi, petit!",
+  "justification": "« Continuer » restitue « keep training ».",
+  "msgid": "I'll keep training to be as cool\\nas you, kid!",
+  "msgstr": "Je vais m’entraîner pour être aussi\\ncool que toi, petit!",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "typographie",
+  "probleme": "« dresseur » n’a pas la majuscule prévue par le projet.",
+  "correction": "J’ai croisé un Dresseur comme toi\\nà UNYS. Va pas te planter!",
+  "justification": "Le style SoulSilver du projet fixe la graphie « Dresseur ».",
+  "msgid": "I met a trainer like you in UNOVA.\\nDon't crash out!",
+  "msgstr": "J’ai croisé un dresseur comme toi\\nà UNYS. Va pas te planter!",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "typographie",
+  "probleme": "« Coupe » est employé ici comme verbe et porte une majuscule.",
+  "correction": "Oh là là… Mon patron va être\\nfurax…\\pLe CANARTICHO qui coupe des\\narbres pour le charbon a filé!\\pJe ne peux pas le chercher ici,\\ndans le Bois aux Chênes.\\pC’est trop grand, trop sombre et\\ntrop effrayant pour moi…",
+  "justification": "Le verbe prend une minuscule. « Des arbres » évite d’ajouter une notion de propriété.",
+  "msgid": "Oh, man… My boss is going to be\\nsteaming…\\pThe FARFETCH'D that CUTS trees\\nfor charcoal took off on me.\\pI can't go looking for it here\\nin the ILEX FOREST.\\pIt's too big, dark and scary\\nfor me…",
+  "msgstr": "Oh là là… Mon patron va être\\nfurax…\\pLe CANARTICHO qui Coupe nos\\narbres pour le charbon a filé!\\pJe ne peux pas le chercher ici,\\ndans le Bois aux Chênes.\\pC’est trop grand, trop sombre et\\ntrop effrayant pour moi…",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "typographie",
+  "probleme": "« BADGE » a une casse incohérente avec les autres dialogues.",
+  "correction": "Waouh! Merci mille fois!\\pLes Pokémon de mon patron ne\\nm’obéissent pas: je n’ai pas de\\lBadge.",
+  "justification": "Le texte courant du projet emploie « Badge ».",
+  "msgid": "Wow! Thanks a whole bunch!\\pMy boss' POKéMON won't obey me\\nbecause I don't have a BADGE.",
+  "msgstr": "Waouh! Merci mille fois!\\pLes Pokémon de mon patron ne\\nm’obéissent pas: je n’ai pas de\\lBADGE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "typographie",
+  "probleme": "La capacité apparaît sous deux graphies dans la même réplique.",
+  "correction": "Un Pokémon jamais vu est tombé de\\nl’arbre quand j’ai utilisé\\lCoup d’Boule.\\pJe devrais essayer Coup d’Boule\\nailleurs aussi.",
+  "justification": "Le lexique officiel fourni donne « Coup d’Boule ».",
+  "msgid": "A POKéMON I've never seen before\\nfell out of the tree when I used\\lHEADBUTT.\\pI ought to use HEADBUTT in other\\nplaces too.",
+  "msgstr": "Un Pokémon jamais vu est tombé de\\nl’arbre quand j’ai utilisé\\lCOUP D’BOULE.\\pJe devrais essayer Coup d’Boule\\nailleurs aussi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "typographie",
+  "probleme": "La première page dépasse le gabarit approximatif sur une seule ligne.",
+  "correction": "C’est une photo de pêcheurs…\\pIls ont l’air de bien s’amuser…",
+  "justification": "« Pêcheurs » conserve le sujet de la photo en raccourcissant la ligne.",
+  "msgid": "It's a photo of people fishing…\\pThey're having a great time…",
+  "msgstr": "C’est une photo de gens qui pêchent…\\pIls ont l’air de bien s’amuser…",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "oubli",
+  "probleme": "La fin omet « once again » et l’avant-dernière page atténue « perhaps even the greatest ».",
+  "correction": "PETER: Il n’y a pas si longtemps,\\nje t’accueillais ici même\\pen tant que Maître de Johto.\\pEt nous revoilà dans ce lieu sacré\\noù l’on honore les plus grands\\pDresseurs et leurs Pokémon.\\pAujourd’hui, tu as fait tes preuves\\nà Johto, mais aussi à Kanto,\\len battant même ma meilleure équipe.\\pTu as montré une compassion et une\\nconfiance remarquables envers tes\\lPokémon, un lien qui t’a valu la\\lvictoire encore et encore.\\pTon voyage, marqué par la\\npersévérance et une volonté\\linébranlable,\\ltémoigne de ta vraie nature de\\lDresseur.\\pTu as l’étoffe des plus grands,\\nvoire du plus grand de tous.\\p{PLAYER}, c’est un honneur de\\nvous inscrire à nouveau, toi et\\ltes fidèles partenaires,\\lcomme Maîtres!",
+  "justification": "Peter évoque une seconde inscription et dit que le joueur pourrait devenir le plus grand Dresseur.",
+  "msgid": "LANCE: I remember, it wasn't long ago\\nI stood here, welcoming you as\\pthe CHAMPION of JOHTO.\\pAnd now, here we are again, in this\\nsacred place where we honor the very\\pbest trainers and their POKéMON.\\pToday, you've proven yourself not\\njust in JOHTO, but in KANTO as well,\\lbesting even my strongest team.\\pYou've shown remarkable compassion\\nand trust in your POKéMON,\\la bond that has carried you to\\lvictory time and again.\\pYour journey, marked by\\nperseverance and unwavering\\ldetermination,\\lspeaks to your true spirit as a\\ltrainer.\\pYou have all the makings of a true\\ngreat, perhaps even the greatest.\\p{PLAYER}, it is my honor to register\\nyou, and your trusted partners,\\las champions once again.",
+  "msgstr": "PETER: Il n’y a pas si longtemps,\\nje t’accueillais ici même\\pen tant que Maître de JOHTO.\\pEt nous revoilà dans ce lieu sacré\\noù l’on honore les plus grands\\pDRESSEURS et leurs Pokémon.\\pAujourd’hui, tu as fait tes preuves\\nà JOHTO, mais aussi à KANTO,\\len battant même ma meilleure équipe.\\pTu as montré une compassion et une\\nconfiance remarquables envers tes\\lPOKéMON, un lien qui t’a valu la\\lvictoire encore et encore.\\pTon voyage, marqué par la\\npersévérance et une volonté\\linébranlable,\\ltémoigne de ta vraie nature de\\lDRESSEUR.\\pTu as l’étoffe des plus grands,\\net peut-être plus encore.\\p{PLAYER}, c’est un honneur de vous\\ninscrire, toi et tes fidèles\\lpartenaires, au rang de MAITRES!",
+  "msgctxt": ""
+ },
+ {
+  "id": 59,
+  "categorie": "typographie",
+  "probleme": "La traduction occupe deux lignes.",
+  "correction": "Je ne suis qu’un pion, peut-être.",
+  "justification": "La réplique tient sur une ligne et conserve le doute du personnage.",
+  "msgid": "Maybe I'm just a pawn after all.",
+  "msgstr": "Je ne suis peut-être qu’un pion,\\nau fond.",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "contresens",
+  "probleme": "« Tout » ajoute une affirmation absolue absente de l’anglais.",
+  "correction": "La géologie m’en a appris!\\nC’est parti!",
+  "justification": "Le personnage dit avoir tiré des enseignements de la géologie.",
+  "msgid": "I've learned from geology!\\nLet's go!",
+  "msgstr": "La géologie m’a tout appris!\\nC’est parti!",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "contresens",
+  "probleme": "« Je n’ai même pas besoin de billet » laisse entendre que le gardien lui-même pourrait en avoir besoin.",
+  "correction": "Ohé!\\nCe port est réservé aux résidents.\\pTous les habitants de ces ILES\\nont sur eux un… {PAUSE 30}drôle de bibelot.\\pOn les reconnaît si facilement que\\nje ne vérifie même pas les billets!",
+  "justification": "Le gardien explique qu’il reconnaît les habitants et peut se dispenser de contrôler leurs billets.",
+  "msgid": "Ahoy!\\nThis port is for residents only.\\pAll of the residents of these ISLES\\ncarry some… {PAUSE 30}strange souvenirs.\\pIt makes them so easy to identify,\\nI don't even need to check tickets!",
+  "msgstr": "Ohé!\\nCe port est réservé aux résidents.\\pTous les habitants de ces ILES\\nont sur eux un… {PAUSE 30}drôle de bibelot.\\pOn les reconnaît si facilement que\\nje n’ai même pas besoin de billet!",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "contresens",
+  "probleme": "« Compte là-dessus! » peut confirmer ce que le rival vient de demander.",
+  "correction": "Attends.\\pTu comptes relever le défi de la\\nLigue Pokémon maintenant?\\pPas question!\\pMes Pokémon super entraînés vont\\nte réduire en miettes.\\p{PLAYER}!\\nJe te défie!",
+  "justification": "Le rival annonce qu’il va empêcher le joueur d’aller relever le défi.",
+  "msgid": "Hold it.\\pYou're going to take the POKéMON\\nLEAGUE challenge now?\\pThat's not going to happen.\\pMy super-well-trained POKéMON\\nare going to pound you.\\p{PLAYER}!\\nI challenge you!",
+  "msgstr": "Attends.\\pTu comptes relever le défi de la\\nLIGUE Pokémon maintenant?\\pCompte là-dessus!\\pMes Pokémon super entraînés vont\\nte réduire en miettes.\\p{PLAYER}!\\nJe te défie!",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "typographie",
+  "probleme": "« TELEPORTer » mélange les capitales et les minuscules à l’intérieur du verbe.",
+  "correction": "Ah! Tu vas affronter le Conseil 4?\\nTu te sens d’attaque?\\pSi tu as besoin de t’entraîner\\nencore, mon ABRA peut t’aider.\\pIl peut te téléporter chez toi.\\pTu veux rentrer à la maison?",
+  "justification": "La phrase emploie le verbe « téléporter ». Le nom de la capacité est « Téléport » dans le lexique fourni.",
+  "msgid": "Ah! You're challenging the ELITE\\nFOUR? Are you sure you're ready?\\pIf you need to train some more,\\nmy ABRA can help you.\\pIt can TELEPORT you home.\\pWould you like to go home now?",
+  "msgstr": "Ah! Tu vas affronter le Conseil 4?\\nTu te sens d’attaque?\\pSi tu as besoin de t’entraîner\\nencore, mon ABRA peut t’aider.\\pIl peut te TELEPORTer chez toi.\\pTu veux rentrer à la maison?",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "typographie",
+  "probleme": "Plusieurs lignes dépassent le gabarit approximatif du dialogue.",
+  "correction": "Ravi de te voir!\\nBienvenue dans ma villa!\\pJ’y loge pendant que j’étudie\\nen quoi les ILES D’ALOLA\\lressemblent à la région d’ALOLA.\\pJe m’intéresse surtout\\naux “formes régionales”.",
+  "justification": "Les lignes raccourcies conservent l’objet des recherches et l’intérêt particulier pour les formes régionales.",
+  "msgid": "I'm glad you're here!\\nWelcome to my villa!\\pI'm staying here while I research the\\nALOLA ISLES for their similarity to\\lthe ALOLA region.\\pI'm particularly interested in the\\nphenomenon of “Regional Variants”.",
+  "msgstr": "Ravi de te voir!\\nBienvenue dans ma villa!\\pJ’y loge pendant que j’étudie les\\nressemblances entre les ILES D’ALOLA\\let la région d’ALOLA.\\pJe m’intéresse tout particulièrement\\nau phénomène des “formes régionales”.",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "typographie",
+  "probleme": "La dernière ligne dépasse le gabarit approximatif du dialogue.",
+  "correction": "Les ILES D’ALOLA doivent être\\nbien spéciales pour que les\\lgardiens eux-mêmes y viennent!",
+  "justification": "La visite des gardiens eux-mêmes reste explicite et tient sur trois lignes.",
+  "msgid": "The ALOLA ISLES must truly be special if\\nthe Guardians themselves visited!",
+  "msgstr": "Les ILES D’ALOLA doivent être bien\\nspéciales pour que les gardiens\\lviennent eux-mêmes leur rendre visite!",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "oubli",
+  "probleme": "La première page omet le compliment adressé au joueur en tant que Dresseur.",
+  "correction": "Ouah, {PLAYER}!\\nTu es un redoutable Dresseur!\\pTu mérites de connaître un secret\\nque je garde sur ces ILES…\\pD’autres que moi ont remarqué\\nla ressemblance frappante entre\\lles ILES D’ALOLA et la région d’ALOLA…\\pIl semble que les Tokos eux-mêmes\\nrendent visite aux ILES.\\pSi tu les vois survoler les ILES,\\nfile vers les totems… Ils t’y\\lattendent peut-être!",
+  "justification": "« Redoutable Dresseur » restitue le compliment sur les qualités du joueur.",
+  "msgid": "Wow, {PLAYER}!\\nYou really are a powerful Trainer!\\pYou've proven worthy of a secret\\nI've been keeping about these ISLES…\\pI'm not the only one who's noticed a\\nstriking resemblance between the ALOLA\\lISLES and the ALOLA region…\\pIt seems the Tapu Guardians themselves\\nhave been visiting the ISLES.\\pIf you see them fly over the ISLES, head\\nto the totems… They may be there \\lwaiting for you!",
+  "msgstr": "Ouah, {PLAYER}!\\nQuelle puissance au combat!\\pTu as mérité de connaître un secret\\nque je garde sur ces ILES…\\pJe ne suis pas le seul à avoir remarqué\\nla ressemblance frappante entre les\\lILES D’ALOLA et la région d’ALOLA…\\pIl semble que les Tokos eux-mêmes\\nrendent visite aux ILES.\\pSi tu les vois survoler les ILES,\\nfile vers les totems… Ils t’y\\lattendent peut-être!",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "orthographe",
+  "probleme": "« Re-bonjour » comporte un trait d’union superflu.",
+  "correction": "Rebonjour, {PLAYER}!\\pOù en sont tes recherches sur\\nles ILES D’ALOLA?\\pVeux-tu me parler de tes progrès\\nsur une île en particulier?",
+  "justification": "« Rebonjour » s’écrit en un seul mot.",
+  "msgid": "Hello again, {PLAYER}!\\pHow's your research on the ALOLA ISLES\\ncoming along?\\pWould you like to share your progress\\nabout a specific isle with me?",
+  "msgstr": "Re-bonjour, {PLAYER}!\\pOù en sont tes recherches sur\\nles ILES D’ALOLA?\\pVeux-tu me parler de tes progrès\\nsur une île en particulier?",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "typographie",
+  "probleme": "La première ligne dépasse le gabarit approximatif du dialogue.",
+  "correction": "Tu as trouvé toutes les formes\\nd’Alola de l’ILE DE MELE-MELE!",
+  "justification": "Le déplacement de « d’Alola » conserve le texte et équilibre les deux lignes.",
+  "msgid": "You found all the Alolan variants living\\non MELEMELE ISLE!",
+  "msgstr": "Tu as trouvé toutes les formes d’Alola\\nde l’ILE DE MELE-MELE!",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "oubli",
+  "probleme": "« Chapeau bas! » remplace l’invitation faite au joueur à être fier de lui.",
+  "correction": "Et on dirait que tu as aussi trouvé\\ntoutes celles des autres ILES!\\pC’est génial, {PLAYER}!\\pTu peux être très fier de toi!",
+  "justification": "La dernière phrase restitue la fierté que le joueur peut tirer de son exploit.",
+  "msgid": "And it looks like you've found all the\\nAlolan variants on the other ISLES too!\\pThat's amazing, {PLAYER}!\\pYou should be very proud of yourself!",
+  "msgstr": "Et on dirait que tu as aussi trouvé\\ntoutes celles des autres ILES!\\pC’est génial, {PLAYER}!\\pChapeau bas!",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "contresens",
+  "probleme": "La dernière phrase présente l’observation comme certaine et laisse « digne » sans complément clair.",
+  "correction": "Grâce à toi, j’ai pu confirmer que\\ntoutes les formes d’Alola sont\\lprésentes sur les ILES D’ALOLA!\\pJ’aimerais que tu m’aides pour\\nune dernière chose…\\pPeux-tu étudier les Pokémon\\ndominants qui garderaient\\lles totems de chaque ILE?\\pMais attention! Ces Pokémon\\ndominants seraient bien plus forts\\lque leurs congénères ordinaires…\\pOn t’observe peut-être pour voir\\nsi tu es à la hauteur!",
+  "justification": "L’anglais évoque la possibilité qu’une personne observe le joueur pour jauger sa valeur au combat.",
+  "msgid": "You've helped me validate that all\\nof the Alolan variants are present on\\lthe ALOLA ISLES!\\pI'd like you to help me with one more\\nthing…\\pCould you help me investigate the Totem\\nPOKéMON that are said to be guarding\\lthe totems on each ISLE?\\pBut beware! These Totem POKéMON are\\nsaid to be much stronger than their\\lnormal counterparts…\\pYou never know who might be watching\\nto see if you are a worthy opponent!",
+  "msgstr": "Grâce à toi, j’ai pu confirmer que\\ntoutes les formes d’Alola sont\\lprésentes sur les ILES D’ALOLA!\\pJ’aimerais que tu m’aides pour\\nune dernière chose…\\pPourrais-tu enquêter sur les Pokémon\\ndominants qui garderaient\\lles totems de chaque ILE?\\pMais attention! On dit que ces Pokémon\\ndominants sont bien plus forts\\lque leurs congénères ordinaires…\\pQui sait qui t’observe pour voir\\nsi tu es un adversaire digne?",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "codes",
+  "probleme": "Les paramètres nommés des balises COLOR ont été remplacés par des valeurs numériques.",
+  "correction": "Voyons voir ton Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\\pOn dirait que tu n’as pas encore\\ntrouvé toutes les formes d’Alola\\lde l’ILE DE MELE-MELE.\\pIl paraît que l’ILE DE MELE-MELE\\nabrite {COLOR RED}4 {COLOR DARK_GRAY}formes d’Alola…\\p{COLOR RED}RATTATA{COLOR DARK_GRAY}, {COLOR RED}RATTATAC{COLOR DARK_GRAY}, {COLOR RED}MIAOUSS{COLOR DARK_GRAY} et\\n{COLOR RED}PERSIAN{COLOR DARK_GRAY}.\\pContinue tes recherches et reviens\\nquand tu les auras toutes attrapées!",
+  "justification": "Les balises reprennent exactement les paramètres RED et DARK_GRAY de la source.",
+  "msgid": "Let me take a look at your POKéDEX{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\\pIt seems you haven't quite found all of\\nthe Alolan variants on MELEMELE ISLE\\ljust yet.\\pI've heard MELEMELE ISLE has {COLOR RED}4 {COLOR DARK_GRAY}Alolan\\nvariants for you to find…\\p{COLOR RED}RATTATA{COLOR DARK_GRAY}, {COLOR RED}RATICATE{COLOR DARK_GRAY}, {COLOR RED}MEOWTH{COLOR DARK_GRAY}, and\\n{COLOR RED}PERSIAN{COLOR DARK_GRAY}.\\pKeep on searching and come back when\\nyou've caught them all!",
+  "msgstr": "Voyons voir ton Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\\pOn dirait que tu n’as pas encore\\ntrouvé toutes les formes d’Alola\\lde l’ILE DE MELE-MELE.\\pIl paraît que l’ILE DE MELE-MELE\\nabrite {COLOR 4}4 {COLOR 2}formes d’Alola…\\p{COLOR 4}RATTATA{COLOR 2}, {COLOR 4}RATTATAC{COLOR 2}, {COLOR 4}MIAOUSS{COLOR 2} et\\n{COLOR 4}PERSIAN{COLOR 2}.\\pContinue tes recherches et reviens\\nquand tu les auras toutes attrapées!",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "typographie",
+  "probleme": "La première ligne dépasse le gabarit approximatif du dialogue.",
+  "correction": "Tu as trouvé toutes les formes\\nd’Alola de l’ILE D’AKALA!",
+  "justification": "Le déplacement de « d’Alola » conserve le texte et équilibre les deux lignes.",
+  "msgid": "You found all the Alolan variants living\\non AKALA ISLE!",
+  "msgstr": "Tu as trouvé toutes les formes d’Alola\\nde l’ILE D’AKALA!",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "contresens",
+  "probleme": "La dernière phrase présente l’observation comme certaine et laisse « digne » sans complément clair.",
+  "correction": "Grâce à toi, j’ai pu confirmer que\\ntoutes les formes d’Alola sont\\lprésentes sur les ILES D’ALOLA.\\pJ’aimerais que tu m’aides pour\\nune dernière chose…\\pPeux-tu étudier les Pokémon\\ndominants qui garderaient\\lles totems de chaque île?\\pMais attention! Ces Pokémon\\ndominants seraient bien plus forts\\lque leurs congénères ordinaires…\\pOn t’observe peut-être pour voir\\nsi tu es à la hauteur!",
+  "justification": "L’anglais évoque la possibilité qu’une personne observe le joueur pour jauger sa valeur au combat.",
+  "msgid": "Now that you've helped me validate that\\nall of the Alolan variants are present\\lon the ALOLA ISLES.\\pI'd like you to help me with one more\\nthing…\\pCould you help me investigate the Totem\\nPOKéMON that are said to be guarding\\lthe totems on each isle?\\pBut beware! These Totem POKéMON are\\nsaid to be much stronger than their\\lnormal counterparts…\\pYou never know who might be watching\\nto see if you are a worthy opponent!",
+  "msgstr": "Grâce à toi, j’ai pu confirmer que\\ntoutes les formes d’Alola sont\\lprésentes sur les ILES D’ALOLA.\\pJ’aimerais que tu m’aides pour\\nune dernière chose…\\pPourrais-tu enquêter sur les Pokémon\\ndominants qui garderaient\\lles totems de chaque île?\\pMais attention! On dit que ces Pokémon\\ndominants sont bien plus forts\\lque leurs congénères ordinaires…\\pQui sait qui t’observe pour voir\\nsi tu es un adversaire digne?",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "codes",
+  "probleme": "Les paramètres nommés des balises COLOR ont été remplacés par des valeurs numériques.",
+  "correction": "Voyons voir ton Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\\pOn dirait que tu n’as pas encore\\ntrouvé toutes les formes d’Alola\\lde l’ILE D’AKALA.\\pIl paraît que l’ILE D’AKALA\\nabrite {COLOR RED}4 {COLOR DARK_GRAY}formes d’Alola…\\p{COLOR RED}RAICHU{COLOR DARK_GRAY}, {COLOR RED}OSSATUEUR{COLOR DARK_GRAY},\\n{COLOR RED}TAUPIQUEUR{COLOR DARK_GRAY} et {COLOR RED}TRIOPIKEUR{COLOR DARK_GRAY}.\\pContinue tes recherches et reviens\\nquand tu les auras toutes attrapées!",
+  "justification": "Les balises reprennent exactement les paramètres RED et DARK_GRAY de la source.",
+  "msgid": "Let me take a look at your POKéDEX{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\\pIt seems you haven't quite found all of\\nthe Alolan variants on AKALA ISLE\\ljust yet.\\pI've heard AKALA ISLE has {COLOR RED}4 {COLOR DARK_GRAY}Alolan\\nvariants for you to find…\\p{COLOR RED}RAICHU{COLOR DARK_GRAY}, {COLOR RED}MAROWAK{COLOR DARK_GRAY}, {COLOR RED}DIGLETT{COLOR DARK_GRAY}, and {COLOR RED}DUGTRIO{COLOR DARK_GRAY}.\\pKeep on searching and come back when\\nyou've caught them all!",
+  "msgstr": "Voyons voir ton Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\\pOn dirait que tu n’as pas encore\\ntrouvé toutes les formes d’Alola\\lde l’ILE D’AKALA.\\pIl paraît que l’ILE D’AKALA\\nabrite {COLOR 4}4 {COLOR 2}formes d’Alola…\\p{COLOR 4}RAICHU{COLOR 2}, {COLOR 4}OSSATUEUR{COLOR 2},\\n{COLOR 4}TAUPIQUEUR{COLOR 2} et {COLOR 4}TRIOPIKEUR{COLOR 2}.\\pContinue tes recherches et reviens\\nquand tu les auras toutes attrapées!",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "typographie",
+  "probleme": "La première ligne dépasse le gabarit approximatif du dialogue.",
+  "correction": "Tu as trouvé toutes les formes\\nd’Alola de l’ILE D’ULA-ULA!",
+  "justification": "Le déplacement de « d’Alola » conserve le texte et équilibre les deux lignes.",
+  "msgid": "You found all the Alolan variants living\\non ULA'ULA ISLE!",
+  "msgstr": "Tu as trouvé toutes les formes d’Alola\\nde l’ILE D’ULA-ULA!",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "codes",
+  "probleme": "Les paramètres nommés des balises COLOR ont été remplacés par des valeurs numériques.",
+  "correction": "Voyons voir ton Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\\pOn dirait que tu n’as pas encore\\ntrouvé toutes les formes d’Alola\\lde l’ILE D’ULA-ULA.\\pIl paraît que l’ILE D’ULA-ULA\\nabrite {COLOR RED}6 {COLOR DARK_GRAY}formes d’Alola…\\p{COLOR RED}GOUPIX{COLOR DARK_GRAY}, {COLOR RED}FEUNARD{COLOR DARK_GRAY}, {COLOR RED}SABELETTE{COLOR DARK_GRAY},\\n{COLOR RED}SABLAIREAU{COLOR DARK_GRAY}, {COLOR RED}TADMORV{COLOR DARK_GRAY}\\let {COLOR RED}GROTADMORV{COLOR DARK_GRAY}.\\pContinue tes recherches et reviens\\nquand tu les auras toutes attrapées!",
+  "justification": "Les balises reprennent exactement les paramètres RED et DARK_GRAY de la source.",
+  "msgid": "Let me take a look at your POKéDEX{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\\pIt seems you haven't quite found all of\\nthe Alolan variants on ULA'ULA ISLE\\ljust yet.\\pI've heard ULA'ULA ISLE has {COLOR RED}6 {COLOR DARK_GRAY}Alolan\\nvariants for you to find…\\p{COLOR RED}VULPIX{COLOR DARK_GRAY}, {COLOR RED}NINETALES{COLOR DARK_GRAY}, {COLOR RED}SANDSHREW{COLOR DARK_GRAY}, {COLOR RED}SANDSLASH{COLOR DARK_GRAY},\\n{COLOR RED}GRIMER{COLOR DARK_GRAY}, and {COLOR RED}MUK{COLOR DARK_GRAY}.\\pKeep on searching and come back when\\nyou've caught them all!",
+  "msgstr": "Voyons voir ton Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\\pOn dirait que tu n’as pas encore\\ntrouvé toutes les formes d’Alola\\lde l’ILE D’ULA-ULA.\\pIl paraît que l’ILE D’ULA-ULA\\nabrite {COLOR 4}6 {COLOR 2}formes d’Alola…\\p{COLOR 4}GOUPIX{COLOR 2}, {COLOR 4}FEUNARD{COLOR 2}, {COLOR 4}SABELETTE{COLOR 2},\\n{COLOR 4}SABLAIREAU{COLOR 2}, {COLOR 4}TADMORV{COLOR 2}\\let {COLOR 4}GROTADMORV{COLOR 2}.\\pContinue tes recherches et reviens\\nquand tu les auras toutes attrapées!",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "typographie",
+  "probleme": "La première ligne dépasse le gabarit approximatif du dialogue.",
+  "correction": "Tu as trouvé toutes les formes\\nd’Alola de l’ILE DE PONI!",
+  "justification": "Le déplacement de « d’Alola » conserve le texte et équilibre les deux lignes.",
+  "msgid": "You found all the Alolan variants living\\non PONI ISLE!",
+  "msgstr": "Tu as trouvé toutes les formes d’Alola\\nde l’ILE DE PONI!",
+  "msgctxt": ""
+ },
+ {
+  "id": 109,
+  "categorie": "codes",
+  "probleme": "Les paramètres nommés des balises COLOR ont été remplacés par des valeurs numériques.",
+  "correction": "Voyons voir ton Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\\pOn dirait que tu n’as pas encore\\ntrouvé toutes les formes d’Alola\\lde l’ILE DE PONI.\\pIl paraît que l’ILE DE PONI\\nabrite {COLOR RED}4 {COLOR DARK_GRAY}formes d’Alola…\\p{COLOR RED}RACAILLOU{COLOR DARK_GRAY}, {COLOR RED}GRAVALANCH{COLOR DARK_GRAY},\\n{COLOR RED}GROLEM{COLOR DARK_GRAY} et {COLOR RED}NOADKOKO{COLOR DARK_GRAY}.\\pContinue tes recherches et reviens\\nquand tu les auras toutes attrapées!",
+  "justification": "Les balises reprennent exactement les paramètres RED et DARK_GRAY de la source.",
+  "msgid": "Let me take a look at your POKéDEX{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\\pIt seems you haven't quite found all of\\nthe Alolan variants on PONI ISLE\\ljust yet.\\pI've heard PONI ISLE has {COLOR RED}4 {COLOR DARK_GRAY}Alolan\\nvariants for you to find…\\p{COLOR RED}GEODUDE{COLOR DARK_GRAY}, {COLOR RED}GRAVELER{COLOR DARK_GRAY}, {COLOR RED}GOLEM{COLOR DARK_GRAY}, and\\n{COLOR RED}EXEGGUTOR{COLOR DARK_GRAY}.\\pKeep on searching and come back when\\nyou've caught them all!",
+  "msgstr": "Voyons voir ton Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\\pOn dirait que tu n’as pas encore\\ntrouvé toutes les formes d’Alola\\lde l’ILE DE PONI.\\pIl paraît que l’ILE DE PONI\\nabrite {COLOR 4}4 {COLOR 2}formes d’Alola…\\p{COLOR 4}RACAILLOU{COLOR 2}, {COLOR 4}GRAVALANCH{COLOR 2},\\n{COLOR 4}GROLEM{COLOR 2} et {COLOR 4}NOADKOKO{COLOR 2}.\\pContinue tes recherches et reviens\\nquand tu les auras toutes attrapées!",
+  "msgctxt": ""
+ }
+]

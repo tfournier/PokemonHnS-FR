@@ -1,0 +1,382 @@
+[
+ {
+  "id": 4,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’objet est entièrement en capitales dans une phrase descriptive.",
+  "correction": "Musique du Vélo active.",
+  "justification": "Le nom français de l’objet prend une majuscule initiale dans le texte courant.",
+  "msgid": "Enables BIKE music.",
+  "msgstr": "Musique du VELO active.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’objet est entièrement en capitales dans une phrase descriptive.",
+  "correction": "Coupe la musique du Vélo.",
+  "justification": "Le nom français de l’objet prend une majuscule initiale dans le texte courant.",
+  "msgid": "Disables BIKE music.",
+  "msgstr": "Coupe la musique du VELO.",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et minuscules.",
+  "correction": "SURF AUTO",
+  "justification": "Les libellés de menu sont entièrement en capitales.",
+  "msgid": "AUTORUN (SURF)",
+  "msgstr": "Surf AUTO",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "typographie",
+  "probleme": "Le premier mot du libellé est en minuscules.",
+  "correction": "SOIN RAPIDE",
+  "justification": "Les libellés de menu sont entièrement en capitales.",
+  "msgid": "FASTER JOY",
+  "msgstr": "Soin RAPIDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "terminologie",
+  "probleme": "Le libellé générique efface le nom de la fonction du Pokénav.",
+  "correction": "MATCH PHONE",
+  "justification": "La fonction « Match Call » est nommée « Match Phone » dans Pokémon Émeraude FR.",
+  "msgid": "MATCH CALLS",
+  "msgstr": "APPELS",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "typographie",
+  "probleme": "Le premier mot du libellé est en minuscules.",
+  "correction": "COMBAT RAPIDE",
+  "justification": "Les libellés de menu sont entièrement en capitales.",
+  "msgid": "FAST BATTLES",
+  "msgstr": "Combat RAPIDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "typographie",
+  "probleme": "Le dernier mot du libellé est en minuscules.",
+  "correction": "DECORS DE COMBAT",
+  "justification": "Les libellés de menu sont entièrement en capitales.",
+  "msgid": "BATTLE TERRAIN",
+  "msgstr": "DECORS DE Combat",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "oubli",
+  "probleme": "Le libellé ne précise plus quelle interface est concernée.",
+  "correction": "INTERFACE COMBAT",
+  "justification": "« Battle UI » désigne l’interface affichée pendant les combats.",
+  "msgid": "BATTLE UI",
+  "msgstr": "INTERFACE",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "contresens",
+  "probleme": "« Rapide » introduit une notion de vitesse absente de « prompt ».",
+  "correction": "CONFIRM. BALL",
+  "justification": "Le libellé anglais désigne une demande de confirmation liée à l’utilisation d’une Ball.",
+  "msgid": "BALL PROMPT",
+  "msgstr": "BALL RAPIDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "contresens",
+  "probleme": "« Aide » évoque une assistance pour réussir à fuir.",
+  "correction": "CONFIRM. FUITE",
+  "justification": "« Run prompt » désigne le message demandant de confirmer la fuite.",
+  "msgid": "RUN PROMPT",
+  "msgstr": "AIDE Fuite",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "typographie",
+  "probleme": "Le dernier mot du libellé est en minuscules.",
+  "correction": "MUSIQUE SURF",
+  "justification": "Les libellés de menu sont entièrement en capitales.",
+  "msgid": "SURF MUSIC",
+  "msgstr": "MUSIQUE Surf",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "typographie",
+  "probleme": "Le libellé est en casse de phrase.",
+  "correction": "OPTIONS DE COMBAT",
+  "justification": "Les libellés de menu sont entièrement en capitales.",
+  "msgid": "BATTLE OPTIONS",
+  "msgstr": "Options de combat",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "terminologie",
+  "probleme": "« Talent » emploie la terminologie des générations ultérieures.",
+  "correction": "Changer la capacité spéciale de\\n{STR_VAR_1} en {STR_VAR_2}?",
+  "justification": "Pokémon Émeraude FR et Pokémon Argent SoulSilver FR emploient « capacité spéciale » pour « ability ».",
+  "msgid": "Would you like to change {STR_VAR_1}'s\\nability to {STR_VAR_2}?",
+  "msgstr": "Voulez-vous changer le talent de\\n{STR_VAR_1} en {STR_VAR_2}?",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "terminologie",
+  "probleme": "« Talent » emploie la terminologie des générations ultérieures.",
+  "correction": "Capacité spéciale de {STR_VAR_1}:\\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}",
+  "justification": "Pokémon Émeraude FR et Pokémon Argent SoulSilver FR emploient « capacité spéciale » pour « ability ».",
+  "msgid": "{STR_VAR_1}'s ability became\\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}",
+  "msgstr": "Le talent de {STR_VAR_1} devient\\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "contresens",
+  "probleme": "« Grâce à » présente la modification éventuelle comme bénéfique.",
+  "correction": "Stats de {STR_VAR_1} peut-être\\nmodifiées par {STR_VAR_2}!{PAUSE_UNTIL_PRESS}",
+  "justification": "L’anglais indique seulement que l’objet a pu modifier les statistiques.",
+  "msgid": "{STR_VAR_1}'s stats may have changed due\\nto the effects of the {STR_VAR_2}!{PAUSE_UNTIL_PRESS}",
+  "msgstr": "Les stats de {STR_VAR_1} ont peut-être\\nchangé grâce à l’objet {STR_VAR_2}!{PAUSE_UNTIL_PRESS}",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "terminologie",
+  "probleme": "« ATT » ne correspond pas à l’abréviation prévue pour l’Attaque.",
+  "correction": "AT",
+  "justification": "Le lexique du projet fixe « AT » pour l’Attaque.",
+  "msgid": "ATK",
+  "msgstr": "ATT",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "terminologie",
+  "probleme": "« VIT » ne correspond pas à l’abréviation prévue pour la Vitesse.",
+  "correction": "VI",
+  "justification": "Le lexique du projet fixe « VI » pour la Vitesse.",
+  "msgid": "SPE",
+  "msgstr": "VIT",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "terminologie",
+  "probleme": "« A.SP » ne correspond pas à l’abréviation prévue pour l’Attaque Spéciale.",
+  "correction": "AS",
+  "justification": "Le lexique du projet fixe « AS » pour l’Attaque Spéciale.",
+  "msgid": "SP.A",
+  "msgstr": "A.SP",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "terminologie",
+  "probleme": "« D.SP » ne correspond pas à l’abréviation prévue pour la Défense Spéciale.",
+  "correction": "DS",
+  "justification": "Le lexique du projet fixe « DS » pour la Défense Spéciale.",
+  "msgid": "SP.D",
+  "msgstr": "D.SP",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "terminologie",
+  "probleme": "« NIV » ne correspond pas à l’abréviation prévue pour le niveau.",
+  "correction": "N.",
+  "justification": "Le lexique du projet fixe « N. » pour le niveau.",
+  "msgid": "LVL",
+  "msgstr": "NIV",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "contresens",
+  "probleme": "« Légende » désigne notamment un récit ou le texte explicatif d’une figure.",
+  "correction": "LEGENDAIRE",
+  "justification": "L’adjectif traduit le niveau de difficulté « Legendary ».",
+  "msgid": "LEGENDARY",
+  "msgstr": "LEGENDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 58,
+  "categorie": "terminologie",
+  "probleme": "« HUMAIN » altère le nom du groupe d’Œuf.",
+  "correction": "HUMANOIDE",
+  "justification": "Le groupe « Human-Like » est appelé « Humanoïde » dans la nomenclature française des groupes d’Œuf.",
+  "msgid": "HUMANE",
+  "msgstr": "HUMAIN",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "contresens",
+  "probleme": "« PRIS » exprime le résultat d’une prise.",
+  "correction": "POSSEDER",
+  "justification": "Dans le groupe d’actions, « own » est le verbe « posséder ».",
+  "msgid": "OWN",
+  "msgstr": "PRIS",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "typographie",
+  "probleme": "Le symbole de la seconde est collé au nombre.",
+  "correction": "HOR <5 s",
+  "justification": "Une espace sépare la valeur numérique du symbole d’unité.",
+  "msgid": "CW <5s",
+  "msgstr": "HOR <5s",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "typographie",
+  "probleme": "Le symbole de la seconde est collé au nombre.",
+  "correction": "HOR >5 s",
+  "justification": "Une espace sépare la valeur numérique du symbole d’unité.",
+  "msgid": "CW >5s",
+  "msgstr": "HOR >5s",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "typographie",
+  "probleme": "Le symbole de la seconde est collé au nombre.",
+  "correction": "AH <5 s",
+  "justification": "Une espace sépare la valeur numérique du symbole d’unité.",
+  "msgid": "CCW <5s",
+  "msgstr": "AH <5s",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "typographie",
+  "probleme": "Le symbole de la seconde est collé au nombre.",
+  "correction": "AH >5 s",
+  "justification": "Une espace sépare la valeur numérique du symbole d’unité.",
+  "msgid": "CCW >5s",
+  "msgstr": "AH >5s",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "typographie",
+  "probleme": "Le symbole de la seconde est collé au nombre.",
+  "correction": "H/AH >10 s",
+  "justification": "Une espace sépare la valeur numérique du symbole d’unité.",
+  "msgid": "CW/CCW >10s",
+  "msgstr": "H/AH >10s",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "terminologie",
+  "probleme": "« Atq » et « Déf » ne suivent pas les abréviations prescrites.",
+  "correction": "AT > DF",
+  "justification": "Le lexique du projet fixe « AT » pour l’Attaque et « DF » pour la Défense.",
+  "msgid": "Atk > Def",
+  "msgstr": "Atq > Déf",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "terminologie",
+  "probleme": "« Atq » et « Déf » ne suivent pas les abréviations prescrites.",
+  "correction": "AT = DF",
+  "justification": "Le lexique du projet fixe « AT » pour l’Attaque et « DF » pour la Défense.",
+  "msgid": "Atk = Def",
+  "msgstr": "Atq = Déf",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "terminologie",
+  "probleme": "« Att » et « Déf » ne suivent pas les abréviations prescrites.",
+  "correction": "AT < DF",
+  "justification": "Le lexique du projet fixe « AT » pour l’Attaque et « DF » pour la Défense.",
+  "msgid": "Atk < Def",
+  "msgstr": "Att < Déf",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "orthographe",
+  "probleme": "L’adjectif est placé avant le symbole du pourcentage.",
+  "correction": "% aléatoire",
+  "justification": "Dans ce libellé, « aléatoire » qualifie le pourcentage et se place après lui.",
+  "msgid": "random %",
+  "msgstr": "aléatoire %",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "terminologie",
+  "probleme": "« Beauté » ne suit pas le lexique fourni pour cette condition.",
+  "correction": "{UP_ARROW_2}Canon",
+  "justification": "Le lexique du projet impose « Canon » pour « Beauty » dans cette entrée.",
+  "msgid": "{UP_ARROW_2}beauty",
+  "msgstr": "{UP_ARROW_2}beauté",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "contresens",
+  "probleme": "Le fragment « sait » appelle un verbe à l’infinitif, alors que la suite est un nom de capacité.",
+  "correction": "connaît ",
+  "justification": "Le fragment doit introduire directement le nom de la capacité connue.",
+  "msgid": "knows ",
+  "msgstr": "sait ",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "oubli",
+  "probleme": "Le suffixe ne précise plus que le libellé précédent est un type.",
+  "correction": " parmi les types de l’équipe",
+  "justification": "La condition porte sur la présence d’un Pokémon du type indiqué dans l’équipe.",
+  "msgid": "-type in party",
+  "msgstr": " dans l’équipe",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "terminologie",
+  "probleme": "« Amplifiées » reprend littéralement l’anglais et perd le nom français de la forme.",
+  "correction": "natures de la Forme Aigüe",
+  "justification": "« Forme Aigüe » est le nom officiel de la forme de Salarsen déterminée par ces natures. [Pokémon Épée et Bouclier](https://swordshield.pokemon.com/fr-fr/pokemon-galar-region/toxtricity-amped-form/)",
+  "msgid": "amped natures",
+  "msgstr": "natures Amplifiées",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "contresens",
+  "probleme": "« Graves » qualifie directement les natures au lieu de désigner la forme correspondante.",
+  "correction": "natures de la Forme Grave",
+  "justification": "Ces natures déterminent la Forme Grave de Salarsen. [Pokémon Épée et Bouclier](https://swordshield.pokemon.com/fr-fr/pokemon-galar-region/)",
+  "msgid": "low-Key natures",
+  "msgstr": "natures Graves",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "orthographe",
+  "probleme": "Il manque la préposition entre « dégâts » et « recul ».",
+  "correction": " dég. de recul",
+  "justification": "Le complément « de recul » précise l’origine des dégâts.",
+  "msgid": " recoil dmg",
+  "msgstr": " dég. recul",
+  "msgctxt": ""
+ }
+]

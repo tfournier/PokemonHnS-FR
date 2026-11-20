@@ -1,0 +1,322 @@
+[
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "La description ne précise pas à qui appartiennent les deux statistiques.",
+  "correction": "Monte l’Attaque de la cible\\net baisse sa Défense, de 2 crans.",
+  "justification": "Les deux variations concernent la cible et valent chacune deux crans.",
+  "msgid": "Sharply ups target's Attack,\\nharshly lowers its Defense.",
+  "msgstr": "Monte beaucoup l’Attaque et\\nbaisse beaucoup la Défense.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "contresens",
+  "probleme": "Le tournoiement remplace l’effort intense fourni par les pattes.",
+  "correction": "Force sur ses pattes.\\nBaisse beaucoup sa Vitesse.",
+  "justification": "« Strains its legs » décrit un effort musculaire.",
+  "msgid": "Furiously strains its legs.\\nHarshly lowers user's Speed.",
+  "msgstr": "Tournoie sur ses pattes.\\nBaisse beaucoup sa Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "oubli",
+  "probleme": "La description omet que les pieds couverts de glace frappent la cible.",
+  "correction": "Frappe des pieds couverts de\\nglace et détruit le champ actif.",
+  "justification": "L’anglais décrit un coup porté avec les pieds, puis la destruction du champ.",
+  "msgid": "Ice-covered feet hit a foe\\nand destroy the terrain.",
+  "msgstr": "Tourne sur des pieds glacés\\net détruit le champ actif.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "typographie",
+  "probleme": "La casse est mélangée au sein du libellé.",
+  "correction": "CHARGE GLAIVE",
+  "justification": "Le libellé suit la casse des autres noms de capacités de la liste.",
+  "msgid": "GLAIVE RUSH",
+  "msgstr": "Charge GLAIVE",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "oubli",
+  "probleme": "« Ensuite » ne précise ni le tour concerné ni l’origine des dégâts.",
+  "correction": "Au tour suivant, l’ennemi\\ntouche à coup sûr et blesse double.",
+  "justification": "Le doublement des dégâts et la précision garantie s’appliquent aux attaques ennemies du tour suivant.",
+  "msgid": "Foe attacks next turn can't\\nmiss and do double damage.",
+  "msgstr": "Ensuite, il subit le double\\nde dégâts, sans esquive.",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "oubli",
+  "probleme": "L’appartenance du Pokémon K.O. à l’équipe a disparu.",
+  "correction": "Ranime un {PKMN} K.O. de l’équipe.\\nIl récupère la moitié de ses PV.",
+  "justification": "« Party » limite la réanimation aux Pokémon de l’équipe.",
+  "msgid": "Revives a fainted party {PKMN}\\nand restores half of its HP.",
+  "msgstr": "Ranime un {PKMN} K.O. et\\nlui rend la moitié de ses PV.",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "oubli",
+  "probleme": "La traduction mentionne trois éclaboussures et omet les trois coups portés à la cible.",
+  "correction": "Frappe la cible avec de l’eau\\n3 fois d’affilée.",
+  "justification": "« Hits target » indique que l’eau frappe la cible à chaque coup.",
+  "msgid": "Hits target with splashes\\nof water 3 times in a row.",
+  "msgstr": "Plonge et éclabousse la\\ncible 3 fois d’affilée.",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "oubli",
+  "probleme": "La portée de l’empoisonnement a disparu.",
+  "correction": "Retire pièges et Vampigraine.\\nEmpoisonne les ennemis voisins.",
+  "justification": "« Adjacent foes » désigne les adversaires adjacents au lanceur.",
+  "msgid": "Erases trap moves and Leech\\nSeed. Poisons adjacent foes.",
+  "msgstr": "Se libère des pièges et de\\nVampigraine. Empoisonne.",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "oubli",
+  "probleme": "L’ampleur des hausses de statistiques a disparu.",
+  "correction": "Sacrifie des PV pour monter\\nAT, AS et VI de 2 crans.",
+  "justification": "« Sharply boosts » indique une hausse de deux crans pour chacune des trois statistiques.",
+  "msgid": "Sharply boosts offenses and\\nSpeed by using its own HP.",
+  "msgstr": "Sacrifie des PV et booste\\nAttaque, Atq. Spé., Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "oubli",
+  "probleme": "La description omet que les flammes brûlent la cible.",
+  "correction": "Les flammes roussissent la cible.\\nMonte l’Atq. Spé. du lanceur.",
+  "justification": "La première phrase anglaise décrit l’effet offensif des flammes sur la cible.",
+  "msgid": "Flames scorch the target.\\nBoosts the user's Sp. Atk.",
+  "msgstr": "Un chant de flammes qui\\nmonte l’Atq. Spé. du lanceur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "oubli",
+  "probleme": "La traduction omet le coup porté et la légèreté des pas.",
+  "correction": "Frappe en dansant d’un pas léger\\net fluide. Monte sa Vitesse.",
+  "justification": "La danse sert à frapper, puis la Vitesse du lanceur augmente.",
+  "msgid": "Hits with light, fluid dance\\nsteps. Ups the user's Speed.",
+  "msgstr": "Des pas de danse fluides qui\\nmontent la Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "contresens",
+  "probleme": "« Plaquage » évoque une autre capacité et le texte ne précise pas de quelle forme dépend le type.",
+  "correction": "Charge qui brise les barrières.\\nType selon la forme du lanceur.",
+  "justification": "La description parle d’une charge et lie le type de la capacité à la forme du lanceur.",
+  "msgid": "Tackle that breaks barriers.\\nUser's form determines type.",
+  "msgstr": "Plaquage qui brise les murs.\\nSon type dépend de la forme.",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "contresens",
+  "probleme": "« Antique » situe l’explosion dans une autre période.",
+  "correction": "Explosion préhistorique, plus\\nforte si super efficace.",
+  "justification": "« Prehistoric » signifie « préhistorique ».",
+  "msgid": "Prehistoric explosion that's\\nstronger if super effective.",
+  "msgstr": "Une explosion antique, plus\\nforte si super efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "typographie",
+  "probleme": "La casse est mélangée au sein du libellé.",
+  "correction": "TURBO VOLT",
+  "justification": "Le libellé suit la casse des autres noms de capacités de la liste.",
+  "msgid": "ELECTRO DRIFT",
+  "msgstr": "Turbo VOLT",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "oubli",
+  "probleme": "La tempête est réduite à une simple chute de neige.",
+  "correction": "Sa blague déclenche une\\ntempête de neige. Puis il sort.",
+  "justification": "« Snowstorm » désigne une tempête de neige.",
+  "msgid": "Bad joke summons snowstorm.\\nThe user also switches out.",
+  "msgstr": "Sa blague jette un froid et\\nfait neiger. Puis il sort.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "contresens",
+  "probleme": "Le texte ajoute les herbes et remplace l’attaque par une apparition.",
+  "correction": "Attaque par surprise. Augmente\\nla Vitesse du lanceur.",
+  "justification": "« Attacks suddenly » décrit une attaque soudaine.",
+  "msgid": "The user attacks suddenly,\\nraising its Speed.",
+  "msgstr": "Surgit des herbes. Augmente\\nla Vitesse du lanceur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "contresens",
+  "probleme": "La mention de Détection est ajoutée.",
+  "correction": "Une vrille qui transperce\\nmême l’Abri de l’ennemi.",
+  "justification": "La description anglaise mentionne uniquement « Protect », soit « Abri » dans le lexique du projet.",
+  "msgid": "A spinning pointed part\\nbypasses a foe's Protect.",
+  "msgstr": "Une vrille qui transperce\\nmême Abri ou Détection.",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "oubli",
+  "probleme": "La description ne précise pas que les deux coups sont consécutifs.",
+  "correction": "Des rayons mystiques jaillis\\ndes yeux frappent 2 fois de suite.",
+  "justification": "« In a row » indique que les deux coups s’enchaînent.",
+  "msgid": "Mystical eye-beams that hit\\nthe target twice in a row.",
+  "msgstr": "Des rayons mystiques tirés\\ndes yeux. Frappe 2 fois.",
+  "msgctxt": ""
+ },
+ {
+  "id": 58,
+  "categorie": "typographie",
+  "probleme": "« Colère » présente une casse différente du reste du libellé.",
+  "correction": "POING DE COLERE",
+  "justification": "Le libellé est uniformisé en capitales sans accents selon la convention du projet.",
+  "msgid": "RAGE FIST",
+  "msgstr": "POING DE Colère",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "typographie",
+  "probleme": "La casse est mélangée au sein du libellé.",
+  "correction": "CANON BLINDE",
+  "justification": "Le libellé suit la casse des autres noms de capacités de la liste.",
+  "msgid": "ARMOR CANNON",
+  "msgstr": "Canon BLINDE",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "oubli",
+  "probleme": "La pression du jet d’eau a disparu.",
+  "correction": "Jet d’eau sous pression.\\nTaux de critiques élevé.",
+  "justification": "« Pressurized water » précise que l’eau est projetée sous pression.",
+  "msgid": "Pressurized water cut with a\\nhigh critical-hit ratio.",
+  "msgstr": "Un jet d’eau tranchant.\\nTaux de critiques élevé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "oubli",
+  "probleme": "La baisse de Vitesse à chaque tour est devenue une baisse pendant trois tours.",
+  "correction": "Baisse la Vitesse ennemie à\\nchaque tour pendant 3 tours.",
+  "justification": "« Each turn » indique que la baisse se répète à chacun des trois tours.",
+  "msgid": "Lowers the foe's speed\\neach turn for 3 turns.",
+  "msgstr": "Englue l’ennemi. Sa Vitesse\\nbaisse pendant 3 tours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "oubli",
+  "probleme": "La description ne nomme plus le Pokémon dont dépend l’effet.",
+  "correction": "TERAPAGOS, en Forme Stellaire,\\nfrappe tous les ennemis.",
+  "justification": "L’anglais rattache explicitement la Forme Stellaire à TERAPAGOS.",
+  "msgid": "In Terapagos's Stellar\\nForm, it hits all foes.",
+  "msgstr": "En Forme Stellaire, frappe\\ntous les ennemis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "typographie",
+  "probleme": "La casse est mélangée au sein du libellé.",
+  "correction": "VIF ECLAIR",
+  "justification": "Le libellé suit la casse des autres noms de capacités de la liste.",
+  "msgid": "THUNDERCLAP",
+  "msgstr": "VIF Eclair",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que le lanceur projette les lames vers sa cible.",
+  "correction": "Projette des lames de particules\\nsur la cible. Frappe deux fois.",
+  "justification": "« Launches … at the target » décrit une projection dirigée vers la cible.",
+  "msgid": "Launches particle blades at\\nthe target. Strikes twice.",
+  "msgstr": "Des lames de particules qui\\nfrappent deux fois.",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "typographie",
+  "probleme": "La casse est mélangée au sein du libellé.",
+  "correction": "PRESSION EXTREME",
+  "justification": "Le libellé suit la casse des autres noms de capacités de la liste.",
+  "msgid": "HARD PRESS",
+  "msgstr": "Pression EXTREME",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "orthographe",
+  "probleme": "« Surtout Dragon » laisse inachevée la précision sur le type des alliés.",
+  "correction": "Monte le taux de coups critiques\\ndes alliés, surtout de type Dragon.",
+  "justification": "« De type Dragon » rattache clairement la condition aux alliés.",
+  "msgid": "Increases allies' critical hit\\nratio, especially if Dragons.",
+  "msgstr": "Augmente le taux critique\\ndes alliés, surtout Dragon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "oubli",
+  "probleme": "« Après un échec » laisse indéterminée la capacité dont l’échec déclenche le bonus.",
+  "correction": "Puissance doublée si la\\ndernière capacité a échoué.",
+  "justification": "« Last move » limite le déclenchement à l’échec de la dernière capacité utilisée.",
+  "msgid": "A desperation attack. Power\\ndoubles if last move failed.",
+  "msgstr": "Attaque de dépit. Puissance\\ndoublée après un échec.",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "orthographe",
+  "probleme": "« Si raté » laisse la proposition conditionnelle incomplète.",
+  "correction": "Plaquage électrique. S’il\\nrate, le lanceur se blesse.",
+  "justification": "La condition comporte désormais un sujet et un verbe.",
+  "msgid": "An electrified slam. If it\\nmisses, the user is hurt.",
+  "msgstr": "Un plaquage électrique. Si\\nraté, le lanceur se blesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "typographie",
+  "probleme": "La casse est mélangée au sein du libellé.",
+  "correction": "DISSONANCE PSY",
+  "justification": "Le libellé suit la casse des autres noms de capacités de la liste.",
+  "msgid": "PSYCHIC NOISE",
+  "msgstr": "DISSONANCE Psy",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "terminologie",
+  "probleme": "Le libellé remplace « -Charge » par un point.",
+  "correction": "TURBO-CHARGE BULLDOZER",
+  "justification": "Le nom officiel dans Pokémon Soleil et Pokémon Lune est « Turbo-Charge Bulldozer ». [Libellés français du jeu](https://raw.githubusercontent.com/kwsch/PKHeX/master/PKHeX.Core/Resources/text/other/fr/text_Moves_fr.txt#L623)",
+  "msgid": "BREAKNECK BLITZ",
+  "msgstr": "Turbo. BULLDOZER",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "typographie",
+  "probleme": "La casse est mélangée au sein du libellé.",
+  "correction": "PIQUE SUPERSONIQUE",
+  "justification": "Le nom « Piqué Supersonique » suit la convention du projet pour les capitales sans accents.",
+  "msgid": "SUPERSONIC SKYSTRIKE",
+  "msgstr": "Pique SUPERSONIQUE",
+  "msgctxt": ""
+ }
+]

@@ -1,0 +1,342 @@
+[
+ {
+  "id": 0,
+  "categorie": "terminologie",
+  "probleme": "Le nom du Badge est écrit « Badge PLAINE ».",
+  "correction": "{PLAYER} reçoit le Badge Plaine.",
+  "justification": "La graphie française de Pokémon Argent SoulSilver est « Badge Plaine ». [Réplique de Blanche dans le jeu](https://www.pokepedia.fr/Blanche_%28Johto%29/Citations)",
+  "msgid": "{PLAYER} received PLAINBADGE.",
+  "msgstr": "{PLAYER} reçoit le Badge PLAINE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 1,
+  "categorie": "terminologie",
+  "probleme": "« Badge PLAINE » et « POKéMON » ne suivent pas les graphies du projet.",
+  "correction": "Le Badge Plaine permet à tes\\nPokémon d’utiliser Force.\\lMême hors combat!\\pIl augmente aussi la défense\\nde tes Pokémon.\\pOh, tu peux aussi prendre ça!",
+  "justification": "La réplique de Blanche dans Pokémon Argent SoulSilver emploie « Badge Plaine » et « Pokémon ». La phrase est répartie sur trois lignes pour respecter la largeur. [Réplique de Blanche dans le jeu](https://www.pokepedia.fr/Blanche_%28Johto%29/Citations)",
+  "msgid": "PLAINBADGE lets your POKéMON use\\nSTRENGTH outside of battle.\\pIt also boosts your POKéMON's\\nDEFENSE.\\pOh, you can have this too!",
+  "msgstr": "Le Badge PLAINE permet à tes\\nPOKéMON d’utiliser Force hors combat.\\pIl augmente aussi la DEFENSE\\nde tes Pokémon.\\pOh, tu peux aussi prendre ça!",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "contresens",
+  "probleme": "« Je ferai mieux » promet un meilleur résultat.",
+  "correction": "J’essaie de battre Blanche, mais…\\nC’est déprimant.\\pÇa va! Si je perds, je ferai\\nplus d’efforts la prochaine fois!",
+  "justification": "« I’ll try harder » porte sur les efforts que le personnage compte fournir.",
+  "msgid": "I'm trying to beat WHITNEY, but…\\nIt's depressing.\\pI'm okay! If I lose, I'll just try\\nharder next time!",
+  "msgstr": "J’essaie de battre Blanche, mais…\\nC’est déprimant.\\pÇa va! Si je perds, je ferai\\nmieux la prochaine fois!",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "orthographe",
+  "probleme": "Il manque la préposition devant « Route 34 ».",
+  "correction": "Salut, futur Maître!\\pCette Arène est celle de Blanche,\\nexperte en Pokémon Normal.\\pMéfie-toi de son équipe mignonne.\\pCertains Pokémon de cette Arène\\nsont aussi du type Fée, découvert\\lrécemment.\\pVa sur la Route 34 si tu veux\\nun Pokémon Combat ou Poison.",
+  "justification": "« Va sur la Route 34 » indique la destination dans une construction française complète.",
+  "msgid": "Yo! CHAMP in making!\\pThis GYM is home to WHITNEY, the\\nmaster of NORMAL-type POKéMON.\\pBe cautious of her cute team.\\pSome of the POKéMON in this gym\\nhave the newly discovered FAIRY\\ltype as well.\\pCheck ROUTE 34 if you need a\\nFIGHTING-type or POISON-type.",
+  "msgstr": "Salut, futur Maître!\\pCette Arène est celle de Blanche,\\nexperte en Pokémon Normal.\\pMéfie-toi de son équipe mignonne.\\pCertains Pokémon de cette Arène\\nsont aussi du type Fée, découvert\\lrécemment.\\pVa voir Route 34 si tu as besoin\\nd’un Pokémon Combat ou Poison.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "contresens",
+  "probleme": "La question fait des CS elles-mêmes ce que les Pokémon apprennent.",
+  "correction": "Tes Pokémon ont appris des\\ncapacités grâce à des CS?\\pCes capacités s’utilisent même\\nsi ton Pokémon est K.O.",
+  "justification": "« HM moves » désigne les capacités apprises au moyen des CS.",
+  "msgid": "Do your POKéMON know HM moves?\\pThose moves can be used even if\\nyour POKéMON has fainted.",
+  "msgstr": "Tes Pokémon connaissent des CS?\\pCes capacités s’utilisent même\\nsi ton Pokémon est K.O.",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "typographie",
+  "probleme": "Le nom générique « Pokémon » est en capitales mixtes.",
+  "correction": "Tu connais les Baies?\\pOn en ouvre une, on la vide et\\non y met un mécanisme spécial.\\pEt hop, on peut capturer des\\nPokémon avec!\\pAvant l’invention des Poké Balls,\\ntout le monde utilisait des Baies.",
+  "justification": "Le projet réserve les capitales aux noms d’espèces et écrit le nom générique « Pokémon ».",
+  "msgid": "Do you know about BERRIES?\\pCrack one open, hollow it out and\\nfit it with a special device.\\pThen you can catch POKéMON with it.\\pBefore POKé BALLS were invented,\\neveryone used BERRIES.",
+  "msgstr": "Tu connais les Baies?\\pOn en ouvre une, on la vide et\\non y met un mécanisme spécial.\\pEt hop, on peut capturer des\\nPOKéMON avec!\\pAvant l’invention des Poké Balls,\\ntout le monde utilisait des Baies.",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "contresens",
+  "probleme": "« Qui vivent sous l’aile » introduit une idée de résidence.",
+  "correction": "La cloche d’étain sonne clair pour\\nceux que la tour protège.",
+  "justification": "« Under the tower’s wing » évoque la protection de la tour.",
+  "msgid": "The bell of tin rings clearly for\\nthose under the tower's wing.",
+  "msgstr": "La cloche d’étain sonne clair pour\\nceux qui vivent sous l’aile de la tour.",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "registre",
+  "probleme": "Le garde tutoie le joueur dans un dialogue de contrôle d’accès.",
+  "correction": "La Tour Carillon est interdite à\\nceux qui n’en sont pas dignes.\\lDésolé, mais vous devez\\lvous en aller.",
+  "justification": "Le vouvoiement correspond à celui des autres répliques de contrôle d’accès.",
+  "msgid": "TIN TOWER is off limits to the\\nunworthy. Sorry but you'll have\\lto leave.",
+  "msgstr": "La Tour Carillon est interdite à\\nceux qui n’en sont pas dignes.\\lDésolé, mais tu dois\\lt’en aller.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "terminologie",
+  "probleme": "Le nom de l’objet diffère du lexique et le garde tutoie le joueur.",
+  "correction": "Ah!\\pLe son de ce Glas Transp.!\\pC’est… C’est sublime!\\pJe n’ai jamais entendu un son\\naussi beau!\\pLe son de ce glas reflète l’âme\\nde celui qui le porte.\\pVous…\\pVous pourriez franchir\\nla Tour Carillon.\\pJe vous en prie, avancez.",
+  "justification": "Le lexique impose « Glas Transp. », graphie du Sac dans Pokémon Argent SoulSilver. Le vouvoiement suit les autres répliques d’accueil. [Graphies de l’objet dans le jeu](https://www.pokepedia.fr/Glas_Transp.)",
+  "msgid": "Ah!\\pThe sound of that CLEAR BELL!\\pIt… It's sublime!\\pI've never heard so beautiful a\\nsound before!\\pThat bell's chime is indicative of\\nthe bearer's soul.\\pYou…\\pYou may be able to make it through\\nTIN TOWER.\\pPlease, do go on.",
+  "msgstr": "Ah!\\pLe son de ce GLAS TRANSPARENT!\\pC’est… C’est sublime!\\pJe n’ai jamais entendu un son\\naussi beau!\\pLe son de ce glas reflète l’âme\\nde celui qui le porte.\\pToi…\\pTu pourrais peut-être franchir\\nla Tour Carillon.\\pJe t’en prie, avance.",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "registre",
+  "probleme": "Le garde passe au tutoiement.",
+  "correction": "Le son de cette cloche reflète\\nl’âme de celui qui la porte.\\pVous…\\nVous en êtes vraiment digne.",
+  "justification": "Le garde vouvoie le joueur dans les autres répliques de contrôle d’accès.",
+  "msgid": "That bell's chime is indicative of\\nthe bearer's soul.\\pYou…\\nTruly are worthy.",
+  "msgstr": "Le son de cette cloche reflète\\nl’âme de celui qui la porte.\\pToi…\\nTu en es vraiment digne.",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "oubli",
+  "probleme": "La traduction omet « ahead ».",
+  "correction": "Devant vous, la Tour Carillon\\na neuf étages et une beauté\\ldivine.\\pElle apaise l’âme de tous ceux\\nqui la contemplent.",
+  "justification": "Le texte source situe la tour devant le joueur.",
+  "msgid": "The TIN TOWER ahead is a nine-\\ntier tower of divine beauty.\\pIt soothes the soul of all who\\nsee it.",
+  "msgstr": "La Tour Carillon est une tour\\nde neuf étages d’une beauté\\ldivine.\\pElle apaise l’âme de tous ceux\\nqui la contemplent.",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "typographie",
+  "probleme": "Le nom générique « Pokémon » est en capitales mixtes.",
+  "correction": "La Tour Carillon a tremblé! Un\\nPokémon a dû revenir au sommet!",
+  "justification": "La graphie générique du projet est « Pokémon ».",
+  "msgid": "The TIN TOWER shook! A POKéMON must\\nhave returned to the top!",
+  "msgstr": "La Tour Carillon a tremblé! Un\\nPOKéMON a dû revenir au sommet!",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "typographie",
+  "probleme": "Les deux occurrences du nom générique « Pokémon » n’ont pas la même casse.",
+  "correction": "Deux tours… Deux Pokémon…\\pMais quand l’une a brûlé, les deux\\nPokémon se sont envolés pour ne\\ljamais revenir.",
+  "justification": "La graphie générique du projet est « Pokémon ».",
+  "msgid": "Two towers… Two POKéMON…\\pBut when one burned down, both\\nPOKéMON flew away, never to return.",
+  "msgstr": "Deux tours… Deux Pokémon…\\pMais quand l’une a brûlé, les deux\\nPOKéMON se sont envolés pour ne\\ljamais revenir.",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "contresens",
+  "probleme": "« Impatient » décrit quelqu’un qui supporte mal d’attendre.",
+  "correction": "CHEN: Oh, misère…\\nToujours aussi pressant!\\p{B_PLAYER_NAME}.\\pTu n’avais encore jamais combattu\\navec des Pokémon, n’est-ce pas?\\pDans un combat, les Dresseurs\\nlancent leurs Pokémon pour qu’ils\\lse battent entre eux.\\p",
+  "justification": "« Pushy » reproche au rival son insistance.",
+  "msgid": "OAK: Oh, for Pete's sake…\\nSo pushy, as always.\\p{B_PLAYER_NAME}.\\pYou've never had a POKéMON battle\\nbefore, have you?\\pA POKéMON battle is when TRAINERS\\npit their POKéMON against each\\lother.\\p",
+  "msgstr": "CHEN: Oh, misère…\\nToujours aussi impatient!\\p{B_PLAYER_NAME}.\\pTu n’avais encore jamais combattu\\navec des Pokémon, n’est-ce pas?\\pDans un combat, les Dresseurs\\nlancent leurs Pokémon pour qu’ils\\lse battent entre eux.\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "contresens",
+  "probleme": "Chen parle de ce que le joueur ignorait et l’appelle par son nom au mauvais moment.",
+  "correction": "CHEN: Hum…\\nC’est vraiment décevant…\\pSi tu gagnes, tu remportes de\\nl’argent et tes Pokémon progressent.\\pMais si tu perds, {B_PLAYER_NAME},\\ntu paies le vainqueur…\\pMais cette fois, on ne t’a pas\\nprévenu. Je vais payer pour toi.\\pMais tu devras te débrouiller sans\\nmoi une fois dehors.\\pC’est pour ça que tu dois entraîner\\ntes Pokémon contre des sauvages.\\p",
+  "justification": "Chen prend en charge la défaite parce que le joueur n’a pas été prévenu. Il le nomme en lui expliquant ce qu’il doit payer s’il perd.",
+  "msgid": "OAK: Hm…\\nHow disappointing…\\pIf you win, you earn prize money,\\nand your POKéMON grow.\\pBut if you lose, {B_PLAYER_NAME}, you end\\nup paying prize money…\\pHowever, since you had no warning\\nthis time, I'll pay for you.\\pBut things won't be this way once\\nyou step outside these doors.\\pThat's why you must strengthen your\\nPOKéMON by battling wild POKéMON.\\p",
+  "msgstr": "CHEN: Hum…\\nC’est vraiment décevant…\\pSi tu gagnes, tu remportes de\\nl’argent et tes Pokémon progressent.\\pMais si tu perds, tu dois donner\\nde l’argent au vainqueur…\\p{B_PLAYER_NAME}, comme tu ne le savais\\npas, je vais payer pour toi.\\pMais tu devras te débrouiller sans\\nmoi une fois dehors.\\pC’est pour ça que tu dois entraîner\\ntes Pokémon contre des sauvages.\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "orthographe",
+  "probleme": "« Fuir d’un combat » emploie une préposition superflue.",
+  "correction": "CHEN: Non, on ne peut pas fuir\\nun combat contre un Dresseur!\\p",
+  "justification": "Dans cette construction, « fuir » prend « un combat » comme complément direct.",
+  "msgid": "OAK: No! There's no running away\\nfrom a TRAINER POKéMON battle!\\p",
+  "msgstr": "CHEN: Non, on ne peut pas fuir\\nd’un combat contre un Dresseur!\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "typographie",
+  "probleme": "Le nom générique « Pokémon » est en capitales mixtes.",
+  "correction": "Le Dresseur qui met K.O. tous les\\nPokémon adverses en réduisant leurs\\lPV à “0” gagne le combat.\\p",
+  "justification": "La graphie générique du projet est « Pokémon ».",
+  "msgid": "The TRAINER that makes the other\\nTRAINER's POKéMON faint by lowering\\ltheir HP to “0,” wins.\\p",
+  "msgstr": "Le Dresseur qui met K.O. tous les\\nPOKéMON adverses en réduisant leurs\\lPV à “0” gagne le combat.\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "terminologie",
+  "probleme": "« Ingénieur » diffère du nom français de la classe.",
+  "correction": "MECANO",
+  "justification": "La classe « Engineer » s’appelle « Mécano » dans Pokémon Rouge Feu et Vert Feuille. [Classe Mécano](https://www.pokepedia.fr/M%C3%A9cano)",
+  "msgid": "ENGINEER",
+  "msgstr": "INGENIEUR",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "terminologie",
+  "probleme": "« Crâne Chauve » traduit littéralement le nom anglais de la classe.",
+  "correction": "LOUBARD",
+  "justification": "La classe « Cue Ball » s’appelle « Loubard » dans Pokémon Rouge Feu et Vert Feuille. [Classe Loubard](https://www.pokepedia.fr/Loubard)",
+  "msgid": "CUE BALL",
+  "msgstr": "CRANE CHAUVE",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "terminologie",
+  "probleme": "« Joueur » diffère du nom français de la classe.",
+  "correction": "CROUPIER",
+  "justification": "La classe « Gamer » s’appelle « Croupier » dans Pokémon Rouge Feu et Vert Feuille. [Classe Croupier](https://www.pokepedia.fr/Croupier)",
+  "msgid": "GAMER",
+  "msgstr": "JOUEUR",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "terminologie",
+  "probleme": "« Rockeur » diffère de la graphie officielle de la classe.",
+  "correction": "ROCKER",
+  "justification": "Pokémon Rouge Feu et Vert Feuille emploient « Rocker ». [Historique de la classe Rocker](https://www.pokepedia.fr/%C3%89lectricien)",
+  "msgid": "ROCKER",
+  "msgstr": "ROCKEUR",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "terminologie",
+  "probleme": "« Médium » désigne une autre classe de Dresseurs.",
+  "correction": "EXORCISTE",
+  "justification": "La classe « Channeler » de Pokémon Rouge Feu et Vert Feuille s’appelle « Exorciste ». L’entrée « MEDIUM » du lexique concerne la classe de Johto. [Classe Exorciste](https://www.pokepedia.fr/Exorciste)",
+  "msgid": "CHANNELER",
+  "msgstr": "MEDIUM",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "terminologie",
+  "probleme": "« Tandem » diffère du nom français de la classe.",
+  "correction": "DUO BASTON",
+  "justification": "La classe « Crush Kin » s’appelle « Duo Baston » dans Pokémon Rouge Feu et Vert Feuille. [Classe Duo Baston](https://www.pokepedia.fr/Duo_Baston)",
+  "msgid": "CRUSH KIN",
+  "msgstr": "TANDEM",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "terminologie",
+  "probleme": "« Fille Tandem » diffère du nom français de la classe.",
+  "correction": "FILLE BASTON",
+  "justification": "La classe « Crush Girl » s’appelle « Fille Baston » dans Pokémon Rouge Feu et Vert Feuille. [Classe Fille Baston](https://www.pokepedia.fr/Fille_Baston)",
+  "msgid": "CRUSH GIRL",
+  "msgstr": "FILLE TANDEM",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "orthographe",
+  "probleme": "« Très » ne peut pas modifier directement « monte » ou « chute ».",
+  "correction": " beaucoup",
+  "justification": "« Beaucoup » qualifie le verbe. L’espace initial permet de placer le fragment après le verbe. Les autres messages qui réutilisent ce fragment exigent le même déplacement.",
+  "msgid": "sharply ",
+  "msgstr": "très ",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "orthographe",
+  "probleme": "Le fragment d’intensité est placé devant le verbe, ce qui produit « très monte ».",
+  "correction": "{B_DEF_NAME_WITH_PREFIX}: {B_BUFF1} monte{B_BUFF2}!",
+  "justification": "Avec la correction du fragment 46, l’assemblage donne « monte beaucoup ». Un fragment vide donne « monte! ».",
+  "msgid": "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}rose!",
+  "msgstr": "{B_DEF_NAME_WITH_PREFIX}: {B_BUFF1} {B_BUFF2}monte!",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "codes",
+  "probleme": "Le code sonore symbolique de la source a été remplacé par une forme numérique.",
+  "correction": "{PLAY_SE SE_FLEE}Vous prenez la fuite!\\p",
+  "justification": "La correction restitue la graphie du code source conformément à la consigne.",
+  "msgid": "{PLAY_SE SE_FLEE}You got away safely!\\p",
+  "msgstr": "{PLAY_SE 17 0}Vous prenez la fuite!\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "typographie",
+  "probleme": "« Un » précède le nom de l’espèce malgré la convention des messages de rencontre.",
+  "correction": "{B_OPPONENT_MON1_NAME} sauvage apparaît!\\p",
+  "justification": "Le projet place « sauvage » après le nom et supprime l’article dans ces messages.",
+  "msgid": "You encountered a wild {B_OPPONENT_MON1_NAME}!\\p",
+  "msgstr": "Un {B_OPPONENT_MON1_NAME} sauvage apparaît!\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 59,
+  "categorie": "typographie",
+  "probleme": "« Un » précède le nom de l’espèce malgré la convention des messages de rencontre.",
+  "correction": "{B_OPPONENT_MON1_NAME} sauvage apparaît!{PAUSE 127}",
+  "justification": "Le projet place « sauvage » après le nom et supprime l’article dans ces messages.",
+  "msgid": "You encountered a wild {B_OPPONENT_MON1_NAME}!{PAUSE 127}",
+  "msgstr": "Un {B_OPPONENT_MON1_NAME} sauvage apparaît!{PAUSE 127}",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "oubli",
+  "probleme": "Le message omet l’apparition et ajoute des articles devant les noms.",
+  "correction": "Oh! {B_OPPONENT_MON1_NAME} sauvage\\net {B_OPPONENT_MON2_NAME} sauvage\\lapparaissent!\\p",
+  "justification": "Le verbe restitue « appeared » et chaque nom est suivi de « sauvage » conformément à la convention.",
+  "msgid": "Oh! A wild {B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME} appeared!\\p",
+  "msgstr": "Oh! Un {B_OPPONENT_MON1_NAME} et un {B_OPPONENT_MON2_NAME} sauvages!\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "contresens",
+  "probleme": "La question demande si le Pokémon doit renoncer de lui-même.",
+  "correction": "{PAUSE 32}Renoncer à apprendre {B_BUFF2} à {B_BUFF1}?",
+  "justification": "Le jeu demande au joueur s’il veut renoncer à enseigner la capacité au Pokémon.",
+  "msgid": "{PAUSE 32}Do you want to give up on having {B_BUFF1} learn {B_BUFF2}?",
+  "msgstr": "{PAUSE 32}{B_BUFF1} doit-il renoncer à apprendre {B_BUFF2}?",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "contresens",
+  "probleme": "« Sans voix » décrit la stupeur ou le silence.",
+  "correction": "La défaite vous accable!",
+  "justification": "« Overwhelmed by your defeat » décrit l’abattement provoqué par la défaite.",
+  "msgid": "You were overwhelmed by your defeat!",
+  "msgstr": "La défaite vous laisse sans voix!",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "contresens",
+  "probleme": "« Dort » décrit un état déjà en cours.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} s’endort et récupère ses PV!",
+  "justification": "Le message de Repos annonce l’endormissement et la récupération des PV.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} slept and restored its HP!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} dort et récupère ses PV!",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "contresens",
+  "probleme": "La traduction inverse l’attaquant et la cible.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} pince {B_DEF_NAME_WITH_PREFIX2}!",
+  "justification": "Dans la source, l’attaquant exerce le pincement sur la cible.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} clamped down on {B_DEF_NAME_WITH_PREFIX2}!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} est pincé par {B_DEF_NAME_WITH_PREFIX2}!",
+  "msgctxt": ""
+ }
+]

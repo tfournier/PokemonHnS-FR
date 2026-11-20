@@ -1,0 +1,182 @@
+[
+ {
+  "id": 10,
+  "categorie": "contresens",
+  "probleme": "« Modifié » fait du type Fée lui-même l’objet du changement.",
+  "correction": "Certains {PKMN} gagnent le type\\nFée, comme en GEN VI.",
+  "justification": "Certains Pokémon acquièrent le type Fée, qu’il s’ajoute à leurs types ou remplace l’un d’eux.",
+  "msgid": "FAIRY TYPE is added / changed to\\ncertain {PKMN}, as in GEN VI.",
+  "msgstr": "Le TYPE Fée est ajouté / modifié chez\\ncertains {PKMN}, comme en GEN VI.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "contresens",
+  "probleme": "« Peuvent » rend le K.O. facultatif.",
+  "correction": "Vos {PKMN} seront mis K.O.\\npar le poison.",
+  "justification": "Le texte anglais présente le K.O. comme l’issue de l’empoisonnement dans ce mode.",
+  "msgid": "Your {PKMN} will faint if they are\\nPOISONED.",
+  "msgstr": "Vos {PKMN} peuvent être mis K.O.\\npar le Poison.",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "orthographe",
+  "probleme": "« PHYSIQUE ou SPECIALE dépend » laisse le verbe sans sujet exprimé.",
+  "correction": "La catégorie PHYS. ou SPE. dépend\\ndu TYPE du {PKMN}.",
+  "justification": "Le sujet « La catégorie » explicite ce qui dépend du type et justifie le singulier du verbe.",
+  "msgid": "PHYSICAL and SPECIAL MOVES\\ndepend on the {PKMN} TYPE.",
+  "msgstr": "PHYSIQUE ou SPECIALE dépend\\ndu TYPE du {PKMN}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "orthographe",
+  "probleme": "« PHYSIQUE ou SPECIALE dépend » laisse le verbe sans sujet exprimé.",
+  "correction": "La catégorie PHYS. ou SPE. dépend\\nde la CAPACITE.",
+  "justification": "Le sujet « La catégorie » explicite ce qui dépend de la capacité et justifie le singulier du verbe.",
+  "msgid": "PHYSICAL and SPECIAL MOVES\\nare MOVE specific.",
+  "msgstr": "PHYSIQUE ou SPECIALE dépend\\nde la CAPACITE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "oubli",
+  "probleme": "L’adversaire mis K.O. a disparu.",
+  "correction": "Si l’attaque à recharge met\\nl’ennemi K.O., pas de recharge.",
+  "justification": "L’exemption s’applique quand la capacité met l’adversaire K.O.",
+  "msgid": "If a RECHARGE MOVE KO's the opponent,\\nno recharge turn is needed.",
+  "msgstr": "Si une CAPA. A RECHARGE met K.O.,\\naucun tour de recharge n’est requis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "oubli",
+  "probleme": "Le texte ne précise plus ce qui est sauvegardé.",
+  "correction": "Sauver les choix et continuer…",
+  "justification": "La sauvegarde porte sur les choix du joueur dans ce menu.",
+  "msgid": "Save choices and continue...",
+  "msgstr": "Sauver et continuer…",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "contresens",
+  "probleme": "« TOMBE » désigne une sépulture individuelle.",
+  "correction": "CIMETIERE",
+  "justification": "« Cemetery » désigne le lieu qui rassemble les sépultures.",
+  "msgid": "CEMETERY",
+  "msgstr": "TOMBE",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "typographie",
+  "probleme": "La majuscule à « Génération » est injustifiée.",
+  "correction": "Très faible taux de chromatiques.\\nTaux par défaut de la gén. III.",
+  "justification": "« Génération » est ici un nom commun. L’abréviation permet de respecter la longueur de ligne.",
+  "msgid": "Very low chance of SHINY encounter.\\nDefault chance from Generation III.",
+  "msgstr": "Très faible chance de rencontre CHROMA.\\nTaux par défaut de la Génération III.",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "typographie",
+  "probleme": "La majuscule à « Génération » est injustifiée.",
+  "correction": "Faible taux de chromatiques.\\nTaux par défaut dès la gén. VI.",
+  "justification": "« Génération » est ici un nom commun. L’abréviation permet de respecter la longueur de ligne.",
+  "msgid": "Low chance of SHINY encounter.\\nDefault chance from Generation VI+.",
+  "msgstr": "Faible chance de rencontre CHROMA.\\nTaux par défaut dès la Génération VI.",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "contresens",
+  "probleme": "« Options aléatoires » suggère que les réglages eux-mêmes sont tirés au sort.",
+  "correction": "Aller aux options du mode aléatoire.",
+  "justification": "« Randomizer » désigne le mode dont la page suivante présente les réglages.",
+  "msgid": "Continue to Randomizer options.",
+  "msgstr": "Aller aux options aléatoires.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "oubli",
+  "probleme": "« Some » a disparu, ce qui étend l’exclusion à tous les autres Pokémon spéciaux.",
+  "correction": "{PKMN} nommés, du Casino, errants\\net qq. {PKMN} spéciaux inchangés.",
+  "justification": "« Qq. » rétablit la restriction à quelques autres Pokémon spéciaux.",
+  "msgid": "Named {PKMN}, casino {PKMN}, roamers, and\\nsome other special {PKMN} won't change.",
+  "msgstr": "{PKMN} nommés, {PKMN} du Casino, errants\\net autres {PKMN} spéciaux inchangés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "oubli",
+  "probleme": "« Currently » a disparu et « Basé » a un référent ambigu.",
+  "correction": "{PKMN} remplacés à rang égal.\\nRang actuel: stade d’évolution.",
+  "justification": "Le stade d’évolution est le critère utilisé actuellement pour déterminer le rang.",
+  "msgid": "{PKMN} replaced with similar tiered\\nones. Currently based on evo stages.",
+  "msgstr": "{PKMN} remplacés par d’autres de même\\nrang. Basé sur le stade d’évolution.",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "orthographe",
+  "probleme": "« Aléatoire » est au singulier et il manque « des » devant le code.",
+  "correction": "Talents des {PKMN} aléatoires.",
+  "justification": "L’adjectif s’accorde avec « talents » et « des » introduit le complément du nom.",
+  "msgid": "Randomize all {PKMN} abilities.",
+  "msgstr": "Rend aléatoire les talents {PKMN}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "orthographe",
+  "probleme": "« Aléatoire » est au singulier et il manque « des » devant le code.",
+  "correction": "Evolutions des {PKMN} aléatoires.",
+  "justification": "L’adjectif s’accorde avec « évolutions » et « des » introduit le complément du nom.",
+  "msgid": "Randomize all {PKMN} evolutions.",
+  "msgstr": "Rend aléatoire les évolutions {PKMN}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "orthographe",
+  "probleme": "« Aléatoire » ne s’accorde pas avec « lignées ».",
+  "correction": "Lignées d’évolution aléatoires.\\nDe nouvelles lignées possibles!",
+  "justification": "L’adjectif prend le pluriel. « Possibles » conserve la nuance de « allows ».",
+  "msgid": "Randomize evolution lines. Allows\\nnew evolution lines to occur!",
+  "msgstr": "Rend aléatoire les lignées d’évolution.\\nDe nouvelles lignées apparaissent!",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "orthographe",
+  "probleme": "« Aléatoire » ne s’accorde pas avec « affinités ».",
+  "correction": "Efficacité des types aléatoire.\\nATTENTION: RISQUE DE BUGS!",
+  "justification": "« Efficacité des types » traduit directement le mécanisme visé et appelle le singulier.",
+  "msgid": "Randomize type effectiveness.\\nWARNING: CAN BE BUGGY!",
+  "msgstr": "Rend aléatoire les affinités de types.\\nATTENTION: RISQUE DE BUGS!",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "orthographe",
+  "probleme": "« Aléatoire » ne s’accorde pas avec « objets ».",
+  "correction": "Objets trouvés, cachés et reçus\\naléatoires. Sauf OBJETS RARES!",
+  "justification": "L’adjectif s’accorde au pluriel avec « objets ».",
+  "msgid": "Randomize found, hidden and received\\nitems. KEY items are excluded!",
+  "msgstr": "Rend aléatoire les objets trouvés,\\ncachés et reçus. Sauf OBJETS RARES!",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "oubli",
+  "probleme": "La restriction aux options choisies a disparu.",
+  "correction": "Vos choix ci-dessus produiront\\ndu chaos. DECONSEILLE!",
+  "justification": "L’avertissement vise les réglages sélectionnés par le joueur.",
+  "msgid": "Every above chosen option will be\\nvery chaotic. NOT recommended!",
+  "msgstr": "Toutes les options ci-dessus seront\\ntrès chaotiques. DECONSEILLE!",
+  "msgctxt": ""
+ }
+]

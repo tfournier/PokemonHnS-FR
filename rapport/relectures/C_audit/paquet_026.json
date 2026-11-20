@@ -1,0 +1,302 @@
+[
+ {
+  "id": 1,
+  "categorie": "oubli",
+  "probleme": "Le Pokémon se secoue pour se réveiller.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} se secoue et se réveille pour vous rassurer!",
+  "justification": "« Shook itself awake » indique comment le Pokémon se réveille.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} shook itself awake so you wouldn't worry!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} se réveille pour vous rassurer!",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "registre",
+  "probleme": "Le message tutoie le joueur au milieu de messages de combat qui le vouvoient.",
+  "correction": "{B_DEF_NAME_WITH_PREFIX} tient bon pour ne pas vous faire de peine!",
+  "justification": "Le vouvoiement harmonise ce message avec les autres messages d’affection du lot.",
+  "msgid": "{B_DEF_NAME_WITH_PREFIX} toughed it out so you wouldn't feel sad!",
+  "msgstr": "{B_DEF_NAME_WITH_PREFIX} tient bon pour ne pas te faire de peine!",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "contresens",
+  "probleme": "« A vidé son électricité » rend mal l’idée d’épuisement de la réserve.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} a épuisé toute son électricité!",
+  "justification": "« Used up all » indique que le Pokémon a consommé toute son électricité.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} used up all its electricity!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} a vidé son électricité!",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "typographie",
+  "probleme": "Le saut de ligne contrevient à la contrainte d’une seule ligne.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} prépare un Carapiège!",
+  "justification": "Une espace suffit à réunir le verbe et son complément.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} set a shell trap!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} prépare\\nun Carapiège!",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "typographie",
+  "probleme": "Le saut de ligne contrevient à la contrainte d’une seule ligne.",
+  "correction": "Le Carapiège de {B_ATK_NAME_WITH_PREFIX} n’a pas fonctionné!",
+  "justification": "Une espace suffit à réunir le sujet et le verbe.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX}'s shell trap didn't work!",
+  "msgstr": "Le Carapiège de {B_ATK_NAME_WITH_PREFIX}\\nn’a pas fonctionné!",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "terminologie",
+  "probleme": "Le nom de la capacité est écrit « picots ».",
+  "correction": "Les Picots autour de l’équipe {B_ATK_TEAM2} disparaissent!",
+  "justification": "Le lexique fourni, conformément à Pokémon Émeraude FR, donne « Picots » pour « Spikes ».",
+  "msgid": "The spikes disappeared from the ground around {B_ATK_TEAM2} team!",
+  "msgstr": "Les picots autour de l’équipe {B_ATK_TEAM2} disparaissent!",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "terminologie",
+  "probleme": "Le nom de la capacité est écrit « pics toxiques ».",
+  "correction": "Les Pics Toxik autour de l’équipe {B_ATK_TEAM2} disparaissent!",
+  "justification": "Dans Pokémon SoulSilver FR, la capacité « Toxic Spikes » s’appelle « Pics Toxik ».",
+  "msgid": "The poison spikes disappeared from the ground around {B_ATK_TEAM2} team!",
+  "msgstr": "Les pics toxiques autour de l’équipe {B_ATK_TEAM2} disparaissent!",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "terminologie",
+  "probleme": "Le nom de la capacité est écrit « toile gluante ».",
+  "correction": "La Toile Gluante autour de l’équipe {B_ATK_TEAM2} disparaît!",
+  "justification": "« Toile Gluante » est le nom de « Sticky Web » dans Pokémon X et Y FR. La convention du projet conserve les majuscules du nom de la capacité.",
+  "msgid": "The sticky web has disappeared from the ground around {B_ATK_TEAM2} team!",
+  "msgstr": "La toile gluante autour de l’équipe {B_ATK_TEAM2} disparaît!",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "contresens",
+  "probleme": "« De l’équipe » attribue les pierres à l’équipe et efface leur emplacement.",
+  "correction": "Les pierres pointues autour de l’équipe {B_ATK_TEAM2} disparaissent!",
+  "justification": "« From around » situe les pierres autour de l’équipe.",
+  "msgid": "The pointed stones disappeared from around {B_ATK_TEAM2} team!",
+  "msgstr": "Les pierres pointues de l’équipe {B_ATK_TEAM2} disparaissent!",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "oubli",
+  "probleme": "Le message omet les dégâts subis.",
+  "correction": "{B_DEF_NAME_WITH_PREFIX} se protège mal et subit des dégâts!",
+  "justification": "« Got hurt » précise la conséquence de la protection partielle.",
+  "msgid": "{B_DEF_NAME_WITH_PREFIX} couldn't fully protect itself and got hurt!",
+  "msgstr": "{B_DEF_NAME_WITH_PREFIX} n’a pas pu se protéger totalement!",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "oubli",
+  "probleme": "Le message omet que le soin porte sur le statut.",
+  "correction": "Le statut de {B_BUFF1} est soigné!",
+  "justification": "« Had its status healed » désigne la guérison d’un problème de statut.",
+  "msgid": "{B_BUFF1} had its status healed!",
+  "msgstr": "{B_BUFF1} est soigné!",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "contresens",
+  "probleme": "La Feuille Copieuse semble copier les stats elles-mêmes.",
+  "correction": "{B_SCR_NAME_WITH_PREFIX} copie les hausses de stats adverses avec sa Feuille Copieuse!",
+  "justification": "L’objet reproduit les augmentations de stats adverses, conformément à son effet dans Pokémon Écarlate et Violet FR.",
+  "msgid": "{B_SCR_NAME_WITH_PREFIX} used its Mirror Herb to mirror its opponent's stat changes!",
+  "msgstr": "{B_SCR_NAME_WITH_PREFIX} utilise sa Feuille Copieuse et copie les stats de l’ennemi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "oubli",
+  "probleme": "« Sa force » omet le qualificatif « true ».",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} retrouve sa vraie force grâce à l’Ultra-Explosion!",
+  "justification": "« True power » précise que la transformation lui rend sa véritable puissance.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} regained its true power through Ultra Burst!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} retrouve sa force grâce à l’Ultra-Explosion!",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "typographie",
+  "probleme": "Le saut de ligne contrevient à la contrainte d’une seule ligne.",
+  "correction": "{B_DEF_NAME_WITH_PREFIX} est en pleine salaison!",
+  "justification": "Une espace suffit à réunir le verbe et son complément.",
+  "msgid": "{B_DEF_NAME_WITH_PREFIX} is being salt cured!",
+  "msgstr": "{B_DEF_NAME_WITH_PREFIX} est\\nen pleine salaison!",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "oubli",
+  "probleme": "Le caractère sucré du sirop a disparu.",
+  "correction": "{B_DEF_NAME_WITH_PREFIX} est englué de sirop sucré!",
+  "justification": "« Sucré » restitue « candy », tandis qu’« englué » exprime déjà l’adhérence du sirop.",
+  "msgid": "{B_DEF_NAME_WITH_PREFIX} got covered in sticky candy syrup!",
+  "msgstr": "{B_DEF_NAME_WITH_PREFIX} est englué de sirop collant!",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "terminologie",
+  "probleme": "« G-Max Fouet Liane » est un nom de capacité incorrect.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} est fouetté par Fouet G-Max!",
+  "justification": "La capacité de Florizarre Gigamax s’appelle « Fouet G-Max ». [Site officiel de Pokémon Épée et Bouclier](https://swordshield.pokemon.com/fr-fr/expansionpass/pokemon/gigantamax-venusaur/)",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} is hurt by G-Max Vine Lash's ferocious beating!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} est fouetté par G-Max Fouet Liane!",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "terminologie",
+  "probleme": "« G-Max Monolithe » est un nom de capacité incorrect.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} est blessé par les rochers de Téphra G-Max!",
+  "justification": "Dans Pokémon Épée et Bouclier FR, la capacité Gigamax de Monthracite s’appelle « Téphra G-Max ».",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} is hurt by rocks thrown out by G-Max Volcalith!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} est blessé par les rochers de G-Max Monolithe!",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "contresens",
+  "probleme": "« De l’équipe » efface le fait que la mer de feu entoure l’équipe.",
+  "correction": "La mer de feu autour de l’équipe {B_ATK_TEAM2} disparaît!",
+  "justification": "« Around » situe la mer de feu autour de l’équipe.",
+  "msgid": "The sea of fire around {B_ATK_TEAM2} team disappeared!",
+  "msgstr": "La mer de feu de l’équipe {B_ATK_TEAM2} disparaît!",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "contresens",
+  "probleme": "L’équipe s’enfonce dans la boue, alors que le texte annonce qu’un marécage l’entoure.",
+  "correction": "Un marécage cerne l’équipe {B_DEF_TEAM2}!",
+  "justification": "« A swamp enveloped » annonce l’apparition du marécage autour de l’équipe.",
+  "msgid": "A swamp enveloped {B_DEF_TEAM2} team!",
+  "msgstr": "L’équipe {B_DEF_TEAM2} s’embourbe!",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "contresens",
+  "probleme": "« De l’équipe » efface le fait que le marécage entoure l’équipe.",
+  "correction": "Le marécage autour de l’équipe {B_ATK_TEAM2} disparaît!",
+  "justification": "« Around » situe le marécage autour de l’équipe.",
+  "msgid": "The swamp around {B_ATK_TEAM2} team disappeared!",
+  "msgstr": "Le marécage de l’équipe {B_ATK_TEAM2} disparaît!",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "oubli",
+  "probleme": "Le Pokémon se sépare de sa queue pour créer le leurre.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} détache sa queue pour faire un leurre!",
+  "justification": "« Shed its tail » indique explicitement que la queue se détache.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} shed its tail to create a decoy!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} fait de sa queue un leurre!",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "terminologie",
+  "probleme": "Les libellés de statistiques divergent des abréviations imposées.",
+  "correction": "Une zone étrange intervertit la DF et la DS!",
+  "justification": "Le lexique du projet prescrit « DF » pour la Défense et « DS » pour la Défense Spéciale.",
+  "msgid": "A bizarre area was created in which DEFENSE and SP. DEF stats are swapped!",
+  "msgstr": "Une zone étrange échange la DEFENSE et la DEF. SPE.!",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "contresens",
+  "probleme": "« Les types sont faussés » suggère que les types eux-mêmes changent.",
+  "correction": "{B_DEF_NAME_WITH_PREFIX} fait briller sa carapace! Les affinités de types changent!",
+  "justification": "« Type matchups » désigne les rapports d’efficacité entre les types.",
+  "msgid": "{B_DEF_NAME_WITH_PREFIX} made its shell gleam! It's distorting type matchups!",
+  "msgstr": "{B_DEF_NAME_WITH_PREFIX} fait briller sa carapace! Les types sont faussés!",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce « Oyacata » est en bas de casse.",
+  "correction": "{B_SCR_NAME_WITH_PREFIX} est avalé par OYACATA et devient son commandant!",
+  "justification": "Le projet impose les capitales pour les noms d’espèces.",
+  "msgid": "{B_SCR_NAME_WITH_PREFIX} was swallowed by Dondozo and became Dondozo's commander!",
+  "msgstr": "{B_SCR_NAME_WITH_PREFIX} est avalé par Oyacata et devient son commandant!",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "oubli",
+  "probleme": "Le texte omet le rôle de la flûte dans le réveil.",
+  "correction": "Les Pokémon se réveillent au son de la flûte!",
+  "justification": "« Hearing the flute » relie le réveil au son de la flûte.",
+  "msgid": "The Pokémon hearing the flute awoke!",
+  "msgstr": "Les Pokémon endormis se réveillent!",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "contresens",
+  "probleme": "La phrase présente le doigt comme l’auteur de la capacité.",
+  "correction": "En agitant un doigt, le Pokémon lance {B_CURRENT_MOVE}!",
+  "justification": "« Let it use » indique que le geste permet au Pokémon d’utiliser la capacité.",
+  "msgid": "Waggling a finger let it use {B_CURRENT_MOVE}!",
+  "msgstr": "Un doigt agité lance {B_CURRENT_MOVE}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "oubli",
+  "probleme": "Le texte exprime une crainte de bouger, sans indiquer que la peur empêche le mouvement.",
+  "correction": "{B_ATK_NAME_WITH_PREFIX} est trop effrayé pour bouger!",
+  "justification": "« Too scared to move » indique que le Pokémon est incapable de bouger tant il a peur.",
+  "msgid": "{B_ATK_NAME_WITH_PREFIX} is too scared to move!",
+  "msgstr": "{B_ATK_NAME_WITH_PREFIX} a peur de bouger!",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "typographie",
+  "probleme": "Le nom d’objet est entièrement en capitales dans un message de combat.",
+  "correction": "Le Scope Sylphe révèle l’identité\\ndu Spectre!",
+  "justification": "Le projet impose des majuscules initiales pour les noms d’objets dans le texte courant.",
+  "msgid": "SILPH SCOPE unveiled the GHOST's\\nidentity!",
+  "msgstr": "Le SCOPE SYLPHE révèle l’identité\\ndu Spectre!",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « CAILLOU » est entièrement en capitales.",
+  "correction": "{B_PLAYER_NAME} lance un caillou\\nsur {B_OPPONENT_MON1_NAME}!",
+  "justification": "Le projet impose la bas de casse pour les noms communs dans le texte courant.",
+  "msgid": "{B_PLAYER_NAME} threw a ROCK\\nat the {B_OPPONENT_MON1_NAME}!",
+  "msgstr": "{B_PLAYER_NAME} lance un CAILLOU\\nsur {B_OPPONENT_MON1_NAME}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "typographie",
+  "probleme": "« Sac » et « Fuite » sont en casse mixte dans le menu de combat.",
+  "correction": "ATTAQUE{CLEAR_TO 56}SAC\\nPOKéMON{CLEAR_TO 56}FUITE",
+  "justification": "La convention des menus impose les capitales pour ces deux libellés.",
+  "msgid": "BATTLE{CLEAR_TO 56}BAG\\nPOKéMON{CLEAR_TO 56}RUN",
+  "msgstr": "ATTAQUE{CLEAR_TO 56}Sac\\nPOKéMON{CLEAR_TO 56}Fuite",
+  "msgctxt": ""
+ }
+]

@@ -1,0 +1,332 @@
+[
+ {
+  "id": 1,
+  "categorie": "oubli",
+  "probleme": "Le tour de repos n’est pas précisé. Le nom d’espèce doit aussi être en capitales.",
+  "correction": "Coup ultime d’ETHERNATOS.\\nRepos forcé au tour suivant.",
+  "justification": "« Next turn » indique quand le lanceur doit se reposer.",
+  "msgid": "Eternatus' strongest move.\\nThe user rests next turn.",
+  "msgstr": "Coup ultime d’Ethernatos.\\nLe lanceur doit se reposer.",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "oubli",
+  "probleme": "Le rayon est émis par le corps du lanceur.",
+  "correction": "Un rayon d’acier jaillit du\\ncorps et blesse le lanceur.",
+  "justification": "« From its body » précise l’origine du rayon.",
+  "msgid": "Fires a beam of steel from\\nits body. It hurts the user.",
+  "msgstr": "Tire un rayon d’acier qui\\nblesse aussi le lanceur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "orthographe",
+  "probleme": "« Plus fort et vise » coordonne un adjectif et un verbe.",
+  "correction": "Sur Champ Psychique, gagne\\nen force et touche tous les ennemis.",
+  "justification": "Les deux verbes expriment la hausse de puissance et les dégâts infligés à tous les ennemis.",
+  "msgid": "Power goes up and damages\\nall foes on Psychic Terrain.",
+  "msgstr": "Sur Champ Psychique, plus\\nfort et vise chaque ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "contresens",
+  "probleme": "Le nombre porte sur les tirs successifs.",
+  "correction": "Tire des écailles 2 à 5 fois.\\nMonte sa VI, baisse sa DF.",
+  "justification": "« 2 to 5 times » décrit une attaque à coups multiples.",
+  "msgid": "Shoots scales 2 to 5 times.\\nUps Speed, lowers defense.",
+  "msgstr": "Lance 2 à 5 écailles. Monte\\nVitesse, baisse Défense.",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "oubli",
+  "probleme": "La capacité touche toutes les cibles à portée.",
+  "correction": "Touche tous et tombe K.O.\\nPlus fort sur Champ Brumeux.",
+  "justification": "« Hit everything » précise l’étendue de l’attaque.",
+  "msgid": "Hit everything and faint.\\nPowers up on Misty Terrain.",
+  "msgstr": "Explose: le lanceur est K.O.\\nPlus fort sur Champ Brumeux.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "oubli",
+  "probleme": "La première phrase omet la frappe.",
+  "correction": "Frappe en glissant. Agit en\\npriorité sur Champ Herbu.",
+  "justification": "Le lanceur frappe en glissant au sol.",
+  "msgid": "Gliding on ground, hits. Goes\\nfirst on Grassy Terrain.",
+  "msgstr": "Glisse sur le sol. Agit en\\npriorité sur Champ Herbu.",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "oubli",
+  "probleme": "La frappe après le déplacement est omise.",
+  "correction": "Rampe derrière l’ennemi, puis\\nfrappe et baisse son Atq. Spé.",
+  "justification": "Le lanceur passe derrière l’ennemi pour l’attaquer.",
+  "msgid": "User skitters behind foe to\\nattack. Lowers foe's Sp. Atk.",
+  "msgstr": "Rampe derrière l’ennemi et\\nbaisse son Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange deux casses.",
+  "correction": "FEU ENVIEUX",
+  "justification": "La correction harmonise la casse avec les autres libellés de capacités.",
+  "msgid": "BURNING JEALOUSY",
+  "msgstr": "Feu ENVIEUX",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "oubli",
+  "probleme": "La prise de contrôle de l’objet est omise.",
+  "correction": "Manipule son objet et frappe.\\nEchoue si l’ennemi n’en a pas.",
+  "justification": "Le lanceur manipule l’objet tenu par l’ennemi pour attaquer.",
+  "msgid": "Control foe's item to attack.\\nFails if foe has no item.",
+  "msgstr": "Attaque avec l’objet ennemi.\\nEchoue s’il n’en tient pas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "oubli",
+  "probleme": "Le degré d’acidité et le fait que les objets sont tenus disparaissent.",
+  "correction": "Un gaz très acide dissout les\\nobjets tenus alentour.",
+  "justification": "« Highly acidic » et « held » précisent la nature du gaz et les objets touchés.",
+  "msgid": "Highly acidic gas melts items\\nheld by surrounding Pokémon.",
+  "msgstr": "Un gaz acide qui dissout les\\nobjets des Pokémon autour.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "orthographe",
+  "probleme": "Le déterminant possessif manque devant « Défense ».",
+  "correction": "Coache les alliés. Augmente\\nleur Attaque et leur Défense.",
+  "justification": "Les deux statistiques distinctes prennent chacune leur déterminant.",
+  "msgid": "Properly coaches allies to\\nup their Attack and Defense.",
+  "msgstr": "Coache les alliés. Augmente\\nleur Attaque et Défense.",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange deux casses.",
+  "correction": "EAU REVOIR",
+  "justification": "La correction harmonise la casse avec les autres libellés de capacités.",
+  "msgid": "FLIP TURN",
+  "msgstr": "Eau REVOIR",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "oubli",
+  "probleme": "Le remplaçant doit être un Pokémon de l’équipe.",
+  "correction": "Attaque, puis cède sa place\\nà un Pokémon de l’équipe.",
+  "justification": "« Party Pokémon » désigne un Pokémon de l’équipe.",
+  "msgid": "Attacks and rushes back to\\nswitch with a party Pokémon.",
+  "msgstr": "Attaque, puis revient et\\ncède sa place à un allié.",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "contresens",
+  "probleme": "« Soigne PV et statut » confond la restauration des PV et la guérison des altérations.",
+  "correction": "Rend des PV et guérit le\\nlanceur et ses alliés.",
+  "justification": "La capacité rend des PV et guérit les problèmes de statut des mêmes Pokémon.",
+  "msgid": "Heals HP and status of\\nitself and allies in battle.",
+  "msgstr": "Soigne PV et statut du\\nlanceur et de ses alliés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange deux casses.",
+  "correction": "TORRENT DE COUPS",
+  "justification": "La correction harmonise la casse avec les autres libellés de capacités.",
+  "msgid": "SURGING STRIKES",
+  "msgstr": "Torrent DE COUPS",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "orthographe",
+  "probleme": "Il manque la cédille à « GLAÇANT ».",
+  "correction": "REGARD GLAÇANT",
+  "justification": "La cédille se conserve en capitale selon la convention du projet.",
+  "msgid": "FREEZING GLARE",
+  "msgstr": "REGARD GLACANT",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange deux casses.",
+  "correction": "LANCE DE GLACE",
+  "justification": "La correction harmonise la casse avec les autres libellés de capacités.",
+  "msgid": "GLACIAL LANCE",
+  "msgstr": "LANCE DE Glace",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "oubli",
+  "probleme": "La description omet les ennemis visés.",
+  "correction": "Lance de glace dans la bourrasque,\\nprojetée sur les ennemis.",
+  "justification": "« At foes » indique que la capacité vise les ennemis au pluriel.",
+  "msgid": "Hurls a blizzard-cloaked\\nicicle lance at foes.",
+  "msgstr": "Projette une lance de glace\\nnimbée de blizzard.",
+  "msgctxt": ""
+ },
+ {
+  "id": 58,
+  "categorie": "oubli",
+  "probleme": "La description omet les ennemis visés.",
+  "correction": "Lâche une nuée de spectres\\neffrayante sur les ennemis.",
+  "justification": "« At foes » indique que la capacité vise les ennemis au pluriel.",
+  "msgid": "Sends a frightful amount\\nof small ghosts at foes.",
+  "msgstr": "Lance une nuée effrayante\\nde petits spectres.",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "contresens",
+  "probleme": "« Endormir » traduit un effet de somnolence par un sommeil immédiat.",
+  "correction": "Peut rendre somnolent,\\nparalyser ou empoisonner.",
+  "justification": "« Drowse » signifie rendre somnolent.",
+  "msgid": "High critical hit chance. May\\nparalyze, poison or drowse.",
+  "msgstr": "Peut endormir, paralyser ou\\nempoisonner. Taux crit. haut.",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange deux casses.",
+  "correction": "SPRINT BOUCLIER",
+  "justification": "La correction harmonise la casse avec les autres libellés de capacités.",
+  "msgid": "PSYSHIELD BASH",
+  "msgstr": "SPRINT Bouclier",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange deux casses.",
+  "correction": "HACHE DE PIERRE",
+  "justification": "La correction harmonise la casse avec les autres libellés de capacités.",
+  "msgid": "STONE AXE",
+  "msgstr": "HACHE DE Pierre",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "contresens",
+  "probleme": "« Sa forme » semble renvoyer au typhon. L’ennemi pris dans les vents est aussi omis.",
+  "correction": "Prend l’ennemi dans un typhon.\\nVarie selon la forme du lanceur.",
+  "justification": "La capacité enveloppe l’ennemi de vents violents et varie selon la forme du lanceur.",
+  "msgid": "Wraps a foe in fierce winds.\\nVaries with the user's form.",
+  "msgstr": "Typhon violent dont l’effet\\nvarie selon sa forme.",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "typographie",
+  "probleme": "Le nom dans le script mélange capitales intégrales et majuscules initiales.",
+  "correction": "Force Mystique",
+  "justification": "Le nom de capacité en dialogue suit la convention des majuscules initiales.",
+  "msgid": "MYSTICAL POWER",
+  "msgstr": "Force MYSTIQUE",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "oubli",
+  "probleme": "La traduction mentionne seulement la hausse de statistique.",
+  "correction": "Frappe d’un pouvoir mystique\\net monte l’AS du lanceur.",
+  "justification": "La capacité frappe avant d’augmenter l’Attaque Spéciale du lanceur.",
+  "msgid": "A mysterious power strikes,\\nraising the user's Sp. Atk.",
+  "msgstr": "Pouvoir mystique qui monte\\nl’Atq. Spé. du lanceur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "oubli",
+  "probleme": "La chlorophylle est accumulée avant d’être projetée.",
+  "correction": "Amasse et tire la chlorophylle.\\nBlesse aussi le lanceur.",
+  "justification": "« Amassed » précise que la chlorophylle est d’abord amassée.",
+  "msgid": "A user-hurting blast of\\namassed chlorophyll.",
+  "msgstr": "Un tir de chlorophylle qui\\nblesse aussi le lanceur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "oubli",
+  "probleme": "La traduction ne précise pas à qui appartiennent les statistiques réduites.",
+  "correction": "Une charge de tout le corps.\\nBaisse sa DF et sa DS.",
+  "justification": "« The user’s defenses » désigne les deux statistiques défensives du lanceur.",
+  "msgid": "Hits with a full-body tackle.\\nLowers the users's defenses.",
+  "msgstr": "Une charge de tout le corps.\\nBaisse Défense et Déf. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que la baisse de Vitesse touche l’ennemi.",
+  "correction": "Un vent glacial et brutal.\\nPeut ralentir l’ennemi.",
+  "justification": "« The foe’s Speed » désigne la Vitesse de la cible.",
+  "msgid": "Hits with brutal, cold winds.\\nMay lower the foe's Speed.",
+  "msgstr": "Un vent glacial et brutal.\\nPeut baisser la Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "oubli",
+  "probleme": "La restauration des PV et la guérison du statut sont fondues dans « soigner ». L’allié passe au pluriel.",
+  "correction": "Rend des PV et guérit le\\nlanceur et son allié.",
+  "justification": "« Heals and cures » distingue les deux soins et « its ally » désigne un seul allié.",
+  "msgid": "The user heals and cures\\nitself and its ally.",
+  "msgstr": "Prie la lune pour soigner\\nle lanceur et ses alliés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange deux casses.",
+  "correction": "TERA EXPLOSION",
+  "justification": "La correction harmonise la casse avec les autres libellés de capacités.",
+  "msgid": "TERA BLAST",
+  "msgstr": "TERA Explosion",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "terminologie",
+  "probleme": "« Téra-type » diffère du terme officiel.",
+  "correction": "Frappe avec son type Téracristal\\nsi le lanceur est Téracristallisé.",
+  "justification": "Pokémon Écarlate et Violet emploie « type Téracristal ». [Présentation officielle de Nintendo](https://www.nintendo.com/fr-ca/whatsnew/la-creme-des-dresseurs-et-dresseuses-recompensee-aux-championnats-du-monde-pokemon-2022/)",
+  "msgid": "If the user's Terastallized,\\nit hits with its Tera type.",
+  "msgstr": "Utilise le Téra-type du lanceur\\ns’il est Téracristallisé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 109,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange deux casses.",
+  "correction": "PIEGE DE FIL",
+  "justification": "Le libellé est mis entièrement en capitales sans accent selon la convention du projet.",
+  "msgid": "SILK TRAP",
+  "msgstr": "Piège DE FIL",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est écrit en minuscules après l’initiale.",
+  "correction": "Monte une stat du lanceur\\nselon le NIGIRIGON.",
+  "justification": "Les noms d’espèces s’écrivent en capitales dans le projet.",
+  "msgid": "Boosts a user's stats\\ndepending on Tatsugiri.",
+  "msgstr": "Monte une stat du lanceur\\nselon le Nigirigon.",
+  "msgctxt": ""
+ }
+]

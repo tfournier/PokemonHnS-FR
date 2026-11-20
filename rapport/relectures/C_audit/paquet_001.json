@@ -1,0 +1,462 @@
+[
+ {
+  "id": 5,
+  "categorie": "oubli",
+  "probleme": "La comparaison de taille a disparu et la capture est devenue une prise à la pêche.",
+  "correction": "Hé, {PLAYER}!\\nC’est TULLY!\\pMon {STR_VAR_3} a\\nencore grandi.\\pIl faisait juste cette taille\\nquand je l’ai attrapé, et\\lmaintenant, il est bien plus grand.",
+  "justification": "Le Dresseur compare sa taille actuelle à celle qu’il avait lors de sa capture. L’anglais ne précise pas comment il l’a attrapé.",
+  "msgid": "Hey, {PLAYER}!\\nIt's TULLY!\\pMy {STR_VAR_3} has grown\\nagain.\\pIt was only about so big\\nwhen I caught it, but now\\lit's way bigger.",
+  "msgstr": "Hé, {PLAYER}!\\nC’est TULLY!\\pMon {STR_VAR_3} a\\nencore grandi.\\pIl était grand comme ça\\nquand je l’ai pêché, et\\lmaintenant, il est énorme.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "typographie",
+  "probleme": "La même appellation apparaît sous les formes « Centre Pokémon » et « CENTRE Pokémon ».",
+  "correction": "Hé, {PLAYER}!\\nC’est BRENT!\\pAu fait, je t’ai vu sortir\\nd’un Centre Pokémon\\ll’autre jour.\\pTu soignes tes Pokémon\\nrégulièrement, hein?\\lJe suis impressionné.\\pHé, mon {STR_VAR_3} est\\nsi costaud qu’il n’a pas\\lbesoin d’aller souvent au\\lCentre Pokémon. Héhé!",
+  "justification": "Le nom « Centre Pokémon » garde la même casse dans toute la réplique.",
+  "msgid": "Hey, {PLAYER}!\\nIt's BRENT!\\pOh yeah, I saw you coming\\nout of a POKéMON CENTER\\lthe other day.\\pYou heal your POKéMON\\nregularly, don't you?\\lI'm impressed.\\pHeh, my {STR_VAR_3} is\\nso tough, it doesn't need\\lto go to POKéMON CENTERS\\loften. Heheh!",
+  "msgstr": "Hé, {PLAYER}!\\nC’est BRENT!\\pAu fait, je t’ai vu sortir\\nd’un Centre Pokémon\\ll’autre jour.\\pTu soignes tes Pokémon\\nrégulièrement, hein?\\lJe suis impressionné.\\pHé, mon {STR_VAR_3} est\\nsi costaud qu’il n’a pas\\lbesoin d’aller souvent au\\lCENTRE Pokémon. Héhé!",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "orthographe",
+  "probleme": "Le préfixe « ultra- » est détaché de l’adjectif.",
+  "correction": "Hé, {PLAYER}!\\nC’est BRENT!\\pAu fait, j’ai eu un Pokémon\\nultrarare en échange,\\lil y a quelque temps.\\pTu veux savoir ce\\nque c’est?\\pHéhé, c’est un\\nsecret!",
+  "justification": "Devant « rare », le préfixe « ultra- » se soude à l’adjectif.",
+  "msgid": "Hey, {PLAYER}!\\nIt's BRENT!\\pOh yeah, I got an\\nextremely rare POKéMON in\\la trade a while back.\\pDo you want to know what\\nit is?\\pHehe, I'm keeping it a\\nsecret!",
+  "msgstr": "Hé, {PLAYER}!\\nC’est BRENT!\\pAu fait, j’ai eu un Pokémon\\nultra rare en échange,\\lil y a quelque temps.\\pTu veux savoir ce\\nque c’est?\\pHéhé, c’est un\\nsecret!",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "typographie",
+  "probleme": "Le même personnage est écrit « LEO » puis « Léo », et Doublonville est entièrement en capitales.",
+  "correction": "Hé, {PLAYER}!\\nC’est BRENT!\\pTu savais…?\\pLéo est originaire de\\nDoublonville.\\pApparemment, Léo n’est\\npas très doué en combat.",
+  "justification": "La graphie du prénom reste cohérente et le nom du lieu prend une majuscule initiale.",
+  "msgid": "Hey, {PLAYER}!\\nIt's BRENT!\\pDid you know…?\\pBILL's originally from\\nGOLDENROD.\\pEvidently, BILL isn't very\\ngood at battling.",
+  "msgstr": "Hé, {PLAYER}!\\nC’est BRENT!\\pTu savais…?\\pLEO est originaire de\\nDOUBLONVILLE.\\pApparemment, Léo n’est\\npas très doué en combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "typographie",
+  "probleme": "« Centre Pokémon » change de casse en cours de réplique.",
+  "correction": "Salut, {PLAYER}!\\nC’est Tiffany!\\pTes Pokémon vont bien?\\pJ’espère que tu les emmènes\\nau Centre Pokémon chaque jour.\\pNe les pousse pas trop.\\pSi mon {STR_VAR_3} est mignon\\net plein d’entrain, c’est\\lparce que je l’emmène au\\lCentre Pokémon chaque jour.",
+  "justification": "Le nom « Centre Pokémon » garde la même casse dans toute la réplique.",
+  "msgid": "Hi, {PLAYER}!\\nIt's TIFFANY!\\pAre your POKéMON doing\\nwell?\\pI hope you take them to a\\nPOKéMON CENTER every day.\\pDon't push them too hard.\\pMy {STR_VAR_3} is cute and\\nlively precisely because I\\ltake it to a POKéMON\\lCENTER every day.",
+  "msgstr": "Salut, {PLAYER}!\\nC’est Tiffany!\\pTes Pokémon vont bien?\\pJ’espère que tu les emmènes\\nau Centre Pokémon chaque jour.\\pNe les pousse pas trop.\\pSi mon {STR_VAR_3} est mignon\\net plein d’entrain, c’est\\lparce que je l’emmène au\\lCENTRE Pokémon chaque jour.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "contresens",
+  "probleme": "La traduction présente la progression comme certaine et ajoute une échéance avec « bientôt ».",
+  "correction": "Hé, {PLAYER}!\\nC’est VANCE!\\pToi et tes Pokémon,\\nça va?\\pMon {STR_VAR_3} semble en passe\\nde devenir assez costaud\\ppour affronter et vaincre\\nles oiseaux Pokémon légendaires!",
+  "justification": "« Looks like » marque une prévision prudente. La phrase évoque aussi la capacité d’affronter puis de vaincre ces Pokémon.",
+  "msgid": "Hey, {PLAYER}!\\nIt's VANCE!\\pAre you and your POKéMON\\nfine?\\pMy {STR_VAR_3} looks like\\nit will get tough enough\\pto face and beat the\\nlegendary bird POKéMON!",
+  "msgstr": "Hé, {PLAYER}!\\nC’est VANCE!\\pToi et tes Pokémon,\\nça va?\\pMon {STR_VAR_3} sera bientôt\\nassez costaud\\ppour vaincre les oiseaux\\nPOKéMON légendaires!",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "oubli",
+  "probleme": "« Est impressionnant » laisse de côté la progression du Pokémon.",
+  "correction": "Hé, {PLAYER}!\\nC’est WILTON!\\pMon {STR_VAR_3} est\\ndevenu impressionnant!\\pEt je pêche mieux,\\nmoi aussi!",
+  "justification": "« Has grown impressive » décrit un changement, repris par le parallèle avec les progrès du Dresseur à la pêche.",
+  "msgid": "Hey, {PLAYER}!\\nIt's WILTON!\\pMy {STR_VAR_3}'s grown\\nimpressive!\\pMy fishing skills have\\nimproved too!",
+  "msgstr": "Hé, {PLAYER}!\\nC’est WILTON!\\pMon {STR_VAR_3} est\\nimpressionnant!\\pEt je pêche mieux,\\nmoi aussi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "contresens",
+  "probleme": "La première question porte sur la forme physique, alors que la réplique parle d’allure.",
+  "correction": "Hé, {PLAYER}!\\nC’est PARRY!\\pTes Pokémon ont\\nde l’allure?\\pMon {STR_VAR_3} et moi,\\non est d’une classe\\lfolle! Hahahah!",
+  "justification": "« Looking good » annonce la vantardise sur l’élégance du Dresseur et de son Pokémon.",
+  "msgid": "Hey, {PLAYER}!\\nIt's PARRY!\\pAre your POKéMON looking\\ngood?\\pMy {STR_VAR_3} and me--\\nwe're looking mighty\\ldandy! Hahahah!",
+  "msgstr": "Hé, {PLAYER}!\\nC’est PARRY!\\pTes Pokémon ont la\\nforme?\\pMon {STR_VAR_3} et moi,\\non est d’une classe\\lfolle! Hahahah!",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « Pokémon » est en capitales avec un « é » minuscule.",
+  "correction": "Salut, {PLAYER}!\\nC’est Erin!\\pEt, et… je viens de battre\\nun {STR_VAR_3}!\\pJ’ai bien élevé mes\\nPokémon!",
+  "justification": "La convention du projet fixe la graphie « Pokémon » pour le nom commun.",
+  "msgid": "Hi, {PLAYER}!\\nIt's ERIN!\\pAnd, and… I just battled\\nand beat {STR_VAR_3}!\\pI've raised my POKéMON\\nproperly!",
+  "msgstr": "Salut, {PLAYER}!\\nC’est Erin!\\pEt, et… je viens de battre\\nun {STR_VAR_3}!\\pJ’ai bien élevé mes\\nPOKéMON!",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "oubli",
+  "probleme": "La dernière phrase transforme une supposition en affirmation.",
+  "correction": "Hé, {PLAYER}!\\nC’est JACK!\\pComment vont tes\\nPokémon?\\pMon {STR_VAR_3} est si\\ncurieux, c’est un souci.\\pIl tient peut-être de moi…",
+  "justification": "« Maybe » indique que Jack s’interroge sur la ressemblance.",
+  "msgid": "Hey, {PLAYER}!\\nIt's JACK!\\pHow are your POKéMON\\ndoing?\\pMy {STR_VAR_3} is so\\ncurious, it's a problem.\\pMaybe it's like me…",
+  "msgstr": "Hé, {PLAYER}!\\nC’est JACK!\\pComment vont tes\\nPOKéMON?\\pMon {STR_VAR_3} est si\\ncurieux, c’est un souci.\\pIl tient de moi…",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "oubli",
+  "probleme": "La question omet le rôle du joueur dans le bien-être de ses Pokémon, et la dernière phrase perd la fréquence quotidienne.",
+  "correction": "Bonjour, {PLAYER}!\\nC’est BEVERLY!\\pTu fais le bonheur\\nde tes Pokémon?\\pMon {STR_VAR_3} est en forme.\\nIl mange beaucoup chaque jour.",
+  "justification": "« Keeping your Pokémon happy » porte sur ce que fait le joueur, et « every day » précise la fréquence.",
+  "msgid": "Hello, {PLAYER}!\\nIt's BEVERLY!\\pKeeping your POKéMON\\nhappy?\\pMy {STR_VAR_3} is healthy.\\nIt eats a lot every day.",
+  "msgstr": "Bonjour, {PLAYER}!\\nC’est BEVERLY!\\pTes Pokémon sont\\nheureux?\\pMon {STR_VAR_3} est en forme.\\nIl mange beaucoup.",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "contresens",
+  "probleme": "« A trouvé » précise un mode d’obtention absent de l’anglais.",
+  "correction": "Bonjour, {PLAYER}!\\nC’est BEVERLY!\\pMon mari a obtenu\\ndes Pépites.\\pSi tu veux, je t’en\\ndonne une pour te\\lremercier de ton aide.\\pJe serai au Parc Naturel.\\nViens me voir quand\\ltu pourras.",
+  "justification": "« Got » indique seulement que le mari a obtenu les objets. « Pépites » suit la casse prévue pour les noms d’objets.",
+  "msgid": "Hello, {PLAYER}!\\nIt's BEVERLY!\\pMy husband got some\\nNUGGETS.\\pIf you'd like, you could\\nhave one as thanks for\\lhelping me out.\\pI'll be at NATIONAL PARK.\\nPlease come see me when\\lyou can.",
+  "msgstr": "Bonjour, {PLAYER}!\\nC’est BEVERLY!\\pMon mari a trouvé\\ndes PEPITES.\\pSi tu veux, je t’en\\ndonne une pour te\\lremercier de ton aide.\\pJe serai au Parc Naturel.\\nViens me voir quand\\ltu pourras.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "contresens",
+  "probleme": "« Maîtres Pokémon » remplace le titre lié au championnat de la Ligue par une autre notion.",
+  "correction": "Hé, {PLAYER}!\\nC’est GAVEN!\\pComment vont tes\\nPokémon?\\pMon {STR_VAR_3} est en\\nforme, comme toujours.\\pOn continue et on devient\\nMaîtres de la Ligue!",
+  "justification": "Dans ce contexte, « Pokémon Champ » désigne le titre que l’on obtient à la Ligue Pokémon.",
+  "msgid": "Hey, {PLAYER}!\\nIt's GAVEN!\\pHow are your POKéMON\\ndoing?\\pMy {STR_VAR_3}'s doing as\\ngreat as ever.\\pLet's keep at it and\\nbecome POKéMON CHAMPS!",
+  "msgstr": "Hé, {PLAYER}!\\nC’est GAVEN!\\pComment vont tes\\nPOKéMON?\\pMon {STR_VAR_3} est en\\nforme, comme toujours.\\pOn continue et on devient\\nMAITRES Pokémon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "oubli",
+  "probleme": "La première phrase perd l’incertitude exprimée par « might ».",
+  "correction": "Hé, {PLAYER}!\\nC’est GAVEN!\\pMon {STR_VAR_3} est peut-être\\nmeilleur que je le croyais.\\pÇa m’étonnerait de voir\\nun Pokémon meilleur\\lque le mien.",
+  "justification": "Le Dresseur envisage que son Pokémon soit meilleur qu’il ne le pensait.",
+  "msgid": "Hey, {PLAYER}!\\nIt's GAVEN!\\pMy {STR_VAR_3} might be\\ngreater than I imagined.\\pI doubt I'll see a\\nPOKéMON that's better\\lthan mine.",
+  "msgstr": "Hé, {PLAYER}!\\nC’est GAVEN!\\pMon {STR_VAR_3} est\\nmieux que je croyais.\\pÇa m’étonnerait de voir\\nun Pokémon meilleur\\lque le mien.",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que le Dresseur cherche comment battre le joueur.",
+  "correction": "Hé, {PLAYER}!\\nC’est GAVEN!\\pJe pense sans arrêt à\\ncomment te battre.",
+  "justification": "Son obsession porte sur la manière de gagner, comme l’indique « how to beat you ».",
+  "msgid": "Hey, {PLAYER}!\\nIt's GAVEN!\\pI obsess over how to\\nbeat you.",
+  "msgstr": "Hé, {PLAYER}!\\nC’est GAVEN!\\pJe pense qu’à une\\nchose: te battre.",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "typographie",
+  "probleme": "« CENTRES Pokémon », « POKéMON » et « dresseur » ne suivent pas la casse du projet.",
+  "correction": "Salut, {PLAYER}!\\nC’est BETH!\\pTu vas souvent dans\\nles Centres Pokémon?\\lMoi, oui.\\pJ’y vais chaque jour. Veiller\\nsur la santé de ses\\lPokémon, c’est la base\\lpour un Dresseur.",
+  "justification": "Les graphies prévues sont « Centres Pokémon », « Pokémon » et « Dresseur ».",
+  "msgid": "Hi, {PLAYER}!\\nIt's BETH!\\pAre you the kind of person\\nwho goes to POKéMON\\lCENTERS often?\\pI go every day. Watching\\nout for the health of your\\lPOKéMON is a basic part of\\lbeing a POKéMON trainer.",
+  "msgstr": "Salut, {PLAYER}!\\nC’est BETH!\\pTu vas souvent dans\\nles CENTRES Pokémon?\\lMoi, oui.\\pJ’y vais chaque jour. Veiller\\nsur la santé de ses\\lPOKéMON, c’est la base\\lpour un dresseur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 59,
+  "categorie": "oubli",
+  "probleme": "« Une fois parti » omet que le Pokémon prend son envol.",
+  "correction": "Hé, {PLAYER}!\\nC’est JOSE!\\pTes Pokémon pètent\\ntoujours le feu?\\pMon {STR_VAR_3} a trop\\nd’énergie.\\pUne fois envolé, il ne\\nrevient pas avant\\lun bon moment.",
+  "justification": "« Takes off » désigne ici l’envol du Pokémon.",
+  "msgid": "Hey, {PLAYER}!\\nIt's JOSE!\\pAre your POKéMON still\\ncooking?\\pMy {STR_VAR_3} has too\\nmuch energy.\\pOnce it takes off, it\\nwon't come back for a\\lwhile.",
+  "msgstr": "Hé, {PLAYER}!\\nC’est JOSE!\\pTes Pokémon pètent\\ntoujours le feu?\\pMon {STR_VAR_3} a trop\\nd’énergie.\\pUne fois parti, il ne\\nrevient pas avant\\lun bon moment.",
+  "msgctxt": ""
+ },
+ {
+  "id": 60,
+  "categorie": "terminologie",
+  "probleme": "« Stick » est traduit par « poireau ».",
+  "correction": "Hé, {PLAYER}!\\nC’est JOSE!\\pEcoute, le Bâton de\\nmon {STR_VAR_3}\\ldégage un parfum\\ldélicieux.\\pÇa me met l’eau à\\nla bouche!",
+  "justification": "Le lexique officiel fourni donne « STICK → Bâton ».",
+  "msgid": "Hey, {PLAYER}!\\nIt's JOSE!\\pHey listen, my\\n{STR_VAR_3}'s stick has\\lthis really delicious\\laroma.\\pThat aroma gets my\\nappetite going!",
+  "msgstr": "Hé, {PLAYER}!\\nC’est JOSE!\\pEcoute, le poireau de\\nmon {STR_VAR_3}\\ldégage un parfum\\ldélicieux.\\pÇa me met l’eau à\\nla bouche!",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "terminologie",
+  "probleme": "« Stick » est traduit par « poireau ».",
+  "correction": "Hé, {PLAYER}!\\nC’est JOSE!\\pY a peu, mon CANARTICHO\\na mis K.O. un {STR_VAR_3}.\\pT’aurais dû voir\\nCANARTICHO manier\\lson Bâton.\\pUn truc de fou!",
+  "justification": "Le lexique officiel fourni donne « STICK → Bâton ».",
+  "msgid": "Hey, {PLAYER}!\\nIt's JOSE!\\pA while ago, my FARFETCH'D\\nKO'd this {STR_VAR_3}.\\pYou should have seen\\nFARFETCH'D wield that\\lstick.\\pAmazing stuff!",
+  "msgstr": "Hé, {PLAYER}!\\nC’est JOSE!\\pY a peu, mon CANARTICHO\\na mis K.O. un {STR_VAR_3}.\\pT’aurais dû voir\\nCANARTICHO manier\\lson poireau.\\pUn truc de fou!",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "typographie",
+  "probleme": "« ROUTE 27 » est entièrement en capitales dans le dialogue.",
+  "correction": "Hé, {PLAYER}!\\nC’est JOSE!\\pMon CANARTICHO avait\\nun joli truc dans\\lle bec.\\pComme promis, tu\\npeux l’avoir.\\pRejoins-moi sur la\\nRoute 27, et je te\\lle donnerai.",
+  "justification": "Les noms des routes prennent une majuscule initiale dans les dialogues.",
+  "msgid": "Hey, {PLAYER}!\\nIt's JOSE!\\pMy FARFETCH'D had\\nsomething pretty in its\\lbeak.\\pLike I promised, you can\\nhave it.\\pCatch up to me on\\nROUTE 27, and I'll let\\lyou have it.",
+  "msgstr": "Hé, {PLAYER}!\\nC’est JOSE!\\pMon CANARTICHO avait\\nun joli truc dans\\lle bec.\\pComme promis, tu\\npeux l’avoir.\\pRejoins-moi sur la\\nROUTE 27, et je te\\lle donnerai.",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "oubli",
+  "probleme": "« Très bien » est affaibli en « bien » dans la réponse de Reena.",
+  "correction": "Bonjour, {PLAYER}.\\nC’est REENA.\\pAlors, comment vont\\ntes Pokémon?\\pQuoi? Très bien? Je vois…\\pQuoi? Mes Pokémon?\\pEvidemment qu’ils vont\\ntrès bien!\\lQuelle question!",
+  "justification": "L’anglais répète « great » pour que Reena reprenne les termes employés au sujet des Pokémon du joueur.",
+  "msgid": "Hello, {PLAYER}.\\nIt's REENA.\\pHey, how are your POKéMON\\ndoing?\\pWhat? Great? I see…\\pWhat? My POKéMON?\\pOf course they're doing\\ngreat! What kind of a\\lquestion is that?",
+  "msgstr": "Bonjour, {PLAYER}.\\nC’est REENA.\\pAlors, comment vont\\ntes Pokémon?\\pQuoi? Très bien? Je vois…\\pQuoi? Mes Pokémon?\\pEvidemment qu’ils vont\\nbien! Quelle question!\\lVraiment!",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "contresens",
+  "probleme": "« Ecoute-moi bien » transforme l’adresse affectueuse en injonction appuyée.",
+  "correction": "Bonjour, {PLAYER}.\\nC’est REENA.\\pEcoute, {PLAYER}…\\pTu te souviens de mon\\n{STR_VAR_3}?\\pOui, voilà. Ce ravissant\\n{STR_VAR_3}.\\pIl me va à merveille,\\nne trouves-tu pas?",
+  "justification": "L’adresse directe restitue la familiarité de « dear » sans présumer le genre du joueur.",
+  "msgid": "Hello, {PLAYER}.\\nIt's REENA.\\pListen, dear…\\pDo you recall my\\n{STR_VAR_3}?\\pYes, exactly. That lovely\\n{STR_VAR_3}.\\pWouldn't you agree it's a\\nperfect match for me?",
+  "msgstr": "Bonjour, {PLAYER}.\\nC’est REENA.\\pEcoute-moi bien…\\pTu te souviens de mon\\n{STR_VAR_3}?\\pOui, voilà. Ce ravissant\\n{STR_VAR_3}.\\pIl me va à merveille,\\nne trouves-tu pas?",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "contresens",
+  "probleme": "« Aucune royauté » évoque une institution, alors que « royalty » désigne ici les personnes de rang royal.",
+  "correction": "Hé, {PLAYER}!\\pIl paraît que d’autres régions\\nont des rois et des reines.\\lPourquoi Kanto n’a-t-il\\pni roi ni reine?",
+  "justification": "La question reprend les rois et les reines mentionnés juste avant.",
+  "msgid": "Hey, {PLAYER}!\\pI heard other regions have\\nkings and queens. Why\\ldoesn't KANTO have\\pany royalty?",
+  "msgstr": "Hé, {PLAYER}!\\pIl paraît que d’autres régions\\nont des rois et des reines.\\lPourquoi KANTO n’a\\paucune royauté?",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu est entièrement en capitales.",
+  "correction": "Yo, {PLAYER}!\\nIci RILEY.\\pLa Piste Cyclable, y a\\nrien de mieux. Rien ne\\lvaut le vent en pleine face.\\p{STR_VAR_3} adore la\\nvitesse, lui aussi!",
+  "justification": "Les noms de lieux suivent la casse prévue pour les dialogues.",
+  "msgid": "Yo, {PLAYER}!\\nRILEY here.\\pCYCLING ROAD is the best.\\nNothing beats the wind\\lin your face.\\p{STR_VAR_3} loves the\\nspeed too!",
+  "msgstr": "Yo, {PLAYER}!\\nIci RILEY.\\pLa PISTE CYCLABLE, y a\\nrien de mieux. Rien ne\\lvaut le vent en pleine face.\\p{STR_VAR_3} adore la\\nvitesse, lui aussi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "oubli",
+  "probleme": "« Je vous ai mal jugés » efface le doute exprimé par « maybe ».",
+  "correction": "Yo, {PLAYER}!\\pVous êtes pas mauvais,\\nles jeunes de Johto.\\pJe vous ai peut-être mal jugés.\\nPrends pas la grosse tête!",
+  "justification": "Riley envisage de s’être trompé dans son jugement sur les jeunes de Johto. La dernière phrase s’adresse au joueur seul.",
+  "msgid": "Yo, {PLAYER}!\\pYou JOHTO kids aren't bad.\\nMaybe I misjudged you.\\pDon't let it go to your\\nhead though!",
+  "msgstr": "Yo, {PLAYER}!\\pVous êtes pas mauvais,\\nles jeunes de JOHTO.\\pJe vous ai mal jugés.\\nPrends pas la grosse tête!",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu est entièrement en capitales.",
+  "correction": "Yo, {PLAYER}!\\nC’est RILEY.\\pVa à la Piste Cyclable!\\nRevanche!",
+  "justification": "Les noms de lieux suivent la casse prévue pour les dialogues.",
+  "msgid": "Yo, {PLAYER}!\\nRILEY here.\\pGet down to CYCLING ROAD!\\nI want a rematch!",
+  "msgstr": "Yo, {PLAYER}!\\nC’est RILEY.\\pVa à la PISTE CYCLABLE!\\nRevanche!",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "contresens",
+  "probleme": "« Lieux cultes » ajoute l’idée de lieux célèbres ou emblématiques.",
+  "correction": "Salut, {PLAYER}!\\nC’est TREVOR.\\pTu savais? Les Pokémon\\nt’aiment plus si tu les\\lentraînes dans des lieux marquants!\\p{STR_VAR_3} a l’air\\nde se plaire ici.",
+  "justification": "« Memorable » qualifie des lieux qui laissent un souvenir.",
+  "msgid": "Hi, {PLAYER}!\\nIt's TREVOR.\\pDid you know POKéMON get\\nfriendlier when you train\\lin memorable places?\\p{STR_VAR_3} seems to\\nlike it here.",
+  "msgstr": "Salut, {PLAYER}!\\nC’est TREVOR.\\pTu savais? Les Pokémon\\nt’aiment plus si tu les\\lentraînes en des lieux cultes!\\p{STR_VAR_3} a l’air\\nde se plaire ici.",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "contresens",
+  "probleme": "« Si ton Pokémon t’aime beaucoup » présente l’effet comme soumis à un seuil d’affection.",
+  "correction": "Salut, {PLAYER}!\\pCertaines capacités\\nsont d’autant plus fortes\\pque ton Pokémon\\nt’apprécie!",
+  "justification": "Le comparatif anglais indique que la puissance augmente avec l’affection du Pokémon.",
+  "msgid": "Hi, {PLAYER}!\\pSome POKéMON moves\\nare stronger when your\\pPOKéMON feels more\\nfriendly toward you!",
+  "msgstr": "Salut, {PLAYER}!\\pCertaines capacités\\nsont plus fortes si\\pton Pokémon t’aime\\nbeaucoup!",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « Pokémon » est en capitales avec un « é » minuscule.",
+  "correction": "Hé, {PLAYER}!\\nIci KYLE.\\pJ’ai pêché de nouveaux\\nPokémon coriaces!\\pViens sur la Route 12\\npour un combat!",
+  "justification": "La convention du projet fixe la graphie « Pokémon » pour le nom commun.",
+  "msgid": "Hey, {PLAYER}!\\nKYLE here.\\pI've reeled in some tough\\nnew POKéMON!\\pCome to ROUTE 12 for\\na battle!",
+  "msgstr": "Hé, {PLAYER}!\\nIci KYLE.\\pJ’ai pêché de nouveaux\\nPOKéMON coriaces!\\pViens sur la Route 12\\npour un combat!",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "typographie",
+  "probleme": "Le nom commun « Pokémon » est en capitales avec un « é » minuscule.",
+  "correction": "Salut, {PLAYER}!\\pTu savais qu’il y a des\\nPokémon de départ dans\\lplein de régions?\\pJe veux tous les\\ncollectionner!",
+  "justification": "La convention du projet fixe la graphie « Pokémon » pour le nom commun.",
+  "msgid": "Hi, {PLAYER}!\\pDid you know there are\\nstarter POKéMON from many\\ldifferent regions?\\pI want to collect them\\nall!",
+  "msgstr": "Salut, {PLAYER}!\\pTu savais qu’il y a des\\nPOKéMON de départ dans\\lplein de régions?\\pJe veux tous les\\ncollectionner!",
+  "msgctxt": ""
+ },
+ {
+  "id": 87,
+  "categorie": "orthographe",
+  "probleme": "Il manque « de » dans « un Champion type INSECTE ».",
+  "correction": "Hé, {PLAYER}!\\pJ’ai vu un Champion de type\\nInsecte dans la Forêt de Jade!",
+  "justification": "Le complément se construit avec « de type ».",
+  "msgid": "Hey, {PLAYER}!\\pI saw a BUG TYPE GYM\\nLEADER in VIRIDIAN FOREST!",
+  "msgstr": "Hé, {PLAYER}!\\pJ’ai vu un Champion type\\nINSECTE dans la Forêt de Jade!",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "oubli",
+  "probleme": "La première phrase omet « today ».",
+  "correction": "Salut, {PLAYER}!\\nC’est NICOLE!\\pSuperbes vagues aujourd’hui!\\nMes Pokémon adorent nager\\len pleine mer.\\p{STR_VAR_3} devient\\ntrès rapide!",
+  "justification": "Nicole parle des conditions de la journée.",
+  "msgid": "Hi, {PLAYER}!\\nIt's NICOLE!\\pThe waves are great today!\\nMy POKéMON love swimming\\lin the open sea.\\p{STR_VAR_3} is getting\\nso fast!",
+  "msgstr": "Salut, {PLAYER}!\\nC’est NICOLE!\\pLes vagues sont superbes!\\nMes Pokémon adorent nager\\len pleine mer.\\p{STR_VAR_3} devient\\ntrès rapide!",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "terminologie",
+  "probleme": "« ROUTE 20 » ne porte pas son nom français officiel.",
+  "correction": "Salut, {PLAYER}!\\nC’est NICOLE!\\pMes Pokémon Eau ont\\nhâte de se battre!\\pViens sur le Chenal 20!",
+  "justification": "Le lexique officiel fourni donne « ROUTE 20 → Chenal 20 ».",
+  "msgid": "Hi, {PLAYER}!\\nIt's NICOLE!\\pMy water POKéMON are\\nraring to battle!\\pCome to ROUTE 20!",
+  "msgstr": "Salut, {PLAYER}!\\nC’est NICOLE!\\pMes Pokémon Eau ont\\nhâte de se battre!\\pViens sur la ROUTE 20!",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "oubli",
+  "probleme": "« Par l’eau » omet la mention précise des océans et des rivières. Le doute marqué par « really » disparaît aussi.",
+  "correction": "Salut à toi, {PLAYER}!\\nIci KENNY.\\pLes océans et les rivières ont-ils\\nvraiment façonné toute montagne?",
+  "justification": "La question porte sur le rôle de ces deux éléments dans la formation de toutes les montagnes.",
+  "msgid": "Hey there, {PLAYER}!\\nKENNY here.\\pWere all mountains really\\nshaped by oceans and rivers?",
+  "msgstr": "Salut à toi, {PLAYER}!\\nIci KENNY.\\pLes montagnes ont-elles toutes\\nété façonnées par l’eau?",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "typographie",
+  "probleme": "Le nom de la région est entièrement en capitales.",
+  "correction": "Hé, {PLAYER}!\\pC’est KENNY.\\nJ’ai visité le musée d’Argenta!\\pTu savais que toute la région\\nde Kanto était sous l’eau, avant?",
+  "justification": "Le nom géographique « Kanto » prend une majuscule initiale.",
+  "msgid": "Hey, {PLAYER}!\\pIt's KENNY here.\\nI visited the PEWTER museum!\\pDid you know the entire KANTO\\nregion was once under water?",
+  "msgstr": "Hé, {PLAYER}!\\pC’est KENNY.\\nJ’ai visité le musée d’Argenta!\\pTu savais que toute la région\\nde KANTO était sous l’eau, avant?",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu est entièrement en capitales.",
+  "correction": "Salut, {PLAYER}!\\pIci JOEL.\\pIl y a eu un accident sur la\\nPiste Cyclable.\\pLa prudence, c’est ce qu’il y a\\nde plus cool!",
+  "justification": "Les noms de lieux suivent la casse prévue pour les dialogues.",
+  "msgid": "Hey, {PLAYER}!\\pJOEL here.\\pThere was an accident on\\nCYCLING ROAD.\\pBeing safe is the coolest thing\\nyou can be.",
+  "msgstr": "Salut, {PLAYER}!\\pIci JOEL.\\pIl y a eu un accident sur la\\nPISTE CYCLABLE.\\pLa prudence, c’est ce qu’il y a\\nde plus cool!",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "oubli",
+  "probleme": "« J’ai le look ET le style » omet que le style se manifeste en combat.",
+  "correction": "Hé, {PLAYER}!\\nIci JOEL.\\pJ’ai le look ET je me bats\\lavec style!\\nViens sur la Piste Cyclable!",
+  "justification": "L’anglais souligne à la fois l’allure de Joel et sa manière de combattre.",
+  "msgid": "Hey, {PLAYER}!\\nJOEL here.\\pI look AND fight cool now!\\nCome to CYCLING ROAD!",
+  "msgstr": "Hé, {PLAYER}!\\nIci JOEL.\\pJ’ai le look ET le style!\\nViens sur la PISTE CYCLABLE!",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "typographie",
+  "probleme": "Le nom de la région est entièrement en capitales.",
+  "correction": "Salut, {PLAYER}!\\nIci CHARLES.\\pA Unys, j’étais un vrai\\nbourreau des cœurs.\\pLà, je suis roi du bitume!",
+  "justification": "Le nom géographique « Unys » prend une majuscule initiale.",
+  "msgid": "Hey, {PLAYER}!\\nCHARLES here.\\pI was something of a\\nheartbreaker in UNOVA.\\pNow I'm a highway star!",
+  "msgstr": "Salut, {PLAYER}!\\nIci CHARLES.\\pA UNYS, j’étais un vrai\\nbourreau des cœurs.\\pLà, je suis roi du bitume!",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu est entièrement en capitales.",
+  "correction": "Salut, {PLAYER}!\\pLa Piste Cyclable de nuit,\\nc’est autre chose!\\pLes lampadaires, le vent…\\nC’est ça, la liberté!",
+  "justification": "Les noms de lieux suivent la casse prévue pour les dialogues.",
+  "msgid": "Hey, {PLAYER}!\\pCYCLING ROAD at night is\\nsomething else.\\pThe streetlights and the\\nwind… it's freedom!",
+  "msgstr": "Salut, {PLAYER}!\\pLa PISTE CYCLABLE de nuit,\\nc’est autre chose!\\pLes lampadaires, le vent…\\nC’est ça, la liberté!",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu est entièrement en capitales.",
+  "correction": "Hé, {PLAYER}!\\nIci CHARLES.\\pLes rois du bitume veulent\\nleur revanche! Viens sur\\lla Piste Cyclable!",
+  "justification": "Les noms de lieux suivent la casse prévue pour les dialogues.",
+  "msgid": "Hey, {PLAYER}!\\nCHARLES here.\\pThe highway stars want\\nrevenge! Come to\\lCYCLING ROAD!",
+  "msgstr": "Hé, {PLAYER}!\\nIci CHARLES.\\pLes rois du bitume veulent\\nleur revanche! Viens sur\\lla PISTE CYCLABLE!",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "oubli",
+  "probleme": "La salutation et l’idée de nouvelles capacités ont disparu.",
+  "correction": "Bonjour! Je suis le\\nMaître des Capacités.\\pVoulez-vous apprendre\\nde nouvelles capacités?",
+  "justification": "La réplique comporte une salutation, une présentation et une offre formulée au vouvoiement.",
+  "msgid": "Hi, I'm the Move Relearner.\\nWould you like to learn new moves?",
+  "msgstr": "Je suis le Maître des Capacités.\\nEnvie d’apprendre des capacités?",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "typographie",
+  "probleme": "Le libellé de menu est en casse mixte.",
+  "correction": "CAPACITES PAR NIVEAU",
+  "justification": "Les libellés de menus sont en capitales sans accents.",
+  "msgid": "Level Up Moves",
+  "msgstr": "Capacités par niveau",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "typographie",
+  "probleme": "Le libellé de menu est en casse mixte.",
+  "correction": "CAPA. ŒUF",
+  "justification": "Les libellés de menus sont en capitales.",
+  "msgid": "Egg Moves",
+  "msgstr": "Capa. Œuf",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "typographie",
+  "probleme": "Le libellé de menu est en casse mixte.",
+  "correction": "CAPACITES CT",
+  "justification": "Les libellés de menus sont en capitales sans accents.",
+  "msgid": "TM Moves",
+  "msgstr": "Capacités CT",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "typographie",
+  "probleme": "Le libellé de menu est en casse mixte.",
+  "correction": "CAPACITES DONNEUR",
+  "justification": "Les libellés de menus sont en capitales sans accents.",
+  "msgid": "Tutor Moves",
+  "msgstr": "Capacités Donneur",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "terminologie",
+  "probleme": "La capacité « Dynamopoing » est entièrement en capitales dans le dialogue.",
+  "correction": "J’en peux plus!\\pC’est peine perdue!\\pJe suis un Dresseur Combat, alors\\nà l’Arène, je perds à tous les\\lcoups, même en me donnant à fond!\\pRaaah! Paf! Paf! Paf!\\nPaf! Paf! Paf!\\pQuoi? Me regarde pas comme ça!\\nJe tape juste par terre!\\pOu alors tu veux que j’apprenne\\nDynamopoing à ton Pokémon?",
+  "justification": "Le lexique officiel fourni donne « DYNAMICPUNCH → Dynamopoing ».",
+  "msgid": "I can't do this anymore!\\pIt's utterly hopeless!\\pI'm a FIGHTING-type TRAINER,\\nso I can't win at the GYM\\lno matter how hard I try!\\pArgh! Punch! Punch! Punch!\\nPunch! Punch! Punch!\\pWhat, don't look at me that way!\\nI'm only hitting the ground!\\pOr do you want me to teach your\\nPOKéMON DYNAMICPUNCH?",
+  "msgstr": "J’en peux plus!\\pC’est peine perdue!\\pJe suis un Dresseur Combat, alors\\nà l’Arène, je perds à tous les\\lcoups, même en me donnant à fond!\\pRaaah! Paf! Paf! Paf!\\nPaf! Paf! Paf!\\pQuoi? Me regarde pas comme ça!\\nJe tape juste par terre!\\pOu alors tu veux que j’apprenne\\nDYNAMOPOING à ton Pokémon?",
+  "msgctxt": ""
+ }
+]

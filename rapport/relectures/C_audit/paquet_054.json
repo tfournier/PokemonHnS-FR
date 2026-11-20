@@ -1,0 +1,532 @@
+[
+ {
+  "id": 3,
+  "categorie": "oubli",
+  "probleme": "La profondeur à laquelle le Pokémon creuse disparaît.",
+  "correction": "Creuse profond et percute la\\ncible. Puissance variable.",
+  "justification": "« Deep » précise que le Pokémon s’enfonce profondément.",
+  "msgid": "Burrows deep and slams into\\nthe target. Power varies.",
+  "msgstr": "Creuse puis percute la\\ncible. Puissance variable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que la montagne est faite de roche.",
+  "correction": "Lâche un mont rocheux sur\\nl’ennemi. Puissance variable.",
+  "justification": "« Rock mountain » décrit la masse rocheuse qui s’abat sur l’ennemi.",
+  "msgid": "Drops a huge rock mountain\\non the foe. Power varies.",
+  "msgstr": "Fait tomber une montagne sur\\nl’ennemi. Puissance variable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "oubli",
+  "probleme": "La phrase ne précise pas qui est ligoté.",
+  "correction": "Crache des fils de soie et\\nligote l’ennemi. Puis. variable.",
+  "justification": "« Bind the foe » précise que la soie ligote l’ennemi.",
+  "msgid": "Spits threads of silk to\\nbind the foe. Power varies.",
+  "msgstr": "Crache des fils de soie pour\\nligoter. Puissance variable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "oubli",
+  "probleme": "La cible de la collision est omise.",
+  "correction": "Tourne très vite, percute la\\ncible. Puissance variable.",
+  "justification": "« Rams the target » désigne explicitement la cible percutée.",
+  "msgid": "Spins very fast and rams\\nthe target. Power varies.",
+  "msgstr": "Tourne à toute vitesse et\\npercute. Puissance variable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "typographie",
+  "probleme": "L’espace entre les deux mots manque.",
+  "correction": "LASER CRYOGENIQUE",
+  "justification": "Le nom de la capacité dans Pokémon Soleil et Lune est « Laser Cryogénique ».",
+  "msgid": "SUBZERO SLAMMER",
+  "msgstr": "LASERCRYOGENIQUE",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "contresens",
+  "probleme": "« Fait chuter le froid » inverse l’effet décrit.",
+  "correction": "Baisse la température et gèle\\nla cible. Puissance variable.",
+  "justification": "La température baisse, ce qui augmente le froid.",
+  "msgid": "Drops the temp and freezes\\nthe target. Power varies.",
+  "msgstr": "Fait chuter le froid et gèle\\nla cible. Puissance variable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "typographie",
+  "probleme": "Les mots du nom sont collés.",
+  "correction": "TROU NOIR DES OMBRES",
+  "justification": "Le nom de la capacité dans Pokémon Soleil et Lune est « Trou Noir des Ombres ».",
+  "msgid": "BLACK HOLE ECLIPSE",
+  "msgstr": "TROUNOIRDESOMBRES",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "contresens",
+  "probleme": "Les ténèbres remplacent l’énergie obscure.",
+  "correction": "Aspire la cible dans une énergie\\nobscure. Puissance variable.",
+  "justification": "« Dark energy » désigne l’énergie dans laquelle la cible est aspirée.",
+  "msgid": "Sucks the target into dark\\nenergy. Power varies.",
+  "msgstr": "Aspire la cible dans les\\nténèbres. Puissance variable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "typographie",
+  "probleme": "L’espace entre les deux mots manque.",
+  "correction": "IMPACT CHOUPINOVA",
+  "justification": "Le nom de la capacité dans Pokémon Soleil et Lune est « Impact Choupinova ».",
+  "msgid": "TWINKLE TACKLE",
+  "msgstr": "IMPACTCHOUPINOVA",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "PIKACHU bondit avec toute\\nson énergie électrique.",
+  "justification": "Le projet impose les capitales pour les noms d’espèces.",
+  "msgid": "Pikachu uses the max amount\\nof electricity and pounces.",
+  "msgstr": "Pikachu bondit avec toute\\nson énergie électrique.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "PIKACHU à casquette foudroie.\\nTaux de critique élevé.",
+  "justification": "Le projet impose les capitales pour les noms d’espèces.",
+  "msgid": "Cap Pikachu unleashes jolt.\\nHigh critical-hit ratio.",
+  "msgstr": "Pikachu à casquette foudroie.\\nTaux de critique élevé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "typographie",
+  "probleme": "Le point d’abréviation suit directement un trait d’union laissé seul.",
+  "correction": "ELECTRO-SURF SURV.",
+  "justification": "Le nom de Pokémon Soleil et Lune est « Électro-Surf Survolté ». L’abréviation garde le premier mot entier.",
+  "msgid": "STOKED SPARKSURFER",
+  "msgstr": "ELECTRO-. SURVOLTE",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "RAICHU d’Alola frappe de toutes\\nses forces. Paralyse la cible.",
+  "justification": "Le projet impose les capitales pour les noms d’espèces.",
+  "msgid": "Alolan Raichu attacks with\\nfull force. Causes paralysis.",
+  "msgstr": "Raichu d’Alola frappe de toutes\\nses forces. Paralyse la cible.",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "EVOLI puise l’énergie de ses\\namis. Hausse ses stats.",
+  "justification": "Le lexique fourni donne « EVOLI ».",
+  "msgid": "Eevee gets energy from\\nits friends. Boosts stats.",
+  "msgstr": "Evoli puise l’énergie de ses\\namis. Hausse ses stats.",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "RONFLEX s’agite et frappe\\nde toutes ses forces.",
+  "justification": "Le lexique fourni donne « RONFLEX ».",
+  "msgid": "Snorlax energetically moves\\nand attacks with full force.",
+  "msgstr": "Ronflex s’agite et frappe\\nde toutes ses forces.",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "MEW frappe de toutes ses forces.\\nCrée un Champ Psychique.",
+  "justification": "Le projet impose les capitales pour les noms d’espèces.",
+  "msgid": "Mew attacks with full force.\\nPsychically charges terrain.",
+  "msgstr": "Mew frappe de toutes ses forces.\\nCrée un Champ Psychique.",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "typographie",
+  "probleme": "Le « S » final est une initiale d’abréviation sans point.",
+  "correction": "FUREUR DES PLUMES S.",
+  "justification": "Le « S. » abrège « Spectrales » dans le nom de Pokémon Soleil et Lune, « Fureur des Plumes Spectrales ».",
+  "msgid": "SINISTER ARROW RAID",
+  "msgstr": "FUREUR DES PLUMES S",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "ARCHEDUC tire d’innombrables\\nflèches de toutes ses forces.",
+  "justification": "Les noms d’espèces prennent des capitales sans accent dans le projet.",
+  "msgid": "Decidueye shoots countless\\narrows with full force.",
+  "msgstr": "Archéduc tire d’innombrables\\nflèches de toutes ses forces.",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "FELINFERNO percute la cible\\nde toutes ses forces.",
+  "justification": "Les noms d’espèces prennent des capitales sans accent dans le projet.",
+  "msgid": "Incineroar crashes into\\nthe target with full force.",
+  "msgstr": "Félinferno percute la cible\\nde toutes ses forces.",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "ORATORIA projette un torrent\\nd’eau sur l’ennemi.",
+  "justification": "Le projet impose les capitales pour les noms d’espèces.",
+  "msgid": "Primarina summons a massive\\namount of water at the foe.",
+  "msgstr": "Oratoria projette un torrent\\nd’eau sur l’ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "LOUGAROC frappe de toutes\\nses forces. Efface les champs.",
+  "justification": "Le projet impose les capitales pour les noms d’espèces.",
+  "msgid": "Lycanroc attacks with full\\nforce. Removes all terrain.",
+  "msgstr": "Lougaroc frappe de toutes\\nses forces. Efface les champs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "oubli",
+  "probleme": "« Frappe » omet le coup de poing.",
+  "correction": "MIMIQUI frappe du poing\\nde toutes ses forces.",
+  "justification": "« Punches » précise la manière dont MIMIQUI frappe.",
+  "msgid": "Mimikyu punches the target\\nwith full force.",
+  "msgstr": "Mimiqui frappe la cible\\nde toutes ses forces.",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "oubli",
+  "probleme": "La traduction ne précise pas que toutes les stats augmentent.",
+  "correction": "EKAISER frappe à pleine force.\\nHausse toutes ses stats.",
+  "justification": "« All stats » inclut explicitement toutes les statistiques concernées.",
+  "msgid": "Kommo-o attacks with full\\nforce. Boosts all stats.",
+  "msgstr": "Ekaïser frappe de toutes\\nses forces. Hausse ses stats.",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "typographie",
+  "probleme": "Le premier mot est en casse mixte dans un libellé en capitales.",
+  "correction": "COLERE DU GARDIEN",
+  "justification": "La correction harmonise la casse du libellé et respecte la convention des capitales sans accent.",
+  "msgid": "GUARDIAN OF ALOLA",
+  "msgstr": "Colère DU GARDIEN",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "typographie",
+  "probleme": "L’espace entre « CHOC » et « DEVASTATEUR » manque.",
+  "correction": "HELIO-CHOC DEVASTATEUR",
+  "justification": "Le nom de la capacité dans Pokémon Ultra-Soleil et Ultra-Lune est « Hélio-Choc Dévastateur ».",
+  "msgid": "SEARING SUNRAZE SMASH",
+  "msgstr": "HELIO-CHOCDEVASTATEUR",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "SOLGALEO frappe à pleine\\npuissance. Ignore les talents.",
+  "justification": "Le projet impose les capitales pour les noms d’espèces.",
+  "msgid": "Solgaleo attacks with full\\nforce. Ignores abilities.",
+  "msgstr": "Solgaleo frappe à pleine\\npuissance. Ignore les talents.",
+  "msgctxt": ""
+ },
+ {
+  "id": 59,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "LUNALA frappe à pleine\\npuissance. Ignore les talents.",
+  "justification": "Le projet impose les capitales pour les noms d’espèces.",
+  "msgid": "Lunala attacks with full\\nforce. Ignores abilities.",
+  "msgstr": "Lunala frappe à pleine\\npuissance. Ignore les talents.",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "contresens",
+  "probleme": "« Coup ultime » masque le choix entre les deux statistiques offensives.",
+  "correction": "Prend la meilleure AT ou AS\\nde NECROZMA. Ignore les talents.",
+  "justification": "« Highest attack » renvoie à la plus élevée des deux statistiques offensives, qui détermine la catégorie de la capacité.",
+  "msgid": "Uses Necrozma's highest\\nattack. Ignores abilities.",
+  "msgstr": "Le coup ultime de Necrozma.\\nIgnore les talents.",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "oubli",
+  "probleme": "La traduction ne distingue plus les coups de poing des coups de pied.",
+  "correction": "MARSHADOW frappe de toutes ses\\nforces, des poings et des pieds.",
+  "justification": "« Punches and kicks » précise les deux types de coups.",
+  "msgid": "Marshadow punches and\\nkicks with full force.",
+  "msgstr": "Marshadow cogne et frappe\\nde toutes ses forces.",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "terminologie",
+  "probleme": "L’abréviation « Atq. Spé. » diverge de celle du projet.",
+  "correction": "Attaque Dynamax Insecte.\\nBaisse l’AS ennemie.",
+  "justification": "La convention fournie abrège Attaque Spéciale en « AS ».",
+  "msgid": "Bug Dynamax attack.\\nLowers foe's Sp. Atk stat.",
+  "msgstr": "Attaque Dynamax Insecte.\\nBaisse l’Atq. Spé. ennemie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "terminologie",
+  "probleme": "L’abréviation « Atq. Spé. » diverge de celle du projet.",
+  "correction": "Attaque Dynamax Poison.\\nHausse l’AS alliée.",
+  "justification": "La convention fournie abrège Attaque Spéciale en « AS ».",
+  "msgid": "Poison Dynamax attack.\\nBoosts ally Sp. Atk stats.",
+  "msgstr": "Attaque Dynamax Poison.\\nHausse l’Atq. Spé. alliée.",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "contresens",
+  "probleme": "La traduction ajoute une durée de cinq tours.",
+  "correction": "Attaque Dynamax Roche.\\nDéclenche une tempête de sable.",
+  "justification": "Cette réplique anglaise indique uniquement que l’attaque déclenche la météo.",
+  "msgid": "Rock Dynamax attack.\\nSummons a sandstorm.",
+  "msgstr": "Attaque Dynamax Roche.\\nTempête de sable 5 tours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "terminologie",
+  "probleme": "L’abréviation « Déf. Spé. » diverge de celle du projet.",
+  "correction": "Attaque Dynamax Sol.\\nHausse la DS alliée.",
+  "justification": "La convention fournie abrège Défense Spéciale en « DS ».",
+  "msgid": "Ground Dynamax attack.\\nBoosts ally Sp. Def stats.",
+  "msgstr": "Attaque Dynamax Sol.\\nHausse la Déf. Spé. alliée.",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "terminologie",
+  "probleme": "L’abréviation « Déf. Spé. » diverge de celle du projet.",
+  "correction": "Attaque Dynamax Ténèbres.\\nBaisse la DS ennemie.",
+  "justification": "La convention fournie abrège Défense Spéciale en « DS ».",
+  "msgid": "Dark Dynamax attack.\\nLowers foe's Sp. Def stat.",
+  "msgstr": "Attaque Dynamax Ténèbres.\\nBaisse la Déf. Spé. ennemie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "terminologie",
+  "probleme": "Le suffixe « G-Max » est placé en tête.",
+  "correction": "FOUET G-MAX",
+  "justification": "Le site officiel de Pokémon Épée et Bouclier donne « Fouet G-Max ». [Florizarre Gigamax](https://swordshield.pokemon.com/fr-fr/expansionpass/pokemon/gigantamax-venusaur/)",
+  "msgid": "G-MAX VINE LASH",
+  "msgstr": "G-MAX FOUET",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Attaque G-Max de FLORIZARRE.\\nDégâts pendant 4 tours.",
+  "justification": "Le lexique fourni donne « FLORIZARRE ».",
+  "msgid": "G-max Venusaur attack.\\nDamages for 4 turns.",
+  "msgstr": "Attaque G-Max de Florizarre.\\nDégâts pendant 4 tours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "terminologie",
+  "probleme": "Le suffixe « G-Max » est placé en tête.",
+  "correction": "FOURNAISE G-MAX",
+  "justification": "Le nom français de la capacité dans Pokémon Épée et Bouclier est « Fournaise G-Max ».",
+  "msgid": "G-MAX WILDFIRE",
+  "msgstr": "G-MAX FOURNAISE",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Attaque G-Max de DRACAUFEU.\\nDégâts pendant 4 tours.",
+  "justification": "Le lexique fourni donne « DRACAUFEU ».",
+  "msgid": "G-max Charizard attack.\\nDamages for 4 turns.",
+  "msgstr": "Attaque G-Max de Dracaufeu.\\nDégâts pendant 4 tours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "terminologie",
+  "probleme": "Le suffixe « G-Max » est placé en tête.",
+  "correction": "CANONNADE G-MAX",
+  "justification": "Le site officiel de Pokémon Épée et Bouclier donne « Canonnade G-Max ». [Tortank Gigamax](https://swordshield.pokemon.com/fr-fr/expansionpass/pokemon/gigantamax-blastoise/)",
+  "msgid": "G-MAX CANNONADE",
+  "msgstr": "G-MAX CANONNADE",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Attaque G-Max de TORTANK.\\nDégâts pendant 4 tours.",
+  "justification": "Le lexique fourni donne « TORTANK ».",
+  "msgid": "G-max Blastoise attack.\\nDamages for 4 turns.",
+  "msgstr": "Attaque G-Max de Tortank.\\nDégâts pendant 4 tours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "terminologie",
+  "probleme": "Le suffixe « G-Max » est placé en tête.",
+  "correction": "ILLUSION G-MAX",
+  "justification": "Le site officiel de Pokémon Épée et Bouclier donne « Illusion G-Max ». [Papilusion Gigamax](https://swordshield.pokemon.com/fr-fr/pokemon-galar-region/gigantamax-butterfree/)",
+  "msgid": "G-MAX BEFUDDLE",
+  "msgstr": "G-MAX ILLUSION",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "contresens",
+  "probleme": "« Poison » désigne la substance ou le type, alors que l’anglais décrit un changement de statut.",
+  "correction": "Attaque G-Max de PAPILUSION.\\nEmpoisonne, paralyse ou endort.",
+  "justification": "Les trois verbes expriment les effets possibles de l’attaque. [Papilusion Gigamax](https://swordshield.pokemon.com/fr-fr/pokemon-galar-region/gigantamax-butterfree/)",
+  "msgid": "G-max Butterfree attack.\\nPoison, paralysis, or sleep.",
+  "msgstr": "Attaque G-Max de Papilusion.\\nPoison, paralysie ou sommeil.",
+  "msgctxt": ""
+ },
+ {
+  "id": 109,
+  "categorie": "terminologie",
+  "probleme": "Le suffixe « G-Max » est placé en tête.",
+  "correction": "FOUDRE G-MAX",
+  "justification": "Le site officiel de Pokémon Épée et Bouclier donne « Foudre G-Max ». [Pikachu Gigamax](https://swordshield.pokemon.com/fr-fr/pokemon-galar-region/gigantamax-pikachu/)",
+  "msgid": "G-MAX VOLT CRASH",
+  "msgstr": "G-MAX FOUDRE",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Attaque G-Max de PIKACHU.\\nParalyse les ennemis.",
+  "justification": "Le lexique fourni donne « PIKACHU ».",
+  "msgid": "G-max Pikachu attack.\\nParalyzes opponents.",
+  "msgstr": "Attaque G-Max de Pikachu.\\nParalyse les ennemis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 111,
+  "categorie": "terminologie",
+  "probleme": "Le suffixe « G-Max » est placé en tête.",
+  "correction": "PACTOLE G-MAX",
+  "justification": "Le site officiel de Pokémon Épée et Bouclier donne « Pactole G-Max ». [Miaouss Gigamax](https://swordshield.pokemon.com/fr-fr/pokemon-galar-region/gigantamax-meowth/)",
+  "msgid": "G-MAX GOLD RUSH",
+  "msgstr": "G-MAX PACTOLE",
+  "msgctxt": ""
+ },
+ {
+  "id": 112,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Attaque G-Max de MIAOUSS.\\nConfusion et argent à la clé.",
+  "justification": "Le lexique fourni donne « MIAOUSS ».",
+  "msgid": "G-max Meowth attack.\\nConfuses and earns money.",
+  "msgstr": "Attaque G-Max de Miaouss.\\nConfusion et argent à la clé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "terminologie",
+  "probleme": "Le suffixe « G-Max » est placé en tête.",
+  "correction": "FRAPPE G-MAX",
+  "justification": "Le nom français de la capacité dans Pokémon Épée et Bouclier est « Frappe G-Max ».",
+  "msgid": "G-MAX CHI STRIKE",
+  "msgstr": "G-MAX FRAPPE",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Attaque G-Max de MACKOGNEUR.\\nAugmente le taux critique.",
+  "justification": "Le lexique fourni donne « MACKOGNEUR ».",
+  "msgid": "G-max Machamp attack.\\nBoosts critical-hit ratio.",
+  "msgstr": "Attaque G-Max de Mackogneur.\\nAugmente le taux critique.",
+  "msgctxt": ""
+ },
+ {
+  "id": 115,
+  "categorie": "terminologie",
+  "probleme": "Le suffixe « G-Max » est placé en tête.",
+  "correction": "HANTISE G-MAX",
+  "justification": "Le nom français de la capacité dans Pokémon Épée et Bouclier est « Hantise G-Max ».",
+  "msgid": "G-MAX TERROR",
+  "msgstr": "G-MAX HANTISE",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Attaque G-Max d’ECTOPLASMA.\\nEmpêche les ennemis de fuir.",
+  "justification": "Le lexique fourni donne « ECTOPLASMA ».",
+  "msgid": "G-max Gengar attack.\\nPrevents foes from escaping.",
+  "msgstr": "Attaque G-Max d’Ectoplasma.\\nEmpêche les ennemis de fuir.",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "terminologie",
+  "probleme": "« G-Max Ecume » diffère du nom officiel.",
+  "correction": "BULLES G-MAX",
+  "justification": "Le nom français de la capacité de KRABBOSS dans Pokémon Épée et Bouclier est « Bulles G-Max ».",
+  "msgid": "G-MAX FOAM BURST",
+  "msgstr": "G-MAX Ecume",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que la baisse de Vitesse touche l’ennemi.",
+  "correction": "Attaque G-Max de KRABBOSS.\\nBaisse fortement la VI ennemie.",
+  "justification": "« Foe’s Speed » désigne la Vitesse adverse. L’abréviation « VI » permet de conserver cette précision dans la largeur prévue.",
+  "msgid": "G-max Kingler attack.\\nHarshly lowers foe's Speed.",
+  "msgstr": "Attaque G-Max de Krabboss.\\nBaisse beaucoup la Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "terminologie",
+  "probleme": "Le suffixe « G-Max » est placé en tête.",
+  "correction": "RESONANCE G-MAX",
+  "justification": "Le nom français de la capacité dans Pokémon Épée et Bouclier est « Résonance G-Max ».",
+  "msgid": "G-MAX RESONANCE",
+  "msgstr": "G-MAX RESONANCE",
+  "msgctxt": ""
+ }
+]

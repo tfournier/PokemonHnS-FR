@@ -1,0 +1,352 @@
+[
+ {
+  "id": 1,
+  "categorie": "oubli",
+  "probleme": "La description omet le fragment de coquille et le milieu marin.",
+  "correction": "Un fragment de la coquille\\nd’un ancien Pokémon\\nmarin.",
+  "justification": "« A piece of » désigne un fragment, « seashell » une coquille et « marine » précise le milieu.",
+  "msgid": "A piece of an\\nancient marine\\nPokémon's seashell.",
+  "msgstr": "Un fossile d’un\\nancien Pokémon\\naquatique.",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "La description omet le fragment de carapace et le milieu marin.",
+  "correction": "Un fragment de la carapace\\nd’un ancien Pokémon\\nmarin.",
+  "justification": "« Shell » désigne ici la carapace, et « marine » précise le milieu.",
+  "msgid": "A piece of an\\nancient marine\\nPokémon's shell.",
+  "msgstr": "Un fossile d’un\\nancien Pokémon\\naquatique.",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été ajouté.",
+  "correction": "Une pierre\\ncontenant l’ADN\\nd’un ancien Pokémon.",
+  "justification": "La source écrit « Pokémon » en toutes lettres.",
+  "msgid": "A stone containing\\nthe genes of an\\nancient Pokémon.",
+  "msgstr": "Une pierre\\ncontenant l’ADN\\nd’un ancien {PKMN}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "autre_phrase",
+  "probleme": "La traduction reprend le collier de l’entrée 5.",
+  "correction": "Morceau du crâne\\nd’un Pokémon\\npréhistorique.",
+  "justification": "« Head » désigne la tête, dont le crâne constitue ici le fragment fossilisé.",
+  "msgid": "A piece of a\\nprehistoric Poké-\\nmon's head.",
+  "msgstr": "Morceau du collier\\nd’un Pokémon\\npréhistorique.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "autre_phrase",
+  "probleme": "La traduction reprend le crâne de l’entrée 4.",
+  "correction": "Morceau du collier\\nd’un Pokémon\\npréhistorique.",
+  "justification": "« Collar » désigne le collier du Pokémon.",
+  "msgid": "A piece of a\\nprehistoric Poké-\\nmon's collar.",
+  "msgstr": "Morceau du crâne\\nd’un Pokémon\\npréhistorique.",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "oubli",
+  "probleme": "La taille de la mâchoire a disparu.",
+  "correction": "Fragment de la grande\\nmâchoire d’un Pokémon\\npréhistorique.",
+  "justification": "« Large » qualifie la mâchoire.",
+  "msgid": "A piece of a\\nprehistoric Poké-\\nmon's large jaw.",
+  "msgstr": "Fragment de la\\nmâchoire d’un Pokémon\\npréhistorique.",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "oubli",
+  "probleme": "La description omet la peau qui forme la voile.",
+  "correction": "Fragment de la voile de\\npeau d’un Pokémon\\npréhistorique.",
+  "justification": "« Skin sail » désigne une voile de peau.",
+  "msgid": "A piece of a\\nprehistoric Poké-\\nmon's skin sail.",
+  "msgstr": "Fragment de la\\nvoile d’un Pokémon\\npréhistorique.",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "oubli",
+  "probleme": "« Volant » omet l’idée de prendre de la hauteur.",
+  "correction": "Un fossile d’un\\nancien Pokémon qui\\nvolait haut dans le ciel.",
+  "justification": "« Sky-soaring » décrit un Pokémon qui s’élançait haut dans le ciel.",
+  "msgid": "A fossil of an\\nancient, sky-\\nsoaring Pokémon.",
+  "msgstr": "Un fossile d’un\\nancien Pokémon\\nvolant.",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et bas de casse.",
+  "correction": "FOSSILE DRAGON",
+  "justification": "Le libellé de menu s’écrit entièrement en capitales.",
+  "msgid": "FOSSILIZED DRAKE",
+  "msgstr": "FOSSILE Dragon",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "oubli",
+  "probleme": "« Terrestre » omet l’idée que le Pokémon parcourait la terre ferme.",
+  "correction": "Un fossile d’un\\nancien Pokémon qui\\narpentait la terre ferme.",
+  "justification": "« Land-roaming » décrit les déplacements du Pokémon sur la terre ferme.",
+  "msgid": "A fossil of an\\nancient, land-\\nroaming Pokémon.",
+  "msgstr": "Un fossile d’un\\nancien Pokémon\\nterrestre.",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "terminologie",
+  "probleme": "« Repaire » s’écarte du terme officiel pour Pokémon Den.",
+  "correction": "Se jette dans un\\nantre de {PKMN}. Attire\\nles Pokémon Dynamax.",
+  "justification": "Pokémon Épée et Bouclier emploie « antre de Pokémon ». [Site officiel Pokémon](https://www.pokemon.com/fr/jeux-video-pokemon/pokemon-epee-et-pokemon-bouclier)",
+  "msgid": "Throw into a\\n{PKMN} Den to attract\\nDynamax Pokémon.",
+  "msgstr": "Se jette dans un\\nrepaire {PKMN}. Attire\\nles Pokémon Dynamax.",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "oubli",
+  "probleme": "La région de Galar a disparu de la description.",
+  "correction": "Un minerai rare\\nque l’on trouve à\\nIsolarmure, à Galar.",
+  "justification": "La source situe explicitement Isolarmure à Galar.",
+  "msgid": "A rare ore. Can be\\nfound in the Isle\\nof Armor at Galar.",
+  "msgstr": "Un minerai rare\\nque l’on trouve à\\nIsolarmure.",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "oubli",
+  "probleme": "« Papier magnifique » attribue la qualité au papier et omet son motif.",
+  "correction": "Papier à motif magnifique\\npouvant être tenu\\npar un Pokémon.",
+  "justification": "« Gorgeous-print » qualifie le motif imprimé sur le papier.",
+  "msgid": "A gorgeous-print\\nMail to be held\\nby a Pokémon.",
+  "msgstr": "Papier magnifique\\npouvant être tenu\\npar un Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "terminologie",
+  "probleme": "L’accent de « Rétro » manque dans le nom de l’objet.",
+  "correction": "Lettre Rétro",
+  "justification": "Pokémon Émeraude utilise « Lettre Rétro » pour Retro Mail. [Noms d’objets de la troisième génération](https://www.pokepedia.fr/Liste_des_objets_dans_la_troisi%C3%A8me_g%C3%A9n%C3%A9ration)",
+  "msgid": "Retro Mail",
+  "msgstr": "Lettre Retro",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "typographie",
+  "probleme": "« Pierre » est en bas de casse dans un libellé en capitales.",
+  "correction": "PIERRE FOUDRE",
+  "justification": "Le libellé de menu s’écrit entièrement en capitales.",
+  "msgid": "THUNDER STONE",
+  "msgstr": "Pierre FOUDRE",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "typographie",
+  "probleme": "Le libellé de menu est en casse de titre.",
+  "correction": "PIERRE GLACE",
+  "justification": "Le libellé de menu s’écrit entièrement en capitales.",
+  "msgid": "ICE STONE",
+  "msgstr": "Pierre Glace",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "typographie",
+  "probleme": "« Pomme » est en bas de casse dans un libellé en capitales.",
+  "correction": "POMME SUCREE",
+  "justification": "Le libellé de menu s’écrit entièrement en capitales.",
+  "msgid": "SWEET APPLE",
+  "msgstr": "Pomme SUCREE",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "oubli",
+  "probleme": "L’intensité de « very sweet » a disparu.",
+  "correction": "Une pomme très sucrée\\nqui fait évoluer\\ncertains Pokémon.",
+  "justification": "« Très » restitue l’intensité du goût sucré.",
+  "msgid": "A very sweet apple\\nthat makes certain\\nPokémon evolve.",
+  "msgstr": "Une pomme sucrée\\nqui fait évoluer\\ncertains Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "typographie",
+  "probleme": "« Pomme » est en bas de casse dans un libellé en capitales.",
+  "correction": "POMME ACIDULEE",
+  "justification": "Le libellé de menu s’écrit entièrement en capitales.",
+  "msgid": "TART APPLE",
+  "msgstr": "Pomme ACIDULEE",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "oubli",
+  "probleme": "L’intensité de « very tart » a disparu.",
+  "correction": "Une pomme très acide\\nqui fait évoluer\\ncertains Pokémon.",
+  "justification": "« Très » restitue l’intensité de l’acidité.",
+  "msgid": "A very tart apple\\nthat makes certain\\nPokémon evolve.",
+  "msgstr": "Une pomme acide\\nqui fait évoluer\\ncertains Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "oubli",
+  "probleme": "« Couronne de Galar » omet la mention de sa fabrication.",
+  "correction": "Couronne fabriquée à Galar\\nqui fait évoluer\\ncertains Pokémon.",
+  "justification": "« Made in Galar » indique le lieu de fabrication.",
+  "msgid": "A wreath made in\\nGalar. Makes some\\nPokémon evolve.",
+  "msgstr": "Couronne de Galar\\nqui fait évoluer\\ncertains Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "typographie",
+  "probleme": "Le libellé de menu est en casse de titre.",
+  "correction": "AMELIORATOR",
+  "justification": "Le nom « Améliorator » prend la forme en capitales non accentuées prévue pour les libellés.",
+  "msgid": "UPGRADE",
+  "msgstr": "Améliorator",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "contresens",
+  "probleme": "« Plein de magma » décrit un objet contenant du magma.",
+  "correction": "Adoré par un\\ncertain Pokémon.\\nPlein d’énergie magmatique.",
+  "justification": "La source parle de l’énergie du magma.",
+  "msgid": "Loved by a certain\\nPokémon. It's full\\nof magma energy.",
+  "msgstr": "Adoré par un\\ncertain Pokémon.\\nPlein de magma.",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "oubli",
+  "probleme": "La description omet que l’écaille agit sur un Pokémon précis.",
+  "correction": "Une écaille\\nmystérieuse qui fait\\névoluer un certain Pokémon.",
+  "justification": "« A certain Pokémon » désigne un Pokémon particulier.",
+  "msgid": "A mysterious scale\\nthat evolves a\\ncertain Pokémon.",
+  "msgstr": "Une écaille\\nmystérieuse qui fait\\névoluer un Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "oubli",
+  "probleme": "« Douce » ne restitue pas clairement la texture et le goût sucré.",
+  "correction": "Une crème onctueuse et sucrée\\nadorée par un\\ncertain Pokémon.",
+  "justification": "« Onctueuse » rend la texture de la crème et « sucrée » son goût.",
+  "msgid": "A soft and sweet\\ntreat loved by\\na certain Pokémon.",
+  "msgstr": "Une crème douce\\nadorée par un\\ncertain Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "contresens",
+  "probleme": "Le pluriel « certains Pokémon » élargit l’effet à plusieurs Pokémon.",
+  "correction": "Une pierre étrange\\nqui fait évoluer\\nun certain Pokémon.",
+  "justification": "La source désigne un seul Pokémon particulier.",
+  "msgid": "Peculiar stone\\nthat evolves a\\ncertain Pokémon.",
+  "msgstr": "Une pierre étrange\\nqui fait évoluer\\ncertains Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "terminologie",
+  "probleme": "Le nom d’espèce porte un accent grave et ne respecte pas les capitales du projet.",
+  "correction": "Un bonbon en forme\\nde fraise adoré\\npar CREMY.",
+  "justification": "Le nom français officiel de Milcery est « Crémy », transcrit « CREMY » selon la convention du projet. [Liste officielle du JCC Pokémon](https://assets.pokemon.com/assets/cms2-fr-fr/pdf/trading-card-game/checklist/swsh2_web_cardlist_fr.pdf)",
+  "msgid": "Strawberry-shaped\\nsweet loved by\\nMilcery.",
+  "msgstr": "Un bonbon en forme\\nde fraise adoré\\npar Crèmy.",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "terminologie",
+  "probleme": "« Crèmy » présente une graphie incorrecte pour le nom d’espèce.",
+  "correction": "Un bonbon en forme\\nde cœur adoré\\npar CREMY.",
+  "justification": "Le nom officiel « Crémy » s’écrit « CREMY » selon la convention du projet. [Liste officielle du JCC Pokémon](https://assets.pokemon.com/assets/cms2-fr-fr/pdf/trading-card-game/checklist/swsh2_web_cardlist_fr.pdf)",
+  "msgid": "A heart-shaped\\nsweet loved by\\nMilcery.",
+  "msgstr": "Un bonbon en forme\\nde cœur adoré\\npar Crèmy.",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "typographie",
+  "probleme": "« Baie » est en bas de casse dans un libellé en capitales.",
+  "correction": "BAIE EN SUCRE",
+  "justification": "Le libellé de menu s’écrit entièrement en capitales.",
+  "msgid": "BERRY SWEET",
+  "msgstr": "Baie EN SUCRE",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "terminologie",
+  "probleme": "« Crèmy » présente une graphie incorrecte pour le nom d’espèce.",
+  "correction": "Un bonbon en forme\\nde baie adoré\\npar CREMY.",
+  "justification": "Le nom officiel « Crémy » s’écrit « CREMY » selon la convention du projet. [Liste officielle du JCC Pokémon](https://assets.pokemon.com/assets/cms2-fr-fr/pdf/trading-card-game/checklist/swsh2_web_cardlist_fr.pdf)",
+  "msgid": "A berry-shaped\\nsweet loved by\\nMilcery.",
+  "msgstr": "Un bonbon en forme\\nde baie adoré\\npar Crèmy.",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "terminologie",
+  "probleme": "« Crèmy » présente une graphie incorrecte pour le nom d’espèce.",
+  "correction": "Un bonbon en forme\\nde trèfle adoré\\npar CREMY.",
+  "justification": "Le nom officiel « Crémy » s’écrit « CREMY » selon la convention du projet. [Liste officielle du JCC Pokémon](https://assets.pokemon.com/assets/cms2-fr-fr/pdf/trading-card-game/checklist/swsh2_web_cardlist_fr.pdf)",
+  "msgid": "A clover-shaped\\nsweet loved by\\nMilcery.",
+  "msgstr": "Un bonbon en forme\\nde trèfle adoré\\npar Crèmy.",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "typographie",
+  "probleme": "« Fleur » est en bas de casse dans un libellé en capitales.",
+  "correction": "FLEUR EN SUCRE",
+  "justification": "Le libellé de menu s’écrit entièrement en capitales.",
+  "msgid": "FLOWER SWEET",
+  "msgstr": "Fleur EN SUCRE",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "terminologie",
+  "probleme": "« Crèmy » présente une graphie incorrecte pour le nom d’espèce.",
+  "correction": "Un bonbon en forme\\nde fleur adoré\\npar CREMY.",
+  "justification": "Le nom officiel « Crémy » s’écrit « CREMY » selon la convention du projet. [Liste officielle du JCC Pokémon](https://assets.pokemon.com/assets/cms2-fr-fr/pdf/trading-card-game/checklist/swsh2_web_cardlist_fr.pdf)",
+  "msgid": "A flower-shaped\\nsweet loved by\\nMilcery.",
+  "msgstr": "Un bonbon en forme\\nde fleur adoré\\npar Crèmy.",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "terminologie",
+  "probleme": "« Crèmy » présente une graphie incorrecte pour le nom d’espèce.",
+  "correction": "Un bonbon en forme\\nd’étoile adoré\\npar CREMY.",
+  "justification": "Le nom officiel « Crémy » s’écrit « CREMY » selon la convention du projet. [Liste officielle du JCC Pokémon](https://assets.pokemon.com/assets/cms2-fr-fr/pdf/trading-card-game/checklist/swsh2_web_cardlist_fr.pdf)",
+  "msgid": "A star-shaped\\nsweet loved by\\nMilcery.",
+  "msgstr": "Un bonbon en forme\\nd’étoile adoré\\npar Crèmy.",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "terminologie",
+  "probleme": "« Crèmy » présente une graphie incorrecte pour le nom d’espèce.",
+  "correction": "Un bonbon en forme\\nde ruban adoré\\npar CREMY.",
+  "justification": "Le nom officiel « Crémy » s’écrit « CREMY » selon la convention du projet. [Liste officielle du JCC Pokémon](https://assets.pokemon.com/assets/cms2-fr-fr/pdf/trading-card-game/checklist/swsh2_web_cardlist_fr.pdf)",
+  "msgid": "A ribbon-shaped\\nsweet loved by\\nMilcery.",
+  "msgstr": "Un bonbon en forme\\nde ruban adoré\\npar Crèmy.",
+  "msgctxt": ""
+ }
+]

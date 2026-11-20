@@ -1,0 +1,142 @@
+[
+ {
+  "id": 40,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’aromate mêle capitales et bas de casse.",
+  "correction": "AROMATE PRESSE",
+  "justification": "Le libellé suit la casse des autres aromates et la convention du projet sur les capitales sans accents.",
+  "msgid": "HASTY MINT",
+  "msgstr": "AROMATE Presse",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "oubli",
+  "probleme": "La description omet que la flûte libère un Pokémon de son attirance.",
+  "correction": "Une flûte en verre\\nqui libère un Pokémon\\nde son attirance.",
+  "justification": "Le texte anglais précise la cible de l’effet.",
+  "msgid": "A glass flute that\\nsnaps Pokémon\\nout of attraction.",
+  "msgstr": "Une flûte en verre\\nqui met fin à\\nl’attirance.",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} est absent de la source anglaise et une espace termine la deuxième ligne.",
+  "correction": "Repousse les Pokémon\\nsauvages faibles\\ndurant 100 pas.",
+  "justification": "La source écrit Pokémon en toutes lettres et ne contient aucun code entre accolades.",
+  "msgid": "Repels weak wild\\nPokémon for 100\\nsteps.",
+  "msgstr": "Repousse les {PKMN}\\nsauvages faibles \\ndurant 100 pas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} est absent de la source anglaise et une espace termine la deuxième ligne.",
+  "correction": "Repousse les Pokémon\\nsauvages faibles\\ndurant 200 pas.",
+  "justification": "La source écrit Pokémon en toutes lettres et ne contient aucun code entre accolades.",
+  "msgid": "Repels weak wild\\nPokémon for 200\\nsteps.",
+  "msgstr": "Repousse les {PKMN}\\nsauvages faibles \\ndurant 200 pas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} est absent de la source anglaise et une espace termine la deuxième ligne.",
+  "correction": "Repousse les Pokémon\\nsauvages faibles\\ndurant 250 pas.",
+  "justification": "La source écrit Pokémon en toutes lettres et ne contient aucun code entre accolades.",
+  "msgid": "Repels weak wild\\nPokémon for 250\\nsteps.",
+  "msgstr": "Repousse les {PKMN}\\nsauvages faibles \\ndurant 250 pas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "contresens",
+  "probleme": "« Attire plus de » décrit un effet sur le nombre de Pokémon.",
+  "correction": "Augmente les chances\\nde croiser des Pokémon\\ndurant 100 pas.",
+  "justification": "« More likely to appear » indique une probabilité de rencontre accrue.",
+  "msgid": "Makes Pokémon more\\nlikely to appear\\nfor 100 steps.",
+  "msgstr": "Attire plus de\\nPokémon sauvages\\ndurant 100 pas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "contresens",
+  "probleme": "« Attire plus de » décrit un effet sur le nombre de Pokémon.",
+  "correction": "Augmente les chances\\nde croiser des Pokémon\\ndurant 200 pas.",
+  "justification": "« More likely to appear » indique une probabilité de rencontre accrue.",
+  "msgid": "Makes Pokémon more\\nlikely to appear\\nfor 200 steps.",
+  "msgstr": "Attire plus de\\nPokémon sauvages\\ndurant 200 pas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "contresens",
+  "probleme": "« Attire plus de » décrit un effet sur le nombre de Pokémon.",
+  "correction": "Augmente les chances\\nde croiser des Pokémon\\ndurant 250 pas.",
+  "justification": "« More likely to appear » indique une probabilité de rencontre accrue.",
+  "msgid": "Makes Pokémon more\\nlikely to appear\\nfor 250 steps.",
+  "msgstr": "Attire plus de\\nPokémon sauvages\\ndurant 250 pas.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "terminologie",
+  "probleme": "Le libellé reprend une dénomination officielle plus récente.",
+  "correction": "SPECIAL +",
+  "justification": "L’objet s’appelle « Spécial + » dans Pokémon Émeraude et Pokémon SoulSilver en français.",
+  "msgid": "X SP. ATK",
+  "msgstr": "ATQ. SPE. +",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "terminologie",
+  "probleme": "« Garde-Stats » est une dénomination officielle plus récente.",
+  "correction": "Défense Spéc",
+  "justification": "Pokémon SoulSilver en français affiche « Défense Spéc » pour cet objet.",
+  "msgid": "Guard Specs.",
+  "msgstr": "Garde-Stats",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "typographie",
+  "probleme": "Le libellé mêle capitales et bas de casse.",
+  "correction": "MAXI PEPITE",
+  "justification": "La mise en capitales est uniforme et suit la convention du projet sur les accents.",
+  "msgid": "BIG NUGGET",
+  "msgstr": "MAXI Pépite",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "typographie",
+  "probleme": "Le libellé mêle capitales et bas de casse.",
+  "correction": "PERLE TRIPLE",
+  "justification": "La mise en capitales est uniforme sur les deux mots.",
+  "msgid": "PEARL STRING",
+  "msgstr": "Perle TRIPLE",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "oubli",
+  "probleme": "« Grosses » omet l’intensité de « very large ».",
+  "correction": "De très grosses perles\\nqui peuvent être\\nvendues à bon prix.",
+  "justification": "« Très » restitue la taille inhabituelle des perles.",
+  "msgid": "Very large pearls\\nthat would sell at a\\nhigh price.",
+  "msgstr": "De grosses perles\\nqui peuvent être\\nvendues à bon prix.",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "oubli",
+  "probleme": "La condition « when used » disparaît.",
+  "correction": "Un miel sucré qui, utilisé,\\nattire les Pokémon\\nsauvages.",
+  "justification": "L’effet se déclenche à l’utilisation du miel.",
+  "msgid": "Sweet honey that\\nattracts wild\\nPokémon when used.",
+  "msgstr": "Un miel sucré qui\\nattire les Pokémon\\nsauvages.",
+  "msgctxt": ""
+ }
+]

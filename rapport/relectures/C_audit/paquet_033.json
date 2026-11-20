@@ -1,0 +1,332 @@
+[
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "Il ne reste que le point d’interrogation.",
+  "correction": "D’accord?",
+  "justification": "La question demande de confirmer la perte du texte modifié.",
+  "msgid": "Is that okay?",
+  "msgstr": "?",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "contresens",
+  "probleme": "Le texte demande de donner une réponse.",
+  "correction": "Valider la réponse?",
+  "justification": "L’action porte sur la validation de la réponse déjà sélectionnée.",
+  "msgid": "Set the answer!",
+  "msgstr": "Votre réponse?",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "terminologie",
+  "probleme": "La graphie diffère de celle du lexique fourni.",
+  "correction": "Eclair",
+  "justification": "Le lexique du projet donne explicitement « Eclair » pour « ECLAIR ».",
+  "msgid": "LIGHTNING",
+  "msgstr": "ECLAIR",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "typographie",
+  "probleme": "Les deux mots du nom du Badge sont soudés.",
+  "correction": "Badge Foudre",
+  "justification": "Le nom s’écrit en deux mots, selon la même présentation que « Badge Roche » et « Badge Cascade ».",
+  "msgid": "THUNDERBADGE",
+  "msgstr": "BADGEFOUDRE",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "typographie",
+  "probleme": "Le second mot est entièrement en capitales.",
+  "correction": "Badge Prisme",
+  "justification": "La série de noms de Badges utilise des majuscules initiales.",
+  "msgid": "RAINBOWBADGE",
+  "msgstr": "Badge PRISME",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "typographie",
+  "probleme": "Le second mot est entièrement en capitales.",
+  "correction": "Badge Ame",
+  "justification": "La majuscule initiale suit la présentation des autres Badges et la convention du projet sur les accents.",
+  "msgid": "SOULBADGE",
+  "msgstr": "Badge AME",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "typographie",
+  "probleme": "Le second mot est entièrement en capitales.",
+  "correction": "Badge Marais",
+  "justification": "La série de noms de Badges utilise des majuscules initiales.",
+  "msgid": "MARSHBADGE",
+  "msgstr": "Badge MARAIS",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "typographie",
+  "probleme": "Le second mot est entièrement en capitales.",
+  "correction": "Badge Volcan",
+  "justification": "La série de noms de Badges utilise des majuscules initiales.",
+  "msgid": "VOLCANOBADGE",
+  "msgstr": "Badge VOLCAN",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "typographie",
+  "probleme": "Le second mot est entièrement en capitales.",
+  "correction": "Badge Terre",
+  "justification": "La série de noms de Badges utilise des majuscules initiales.",
+  "msgid": "EARTHBADGE",
+  "msgstr": "Badge TERRE",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "typographie",
+  "probleme": "La ligne qui commence par « C’est aussi ici » compte 38 caractères et dépasse la longueur indicative.",
+  "correction": "Voici la liste de vos Pokémon,\\n{PLAYER}.\\pOuvrez-la pour voir les talents et\\ncapacités de vos Pokémon.\\pChoisissez ici le Pokémon sur\\nlequel utiliser un objet.{PAUSE_UNTIL_PRESS}",
+  "justification": "La dernière page est raccourcie et précise que l’objet s’utilise sur le Pokémon choisi.",
+  "msgid": "This is a list of your POKéMON,\\n{PLAYER}.\\pOpen this to check the skills\\nand moves of your POKéMON.\\pYou also choose POKéMON here if\\nyou want to use an item on one.{PAUSE_UNTIL_PRESS}",
+  "msgstr": "Voici la liste de vos Pokémon,\\n{PLAYER}.\\pOuvrez-la pour voir les talents et\\ncapacités de vos Pokémon.\\pC’est aussi ici que vous choisissez un\\nPokémon pour utiliser un objet.{PAUSE_UNTIL_PRESS}",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "terminologie",
+  "probleme": "Le nom de l’objet est resté en anglais.",
+  "correction": "Le Lecteur GB est activé.\\nLes sons d’antan sont de retour!{PAUSE_UNTIL_PRESS}",
+  "justification": "L’objet s’appelle « Lecteur GB » dans Pokémon HeartGold et SoulSilver en français.",
+  "msgid": "The GB Player was turned on.\\nSounds from the past fill the air.{PAUSE_UNTIL_PRESS}",
+  "msgstr": "Le GB Player est activé.\\nLes sons d’antan sont de retour!{PAUSE_UNTIL_PRESS}",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "terminologie",
+  "probleme": "Le nom de l’objet est resté en anglais.",
+  "correction": "Le Lecteur GB est désactivé.\\nLes sons d’antan s’effacent.{PAUSE_UNTIL_PRESS}",
+  "justification": "L’objet s’appelle « Lecteur GB » dans Pokémon HeartGold et SoulSilver en français.",
+  "msgid": "The GB Player was turned off.\\nSounds of nostalgia fade away.{PAUSE_UNTIL_PRESS}",
+  "msgstr": "Le GB Player est désactivé.\\nLes sons d’antan s’effacent.{PAUSE_UNTIL_PRESS}",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "terminologie",
+  "probleme": "Le nom français de la ville est tronqué.",
+  "correction": "Carmin sur Mer",
+  "justification": "« Carmin sur Mer » est le nom de Vermilion City dans Pokémon SoulSilver en français.",
+  "msgid": "VERMILION",
+  "msgstr": "CARMIN",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "autre_phrase",
+  "probleme": "La description parle de repousser les Pokémon sauvages.",
+  "correction": "Peut apeurer l’ennemi.",
+  "justification": "La source décrit une chance d’apeurer l’adversaire en combat.",
+  "msgid": "May cause a foe to flinch.",
+  "msgstr": "Repousse Pokémon sauvage.",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "oubli",
+  "probleme": "La hausse progressive de la Vitesse a disparu.",
+  "correction": "Augmente peu à peu la VI.",
+  "justification": "« Peu à peu » restitue la progression et « VI » est l’abréviation prévue pour la Vitesse.",
+  "msgid": "Gradually boosts Speed.",
+  "msgstr": "Améliore la VITESSE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « VITESSE ».",
+  "correction": "Monte la VI s’il pleut.",
+  "justification": "Le complément prend un article et l’abréviation « VI » garde la description courte.",
+  "msgid": "Raises Speed in rain.",
+  "msgstr": "Monte VITESSE s’il pleut.",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « VITESSE ».",
+  "correction": "Augmente la VI au soleil.",
+  "justification": "Le complément prend un article et l’abréviation « VI » garde la description courte.",
+  "msgid": "Raises Speed in sunshine.",
+  "msgstr": "Augmente VITESSE au soleil.",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "orthographe",
+  "probleme": "Le groupe « réduction ATTAQUE » est mal construit.",
+  "correction": "Empêche la baisse d’AT.",
+  "justification": "La baisse porte sur l’Attaque, abrégée « AT » selon les conventions du projet.",
+  "msgid": "Prevents Attack reduction.",
+  "msgstr": "Empêche réduction ATTAQUE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "contresens",
+  "probleme": "« Blessé » laisse entendre qu’une perte de PV suffit.",
+  "correction": "AT + si statut altéré.",
+  "justification": "La hausse d’Attaque est liée à une altération de statut.",
+  "msgid": "Ups Attack if suffering.",
+  "msgstr": "Augmente ATT. quand blessé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "contresens",
+  "probleme": "« Blessé » laisse entendre qu’une perte de PV suffit.",
+  "correction": "DF + si statut altéré.",
+  "justification": "La hausse de Défense est liée à une altération de statut.",
+  "msgid": "Ups Defense if suffering.",
+  "msgstr": "Augmente DEF. quand blessé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "oubli",
+  "probleme": "La condition de faible santé a disparu.",
+  "correction": "Plante + si PV bas.",
+  "justification": "Le bonus s’applique aux capacités Plante lorsque les PV sont bas.",
+  "msgid": "Ups Grass moves in a pinch.",
+  "msgstr": "Augmente attaques Plante.",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "oubli",
+  "probleme": "La condition de faible santé a disparu.",
+  "correction": "Feu + si PV bas.",
+  "justification": "Le bonus s’applique aux capacités Feu lorsque les PV sont bas.",
+  "msgid": "Ups Fire moves in a pinch.",
+  "msgstr": "Augmente attaques Feu.",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "oubli",
+  "probleme": "La condition de faible santé a disparu.",
+  "correction": "Eau + si PV bas.",
+  "justification": "Le bonus s’applique aux capacités Eau lorsque les PV sont bas.",
+  "msgid": "Ups Water moves in a pinch.",
+  "msgstr": "Augmente attaques Eau.",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "oubli",
+  "probleme": "La condition de faible santé a disparu.",
+  "correction": "Insecte + si PV bas.",
+  "justification": "Le bonus s’applique aux capacités Insecte lorsque les PV sont bas.",
+  "msgid": "Ups Bug moves in a pinch.",
+  "msgstr": "Augmente attaques INSECT.",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "autre_phrase",
+  "probleme": "La description française porte sur les effets du climat.",
+  "correction": "Esquive + si confus.",
+  "justification": "La source décrit une hausse de l’esquive lorsque le Pokémon est confus.",
+  "msgid": "Ups evasion if confused.",
+  "msgstr": "Ignore les effets du climat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "contresens",
+  "probleme": "« La peur » ne désigne pas clairement l’effet de combat qui déclenche le bonus.",
+  "correction": "VI + si apeuré.",
+  "justification": "Le déclencheur est le fait d’être apeuré par une attaque.",
+  "msgid": "Flinching raises Speed.",
+  "msgstr": "La peur monte sa VITESSE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "oubli",
+  "probleme": "Le texte omet que l’objet doit être tenu.",
+  "correction": "VI + si objet tenu utilisé.",
+  "justification": "« Hold item » précise que le bonus se déclenche à l’utilisation de l’objet tenu.",
+  "msgid": "Using a hold item ups Speed.",
+  "msgstr": "VITESSE + si objet utilisé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "typographie",
+  "probleme": "Le nom du type Feu porte une minuscule.",
+  "correction": "Contre Feu et brûlures.",
+  "justification": "Le lexique du projet fixe la graphie « Feu » pour le type.",
+  "msgid": "Heat and burn protection.",
+  "msgstr": "Contre feu et brûlures.",
+  "msgctxt": ""
+ },
+ {
+  "id": 112,
+  "categorie": "contresens",
+  "probleme": "« Blessé » laisse entendre qu’une perte de PV suffit.",
+  "correction": "VI + si statut altéré.",
+  "justification": "La hausse de Vitesse est liée à une altération de statut.",
+  "msgid": "Ups Speed if suffering.",
+  "msgstr": "Augmente VIT. quand blessé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "contresens",
+  "probleme": "« Tout » ne précise pas ce qui change de type.",
+  "correction": "Capacités de type Normal.",
+  "justification": "Le changement de type concerne les capacités du Pokémon.",
+  "msgid": "Moves become Normal-type.",
+  "msgstr": "Tout devient type Normal.",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’article devant « coups critiques ».",
+  "correction": "Renforce les coups critiques.",
+  "justification": "Le complément du verbe prend ici l’article défini.",
+  "msgid": "Boosts critical hits.",
+  "msgstr": "Renforce coups critiques.",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’article devant « attaques faibles ».",
+  "correction": "Renforce les attaques faibles.",
+  "justification": "Le complément du verbe prend ici l’article défini.",
+  "msgid": "Boosts weaker moves.",
+  "msgstr": "Renforce attaques faibles.",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "orthographe",
+  "probleme": "« Empêche statut » est mal construit et laisse l’effet implicite.",
+  "correction": "Pas de statut altéré au soleil.",
+  "justification": "La formulation indique que le soleil empêche les altérations de statut.",
+  "msgid": "Blocks status in sunshine.",
+  "msgstr": "Empêche statut au soleil.",
+  "msgctxt": ""
+ }
+]

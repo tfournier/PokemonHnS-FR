@@ -1,0 +1,362 @@
+[
+ {
+  "id": 0,
+  "categorie": "contresens",
+  "probleme": "La traduction décrit une absence d’utilisation.",
+  "correction": "Objet tenu inutilisable.",
+  "justification": "« Can't use » exprime une impossibilité.",
+  "msgid": "Can't use hold items.",
+  "msgstr": "N’utilise pas d’objet tenu.",
+  "msgctxt": ""
+ },
+ {
+  "id": 1,
+  "categorie": "oubli",
+  "probleme": "La portée de l’effet sur les attaques a disparu.",
+  "correction": "Attaque malgré les talents.",
+  "justification": "L’anglais précise que les attaques peuvent toucher malgré les talents adverses.",
+  "msgid": "Moves hit through abilities.",
+  "msgstr": "Ignore les talents ennemis.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « attaques dangereuses ».",
+  "correction": "Sent les coups dangereux.",
+  "justification": "L’article complète le groupe nominal sans allonger la ligne.",
+  "msgid": "Senses dangerous moves.",
+  "msgstr": "Sent attaques dangereuses.",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "contresens",
+  "probleme": "« Effets de stats » ne désigne pas clairement leurs variations.",
+  "correction": "Ignore les variations de stats.",
+  "justification": "« Stat changes » désigne les hausses et les baisses de stats.",
+  "msgid": "Ignores stat changes.",
+  "msgstr": "Ignore les effets de stats.",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « PV ».",
+  "correction": "Rend des PV par grêle ou neige.",
+  "justification": "« Rend des PV » exprime la récupération et « par » introduit les conditions météo.",
+  "msgid": "HP recovery in Hail or Snow.",
+  "msgstr": "Gagne PV si grêle ou neige.",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant devant « attaques ».",
+  "correction": "Dope les attaques à recul.",
+  "justification": "L’article rétablit la construction et la formulation conserve le sens en une ligne.",
+  "msgid": "Boosts moves with recoil.",
+  "msgstr": "Renforce attaques à recul.",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "orthographe",
+  "probleme": "La construction « substitue effets par puiss. » est incorrecte.",
+  "correction": "Puiss. +, sans effet bonus.",
+  "justification": "La hausse de puissance se fait au prix des effets secondaires.",
+  "msgid": "Trades effects for power.",
+  "msgstr": "Substitue effets par puiss.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "contresens",
+  "probleme": "« Effets de stats » ne désigne pas clairement ce qui est inversé.",
+  "correction": "Inverse les hausses et baisses.",
+  "justification": "Le talent transforme les hausses de stats en baisses et inversement.",
+  "msgid": "Inverts stat changes.",
+  "msgstr": "Inverse effets de stats.",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "oubli",
+  "probleme": "« Bloque les Baies » omet l’action de les manger.",
+  "correction": "L’ennemi ne mange pas de Baies.",
+  "justification": "La restriction porte sur la consommation des Baies par les adversaires.",
+  "msgid": "Foes can't eat Berries.",
+  "msgstr": "Bloque les Baies ennemies.",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "terminologie",
+  "probleme": "« ATT. » ne suit pas l’abréviation du projet.",
+  "correction": "Monte l’AT si stat baissée.",
+  "justification": "Le lexique du projet fixe « AT » pour l’Attaque.",
+  "msgid": "Lowered stats up Attack.",
+  "msgstr": "Monte ATT. si stat baissée.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "oubli",
+  "probleme": "« Si touché » inclut les attaques sans contact.",
+  "correction": "Entrave parfois au contact.",
+  "justification": "Le texte anglais fourni indique le contact comme condition.",
+  "msgid": "Disables moves on contact.",
+  "msgstr": "Entrave parfois si touché.",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "typographie",
+  "probleme": "Le libellé mêle capitales et bas de casse.",
+  "correction": "CŒUR SOIN",
+  "justification": "La graphie « Cœur Soin » est uniformisée en capitales comme les libellés voisins.",
+  "msgid": "HEALER",
+  "msgstr": "CŒUR Soin",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "contresens",
+  "probleme": "« Dégâts alliés » peut désigner des dégâts infligés par l’allié.",
+  "correction": "L’allié subit moins de dégâts.",
+  "justification": "Le texte anglais précise que la réduction concerne les dégâts reçus par l’allié.",
+  "msgid": "Lowers damage to partner.",
+  "msgstr": "Réduit les dégâts alliés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 45,
+  "categorie": "orthographe",
+  "probleme": "Il manque un lien grammatical entre « moitié » et « dégâts ».",
+  "correction": "Dégâts à 50 % si PV max.",
+  "justification": "La formulation indique en une ligne que les dégâts sont divisés par deux.",
+  "msgid": "Halves damage at full HP.",
+  "msgstr": "Moitié dégâts si PV max.",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "typographie",
+  "probleme": "Le libellé mêle capitales et bas de casse.",
+  "correction": "RAGE POISON",
+  "justification": "La graphie « Rage Poison » est uniformisée en capitales comme les libellés voisins.",
+  "msgid": "TOXIC BOOST",
+  "msgstr": "RAGE Poison",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "terminologie",
+  "probleme": "« ATT. » ne suit pas l’abréviation du projet.",
+  "correction": "Monte l’AT si empoisonné.",
+  "justification": "Le lexique du projet fixe « AT » pour l’Attaque.",
+  "msgid": "Ups Attack if poisoned.",
+  "msgstr": "Monte ATT. si empoisonné.",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "terminologie",
+  "probleme": "« ATQ. SPE. » ne suit pas l’abréviation du projet.",
+  "correction": "Augmente l’AS si brûlé.",
+  "justification": "Le lexique du projet fixe « AS » pour l’Attaque Spéciale.",
+  "msgid": "Ups Sp. Atk if burned.",
+  "msgstr": "Augmente ATQ. SPE. si brûlé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "oubli",
+  "probleme": "La Baie doit avoir été utilisée.",
+  "correction": "Peut récupérer la Baie mangée.",
+  "justification": "« Used Berry » précise que la Baie a déjà été consommée.",
+  "msgid": "May recycle a used Berry.",
+  "msgstr": "Peut recycler une Baie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "contresens",
+  "probleme": "« Evite les attaques » étend l’effet à toutes les capacités alliées.",
+  "correction": "Aucun dégât des alliés.",
+  "justification": "L’anglais décrit une protection contre les dégâts des alliés.",
+  "msgid": "Can't be damaged by an ally.",
+  "msgstr": "Evite les attaques alliées.",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "contresens",
+  "probleme": "« Au hasard » remplace l’idée de changement progressif.",
+  "correction": "Les stats changent peu à peu.",
+  "justification": "« Gradually » indique une évolution progressive.",
+  "msgid": "Stats change gradually.",
+  "msgstr": "Stats changent au hasard.",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "contresens",
+  "probleme": "« Bloque climat » suggère que le talent neutralise la météo elle-même.",
+  "correction": "Protège du climat et des poudres.",
+  "justification": "Le talent protège son porteur des effets concernés.",
+  "msgid": "Blocks weather and powder.",
+  "msgstr": "Bloque climat et poudres.",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "orthographe",
+  "probleme": "« Réduction DEFENSE » omet les liens grammaticaux.",
+  "correction": "La Défense ne baisse pas.",
+  "justification": "La phrase exprime directement la protection contre les baisses de Défense.",
+  "msgid": "Prevents Defense loss.",
+  "msgstr": "Empêche réduction DEFENSE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "terminologie",
+  "probleme": "« VIT. » ne suit pas l’abréviation du projet.",
+  "correction": "VI + par tempête de sable.",
+  "justification": "Le lexique du projet fixe « VI » pour la Vitesse. « Tempête de sable » désigne ici la météo.",
+  "msgid": "Ups Speed in a sandstorm.",
+  "msgstr": "Monte VIT. si tempête sable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "contresens",
+  "probleme": "« Esquiver les statuts » confond le statut et ce qui l’inflige.",
+  "correction": "Peut éviter des altérations.",
+  "justification": "« Status problems » désigne des altérations de statut.",
+  "msgid": "May avoid status problems.",
+  "msgstr": "Peut esquiver les statuts.",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "orthographe",
+  "probleme": "« Se transforme en l’ennemi » est une construction maladroite.",
+  "correction": "Prend la forme de l’ennemi.",
+  "justification": "La formulation restitue la transformation en une phrase idiomatique.",
+  "msgid": "Transforms into the foe.",
+  "msgstr": "Se transforme en l’ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "terminologie",
+  "probleme": "« ATT. » ne suit pas l’abréviation du projet et le déclencheur reste implicite.",
+  "correction": "Coup Ténèbres reçu: AT +.",
+  "justification": "Le lexique du projet fixe « AT » pour l’Attaque. « Dark hits » désigne ici les coups Ténèbres subis.",
+  "msgid": "Dark hits raise Attack.",
+  "msgstr": "Ténèbres monte son ATT.",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "orthographe",
+  "probleme": "« Attaques statut » omet la préposition qui relie les deux noms.",
+  "correction": "Renvoie les cap. de statut.",
+  "justification": "« Capacités de statut » désigne la catégorie visée, avec une abréviation pour tenir sur une ligne.",
+  "msgid": "Reflects status moves.",
+  "msgstr": "Renvoie attaques statut.",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "oubli",
+  "probleme": "« Plante » seul laisse le déclencheur implicite.",
+  "correction": "Coup Plante reçu: AT +.",
+  "justification": "C’est le fait de recevoir une capacité Plante qui augmente l’Attaque.",
+  "msgid": "Grass increases Attack.",
+  "msgstr": "Plante monte son ATTAQUE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 87,
+  "categorie": "contresens",
+  "probleme": "« Statut lancé » présente le statut lui-même comme l’action prioritaire.",
+  "correction": "Cap. de statut prioritaires.",
+  "justification": "La priorité s’applique aux capacités de statut.",
+  "msgid": "Status moves go first.",
+  "msgstr": "Statut lancé en priorité.",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "typographie",
+  "probleme": "Le libellé mêle capitales et bas de casse.",
+  "correction": "FORCE SABLE",
+  "justification": "La graphie « Force Sable » est uniformisée en capitales comme les libellés voisins.",
+  "msgid": "SAND FORCE",
+  "msgstr": "Force SABLE",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "orthographe",
+  "probleme": "Il manque « de » dans « tempête de sable ».",
+  "correction": "Puiss. + par tempête de sable.",
+  "justification": "La locution complète désigne la condition météo.",
+  "msgid": "Powers up in a sandstorm.",
+  "msgstr": "Puissant si tempête sable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "typographie",
+  "probleme": "Le libellé mêle capitales et bas de casse.",
+  "correction": "EPINE DE FER",
+  "justification": "La graphie « Épine de Fer » est uniformisée en capitales sans accents selon la convention du projet.",
+  "msgid": "IRON BARBS",
+  "msgstr": "EPINE DE Fer",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "typographie",
+  "probleme": "Le libellé est en casse mixte au milieu de noms de talents en capitales.",
+  "correction": "TURBO BRASIER",
+  "justification": "La graphie « Turbo Brasier » est uniformisée en capitales comme les libellés voisins.",
+  "msgid": "TURBOBLAZE",
+  "msgstr": "Turbo Brasier",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "oubli",
+  "probleme": "La traduction ne précise pas ce que les restrictions limitent.",
+  "correction": "Garde les capacités utilisables.",
+  "justification": "L’effet porte sur les restrictions d’utilisation des capacités.",
+  "msgid": "Prevents limiting of moves.",
+  "msgstr": "Protège des restrictions.",
+  "msgctxt": ""
+ },
+ {
+  "id": 111,
+  "categorie": "terminologie",
+  "probleme": "« ATQ. SPE. » ne suit pas l’abréviation du projet.",
+  "correction": "AS + si stat baissée.",
+  "justification": "Le lexique du projet fixe « AS » pour l’Attaque Spéciale.",
+  "msgid": "Lowered stats up Sp. Atk.",
+  "msgstr": "ATQ. SPE. + si stat baissée.",
+  "msgctxt": ""
+ },
+ {
+  "id": 115,
+  "categorie": "oubli",
+  "probleme": "« Normal devient Glace » laisse entendre que le type lui-même change.",
+  "correction": "Cap. Normal passent à Glace.",
+  "justification": "Le changement de type concerne les capacités Normal.",
+  "msgid": "Normal moves become Ice.",
+  "msgstr": "Normal devient Glace.",
+  "msgctxt": ""
+ }
+]

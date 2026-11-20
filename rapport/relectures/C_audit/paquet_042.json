@@ -1,0 +1,622 @@
+[
+ {
+  "id": 0,
+  "categorie": "oubli",
+  "probleme": "La mention de la pierre a disparu et le nom d’espèce doit être en capitales.",
+  "correction": "Cette pierre permet à NIGIRIGON\\nde méga-évoluer\\nen combat.",
+  "justification": "« This stone » désigne explicitement l’objet décrit.",
+  "msgid": "This stone enables\\nTatsugiri to Mega\\nEvolve in battle.",
+  "msgstr": "Permet à Nigirigon\\nde méga-évoluer\\nen combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "La mention de la pierre a disparu et le nom d’espèce doit être en capitales.",
+  "correction": "Cette pierre permet à FLORECLAT\\nde méga-évoluer\\nen combat.",
+  "justification": "« This stone » désigne explicitement l’objet décrit.",
+  "msgid": "This stone enables\\nGlimmora to Mega\\nEvolve in battle.",
+  "msgstr": "Permet à Floréclat\\nde méga-évoluer\\nen combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "oubli",
+  "probleme": "La description ne précise plus qu’il s’agit d’un appareil.",
+  "correction": "Appareil qui joue\\nles musiques des anciens\\njeux Pokémon.",
+  "justification": "« A device » identifie la nature de l’objet.",
+  "msgid": "A device that plays\\nmusic from the old\\nPokémon games.",
+  "msgstr": "Joue les musiques\\ndes anciens jeux\\nPokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Normal",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "NORMAL GEM",
+  "msgstr": "JOYAU Normal",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "contresens",
+  "probleme": "« Une fois » ajoute une limite absente du texte anglais.",
+  "correction": "Augmente la\\npuissance des\\nattaques Normal.",
+  "justification": "La source indique une hausse de puissance sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Normal\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance des\\nattaques Normal.",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Feu",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "FIRE GEM",
+  "msgstr": "JOYAU Feu",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "contresens",
+  "probleme": "« Une fois » ajoute une limite absente du texte anglais.",
+  "correction": "Augmente la\\npuissance des\\nattaques Feu.",
+  "justification": "La source indique une hausse de puissance sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Fire\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance des\\nattaques Feu.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Eau",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "WATER GEM",
+  "msgstr": "JOYAU Eau",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "contresens",
+  "probleme": "« Une fois » ajoute une limite absente du texte anglais.",
+  "correction": "Augmente la\\npuissance des\\nattaques Eau.",
+  "justification": "La source indique une hausse de puissance sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Water\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance des\\nattaques Eau.",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Electrik",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "ELECTRIC GEM",
+  "msgstr": "JOYAU Electrik",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "contresens",
+  "probleme": "« Une fois » ajoute une limite absente du texte anglais.",
+  "correction": "Augmente la\\npuissance des\\nattaques Electrik.",
+  "justification": "La source indique une hausse de puissance sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Electric\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance des\\nattaques Electrik.",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Plante",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "GRASS GEM",
+  "msgstr": "JOYAU Plante",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "contresens",
+  "probleme": "« Une fois » ajoute une limite absente du texte anglais.",
+  "correction": "Augmente la\\npuissance des\\nattaques Plante.",
+  "justification": "La source indique une hausse de puissance sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Grass\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance des\\nattaques Plante.",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Glace",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "ICE GEM",
+  "msgstr": "JOYAU Glace",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "contresens",
+  "probleme": "« Une fois » ajoute une limite absente du texte anglais.",
+  "correction": "Augmente la\\npuissance des\\nattaques Glace.",
+  "justification": "La source indique une hausse de puissance sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Ice\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance des\\nattaques Glace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Combat",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "FIGHTING GEM",
+  "msgstr": "JOYAU Combat",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "contresens",
+  "probleme": "« Une fois » ajoute une limite absente du texte anglais.",
+  "correction": "Augmente la\\npuissance des\\nattaques Combat.",
+  "justification": "La source indique une hausse de puissance sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Fighting\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance des\\nattaques Combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Poison",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "POISON GEM",
+  "msgstr": "JOYAU Poison",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "contresens",
+  "probleme": "« Une fois » ajoute une limite absente du texte anglais.",
+  "correction": "Augmente la\\npuissance des\\nattaques Poison.",
+  "justification": "La source indique une hausse de puissance sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Poison\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance des\\nattaques Poison.",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Sol",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "GROUND GEM",
+  "msgstr": "JOYAU Sol",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "contresens",
+  "probleme": "« Une fois » ajoute une limite absente du texte anglais.",
+  "correction": "Augmente la\\npuissance des\\nattaques Sol.",
+  "justification": "La source indique une hausse de puissance sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Ground\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance des\\nattaques Sol.",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Vol",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "FLYING GEM",
+  "msgstr": "JOYAU Vol",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "contresens",
+  "probleme": "« Une fois » ajoute une limite absente du texte anglais.",
+  "correction": "Augmente la\\npuissance des\\nattaques Vol.",
+  "justification": "La source indique une hausse de puissance sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Flying\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance des\\nattaques Vol.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Psy",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "PSYCHIC GEM",
+  "msgstr": "JOYAU Psy",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "contresens",
+  "probleme": "« Une fois » ajoute une limite absente du texte anglais.",
+  "correction": "Augmente la\\npuissance des\\nattaques Psy.",
+  "justification": "La source indique une hausse de puissance sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Psychic\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance des\\nattaques Psy.",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Insecte",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "BUG GEM",
+  "msgstr": "JOYAU Insecte",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "contresens",
+  "probleme": "« Une fois » ajoute une limite absente du texte anglais.",
+  "correction": "Augmente la\\npuissance des\\nattaques Insecte.",
+  "justification": "La source indique une hausse de puissance sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Bug\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance des\\nattaques Insecte.",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Roche",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "ROCK GEM",
+  "msgstr": "JOYAU Roche",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "contresens",
+  "probleme": "« Une fois » ajoute une limite absente du texte anglais.",
+  "correction": "Augmente la\\npuissance des\\nattaques Roche.",
+  "justification": "La source indique une hausse de puissance sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Rock\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance des\\nattaques Roche.",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Spectre",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "GHOST GEM",
+  "msgstr": "JOYAU Spectre",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "contresens",
+  "probleme": "La traduction limite le bonus à une seule attaque.",
+  "correction": "Augmente la\\npuissance des\\nattaques Spectre.",
+  "justification": "La source désigne les attaques de type Spectre sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Ghost\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance d’une\\nattaque Spectre.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Dragon",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "DRAGON GEM",
+  "msgstr": "JOYAU Dragon",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "contresens",
+  "probleme": "La traduction limite le bonus à une seule attaque.",
+  "correction": "Augmente la\\npuissance des\\nattaques Dragon.",
+  "justification": "La source désigne les attaques de type Dragon sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Dragon\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance d’une\\nattaque Dragon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Ténèbres",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "DARK GEM",
+  "msgstr": "JOYAU Ténèbres",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "contresens",
+  "probleme": "La traduction limite le bonus à une seule attaque et omet les accents de « Ténèbres ».",
+  "correction": "Augmente la\\npuissance des\\nattaques Ténèbres.",
+  "justification": "La source désigne les attaques du type sans préciser de limite d’utilisation. Les accents sur les minuscules sont conservés.",
+  "msgid": "Increases the\\npower of Dark\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance d’une\\nattaque Tenebres.",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Acier",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "STEEL GEM",
+  "msgstr": "JOYAU Acier",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "contresens",
+  "probleme": "La traduction limite le bonus à une seule attaque.",
+  "correction": "Augmente la\\npuissance des\\nattaques Acier.",
+  "justification": "La source désigne les attaques de type Acier sans préciser de limite d’utilisation.",
+  "msgid": "Increases the\\npower of Steel\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance d’une\\nattaque Acier.",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "typographie",
+  "probleme": "« JOYAU » est entièrement en capitales.",
+  "correction": "Joyau Fée",
+  "justification": "Le nom d’objet prend une majuscule initiale selon la convention du projet.",
+  "msgid": "FAIRY GEM",
+  "msgstr": "JOYAU Fée",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "contresens",
+  "probleme": "La traduction limite le bonus à une seule attaque et omet l’accent de « Fée ».",
+  "correction": "Augmente la\\npuissance des\\nattaques Fée.",
+  "justification": "La source désigne les attaques du type sans préciser de limite d’utilisation. L’accent sur la minuscule est conservé.",
+  "msgid": "Increases the\\npower of Fairy\\nType moves.",
+  "msgstr": "Monte une fois la\\npuissance d’une\\nattaque Fee.",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "orthographe",
+  "probleme": "Il manque les deux accents de « Ténèbres ».",
+  "correction": "Transforme les\\nattaques Ténèbres\\nen capacités Z.",
+  "justification": "La convention sur les majuscules laisse les accents des minuscules en place.",
+  "msgid": "Upgrade Dark-\\ntype moves into\\nZ-Moves.",
+  "msgstr": "Transforme les\\nattaques Tenebres\\nen capacités Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "orthographe",
+  "probleme": "Il manque l’accent de « Fée ».",
+  "correction": "Transforme les\\nattaques Fée\\nen capacités Z.",
+  "justification": "La convention sur les majuscules laisse l’accent du « é » minuscule en place.",
+  "msgid": "Upgrade Fairy-\\ntype moves into\\nZ-Moves.",
+  "msgstr": "Transforme les\\nattaques Fee\\nen capacités Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Change l’Electacle\\nde PIKACHU en\\ncapacité Z.",
+  "justification": "Le lexique et la convention du projet donnent « PIKACHU ».",
+  "msgid": "Upgrade Pikachu's\\nVolt Tackle\\ninto a Z-Move.",
+  "msgstr": "Change l’Electacle\\nde Pikachu en\\ncapacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Change le Dernier\\nRecours d’EVOLI\\nen capacité Z.",
+  "justification": "Le lexique et la convention du projet donnent « EVOLI ».",
+  "msgid": "Upgrade Eevee's\\nLast Resort\\ninto a Z-Move.",
+  "msgstr": "Change le Dernier\\nRecours d’Evoli\\nen capacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Change le Giga\\nImpact de RONFLEX\\nen capacité Z.",
+  "justification": "Le lexique et la convention du projet donnent « RONFLEX ».",
+  "msgid": "Upgrade Snorlax's\\nGiga Impact\\ninto a Z-Move.",
+  "msgstr": "Change le Giga\\nImpact de Ronflex\\nen capacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Change le Psyko\\nde MEW en\\ncapacité Z.",
+  "justification": "Le projet impose les capitales aux noms d’espèces. Pour la capacité associée à la Mewzélite, la version française de Pokémon Soleil et Lune emploie « Psyko ». [Site officiel Pokémon](https://www.pokemon.com/fr/articles/les-champs-des-gardiens-d-alola)",
+  "msgid": "Upgrade Mew's\\nPsychic into\\na Z-Move.",
+  "msgstr": "Change le Psyko\\nde Mew en\\ncapacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Change le Tisse\\nOmbre d’ARCHE DUC\\nen capacité Z.",
+  "justification": "Le projet impose les capitales sans accent aux noms d’espèces.",
+  "msgid": "Upgrade Decidu-\\neye's Spirit Sha-\\nckle into a Z-Move.",
+  "msgstr": "Change le Tisse\\nOmbre d’Archéduc\\nen capacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "typographie",
+  "probleme": "Le saut de ligne coupe « Lariat » et le nom d’espèce est en casse mixte.",
+  "correction": "Change le Dark Lariat\\nde FELINFERNO\\nen capacité Z.",
+  "justification": "« Dark Lariat » s’écrit sans trait d’union. Le projet impose les capitales sans accent aux noms d’espèces. [Site officiel Pokémon](https://www.pokemon.com/fr/features/pokemon-champions-composer-une-equipe-mega-mysdibule)",
+  "msgid": "Upgrade Incine-\\nroar's Darkest La-\\nriat into a Z-Move.",
+  "msgstr": "Change le Dark La-\\nriat de Félinferno\\nen capacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Change l’Aria de\\nl’Ecume d’ORATORIA\\nen capacité Z.",
+  "justification": "Le projet impose les capitales aux noms d’espèces.",
+  "msgid": "Upgrade Primarina's\\nSparkling Aria\\ninto a Z-Move.",
+  "msgstr": "Change l’Aria de\\nl’Ecume d’Oratoria\\nen capacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Change la Lame de\\nRoc de LOUGAROC\\nen capacité Z.",
+  "justification": "Le projet impose les capitales aux noms d’espèces.",
+  "msgid": "Upgrade Lycanroc's\\nStone Edge\\ninto a Z-Move.",
+  "msgstr": "Change la Lame de\\nRoc de Lougaroc\\nen capacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Change la Câlinerie\\nde MIMIQUI en\\ncapacité Z.",
+  "justification": "Le projet impose les capitales aux noms d’espèces.",
+  "msgid": "Upgrade Mimikyu's\\nPlay Rough\\ninto a Z-Move.",
+  "msgstr": "Change la Câlinerie\\nde Mimiqui en\\ncapacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Change Vibrécaille\\nd’EKAISER en\\ncapacité Z.",
+  "justification": "Le projet impose les capitales sans accent aux noms d’espèces.",
+  "msgid": "Upgrade Kommo-o's\\nClanging Scales\\ninto a Z-Move.",
+  "msgstr": "Change Vibrécaille\\nd’Ekaïser en\\ncapacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Change le Choc\\nMétéore de SOLGALEO\\nen capacité Z.",
+  "justification": "Le projet impose les capitales aux noms d’espèces.",
+  "msgid": "Upgrade Solgaleo's\\nSunsteel Strike\\ninto a Z-Move.",
+  "msgstr": "Change le Choc\\nMétéore de Solgaleo\\nen capacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Change le Rayon\\nSpectral de LUNALA\\nen capacité Z.",
+  "justification": "Le projet impose les capitales aux noms d’espèces.",
+  "msgid": "Upgrade Lunala's\\nMoongeist Beam\\ninto a Z-Move.",
+  "msgstr": "Change le Rayon\\nSpectral de Lunala\\nen capacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "typographie",
+  "probleme": "Le saut de ligne coupe « Clepto-Mânes » et le nom d’espèce est en casse mixte.",
+  "correction": "Change le Clepto-Mânes\\nde MARSHADOW\\nen capacité Z.",
+  "justification": "La capacité tient sur une ligne avec son trait d’union. Le projet impose les capitales aux noms d’espèces.",
+  "msgid": "Upgrade Marsha-\\ndow's Spectral Thi-\\nef into a Z-Move.",
+  "msgstr": "Change le Clepto-\\nMânes de Marshadow\\nen capacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Change le Tonnerre\\nde RAICHU d’Alola\\nen capacité Z.",
+  "justification": "Le projet impose les capitales aux noms d’espèces. « Alola » garde la casse d’un nom de lieu.",
+  "msgid": "Upgrade Alolan\\nRaichu's Thunder-\\nbolt into a Z-Move.",
+  "msgstr": "Change le Tonnerre\\nde Raichu d’Alola\\nen capacité Z.",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Change en Z le\\nTonnerre du PIKACHU\\nà casquette.",
+  "justification": "Le lexique et la convention du projet donnent « PIKACHU ».",
+  "msgid": "Upgrade Pikachu w/\\na cap's Thunderbolt\\ninto a Z-Move.",
+  "msgstr": "Change en Z le\\nTonnerre du Pikachu\\nà casquette.",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "oubli",
+  "probleme": "La description omet que le cristal donne une nouvelle forme et laisse le nom d’espèce en casse mixte.",
+  "correction": "Cristal qui donne une\\nnouvelle forme à un\\nNECROZMA fusionné.",
+  "justification": "« Into a new form » précise le résultat de la transformation.",
+  "msgid": "A crystal to turn\\nfused Necrozma\\ninto a new form.",
+  "msgstr": "Cristal changeant\\nla forme d’un\\nNecrozma fusionné.",
+  "msgctxt": ""
+ },
+ {
+  "id": 111,
+  "categorie": "oubli",
+  "probleme": "L’augmentation de l’Attaque manque, l’Attaque Spéciale utilise une autre abréviation et le nom d’espèce est en casse mixte.",
+  "correction": "Objet tenu qui\\naugmente l’AT et l’AS\\nde PIKACHU.",
+  "justification": "« Atk and Sp. Atk » désigne deux statistiques. Le projet les abrège en « AT » et « AS ».",
+  "msgid": "A hold item that\\nraises the Atk and\\nSp. Atk of Pikachu.",
+  "msgstr": "Objet tenu pour\\nmonter l’Atq. Spé.\\nde Pikachu.",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Objet tenu qui\\naugmente la Vitesse\\nde METAMORPH.",
+  "justification": "Le lexique et la convention du projet donnent « METAMORPH ».",
+  "msgid": "A hold item that\\nraises the Speed\\nof Ditto.",
+  "msgstr": "Objet tenu qui\\naugmente la Vitesse\\nde Métamorph.",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Renforce les\\ncapacités Dragon et\\nAcier de DIALGA.",
+  "justification": "Le lexique et la convention du projet donnent « DIALGA ».",
+  "msgid": "Powers up Dialga's\\nDragon and Steel-\\ntype moves.",
+  "msgstr": "Renforce les\\ncapacités Dragon et\\nAcier de Dialga.",
+  "msgctxt": ""
+ },
+ {
+  "id": 118,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Renforce les\\ncapacités Dragon et\\nEau de PALKIA.",
+  "justification": "Le lexique et la convention du projet donnent « PALKIA ».",
+  "msgid": "Powers up Palkia's\\nDragon and Water-\\ntype moves.",
+  "msgstr": "Renforce les\\ncapacités Dragon et\\nEau de Palkia.",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce est en casse mixte.",
+  "correction": "Renforce les\\ncapacités Dragon et\\nSpectre de GIRATINA.",
+  "justification": "Le lexique et la convention du projet donnent « GIRATINA ».",
+  "msgid": "Boosts Giratina's\\nDragon and Ghost-\\ntype moves.",
+  "msgstr": "Renforce les\\ncapacités Dragon et\\nSpectre de Giratina.",
+  "msgctxt": ""
+ }
+]

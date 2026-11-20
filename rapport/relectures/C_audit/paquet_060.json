@@ -1,0 +1,412 @@
+[
+ {
+  "id": 0,
+  "categorie": "oubli",
+  "probleme": "La traduction omet le coup de pied qui soulève la glace.",
+  "correction": "Ce virtuose des claquettes dégage\\ndu froid sous ses pieds pour créer\\nun sol de glace. D’un coup de pied,\\nil le soulève pour se protéger.",
+  "justification": "« Kick up » précise comment le Pokémon soulève la glace pour s’en faire une barrière.",
+  "msgid": "Its talent is tap-dancing. It can radiate\\nchilliness from the bottoms of its feet to\\nto create a floor of ice, which this\\nPokémon can kick up to use as a barrier.",
+  "msgstr": "Ce virtuose des claquettes dégage du froid\\nsous ses pieds pour créer un sol de glace,\\nqu’il soulève pour s’en faire une barrière.",
+  "msgctxt": ""
+ },
+ {
+  "id": 2,
+  "categorie": "contresens",
+  "probleme": "Le Pokémon jongle avec sa canne dans la traduction, alors qu’il l’agite au rythme de ses mouvements.",
+  "correction": "Virtuose des claquettes, il agite\\nsa canne de glace au rythme de\\nses mouvements gracieux.",
+  "justification": "« Waves » désigne le geste de la canne et « in time with » indique qu’il suit le rythme de la danse.",
+  "msgid": "It's highly skilled at tap-dancing. It\\nwaves its cane of ice in time with its\\ngraceful movements.",
+  "msgstr": "Virtuose des claquettes, il se donne en\\nspectacle en dansant d’un pas léger et en\\njonglant avec sa canne de glace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "contresens",
+  "probleme": "« Mieux vaut » présente la fuite comme un conseil, alors que l’anglais en fait le seul recours.",
+  "correction": "Cette créature violente abat les\\narbres avec ses haches grossières\\net se protège avec de la pierre\\ndure. Si on la croise dans la\\nnature, la fuite est le seul recours.",
+  "justification": "« One’s only recourse is to flee » exprime l’absence d’autre issue.",
+  "msgid": "A violent creature that fells trees with\\nits crude axes and shields itself with hard\\nstone. Should one encounter this Pokémon\\nin the wild, one's only recourse is to flee.",
+  "msgstr": "Une créature violente qui abat les arbres\\navec ses haches grossières et se protège\\navec sa pierre dure. Si on le croise dans\\nla nature, mieux vaut prendre la fuite.",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "contresens",
+  "probleme": "Les témoins éprouvent une envie de danser dans la traduction, alors que leurs hanches bougent à leur insu.",
+  "correction": "Il se déhanche en rythme comme\\ns’il dansait. Ses mouvements sont\\nsi entraînants que ceux qui le\\nvoient remuent les hanches\\nsans s’en apercevoir.",
+  "justification": "« Are compelled to shake their hips without noticing » décrit un mouvement effectué sans en avoir conscience.",
+  "msgid": "A Jynx sashays rhythmically as if it were\\ndancing. Its motions are so bouncingly\\nalluring, people seeing it are compelled to\\nshake their hips without noticing.",
+  "msgstr": "Il marche en rythme comme s’il dansait.\\nSes mouvements sont si communicatifs\\nque les gens qui le voient sont pris d’une\\nterrible envie de bouger les hanches.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "oubli",
+  "probleme": "La traduction omet les villes et les hauteurs, et transforme la rivalité en bagarre.",
+  "correction": "A l’approche d’un orage, ces\\nPokémon rivalisent pour gagner\\nles hauteurs où la foudre risque\\nde tomber. Certaines villes s’en\\nservent comme paratonnerres.",
+  "justification": "« Competes » décrit une rivalité pour atteindre les hauteurs, et « some towns » indique qui utilise ces Pokémon.",
+  "msgid": "When a storm approaches, it competes with\\nothers to scale heights that are likely to\\nbe stricken by lightning. Some towns use\\nElectabuzz in place of lightning rods.",
+  "msgstr": "Lorsqu’une tempête approche, ces\\nPokémon se battent pour grimper où la\\nfoudre a le plus de chance de tomber. Ils\\nsont parfois utilisés comme paratonnerre.",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "autre_phrase",
+  "probleme": "Le texte sur le pouls et le voltage correspond à une autre description.",
+  "correction": "Quand il s’excite, il se frappe\\nla poitrine. A chaque coup, le\\ntonnerre gronde, des étincelles\\njaillissent autour de lui et des\\nétincelles bleues crépitent\\nentre ses cornes.",
+  "justification": "L’anglais décrit le tonnerre et les étincelles produits à chaque coup porté à sa poitrine.",
+  "msgid": "When it gets excited, it thumps its chest.\\nWith every thud, thunder roars, electric\\nsparks shower all around and blue sparks\\nbegin to crackle between its horns.",
+  "msgstr": "La quantité d’électricité qu’il génère est\\nproportionnelle à son pouls. Quand il\\nlivre un combat, son voltage augmente\\naussitôt.",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce « Maganon » n’est pas en capitales.",
+  "correction": "D’après ce que l’on sait, un seul\\ncouple de MAGANON vit dans chaque\\nvolcan. De son bras, il lance des\\nboules de feu à plus de 2 000 degrés.",
+  "justification": "Le lexique donne MAGANON et le projet impose les capitales pour les noms d’espèces.",
+  "msgid": "According to what is known, a single pair\\nof male and female Magmortar lives in\\none volcano. From its arm, it launches\\nfireballs hotter than 3,600ºF.",
+  "msgstr": "Selon ce que l’on sait, un seul couple\\nde Maganon vit dans chaque volcan.\\nDe son bras, il lance des boules de feu\\nà plus de 2 000 degrés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que le Pokémon dort sous terre.",
+  "correction": "Ses pinces peuvent briser de\\ngrosses bûches. Comme il n’aime\\npas le froid, il s’enfouit pour\\ndormir sous terre les nuits fraîches.",
+  "justification": "« Burrow and sleep under the ground » indique à la fois qu’il s’enfouit et qu’il y dort.",
+  "msgid": "Their pincers are strong enough to\\nshatter thick logs. Because they dislike\\ncold, Pinsir burrow and sleep under\\nthe ground on chilly nights.",
+  "msgstr": "Ses pinces sont assez fortes pour\\ndétruire de grosses bûches. Comme il\\nn’aime pas le froid, il s’enfouit sous\\nterre lors des nuits fraîches.",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "contresens",
+  "probleme": "La traduction omet qu’il charge les arbres et précise qu’il les déracine, ce que l’anglais ne dit pas.",
+  "correction": "Il n’est satisfait que s’il se\\ndéchaîne sans arrêt. S’il ne trouve\\npas d’adversaire, il charge de gros\\narbres et les abat pour se calmer.",
+  "justification": "« Charge at thick trees and knock them down » décrit une charge qui fait tomber les arbres.",
+  "msgid": "It is not satisfied unless it is rampaging\\nat all times. If there is no opponent for\\nTauros to battle, it will charge at thick\\ntrees and knock them down to calm itself.",
+  "msgstr": "Il n’est pas satisfait s’il ne détruit pas\\ntout sur son passage. Lorsqu’il ne trouve\\npas d’adversaire, il déracine de gros\\narbres pour passer ses nerfs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "contresens",
+  "probleme": "La traduction présente la température comme systématique et efface le coup de corne à l’origine des blessures.",
+  "correction": "Chauffées par son énergie de feu,\\nses cornes peuvent dépasser\\n1 000 degrés. Un coup de corne\\nprovoque blessures et brûlures.",
+  "justification": "« Can get hotter » indique une possibilité et « those gored » désigne les victimes d’un coup de corne.",
+  "msgid": "When heated by fire energy, its horns can\\nget hotter than 1,800 degrees Fahrenheit.\\nThose gored by them will suffer\\nboth wounds and burns.",
+  "msgstr": "Chauffées par son énergie de feu,\\nses cornes dépassent 1000 degrés.\\nSes victimes subissent à la fois\\nblessures et brûlures.",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "oubli",
+  "probleme": "Les orifices au bout des cornes sont omis et le nom d’espèce n’est pas en capitales.",
+  "correction": "Ce Pokémon projette de l’eau par\\ndes trous au bout de ses cornes.\\nCes jets à haute pression\\ntranspercent les ennemis de TAUROS.",
+  "justification": "« Holes on the tips of its horns » précise d’où jaillit l’eau. Le projet impose la graphie TAUROS.",
+  "msgid": "This Pokémon blasts water from holes on\\nthe tips of its horns--the high-pressure\\njets pierce right through\\nTauros’s enemies.",
+  "msgstr": "Ce Pokémon projette de l’eau par\\nle bout de ses cornes. Ces jets\\nà haute pression transpercent\\nles ennemis de Tauros.",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "contresens",
+  "probleme": "Les pulsations d’énergie deviennent des rayons, et NOCTALI attend que ses ennemis passent au lieu d’attendre qu’ils bougent.",
+  "correction": "Les pulsations de l’énergie\\nlunaire l’ont fait évoluer. Il\\nse tapit dans le noir et attend\\nque ses ennemis bougent. Ses\\nanneaux brillent quand il bondit\\npour attaquer.",
+  "justification": "« Energy pulses » et « waits for its foes to move » désignent les pulsations et le mouvement des ennemis. Le bond sert à attaquer.",
+  "msgid": "Umbreon evolved from exposure to the\\nmoon's energy pulses. It lurks in darkness\\nand waits for its foes to move. The rings\\non its body glow when it leaps to attack.",
+  "msgstr": "Il a évolué suite à une exposition aux\\nrayons lunaires. Il se cache dans le noir\\net attend le passage de ses ennemis.\\nSes anneaux s’illuminent quand il bondit.",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "autre_phrase",
+  "probleme": "Le texte sur le parfum de Galar correspond à une autre description.",
+  "correction": "Ses cellules ressemblent plus\\nà celles d’une plante qu’à celles\\nd’un animal. La photosynthèse\\nlui fournit l’énergie dont il a\\nbesoin sans qu’il ait à manger.",
+  "justification": "L’anglais décrit la composition de ses cellules et la production d’énergie par photosynthèse.",
+  "msgid": "Its cellular composition is closer to\\nthat of a plant than an animal. It uses\\nphotosynthesis to produce its energy\\nsupply without eating food.",
+  "msgstr": "Les habitants de Galar adorent l’odeur\\nunique qui se dégage de ses feuilles,\\naussi entrent-elles dans la\\ncomposition d’un parfum très populaire.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "autre_phrase",
+  "probleme": "La traduction décrit des proies qui gèlent au lieu d’expliquer comment le Pokémon forme les cristaux.",
+  "correction": "Il règle à volonté la température\\nde son corps. Il peut ainsi geler\\nl’humidité de l’air et former des\\nvolées de cristaux de glace.",
+  "justification": "L’anglais relie la formation des cristaux au contrôle de sa température corporelle.",
+  "msgid": "It can control its body temperature\\nat will. This enables it to freeze the\\nmoisture in the atmosphere, creating\\nflurries of diamond dust.",
+  "msgstr": "Totalement subjuguées par la beauté\\ndes cristaux de glace qu’il fait tomber,\\nses proies ne réalisent que trop tard\\nqu’elles sont en train de geler.",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "autre_phrase",
+  "probleme": "La traduction parle de mettre fin aux querelles et omet l’attaque contre les proies.",
+  "correction": "Ses antennes en forme de rubans\\némettent une aura qui apaise\\nses proies. Dès qu’elles baissent\\nla garde, il bondit sur elles.",
+  "justification": "L’anglais décrit une technique de chasse où l’aura fait baisser la garde des proies avant l’attaque.",
+  "msgid": "Its ribbonlike feelers give off an aura\\nthat weakens hostility in its prey, causing\\nthem to let down their guard. A moment\\nlater, it pounces.",
+  "msgstr": "Grâce à ses antennes semblables à des\\nrubans, il peut émettre des ondes\\nneutralisant l’hostilité et ainsi mettre\\nfin aux querelles.",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "autre_phrase",
+  "probleme": "Le voyage entre les dimensions correspond à une autre description.",
+  "correction": "Pour créer un Pokémon plus\\nperfectionné, on lui a installé\\nun programme supplémentaire.\\nUn défaut le ferait se déplacer\\nbizarrement.",
+  "justification": "L’anglais attribue ses déplacements inhabituels à un défaut présumé du programme ajouté.",
+  "msgid": "In order to create a more advanced\\nPokémon, an additional program was\\ninstalled, but apparently it contained a\\ndefect that made it move oddly.",
+  "msgstr": "Depuis qu’on lui a ajouté un programme\\npermettant de voyager entre les\\ndimensions, son comportement est\\ndevenu instable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que des humains l’ont ressuscité et que sa coquille est dure.",
+  "correction": "Des humains ont ressuscité ce\\nPokémon éteint depuis longtemps\\nà partir de fossiles. Si on\\nl’attaque, il se replie dans\\nsa coquille dure.",
+  "justification": "« By humans » identifie les auteurs de la résurrection et « hard shell » précise la nature de sa protection.",
+  "msgid": "One of the ancient and long-since-extinct\\nPokémon that have been regenerated\\nfrom fossils by humans. If attacked,\\nit withdraws into its hard shell.",
+  "msgstr": "C’est un ancien Pokémon disparu depuis\\nlongtemps qui a été ressuscité à partir\\nde fossiles. Lorsqu’il est attaqué par un\\nennemi, il se rétracte dans sa coquille.",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "oubli",
+  "probleme": "La traduction omet la rareté des découvertes de spécimens vivants.",
+  "correction": "Ce Pokémon a été ressuscité à\\npartir d’un fossile. On a parfois\\ndécouvert des spécimens vivants,\\nmais ces cas sont rares. Il n’a pas\\nchangé depuis 300 millions d’années.",
+  "justification": "« In rare cases » qualifie les découvertes de spécimens vivants.",
+  "msgid": "It is a Pokémon that has been regenerated\\nfrom a fossil. However, in rare cases, living\\nexamples have been discovered. Kabuto\\nhave not changed for 300 million years.",
+  "msgstr": "C’est un Pokémon ressuscité à partir d’un\\nfossile. Cependant, on a découvert des\\nspécimens vivants. Ce Pokémon n’a pas\\nchangé depuis 300 millions d’années.",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "contresens",
+  "probleme": "La traduction présente KABUTOPS comme déjà terrestre et omet les changements de ses pattes.",
+  "correction": "Jadis, il nageait sous l’eau\\npour chasser. Les changements\\nde ses branchies et de ses pattes\\nsemblent montrer qu’il évoluait\\nvers la vie sur la terre ferme.",
+  "justification": "L’anglais décrit une transition en cours qu’indiquent à la fois les branchies et les pattes.",
+  "msgid": "Kabutops once swam underwater to hunt \\nfor prey. It was apparently evolving from\\nbeing a water dweller to living on land as\\nevident from changes in its gills and legs.",
+  "msgstr": "Jadis, il trouvait ses proies sous l’eau.\\nLes changements dans ses branchies\\nsemblent indiquer que ce Pokémon\\nterrestre descend d’une créature marine.",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "autre_phrase",
+  "probleme": "Le texte sur la nourriture avariée correspond à une autre description.",
+  "correction": "Dès qu’il trouve quelque chose\\nqui semble comestible, il l’avale\\ntout rond. C’est pour cela qu’il\\ngrossit de jour en jour.",
+  "justification": "L’anglais explique sa prise de poids par son habitude d’avaler tout rond ce qui paraît comestible.",
+  "msgid": "When it finds something that looks like\\nit might be edible, it goes right ahead\\nand swallows it whole. That's why it gets\\nfatter day by day.",
+  "msgstr": "Il ne pense qu’à manger énormément. Il\\nn’a que faire du goût et n’hésite\\nd’ailleurs pas à engloutir de la\\nnourriture avariée.",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "contresens",
+  "probleme": "Les épaisses plaques de fer deviennent de l’acier.",
+  "correction": "Ses rayons figent ses adversaires\\ncomme s’ils étaient gelés. Ses\\nlames psychiques en forme de\\nplumes déchirent d’épaisses\\nplaques de fer comme du papier.",
+  "justification": "« Thick iron sheets » précise la matière, la forme et l’épaisseur.",
+  "msgid": "It fires beams that immobilize opponents\\nas if they had been frozen solid.\\nIts feather-like blades of psychic energy\\nrip through thick iron sheets like paper.",
+  "msgstr": "Ses rayons immobilisent l’ennemi comme s’il\\nétait gelé. Ses lames psychiques en forme\\nde plumes déchirent l’acier comme du\\npapier.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "contresens",
+  "probleme": "« Grand-Pied » évoque la taille du pied, alors que l’anglais décrit la force des pattes.",
+  "correction": "Pattes Fortes",
+  "justification": "« Strong Legs » signifie « pattes fortes ».",
+  "msgid": "Strong Legs",
+  "msgstr": "Grand-Pied",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "contresens",
+  "probleme": "Le magma en fusion devient un volcan en ébullition, et l’idée que le Pokémon se brûle pour guérir disparaît.",
+  "correction": "C’est un Pokémon oiseau légendaire\\nqui contrôle le feu. On dit que,\\nblessé, il plonge dans le magma\\nd’un volcan pour se brûler\\net guérir.",
+  "justification": "« Molten magma » désigne le magma dans lequel il plonge, et « to burn and heal itself » précise l’effet recherché.",
+  "msgid": "Moltres is a legendary bird Pokémon\\nthat can control fire. If injured, it is said\\nto dip its body in the molten magma of\\na volcano to burn and heal itself.",
+  "msgstr": "C’est un Pokémon oiseau légendaire\\npouvant contrôler le feu. On raconte que\\nlorsqu’il est blessé, il se baigne dans un\\nvolcan en ébullition pour se soigner.",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "oubli",
+  "probleme": "La traduction omet les navires en train de sombrer et écrit le nom d’espèce en minuscules.",
+  "correction": "DRACOLOSSE fait le tour du globe\\nen seize heures à peine. Ce\\nPokémon au grand cœur guide à\\nbon port les navires perdus ou\\nprès de sombrer dans la tempête.",
+  "justification": "« Foundering ships » désigne les navires qui sombrent. Le projet impose les capitales pour le nom d’espèce.",
+  "msgid": "It can circle the globe in just 16 hours.\\nIt is a kindhearted Pokémon that leads\\nlost and foundering ships in a storm\\nto the safety of land.",
+  "msgstr": "Dracolosse est capable de faire le tour de\\nla planète en seize heures à peine. Ce\\nPokémon au grand cœur ramène à bon\\nport les navires perdus dans les tempêtes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que les feuilles autour du cou sont enroulées.",
+  "correction": "Des feuilles enroulées entourent\\nson cou. Chacune contient une\\npousse d’arbre dont le parfum\\ndonne la pêche à ceux qui le sentent.",
+  "justification": "« Curled-up » décrit la forme des feuilles.",
+  "msgid": "A Bayleef's neck is ringed by curled-up\\nleaves. Inside each leaf is a small tree\\nshoot. The fragrance of this shoot\\nmakes people peppy.",
+  "msgstr": "Son cou est entouré de nombreuses\\nfeuilles. Dans chacune d’elles se trouve\\nune pousse d’arbre dont le parfum donne\\nla pêche aux personnes qui le sentent.",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que les âmes sont délaissées.",
+  "correction": "On dit que ses flammes purifient\\nles âmes égarées et délaissées\\net les guident vers l’au-delà.\\nL’énergie du Mont Couronné\\naurait jadis façonné sa forme.",
+  "justification": "« Lost, forsaken souls » caractérise les âmes comme égarées et délaissées.",
+  "msgid": "Said to purify lost, forsaken souls with\\nits flames and guide them to the afterlife.\\nIt's believed its form was influenced by\\nthe energy of Mt. Coronet in ancient times.",
+  "msgstr": "On dit que ses flammes purifient les âmes\\négarées et les guident vers l’au-delà.\\nL’énergie du Mont Couronné aurait jadis\\nfaçonné sa forme.",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "contresens",
+  "probleme": "« Pénombre » atténue l’obscurité profonde décrite en anglais.",
+  "correction": "Les globes de son dos sont très\\nlumineux. Ils sont formés d’une\\npartie de sa nageoire dorsale et\\néclairent les fonds marins plongés\\ndans l’obscurité la plus noire.",
+  "justification": "« Inky darkness » désigne une obscurité très dense.",
+  "msgid": "The light-emitting orbs on its back are\\nvery bright. They are formed from a part of\\nits dorsal fin. This Pokémon illuminates\\nthe inky darkness of deep seas.",
+  "msgstr": "Les globes de son dos sont très lumineux.\\nIls sont composés d’une partie de sa\\nnageoire dorsale et éclairent la pénombre\\ndes fonds marins.",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "autre_phrase",
+  "probleme": "La traduction omet les visites aux régions paisibles et ajoute que le Pokémon se fait rare ces derniers temps.",
+  "correction": "Comme chacun le sait, il visite\\nles régions paisibles et leur\\napporte des bienfaits et des\\nbénédictions. Il n’apparaît\\njamais là où règnent les conflits.",
+  "justification": "L’anglais oppose les régions paisibles que le Pokémon visite aux lieux de conflit où il ne se montre jamais.",
+  "msgid": "As everyone knows, it visits peaceful\\nregions, bringing them gifts of kindness\\nand sweet blessings. It will never appear\\nwhere there is strife.",
+  "msgstr": "Il ne se montre jamais en temps de\\nguerre ou de conflit. Ces derniers temps,\\nil est rare de le croiser.",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "contresens",
+  "probleme": "Le Pokémon descend des arbres dans la traduction, alors qu’il y grimpe.",
+  "correction": "Il grimpe en courant aux petits\\narbres de la savane pour picorer\\nde jeunes pousses. Ses yeux\\nsemblent toujours observer\\nquelque chose.",
+  "justification": "« Runs up » indique un déplacement rapide vers le haut.",
+  "msgid": "It runs up short trees that grow on the\\nsavanna to peck at new shoots.\\nA Natu's eyes look as if they are\\nalways observing something.",
+  "msgstr": "Il descend des petits arbustes de la\\nsavane pour picorer de jeunes pousses.\\nSes yeux donnent toujours l’impression\\nqu’il observe quelque chose.",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "autre_phrase",
+  "probleme": "Le texte sur le goût de la sueur et des larmes correspond à une autre description.",
+  "correction": "Il préfère l’air sec. Pour\\nréguler la quantité d’eau dans\\nson corps, il évacue de l’eau\\npar les yeux, comme s’il pleurait.",
+  "justification": "L’anglais décrit sa préférence pour l’air sec et la fonction de l’eau qu’il évacue par les yeux.",
+  "msgid": "Bonsly prefers an arid atmosphere.\\nIn order to adjust the level of fluids\\nin its body, it exudes water from its eyes.\\nThis makes it appear to be crying.",
+  "msgstr": "Il évacue sa sueur et ses larmes par les\\nyeux. Sa sueur a un goût légèrement salé,\\ntandis que ses larmes ont un soupçon\\nd’amertume.",
+  "msgctxt": ""
+ },
+ {
+  "id": 87,
+  "categorie": "autre_phrase",
+  "probleme": "La traduction ajoute les marques d’affection et omet l’habitat ainsi que le faible usage des mains.",
+  "correction": "Il vit dans les grands arbres.\\nSa queue se divise en deux.\\nIl s’en sert avec tant d’adresse\\nqu’il n’utilise presque plus\\nses mains.",
+  "justification": "L’anglais explique que l’adresse de sa queue divisée lui permet de se passer presque entièrement de ses mains.",
+  "msgid": "They live on large trees. Split into two,\\nthe tails are so adept at handling and\\ndoing things, Ambipom rarely uses\\nits hands now.",
+  "msgstr": "Il utilise toujours ses deux queues\\npour faire la moindre tâche. Il s’en sert\\naussi pour enlacer les gens qu’il\\naffectionne tout particulièrement.",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "autre_phrase",
+  "probleme": "La phrase sur le balancier remplace l’attaque en plein vol.",
+  "correction": "Ce Pokémon à six pattes peut\\nfacilement transporter un adulte\\nen vol. Il sait déchiqueter ses\\nennemis d’un coup de mâchoire\\nen passant à toute vitesse.",
+  "justification": "« Biting apart foes while flying by at high speed » décrit une attaque à la mâchoire en plein vol.",
+  "msgid": "This six-legged Pokémon is easily capable\\nof transporting an adult in flight. It is\\nadept at biting apart foes while flying\\nby at high speed.",
+  "msgstr": "Il peut voler avec aise tout en portant\\nun adulte dans ses six pattes. Les ailes\\nde sa queue lui servent de balancier.",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "oubli",
+  "probleme": "La traduction omet la transformation progressive et écrit le nom d’espèce en minuscules.",
+  "correction": "Après avoir perdu un combat pour\\nson territoire, AXOLOTO s’est\\ninstallé sur la terre ferme. Peu\\nà peu, son corps s’est couvert\\nd’un film toxique protecteur.",
+  "justification": "« Changed over time » précise que la transformation s’est faite progressivement. La graphie de projet est AXOLOTO.",
+  "msgid": "After losing a territorial struggle,\\nWooper began living on land.\\nThe Pokémon changed over time, developing\\na poisonous film to protect its body.",
+  "msgstr": "Après avoir perdu une lutte de\\nterritoire, Axoloto s’est installé\\nsur la terre ferme et s’est couvert\\nd’un film toxique protecteur.",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "autre_phrase",
+  "probleme": "Le texte sur le coup de grâce correspond à une autre description.",
+  "correction": "Actif la nuit, il se déplace\\nsuivi d’une nuée de CORNEBRE.\\nOn dit qu’il ne pardonne jamais\\nles erreurs de ses sous-fifres.",
+  "justification": "L’anglais décrit son activité nocturne, les CORNEBRE qui l’accompagnent et son intransigeance envers eux.",
+  "msgid": "Becoming active at night, it is known\\nto swarm with numerous Murkrow in tow.\\nIt is said that it never forgives the\\nmistakes of its cronies.",
+  "msgstr": "Ses sous-fifres font le sale boulot\\npour lui. Il n’intervient en combat que\\npour donner le coup de grâce à son\\nennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "contresens",
+  "probleme": "Des cris qui ressemblent à des incantations deviennent des malédictions délibérées. La dernière phrase est omise.",
+  "correction": "Ses cris ressemblent à des\\nincantations. Ceux qui l’entendent\\nsouffrent de maux de tête et\\nd’hallucinations. Il apparaît là\\noù on l’attend le moins.",
+  "justification": "L’anglais décrit l’effet des cris sur quiconque les entend et précise que ses apparitions sont imprévisibles.",
+  "msgid": "Its cries sound like incantations.\\nThose hearing it are tormented by\\nheadaches and hallucinations.\\nIt appears where you least expect it.",
+  "msgstr": "Il susurre des malédictions pour\\ntourmenter ses ennemis et leur infliger\\nde terribles migraines ou des\\nhallucinations terrifiantes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "contresens",
+  "probleme": "« Attaquera » efface l’idée de riposte.",
+  "correction": "D’ordinaire docile, il riposte\\nférocement si on attaque sa\\nqueue noire. Il vit dans les\\ngrottes où il attend la nuit.",
+  "justification": "« Strikes back » indique qu’il réagit à l’attaque portée à sa queue.",
+  "msgid": "Usually docile, a Wobbuffet strikes back\\nferociously if its black tail is attacked.\\nIt makes its lair in caves where it waits\\nfor nightfall.",
+  "msgstr": "Normalement très docile, il attaquera\\nférocement si sa queue noire est\\nattaquée. Il vit dans les grottes où il\\nattend la tombée de la nuit.",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "oubli",
+  "probleme": "La queue semble mâcher dans la traduction, mais le mouvement de déglutition est omis.",
+  "correction": "Ce Pokémon herbivore se nourrit\\nd’herbe et de pousses d’arbres.\\nQuand il mange, sa queue bouge\\ncomme si elle mâchait et avalait\\nelle aussi.",
+  "justification": "« Chewing and swallowing motions » décrit les deux mouvements.",
+  "msgid": "A Girafarig is an herbivore--it eats\\ngrass and tree shoots. While it is eating,\\nits tail makes chewing and swallowing\\nmotions as if it were also eating.",
+  "msgstr": "Ce Pokémon herbivore se nourrit d’herbes\\net de pousses d’arbres. Quand il mange, sa\\nqueue se met à bouger comme si elle\\nétait aussi en train de mâcher.",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce « Girafarig » n’est pas en capitales.",
+  "correction": "Les ondes cérébrales de sa tête\\net de sa queue sont synchronisées.\\nSes pouvoirs psychiques sont\\n10 fois plus forts que ceux\\nde GIRAFARIG.",
+  "justification": "Le lexique donne GIRAFARIG et le projet impose les capitales pour les noms d’espèces.",
+  "msgid": "Now that the brain waves from the\\nhead and tail are synced up, the\\npsychic power of this Pokémon is 10\\ntimes stronger than Girafarig's.",
+  "msgstr": "Les ondes cérébrales de sa tête et de\\nsa queue étant synchronisées, ses\\npouvoirs psychiques sont 10 fois plus\\nforts que ceux de Girafarig.",
+  "msgctxt": ""
+ },
+ {
+  "id": 113,
+  "categorie": "contresens",
+  "probleme": "« Enfouit son nid » suggère qu’il enterre un nid déjà fait et perd l’idée de profondeur.",
+  "correction": "Le bout de sa queue sert de foret.\\nIl s’en sert pour creuser à\\nreculons. Ce Pokémon est connu\\npour ses nids aux formes complexes,\\naménagés profondément sous terre.",
+  "justification": "« Make its nest […] deep under the ground » indique qu’il construit son nid à grande profondeur.",
+  "msgid": "Its drill-tipped tail is used to burrow into\\nthe ground backwards. This Pokémon is\\nknown to make its nest in complex shapes\\ndeep under the ground.",
+  "msgstr": "Il a une perceuse au bout de la queue. Il\\nl’utilise pour creuser des souterrains à\\nreculons. On dit que ce Pokémon enfouit\\nson nid aux formes complexes sous terre.",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce « Deusolourdo » n’est pas en capitales.",
+  "correction": "Une étude récente a révélé que le\\nnombre de segments du corps de\\nDEUSOLOURDO dépend de ses gènes.",
+  "justification": "Le projet impose les capitales pour les noms d’espèces.",
+  "msgid": "A recent study uncovered that the\\nnumber of segments a Dudunsparce's\\nbody has is determined by the\\nPokémon's genes.",
+  "msgstr": "Une étude récente a révélé que le\\nnombre de segments du corps de\\nDeusolourdo dépend de ses gènes.",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "autre_phrase",
+  "probleme": "La traduction remplace l’observation depuis les branches et le piqué par une capture avec la queue et une morsure.",
+  "correction": "Suspendu aux branches la tête\\nen bas, il observe ses proies.\\nSon vol est silencieux. Dès\\nque l’occasion se présente,\\nil fond sur sa proie!",
+  "justification": "L’anglais décrit la posture d’affût, le vol silencieux et le piqué au moment propice.",
+  "msgid": "Gliscor observes prey while hanging\\nupside down from branches. Its flight is\\nsoundless. When the chance presents\\nitself, it swoops!",
+  "msgstr": "Il vole sans un bruit, et capture ses\\nproies avec sa queue pour leur infliger\\nune morsure critique.",
+  "msgctxt": ""
+ }
+]

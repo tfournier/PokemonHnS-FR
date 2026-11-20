@@ -1,0 +1,502 @@
+[
+ {
+  "id": 0,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été ajouté.",
+  "correction": "Objet tenu qui\\ndégèle les Pokémon\\nen combat.",
+  "justification": "La source écrit Pokémon en toutes lettres.",
+  "msgid": "A hold item that\\ndefrosts Pokémon\\nin battle.",
+  "msgstr": "Objet tenu qui dé-\\ncongèle les {PKMN}\\npendant un combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 1,
+  "categorie": "contresens",
+  "probleme": "La traduction introduit 30 PV et omet le bénéficiaire.",
+  "correction": "Objet tenu qui rend\\nquelques PV à son\\nporteur.",
+  "justification": "La source indique une faible récupération de PV pour le porteur, sans préciser de quantité.",
+  "msgid": "A hold item that\\nrestores the user's\\nHP a little.",
+  "msgstr": "Objet tenu qui\\nrestaure 30 PV\\npendant un combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Normal\\nde l’ennemi.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Normal\\nmove.",
+  "msgstr": "Affaiblit une\\nattaque Normal\\nde l’ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Feu\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Fire\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Feu\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Eau\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Water\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Eau\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Electrik\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Electric\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Electrik\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Plante\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Grass\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Plante\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Glace\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Ice\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Glace\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Combat\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Fighting\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Combat\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Poison\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Poison\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Poison\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Sol\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Ground\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Sol\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Vol\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Flying\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Vol\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 13,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Psy\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Psychic\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Psy\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Insecte\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Bug\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Insecte\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Roche\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Rock\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Roche\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Spectre\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Ghost\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Spectre\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Dragon\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Dragon\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Dragon\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Ténèbres\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Dark\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Ténèbres\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Acier\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Steel\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Acier\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "oubli",
+  "probleme": "La condition de port de l’objet manque.",
+  "correction": "Objet tenu qui affaiblit\\nune attaque Fée\\nsuper efficace.",
+  "justification": "« A hold item » indique que l’objet doit être tenu.",
+  "msgid": "A hold item that\\nweakens a Fairy\\nmove if weak to it.",
+  "msgstr": "Affaiblit une\\nattaque Fée\\nsuper efficace.",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "contresens",
+  "probleme": "« Si nécessaire » rend le déclenchement vague et la précision n’est plus rattachée à une attaque.",
+  "correction": "Objet tenu qui augmente\\nla précision d’une\\nattaque à PV bas.",
+  "justification": "L’effet concerne la précision d’une attaque lorsque les PV du porteur sont bas.",
+  "msgid": "When held, it ups\\nthe Accuracy of a\\nmove in a pinch.",
+  "msgstr": "Objet tenu qui\\nmonte la Précision\\nsi nécessaire.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "contresens",
+  "probleme": "« Si nécessaire » masque la condition et « frapper » restreint le type d’action.",
+  "correction": "Permet d’agir en premier\\nune seule fois quand\\nles PV sont bas.",
+  "justification": "Le Pokémon peut agir en premier une fois quand ses PV sont bas.",
+  "msgid": "It allows a Pokémon\\nin a pinch to move\\nfirst just once.",
+  "msgstr": "Permet une fois de\\nfrapper le premier\\nsi nécessaire.",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "oubli",
+  "probleme": "La faible quantité de dégâts n’est pas précisée.",
+  "correction": "Blesse un peu l’ennemi\\naprès une attaque\\nphysique subie.",
+  "justification": "« A bit » indique que l’attaquant subit peu de dégâts.",
+  "msgid": "If hit by a physical\\nmove, it will hurt\\nthe attacker a bit.",
+  "msgstr": "Blesse l’ennemi\\naprès une attaque\\nphysique subie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "oubli",
+  "probleme": "La faible quantité de dégâts n’est pas précisée.",
+  "correction": "Blesse un peu l’ennemi\\naprès une attaque\\nspéciale subie.",
+  "justification": "« A bit » indique que l’attaquant subit peu de dégâts.",
+  "msgid": "If hit by a special\\nmove, it will hurt\\nthe attacker a bit.",
+  "msgstr": "Blesse l’ennemi\\naprès une attaque\\nspéciale subie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "oubli",
+  "probleme": "L’ampleur de la hausse de Défense manque.",
+  "correction": "Monte un peu la Défense\\naprès une attaque\\nphysique subie.",
+  "justification": "« A bit » précise que la hausse est légère.",
+  "msgid": "If hit by a physical\\nmove, it raises the\\nDefense a bit.",
+  "msgstr": "Monte la Défense\\naprès une attaque\\nphysique subie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "oubli",
+  "probleme": "L’ampleur de la hausse de Défense Spéciale manque.",
+  "correction": "Monte un peu la Déf. Spé.\\naprès une attaque\\nspéciale subie.",
+  "justification": "« A bit » précise que la hausse est légère.",
+  "msgid": "If hit by a special\\nmove, it raises the\\nSp. Def. a bit.",
+  "msgstr": "Monte la Déf. Spé.\\naprès une attaque\\nspéciale subie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "oubli",
+  "probleme": "« Améliore » ne précise pas ce qui augmente.",
+  "correction": "Renforce la puissance\\ndes attaques Feu\\npendant 5 tours.",
+  "justification": "La source précise que l’effet porte sur la puissance des attaques.",
+  "msgid": "Raises the power of\\nFire-type moves\\nfor 5 turns.",
+  "msgstr": "Améliore les\\nattaques Feu\\npendant 5 tours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "oubli",
+  "probleme": "« Améliore » ne précise pas ce qui augmente.",
+  "correction": "Renforce la puissance\\ndes attaques Eau\\npendant 5 tours.",
+  "justification": "La source précise que l’effet porte sur la puissance des attaques.",
+  "msgid": "Raises the power of\\nWater-type moves\\nfor 5 turns.",
+  "msgstr": "Améliore les\\nattaques Eau\\npendant 5 tours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "contresens",
+  "probleme": "« Sa Déf. Spé. » peut désigner celle du lanceur.",
+  "correction": "Attaque à pleine\\npuissance. Peut baisser\\nla Déf. Spé. de l’ennemi.",
+  "justification": "La source désigne explicitement la Défense Spéciale de l’ennemi.",
+  "msgid": "Attacks at full\\npower. May lower\\nthe foe's Sp. Def.",
+  "msgstr": "Attaque à pleine\\npuissance. Peut\\nbaisser sa Déf. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "oubli",
+  "probleme": "Le texte omet que la force de la nature sert à attaquer.",
+  "correction": "Attaque avec la force\\nde la nature. Peut\\nbaisser la Déf. Spé.",
+  "justification": "« To attack » décrit l’usage de la force puisée dans la nature.",
+  "msgid": "Draws power from\\nnature to attack.\\nMay lower Sp. Def.",
+  "msgstr": "Puise la force de\\nla nature. Peut\\nbaisser la Déf. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "orthographe",
+  "probleme": "Il manque un déterminant après le verbe « double ».",
+  "correction": "Double les dégâts si\\nl’ennemi a la moitié\\nde ses PV ou moins.",
+  "justification": "« Les dégâts » est le complément d’objet du verbe « double ».",
+  "msgid": "Does double damage\\nto foes with half\\nHP or less.",
+  "msgstr": "Double dégâts si\\nl’ennemi a la moitié\\nde ses PV ou moins.",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "contresens",
+  "probleme": "Le français indique qu’il reste exactement 1 PV.",
+  "correction": "Encaisse tout coup\\npendant 1 tour en\\ngardant au moins 1 PV.",
+  "justification": "« At least 1 HP » fixe un minimum.",
+  "msgid": "Endures any attack\\nfor 1 turn, leaving\\nat least 1 HP.",
+  "msgstr": "Encaisse tout coup\\npendant 1 tour en\\ngardant 1 PV.",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "oubli",
+  "probleme": "La poudre n’est plus présentée comme une attaque.",
+  "correction": "Attaque à base de poudre\\nqui peut augmenter\\ntoutes les stats.",
+  "justification": "« A powdery attack » décrit une attaque utilisant de la poudre.",
+  "msgid": "A powdery attack\\nthat may raise\\nall abilities.",
+  "msgstr": "Une poudre qui peut\\naugmenter toutes\\nles stats.",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "contresens",
+  "probleme": "« Toupie » désigne un objet et « ennemis rapides » efface la progression des dégâts.",
+  "correction": "Tourne sur lui-même.\\nPlus l’ennemi est rapide,\\nplus il subit de dégâts.",
+  "justification": "La source décrit une rotation et lie les dégâts à la vitesse de l’ennemi.",
+  "msgid": "A rapid spin that\\ndoes more damage\\nto faster foes.",
+  "msgstr": "Une toupie plus\\nforte contre les\\nennemis rapides.",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "oubli",
+  "probleme": "La traduction omet que les pierres flottent.",
+  "correction": "Des pierres flottantes\\nblessent tout\\nennemi entrant.",
+  "justification": "« Floating stones » décrit des pierres en suspension.",
+  "msgid": "Floating stones\\nthat hurt a foe\\nswitching in.",
+  "msgstr": "Des pierres qui\\nblessent tout\\nennemi entrant.",
+  "msgctxt": ""
+ },
+ {
+  "id": 56,
+  "categorie": "oubli",
+  "probleme": "La traduction ne dit pas à qui s’appliquent les changements copiés.",
+  "correction": "Copie les variations\\nde stats de l’ennemi\\nsur le lanceur.",
+  "justification": "Les changements de stats copiés sont appliqués au lanceur.",
+  "msgid": "Copies the foe's\\nstat changes and\\ngives to the user.",
+  "msgstr": "Copie les change-\\nments de stats\\nde l’ennemi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "contresens",
+  "probleme": "« Change de place avec un allié » peut évoquer une permutation sur le terrain.",
+  "correction": "Inflige des dégâts,\\npuis le lanceur cède\\nsa place à un allié.",
+  "justification": "« Switches out » indique que le lanceur quitte le terrain et qu’un allié le remplace.",
+  "msgid": "Does damage then\\nswitches out the\\nuser.",
+  "msgstr": "Attaque, puis le\\nlanceur change de\\nplace avec un allié.",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "typographie",
+  "probleme": "Le saut de ligne coupe « chromatiques ».",
+  "correction": "Charme qui aide à\\nrencontrer des\\nPokémon chromatiques.",
+  "justification": "Le mot tient sur la dernière ligne et l’effet du Charme reste explicite.",
+  "msgid": "A charm that will\\nraise the chance\\nof Shiny Pokémon.",
+  "msgstr": "Charme rendant les\\nPokémon chromati-\\nques plus courants.",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "typographie",
+  "probleme": "Le saut de ligne coupe « augmente ».",
+  "correction": "Charme qui augmente\\nl’Exp. gagnée\\nau combat.",
+  "justification": "Le verbe tient entier sur la première ligne.",
+  "msgid": "A charm that raises\\nthe amount of Exp.\\nearned in battle.",
+  "msgstr": "Charme qui aug-\\nmente l’Exp. gagnée\\nau combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "terminologie",
+  "probleme": "Le nom de MOTISMA n’est pas en capitales et « appareils » est coupé.",
+  "correction": "Catalogue rempli\\nd’appareils que\\nMOTISMA apprécie.",
+  "justification": "Le lexique fourni prescrit ROTOM → MOTISMA. Le nouveau découpage garde « appareils » entier.",
+  "msgid": "A catalog full of\\ndevices liked by\\nRotom.",
+  "msgstr": "Catalogue d’appa-\\nreils que Motisma\\napprécie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce n’est pas en capitales et « fusionne » est coupé.",
+  "correction": "Outil qui fusionne\\nKYUREM avec un\\ncertain Pokémon.",
+  "justification": "La convention du projet impose les capitales pour les noms d’espèces. Le verbe tient entier en première ligne.",
+  "msgid": "Splicer that fuses\\nKyurem and a\\ncertain Pokémon.",
+  "msgstr": "Un outil qui fusion-\\nne Kyurem avec un\\ncertain Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce ZYGARDE n’est pas en capitales.",
+  "correction": "Une boîte pour\\nstocker Cellules et\\nCœurs de ZYGARDE.",
+  "justification": "Le projet écrit les noms d’espèces en capitales.",
+  "msgid": "An item to store\\nZygarde Cores and\\nCells.",
+  "msgstr": "Une boîte pour\\nstocker Cellules et\\nCœurs de Zygarde.",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "typographie",
+  "probleme": "Les noms d’espèces ne sont pas en capitales.",
+  "correction": "Fusionne NECROZMA\\navec SOLGALEO ou\\nles sépare.",
+  "justification": "Le projet écrit les noms d’espèces en capitales.",
+  "msgid": "A device to fuse\\nand split Necrozma\\nusing a Solgaleo.",
+  "msgstr": "Fusionne Necrozma\\navec Solgaleo ou\\nles sépare.",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "typographie",
+  "probleme": "Les noms d’espèces ne sont pas en capitales.",
+  "correction": "Fusionne NECROZMA\\navec LUNALA ou\\nles sépare.",
+  "justification": "Le projet écrit les noms d’espèces en capitales.",
+  "msgid": "A device to fuse\\nand split Necrozma\\nusing a Lunala.",
+  "msgstr": "Fusionne Necrozma\\navec Lunala ou\\nles sépare.",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "typographie",
+  "probleme": "Le nom d’espèce SYLVEROY n’est pas en capitales.",
+  "correction": "Rênes qui unissent\\nSYLVEROY à son\\nfidèle destrier.",
+  "justification": "Le projet écrit les noms d’espèces en capitales.",
+  "msgid": "Reins that unite\\nCalyrex with its\\nbeloved steed.",
+  "msgstr": "Rênes qui unissent\\nSylveroy à son\\nfidèle destrier.",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "contresens",
+  "probleme": "« Fait méga-évoluer » présente la transformation comme un effet direct.",
+  "correction": "Permet aux {PKMN}\\ntenant leur Méga-Gemme\\nde méga-évoluer.",
+  "justification": "« Enables » indique que l’objet rend la transformation possible.",
+  "msgid": "Enables {PKMN} holding\\ntheir Mega Stone to\\nMega Evolve.",
+  "msgstr": "Fait méga-évoluer\\nles {PKMN} tenant\\nleur Méga-Gemme.",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "contresens",
+  "probleme": "« Un poignet » désigne la partie du corps.",
+  "correction": "Un bracelet orné\\nd’une Etoile Vœu qui\\npermet le Dynamax.",
+  "justification": "« A band » désigne ici l’objet porté au poignet.",
+  "msgid": "A band carrying a\\nWishing Star that\\nallows Dynamaxing.",
+  "msgstr": "Un poignet orné\\nd’une Etoile Vœu qui\\npermet le Dynamax.",
+  "msgctxt": ""
+ },
+ {
+  "id": 111,
+  "categorie": "terminologie",
+  "probleme": "« Vélo » remplace le nom d’objet retenu dans le lexique.",
+  "correction": "Une Bicyclette pliable.\\nR à l’arrêt pour\\nchanger de vitesse.",
+  "justification": "Le lexique fourni prescrit BICYCLE → Bicyclette.",
+  "msgid": "A folding bicycle.\\nPress R while still\\nto change speeds.",
+  "msgstr": "Un vélo pliable.\\nR à l’arrêt pour\\nchanger de vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 112,
+  "categorie": "oubli",
+  "probleme": "Le lieu d’utilisation de la canne manque.",
+  "correction": "Au bord de l’eau,\\nsert à pêcher des\\nPokémon sauvages.",
+  "justification": "La source précise que la canne s’utilise au bord de n’importe quel point d’eau.",
+  "msgid": "Use by any body of\\nwater to fish for\\nwild Pokémon.",
+  "msgstr": "Canne pour pêcher\\ndes Pokémon\\nsauvages.",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "oubli",
+  "probleme": "« Ceux » ne précise pas que l’appareil signale des Dresseurs.",
+  "correction": "Signale les Dresseurs\\nprêts à se battre.\\nRechargeable.",
+  "justification": "La source désigne explicitement les Dresseurs prêts au combat.",
+  "msgid": "A rechargeable unit\\nthat flags battle-\\nready Trainers.",
+  "msgstr": "Montre ceux qui\\nveulent se battre.\\nRechargeable.",
+  "msgctxt": ""
+ }
+]

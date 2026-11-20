@@ -1,0 +1,492 @@
+[
+ {
+  "id": 1,
+  "categorie": "terminologie",
+  "probleme": "Le nom du Collectionneur de la Route 123 est tronqué.",
+  "correction": "ED",
+  "justification": "Pokémon Émeraude FR, table des Dresseurs, entrée 13.",
+  "msgid": "ED",
+  "msgstr": "E",
+  "msgctxt": ""
+ },
+ {
+  "id": 3,
+  "categorie": "terminologie",
+  "probleme": "UME désigne un autre personnage.",
+  "correction": "MARIE",
+  "justification": "Pokémon Émeraude FR nomme MARIE cette Dresseuse de l’Arène de Clémenti-Ville, à l’entrée 89 de la table des Dresseurs.",
+  "msgid": "MARY",
+  "msgstr": "UME",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "terminologie",
+  "probleme": "La graphie du lexique est Stan.",
+  "correction": "Stan",
+  "justification": "Lexique officiel fourni, entrée STAN.",
+  "msgid": "STAN",
+  "msgstr": "STAN",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "terminologie",
+  "probleme": "Le mot du Mot Passe est tronqué.",
+  "correction": "EST",
+  "justification": "Pokémon Émeraude FR, table du Mot Passe, groupe des fins de phrase, index 11.",
+  "msgid": "IS",
+  "msgstr": "E",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "terminologie",
+  "probleme": "Le nom de la Nageuse de la Route 124 est tronqué.",
+  "correction": "GRACE",
+  "justification": "Pokémon Émeraude FR, table des Dresseurs, entrée 450.",
+  "msgid": "GRACE",
+  "msgstr": "E",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "terminologie",
+  "probleme": "NATE est le nom anglais du Gentleman de l’Arène d’Algatia.",
+  "correction": "VICENTE",
+  "justification": "Pokémon Émeraude FR, table des Dresseurs, entrée 582.",
+  "msgid": "NATE",
+  "msgstr": "NATE",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "terminologie",
+  "probleme": "IEN déforme le nom du Gamin de la Route 34.",
+  "correction": "Ian",
+  "justification": "Pokémon Argent SoulSilver FR, répliques téléphoniques de Ian, banque 703.",
+  "msgid": "IAN",
+  "msgstr": "IEN",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "terminologie",
+  "probleme": "NAMAX remplace le nom français de l’apprenti.",
+  "correction": "ANDY",
+  "justification": "Pokémon Émeraude FR, table des apprentis de la Zone de Combat, entrée 13.",
+  "msgid": "ANDY",
+  "msgstr": "NAMAX",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "terminologie",
+  "probleme": "Le pronom du Mot Passe est tronqué.",
+  "correction": "MOI",
+  "justification": "Pokémon Émeraude FR, table du Mot Passe, groupe des personnes, index 20.",
+  "msgid": "ME",
+  "msgstr": "M",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Combat",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». L’abréviation permet de respecter les 16 caractères utiles du champ.",
+  "msgid": "a FIGHTING move",
+  "msgstr": "attaque Combat",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Vol",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». La forme abrégée tient dans le champ.",
+  "msgid": "a FLYING move",
+  "msgstr": "attaque Vol",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Poison",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». La forme abrégée tient dans le champ.",
+  "msgid": "a POISON move",
+  "msgstr": "attaque Poison",
+  "msgctxt": ""
+ },
+ {
+  "id": 17,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Sol",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». La forme abrégée tient dans le champ.",
+  "msgid": "a GROUND move",
+  "msgstr": "attaque Sol",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Roche",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». La forme abrégée tient dans le champ.",
+  "msgid": "a ROCK move",
+  "msgstr": "attaque Roche",
+  "msgctxt": ""
+ },
+ {
+  "id": 19,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Insecte",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». La forme abrégée tient dans les 16 caractères utiles du champ.",
+  "msgid": "a BUG move",
+  "msgstr": "attaque Insecte",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Spectre",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». La forme abrégée tient dans les 16 caractères utiles du champ.",
+  "msgid": "a GHOST move",
+  "msgstr": "attaque Spectre",
+  "msgctxt": ""
+ },
+ {
+  "id": 21,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Acier",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». La forme abrégée tient dans le champ.",
+  "msgid": "a STEEL move",
+  "msgstr": "attaque Acier",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Feu",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». La forme abrégée tient dans le champ.",
+  "msgid": "a FIRE move",
+  "msgstr": "attaque Feu",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Eau",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». La forme abrégée tient dans le champ.",
+  "msgid": "a WATER move",
+  "msgstr": "attaque Eau",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Plante",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». La forme abrégée tient dans le champ.",
+  "msgid": "a GRASS move",
+  "msgstr": "attaque Plante",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Electrik",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». La forme abrégée tient dans les 16 caractères utiles du champ.",
+  "msgid": "an ELECTRIC move",
+  "msgstr": "attaque Electrik",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Glace",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». La forme abrégée tient dans le champ.",
+  "msgid": "an ICE move",
+  "msgstr": "attaque Glace",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Dragon",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». La forme abrégée tient dans le champ.",
+  "msgid": "a DRAGON move",
+  "msgstr": "attaque Dragon",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une c. Ténèbres",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». « c. » conserve le nom entier du type dans les 16 caractères utiles du champ.",
+  "msgid": "a DARK move",
+  "msgstr": "attaque Ténèbres",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "terminologie",
+  "probleme": "Le fragment omet le déterminant et emploie « attaque » pour « move ».",
+  "correction": "une cap. Fée",
+  "justification": "Pokémon Argent SoulSilver FR emploie « capacité de type ». La forme abrégée tient dans le champ.",
+  "msgid": "a FAIRY move",
+  "msgstr": "attaque Fée",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "oubli",
+  "probleme": "Le déterminant de « a STELLAR move » a disparu.",
+  "correction": "une c. Stellaire",
+  "justification": "Le déterminant rétablit le groupe nominal attendu dans la phrase de combat. La forme tient dans les 16 caractères utiles du champ.",
+  "msgid": "a STELLAR move",
+  "msgstr": "cap. STELLAIRE",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "oubli",
+  "probleme": "Le Pokémon proposé à l’échange est celui que le joueur a inscrit.",
+  "correction": "On vous propose d’échanger votre\\nPokémon inscrit N. {DYNAMIC 0} {DYNAMIC 1}\\pcontre un\\nN. {DYNAMIC 2} {DYNAMIC 3}.\\pAccepter cette offre d’échange?",
+  "justification": "« Inscrit » restitue « registered ».",
+  "msgid": "There is an offer to trade your\\nregistered Lv. {DYNAMIC 0} {DYNAMIC 1}\\pin exchange for a\\nLv. {DYNAMIC 2} {DYNAMIC 3}.\\pWill you accept this trade\\noffer?",
+  "msgstr": "On vous propose d’échanger votre\\nPokémon N. {DYNAMIC 0} {DYNAMIC 1}\\pcontre un\\nN. {DYNAMIC 2} {DYNAMIC 3}.\\pAccepter cette offre d’échange?",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "terminologie",
+  "probleme": "Le libellé du ruban perd l’abréviation officielle.",
+  "correction": "CONCOURS DE ROBUS.",
+  "justification": "Pokémon Émeraude FR utilise ce libellé dans la description du ruban de Robustesse.",
+  "msgid": "TOUGH CONTEST",
+  "msgstr": "CONCOURS DE ROBUSTESSE",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "terminologie",
+  "probleme": "Le libellé de la carte omet « de » dans cette formule de la Salle Union.",
+  "correction": "Voici la Carte de Dresseur de\\n{DYNAMIC 0} {DYNAMIC 1}…\\l{DYNAMIC 2}\\pPOKéDEX: {DYNAMIC 3}\\nDUREE:   {DYNAMIC 4}:{DYNAMIC 5}\\p",
+  "justification": "Pokémon Argent SoulSilver FR emploie « Carte de Dresseur » dans la réplique équivalente de la Salle Union, banque 738.",
+  "msgid": "This is {DYNAMIC 0} {DYNAMIC 1}'s\\nTRAINER CARD…\\l{DYNAMIC 2}\\pPOKéDEX: {DYNAMIC 3}\\nTIME:    {DYNAMIC 4}:{DYNAMIC 5}\\p",
+  "msgstr": "Voici la Carte Dresseur de\\n{DYNAMIC 0} {DYNAMIC 1}…\\l{DYNAMIC 2}\\pPOKéDEX: {DYNAMIC 3}\\nDUREE:   {DYNAMIC 4}:{DYNAMIC 5}\\p",
+  "msgctxt": ""
+ },
+ {
+  "id": 37,
+  "categorie": "contresens",
+  "probleme": "« T’avoir vu » exprime le plaisir d’avoir vu quelqu’un et perd l’idée de faire connaissance.",
+  "correction": "{DYNAMIC 1}: Ravi d’avoir fait ta connaissance!{PAUSE 60}",
+  "justification": "« To have met you » renvoie ici à la rencontre qui vient d’avoir lieu.",
+  "msgid": "{DYNAMIC 1}: Glad to have met you!{PAUSE 60}",
+  "msgstr": "{DYNAMIC 1}: Ravi de t’avoir vu!{PAUSE 60}",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "terminologie",
+  "probleme": "Le libellé de la carte omet « de ».",
+  "correction": "Fin de la lecture de la Carte\\nde Dresseur de {DYNAMIC 1}.{PAUSE 60}",
+  "justification": "Pokémon Argent SoulSilver FR emploie « Carte de Dresseur » pour cet objet dans la Salle Union, banque 738.",
+  "msgid": "Finished checking {DYNAMIC 1}'s\\nTRAINER CARD.{PAUSE 60}",
+  "msgstr": "Fin de la lecture de la Carte\\nDresseur de {DYNAMIC 1}.{PAUSE 60}",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "contresens",
+  "probleme": "« Ne se sent pas bien » suggère un malaise.",
+  "correction": "{STR_VAR_1} manque de joie.",
+  "justification": "« Is not happy » décrit l’humeur du Pokémon.",
+  "msgid": "{STR_VAR_1} is not happy.",
+  "msgstr": "{STR_VAR_1} ne se sent pas bien.",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "contresens",
+  "probleme": "Le Pokémon se tourne dans l’autre sens. La traduction limite le geste à la tête.",
+  "correction": "Votre Pokémon se tourne ailleurs\\nd’un air de défi.",
+  "justification": "« Turned to face the other way » décrit un changement d’orientation du Pokémon.",
+  "msgid": "Your POKéMON turned to face the\\nother way, showing a defiant face.",
+  "msgstr": "Votre Pokémon détourne la tête\\nd’un air de défi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "contresens",
+  "probleme": "L’expression « à s’en décrocher la mâchoire » évoque l’ampleur du bâillement et la traduction occupe deux lignes.",
+  "correction": "{STR_VAR_1} bâille très fort!",
+  "justification": "« Very loudly » qualifie le bruit du bâillement. La correction tient sur une ligne.",
+  "msgid": "{STR_VAR_1} yawned very loudly!",
+  "msgstr": "{STR_VAR_1} bâille à s’en décrocher\\nla mâchoire!",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "contresens",
+  "probleme": "« Pour le triomphe » s’enchaîne mal avec la suite « face aux difficultés. »",
+  "correction": "RUBAN pour avoir triomphé",
+  "justification": "La forme verbale rétablit le lien avec la suite et reprend la tournure du ruban équivalent dans Pokémon Argent SoulSilver FR, banque 424.",
+  "msgid": "RIBBON awarded for",
+  "msgstr": "RUBAN pour le triomphe",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "terminologie",
+  "probleme": "Le titre contient encore le mot anglais « Talk ».",
+  "correction": "Chronique du Professeur Chen",
+  "justification": "Titre de l’émission dans Pokémon Argent SoulSilver FR, banque radio 414.",
+  "msgid": "OAK's POKéMON Talk",
+  "msgstr": "Pokémon Talk du Prof. Chen",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "terminologie",
+  "probleme": "« Chaîne Chance » remplace le nom français de l’émission.",
+  "correction": "Loterie Pokémon",
+  "justification": "Pokémon Argent SoulSilver FR traduit « Lucky Channel » par « Loterie Pokémon » dans l’annonce de la Tour Radio, banque 65.",
+  "msgid": "Lucky Channel",
+  "msgstr": "Chaîne Chance",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "oubli",
+  "probleme": "« Wild » est resté en anglais.",
+  "correction": "Des Pokémon sauvages de la région",
+  "justification": "« Sauvages » traduit « Wild » et conserve la référence à la région de Hoenn.",
+  "msgid": "Wild POKéMON from that region",
+  "msgstr": "Wild Pokémon de cette région",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "oubli",
+  "probleme": "La proximité indiquée par « nearby » a disparu.",
+  "correction": "pourraient apparaître tout près!",
+  "justification": "« Tout près » restitue la proximité et le pluriel s’accorde avec les Pokémon de la ligne précédente.",
+  "msgid": "may appear nearby!",
+  "msgstr": "pourrait apparaître!",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "terminologie",
+  "probleme": "Le nom de l’animatrice et le titre de son émission diffèrent de la version française officielle.",
+  "correction": "LULA: Chronique du Prof. Chen!",
+  "justification": "Pokémon Argent SoulSilver FR nomme l’animatrice Lula et l’émission « Chronique du Professeur Chen », banque radio 414. « Prof. » respecte la convention du projet.",
+  "msgid": "MARY: PROF.OAK's POKéMON TALK!",
+  "msgstr": "MARIE: BLABLA Pokémon du Prof. CHEN!",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "terminologie",
+  "probleme": "L’animatrice se présente sous le mauvais nom et « me » est omis.",
+  "correction": "Avec moi, Lula!",
+  "justification": "Formule de présentation de Lula dans Pokémon Argent SoulSilver FR, banque radio 414.",
+  "msgid": "With me, MARY!",
+  "msgstr": "Avec MARIE!",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "terminologie",
+  "probleme": "Le nom affiché pour l’animatrice est incorrect.",
+  "correction": "LULA: ",
+  "justification": "Pokémon Argent SoulSilver FR nomme l’animatrice Lula, banque radio 414.",
+  "msgid": "MARY: ",
+  "msgstr": "MARIE: ",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "terminologie",
+  "probleme": "« Chaîne Pokémon » remplace le nom officiel de la station.",
+  "correction": "Antenne Pokémon",
+  "justification": "Pokémon Argent SoulSilver FR emploie « Antenne Pokémon » dans le jingle correspondant, banque radio 414.",
+  "msgid": "POKéMON Channel",
+  "msgstr": "Chaîne Pokémon",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "oubli",
+  "probleme": "Le qualificatif « sweet » est omis.",
+  "correction": "doux et adorablement",
+  "justification": "« Doux » rétablit le premier qualificatif et « adorablement » introduit l’adjectif ajouté par le jeu.",
+  "msgid": "sweet and adorably",
+  "msgstr": "adorablement",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "oubli",
+  "probleme": "L’adverbe « slickly » disparaît.",
+  "correction": "gigotant et avec aisance",
+  "justification": "« Avec aisance » restitue la manière exprimée par « slickly ».",
+  "msgid": "wiggly and slickly",
+  "msgstr": "gigotant et",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "oubli",
+  "probleme": "La nuance d’atténuation de « kind of » disparaît.",
+  "correction": "assurément un peu",
+  "justification": "« Un peu » conserve l’atténuation de l’adjectif qui suit.",
+  "msgid": "undeniably kind of",
+  "msgstr": "assurément",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "contresens",
+  "probleme": "« Follement » exprime l’intensité et perd l’idée que le Pokémon captive.",
+  "correction": "vraiment prenant et",
+  "justification": "« Prenant » restitue l’idée d’accroche associée à « addictively ».",
+  "msgid": "sure addictively",
+  "msgstr": "follement",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "contresens",
+  "probleme": "Le futur transforme une supposition en affirmation.",
+  "correction": "son évolution doit être",
+  "justification": "« Doit être » conserve la valeur de supposition de « must be ».",
+  "msgid": "evolution must be",
+  "msgstr": "son évolution sera",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "oubli",
+  "probleme": "La triple répétition expressive disparaît.",
+  "correction": "chaud, chaud, chaud!",
+  "justification": "La répétition restitue l’insistance de la réplique et tient sur une ligne.",
+  "msgid": "hot, hot, hot!",
+  "msgstr": "brûlant!",
+  "msgctxt": ""
+ }
+]

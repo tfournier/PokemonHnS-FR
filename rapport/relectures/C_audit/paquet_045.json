@@ -1,0 +1,512 @@
+[
+ {
+  "id": 0,
+  "categorie": "terminologie",
+  "probleme": "« LIEN PC » s’écarte du nom français officiel de l’objet.",
+  "correction": "BOITE {PKMN}",
+  "justification": "L’objet s’appelle « Boîte Pokémon » dans Pokémon Épée et Bouclier FR. La correction conserve le code {PKMN}. [Fiche de l’objet](https://www.pokepedia.fr/Bo%C3%AEte_Pok%C3%A9mon)",
+  "msgid": "{PKMN} BOX LINK",
+  "msgstr": "LIEN PC {PKMN}",
+  "msgctxt": ""
+ },
+ {
+  "id": 1,
+  "categorie": "orthographe",
+  "probleme": "Il manque la préposition devant {PKMN}.",
+  "correction": "Cet appareil donne\\naccès au système\\nde stockage de {PKMN}.",
+  "justification": "Le complément « de {PKMN} » précise ce que le système stocke.",
+  "msgid": "This device grants\\naccess to the {PKMN}\\nStorage System.",
+  "msgstr": "Cet appareil donne\\naccès au système\\nde stockage {PKMN}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "oubli",
+  "probleme": "La sonorité douce disparaît et « n’importe quel » ajoute une portée absente de l’anglais.",
+  "correction": "Une flûte au son doux\\nqui réveille\\nles Pokémon.",
+  "justification": "« Sweet-sounding » décrit le son de la flûte.",
+  "msgid": "A sweet-sounding\\nflute that awakens\\nPokémon.",
+  "msgstr": "Une flûte pouvant\\nréveiller n’importe\\nquel Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "oubli",
+  "probleme": "La description omet le téléviseur.",
+  "correction": "Une télé qui diffuse\\nun programme de conseils\\npour les Dresseurs.",
+  "justification": "L’objet est le poste de télévision réglé sur le programme.",
+  "msgid": "A TV set tuned to\\nan advice program\\nfor Trainers.",
+  "msgstr": "Un programme qui\\ndonne des conseils\\naux Dresseurs.",
+  "msgctxt": ""
+ },
+ {
+  "id": 11,
+  "categorie": "terminologie",
+  "probleme": "Le lieu porte un autre nom dans SoulSilver.",
+  "correction": "La clé qui permet\\nd’ouvrir une porte\\ndu Doublon-Tunnel.",
+  "justification": "Pokémon Argent SoulSilver FR nomme ce lieu « Doublon-Tunnel ». [Fiche du lieu](https://www.pokepedia.fr/Doublon-Tunnel)",
+  "msgid": "The key for the\\nGOLDENROD\\nUNDERGROUND.",
+  "msgstr": "La clé du\\nSOUTERRAIN de\\nDOUBLONVILLE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "contresens",
+  "probleme": "Le dentier perdu devient une seule dent, et la perte disparaît.",
+  "correction": "Le dentier en or\\nperdu par le gardien\\ndu Parc Safari.",
+  "justification": "« Dentures » désigne ici le dentier que le gardien a perdu.",
+  "msgid": "Gold dentures lost\\nby the Safari\\nZone's Warden.",
+  "msgstr": "Une dent en or\\ndu gardien du\\nParc Safari.",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "contresens",
+  "probleme": "« Les portes » étend l’usage de la carte à plusieurs portes.",
+  "correction": "Une carte-clé qui\\nouvre une porte de\\nla Tour Radio.",
+  "justification": "La carte sert à ouvrir un seul accès dans la Tour Radio.",
+  "msgid": "A card-type door\\nkey used in RADIO\\nTOWER.",
+  "msgstr": "Une carte-clé qui\\nouvre les portes de\\nla Tour Radio.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "codes",
+  "probleme": "Le code {PKMN} a été ajouté dans la traduction.",
+  "correction": "Un appareil de la\\nSYLPHE pour voir\\nles Pokémon invisibles.",
+  "justification": "La source écrit le nom « POKéMON » en toutes lettres.",
+  "msgid": "Silph Co's scope\\nmakes unseeable\\nPOKéMON visible.",
+  "msgstr": "Un appareil de la\\nSYLPHE pour voir\\nles {PKMN} invisibles.",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "oubli",
+  "probleme": "La description omet les ferries.",
+  "correction": "Un passe pour les ferries\\nqui relient les\\nIles 1, 2 et 3.",
+  "justification": "Le passe sert à prendre les ferries qui relient les trois îles.",
+  "msgid": "A pass for ferries\\nbetween One, Two,\\nand Three Island.",
+  "msgstr": "Un passe pour\\naccéder aux\\nIles 1, 2 et 3.",
+  "msgctxt": ""
+ },
+ {
+  "id": 36,
+  "categorie": "contresens",
+  "probleme": "L’effet sur la puissance et le contact des capacités est imprécis.",
+  "correction": "Renforce les attaques\\ncoups de poing et leur\\névite tout contact.",
+  "justification": "L’objet augmente la puissance des capacités coups de poing et supprime le contact avec la cible.",
+  "msgid": "Powers up punching\\nmoves and removes\\ntheir contact.",
+  "msgstr": "Booste les coups\\nde poing et annule\\nleur contact.",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "oubli",
+  "probleme": "La traduction omet l’origine des effets secondaires.",
+  "correction": "Protège le porteur\\ndes effets secondaires\\ndes capacités.",
+  "justification": "« Of moves » limite la protection aux effets secondaires des capacités.",
+  "msgid": "Protects holder\\nfrom additional\\neffects of moves.",
+  "msgstr": "Protège le porteur\\ndes effets\\nsecondaires.",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "contresens",
+  "probleme": "« Nombre de coups multiples » ne précise pas que chaque capacité touche davantage de fois.",
+  "correction": "Donne des chiffres élevés.\\nLes attaques à coups\\nmultiples touchent plus.",
+  "justification": "Le dé augmente le nombre de touches au sein d’une même attaque à coups multiples.",
+  "msgid": "Rolls high numbers.\\nMultihit strikes\\nhit more times.",
+  "msgstr": "Fait de gros scores.\\nAugmente le nombre\\nde coups multiples.",
+  "msgctxt": ""
+ },
+ {
+  "id": 42,
+  "categorie": "terminologie",
+  "probleme": "Il manque « de la » dans le nom de l’objet.",
+  "correction": "ARMURE DE LA FORTUNE",
+  "justification": "Pokémon Écarlate FR emploie « Armure de la Fortune ». [Fiche de l’objet](https://www.pokepedia.fr/Armure_de_la_Fortune)",
+  "msgid": "AUSPICIOUS ARMOR",
+  "msgstr": "Armure Fortune",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "contresens",
+  "probleme": "La description ne dit pas que l’énergie renforce le Pokémon.",
+  "correction": "Energie en capsule\\nqui renforce les Pokémon\\nau talent approprié.",
+  "justification": "Le talent approprié est la condition du renforcement du porteur.",
+  "msgid": "Encapsuled energy\\nups Pokémon with\\ncertain Abilities.",
+  "msgstr": "Energie encapsulée\\nqui active certains\\ntalents.",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "oubli",
+  "probleme": "La mention de la revente a disparu.",
+  "correction": "Grosse pousse de\\nbambou rare, à vendre\\nde préférence aux gourmets.",
+  "justification": "« Best sold to gourmands » indique à qui il vaut mieux vendre la pousse.",
+  "msgid": "A large and rare\\nbamboo shoot. Best\\nsold to gourmands.",
+  "msgstr": "Grosse pousse de\\nbambou rare, prisée\\ndes gourmets.",
+  "msgctxt": ""
+ },
+ {
+  "id": 50,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’espèce est en casse mixte.",
+  "correction": "Drôles de pièces\\nque les MORDUDOR\\namassent avec soin.",
+  "justification": "La convention du projet impose les capitales pour les noms d’espèces.",
+  "msgid": "Gimmighoul hoard\\nand treasure these\\ncurious coins.",
+  "msgstr": "Drôles de pièces\\nque les Mordudor\\namassent avec soin.",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’espèce est en casse mixte.",
+  "correction": "Eclat d’une vieille\\nlame que portent\\ncertains SCALPROIE.",
+  "justification": "La convention du projet impose les capitales pour les noms d’espèces.",
+  "msgid": "A shard of an old\\nblade of some sort.\\nHeld by Bisharp.",
+  "msgstr": "Eclat d’une vieille\\nlame que portent\\ncertains Scalproie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 53,
+  "categorie": "terminologie",
+  "probleme": "Il manque « de la » dans le nom de l’objet.",
+  "correction": "ARMURE DE LA RANCUNE",
+  "justification": "Pokémon Violet FR emploie « Armure de la Rancune ». [Fiche de l’objet](https://www.pokepedia.fr/Armure_de_la_Rancune)",
+  "msgid": "MALICIOUS ARMOR",
+  "msgstr": "Armure Rancune",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "terminologie",
+  "probleme": "Il manque « des » dans le nom de l’objet.",
+  "correction": "ROULEAU DES TENEBRES",
+  "justification": "Pokémon Écarlate et Violet FR emploient « Rouleau des Ténèbres ». [Fiche de l’objet](https://www.pokepedia.fr/Rouleau_des_T%C3%A9n%C3%A8bres)",
+  "msgid": "SCROLL OF DARKNESS",
+  "msgstr": "Rouleau Ténèbres",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "oubli",
+  "probleme": "La notion de charges d’énergie disparaît, et « Téracristallisation » est coupé.",
+  "correction": "Ses charges d’énergie\\npermettent la\\nTéracristallisation.",
+  "justification": "« Energy charges » désigne les charges utilisées pour déclencher la Téracristallisation.",
+  "msgid": "Energy charges can\\nbe used to cause\\nTerastallization.",
+  "msgstr": "Son énergie permet\\nla Téracristalli-\\nsation.",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "oubli",
+  "probleme": "La mention de la revente a disparu.",
+  "correction": "Petite pousse de\\nbambou rare, à vendre\\nde préférence aux gourmets.",
+  "justification": "« Best sold to gourmands » indique à qui il vaut mieux vendre la pousse.",
+  "msgid": "A small and rare\\nbamboo shoot. Best\\nsold to gourmands.",
+  "msgstr": "Petite pousse de\\nbambou rare, prisée\\ndes gourmets.",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT INSECTE",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "BUG TERA SHARD",
+  "msgstr": "TERA-ECLAT Insecte",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT TENEBRES",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales non accentuées.",
+  "msgid": "DARK TERA SHARD",
+  "msgstr": "TERA-ECLAT Ténèbres",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT DRAGON",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "DRAGON TERA SHARD",
+  "msgstr": "TERA-ECLAT Dragon",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT ELECTRIK",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "ELECTRIC TERA SHARD",
+  "msgstr": "TERA-ECLAT Electrik",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT FEE",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales non accentuées.",
+  "msgid": "FAIRY TERA SHARD",
+  "msgstr": "TERA-ECLAT Fée",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT COMBAT",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "FIGHTING TERA SHARD",
+  "msgstr": "TERA-ECLAT Combat",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT FEU",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "FIRE TERA SHARD",
+  "msgstr": "TERA-ECLAT Feu",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT VOL",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "FLYING TERA SHARD",
+  "msgstr": "TERA-ECLAT Vol",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT SPECTRE",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "GHOST TERA SHARD",
+  "msgstr": "TERA-ECLAT Spectre",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT PLANTE",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "GRASS TERA SHARD",
+  "msgstr": "TERA-ECLAT Plante",
+  "msgctxt": ""
+ },
+ {
+  "id": 77,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT SOL",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "GROUND TERA SHARD",
+  "msgstr": "TERA-ECLAT Sol",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT GLACE",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "ICE TERA SHARD",
+  "msgstr": "TERA-ECLAT Glace",
+  "msgctxt": ""
+ },
+ {
+  "id": 79,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT NORMAL",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "NORMAL TERA SHARD",
+  "msgstr": "TERA-ECLAT Normal",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT POISON",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "POISON TERA SHARD",
+  "msgstr": "TERA-ECLAT Poison",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT PSY",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales. « Psy » désigne ici le type.",
+  "msgid": "PSYCHIC TERA SHARD",
+  "msgstr": "TERA-ECLAT Psy",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT ROCHE",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "ROCK TERA SHARD",
+  "msgstr": "TERA-ECLAT Roche",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT ACIER",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "STEEL TERA SHARD",
+  "msgstr": "TERA-ECLAT Acier",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "TERA-ECLAT EAU",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "WATER TERA SHARD",
+  "msgstr": "TERA-ECLAT Eau",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’espèce est en casse mixte.",
+  "correction": "Gros joyau brillant\\nqui change la forme\\nde DIALGA.",
+  "justification": "Le lexique fourni prescrit « DIALGA ».",
+  "msgid": "A large, glowing gem\\nthat lets Dialga\\nchange form.",
+  "msgstr": "Gros joyau brillant\\nqui change la forme\\nde Dialga.",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’espèce est en casse mixte.",
+  "correction": "Gros joyau brillant\\nqui change la forme\\nde GIRATINA.",
+  "justification": "Le lexique fourni prescrit « GIRATINA ».",
+  "msgid": "A large, glowing gem\\nthat lets Giratina\\nchange form.",
+  "msgstr": "Gros joyau brillant\\nqui change la forme\\nde Giratina.",
+  "msgctxt": ""
+ },
+ {
+  "id": 89,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange les casses et laisse « Perle » sans accent en casse de titre.",
+  "correction": "GLOBE PERLE",
+  "justification": "Le nom « Globe Perlé » s’écrit ici entièrement en capitales non accentuées, conformément aux autres Globes. [Fiche de l’objet](https://www.pokepedia.fr/Globe_Perl%C3%A9)",
+  "msgid": "LUSTROUS GLOBE",
+  "msgstr": "GLOBE Perle",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’espèce est en casse mixte.",
+  "correction": "Gros joyau brillant\\nqui change la forme\\nde PALKIA.",
+  "justification": "Le lexique fourni prescrit « PALKIA ».",
+  "msgid": "A large, glowing gem\\nthat lets Palkia\\nchange form.",
+  "msgstr": "Gros joyau brillant\\nqui change la forme\\nde Palkia.",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "terminologie",
+  "probleme": "Le nom traduit diffère du nom français officiel.",
+  "correction": "ADN BERZERK",
+  "justification": "Pokémon Or, Argent et Cristal FR emploient « ADN Berzerk ». [Fiche de l’objet](https://www.pokepedia.fr/ADN_Berzerk)",
+  "msgid": "BERSERK GENE",
+  "msgstr": "GENE BERSERK",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "POMME NECTAR",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "SYRUPY APPLE",
+  "msgstr": "Pomme NECTAR",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "MASQUE DE LA PIERRE",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "CORNERSTONE MASK",
+  "msgstr": "MASQUE DE LA Pierre",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’espèce est en casse mixte.",
+  "correction": "Permet à OGERPON\\nd’utiliser le type\\nRoche au combat.",
+  "justification": "La convention du projet impose les capitales pour les noms d’espèces.",
+  "msgid": "Allows Ogerpon to\\nwield the Rock-\\ntype in battle.",
+  "msgstr": "Permet à Ogerpon\\nd’utiliser le type\\nRoche au combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’espèce est en casse mixte.",
+  "correction": "Permet à OGERPON\\nd’utiliser le type\\nEau au combat.",
+  "justification": "La convention du projet impose les capitales pour les noms d’espèces.",
+  "msgid": "Allows Ogerpon to\\nwield the Water-\\ntype in battle.",
+  "msgstr": "Permet à Ogerpon\\nd’utiliser le type\\nEau au combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 112,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’espèce est en casse mixte.",
+  "correction": "Permet à OGERPON\\nd’utiliser le type\\nFeu au combat.",
+  "justification": "La convention du projet impose les capitales pour les noms d’espèces.",
+  "msgid": "Allows Ogerpon to\\nwield the Fire-\\ntype in battle.",
+  "msgstr": "Permet à Ogerpon\\nd’utiliser le type\\nFeu au combat.",
+  "msgctxt": ""
+ },
+ {
+  "id": 115,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "MOCHI FORCE",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "MUSCLE MOCHI",
+  "msgstr": "MOCHI Force",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "typographie",
+  "probleme": "Le libellé mélange capitales et casse de titre.",
+  "correction": "MOCHI ARMURE",
+  "justification": "Les libellés de menu s’écrivent entièrement en capitales.",
+  "msgid": "RESIST MOCHI",
+  "msgstr": "MOCHI Armure",
+  "msgctxt": ""
+ }
+]

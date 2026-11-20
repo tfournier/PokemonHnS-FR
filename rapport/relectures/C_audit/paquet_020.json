@@ -1,0 +1,422 @@
+[
+ {
+  "id": 2,
+  "categorie": "terminologie",
+  "probleme": "La graphie de Spectre et de Mortimer est incohérente avec celle du projet. La mention des Dresseurs est aussi devenue un « on » impersonnel.",
+  "correction": "Hé, futur Maître! Tu as fait\\npresque la moitié du chemin!\\pLes Dresseurs d’ici utilisent\\ndes Pokémon Spectre et Ténèbres.\\pMortimer maîtrise le type\\nSpectre, mais méfie-toi de son\\lcerf mystique.\\pIl paraît qu’il donne d’étranges\\ncauchemars…",
+  "justification": "L’Arène de Rosalia dans SoulSilver FR emploie « Dresseurs » et « Spectre ». « Mortimer » suit le lexique fourni.",
+  "msgid": "Hey CHAMP! You're almost\\nhalfway there!\\pTrainers here use GHOST and\\nDARK-type POKéMON.\\pWhile MORTY is a GHOST-type\\nexpert, be wary of his mystic\\ldeer.\\pIt's said to cause strange\\nnightmares...",
+  "msgstr": "Hé, futur Maître! Tu as fait\\npresque la moitié du chemin!\\pIci, on utilise des Pokémon\\nSPECTRE et Ténèbres.\\pMORTIMER est un expert du type\\nSPECTRE, mais méfie-toi de son\\lcerf mystique.\\pIl paraît qu’il donne d’étranges\\ncauchemars…",
+  "msgctxt": ""
+ },
+ {
+  "id": 6,
+  "categorie": "terminologie",
+  "probleme": "Zuki est le nom anglais du personnage.",
+  "correction": "Tamao: Va, affronte LUGIA.",
+  "justification": "La Kimono Zuki s’appelle Tamao dans SoulSilver FR.",
+  "msgid": "ZUKI: Go, face LUGIA. ",
+  "msgstr": "ZUKI: Va, affronte LUGIA.",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "terminologie",
+  "probleme": "Naoko est le nom anglais du personnage.",
+  "correction": "Koume: Va, affronte LUGIA.",
+  "justification": "La Kimono Naoko s’appelle Koume dans SoulSilver FR.",
+  "msgid": "NAOKO: Go, face LUGIA. ",
+  "msgstr": "NAOKO: Va, affronte LUGIA.",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "terminologie",
+  "probleme": "Miki est le nom anglais du personnage.",
+  "correction": "Satsuki: Va, affronte LUGIA.",
+  "justification": "La Kimono Miki s’appelle Satsuki dans SoulSilver FR.",
+  "msgid": "MIKI: Go, face LUGIA. ",
+  "msgstr": "MIKI: Va, affronte LUGIA.",
+  "msgctxt": ""
+ },
+ {
+  "id": 9,
+  "categorie": "terminologie",
+  "probleme": "Sayo est le nom anglais du personnage.",
+  "correction": "Sakura: Va, affronte LUGIA.",
+  "justification": "La Kimono Sayo s’appelle Sakura dans SoulSilver FR.",
+  "msgid": "SAYO: Go, face LUGIA. ",
+  "msgstr": "SAYO: Va, affronte LUGIA.",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "terminologie",
+  "probleme": "Kuni est le nom anglais du personnage.",
+  "correction": "Komomo: Va, affronte LUGIA.",
+  "justification": "La Kimono Kuni s’appelle Komomo dans SoulSilver FR.",
+  "msgid": "KUNI: Go, face LUGIA. ",
+  "msgstr": "KUNI: Va, affronte LUGIA.",
+  "msgctxt": ""
+ },
+ {
+  "id": 12,
+  "categorie": "typographie",
+  "probleme": "« POKéMON » mêle capitales et minuscule dans un nom générique.",
+  "correction": "Tu as l’air doué avec les\\nPokémon.\\pSi c’est le cas, tu pourrais\\nme donner des conseils?",
+  "justification": "Le projet écrit « Pokémon » dans les dialogues.",
+  "msgid": "You seem to be good at\\nPOKéMON.\\pIf you are, how about\\ngiving me some advice?",
+  "msgstr": "Tu as l’air doué avec les\\nPOKéMON.\\pSi c’est le cas, tu pourrais\\nme donner des conseils?",
+  "msgctxt": ""
+ },
+ {
+  "id": 14,
+  "categorie": "terminologie",
+  "probleme": "« Ferme Meumeu » remplace le nom officiel du lieu.",
+  "correction": "Je connais un bon plan!\\pLe lait du Ranch Meumeu est\\nréputé pour son goût.",
+  "justification": "Le panneau du lieu dans SoulSilver FR indique « Ranch Meumeu ».",
+  "msgid": "I know something good!\\pMOOMOO FARM's milk is\\nfamous for its flavor.",
+  "msgstr": "Je connais un bon plan!\\pLe lait de la FERME MEUMEU est\\nréputé pour son goût.",
+  "msgctxt": ""
+ },
+ {
+  "id": 18,
+  "categorie": "typographie",
+  "probleme": "Les deux noms de ville suivent des casses différentes sur le même panneau.",
+  "correction": "Route 38\\pOliville - Rosalia",
+  "justification": "Les noms de lieux prennent une majuscule initiale selon la convention du projet.",
+  "msgid": "ROUTE 38\\pOLIVINE CITY - ECRUTEAK CITY",
+  "msgstr": "Route 38\\pOLIVILLE - Rosalia",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "typographie",
+  "probleme": "La signature mélange les capitales et la casse courante.",
+  "correction": "BAIGNADE ET PECHE INTERDITES.\\nEAU RESERVEE AUX CULTURES.\\p- Conseil de Rosalia",
+  "justification": "La signature reprend la graphie « Rosalia » du lexique et adopte une casse cohérente.",
+  "msgid": "NO SWIMMING OR FISHING.\\nWATER FOR FARMING ONLY.\\p-ECRUTEAK COUNCIL",
+  "msgstr": "BAIGNADE ET PECHE INTERDITES.\\nEAU RESERVEE AUX CULTURES.\\p- CONSEIL DE Rosalia",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "contresens",
+  "probleme": "« Souvent » présente les rencontres comme fréquentes.",
+  "correction": "Je t’ai déjà croisé deux fois.\\nTu as attrapé combien de Pokémon?\\pTu veux que je t’explique comment\\nattraper des Pokémon?",
+  "justification": "« A couple times » désigne ici deux rencontres.",
+  "msgid": "I've seen you a couple times.\\nHow many POKéMON have you caught?\\pWould you like me to tell you\\nhow to catch POKéMON?",
+  "msgstr": "Je te croise souvent.\\nTu as attrapé combien de Pokémon?\\pTu veux que je t’explique comment\\nattraper des Pokémon?",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "terminologie",
+  "probleme": "L’Académie Pokémon de Mauville est appelée « ECOLE Pokémon ». La graphie « POKéMON » s’écarte aussi de la convention du projet.",
+  "correction": "Si tu les affaiblis d’abord,\\nles Pokémon sont plus faciles\\là attraper.\\pEnsuite, lance une Ball de ton\\nSac! N’importe laquelle ira.\\pSi tu veux en savoir plus, va à\\nl’Académie Pokémon de Mauville!\\pLes élèves en savent beaucoup\\nsur les Pokémon.",
+  "justification": "SoulSilver FR emploie « Académie Pokémon » pour l’établissement de Mauville.",
+  "msgid": "If you weaken them first,\\nPOKéMON are easier to catch.\\pThen, throw a ball at them from\\nyour bag! Any ball will do.\\pIf you want to learn more,\\ngo to the ACADEMY in VIOLET CITY!\\pThe students there know a lot\\nabout POKéMON.",
+  "msgstr": "Si tu les affaiblis d’abord, les\\nPOKéMON sont plus faciles à attraper.\\pEnsuite, lance-leur une BALL de ton\\nSAC! N’importe laquelle fera l’affaire.\\pSi tu veux en savoir plus, va à\\nl’ECOLE Pokémon de Mauville!\\pLes élèves y savent plein de choses\\nsur les Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 26,
+  "categorie": "terminologie",
+  "probleme": "« ECOLE Pokémon » remplace le nom officiel de l’établissement.",
+  "correction": "Ah. Comme tu veux.\\pExplore chaque route pour trouver\\ndes Pokémon de types différents.\\pTon Pokédex t’indique aussi où les\\ntrouver!\\pSi tu veux en savoir plus, va à\\nl’Académie Pokémon de Mauville!\\pLes élèves y savent plein de choses\\nsur les Pokémon.",
+  "justification": "SoulSilver FR emploie « Académie Pokémon » pour l’établissement de Mauville.",
+  "msgid": "Oh. Fine, then.\\pCheck every route to find\\ndifferent types of POKéMON.\\pYour POKéDEX shows where you can\\nfind them too!\\pIf you want to learn more,\\ngo to the ACADEMY in VIOLET CITY!\\pThe students know a lot about\\nPOKéMON.",
+  "msgstr": "Ah. Comme tu veux.\\pExplore chaque route pour trouver\\ndes Pokémon de types différents.\\pTon Pokédex t’indique aussi où les\\ntrouver!\\pSi tu veux en savoir plus, va à\\nl’ECOLE Pokémon de Mauville!\\pLes élèves y savent plein de choses\\nsur les Pokémon.",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "terminologie",
+  "probleme": "Tuscany est le nom anglais de Marie.",
+  "correction": "Marie: Il me semble bien que\\nc’est notre première rencontre.\\pJe suis Marie, de la fratrie\\ndes jours de la semaine.\\pSi tu devines mon jour préféré,\\nje t’offrirai une récompense.",
+  "justification": "Dans SoulSilver FR, le personnage du mardi se présente sous le nom de Marie.",
+  "msgid": "TUSCANY: I do believe that this\\nis the first time we've met?\\pI'm TUSCANY of the WEEKDAY FAMILY.\\pIf you can guess my favorite day,\\nI'll give you a reward.",
+  "msgstr": "TUSCANY: Il me semble bien que\\nnous ne nous sommes jamais vus?\\pJe suis TUSCANY, de la fratrie\\ndes JOURS de la SEMAINE.\\pSi tu devines mon jour préféré,\\nje t’offrirai une récompense.",
+  "msgctxt": ""
+ },
+ {
+  "id": 31,
+  "categorie": "terminologie",
+  "probleme": "Tuscany est le nom anglais de Marie.",
+  "correction": "Marie: N’est-il pas tout\\nbonnement adorable?\\pIl renforce les capacités\\nde type Normal.\\pJe suis sûre qu’il te sera utile.",
+  "justification": "Dans SoulSilver FR, le personnage du mardi s’appelle Marie.",
+  "msgid": "TUSCANY: Wouldn't you agree\\nthat it is most adorable?\\pIt strengthens NORMAL-type\\nmoves.\\pI am certain it will be of use.",
+  "msgstr": "TUSCANY: N’est-il pas tout\\nbonnement adorable?\\pIl renforce les capacités\\nde type Normal.\\pJe suis certaine qu’il te sera utile.",
+  "msgctxt": ""
+ },
+ {
+  "id": 32,
+  "categorie": "terminologie",
+  "probleme": "Les trois prénoms de la fratrie sont restés en anglais.",
+  "correction": "Marie: As-tu rencontré Lucie,\\nma grande sœur?\\pOu mon petit frère, Homer?\\pJe suis la troisième de sept\\nenfants.",
+  "justification": "SoulSilver FR nomme les trois personnages Marie, Lucie et Homer. Le rang de Marie reste celui indiqué dans le texte du hack.",
+  "msgid": "TUSCANY: Have you met MONICA,\\nmy older sister?\\pOr my younger brother, WESLEY?\\pI am the third of seven\\nchildren.",
+  "msgstr": "TUSCANY: As-tu rencontré MONICA,\\nma grande sœur?\\pOu mon petit frère, WESLEY?\\pJe suis la troisième de sept\\nenfants.",
+  "msgctxt": ""
+ },
+ {
+  "id": 34,
+  "categorie": "codes",
+  "probleme": "Le premier {PLAYER} manque. Le texte dit aussi « toutes les pages » et remplace les progrès du joueur par le dressage de ses Pokémon.",
+  "correction": "BRICE: Au fait, {PLAYER}, j’ai\\ncroisé M. MARCO au BOIS CLEMENTI.\\pIl rentrait sûrement chez lui,\\ndans sa petite maison près de la mer.\\p{PLAYER}, ça avance ton Pokédex?\\nT’as déjà rempli des pages?\\pLe mien est super!\\pOn se bat pour voir\\nsi tu as progressé?",
+  "justification": "Les deux occurrences de {PLAYER} sont rétablies. BRICE demande si le joueur a déjà rempli des pages et propose un combat pour mesurer ses progrès.",
+  "msgid": "BRENDAN: By the way, {PLAYER}, I walked\\nby MR. BRINEY in PETALBURG WOODS.\\pI bet he was on his way home to his\\ncottage by the sea.\\p{PLAYER}, how's your POKéDEX?\\nHave you filled in any pages yet?\\pMine rules.\\pWant to have a battle to test how\\nfar you've progressed?",
+  "msgstr": "BRICE: Au fait, j’ai vu M. MARCO\\nau BOIS CLEMENTI.\\pJe suis sûr qu’il rentrait chez lui, dans \\nsa petite maison près de la mer.\\p{PLAYER}, ça avance ton Pokédex?\\nT’as rempli toutes les pages?\\pLe mien est super!\\pT’as dressé tes Pokémon?\\nOn se bat pour vérifier?",
+  "msgctxt": ""
+ },
+ {
+  "id": 35,
+  "categorie": "codes",
+  "probleme": "Le second {PLAYER} et le nom du président Rochard ont été omis.",
+  "correction": "Et voilà, {PLAYER}!\\pJ’ai ajouté le Match Phone\\nà ton PokéNav.\\pCette fonction te permet de\\nparler à tes contacts\\lenregistrés dans le PokéNav.\\p{PLAYER}, notre président\\lROCHARD doit déjà y figurer.\\pEssaie pour voir.\\nAppelle notre président.",
+  "justification": "La correction rétablit la seconde occurrence de {PLAYER} et identifie le président ROCHARD, nom français de M. Stone dans Émeraude FR.",
+  "msgid": "There you go, {PLAYER}!\\pI added a new feature named\\nMATCH CALL to your POKéNAV.\\pUsing the MATCH CALL feature,\\nyou can chat with people who have\\lbeen registered in your POKéNAV.\\p{PLAYER}, our PRESIDENT STONE should\\nbe registered in your POKéNAV.\\pTest it out.\\nPlease give our PRESIDENT a call.",
+  "msgstr": "Et voilà, {PLAYER}!\\pJ’ai ajouté la fonction MATCH PHONE\\nà ton PokéNav.\\pEn utilisant cette fonction, tu peux\\ntchater avec les personnes qui sont\\lenregistrées dans ton PokéNav.\\pNotre PRESIDENT doit déjà y être\\nenregistré.\\pEssaie-le pour voir. Appelle notre\\nPRESIDENT.",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "typographie",
+  "probleme": "Le nom du Train Magnétique apparaît entièrement en capitales dans le dialogue.",
+  "correction": "Vous avez bien votre Passe Train\\npour le Train Magnétique?",
+  "justification": "Le nom figure sous la forme « Train Magnétique » dans SoulSilver FR. « Passe Train » suit le lexique du projet.",
+  "msgid": "You brought the MAGNET TRAIN PASS,\\nright?",
+  "msgstr": "Vous avez bien votre Passe Train\\npour le TRAIN MAGNETIQUE?",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "registre",
+  "probleme": "L’employé de la gare passe au tutoiement après avoir vouvoyé le joueur.",
+  "correction": "Je croyais que vous l’aviez!",
+  "justification": "Le vouvoiement concorde avec la réplique précédente et le registre du personnel d’accueil.",
+  "msgid": "I thought you had it!",
+  "msgstr": "Je croyais que tu l’avais!",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "terminologie",
+  "probleme": "« Marché des Dresseurs » remplace le nom officiel du rayon.",
+  "correction": "Objets de premier choix pour les\\nDresseurs!\\p1ER: Marché du Dresseur",
+  "justification": "Le panneau du Centre Commercial de Céladopole indique « Marché du Dresseur » au premier étage dans SoulSilver FR.",
+  "msgid": "Top Grade Items for Trainers!\\p2F: TRAINER'S MARKET",
+  "msgstr": "Objets de premier choix pour les\\nDRESSEURS!\\p1ER: MARCHE DES Dresseurs",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "orthographe",
+  "probleme": "« On prend un avant-goût » emploie le mauvais verbe.",
+  "correction": "Je pense m’installer à Alola\\navec mon fils, Elio.\\pOn en a un avant-goût ici,\\nsur les îles!",
+  "justification": "La locution française est « avoir un avant-goût de ». Le pronom « en » renvoie à la vie à Alola.",
+  "msgid": "I'm thinking of moving to the ALOLA\\nregion with my son, ELIO.\\pWe're just getting a little taste here\\non the ISLES!",
+  "msgstr": "Je pense m’installer en ALOLA\\navec mon fils, ELIO.\\pOn prend un avant-goût ici,\\nsur les ILES!",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu mêle « MONT » en capitales et « Dresseurs » en casse courante.",
+  "correction": "J’étais si fort au Mont Dresseurs…",
+  "justification": "Le lieu s’appelle « Mont Dresseurs » dans Émeraude FR.",
+  "msgid": "I was tough at the TRAINER HILL…",
+  "msgstr": "J’étais si fort au MONT Dresseurs…",
+  "msgctxt": ""
+ },
+ {
+  "id": 58,
+  "categorie": "typographie",
+  "probleme": "Le nom du lieu mêle « MONT » en capitales et « Dresseurs » en casse courante.",
+  "correction": "Tu es déjà allé au Mont Dresseurs?\\pLà-bas, je ne perds jamais, mais…",
+  "justification": "Le lieu s’appelle « Mont Dresseurs » dans Émeraude FR.",
+  "msgid": "Have you been to the TRAINER HILL?\\pI never, ever lose there, but…",
+  "msgstr": "Tu es déjà allé au MONT Dresseurs?\\pLà-bas, je ne perds jamais, mais…",
+  "msgctxt": ""
+ },
+ {
+  "id": 59,
+  "categorie": "typographie",
+  "probleme": "« Plus LOIN » mélange les casses dans un même groupe de mots.",
+  "correction": "Route 45\\nRoute de montagne plus loin",
+  "justification": "Une majuscule initiale suffit pour le second libellé du panneau.",
+  "msgid": "ROUTE 45\\nMOUNTAIN RD. AHEAD",
+  "msgstr": "Route 45\\nROUTE DE MONTAGNE Plus LOIN",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "terminologie",
+  "probleme": "« Potion Secrète » diffère du nom de l’objet dans SoulSilver FR.",
+  "correction": "{PLAYER} reçoit la Potionsecret.",
+  "justification": "L’objet remis par le pharmacien d’Irisia s’appelle « Potionsecret » dans SoulSilver FR.",
+  "msgid": "{PLAYER} received SECRET POTION.",
+  "msgstr": "{PLAYER} reçoit la Potion Secrète.",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "terminologie",
+  "probleme": "« ADMIN » remplace le titre officiel de Lance.",
+  "correction": "Lance: Une petite seconde!\\pC’est toi qui nous as gênés\\nau Puits RAMOLOSS, pas vrai?\\pJe vois… Tu fais tout ça pour\\nme mettre en colère.\\lFais bien attention!\\pMais puisque tu y tiens, je vais te\\nmontrer toute la fureur d’un\\lCommandant de la Team Rocket!",
+  "justification": "SoulSilver FR appelle le personnage « Commandant Lance ». « Commandant » figure aussi dans le lexique fourni.",
+  "msgid": "PROTON: Now wait just one second!\\pAren't you the one who got in our\\nway at SLOWPOKE WELL?\\pI see... You're doing all this\\nbecause you want to make me angry.\\lBe careful!\\pBut since you seem to wish it, I'll\\nshow you the full extent of a TEAM\\lROCKET EXECUTIVE's wrath!",
+  "msgstr": "LANCE: Une petite seconde!\\pTu ne serais pas celui qui nous a\\ngênés au Puits RAMOLOSS?\\pJe vois… Tu fais tout ça pour\\nme mettre en colère.\\lFais bien attention!\\pMais puisque tu y tiens, je vais te\\nmontrer toute la fureur d’un\\lADMIN de la Team Rocket!",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "terminologie",
+  "probleme": "La coanimatrice de la Tour Radio est appelée Marie.",
+  "correction": "Lula: C’est idéal pour esquiver\\nles attaques ennemies.",
+  "justification": "Mary s’appelle Lula dans les dialogues de la Tour Radio de SoulSilver FR.",
+  "msgid": "MARY: It's good for dodging the\\nenemy's attacks.",
+  "msgstr": "MARIE: C’est idéal pour esquiver\\nles attaques ennemies.",
+  "msgctxt": ""
+ },
+ {
+  "id": 74,
+  "categorie": "contresens",
+  "probleme": "« L’entraîner dans l’oubli » évoque l’effacement du souvenir, alors que le vélo semble vouloir précipiter le garçon dans le vide.",
+  "correction": "Il était une fois un petit garçon\\nà qui l’on offrit une nouvelle\\lBicyclette…\\pIl voulut l’essayer aussitôt…\\pIl s’amusait tant qu’il ne vit pas\\nle soleil se coucher…\\pAlors qu’il rentrait dans la nuit\\nnoire, le vélo ralentit soudain!\\pLes pédales devinrent lourdes!\\pQuand il cessa de pédaler, le\\nvélo se mit à reculer!\\pComme si le vélo était maudit et\\nvoulait le précipiter\\ldans le vide!\\p…\\p…\\pAAAAAAAAH!\\pLe garçon roulait en montée sur\\nla Piste Cyclable!\\p…\\nBa-doum ba-doum!\\pPour ta patience, je t’offre\\nceci… la CT82!",
+  "justification": "Le contexte donne à « oblivion » le sens imagé d’une disparition dans le vide.",
+  "msgid": "Once upon a time, there was a\\nlittle boy who was given a new\\lBICYCLE…\\pHe wanted to try it right away…\\pHe was having so much fun that\\nhe didn't notice the sun had set…\\pWhile riding home in the pitch-\\nblack night, the bike suddenly\\lslowed!\\pThe pedals became heavy!\\pWhen he stopped pedaling, the\\nbike began slipping backwards!\\pIt was as if the bike were cursed\\nand trying to drag him into\\loblivion!\\p…\\p…\\pSHRIEEEEK!\\pThe boy had been riding uphill on\\nCYCLING ROAD!\\p…\\nBa-dum ba-dum!\\pFor listening so patiently, you\\nmay take this--TM82!",
+  "msgstr": "Il était une fois un petit garçon\\nà qui l’on offrit une nouvelle\\lBICYCLETTE…\\pIl voulait l’essayer tout de suite…\\pIl s’amusait tant qu’il ne vit pas\\nle soleil se coucher…\\pAlors qu’il rentrait dans la nuit\\nnoire, le vélo ralentit soudain!\\pLes pédales devinrent lourdes!\\pQuand il cessa de pédaler, le\\nvélo se mit à reculer!\\pComme si le vélo était maudit et\\nvoulait l’entraîner dans\\ll’oubli!\\p…\\p…\\pAAAAAAAAH!\\pLe garçon roulait en montée sur\\nla PISTE CYCLABLE!\\p…\\nBa-doum ba-doum!\\pPour ta patience, je t’offre\\nceci… la CT82!",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "oubli",
+  "probleme": "Le remerciement omet que le joueur a fait le trajet pour montrer CELEBI à son interlocuteur.",
+  "correction": "C’est lui! Un vrai CELEBI en chair\\net en os!!\\pMerci de me l’avoir amené\\njusqu’ici, dans le Grand Nord!\\pTiens, ma copine en a attrapé\\nun peu trop pendant son voyage\\ldans une région lointaine…\\pPrends cet AXOLOTO spécial\\nen remerciement, {PLAYER}.",
+  "justification": "« Me l’avoir amené » rétablit le destinataire exprimé par « for me to see ».",
+  "msgid": "That's it! That's a real living CELEBI!!\\pThank you show much for bringing it\\nall the way up north for me to see.\\pHere, my girlfriend happened to\\ncatch a few too many of these during\\lher trip to a far away region..\\pPlease take this special WOOPER as\\nthanks, {PLAYER}.",
+  "msgstr": "C’est lui! Un vrai CELEBI en chair\\net en os!!\\pMerci mille fois de l’avoir amené\\njusqu’ici, dans le grand nord!\\pTiens, ma copine en a attrapé\\nun peu trop pendant son voyage\\ldans une région lointaine…\\pPrends cet AXOLOTO spécial\\nen remerciement, {PLAYER}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "typographie",
+  "probleme": "« KANTO » et « DRESSEUR » apparaissent en capitales dans le dialogue.",
+  "correction": "CHEN: Ouah! C’est excellent!\\pTu as réuni les Badges des Arènes\\nde Kanto. Bien joué!\\pJe ne m’étais pas trompé sur\\nton compte.\\pEcoute, {PLAYER}. Je vais faire le\\nnécessaire pour que tu puisses\\laller au Mont Argenté.\\pLe Mont Argenté est une grande\\nmontagne peuplée de Pokémon\\lsauvages.\\pC’est trop dangereux pour un\\nDresseur ordinaire, alors l’accès\\lest interdit. Mais on peut faire\\lune exception pour toi, {PLAYER}.\\pVa au Plateau Indigo. De là, tu\\npourras atteindre le Mont Argenté.",
+  "justification": "La correction applique les graphies « Kanto » et « Dresseur » dans le corps de la réplique.",
+  "msgid": "OAK: Wow! That's excellent!\\pYou collected the BADGES of GYMS\\nin KANTO. Well done!\\pI was right in my assessment of\\nyou.\\pTell you what, {PLAYER}. I'll make\\narrangements so that you can go\\lto MT.SILVER.\\pMT.SILVER is a big mountain that\\nis home to many wild POKéMON.\\pIt's too dangerous for your average\\ntrainer, so it's off limits. But\\lwe can make an exception in your\\lcase, {PLAYER}.\\pGo up to INDIGO PLATEAU. You can\\nreach MT.SILVER from there.",
+  "msgstr": "CHEN: Ouah! C’est excellent!\\pTu as réuni les Badges des Arènes\\nde KANTO. Bien joué!\\pJe ne m’étais pas trompé sur\\nton compte.\\pEcoute, {PLAYER}. Je vais faire le\\nnécessaire pour que tu puisses\\laller au Mont Argenté.\\pLe Mont Argenté est une grande\\nmontagne peuplée de Pokémon\\lsauvages.\\pC’est trop dangereux pour un\\nDRESSEUR ordinaire, alors l’accès\\lest interdit. Mais on peut faire\\lune exception pour toi, {PLAYER}.\\pVa au Plateau Indigo. De là, tu\\npourras atteindre le Mont Argenté.",
+  "msgctxt": ""
+ },
+ {
+  "id": 93,
+  "categorie": "typographie",
+  "probleme": "« KANTO », « PETER » et « CONSEIL 4 » sont entièrement en capitales dans le dialogue.",
+  "correction": "Ah, et à propos du Plateau Indigo:\\nmaintenant que tu as gagné\\l16 Badges, la Ligue de Kanto\\lest prête à accepter de nouveau\\lton défi.\\pMais attention: Peter et son\\nConseil 4 ne te feront pas de\\lcadeau, cette fois.\\pBonne chance, {PLAYER}!",
+  "justification": "Les noms propres et le titre « Conseil 4 » reprennent leur graphie courante dans SoulSilver FR.",
+  "msgid": "Oh, and speaking of the INDIGO\\nPLATEAU, now that you've earned\\l16 badges, the KANTO LEAGUE\\lwill be ready to accept\\lyour challenge once again.\\pBut be warned, LANCE and his\\nELITE FOUR won't go easy on you\\lthis time.\\pGood luck, {PLAYER}!",
+  "msgstr": "Ah, et à propos du Plateau Indigo:\\nmaintenant que tu as gagné\\l16 Badges, la Ligue de KANTO\\lest prête à accepter de nouveau\\lton défi.\\pMais attention: PETER et son\\nCONSEIL 4 ne te feront pas de\\lcadeau, cette fois.\\pBonne chance, {PLAYER}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "typographie",
+  "probleme": "« BADGES D’ARENE DE KANTO » reprend les capitales du texte anglais.",
+  "correction": "CHEN: Ah, tu collectionnes les\\nBadges d’Arène de Kanto.\\pCe n’est sûrement pas facile, mais\\ncette expérience te servira.\\pReviens me voir quand tu les auras\\ntous.\\pJ’aurai un cadeau pour toi.\\pContinue tes efforts, {PLAYER}!",
+  "justification": "« Badges » suit le lexique fourni et les majuscules sont limitées aux initiales dans le corps du dialogue.",
+  "msgid": "OAK: Ah, you're collecting KANTO\\nGYM BADGES.\\pI imagine that it's hard, but the\\nexperience is sure to help you.\\pCome see me when you get them all.\\pI'll have a gift for you.\\pKeep trying hard, {PLAYER}!",
+  "msgstr": "CHEN: Ah, tu collectionnes les\\nBADGES D’ARENE DE KANTO.\\pCe n’est sûrement pas facile, mais\\ncette expérience te servira.\\pReviens me voir quand tu les auras\\ntous.\\pJ’aurai un cadeau pour toi.\\pContinue tes efforts, {PLAYER}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "terminologie",
+  "probleme": "Le nom de l’émission reste partiellement en anglais.",
+  "correction": "La Chronique Pokémon du Prof. Chen\\nn’est pas diffusée ici, à Kanto.\\pDommage… J’aimerais l’écouter.",
+  "justification": "Le dialogue du laboratoire dans SoulSilver FR nomme l’émission « Chronique Pokémon du Professeur Chen ». « Prof. Chen » suit le lexique du projet.",
+  "msgid": "The PROF's POKéMON TALK radio\\nprogram isn't aired here in KANTO.\\pIt's a shame--I'd like to hear it.",
+  "msgstr": "L’émission Pokémon TALK du Prof.\\nn’est pas diffusée ici, à KANTO.\\pDommage… J’aimerais l’écouter.",
+  "msgctxt": ""
+ },
+ {
+  "id": 97,
+  "categorie": "terminologie",
+  "probleme": "« POKéMON TALK » conserve le titre anglais de l’émission.",
+  "correction": "Ne le répète à personne, mais la\\nChronique Pokémon du Prof. Chen\\ln’est pas en direct.",
+  "justification": "Le dialogue du laboratoire dans SoulSilver FR emploie « Chronique Pokémon du Professeur ». « Prof. Chen » suit le lexique fourni.",
+  "msgid": "Don't tell anyone, but PROF.OAK'S\\nPOKéMON TALK isn't a live broadcast.",
+  "msgstr": "Ne le répète à personne, mais le\\nPOKéMON TALK du Prof. CHEN\\ln’est pas en direct.",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "terminologie",
+  "probleme": "« PROF. CHEN » s’écarte de la graphie fixée dans le lexique.",
+  "correction": "Il y a un e-mail sur le PC.\\p…\\pProf. Chen, comment avancent\\nvos recherches?\\pDe mon côté, je persévère.\\pOn dit que {PLAYER} se fait\\nune sacrée réputation.\\pJ’en suis ravi.\\pOrme, de Bourg Geon 8-)",
+  "justification": "Le lexique du projet prescrit « Prof. Chen ».",
+  "msgid": "There's an e-mail message on the PC.\\p…\\pPROF.OAK, how is your research\\ncoming along?\\pI'm still plugging away.\\pI heard rumors that {PLAYER} is\\ngetting quite a reputation.\\pI'm delighted to hear that.\\pELM in NEW BARK TOWN 8-)",
+  "msgstr": "Il y a un e-mail sur le PC.\\p…\\pPROF. CHEN, comment avancent\\nvos recherches?\\pDe mon côté, je persévère.\\pOn dit que {PLAYER} se fait\\nune sacrée réputation.\\pJ’en suis ravi.\\pORME, de Bourg Geon 8-)",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "terminologie",
+  "probleme": "« BOURG GEON » s’écarte de la graphie donnée dans le lexique.",
+  "correction": "Tu viens d’où, déjà?\\pBourg Geon?\\pLe Prof. Orme habite là-bas,\\nnon?\\pTu viens de loin!",
+  "justification": "Le lexique du projet prescrit « Bourg Geon » dans les dialogues.",
+  "msgid": "Where did you say you're from?\\pNEW BARK TOWN?\\pPROF.ELM lives over there,\\nright?\\pYou've come a long way to get\\nhere.",
+  "msgstr": "Tu viens d’où, déjà?\\pBOURG GEON?\\pLe Prof. Orme habite là-bas,\\nnon?\\pTu viens de loin!",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "typographie",
+  "probleme": "« DOJO » reste entièrement en capitales dans le dialogue.",
+  "correction": "Pierre: Etre entouré de rochers\\ndans un petit espace, ça apaise,\\lpas vrai?\\pSi tu veux un autre match, je\\nserai au Dojo.",
+  "justification": "Le lieu est nommé « Dojo » dans SoulSilver FR.",
+  "msgid": "BROCK: Small spaces surrounded by\\nrocks make you feel peaceful,\\ldon't you agree?\\pIf you want another match, I'll be\\nat the FIGHTING DOJO.",
+  "msgstr": "Pierre: Etre entouré de rochers\\ndans un petit espace, ça apaise,\\lpas vrai?\\pSi tu veux un autre match, je\\nserai au DOJO.",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "contresens",
+  "probleme": "« Tous les Pokémon sur le terrain » transforme « both battlers » en affirmation portant sur tous les Pokémon présents.",
+  "correction": "La CT37, c’est Tempêtesable.\\pElle inflige des dégâts\\naux deux Pokémon au combat.\\pElle est réservée aux experts.\\pUtilise-la si tu l’oses.\\nBonne chance!",
+  "justification": "L’anglais parle des deux Pokémon qui s’affrontent.",
+  "msgid": "TM37 happens to be SANDSTORM.\\pIt's a move that inflicts damage\\non both battlers.\\pIt's for advanced trainers only.\\pUse it if you dare. Good luck!",
+  "msgstr": "La CT37, c’est Tempêtesable.\\pElle blesse tous les Pokémon\\nsur le terrain.\\pElle est réservée aux experts.\\pUtilise-la si tu l’oses.\\nBonne chance!",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "typographie",
+  "probleme": "La traduction occupe deux lignes alors que l’entrée doit tenir sur une seule.",
+  "correction": "Je vais te donner une leçon!",
+  "justification": "La réplique tient sur une ligne et garde la promesse de donner une leçon au joueur.",
+  "msgid": "I'll school you this time!",
+  "msgstr": "Cette fois, c’est moi qui te fais\\nla leçon!",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "oubli",
+  "probleme": "La matière qui motive la sortie scolaire a disparu.",
+  "correction": "En cours d’éducation civique, on\\nvisite la Tour Radio de Lavanville.",
+  "justification": "Le texte anglais rattache la visite aux sciences sociales. « Education civique » rend ce contexte scolaire de façon concise.",
+  "msgid": "We're on a field trip to LAVENDER\\nRADIO TOWER for social studies.",
+  "msgstr": "On est en sortie scolaire à la\\nTOUR Radio de Lavanville!",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "oubli",
+  "probleme": "Le domaine dans lequel le personnage a besoin d’expérience n’est plus précisé.",
+  "correction": "Les livres, ça ne fait pas tout.\\nIl me faut du vécu en combat!",
+  "justification": "« Battle experience » désigne l’expérience acquise en combat.",
+  "msgid": "Book smarts aren't everything.\\nI need battle experience too!",
+  "msgstr": "Les livres, ça ne fait pas tout.\\nIl me faut aussi de l’expérience!",
+  "msgctxt": ""
+ }
+]

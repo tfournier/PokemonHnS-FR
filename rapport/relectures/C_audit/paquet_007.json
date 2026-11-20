@@ -1,0 +1,392 @@
+[
+ {
+  "id": 2,
+  "categorie": "typographie",
+  "probleme": "« Capitaine » prend une majuscule alors qu’il désigne ici une fonction.",
+  "correction": "Oh, zut…\\pLe capitaine va être furieux…",
+  "justification": "Le nom commun « capitaine » s’écrit en minuscule dans cet emploi.",
+  "msgid": "Oh, gee…\\pThe CAPTAIN will be furious…",
+  "msgstr": "Oh, zut…\\pLe Capitaine va être furieux…",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "typographie",
+  "probleme": "« CAPITAINE » est traité comme un libellé alors qu’il désigne une fonction.",
+  "correction": "La salle à manger est droit devant.\\pL’escalier du fond mène à la\\ncabine du capitaine.",
+  "justification": "Le nom commun « capitaine » s’écrit en minuscule dans cet emploi.",
+  "msgid": "The dining room is up ahead.\\pThe stairs at the end lead to\\nthe CAPTAIN's cabin.",
+  "msgstr": "La salle à manger est droit devant.\\pL’escalier du fond mène à la\\ncabine du CAPITAINE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 10,
+  "categorie": "contresens",
+  "probleme": "« Tu seras surpris » exprime une certitude et « ne vivent pas » remplace l’idée d’origine.",
+  "correction": "{PLAYER} allume le PC.\\p…\\pQuelqu’un était en train\\nd’écrire un e-mail.\\p…J’espère que tu viendras à KANTO.\\pJe crois que tu seras surpris\\lpar tous les changements ici.\\pTu verras aussi plein de Pokémon\\lqui ne sont pas natifs de JOHTO.\\pAu PRODUCTEUR\\p…",
+  "justification": "« I think » nuance la prédiction et « aren't native to » concerne l’origine des Pokémon.",
+  "msgid": "{PLAYER} turned on the PC.\\p…\\pSomeone was in the middle of\\ncomposing an e-mail.\\p…I hope you'll come visit KANTO.\\pI think you'll be surprised at\\nhow much things have changed here.\\pYou'll also see many POKéMON that\\naren't native to JOHTO.\\pTo the PRODUCER\\p…",
+  "msgstr": "{PLAYER} allume le PC.\\p…\\pQuelqu’un était en train\\nd’écrire un e-mail.\\p…J’espère que tu viendras à KANTO.\\pTu seras surpris de voir comme\\nles choses ont changé ici.\\pTu verras aussi plein de Pokémon\\nqui ne vivent pas à JOHTO.\\pAu PRODUCTEUR\\p…",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "typographie",
+  "probleme": "« Plus » rompt la graphie du titre cité.",
+  "correction": "J’adore les DEMAKES!\\pTu as joué à SWORD AND SHIELD\\nULTIMATE PLUS - ENGLISH?\\lC’est moi qui l’ai traduit!\\pPour mon prochain DEMAKE, je\\ncrois que je ferai ALOLA!",
+  "justification": "« PLUS » fait partie du titre anglais et désigne ici le nom du jeu.",
+  "msgid": "I love DEMAKES!\\pHave you played SWORD AND SHIELD\\nULTIMATE PLUS - ENGLISH?\\lI translated it!\\pFor my next DEMAKE, I think I'll\\ndo ALOLA!",
+  "msgstr": "J’adore les DEMAKES!\\pTu as joué à SWORD AND SHIELD\\nULTIMATE Plus - ENGLISH?\\lC’est moi qui l’ai traduit!\\pPour mon prochain DEMAKE, je\\ncrois que je ferai ALOLA!",
+  "msgctxt": ""
+ },
+ {
+  "id": 16,
+  "categorie": "contresens",
+  "probleme": "« Ajouter tes idées » ne dit pas que le joueur peut ajouter des fonctionnalités au jeu.",
+  "correction": "J’ai codé les sprites de surf\\nuniques pour chaque Pokémon!\\pComme le projet est OPEN SOURCE,\\ntu peux ajouter des fonctions!",
+  "justification": "« Add your own features » désigne des fonctions que le joueur peut intégrer au projet.",
+  "msgid": "I implemented the unique surfing\\nsurfing sprites for each POKéMON!\\pSince the project is OPEN SOURCE,\\nyou can add your own features too!",
+  "msgstr": "J’ai codé les sprites de surf\\nuniques pour chaque Pokémon!\\pComme le projet est OPEN SOURCE,\\ntu peux ajouter tes idées aussi!",
+  "msgctxt": ""
+ },
+ {
+  "id": 20,
+  "categorie": "contresens",
+  "probleme": "« En moins de dix minutes » exclut une arrivée à dix minutes pile.",
+  "correction": "Chaque fois qu’on atteint le\\nsommet, on gagne de l’argent.\\pOn peut, paraît-il, gagner jusqu’à\\n1 000 000¥ en dix minutes maxi!\\pMais si on met plus de temps, la\\nrécompense diminue…",
+  "justification": "« Within ten minutes » fixe un maximum de dix minutes.",
+  "msgid": "Every time you reach the top,\\nyou earn some money.\\pI heard you can win up to 1.000.000¥\\nif you finish within ten minutes!\\pBut if it takes longer, the reward\\nwill be reduced…",
+  "msgstr": "Chaque fois qu’on atteint le\\nsommet, on gagne de l’argent.\\pIl paraît qu’on peut gagner jusqu’à\\n1 000 000¥ en moins de dix minutes!\\pMais si on met plus de temps, la\\nrécompense diminue…",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "contresens",
+  "probleme": "La traduction fait descendre le personnage de la montagne à cheval.",
+  "correction": "Elle contournera le Mont Argenté\\nquand elle viendra…\\pLe Mont Argenté, c’est à JOHTO,\\nnon?",
+  "justification": "« Coming 'round » évoque le contournement de la montagne. Le vers cité ne mentionne aucun cheval.",
+  "msgid": "She'll be coming 'round MT.SILVER\\nwhen she comes…\\pMT.SILVER is in JOHTO, right?",
+  "msgstr": "Elle descend du Mont Argenté\\nà cheval…\\pLe Mont Argenté, c’est à JOHTO,\\nnon?",
+  "msgctxt": ""
+ },
+ {
+  "id": 28,
+  "categorie": "oubli",
+  "probleme": "Le dialogue perd l’idée que la stratégie et la puissance ont progressé.",
+  "correction": "CLEMENT: Ah, te revoilà.\\pJ’avais prévu cette rencontre.\\pMes Pokémon Psy et moi avons\\névolué et mis au point de\\lnouvelles tactiques.\\pPrépare-toi: nous serons plus\\nrusés et plus puissants!\\pVoyons si ta clairvoyance\\négale la mienne.",
+  "justification": "« Enhanced » annonce une progression sur les deux plans pour le prochain combat.",
+  "msgid": "WILL: Ah, welcome back.\\pI have foreseen this encounter.\\pMy psychic POKéMON and\\nI have evolved, developing\\lnew tactics.\\pPrepare yourself for a battle of\\nenhanced strategy and might.\\pLet us see if your foresight\\nmatches mine.",
+  "msgstr": "CLEMENT: Ah, te revoilà.\\pJ’avais prévu cette rencontre.\\pMes Pokémon Psy et moi avons\\névolué et mis au point de\\lnouvelles tactiques.\\pPrépare-toi à un combat de\\nstratégie et de puissance.\\pVoyons si ta clairvoyance\\négale la mienne.",
+  "msgctxt": ""
+ },
+ {
+  "id": 40,
+  "categorie": "registre",
+  "probleme": "« Petit » introduit une familiarité incohérente avec le vouvoiement du personnel au poste de contrôle.",
+  "correction": "Veuillez m’excuser. Passage fermé\\ntant que personne ne s’occupe de\\lce Pokémon LEGENDAIRE…",
+  "justification": "Le vouvoiement harmonise cette réplique de contrôle avec les autres.",
+  "msgid": "Sorry kid, this way is closed until\\nsomeone deals with that LEGENDARY\\lPOKéMON...",
+  "msgstr": "Désolé, petit, le passage est fermé\\ntant que personne ne s’occupe de\\lce Pokémon LEGENDAIRE…",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "typographie",
+  "probleme": "La préposition « d’ » prend une majuscule après le saut de ligne.",
+  "correction": "Vous n’avez pas tous les Badges\\nd’Arène de JOHTO.\\pDésolé, mais je ne peux pas vous\\nlaisser passer.",
+  "justification": "Le saut de ligne se trouve à l’intérieur du groupe nominal « Badges d’Arène ».",
+  "msgid": "You don't have all the GYM BADGES\\nof JOHTO.\\pI'm sorry, but I can't let you go\\nthrough.",
+  "msgstr": "Vous n’avez pas tous les Badges\\nD’Arène de JOHTO.\\pDésolé, mais je ne peux pas vous\\nlaisser passer.",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "terminologie",
+  "probleme": "« ECOLE » et « ACADEMIE » désignent le même établissement à Mauville.",
+  "correction": "Hé, tu es Dresseur de Pokémon?\\pA l’Académie, tu pourrais\\napprendre quelque chose de neuf!",
+  "justification": "Le panneau de l’établissement dans ce lot emploie « ACADEMIE POKéMON » pour « POKéMON ACADEMY ».",
+  "msgid": "Hey, you're a POKéMON trainer?\\pIf you head to the ACADEMY,\\nyou might learn something new!",
+  "msgstr": "Hé, tu es Dresseur de Pokémon?\\pSi tu vas à l’ECOLE, tu pourrais\\napprendre quelque chose de nouveau!",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "oubli",
+  "probleme": "« La Voie des Pokémon » perd l’invitation du panneau.",
+  "correction": "Tour CHETIFLOR\\pDécouvre la Voie des Pokémon",
+  "justification": "L’impératif « Experience » invite le joueur à découvrir cette voie.",
+  "msgid": "SPROUT TOWER\\pExperience the Way of POKéMON",
+  "msgstr": "Tour CHETIFLOR\\pLa Voie des Pokémon",
+  "msgctxt": ""
+ },
+ {
+  "id": 61,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette ajoute « ROCHARD » au nom de Pierre.",
+  "correction": "PIERRE: Hm?",
+  "justification": "Le lexique donne « Pierre » pour Steven, en capitales pour les noms de Hoenn selon la convention Émeraude FR du projet.",
+  "msgid": "STEVEN: Hm?",
+  "msgstr": "Pierre ROCHARD: Hm?",
+  "msgctxt": ""
+ },
+ {
+  "id": 62,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette emploie le nom complet de Pierre et plusieurs lignes dépassent le budget indicatif.",
+  "correction": "PIERRE: {PLAYER}!\\pJe reconnaîtrais tes yeux partout.\\pQue fais-tu si loin au nord?\\p…\\pLes KIMONOS de NOUVEAU SINJOH\\nt’envoient nous aider\\ldans notre enquête, je vois.\\pDans ce cas, laisse-moi te mettre\\nau courant.",
+  "justification": "Le lexique donne « Pierre » pour Steven. La convention Émeraude FR du projet impose les capitales aux noms de Hoenn.",
+  "msgid": "STEVEN: {PLAYER}!\\pI'd recognize those eyes anywhere.\\pWhat brings you this far north?\\p.............\\pI see, the KIMONO GIRLS of NEW SINJOH\\nhave sent you to aid our\\linvestigation.\\pIn that case, allow me to bring you\\nup to speed.",
+  "msgstr": "Pierre ROCHARD: {PLAYER}!\\pJe reconnaîtrais ce regard entre mille.\\pQu’est-ce qui t’amène si loin au nord?\\p…\\pJe vois. Les KIMONOS de NOUVEAU SINJOH\\nt’envoient prêter main-forte\\là notre enquête.\\pDans ce cas, laisse-moi te mettre\\nau courant.",
+  "msgctxt": ""
+ },
+ {
+  "id": 63,
+  "categorie": "terminologie",
+  "probleme": "« Pierre » ne suit pas la casse prévue pour les noms de Hoenn.",
+  "correction": "PIERRE: Quand j’ai entendu parler\\nde ces ruines, j’ai voulu les voir\\lde mes propres yeux.\\pJ’ai réuni une équipe de la SA DEVON\\net nous sommes partis en\\lexpédition scientifique.\\pQui sait ce que nous trouverons\\nenfoui ici?\\pNous avons déjà appris\\nbeaucoup de choses.",
+  "justification": "La convention Émeraude FR du projet impose les capitales aux noms de Hoenn.",
+  "msgid": "STEVEN: When I first heard about\\nthese ruins, I had to come see\\lthem for myself.\\pI assembled a team from DEVON CORP.\\nand we set off on a research\\lexpedition.\\pWho knows what we'll find buried\\nhere.\\pWe've learned quite a lot\\nalready.",
+  "msgstr": "Pierre: Quand j’ai entendu parler\\nde ces ruines, j’ai voulu les voir\\lde mes propres yeux.\\pJ’ai réuni une équipe de la SA DEVON\\net nous sommes partis en\\lexpédition scientifique.\\pQui sait ce que nous trouverons\\nenfoui ici?\\pNous avons déjà appris\\nbeaucoup de choses.",
+  "msgctxt": ""
+ },
+ {
+  "id": 64,
+  "categorie": "terminologie",
+  "probleme": "« dresseurs » prend une minuscule dans ce dialogue.",
+  "correction": "LINGUISTE: Je n’ai pas tout traduit\\ndes glyphes autour des ruines,\\lmais j’ai pu en déchiffrer\\lcertains passages.\\pIl existe 17 PLAQUES singulières.\\pElles ont un lien avec les ruines,\\nmais nous n’en avons trouvé\\lqu’une pour l’instant.\\pLes autres seraient gardées par\\ndes Pokémon et des Dresseurs\\ld’une puissance redoutable.",
+  "justification": "La graphie de SoulSilver FR retenue par le projet est « Dresseur ».",
+  "msgid": "LINGUIST: While the full translation\\nof the glyphs found around the ruins\\lstill eludes me, I've been able\\lto make out some aspects.\\pThere are 17 peculiar PLATES.\\pThey have some significance\\nto the ruins, but we've only\\lfound 1 so far.\\pThe rest are said to be guarded\\nby POKéMON and trainers of\\lawesome power.",
+  "msgstr": "LINGUISTE: Je n’ai pas encore traduit\\ntous les glyphes autour des ruines,\\lmais j’ai pu en déchiffrer\\lcertains passages.\\pIl existe 17 PLAQUES singulières.\\pElles ont un lien avec les ruines,\\nmais nous n’en avons trouvé\\lqu’une pour l’instant.\\pLes autres seraient gardées par\\ndes Pokémon et des dresseurs\\ld’une puissance redoutable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette « Pierre » ne suit pas la casse des noms de Hoenn.",
+  "correction": "PIERRE: Voilà l’histoire, {PLAYER}.\\pLes Pokémon SEIGNEURS qui gardent\\nles autres PLAQUES sont bien trop\\lforts pour mon équipe, hélas.\\pEt je dois rester ici pour\\nsuperviser les recherches.\\pMais toi, tu en es capable.\\nAccepterais-tu de nous aider?",
+  "justification": "La convention Émeraude FR du projet impose les capitales aux noms de Hoenn.",
+  "msgid": "STEVEN: That's the story, {PLAYER}.\\pThe NOBLE POKéMON that guard the\\nremaining PLATES are too strong\\lfor my team, I'm afraid.\\pAnd I need to stay here to oversee\\nthe research.\\pBut I think you could do it.\\nWill you help us?",
+  "msgstr": "Pierre: Voilà l’histoire, {PLAYER}.\\pLes Pokémon SEIGNEURS qui gardent\\nles autres PLAQUES sont bien trop\\lforts pour mon équipe, hélas.\\pEt je dois rester ici pour\\nsuperviser les recherches.\\pMais toi, tu en es capable.\\nAccepterais-tu de nous aider?",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "terminologie",
+  "probleme": "« dresseurs » prend une minuscule dans ce dialogue.",
+  "correction": "Excellent.\\pD’après les glyphes, les PLAQUES\\nsont détenues par des Pokémon\\lSEIGNEURS et de puissants\\lDresseurs à travers SINJOH.\\pJ’appellerai ton Pokématos si nous\\napprenons du nouveau.\\pMerci, {PLAYER}.",
+  "justification": "La graphie de SoulSilver FR retenue par le projet est « Dresseur ».",
+  "msgid": "Excellent.\\pThe glyphs say the PLATES are\\nheld by NOBLE POKéMON and\\lstrong trainers across SINJOH.\\pI'll call your POKéGEAR if we\\nlearn anything new.\\pThank you, {PLAYER}.",
+  "msgstr": "Excellent.\\pD’après les glyphes, les PLAQUES\\nsont détenues par des Pokémon\\lSEIGNEURS et de puissants\\ldresseurs à travers SINJOH.\\pJ’appellerai ton Pokématos si nous\\napprenons du nouveau.\\pMerci, {PLAYER}.",
+  "msgctxt": ""
+ },
+ {
+  "id": 68,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette ajoute « ROCHARD » au nom de Pierre.",
+  "correction": "PIERRE: {PLAYER}!\\pJe crois savoir ce qui va se passer\\nquand nous réunirons les 17\\lPLAQUES.\\pJe sens…\\l…",
+  "justification": "Le lexique donne « Pierre » pour Steven, en capitales selon la convention Émeraude FR du projet.",
+  "msgid": "STEVEN: {PLAYER}!\\pI think I know what's going to\\nhappen we bring together all 17 of\\lthe PLATES.\\pI feel...\\l.....................",
+  "msgstr": "Pierre ROCHARD: {PLAYER}!\\pJe crois savoir ce qui va se passer\\nquand nous réunirons les 17\\lPLAQUES.\\pJe sens…\\l…",
+  "msgctxt": ""
+ },
+ {
+  "id": 69,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette ajoute « ROCHARD » au nom de Pierre.",
+  "correction": "PIERRE: Il faut que je voie ça\\nde mes propres yeux!\\pDehors, {PLAYER}!",
+  "justification": "Le lexique donne « Pierre » pour Steven, en capitales selon la convention Émeraude FR du projet.",
+  "msgid": "STEVEN: I need to see this for\\nmyself!\\pOutside, {PLAYER}!",
+  "msgstr": "Pierre ROCHARD: Il faut que je voie ça\\nde mes propres yeux!\\pDehors, {PLAYER}!",
+  "msgctxt": ""
+ },
+ {
+  "id": 70,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette ajoute « ROCHARD » au nom de Pierre.",
+  "correction": "PIERRE: Ah, {PLAYER}.\\p{STR_VAR_1} PLAQUES pour l’instant.\\nPas mal du tout.\\pJe l’avoue, je suis curieux de voir\\nce qui se passera quand elles\\lseront toutes réunies.\\pBon, voyons ce que tu trouveras.",
+  "justification": "Le lexique donne « Pierre » pour Steven, en capitales selon la convention Émeraude FR du projet.",
+  "msgid": "STEVEN: Ah, {PLAYER}.\\p{STR_VAR_1} PLATES so far.\\nNot bad at all.\\pI have to admit, I'm curious\\nwhat will happen once they're\\lall gathered.\\pWell, let's see what you find.",
+  "msgstr": "Pierre ROCHARD: Ah, {PLAYER}.\\p{STR_VAR_1} PLAQUES pour l’instant.\\nPas mal du tout.\\pJe l’avoue, je suis curieux de voir\\nce qui se passera quand elles\\lseront toutes réunies.\\pBon, voyons ce que tu trouveras.",
+  "msgctxt": ""
+ },
+ {
+  "id": 71,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette ajoute « ROCHARD » au nom de Pierre.",
+  "correction": "PIERRE: Ah, {PLAYER}.\\p{STR_VAR_1} PLAQUES pour l’instant.\\nPas mal du tout.\\pAs-tu exploré cette salle?\\lTout cela est bien mystérieux.",
+  "justification": "Le lexique donne « Pierre » pour Steven, en capitales selon la convention Émeraude FR du projet.",
+  "msgid": "STEVEN: Ah, {PLAYER}.\\p{STR_VAR_1} PLATES so far.\\nNot bad at all.\\pHave you investigated that\\nchamber yet?\\lIt's all quite mysterious.",
+  "msgstr": "Pierre ROCHARD: Ah, {PLAYER}.\\p{STR_VAR_1} PLAQUES pour l’instant.\\nPas mal du tout.\\pAs-tu exploré cette salle?\\lTout cela est bien mystérieux.",
+  "msgctxt": ""
+ },
+ {
+  "id": 72,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette ajoute « ROCHARD » au nom de Pierre.",
+  "correction": "PIERRE: Ah, {PLAYER}.\\p{STR_VAR_1} PLAQUES pour l’instant.\\nTu avances à grands pas.\\pLes salles qui se sont ouvertes\\nressemblent étrangement à une\\lsérie de salles situées\\ldans la région de HOENN.\\pChacune d’elles abritait aussi\\nun Pokémon LEGENDAIRE.\\pMais à HOENN, on n’en a\\ndécouvert que 3.\\pEt ici, il y en a au moins 6.\\pQui sait ce qu’on trouvera ensuite.",
+  "justification": "Le lexique donne « Pierre » pour Steven, en capitales selon la convention Émeraude FR du projet.",
+  "msgid": "STEVEN: Ah, {PLAYER}.\\p{STR_VAR_1} PLATES so far.\\nMaking great progress.\\pThe chambers that have opened\\nup bear a striking similarity\\lto a series of chambers\\lin the HOENN region.\\pEach of those was also home to a\\nlegendary POKéMON.\\pBut in HOENN, only 3 were ever\\ndiscovered.\\pAnd here, there are at least 6.\\pWho knows what we'll find next.",
+  "msgstr": "Pierre ROCHARD: Ah, {PLAYER}.\\p{STR_VAR_1} PLAQUES pour l’instant.\\nTu avances à grands pas.\\pLes salles qui se sont ouvertes\\nressemblent étrangement à une\\lsérie de salles situées\\ldans la région de HOENN.\\pChacune d’elles abritait aussi\\nun Pokémon LEGENDAIRE.\\pMais à HOENN, on n’en a\\ndécouvert que 3.\\pEt ici, il y en a au moins 6.\\pQui sait ce qu’on trouvera ensuite.",
+  "msgctxt": ""
+ },
+ {
+  "id": 73,
+  "categorie": "oubli",
+  "probleme": "« Un jour » remplace l’indication de lieu. L’étiquette ajoute aussi « ROCHARD ».",
+  "correction": "PIERRE: {PLAYER}!\\pCette expédition a été l’expérience\\nd’une vie.\\pDès que j’ai entendu parler de ces\\nruines, j’ai eu un pressentiment.\\pJe pensais qu’on découvrirait\\nquelque chose d’extraordinaire.\\pEt mes prédictions se réalisent\\nsouvent.\\pMerci pour toute ton aide,\\nMaître.\\pOù iras-tu à présent?\\pJ’espère qu’on se reverra ailleurs.",
+  "justification": "« Somewhere » évoque un lieu indéterminé. Le lexique donne « Pierre », en capitales selon la convention Émeraude FR du projet.",
+  "msgid": "STEVEN: {PLAYER}!\\pThis expedition has been the\\nexperience of a lifetime.\\pEver since I heard about these ruins,\\nI had this feeling.\\pI thought we would discover something\\namazing.\\pAnd my predictions usually come true.\\pThank you for all your help,\\nChampion.\\pWhere will you go from here?\\pI hope we can meet again somewhere.",
+  "msgstr": "Pierre ROCHARD: {PLAYER}!\\pCette expédition a été l’expérience\\nd’une vie.\\pDès que j’ai entendu parler de ces\\nruines, j’ai eu un pressentiment.\\pJe pensais qu’on découvrirait\\nquelque chose d’extraordinaire.\\pEt mes prédictions se réalisent\\nsouvent.\\pMerci pour toute ton aide,\\nMaître.\\pOù iras-tu à présent?\\pJ’espère qu’on se reverra un jour.",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "contresens",
+  "probleme": "La dernière phrase parle de regarder vers le haut au lieu d’y orienter le matériel.",
+  "correction": "Pendant tout ce temps, j’ai braqué\\nmon matériel vers le bas pour\\lsonder le sous-sol.\\pJ’aurais dû le braquer\\nvers le haut!",
+  "justification": "Le pronom « it » dans « pointed it up » renvoie au matériel.",
+  "msgid": "All this time I've directed my\\nequipment downward to image\\lthe underground.\\pWhen clearly I should've pointed\\nit up!",
+  "msgstr": "Pendant tout ce temps, j’ai braqué\\nmon matériel vers le bas pour\\lsonder le sous-sol.\\pAlors qu’il fallait de toute évidence\\nregarder vers le haut!",
+  "msgctxt": ""
+ },
+ {
+  "id": 78,
+  "categorie": "terminologie",
+  "probleme": "Le dialogue ajoute « ROCHARD » au nom de Pierre.",
+  "correction": "Imaginez ma surprise quand j’ai\\ntraduit ce glyphe!\\pJ’ai vérifié trois, quatre fois\\navant d’en parler à PIERRE!\\pNon mais vraiment, le Dieu\\ndes Pokémon?\\pC’est incroyable.",
+  "justification": "Le lexique donne « Pierre » pour Steven, en capitales selon la convention Émeraude FR du projet.",
+  "msgid": "Imagine my surprise as I\\ntranslated the glyph!\\pI triple and quadruple checked\\nit before telling STEVEN!\\pI mean, really, the God of\\nPOKéMON?\\pIt's incredible.",
+  "msgstr": "Imaginez ma surprise quand j’ai\\ntraduit ce glyphe!\\pJ’ai vérifié trois, quatre fois\\navant d’en parler à Pierre ROCHARD!\\pNon mais vraiment, le Dieu\\ndes Pokémon?\\pC’est incroyable.",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "contresens",
+  "probleme": "La datation est comparée aux artefacts de Sinnoh eux-mêmes.",
+  "correction": "L’existence d’une civilisation dans\\ncette région bouleverse toute notre\\lcompréhension de l’Histoire.\\pBon nombre des artefacts trouvés\\nont plus de mille ans.\\pLa datation au carbone leur donne\\nle même âge qu’aux objets de SINNOH.\\pPourtant, la flûte que tu as\\ntrouvée semble bien plus vieille.",
+  "justification": "La comparaison porte sur l’âge des objets découverts dans les deux régions.",
+  "msgid": "The existence of a civilization\\nin this area changes our whole\\lunderstanding of history.\\pMany of the artifacts we've found\\nare over a thousand years old.\\pThe carbon dating lines up with\\nartifacts found in the SINNOH region.\\pAlthough, that flute you found...\\nIt seems far older.",
+  "msgstr": "L’existence d’une civilisation dans\\ncette région bouleverse toute notre\\lcompréhension de l’Histoire.\\pBon nombre des artefacts trouvés\\nont plus de mille ans.\\pLa datation au carbone concorde avec\\ndes artefacts de la région de SINNOH.\\pPourtant, cette flûte que tu as\\ntrouvée… Elle semble bien plus vieille.",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "contresens",
+  "probleme": "« Jusqu’à l’antique SINNOH » fait de Sinnoh une limite du territoire.",
+  "correction": "Regarde-moi ce magnifique spécimen!\\pCette espèce de CANINOS ne ressemble\\nà aucune autre au monde.\\pD’après l’analyse ADN, elle partage\\nun ancêtre commun avec les CANINOS\\ld’autres régions.\\pPourtant, son tempérament et son\\ntype sont très différents.\\pLes descriptions de CANINOS dans\\nles archives de l’antique SINNOH\\lsemblent correspondre.\\pPeut-être cette espèce occupait-elle\\njadis un territoire bien plus vaste,\\lqui traversait l’antique SINNOH\\lvers le nord.",
+  "justification": "« Through » indique que le territoire s’étendait à travers Sinnoh.",
+  "msgid": "Look at this wonderful specimen!\\pThis species of GROWLITHE is unlike\\nthose found anywhere else in the\\lworld.\\pDNA analysis reveals that it shares\\na common ancestor with GROWLITHE\\lfound in other regions.\\pYet, its temperament and typing\\ndiffer significantly.\\pDescriptions of GROWLITHE found in\\nancient SINNOH records seem to match.\\pPerhaps this species once occupied\\na much larger territory, stretching\\lnorth through ancient SINNOH.",
+  "msgstr": "Regarde-moi ce magnifique spécimen!\\pCette espèce de CANINOS ne ressemble\\nà aucune autre au monde.\\pD’après l’analyse ADN, elle partage\\nun ancêtre commun avec les CANINOS\\ld’autres régions.\\pPourtant, son tempérament et son\\ntype sont très différents.\\pLes descriptions de CANINOS dans\\nles archives de l’antique SINNOH\\lsemblent correspondre.\\pPeut-être cette espèce occupait-elle\\njadis un territoire bien plus vaste,\\ls’étendant au nord jusqu’à\\ll’antique SINNOH.",
+  "msgctxt": ""
+ },
+ {
+  "id": 94,
+  "categorie": "contresens",
+  "probleme": "« Rien à montrer pour tous nos efforts » traduit littéralement une expression qui signifie que les efforts n’ont rien donné.",
+  "correction": "Journal de recherche 5: 2 juin 1975\\pNous avons réussi à l’ouvrir…\\pJe pensais déborder de joie…\\pMais nous avons perdu des hommes\\nde valeur dans la déflagration\\ld’énergie jaillie du temple.\\pSans parler des Pokémon qui\\nnous avaient aidés à l’ouvrir.\\lPaix à leur âme…\\p…\\pPeu importe.\\pLe temple est ouvert, mais il ne\\nnous laisse que des questions.\\pPas de Pokémon LEGENDAIRE\\nà l’intérieur. Pas de trésor.\\pNos vivres s’épuisent, et tous\\nnos efforts n’ont encore\\lrien donné…",
+  "justification": "« Nothing to show for our efforts » exprime l’absence de résultat.",
+  "msgid": "Research Log 5:  June 2, 1975\\pWe managed to get it open...\\pI thought I'd be overjoyed...\\pBut we lost good men in the blast\\nof energy that sprung from the\\ltemple.\\pNot to mention the POKéMON that\\nhelped us get it open.\\lGod rest their souls...\\p........................\\pRegardless.\\pThe temple is open, but we are\\nonly left with more questions.\\pThere is no legendary POKéMON\\ninside. No treasure.\\pOur supplies are starting to run\\nout and we have nothing to show\\lfor our efforts...",
+  "msgstr": "Journal de recherche 5: 2 juin 1975\\pNous avons réussi à l’ouvrir…\\pJe pensais déborder de joie…\\pMais nous avons perdu des hommes\\nde valeur dans la déflagration\\ld’énergie jaillie du temple.\\pSans parler des Pokémon qui\\nnous avaient aidés à l’ouvrir.\\lPaix à leur âme…\\p…\\pPeu importe.\\pLe temple est ouvert, mais il ne\\nnous laisse que des questions.\\pPas de Pokémon LEGENDAIRE\\nà l’intérieur. Pas de trésor.\\pNos vivres s’épuisent, et nous\\nn’avons rien à montrer\\lpour tous nos efforts…",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "oubli",
+  "probleme": "« Abandonner » perd la mention explicite de la mission.",
+  "correction": "Journal de recherche 6: 10 juin 1975\\pL’expédition est terminée.\\nLes autres plient bagage.\\pMais moi, je ne peux pas.\\pJe ne peux pas laisser tomber\\ncette mission. Pas après tout\\lce que nous avons perdu.\\pJe vais rester ici.",
+  "justification": "Le narrateur refuse d’abandonner la mission elle-même.",
+  "msgid": "Research Log 6:  June 10, 1975\\pThe expedition is done.\\nThe rest of the men are packing up.\\pBut I can't.\\pI can't abandon this mission.\\nNot after what we've lost.\\pI'm going to stay behind.",
+  "msgstr": "Journal de recherche 6: 10 juin 1975\\pL’expédition est terminée.\\nLes autres plient bagage.\\pMais moi, je ne peux pas.\\pJe ne peux pas abandonner.\\nPas après tout ce que nous avons perdu.\\pJe vais rester ici.",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette ajoute « ROCHARD » au nom de Pierre.",
+  "correction": "PIERRE: {PLAYER}.\\pNous venons de sentir une secousse\\naux ruines.\\pTout le monde va bien, rassure-toi.\\pC’est fascinant: l’une des salles\\nsouterraines sous les ruines\\ls’est ouverte d’un coup.\\pLes inscriptions à l’intérieur\\nme rappellent quelque chose\\lde HOENN.\\pTu devrais venir jeter un œil\\nquand tu pourras.",
+  "justification": "Le lexique donne « Pierre » pour Steven, en capitales selon la convention Émeraude FR du projet.",
+  "msgid": "STEVEN: {PLAYER}.\\pWe felt a tremor at the ruins\\njust now.\\pEveryone's fine, don't worry.\\pIt's quite intriguing, one of the\\nsubterranean chambers beneath the\\lruins has sprung open.\\pThe markings inside remind\\nme of something from HOENN.\\pYou should come take a look\\nwhen you can.",
+  "msgstr": "Pierre ROCHARD: {PLAYER}.\\pNous venons de sentir une secousse\\naux ruines.\\pTout le monde va bien, rassure-toi.\\pC’est fascinant: l’une des salles\\nsouterraines sous les ruines\\ls’est ouverte d’un coup.\\pLes inscriptions à l’intérieur\\nme rappellent quelque chose de HOENN.\\pTu devrais venir jeter un œil\\nquand tu pourras.",
+  "msgctxt": ""
+ },
+ {
+  "id": 104,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette ajoute « ROCHARD » au nom de Pierre.",
+  "correction": "PIERRE: {PLAYER}.\\pComment avancent tes recherches?\\pNous avons eu une autre secousse.\\nUne deuxième salle s’est ouverte,\\lcette fois.\\pJ’ai demandé à notre géologue de\\ngarder ses instruments prêts au\\lcas où ça recommencerait.\\pPlus on creuse… Plus les questions\\ns’accumulent.",
+  "justification": "Le lexique donne « Pierre » pour Steven, en capitales selon la convention Émeraude FR du projet.",
+  "msgid": "STEVEN: {PLAYER}.\\pHow's the search going?\\pWe had another tremor here.\\nA second chamber opened up\\lthis time.\\pI've asked our geologist to keep\\nhis instruments ready in case it\\lhappens again.\\pThe deeper we dig... The more\\nquestions we find.",
+  "msgstr": "Pierre ROCHARD: {PLAYER}.\\pComment avancent tes recherches?\\pNous avons eu une autre secousse.\\nUne deuxième salle s’est ouverte,\\lcette fois.\\pJ’ai demandé à notre géologue de\\ngarder ses instruments prêts au\\lcas où ça recommencerait.\\pPlus on creuse… Plus les questions\\ns’accumulent.",
+  "msgctxt": ""
+ },
+ {
+  "id": 105,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette ajoute « ROCHARD » au nom de Pierre.",
+  "correction": "PIERRE: {PLAYER}.\\pEncore une secousse aux ruines.\\pLes données dressent un tableau\\nintrigant.\\pCe n’était pas du tout un séisme.\\pUne sorte d’énergie s’est accumulée\\nsous terre et a fendu la roche\\lde l’intérieur.\\pQu’est-ce qui pourrait causer ça…\\nSincèrement, je l’ignore.",
+  "justification": "Le lexique donne « Pierre » pour Steven, en capitales selon la convention Émeraude FR du projet.",
+  "msgid": "STEVEN: {PLAYER}.\\pAnother tremor here at the ruins.\\pThe data paints an intriguing\\npicture.\\pIt wasn't an earthquake at all.\\pSome kind of energy built up\\nunderground and cracked the\\lrock open from the inside.\\pWhat could cause that...\\nI honestly don't know.",
+  "msgstr": "Pierre ROCHARD: {PLAYER}.\\pEncore une secousse aux ruines.\\pLes données dressent un tableau\\nintrigant.\\pCe n’était pas du tout un séisme.\\pUne sorte d’énergie s’est accumulée\\nsous terre et a fendu la roche\\lde l’intérieur.\\pQu’est-ce qui pourrait causer ça…\\nSincèrement, je l’ignore.",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette ajoute « ROCHARD » au nom de Pierre.",
+  "correction": "PIERRE: {PLAYER}.\\pEncore une secousse. Une autre\\nsalle s’ouvre.\\pNous n’arrivons toujours pas\\nà comprendre leur rythme.\\pDis-moi, {PLAYER}… Tu n’y serais\\npas pour quelque chose,\\lpar hasard?\\pNon, c’est impossible.",
+  "justification": "Le lexique donne « Pierre » pour Steven, en capitales selon la convention Émeraude FR du projet.",
+  "msgid": "STEVEN: {PLAYER}.\\pAnother tremor. Another chamber\\nopening up.\\pWe still can't figure out the\\npattern behind the timing.\\pSay, {PLAYER}... you're not\\ndoing something to cause all\\lthis, are you?\\pNo, that can't be right.",
+  "msgstr": "Pierre ROCHARD: {PLAYER}.\\pEncore une secousse. Encore une salle\\nqui s’ouvre.\\pNous n’arrivons toujours pas\\nà comprendre leur rythme.\\pDis-moi, {PLAYER}… Tu n’y serais\\npas pour quelque chose,\\lpar hasard?\\pNon, c’est impossible.",
+  "msgctxt": ""
+ },
+ {
+  "id": 107,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette ajoute « ROCHARD » au nom de Pierre.",
+  "correction": "PIERRE: {PLAYER}.\\pTu as trouvé une autre PLAQUE?\\p…\\pBien sûr.\\pLes Pokémon LEGENDAIRES qui\\ndorment dans ces ruines réagissent\\là ta présence, n’est-ce pas?\\pComme s’ils voulaient être trouvés.\\pMes prédictions se réalisent souvent.\\nJ’aurais dû savoir qu’il ne fallait\\lpas douter de toi.",
+  "justification": "Le lexique donne « Pierre » pour Steven, en capitales selon la convention Émeraude FR du projet.",
+  "msgid": "STEVEN: {PLAYER}.\\pDid you just find another PLATE?\\p.................\\pOf course.\\pThe legendary POKéMON lying\\nin these ruins... they're responding\\lto you, aren't they?\\pAs if they want to be found.\\pMy predictions usually come true.\\nI should have known better than\\lto doubt you.",
+  "msgstr": "Pierre ROCHARD: {PLAYER}.\\pTu viens de trouver une autre PLAQUE?\\p…\\pBien sûr.\\pLes Pokémon LEGENDAIRES qui dorment\\ndans ces ruines… Ils réagissent\\là ta présence, n’est-ce pas?\\pComme s’ils voulaient être trouvés.\\pMes prédictions se réalisent souvent.\\nJ’aurais dû savoir qu’il ne fallait\\lpas douter de toi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "terminologie",
+  "probleme": "L’étiquette ajoute « ROCHARD » au nom de Pierre.",
+  "correction": "PIERRE: {PLAYER}.\\pNous y sommes presque. Je le sens.\\p…\\pTu devrais venir voir ça\\nde tes propres yeux.",
+  "justification": "Le lexique donne « Pierre » pour Steven, en capitales selon la convention Émeraude FR du projet.",
+  "msgid": "STEVEN: {PLAYER}.\\pWe're very close now. I can feel it.\\p..................\\pYou should come see this for\\nyourself.",
+  "msgstr": "Pierre ROCHARD: {PLAYER}.\\pNous y sommes presque. Je le sens.\\p…\\pTu devrais venir voir ça\\nde tes propres yeux.",
+  "msgctxt": ""
+ },
+ {
+  "id": 109,
+  "categorie": "oubli",
+  "probleme": "La présentation de Baoba omet sa fonction au Parc Safari.",
+  "correction": "Baoba: {PLAYER}!\\pC’est Baoba, le directeur.\\pJe t’appelle pour te dire que le\\nParc Safari s’est agrandi!\\pViens donc y faire un tour!",
+  "justification": "« Warden Baoba » identifie Baoba par sa fonction. Le lexique donne « Parc Safari ».",
+  "msgid": "WARDEN BAOBA: {PLAYER}!\\pThis is WARDEN BAOBA.\\pI'm calling to tell you that\\nthe SAFARI ZONE has expanded!\\pPlease come visit!",
+  "msgstr": "Baoba: {PLAYER}!\\pC’est Baoba à l’appareil.\\pJe t’appelle pour te dire que le\\nPARC SAFARI s’est agrandi!\\pViens donc y faire un tour!",
+  "msgctxt": ""
+ },
+ {
+  "id": 112,
+  "categorie": "contresens",
+  "probleme": "« Maîtres dragons » peut désigner des dragons qui sont eux-mêmes maîtres.",
+  "correction": "Tous les maîtres des dragons\\nviennent d’Ebènelle.",
+  "justification": "« Dragon masters » désigne des personnes qui maîtrisent les dragons.",
+  "msgid": "Dragon masters all come from the city\\nof BLACKTHORN.",
+  "msgstr": "Tous les maîtres dragons viennent\\nd’Ebènelle.",
+  "msgctxt": ""
+ },
+ {
+  "id": 114,
+  "categorie": "contresens",
+  "probleme": "« Ça booste le type Spectre » attribue l’effet au type dans son ensemble.",
+  "correction": "SANTOS: …\\pUne Rune Sort…\\pÇa renforce les capacités Spectre…\\pTu vas avoir peur…",
+  "justification": "« Ghost-type moves » désigne les capacités de type Spectre.",
+  "msgid": "SANTOS: …\\pSPELL TAG…\\pGHOST-type moves get stronger…\\pIt will frighten you…",
+  "msgstr": "SANTOS: …\\pUne Rune Sort…\\pÇa booste le type Spectre…\\pTu vas avoir peur…",
+  "msgctxt": ""
+ }
+]

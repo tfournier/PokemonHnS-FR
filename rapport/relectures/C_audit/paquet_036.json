@@ -1,0 +1,372 @@
+[
+ {
+  "id": 2,
+  "categorie": "oubli",
+  "probleme": "L’origine marine de la proie disparaît.",
+  "correction": "Crache sa prise de mer si touché.",
+  "justification": "« From sea » précise d’où vient la prise recrachée.",
+  "msgid": "If hit, spits prey from sea.",
+  "msgstr": "Crache une proie si touché.",
+  "msgctxt": ""
+ },
+ {
+  "id": 5,
+  "categorie": "oubli",
+  "probleme": "La mention d’un coup reçu disparaît.",
+  "correction": "Coup Feu/Eau reçu: Vitesse +.",
+  "justification": "« Hits » indique que le Pokémon doit être touché par une capacité de type Feu ou Eau.",
+  "msgid": "Fire or Water hits up Speed.",
+  "msgstr": "Feu/Eau monte sa VITESSE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "contresens",
+  "probleme": "« Renforce » n’a pas de complément et « son » peut désigner un bruit quelconque.",
+  "correction": "Dope et réduit les dégâts sonores.",
+  "justification": "Le talent renforce les capacités sonores utilisées et réduit les dégâts des capacités sonores reçues.",
+  "msgid": "Ups and resists sound.",
+  "msgstr": "Renforce et résiste au son.",
+  "msgctxt": ""
+ },
+ {
+  "id": 15,
+  "categorie": "oubli",
+  "probleme": "La reformation du glaçon est indiquée, mais son effet protecteur disparaît.",
+  "correction": "Grêle/neige: pare un nouveau coup.",
+  "justification": "« Renew free hit » indique que la météo permet au Pokémon d’encaisser un nouveau coup sans dégâts.",
+  "msgid": "Hail or Snow renew free hit.",
+  "msgstr": "Grêle/neige: glaçon refait.",
+  "msgctxt": ""
+ },
+ {
+  "id": 22,
+  "categorie": "typographie",
+  "probleme": "Le nom du talent n’est pas entièrement en capitales comme les libellés voisins.",
+  "correction": "BOOST ACIER",
+  "justification": "La correction harmonise la casse du libellé.",
+  "msgid": "STEELY SPIRIT",
+  "msgstr": "Boost Acier",
+  "msgctxt": ""
+ },
+ {
+  "id": 23,
+  "categorie": "contresens",
+  "probleme": "« L’Acier allié » peut désigner un Pokémon allié de type Acier.",
+  "correction": "Dope les coups Acier alliés.",
+  "justification": "Le bonus porte sur les capacités de type Acier de l’allié.",
+  "msgid": "Boosts ally's Steel moves.",
+  "msgstr": "Renforce l’Acier allié.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "oubli",
+  "probleme": "Le texte ne précise pas que l’ennemi est mis K.O.",
+  "correction": "Si touché: ennemi K.O. en 3 tours.",
+  "justification": "« Foe » désigne explicitement l’ennemi.",
+  "msgid": "Foe faints in 3 turns if hit.",
+  "msgstr": "Si touché: K.O. en 3 tours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 27,
+  "categorie": "orthographe",
+  "probleme": "Le complément « talent » est au singulier sans déterminant.",
+  "correction": "Echange les talents au contact.",
+  "justification": "L’échange porte sur les talents des deux Pokémon.",
+  "msgid": "Trade abilities on contact.",
+  "msgstr": "Echange talent au contact.",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "contresens",
+  "probleme": "« Bloque attaque » suggère que la capacité ne peut plus être utilisée.",
+  "correction": "AT +, impose le même coup.",
+  "justification": "« Locks move » indique que le Pokémon doit continuer à utiliser la même capacité. « AT » suit l’abréviation du projet.",
+  "msgid": "Ups Attack and locks move.",
+  "msgstr": "Monte ATT., bloque attaque.",
+  "msgctxt": ""
+ },
+ {
+  "id": 39,
+  "categorie": "orthographe",
+  "probleme": "La phrase traite « contact » comme le sujet et omet le déterminant de « protections ».",
+  "correction": "Au contact, ignore les protections.",
+  "justification": "Le complément « au contact » indique dans quelles conditions le Pokémon passe outre les protections.",
+  "msgid": "Contact evades protection.",
+  "msgstr": "Contact passe protections.",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "contresens",
+  "probleme": "« Effets stats alliés » ne désigne pas clairement les variations de stats.",
+  "correction": "Annule les modifs de stats alliées.",
+  "justification": "« Stat changes » désigne les hausses et les baisses de stats déjà appliquées aux alliés.",
+  "msgid": "Remove ally's stat changes.",
+  "msgstr": "Annule effets stats alliés.",
+  "msgctxt": ""
+ },
+ {
+  "id": 43,
+  "categorie": "contresens",
+  "probleme": "Le texte attribue le bonus au type Electrik lui-même.",
+  "correction": "Renforce les coups Electrik.",
+  "justification": "« Electric-type moves » désigne les capacités de type Electrik.",
+  "msgid": "Ups Electric-type moves.",
+  "msgstr": "Renforce le type Electrik.",
+  "msgctxt": ""
+ },
+ {
+  "id": 44,
+  "categorie": "typographie",
+  "probleme": "Le mot « Dragon » rompt la casse du libellé.",
+  "correction": "DENT DE DRAGON",
+  "justification": "Le nom du talent est uniformisé en capitales.",
+  "msgid": "DRAGON'S MAW",
+  "msgstr": "DENT DE Dragon",
+  "msgctxt": ""
+ },
+ {
+  "id": 46,
+  "categorie": "typographie",
+  "probleme": "Le mot « Blanche » rompt la casse du libellé.",
+  "correction": "BLANCHE RUADE",
+  "justification": "Le nom du talent est uniformisé en capitales.",
+  "msgid": "CHILLING NEIGH",
+  "msgstr": "Blanche RUADE",
+  "msgctxt": ""
+ },
+ {
+  "id": 49,
+  "categorie": "terminologie",
+  "probleme": "« ATQ. SPE. » ne suit pas l’abréviation du projet.",
+  "correction": "Monte l’AS après un K.O.",
+  "justification": "Le lexique du projet prescrit « AS » pour l’Attaque Spéciale.",
+  "msgid": "KOs boost Sp. Atk stat.",
+  "msgstr": "Monte ATQ. SPE. après K.O.",
+  "msgctxt": ""
+ },
+ {
+  "id": 55,
+  "categorie": "typographie",
+  "probleme": "Il manque la majuscule à « Herbu » dans le nom de l’effet de terrain.",
+  "correction": "Champ Herbu si touché.",
+  "justification": "Le nom de la capacité qui instaure ce terrain s’écrit « Champ Herbu » dans Pokémon Écarlate et Pokémon Violet.",
+  "msgid": "Affects terrain when hit.",
+  "msgstr": "Champ herbu si touché.",
+  "msgctxt": ""
+ },
+ {
+  "id": 57,
+  "categorie": "oubli",
+  "probleme": "La mention d’un coup reçu est absente.",
+  "correction": "Coup Feu reçu: Attaque +.",
+  "justification": "« Fire hits » précise que le Pokémon doit être touché par une capacité de type Feu.",
+  "msgid": "Fire hits up Attack.",
+  "msgstr": "Feu monte son ATTAQUE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 65,
+  "categorie": "oubli",
+  "probleme": "Le texte ne précise pas que le Pokémon doit être touché.",
+  "correction": "Touché par le vent: Attaque +.",
+  "justification": "« If hit by wind » indique la condition de déclenchement du bonus.",
+  "msgid": "Ups Attack if hit by wind.",
+  "msgstr": "Le vent monte son ATTAQUE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 75,
+  "categorie": "typographie",
+  "probleme": "Le nom de l’espèce est en casse mixte.",
+  "correction": "Commande depuis OYACATA.",
+  "justification": "Les noms d’espèces s’écrivent entièrement en capitales dans le projet.",
+  "msgid": "Commands from Dondozo.",
+  "msgstr": "Commande depuis Oyacata.",
+  "msgctxt": ""
+ },
+ {
+  "id": 80,
+  "categorie": "typographie",
+  "probleme": "Le mot « Charge » rompt la casse du libellé.",
+  "correction": "CHARGE QUANTIQUE",
+  "justification": "Le nom du talent est uniformisé en capitales.",
+  "msgid": "QUARK DRIVE",
+  "msgstr": "Charge QUANTIQUE",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "terminologie",
+  "probleme": "« Electrifié » ne nomme pas l’effet de terrain qui déclenche le talent.",
+  "correction": "Champ Electrifié: stat max +.",
+  "justification": "Le terrain est nommé « Champ Électrifié » dans Pokémon Écarlate et Pokémon Violet. Le projet retire l’accent sur la capitale.",
+  "msgid": "Elec. field ups best stat.",
+  "msgstr": "Electrifié: meilleure stat +.",
+  "msgctxt": ""
+ },
+ {
+  "id": 83,
+  "categorie": "contresens",
+  "probleme": "« Immunisé au statut » suggère une immunité aux altérations de statut.",
+  "correction": "Ignore les capacités de statut.",
+  "justification": "« Status moves » désigne une catégorie de capacités.",
+  "msgid": "Avoids status moves.",
+  "msgstr": "Immunisé au statut.",
+  "msgctxt": ""
+ },
+ {
+  "id": 84,
+  "categorie": "typographie",
+  "probleme": "Le mot « Fléau » rompt la casse du libellé.",
+  "correction": "URNE DU FLEAU",
+  "justification": "Le libellé passe entièrement en capitales sans accents.",
+  "msgid": "VESSEL OF RUIN",
+  "msgstr": "URNE DU Fléau",
+  "msgctxt": ""
+ },
+ {
+  "id": 85,
+  "categorie": "terminologie",
+  "probleme": "« ATQ. SPE. » ne suit pas l’abréviation du projet.",
+  "correction": "Baisse l’AS ennemie.",
+  "justification": "Le lexique du projet prescrit « AS » pour l’Attaque Spéciale.",
+  "msgid": "Lowers foes' sp. damage.",
+  "msgstr": "Baisse ATQ. SPE. ennemie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 86,
+  "categorie": "typographie",
+  "probleme": "Le mot « Fléau » rompt la casse du libellé.",
+  "correction": "EPEE DU FLEAU",
+  "justification": "Le libellé passe entièrement en capitales sans accents.",
+  "msgid": "SWORD OF RUIN",
+  "msgstr": "EPEE DU Fléau",
+  "msgctxt": ""
+ },
+ {
+  "id": 88,
+  "categorie": "typographie",
+  "probleme": "Le mot « Fléau » rompt la casse du libellé.",
+  "correction": "BOIS DU FLEAU",
+  "justification": "Le libellé passe entièrement en capitales sans accents.",
+  "msgid": "TABLETS OF RUIN",
+  "msgstr": "BOIS DU Fléau",
+  "msgctxt": ""
+ },
+ {
+  "id": 90,
+  "categorie": "typographie",
+  "probleme": "Le mot « Fléau » rompt la casse du libellé.",
+  "correction": "PERLES DU FLEAU",
+  "justification": "Le libellé passe entièrement en capitales sans accents.",
+  "msgid": "BEADS OF RUIN",
+  "msgstr": "PERLES DU Fléau",
+  "msgctxt": ""
+ },
+ {
+  "id": 91,
+  "categorie": "terminologie",
+  "probleme": "« DEF. SPE. » ne suit pas l’abréviation du projet.",
+  "correction": "Baisse la DS ennemie.",
+  "justification": "Le lexique du projet prescrit « DS » pour la Défense Spéciale.",
+  "msgid": "Lowers foes' Sp. Defense.",
+  "msgstr": "Baisse DEF. SPE. ennemie.",
+  "msgctxt": ""
+ },
+ {
+  "id": 101,
+  "categorie": "contresens",
+  "probleme": "« Les vaincus » peut désigner les ennemis battus.",
+  "correction": "Tire sa force des alliés K.O.",
+  "justification": "« Fallen » désigne ici les alliés déjà mis K.O.",
+  "msgid": "Inherits fallen's strength.",
+  "msgstr": "Prend la force des vaincus.",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "contresens",
+  "probleme": "Le texte dit que le Pokémon copie les valeurs des stats de son allié.",
+  "correction": "Copie les modifs de stats alliées.",
+  "justification": "« Stat changes » désigne les variations appliquées aux stats.",
+  "msgid": "Copies ally's stat changes.",
+  "msgstr": "Copie les stats d’un allié.",
+  "msgctxt": ""
+ },
+ {
+  "id": 106,
+  "categorie": "typographie",
+  "probleme": "Le mot « Armure » rompt la casse du libellé.",
+  "correction": "ARMURE CAUDALE",
+  "justification": "Le nom du talent est uniformisé en capitales.",
+  "msgid": "ARMOR TAIL",
+  "msgstr": "Armure CAUDALE",
+  "msgctxt": ""
+ },
+ {
+  "id": 108,
+  "categorie": "oubli",
+  "probleme": "« Pour ses PV » ne précise pas que des PV sont récupérés.",
+  "correction": "Mange la terre et récupère des PV.",
+  "justification": "« Heal HP » exprime une restauration de PV.",
+  "msgid": "Eats ground to heal HP.",
+  "msgstr": "Mange la terre pour ses PV.",
+  "msgctxt": ""
+ },
+ {
+  "id": 109,
+  "categorie": "typographie",
+  "probleme": "Le mot « Force » rompt la casse du libellé.",
+  "correction": "FORCE FONGIQUE",
+  "justification": "Le nom du talent est uniformisé en capitales.",
+  "msgid": "MYCELIUM MIGHT",
+  "msgstr": "Force FONGIQUE",
+  "msgctxt": ""
+ },
+ {
+  "id": 110,
+  "categorie": "contresens",
+  "probleme": "« Statut toujours réussi » confond un statut avec une capacité de statut.",
+  "correction": "Les coups de statut réussissent.",
+  "justification": "« Status moves » désigne les capacités de statut.",
+  "msgid": "Status moves never fail.",
+  "msgstr": "Statut toujours réussi.",
+  "msgctxt": ""
+ },
+ {
+  "id": 115,
+  "categorie": "typographie",
+  "probleme": "Le mot « Force » rompt la casse du libellé.",
+  "correction": "FORCE MEMORIELLE",
+  "justification": "Le nom du talent est uniformisé en capitales.",
+  "msgid": "EMBODY ASPECT",
+  "msgstr": "Force MEMORIELLE",
+  "msgctxt": ""
+ },
+ {
+  "id": 117,
+  "categorie": "terminologie",
+  "probleme": "« DEF. SPE. » ne suit pas l’abréviation du projet.",
+  "correction": "Augmente la DS.",
+  "justification": "Le lexique du projet prescrit « DS » pour la Défense Spéciale.",
+  "msgid": "Raises Sp. Def.",
+  "msgstr": "Augmente la DEF. SPE.",
+  "msgctxt": ""
+ },
+ {
+  "id": 119,
+  "categorie": "oubli",
+  "probleme": "Le texte présente l’empoisonnement comme systématique.",
+  "correction": "Ses coups peuvent empoisonner.",
+  "justification": "« Can » indique que l’empoisonnement est possible à chaque coup.",
+  "msgid": "Moves can poison.",
+  "msgstr": "Ses attaques empoisonnent.",
+  "msgctxt": ""
+ }
+]

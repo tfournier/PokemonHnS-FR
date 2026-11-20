@@ -1,0 +1,312 @@
+[
+ {
+  "id": 0,
+  "categorie": "oubli",
+  "probleme": "Le texte ne précise pas ce qui est amélioré.",
+  "correction": "Renforce les capacités Feu\npendant 5 tours.",
+  "justification": "« Renforce » restitue l’augmentation de puissance.",
+  "msgid": "Boosts the power of Fire-\\ntype moves for 5 turns.",
+  "msgstr": "Améliore les attaques Feu\\npendant 5 tours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 4,
+  "categorie": "contresens",
+  "probleme": "Le texte fait intervenir un seul Pokémon et ne précise pas qu’il appartient à l’équipe.",
+  "correction": "Appelle les Pokémon de l’équipe\nà se joindre à l’attaque.",
+  "justification": "La source fait appel aux Pokémon de l’équipe pour participer à l’attaque.",
+  "msgid": "Summons party Pokémon to\\njoin in the attack.",
+  "msgstr": "Appelle un Pokémon qui\\nse joint à l’attaque.",
+  "msgctxt": ""
+ },
+ {
+  "id": 7,
+  "categorie": "oubli",
+  "probleme": "Le déclenchement de la tempête disparaît.",
+  "correction": "Déclenche une tempête de neige\nqui dure 5 tours.",
+  "justification": "« Summons » indique que la capacité provoque la tempête.",
+  "msgid": "Summons a snowstorm that\\nlasts for five turns.",
+  "msgstr": "Une tempête de neige qui\\ndure 5 tours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 8,
+  "categorie": "oubli",
+  "probleme": "Le texte ne précise pas à qui appartiennent les stats abaissées.",
+  "correction": "Le lanceur tombe K.O. Fort recul\nde l’AT et de l’AS des ennemis.",
+  "justification": "La baisse touche les ennemis. AT et AS suivent les abréviations du projet.",
+  "msgid": "The user faints and harshly\\nlowers foes Atk and Sp.Atk.",
+  "msgstr": "Le lanceur tombe K.O. et baisse\\nbeaucoup l’Attaque et l’Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 24,
+  "categorie": "oubli",
+  "probleme": "L’intensité de la lumière a disparu.",
+  "correction": "Invoque une vive lumière qui\nfrappe 2 tours plus tard.",
+  "justification": "« Vive » restitue « strong ».",
+  "msgid": "Summons strong light to\\nattack 2 turns later.",
+  "msgstr": "Invoque une lumière qui\\nfrappe 2 tours plus tard.",
+  "msgctxt": ""
+ },
+ {
+  "id": 25,
+  "categorie": "contresens",
+  "probleme": "« Atterrit » ajoute une action absente de la source.",
+  "correction": "Le lanceur regagne jusqu’à\nla moitié de ses PV max.",
+  "justification": "La source décrit uniquement la récupération des PV du lanceur.",
+  "msgid": "Restores the user's HP by\\nhalf of its max HP.",
+  "msgstr": "Atterrit et regagne jusqu’à\\nla moitié des PV max.",
+  "msgctxt": ""
+ },
+ {
+  "id": 29,
+  "categorie": "contresens",
+  "probleme": "« Puissant » remplace l’indication du mouvement de balancier du poing.",
+  "correction": "Un coup de poing en balancier.\nLe lanceur perd en Vitesse.",
+  "justification": "« Swinging » décrit le mouvement du coup.",
+  "msgid": "A swinging fist attack\\nthat also lowers Speed.",
+  "msgstr": "Un puissant coup de poing.\\nLe lanceur perd en Vitesse.",
+  "msgctxt": ""
+ },
+ {
+  "id": 30,
+  "categorie": "contresens",
+  "probleme": "« Ennemis rapides » suggère un seuil fixe et la rotation perd sa rapidité.",
+  "correction": "Vrille rapide. Plus l’ennemi\nest rapide, plus elle blesse.",
+  "justification": "La source décrit une rotation rapide dont les dégâts augmentent avec la Vitesse de l’ennemi.",
+  "msgid": "A high-speed spin that does\\nmore damage to faster foes.",
+  "msgstr": "Une rotation qui fait plus\\nmal aux ennemis rapides.",
+  "msgctxt": ""
+ },
+ {
+  "id": 33,
+  "categorie": "contresens",
+  "probleme": "« Au hasard » ajoute un mode de sélection absent de la source.",
+  "correction": "Augmente beaucoup une stat\ndu lanceur.",
+  "justification": "La source précise qu’une stat augmente fortement et laisse son choix implicite.",
+  "msgid": "The user sharply raises\\none of its stats.",
+  "msgstr": "Augmente beaucoup une stat\\ndu lanceur au hasard.",
+  "msgctxt": ""
+ },
+ {
+  "id": 38,
+  "categorie": "contresens",
+  "probleme": "« Lance l’objet tenu » ajoute une action absente de la source.",
+  "correction": "L’efficacité varie selon\nl’objet tenu.",
+  "justification": "La source indique uniquement que l’efficacité dépend de l’objet tenu.",
+  "msgid": "The effectiveness varies\\nwith the held item.",
+  "msgstr": "Lance l’objet tenu. L’effet\\nvarie selon l’objet.",
+  "msgctxt": ""
+ },
+ {
+  "id": 41,
+  "categorie": "contresens",
+  "probleme": "« Les soins » peut aussi désigner le traitement des altérations de statut.",
+  "correction": "Les ennemis ne peuvent regagner\nde PV pendant 5 tours.",
+  "justification": "L’interdiction porte précisément sur la récupération de PV.",
+  "msgid": "Prevents the foes from\\nrecovering HP for 5 turns.",
+  "msgstr": "Bloque les soins des\\nennemis pendant 5 tours.",
+  "msgctxt": ""
+ },
+ {
+  "id": 47,
+  "categorie": "oubli",
+  "probleme": "Le partenaire de l’échange a disparu.",
+  "correction": "Echange les variations d’AT et\nd’AS avec l’ennemi.",
+  "justification": "La source précise que l’échange se fait avec l’ennemi.",
+  "msgid": "Swaps changes to Attack\\nand Sp. Atk with the foe.",
+  "msgstr": "Echange les changements\\nd’Attaque et d’Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 48,
+  "categorie": "oubli",
+  "probleme": "Le partenaire de l’échange a disparu.",
+  "correction": "Echange les variations de DF\net de DS avec l’ennemi.",
+  "justification": "La source précise que l’échange se fait avec l’ennemi.",
+  "msgid": "Swaps changes to Defense\\nand Sp. Def with the foe.",
+  "msgstr": "Echange les changements\\nde Défense et de Déf. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 51,
+  "categorie": "oubli",
+  "probleme": "Le texte ne précise pas sur qui la graine est plantée.",
+  "correction": "Plante sur l’ennemi une graine\nqui lui donne le talent Insomnia.",
+  "justification": "L’ennemi reçoit la graine et le talent.",
+  "msgid": "Plants a seed on the foe\\ngiving it Insomnia.",
+  "msgstr": "Plante une graine qui donne\\nle talent Insomnia.",
+  "msgctxt": ""
+ },
+ {
+  "id": 52,
+  "categorie": "oubli",
+  "probleme": "Le texte omet la pose du piège et laisse implicite la cible du poison.",
+  "correction": "Pose des pics qui empoisonnent\nles ennemis qui entrent en jeu.",
+  "justification": "La capacité pose un piège qui empoisonne les ennemis à leur arrivée.",
+  "msgid": "Sets spikes that poison a\\nfoe switching in.",
+  "msgstr": "Pics empoisonnant lors d’un\\nchangement d’adversaire.",
+  "msgctxt": ""
+ },
+ {
+  "id": 54,
+  "categorie": "contresens",
+  "probleme": "La création du voile disparaît et « à chaque tour » ajoute une fréquence.",
+  "correction": "Forme un voile d’eau\nqui restaure des PV.",
+  "justification": "La source décrit la formation du voile et son effet sur les PV.",
+  "msgid": "Forms a veil of water\\nthat restores HP.",
+  "msgstr": "Un voile d’eau qui restaure\\ndes PV à chaque tour.",
+  "msgctxt": ""
+ },
+ {
+  "id": 66,
+  "categorie": "orthographe",
+  "probleme": "Il manque les déterminants dans l’énumération des instruments.",
+  "correction": "Tranche l’ennemi en croix\navec des faux, des griffes, etc.",
+  "justification": "Les noms communs pluriels prennent ici l’article indéfini.",
+  "msgid": "Slashes the foe with crossed\\nscythes, claws, etc.",
+  "msgstr": "Tranche l’ennemi en croix\\navec faux, griffes, etc.",
+  "msgctxt": ""
+ },
+ {
+  "id": 67,
+  "categorie": "oubli",
+  "probleme": "Le texte omet les dégâts infligés par l’onde sonore.",
+  "correction": "Une onde sonore qui blesse.\nPeut baisser la Déf. Spé.",
+  "justification": "La source distingue les dégâts de la baisse éventuelle de Défense Spéciale.",
+  "msgid": "A damaging sound wave that\\nmay lower Sp. Def.",
+  "msgstr": "Une onde sonore pouvant\\nbaisser la Déf. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 76,
+  "categorie": "oubli",
+  "probleme": "Le texte ne précise pas avec qui les objets sont échangés.",
+  "correction": "Echange les objets avec l’ennemi\nà une vitesse fulgurante.",
+  "justification": "La source désigne explicitement l’ennemi comme partenaire de l’échange.",
+  "msgid": "Swaps items with the foe\\nfaster than the eye can see.",
+  "msgstr": "Echange les objets tenus\\nà une vitesse fulgurante.",
+  "msgctxt": ""
+ },
+ {
+  "id": 81,
+  "categorie": "contresens",
+  "probleme": "« Morsure électrique » ajoute une description absente de la source.",
+  "correction": "Peut apeurer l’ennemi\nou le paralyser.",
+  "justification": "La source indique seulement les deux effets possibles sur l’ennemi.",
+  "msgid": "May cause flinching or\\nleave the foe paralyzed.",
+  "msgstr": "Morsure électrique. Peut\\napeurer ou paralyser.",
+  "msgctxt": ""
+ },
+ {
+  "id": 82,
+  "categorie": "contresens",
+  "probleme": "« Morsure enflammée » ajoute une description absente de la source.",
+  "correction": "Peut apeurer l’ennemi\nou le brûler.",
+  "justification": "La source indique seulement les deux effets possibles sur l’ennemi.",
+  "msgid": "May cause flinching or\\nleave the foe with a burn.",
+  "msgstr": "Morsure enflammée. Peut\\napeurer ou brûler.",
+  "msgctxt": ""
+ },
+ {
+  "id": 92,
+  "categorie": "oubli",
+  "probleme": "La cible de la chute des comètes a disparu.",
+  "correction": "Lance des comètes sur l’ennemi.\nBaisse beaucoup l’Atq. Spé.",
+  "justification": "La source précise que les comètes sont dirigées vers l’ennemi.",
+  "msgid": "Casts comets onto the foe.\\nHarshly lowers the Sp. Atk.",
+  "msgstr": "Fait tomber des comètes.\\nBaisse beaucoup l’Atq. Spé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 95,
+  "categorie": "orthographe",
+  "probleme": "Il manque les déterminants après « avec ».",
+  "correction": "Fouette violemment l’ennemi\navec des lianes ou des tentacules.",
+  "justification": "Les deux noms communs pluriels prennent ici l’article indéfini.",
+  "msgid": "Violently lashes the foe\\nwith vines or tentacles.",
+  "msgstr": "Fouette violemment l’ennemi\\navec lianes ou tentacules.",
+  "msgctxt": ""
+ },
+ {
+  "id": 96,
+  "categorie": "oubli",
+  "probleme": "Le texte ne décrit plus le coup porté.",
+  "correction": "Entaille et peut empoisonner.\nTaux de critiques élevé.",
+  "justification": "« Entaille » restitue le coup tranchant décrit par « slash ».",
+  "msgid": "A slash that may poison a\\nfoe and do critical damage.",
+  "msgstr": "Peut empoisonner l’ennemi.\\nTaux de critiques élevé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 98,
+  "categorie": "contresens",
+  "probleme": "La comparaison avec l’acier est absente de la source.",
+  "correction": "Frappe l’ennemi de sa tête\ndure. Peut l’apeurer.",
+  "justification": "La source indique que la tête est dure et que le coup vise l’ennemi.",
+  "msgid": "Slams the foe with a hard\\nhead. May cause flinching.",
+  "msgstr": "Frappe avec une tête dure\\ncomme l’acier. Peut apeurer.",
+  "msgctxt": ""
+ },
+ {
+  "id": 99,
+  "categorie": "contresens",
+  "probleme": "Le projectile devient une bombe aimantée.",
+  "correction": "Lance un aimant qui\natteint toujours sa cible.",
+  "justification": "« Magnet » désigne ici l’aimant lui-même.",
+  "msgid": "Launches a magnet that\\nstrikes without fail.",
+  "msgstr": "Lance une bombe aimantée\\nqui n’échoue jamais.",
+  "msgctxt": ""
+ },
+ {
+  "id": 100,
+  "categorie": "oubli",
+  "probleme": "Le texte nomme les pierres mais omet le coup porté avec elles.",
+  "correction": "Transperce avec des pierres.\nTaux de critiques élevé.",
+  "justification": "« Transperce » restitue l’action exprimée par « stabs ».",
+  "msgid": "Stabs the foe with stones.\\nHigh critical-hit ratio.",
+  "msgstr": "Des pierres aiguisées.\\nTaux de critiques élevé.",
+  "msgctxt": ""
+ },
+ {
+  "id": 102,
+  "categorie": "oubli",
+  "probleme": "La pose des pierres et leur lévitation ont disparu.",
+  "correction": "Pose des pierres en suspens\nqui blessent l’ennemi entrant.",
+  "justification": "La source décrit un piège de pierres flottantes qui touche l’ennemi à son arrivée.",
+  "msgid": "Sets floating stones that\\nhurt a foe switching in.",
+  "msgstr": "Pierres blessant lors d’un\\nchangement d’adversaire.",
+  "msgctxt": ""
+ },
+ {
+  "id": 103,
+  "categorie": "contresens",
+  "probleme": "« Ennemis lourds » suggère un seuil fixe.",
+  "correction": "Piège d’herbe. Plus l’ennemi\nest lourd, plus il fait mal.",
+  "justification": "Les dégâts augmentent avec le poids de l’ennemi.",
+  "msgid": "A snare attack that does\\nmore damage to heavier foes.",
+  "msgstr": "Un piège d’herbe qui fait\\nplus mal aux ennemis lourds.",
+  "msgctxt": ""
+ },
+ {
+  "id": 111,
+  "categorie": "contresens",
+  "probleme": "« Soignent la moitié des PV max » ne dit pas clairement qui récupère les PV.",
+  "correction": "Ses sous-fifres lui rendent\nla moitié de ses PV max.",
+  "justification": "Les sous-fifres rendent au lanceur des PV à hauteur de la moitié de son maximum.",
+  "msgid": "The user's underlings show\\nup to heal half its max HP.",
+  "msgstr": "Des sous-fifres soignent la\\nmoitié des PV max.",
+  "msgctxt": ""
+ },
+ {
+  "id": 116,
+  "categorie": "contresens",
+  "probleme": "« Pouvant » rend éventuelle une baisse annoncée comme systématique.",
+  "correction": "Une onde de choc qui baisse\nfortement la Déf. Spé.",
+  "justification": "Dans la source, l’onde de choc entraîne une forte baisse de Défense Spéciale.",
+  "msgid": "Generates a shock wave that\\nsharply reduces Sp. Def.",
+  "msgstr": "Une onde de choc pouvant\\nréduire beaucoup la Déf. Spé.",
+  "msgctxt": ""
+ }
+]
