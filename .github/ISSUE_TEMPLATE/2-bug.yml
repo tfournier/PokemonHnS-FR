@@ -1,0 +1,118 @@
+name: Bug d'affichage ou plantage
+description: Écran brouillé, graphismes cassés, jeu figé, écran noir, comportement anormal avec le patch français.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Avant de remplir : si le même bug existe **aussi dans Heart & Soul en anglais**, il vient du jeu lui-même et se signale
+        sur le [dépôt officiel de Heart & Soul](https://github.com/PokemonHnS-Development/pokehns-expansion/issues).
+        ⚠️ **Ne joignez jamais de ROM** (ni lien vers une ROM).
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type de problème
+      options:
+        - Écran ou graphismes brouillés, tuiles mélangées
+        - Jeu figé, écran noir ou redémarrage
+        - Texte illisible ou caractères bizarres
+        - Comportement anormal (script, combat, menu)
+        - Le patch ne s'applique pas
+        - Autre
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version du patch
+      placeholder: v2.0.6-fr.6
+    validations:
+      required: true
+
+  - type: dropdown
+    id: anglais
+    attributes:
+      label: Le problème existe-t-il aussi dans Heart & Soul en anglais ?
+      options:
+        - Je ne sais pas
+        - Non, seulement avec le patch français
+        - Oui, aussi en anglais
+    validations:
+      required: true
+
+  - type: input
+    id: lieu
+    attributes:
+      label: Où dans le jeu ?
+      placeholder: "Pokédex, en passant de la page INFO à la page STATS"
+    validations:
+      required: true
+
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Étapes pour reproduire
+      description: Que faisiez-vous juste avant ? Le problème revient-il à chaque fois ?
+      placeholder: |
+        1. Ouvrir le menu START > Pokédex
+        2. Choisir un Pokémon, appuyer sur A
+        3. Appuyer sur Droite…
+    validations:
+      required: true
+
+  - type: textarea
+    id: attendu
+    attributes:
+      label: Ce qui devrait se passer
+    validations:
+      required: false
+
+  - type: textarea
+    id: captures
+    attributes:
+      label: Captures d'écran ou vidéo
+      description: Glissez-déposez vos captures ou une courte vidéo. Pour un problème bref, plusieurs captures successives aident beaucoup.
+      placeholder: Glissez vos fichiers ici.
+    validations:
+      required: true
+
+  - type: textarea
+    id: sauvegarde
+    attributes:
+      label: Sauvegarde (facultatif)
+      description: Une sauvegarde (.sav) ou un état de sauvegarde (.ss0, .state…) juste avant le problème permet de le reproduire. Compressez-le en .zip puis glissez-le ici.
+      placeholder: Glissez votre .zip ici.
+
+  - type: dropdown
+    id: emulateur
+    attributes:
+      label: Émulateur ou console
+      options:
+        - mGBA
+        - VisualBoyAdvance / VBA-M
+        - RetroArch (cœur mGBA)
+        - RetroArch (autre cœur)
+        - Delta / Pizza Boy / My Boy! (mobile)
+        - Vraie console (cartouche flash)
+        - Autre
+    validations:
+      required: true
+
+  - type: input
+    id: emulateur_version
+    attributes:
+      label: Version de l'émulateur et système
+      placeholder: "mGBA 0.10.5, macOS 15"
+
+  - type: checkboxes
+    id: verifications
+    attributes:
+      label: Vérifications
+      options:
+        - label: J'utilise la dernière version du patch, appliquée sur la ROM anglaise officielle de Heart & Soul.
+          required: true
+        - label: J'ai vérifié que ce bug n'a pas déjà été signalé dans les issues ouvertes.
+          required: true

@@ -1,0 +1,93 @@
+name: Erreur de traduction
+description: Texte resté en anglais, faute, contresens, nom différent de l'officiel, texte coupé ou qui déborde.
+title: "[Traduction] "
+labels: ["traduction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de signaler cette erreur ! Une capture d'écran et le texte exact nous font gagner beaucoup de temps.
+        ⚠️ **Ne joignez jamais de ROM** (ni lien vers une ROM) : seules les captures et les sauvegardes sont acceptées.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type d'erreur
+      options:
+        - Texte resté en anglais (ou en japonais)
+        - Faute d'orthographe, de grammaire ou de typographie
+        - Contresens ou phrase incompréhensible
+        - Nom différent du nom officiel (Pokémon, objet, capacité, lieu, personnage…)
+        - Texte coupé, qui déborde ou mal aligné
+        - Texte dans une image (menu, icône, écran graphique)
+        - Autre
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version du patch
+      description: Numéro de la release utilisée (en haut de la page de téléchargement), par exemple v2.0.6-fr.6.
+      placeholder: v2.0.6-fr.6
+    validations:
+      required: true
+
+  - type: input
+    id: lieu
+    attributes:
+      label: Où dans le jeu ?
+      description: Lieu, personnage, menu ou écran (par exemple « Ville Griotte, Centre Pokémon, l'infirmière » ou « Pokédex, page STATS »).
+      placeholder: "Pokédex > fiche de KAIMINUS > page STATS"
+    validations:
+      required: true
+
+  - type: textarea
+    id: texte_affiche
+    attributes:
+      label: Texte affiché
+      description: Recopiez le texte tel qu'il apparaît à l'écran (avec ses fautes).
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: texte_propose
+    attributes:
+      label: Texte proposé
+      description: Votre correction. Si vous connaissez le texte officiel (Émeraude FR, SoulSilver FR, Rouge Feu FR…), indiquez-le avec sa source.
+      render: text
+
+  - type: textarea
+    id: captures
+    attributes:
+      label: Captures d'écran
+      description: Glissez-déposez une ou plusieurs captures ici (PNG ou JPG). Si le texte s'étend sur plusieurs pages, capturez chacune.
+      placeholder: Glissez vos captures ici.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: emulateur
+    attributes:
+      label: Émulateur ou console
+      options:
+        - mGBA
+        - VisualBoyAdvance / VBA-M
+        - RetroArch (cœur mGBA)
+        - RetroArch (autre cœur)
+        - Delta / Pizza Boy / My Boy! (mobile)
+        - Vraie console (cartouche flash)
+        - Autre
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: verifications
+    attributes:
+      label: Vérifications
+      options:
+        - label: J'utilise la dernière version du patch, appliquée sur la ROM anglaise officielle de Heart & Soul.
+          required: true
+        - label: J'ai vérifié que cette erreur n'a pas déjà été signalée dans les issues ouvertes.
+          required: true

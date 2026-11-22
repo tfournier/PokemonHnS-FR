@@ -11,6 +11,11 @@ name: Publier le patch UPS
 on:
   push:
     branches: [main]
+    paths-ignore:            # sans effet sur la ROM : pas de nouvelle release
+      - '.github/ISSUE_TEMPLATE/**'
+      - '*.md'
+      - 'docs/**'
+      - 'rapport/**'
   workflow_dispatch:
 
 permissions:

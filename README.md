@@ -98,6 +98,14 @@ seul fichier UPS (sur Heart & Soul anglais) en pièce jointe. La dernière est t
 - Changer de ROM ou de phrase de passe : rechiffrer (`gpg --symmetric --cipher-algo AES256`), remplacer
   `emeraude_us.gba.gpg` dans `tfournier/hns-roms` et mettre à jour le secret `ROM_PASSPHRASE`.
 
+## Signaler un problème
+
+Les [issues](https://github.com/tfournier/PokemonHnS-FR/issues/new/choose) proposent trois formulaires :
+**Erreur de traduction** (texte anglais, faute, nom officiel, texte coupé, texte dans une image),
+**Bug d'affichage ou plantage** et **Suggestion**. Chacun demande la version du patch, l'endroit du jeu et des
+captures d'écran (glisser-déposer) ; le formulaire de bug accepte aussi une sauvegarde zippée. Un bug qui existe
+aussi dans Heart & Soul en anglais se signale sur le dépôt officiel du jeu. Ne joignez jamais de ROM.
+
 ## Choix de traduction
 
 - Style d'écriture : **SoulSilver FR** (« Pokémon », « Dresseur », « Pokématos », lieux et objets

@@ -1,0 +1,44 @@
+name: Suggestion ou demande
+description: Proposer un meilleur terme, un changement de style, une amélioration du patch ou de sa distribution.
+title: "[Suggestion] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Les choix de traduction déjà faits (style SoulSilver FR, majuscules sans accent, noms officiels…) sont expliqués dans
+        [DECISIONS.md](https://github.com/tfournier/PokemonHnS-FR/blob/main/DECISIONS.md) : jetez-y un œil, votre suggestion y est peut-être déjà discutée.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type de demande
+      options:
+        - Terme ou nom à changer
+        - Style ou convention de traduction
+        - Amélioration du patch (installation, compatibilité, téléchargement)
+        - Autre
+    validations:
+      required: true
+
+  - type: textarea
+    id: demande
+    attributes:
+      label: Votre suggestion
+      description: Que proposez-vous, et pourquoi ? Si vous citez un nom officiel, indiquez le jeu d'où il vient.
+    validations:
+      required: true
+
+  - type: textarea
+    id: exemples
+    attributes:
+      label: Exemples et captures
+      description: Textes concernés, captures d'écran (glissez-déposez ici).
+
+  - type: checkboxes
+    id: verifications
+    attributes:
+      label: Vérifications
+      options:
+        - label: J'ai lu DECISIONS.md et vérifié que cette suggestion n'a pas déjà été faite.
+          required: true
