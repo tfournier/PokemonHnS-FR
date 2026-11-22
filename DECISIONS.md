@@ -112,3 +112,43 @@ reportées dans `traductions/glossaire.tsv`.
     récupérée avec une deploy key en lecture seule) et du patch officiel HnS (release publique). Une ROM
     téléchargée sur un site tiers (archive.org) a été écartée : copie non autorisée, lien fragile. Les secrets
     GitHub Actions (48 Ko) ne peuvent pas contenir une ROM.
+24. **Textes que l'extracteur ne voyait pas (signalés en jeu par l'utilisateur).** (a) 49 descriptions
+    d'objets et de capacités coupées par `#if` au milieu de la chaîne : chaque variante est désormais un texte
+    complet (début commun + branche + fin commune), réécrit branche par branche sans changer le nombre de lignes
+    (hnsfr.py, type « cif ») ; (b) 9 descriptions avec une macro au milieu (`"for "BINDING_TURNS" turns."`) : la
+    macro devient le code `{C:BINDING_TURNS}`, la valeur du `#define` est traduite à part ; (c) les textes
+    d'une lettre ou sans deux lettres consécutives (« A », « I », « 1F », « 's ») et les restes japonais du code
+    étaient ignorés : tout texte contenant une lettre est désormais extrait (157 traduits, les symboles et notes
+    A–S gardés). Le contrôle de l'anglais restant ne range plus les chaînes sans source parmi le « bruit » :
+    seules celles situées dans des données binaires (tuiles, sprites, d'après le .map) sont écartées, le reste
+    est à vérifier. Consigne de l'utilisateur : on traduit aussi les textes qui ne s'affichent jamais.
+25. **Phrases Easy Chat officielles.** Les répliques des Dresseurs de la Zone de combat, des Tentes, du
+    Trainer Hill, de l'apprenti, de la Trainer Tower, etc. sont des suites de mots : les suites anglaises
+    donnaient des phrases absurdes avec le vocabulaire français (« CE EST A CAUCHEMAR POUR TU »). Les suites
+    officielles d'Émeraude FR et de Rouge Feu FR sont reprises (1 768 répliques, code/easy-chat-fr.patch,
+    lot EC_easychat) ; 61 répliques propres à HnS sont composées avec le vocabulaire officiel ; les mots de passe
+    de l'Œuf Étrange (comparés par identifiant) ne changent pas. Le vocabulaire Easy Chat suit exactement les
+    mots officiels d'Émeraude FR au même index (capitales comprises) : 227 mots partageaient leur texte anglais
+    avec d'autres chaînes et recevaient une autre traduction ; ils ont une entrée propre à leur fichier de groupe.
+26. **Possessif anglais construit par le code.** La bulle de talent affichait « PIKACHU's » : le code ajoutait
+    « ' » et « s » ; correctif code/bulle-talent-sans-possessif.patch (nom seul, talent en dessous). Écran
+    d'assertion (débogage) traduit (code/ecran-assertion.patch). Restent en anglais, volontairement : marqueurs
+    du protocole de connexion (« PokemonSioInfo », « GameFreak inc. »), journaux de débogage de la console de
+    l'émulateur, rangées du clavier de saisie (décision initiale), identifiants du test sonore (noms de constantes
+    du code, à trancher avec l'utilisateur), octets de tuiles qui ressemblent à du texte.
+27. **Inscriptions en braille.** Les 61 inscriptions (`.braille` de data/text/braille.inc, ignorées jusqu'ici par
+    l'extracteur) reprennent les inscriptions officielles d'Émeraude FR (22, Chambre Scellée…) et de Rouge Feu FR
+    (39, Chemin Rubis, Trou Pointillé…), lues dans les ROM ; les octets codent les points, recopiés tels quels
+    (l'apostrophe de la table anglaise de preproc donne le point final du braille français). Les cases d'alphabet
+    d'Émeraude (ABCD, IJKL…) diffèrent de celles de Rouge Feu (ABC, GHI…) pour un même anglais :
+    code/braille-alphabet-emeraude.patch.
+28. **Descriptions du Pokédex HGSS.** Le texte est centré sur 240 px d'après sa ligne la plus longue : au-delà de
+    224 px (largeur maximale de l'anglais) il touche le bord gauche ; `\l` provoque une pause « ▼ ». Toutes les
+    descriptions sont limitées à 4 lignes de 224 px, sans `\l` ni `\p` (495 remises en page, mots inchangés ;
+    3 raccourcies) ; verifier.py applique cette règle à toutes les sources, officielles comprises.
+29. **Images, second passage (lot F2) et fin des crédits.** 30 images de plus (états, résumé, Pokédex DECA,
+    roulette, restes japonais, DexNav, « PRESENTE »/« FIN » de Rouge Feu FR…). Les tuiles anglaises restées aux
+    anciens indices des onglets du Pokédex (AREA, CRY, SIZE) apparaissaient un instant au changement de page
+    (tuiles chargées avant la tilemap) : remplacées par leur équivalent français. Les crédits HnS dessinent
+    « THE END » tuile par tuile : code/credits-fin.patch affiche « FIN ». Unité impériale « lbs. » → « lb »
+    (code/unite-livre.patch). Étiquettes de type de 6 lettres (TENEBR, ELECTR…) : celles d'Émeraude FR.

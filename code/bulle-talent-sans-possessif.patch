@@ -1,0 +1,15 @@
+--- a/src/battle_interface.c	2026-11-22 19:31:33
++++ b/src/battle_interface.c	2026-11-22 19:31:33
+@@ -2773,9 +2773,9 @@
+         totalChar++;
+ 
+     lastChar = gStringVar1[totalChar - 1];
+-    StringAppend(gStringVar1, COMPOUND_STRING("'"));
+-    if (lastChar != CHAR_S && lastChar != CHAR_s)
+-        StringAppend(gStringVar1, COMPOUND_STRING("s"));
++    (void)lastChar;  // traduction FR : pas de possessif anglais (« PIKACHU's ») dans la bulle du talent
++    // (le nom du Pokémon seul sur la 1re ligne, le talent sur la 2e)
++
+ 
+     PrintOnAbilityPopUp(gStringVar1,
+                         (void *)(OBJ_VRAM0) + TILE_OFFSET_4BPP(gSprites[spriteId1].oam.tileNum),

@@ -14549,6 +14549,7 @@ msgstr "AT"
 
 #. source : Émeraude FR officiel
 #: data/maps/SaffronCity_FightingDojo_hns/scripts.inc:197
+#: data/text/braille.inc:27 data/text/braille.inc:158
 #: src/pokedex_plus_hgss.c:140 src/strings.c:88
 msgid "DEF"
 msgstr "DEF"
@@ -19393,22 +19394,22 @@ msgid "SMALLEST MODE"
 msgstr "MODE + - PETIT"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:87
+#: data/text/braille.inc:11 data/text/braille.inc:142 src/strings.c:87
 msgid "ABC"
 msgstr "ABC"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:89
+#: data/text/braille.inc:15 data/text/braille.inc:146 src/strings.c:89
 msgid "GHI"
 msgstr "GHI"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:90
+#: data/text/braille.inc:31 data/text/braille.inc:162 src/strings.c:90
 msgid "JKL"
 msgstr "JKL"
 
 #. source : Émeraude FR officiel
-#: src/strings.c:91
+#: data/text/braille.inc:19 data/text/braille.inc:150 src/strings.c:91
 msgid "MNO"
 msgstr "MNO"
 
@@ -28518,3 +28519,492 @@ msgstr "Jours rest.:\\n{STR_VAR_1}\\n{STR_VAR_2}{CLEAR_TO 90}\\n{STR_VAR_3}"
 #: src/debug.c:5083
 msgid "Strain:\\n{STR_VAR_1}\\n\\n{STR_VAR_3}"
 msgstr "Souche:\\n{STR_VAR_1}\\n\\n{STR_VAR_3}"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/battle_interface.c:2778 src/item.c:194
+msgid "s"
+msgstr "s"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/battle_main.c:270 src/data/trade.h:611 src/evolution_scene.c:83
+msgid "ヌケニン"
+msgstr "MUNJA"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/battle_main.c:520
+msgid "どく$$$$$"
+msgstr "POISON"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/battle_main.c:521
+msgid "ねむり$$$$"
+msgstr "SOMMEIL"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais_tailles
+#. ancien (traduction nouvelle) : PARALYSIE
+#: src/battle_main.c:522
+msgid "まひ$$$$$"
+msgstr "PARA"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/battle_main.c:523
+msgid "やけど$$$$"
+msgstr "BRULURE"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/battle_main.c:524
+msgid "こおり$$$$"
+msgstr "GEL"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais_tailles
+#. ancien (traduction nouvelle) : CONFUSION
+#: src/battle_main.c:525
+msgid "こんらん$$$"
+msgstr "CONFUS."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/battle_main.c:526
+msgid "メロメロ$$$"
+msgstr "AMOUR"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/battle_message.c:1461
+msgid "'s"
+msgstr " de"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais_tailles
+#. ancien (traduction nouvelle) : EPICE
+#: src/berry_blender.c:894
+msgid "からい"
+msgstr "EPIC"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/berry_blender.c:894
+msgid "しぶい"
+msgstr "SEC"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais_tailles
+#. ancien (traduction nouvelle) : SUCRE
+#: src/berry_blender.c:894
+msgid "あまい"
+msgstr "DOUX"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/berry_blender.c:894
+msgid "にがい"
+msgstr "AMER"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais_tailles
+#. ancien (traduction nouvelle) : ACIDE
+#: src/berry_blender.c:894
+msgid "すっぱい"
+msgstr "ACID"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/challenge_menu.c:579
+msgid "x1.0"
+msgstr "x1.0"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/challenge_menu.c:580
+msgid "x1.5"
+msgstr "x1.5"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/challenge_menu.c:581
+msgid "x2.0"
+msgstr "x2.0"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/challenge_menu.c:582
+msgid "x0.0"
+msgstr "x0.0"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/challenge_menu.c:611 src/strings.c:256
+msgid "x5"
+msgstr "x5"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/challenge_menu.c:612
+msgid "x10"
+msgstr "x10"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/challenge_menu.c:613
+msgid "x50!"
+msgstr "x50!"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/contest.c:5979
+msgid "C."
+msgstr "C."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/contest.c:6000
+msgid "B."
+msgstr "B."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/contest_painting.c:45
+msgid "{STR_VAR_1}\\n{STR_VAR_2}'s {STR_VAR_3}"
+msgstr "{STR_VAR_1}\\n{STR_VAR_3} de {STR_VAR_2}"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/daycare.c:117
+msgid "タマゴ"
+msgstr "OEUF"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/debug.c:466 src/debug.c:2250
+msgid "{STR_VAR_1}{CLEAR_TO 90}\\n0x{STR_VAR_2}{CLEAR_TO 90}"
+msgstr "{STR_VAR_1}{CLEAR_TO 90}\\n0x{STR_VAR_2}{CLEAR_TO 90}"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/dodrio_berry_picking.c:3064
+msgid "あいうえおかき"
+msgstr "ABCDEFG"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/main_menu.c:261
+msgid "1Mサブきばんが ささっていません！"
+msgstr "Le circuit 1M n’est pas inséré!"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/option_menu.c:220
+msgid "L=A"
+msgstr "L=A"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/option_menu.c:247
+msgid "L+R+A"
+msgstr "L+R+A"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/option_menu.c:249 src/pokemon_summary_screen.c:4109
+msgid "B"
+msgstr "B"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/pokedex_plus_hgss.c:182
+msgid "H"
+msgstr "H"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/pokemon_sprite_visualizer.c:438
+msgid " S"
+msgstr " S"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/pokemon_sprite_visualizer.c:439
+msgid " M"
+msgstr " M"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/pokemon_sprite_visualizer.c:440
+msgid " L"
+msgstr " L"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/pokemon_summary_screen.c:4106
+msgid "F"
+msgstr "F"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/pokemon_summary_screen.c:4107
+msgid "D"
+msgstr "D"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/pokemon_summary_screen.c:4108
+msgid "C"
+msgstr "C"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/pokemon_summary_screen.c:4111
+msgid "S"
+msgstr "S"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:50
+msgid "???.? m"
+msgstr "???.? m"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:255
+msgid "x1"
+msgstr "x1"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:385
+msgid "{STR_VAR_1}を ぐるぐるこうかんに\\nだして よろしいですか？"
+msgstr "Proposer {STR_VAR_1}\\nà l’échange en boucle?"
+
+#. source : Émeraude FR officiel
+#. lot : W_courts_japonais
+#: src/strings.c:604
+msgid "6F"
+msgstr "5{SUPER_E}"
+
+#. source : Émeraude FR officiel
+#. lot : W_courts_japonais
+#: src/strings.c:605
+msgid "7F"
+msgstr "6{SUPER_E}"
+
+#. source : Émeraude FR officiel
+#. lot : W_courts_japonais
+#: src/strings.c:606
+msgid "8F"
+msgstr "7{SUPER_E}"
+
+#. source : Émeraude FR officiel
+#. lot : W_courts_japonais
+#: src/strings.c:607
+msgid "9F"
+msgstr "8{SUPER_E}"
+
+#. source : Émeraude FR officiel
+#. lot : W_courts_japonais
+#: src/strings.c:608
+msgid "10F"
+msgstr "9{SUPER_E}"
+
+#. source : Émeraude FR officiel
+#. lot : W_courts_japonais
+#: src/strings.c:609
+msgid "11F"
+msgstr "10{SUPER_E}"
+
+#. source : Émeraude FR officiel
+#. lot : W_courts_japonais
+#: src/strings.c:610
+msgid "B1F"
+msgstr "1 SS"
+
+#. source : Émeraude FR officiel
+#. lot : W_courts_japonais
+#: src/strings.c:611
+msgid "B2F"
+msgstr "2 SS"
+
+#. source : Émeraude FR officiel
+#. lot : W_courts_japonais
+#: src/strings.c:612
+msgid "B3F"
+msgstr "3 SS"
+
+#. source : Émeraude FR officiel
+#. lot : W_courts_japonais
+#: src/strings.c:613
+msgid "B4F"
+msgstr "4 SS"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:695
+msgid "クイズの こたえは？"
+msgstr "Réponse du quiz?"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:764
+msgid "ゲ-ムポイント"
+msgstr "POINTS DE JEU"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:769
+msgid ""
+"W:{COLOR RED}{SHADOW LIGHT_RED}{STR_VAR_1}{COLOR DARK_GRAY}{SHADOW "
+"LIGHT_GRAY}  L:{COLOR RED}{SHADOW LIGHT_RED}{STR_VAR_2}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}"
+msgstr ""
+"V:{COLOR RED}{SHADOW LIGHT_RED}{STR_VAR_1}{COLOR DARK_GRAY}{SHADOW "
+"LIGHT_GRAY}  D:{COLOR RED}{SHADOW LIGHT_RED}{STR_VAR_2}{COLOR "
+"DARK_GRAY}{SHADOW LIGHT_GRAY}"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:821
+msgid "{DYNAMIC 0}の{DYNAMIC 1}ひきめ:"
+msgstr "{DYNAMIC 1}e Pokémon de {DYNAMIC 0}:"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:822
+msgid "{DYNAMIC 0}の{DYNAMIC 1}ひきめは いません"
+msgstr "{DYNAMIC 0} n’a pas de {DYNAMIC 1}e Pokémon"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:913
+msgid ""
+"{CLEAR_TO 0x03}10P{CLEAR_TO 0x2B}30P{CLEAR_TO 0x53}50P{CLEAR_TO "
+"0x77}{EMOJI_MINUS}50P"
+msgstr ""
+"{CLEAR_TO 0x03}10P{CLEAR_TO 0x2B}30P{CLEAR_TO 0x53}50P{CLEAR_TO "
+"0x77}{EMOJI_MINUS}50P"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:947
+msgid "ふしぎなもらいもの"
+msgstr "CADEAU MYSTERE"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:948
+msgid "{A_BUTTON}けってい {B_BUTTON}やめる"
+msgstr "{A_BUTTON}OK {B_BUTTON}RETOUR"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:949
+msgid "カードeリーダー{PLUS}　で\\nふしぎなもらいものを　よみこみます"
+msgstr "Chargement du Cadeau Mystère\\navec le Lecteur e{PLUS}."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:950
+msgid "カードeリーダー{PLUS}の　メニューから\\n‘つうしん'を　えらび"
+msgstr "Dans le menu du Lecteur e{PLUS},\\nchoisissez “Communication”,"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:951
+msgid "‘ゲームボーイアドバンスとつうしん'\\nを　せんたく　してください"
+msgstr "puis “Connexion avec la\\nGame Boy Advance”."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:952
+msgid "カードeリーダー{PLUS}の　‘つうしん'を\\nえらんで　Aボタンを　おしてください"
+msgstr "Choisissez “Communication” sur\\nle Lecteur e{PLUS}, puis A."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:953
+msgid "せつぞくが　まちがっています"
+msgstr "Connexion incorrecte."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:954
+msgid "カードの　よみこみを\\nちゅうし　しました"
+msgstr "Lecture de la carte\\ninterrompue."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:955
+msgid "カードeリーダー{PLUS}と\\nつうしん　できません"
+msgstr "Impossible de communiquer\\navec le Lecteur e{PLUS}."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:956
+msgid "つうしん　ちゅう　です"
+msgstr "Communication en cours…"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:957
+msgid "つうしん　エラーです\\nせつぞくを　たしかめて　ください"
+msgstr "Erreur de communication.\\nVérifiez la connexion."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:958
+msgid "つうしん　エラーです\\nはじめから　やりなおして　ください"
+msgstr "Erreur de communication.\\nRecommencez depuis le début."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:959
+msgid "カードeリーダー{PLUS}　に\\nカードを　よみこませて　ください"
+msgstr "Faites lire la carte\\nau Lecteur e{PLUS}."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:960
+msgid "つうしん　しゅうりょう！"
+msgstr "Communication terminée!"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:961
+msgid "あらたな　トレーナーが\\nホウエンに　やってきた！"
+msgstr "Un nouveau Dresseur\\nest arrivé à HOENN!"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:962
+msgid "しばらく　おまちください"
+msgstr "Veuillez patienter."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:963
+msgid "かきこみ　エラー　です\\nデータが　ほぞん　できませんでした"
+msgstr "Erreur d’écriture.\\nLa sauvegarde a échoué."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:1058
+msgid "プレイヤー"
+msgstr "JOUEUR"
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:1059
+msgid "さま"
+msgstr "M."
+
+#. source : traduction nouvelle
+#. lot : W_courts_japonais
+#: src/strings.c:1063
+msgid "{COLOR RED}{SHADOW LIGHT_RED}ゲ-ムフリ-ク"
+msgstr "{COLOR RED}{SHADOW LIGHT_RED}GAME FREAK"

@@ -202,6 +202,18 @@ class Verif:
                 w = self.g.largeur(l)
                 if w > limite and w > wmax_en:
                     pb.append(('LARGEUR', '%d px > %d : %s' % (w, limite, l[:50]))); break
+        # descriptions du Pokédex (écran HGSS) : texte centré sur 240 px d'après sa ligne la plus longue ; au-delà
+        # de 224 px (largeur maximale de l'anglais) il touche le bord ; \l et \p ouvrent une pause « ▼ » ;
+        # 4 lignes au plus. Vaut aussi pour les textes officiels, mis en page pour d'autres écrans.
+        fichier0 = occs[0][0] if occs else ''
+        if 'species_info' in fichier0 and re.search(r'\\n', msgid):
+            if re.search(r'\\[lp]', msgstr):
+                pb.append(('LARGEUR', 'Pokédex : \\l ou \\p (pause en cours de description)'))
+            elif len(lignes(msgstr)) > 4:
+                pb.append(('LARGEUR', 'Pokédex : %d lignes > 4' % len(lignes(msgstr))))
+            else:
+                w = max(self.g.largeur(l) for l in lignes(msgstr))
+                if w > 224: pb.append(('LARGEUR', 'Pokédex : %d px > 224' % w))
         # champs fixes
         ch = self.champ(occs)
         if ch:

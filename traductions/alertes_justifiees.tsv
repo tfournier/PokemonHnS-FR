@@ -45,3 +45,5 @@ GLOSSAIRE		Same rules as NORMAL but also\ndeletes SAVE on battle loss!	Nom du mo
 GLOSSAIRE		Steven Multi	Décision 16 : Steven = PIERRE (Émeraude FR, capitales) ; le glossaire PIERRE → Pierre vise Brock (Kanto). Le vérificateur n’exclut les noms de personnages que pour une source « Émeraude FR » : fausse alerte (menu de debug : combat Multi avec Steven)
 LARGEUR		Canceled reading\nthe Card.	Fausse alerte de largeur : la limite 88 px est la ligne anglaise ; le message s’affiche dans la fenêtre WIN_MSG du Cadeau Mystère (28 tuiles = 224 px, mystery_gift_menu.c) : 101 px tiennent
 LARGEUR		\nEnvironment & Tool Programmers\n\n\n\n\n	Fausse alerte de largeur : la limite 164 px est la ligne anglaise ; titre imprimé à x = 2 dans sCreditsWindowTemplate, 30 tuiles = 240 px (credits_frlg.c) : 197 + 2 px tiennent
+ESPACE		's	possessif anglais collé au nom (« X's ») ; en français « X de » demande une espace avant
+ESPACE		's 	radio : « MARIE: X's » devient « MARIE: X est », l'espace avant est nécessaire

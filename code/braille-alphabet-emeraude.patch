@@ -1,0 +1,50 @@
+--- a/data/text/braille.inc	2026-11-22 20:32:48
++++ b/data/text/braille.inc	2026-11-22 20:32:48
+@@ -8,31 +8,31 @@
+ 
+ SealedChamber_OuterRoom_Braille_ABC:
+ 	brailleformat 7, 6, 21, 13, 10, 9
+-	.braille "ABC$"
++	.braille "ABCD$"
+ 
+ SealedChamber_OuterRoom_Braille_GHI:
+ 	brailleformat 7, 6, 21, 13, 10, 9
+-	.braille "GHI$"
++	.braille "IJKL$"
+ 
+ SealedChamber_OuterRoom_Braille_MNO:
+ 	brailleformat 7, 6, 21, 13, 10, 9
+-	.braille "MNO$"
++	.braille "QRST$"
+ 
+ SealedChamber_OuterRoom_Braille_TUV:
+ 	brailleformat 7, 6, 21, 13, 10, 9
+-	.braille "TUV$"
++	.braille "YZ$"
+ 
+ SealedChamber_OuterRoom_Braille_DEF:
+ 	brailleformat 7, 6, 21, 13, 10, 9
+-	.braille "DEF$"
++	.braille "EFGH$"
+ 
+ SealedChamber_OuterRoom_Braille_JKL:
+ 	brailleformat 7, 6, 21, 13, 10, 9
+-	.braille "JKL$"
++	.braille "MNOP$"
+ 
+ SealedChamber_OuterRoom_Braille_PQRS:
+ 	brailleformat 7, 6, 21, 13, 10, 9
+-	.braille "PQRS$"
++	.braille "UVWX$"
+ 
+ SealedChamber_OuterRoom_Braille_Period:
+ 	brailleformat 9, 6, 19, 13, 12, 9
+@@ -40,7 +40,7 @@
+ 
+ SealedChamber_OuterRoom_Braille_WXYZ:
+ 	brailleformat 7, 6, 21, 13, 10, 9
+-	.braille "WXYZ$"
++	.braille "-$"
+ 
+ SealedChamber_OuterRoom_Braille_Comma:
+ 	brailleformat 9, 6, 19, 13, 12, 9

@@ -1,0 +1,14 @@
+--- a/src/pokedex.c	2026-11-22 20:37:15
++++ b/src/pokedex.c	2026-11-22 20:37:15
+@@ -4451,10 +4451,8 @@
+     weightString[index++] = CHAR_DEC_SEPARATOR;
+     weightString[index++] = (lbs / 10) + CHAR_0;
+     weightString[index++] = CHAR_SPACE;
+-    weightString[index++] = CHAR_l;
++    weightString[index++] = CHAR_l;   // traduction FR : « lb » (livre) au lieu de « lbs. »
+     weightString[index++] = CHAR_b;
+-    weightString[index++] = CHAR_s;
+-    weightString[index++] = CHAR_PERIOD;
+     weightString[index++] = EOS;
+ 
+     return weightString;

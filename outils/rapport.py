@@ -85,11 +85,14 @@ for d in ('dialogues', 'menus', 'donnees', 'contextes'):
         if e.msgstr: homog.add(e.msgstr)
 ca = collections.Counter(); autres = []
 for x in a:
+    x = list(x); x[2] = re.split(r'\s{2,}', x[2])[-1].strip() or x[2]   # octets parasites décodés devant le texte
+    for i in range(len(x[2])):   # idem sans espaces : « ËZero » → « Zero »
+        if x[2][i:] in ident or x[2][i:] in homog: x[2] = x[2][i:]; break
     if re.match(r'^(MUS|SE|PH)-', x[2]): ca['identifiants du test sonore (exception)'] += 1
     elif x[2] in ident: ca['texte identique en français (nom propre ou exception justifiée)'] += 1
     elif '(exclu)' in x[3]: ca['fichier exclu volontairement (pseudonymes des crédits, claviers)'] += 1
     elif x[2] in homog: ca['texte français officiel identique à un autre texte anglais (ex. CORDELL → JIMMY)'] += 1
-    elif x[0] == '(source inconnue)': ca['bruit de détection (données binaires décodées par hasard)'] += 1
+    elif x[0].startswith('données binaires'): ca['données binaires de tuiles/graphismes (octets qui ressemblent à du texte, jamais affichés)'] += 1
     else: ca['à vérifier'] += 1; autres.append(x[2][:40])
 snd = ca['identifiants du test sonore (exception)']
 w('- Chaînes anglaises de la ROM de référence encore présentes (`outils/controle_anglais.py`) : %d — %s. À vérifier : %s.' % (

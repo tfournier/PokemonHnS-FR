@@ -1593,7 +1593,7 @@ msgctxt "src/data/moves_info.h"
 msgid "PSYCHIC"
 msgstr "Psyko"
 
-#. source : Émeraude FR officiel (adapté)
+#. source : Émeraude FR officiel
 #. lot : corrections_contexte
 #. preuve : nom du type
 #: src/data/easy_chat/easy_chat_group_status.h:0
@@ -4417,12 +4417,14 @@ msgctxt "src/data/items.h"
 msgid "SITRUS BERRY"
 msgstr "Baie Sitrus"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59EAF3
+#. ancien (traduction nouvelle) : JOUER
 #: src/data/easy_chat/easy_chat_group_feelings.h:0
 msgctxt "src/data/easy_chat/easy_chat_group_feelings.h"
 msgid "PLAY"
-msgstr "JOUER"
+msgstr "SATISFAIT"
 
 #. source : Émeraude FR officiel
 #. lot : C1_restes
@@ -4433,19 +4435,23 @@ msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
 msgid "MAGAZINE"
 msgstr "MAGAZINES"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D908
+#. ancien (traduction nouvelle) : RIVAL
 #: src/data/easy_chat/easy_chat_group_people.h:0
 msgctxt "src/data/easy_chat/easy_chat_group_people.h"
 msgid "RIVAL"
-msgstr "RIVAL"
+msgstr "JEUNE"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E714
+#. ancien (traduction nouvelle) : SUR
 #: src/data/easy_chat/easy_chat_group_endings.h:0
 msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
 msgid "ON"
-msgstr "SUR"
+msgstr "VEUX"
 
 #. source : Émeraude FR officiel
 #. lot : C1_restes
@@ -4465,33 +4471,41 @@ msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
 msgid "ALL"
 msgstr "TOUT"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A0B71
+#. ancien (traduction nouvelle) : ANTICIPATION
 #: src/data/easy_chat/easy_chat_group_adjectives.h:0
 msgctxt "src/data/easy_chat/easy_chat_group_adjectives.h"
 msgid "ANTICIPATION"
-msgstr "ANTICIPATION"
+msgstr "ATTENDU"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59F7D8
+#. ancien (traduction nouvelle) : POSSEDER
 #: src/data/easy_chat/easy_chat_group_actions.h:0
 msgctxt "src/data/easy_chat/easy_chat_group_actions.h"
 msgid "OWN"
-msgstr "POSSEDER"
+msgstr "ECOUTE"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59CFAE
+#. ancien (traduction nouvelle) : ATOUT
 #: src/data/easy_chat/easy_chat_group_battle.h:0
 msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
 msgid "TRUMP CARD"
-msgstr "ATOUT"
+msgstr "AVANTAGE"
 
-#. source : traduction nouvelle
-#. lot : C1_restes
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A07C4
+#. ancien (traduction nouvelle) : SUIS
 #: src/data/easy_chat/easy_chat_group_misc.h:0
 msgctxt "src/data/easy_chat/easy_chat_group_misc.h"
 msgid "AM"
-msgstr "SUIS"
+msgstr "PROPRE"
 
 #. source : SoulSilver FR officiel
 #. lot : C1_restes
@@ -4623,3 +4637,2109 @@ msgstr "Glubb! J’me noie!"
 msgctxt "data/maps/SSAnne_CaptainsOffice_Frlg/scripts.inc"
 msgid "Yuck!\\nShouldn't have looked!"
 msgstr "Quoi?!?\\nIl a mangé ça???"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C427
+#: src/data/easy_chat/easy_chat_group_trainer.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "TRADE"
+msgstr "ECHANGER"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C44C
+#: src/data/easy_chat/easy_chat_group_trainer.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "NATURE"
+msgstr "NATURE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C45F
+#: src/data/easy_chat/easy_chat_group_trainer.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "LINK"
+msgstr "CONNEXION"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C484
+#: src/data/easy_chat/easy_chat_group_trainer.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "POKéNAV"
+msgstr "POKéNAV"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C4C7
+#: src/data/easy_chat/easy_chat_group_trainer.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "GOLD"
+msgstr "OR"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C4D2
+#: src/data/easy_chat/easy_chat_group_trainer.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "SILVER"
+msgstr "ARGENT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C631
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "STENCH"
+msgstr "PUANTEUR"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C63A
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "THICK FAT"
+msgstr "ISOGRAISSE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C645
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "RAIN DISH"
+msgstr "CUVETTE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C64D
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "DRIZZLE"
+msgstr "CRACHIN"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C655
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "ARENA TRAP"
+msgstr "PIEGE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C65B
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "INTIMIDATE"
+msgstr "INTIMIDATION"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C668
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "ROCK HEAD"
+msgstr "TETE DE ROC"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C6A1
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "AIR LOCK"
+msgstr "AIR LOCK"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C6AE
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "HYPER CUTTER"
+msgstr "HYPER CUTTER"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C6C2
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "SHADOW TAG"
+msgstr "MARQUE OMBRE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C6CF
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "SMART"
+msgstr "INTELLIGENT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C6E8
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "SPEED BOOST"
+msgstr "TURBO"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C6EE
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "COOL"
+msgstr "COOL"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C6FE
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "BATTLE ARMOR"
+msgstr "ARMURBASTON"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C70A
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "CUTE"
+msgstr "GRACIEUX"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C721
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "SUCTION CUPS"
+msgstr "VENTOUSE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C731
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "CLEAR BODY"
+msgstr "CORPS SAIN"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C73C
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "TORRENT"
+msgstr "TORRENT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C752
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "GUTS"
+msgstr "CRAN"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C757
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "ROUGH SKIN"
+msgstr "PEAU DURE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C761
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "SHELL ARMOR"
+msgstr "COQUE ARMURE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C76E
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "NATURAL CURE"
+msgstr "MEDIC NATURE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C77B
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "DAMP"
+msgstr "MOITEUR"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C787
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "LIMBER"
+msgstr "ECHAUFFEMENT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C794
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "MAGNET PULL"
+msgstr "MAGNEPIEGE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C79F
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "WHITE SMOKE"
+msgstr "ECRAN FUMEE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C7B3
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "OVERGROW"
+msgstr "ENGRAIS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C7BB
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "SWIFT SWIM"
+msgstr "GLISSADE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C7C4
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "SAND STREAM"
+msgstr "SABLE VOLANT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C7D1
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "SAND VEIL"
+msgstr "VOILE SABLE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C7DD
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "KEEN EYE"
+msgstr "REGARD VIF"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C7E8
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "INNER FOCUS"
+msgstr "OBJECTIF"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C7F1
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "STATIC"
+msgstr "STATIK"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C7FD
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "TOUGH"
+msgstr "CORIACE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C810
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "SHED SKIN"
+msgstr "MUE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C814
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "HUGE POWER"
+msgstr "COLOFORCE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C81E
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "VOLT ABSORB"
+msgstr "ABSORB VOLT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C82A
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "WATER ABSORB"
+msgstr "ABSORB EAU"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C83E
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "FORECAST"
+msgstr "METEO"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C844
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "SERENE GRACE"
+msgstr "SERENITE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C854
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "POISON POINT"
+msgstr "POINT POISON"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C868
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "TRACE"
+msgstr "CALQUE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C86F
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "OBLIVIOUS"
+msgstr "BENET"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C875
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "TRUANT"
+msgstr "ABSENTEISME"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C881
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "RUN AWAY"
+msgstr "FUITE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C887
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "STICKY HOLD"
+msgstr "GLUE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C88C
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "CLOUD NINE"
+msgstr "CIEL GRIS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C8A3
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "ILLUMINATE"
+msgstr "LUMIATIRANCE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C8B0
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "EARLY BIRD"
+msgstr "MATINAL"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C8B8
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "HUSTLE"
+msgstr "AGITATION"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C8CD
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "DROUGHT"
+msgstr "SECHERESSE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C8D8
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "LIGHTNINGROD"
+msgstr "PARATONNERRE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C8E5
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "COMPOUNDEYES"
+msgstr "OEIL COMPOSE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C8F2
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "MARVEL SCALE"
+msgstr "ECAILLE SPE."
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C8FF
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "WONDER GUARD"
+msgstr "GARDE MYSTIK"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C90C
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "INSOMNIA"
+msgstr "INSOMNIA"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C915
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "LEVITATE"
+msgstr "LEVITATION"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C920
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "PLUS"
+msgstr "PLUS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C925
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "PRESSURE"
+msgstr "PRESSION"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C92E
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "LIQUID OOZE"
+msgstr "SUINTEMENT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C939
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "COLOR CHANGE"
+msgstr "DEGUISEMENT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C945
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "SOUNDPROOF"
+msgstr "ANTI-BRUIT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C950
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "EFFECT SPORE"
+msgstr "POSE SPORE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C95B
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "{PK}RS"
+msgstr "POKéRUS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C967
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "FLAME BODY"
+msgstr "CORPS ARDENT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C974
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "MINUS"
+msgstr "MINUS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C97A
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "OWN TEMPO"
+msgstr "TEMPO PERSO"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C986
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "MAGMA ARMOR"
+msgstr "ARMUMAGMA"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C994
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "WATER VEIL"
+msgstr "IGNIFU-VOILE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C9A9
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "SWARM"
+msgstr "ESSAIM"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C9B0
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "CUTE CHARM"
+msgstr "JOLI SOURIRE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C9BD
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "IMMUNITY"
+msgstr "VACCIN"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C9C4
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "BLAZE"
+msgstr "BRASIER"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C9CC
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "PICKUP"
+msgstr "RAMASSAGE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C9DD
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "FLASH FIRE"
+msgstr "TORCHE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C9E4
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "VITAL SPIRIT"
+msgstr "ESPRIT VITAL"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C9F1
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "CHLOROPHYLL"
+msgstr "CHLOROPHYLE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59C9FD
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "PURE POWER"
+msgstr "FORCE PURE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59CA08
+#: src/data/easy_chat/easy_chat_group_status.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_status.h"
+msgid "SHIELD DUST"
+msgstr "ECRAN POUDRE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59CF34
+#: src/data/easy_chat/easy_chat_group_battle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "MATCH UP"
+msgstr "TECHNIQUE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59CF3E
+#: src/data/easy_chat/easy_chat_group_battle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "GO"
+msgstr "ALLEZ"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59CF51
+#: src/data/easy_chat/easy_chat_group_battle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "LET ME WIN"
+msgstr "TENACITE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59CFC2
+#: src/data/easy_chat/easy_chat_group_battle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "COME ON"
+msgstr "ASSURER"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59CFCA
+#: src/data/easy_chat/easy_chat_group_battle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "ATTACK"
+msgstr "ATTAQUER"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D013
+#: src/data/easy_chat/easy_chat_group_battle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "SENSE"
+msgstr "SENS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D027
+#: src/data/easy_chat/easy_chat_group_battle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "POWER"
+msgstr "PUISSANT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D030
+#: src/data/easy_chat/easy_chat_group_battle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "CHALLENGE"
+msgstr "DEFI"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D071
+#: src/data/easy_chat/easy_chat_group_battle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "BATTLE"
+msgstr "LUTTE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D077
+#: src/data/easy_chat/easy_chat_group_battle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "FIGHT"
+msgstr "COMBATTRE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D120
+#: src/data/easy_chat/easy_chat_group_battle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "LEADER"
+msgstr "LEADER"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D12C
+#: src/data/easy_chat/easy_chat_group_battle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "MOVE"
+msgstr "CAPACITE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D48D
+#: src/data/easy_chat/easy_chat_group_greetings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_greetings.h"
+msgid "SORRY"
+msgstr "EXCUSE-MOI"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D498
+#: src/data/easy_chat/easy_chat_group_greetings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_greetings.h"
+msgid "APOLOGIZE"
+msgstr "ATTENTION"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D4E3
+#: src/data/easy_chat/easy_chat_group_greetings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_greetings.h"
+msgid "SEE YA"
+msgstr "A PLUS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D4EA
+#: src/data/easy_chat/easy_chat_group_greetings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_greetings.h"
+msgid "EXCUSE ME"
+msgstr "MONTRE-MOI"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D55A
+#: src/data/easy_chat/easy_chat_group_greetings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_greetings.h"
+msgid "LISTENING"
+msgstr "A PLUS!"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D78B
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "I"
+msgstr "JE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D7C5
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "BOY"
+msgstr "GARCON"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D815
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "HER"
+msgstr "TA"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D81F
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "PLACE"
+msgstr "IL A"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D82B
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "HE'S"
+msgstr "IL EST"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D846
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "MR."
+msgstr "MONSIEUR"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D869
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "MY"
+msgstr "MON"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D86D
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "I AM"
+msgstr "JE SUIS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D895
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "IT'S"
+msgstr "C’EST"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D89B
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "LADY"
+msgstr "JEUNE FILLE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D8A7
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "FRIEND"
+msgstr "AMIS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D8BB
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "DUDE"
+msgstr "MEC"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D8E9
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "WE"
+msgstr "NOUS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D8FB
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "WE'RE"
+msgstr "NOUS VOULONS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D90E
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "WE'VE"
+msgstr "NOUS AVONS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D91F
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "SHE"
+msgstr "ELLE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59D92F
+#: src/data/easy_chat/easy_chat_group_people.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_people.h"
+msgid "TO HER"
+msgstr "ELLE A"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DCD0
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "!"
+msgstr "!"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DCD2
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "!!"
+msgstr "!!"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DCD5
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "?!"
+msgstr "?!"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DCD8
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "?"
+msgstr "?"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DCDA
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "…"
+msgstr "…"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DCDC
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "…!"
+msgstr "…!"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DCDF
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "………"
+msgstr "………"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DCE3
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "-"
+msgstr "-"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DCE5
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "- - -"
+msgstr "---"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DCE9
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "UH-OH"
+msgstr "HUM HUM"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DD1B
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "WROOOAAR!"
+msgstr "AHHHHH!"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DD37
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "SIGH"
+msgstr "SNIFF"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DD58
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "EH?"
+msgstr "QUOI?"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DD6E
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "OI, OI, OI"
+msgstr "AIE AIE AIE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DDA0
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "GWAHAHAHA"
+msgstr "CRRRRR"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DDC6
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "HAHAHA"
+msgstr "BEURK"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DDCC
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "AIYEEH"
+msgstr "YOUHOU!"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DDD4
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "HIYAH"
+msgstr "OUAIP"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59DDF5
+#: src/data/easy_chat/easy_chat_group_voices.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "HUMPH"
+msgstr "HOURRA"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E17B
+#: src/data/easy_chat/easy_chat_group_speech.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_speech.h"
+msgid "LAY"
+msgstr "ENCORE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E182
+#: src/data/easy_chat/easy_chat_group_speech.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_speech.h"
+msgid "RECOMMEND"
+msgstr "TROP"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E1B7
+#: src/data/easy_chat/easy_chat_group_speech.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_speech.h"
+msgid "MISS"
+msgstr "L’"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E228
+#: src/data/easy_chat/easy_chat_group_speech.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_speech.h"
+msgid "JUST"
+msgstr "JUSTE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E24B
+#: src/data/easy_chat/easy_chat_group_speech.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_speech.h"
+msgid "UNDERSTOOD"
+msgstr "COMPRIS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E2CC
+#: src/data/easy_chat/easy_chat_group_speech.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_speech.h"
+msgid "AS IF"
+msgstr "COMME SI"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E2F0
+#: src/data/easy_chat/easy_chat_group_speech.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_speech.h"
+msgid "MODE"
+msgstr "MOINS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E61E
+#: src/data/easy_chat/easy_chat_group_endings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "IS IT?"
+msgstr "D’ACCORD?"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E628
+#: src/data/easy_chat/easy_chat_group_endings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "BE"
+msgstr "ETRE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E652
+#: src/data/easy_chat/easy_chat_group_endings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "LET'S"
+msgstr "SOIS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E692
+#: src/data/easy_chat/easy_chat_group_endings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "DO"
+msgstr "JE PERDS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E6C0
+#: src/data/easy_chat/easy_chat_group_endings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "HAVE"
+msgstr "AVOIR"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E6D1
+#: src/data/easy_chat/easy_chat_group_endings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "A"
+msgstr "UN"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E6D4
+#: src/data/easy_chat/easy_chat_group_endings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "AN"
+msgstr "UNE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E702
+#: src/data/easy_chat/easy_chat_group_endings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "IT"
+msgstr "TU VEUX"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E719
+#: src/data/easy_chat/easy_chat_group_endings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "OFF"
+msgstr "VONT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E71E
+#: src/data/easy_chat/easy_chat_group_endings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "AS"
+msgstr "DONC"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E723
+#: src/data/easy_chat/easy_chat_group_endings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "TO"
+msgstr "TU FAIS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E736
+#: src/data/easy_chat/easy_chat_group_endings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "EVER"
+msgstr "AIME"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59E748
+#: src/data/easy_chat/easy_chat_group_endings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "AT"
+msgstr "LA-BAS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59EAFD
+#: src/data/easy_chat/easy_chat_group_feelings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_feelings.h"
+msgid "HURRIED"
+msgstr "PRESSE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59EB2F
+#: src/data/easy_chat/easy_chat_group_feelings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_feelings.h"
+msgid "IMPORTANT"
+msgstr "IMPRESSIONNE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59EB54
+#: src/data/easy_chat/easy_chat_group_feelings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_feelings.h"
+msgid "DISAPPOINTED"
+msgstr "DECU"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59EBB3
+#: src/data/easy_chat/easy_chat_group_feelings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_feelings.h"
+msgid "ANGER"
+msgstr "COLERE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59EC04
+#: src/data/easy_chat/easy_chat_group_feelings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_feelings.h"
+msgid "LIKES"
+msgstr "INQUIET"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59EC30
+#: src/data/easy_chat/easy_chat_group_feelings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_feelings.h"
+msgid "ALL RIGHT"
+msgstr "ETONNE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59ECCB
+#: src/data/easy_chat/easy_chat_group_feelings.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_feelings.h"
+msgid "DONE"
+msgstr "FURAX"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59F0F7
+#: src/data/easy_chat/easy_chat_group_conditions.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_conditions.h"
+msgid "DOCILE"
+msgstr "DOCILE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59F1B0
+#: src/data/easy_chat/easy_chat_group_conditions.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_conditions.h"
+msgid "SKILL"
+msgstr "HABILETE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59F1D3
+#: src/data/easy_chat/easy_chat_group_conditions.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_conditions.h"
+msgid "NONE"
+msgstr "AUCUN"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59F261
+#: src/data/easy_chat/easy_chat_group_conditions.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_conditions.h"
+msgid "SIMPLE"
+msgstr "SIMPLE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59F64F
+#: src/data/easy_chat/easy_chat_group_actions.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_actions.h"
+msgid "CHANGE"
+msgstr "CHANGE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59F6C7
+#: src/data/easy_chat/easy_chat_group_actions.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_actions.h"
+msgid "REFUSE"
+msgstr "REFUSE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59F6F2
+#: src/data/easy_chat/easy_chat_group_actions.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_actions.h"
+msgid "SLIDE"
+msgstr "GLISSE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59F6FF
+#: src/data/easy_chat/easy_chat_group_actions.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_actions.h"
+msgid "USE"
+msgstr "UTILISE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59F75D
+#: src/data/easy_chat/easy_chat_group_actions.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_actions.h"
+msgid "RELEASE"
+msgstr "LIBERE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59F7DF
+#: src/data/easy_chat/easy_chat_group_actions.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_actions.h"
+msgid "TAKE"
+msgstr "PRENDS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59FC1B
+#: src/data/easy_chat/easy_chat_group_lifestyle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_lifestyle.h"
+msgid "STORE"
+msgstr "MAGASIN"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59FC48
+#: src/data/easy_chat/easy_chat_group_lifestyle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_lifestyle.h"
+msgid "LESSONS"
+msgstr "DEVOIRS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59FC50
+#: src/data/easy_chat/easy_chat_group_lifestyle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_lifestyle.h"
+msgid "INFORMATION"
+msgstr "INFORMATIONS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59FCE5
+#: src/data/easy_chat/easy_chat_group_lifestyle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_lifestyle.h"
+msgid "MACHINE"
+msgstr "ORDINATEUR"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59FCF0
+#: src/data/easy_chat/easy_chat_group_lifestyle.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_lifestyle.h"
+msgid "MAIL"
+msgstr "COURRIER"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59FF4C
+#: src/data/easy_chat/easy_chat_group_hobbies.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
+msgid "IDOL"
+msgstr "STAR"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59FF75
+#: src/data/easy_chat/easy_chat_group_hobbies.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
+msgid "CHAT"
+msgstr "DISCUTER"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59FFB7
+#: src/data/easy_chat/easy_chat_group_hobbies.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
+msgid "VIEWING"
+msgstr "FOYER"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59FFEA
+#: src/data/easy_chat/easy_chat_group_hobbies.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
+msgid "COMPLETE"
+msgstr "JEUX VIDEO"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x59FFFF
+#: src/data/easy_chat/easy_chat_group_hobbies.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
+msgid "WALK"
+msgstr "COURSE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A006D
+#: src/data/easy_chat/easy_chat_group_hobbies.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
+msgid "DESIGN"
+msgstr "DESSIN"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A0089
+#: src/data/easy_chat/easy_chat_group_hobbies.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
+msgid "PC"
+msgstr "INFORMATIQUE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A00AD
+#: src/data/easy_chat/easy_chat_group_hobbies.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
+msgid "HEROINE"
+msgstr "HEROINE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A00C3
+#: src/data/easy_chat/easy_chat_group_hobbies.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
+msgid "BOARD"
+msgstr "BATEAU"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A00CA
+#: src/data/easy_chat/easy_chat_group_hobbies.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
+msgid "BALL"
+msgstr "FOOTBALL"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A00EF
+#: src/data/easy_chat/easy_chat_group_hobbies.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
+msgid "PLANS"
+msgstr "LECTURE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A010A
+#: src/data/easy_chat/easy_chat_group_hobbies.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
+msgid "LOOK"
+msgstr "COCOONING"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A03CF
+#: src/data/easy_chat/easy_chat_group_time.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_time.h"
+msgid "CURRENT"
+msgstr "ACTUELLEMENT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A0432
+#: src/data/easy_chat/easy_chat_group_time.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_time.h"
+msgid "TIME"
+msgstr "TEMPS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A0452
+#: src/data/easy_chat/easy_chat_group_time.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_time.h"
+msgid "START"
+msgstr "COMMENCER"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A048B
+#: src/data/easy_chat/easy_chat_group_time.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_time.h"
+msgid "SUMMER"
+msgstr "ETE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A0723
+#: src/data/easy_chat/easy_chat_group_misc.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_misc.h"
+msgid "UM"
+msgstr "FACON"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A079B
+#: src/data/easy_chat/easy_chat_group_misc.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_misc.h"
+msgid "DOWN"
+msgstr "ANTICIPATION"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A07DA
+#: src/data/easy_chat/easy_chat_group_misc.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_misc.h"
+msgid "UP"
+msgstr "SUR"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A0B3A
+#: src/data/easy_chat/easy_chat_group_adjectives.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_adjectives.h"
+msgid "INCREASING"
+msgstr "EN HAUSSE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A0D2C
+#: src/data/easy_chat/easy_chat_group_events.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "APPEAL"
+msgstr "CHARME"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A0D3E
+#: src/data/easy_chat/easy_chat_group_events.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "STAY-AT-HOME"
+msgstr "ARENE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A0D44
+#: src/data/easy_chat/easy_chat_group_events.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "BERRY"
+msgstr "BAIE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A0D52
+#: src/data/easy_chat/easy_chat_group_events.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "MC"
+msgstr "ANIMATRICE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A0D62
+#: src/data/easy_chat/easy_chat_group_events.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "SUPER"
+msgstr "SUPER"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A0D87
+#: src/data/easy_chat/easy_chat_group_events.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "BATTLE TOWER"
+msgstr "TOUR COMBAT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A0DBF
+#: src/data/easy_chat/easy_chat_group_events.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "{POKEBLOCK}"
+msgstr "{POKEBLOCK}"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A0DC5
+#: src/data/easy_chat/easy_chat_group_events.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "MASTER"
+msgstr "MAITRE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A1235
+#: src/data/easy_chat/easy_chat_group_trendy_saying.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_trendy_saying.h"
+msgid "YES, SIR!"
+msgstr "CA BICHE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A1285
+#: src/data/easy_chat/easy_chat_group_trendy_saying.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_trendy_saying.h"
+msgid "CANCEL"
+msgstr "EN VOGUE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A1291
+#: src/data/easy_chat/easy_chat_group_trendy_saying.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_trendy_saying.h"
+msgid "FLATTEN"
+msgstr "HAS BEEN"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A12E6
+#: src/data/easy_chat/easy_chat_group_trendy_saying.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_trendy_saying.h"
+msgid "MODERN"
+msgstr "33 TOURS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A12FB
+#: src/data/easy_chat/easy_chat_group_trendy_saying.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_trendy_saying.h"
+msgid "KNOCKOUT"
+msgstr "SACRIPANT"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A1329
+#: src/data/easy_chat/easy_chat_group_trendy_saying.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_trendy_saying.h"
+msgid "BABY"
+msgstr "COOL RAOUL"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A1334
+#: src/data/easy_chat/easy_chat_group_trendy_saying.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_trendy_saying.h"
+msgid "HEART"
+msgstr "DONZELLE"
+
+#. source : Émeraude FR officiel
+#. lot : EC_vocabulaire
+#. preuve : 0x5A133D
+#: src/data/easy_chat/easy_chat_group_trendy_saying.h:0
+msgctxt "src/data/easy_chat/easy_chat_group_trendy_saying.h"
+msgid "OLD"
+msgstr "RELAX, MAX"
+
+#. source : Émeraude FR officiel
+#. lot : EC_noms
+#: src/data/battle_frontier/battle_frontier_trainers.h:0
+msgctxt "src/data/battle_frontier/battle_frontier_trainers.h"
+msgid "MARCO"
+msgstr "TARIK"
+
+#. source : Émeraude FR officiel
+#. lot : EC_noms
+#: src/data/battle_frontier/battle_frontier_trainers.h:0
+msgctxt "src/data/battle_frontier/battle_frontier_trainers.h"
+msgid "TRISTAN"
+msgstr "GILDAS"
+
+#. source : Émeraude FR officiel
+#. lot : EC_noms
+#: src/data/battle_frontier/battle_frontier_trainers.h:0
+msgctxt "src/data/battle_frontier/battle_frontier_trainers.h"
+msgid "LAMAR"
+msgstr "LAMAR"
+
+#. source : Émeraude FR officiel
+#. lot : EC_noms
+#: src/data/battle_frontier/battle_frontier_trainers.h:0
+msgctxt "src/data/battle_frontier/battle_frontier_trainers.h"
+msgid "REGINA"
+msgstr "REGINA"
+
+#. source : Émeraude FR officiel
+#. lot : EC_noms
+#: src/data/battle_frontier/battle_tent.h:0
+msgctxt "src/data/battle_frontier/battle_tent.h"
+msgid "DENNIS"
+msgstr "DENNIS"
+
+#. source : Émeraude FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "GO UP HERE."
+msgstr "RENDS-TOI\\nDANS LES\\nPROFONDEURS'"
+
+#. source : Émeraude FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "."
+msgstr "'"
+
+#. source : Émeraude FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid ","
+msgstr ","
+
+#. source : Émeraude FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "DIG HERE."
+msgstr "RETOURNE\\nLA TERRE'"
+
+#. source : Émeraude FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "FIRST COMES\\nWAILORD.\\nLAST COMES\\nRELICANTH."
+msgstr "COMMENCE PAR\\nWAILORD\\nET FINIS AVEC\\nRELICANTH'"
+
+#. source : Émeraude FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "IN THIS\\nCAVE WE\\nHAVE\\nLIVED."
+msgstr "DANS CETTE\\nCAVERNE VIVAIT\\nAUTREFOIS\\nNOTRE PEUPLE'"
+
+#. source : Émeraude FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "WE OWE ALL\\nTO THE\\nPOKEMON."
+msgstr "NOUS DEVONS\\nTOUT AUX\\nPOKEMON'"
+
+#. source : Émeraude FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "BUT, WE\\nSEALED THE\\nPOKEMON\\nAWAY."
+msgstr "MAIS NOUS LES\\nAVONS RETENUS\\nLOIN DE NOUS'"
+
+#. source : Émeraude FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "WE FEARED IT."
+msgstr "JADIS, NOUS\\nCRAIGNIONS LES\\nPOKEMON'"
+
+#. source : Émeraude FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "THOSE WITH\\nCOURAGE,\\nTHOSE WITH\\nHOPE."
+msgstr "DEMONTRE TON\\nCOURAGE'"
+
+#. source : Émeraude FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "OPEN A DOOR.\\nAN ETERNAL\\nPOKEMON\\nWAITS."
+msgstr "OUVRE LA PORTE\\nET LIBERE UN\\nPOKEMON\\nETERNEL'"
+
+#. source : Émeraude FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "LEFT, LEFT,\\nDOWN, DOWN.\\nTHEN, USE\\nROCK SMASH."
+msgstr "GAUCHE,\\nGAUCHE, BAS,\\nBAS ET UTILISE\\nECLATE-ROC'"
+
+#. source : Émeraude FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "STAY CLOSE\\nTO THE WALL.\\nRUN AROUND\\nONE LAP."
+msgstr "RESTE PRES\\nDU MUR'\\nTOURNE AUTOUR\\nUNE FOIS'"
+
+#. source : Émeraude FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "THOSE WHO\\nINHERIT OUR\\nWILL, SHINE\\nIN THE MIDDLE."
+msgstr "HERITEZ DE\\nNOTRE VOLONTE,\\nEN BRILLANT AU\\nMILIEU'"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "UP"
+msgstr "HAUT"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "DOWN"
+msgstr "BAS"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "RIGHT"
+msgstr "DROITE"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "LEFT"
+msgstr "GAUCHE"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "CUT"
+msgstr "COUPE"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "ABC"
+msgstr "ABC"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "GHI"
+msgstr "GHI"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "MNO"
+msgstr "MNO"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "TUV"
+msgstr "TUV"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "DEF"
+msgstr "DEF"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "JKL"
+msgstr "JKL"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "PQRS"
+msgstr "PQRS"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "WXYZ"
+msgstr "WXYZ"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "EVERYTHING"
+msgstr "TOUT"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "HAS MEANING"
+msgstr "A UN SENS"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "EXISTENCE"
+msgstr "EXISTENCE"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "BEING ALIVE"
+msgstr "ETRE VIVANT"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "HAVE DREAMS"
+msgstr "CROIS EN TOI"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "USE POWER."
+msgstr "BATS TOI'"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "LET THE TWO"
+msgstr "LAISSE LES"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "GLITTERING"
+msgstr "DEUX PIERRES"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "STONES"
+msgstr "BRILLANTES"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "ONE IN RED"
+msgstr "UNE EN ROUGE"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "ONE IN BLUE"
+msgstr "UNE EN BLEU"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "CONNECT THE"
+msgstr "CONNECTER LE"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "PAST."
+msgstr "PASSE'"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "TWO FRIENDS"
+msgstr "PARTAGER LA"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "SHARING"
+msgstr "FORCE A DEUX"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "POWER OPEN"
+msgstr "AMIS OUVRE"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "A WINDOW TO"
+msgstr "LA PORTE"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "A NEW WORLD"
+msgstr "D UN MONDE"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "THAT GLOWS."
+msgstr "NOUVEAU'"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "THE NEXT"
+msgstr "LE MONDE"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "WORLD WAITS"
+msgstr "SUIVANT"
+
+#. source : Rouge Feu FR officiel
+#. lot : B_braille
+#: data/text/braille.inc:0
+msgctxt "data/text/braille.inc"
+msgid "FOR YOU."
+msgstr "T ATTEND'"

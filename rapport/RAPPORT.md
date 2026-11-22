@@ -6,27 +6,27 @@ Rapport généré par `outils/rapport.py`. Détails : `DECISIONS.md`, `rapport/E
 
 | Source | dialogues | menus | donnees | contextes | Total |
 |---|---|---|---|---|---|
-| Émeraude FR officiel | 7022 | 1918 | 4684 | 36 | **13660** |
-| Émeraude FR officiel (adapté) | 86 | 200 | 208 | 9 | **503** |
+| Émeraude FR officiel | 7034 | 1928 | 4701 | 279 | **13942** |
+| Émeraude FR officiel (adapté) | 86 | 200 | 208 | 8 | **502** |
 | SoulSilver FR officiel | 1494 | 457 | 847 | 233 | **3031** |
 | SoulSilver FR officiel (adapté) | 440 | 27 | 27 | 3 | **497** |
-| Rouge Feu FR officiel | 2216 | 38 | 0 | 11 | **2265** |
+| Rouge Feu FR officiel | 2241 | 38 | 0 | 46 | **2325** |
 | Rouge Feu FR officiel (adapté) | 913 | 18 | 16 | 141 | **1088** |
 | Pokédex FR officiel (jeux récents) | 0 | 0 | 310 | 0 | **310** |
 | patch FR existant (vérifié) | 374 | 39 | 1189 | 0 | **1602** |
-| patch FR existant | 1497 | 727 | 2656 | 0 | **4880** |
-| traduction nouvelle ou manuelle | 764 | 991 | 1077 | 116 | **2948** |
-| gardé tel quel (exception) | 48 | 113 | 258 | 8 | **427** |
+| patch FR existant | 1497 | 727 | 2655 | 0 | **4879** |
+| traduction nouvelle ou manuelle | 805 | 1035 | 1206 | 111 | **3157** |
+| gardé tel quel (exception) | 48 | 138 | 259 | 6 | **451** |
 | sans source | 0 | 0 | 1 | 7 | **8** |
-| **Total** | 14854 | 4528 | 11273 | 564 | **31219** |
+| **Total** | 14932 | 4607 | 11419 | 834 | **31792** |
 
 ## Construction et contrôles
 
-- Construction : `./build.sh` (make hns) — traduit: 38071 ; non traduit: 2.
+- Construction : `./build.sh` (make hns) — traduit: 38405 ; non traduit: 8.
 - `rapport/trop_longs.txt` : 0 texte(s) remis en anglais faute de place.
 - `rapport/images_a_revoir.txt` : 0 image(s) modifiée(s) par HnS depuis notre traduction.
 - Contrôles automatiques (`outils/verifier.py`, 100 % des entrées) : aucune alerte.
-- Chaînes anglaises de la ROM de référence encore présentes (`outils/controle_anglais.py`) : 454 — identifiants du test sonore (exception) 192, bruit de détection (données binaires décodées par hasard) 164, texte identique en français (nom propre ou exception justifiée) 84, texte français officiel identique à un autre texte anglais (ex. CORDELL → JIMMY) 13, fichier exclu volontairement (pseudonymes des crédits, claviers) 1. À vérifier : aucune.
+- Chaînes anglaises de la ROM de référence encore présentes (`outils/controle_anglais.py`) : 448 — texte identique en français (nom propre ou exception justifiée) 145, identifiants du test sonore (exception) 131, données binaires de tuiles/graphismes (octets qui ressemblent à du texte, jamais affichés) 124, texte français officiel identique à un autre texte anglais (ex. CORDELL → JIMMY) 47, fichier exclu volontairement (pseudonymes des crédits, claviers) 1. À vérifier : aucune.
 - Test aller-retour (`outils/test_aller_retour.py`, msgstr = msgid) : ROM identique à la référence (dernier passage consigné dans l’historique git).
 
 ## Relectures ChatGPT
@@ -48,7 +48,7 @@ Rapport généré par `outils/rapport.py`. Détails : `DECISIONS.md`, `rapport/E
 
 ## Images traduites
 
-170 fichiers (images et tilemaps) dans `images/`, par dossier : data/tilesets (11), graphics/bag (3), graphics/battle_frontier (1), graphics/battle_interface (13), graphics/berry_blender (2), graphics/contest (4), graphics/easy_chat (2), graphics/fonts (9), graphics/frontier_pass (3), graphics/interface (3), graphics/link (1), graphics/naming_screen (4), graphics/object_events (2), graphics/party_menu (1), graphics/pokeblock (3), graphics/pokedex (25), graphics/pokemon_jump (2), graphics/pokemon_storage (1), graphics/pokenav (37), graphics/shop (2), graphics/slot_machine (3), graphics/summary_screen (1), graphics/title_screen (2), graphics/trade (1), graphics/trainer_card (4), graphics/types (25), graphics/union_room_chat (3), graphics/voltorb_flip (2).
+200 fichiers (images et tilemaps) dans `images/`, par dossier : data/tilesets (11), graphics/bag (3), graphics/battle_frontier (1), graphics/battle_interface (19), graphics/berry_blender (2), graphics/contest (8), graphics/credits_frlg (2), graphics/dexnav (2), graphics/easy_chat (2), graphics/fonts (9), graphics/frontier_pass (3), graphics/interface (3), graphics/intro_frlg (1), graphics/link (2), graphics/misc (3), graphics/naming_screen (4), graphics/object_events (2), graphics/party_menu (1), graphics/pokeblock (3), graphics/pokedex (30), graphics/pokemon_jump (2), graphics/pokemon_storage (1), graphics/pokenav (38), graphics/roulette (2), graphics/shop (2), graphics/slot_machine (3), graphics/summary_screen (3), graphics/title_screen (2), graphics/trade (1), graphics/trainer_card (4), graphics/types (25), graphics/union_room_chat (3), graphics/voltorb_flip (3).
 
 Détail image par image, méthode et vérification : `rapport/images/RAPPORT.md`.
 
@@ -81,7 +81,7 @@ Détail image par image, méthode et vérification : `rapport/images/RAPPORT.md`
 - battle_environment.h (1) : nom d’environnement de combat (champ .name, affiché en debug) ; Koga (SoulSilver FR)
 - gen_9_families.h (1) : catégorie Pokédex (Olivini) : catégorie officielle FR « Pokémon Olive » (EV), identique à l’anglais
 - region_map_sections.json (1) : nom de lieu (carte) : Ruines Sinjoh, « Sinjoh » est le nom officiel SoulSilver FR
-- Identifiants du test sonore (MUS-…, SE-…, 192 chaînes) : générés à partir des noms de constantes du code, non traduisibles sans modifier le code ; écran de débogage.
+- Identifiants du test sonore (MUS-…, SE-…, 131 chaînes) : générés à partir des noms de constantes du code, non traduisibles sans modifier le code ; écran de débogage.
 - Code `{KUN}` (suffixe japonais) omis par les textes officiels français ; claviers (`src/text_input_strings.c`) non traduits volontairement.
 
 ## Points à valider par un humain
@@ -117,4 +117,16 @@ Ces points ont été tranchés provisoirement ; un œil humain (idéalement avec
 **Relecture**
 - Relecture ChatGPT différée faite (décision 19) : 244 corrections retenues sur 926 remarques ; les refus sont
   motivés dans `rapport/relectures/R_relecture_differee/arbitrage.tsv` et `traductions/lots/R_relecture_differee/contre_relecture.tsv`.
+
+**Phrases Easy Chat (lot EC_easychat, décision 25)**
+- 61 répliques composées à la main pour les Champions et Dresseurs ajoutés par HnS à la Zone de combat (liste et
+  texte dans `traductions/lots/EC_easychat/tables_easychat.tsv`, colonne « manuel ») : à relire en jeu.
+- Défaite de MORTY (« KTHX, BYE. ») : reprise de la réplique officielle identique d'une Dresseuse de Tente
+  (« CHENAPAN ! »), peu naturelle pour un Champion.
+- Trainer Tower ligne 2685 : mot remplacé par TERRIBLE (Rouge Feu et Émeraude n'ont pas le même mot au même index).
+- Mots de passe de l'Œuf Étrange inchangés (comparés par identifiant) ; les mots FR à saisir sont dans le README du lot.
+
+**Textes laissés en anglais volontairement (décision 26)**
+- Identifiants du test sonore du menu de débogage (MUS-…, SE-…) : noms de constantes du code ; les traduire
+  demanderait une table de ~700 noms à part. À trancher.
 

@@ -1,0 +1,25 @@
+--- a/src/assertf.c	2026-11-22 19:46:39
++++ b/src/assertf.c	2026-11-22 19:46:39
+@@ -218,7 +218,7 @@
+ 
+     x = 3;
+     y = 19;
+-    static const char footer[] = "Press START to continue.";
++    static const char footer[] = "START pour continuer.";
+     for (u32 i = 0; i < sizeof(footer) - 1; i++)
+         Putc(&x, &y, footer[i]);
+ 
+@@ -265,11 +265,11 @@
+         }
+     }
+ 
+-    if (!Puts(&x, &y, "\n  in: "))
++    if (!Puts(&x, &y, "\n  dans : "))
+         return;
+     if (!Putp(&x, &y, return1))
+         return;
+-    if (!Puts(&x, &y, "\n  in: "))
++    if (!Puts(&x, &y, "\n  dans : "))
+         return;
+     if (!Putp(&x, &y, return0))
+         return;

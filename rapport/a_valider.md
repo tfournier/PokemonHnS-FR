@@ -29,3 +29,15 @@ Ces points ont été tranchés provisoirement ; un œil humain (idéalement avec
 **Relecture**
 - Relecture ChatGPT différée faite (décision 19) : 244 corrections retenues sur 926 remarques ; les refus sont
   motivés dans `rapport/relectures/R_relecture_differee/arbitrage.tsv` et `traductions/lots/R_relecture_differee/contre_relecture.tsv`.
+
+**Phrases Easy Chat (lot EC_easychat, décision 25)**
+- 61 répliques composées à la main pour les Champions et Dresseurs ajoutés par HnS à la Zone de combat (liste et
+  texte dans `traductions/lots/EC_easychat/tables_easychat.tsv`, colonne « manuel ») : à relire en jeu.
+- Défaite de MORTY (« KTHX, BYE. ») : reprise de la réplique officielle identique d'une Dresseuse de Tente
+  (« CHENAPAN ! »), peu naturelle pour un Champion.
+- Trainer Tower ligne 2685 : mot remplacé par TERRIBLE (Rouge Feu et Émeraude n'ont pas le même mot au même index).
+- Mots de passe de l'Œuf Étrange inchangés (comparés par identifiant) ; les mots FR à saisir sont dans le README du lot.
+
+**Textes laissés en anglais volontairement (décision 26)**
+- Identifiants du test sonore du menu de débogage (MUS-…, SE-…) : noms de constantes du code ; les traduire
+  demanderait une table de ~700 noms à part. À trancher.

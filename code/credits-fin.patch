@@ -1,0 +1,46 @@
+--- a/src/credits_hns.c	2026-11-22 21:14:59
++++ b/src/credits_hns.c	2026-11-22 21:14:59
+@@ -159,6 +159,25 @@
+     1, 0xFF, 1,
+     1, 0x88, 0x89,
+     1, 0x86, 0x87,
++};
++
++// traduction FR : « FIN » au lieu de « THE END » (mêmes pièces de tuiles que E et T)
++static const u8 sTheEnd_LetterMap_F[] =
++{
++    1, 0, 0,
++    1, 0xFF, 0xFF,
++    1, 2,    2,
++    1, 0xFF, 0xFF,
++    1, 0xFF, 0xFF,
++};
++
++static const u8 sTheEnd_LetterMap_I[] =
++{
++    0xFF, 1, 0xFF,
++    0xFF, 1, 0xFF,
++    0xFF, 1, 0xFF,
++    0xFF, 1, 0xFF,
++    0xFF, 1, 0xFF,
+ };
+ 
+ #include "data/credits_hns.h"
+@@ -1262,12 +1281,11 @@
+     for (pos = 0; pos < 32 * 32; pos++)
+         ((u16 *) (VRAM + offset))[pos] = baseTile + 1;
+ 
+-    DrawLetterMapTiles(sTheEnd_LetterMap_T, 3, 7, offset, palette);
+-    DrawLetterMapTiles(sTheEnd_LetterMap_H, 7, 7, offset, palette);
+-    DrawLetterMapTiles(sTheEnd_LetterMap_E, 11, 7, offset, palette);
+-    DrawLetterMapTiles(sTheEnd_LetterMap_E, 16, 7, offset, palette);
+-    DrawLetterMapTiles(sTheEnd_LetterMap_N, 20, 7, offset, palette);
+-    DrawLetterMapTiles(sTheEnd_LetterMap_D, 24, 7, offset, palette);
++    // traduction FR : « FIN », centré (lettres de 3 tuiles, écran de 30 tuiles)
++    (void)sTheEnd_LetterMap_T; (void)sTheEnd_LetterMap_H; (void)sTheEnd_LetterMap_E; (void)sTheEnd_LetterMap_D;
++    DrawLetterMapTiles(sTheEnd_LetterMap_F, 10, 7, offset, palette);
++    DrawLetterMapTiles(sTheEnd_LetterMap_I, 13, 7, offset, palette);
++    DrawLetterMapTiles(sTheEnd_LetterMap_N, 17, 7, offset, palette);
+ }
+ 
+ #define sState data[0]

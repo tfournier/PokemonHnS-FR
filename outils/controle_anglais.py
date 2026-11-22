@@ -70,11 +70,33 @@ def at_boundary(rom, i):
     return i == 0 or rom[i - 1] in (0xFF, 0x00) or rom[i - 1] not in allowed
 
 def present(b):
+    """Adresse de la chaîne dans la ROM construite (ou None)."""
     pat = b + b'\xff'; i = fr.find(pat)
     while i >= 0:
-        if at_boundary(fr, i): return True
+        if at_boundary(fr, i): return i
         i = fr.find(pat, i + 1)
-    return False
+    return None
+
+
+# zones de la ROM construite (fichier .map de l'éditeur de liens, s'il correspond à cette ROM)
+import bisect
+symboles = []
+carte = os.path.join(os.path.dirname(os.path.abspath(fr_path)), 'upstream', 'pokehns.map')
+if os.path.exists(carte):
+    obj = None
+    for l in open(carte, encoding='utf-8', errors='ignore'):
+        m = re.match(r'\s+\.\S+\s+0x(08[0-9a-f]{6})\s+0x[0-9a-f]+\s+(\S+\.o)\s*$', l)
+        if m: obj = m.group(2); continue
+        m = re.match(r'\s+0x(08[0-9a-f]{6})\s+(\S+)\s*$', l)
+        if m: symboles.append((int(m.group(1), 16) - 0x08000000, m.group(2), obj or '?'))
+    symboles.sort()
+adresses = [x[0] for x in symboles]
+
+
+def zone(i):
+    if i is None or not symboles: return ''
+    k = bisect.bisect_right(adresses, i) - 1
+    return '%s (%s)' % (symboles[k][1], symboles[k][2]) if k >= 0 else ''
 
 found = {}
 for a, s, t in segs:
@@ -82,8 +104,9 @@ for a, s, t in segs:
     if not ew: continue
     if len(ew) == 1 and len(re.findall(r'[A-Za-z]+', t)) > 4:  # un seul mot anglais dans une phrase française
         continue
-    if present(s):
-        found.setdefault(t, (a, ew))
+    ifr = present(s)
+    if ifr is not None:
+        found.setdefault(t, (a, ew, ifr))
 
 # rattachement aux sources
 import hnsfr
@@ -114,23 +137,28 @@ for b, paths in occ.items():
     if not t or t in found: continue
     ew = english_words(t)
     if not ew or (len(ew) == 1 and len(re.findall(r'[A-Za-z]+', t)) > 4): continue
-    if (b + b'\xff') in en and present(b):
-        found[t] = (en.find(b + b'\xff'), ew)
+    ifr = present(b) if (b + b'\xff') in en else None
+    if ifr is not None:
+        found[t] = (en.find(b + b'\xff'), ew, ifr)
 
 rows = []
 by = collections.Counter()
-for t, (a, ew) in found.items():
+BINAIRE = re.compile(r'^(gMetatiles|gMetatileAttributes|gTileset|gTiles|sTiles|gBattleAnim|gObjectEventPic|gTrainerFrontPic|gTrainerBackPic|gMonFrontPic|gMonBackPic|gMonIcon)|_Tiles?$|Gfx|Tilemap|Pal')
+for t, (a, ew, ifr) in found.items():
     b = g.encode(t)
     src = sorted(occ.get(b, [])) if b else []
     cat = src[0].split('/')[0] + '/' + (src[0].split('/')[1] if '/' in src[0] else '') if src else '(source inconnue)'
     if src and src[0].endswith('.party'): cat = 'Dresseurs (.party)'
     elif src and src[0].endswith('.json'): cat = 'JSON (' + os.path.basename(src[0]) + ')'
     elif src and '(exclu)' in src[0]: cat = 'fichier exclu : ' + src[0]
+    z = zone(ifr)
+    if not src:   # sans source dans le code : données binaires (tuiles…) ou texte à examiner
+        cat = 'données binaires (%s)' % z.split(' ')[0] if z and BINAIRE.search(z.split(' ')[0]) else '(source inconnue)'
     by[cat] += 1
-    rows.append((cat, '0x%07X' % a, t, ' '.join(src[:3]), ' '.join(ew[:5])))
+    rows.append((cat, '0x%07X' % a, t, ' '.join(src[:3]), ' '.join(ew[:5]), '0x%07X' % ifr, z))
 rows.sort()
 with open(out, 'w', encoding='utf-8') as f:
-    f.write('catégorie\tadresse_EN\ttexte\tsources\tmots_anglais\n')
+    f.write('catégorie\tadresse_EN\ttexte\tsources\tmots_anglais\tadresse_FR\tzone_FR\n')
     for r in rows: f.write('\t'.join(r) + '\n')
 print('chaînes anglaises encore présentes :', len(rows))
 for k, v in by.most_common(): print('  %-45s %d' % (k, v))

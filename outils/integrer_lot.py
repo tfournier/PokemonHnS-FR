@@ -61,6 +61,13 @@ def main():
     for d, po in pos.items():
         for e in po:
             if not e.obsolete: index[(e.msgctxt or '', e.msgid)] = (d, e)
+    justifiees = set()   # alertes examinées une à une (traductions/alertes_justifiees.tsv), comme verifier.py
+    jf = os.path.join(P, 'traductions', 'alertes_justifiees.tsv')
+    if os.path.exists(jf):
+        for l in open(jf, encoding='utf-8'):
+            if l.startswith('#') or not l.strip(): continue
+            k, c, m = (l.rstrip('\n').split('\t') + ['', '', ''])[:3]
+            justifiees.add((k, c, m.replace('\\t', '\t')))
     st = collections.Counter(); journal = []
     for f in fichiers:
         for it in json.load(open(f, encoding='utf-8')):
@@ -83,7 +90,8 @@ def main():
             if not ctx:   # les fichiers couverts par une entrée à contexte ne comptent pas pour l'entrée générale
                 occ = [o for o in occ if (o[0], mid) not in index]
             pbs = V.check(mid, mstr, occ, 'source : ' + src, d)
-            bloq = [p for p in pbs if p[0] in BLOQUANTS and not (p[0] == 'FRAGMENT' and not src.lower().startswith('patch'))]
+            bloq = [p for p in pbs if p[0] in BLOQUANTS and not (p[0] == 'FRAGMENT' and not src.lower().startswith('patch'))
+                    and (p[0], ctx, mid) not in justifiees and (p[0], '', mid) not in justifiees]
             if bloq:
                 st['rejeté (contrôle)'] += 1
                 journal.append(('rejeté', mid, mstr, '; '.join('%s %s' % p for p in bloq))); continue

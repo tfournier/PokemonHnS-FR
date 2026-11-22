@@ -393,10 +393,10 @@ tools/scaninc/scaninc -M build/hns/src/AgbRfu_LinkManager.d -I include -I tools/
 tools/scaninc/scaninc -M build/hns/src/pokemon.d -I include -I tools/agbcc/include src/pokemon.c
 tools/scaninc/scaninc -M build/hns/src/move_relearner.d -I include -I tools/agbcc/include src/move_relearner.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/apprentice.o src/apprentice.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/AgbRfu_LinkManager.o src/AgbRfu_LinkManager.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/apricorn_tree.o src/apricorn_tree.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/bard_music.o src/bard_music.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/AgbRfu_LinkManager.o src/AgbRfu_LinkManager.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/assertf.o src/assertf.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/bard_music.o src/bard_music.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/battle_ai_field_statuses.o src/battle_ai_field_statuses.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/battle_ai_items.o src/battle_ai_items.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/battle_ai_main.o src/battle_ai_main.c
@@ -517,8 +517,8 @@ src/berry.c:1881:12: warning: 'GetMulchAffectedGrowthRate' defined but not used 
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/caps.o src/caps.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/challenge_menu.o src/challenge_menu.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/chooseboxmon.o src/chooseboxmon.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/clear_save_data_screen.o src/clear_save_data_screen.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/clock.o src/clock.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/clear_save_data_screen.o src/clear_save_data_screen.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/coins.o src/coins.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/comfy_anim.o src/comfy_anim.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/confetti_util.o src/confetti_util.c
@@ -562,8 +562,8 @@ src/berry.c:1881:12: warning: 'GetMulchAffectedGrowthRate' defined but not used 
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/fake_rtc.o src/fake_rtc.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/fame_checker.o src/fame_checker.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/faraway_island.o src/faraway_island.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/field_camera.o src/field_camera.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/field_control_avatar.o src/field_control_avatar.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/field_camera.o src/field_camera.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/field_door.o src/field_door.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/field_effect.o src/field_effect.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/field_effect_helpers.o src/field_effect_helpers.c
@@ -626,8 +626,8 @@ src/data/battle_frontier/battle_frontier_exchange_corner.h:7:33: warning: unused
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/gbs.o src/gbs.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/generational_changes.o src/generational_changes.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/gpu_regs.o src/gpu_regs.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/gym_leader_rematch.o src/gym_leader_rematch.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/graphics.o src/graphics.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/gym_leader_rematch.o src/gym_leader_rematch.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/hall_of_fame.o src/hall_of_fame.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/hall_of_fame_frlg.o src/hall_of_fame_frlg.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/heal_location.o src/heal_location.c
@@ -645,15 +645,15 @@ src/data/battle_frontier/battle_frontier_exchange_corner.h:7:33: warning: unused
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/item_icon.o src/item_icon.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/item_menu.o src/item_menu.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/item_menu_icons.o src/item_menu_icons.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/item_use.o src/item_use.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/landmark.o src/landmark.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/librfu_intr.o src/librfu_intr.c
 src/intro_hns.c:2087:13: warning: 'GFScene_CreatePresentsSprite' defined but not used [-Wunused-function]
  2087 | static void GFScene_CreatePresentsSprite(void)
       |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
 src/intro_hns.c:1282:13: warning: 'IntroCB_Scene1' defined but not used [-Wunused-function]
  1282 | static void IntroCB_Scene1(struct IntroSequenceData * this)
       |             ^~~~~~~~~~~~~~
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/item_use.o src/item_use.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/landmark.o src/landmark.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/librfu_intr.o src/librfu_intr.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/librfu_rfu.o src/librfu_rfu.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/librfu_sio32id.o src/librfu_sio32id.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/librfu_stwi.o src/librfu_stwi.c
@@ -685,6 +685,13 @@ src/intro_hns.c:1282:13: warning: 'IntroCB_Scene1' defined but not used [-Wunuse
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/mom_savings.o src/mom_savings.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/mon_markings.o src/mon_markings.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/money.o src/money.c
+src/menu.c: In function 'BufferSaveMenuText':
+src/menu.c:1888:9: warning: unused variable 'endOfString' [-Wunused-variable]
+ 1888 |     u8 *endOfString;
+      |         ^~~~~~~~~~~
+src/menu.c:1887:9: warning: unused variable 'flagCount' [-Wunused-variable]
+ 1887 |     s32 flagCount;
+      |         ^~~~~~~~~
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/move.o src/move.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/move_relearner.o src/move_relearner.c
 src/match_call.c:2176:12: warning: 'GetNumOwnedBadges' defined but not used [-Wunused-function]
@@ -717,13 +724,6 @@ src/match_call.c:1761:12: warning: 'GetNumRematchTrainersFought' defined but not
 src/match_call.c:1285:15: warning: 'MapAllowsMatchCall' defined but not used [-Wunused-function]
  1285 | static bool32 MapAllowsMatchCall(void)
       |               ^~~~~~~~~~~~~~~~~~
-src/menu.c: In function 'BufferSaveMenuText':
-src/menu.c:1888:9: warning: unused variable 'endOfString' [-Wunused-variable]
- 1888 |     u8 *endOfString;
-      |         ^~~~~~~~~~~
-src/menu.c:1887:9: warning: unused variable 'flagCount' [-Wunused-variable]
- 1887 |     s32 flagCount;
-      |         ^~~~~~~~~
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/multiboot.o src/multiboot.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/mystery_event_menu.o src/mystery_event_menu.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/mystery_event_msg.o src/mystery_event_msg.c
@@ -750,12 +750,12 @@ src/menu.c:1887:9: warning: unused variable 'flagCount' [-Wunused-variable]
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/play_time.o src/play_time.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/player_pc.o src/player_pc.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokeball.o src/pokeball.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokeblock.o src/pokeblock.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokeblock_feed.o src/pokeblock_feed.c
 src/nuzlocke.c: In function 'NuzlockeDeleteFaintedPartyPokemon':
 src/nuzlocke.c:366:31: warning: unused variable 'cs' [-Wunused-variable]
   366 |     struct ChallengeSettings *cs = &gSaveBlock3Ptr->challengeSettings;
       |                               ^~
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokeblock.o src/pokeblock.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokeblock_feed.o src/pokeblock_feed.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokedex.o src/pokedex.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokedex_area_region_map.o src/pokedex_area_region_map.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokedex_area_screen.o src/pokedex_area_screen.c
@@ -768,12 +768,12 @@ src/pokedex_area_screen.c:662:21: warning: unused variable 'gText_Evening' [-Wun
 src/pokedex_area_screen.c:660:21: warning: unused variable 'gText_Morning' [-Wunused-variable]
   660 |     static const u8 gText_Morning[] = _("{DPAD_UPDOWN} MORNING");
       |                     ^~~~~~~~~~~~~
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokemon.o src/pokemon.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokemon_icon.o src/pokemon_icon.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokemon_animation.o src/pokemon_animation.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokemon_jump.o src/pokemon_jump.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokemon_size_record.o src/pokemon_size_record.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokemon.o src/pokemon.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokemon_animation.o src/pokemon_animation.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokemon_sprite_visualizer.o src/pokemon_sprite_visualizer.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokemon_size_record.o src/pokemon_size_record.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokemon_storage_system.o src/pokemon_storage_system.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokemon_summary_screen.o src/pokemon_summary_screen.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokenav.o src/pokenav.c
@@ -783,10 +783,10 @@ src/pokedex_area_screen.c:660:21: warning: unused variable 'gText_Morning' [-Wun
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokenav_list.o src/pokenav_list.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokenav_main_menu.o src/pokenav_main_menu.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokenav_match_call_data.o src/pokenav_match_call_data.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokenav_match_call_gfx.o src/pokenav_match_call_gfx.c
 src/pokemon_summary_screen.c:5085:13: warning: 'CB2_PssChangePokemonNickname' defined but not used [-Wunused-function]
  5085 | static void CB2_PssChangePokemonNickname(void)
       |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokenav_match_call_gfx.o src/pokenav_match_call_gfx.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokenav_match_call_list.o src/pokenav_match_call_list.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokenav_menu_handler.o src/pokenav_menu_handler.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/pokenav_menu_handler_gfx.o src/pokenav_menu_handler_gfx.c
@@ -815,6 +815,9 @@ src/pokenav_menu_handler_gfx.c:438:15: warning: 'AreAnyTrainerRematchesNearby' d
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/reload_save.o src/reload_save.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/reset_rtc_screen.o src/reset_rtc_screen.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/reshow_battle_screen.o src/reshow_battle_screen.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/roamer.o src/roamer.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/rom_header_gf.o src/rom_header_gf.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/rom_header_rhh.o src/rom_header_rhh.c
 src/region_map.c:619:28: warning: initialized field overwritten [-Woverride-init]
   619 |     [MAPSEC_OLDALE_TOWN] = {MAP_GROUP(MAP_OLDALE_TOWN), MAP_NUM(MAP_OLDALE_TOWN), HEAL_LOCATION_OLDALE_TOWN},
       |                            ^
@@ -1111,7 +1114,6 @@ src/region_map.c:736:32: warning: initialized field overwritten [-Woverride-init
   736 |     [MAPSEC_WATER_LABYRINTH] = {MAP_GROUP(MAP_FIVE_ISLAND_WATER_LABYRINTH), MAP_NUM(MAP_FIVE_ISLAND_WATER_LABYRINTH), HEAL_LOCATION_NONE},
       |                                ^
 src/region_map.c:736:32: note: (near initialization for 'sMapHealLocations[0]')
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/roamer.o src/roamer.c
 src/region_map.c:737:33: warning: initialized field overwritten [-Woverride-init]
   737 |     [MAPSEC_FIVE_ISLE_MEADOW] = {MAP_GROUP(MAP_FIVE_ISLAND_MEADOW), MAP_NUM(MAP_FIVE_ISLAND_MEADOW), HEAL_LOCATION_NONE},
       |                                 ^
@@ -1312,8 +1314,6 @@ src/region_map.c: At top level:
 src/region_map.c:1971:13: warning: 'GetMarineCaveCoords' defined but not used [-Wunused-function]
  1971 | static void GetMarineCaveCoords(u16 *x, u16 *y)
       |             ^~~~~~~~~~~~~~~~~~~
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/rom_header_gf.o src/rom_header_gf.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/rom_header_rhh.o src/rom_header_rhh.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/rotating_gate.o src/rotating_gate.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/rotating_tile_puzzle.o src/rotating_tile_puzzle.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/roulette.o src/roulette.c
@@ -1329,20 +1329,20 @@ src/region_map.c:1971:13: warning: 'GetMarineCaveCoords' defined but not used [-
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/script_movement.o src/script_movement.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/script_pokemon_util.o src/script_pokemon_util.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/seagallop.o src/seagallop.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/secret_base.o src/secret_base.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/shop.o src/shop.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/sliding_puzzle.o src/sliding_puzzle.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/secret_base.o src/secret_base.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/slot_machine.o src/slot_machine.c
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/sliding_puzzle.o src/sliding_puzzle.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/sound.o src/sound.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/sprays.o src/sprays.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/sprite.o src/sprite.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/ss_anne.o src/ss_anne.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/start_menu.o src/start_menu.c
-/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/starter_choose.o src/starter_choose.c
 src/sliding_puzzle.c: In function 'CheckForSolution':
 src/sliding_puzzle.c:887:18: warning: unused variable 'tile' [-Wunused-variable]
   887 |     u8 row, col, tile;
       |                  ^~~~
+/Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/starter_choose.o src/starter_choose.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/string_util.o src/string_util.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/strings.o src/strings.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/surfable.o src/surfable.c
@@ -1389,8 +1389,8 @@ src/start_menu.c:1238:11: warning: 'SaveConfirmOverwriteCallback' defined but no
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/wireless_communication_status_screen.o src/wireless_communication_status_screen.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/wonder_news.o src/wonder_news.c
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/data/pokemon/egg_moves_gen3.o src/data/pokemon/egg_moves_gen3.c
-tools/preproc/preproc -s data/event_scripts.s charmap.txt | arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DPOKEMON_HNS -std=gnu17 -I include - | tools/preproc/preproc -ie data/event_scripts.s charmap.txt | arm-none-eabi-as -mcpu=arm7tdmi -march=armv4t -meabi=5 --defsym MODERN=1 --defsym POKEMON_HNS=1 -o build/hns/data/event_scripts.o
 /Users/tfournier/.local/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet <flags> -o build/hns/src/data/pokemon/level_up_learnsets_gen3.o src/data/pokemon/level_up_learnsets_gen3.c
+tools/preproc/preproc -s data/event_scripts.s charmap.txt | arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DPOKEMON_HNS -std=gnu17 -I include - | tools/preproc/preproc -ie data/event_scripts.s charmap.txt | arm-none-eabi-as -mcpu=arm7tdmi -march=armv4t -meabi=5 --defsym MODERN=1 --defsym POKEMON_HNS=1 -o build/hns/data/event_scripts.o
 tools/preproc/preproc data/maps.s charmap.txt | arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DPOKEMON_HNS -std=gnu17 -I include - | tools/preproc/preproc -ie data/maps.s charmap.txt | arm-none-eabi-as -mcpu=arm7tdmi -march=armv4t -meabi=5 --defsym MODERN=1 --defsym POKEMON_HNS=1 -o build/hns/data/maps.o
 tools/preproc/preproc -s data/mystery_gift.s charmap.txt | arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DPOKEMON_HNS -std=gnu17 -I include - | tools/preproc/preproc -ie data/mystery_gift.s charmap.txt | arm-none-eabi-as -mcpu=arm7tdmi -march=armv4t -meabi=5 --defsym MODERN=1 --defsym POKEMON_HNS=1 -o build/hns/data/mystery_gift.o
 data/maps/UlaUla_Forest_hns/scripts.inc: Assembler messages:
