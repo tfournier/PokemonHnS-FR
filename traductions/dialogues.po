@@ -45729,13 +45729,17 @@ msgstr ""
 "capacités déjà utilisés."
 
 #. source : Émeraude FR officiel
+#. lot : noms_max
+#. ancien (Émeraude FR officiel) : Max Repousse maintient les Pokémon\nfaibles
+#. à l’écart.\pParmi tous les REPOUSSES, c’est celui\nqui dure le plus
+#. longtemps.
 #: data/maps/MossdeepCity_Mart/scripts.inc:47
 msgid ""
 "MAX REPEL keeps all weak POKéMON away.\\pOut of all the REPEL sprays, it "
 "lasts\\nthe longest."
 msgstr ""
-"Max Repousse maintient les Pokémon\\nfaibles à l’écart.\\pParmi tous les "
-"REPOUSSES, c’est celui\\nqui dure le plus longtemps."
+"Repousse Max maintient les Pokémon\\nfaibles à l’écart.\\pParmi tous les "
+"Repousse, c’est celui\\nqui dure le plus longtemps."
 
 #. source : Émeraude FR officiel
 #: data/maps/MossdeepCity_Mart/scripts.inc:52
@@ -55503,17 +55507,14 @@ msgstr ""
 "pyramides, par\\nexemple."
 
 #. source : Rouge Feu FR officiel
-#. lot : F_frlg
-#. preuve : BPRF 0x19B402 (pokefirered
-#. SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper, BPRE 0x19BF8F, ptr) :
-#. Le MAX REPOUSSE fonctionne plus\nlongtemps que le SUPEREPOUSSE!
-#. ancien (traduction nouvelle) : Le Max Repousse empêche les Pokémon\nplus
-#. faibles d’apparaître.\pIl agit plus longtemps que le\nSuperepousse.
+#. lot : noms_max
+#. ancien (Rouge Feu FR officiel) : Le Max Repousse fonctionne plus\nlongtemps
+#. que le Superepousse!
 #: data/maps/SaffronCity_Mart_Frlg/scripts.inc:35
 msgid ""
 "MAX REPEL keeps weaker POKéMON\\nfrom appearing.\\pMAX REPEL stays effective"
 " longer\\nthan SUPER REPEL."
-msgstr "Le Max Repousse fonctionne plus\\nlongtemps que le Superepousse!"
+msgstr "Le Repousse Max fonctionne plus\\nlongtemps que le Superepousse!"
 
 #. source : Rouge Feu FR officiel
 #. lot : F_frlg
@@ -141051,14 +141052,16 @@ msgstr ""
 "les\\nPP, les Points de Pouvoir des\\lcapacités!"
 
 #. source : SoulSilver FR officiel
-#. patch FR actuel : Le Max Repousse éloigne les\nPOKéMON faibles.\pC’est le
-#. plus durable de tous\nles Repousse.
+#. lot : noms_max
+#. ancien (SoulSilver FR officiel) : Le Max Repousse empêche les Pokémon\nde
+#. niveau inférieur de s’approcher de\ptoi.\pC’est le Repousse le plus
+#. puissant de\ntous.
 #: data/maps/BlackthornCity_Mart_hns/scripts.inc:19
 msgid ""
 "MAX REPEL keeps weak POKéMON away\\nfrom you.\\pIt's the longest lasting of "
 "the\\nREPEL sprays."
 msgstr ""
-"Le Max Repousse empêche les Pokémon\\nde niveau inférieur de s’approcher "
+"Le Repousse Max empêche les Pokémon\\nde niveau inférieur de s’approcher "
 "de\\ptoi.\\pC’est le Repousse le plus puissant de\\ntous."
 
 #. source : Rouge Feu FR officiel

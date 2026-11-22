@@ -152,3 +152,7 @@ reportées dans `traductions/glossaire.tsv`.
     (tuiles chargées avant la tilemap) : remplacées par leur équivalent français. Les crédits HnS dessinent
     « THE END » tuile par tuile : code/credits-fin.patch affiche « FIN ». Unité impériale « lbs. » → « lb »
     (code/unite-livre.patch). Étiquettes de type de 6 lettres (TENEBR, ELECTR…) : celles d'Émeraude FR.
+30. **Elixir Max et Repousse Max (demande de l'utilisateur).** SoulSilver FR écrit « Max Elixir » et
+    « Max Repousse » (ordre de la 4e génération), alors que le jeu affiche « Potion Max », « Rappel Max »,
+    « Huile Max » : on prend l'ordre des jeux suivants, « Elixir Max » et « Repousse Max », partout (noms,
+    dialogues, glossaire). Exception assumée à la priorité des textes officiels.
